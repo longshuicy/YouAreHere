@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Downloaded source data. Fetch locally; SOURCE.md records how.
+pipeline/raw/**
+!pipeline/raw/**/
+!pipeline/raw/**/SOURCE.md
+
+# Regenerated suggestion dump — the curated table is aliases/*.yaml
+pipeline/aliases/*.suggested.yaml

@@ -1,0 +1,319 @@
+# Data and puzzle pipeline
+
+## Pipeline overview
+
+```
+raw dataset
+    ↓  ingest/<source>.py
+canonical graph        nodes, edges, provenance
+    ↓  canon/
+normalise · resolve aliases · filter
+    ↓  analyse/
+NetworkX: signatures, candidate counts, layout
+    ↓  emit/
+/data/*.json           committed to the repo
+```
+
+Everything above the last line runs on your machine. The browser receives finished JSON and does no analysis at all.
+
+### Why offline
+
+Three reasons, in order of importance. The expensive step — computing, for every character, how many other characters share its structural signature — is O(n²) over signature comparisons and is precisely the thing that must never run at load. Difficulty needs to be known *before* a puzzle is served, so the game can pick a start that is solvable. And a committed data directory means a change in difficulty shows up as a reviewable diff rather than as a mysteriously different game.
+
+### Running it
+
+A single command regenerates everything:
+
+```
+python -m pipeline build --source asoiaf --out data/
+```
+
+It should be idempotent and deterministic. Fix the random seed for layout, sort everything before writing, and the diff between two runs on unchanged input should be empty. This is worth enforcing in CI even though the pipeline itself does not run there.
+
+## Canonical schema
+
+Every adapter produces this shape and nothing else. The analysis layer should never know which dataset it is looking at.
+
+### Node
+
+```json
+{
+  "id": "jon_snow",
+  "name": "Jon Snow",
+  "aliases": ["Jon", "Lord Snow", "The Bastard of Winterfell"],
+  "work": "asoiaf",
+  "metadata": {}
+}
+```
+
+### Edge
+
+```json
+{
+  "source": "jon_snow",
+  "target": "samwell_tarly",
+  "weight": 31,
+  "type": "cooccurrence",
+  "segments": ["agot", "asos", "adwd"]
+}
+```
+
+### Provenance, per universe
+
+```json
+{
+  "dataset": "beveridge-asoiaf-v1",
+  "edgeDefinition": "characters named within 15 words of each other",
+  "sourceUnit": "book",
+  "weightSemantics": "count of qualifying co-occurrences",
+  "retrieved": "2026-09-01",
+  "license": "..."
+}
+```
+
+Provenance is not bureaucracy. Different literary datasets mean different things by an edge — a 15-word text window, co-appearance in a scene, a hand-annotated relationship — and those produce structurally different graphs. A window-based graph is dense and noisy; a scene-based graph is sparser and blockier. If you mix them without recording which is which, cross-novel difficulty becomes incomparable and you will not know why one universe feels wrong.
+
+### Normalisation
+
+Weights are not comparable across sources, so the canon layer stores both the raw weight and a normalised rank. The renderer should key edge thickness off the rank, so a thick edge means *strong relative to this character's other ties* — which is the only reading that survives across datasets.
+
+### Aliases
+
+The hard problem is not NLP, it is identity. Every ingest needs an explicit alias table:
+
+```
+悟空 · 孙悟空 · 孙行者 · 行者 · 美猴王 · 齐天大圣  →  SUN_WUKONG
+```
+
+For pre-built datasets this is mostly done. For any text you process yourself it is the entire job, and it should be a hand-maintained YAML file in the repo, not an inferred mapping. Unresolved aliases split one character into several nodes, which silently corrupts every signature downstream.
+
+## Adapters
+
+One file per source, one contract, no exceptions.
+
+```
+pipeline/ingest/
+  asoiaf.py          edge list CSV
+  hongloumeng.py     character × event matrix
+  xiyouji.py         character × scene matrix
+  harrypotter.py     later
+```
+
+Each exposes:
+
+```python
+def load() -> CanonicalGraph:
+    """Raw files in, canonical nodes + edges + provenance out.
+    No filtering, no analysis, no opinions about difficulty."""
+```
+
+### Two shapes of source
+
+The sources fall into two families, and the second is really one adapter used twice.
+
+**Edge lists** (ASOIAF) arrive as source, target, weight. Nearly nothing to do: map names to ids, apply the alias table, sum weights across books if you want a single graph or keep them segmented if you want per-book universes.
+
+**Bipartite matrices** (both PKU datasets) arrive as character × event or character × scene occurrence. Project to a character-character graph where the weight is the number of shared units:
+
+```python
+W = M @ M.T          # M: characters × events, boolean
+np.fill_diagonal(W, 0)
+```
+
+红楼梦 and 西游记 differ only in what a column means, so they share an adapter with the unit name passed in. Get this right once and the third and fourth Chinese-language sources are nearly free.
+
+### Filtering
+
+Both projections produce heavy tails: characters appearing in a single scene, edges of weight 1 between people who were once in a crowd together. These wreck the puzzle — a node with one weight-1 edge is unsolvable and also uninteresting.
+
+Apply, in this order, with the thresholds recorded in provenance:
+
+1. Drop edges below a minimum weight (dataset-specific; start at 2 for matrix projections, 1 for ASOIAF).
+2. Drop nodes below a minimum degree (start at 2).
+3. Keep the largest connected component only.
+4. Re-check: dropping nodes can orphan others, so iterate until stable.
+
+Record the before-and-after node and edge counts for every universe. A universe that loses 70% of its nodes to filtering needs a look before it goes in the game.
+
+## Puzzle generation
+
+This is the part that makes the game a real object rather than a graph viewer. Difficulty is not authored — it is measured.
+
+### Structural signature
+
+For every character, compute a signature from anonymised local structure:
+
+```python
+signature(v) = {
+  'degree':        G.degree(v),
+  'neighborDegs':  sorted(G.degree(u) for u in G[v]),
+  'weightRanks':   ranks of edge weights at v,
+  'triangles':     nx.triangles(G, v),
+  'clustering':    nx.clustering(G, v),
+  'radius2Size':   len(nx.ego_graph(G, v, 2)),
+  'radius2Degs':   sorted degree sequence at radius 2,
+}
+```
+
+Every field is something the player can observe without any name. That is the design rule for this dict: if a field is not purchasable in the game, it does not belong in the signature.
+
+### Candidate counts
+
+For each character and each level of evidence, count how many characters — **across all loaded universes, not just their own** — share that signature within tolerance:
+
+```json
+{
+  "character": "jon_snow",
+  "candidateCounts": {
+    "degree": 13,
+    "radius1": 5,
+    "radius1Weighted": 3,
+    "radius2": 1
+  },
+  "minimumIdentification": { "mode": "radius2", "cost": 4 },
+  "crossUniverseAmbiguity": 2
+}
+```
+
+The cross-universe count is the important one and it is easy to forget. The player is answering *which story* first, so what matters is how many characters in **other** novels look like this one. A character who is unique in ASOIAF but has three structural twins in 红楼梦 is a wonderful puzzle. That number is the difficulty.
+
+### Tolerance
+
+Exact signature matching will find almost no collisions, which would make every puzzle look trivially unique on paper while feeling ambiguous in play. Compare with tolerance — degree within ±1, neighbour degree sequences by earth-mover distance or a simple binned comparison. Tune the tolerance until the generator's difficulty estimates match how hard puzzles actually feel; this calibration pass is worth doing once, properly.
+
+### Selecting playable starts
+
+Not every node is a puzzle. Emit a `playable` list filtered by:
+
+- degree between 3 and about 15 — enough to explore, not a hub that gives itself away
+- `minimumIdentification.cost` between 3 and 8 — solvable, not instant
+- reachable within 3 hops of at least 20 other nodes, so expansion has somewhere to go
+- not the protagonist, whose shape is recognisable to anyone who has read the book
+
+Then band them into *approachable* and *hard* on `minimumIdentification.cost` and `crossUniverseAmbiguity`. The generator also emits, for each playable character, the count of candidates remaining once one neighbour is named — that number is what separates the two bands in practice, because naming is where the puzzle turns.
+
+Keep the full signature table even for characters that are not playable. It is the raw material for the gallery idea parked at the end of the game design tab, and it costs nothing to emit.
+
+## Emitted artifacts
+
+### index.json
+
+Loaded at boot. Universes ship under their own names, which is not a secret — the guess screen lists the same set in its story dropdown. It contains no character names.
+
+```json
+{
+  "banded": true,
+  "universes": [
+    { "id": "asoiaf", "file": "asoiaf.json", "nodes": 592, "edges": 2619,
+      "playable": { "total": 169, "approachable": 88, "hard": 81 } }
+  ]
+}
+```
+
+**There is no puzzle manifest.** Enumerating every puzzle here would put the whole catalogue in front of the first frame, and each entry would say nothing a universe file does not already say. The one thing the boot payload genuinely needs is band availability: the game serves approachable starts first, so it must choose which universe to fetch before it has fetched any, and without counts it would have to download a universe to discover whether it holds a suitable start.
+
+A puzzle is addressable as a universe plus a node index, so a share link carries `asoiaf-p0137` and the client fetches `asoiaf.json` and reads the record from there.
+
+### Universe file
+
+```json
+{
+  "id": "asoiaf",
+  "title": "A Song of Ice and Fire",
+  "accent": "#7a2e2e",
+  "nodes": [{ "i": 0, "n": "Jon Snow", "a": ["Lord Snow"], "x": 412.3, "y": -88.1 }],
+  "edges": [[0, 17, 31, 0.94, 0.62], [0, 42, 8, 0.31, 0.88]],
+  "playable": [12, 44, 137],
+  "puzzles": [],
+  "provenance": { }
+}
+```
+
+Edges are index tuples rather than objects with string keys. On a 3,000-edge graph that is the difference between a comfortable file and an awkward one. After source, target, and raw weight come the two normalised ranks — the tie's strength relative to the source's other ties, then relative to the target's — because thickness is read from whichever end the player is looking out from. `a` holds aliases and is omitted when empty; the type-ahead matches against them so a half-remembered nickname still lands. The `x`/`y` are the precomputed full-graph layout used by the reveal animation.
+
+### Puzzle records
+
+Inline in the universe file, since they are only useful once that file is loaded:
+
+```json
+{
+  "id": "asoiaf-p0137",
+  "you": 137,
+  "startRadius": 1,
+  "band": "approachable",
+  "reveal": {
+    "line": "Only 2 characters across these stories share your one-hop shape.",
+    "stat": { "kind": "crossUniverseAmbiguity", "value": 2 }
+  }
+}
+```
+
+**Why these cannot be assembled in the browser.** Which node you wake as is trivially live-computable and needs no build step. Difficulty is not: `crossUniverseAmbiguity` counts structural twins *in other novels*, and the client holds exactly one universe by design. A client able to measure difficulty would be one that had downloaded every book, which costs bandwidth and puts every answer in memory. The reveal line follows the same logic — generated at build time so the templates and the statistics that choose between them never ship.
+
+The reveal line is generated from the candidate counts with a small set of templates chosen by which statistic is most striking for that character — *most connected person you never saw*, *three edges from everyone*, *your shape is unique in all three stories*. Written at build time, not runtime, so the client has no logic that could give an answer away.
+
+### Reveal-only enrichment
+
+A sidecar, `<universe>.meta.json`, fetched when the reveal fires and never before. It holds a one-line description per character and per tie, plus the structured facts those lines were built from, so the app can render its own phrasing.
+
+It is separate from the universe file for two reasons, neither of them spoiler-prevention — the universe file already holds every name. The first is weight: nothing should pay for this during a session that ends in a wrong guess. The second is licensing, and it is the one with teeth.
+
+**Sources must be merge-safe.** Enrichment material is combined with graph data that is CC BY-NC-SA, and ShareAlike forbids adding restrictions — so CC BY-SA material cannot be folded in, because the result would need to be NonCommercial and not-NonCommercial at once. `License.can_merge_into()` encodes this and the emitter refuses any source that fails it. That rules out both obvious wikis and is why descriptions are *composed here from discrete facts* rather than copied: facts carry no licence, sentences do.
+
+For the same reason there are no quotations from the novels. A database of them is systematic reproduction of a living author's text, which is not what fair use covers, and the reveal loses nothing without it.
+
+**Ties get facts, not readings.** `Edge.segments` already records which books a tie appears in, so *first shared the page in A Storm of Swords* costs nothing and comes from data already shipped. Shared allegiance is stated as a fact about each character rather than a claim about the tie, because two men sworn to the same house may be enemies — the rule that a tie is not affection or alliance holds after the reveal too.
+
+**Matching is refused rather than guessed.** Where a display name is ambiguous in the source — there are genuinely two Daenerys Targaryens — enrichment is skipped unless the identity table pins an exact record with its `api` key. The same table handles characters the source files elsewhere: Hodor is listed under Walder.
+
+### Validation
+
+Emit and validate against a JSON Schema shared with the TypeScript types — generate the TS types from the schema so they cannot drift. Then assert, in the emitter: no puzzle references a node outside its universe, every universe is connected, every playable node meets the band criteria, and no character name appears anywhere in `index.json`. That last check is the one that will catch a real spoiler bug one day — book titles in the boot payload are fine, a cast list is not.
+
+## Sources
+
+Dataset details below are as recorded in the original notes; confirm shape, size and licence at ingest rather than trusting this table. Each adapter should print its actual node and edge counts so a mismatch surfaces immediately.
+
+| Source | Shape | Status | Notes |
+| --- | --- | --- | --- |
+| ASOIAF (Beveridge) | Edge list with weights | Build first | Clean, weighted, multi-book, minimal preprocessing risk |
+| 红楼梦 (PKU) | Character × event matrix, \~376 × 475 | Build second | Clear analytical provenance; project to co-occurrence |
+| 西游记 (PKU) | Character × scene matrix, \~302 × 408 | Build third | Same adapter as 红楼梦, different unit name |
+| 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
+| Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
+| 水浒传, 百年孤独 | No settled dataset | Much later | Would need your own pipeline |
+
+### Licensing
+
+Confirmed at ingest, not assumed. ASOIAF (Beveridge & Shan) is **CC BY-NC-SA 4.0**, stated in the upstream README rather than in a `LICENSE` file. Two clauses have consequences beyond a credit line:
+
+**ShareAlike** makes the emitted graphs an adaptation, so `/data` is distributed under CC BY-NC-SA 4.0 regardless of what the application code is licensed as. `/data/LICENSE` is generated to say so.
+
+**NonCommercial** forecloses any commercial use of the game for as long as this dataset ships. Worth knowing now rather than after the game works.
+
+Attribution is enforced in code rather than maintained by hand. `Provenance` carries a required `Attribution` and `License`, every stage appends what it changed to `attribution.modifications`, and the emitter refuses to write a universe whose credit, licence URL, or statement of changes is missing. Adding a source with unresolved terms therefore fails the build instead of shipping quietly.
+
+Credit travels inside each universe file and in `/data/ATTRIBUTION.md`, which is never fetched by the app and so can name everything freely. The generated `creditLine` is meant for the reveal screen, alongside the line about what a tie meant in this book.
+
+### Why ASOIAF first
+
+It is the one source where the data work is nearly zero, which means the first build tests the game rather than the ingest. A clean weighted edge list across multiple books, with a cast large enough for real ambiguity and recognisable enough that a correct guess feels earned. Use it to find out whether the puzzle is fun. If it is not, no amount of additional data will fix that.
+
+### Why the two PKU sets come next
+
+They turn *what story are you in* from a formality into a real question, and they are nearly the same adapter. They also stress-test the invariant that all universes look identical — a Qing-dynasty household network and a Westerosi court network should be visually indistinguishable until the reveal, and if they are not, the design has a leak.
+
+There is a second, quieter reason to include them early: a structurally similar court is exactly the kind of near-miss that makes the cross-universe question interesting.
+
+### Harry Potter, deferred
+
+Dialogue datasets with annotated relations exist, and there are open co-occurrence networks derived directly from the novels, but the latter come out of a noisy NLP pipeline and the former need their licensing understood. Neither is hard; both are a distraction from finding out whether the game works. Defer.
+
+### If you eventually process text yourself
+
+```
+legally usable text → chapter segmentation → character dictionary
+→ alias resolution → windowed co-occurrence → manual validation → canonical graph
+```
+
+The expensive step is alias resolution and it is mostly manual. Note what is *not* in that chain: nothing decides whether two people "have a relationship". Co-occurrence with a stated window is a definition you can record in provenance and a player can reason about. A model's judgment about relationships is neither.

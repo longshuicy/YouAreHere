@@ -1,0 +1,16 @@
+{
+ "pipelineVersion": "0.1.0-thin",
+ "banded": false,
+ "universes": [
+  {
+   "id": "asoiaf",
+   "file": "asoiaf.json",
+   "nodes": 592,
+   "edges": 2619,
+   "playable": {
+    "total": 169,
+    "unbanded": 169
+   }
+  }
+ ]
+}

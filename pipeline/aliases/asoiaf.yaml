@@ -1,0 +1,138 @@
+# Hand-maintained identity table for the ASOIAF universe.
+#
+# This file is authoritative. Nothing in the pipeline infers an alias — an
+# inferred mapping that splits one character into two, or merges two into one,
+# corrupts every structural signature downstream and does it silently.
+#
+# `python -m pipeline.tools.propose_aliases` writes asoiaf.suggested.yaml from
+# An API of Ice and Fire as a starting point. Read it, do not paste it: its
+# matching is by display name, so the three characters called Pate all receive
+# the same aliases, and some of its strings are corrupt ("Cat of the Canaly").
+#
+# Three keys, all optional:
+#
+#   name       replaces the display name. Use when two characters would
+#              otherwise render identically and the guess field could not tell
+#              them apart.
+#   aliases    extra strings the type-ahead should match. Names a reader might
+#              actually type - not full honorifics.
+#   qualifier  a disambiguator that is NOT a name. Never shown as a label, never
+#              matched by the type-ahead. Kept so a human reading the data knows
+#              which Pate this is.
+#   api        pins reveal-screen facts to one exact record in An API of Ice and
+#              Fire. Needed where the source name is ambiguous or differs from
+#              the one the graph uses. Without it, ambiguous names are skipped.
+#
+# Unknown ids fail the build rather than being ignored, so a typo surfaces.
+
+asoiaf:
+
+  # --- Corrections -----------------------------------------------------------
+  # The adapter used to guess that a capitalised parenthetical was a nickname.
+  # It is just as often a place or a possessive, so these are set by hand.
+
+  garth_wolfs_den:
+    qualifier: "of the Wolf's Den"
+
+  hareth_moles_town:
+    qualifier: "of Mole's Town"
+    aliases: ["Horse"]
+
+  pate_old:
+    qualifier: "the elder"
+
+  aemon_targaryen_dragonknight:
+    name: "Aemon Targaryen the Dragonknight"
+    qualifier: "the Dragonknight"
+    aliases: ["The Dragonknight"]
+
+  # --- Characters who would otherwise render identically ---------------------
+  # Two High Septons, two Jon Umbers, three Pates, three Walder Freys. The guess
+  # field is free text, so identical labels are unanswerable.
+
+  high_septon_fat_one:
+    name: "High Septon (the fat one)"
+    qualifier: "the fat one"
+
+  high_septon_tyrions:
+    name: "High Septon (Tyrion's)"
+    qualifier: "appointed by Tyrion"
+
+  jon_umber_greatjon:
+    name: "Jon Umber (the Greatjon)"
+    aliases: ["Greatjon", "The Greatjon", "Greatjon Umber"]
+
+  jon_umber_smalljon:
+    name: "Jon Umber (the Smalljon)"
+    aliases: ["Smalljon", "The Smalljon", "Smalljon Umber"]
+
+  pate_novice:
+    name: "Pate (the novice)"
+
+  pate_whipping_boy:
+    name: "Pate (Tommen's whipping boy)"
+
+  walder_frey_son_of_jammos:
+    name: "Walder Frey (son of Jammos)"
+
+  walder_frey_son_of_merrett:
+    name: "Walder Frey (son of Merrett)"
+    aliases: ["Little Walder"]
+
+  will_prologue:
+    qualifier: "of the prologue"
+
+  # --- Characters the source files under another name, or files twice --------
+
+  hodor:
+    # Listed under his real name, Walder, with "Hodor" as the alias.
+    api: "https://anapioficeandfire.com/api/characters/2"
+
+  # --- Nicknames a reader would plausibly type -------------------------------
+  # Kept deliberately short. The type-ahead exists so a half-remembered name
+  # still lands, not to enumerate every epithet in the books.
+
+  aemon_targaryen_maester_aemon:
+    aliases: ["Maester Aemon"]
+
+  arya_stark:
+    aliases: ["Arry", "Cat of the Canals", "Nymeria"]
+
+  brienne_of_tarth:
+    aliases: ["Brienne the Beauty", "The Maid of Tarth"]
+
+  catelyn_stark:
+    aliases: ["Catelyn Tully", "Lady Stoneheart"]
+
+  daenerys_targaryen:
+    # Two real records share this name. 271 is the Targaryen princess born in
+    # 172 AC; 1303 is the one the books follow.
+    api: "https://anapioficeandfire.com/api/characters/1303"
+    aliases: ["Dany", "Daenerys Stormborn", "Mother of Dragons", "Khaleesi"]
+
+  davos_seaworth:
+    aliases: ["The Onion Knight", "Onion Knight"]
+
+  eddard_stark:
+    aliases: ["Ned", "Ned Stark"]
+
+  jon_snow:
+    aliases: ["Lord Snow", "The Bastard of Winterfell"]
+
+  petyr_baelish:
+    aliases: ["Littlefinger"]
+
+  samwell_tarly:
+    aliases: ["Sam", "Sam the Slayer"]
+
+  sandor_clegane:
+    aliases: ["The Hound"]
+
+  sansa_stark:
+    aliases: ["Alayne Stone", "Little Bird"]
+
+  theon_greyjoy:
+    aliases: ["Reek", "Theon Turncloak"]
+
+  tyrion_lannister:
+    aliases: ["The Imp", "Halfman", "Hugor Hill"]
