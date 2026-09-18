@@ -152,11 +152,13 @@ worth changing.
 
 ## Where it sits
 
-Behind the reveal, never before it. It does not appear until someone has completed at least one
-run, and it is never offered as an alternative to playing.
+Offered from the cold open and from the reveal, in the margin, and never as a way to avoid playing.
 
-Seeing a page of anonymous worlds before you have inhabited one teaches you to read them as data.
-The game works because you read your own as a life first.
+This is a relaxation of the original rule, which put it strictly behind a finished run. The argument
+for the gate still stands — reading a page of anonymous worlds before you have inhabited one teaches
+you to read them as data, and the game works because you read your own as a life first. It lost to
+a plainer one: a companion piece nobody can find is not a companion to anything, and a door in the
+margin is not an invitation to skip the game.
 
 ### Preconditions
 

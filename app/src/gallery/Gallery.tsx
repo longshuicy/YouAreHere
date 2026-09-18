@@ -1,17 +1,22 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { BrandMark } from '../render/MarginLinks';
-import type { Universe } from '../types';
-import { Fingerprint } from './Fingerprint';
-import { METRIC_NOTES, noteTooltip } from './notes';
+import { FullGraph } from '../render/FullGraph';
+import { fetchMeta } from '../data/loader';
+import type { Universe, UniverseMeta } from '../types';
+import { CARD_STRIP, DegreeBars, Fingerprint, HorizonStrip, StripLabel } from './Fingerprint';
+import { CharacterIndex } from './CharacterIndex';
+import { Explain } from './Explain';
+import { noteTooltip } from './notes';
 import { measureWorld, type CharacterMetrics, type WorldMetrics } from './metrics';
 
 /**
- * The gallery's front page: one card per loaded world, drawn identically.
+ * The gallery: one card per loaded world, and an index of every character in
+ * all of them.
  *
  * Anonymising *worlds* rather than characters, which is what the earlier draft
  * proposed and what made it wallpaper — a grid of unlabelled ego networks has no
- * reason for its sequence, and nothing to compare one cell against another with.
- * A world's card has four figures on fixed scales, so two cards side by side are
+ * reason for its sequence and nothing to compare one cell against another with.
+ * A world's card carries figures on fixed scales, so two cards side by side are
  * a comparison rather than a texture.
  *
  * Everything is computed here, from the graphs already in memory. See
@@ -27,6 +32,35 @@ const SORTS: { key: SortKey; label: string; of: (w: WorldMetrics) => number | st
   { key: 'modularity', label: 'Camps', of: (w) => -w.modularity },
   { key: 'horizon', label: 'Horizon', of: (w) => -w.horizonSpread },
 ];
+
+const DETAIL_STRIP = 560;
+
+function Tracked({
+  label,
+  active,
+  onClick,
+}: {
+  label: string;
+  active: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      className="mono"
+      style={{
+        fontSize: 10,
+        letterSpacing: '0.16em',
+        textTransform: 'uppercase',
+        color: active ? 'var(--accent)' : 'var(--annotation)',
+        borderBottom: `1px solid ${active ? 'var(--accent)' : 'transparent'}`,
+        padding: '6px 2px 4px 2px',
+      }}
+    >
+      {label}
+    </button>
+  );
+}
 
 function StepCurve({ curve, of }: { curve: number[]; of: number }) {
   const width = 88;
@@ -68,7 +102,15 @@ function CharacterRow({ character, of }: { character: CharacterMetrics; of: numb
   );
 }
 
-function WorldDetail({ world, onBack }: { world: WorldMetrics; onBack: () => void }) {
+function WorldDetail({
+  world,
+  universe,
+  onBack,
+}: {
+  world: WorldMetrics;
+  universe: Universe | undefined;
+  onBack: () => void;
+}) {
   const connected = world.characters.filter((c) => c.degree > 0);
   const byGain = [...connected].sort((a, b) => b.gain - a.gain);
   const outermost = byGain.slice(0, 4);
@@ -118,7 +160,43 @@ function WorldDetail({ world, onBack }: { world: WorldMetrics; onBack: () => voi
         ))}
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 44 }}>
+      {/* The fingerprint again, at a size it can actually be read, beside the
+          network it is a measurement of. */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(440px, 100%), 1fr))', gap: 44 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 22 }}>
+          <div title={noteTooltip('ties')}>
+            <StripLabel left="Ties each" right="Few → many" width={DETAIL_STRIP} size={8.5} />
+            <DegreeBars histogram={world.degreeHistogram} width={DETAIL_STRIP} height={34} />
+          </div>
+          <div title={noteTooltip('horizon')}>
+            <StripLabel left="Horizon" right="One tick per character" width={DETAIL_STRIP} size={8.5} />
+            <HorizonStrip world={world} width={DETAIL_STRIP} height={34} labelMarks />
+          </div>
+        </div>
+
+        <div>
+          <div className="field-label" style={{ paddingBottom: 8 }}>The whole network</div>
+          <div
+            style={{
+              height: 300,
+              border: '1px solid var(--rule)',
+              // The one place the gallery may show a named graph outright: by
+              // now the player has been told which world this is.
+            }}
+          >
+            {universe ? (
+              <FullGraph universe={universe} />
+            ) : (
+              <div className="annot" style={{ padding: 20 }}>Not loaded</div>
+            )}
+          </div>
+          <div className="annot" style={{ fontSize: 9, paddingTop: 8 }}>
+            Drag to pan, scroll to zoom, hover to name anyone.
+          </div>
+        </div>
+      </div>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 44 }}>
         <div>
           <div className="field-label" style={{ borderBottom: '1px solid var(--rule)', paddingBottom: 8 }}>
             Furthest from the story
@@ -164,9 +242,6 @@ function WorldDetail({ world, onBack }: { world: WorldMetrics; onBack: () => voi
             </div>
           ))}
         </div>
-        <div className="annot" style={{ fontSize: 9, paddingTop: 14, lineHeight: 1.7, maxWidth: 560 }}>
-          {METRIC_NOTES.camps.measures} Blind to: {METRIC_NOTES.camps.blind}
-        </div>
       </div>
     </div>
   );
@@ -179,10 +254,46 @@ interface Props {
 }
 
 export function Gallery({ universes, onClose, onStartAgain }: Props) {
+  const [view, setView] = useState<'worlds' | 'characters'>('worlds');
   const [sort, setSort] = useState<SortKey>('concentration');
   const [open, setOpen] = useState<string | null>(null);
+  const [explain, setExplain] = useState(false);
+  const [metas, setMetas] = useState<Map<string, UniverseMeta>>(new Map());
+  /** Derived rather than stored: the sidecars are either all in or they are not,
+   * and a second piece of state would only be a chance for the two to disagree. */
+  const loadingMetas = view === 'characters' && metas.size < universes.length;
+  const requested = useRef(new Set<string>());
 
   const worlds = useMemo(() => universes.map(measureWorld), [universes]);
+  const byId = useMemo(() => new Map(universes.map((u) => [u.id, u])), [universes]);
+
+  /** The facets live in the enrichment sidecars, which the game fetches one at a
+   * time for whichever world is in play. The index needs all of them, so it
+   * pulls the rest the first time it is opened rather than at boot — they are
+   * mostly quoted lines it has no use for, and nobody should pay for them to
+   * read a card. */
+  useEffect(() => {
+    if (view !== 'characters') return;
+    // Tracked in a ref rather than against `metas`, so a world whose sidecar
+    // fails to load is not re-requested on every render for the rest of the
+    // session.
+    const missing = universes.filter((u) => !requested.current.has(u.id));
+    if (missing.length === 0) return;
+    for (const u of missing) requested.current.add(u.id);
+    Promise.all(
+      missing.map((u) =>
+        fetchMeta(u.id)
+          .then((meta) => [u.id, meta] as const)
+          .catch(() => null),
+      ),
+    ).then((loaded) => {
+      setMetas((prev) => {
+        const next = new Map(prev);
+        for (const entry of loaded) if (entry) next.set(entry[0], entry[1]);
+        return next;
+      });
+    });
+  }, [view, universes]);
 
   const ordered = useMemo(() => {
     const by = SORTS.find((s) => s.key === sort)!;
@@ -192,6 +303,15 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
       return typeof left === 'string' ? left.localeCompare(right as string) : left - (right as number);
     });
   }, [worlds, sort]);
+
+  /** A representative card for the explanation — the world whose cast is
+   * closest to the median, so the specimen is typical rather than a chosen
+   * favourite, and it keeps being typical as the catalogue grows. */
+  const sample = useMemo(() => {
+    if (worlds.length === 0) return null;
+    const sizes = [...worlds].sort((a, b) => a.nodes - b.nodes);
+    return sizes[Math.floor(sizes.length / 2)];
+  }, [worlds]);
 
   const detail = open ? worlds.find((w) => w.id === open) : null;
 
@@ -205,7 +325,7 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
       </div>
 
       {detail ? (
-        <WorldDetail world={detail} onBack={() => setOpen(null)} />
+        <WorldDetail world={detail} universe={byId.get(detail.id)} onBack={() => setOpen(null)} />
       ) : (
         <>
           <div style={{ paddingTop: 30, maxWidth: 620 }}>
@@ -218,66 +338,75 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
             </div>
           </div>
 
+          {/* Sticky, because the figures are unreadable without their key and a
+              key at the foot of thirty cards is a key nobody reads. */}
           <div
             style={{
+              position: 'sticky',
+              top: 0,
+              zIndex: 5,
+              background: 'var(--paper)',
               display: 'flex',
               alignItems: 'baseline',
-              gap: 18,
+              justifyContent: 'space-between',
+              gap: 20,
               flexWrap: 'wrap',
-              paddingTop: 26,
-              marginTop: 18,
-              borderTop: '1px solid var(--rule)',
+              marginTop: 24,
+              paddingTop: 16,
+              paddingBottom: 8,
+              borderBottom: '1px solid var(--rule)',
             }}
           >
-            <span className="annot" style={{ fontSize: 9 }}>Order by</span>
-            {SORTS.map((option) => (
-              <button
-                key={option.key}
-                onClick={() => setSort(option.key)}
-                className="mono"
-                style={{
-                  fontSize: 10,
-                  letterSpacing: '0.16em',
-                  textTransform: 'uppercase',
-                  color: sort === option.key ? 'var(--accent)' : 'var(--annotation)',
-                  borderBottom: sort === option.key ? '1px solid var(--accent)' : '1px solid transparent',
-                  padding: '6px 2px 4px 2px',
-                }}
-              >
-                {option.label}
-              </button>
-            ))}
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 16, flexWrap: 'wrap' }}>
+              <Tracked label="Worlds" active={view === 'worlds'} onClick={() => setView('worlds')} />
+              <Tracked
+                label="Characters"
+                active={view === 'characters'}
+                onClick={() => setView('characters')}
+              />
+              {view === 'worlds' && (
+                <>
+                  <span className="annot" style={{ fontSize: 9, paddingLeft: 10 }}>Order by</span>
+                  {SORTS.map((option) => (
+                    <Tracked
+                      key={option.key}
+                      label={option.label}
+                      active={sort === option.key}
+                      onClick={() => setSort(option.key)}
+                    />
+                  ))}
+                </>
+              )}
+            </div>
+            <Tracked
+              label={explain ? 'Hide the key' : 'How to read this'}
+              active={explain}
+              onClick={() => setExplain((v) => !v)}
+            />
           </div>
 
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(268px, 1fr))',
-              gap: '34px 40px',
-              paddingTop: 30,
-            }}
-          >
-            {ordered.map((world) => (
-              <Fingerprint key={world.id} world={world} onOpen={setOpen} />
-            ))}
-          </div>
+          {explain && (
+            <div style={{ paddingTop: 22, paddingBottom: 8, borderBottom: '1px solid var(--rule)' }}>
+              <Explain sample={sample} />
+            </div>
+          )}
 
-          <div style={{ borderTop: '1px solid var(--rule)', marginTop: 40, paddingTop: 20, maxWidth: 720 }}>
-            <div className="field-label" style={{ paddingBottom: 12 }}>What the figures mean</div>
-            {Object.entries(METRIC_NOTES).map(([key, note]) => (
-              <div key={key} style={{ display: 'flex', gap: 18, padding: '7px 0' }}>
-                <span
-                  className="mono"
-                  style={{ fontSize: 9, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--unknown)', width: 92, flexShrink: 0, paddingTop: 3 }}
-                >
-                  {key}
-                </span>
-                <span style={{ fontSize: 15, color: 'var(--body)', lineHeight: 1.55 }}>
-                  {note.measures} <span style={{ color: 'var(--unknown)' }}>Blind to: {note.blind}</span>
-                </span>
-              </div>
-            ))}
-          </div>
+          {view === 'worlds' ? (
+            <div
+              style={{
+                display: 'grid',
+                gridTemplateColumns: `repeat(auto-fill, minmax(min(${CARD_STRIP + 16}px, 100%), 1fr))`,
+                gap: '34px 40px',
+                paddingTop: 30,
+              }}
+            >
+              {ordered.map((world) => (
+                <Fingerprint key={world.id} world={world} onOpen={setOpen} />
+              ))}
+            </div>
+          ) : (
+            <CharacterIndex worlds={worlds} metas={metas} loading={loadingMetas} />
+          )}
         </>
       )}
     </div>

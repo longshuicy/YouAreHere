@@ -1,29 +1,41 @@
 import { DEGREE_BANDS, GAIN_AXIS, type WorldMetrics } from './metrics';
 import { noteTooltip as tooltip } from './notes';
 
-/** Fixed log placement, so a tick means the same thing on every card. */
+/** Fixed log placement, so a tick means the same thing on every card and at
+ * every size. */
 function gainToX(gain: number, width: number): number {
   const clamped = Math.min(GAIN_AXIS.max, Math.max(GAIN_AXIS.min, gain));
   return (Math.log(clamped) / Math.log(GAIN_AXIS.max)) * width;
 }
 
-const STRIP_WIDTH = 252;
+export const CARD_STRIP = 252;
 
 /** The strip's own caption. Without one the two panels read as a single grey
  * block — the ticks look like noise under the bars rather than a second figure
  * measuring something entirely different. */
-function StripLabel({ left, right }: { left: string; right?: string }) {
+export function StripLabel({
+  left,
+  right,
+  width,
+  size = 7.5,
+}: {
+  left: string;
+  right?: string;
+  width: number;
+  size?: number;
+}) {
   return (
     <div
       className="mono"
       style={{
         display: 'flex',
         justifyContent: 'space-between',
-        fontSize: 7.5,
+        fontSize: size,
         letterSpacing: '0.18em',
         textTransform: 'uppercase',
         color: 'var(--unknown)',
-        width: STRIP_WIDTH,
+        width: '100%',
+        maxWidth: width,
         paddingBottom: 3,
       }}
     >
@@ -33,12 +45,23 @@ function StripLabel({ left, right }: { left: string; right?: string }) {
   );
 }
 
-function DegreeBars({ histogram }: { histogram: number[] }) {
+export function DegreeBars({
+  histogram,
+  width = CARD_STRIP,
+  height = 20,
+}: {
+  histogram: number[];
+  width?: number;
+  height?: number;
+}) {
   const peak = Math.max(...histogram, 1);
-  const barWidth = STRIP_WIDTH / DEGREE_BANDS.length;
-  const height = 20;
+  const barWidth = width / DEGREE_BANDS.length;
   return (
-    <svg width={STRIP_WIDTH} height={height + 1} aria-hidden style={{ display: 'block' }}>
+    <svg
+      viewBox={`0 0 ${width} ${height + 1}`}
+      aria-hidden
+      style={{ display: 'block', width: '100%', maxWidth: width, height: 'auto' }}
+    >
       {histogram.map((count, i) => {
         // Scaled to the world's own tallest band: the panel is the *shape* of the
         // distribution, and a world's cast size is already said elsewhere.
@@ -55,28 +78,49 @@ function DegreeBars({ histogram }: { histogram: number[] }) {
           />
         );
       })}
-      <line x1={0} y1={height + 0.5} x2={STRIP_WIDTH} y2={height + 0.5} stroke="var(--rule)" strokeWidth={1} />
+      <line x1={0} y1={height + 0.5} x2={width} y2={height + 0.5} stroke="var(--rule)" strokeWidth={1} />
     </svg>
   );
 }
 
-function HorizonStrip({ world }: { world: WorldMetrics }) {
-  const height = 22;
+export function HorizonStrip({
+  world,
+  width = CARD_STRIP,
+  height = 22,
+  labelMarks = false,
+}: {
+  world: WorldMetrics;
+  width?: number;
+  height?: number;
+  labelMarks?: boolean;
+}) {
   const base = height - 5.5;
+  const marks = [1, 3, 10, 30, 100];
   return (
-    <svg width={STRIP_WIDTH} height={height} aria-hidden style={{ display: 'block' }}>
-      <line x1={0} y1={base} x2={STRIP_WIDTH} y2={base} stroke="var(--rule)" strokeWidth={1} />
-      {[1, 10, 100].map((mark) => (
-        <line
-          key={mark}
-          x1={Math.min(STRIP_WIDTH - 0.5, Math.max(0.5, gainToX(mark, STRIP_WIDTH)))}
-          y1={base}
-          x2={Math.min(STRIP_WIDTH - 0.5, Math.max(0.5, gainToX(mark, STRIP_WIDTH)))}
-          y2={base + 4}
-          stroke="var(--leader)"
-          strokeWidth={1}
-        />
-      ))}
+    <svg
+      viewBox={`0 0 ${width} ${height + (labelMarks ? 14 : 0)}`}
+      aria-hidden
+      style={{ display: 'block', width: '100%', maxWidth: width, height: 'auto' }}
+    >
+      <line x1={0} y1={base} x2={width} y2={base} stroke="var(--rule)" strokeWidth={1} />
+      {marks.map((mark) => {
+        const x = Math.min(width - 0.5, Math.max(0.5, gainToX(mark, width)));
+        return (
+          <g key={mark}>
+            <line x1={x} y1={base} x2={x} y2={base + 4} stroke="var(--leader)" strokeWidth={1} />
+            {labelMarks && (
+              <text
+                x={Math.min(width - 11, Math.max(11, x))}
+                y={base + 15}
+                textAnchor="middle"
+                style={{ font: '9px var(--mono)', fill: 'var(--unknown)', letterSpacing: '0.08em' }}
+              >
+                {mark}×
+              </text>
+            )}
+          </g>
+        );
+      })}
       {/* Ticks overprint, so a crowd at one value darkens rather than stacking —
           the same way repeated impressions darken ink. */}
       {world.characters
@@ -84,9 +128,9 @@ function HorizonStrip({ world }: { world: WorldMetrics }) {
         .map((c) => (
           <line
             key={c.i}
-            x1={gainToX(c.gain, STRIP_WIDTH)}
+            x1={gainToX(c.gain, width)}
             y1={1}
-            x2={gainToX(c.gain, STRIP_WIDTH)}
+            x2={gainToX(c.gain, width)}
             y2={base - 1.5}
             stroke="var(--tie-strong)"
             strokeWidth={1}
@@ -142,12 +186,12 @@ export function Fingerprint({ world, onOpen }: Props) {
         {world.title}
       </div>
 
-      <div title={tooltip('ties')}>
-        <StripLabel left="Ties each" right="Few → many" />
+      <div title={tooltip('ties')} style={{ width: '100%' }}>
+        <StripLabel left="Ties each" right="Few → many" width={CARD_STRIP} />
         <DegreeBars histogram={world.degreeHistogram} />
       </div>
-      <div title={tooltip('horizon')} style={{ paddingTop: 4 }}>
-        <StripLabel left="Horizon" right="1× → 100×" />
+      <div title={tooltip('horizon')} style={{ paddingTop: 4, width: '100%' }}>
+        <StripLabel left="Horizon" right="1× → 100×" width={CARD_STRIP} />
         <HorizonStrip world={world} />
       </div>
 

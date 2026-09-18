@@ -39,11 +39,12 @@ export default function App() {
    * meta was truthy, and a bought reading looked up against the wrong index. */
   const [metas, setMetas] = useState<Map<string, UniverseMeta>>(new Map());
   const [showKey, setShowKey] = useState(false);
-  /** The gallery is a companion piece, not a mode, and it stays out of the
-   * interface until a run has been finished — see docs/The topology gallery.md.
-   * Reading thirty anonymous worlds before inhabiting one teaches you to read
-   * them as data, and the game only works if you read your own as a life first.
-   * Remembered across visits, because the lesson does not need repeating. */
+  /** The gallery is a companion piece, not a mode. It is offered from the cold
+   * open and from the reveal, and never as a way to avoid playing — see
+   * docs/The topology gallery.md, which argued for keeping it strictly behind a
+   * finished run and has been relaxed: the case for the gate was that reading
+   * anonymous worlds first teaches you to read them as data, but a companion
+   * piece nobody can find is not a companion to anything. */
   const [showGallery, setShowGallery] = useState(false);
   /** The world chooser, and which world it is currently fetching. `choosing`
    * is separate from the session phase because it replaces the cold open rather
@@ -264,6 +265,7 @@ export default function App() {
           onChooseEase={chooseEase}
           onOpenKey={openKey}
           onStartAgain={startAgain}
+          onOpenGallery={() => setShowGallery(true)}
         />
       );
       break;
