@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { BrandMark, MarginLinks } from '../render/MarginLinks';
+import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
 import type { IndexUniverseEntry } from '../types';
 
 interface Props {
@@ -110,7 +110,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
         height: '100vh',
         display: 'flex',
         flexDirection: 'column',
-        padding: '44px 64px 56px 64px',
+        padding: CHROME_PADDING,
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
@@ -124,7 +124,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: 18,
+          gap: 14,
           minHeight: 0,
           paddingTop: 24,
         }}
@@ -159,19 +159,24 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
           style={{
             position: 'relative',
             width: 'min(880px, 92vw)',
-            flex: 1,
+            // Size to the titles; only take leftover height when they overflow,
+            // so the caption sits under the last row instead of under a tall empty box.
+            flex: '0 1 auto',
             minHeight: 0,
+            display: 'flex',
+            flexDirection: 'column',
           }}
         >
           <div
             ref={listRef}
             className="world-list"
             style={{
-              height: '100%',
+              flex: '1 1 auto',
+              minHeight: 0,
               overflowY: 'auto',
               paddingRight: 10,
               // Room under the last row so a bottom fade does not cover titles.
-              paddingBottom: canScroll && !atBottom ? 28 : 8,
+              paddingBottom: canScroll && !atBottom ? 28 : 0,
             }}
           >
             {/* The columns live *inside* the scroller, at their natural height.
@@ -187,7 +192,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
             ) : (
               <div style={{ columnWidth: 200, columnGap: 36 }}>
                 {groups.map(([letter, entries]) => (
-                  <div key={letter} style={{ breakInside: 'avoid', marginBottom: 12 }}>
+                  <div key={letter} style={{ breakInside: 'avoid', marginBottom: 8 }}>
                     <div
                       className="mono"
                       style={{
@@ -267,15 +272,22 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
           )}
         </div>
 
-        <div className="annot" style={{ textAlign: 'center' }}>
-          Choosing settles the story. You will still have to work out who you are.
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: 12,
+            flexShrink: 0,
+          }}
+        >
+          <div className="annot" style={{ textAlign: 'center' }}>
+            Choosing settles the story. You will still have to work out who you are.
+          </div>
+          <button className="action-quiet ruled" onClick={onCancel}>
+            Wake anywhere instead
+          </button>
         </div>
-      </div>
-
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <button className="action-quiet ruled" onClick={onCancel}>
-          Wake anywhere instead
-        </button>
       </div>
     </div>
   );
