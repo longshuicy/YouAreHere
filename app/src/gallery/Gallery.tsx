@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { BrandMark } from '../render/MarginLinks';
+import { BrandMark, CHROME_PADDING } from '../render/MarginLinks';
 import { FullGraph } from '../render/FullGraph';
 import { fetchMeta } from '../data/loader';
 import type { Universe, UniverseMeta } from '../types';
@@ -355,7 +355,17 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
   const detail = open ? worlds.find((w) => w.id === open) : null;
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', padding: '44px 64px 72px 64px' }}>
+    <div
+      style={{
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        // Top and sides from the shared inset so the brand mark does not jump
+        // coming into the gallery; only the bottom is this screen's own.
+        padding: CHROME_PADDING,
+        paddingBottom: 72,
+      }}
+    >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <BrandMark onStartAgain={onStartAgain} />
         <button className="annot-link" onClick={onClose}>
