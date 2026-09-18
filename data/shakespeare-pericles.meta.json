@@ -1,0 +1,845 @@
+{
+ "id": "shakespeare-pericles",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Pericles."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Pericles."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Pericles."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Pericles."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Pericles."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Pericles."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Pericles."
+  }
+ },
+ "edges": {
+  "0-5": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "0-12": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "0-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "0-20": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "1-2": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "1-13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "2-13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "2-15": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "3-13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "3-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "3-17": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "3-19": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "4-7": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "4-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "5-12": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "5-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "5-20": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "6-13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "7-10": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "7-13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "7-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "8-13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "8-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "9-13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "9-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "9-19": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "9-20": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "11-13": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "11-15": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "11-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "12-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "12-20": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "13-15": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "13-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "13-19": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "14-16": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "14-18": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "14-19": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "16-18": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "16-19": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "16-20": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "17-19": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  },
+  "18-19": {
+   "facts": {
+    "books": [
+     "Pericles"
+    ],
+    "first": "Pericles",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Pericles."
+  }
+ },
+ "sources": []
+}

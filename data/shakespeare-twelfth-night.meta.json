@@ -1,0 +1,922 @@
+{
+ "id": "shakespeare-twelfth-night",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Twelfth Night."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Twelfth Night."
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "0-5": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "0-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "1-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-5": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-7": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-8": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "2-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-4": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-5": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-7": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-8": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-11": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "3-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "4-5": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "4-7": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "4-8": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "4-9": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "4-10": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "4-11": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "4-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "4-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "5-7": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "5-8": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "5-9": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "5-10": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "5-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "5-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "6-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "7-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "7-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "8-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "8-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "9-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "9-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "10-11": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "11-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  },
+  "12-13": {
+   "facts": {
+    "books": [
+     "Twelfth Night"
+    ],
+    "first": "Twelfth Night",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Twelfth Night."
+  }
+ },
+ "sources": []
+}

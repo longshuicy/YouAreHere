@@ -9,7 +9,13 @@ import argparse
 import sys
 from pathlib import Path
 
-from .canon.normalise import apply_identity_overrides, filter_graph, load_identity_table
+from .canon.normalise import (
+    apply_identity_overrides,
+    filter_graph,
+    load_identity_table,
+    split_components,
+)
+from .analyse import difficulty
 from .emit import writer
 from .enrich import anapi, facts as enrich_facts
 from .sources import SOURCES
@@ -21,6 +27,7 @@ ALIASES = Path(__file__).resolve().parent / "aliases"
 def build(names: list[str], out: Path) -> int:
     graphs = {}
     summaries = []
+    prepared = []
 
     for name in names:
         source = SOURCES[name]
@@ -53,31 +60,58 @@ def build(names: list[str], out: Path) -> int:
         )
         print(f"[{name}]   filtered   {len(graph.nodes):>5} characters  {len(graph.edges):>5} ties")
 
-        summary = writer.write_universe(graph, source.name, out)
-        graphs[name] = graph
+        if source.split_components:
+            worlds = split_components(
+                graph,
+                min_size=source.min_component_size or 1,
+                name=source.name_component,
+            )
+            print(f"[{name}]   split      {len(worlds):>5} worlds")
+        else:
+            worlds = [graph]
 
         meta_sources = []
         if name == "asoiaf":
             meta_sources.append((anapi.ATTRIBUTION, anapi.LICENSE))
 
-        meta = writer.write_metadata(
-            graph,
-            source.name,
-            node_facts,
-            edge_facts,
-            meta_sources,
-            out,
-        )
-        print(f"[{name}]   reveal     {meta['nodes']:>5} characters  {meta['edges']:>5} ties -> {meta['file']}")
+        prepared.append((name, worlds, node_facts, edge_facts, meta_sources))
 
-        summary["metaFile"] = meta["file"]
-        summary["metaSources"] = meta["sources"]
-        summaries.append(summary)
+    # Second pass. Difficulty cannot be judged one world at a time: the player is
+    # answering *which story* first, so what makes a start hard is how many
+    # characters look like it across the whole catalogue, not just at home. So
+    # every world is loaded before any is written.
+    all_worlds = [world for _, worlds, _, _, _ in prepared for world in worlds]
+    corpus_index = difficulty.build_corpus_index(all_worlds)
+    print(f"\nscoring {len(all_worlds)} worlds against {sum(corpus_index.values())} characters")
 
-        stats = summary["startStats"]
-        print(f"[{name}]   playable   {stats['playable']:>5} starts     rejected {stats['rejected']}")
-        print(f"[{name}]   licence    {summary['license']}")
-        print(f"[{name}]   wrote      {out / summary['file']}")
+    for name, worlds, node_facts, edge_facts, meta_sources in prepared:
+        for world in worlds:
+            summary = writer.write_universe(world, world.id, out, corpus_index)
+            graphs[world.id] = world
+
+            meta = writer.write_metadata(
+                world,
+                world.id,
+                node_facts,
+                edge_facts,
+                meta_sources,
+                out,
+            )
+
+            summary["metaFile"] = meta["file"]
+            summary["metaSources"] = meta["sources"]
+            summaries.append(summary)
+
+            stats = summary["startStats"]
+            label = world.id if len(worlds) > 1 else name
+            spread = summary["difficulty"]
+            print(
+                f"[{label}]".ljust(34)
+                + f"{summary['nodes']:>5} characters {summary['edges']:>5} ties "
+                + f"{stats['playable']:>5} starts  "
+                + f"ease median {spread.get('medianEase', 0):.2f}  "
+                + f"look-alikes median {spread.get('medianLookAlikes', 0)}"
+            )
 
     summaries.sort(key=lambda s: s["id"])
     writer.write_index(summaries, out)

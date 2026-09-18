@@ -1,7 +1,8 @@
-"""Filtering and weight normalisation. Dataset-agnostic."""
+"""Filtering, splitting, and weight normalisation. Dataset-agnostic."""
 
 from __future__ import annotations
 
+import copy
 from collections import defaultdict
 
 from .types import CanonicalGraph, Edge, Node
@@ -76,6 +77,113 @@ def filter_graph(
         provenance=graph.provenance,
         segment_labels=dict(graph.segment_labels),
     ).sorted()
+
+
+def split_components(
+    graph: CanonicalGraph,
+    *,
+    min_size: int,
+    name,
+) -> list[CanonicalGraph]:
+    """Break a graph into one universe per connected component.
+
+    Some corpora are not one world. A merged drama corpus is the clear case: the
+    cast of Hamlet and the cast of Macbeth share nobody, so a player waking in
+    one can never reach the other, and presenting them as a single universe makes
+    the story question unanswerable in the wrong way — the shape in front of the
+    player is a play, but the answer they are asked for is the whole corpus.
+    Every component is separately connected, so each is a world in its own right.
+
+    This is deliberately not a split by *source unit*. Where the units genuinely
+    interlock — the English histories share a monarchy, the Roman plays share
+    Antony — the component keeps them together, which is the right answer and the
+    one a per-play split would destroy.
+
+    `name(node_ids, segments) -> (slug, title)` supplies the identity of each
+    world, because only the adapter knows what its segments mean. `slug` is
+    appended to the parent id, so Hamlet ships as `shakespeare-hamlet` and stays
+    traceable to the corpus it came from.
+    """
+    adjacency = _adjacency(graph.edges)
+    nodes_by_id = {node.id: node for node in graph.nodes}
+
+    components = [c for c in _components(nodes_by_id, adjacency) if len(c) >= min_size]
+    components.sort(key=lambda c: (-len(c), min(c)))
+
+    edges_by_component: dict[int, list[Edge]] = defaultdict(list)
+    index_of = {node_id: i for i, component in enumerate(components) for node_id in component}
+    for edge in graph.edges:
+        if edge.source in index_of:
+            edges_by_component[index_of[edge.source]].append(edge)
+
+    worlds = []
+    slugs: set[str] = set()
+    for i, component in enumerate(components):
+        edges = edges_by_component[i]
+        segments = {segment for edge in edges for segment in edge.segments}
+        slug, title = name(component, segments)
+        if slug in slugs:
+            raise ValueError(
+                f"{graph.id}: two components both want the slug '{slug}'. Component naming must "
+                f"be injective or the universes overwrite each other's files."
+            )
+        slugs.add(slug)
+
+        # Worded without this world's own numbers on purpose: every world from a
+        # corpus then carries an identical list of changes, which is what lets
+        # the credit file state the source once rather than 28 times. The
+        # per-world counts are already in `filters` and in the emitted universe.
+        provenance = copy.deepcopy(graph.provenance)
+        provenance.with_modification(
+            f"Split the corpus into one universe per connected component of at least "
+            f"{min_size} characters, shipping each of the {len(components)} resulting worlds "
+            f"as its own file, since no character links one to another."
+        )
+
+        worlds.append(
+            CanonicalGraph(
+                id=f"{graph.id}-{slug}",
+                title=title,
+                accent=graph.accent,
+                nodes=_drop_redundant_qualifiers([nodes_by_id[node_id] for node_id in component]),
+                edges=edges,
+                provenance=provenance,
+                segment_labels={s: l for s, l in graph.segment_labels.items() if s in segments},
+            ).sorted()
+        )
+
+    return worlds
+
+
+def _drop_redundant_qualifiers(nodes: list[Node]) -> list[Node]:
+    """Remove a trailing "(Something)" once it is no longer telling anyone apart.
+
+    A merged corpus has to qualify its repeats — there is a Duke of Buckingham in
+    both Richard III and Henry VIII — but the qualifier exists to separate names
+    that now live in different universes. Left in place it reads as a label on
+    the answer: a player guessing "Hamlet (Hamlet)" has been handed the world.
+
+    Only stripped when the bare name is unique in this world, so the repeats that
+    survive the split together keep what separates them.
+    """
+    stems = defaultdict(int)
+    for node in nodes:
+        stems[_stem(node.name)] += 1
+
+    simplified = []
+    for node in nodes:
+        stem = _stem(node.name)
+        if stem != node.name and stems[stem] == 1:
+            aliases = tuple(a for a in node.aliases if a != stem)
+            node = Node(id=node.id, name=stem, aliases=aliases, work=node.work, metadata=node.metadata)
+        simplified.append(node)
+    return simplified
+
+
+def _stem(name: str) -> str:
+    if name.endswith(")") and " (" in name:
+        return name[: name.rindex(" (")]
+    return name
 
 
 def weight_ranks(graph: CanonicalGraph) -> dict[tuple[str, str], tuple[float, float]]:

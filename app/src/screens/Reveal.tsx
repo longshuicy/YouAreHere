@@ -12,6 +12,7 @@ interface Props {
   meta: UniverseMeta | null;
   onWakeElsewhere: () => void;
   onOpenKey: () => void;
+  onStartAgain: () => void;
 }
 
 /** The full named network, faint, with your node held in the accent.
@@ -146,7 +147,15 @@ function FullGraph({ universe, you }: { universe: Universe; you: number }) {
   );
 }
 
-export function Reveal({ session, universe, puzzle, meta, onWakeElsewhere, onOpenKey }: Props) {
+export function Reveal({
+  session,
+  universe,
+  puzzle,
+  meta,
+  onWakeElsewhere,
+  onOpenKey,
+  onStartAgain,
+}: Props) {
   const you = universe.nodes.find((n) => n.i === session.you);
   const clues = clueTotal(session.ledger);
   const { expansions, facts, names } = session.ledger;
@@ -161,6 +170,7 @@ export function Reveal({ session, universe, puzzle, meta, onWakeElsewhere, onOpe
     `${expansions} ${expansions === 1 ? 'expansion' : 'expansions'}`,
     `${facts} ${facts === 1 ? 'reading' : 'readings'}`,
     `${names} ${names === 1 ? 'name' : 'names'}`,
+    ...(session.ledger.stories ? ['the story'] : []),
   ].join('  ·  ');
 
   return (
@@ -183,7 +193,7 @@ export function Reveal({ session, universe, puzzle, meta, onWakeElsewhere, onOpe
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <div className="chrome">YOU ARE HERE</div>
-          <MarginLinks onOpenKey={onOpenKey} />
+          <MarginLinks onOpenKey={onOpenKey} onStartAgain={onStartAgain} />
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 46, textAlign: 'center' }}>

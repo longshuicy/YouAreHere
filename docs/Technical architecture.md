@@ -86,11 +86,11 @@ const COST = { expand: 1, facts: 2, name: 3 } as const
 
 Actions are dispatched as `{ type: 'expand', node }`; the reducer applies the cost and the knowledge change together so they cannot drift apart. Everything is counted in clues — there is no second hint currency; see the Game design doc for why that was dropped.
 
-`locate` was removed outright, along with `known.locatedUniverse`. Which world you are in is now derived, not bought: `worldIsKnown(session)` is true once any guess got the story right. Deriving it from the guess log rather than storing a flag means there is no way for the flag and the guess history to disagree.
+`locate` was removed outright, along with `known.locatedUniverse`; it came back on 2026-09-18 as `story`, at 2 clues, once thirty-one worlds made brute-forcing the dropdown tedious rather than clever. `worldIsKnown(session)` is the single predicate behind it and is true on any of three routes: a guess that got the story right, a world chosen before play, or the purchase. Keeping one predicate rather than three checks is what stops the screens disagreeing about whether the world is known — the guess screen drops its dropdown, the explore corner fills in, and the margin link retires, all off the same answer.
 
 The ledger holds **counts**, never costs. `clueTotal()` is the single place the two are multiplied, which is what keeps "one name" from being reported as "3 names" — the bug that follows directly from storing a cost in a field named for a count.
 
-> **Superseded 2026-09-17/18:** the table once read `{ expand: 1, weigh: 1, name: 3, locate: 8 }`. `weigh` went because tie strength is the diagram and charging for it charged for the puzzle itself; `locate` went because free guessing already gave the world away. Both stories are in the Game design doc's information economy section.
+> **Superseded 2026-09-17/18:** the table once read `{ expand: 1, weigh: 1, name: 3, locate: 8 }`, and is now `{ expand: 1, facts: 2, name: 3, story: 2 }`. `weigh` went because tie strength is the diagram and charging for it charged for the puzzle itself. `locate` went because free guessing already gave the world away, then returned as `story` at 2 once the catalogue grew past the point where guessing was a reasonable way to get it. All three stories are in the Game design doc's information economy section.
 
 ### Residence
 
@@ -135,7 +135,7 @@ No `d3.select`, no `enter/exit/update`, no D3-managed transitions on elements Re
 </Stage>
 <Ledger counts={session.ledger} />
 <Prompt />                  // "What do you want to know?"
-<GuessButton />             // I KNOW WHO I AM
+<GuessButton />             // I'VE FOUND MYSELF
 ```
 
 Draw order is deliberate: edges under nodes, labels above both, menu above everything. Labels need a halo in the paper colour so they stay legible where they cross an edge.

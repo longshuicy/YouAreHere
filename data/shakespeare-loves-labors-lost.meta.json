@@ -1,0 +1,1626 @@
+{
+ "id": "shakespeare-loves-labors-lost",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Love’s Labor’s Lost."
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-2": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-3": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-4": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-5": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-8": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-10": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "0-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-2": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-3": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-4": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-5": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-8": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "1-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-5": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-8": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "2-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-4": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-7": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-8": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "3-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-5": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-7": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-8": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-9": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-10": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "4-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "5-8": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "5-9": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "5-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "5-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "6-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "7-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "7-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "7-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "8-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "8-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "8-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "8-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "8-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "8-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "9-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "9-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "10-11": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "10-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "10-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "10-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "10-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "11-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "11-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "11-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "11-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "12-13": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "12-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "12-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "12-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "12-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "13-14": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "13-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "13-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "13-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "14-15": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "14-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "14-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "15-16": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "15-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  },
+  "16-17": {
+   "facts": {
+    "books": [
+     "Love’s Labor’s Lost"
+    ],
+    "first": "Love’s Labor’s Lost",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Love’s Labor’s Lost."
+  }
+ },
+ "sources": []
+}

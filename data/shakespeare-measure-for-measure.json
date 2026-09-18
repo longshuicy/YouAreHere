@@ -1,0 +1,932 @@
+{
+ "id": "shakespeare-measure-for-measure",
+ "title": "Measure for Measure",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Abhorson",
+   "x": 123.5,
+   "y": 317.7
+  },
+  {
+   "i": 1,
+   "n": "Angelo",
+   "x": -115.6,
+   "y": -242.1
+  },
+  {
+   "i": 2,
+   "n": "Barnardine",
+   "x": -57.3,
+   "y": 373.0
+  },
+  {
+   "i": 3,
+   "n": "Mistress Overdone",
+   "x": 322.6,
+   "y": -34.2
+  },
+  {
+   "i": 4,
+   "n": "Boy",
+   "x": -580.8,
+   "y": 242.8
+  },
+  {
+   "i": 5,
+   "n": "Claudio",
+   "x": 265.7,
+   "y": 203.1
+  },
+  {
+   "i": 6,
+   "n": "Duke",
+   "x": -82.2,
+   "y": 144.6
+  },
+  {
+   "i": 7,
+   "n": "Elbow",
+   "x": 103.6,
+   "y": -258.3
+  },
+  {
+   "i": 8,
+   "n": "Escalus",
+   "x": -95.5,
+   "y": -150.7
+  },
+  {
+   "i": 9,
+   "n": "Friar Peter",
+   "x": -350.0,
+   "y": -106.6
+  },
+  {
+   "i": 10,
+   "n": "Froth",
+   "x": -151.5,
+   "y": -454.0
+  },
+  {
+   "i": 11,
+   "n": "Isabella",
+   "x": -88.5,
+   "y": -2.9
+  },
+  {
+   "i": 12,
+   "n": "Juliet",
+   "x": -262.9,
+   "y": 600.0
+  },
+  {
+   "i": 13,
+   "n": "Justice",
+   "x": 33.2,
+   "y": -493.2
+  },
+  {
+   "i": 14,
+   "n": "Lucio",
+   "x": 74.1,
+   "y": -62.2
+  },
+  {
+   "i": 15,
+   "n": "Mariana",
+   "x": -345.9,
+   "y": 53.2
+  },
+  {
+   "i": 16,
+   "n": "Messenger",
+   "x": 311.9,
+   "y": 432.6
+  },
+  {
+   "i": 17,
+   "n": "Francisca",
+   "x": 540.0,
+   "y": -233.7
+  },
+  {
+   "i": 18,
+   "n": "Pompey",
+   "x": 145.7,
+   "y": 8.0
+  },
+  {
+   "i": 19,
+   "n": "Provost",
+   "x": 14.7,
+   "y": 37.8
+  },
+  {
+   "i": 20,
+   "n": "Servant",
+   "x": 194.9,
+   "y": -374.9
+  }
+ ],
+ "edges": [
+  [
+   0,
+   2,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   5,
+   1.0,
+   0.143,
+   0.0
+  ],
+  [
+   0,
+   6,
+   2.0,
+   0.714,
+   0.4
+  ],
+  [
+   0,
+   11,
+   1.0,
+   0.286,
+   0.0
+  ],
+  [
+   0,
+   14,
+   1.0,
+   0.429,
+   0.0
+  ],
+  [
+   0,
+   16,
+   1.0,
+   0.571,
+   0.0
+  ],
+  [
+   0,
+   18,
+   2.0,
+   0.857,
+   0.462
+  ],
+  [
+   0,
+   19,
+   2.0,
+   1.0,
+   0.471
+  ],
+  [
+   1,
+   6,
+   2.0,
+   0.545,
+   0.467
+  ],
+  [
+   1,
+   7,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   1,
+   8,
+   4.0,
+   1.0,
+   1.0
+  ],
+  [
+   1,
+   9,
+   1.0,
+   0.091,
+   0.0
+  ],
+  [
+   1,
+   10,
+   1.0,
+   0.182,
+   0.0
+  ],
+  [
+   1,
+   11,
+   3.0,
+   0.818,
+   0.692
+  ],
+  [
+   1,
+   13,
+   1.0,
+   0.273,
+   0.0
+  ],
+  [
+   1,
+   14,
+   2.0,
+   0.636,
+   0.571
+  ],
+  [
+   1,
+   15,
+   1.0,
+   0.364,
+   0.0
+  ],
+  [
+   1,
+   18,
+   1.0,
+   0.455,
+   0.0
+  ],
+  [
+   1,
+   19,
+   3.0,
+   0.909,
+   0.647
+  ],
+  [
+   1,
+   20,
+   2.0,
+   0.727,
+   0.667
+  ],
+  [
+   2,
+   6,
+   1.0,
+   0.2,
+   0.0
+  ],
+  [
+   2,
+   11,
+   1.0,
+   0.4,
+   0.077
+  ],
+  [
+   2,
+   14,
+   1.0,
+   0.6,
+   0.071
+  ],
+  [
+   2,
+   18,
+   1.0,
+   0.8,
+   0.077
+  ],
+  [
+   2,
+   19,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   3,
+   5,
+   1.0,
+   0.0,
+   0.143
+  ],
+  [
+   3,
+   6,
+   1.0,
+   0.167,
+   0.067
+  ],
+  [
+   3,
+   7,
+   1.0,
+   0.333,
+   0.125
+  ],
+  [
+   3,
+   8,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   3,
+   14,
+   2.0,
+   0.667,
+   0.643
+  ],
+  [
+   3,
+   18,
+   2.0,
+   0.833,
+   0.538
+  ],
+  [
+   3,
+   19,
+   2.0,
+   1.0,
+   0.529
+  ],
+  [
+   4,
+   6,
+   1.0,
+   0.0,
+   0.133
+  ],
+  [
+   4,
+   11,
+   1.0,
+   0.5,
+   0.154
+  ],
+  [
+   4,
+   15,
+   1.0,
+   1.0,
+   0.143
+  ],
+  [
+   5,
+   6,
+   2.0,
+   0.714,
+   0.533
+  ],
+  [
+   5,
+   11,
+   1.0,
+   0.286,
+   0.231
+  ],
+  [
+   5,
+   14,
+   1.0,
+   0.429,
+   0.143
+  ],
+  [
+   5,
+   16,
+   1.0,
+   0.571,
+   0.25
+  ],
+  [
+   5,
+   18,
+   2.0,
+   0.857,
+   0.615
+  ],
+  [
+   5,
+   19,
+   3.0,
+   1.0,
+   0.706
+  ],
+  [
+   6,
+   7,
+   1.0,
+   0.2,
+   0.25
+  ],
+  [
+   6,
+   8,
+   3.0,
+   0.733,
+   0.818
+  ],
+  [
+   6,
+   9,
+   2.0,
+   0.6,
+   0.667
+  ],
+  [
+   6,
+   11,
+   4.0,
+   0.933,
+   0.846
+  ],
+  [
+   6,
+   12,
+   1.0,
+   0.267,
+   0.0
+  ],
+  [
+   6,
+   14,
+   3.0,
+   0.8,
+   0.786
+  ],
+  [
+   6,
+   15,
+   2.0,
+   0.667,
+   0.714
+  ],
+  [
+   6,
+   16,
+   1.0,
+   0.333,
+   0.5
+  ],
+  [
+   6,
+   18,
+   3.0,
+   0.867,
+   0.846
+  ],
+  [
+   6,
+   19,
+   6.0,
+   1.0,
+   1.0
+  ],
+  [
+   7,
+   8,
+   2.0,
+   0.75,
+   0.545
+  ],
+  [
+   7,
+   10,
+   1.0,
+   0.375,
+   0.2
+  ],
+  [
+   7,
+   13,
+   1.0,
+   0.5,
+   0.2
+  ],
+  [
+   7,
+   14,
+   1.0,
+   0.625,
+   0.214
+  ],
+  [
+   7,
+   18,
+   2.0,
+   0.875,
+   0.692
+  ],
+  [
+   7,
+   19,
+   2.0,
+   1.0,
+   0.588
+  ],
+  [
+   8,
+   9,
+   1.0,
+   0.091,
+   0.167
+  ],
+  [
+   8,
+   10,
+   1.0,
+   0.182,
+   0.4
+  ],
+  [
+   8,
+   11,
+   1.0,
+   0.273,
+   0.308
+  ],
+  [
+   8,
+   13,
+   1.0,
+   0.364,
+   0.4
+  ],
+  [
+   8,
+   14,
+   2.0,
+   0.636,
+   0.714
+  ],
+  [
+   8,
+   15,
+   1.0,
+   0.455,
+   0.286
+  ],
+  [
+   8,
+   18,
+   2.0,
+   0.727,
+   0.769
+  ],
+  [
+   8,
+   19,
+   3.0,
+   0.909,
+   0.765
+  ],
+  [
+   9,
+   11,
+   2.0,
+   0.833,
+   0.538
+  ],
+  [
+   9,
+   14,
+   1.0,
+   0.333,
+   0.286
+  ],
+  [
+   9,
+   15,
+   2.0,
+   1.0,
+   0.857
+  ],
+  [
+   9,
+   19,
+   1.0,
+   0.5,
+   0.059
+  ],
+  [
+   10,
+   13,
+   1.0,
+   0.6,
+   0.6
+  ],
+  [
+   10,
+   18,
+   1.0,
+   0.8,
+   0.154
+  ],
+  [
+   10,
+   19,
+   1.0,
+   1.0,
+   0.118
+  ],
+  [
+   11,
+   14,
+   4.0,
+   0.923,
+   0.929
+  ],
+  [
+   11,
+   15,
+   3.0,
+   0.769,
+   1.0
+  ],
+  [
+   11,
+   17,
+   1.0,
+   0.385,
+   0.0
+  ],
+  [
+   11,
+   18,
+   1.0,
+   0.462,
+   0.231
+  ],
+  [
+   11,
+   19,
+   4.0,
+   1.0,
+   0.824
+  ],
+  [
+   11,
+   20,
+   2.0,
+   0.615,
+   1.0
+  ],
+  [
+   12,
+   19,
+   1.0,
+   1.0,
+   0.176
+  ],
+  [
+   13,
+   18,
+   1.0,
+   0.8,
+   0.308
+  ],
+  [
+   13,
+   19,
+   1.0,
+   1.0,
+   0.235
+  ],
+  [
+   14,
+   15,
+   1.0,
+   0.357,
+   0.429
+  ],
+  [
+   14,
+   17,
+   1.0,
+   0.429,
+   1.0
+  ],
+  [
+   14,
+   18,
+   3.0,
+   0.857,
+   0.923
+  ],
+  [
+   14,
+   19,
+   5.0,
+   1.0,
+   0.882
+  ],
+  [
+   14,
+   20,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   15,
+   19,
+   1.0,
+   0.571,
+   0.294
+  ],
+  [
+   16,
+   18,
+   1.0,
+   0.75,
+   0.385
+  ],
+  [
+   16,
+   19,
+   1.0,
+   1.0,
+   0.353
+  ],
+  [
+   18,
+   19,
+   5.0,
+   1.0,
+   0.941
+  ],
+  [
+   19,
+   20,
+   1.0,
+   0.412,
+   0.333
+  ]
+ ],
+ "playable": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  13,
+  14,
+  15,
+  18,
+  19
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-measure-for-measure-p0000",
+   "you": 0,
+   "startRadius": 1,
+   "ease": 0.501
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.516
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.379
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.498
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.542
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.591
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.502
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.539
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.529
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.421
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.554
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0013",
+   "you": 13,
+   "startRadius": 1,
+   "ease": 0.441
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.581
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0015",
+   "you": 15,
+   "startRadius": 1,
+   "ease": 0.578
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0018",
+   "you": 18,
+   "startRadius": 1,
+   "ease": 0.534
+  },
+  {
+   "id": "shakespeare-measure-for-measure-p0019",
+   "you": 19,
+   "startRadius": 1,
+   "ease": 0.626
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

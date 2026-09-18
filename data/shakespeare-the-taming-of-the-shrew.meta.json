@@ -1,0 +1,1252 @@
+{
+ "id": "shakespeare-the-taming-of-the-shrew",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Taming of the Shrew."
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-2": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-4": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-5": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-7": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-8": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-15": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "0-17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-2": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-4": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-5": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-7": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-8": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "1-17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "2-5": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "2-7": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "2-8": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "2-15": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "2-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "2-17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "3-5": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "3-7": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "3-11": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "3-12": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "3-13": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "3-14": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "4-5": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "4-7": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "4-8": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "4-9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "4-15": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "4-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "4-17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-7": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-8": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-10": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-12": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-13": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-14": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "5-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "6-17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-10": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-12": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-13": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-14": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-15": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "7-17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "8-15": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "8-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "8-17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "9-12": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "9-13": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "9-14": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "9-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "9-17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "10-11": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "10-14": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "11-13": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "12-13": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "12-14": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "13-14": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "15-16": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  },
+  "16-17": {
+   "facts": {
+    "books": [
+     "The Taming of the Shrew"
+    ],
+    "first": "The Taming of the Shrew",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Taming of the Shrew."
+  }
+ },
+ "sources": []
+}

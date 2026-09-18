@@ -1,0 +1,850 @@
+{
+ "id": "shakespeare-the-merchant-of-venice",
+ "title": "The Merchant of Venice",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Leonardo",
+   "x": -252.4,
+   "y": 420.7
+  },
+  {
+   "i": 1,
+   "n": "Balthazar",
+   "x": -328.8,
+   "y": -272.6
+  },
+  {
+   "i": 2,
+   "n": "Stephano",
+   "x": -259.4,
+   "y": 18.1
+  },
+  {
+   "i": 3,
+   "n": "Antonio",
+   "x": 100.4,
+   "y": -0.8
+  },
+  {
+   "i": 4,
+   "n": "Arragon",
+   "x": -202.4,
+   "y": -580.0
+  },
+  {
+   "i": 5,
+   "n": "Bassanio",
+   "x": 28.4,
+   "y": 109.1
+  },
+  {
+   "i": 6,
+   "n": "Gratiano",
+   "x": -37.6,
+   "y": 90.2
+  },
+  {
+   "i": 7,
+   "n": "Jessica",
+   "x": -106.9,
+   "y": -28.4
+  },
+  {
+   "i": 8,
+   "n": "Lancelet Gobbo",
+   "x": -74.2,
+   "y": 185.8
+  },
+  {
+   "i": 9,
+   "n": "Lorenzo",
+   "x": -4.1,
+   "y": -19.4
+  },
+  {
+   "i": 10,
+   "n": "Messenger",
+   "x": -8.5,
+   "y": -600.0
+  },
+  {
+   "i": 11,
+   "n": "Nerissa",
+   "x": -92.4,
+   "y": -170.7
+  },
+  {
+   "i": 12,
+   "n": "Old Gobbo",
+   "x": -79.8,
+   "y": 494.1
+  },
+  {
+   "i": 13,
+   "n": "Portia",
+   "x": -21.8,
+   "y": -189.7
+  },
+  {
+   "i": 14,
+   "n": "Salarino",
+   "x": 160.9,
+   "y": 220.0
+  },
+  {
+   "i": 15,
+   "n": "Salerio",
+   "x": 140.5,
+   "y": -166.5
+  },
+  {
+   "i": 16,
+   "n": "Shylock",
+   "x": 231.5,
+   "y": 25.7
+  },
+  {
+   "i": 17,
+   "n": "Solanio",
+   "x": 263.6,
+   "y": 179.9
+  },
+  {
+   "i": 18,
+   "n": "Tubal",
+   "x": 543.1,
+   "y": 284.4
+  }
+ ],
+ "edges": [
+  [
+   0,
+   5,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   6,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   0,
+   8,
+   1.0,
+   0.667,
+   0.0
+  ],
+  [
+   0,
+   12,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   1,
+   7,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   1,
+   9,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   1,
+   11,
+   1.0,
+   0.667,
+   0.0
+  ],
+  [
+   1,
+   13,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   2,
+   3,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   2,
+   5,
+   1.0,
+   0.143,
+   0.077
+  ],
+  [
+   2,
+   6,
+   1.0,
+   0.286,
+   0.077
+  ],
+  [
+   2,
+   7,
+   1.0,
+   0.429,
+   0.091
+  ],
+  [
+   2,
+   8,
+   1.0,
+   0.571,
+   0.083
+  ],
+  [
+   2,
+   9,
+   1.0,
+   0.714,
+   0.091
+  ],
+  [
+   2,
+   11,
+   1.0,
+   0.857,
+   0.083
+  ],
+  [
+   2,
+   13,
+   1.0,
+   1.0,
+   0.083
+  ],
+  [
+   3,
+   5,
+   4.0,
+   0.909,
+   0.923
+  ],
+  [
+   3,
+   6,
+   4.0,
+   1.0,
+   0.692
+  ],
+  [
+   3,
+   7,
+   2.0,
+   0.273,
+   0.455
+  ],
+  [
+   3,
+   8,
+   1.0,
+   0.091,
+   0.167
+  ],
+  [
+   3,
+   9,
+   3.0,
+   0.727,
+   0.364
+  ],
+  [
+   3,
+   11,
+   2.0,
+   0.364,
+   0.5
+  ],
+  [
+   3,
+   13,
+   2.0,
+   0.455,
+   0.5
+  ],
+  [
+   3,
+   14,
+   2.0,
+   0.545,
+   0.625
+  ],
+  [
+   3,
+   15,
+   1.0,
+   0.182,
+   0.0
+  ],
+  [
+   3,
+   16,
+   3.0,
+   0.818,
+   1.0
+  ],
+  [
+   3,
+   17,
+   2.0,
+   0.636,
+   0.429
+  ],
+  [
+   4,
+   10,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   4,
+   11,
+   1.0,
+   0.5,
+   0.167
+  ],
+  [
+   4,
+   13,
+   1.0,
+   1.0,
+   0.167
+  ],
+  [
+   5,
+   6,
+   5.0,
+   1.0,
+   0.923
+  ],
+  [
+   5,
+   7,
+   2.0,
+   0.385,
+   0.545
+  ],
+  [
+   5,
+   8,
+   2.0,
+   0.462,
+   0.75
+  ],
+  [
+   5,
+   9,
+   3.0,
+   0.692,
+   0.455
+  ],
+  [
+   5,
+   11,
+   3.0,
+   0.769,
+   0.667
+  ],
+  [
+   5,
+   12,
+   1.0,
+   0.154,
+   0.333
+  ],
+  [
+   5,
+   13,
+   3.0,
+   0.846,
+   0.667
+  ],
+  [
+   5,
+   14,
+   1.0,
+   0.231,
+   0.0
+  ],
+  [
+   5,
+   15,
+   2.0,
+   0.538,
+   0.571
+  ],
+  [
+   5,
+   16,
+   2.0,
+   0.615,
+   0.8
+  ],
+  [
+   5,
+   17,
+   1.0,
+   0.308,
+   0.0
+  ],
+  [
+   6,
+   7,
+   3.0,
+   0.462,
+   0.636
+  ],
+  [
+   6,
+   8,
+   3.0,
+   0.538,
+   0.833
+  ],
+  [
+   6,
+   9,
+   5.0,
+   1.0,
+   0.909
+  ],
+  [
+   6,
+   11,
+   4.0,
+   0.769,
+   0.917
+  ],
+  [
+   6,
+   12,
+   1.0,
+   0.154,
+   0.667
+  ],
+  [
+   6,
+   13,
+   4.0,
+   0.846,
+   0.917
+  ],
+  [
+   6,
+   14,
+   3.0,
+   0.615,
+   0.75
+  ],
+  [
+   6,
+   15,
+   2.0,
+   0.308,
+   0.714
+  ],
+  [
+   6,
+   16,
+   1.0,
+   0.231,
+   0.0
+  ],
+  [
+   6,
+   17,
+   2.0,
+   0.385,
+   0.571
+  ],
+  [
+   7,
+   8,
+   4.0,
+   0.909,
+   1.0
+  ],
+  [
+   7,
+   9,
+   5.0,
+   1.0,
+   1.0
+  ],
+  [
+   7,
+   11,
+   3.0,
+   0.727,
+   0.75
+  ],
+  [
+   7,
+   13,
+   3.0,
+   0.818,
+   0.75
+  ],
+  [
+   7,
+   14,
+   1.0,
+   0.182,
+   0.125
+  ],
+  [
+   7,
+   15,
+   1.0,
+   0.273,
+   0.143
+  ],
+  [
+   7,
+   16,
+   1.0,
+   0.364,
+   0.1
+  ],
+  [
+   8,
+   9,
+   3.0,
+   0.917,
+   0.545
+  ],
+  [
+   8,
+   11,
+   1.0,
+   0.25,
+   0.25
+  ],
+  [
+   8,
+   12,
+   1.0,
+   0.333,
+   1.0
+  ],
+  [
+   8,
+   13,
+   1.0,
+   0.417,
+   0.25
+  ],
+  [
+   8,
+   14,
+   1.0,
+   0.5,
+   0.25
+  ],
+  [
+   8,
+   16,
+   1.0,
+   0.583,
+   0.2
+  ],
+  [
+   8,
+   17,
+   1.0,
+   0.667,
+   0.143
+  ],
+  [
+   9,
+   11,
+   3.0,
+   0.636,
+   0.833
+  ],
+  [
+   9,
+   13,
+   3.0,
+   0.727,
+   0.833
+  ],
+  [
+   9,
+   14,
+   3.0,
+   0.818,
+   0.875
+  ],
+  [
+   9,
+   15,
+   1.0,
+   0.182,
+   0.286
+  ],
+  [
+   9,
+   17,
+   2.0,
+   0.273,
+   0.714
+  ],
+  [
+   10,
+   11,
+   1.0,
+   0.5,
+   0.333
+  ],
+  [
+   10,
+   13,
+   1.0,
+   1.0,
+   0.333
+  ],
+  [
+   11,
+   13,
+   7.0,
+   1.0,
+   1.0
+  ],
+  [
+   11,
+   15,
+   2.0,
+   0.583,
+   0.857
+  ],
+  [
+   11,
+   16,
+   1.0,
+   0.417,
+   0.3
+  ],
+  [
+   13,
+   15,
+   2.0,
+   0.583,
+   1.0
+  ],
+  [
+   13,
+   16,
+   1.0,
+   0.417,
+   0.4
+  ],
+  [
+   14,
+   16,
+   1.0,
+   0.375,
+   0.5
+  ],
+  [
+   14,
+   17,
+   4.0,
+   1.0,
+   1.0
+  ],
+  [
+   14,
+   18,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   15,
+   16,
+   1.0,
+   0.429,
+   0.6
+  ],
+  [
+   16,
+   17,
+   2.0,
+   0.9,
+   0.857
+  ],
+  [
+   16,
+   18,
+   1.0,
+   0.7,
+   0.5
+  ],
+  [
+   17,
+   18,
+   1.0,
+   0.286,
+   1.0
+  ]
+ ],
+ "playable": [
+  2,
+  3,
+  5,
+  6,
+  7,
+  8,
+  9,
+  11,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.415
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.504
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.668
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.716
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.522
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.46
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.687
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.516
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0013",
+   "you": 13,
+   "startRadius": 1,
+   "ease": 0.54
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.478
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0015",
+   "you": 15,
+   "startRadius": 1,
+   "ease": 0.435
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0016",
+   "you": 16,
+   "startRadius": 1,
+   "ease": 0.466
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice-p0017",
+   "you": 17,
+   "startRadius": 1,
+   "ease": 0.452
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

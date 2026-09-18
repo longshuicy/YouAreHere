@@ -1,0 +1,1240 @@
+{
+ "id": "shakespeare-measure-for-measure",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Measure for Measure."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Measure for Measure."
+  }
+ },
+ "edges": {
+  "0-2": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "0-5": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "0-11": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "0-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "0-16": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "0-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "0-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-7": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-8": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-13": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "1-20": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "2-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "2-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "2-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "3-5": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "3-7": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "3-8": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "3-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "3-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "3-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "4-11": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "4-15": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "5-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "5-16": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "5-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "5-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "6-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "7-10": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "7-13": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "7-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "7-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "7-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "8-13": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "8-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "8-15": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "8-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "8-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "9-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "9-15": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "9-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "10-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "10-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "11-15": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "11-17": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "11-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "11-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "11-20": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "12-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "13-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "13-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "14-15": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "14-17": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "14-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "14-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "14-20": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "15-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "16-18": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "16-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "18-19": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  },
+  "19-20": {
+   "facts": {
+    "books": [
+     "Measure for Measure"
+    ],
+    "first": "Measure for Measure",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Measure for Measure."
+  }
+ },
+ "sources": []
+}

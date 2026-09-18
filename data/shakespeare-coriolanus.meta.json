@@ -1,0 +1,716 @@
+{
+ "id": "shakespeare-coriolanus",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Coriolanus."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Coriolanus."
+  }
+ },
+ "edges": {
+  "0-2": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "0-10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "0-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "0-12": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "1-2": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "1-4": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "1-5": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "1-7": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "1-8": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "2-5": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "2-7": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "2-8": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "3-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "4-7": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "4-8": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "4-9": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "4-10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "4-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "5-7": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "5-8": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "7-9": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "7-10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "10-11": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "Coriolanus"
+    ],
+    "first": "Coriolanus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Coriolanus."
+  }
+ },
+ "sources": []
+}

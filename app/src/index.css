@@ -79,6 +79,12 @@ button {
 
 /* A marginal link. Same small tracked mono as an annotation, but ruled so it
    reads as something to press — unruled, these were invisible as controls. */
+/* Margin links.
+   The rule is drawn under the text, but the target extends above and below it:
+   at 10px type with 3px of padding the hit area was about thirteen pixels tall,
+   so the pointer showed a hand over a band too thin to reliably be inside, and
+   the hover state mostly never arrived. The padding here is the clickable area;
+   the underline stays tight to the words. */
 .annot-link {
   font-family: var(--mono);
   font-size: 10px;
@@ -88,13 +94,16 @@ button {
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--leader);
-  padding: 0 1px 3px 1px;
+  padding: 9px 3px 5px 3px;
   cursor: pointer;
+  transition: color 90ms ease, border-bottom-color 90ms ease;
 }
 
-.annot-link:hover {
+.annot-link:hover,
+.annot-link:focus-visible {
   color: var(--accent);
   border-bottom-color: var(--accent);
+  outline: none;
 }
 
 .field-label {
@@ -149,8 +158,24 @@ button {
   cursor: pointer;
 }
 
-.action-quiet:hover {
+.action-quiet:hover,
+.action-quiet:focus-visible {
   color: var(--accent);
+  outline: none;
+}
+
+/* The quiet action where nothing around it says it is clickable — a hairline
+   under the words, at the muted weight. `Wake anywhere instead` sits alone under
+   a list of things that are obviously buttons, and without a rule it read as a
+   caption on them. */
+.action-quiet.ruled {
+  border-bottom: 1px solid var(--leader);
+  padding-bottom: 8px;
+}
+
+.action-quiet.ruled:hover,
+.action-quiet.ruled:focus-visible {
+  border-bottom-color: var(--accent);
 }
 
 /* Fields are a serif line over a rule — no boxes here either. */
@@ -182,4 +207,55 @@ button {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
   }
+}
+
+/* The difficulty scale: a hairline rule with a single accent mark on it.
+   Nothing here is a box or a track with a fill — it is the same hairline the
+   actions and fields sit on, with the thumb reading as a mark made on it. */
+.ease {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ease:focus {
+  outline: none;
+}
+
+.ease::-webkit-slider-runnable-track {
+  height: 1px;
+  background: var(--rule);
+}
+
+.ease::-moz-range-track {
+  height: 1px;
+  background: var(--rule);
+}
+
+.ease::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 9px;
+  height: 9px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: none;
+}
+
+.ease::-moz-range-thumb {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: none;
+}
+
+.ease:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 3px rgba(140, 47, 42, 0.22);
+}
+
+.ease:focus-visible::-moz-range-thumb {
+  box-shadow: 0 0 0 3px rgba(140, 47, 42, 0.22);
 }

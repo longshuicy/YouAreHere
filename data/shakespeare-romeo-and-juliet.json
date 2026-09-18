@@ -1,0 +1,1122 @@
+{
+ "id": "shakespeare-romeo-and-juliet",
+ "title": "Romeo and Juliet",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Apothecary",
+   "x": 600.0,
+   "y": -246.6
+  },
+  {
+   "i": 1,
+   "n": "Benvolio",
+   "x": -149.0,
+   "y": 29.2
+  },
+  {
+   "i": 2,
+   "n": "Capulet",
+   "x": 83.6,
+   "y": -8.1
+  },
+  {
+   "i": 3,
+   "n": "Friar Lawrence",
+   "x": 83.6,
+   "y": -282.3
+  },
+  {
+   "i": 4,
+   "n": "Juliet",
+   "x": 10.9,
+   "y": -181.3
+  },
+  {
+   "i": 5,
+   "n": "Lady Capulet",
+   "x": -62.3,
+   "y": -28.7
+  },
+  {
+   "i": 6,
+   "n": "Lady Montague",
+   "x": -39.5,
+   "y": 343.2
+  },
+  {
+   "i": 7,
+   "n": "Mercutio",
+   "x": -296.3,
+   "y": -87.3
+  },
+  {
+   "i": 8,
+   "n": "Montague",
+   "x": 53.5,
+   "y": 104.4
+  },
+  {
+   "i": 9,
+   "n": "Nurse",
+   "x": -124.3,
+   "y": -204.4
+  },
+  {
+   "i": 10,
+   "n": "Paris",
+   "x": 143.1,
+   "y": -184.5
+  },
+  {
+   "i": 11,
+   "n": "Petruchio",
+   "x": -370.5,
+   "y": 118.3
+  },
+  {
+   "i": 12,
+   "n": "Escalus",
+   "x": -30.9,
+   "y": 99.9
+  },
+  {
+   "i": 13,
+   "n": "Romeo",
+   "x": 17.2,
+   "y": -46.7
+  },
+  {
+   "i": 14,
+   "n": "Gregory",
+   "x": -147.8,
+   "y": 309.3
+  },
+  {
+   "i": 15,
+   "n": "Peter",
+   "x": -151.4,
+   "y": -350.4
+  },
+  {
+   "i": 16,
+   "n": "Sampson",
+   "x": 68.7,
+   "y": 329.2
+  },
+  {
+   "i": 17,
+   "n": "Abram",
+   "x": 156.6,
+   "y": 255.6
+  },
+  {
+   "i": 18,
+   "n": "Balthasar",
+   "x": 307.3,
+   "y": -114.5
+  },
+  {
+   "i": 19,
+   "n": "Tybalt",
+   "x": -152.5,
+   "y": 145.8
+  }
+ ],
+ "edges": [
+  [
+   0,
+   13,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   18,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   1,
+   2,
+   3.0,
+   0.8,
+   0.667
+  ],
+  [
+   1,
+   4,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   1,
+   5,
+   2.0,
+   0.533,
+   0.471
+  ],
+  [
+   1,
+   6,
+   1.0,
+   0.067,
+   0.0
+  ],
+  [
+   1,
+   7,
+   4.0,
+   0.933,
+   0.875
+  ],
+  [
+   1,
+   8,
+   2.0,
+   0.6,
+   0.667
+  ],
+  [
+   1,
+   9,
+   2.0,
+   0.667,
+   0.333
+  ],
+  [
+   1,
+   10,
+   1.0,
+   0.133,
+   0.0
+  ],
+  [
+   1,
+   11,
+   1.0,
+   0.2,
+   0.0
+  ],
+  [
+   1,
+   12,
+   2.0,
+   0.733,
+   0.667
+  ],
+  [
+   1,
+   13,
+   7.0,
+   1.0,
+   1.0
+  ],
+  [
+   1,
+   14,
+   1.0,
+   0.267,
+   0.0
+  ],
+  [
+   1,
+   15,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   1,
+   16,
+   1.0,
+   0.4,
+   0.0
+  ],
+  [
+   1,
+   17,
+   1.0,
+   0.467,
+   0.0
+  ],
+  [
+   1,
+   19,
+   3.0,
+   0.867,
+   0.923
+  ],
+  [
+   2,
+   3,
+   2.0,
+   0.4,
+   0.444
+  ],
+  [
+   2,
+   4,
+   4.0,
+   0.733,
+   0.7
+  ],
+  [
+   2,
+   5,
+   7.0,
+   1.0,
+   1.0
+  ],
+  [
+   2,
+   6,
+   1.0,
+   0.0,
+   0.111
+  ],
+  [
+   2,
+   8,
+   2.0,
+   0.467,
+   0.733
+  ],
+  [
+   2,
+   9,
+   5.0,
+   0.867,
+   0.667
+  ],
+  [
+   2,
+   10,
+   4.0,
+   0.8,
+   1.0
+  ],
+  [
+   2,
+   12,
+   2.0,
+   0.533,
+   0.733
+  ],
+  [
+   2,
+   13,
+   5.0,
+   0.933,
+   0.833
+  ],
+  [
+   2,
+   14,
+   1.0,
+   0.067,
+   0.111
+  ],
+  [
+   2,
+   15,
+   1.0,
+   0.133,
+   0.143
+  ],
+  [
+   2,
+   16,
+   1.0,
+   0.2,
+   0.111
+  ],
+  [
+   2,
+   17,
+   1.0,
+   0.267,
+   0.111
+  ],
+  [
+   2,
+   18,
+   1.0,
+   0.333,
+   0.125
+  ],
+  [
+   2,
+   19,
+   2.0,
+   0.6,
+   0.615
+  ],
+  [
+   3,
+   4,
+   3.0,
+   0.778,
+   0.6
+  ],
+  [
+   3,
+   5,
+   2.0,
+   0.556,
+   0.529
+  ],
+  [
+   3,
+   8,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   3,
+   9,
+   2.0,
+   0.667,
+   0.444
+  ],
+  [
+   3,
+   10,
+   3.0,
+   0.889,
+   0.8
+  ],
+  [
+   3,
+   12,
+   1.0,
+   0.111,
+   0.0
+  ],
+  [
+   3,
+   13,
+   4.0,
+   1.0,
+   0.667
+  ],
+  [
+   3,
+   15,
+   1.0,
+   0.222,
+   0.286
+  ],
+  [
+   3,
+   18,
+   1.0,
+   0.333,
+   0.25
+  ],
+  [
+   4,
+   5,
+   5.0,
+   0.8,
+   0.882
+  ],
+  [
+   4,
+   8,
+   1.0,
+   0.1,
+   0.067
+  ],
+  [
+   4,
+   9,
+   7.0,
+   1.0,
+   1.0
+  ],
+  [
+   4,
+   10,
+   2.0,
+   0.5,
+   0.6
+  ],
+  [
+   4,
+   12,
+   1.0,
+   0.2,
+   0.067
+  ],
+  [
+   4,
+   13,
+   5.0,
+   0.9,
+   0.889
+  ],
+  [
+   4,
+   18,
+   1.0,
+   0.3,
+   0.375
+  ],
+  [
+   4,
+   19,
+   1.0,
+   0.4,
+   0.0
+  ],
+  [
+   5,
+   6,
+   1.0,
+   0.0,
+   0.222
+  ],
+  [
+   5,
+   7,
+   1.0,
+   0.059,
+   0.0
+  ],
+  [
+   5,
+   8,
+   3.0,
+   0.647,
+   0.867
+  ],
+  [
+   5,
+   9,
+   5.0,
+   0.941,
+   0.778
+  ],
+  [
+   5,
+   10,
+   3.0,
+   0.706,
+   0.9
+  ],
+  [
+   5,
+   11,
+   1.0,
+   0.118,
+   0.167
+  ],
+  [
+   5,
+   12,
+   3.0,
+   0.765,
+   0.867
+  ],
+  [
+   5,
+   13,
+   4.0,
+   0.824,
+   0.722
+  ],
+  [
+   5,
+   14,
+   1.0,
+   0.176,
+   0.222
+  ],
+  [
+   5,
+   15,
+   1.0,
+   0.235,
+   0.429
+  ],
+  [
+   5,
+   16,
+   1.0,
+   0.294,
+   0.222
+  ],
+  [
+   5,
+   17,
+   1.0,
+   0.353,
+   0.222
+  ],
+  [
+   5,
+   18,
+   1.0,
+   0.412,
+   0.5
+  ],
+  [
+   5,
+   19,
+   2.0,
+   0.588,
+   0.692
+  ],
+  [
+   6,
+   8,
+   1.0,
+   0.333,
+   0.133
+  ],
+  [
+   6,
+   12,
+   1.0,
+   0.444,
+   0.133
+  ],
+  [
+   6,
+   13,
+   1.0,
+   0.556,
+   0.056
+  ],
+  [
+   6,
+   14,
+   1.0,
+   0.667,
+   0.333
+  ],
+  [
+   6,
+   16,
+   1.0,
+   0.778,
+   0.333
+  ],
+  [
+   6,
+   17,
+   1.0,
+   0.889,
+   0.333
+  ],
+  [
+   6,
+   19,
+   1.0,
+   1.0,
+   0.077
+  ],
+  [
+   7,
+   8,
+   1.0,
+   0.125,
+   0.2
+  ],
+  [
+   7,
+   9,
+   1.0,
+   0.25,
+   0.0
+  ],
+  [
+   7,
+   11,
+   1.0,
+   0.375,
+   0.333
+  ],
+  [
+   7,
+   12,
+   1.0,
+   0.5,
+   0.2
+  ],
+  [
+   7,
+   13,
+   4.0,
+   1.0,
+   0.778
+  ],
+  [
+   7,
+   15,
+   1.0,
+   0.625,
+   0.571
+  ],
+  [
+   7,
+   19,
+   1.0,
+   0.75,
+   0.154
+  ],
+  [
+   8,
+   10,
+   1.0,
+   0.267,
+   0.1
+  ],
+  [
+   8,
+   11,
+   1.0,
+   0.333,
+   0.5
+  ],
+  [
+   8,
+   12,
+   3.0,
+   0.933,
+   0.933
+  ],
+  [
+   8,
+   13,
+   3.0,
+   1.0,
+   0.5
+  ],
+  [
+   8,
+   14,
+   1.0,
+   0.4,
+   0.444
+  ],
+  [
+   8,
+   16,
+   1.0,
+   0.467,
+   0.444
+  ],
+  [
+   8,
+   17,
+   1.0,
+   0.533,
+   0.444
+  ],
+  [
+   8,
+   18,
+   1.0,
+   0.6,
+   0.625
+  ],
+  [
+   8,
+   19,
+   2.0,
+   0.8,
+   0.769
+  ],
+  [
+   9,
+   10,
+   1.0,
+   0.111,
+   0.2
+  ],
+  [
+   9,
+   13,
+   5.0,
+   0.889,
+   0.944
+  ],
+  [
+   9,
+   15,
+   2.0,
+   0.556,
+   1.0
+  ],
+  [
+   9,
+   19,
+   1.0,
+   0.222,
+   0.231
+  ],
+  [
+   10,
+   12,
+   1.0,
+   0.3,
+   0.267
+  ],
+  [
+   10,
+   13,
+   2.0,
+   0.7,
+   0.389
+  ],
+  [
+   10,
+   15,
+   1.0,
+   0.4,
+   0.714
+  ],
+  [
+   10,
+   18,
+   1.0,
+   0.5,
+   0.75
+  ],
+  [
+   11,
+   12,
+   1.0,
+   0.667,
+   0.333
+  ],
+  [
+   11,
+   13,
+   1.0,
+   0.833,
+   0.111
+  ],
+  [
+   11,
+   19,
+   1.0,
+   1.0,
+   0.308
+  ],
+  [
+   12,
+   13,
+   3.0,
+   1.0,
+   0.556
+  ],
+  [
+   12,
+   14,
+   1.0,
+   0.4,
+   0.556
+  ],
+  [
+   12,
+   16,
+   1.0,
+   0.467,
+   0.556
+  ],
+  [
+   12,
+   17,
+   1.0,
+   0.533,
+   0.556
+  ],
+  [
+   12,
+   18,
+   1.0,
+   0.6,
+   0.875
+  ],
+  [
+   12,
+   19,
+   2.0,
+   0.8,
+   0.846
+  ],
+  [
+   13,
+   14,
+   1.0,
+   0.167,
+   0.667
+  ],
+  [
+   13,
+   15,
+   1.0,
+   0.222,
+   0.857
+  ],
+  [
+   13,
+   16,
+   1.0,
+   0.278,
+   0.667
+  ],
+  [
+   13,
+   17,
+   1.0,
+   0.333,
+   0.667
+  ],
+  [
+   13,
+   18,
+   2.0,
+   0.444,
+   1.0
+  ],
+  [
+   13,
+   19,
+   3.0,
+   0.611,
+   1.0
+  ],
+  [
+   14,
+   16,
+   1.0,
+   0.778,
+   0.778
+  ],
+  [
+   14,
+   17,
+   1.0,
+   0.889,
+   0.778
+  ],
+  [
+   14,
+   19,
+   1.0,
+   1.0,
+   0.385
+  ],
+  [
+   16,
+   17,
+   1.0,
+   0.889,
+   0.889
+  ],
+  [
+   16,
+   19,
+   1.0,
+   1.0,
+   0.462
+  ],
+  [
+   17,
+   19,
+   1.0,
+   1.0,
+   0.538
+  ]
+ ],
+ "playable": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-romeo-and-juliet-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.538
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.659
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.418
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.545
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.75
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.268
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.461
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.446
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.556
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.444
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.326
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.469
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0013",
+   "you": 13,
+   "startRadius": 1,
+   "ease": 0.766
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.29
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0015",
+   "you": 15,
+   "startRadius": 1,
+   "ease": 0.339
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0016",
+   "you": 16,
+   "startRadius": 1,
+   "ease": 0.313
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0017",
+   "you": 17,
+   "startRadius": 1,
+   "ease": 0.335
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0018",
+   "you": 18,
+   "startRadius": 1,
+   "ease": 0.394
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet-p0019",
+   "you": 19,
+   "startRadius": 1,
+   "ease": 0.432
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

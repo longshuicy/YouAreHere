@@ -80,7 +80,7 @@ export function NodeMenu({
         strokeWidth={1}
         strokeDasharray="2 3"
       />
-      <foreignObject x={menuX} y={cy - 26} width={MENU_W} height={260} style={{ overflow: 'visible' }}>
+      <foreignObject x={menuX} y={cy - 26} width={MENU_W} height={320} style={{ overflow: 'visible' }}>
         <div
           onMouseEnter={onPointerEnter}
           onMouseLeave={onPointerLeave}
@@ -113,7 +113,7 @@ export function NodeMenu({
               }}
             >
               <span className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
-                I know who I am
+                I've found myself
               </span>
               <span style={{ fontFamily: 'var(--serif)', fontSize: 14, fontStyle: 'italic' }}>free</span>
             </button>
@@ -127,6 +127,7 @@ export function NodeMenu({
                 lineHeight: 1.45,
                 color: 'var(--body)',
                 padding: '10px 0',
+                whiteSpace: 'normal',
                 borderBottom: actions.length > 0 ? '1px solid var(--rule)' : 'none',
               }}
             >

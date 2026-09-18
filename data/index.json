@@ -1,35 +1,687 @@
 {
  "pipelineVersion": "0.1.0-thin",
- "banded": false,
+ "easeBuckets": 10,
  "universes": [
   {
    "id": "asoiaf",
    "file": "asoiaf.json",
+   "title": "A Song of Ice and Fire",
    "nodes": 592,
    "edges": 2619,
    "playable": {
-    "total": 169,
-    "unbanded": 169
+    "total": 225,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     3,
+     59,
+     127,
+     33,
+     3,
+     0
+    ]
    }
   },
   {
-   "id": "shakespeare",
-   "file": "shakespeare.json",
-   "nodes": 845,
-   "edges": 4598,
+   "id": "bible",
+   "file": "bible.json",
+   "title": "The Bible",
+   "nodes": 726,
+   "edges": 2987,
    "playable": {
-    "total": 322,
-    "unbanded": 322
+    "total": 339,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     14,
+     137,
+     142,
+     41,
+     5,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-a-midsummer-nights-dream",
+   "file": "shakespeare-a-midsummer-nights-dream.json",
+   "title": "A Midsummer Night’s Dream",
+   "nodes": 22,
+   "edges": 181,
+   "playable": {
+    "total": 21,
+    "histogram": [
+     0,
+     0,
+     5,
+     5,
+     5,
+     4,
+     2,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well",
+   "file": "shakespeare-alls-well-that-ends-well.json",
+   "title": "All’s Well That Ends Well",
+   "nodes": 19,
+   "edges": 77,
+   "playable": {
+    "total": 12,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     4,
+     5,
+     3,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-as-you-like-it",
+   "file": "shakespeare-as-you-like-it.json",
+   "title": "As You Like It",
+   "nodes": 23,
+   "edges": 96,
+   "playable": {
+    "total": 17,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     6,
+     8,
+     3,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-coriolanus",
+   "file": "shakespeare-coriolanus.json",
+   "title": "Coriolanus",
+   "nodes": 13,
+   "edges": 52,
+   "playable": {
+    "total": 9,
+    "histogram": [
+     0,
+     0,
+     0,
+     1,
+     3,
+     1,
+     2,
+     2,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-cymbeline",
+   "file": "shakespeare-cymbeline.json",
+   "title": "Cymbeline",
+   "nodes": 18,
+   "edges": 81,
+   "playable": {
+    "total": 13,
+    "histogram": [
+     0,
+     0,
+     0,
+     2,
+     5,
+     3,
+     2,
+     1,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-english-histories",
+   "file": "shakespeare-english-histories.json",
+   "title": "The English Histories",
+   "nodes": 254,
+   "edges": 1574,
+   "playable": {
+    "total": 182,
+    "histogram": [
+     0,
+     0,
+     0,
+     6,
+     43,
+     69,
+     57,
+     6,
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-hamlet",
+   "file": "shakespeare-hamlet.json",
+   "title": "Hamlet",
+   "nodes": 18,
+   "edges": 88,
+   "playable": {
+    "total": 15,
+    "histogram": [
+     0,
+     0,
+     0,
+     5,
+     2,
+     5,
+     2,
+     1,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-henry-viii",
+   "file": "shakespeare-henry-viii.json",
+   "title": "Henry VIII",
+   "nodes": 37,
+   "edges": 169,
+   "playable": {
+    "total": 26,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     5,
+     13,
+     8,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-king-john",
+   "file": "shakespeare-king-john.json",
+   "title": "King John",
+   "nodes": 25,
+   "edges": 145,
+   "playable": {
+    "total": 21,
+    "histogram": [
+     0,
+     0,
+     0,
+     6,
+     5,
+     7,
+     3,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-king-lear",
+   "file": "shakespeare-king-lear.json",
+   "title": "King Lear",
+   "nodes": 18,
+   "edges": 100,
+   "playable": {
+    "total": 15,
+    "histogram": [
+     0,
+     0,
+     0,
+     4,
+     6,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-loves-labors-lost",
+   "file": "shakespeare-loves-labors-lost.json",
+   "title": "Love’s Labor’s Lost",
+   "nodes": 18,
+   "edges": 129,
+   "playable": {
+    "total": 17,
+    "histogram": [
+     0,
+     0,
+     3,
+     5,
+     4,
+     2,
+     2,
+     1,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-macbeth",
+   "file": "shakespeare-macbeth.json",
+   "title": "Macbeth",
+   "nodes": 16,
+   "edges": 58,
+   "playable": {
+    "total": 12,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     5,
+     4,
+     3,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-measure-for-measure",
+   "file": "shakespeare-measure-for-measure.json",
+   "title": "Measure for Measure",
+   "nodes": 21,
+   "edges": 91,
+   "playable": {
+    "total": 16,
+    "histogram": [
+     0,
+     0,
+     0,
+     1,
+     3,
+     11,
+     1,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing",
+   "file": "shakespeare-much-ado-about-nothing.json",
+   "title": "Much Ado About Nothing",
+   "nodes": 22,
+   "edges": 130,
+   "playable": {
+    "total": 22,
+    "histogram": [
+     0,
+     0,
+     2,
+     7,
+     6,
+     5,
+     2,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-othello",
+   "file": "shakespeare-othello.json",
+   "title": "Othello",
+   "nodes": 12,
+   "edges": 55,
+   "playable": {
+    "total": 11,
+    "histogram": [
+     0,
+     0,
+     0,
+     3,
+     3,
+     0,
+     1,
+     4,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-pericles",
+   "file": "shakespeare-pericles.json",
+   "title": "Pericles",
+   "nodes": 21,
+   "edges": 55,
+   "playable": {
+    "total": 5,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     4,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-rome",
+   "file": "shakespeare-rome.json",
+   "title": "Shakespeare's Rome",
+   "nodes": 59,
+   "edges": 332,
+   "playable": {
+    "total": 52,
+    "histogram": [
+     0,
+     0,
+     0,
+     8,
+     17,
+     19,
+     8,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-romeo-and-juliet",
+   "file": "shakespeare-romeo-and-juliet.json",
+   "title": "Romeo and Juliet",
+   "nodes": 20,
+   "edges": 116,
+   "playable": {
+    "total": 19,
+    "histogram": [
+     0,
+     0,
+     2,
+     5,
+     6,
+     3,
+     1,
+     2,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-the-comedy-of-errors",
+   "file": "shakespeare-the-comedy-of-errors.json",
+   "title": "The Comedy of Errors",
+   "nodes": 18,
+   "edges": 101,
+   "playable": {
+    "total": 16,
+    "histogram": [
+     0,
+     0,
+     0,
+     6,
+     5,
+     2,
+     3,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-the-merchant-of-venice",
+   "file": "shakespeare-the-merchant-of-venice.json",
+   "title": "The Merchant of Venice",
+   "nodes": 19,
+   "edges": 84,
+   "playable": {
+    "total": 13,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     6,
+     4,
+     2,
+     1,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew",
+   "file": "shakespeare-the-taming-of-the-shrew.json",
+   "title": "The Taming of the Shrew",
+   "nodes": 18,
+   "edges": 95,
+   "playable": {
+    "total": 18,
+    "histogram": [
+     0,
+     0,
+     1,
+     5,
+     6,
+     3,
+     2,
+     1,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-the-tempest",
+   "file": "shakespeare-the-tempest.json",
+   "title": "The Tempest",
+   "nodes": 15,
+   "edges": 84,
+   "playable": {
+    "total": 14,
+    "histogram": [
+     0,
+     0,
+     1,
+     5,
+     4,
+     1,
+     3,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-the-winters-tale",
+   "file": "shakespeare-the-winters-tale.json",
+   "title": "The Winter's Tale",
+   "nodes": 21,
+   "edges": 91,
+   "playable": {
+    "total": 16,
+    "histogram": [
+     0,
+     0,
+     0,
+     1,
+     6,
+     6,
+     3,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-timon-of-athens",
+   "file": "shakespeare-timon-of-athens.json",
+   "title": "Timon of Athens",
+   "nodes": 24,
+   "edges": 115,
+   "playable": {
+    "total": 21,
+    "histogram": [
+     0,
+     0,
+     0,
+     3,
+     7,
+     9,
+     2,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-titus-andronicus",
+   "file": "shakespeare-titus-andronicus.json",
+   "title": "Titus Andronicus",
+   "nodes": 22,
+   "edges": 135,
+   "playable": {
+    "total": 19,
+    "histogram": [
+     0,
+     0,
+     0,
+     7,
+     5,
+     5,
+     2,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-troilus-and-cressida",
+   "file": "shakespeare-troilus-and-cressida.json",
+   "title": "Troilus and Cressida",
+   "nodes": 28,
+   "edges": 150,
+   "playable": {
+    "total": 20,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     9,
+     7,
+     4,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-twelfth-night",
+   "file": "shakespeare-twelfth-night.json",
+   "title": "Twelfth Night",
+   "nodes": 14,
+   "edges": 69,
+   "playable": {
+    "total": 12,
+    "histogram": [
+     0,
+     0,
+     0,
+     3,
+     2,
+     4,
+     1,
+     2,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona",
+   "file": "shakespeare-two-gentlemen-of-verona.json",
+   "title": "Two Gentlemen of Verona",
+   "nodes": 15,
+   "edges": 65,
+   "playable": {
+    "total": 12,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     5,
+     4,
+     3,
+     0,
+     0,
+     0
+    ]
    }
   },
   {
    "id": "starwars",
    "file": "starwars.json",
+   "title": "Star Wars",
    "nodes": 103,
    "edges": 441,
    "playable": {
-    "total": 32,
-    "unbanded": 32
+    "total": 47,
+    "histogram": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     20,
+     24,
+     3,
+     0,
+     0
+    ]
    }
   }
  ]

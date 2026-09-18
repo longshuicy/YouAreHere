@@ -1,0 +1,1866 @@
+{
+ "id": "shakespeare-king-john",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in King John."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  },
+  "21": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "23": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King John."
+  },
+  "24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King John."
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-2": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-3": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-4": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-5": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-7": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-8": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-11": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-13": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-18": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-19": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "0-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-2": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-4": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-5": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-7": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-8": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-18": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "1-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-5": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-7": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-8": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-13": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-16": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-18": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-19": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-20": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-21": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-23": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "2-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "3-13": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "3-19": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "3-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-5": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-7": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-8": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-11": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-18": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "4-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "5-7": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "5-8": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "5-12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "5-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "5-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "5-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "6-23": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "7-12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "7-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "7-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "7-18": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "7-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "7-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "8-12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "8-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "8-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "8-18": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "8-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "8-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "9-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "9-16": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "9-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "9-23": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "10-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "10-16": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "10-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "10-23": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "11-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "11-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "12-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "12-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "12-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "13-14": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "13-19": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "13-20": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "13-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "13-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "14-15": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "14-16": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "14-18": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "14-19": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "14-20": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "14-21": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "14-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "14-23": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "14-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "15-18": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "15-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "15-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "16-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "16-23": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "17-19": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "17-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "18-22": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "18-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "19-20": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "19-21": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "19-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "20-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "21-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "22-23": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  },
+  "22-24": {
+   "facts": {
+    "books": [
+     "King John"
+    ],
+    "first": "King John",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King John."
+  }
+ },
+ "sources": []
+}

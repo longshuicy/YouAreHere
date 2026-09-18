@@ -68,6 +68,7 @@ Waking repeatedly in one novel is a better fantasy than shuffling. You are not s
 | Expand | one node's neighbours | 1 | clue |
 | Facts | what is known of *another* character — books, titles, allegiances, dates | 2 | clue |
 | Name | one neighbour's name | 3 | clue |
+| Story | which story this is | 2 | clue |
 
 **Free, always:** every tie's strength, and node size, which encodes degree.
 
@@ -75,17 +76,21 @@ Waking repeatedly in one novel is a better fantasy than shuffling. You are not s
 
 **Facts took its slot.** It returns the discrete attributes the enrichment sidecar already holds for a character — *Ser, Westerlands, sworn to House Lannister of Casterly Rock; appears in all five books, three of them through his eyes* — without naming them. It is the middle rung the economy was missing: structure is free, a name is decisive, and a reading is the step between. It is also the most informative thing you can buy for 2, and the cost may want to rise to 3 once anyone has played a full session.
 
-**Nothing about your own node is for sale.** Naming yourself, or reading your own facts, is just answering the question. So your node's menu carries exactly one entry — `I KNOW WHO I AM · free` — which opens the guess. The action that used to hide in the margin is now attached to the thing it is about, and the marginal link is set in the accent at a weight nothing else on the screen carries.
+**Nothing about your own node is for sale.** Naming yourself, or reading your own facts, is just answering the question. So your node's menu carries exactly one entry — `I'VE FOUND MYSELF · free` — which opens the guess. The action that used to hide in the margin is now attached to the thing it is about, and the marginal link is set in the accent at a weight nothing else on the screen carries.
 
 **Ledger.** One line in the margin: `Information used: 4 clues`. A count, not a budget — a budget implies a fail state and makes players hoard.
 
 **There is one currency.** Locate was originally recorded as a *hint*, counted apart from clues, so a hinted run stayed distinguishable from a clean one. That was a second scoreboard nobody asked for: two numbers, neither of which was the score, and no way to compare a run against another run without comparing both. Everything costs clues, and the single number is what a player carries away.
 
-**Locate is gone, and the world is free.** It sold the name of the world for 2 clues. But guessing is free and a wrong guess costs nothing, so a player could work the story out from a short dropdown in a few free tries — paying for what trial gives away is not a trade, it is a tax on players who did not notice. So the world is now revealed by *naming it correctly*, which costs nothing and is half of the question the guess screen already asks. Get the story right and wrong the person, and the world and its one-line introduction appear on the explore screen and stay there.
+**The world can be reached three ways, and only one of them costs.** Name it correctly and it is free — that is an answer, not a purchase, and it is half of what the guess screen already asks. Choose it before play, from `CHOOSE A WORLD`, and it is free because there was never a question. Ask to be told, with `WHICH STORY IS THIS` in the margin, and it costs 2 clues. Whichever way it arrives, the world and its one-line introduction appear on the explore screen and stay there.
 
-That also fixes where it lived. Every other purchase hangs off a node, in the menu, attached to the thing it concerns; Locate was the only action floating in the chrome, and it was loudest at the start, when nobody wants it yet.
+> **Superseded 2026-09-18.** This section previously read *"Locate is gone, and the world is free"*, on the reasoning that guessing is free and a wrong guess costs nothing, so a player could work the story out from a short dropdown in a few free tries — and paying for what trial gives away is a tax on players who did not notice. That held at three worlds. At thirty-one, walking the dropdown is not deduction, it is clicking, and a shortcut past it is worth having. The old `Locate` is therefore back under a plainer name and at its old price.
+>
+> The note that used to sit here — *"if that starts to feel cheap, make a wrong story guess cost something"* — is still the right lever if the free route now feels too cheap. It has not been pulled.
 
-**Watch for:** this makes the story half of the question nearly free once more worlds ship, since a determined player can walk the dropdown. If that starts to feel cheap, the fix is to make a wrong *story* guess cost something — not to reinstate a purchase for information that trial hands over.
+**Priced below Name, deliberately.** A name usually gives the world away too, so the world on its own must not cost more than the thing that contains it.
+
+**It lives in the margin, and it is the only purchase that does.** Every other action hangs off a node, attached to the thing it concerns. This one is about the world rather than any character, and there is no node to hang it on. It disappears once the world is known by any route, so it is never offered when it has nothing to sell.
 
 **Name is the pivot.** One name usually gives the story away too, because a reader who recognises a character recognises the book. That is the design, not a leak: structure narrows the field, a name converts it to an answer, the ledger records how much structure you read before reaching for one.
 

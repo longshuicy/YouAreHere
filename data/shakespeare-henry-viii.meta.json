@@ -1,0 +1,2271 @@
+{
+ "id": "shakespeare-henry-viii",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "22": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "23": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "24": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "27": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "28": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "29": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "30": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "31": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "34": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "35": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  },
+  "36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Henry VIII."
+  }
+ },
+ "edges": {
+  "0-3": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "0-4": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "0-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "0-31": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "0-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "1-8": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "1-20": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "1-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "1-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "1-27": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "1-29": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "1-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "2-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "2-22": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "2-30": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "2-34": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "2-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "3-4": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "3-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "3-31": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "3-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "4-14": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "4-15": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "4-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "4-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "4-31": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "4-35": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "4-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-8": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-9": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-10": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-12": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-17": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-23": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "5-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-17": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-22": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-30": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-34": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "6-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "7-19": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "7-22": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "7-24": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-12": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-17": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-20": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-23": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-27": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-29": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "8-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "9-12": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "9-17": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "9-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "9-23": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "9-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "9-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "9-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-17": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-18": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-23": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-27": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-28": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "10-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "11-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "11-22": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "11-30": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "11-34": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "11-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "12-17": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "12-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "12-23": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "12-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "12-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "12-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "12-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "13-17": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "13-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "13-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "13-27": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "13-28": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "13-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "14-15": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "14-16": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "14-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "14-35": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "15-16": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "15-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "15-35": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "17-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "17-23": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "17-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "17-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "17-27": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "17-28": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "17-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "17-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "17-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "18-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "19-22": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "19-24": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "20-21": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "20-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "20-29": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "20-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-22": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-23": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-25": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-27": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-28": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-29": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-30": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-34": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "21-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "22-24": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "22-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "22-30": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "22-34": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "22-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "23-26": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "23-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "23-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "25-27": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "25-28": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "25-29": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "25-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "25-35": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "25-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "26-31": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "26-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "26-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "26-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "27-28": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "27-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "28-32": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "29-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "30-34": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "30-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "31-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "32-33": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "32-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "33-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  },
+  "34-36": {
+   "facts": {
+    "books": [
+     "Henry VIII"
+    ],
+    "first": "Henry VIII",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Henry VIII."
+  }
+ },
+ "sources": []
+}

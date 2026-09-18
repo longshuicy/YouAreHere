@@ -255,9 +255,28 @@ export function Stage({
             halfWidth={view.w / 2}
             session={session}
             factLine={activeNode ? (factLines?.get(activeNode.i) ?? null) : null}
-            onExpand={onExpand}
-            onFacts={onFacts}
-            onName={onName}
+            onExpand={(i) => {
+              cancelClose();
+              setPinned(i);
+              setHovered(i);
+              onExpand(i);
+            }}
+            onFacts={(i) => {
+              // Pin before the purchase lands: buying a reading used to unmount
+              // the Facts row (and insert the line above the remaining actions),
+              // which fired mouseleave, closed the menu, and hid the thing just
+              // paid for. The menu stays until the paper is clicked or Escape.
+              cancelClose();
+              setPinned(i);
+              setHovered(i);
+              onFacts(i);
+            }}
+            onName={(i) => {
+              cancelClose();
+              setPinned(i);
+              setHovered(i);
+              onName(i);
+            }}
             onOpenGuess={onOpenGuess ?? (() => {})}
             onPointerEnter={cancelClose}
             onPointerLeave={scheduleClose}

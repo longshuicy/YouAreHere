@@ -15,22 +15,41 @@ from dataclasses import dataclass
 from typing import Callable
 
 from .canon.types import CanonicalGraph
-from .ingest import asoiaf, shakespeare, starwars
+from .ingest import asoiaf, bible, shakespeare, starwars
 
 
 @dataclass(frozen=True)
 class Source:
+    """One dataset, and how to get a world out of it.
+
+    `split_components` is for corpora that are not one world. When set, every
+    connected component of at least `min_component_size` characters is emitted as
+    its own universe, and `name_component` says what each is called. A source
+    that leaves it false ships exactly one universe, as before.
+    """
+
     name: str
     load: Callable[[], CanonicalGraph]
     min_edge_weight: float
     min_degree: int
     min_component_size: int | None = None
+    split_components: bool = False
+    name_component: Callable[[set, set], tuple[str, str]] | None = None
 
 
 SOURCES: dict[str, Source] = {
     "asoiaf": Source(
         name="asoiaf",
         load=asoiaf.load,
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "bible": Source(
+        name="bible",
+        load=bible.load,
+        # A verse naming two people together is already a deliberate act of the
+        # text, so a single co-occurrence means something here in a way one
+        # sentence-window hit in a novel does not.
         min_edge_weight=1,
         min_degree=2,
     ),
@@ -45,8 +64,12 @@ SOURCES: dict[str, Source] = {
         load=shakespeare.load,
         min_edge_weight=1,
         min_degree=2,
-        # Plays barely share characters. Keeping only the giant component
-        # throws away Hamlet to save the Henry VI cycle.
+        # Plays barely share characters, so the corpus is 28 separate worlds
+        # rather than one. Keeping only the giant component would throw away
+        # Hamlet to save the Henry VI cycle; merging them all into one universe
+        # asks the player to name a corpus while showing them a play.
         min_component_size=8,
+        split_components=True,
+        name_component=shakespeare.name_component,
     ),
 }

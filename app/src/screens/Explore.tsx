@@ -17,6 +17,8 @@ interface Props {
   onOpenGuess: () => void;
   onOpenKey: () => void;
   onReveal: () => void;
+  onRevealStory: () => void;
+  onStartAgain: () => void;
   /** Shown in place of the question line once the story has been guessed right. */
   universeTitle: string;
   worldBlurb: string | null;
@@ -33,6 +35,8 @@ export function Explore({
   onOpenGuess,
   onOpenKey,
   onReveal,
+  onRevealStory,
+  onStartAgain,
   universeTitle,
   worldBlurb,
 }: Props) {
@@ -104,7 +108,7 @@ export function Explore({
               padding: '16px 10px 12px 10px',
             }}
           >
-            I know who I am
+            I've found myself
           </button>
         </div>
       </div>
@@ -123,7 +127,12 @@ export function Explore({
         }}
       >
         <LedgerBreakdown ledger={session.ledger} />
-        <MarginLinks onOpenKey={onOpenKey} onReveal={onReveal} />
+        <MarginLinks
+              onOpenKey={onOpenKey}
+              onReveal={onReveal}
+              onRevealStory={worldIsKnown(session) ? undefined : onRevealStory}
+              onStartAgain={onStartAgain}
+            />
       </div>
     </div>
   );

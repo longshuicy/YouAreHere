@@ -1,0 +1,562 @@
+{
+ "id": "shakespeare-coriolanus",
+ "title": "Coriolanus",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Aufidius",
+   "x": 183.0,
+   "y": 478.6
+  },
+  {
+   "i": 1,
+   "n": "Cominius",
+   "x": -175.1,
+   "y": -109.5
+  },
+  {
+   "i": 2,
+   "n": "Martius Coriolanus",
+   "x": -74.5,
+   "y": 195.8
+  },
+  {
+   "i": 3,
+   "n": "Gentlewoman",
+   "x": 600.0,
+   "y": -424.8
+  },
+  {
+   "i": 4,
+   "n": "Herald",
+   "x": -206.3,
+   "y": -385.4
+  },
+  {
+   "i": 5,
+   "n": "Lartius",
+   "x": -499.9,
+   "y": 227.0
+  },
+  {
+   "i": 6,
+   "n": "Menenius",
+   "x": -119.6,
+   "y": 54.9
+  },
+  {
+   "i": 7,
+   "n": "Brutus",
+   "x": -330.6,
+   "y": -102.7
+  },
+  {
+   "i": 8,
+   "n": "Sicinius",
+   "x": -295.9,
+   "y": 66.1
+  },
+  {
+   "i": 9,
+   "n": "Valeria",
+   "x": 95.0,
+   "y": -333.4
+  },
+  {
+   "i": 10,
+   "n": "Virgilia",
+   "x": 157.5,
+   "y": -89.5
+  },
+  {
+   "i": 11,
+   "n": "Volumnia",
+   "x": 143.5,
+   "y": 43.2
+  },
+  {
+   "i": 12,
+   "n": "Young Martius",
+   "x": 522.8,
+   "y": 379.8
+  }
+ ],
+ "edges": [
+  [
+   0,
+   2,
+   5.0,
+   1.0,
+   0.5
+  ],
+  [
+   0,
+   6,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   10,
+   1.0,
+   0.25,
+   0.0
+  ],
+  [
+   0,
+   11,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   0,
+   12,
+   1.0,
+   0.75,
+   0.0
+  ],
+  [
+   1,
+   2,
+   9.0,
+   0.875,
+   0.9
+  ],
+  [
+   1,
+   4,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   1,
+   5,
+   3.0,
+   0.375,
+   0.75
+  ],
+  [
+   1,
+   6,
+   9.0,
+   1.0,
+   0.667
+  ],
+  [
+   1,
+   7,
+   7.0,
+   0.625,
+   0.75
+  ],
+  [
+   1,
+   8,
+   7.0,
+   0.75,
+   0.75
+  ],
+  [
+   1,
+   9,
+   1.0,
+   0.125,
+   0.0
+  ],
+  [
+   1,
+   10,
+   2.0,
+   0.25,
+   0.4
+  ],
+  [
+   1,
+   11,
+   3.0,
+   0.5,
+   0.7
+  ],
+  [
+   2,
+   4,
+   1.0,
+   0.0,
+   0.143
+  ],
+  [
+   2,
+   5,
+   5.0,
+   0.6,
+   1.0
+  ],
+  [
+   2,
+   6,
+   9.0,
+   1.0,
+   0.778
+  ],
+  [
+   2,
+   7,
+   6.0,
+   0.7,
+   0.625
+  ],
+  [
+   2,
+   8,
+   6.0,
+   0.8,
+   0.625
+  ],
+  [
+   2,
+   9,
+   1.0,
+   0.1,
+   0.125
+  ],
+  [
+   2,
+   10,
+   3.0,
+   0.3,
+   0.8
+  ],
+  [
+   2,
+   11,
+   4.0,
+   0.4,
+   0.8
+  ],
+  [
+   2,
+   12,
+   1.0,
+   0.2,
+   0.333
+  ],
+  [
+   3,
+   9,
+   1.0,
+   0.0,
+   0.25
+  ],
+  [
+   3,
+   10,
+   1.0,
+   0.5,
+   0.1
+  ],
+  [
+   3,
+   11,
+   1.0,
+   1.0,
+   0.1
+  ],
+  [
+   4,
+   6,
+   1.0,
+   0.286,
+   0.111
+  ],
+  [
+   4,
+   7,
+   1.0,
+   0.429,
+   0.0
+  ],
+  [
+   4,
+   8,
+   1.0,
+   0.571,
+   0.0
+  ],
+  [
+   4,
+   9,
+   1.0,
+   0.714,
+   0.375
+  ],
+  [
+   4,
+   10,
+   1.0,
+   0.857,
+   0.2
+  ],
+  [
+   4,
+   11,
+   1.0,
+   1.0,
+   0.2
+  ],
+  [
+   5,
+   6,
+   2.0,
+   0.0,
+   0.333
+  ],
+  [
+   5,
+   7,
+   2.0,
+   0.25,
+   0.25
+  ],
+  [
+   5,
+   8,
+   2.0,
+   0.5,
+   0.25
+  ],
+  [
+   6,
+   7,
+   9.0,
+   0.889,
+   0.875
+  ],
+  [
+   6,
+   8,
+   10.0,
+   1.0,
+   1.0
+  ],
+  [
+   6,
+   9,
+   1.0,
+   0.222,
+   0.5
+  ],
+  [
+   6,
+   10,
+   3.0,
+   0.444,
+   0.9
+  ],
+  [
+   6,
+   11,
+   4.0,
+   0.556,
+   0.9
+  ],
+  [
+   7,
+   8,
+   9.0,
+   1.0,
+   0.875
+  ],
+  [
+   7,
+   9,
+   1.0,
+   0.125,
+   0.625
+  ],
+  [
+   7,
+   10,
+   2.0,
+   0.375,
+   0.5
+  ],
+  [
+   7,
+   11,
+   2.0,
+   0.5,
+   0.4
+  ],
+  [
+   8,
+   9,
+   1.0,
+   0.125,
+   0.75
+  ],
+  [
+   8,
+   10,
+   2.0,
+   0.375,
+   0.6
+  ],
+  [
+   8,
+   11,
+   2.0,
+   0.5,
+   0.5
+  ],
+  [
+   9,
+   10,
+   2.0,
+   0.875,
+   0.7
+  ],
+  [
+   9,
+   11,
+   2.0,
+   1.0,
+   0.6
+  ],
+  [
+   10,
+   11,
+   5.0,
+   1.0,
+   1.0
+  ],
+  [
+   10,
+   12,
+   1.0,
+   0.3,
+   0.667
+  ],
+  [
+   11,
+   12,
+   1.0,
+   0.3,
+   1.0
+  ]
+ ],
+ "playable": [
+  1,
+  2,
+  4,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-coriolanus-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.638
+  },
+  {
+   "id": "shakespeare-coriolanus-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.726
+  },
+  {
+   "id": "shakespeare-coriolanus-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.364
+  },
+  {
+   "id": "shakespeare-coriolanus-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.701
+  },
+  {
+   "id": "shakespeare-coriolanus-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.567
+  },
+  {
+   "id": "shakespeare-coriolanus-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.603
+  },
+  {
+   "id": "shakespeare-coriolanus-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.415
+  },
+  {
+   "id": "shakespeare-coriolanus-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.458
+  },
+  {
+   "id": "shakespeare-coriolanus-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.494
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

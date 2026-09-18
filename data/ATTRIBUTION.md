@@ -42,9 +42,31 @@ Used as follows:
 2. Resolved house allegiance URLs to house names.
 3. Composed original one-line descriptions from those attributes.
 
-## Shakespeare
+## The Bible
 
-*Shipped as `shakespeare.json` — 845 characters, 4598 ties.*
+*Shipped as `bible.json` — 726 characters, 2987 ties.*
+
+"The Holy Bible, King James Version (1769 Blayney edition)" by **Public domain text; digital edition via scrollmapper/bible_databases** (<https://github.com/scrollmapper>)
+
+- Source: <https://github.com/scrollmapper/bible_databases>
+- Project: <https://www.wikidata.org/>
+- Licence: [Public domain](https://en.wikipedia.org/wiki/Public_domain) (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+- Cite as: Text: King James Version, 1769 Blayney revision, public domain. Identification of persons: Wikidata (CC0 1.0), queried for biblical figures.
+
+Changes made to the original data:
+
+1. Built a character network from the text: two people are tied when a verse names both.
+2. Identified persons from Wikidata rather than from the text, so that places, peoples, and titles are never nodes.
+3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
+4. Blocked tribal and territorial eponyms, which name a people far more often than a person.
+5. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (1024 nodes and 3190 ties in, 726 and 2987 out).
+6. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+7. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+## Shakespeare Drama Corpus (DraCor)
+
+*Shipped as 28 worlds — 830 characters and 4518 ties in total, as `file` (characters/ties): `shakespeare-a-midsummer-nights-dream.json` (22/181), `shakespeare-alls-well-that-ends-well.json` (19/77), `shakespeare-as-you-like-it.json` (23/96), `shakespeare-coriolanus.json` (13/52), `shakespeare-cymbeline.json` (18/81), `shakespeare-english-histories.json` (254/1574), `shakespeare-hamlet.json` (18/88), `shakespeare-henry-viii.json` (37/169), `shakespeare-king-john.json` (25/145), `shakespeare-king-lear.json` (18/100), `shakespeare-loves-labors-lost.json` (18/129), `shakespeare-macbeth.json` (16/58), `shakespeare-measure-for-measure.json` (21/91), `shakespeare-much-ado-about-nothing.json` (22/130), `shakespeare-othello.json` (12/55), `shakespeare-pericles.json` (21/55), `shakespeare-rome.json` (59/332), `shakespeare-romeo-and-juliet.json` (20/116), `shakespeare-the-comedy-of-errors.json` (18/101), `shakespeare-the-merchant-of-venice.json` (19/84), `shakespeare-the-taming-of-the-shrew.json` (18/95), `shakespeare-the-tempest.json` (15/84), `shakespeare-the-winters-tale.json` (21/91), `shakespeare-timon-of-athens.json` (24/115), `shakespeare-titus-andronicus.json` (22/135), `shakespeare-troilus-and-cressida.json` (28/150), `shakespeare-twelfth-night.json` (14/69), `shakespeare-two-gentlemen-of-verona.json` (15/65).*
 
 "Shakespeare Drama Corpus (DraCor)" by **DraCor / Folger Shakespeare Library** (<https://dracor.org/>)
 
@@ -59,9 +81,11 @@ Changes made to the original data:
 1. Merged all 37 plays into one graph, summing scene co-presence across plays.
 2. Dropped group nodes (crowds, attendants) so a waking is always a person.
 3. Disambiguated repeated generic names (Messenger, Soldier) with the play title.
-4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (889 nodes and 4628 ties in, 845 and 4598 out).
-5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-6. Computed a force-directed layout for the full graph, used by the reveal animation.
+4. Dropped unnamed crowd roles that no play-level qualifier can tell apart.
+5. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).
+6. Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
 
 ## Star Wars
 

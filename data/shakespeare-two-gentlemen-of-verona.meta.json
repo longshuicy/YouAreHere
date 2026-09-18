@@ -1,0 +1,889 @@
+{
+ "id": "shakespeare-two-gentlemen-of-verona",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Two Gentlemen of Verona."
+  }
+ },
+ "edges": {
+  "0-8": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-3": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-4": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-5": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-7": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "1-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "2-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "3-4": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "3-5": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "3-7": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "3-8": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "3-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "3-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "3-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "4-8": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "4-9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "4-11": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "4-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "4-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "5-7": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "5-9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "5-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "5-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "5-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "6-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "7-9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "7-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "7-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "7-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "9-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "9-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "9-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "10-11": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "10-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "11-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "12-13": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "12-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  },
+  "13-14": {
+   "facts": {
+    "books": [
+     "Two Gentlemen of Verona"
+    ],
+    "first": "Two Gentlemen of Verona",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Two Gentlemen of Verona."
+  }
+ },
+ "sources": []
+}

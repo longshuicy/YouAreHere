@@ -1,0 +1,1736 @@
+{
+ "id": "shakespeare-titus-andronicus",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  },
+  "21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Titus Andronicus."
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-2": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-4": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-7": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-8": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-12": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-13": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-15": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "0-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "1-5": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "1-7": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "1-8": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "1-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "1-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "1-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "1-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-14": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "2-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-4": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-12": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-14": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "3-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-9": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-12": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-14": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-15": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-16": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "4-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "5-16": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "5-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "5-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "5-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "6-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "7-10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "7-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "7-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "7-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "7-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "9-12": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "9-14": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "9-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "9-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "9-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "9-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "10-11": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "10-14": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "10-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "10-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "10-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "10-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "10-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "11-13": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "11-16": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "11-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "11-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "11-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "11-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "11-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "12-14": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "12-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "12-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "12-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "12-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "13-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "14-17": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "14-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "14-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "14-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "15-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "16-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "16-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "17-18": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "17-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "17-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "18-19": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "18-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "18-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "19-20": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "19-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  },
+  "20-21": {
+   "facts": {
+    "books": [
+     "Titus Andronicus"
+    ],
+    "first": "Titus Andronicus",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Titus Andronicus."
+  }
+ },
+ "sources": []
+}

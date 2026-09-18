@@ -1,0 +1,1306 @@
+{
+ "id": "shakespeare-king-lear",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in King Lear."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in King Lear."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in King Lear."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in King Lear."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in King Lear."
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-2": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-3": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-7": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-8": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-12": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "0-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "1-2": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "1-3": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "1-7": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "1-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "1-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "1-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-5": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-7": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "2-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-4": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-7": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-8": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "3-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "4-7": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "4-10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "4-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "5-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "5-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "6-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "7-9": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "7-10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "7-12": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "7-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "7-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "7-16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "7-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "8-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "8-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "8-16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "8-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "9-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "9-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "9-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "10-11": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "10-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "10-15": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "10-16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "10-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "11-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "11-16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "11-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "12-13": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "12-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "12-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "13-14": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "13-16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "13-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "14-16": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "14-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  },
+  "16-17": {
+   "facts": {
+    "books": [
+     "King Lear"
+    ],
+    "first": "King Lear",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in King Lear."
+  }
+ },
+ "sources": []
+}

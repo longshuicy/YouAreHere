@@ -91,6 +91,22 @@ CC0_1_0 = License(
     deed_summary="Dedicated to the public domain. No conditions.",
 )
 
+PUBLIC_DOMAIN = License(
+    name="Public domain",
+    spdx="NONE-PUBLIC-DOMAIN",
+    url="https://en.wikipedia.org/wiki/Public_domain",
+    allows_commercial_use=True,
+    share_alike=False,
+    deed_summary=(
+        "Out of copyright, with no conditions on reuse. Note for the King James Bible "
+        "specifically: it is public domain in the United States and most of the world, but in "
+        "the United Kingdom it is held under perpetual Crown copyright administered by "
+        "Cambridge University Press, whose permission is required to reproduce the text there. "
+        "This project ships a derived co-occurrence graph rather than the text, which is not "
+        "the reproduction that restriction covers."
+    ),
+)
+
 UNRESOLVED = License(
     name="Unresolved",
     spdx="NOASSERTION",

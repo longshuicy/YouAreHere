@@ -1,0 +1,643 @@
+{
+ "id": "shakespeare-macbeth",
+ "title": "Macbeth",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Angus",
+   "x": 275.9,
+   "y": -246.8
+  },
+  {
+   "i": 1,
+   "n": "Banquo",
+   "x": -120.8,
+   "y": -211.7
+  },
+  {
+   "i": 2,
+   "n": "Caithness",
+   "x": 600.0,
+   "y": -188.3
+  },
+  {
+   "i": 3,
+   "n": "Donalbain",
+   "x": -300.3,
+   "y": -193.5
+  },
+  {
+   "i": 4,
+   "n": "Duncan",
+   "x": -399.7,
+   "y": -19.3
+  },
+  {
+   "i": 5,
+   "n": "Fleance",
+   "x": -155.7,
+   "y": -584.1
+  },
+  {
+   "i": 6,
+   "n": "Hecate",
+   "x": 444.2,
+   "y": 305.4
+  },
+  {
+   "i": 7,
+   "n": "Lady Macbeth",
+   "x": -248.6,
+   "y": -26.7
+  },
+  {
+   "i": 8,
+   "n": "Lennox",
+   "x": 101.9,
+   "y": -48.6
+  },
+  {
+   "i": 9,
+   "n": "Macbeth",
+   "x": -33.0,
+   "y": 19.8
+  },
+  {
+   "i": 10,
+   "n": "Macduff",
+   "x": -42.8,
+   "y": 176.6
+  },
+  {
+   "i": 11,
+   "n": "Malcolm",
+   "x": -159.4,
+   "y": 138.9
+  },
+  {
+   "i": 12,
+   "n": "Menteith",
+   "x": 323.1,
+   "y": 91.7
+  },
+  {
+   "i": 13,
+   "n": "Ross",
+   "x": -91.6,
+   "y": -60.1
+  },
+  {
+   "i": 14,
+   "n": "Siward",
+   "x": 16.6,
+   "y": 346.4
+  },
+  {
+   "i": 15,
+   "n": "Young Siward",
+   "x": -210.0,
+   "y": 500.3
+  }
+ ],
+ "edges": [
+  [
+   0,
+   1,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   2,
+   1.0,
+   0.2,
+   0.0
+  ],
+  [
+   0,
+   8,
+   1.0,
+   0.4,
+   0.0
+  ],
+  [
+   0,
+   9,
+   1.0,
+   0.6,
+   0.0
+  ],
+  [
+   0,
+   12,
+   1.0,
+   0.8,
+   0.0
+  ],
+  [
+   0,
+   13,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   1,
+   3,
+   1.0,
+   0.111,
+   0.0
+  ],
+  [
+   1,
+   4,
+   2.0,
+   0.556,
+   0.8
+  ],
+  [
+   1,
+   5,
+   1.0,
+   0.222,
+   0.0
+  ],
+  [
+   1,
+   7,
+   3.0,
+   0.889,
+   0.857
+  ],
+  [
+   1,
+   8,
+   1.0,
+   0.333,
+   0.091
+  ],
+  [
+   1,
+   9,
+   5.0,
+   1.0,
+   0.917
+  ],
+  [
+   1,
+   10,
+   1.0,
+   0.444,
+   0.0
+  ],
+  [
+   1,
+   11,
+   2.0,
+   0.667,
+   0.4
+  ],
+  [
+   1,
+   13,
+   2.0,
+   0.778,
+   0.444
+  ],
+  [
+   2,
+   8,
+   1.0,
+   0.5,
+   0.182
+  ],
+  [
+   2,
+   12,
+   1.0,
+   1.0,
+   0.2
+  ],
+  [
+   3,
+   7,
+   1.0,
+   0.167,
+   0.0
+  ],
+  [
+   3,
+   8,
+   1.0,
+   0.333,
+   0.273
+  ],
+  [
+   3,
+   9,
+   1.0,
+   0.5,
+   0.083
+  ],
+  [
+   3,
+   10,
+   1.0,
+   0.667,
+   0.111
+  ],
+  [
+   3,
+   11,
+   1.0,
+   0.833,
+   0.0
+  ],
+  [
+   3,
+   13,
+   1.0,
+   1.0,
+   0.111
+  ],
+  [
+   4,
+   7,
+   1.0,
+   0.0,
+   0.143
+  ],
+  [
+   4,
+   8,
+   1.0,
+   0.2,
+   0.364
+  ],
+  [
+   4,
+   9,
+   1.0,
+   0.4,
+   0.167
+  ],
+  [
+   4,
+   11,
+   2.0,
+   1.0,
+   0.5
+  ],
+  [
+   4,
+   13,
+   1.0,
+   0.6,
+   0.222
+  ],
+  [
+   5,
+   9,
+   1.0,
+   1.0,
+   0.25
+  ],
+  [
+   6,
+   8,
+   1.0,
+   0.0,
+   0.455
+  ],
+  [
+   6,
+   9,
+   1.0,
+   1.0,
+   0.333
+  ],
+  [
+   7,
+   8,
+   2.0,
+   0.571,
+   0.727
+  ],
+  [
+   7,
+   9,
+   7.0,
+   1.0,
+   1.0
+  ],
+  [
+   7,
+   10,
+   1.0,
+   0.286,
+   0.222
+  ],
+  [
+   7,
+   11,
+   1.0,
+   0.429,
+   0.1
+  ],
+  [
+   7,
+   13,
+   2.0,
+   0.714,
+   0.556
+  ],
+  [
+   8,
+   9,
+   3.0,
+   0.909,
+   0.583
+  ],
+  [
+   8,
+   10,
+   1.0,
+   0.545,
+   0.333
+  ],
+  [
+   8,
+   11,
+   2.0,
+   0.818,
+   0.6
+  ],
+  [
+   8,
+   12,
+   1.0,
+   0.636,
+   0.4
+  ],
+  [
+   8,
+   13,
+   3.0,
+   1.0,
+   0.667
+  ],
+  [
+   9,
+   10,
+   3.0,
+   0.667,
+   0.667
+  ],
+  [
+   9,
+   11,
+   4.0,
+   0.75,
+   0.7
+  ],
+  [
+   9,
+   13,
+   4.0,
+   0.833,
+   0.778
+  ],
+  [
+   9,
+   14,
+   2.0,
+   0.5,
+   0.6
+  ],
+  [
+   9,
+   15,
+   1.0,
+   0.417,
+   0.0
+  ],
+  [
+   10,
+   11,
+   6.0,
+   1.0,
+   1.0
+  ],
+  [
+   10,
+   12,
+   1.0,
+   0.444,
+   0.6
+  ],
+  [
+   10,
+   13,
+   4.0,
+   0.778,
+   0.889
+  ],
+  [
+   10,
+   14,
+   4.0,
+   0.889,
+   0.8
+  ],
+  [
+   10,
+   15,
+   1.0,
+   0.556,
+   0.333
+  ],
+  [
+   11,
+   12,
+   1.0,
+   0.2,
+   0.8
+  ],
+  [
+   11,
+   13,
+   4.0,
+   0.8,
+   1.0
+  ],
+  [
+   11,
+   14,
+   4.0,
+   0.9,
+   1.0
+  ],
+  [
+   11,
+   15,
+   1.0,
+   0.3,
+   0.667
+  ],
+  [
+   12,
+   14,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   13,
+   14,
+   1.0,
+   0.333,
+   0.2
+  ],
+  [
+   14,
+   15,
+   1.0,
+   0.4,
+   1.0
+  ]
+ ],
+ "playable": [
+  0,
+  1,
+  3,
+  4,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-macbeth-p0000",
+   "you": 0,
+   "startRadius": 1,
+   "ease": 0.416
+  },
+  {
+   "id": "shakespeare-macbeth-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.518
+  },
+  {
+   "id": "shakespeare-macbeth-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.499
+  },
+  {
+   "id": "shakespeare-macbeth-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.529
+  },
+  {
+   "id": "shakespeare-macbeth-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.517
+  },
+  {
+   "id": "shakespeare-macbeth-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.475
+  },
+  {
+   "id": "shakespeare-macbeth-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.697
+  },
+  {
+   "id": "shakespeare-macbeth-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.554
+  },
+  {
+   "id": "shakespeare-macbeth-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.676
+  },
+  {
+   "id": "shakespeare-macbeth-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.495
+  },
+  {
+   "id": "shakespeare-macbeth-p0013",
+   "you": 13,
+   "startRadius": 1,
+   "ease": 0.656
+  },
+  {
+   "id": "shakespeare-macbeth-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.493
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

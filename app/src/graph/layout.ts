@@ -80,13 +80,27 @@ export function useRadialLayout(graph: VisibleGraph, known: Known): Map<number, 
       const parentX = parentPlaced?.x ?? 0;
       const parentY = parentPlaced?.y ?? 0;
       const hop = known.hop.get(children[0]) ?? 1;
-      // The wedge a parent hands to its children grows with how many there are.
-      // A fixed wedge piles a 40-neighbour hub's children on top of each other,
-      // which the collide force then has to fight for the whole relaxation.
-      const wedge = Math.min(Math.PI * 0.9, Math.max(Math.PI / 2, children.length * 0.13));
+
+      // Your own neighbours get the whole circle; everyone else's get a wedge
+      // facing away from the node that revealed them.
+      //
+      // A wedge is right for an expansion — it reads as the graph opening
+      // outward from the node you clicked — but wrong at the centre, where
+      // there is no direction to face away from. The cap meant your own ring
+      // was laid out across 162 degrees however many people were on it, so
+      // twenty-two neighbours already overlapped in the opening frame while more
+      // than half the circle stood empty. That looked like a stage too small for
+      // the graph, and it was really a graph drawn into two thirds of the stage.
+      const fullCircle = hop === 1;
+      const wedge = fullCircle
+        ? Math.PI * 2
+        : Math.min(Math.PI * 0.9, Math.max(Math.PI / 2, children.length * 0.13));
       const start = parentAngle - wedge / 2;
+      // Over a full circle the last slot would land back on the first, so the
+      // step divides by the count rather than the gaps between them.
+      const step = children.length === 1 ? 0 : wedge / (fullCircle ? children.length : children.length - 1);
       children.forEach((id, idx) => {
-        const angle = children.length === 1 ? parentAngle : start + (wedge * idx) / (children.length - 1);
+        const angle = children.length === 1 ? parentAngle : start + step * idx;
         // Born at parent's position; simulation below relaxes it outward.
         reg.set(id, { i: id, ring: hop, angle, x: parentX, y: parentY });
       });

@@ -1,0 +1,1253 @@
+{
+ "id": "shakespeare-much-ado-about-nothing",
+ "title": "Much Ado About Nothing",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Signior Antonio",
+   "x": -303.4,
+   "y": -61.0
+  },
+  {
+   "i": 1,
+   "n": "Balthasar",
+   "x": -208.9,
+   "y": -238.8
+  },
+  {
+   "i": 2,
+   "n": "Beatrice",
+   "x": -114.1,
+   "y": -278.2
+  },
+  {
+   "i": 3,
+   "n": "Signior Benedick",
+   "x": 24.5,
+   "y": -208.0
+  },
+  {
+   "i": 4,
+   "n": "Borachio",
+   "x": 4.0,
+   "y": 119.2
+  },
+  {
+   "i": 5,
+   "n": "Boy",
+   "x": -13.4,
+   "y": -533.5
+  },
+  {
+   "i": 6,
+   "n": "Count Claudio",
+   "x": -10.8,
+   "y": -146.7
+  },
+  {
+   "i": 7,
+   "n": "Conrade",
+   "x": 53.2,
+   "y": 407.5
+  },
+  {
+   "i": 8,
+   "n": "Dogberry",
+   "x": 194.2,
+   "y": 194.1
+  },
+  {
+   "i": 9,
+   "n": "Don John",
+   "x": -141.1,
+   "y": -40.3
+  },
+  {
+   "i": 10,
+   "n": "Don Pedro",
+   "x": -86.5,
+   "y": -138.7
+  },
+  {
+   "i": 11,
+   "n": "Friar Francis",
+   "x": 157.8,
+   "y": -330.7
+  },
+  {
+   "i": 12,
+   "n": "Hero",
+   "x": -44.3,
+   "y": -304.3
+  },
+  {
+   "i": 13,
+   "n": "Leonato",
+   "x": 62.6,
+   "y": -114.9
+  },
+  {
+   "i": 14,
+   "n": "Leonato’s Brother",
+   "x": -29.6,
+   "y": -33.7
+  },
+  {
+   "i": 15,
+   "n": "Margaret",
+   "x": -294.5,
+   "y": -188.7
+  },
+  {
+   "i": 16,
+   "n": "Sexton",
+   "x": 409.0,
+   "y": 433.8
+  },
+  {
+   "i": 17,
+   "n": "Ursula",
+   "x": -242.0,
+   "y": -325.6
+  },
+  {
+   "i": 18,
+   "n": "Verges",
+   "x": 103.5,
+   "y": 235.5
+  },
+  {
+   "i": 19,
+   "n": "First Watchman",
+   "x": 182.4,
+   "y": 518.2
+  },
+  {
+   "i": 20,
+   "n": "Second Watchman",
+   "x": 35.2,
+   "y": 600.0
+  },
+  {
+   "i": 21,
+   "n": "George Seacoal",
+   "x": 262.3,
+   "y": 434.7
+  }
+ ],
+ "edges": [
+  [
+   0,
+   1,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   2,
+   1.0,
+   0.091,
+   0.0
+  ],
+  [
+   0,
+   3,
+   1.0,
+   0.182,
+   0.0
+  ],
+  [
+   0,
+   4,
+   1.0,
+   0.273,
+   0.0
+  ],
+  [
+   0,
+   6,
+   1.0,
+   0.364,
+   0.0
+  ],
+  [
+   0,
+   9,
+   1.0,
+   0.455,
+   0.0
+  ],
+  [
+   0,
+   10,
+   1.0,
+   0.545,
+   0.0
+  ],
+  [
+   0,
+   12,
+   1.0,
+   0.636,
+   0.0
+  ],
+  [
+   0,
+   13,
+   1.0,
+   0.727,
+   0.0
+  ],
+  [
+   0,
+   14,
+   1.0,
+   0.818,
+   0.0
+  ],
+  [
+   0,
+   15,
+   1.0,
+   0.909,
+   0.0
+  ],
+  [
+   0,
+   17,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   1,
+   2,
+   2.0,
+   0.667,
+   0.231
+  ],
+  [
+   1,
+   3,
+   2.0,
+   0.75,
+   0.267
+  ],
+  [
+   1,
+   4,
+   1.0,
+   0.083,
+   0.056
+  ],
+  [
+   1,
+   5,
+   1.0,
+   0.167,
+   0.0
+  ],
+  [
+   1,
+   6,
+   2.0,
+   0.833,
+   0.4
+  ],
+  [
+   1,
+   9,
+   1.0,
+   0.25,
+   0.077
+  ],
+  [
+   1,
+   10,
+   2.0,
+   0.917,
+   0.4
+  ],
+  [
+   1,
+   12,
+   1.0,
+   0.333,
+   0.083
+  ],
+  [
+   1,
+   13,
+   2.0,
+   1.0,
+   0.267
+  ],
+  [
+   1,
+   14,
+   1.0,
+   0.417,
+   0.071
+  ],
+  [
+   1,
+   15,
+   1.0,
+   0.5,
+   0.091
+  ],
+  [
+   1,
+   17,
+   1.0,
+   0.583,
+   0.091
+  ],
+  [
+   2,
+   3,
+   6.0,
+   0.923,
+   0.8
+  ],
+  [
+   2,
+   4,
+   1.0,
+   0.077,
+   0.111
+  ],
+  [
+   2,
+   5,
+   1.0,
+   0.154,
+   0.2
+  ],
+  [
+   2,
+   6,
+   5.0,
+   0.692,
+   0.8
+  ],
+  [
+   2,
+   9,
+   3.0,
+   0.462,
+   0.538
+  ],
+  [
+   2,
+   10,
+   5.0,
+   0.769,
+   0.8
+  ],
+  [
+   2,
+   11,
+   2.0,
+   0.308,
+   0.286
+  ],
+  [
+   2,
+   12,
+   6.0,
+   1.0,
+   1.0
+  ],
+  [
+   2,
+   13,
+   5.0,
+   0.846,
+   0.8
+  ],
+  [
+   2,
+   14,
+   2.0,
+   0.385,
+   0.571
+  ],
+  [
+   2,
+   15,
+   4.0,
+   0.538,
+   0.909
+  ],
+  [
+   2,
+   17,
+   4.0,
+   0.615,
+   0.909
+  ],
+  [
+   3,
+   4,
+   2.0,
+   0.333,
+   0.444
+  ],
+  [
+   3,
+   5,
+   1.0,
+   0.067,
+   0.4
+  ],
+  [
+   3,
+   6,
+   7.0,
+   0.867,
+   0.867
+  ],
+  [
+   3,
+   8,
+   1.0,
+   0.133,
+   0.0
+  ],
+  [
+   3,
+   9,
+   4.0,
+   0.667,
+   0.769
+  ],
+  [
+   3,
+   10,
+   7.0,
+   0.933,
+   0.867
+  ],
+  [
+   3,
+   11,
+   2.0,
+   0.4,
+   0.429
+  ],
+  [
+   3,
+   12,
+   4.0,
+   0.733,
+   0.667
+  ],
+  [
+   3,
+   13,
+   7.0,
+   1.0,
+   0.867
+  ],
+  [
+   3,
+   14,
+   3.0,
+   0.6,
+   0.786
+  ],
+  [
+   3,
+   15,
+   2.0,
+   0.467,
+   0.727
+  ],
+  [
+   3,
+   17,
+   2.0,
+   0.533,
+   0.727
+  ],
+  [
+   3,
+   18,
+   1.0,
+   0.2,
+   0.0
+  ],
+  [
+   4,
+   6,
+   2.0,
+   0.5,
+   0.467
+  ],
+  [
+   4,
+   7,
+   3.0,
+   0.833,
+   1.0
+  ],
+  [
+   4,
+   8,
+   3.0,
+   0.889,
+   0.909
+  ],
+  [
+   4,
+   9,
+   3.0,
+   0.944,
+   0.615
+  ],
+  [
+   4,
+   10,
+   2.0,
+   0.556,
+   0.467
+  ],
+  [
+   4,
+   12,
+   1.0,
+   0.167,
+   0.167
+  ],
+  [
+   4,
+   13,
+   2.0,
+   0.611,
+   0.333
+  ],
+  [
+   4,
+   14,
+   2.0,
+   0.667,
+   0.643
+  ],
+  [
+   4,
+   15,
+   1.0,
+   0.222,
+   0.182
+  ],
+  [
+   4,
+   16,
+   1.0,
+   0.278,
+   0.0
+  ],
+  [
+   4,
+   17,
+   1.0,
+   0.333,
+   0.182
+  ],
+  [
+   4,
+   18,
+   3.0,
+   1.0,
+   0.909
+  ],
+  [
+   4,
+   19,
+   2.0,
+   0.722,
+   0.333
+  ],
+  [
+   4,
+   20,
+   1.0,
+   0.389,
+   0.0
+  ],
+  [
+   4,
+   21,
+   2.0,
+   0.778,
+   0.333
+  ],
+  [
+   5,
+   6,
+   1.0,
+   0.6,
+   0.067
+  ],
+  [
+   5,
+   10,
+   1.0,
+   0.8,
+   0.067
+  ],
+  [
+   5,
+   13,
+   1.0,
+   1.0,
+   0.067
+  ],
+  [
+   6,
+   8,
+   1.0,
+   0.133,
+   0.091
+  ],
+  [
+   6,
+   9,
+   4.0,
+   0.667,
+   0.846
+  ],
+  [
+   6,
+   10,
+   8.0,
+   1.0,
+   1.0
+  ],
+  [
+   6,
+   11,
+   2.0,
+   0.533,
+   0.571
+  ],
+  [
+   6,
+   12,
+   4.0,
+   0.733,
+   0.75
+  ],
+  [
+   6,
+   13,
+   7.0,
+   0.933,
+   0.933
+  ],
+  [
+   6,
+   14,
+   3.0,
+   0.6,
+   0.857
+  ],
+  [
+   6,
+   15,
+   1.0,
+   0.2,
+   0.273
+  ],
+  [
+   6,
+   17,
+   1.0,
+   0.267,
+   0.273
+  ],
+  [
+   6,
+   18,
+   1.0,
+   0.333,
+   0.091
+  ],
+  [
+   7,
+   8,
+   2.0,
+   0.429,
+   0.545
+  ],
+  [
+   7,
+   9,
+   1.0,
+   0.0,
+   0.154
+  ],
+  [
+   7,
+   16,
+   1.0,
+   0.143,
+   0.2
+  ],
+  [
+   7,
+   18,
+   2.0,
+   0.571,
+   0.545
+  ],
+  [
+   7,
+   19,
+   2.0,
+   0.714,
+   0.5
+  ],
+  [
+   7,
+   20,
+   1.0,
+   0.286,
+   0.2
+  ],
+  [
+   7,
+   21,
+   2.0,
+   0.857,
+   0.5
+  ],
+  [
+   8,
+   10,
+   1.0,
+   0.182,
+   0.133
+  ],
+  [
+   8,
+   13,
+   2.0,
+   0.636,
+   0.4
+  ],
+  [
+   8,
+   14,
+   1.0,
+   0.273,
+   0.143
+  ],
+  [
+   8,
+   16,
+   1.0,
+   0.364,
+   0.4
+  ],
+  [
+   8,
+   18,
+   4.0,
+   1.0,
+   1.0
+  ],
+  [
+   8,
+   19,
+   2.0,
+   0.727,
+   0.667
+  ],
+  [
+   8,
+   20,
+   1.0,
+   0.455,
+   0.4
+  ],
+  [
+   8,
+   21,
+   2.0,
+   0.818,
+   0.667
+  ],
+  [
+   9,
+   10,
+   4.0,
+   0.923,
+   0.667
+  ],
+  [
+   9,
+   11,
+   1.0,
+   0.231,
+   0.0
+  ],
+  [
+   9,
+   12,
+   3.0,
+   0.692,
+   0.417
+  ],
+  [
+   9,
+   13,
+   4.0,
+   1.0,
+   0.6
+  ],
+  [
+   9,
+   14,
+   1.0,
+   0.308,
+   0.214
+  ],
+  [
+   9,
+   15,
+   1.0,
+   0.385,
+   0.364
+  ],
+  [
+   9,
+   17,
+   1.0,
+   0.462,
+   0.364
+  ],
+  [
+   10,
+   11,
+   2.0,
+   0.533,
+   0.714
+  ],
+  [
+   10,
+   12,
+   4.0,
+   0.733,
+   0.833
+  ],
+  [
+   10,
+   13,
+   7.0,
+   0.933,
+   1.0
+  ],
+  [
+   10,
+   14,
+   3.0,
+   0.6,
+   0.929
+  ],
+  [
+   10,
+   15,
+   1.0,
+   0.2,
+   0.455
+  ],
+  [
+   10,
+   17,
+   1.0,
+   0.267,
+   0.455
+  ],
+  [
+   10,
+   18,
+   1.0,
+   0.333,
+   0.182
+  ],
+  [
+   11,
+   12,
+   2.0,
+   0.857,
+   0.25
+  ],
+  [
+   11,
+   13,
+   2.0,
+   1.0,
+   0.467
+  ],
+  [
+   11,
+   14,
+   1.0,
+   0.143,
+   0.286
+  ],
+  [
+   12,
+   13,
+   4.0,
+   0.917,
+   0.667
+  ],
+  [
+   12,
+   14,
+   2.0,
+   0.333,
+   0.714
+  ],
+  [
+   12,
+   15,
+   3.0,
+   0.5,
+   0.818
+  ],
+  [
+   12,
+   17,
+   3.0,
+   0.583,
+   0.818
+  ],
+  [
+   13,
+   14,
+   4.0,
+   0.733,
+   1.0
+  ],
+  [
+   13,
+   15,
+   1.0,
+   0.133,
+   0.545
+  ],
+  [
+   13,
+   17,
+   1.0,
+   0.2,
+   0.545
+  ],
+  [
+   13,
+   18,
+   2.0,
+   0.533,
+   0.636
+  ],
+  [
+   14,
+   15,
+   1.0,
+   0.357,
+   0.636
+  ],
+  [
+   14,
+   17,
+   1.0,
+   0.429,
+   0.636
+  ],
+  [
+   14,
+   18,
+   1.0,
+   0.5,
+   0.273
+  ],
+  [
+   15,
+   17,
+   4.0,
+   1.0,
+   1.0
+  ],
+  [
+   16,
+   18,
+   1.0,
+   0.6,
+   0.364
+  ],
+  [
+   16,
+   19,
+   1.0,
+   0.8,
+   0.0
+  ],
+  [
+   16,
+   21,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   18,
+   19,
+   2.0,
+   0.727,
+   0.833
+  ],
+  [
+   18,
+   20,
+   1.0,
+   0.455,
+   0.6
+  ],
+  [
+   18,
+   21,
+   2.0,
+   0.818,
+   0.833
+  ],
+  [
+   19,
+   20,
+   1.0,
+   0.167,
+   0.8
+  ],
+  [
+   19,
+   21,
+   2.0,
+   1.0,
+   1.0
+  ],
+  [
+   20,
+   21,
+   1.0,
+   1.0,
+   0.167
+  ]
+ ],
+ "playable": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0000",
+   "you": 0,
+   "startRadius": 1,
+   "ease": 0.283
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.363
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.542
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.601
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.499
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.285
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.56
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.39
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.365
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.486
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.581
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.419
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.533
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0013",
+   "you": 13,
+   "startRadius": 1,
+   "ease": 0.622
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.466
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0015",
+   "you": 15,
+   "startRadius": 1,
+   "ease": 0.426
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0016",
+   "you": 16,
+   "startRadius": 1,
+   "ease": 0.32
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0017",
+   "you": 17,
+   "startRadius": 1,
+   "ease": 0.446
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0018",
+   "you": 18,
+   "startRadius": 1,
+   "ease": 0.524
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0019",
+   "you": 19,
+   "startRadius": 1,
+   "ease": 0.368
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0020",
+   "you": 20,
+   "startRadius": 1,
+   "ease": 0.342
+  },
+  {
+   "id": "shakespeare-much-ado-about-nothing-p0021",
+   "you": 21,
+   "startRadius": 1,
+   "ease": 0.388
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

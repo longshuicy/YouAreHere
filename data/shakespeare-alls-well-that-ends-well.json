@@ -1,0 +1,794 @@
+{
+ "id": "shakespeare-alls-well-that-ends-well",
+ "title": "All’s Well That Ends Well",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Bertram",
+   "x": 55.9,
+   "y": 187.4
+  },
+  {
+   "i": 1,
+   "n": "Countess",
+   "x": -40.1,
+   "y": -203.8
+  },
+  {
+   "i": 2,
+   "n": "Diana",
+   "x": -199.7,
+   "y": -86.2
+  },
+  {
+   "i": 3,
+   "n": "Duke",
+   "x": 457.6,
+   "y": 534.3
+  },
+  {
+   "i": 4,
+   "n": "Fool",
+   "x": 78.6,
+   "y": -318.5
+  },
+  {
+   "i": 5,
+   "n": "First Gentleman",
+   "x": 76.5,
+   "y": -600.0
+  },
+  {
+   "i": 6,
+   "n": "Second Gentleman",
+   "x": 266.3,
+   "y": -506.6
+  },
+  {
+   "i": 7,
+   "n": "Gentleman",
+   "x": -202.9,
+   "y": 118.0
+  },
+  {
+   "i": 8,
+   "n": "Helen",
+   "x": -28.0,
+   "y": -90.4
+  },
+  {
+   "i": 9,
+   "n": "King",
+   "x": 145.1,
+   "y": 39.7
+  },
+  {
+   "i": 10,
+   "n": "First Lord",
+   "x": 264.6,
+   "y": 255.6
+  },
+  {
+   "i": 11,
+   "n": "Second Lord",
+   "x": 173.3,
+   "y": 333.1
+  },
+  {
+   "i": 12,
+   "n": "Lafew",
+   "x": 38.6,
+   "y": 10.6
+  },
+  {
+   "i": 13,
+   "n": "Mariana",
+   "x": -497.4,
+   "y": -58.9
+  },
+  {
+   "i": 14,
+   "n": "Page",
+   "x": -234.1,
+   "y": 267.4
+  },
+  {
+   "i": 15,
+   "n": "Parolles",
+   "x": -27.1,
+   "y": 113.5
+  },
+  {
+   "i": 16,
+   "n": "First Soldier",
+   "x": 116.1,
+   "y": 530.3
+  },
+  {
+   "i": 17,
+   "n": "Steward",
+   "x": -187.8,
+   "y": -529.4
+  },
+  {
+   "i": 18,
+   "n": "Widow",
+   "x": -255.4,
+   "y": 3.8
+  }
+ ],
+ "edges": [
+  [
+   0,
+   1,
+   2.0,
+   0.417,
+   0.583
+  ],
+  [
+   0,
+   2,
+   2.0,
+   0.5,
+   0.625
+  ],
+  [
+   0,
+   3,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   7,
+   1.0,
+   0.083,
+   0.0
+  ],
+  [
+   0,
+   8,
+   5.0,
+   0.833,
+   0.8
+  ],
+  [
+   0,
+   9,
+   4.0,
+   0.75,
+   1.0
+  ],
+  [
+   0,
+   10,
+   3.0,
+   0.583,
+   0.714
+  ],
+  [
+   0,
+   11,
+   3.0,
+   0.667,
+   0.714
+  ],
+  [
+   0,
+   12,
+   5.0,
+   0.917,
+   0.818
+  ],
+  [
+   0,
+   14,
+   1.0,
+   0.167,
+   0.0
+  ],
+  [
+   0,
+   15,
+   7.0,
+   1.0,
+   0.923
+  ],
+  [
+   0,
+   16,
+   1.0,
+   0.25,
+   0.0
+  ],
+  [
+   0,
+   18,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   1,
+   2,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   1,
+   4,
+   4.0,
+   0.917,
+   1.0
+  ],
+  [
+   1,
+   5,
+   1.0,
+   0.083,
+   0.0
+  ],
+  [
+   1,
+   6,
+   1.0,
+   0.167,
+   0.0
+  ],
+  [
+   1,
+   7,
+   1.0,
+   0.25,
+   0.143
+  ],
+  [
+   1,
+   8,
+   4.0,
+   1.0,
+   0.733
+  ],
+  [
+   1,
+   9,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   1,
+   12,
+   3.0,
+   0.833,
+   0.636
+  ],
+  [
+   1,
+   14,
+   1.0,
+   0.417,
+   0.25
+  ],
+  [
+   1,
+   15,
+   2.0,
+   0.667,
+   0.231
+  ],
+  [
+   1,
+   17,
+   2.0,
+   0.75,
+   1.0
+  ],
+  [
+   1,
+   18,
+   1.0,
+   0.5,
+   0.125
+  ],
+  [
+   2,
+   7,
+   1.0,
+   0.125,
+   0.286
+  ],
+  [
+   2,
+   8,
+   3.0,
+   0.875,
+   0.533
+  ],
+  [
+   2,
+   9,
+   1.0,
+   0.25,
+   0.111
+  ],
+  [
+   2,
+   12,
+   1.0,
+   0.375,
+   0.0
+  ],
+  [
+   2,
+   13,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   2,
+   15,
+   2.0,
+   0.75,
+   0.308
+  ],
+  [
+   2,
+   18,
+   3.0,
+   1.0,
+   0.875
+  ],
+  [
+   3,
+   10,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   3,
+   11,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   4,
+   5,
+   1.0,
+   0.0,
+   0.333
+  ],
+  [
+   4,
+   6,
+   1.0,
+   0.167,
+   0.333
+  ],
+  [
+   4,
+   8,
+   3.0,
+   0.833,
+   0.6
+  ],
+  [
+   4,
+   12,
+   2.0,
+   0.5,
+   0.545
+  ],
+  [
+   4,
+   15,
+   2.0,
+   0.667,
+   0.385
+  ],
+  [
+   4,
+   17,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   5,
+   6,
+   1.0,
+   0.667,
+   0.667
+  ],
+  [
+   5,
+   8,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   6,
+   8,
+   1.0,
+   1.0,
+   0.067
+  ],
+  [
+   7,
+   8,
+   2.0,
+   0.857,
+   0.467
+  ],
+  [
+   7,
+   9,
+   1.0,
+   0.429,
+   0.222
+  ],
+  [
+   7,
+   12,
+   1.0,
+   0.571,
+   0.091
+  ],
+  [
+   7,
+   15,
+   1.0,
+   0.714,
+   0.0
+  ],
+  [
+   7,
+   18,
+   2.0,
+   1.0,
+   0.625
+  ],
+  [
+   8,
+   9,
+   3.0,
+   0.667,
+   0.667
+  ],
+  [
+   8,
+   10,
+   1.0,
+   0.133,
+   0.143
+  ],
+  [
+   8,
+   11,
+   1.0,
+   0.2,
+   0.143
+  ],
+  [
+   8,
+   12,
+   5.0,
+   0.867,
+   0.909
+  ],
+  [
+   8,
+   13,
+   1.0,
+   0.267,
+   0.333
+  ],
+  [
+   8,
+   14,
+   1.0,
+   0.333,
+   0.5
+  ],
+  [
+   8,
+   15,
+   7.0,
+   1.0,
+   1.0
+  ],
+  [
+   8,
+   17,
+   1.0,
+   0.4,
+   0.5
+  ],
+  [
+   8,
+   18,
+   5.0,
+   0.933,
+   1.0
+  ],
+  [
+   9,
+   10,
+   1.0,
+   0.333,
+   0.286
+  ],
+  [
+   9,
+   11,
+   1.0,
+   0.444,
+   0.286
+  ],
+  [
+   9,
+   12,
+   3.0,
+   0.778,
+   0.727
+  ],
+  [
+   9,
+   15,
+   3.0,
+   0.889,
+   0.615
+  ],
+  [
+   9,
+   18,
+   1.0,
+   0.556,
+   0.25
+  ],
+  [
+   10,
+   11,
+   4.0,
+   0.857,
+   1.0
+  ],
+  [
+   10,
+   12,
+   1.0,
+   0.429,
+   0.182
+  ],
+  [
+   10,
+   15,
+   4.0,
+   1.0,
+   0.769
+  ],
+  [
+   10,
+   16,
+   2.0,
+   0.571,
+   0.667
+  ],
+  [
+   11,
+   12,
+   1.0,
+   0.429,
+   0.273
+  ],
+  [
+   11,
+   15,
+   3.0,
+   0.857,
+   0.692
+  ],
+  [
+   11,
+   16,
+   1.0,
+   0.571,
+   0.333
+  ],
+  [
+   12,
+   14,
+   1.0,
+   0.364,
+   0.75
+  ],
+  [
+   12,
+   15,
+   6.0,
+   1.0,
+   0.846
+  ],
+  [
+   12,
+   18,
+   1.0,
+   0.455,
+   0.375
+  ],
+  [
+   13,
+   15,
+   1.0,
+   0.667,
+   0.077
+  ],
+  [
+   13,
+   18,
+   1.0,
+   1.0,
+   0.5
+  ],
+  [
+   14,
+   15,
+   1.0,
+   1.0,
+   0.154
+  ],
+  [
+   15,
+   16,
+   2.0,
+   0.462,
+   1.0
+  ],
+  [
+   15,
+   18,
+   2.0,
+   0.538,
+   0.75
+  ]
+ ],
+ "playable": [
+  0,
+  1,
+  2,
+  4,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  15,
+  18
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0000",
+   "you": 0,
+   "startRadius": 1,
+   "ease": 0.668
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.515
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.467
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.481
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.437
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.699
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.542
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.504
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.481
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.575
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0015",
+   "you": 15,
+   "startRadius": 1,
+   "ease": 0.692
+  },
+  {
+   "id": "shakespeare-alls-well-that-ends-well-p0018",
+   "you": 18,
+   "startRadius": 1,
+   "ease": 0.537
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

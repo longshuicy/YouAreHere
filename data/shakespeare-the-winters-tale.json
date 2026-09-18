@@ -1,0 +1,932 @@
+{
+ "id": "shakespeare-the-winters-tale",
+ "title": "The Winter's Tale",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Antigonus",
+   "x": 80.6,
+   "y": 252.8
+  },
+  {
+   "i": 1,
+   "n": "Autolycus",
+   "x": 278.4,
+   "y": -40.8
+  },
+  {
+   "i": 2,
+   "n": "Camillo",
+   "x": 93.3,
+   "y": 14.7
+  },
+  {
+   "i": 3,
+   "n": "Cleomenes",
+   "x": -279.5,
+   "y": -80.9
+  },
+  {
+   "i": 4,
+   "n": "Dion",
+   "x": -265.4,
+   "y": 22.3
+  },
+  {
+   "i": 5,
+   "n": "Dorcas",
+   "x": 315.5,
+   "y": -151.1
+  },
+  {
+   "i": 6,
+   "n": "Florizell",
+   "x": 79.5,
+   "y": -106.0
+  },
+  {
+   "i": 7,
+   "n": "Hermione",
+   "x": -146.9,
+   "y": 141.2
+  },
+  {
+   "i": 8,
+   "n": "Jailer",
+   "x": -482.8,
+   "y": -450.4
+  },
+  {
+   "i": 9,
+   "n": "Emilia",
+   "x": -600.0,
+   "y": -318.2
+  },
+  {
+   "i": 10,
+   "n": "Leontes",
+   "x": -112.1,
+   "y": 66.7
+  },
+  {
+   "i": 11,
+   "n": "Mamillius",
+   "x": -74.8,
+   "y": 306.6
+  },
+  {
+   "i": 12,
+   "n": "Mopsa",
+   "x": 367.9,
+   "y": -62.4
+  },
+  {
+   "i": 13,
+   "n": "Officer",
+   "x": -423.1,
+   "y": 93.6
+  },
+  {
+   "i": 14,
+   "n": "Paulina",
+   "x": -192.8,
+   "y": -91.0
+  },
+  {
+   "i": 15,
+   "n": "Perdita",
+   "x": 27.8,
+   "y": -53.2
+  },
+  {
+   "i": 16,
+   "n": "Polixenes",
+   "x": 101.8,
+   "y": 75.6
+  },
+  {
+   "i": 17,
+   "n": "Servant",
+   "x": 229.6,
+   "y": -171.2
+  },
+  {
+   "i": 18,
+   "n": "Mariner",
+   "x": 412.2,
+   "y": 370.3
+  },
+  {
+   "i": 19,
+   "n": "Shepherd",
+   "x": 264.4,
+   "y": 108.1
+  },
+  {
+   "i": 20,
+   "n": "Shepherd’s Son",
+   "x": 326.4,
+   "y": 73.3
+  }
+ ],
+ "edges": [
+  [
+   0,
+   7,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   10,
+   2.0,
+   1.0,
+   0.2
+  ],
+  [
+   0,
+   11,
+   1.0,
+   0.167,
+   0.0
+  ],
+  [
+   0,
+   14,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   0,
+   18,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   0,
+   19,
+   1.0,
+   0.667,
+   0.0
+  ],
+  [
+   0,
+   20,
+   1.0,
+   0.833,
+   0.0
+  ],
+  [
+   1,
+   2,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   1,
+   5,
+   1.0,
+   0.125,
+   0.0
+  ],
+  [
+   1,
+   6,
+   1.0,
+   0.25,
+   0.0
+  ],
+  [
+   1,
+   12,
+   1.0,
+   0.375,
+   0.0
+  ],
+  [
+   1,
+   15,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   1,
+   16,
+   1.0,
+   0.625,
+   0.0
+  ],
+  [
+   1,
+   17,
+   1.0,
+   0.75,
+   0.0
+  ],
+  [
+   1,
+   19,
+   2.0,
+   0.875,
+   0.9
+  ],
+  [
+   1,
+   20,
+   3.0,
+   1.0,
+   0.9
+  ],
+  [
+   2,
+   5,
+   1.0,
+   0.083,
+   0.125
+  ],
+  [
+   2,
+   6,
+   1.0,
+   0.167,
+   0.083
+  ],
+  [
+   2,
+   7,
+   2.0,
+   0.75,
+   0.556
+  ],
+  [
+   2,
+   10,
+   2.0,
+   0.833,
+   0.3
+  ],
+  [
+   2,
+   11,
+   1.0,
+   0.25,
+   0.25
+  ],
+  [
+   2,
+   12,
+   1.0,
+   0.333,
+   0.125
+  ],
+  [
+   2,
+   14,
+   1.0,
+   0.417,
+   0.091
+  ],
+  [
+   2,
+   15,
+   2.0,
+   0.917,
+   0.692
+  ],
+  [
+   2,
+   16,
+   4.0,
+   1.0,
+   1.0
+  ],
+  [
+   2,
+   17,
+   1.0,
+   0.5,
+   0.125
+  ],
+  [
+   2,
+   19,
+   1.0,
+   0.583,
+   0.1
+  ],
+  [
+   2,
+   20,
+   1.0,
+   0.667,
+   0.1
+  ],
+  [
+   3,
+   4,
+   3.0,
+   1.0,
+   1.0
+  ],
+  [
+   3,
+   6,
+   1.0,
+   0.0,
+   0.167
+  ],
+  [
+   3,
+   7,
+   1.0,
+   0.167,
+   0.111
+  ],
+  [
+   3,
+   10,
+   2.0,
+   0.667,
+   0.4
+  ],
+  [
+   3,
+   13,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   3,
+   14,
+   2.0,
+   0.833,
+   0.636
+  ],
+  [
+   3,
+   15,
+   1.0,
+   0.5,
+   0.077
+  ],
+  [
+   4,
+   6,
+   1.0,
+   0.0,
+   0.25
+  ],
+  [
+   4,
+   7,
+   1.0,
+   0.167,
+   0.222
+  ],
+  [
+   4,
+   10,
+   2.0,
+   0.667,
+   0.5
+  ],
+  [
+   4,
+   13,
+   1.0,
+   0.333,
+   0.25
+  ],
+  [
+   4,
+   14,
+   2.0,
+   0.833,
+   0.727
+  ],
+  [
+   4,
+   15,
+   1.0,
+   0.5,
+   0.154
+  ],
+  [
+   5,
+   6,
+   1.0,
+   0.25,
+   0.333
+  ],
+  [
+   5,
+   12,
+   1.0,
+   0.375,
+   0.25
+  ],
+  [
+   5,
+   15,
+   1.0,
+   0.5,
+   0.231
+  ],
+  [
+   5,
+   16,
+   1.0,
+   0.625,
+   0.083
+  ],
+  [
+   5,
+   17,
+   1.0,
+   0.75,
+   0.25
+  ],
+  [
+   5,
+   19,
+   1.0,
+   0.875,
+   0.2
+  ],
+  [
+   5,
+   20,
+   1.0,
+   1.0,
+   0.2
+  ],
+  [
+   6,
+   10,
+   1.0,
+   0.417,
+   0.0
+  ],
+  [
+   6,
+   12,
+   1.0,
+   0.5,
+   0.375
+  ],
+  [
+   6,
+   14,
+   1.0,
+   0.583,
+   0.182
+  ],
+  [
+   6,
+   15,
+   2.0,
+   1.0,
+   0.769
+  ],
+  [
+   6,
+   16,
+   1.0,
+   0.667,
+   0.167
+  ],
+  [
+   6,
+   17,
+   1.0,
+   0.75,
+   0.375
+  ],
+  [
+   6,
+   19,
+   1.0,
+   0.833,
+   0.3
+  ],
+  [
+   6,
+   20,
+   1.0,
+   0.917,
+   0.3
+  ],
+  [
+   7,
+   10,
+   4.0,
+   1.0,
+   0.9
+  ],
+  [
+   7,
+   11,
+   2.0,
+   0.667,
+   0.75
+  ],
+  [
+   7,
+   13,
+   1.0,
+   0.333,
+   0.5
+  ],
+  [
+   7,
+   14,
+   2.0,
+   0.778,
+   0.818
+  ],
+  [
+   7,
+   15,
+   1.0,
+   0.444,
+   0.308
+  ],
+  [
+   7,
+   16,
+   2.0,
+   0.889,
+   0.75
+  ],
+  [
+   8,
+   9,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   8,
+   14,
+   1.0,
+   1.0,
+   0.273
+  ],
+  [
+   9,
+   14,
+   1.0,
+   1.0,
+   0.364
+  ],
+  [
+   10,
+   11,
+   2.0,
+   0.6,
+   1.0
+  ],
+  [
+   10,
+   13,
+   1.0,
+   0.1,
+   0.75
+  ],
+  [
+   10,
+   14,
+   4.0,
+   1.0,
+   1.0
+  ],
+  [
+   10,
+   15,
+   2.0,
+   0.7,
+   0.846
+  ],
+  [
+   10,
+   16,
+   2.0,
+   0.8,
+   0.833
+  ],
+  [
+   11,
+   16,
+   1.0,
+   0.5,
+   0.25
+  ],
+  [
+   12,
+   15,
+   1.0,
+   0.5,
+   0.385
+  ],
+  [
+   12,
+   16,
+   1.0,
+   0.625,
+   0.333
+  ],
+  [
+   12,
+   17,
+   1.0,
+   0.75,
+   0.5
+  ],
+  [
+   12,
+   19,
+   1.0,
+   0.875,
+   0.4
+  ],
+  [
+   12,
+   20,
+   1.0,
+   1.0,
+   0.4
+  ],
+  [
+   13,
+   14,
+   1.0,
+   1.0,
+   0.455
+  ],
+  [
+   14,
+   15,
+   2.0,
+   0.909,
+   0.923
+  ],
+  [
+   14,
+   16,
+   1.0,
+   0.545,
+   0.417
+  ],
+  [
+   15,
+   16,
+   2.0,
+   1.0,
+   0.917
+  ],
+  [
+   15,
+   17,
+   1.0,
+   0.462,
+   0.625
+  ],
+  [
+   15,
+   19,
+   1.0,
+   0.538,
+   0.5
+  ],
+  [
+   15,
+   20,
+   1.0,
+   0.615,
+   0.5
+  ],
+  [
+   16,
+   17,
+   1.0,
+   0.5,
+   0.75
+  ],
+  [
+   16,
+   19,
+   1.0,
+   0.583,
+   0.6
+  ],
+  [
+   16,
+   20,
+   1.0,
+   0.667,
+   0.6
+  ],
+  [
+   17,
+   19,
+   1.0,
+   0.875,
+   0.7
+  ],
+  [
+   17,
+   20,
+   1.0,
+   1.0,
+   0.7
+  ],
+  [
+   18,
+   19,
+   1.0,
+   0.5,
+   0.8
+  ],
+  [
+   18,
+   20,
+   1.0,
+   1.0,
+   0.8
+  ],
+  [
+   19,
+   20,
+   3.0,
+   1.0,
+   1.0
+  ]
+ ],
+ "playable": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  10,
+  12,
+  14,
+  15,
+  16,
+  17,
+  19,
+  20
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-the-winters-tale-p0000",
+   "you": 0,
+   "startRadius": 1,
+   "ease": 0.384
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.519
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.547
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.47
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.49
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.414
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.461
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.637
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.633
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.435
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.554
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0015",
+   "you": 15,
+   "startRadius": 1,
+   "ease": 0.592
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0016",
+   "you": 16,
+   "startRadius": 1,
+   "ease": 0.611
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0017",
+   "you": 17,
+   "startRadius": 1,
+   "ease": 0.456
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0019",
+   "you": 19,
+   "startRadius": 1,
+   "ease": 0.533
+  },
+  {
+   "id": "shakespeare-the-winters-tale-p0020",
+   "you": 20,
+   "startRadius": 1,
+   "ease": 0.554
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

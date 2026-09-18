@@ -18,6 +18,8 @@ interface Props {
   onCancel: () => void;
   onOpenKey: () => void;
   onReveal: () => void;
+  onRevealStory: () => void;
+  onStartAgain: () => void;
 }
 
 export function Guess({
@@ -29,6 +31,8 @@ export function Guess({
   onCancel,
   onOpenKey,
   onReveal,
+  onRevealStory,
+  onStartAgain,
 }: Props) {
   // Deliberately NOT the universe being played — defaulting to the real answer
   // hands over the half of the question the dropdown exists to ask. Unless a
@@ -89,6 +93,9 @@ export function Guess({
     return byAlias ? byAlias.i : null;
   };
 
+  /** The world, when there is nothing left to ask about it. */
+  const settled = worldIsKnown(session) ? loaded.get(session.universe) ?? null : null;
+
   const last = session.lastGuess;
   const rejected = last && !last.characterCorrect ? last.characterQuery : null;
   const canSubmit = query.trim().length > 0 && story !== '';
@@ -96,7 +103,9 @@ export function Guess({
   const headline = !last
     ? null
     : last.storyCorrect && !last.characterCorrect
-      ? 'Right story. Wrong person.'
+      ? settled && session.worldChosen
+        ? 'Not this person.'
+        : 'Right story. Wrong person.'
       : !last.storyCorrect
         ? 'Not this story.'
         : null;
@@ -132,7 +141,12 @@ export function Guess({
           <div className="chrome">YOU ARE HERE</div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 18 }}>
             <Ledger ledger={session.ledger} />
-            <MarginLinks onOpenKey={onOpenKey} onReveal={onReveal} />
+            <MarginLinks
+              onOpenKey={onOpenKey}
+              onReveal={onReveal}
+              onRevealStory={worldIsKnown(session) ? undefined : onRevealStory}
+              onStartAgain={onStartAgain}
+            />
           </div>
         </div>
 
@@ -149,26 +163,37 @@ export function Guess({
         >
           {headline && <div style={{ fontSize: 27 }}>{headline}</div>}
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: 470 }}>
-            <label className="field-label" htmlFor="story">
-              What story are you in?
-            </label>
-            <select
-              id="story"
-              className="field"
-              value={story}
-              onChange={(e) => setStory(e.target.value)}
-            >
-              <option value="" disabled>
-                —
-              </option>
-              {stories.map((u) => (
-                <option key={u.id} value={u.id}>
-                  {u.title}
+          {/* Once the world is settled — named correctly, or chosen before play —
+              the question stops being asked. Leaving a dropdown open on a
+              settled answer invites the player to re-pick what they have already
+              established, and makes the screen look like it is still asking. */}
+          {settled ? (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 10, width: 470 }}>
+              <div className="field-label">The story</div>
+              <div style={{ fontSize: 23 }}>{settled.title}</div>
+            </div>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: 470 }}>
+              <label className="field-label" htmlFor="story">
+                What story are you in?
+              </label>
+              <select
+                id="story"
+                className="field"
+                value={story}
+                onChange={(e) => setStory(e.target.value)}
+              >
+                <option value="" disabled>
+                  —
                 </option>
-              ))}
-            </select>
-          </div>
+                {stories.map((u) => (
+                  <option key={u.id} value={u.id}>
+                    {u.title}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: 470 }}>
             <label className="field-label" htmlFor="character">

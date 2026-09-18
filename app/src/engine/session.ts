@@ -1,8 +1,6 @@
 import type { NodeIndex, PuzzleRecord, Universe, UniverseId } from '../types';
 
 export type Phase = 'cold' | 'explore' | 'guess' | 'reveal';
-// 'unbanded' covers today's data, which has not been through difficulty scoring yet.
-export type Band = 'approachable' | 'hard' | 'unbanded';
 
 /**
  * Cost table for player actions.
@@ -17,13 +15,18 @@ export type Band = 'approachable' | 'hard' | 'unbanded';
  * replaced it — a character's discrete attributes (books, titles, allegiances)
  * drawn from the enrichment sidecar.
  *
- * `locate` is gone too. Guessing is free and wrong guesses cost nothing, so a
- * player could brute-force the story from a short dropdown in a few free tries
- * — paying clues for what trial gives away was never a real trade. The world is
- * now revealed by guessing the story correctly, which costs nothing and is the
- * same act the guess screen already asks for.
+ * `story` is the old `locate` under a plainer name, reinstated at its old price.
+ * It was removed on the reasoning that guessing is free, so a player could
+ * brute-force the world from a short dropdown and paying for it was a tax on
+ * those who did not think to. That held at three worlds. At thirty-one, walking
+ * the dropdown is not deduction, it is clicking — so the shortcut exists, and it
+ * costs, because it is information and information costs. Naming the world
+ * *correctly* is still free: that is an answer, not a purchase.
+ *
+ * Priced below `name` on purpose. A name usually gives the world away as well,
+ * so it must not be cheaper than the half-answer it contains.
  */
-export const COST = { expand: 1, facts: 2, name: 3 } as const;
+export const COST = { expand: 1, facts: 2, name: 3, story: 2 } as const;
 
 export interface Known {
   visible: Set<NodeIndex>;
@@ -43,10 +46,17 @@ export interface Ledger {
   expansions: number;
   facts: number;
   names: number;
+  /** 0 or 1 — the world can only be given away once. */
+  stories: number;
 }
 
 export function clueTotal(ledger: Ledger): number {
-  return ledger.expansions * COST.expand + ledger.facts * COST.facts + ledger.names * COST.name;
+  return (
+    ledger.expansions * COST.expand +
+    ledger.facts * COST.facts +
+    ledger.names * COST.name +
+    ledger.stories * COST.story
+  );
 }
 
 export interface GuessRecord {
@@ -59,10 +69,20 @@ export interface GuessRecord {
 
 export interface Session {
   phase: Phase;
-  band: Band;
+  /** How findable this start was scored to be, 0 to 1. Carried for the reveal
+   * and for tuning; nothing in play branches on it. */
+  ease: number | null;
   universe: UniverseId;
   you: NodeIndex;
   puzzleId: string;
+
+  /** True when the player bought the world rather than working it out. */
+  storyRevealed: boolean;
+
+  /** True when the player picked this world rather than waking in a stranger's.
+   * The story half of the question is then already answered, so it is never put
+   * to them again — see `worldIsKnown`. */
+  worldChosen: boolean;
 
   known: Known;
   ledger: Ledger;
@@ -74,6 +94,7 @@ export type Action =
   | { type: 'EXPAND'; node: NodeIndex }
   | { type: 'FACTS'; node: NodeIndex }
   | { type: 'NAME'; node: NodeIndex; name: string }
+  | { type: 'REVEAL_STORY' }
   | { type: 'OPEN_GUESS' }
   | { type: 'CLOSE_GUESS' }
   | { type: 'GUESS'; universe: UniverseId; characterQuery: string; characterIndex: NodeIndex | null }
@@ -91,7 +112,11 @@ function neighborsOf(universe: Universe, node: NodeIndex): NodeIndex[] {
 /** Builds the starting session for a puzzle. Every waking starts clean: the
  * residence model (staying in one world across several wakings, carrying bought
  * names forward) is parked, so nothing crosses between runs. */
-export function initSession(universe: Universe, puzzle: PuzzleRecord): Session {
+export function initSession(
+  universe: Universe,
+  puzzle: PuzzleRecord,
+  { worldChosen = false }: { worldChosen?: boolean } = {},
+): Session {
   const you = puzzle.you;
   const visible = new Set<NodeIndex>([you]);
   const hop = new Map<NodeIndex, number>([[you, 0]]);
@@ -104,10 +129,12 @@ export function initSession(universe: Universe, puzzle: PuzzleRecord): Session {
 
   return {
     phase: 'cold',
-    band: puzzle.band ?? 'unbanded',
+    ease: puzzle.ease ?? null,
     universe: universe.id,
     you,
     puzzleId: puzzle.id,
+    storyRevealed: false,
+    worldChosen,
     known: {
       visible,
       expanded: new Set([you]),
@@ -116,7 +143,7 @@ export function initSession(universe: Universe, puzzle: PuzzleRecord): Session {
       hop,
       parent,
     },
-    ledger: { expansions: 0, facts: 0, names: 0 },
+    ledger: { expansions: 0, facts: 0, names: 0, stories: 0 },
     guesses: [],
     lastGuess: null,
   };
@@ -125,9 +152,16 @@ export function initSession(universe: Universe, puzzle: PuzzleRecord): Session {
 export type ActionKey = 'expand' | 'facts' | 'name';
 
 /** The world is known once the player has named it correctly — free, and the
- * same act the guess screen already asks for. */
+ * same act the guess screen already asks for — or when they chose it up front
+ * and there was never anything to name, or when they simply asked.
+ *
+ * The three routes cost differently, which is the point: naming it correctly is
+ * free because it is an answer, choosing it up front is free because there was
+ * never a question, and being told costs `COST.story` because that is a purchase.
+ * None of them tells you who you are.
+ */
 export function worldIsKnown(session: Session): boolean {
-  return session.guesses.some((g) => g.storyCorrect);
+  return session.worldChosen || session.storyRevealed || session.guesses.some((g) => g.storyCorrect);
 }
 
 export function availableActionsFor(session: Session, node: NodeIndex): ActionKey[] {
@@ -184,6 +218,16 @@ export function makeReducer(universe: Universe) {
           ...session,
           known: { ...session.known, named },
           ledger: { ...session.ledger, names: session.ledger.names + 1 },
+        };
+      }
+      case 'REVEAL_STORY': {
+        // Charged once. Asking again after the world is already known — however
+        // it became known — buys nothing and so costs nothing.
+        if (worldIsKnown(session)) return session;
+        return {
+          ...session,
+          storyRevealed: true,
+          ledger: { ...session.ledger, stories: session.ledger.stories + 1 },
         };
       }
       case 'OPEN_GUESS':

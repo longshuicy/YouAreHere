@@ -1,0 +1,603 @@
+{
+ "id": "shakespeare-pericles",
+ "title": "Pericles",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Antiochus",
+   "x": 425.9,
+   "y": 415.1
+  },
+  {
+   "i": 1,
+   "n": "Bawd",
+   "x": -544.9,
+   "y": -387.5
+  },
+  {
+   "i": 2,
+   "n": "Bolt",
+   "x": -437.7,
+   "y": -446.0
+  },
+  {
+   "i": 3,
+   "n": "Lord Cerimon",
+   "x": 200.0,
+   "y": -204.2
+  },
+  {
+   "i": 4,
+   "n": "Cleon",
+   "x": -191.4,
+   "y": 394.0
+  },
+  {
+   "i": 5,
+   "n": "Daughter",
+   "x": 571.5,
+   "y": 205.7
+  },
+  {
+   "i": 6,
+   "n": "Diana",
+   "x": -96.3,
+   "y": -205.9
+  },
+  {
+   "i": 7,
+   "n": "Dionyza",
+   "x": -293.6,
+   "y": 213.0
+  },
+  {
+   "i": 8,
+   "n": "Gentleman",
+   "x": -31.6,
+   "y": -325.2
+  },
+  {
+   "i": 9,
+   "n": "Helicanus",
+   "x": 32.4,
+   "y": -99.0
+  },
+  {
+   "i": 10,
+   "n": "Leonine",
+   "x": -600.0,
+   "y": 139.7
+  },
+  {
+   "i": 11,
+   "n": "Lysimachus",
+   "x": -263.7,
+   "y": -272.3
+  },
+  {
+   "i": 12,
+   "n": "Messenger",
+   "x": 538.7,
+   "y": 344.4
+  },
+  {
+   "i": 13,
+   "n": "Marina",
+   "x": -246.8,
+   "y": -136.0
+  },
+  {
+   "i": 14,
+   "n": "Marshal",
+   "x": 131.4,
+   "y": 423.5
+  },
+  {
+   "i": 15,
+   "n": "Pander",
+   "x": -548.9,
+   "y": -268.2
+  },
+  {
+   "i": 16,
+   "n": "Pericles",
+   "x": 71.8,
+   "y": 104.3
+  },
+  {
+   "i": 17,
+   "n": "Philemon",
+   "x": 492.6,
+   "y": -317.6
+  },
+  {
+   "i": 18,
+   "n": "Simonides",
+   "x": 198.6,
+   "y": 268.8
+  },
+  {
+   "i": 19,
+   "n": "Thaisa",
+   "x": 194.0,
+   "y": 6.4
+  },
+  {
+   "i": 20,
+   "n": "Thaliard",
+   "x": 398.0,
+   "y": 146.9
+  }
+ ],
+ "edges": [
+  [
+   0,
+   5,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   12,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   0,
+   16,
+   1.0,
+   0.667,
+   0.0
+  ],
+  [
+   0,
+   20,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   1,
+   2,
+   2.0,
+   0.333,
+   0.333
+  ],
+  [
+   1,
+   11,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   1,
+   13,
+   2.0,
+   0.667,
+   0.545
+  ],
+  [
+   1,
+   15,
+   2.0,
+   1.0,
+   0.333
+  ],
+  [
+   2,
+   11,
+   1.0,
+   0.0,
+   0.143
+  ],
+  [
+   2,
+   13,
+   2.0,
+   0.667,
+   0.636
+  ],
+  [
+   2,
+   15,
+   2.0,
+   1.0,
+   0.667
+  ],
+  [
+   3,
+   9,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   3,
+   13,
+   1.0,
+   0.25,
+   0.0
+  ],
+  [
+   3,
+   16,
+   1.0,
+   0.5,
+   0.071
+  ],
+  [
+   3,
+   17,
+   1.0,
+   0.75,
+   0.0
+  ],
+  [
+   3,
+   19,
+   3.0,
+   1.0,
+   0.667
+  ],
+  [
+   4,
+   7,
+   3.0,
+   1.0,
+   1.0
+  ],
+  [
+   4,
+   16,
+   2.0,
+   0.0,
+   0.643
+  ],
+  [
+   5,
+   12,
+   1.0,
+   0.333,
+   0.333
+  ],
+  [
+   5,
+   16,
+   1.0,
+   0.667,
+   0.143
+  ],
+  [
+   5,
+   20,
+   1.0,
+   1.0,
+   0.25
+  ],
+  [
+   6,
+   8,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   6,
+   9,
+   1.0,
+   0.25,
+   0.143
+  ],
+  [
+   6,
+   11,
+   1.0,
+   0.5,
+   0.286
+  ],
+  [
+   6,
+   13,
+   1.0,
+   0.75,
+   0.091
+  ],
+  [
+   6,
+   16,
+   1.0,
+   1.0,
+   0.214
+  ],
+  [
+   7,
+   10,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   7,
+   13,
+   1.0,
+   0.333,
+   0.182
+  ],
+  [
+   7,
+   16,
+   2.0,
+   0.667,
+   0.714
+  ],
+  [
+   8,
+   9,
+   1.0,
+   0.25,
+   0.286
+  ],
+  [
+   8,
+   11,
+   1.0,
+   0.5,
+   0.429
+  ],
+  [
+   8,
+   13,
+   1.0,
+   0.75,
+   0.273
+  ],
+  [
+   8,
+   16,
+   1.0,
+   1.0,
+   0.286
+  ],
+  [
+   9,
+   11,
+   1.0,
+   0.429,
+   0.571
+  ],
+  [
+   9,
+   13,
+   2.0,
+   0.857,
+   0.727
+  ],
+  [
+   9,
+   16,
+   3.0,
+   1.0,
+   0.929
+  ],
+  [
+   9,
+   19,
+   1.0,
+   0.571,
+   0.0
+  ],
+  [
+   9,
+   20,
+   1.0,
+   0.714,
+   0.5
+  ],
+  [
+   10,
+   13,
+   1.0,
+   1.0,
+   0.364
+  ],
+  [
+   11,
+   13,
+   2.0,
+   1.0,
+   0.818
+  ],
+  [
+   11,
+   15,
+   1.0,
+   0.714,
+   0.0
+  ],
+  [
+   11,
+   16,
+   1.0,
+   0.857,
+   0.357
+  ],
+  [
+   12,
+   16,
+   1.0,
+   0.667,
+   0.429
+  ],
+  [
+   12,
+   20,
+   1.0,
+   1.0,
+   0.75
+  ],
+  [
+   13,
+   15,
+   2.0,
+   0.909,
+   1.0
+  ],
+  [
+   13,
+   16,
+   2.0,
+   1.0,
+   0.786
+  ],
+  [
+   13,
+   19,
+   1.0,
+   0.455,
+   0.167
+  ],
+  [
+   14,
+   16,
+   1.0,
+   0.0,
+   0.5
+  ],
+  [
+   14,
+   18,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   14,
+   19,
+   1.0,
+   1.0,
+   0.333
+  ],
+  [
+   16,
+   18,
+   2.0,
+   0.857,
+   0.5
+  ],
+  [
+   16,
+   19,
+   3.0,
+   1.0,
+   0.833
+  ],
+  [
+   16,
+   20,
+   1.0,
+   0.571,
+   1.0
+  ],
+  [
+   17,
+   19,
+   1.0,
+   1.0,
+   0.5
+  ],
+  [
+   18,
+   19,
+   3.0,
+   1.0,
+   1.0
+  ]
+ ],
+ "playable": [
+  9,
+  11,
+  13,
+  16,
+  19
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-pericles-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.662
+  },
+  {
+   "id": "shakespeare-pericles-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.594
+  },
+  {
+   "id": "shakespeare-pericles-p0013",
+   "you": 13,
+   "startRadius": 1,
+   "ease": 0.622
+  },
+  {
+   "id": "shakespeare-pericles-p0016",
+   "you": 16,
+   "startRadius": 1,
+   "ease": 0.605
+  },
+  {
+   "id": "shakespeare-pericles-p0019",
+   "you": 19,
+   "startRadius": 1,
+   "ease": 0.632
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

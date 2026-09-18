@@ -1,0 +1,956 @@
+{
+ "id": "shakespeare-the-taming-of-the-shrew",
+ "title": "The Taming of the Shrew",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Baptista Minola",
+   "x": 122.1,
+   "y": -384.7
+  },
+  {
+   "i": 1,
+   "n": "Bianca",
+   "x": -1.9,
+   "y": -372.2
+  },
+  {
+   "i": 2,
+   "n": "Biondello",
+   "x": 164.2,
+   "y": -174.0
+  },
+  {
+   "i": 3,
+   "n": "Curtis",
+   "x": -64.8,
+   "y": 397.3
+  },
+  {
+   "i": 4,
+   "n": "Gremio",
+   "x": -99.0,
+   "y": -310.2
+  },
+  {
+   "i": 5,
+   "n": "Grumio",
+   "x": -67.7,
+   "y": 94.1
+  },
+  {
+   "i": 6,
+   "n": "Hortensio",
+   "x": -116.7,
+   "y": -207.9
+  },
+  {
+   "i": 7,
+   "n": "Katherine",
+   "x": -24.4,
+   "y": -33.6
+  },
+  {
+   "i": 8,
+   "n": "Lucentio",
+   "x": 133.2,
+   "y": -276.5
+  },
+  {
+   "i": 9,
+   "n": "Petruchio",
+   "x": 72.1,
+   "y": 17.8
+  },
+  {
+   "i": 10,
+   "n": "Joseph",
+   "x": 86.8,
+   "y": 538.4
+  },
+  {
+   "i": 11,
+   "n": "Nathaniel",
+   "x": -84.9,
+   "y": 571.2
+  },
+  {
+   "i": 12,
+   "n": "Nicholas",
+   "x": 166.0,
+   "y": 407.0
+  },
+  {
+   "i": 13,
+   "n": "Peter",
+   "x": -287.6,
+   "y": 342.2
+  },
+  {
+   "i": 14,
+   "n": "Phillip",
+   "x": -243.3,
+   "y": 491.8
+  },
+  {
+   "i": 15,
+   "n": "Christopher Sly",
+   "x": -69.1,
+   "y": -600.0
+  },
+  {
+   "i": 16,
+   "n": "Tranio",
+   "x": 19.8,
+   "y": -219.5
+  },
+  {
+   "i": 17,
+   "n": "Vincentio",
+   "x": 295.1,
+   "y": -281.3
+  }
+ ],
+ "edges": [
+  [
+   0,
+   1,
+   5.0,
+   0.5,
+   0.4
+  ],
+  [
+   0,
+   2,
+   5.0,
+   0.6,
+   0.6
+  ],
+  [
+   0,
+   4,
+   5.0,
+   0.7,
+   0.4
+  ],
+  [
+   0,
+   5,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   6,
+   3.0,
+   0.3,
+   0.3
+  ],
+  [
+   0,
+   7,
+   5.0,
+   0.8,
+   0.688
+  ],
+  [
+   0,
+   8,
+   5.0,
+   0.9,
+   0.5
+  ],
+  [
+   0,
+   9,
+   4.0,
+   0.4,
+   0.467
+  ],
+  [
+   0,
+   15,
+   1.0,
+   0.1,
+   0.0
+  ],
+  [
+   0,
+   16,
+   6.0,
+   1.0,
+   0.6
+  ],
+  [
+   0,
+   17,
+   2.0,
+   0.2,
+   0.0
+  ],
+  [
+   1,
+   2,
+   5.0,
+   0.5,
+   0.7
+  ],
+  [
+   1,
+   4,
+   5.0,
+   0.6,
+   0.5
+  ],
+  [
+   1,
+   5,
+   1.0,
+   0.0,
+   0.071
+  ],
+  [
+   1,
+   6,
+   5.0,
+   0.7,
+   0.6
+  ],
+  [
+   1,
+   7,
+   5.0,
+   0.8,
+   0.75
+  ],
+  [
+   1,
+   8,
+   6.0,
+   0.9,
+   0.8
+  ],
+  [
+   1,
+   9,
+   4.0,
+   0.3,
+   0.533
+  ],
+  [
+   1,
+   15,
+   1.0,
+   0.1,
+   0.143
+  ],
+  [
+   1,
+   16,
+   6.0,
+   1.0,
+   0.7
+  ],
+  [
+   1,
+   17,
+   2.0,
+   0.2,
+   0.125
+  ],
+  [
+   2,
+   4,
+   5.0,
+   0.8,
+   0.6
+  ],
+  [
+   2,
+   5,
+   2.0,
+   0.1,
+   0.571
+  ],
+  [
+   2,
+   6,
+   4.0,
+   0.3,
+   0.4
+  ],
+  [
+   2,
+   7,
+   4.0,
+   0.4,
+   0.562
+  ],
+  [
+   2,
+   8,
+   7.0,
+   0.9,
+   0.9
+  ],
+  [
+   2,
+   9,
+   4.0,
+   0.5,
+   0.6
+  ],
+  [
+   2,
+   15,
+   1.0,
+   0.0,
+   0.286
+  ],
+  [
+   2,
+   16,
+   7.0,
+   1.0,
+   0.9
+  ],
+  [
+   2,
+   17,
+   2.0,
+   0.2,
+   0.25
+  ],
+  [
+   3,
+   5,
+   1.0,
+   0.0,
+   0.143
+  ],
+  [
+   3,
+   7,
+   1.0,
+   0.143,
+   0.0
+  ],
+  [
+   3,
+   9,
+   1.0,
+   0.286,
+   0.0
+  ],
+  [
+   3,
+   10,
+   1.0,
+   0.429,
+   0.0
+  ],
+  [
+   3,
+   11,
+   1.0,
+   0.571,
+   0.0
+  ],
+  [
+   3,
+   12,
+   1.0,
+   0.714,
+   0.0
+  ],
+  [
+   3,
+   13,
+   1.0,
+   0.857,
+   0.0
+  ],
+  [
+   3,
+   14,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   4,
+   5,
+   2.0,
+   0.1,
+   0.643
+  ],
+  [
+   4,
+   6,
+   4.0,
+   0.3,
+   0.5
+  ],
+  [
+   4,
+   7,
+   5.0,
+   0.7,
+   0.812
+  ],
+  [
+   4,
+   8,
+   5.0,
+   0.8,
+   0.6
+  ],
+  [
+   4,
+   9,
+   5.0,
+   0.9,
+   0.8
+  ],
+  [
+   4,
+   15,
+   1.0,
+   0.0,
+   0.429
+  ],
+  [
+   4,
+   16,
+   6.0,
+   1.0,
+   0.8
+  ],
+  [
+   4,
+   17,
+   2.0,
+   0.2,
+   0.375
+  ],
+  [
+   5,
+   6,
+   2.0,
+   0.714,
+   0.1
+  ],
+  [
+   5,
+   7,
+   3.0,
+   0.929,
+   0.438
+  ],
+  [
+   5,
+   8,
+   2.0,
+   0.786,
+   0.1
+  ],
+  [
+   5,
+   9,
+   4.0,
+   1.0,
+   0.667
+  ],
+  [
+   5,
+   10,
+   1.0,
+   0.214,
+   0.143
+  ],
+  [
+   5,
+   11,
+   1.0,
+   0.286,
+   0.143
+  ],
+  [
+   5,
+   12,
+   1.0,
+   0.357,
+   0.143
+  ],
+  [
+   5,
+   13,
+   1.0,
+   0.429,
+   0.143
+  ],
+  [
+   5,
+   14,
+   1.0,
+   0.5,
+   0.143
+  ],
+  [
+   5,
+   16,
+   2.0,
+   0.857,
+   0.1
+  ],
+  [
+   6,
+   7,
+   5.0,
+   0.7,
+   0.875
+  ],
+  [
+   6,
+   8,
+   5.0,
+   0.8,
+   0.7
+  ],
+  [
+   6,
+   9,
+   5.0,
+   0.9,
+   0.867
+  ],
+  [
+   6,
+   15,
+   1.0,
+   0.0,
+   0.571
+  ],
+  [
+   6,
+   16,
+   5.0,
+   1.0,
+   0.3
+  ],
+  [
+   6,
+   17,
+   2.0,
+   0.2,
+   0.5
+  ],
+  [
+   7,
+   8,
+   4.0,
+   0.625,
+   0.3
+  ],
+  [
+   7,
+   9,
+   7.0,
+   1.0,
+   1.0
+  ],
+  [
+   7,
+   10,
+   1.0,
+   0.062,
+   0.286
+  ],
+  [
+   7,
+   11,
+   1.0,
+   0.125,
+   0.286
+  ],
+  [
+   7,
+   12,
+   1.0,
+   0.188,
+   0.286
+  ],
+  [
+   7,
+   13,
+   1.0,
+   0.25,
+   0.286
+  ],
+  [
+   7,
+   14,
+   1.0,
+   0.312,
+   0.286
+  ],
+  [
+   7,
+   15,
+   1.0,
+   0.375,
+   0.714
+  ],
+  [
+   7,
+   16,
+   5.0,
+   0.938,
+   0.4
+  ],
+  [
+   7,
+   17,
+   3.0,
+   0.5,
+   0.875
+  ],
+  [
+   8,
+   9,
+   4.0,
+   0.4,
+   0.733
+  ],
+  [
+   8,
+   15,
+   1.0,
+   0.0,
+   0.857
+  ],
+  [
+   8,
+   16,
+   7.0,
+   1.0,
+   1.0
+  ],
+  [
+   8,
+   17,
+   2.0,
+   0.2,
+   0.625
+  ],
+  [
+   9,
+   10,
+   1.0,
+   0.067,
+   0.429
+  ],
+  [
+   9,
+   11,
+   1.0,
+   0.133,
+   0.429
+  ],
+  [
+   9,
+   12,
+   1.0,
+   0.2,
+   0.429
+  ],
+  [
+   9,
+   13,
+   1.0,
+   0.267,
+   0.429
+  ],
+  [
+   9,
+   14,
+   1.0,
+   0.333,
+   0.429
+  ],
+  [
+   9,
+   16,
+   5.0,
+   0.933,
+   0.5
+  ],
+  [
+   9,
+   17,
+   3.0,
+   0.4,
+   1.0
+  ],
+  [
+   10,
+   11,
+   1.0,
+   0.571,
+   0.571
+  ],
+  [
+   10,
+   12,
+   1.0,
+   0.714,
+   0.571
+  ],
+  [
+   10,
+   13,
+   1.0,
+   0.857,
+   0.571
+  ],
+  [
+   10,
+   14,
+   1.0,
+   1.0,
+   0.571
+  ],
+  [
+   11,
+   12,
+   1.0,
+   0.714,
+   0.714
+  ],
+  [
+   11,
+   13,
+   1.0,
+   0.857,
+   0.714
+  ],
+  [
+   11,
+   14,
+   1.0,
+   1.0,
+   0.714
+  ],
+  [
+   12,
+   13,
+   1.0,
+   0.857,
+   0.857
+  ],
+  [
+   12,
+   14,
+   1.0,
+   1.0,
+   0.857
+  ],
+  [
+   13,
+   14,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   15,
+   16,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   16,
+   17,
+   2.0,
+   0.2,
+   0.75
+  ]
+ ],
+ "playable": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0000",
+   "you": 0,
+   "startRadius": 1,
+   "ease": 0.474
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.499
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.549
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.292
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.524
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.37
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.448
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.765
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.574
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.64
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.316
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.341
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.366
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0013",
+   "you": 13,
+   "startRadius": 1,
+   "ease": 0.39
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.415
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0015",
+   "you": 15,
+   "startRadius": 1,
+   "ease": 0.461
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0016",
+   "you": 16,
+   "startRadius": 1,
+   "ease": 0.693
+  },
+  {
+   "id": "shakespeare-the-taming-of-the-shrew-p0017",
+   "you": 17,
+   "startRadius": 1,
+   "ease": 0.441
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

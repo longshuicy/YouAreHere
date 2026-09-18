@@ -1,0 +1,1505 @@
+{
+ "id": "shakespeare-romeo-and-juliet",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in Romeo and Juliet."
+  }
+ },
+ "edges": {
+  "0-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "0-18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-2": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-4": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-5": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-7": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-8": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-14": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-16": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "1-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-5": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-8": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-14": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-15": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-16": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "2-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "3-4": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "3-5": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "3-8": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "3-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "3-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "3-15": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "3-18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "4-5": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "4-8": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "4-9": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "4-10": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "4-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "4-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "4-18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "4-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-7": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-8": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-9": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-10": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-14": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-15": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-16": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "5-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "6-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "6-17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "6-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "7-9": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "7-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "7-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "7-15": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "7-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "8-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "8-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "8-14": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "8-16": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "8-17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "8-18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "8-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "9-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "9-15": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "9-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "10-15": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "10-18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "11-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "11-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "12-13": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "12-14": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "12-16": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "12-17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "12-18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "12-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "13-14": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "13-15": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "13-16": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "13-17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "13-18": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "13-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "14-16": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "14-17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "14-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "16-17": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "16-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  },
+  "17-19": {
+   "facts": {
+    "books": [
+     "Romeo and Juliet"
+    ],
+    "first": "Romeo and Juliet",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in Romeo and Juliet."
+  }
+ },
+ "sources": []
+}

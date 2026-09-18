@@ -187,10 +187,16 @@ Exact signature matching will find almost no collisions, which would make every 
 
 Not every node is a puzzle. Emit a `playable` list filtered by:
 
-- degree between 3 and about 15 — enough to explore, not a hub that gives itself away
+- degree of at least 6 — enough adjacency to explore from
+- degree of at most about 40 — a *drawing* limit, not a difficulty one: the opening frame puts every neighbour on a single ring, which runs out of room past roughly forty
 - `minimumIdentification.cost` between 3 and 8 — solvable, not instant
-- reachable within 3 hops of at least 20 other nodes, so expansion has somewhere to go
-- not the protagonist, whose shape is recognisable to anyone who has read the book
+- reachable within 3 hops of a fair share of the world — a flat 20 where the world is big enough to mean it, a proportion of the world where it is not, since a play with a cast of twelve cannot put 20 characters within reach of anyone
+
+Protagonists and hubs are **not** excluded, though they once were. The rule was that a
+recognisable shape gives its book away; in practice it meant the recognisable characters
+were the only ones a player could never be, and every waking landed on a minor character.
+Recognising yourself quickly is the approachable end of the range, which is a band to be
+served deliberately, not a leak to be filtered out.
 
 Then band them into *approachable* and *hard* on `minimumIdentification.cost` and `crossUniverseAmbiguity`. The generator also emits, for each playable character, the count of candidates remaining once one neighbour is named — that number is what separates the two bands in practice, because naming is where the puzzle turns.
 

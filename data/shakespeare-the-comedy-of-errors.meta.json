@@ -1,0 +1,1318 @@
+{
+ "id": "shakespeare-the-comedy-of-errors",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in The Comedy of Errors."
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-2": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-3": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-4": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-7": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-8": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "0-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-2": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-3": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-4": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-5": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-7": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-8": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "1-17": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-5": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-7": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-8": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "2-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-4": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-5": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-7": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-8": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-11": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "3-17": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-7": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-8": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-9": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-13": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "4-17": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "5-7": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "5-8": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "6-17": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "7-9": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "7-10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "7-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "7-13": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "7-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "7-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "7-17": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "8-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "8-13": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "8-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "8-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "8-17": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "9-10": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "9-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "9-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "9-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "9-16": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "10-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "10-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "10-16": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "12-14": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "12-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "12-17": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  },
+  "14-15": {
+   "facts": {
+    "books": [
+     "The Comedy of Errors"
+    ],
+    "first": "The Comedy of Errors",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in The Comedy of Errors."
+  }
+ },
+ "sources": []
+}

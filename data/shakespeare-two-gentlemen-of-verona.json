@@ -1,0 +1,686 @@
+{
+ "id": "shakespeare-two-gentlemen-of-verona",
+ "title": "Two Gentlemen of Verona",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Antonio",
+   "x": 600.0,
+   "y": -394.4
+  },
+  {
+   "i": 1,
+   "n": "Duke",
+   "x": 22.6,
+   "y": 112.3
+  },
+  {
+   "i": 2,
+   "n": "Host",
+   "x": -169.8,
+   "y": -404.5
+  },
+  {
+   "i": 3,
+   "n": "Julia",
+   "x": -42.7,
+   "y": -151.7
+  },
+  {
+   "i": 4,
+   "n": "Lance",
+   "x": 261.3,
+   "y": 55.0
+  },
+  {
+   "i": 5,
+   "n": "Outlaws 1",
+   "x": -258.6,
+   "y": 229.1
+  },
+  {
+   "i": 6,
+   "n": "Outlaws 2",
+   "x": -323.7,
+   "y": 122.8
+  },
+  {
+   "i": 7,
+   "n": "Outlaws 3",
+   "x": -315.0,
+   "y": 0.5
+  },
+  {
+   "i": 8,
+   "n": "Pantino",
+   "x": 365.9,
+   "y": -281.9
+  },
+  {
+   "i": 9,
+   "n": "Proteus",
+   "x": 75.8,
+   "y": -47.8
+  },
+  {
+   "i": 10,
+   "n": "Servants",
+   "x": 149.8,
+   "y": 338.7
+  },
+  {
+   "i": 11,
+   "n": "Speed",
+   "x": -16.0,
+   "y": 262.1
+  },
+  {
+   "i": 12,
+   "n": "Sylvia",
+   "x": -88.7,
+   "y": 33.1
+  },
+  {
+   "i": 13,
+   "n": "Thurio",
+   "x": -154.9,
+   "y": -46.1
+  },
+  {
+   "i": 14,
+   "n": "Valentine",
+   "x": -106.0,
+   "y": 172.9
+  }
+ ],
+ "edges": [
+  [
+   0,
+   8,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   9,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   1,
+   3,
+   2.0,
+   0.5,
+   0.7
+  ],
+  [
+   1,
+   4,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   1,
+   5,
+   1.0,
+   0.1,
+   0.0
+  ],
+  [
+   1,
+   6,
+   1.0,
+   0.2,
+   0.0
+  ],
+  [
+   1,
+   7,
+   1.0,
+   0.3,
+   0.0
+  ],
+  [
+   1,
+   9,
+   5.0,
+   1.0,
+   0.846
+  ],
+  [
+   1,
+   10,
+   1.0,
+   0.4,
+   0.0
+  ],
+  [
+   1,
+   11,
+   2.0,
+   0.6,
+   0.556
+  ],
+  [
+   1,
+   12,
+   2.0,
+   0.7,
+   0.273
+  ],
+  [
+   1,
+   13,
+   4.0,
+   0.9,
+   0.9
+  ],
+  [
+   1,
+   14,
+   3.0,
+   0.8,
+   0.7
+  ],
+  [
+   2,
+   3,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   2,
+   9,
+   1.0,
+   0.333,
+   0.077
+  ],
+  [
+   2,
+   12,
+   1.0,
+   0.667,
+   0.0
+  ],
+  [
+   2,
+   13,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   3,
+   4,
+   1.0,
+   0.1,
+   0.167
+  ],
+  [
+   3,
+   5,
+   1.0,
+   0.2,
+   0.125
+  ],
+  [
+   3,
+   6,
+   1.0,
+   0.3,
+   0.125
+  ],
+  [
+   3,
+   7,
+   1.0,
+   0.4,
+   0.125
+  ],
+  [
+   3,
+   8,
+   1.0,
+   0.5,
+   0.333
+  ],
+  [
+   3,
+   9,
+   5.0,
+   1.0,
+   0.923
+  ],
+  [
+   3,
+   12,
+   3.0,
+   0.8,
+   0.727
+  ],
+  [
+   3,
+   13,
+   3.0,
+   0.9,
+   0.7
+  ],
+  [
+   3,
+   14,
+   1.0,
+   0.6,
+   0.0
+  ],
+  [
+   4,
+   8,
+   1.0,
+   0.333,
+   0.667
+  ],
+  [
+   4,
+   9,
+   2.0,
+   0.833,
+   0.462
+  ],
+  [
+   4,
+   11,
+   2.0,
+   1.0,
+   0.667
+  ],
+  [
+   4,
+   12,
+   1.0,
+   0.5,
+   0.091
+  ],
+  [
+   4,
+   14,
+   1.0,
+   0.667,
+   0.1
+  ],
+  [
+   5,
+   6,
+   3.0,
+   0.875,
+   0.875
+  ],
+  [
+   5,
+   7,
+   3.0,
+   1.0,
+   0.875
+  ],
+  [
+   5,
+   9,
+   1.0,
+   0.25,
+   0.154
+  ],
+  [
+   5,
+   11,
+   1.0,
+   0.375,
+   0.0
+  ],
+  [
+   5,
+   12,
+   2.0,
+   0.625,
+   0.364
+  ],
+  [
+   5,
+   13,
+   1.0,
+   0.5,
+   0.1
+  ],
+  [
+   5,
+   14,
+   2.0,
+   0.75,
+   0.3
+  ],
+  [
+   6,
+   7,
+   3.0,
+   1.0,
+   1.0
+  ],
+  [
+   6,
+   9,
+   1.0,
+   0.25,
+   0.231
+  ],
+  [
+   6,
+   11,
+   1.0,
+   0.375,
+   0.111
+  ],
+  [
+   6,
+   12,
+   2.0,
+   0.625,
+   0.455
+  ],
+  [
+   6,
+   13,
+   1.0,
+   0.5,
+   0.2
+  ],
+  [
+   6,
+   14,
+   2.0,
+   0.75,
+   0.4
+  ],
+  [
+   7,
+   9,
+   1.0,
+   0.25,
+   0.308
+  ],
+  [
+   7,
+   11,
+   1.0,
+   0.375,
+   0.222
+  ],
+  [
+   7,
+   12,
+   2.0,
+   0.625,
+   0.545
+  ],
+  [
+   7,
+   13,
+   1.0,
+   0.5,
+   0.3
+  ],
+  [
+   7,
+   14,
+   2.0,
+   0.75,
+   0.5
+  ],
+  [
+   8,
+   9,
+   2.0,
+   1.0,
+   0.538
+  ],
+  [
+   9,
+   10,
+   1.0,
+   0.385,
+   0.2
+  ],
+  [
+   9,
+   11,
+   3.0,
+   0.615,
+   0.889
+  ],
+  [
+   9,
+   12,
+   4.0,
+   0.692,
+   1.0
+  ],
+  [
+   9,
+   13,
+   5.0,
+   1.0,
+   1.0
+  ],
+  [
+   9,
+   14,
+   4.0,
+   0.769,
+   0.9
+  ],
+  [
+   10,
+   11,
+   1.0,
+   0.4,
+   0.333
+  ],
+  [
+   10,
+   12,
+   1.0,
+   0.6,
+   0.182
+  ],
+  [
+   10,
+   13,
+   1.0,
+   0.8,
+   0.4
+  ],
+  [
+   10,
+   14,
+   1.0,
+   1.0,
+   0.2
+  ],
+  [
+   11,
+   12,
+   2.0,
+   0.778,
+   0.636
+  ],
+  [
+   11,
+   13,
+   1.0,
+   0.444,
+   0.5
+  ],
+  [
+   11,
+   14,
+   5.0,
+   1.0,
+   1.0
+  ],
+  [
+   12,
+   13,
+   3.0,
+   0.818,
+   0.8
+  ],
+  [
+   12,
+   14,
+   3.0,
+   0.909,
+   0.8
+  ],
+  [
+   13,
+   14,
+   2.0,
+   0.6,
+   0.6
+  ]
+ ],
+ "playable": [
+  1,
+  3,
+  4,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.508
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.562
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.422
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.403
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.433
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.464
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.687
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.418
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.544
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.627
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0013",
+   "you": 13,
+   "startRadius": 1,
+   "ease": 0.534
+  },
+  {
+   "id": "shakespeare-two-gentlemen-of-verona-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.668
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

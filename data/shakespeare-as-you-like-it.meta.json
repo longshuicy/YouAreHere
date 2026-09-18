@@ -1,0 +1,1315 @@
+{
+ "id": "shakespeare-as-you-like-it",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in As You Like It."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Female"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in As You Like It."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "Appears in As You Like It."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  },
+  "22": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "unit": "play",
+    "corpusSize": 37,
+    "gender": "Male"
+   },
+   "line": "Appears in As You Like It."
+  }
+ },
+ "edges": {
+  "0-3": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "0-5": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "0-7": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "0-11": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "0-13": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "0-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "1-4": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "1-12": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "1-17": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "1-18": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "1-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "1-22": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-9": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-13": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "2-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "3-5": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "3-13": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "3-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "3-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "3-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "4-9": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "4-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "4-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "4-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "4-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "4-22": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "5-13": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "5-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "6-13": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "6-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "7-9": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "7-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "7-15": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "7-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "7-19": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "7-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "7-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "8-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "8-15": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "8-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "8-19": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "8-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "8-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "9-12": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "9-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "9-15": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "9-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "9-19": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "9-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "9-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "10-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "10-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "10-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "12-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "13-14": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "13-15": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "13-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "13-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "14-15": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "14-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "14-19": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "14-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "14-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "15-16": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "15-19": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "15-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "15-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "16-19": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "16-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "16-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "17-18": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "17-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "18-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "19-20": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "19-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "20-21": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  },
+  "21-22": {
+   "facts": {
+    "books": [
+     "As You Like It"
+    ],
+    "first": "As You Like It",
+    "unit": "play",
+    "corpusSize": 37
+   },
+   "line": "They share the page only in As You Like It."
+  }
+ },
+ "sources": []
+}

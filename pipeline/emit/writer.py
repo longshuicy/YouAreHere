@@ -9,22 +9,26 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from ..analyse import layout, starts
+from ..analyse import difficulty, layout, starts
 from ..canon.normalise import weight_ranks
 from ..canon.types import CanonicalGraph
 from ..enrich import describe
 
 PIPELINE_VERSION = "0.1.0-thin"
 
+# Resolution of the per-world difficulty histogram in the boot payload.
+EASE_BUCKETS = 10
+
 REQUIRED_ATTRIBUTION = ("title", "creator", "source_url", "retrieved")
 
 
-def write_universe(graph: CanonicalGraph, uid: str, out: Path) -> dict:
+def write_universe(graph: CanonicalGraph, uid: str, out: Path, corpus_index: dict) -> dict:
     _require_attribution(graph)
 
     positions = layout.compute(graph)
     ranks = weight_ranks(graph)
     playable, start_stats = starts.select(graph)
+    scores = difficulty.score(graph, playable, corpus_index)
 
     graph.provenance.with_modification(
         "Added a normalised rank per tie endpoint so thickness reads relative to each "
@@ -55,8 +59,22 @@ def write_universe(graph: CanonicalGraph, uid: str, out: Path) -> dict:
         for edge in graph.edges
     ]
 
+    # The score travels; the signals behind it do not. `lookAlikes` and
+    # `prominence` would hand a curious player a far sharper hint — "you have no
+    # look-alikes anywhere" narrows the field much further than a position on a
+    # scale does.
+    #
+    # `ease` itself is shipped because the client slides along it, and that costs
+    # nothing it was protecting: a player who sets the slider already knows
+    # roughly how findable the start they are about to get is, because that is
+    # exactly what they just asked for.
     puzzles = [
-        {"id": f"{uid}-p{index_of[node_id]:04d}", "you": index_of[node_id], "startRadius": 1}
+        {
+            "id": f"{uid}-p{index_of[node_id]:04d}",
+            "you": index_of[node_id],
+            "startRadius": 1,
+            "ease": scores[node_id]["ease"],
+        }
         for node_id in playable
     ]
 
@@ -82,30 +100,49 @@ def write_universe(graph: CanonicalGraph, uid: str, out: Path) -> dict:
         "nodes": len(nodes),
         "edges": len(edges),
         "characterNames": [node.name for node in graph.nodes],
-        "playable": _band_counts(puzzles),
+        "playable": _ease_spread(puzzles),
         "license": graph.provenance.license.spdx,
         "creditLine": graph.provenance.attribution.credit_line(graph.provenance.license),
         "startStats": start_stats,
+        "difficulty": _difficulty_summary(scores),
     }
 
 
-def _band_counts(puzzles: list[dict]) -> dict:
-    """How many starts of each band a universe holds.
+def _difficulty_summary(scores: dict) -> dict:
+    """Build-time only: the spread behind the scores, for sanity at the console."""
+    if not scores:
+        return {"starts": 0}
+    eases = sorted(s["ease"] for s in scores.values())
+    twins = sorted(s["lookAlikes"] for s in scores.values())
+    mid = len(eases) // 2
+    return {
+        "starts": len(eases),
+        "medianEase": eases[mid],
+        "medianLookAlikes": twins[mid],
+        "maxLookAlikes": twins[-1],
+    }
 
-    This is the only puzzle-shaped thing the boot payload needs. The game serves
-    approachable starts first, so it has to choose which universe to fetch before
-    it has fetched any — and a per-puzzle manifest would put the entire catalogue
-    in front of the first frame to answer a question these counts answer.
 
-    Bands are absent until difficulty is measured, so everything currently lands
-    in `unbanded`; the tally starts reporting real bands the moment puzzle records
-    carry them, with no change here.
+def _ease_spread(puzzles: list[dict]) -> dict:
+    """How this universe's starts are spread along the difficulty scale.
+
+    The boot payload needs this and nothing else about puzzles. The client picks
+    which world to fetch before it has fetched any, and it picks by where the
+    player has set the slider — so it has to know, per world, how many starts sit
+    near that position. A world whose every start is at the far end should not be
+    offered to someone asking for the near end.
+
+    Deliberately a histogram rather than two named bands. The score is
+    continuous; cutting it in two and shipping the halves would put a boundary
+    where the measurement has none, and the client would then be sliding along a
+    scale whose summary disagreed with it. The bucket edges here are only a
+    resolution, not a claim that anything changes at them.
     """
-    counts = {"total": len(puzzles)}
+    histogram = [0] * EASE_BUCKETS
     for puzzle in puzzles:
-        key = puzzle.get("band") or "unbanded"
-        counts[key] = counts.get(key, 0) + 1
-    return counts
+        slot = min(EASE_BUCKETS - 1, int(puzzle["ease"] * EASE_BUCKETS))
+        histogram[max(0, slot)] += 1
+    return {"total": len(puzzles), "histogram": histogram}
 
 
 def write_index(summaries: list[dict], out: Path) -> None:
@@ -126,11 +163,15 @@ def write_index(summaries: list[dict], out: Path) -> None:
     """
     index = {
         "pipelineVersion": PIPELINE_VERSION,
-        "banded": bool(summaries) and all(s["playable"].get("unbanded", 0) == 0 for s in summaries),
+        "easeBuckets": EASE_BUCKETS,
         "universes": [
             {
                 "id": s["id"],
                 "file": s["file"],
+                # The world's name, so the client can offer the list of stories
+                # before it has fetched any of them. Safe for the same reason the
+                # ids are: the guess screen shows this list anyway.
+                "title": s["title"],
                 "nodes": s["nodes"],
                 "edges": s["edges"],
                 "playable": s["playable"],
@@ -246,15 +287,19 @@ def write_attribution(summaries: list[dict], graphs: dict[str, CanonicalGraph], 
         "",
     ]
 
-    for summary in summaries:
-        graph = graphs[summary["source"]]
+    # One section per source, not per file. A corpus that splits into 28 worlds
+    # owes its creator one credit, stated once and listing everything it covers;
+    # repeating an identical block 28 times satisfies the licence but buries the
+    # other sources between the copies.
+    for group in _group_by_credit(summaries, graphs):
+        graph = graphs[group[0]["source"]]
         attribution = graph.provenance.attribution
         license = graph.provenance.license
 
         lines += [
-            f"## {graph.title}",
+            f"## {_group_heading(group, graphs)}",
             "",
-            f"*Shipped as `{summary['file']}` — {summary['nodes']} characters, {summary['edges']} ties.*",
+            _shipped_as(group),
             "",
             f"\"{attribution.title}\" by **{attribution.creator}**"
             + (f" (<{attribution.creator_url}>)" if attribution.creator_url else ""),
@@ -276,11 +321,11 @@ def write_attribution(summaries: list[dict], graphs: dict[str, CanonicalGraph], 
         lines += [f"{i}. {change}" for i, change in enumerate(attribution.modifications, 1)]
         lines.append("")
 
-        for meta_attribution, meta_license in summary.get("metaSources", ()):
+        for meta_attribution, meta_license in group[0].get("metaSources", ()):
             lines += [
                 f"### Reveal-screen enrichment — {meta_attribution.title}",
                 "",
-                f"*Shipped separately as `{summary['metaFile']}`, loaded only at the reveal.*",
+                f"*Shipped separately as {_meta_files(group)}, loaded only at the reveal.*",
                 "",
                 f"by **{meta_attribution.creator}**"
                 + (f" (<{meta_attribution.creator_url}>)" if meta_attribution.creator_url else ""),
@@ -311,6 +356,50 @@ def write_attribution(summaries: list[dict], graphs: dict[str, CanonicalGraph], 
 
     out.mkdir(parents=True, exist_ok=True)
     (out / "ATTRIBUTION.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def _group_by_credit(summaries: list[dict], graphs: dict) -> list[list[dict]]:
+    """Summaries that owe the same credit, in the order their sources first appear."""
+    groups: dict[tuple, list[dict]] = {}
+    for summary in summaries:
+        provenance = graphs[summary["source"]].provenance
+        key = (
+            provenance.attribution.title,
+            provenance.attribution.creator,
+            provenance.attribution.source_url,
+            provenance.license.spdx,
+            provenance.attribution.modifications,
+        )
+        groups.setdefault(key, []).append(summary)
+    return list(groups.values())
+
+
+def _group_heading(group: list[dict], graphs: dict) -> str:
+    if len(group) == 1:
+        return graphs[group[0]["source"]].title
+    return graphs[group[0]["source"]].provenance.attribution.title
+
+
+def _shipped_as(group: list[dict]) -> str:
+    if len(group) == 1:
+        summary = group[0]
+        return (
+            f"*Shipped as `{summary['file']}` — {summary['nodes']} characters, "
+            f"{summary['edges']} ties.*"
+        )
+    nodes = sum(s["nodes"] for s in group)
+    edges = sum(s["edges"] for s in group)
+    listing = ", ".join(f"`{s['file']}` ({s['nodes']}/{s['edges']})" for s in group)
+    return (
+        f"*Shipped as {len(group)} worlds — {nodes} characters and {edges} ties in total, "
+        f"as `file` (characters/ties): {listing}.*"
+    )
+
+
+def _meta_files(group: list[dict]) -> str:
+    if len(group) == 1:
+        return f"`{group[0]['metaFile']}`"
+    return f"{len(group)} `.meta.json` sidecars, one per world"
 
 
 def write_data_license(summaries: list[dict], graphs: dict[str, CanonicalGraph], out: Path) -> None:
@@ -403,8 +492,27 @@ def _require_attribution(graph: CanonicalGraph) -> None:
 
 
 def _assert_no_character_names(index: dict, summaries: list[dict]) -> None:
-    """Book titles in the boot payload are fine; a cast list is not."""
+    """Book titles in the boot payload are fine; a cast list is not.
+
+    A title is allowed to contain a character's name, because half of literature
+    is named after its protagonist: `shakespeare-hamlet` cannot be written
+    without writing "Hamlet", and no secret is kept by refusing to. The guess
+    screen already lists the worlds, so the boot payload may too. What it may
+    never carry is a name it has no title-shaped reason to carry — that would
+    hand over a cast list, and with it the size of the field the player is
+    choosing from.
+
+    So the universe identifiers are removed from the payload before it is
+    scanned, and any character name still standing in what remains is a leak.
+    """
     serialised = json.dumps(index, ensure_ascii=False).lower()
+    # Longest first: `shakespeare-rome` is a prefix of
+    # `shakespeare-romeo-and-juliet`, and removing the short one first would
+    # leave "juliet" standing in the remains of the long one.
+    identifiers = [u["id"] for u in index["universes"]] + [u["title"] for u in index["universes"]]
+    for identifier in sorted(identifiers, key=len, reverse=True):
+        serialised = serialised.replace(identifier.lower(), " ")
+
     for summary in summaries:
         for name in summary["characterNames"]:
             if len(name) > 3 and name.lower() in serialised:

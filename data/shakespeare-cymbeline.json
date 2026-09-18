@@ -1,0 +1,823 @@
+{
+ "id": "shakespeare-cymbeline",
+ "title": "Cymbeline",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Arviragus",
+   "x": 139.2,
+   "y": -285.0
+  },
+  {
+   "i": 1,
+   "n": "Belarius",
+   "x": 222.1,
+   "y": -240.5
+  },
+  {
+   "i": 2,
+   "n": "Cloten",
+   "x": 429.6,
+   "y": -47.0
+  },
+  {
+   "i": 3,
+   "n": "Cornelius",
+   "x": 316.5,
+   "y": 9.2
+  },
+  {
+   "i": 4,
+   "n": "Cymbeline",
+   "x": 219.6,
+   "y": 61.7
+  },
+  {
+   "i": 5,
+   "n": "Frenchman",
+   "x": -518.8,
+   "y": -166.7
+  },
+  {
+   "i": 6,
+   "n": "Sicilius Leonatus",
+   "x": -380.3,
+   "y": 536.2
+  },
+  {
+   "i": 7,
+   "n": "Mother",
+   "x": -600.0,
+   "y": 316.7
+  },
+  {
+   "i": 8,
+   "n": "Guiderius",
+   "x": 105.1,
+   "y": -184.3
+  },
+  {
+   "i": 9,
+   "n": "Iachimo",
+   "x": -50.4,
+   "y": -154.9
+  },
+  {
+   "i": 10,
+   "n": "Imogen",
+   "x": 139.1,
+   "y": -62.4
+  },
+  {
+   "i": 11,
+   "n": "Jupiter",
+   "x": -553.2,
+   "y": 489.3
+  },
+  {
+   "i": 12,
+   "n": "Caius Lucius",
+   "x": 255.7,
+   "y": -92.1
+  },
+  {
+   "i": 13,
+   "n": "Philario",
+   "x": -363.3,
+   "y": -266.7
+  },
+  {
+   "i": 14,
+   "n": "Pisanio",
+   "x": 124.9,
+   "y": 49.6
+  },
+  {
+   "i": 15,
+   "n": "Posthumus Leonatus",
+   "x": -111.1,
+   "y": 52.3
+  },
+  {
+   "i": 16,
+   "n": "Queen",
+   "x": 302.6,
+   "y": 201.3
+  },
+  {
+   "i": 17,
+   "n": "Soothsayer",
+   "x": 322.7,
+   "y": -216.8
+  }
+ ],
+ "edges": [
+  [
+   0,
+   1,
+   5.0,
+   0.9,
+   0.9
+  ],
+  [
+   0,
+   2,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   3,
+   1.0,
+   0.1,
+   0.0
+  ],
+  [
+   0,
+   4,
+   1.0,
+   0.2,
+   0.0
+  ],
+  [
+   0,
+   8,
+   5.0,
+   1.0,
+   0.9
+  ],
+  [
+   0,
+   9,
+   1.0,
+   0.3,
+   0.0
+  ],
+  [
+   0,
+   10,
+   3.0,
+   0.8,
+   0.545
+  ],
+  [
+   0,
+   12,
+   2.0,
+   0.6,
+   0.182
+  ],
+  [
+   0,
+   14,
+   1.0,
+   0.4,
+   0.0
+  ],
+  [
+   0,
+   15,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   0,
+   17,
+   2.0,
+   0.7,
+   0.6
+  ],
+  [
+   1,
+   2,
+   1.0,
+   0.0,
+   0.125
+  ],
+  [
+   1,
+   3,
+   1.0,
+   0.1,
+   0.1
+  ],
+  [
+   1,
+   4,
+   1.0,
+   0.2,
+   0.091
+  ],
+  [
+   1,
+   8,
+   6.0,
+   1.0,
+   1.0
+  ],
+  [
+   1,
+   9,
+   2.0,
+   0.5,
+   0.455
+  ],
+  [
+   1,
+   10,
+   3.0,
+   0.7,
+   0.636
+  ],
+  [
+   1,
+   12,
+   3.0,
+   0.8,
+   0.727
+  ],
+  [
+   1,
+   14,
+   1.0,
+   0.3,
+   0.091
+  ],
+  [
+   1,
+   15,
+   1.0,
+   0.4,
+   0.067
+  ],
+  [
+   1,
+   17,
+   2.0,
+   0.6,
+   0.7
+  ],
+  [
+   2,
+   4,
+   3.0,
+   0.75,
+   0.636
+  ],
+  [
+   2,
+   8,
+   1.0,
+   0.25,
+   0.0
+  ],
+  [
+   2,
+   10,
+   2.0,
+   0.5,
+   0.091
+  ],
+  [
+   2,
+   12,
+   3.0,
+   0.875,
+   0.818
+  ],
+  [
+   2,
+   14,
+   2.0,
+   0.625,
+   0.364
+  ],
+  [
+   2,
+   16,
+   3.0,
+   1.0,
+   0.667
+  ],
+  [
+   2,
+   17,
+   1.0,
+   0.375,
+   0.0
+  ],
+  [
+   3,
+   4,
+   1.0,
+   0.2,
+   0.182
+  ],
+  [
+   3,
+   8,
+   1.0,
+   0.3,
+   0.1
+  ],
+  [
+   3,
+   9,
+   1.0,
+   0.4,
+   0.091
+  ],
+  [
+   3,
+   10,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   3,
+   12,
+   1.0,
+   0.6,
+   0.0
+  ],
+  [
+   3,
+   14,
+   2.0,
+   1.0,
+   0.455
+  ],
+  [
+   3,
+   15,
+   1.0,
+   0.7,
+   0.133
+  ],
+  [
+   3,
+   16,
+   1.0,
+   0.8,
+   0.0
+  ],
+  [
+   3,
+   17,
+   1.0,
+   0.9,
+   0.1
+  ],
+  [
+   4,
+   8,
+   1.0,
+   0.273,
+   0.2
+  ],
+  [
+   4,
+   9,
+   1.0,
+   0.364,
+   0.182
+  ],
+  [
+   4,
+   10,
+   3.0,
+   0.727,
+   0.727
+  ],
+  [
+   4,
+   12,
+   3.0,
+   0.818,
+   0.909
+  ],
+  [
+   4,
+   14,
+   5.0,
+   1.0,
+   0.909
+  ],
+  [
+   4,
+   15,
+   2.0,
+   0.545,
+   0.733
+  ],
+  [
+   4,
+   16,
+   4.0,
+   0.909,
+   0.833
+  ],
+  [
+   4,
+   17,
+   1.0,
+   0.455,
+   0.2
+  ],
+  [
+   5,
+   9,
+   1.0,
+   0.0,
+   0.273
+  ],
+  [
+   5,
+   13,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   5,
+   15,
+   1.0,
+   1.0,
+   0.2
+  ],
+  [
+   6,
+   7,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   6,
+   11,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   6,
+   15,
+   1.0,
+   1.0,
+   0.267
+  ],
+  [
+   7,
+   11,
+   1.0,
+   0.5,
+   0.5
+  ],
+  [
+   7,
+   15,
+   1.0,
+   1.0,
+   0.333
+  ],
+  [
+   8,
+   9,
+   2.0,
+   0.5,
+   0.545
+  ],
+  [
+   8,
+   10,
+   3.0,
+   0.7,
+   0.818
+  ],
+  [
+   8,
+   12,
+   3.0,
+   0.8,
+   1.0
+  ],
+  [
+   8,
+   14,
+   1.0,
+   0.3,
+   0.182
+  ],
+  [
+   8,
+   15,
+   1.0,
+   0.4,
+   0.4
+  ],
+  [
+   8,
+   17,
+   2.0,
+   0.6,
+   0.8
+  ],
+  [
+   9,
+   10,
+   3.0,
+   0.909,
+   0.909
+  ],
+  [
+   9,
+   12,
+   2.0,
+   0.636,
+   0.273
+  ],
+  [
+   9,
+   13,
+   2.0,
+   0.727,
+   0.5
+  ],
+  [
+   9,
+   14,
+   2.0,
+   0.818,
+   0.545
+  ],
+  [
+   9,
+   15,
+   3.0,
+   1.0,
+   1.0
+  ],
+  [
+   9,
+   17,
+   1.0,
+   0.364,
+   0.3
+  ],
+  [
+   10,
+   12,
+   2.0,
+   0.182,
+   0.364
+  ],
+  [
+   10,
+   14,
+   7.0,
+   1.0,
+   1.0
+  ],
+  [
+   10,
+   15,
+   2.0,
+   0.273,
+   0.8
+  ],
+  [
+   10,
+   16,
+   2.0,
+   0.364,
+   0.333
+  ],
+  [
+   10,
+   17,
+   2.0,
+   0.455,
+   0.9
+  ],
+  [
+   11,
+   15,
+   1.0,
+   1.0,
+   0.467
+  ],
+  [
+   12,
+   14,
+   2.0,
+   0.455,
+   0.636
+  ],
+  [
+   12,
+   15,
+   1.0,
+   0.091,
+   0.533
+  ],
+  [
+   12,
+   16,
+   2.0,
+   0.545,
+   0.5
+  ],
+  [
+   12,
+   17,
+   2.0,
+   0.636,
+   1.0
+  ],
+  [
+   13,
+   15,
+   2.0,
+   1.0,
+   0.867
+  ],
+  [
+   14,
+   15,
+   2.0,
+   0.727,
+   0.933
+  ],
+  [
+   14,
+   16,
+   4.0,
+   0.818,
+   1.0
+  ],
+  [
+   14,
+   17,
+   1.0,
+   0.273,
+   0.4
+  ],
+  [
+   15,
+   16,
+   1.0,
+   0.6,
+   0.167
+  ],
+  [
+   15,
+   17,
+   1.0,
+   0.667,
+   0.5
+  ]
+ ],
+ "playable": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  8,
+  9,
+  10,
+  12,
+  14,
+  15,
+  16,
+  17
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-cymbeline-p0000",
+   "you": 0,
+   "startRadius": 1,
+   "ease": 0.495
+  },
+  {
+   "id": "shakespeare-cymbeline-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.52
+  },
+  {
+   "id": "shakespeare-cymbeline-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.432
+  },
+  {
+   "id": "shakespeare-cymbeline-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.345
+  },
+  {
+   "id": "shakespeare-cymbeline-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.541
+  },
+  {
+   "id": "shakespeare-cymbeline-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.57
+  },
+  {
+   "id": "shakespeare-cymbeline-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.427
+  },
+  {
+   "id": "shakespeare-cymbeline-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.711
+  },
+  {
+   "id": "shakespeare-cymbeline-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.66
+  },
+  {
+   "id": "shakespeare-cymbeline-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.685
+  },
+  {
+   "id": "shakespeare-cymbeline-p0015",
+   "you": 15,
+   "startRadius": 1,
+   "ease": 0.419
+  },
+  {
+   "id": "shakespeare-cymbeline-p0016",
+   "you": 16,
+   "startRadius": 1,
+   "ease": 0.484
+  },
+  {
+   "id": "shakespeare-cymbeline-p0017",
+   "you": 17,
+   "startRadius": 1,
+   "ease": 0.369
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

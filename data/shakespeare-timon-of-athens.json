@@ -1,0 +1,1153 @@
+{
+ "id": "shakespeare-timon-of-athens",
+ "title": "Timon of Athens",
+ "accent": "#3D5C4A",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Alcibiades",
+   "x": -255.4,
+   "y": -46.0
+  },
+  {
+   "i": 1,
+   "n": "Apemantus",
+   "x": -115.9,
+   "y": 62.8
+  },
+  {
+   "i": 2,
+   "n": "Lucius",
+   "x": 54.9,
+   "y": -326.5
+  },
+  {
+   "i": 3,
+   "n": "Ventidius",
+   "x": -116.4,
+   "y": -406.7
+  },
+  {
+   "i": 4,
+   "n": "Flavius",
+   "x": 112.7,
+   "y": 9.1
+  },
+  {
+   "i": 5,
+   "n": "Fool",
+   "x": 286.1,
+   "y": 387.5
+  },
+  {
+   "i": 6,
+   "n": "Jeweler",
+   "x": -570.2,
+   "y": -173.4
+  },
+  {
+   "i": 7,
+   "n": "Merchant",
+   "x": -600.0,
+   "y": -42.7
+  },
+  {
+   "i": 8,
+   "n": "Old Athenian",
+   "x": -482.4,
+   "y": -279.4
+  },
+  {
+   "i": 9,
+   "n": "Painter",
+   "x": -334.7,
+   "y": -191.3
+  },
+  {
+   "i": 10,
+   "n": "Phrynia",
+   "x": -170.0,
+   "y": 396.5
+  },
+  {
+   "i": 11,
+   "n": "Poet",
+   "x": -391.8,
+   "y": -6.1
+  },
+  {
+   "i": 12,
+   "n": "Caphis",
+   "x": 134.7,
+   "y": 381.0
+  },
+  {
+   "i": 13,
+   "n": "Hortensius",
+   "x": 461.8,
+   "y": -208.9
+  },
+  {
+   "i": 14,
+   "n": "Isidore’s Man",
+   "x": 205.5,
+   "y": 257.1
+  },
+  {
+   "i": 15,
+   "n": "Lucius’ Man",
+   "x": 416.9,
+   "y": -329.6
+  },
+  {
+   "i": 16,
+   "n": "Page",
+   "x": 380.2,
+   "y": 277.4
+  },
+  {
+   "i": 17,
+   "n": "Philotus",
+   "x": 588.1,
+   "y": -28.1
+  },
+  {
+   "i": 18,
+   "n": "Flaminius",
+   "x": 373.8,
+   "y": 79.2
+  },
+  {
+   "i": 19,
+   "n": "Lucilius",
+   "x": -547.7,
+   "y": 85.3
+  },
+  {
+   "i": 20,
+   "n": "Servilius",
+   "x": 300.4,
+   "y": -14.7
+  },
+  {
+   "i": 21,
+   "n": "Titus",
+   "x": 591.0,
+   "y": -185.4
+  },
+  {
+   "i": 22,
+   "n": "Timandra",
+   "x": -313.1,
+   "y": 326.2
+  },
+  {
+   "i": 23,
+   "n": "Timon",
+   "x": -8.5,
+   "y": -23.3
+  }
+ ],
+ "edges": [
+  [
+   0,
+   1,
+   3.0,
+   0.917,
+   0.889
+  ],
+  [
+   0,
+   2,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   3,
+   1.0,
+   0.083,
+   0.0
+  ],
+  [
+   0,
+   4,
+   2.0,
+   0.833,
+   0.778
+  ],
+  [
+   0,
+   6,
+   1.0,
+   0.167,
+   0.0
+  ],
+  [
+   0,
+   7,
+   1.0,
+   0.25,
+   0.0
+  ],
+  [
+   0,
+   8,
+   1.0,
+   0.333,
+   0.0
+  ],
+  [
+   0,
+   9,
+   1.0,
+   0.417,
+   0.0
+  ],
+  [
+   0,
+   10,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   0,
+   11,
+   1.0,
+   0.583,
+   0.0
+  ],
+  [
+   0,
+   19,
+   1.0,
+   0.667,
+   0.0
+  ],
+  [
+   0,
+   22,
+   1.0,
+   0.75,
+   0.0
+  ],
+  [
+   0,
+   23,
+   3.0,
+   1.0,
+   0.909
+  ],
+  [
+   1,
+   2,
+   1.0,
+   0.0,
+   0.2
+  ],
+  [
+   1,
+   3,
+   1.0,
+   0.056,
+   0.25
+  ],
+  [
+   1,
+   4,
+   3.0,
+   0.944,
+   0.944
+  ],
+  [
+   1,
+   5,
+   1.0,
+   0.111,
+   0.0
+  ],
+  [
+   1,
+   6,
+   1.0,
+   0.167,
+   0.143
+  ],
+  [
+   1,
+   7,
+   1.0,
+   0.222,
+   0.143
+  ],
+  [
+   1,
+   8,
+   1.0,
+   0.278,
+   0.143
+  ],
+  [
+   1,
+   9,
+   1.0,
+   0.333,
+   0.125
+  ],
+  [
+   1,
+   10,
+   1.0,
+   0.389,
+   0.25
+  ],
+  [
+   1,
+   11,
+   1.0,
+   0.444,
+   0.125
+  ],
+  [
+   1,
+   12,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   1,
+   14,
+   1.0,
+   0.556,
+   0.0
+  ],
+  [
+   1,
+   16,
+   1.0,
+   0.611,
+   0.0
+  ],
+  [
+   1,
+   18,
+   1.0,
+   0.667,
+   0.0
+  ],
+  [
+   1,
+   19,
+   1.0,
+   0.722,
+   0.143
+  ],
+  [
+   1,
+   20,
+   1.0,
+   0.778,
+   0.0
+  ],
+  [
+   1,
+   22,
+   1.0,
+   0.833,
+   0.25
+  ],
+  [
+   1,
+   23,
+   4.0,
+   1.0,
+   0.955
+  ],
+  [
+   2,
+   3,
+   1.0,
+   0.4,
+   0.5
+  ],
+  [
+   2,
+   4,
+   1.0,
+   0.6,
+   0.0
+  ],
+  [
+   2,
+   20,
+   1.0,
+   0.8,
+   0.083
+  ],
+  [
+   2,
+   23,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   3,
+   4,
+   1.0,
+   0.75,
+   0.056
+  ],
+  [
+   3,
+   23,
+   1.0,
+   1.0,
+   0.045
+  ],
+  [
+   4,
+   5,
+   1.0,
+   0.111,
+   0.143
+  ],
+  [
+   4,
+   9,
+   1.0,
+   0.167,
+   0.25
+  ],
+  [
+   4,
+   10,
+   1.0,
+   0.222,
+   0.5
+  ],
+  [
+   4,
+   11,
+   1.0,
+   0.278,
+   0.25
+  ],
+  [
+   4,
+   12,
+   1.0,
+   0.333,
+   0.143
+  ],
+  [
+   4,
+   13,
+   1.0,
+   0.389,
+   0.0
+  ],
+  [
+   4,
+   14,
+   1.0,
+   0.444,
+   0.143
+  ],
+  [
+   4,
+   15,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   4,
+   16,
+   1.0,
+   0.556,
+   0.143
+  ],
+  [
+   4,
+   17,
+   1.0,
+   0.611,
+   0.0
+  ],
+  [
+   4,
+   18,
+   2.0,
+   0.833,
+   0.818
+  ],
+  [
+   4,
+   20,
+   2.0,
+   0.889,
+   0.833
+  ],
+  [
+   4,
+   21,
+   1.0,
+   0.667,
+   0.0
+  ],
+  [
+   4,
+   22,
+   1.0,
+   0.722,
+   0.5
+  ],
+  [
+   4,
+   23,
+   5.0,
+   1.0,
+   1.0
+  ],
+  [
+   5,
+   12,
+   1.0,
+   0.286,
+   0.286
+  ],
+  [
+   5,
+   14,
+   1.0,
+   0.429,
+   0.286
+  ],
+  [
+   5,
+   16,
+   1.0,
+   0.571,
+   0.286
+  ],
+  [
+   5,
+   18,
+   1.0,
+   0.714,
+   0.091
+  ],
+  [
+   5,
+   20,
+   1.0,
+   0.857,
+   0.167
+  ],
+  [
+   5,
+   23,
+   1.0,
+   1.0,
+   0.091
+  ],
+  [
+   6,
+   7,
+   1.0,
+   0.286,
+   0.286
+  ],
+  [
+   6,
+   8,
+   1.0,
+   0.429,
+   0.286
+  ],
+  [
+   6,
+   9,
+   1.0,
+   0.571,
+   0.375
+  ],
+  [
+   6,
+   11,
+   1.0,
+   0.714,
+   0.375
+  ],
+  [
+   6,
+   19,
+   1.0,
+   0.857,
+   0.286
+  ],
+  [
+   6,
+   23,
+   1.0,
+   1.0,
+   0.136
+  ],
+  [
+   7,
+   8,
+   1.0,
+   0.429,
+   0.429
+  ],
+  [
+   7,
+   9,
+   1.0,
+   0.571,
+   0.5
+  ],
+  [
+   7,
+   11,
+   1.0,
+   0.714,
+   0.5
+  ],
+  [
+   7,
+   19,
+   1.0,
+   0.857,
+   0.429
+  ],
+  [
+   7,
+   23,
+   1.0,
+   1.0,
+   0.182
+  ],
+  [
+   8,
+   9,
+   1.0,
+   0.571,
+   0.625
+  ],
+  [
+   8,
+   11,
+   1.0,
+   0.714,
+   0.625
+  ],
+  [
+   8,
+   19,
+   1.0,
+   0.857,
+   0.571
+  ],
+  [
+   8,
+   23,
+   1.0,
+   1.0,
+   0.227
+  ],
+  [
+   9,
+   11,
+   2.0,
+   0.875,
+   0.875
+  ],
+  [
+   9,
+   19,
+   1.0,
+   0.75,
+   0.714
+  ],
+  [
+   9,
+   23,
+   2.0,
+   1.0,
+   0.727
+  ],
+  [
+   10,
+   22,
+   1.0,
+   0.75,
+   0.75
+  ],
+  [
+   10,
+   23,
+   1.0,
+   1.0,
+   0.273
+  ],
+  [
+   11,
+   19,
+   1.0,
+   0.75,
+   0.857
+  ],
+  [
+   11,
+   23,
+   2.0,
+   1.0,
+   0.773
+  ],
+  [
+   12,
+   14,
+   1.0,
+   0.429,
+   0.429
+  ],
+  [
+   12,
+   16,
+   1.0,
+   0.571,
+   0.429
+  ],
+  [
+   12,
+   18,
+   1.0,
+   0.714,
+   0.182
+  ],
+  [
+   12,
+   20,
+   1.0,
+   0.857,
+   0.25
+  ],
+  [
+   12,
+   23,
+   1.0,
+   1.0,
+   0.318
+  ],
+  [
+   13,
+   15,
+   1.0,
+   0.167,
+   0.167
+  ],
+  [
+   13,
+   17,
+   1.0,
+   0.333,
+   0.167
+  ],
+  [
+   13,
+   18,
+   1.0,
+   0.5,
+   0.273
+  ],
+  [
+   13,
+   20,
+   1.0,
+   0.667,
+   0.333
+  ],
+  [
+   13,
+   21,
+   1.0,
+   0.833,
+   0.167
+  ],
+  [
+   13,
+   23,
+   1.0,
+   1.0,
+   0.364
+  ],
+  [
+   14,
+   16,
+   1.0,
+   0.571,
+   0.571
+  ],
+  [
+   14,
+   18,
+   1.0,
+   0.714,
+   0.364
+  ],
+  [
+   14,
+   20,
+   1.0,
+   0.857,
+   0.417
+  ],
+  [
+   14,
+   23,
+   1.0,
+   1.0,
+   0.409
+  ],
+  [
+   15,
+   17,
+   1.0,
+   0.333,
+   0.333
+  ],
+  [
+   15,
+   18,
+   1.0,
+   0.5,
+   0.455
+  ],
+  [
+   15,
+   20,
+   1.0,
+   0.667,
+   0.5
+  ],
+  [
+   15,
+   21,
+   1.0,
+   0.833,
+   0.333
+  ],
+  [
+   15,
+   23,
+   1.0,
+   1.0,
+   0.455
+  ],
+  [
+   16,
+   18,
+   1.0,
+   0.714,
+   0.545
+  ],
+  [
+   16,
+   20,
+   1.0,
+   0.857,
+   0.583
+  ],
+  [
+   16,
+   23,
+   1.0,
+   1.0,
+   0.5
+  ],
+  [
+   17,
+   18,
+   1.0,
+   0.5,
+   0.636
+  ],
+  [
+   17,
+   20,
+   1.0,
+   0.667,
+   0.667
+  ],
+  [
+   17,
+   21,
+   1.0,
+   0.833,
+   0.5
+  ],
+  [
+   17,
+   23,
+   1.0,
+   1.0,
+   0.545
+  ],
+  [
+   18,
+   20,
+   2.0,
+   0.909,
+   0.917
+  ],
+  [
+   18,
+   21,
+   1.0,
+   0.727,
+   0.667
+  ],
+  [
+   18,
+   23,
+   2.0,
+   1.0,
+   0.818
+  ],
+  [
+   19,
+   23,
+   1.0,
+   1.0,
+   0.591
+  ],
+  [
+   20,
+   21,
+   1.0,
+   0.75,
+   0.833
+  ],
+  [
+   20,
+   23,
+   2.0,
+   1.0,
+   0.864
+  ],
+  [
+   21,
+   23,
+   1.0,
+   1.0,
+   0.636
+  ],
+  [
+   22,
+   23,
+   1.0,
+   1.0,
+   0.682
+  ]
+ ],
+ "playable": [
+  0,
+  1,
+  2,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  23
+ ],
+ "puzzles": [
+  {
+   "id": "shakespeare-timon-of-athens-p0000",
+   "you": 0,
+   "startRadius": 1,
+   "ease": 0.546
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.591
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.329
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.597
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.414
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.421
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.439
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.457
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0009",
+   "you": 9,
+   "startRadius": 1,
+   "ease": 0.599
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.618
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.486
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0013",
+   "you": 13,
+   "startRadius": 1,
+   "ease": 0.374
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0014",
+   "you": 14,
+   "startRadius": 1,
+   "ease": 0.505
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0015",
+   "you": 15,
+   "startRadius": 1,
+   "ease": 0.392
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0016",
+   "you": 16,
+   "startRadius": 1,
+   "ease": 0.523
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0017",
+   "you": 17,
+   "startRadius": 1,
+   "ease": 0.41
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0018",
+   "you": 18,
+   "startRadius": 1,
+   "ease": 0.529
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0019",
+   "you": 19,
+   "startRadius": 1,
+   "ease": 0.573
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0020",
+   "you": 20,
+   "startRadius": 1,
+   "ease": 0.531
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0021",
+   "you": 21,
+   "startRadius": 1,
+   "ease": 0.428
+  },
+  {
+   "id": "shakespeare-timon-of-athens-p0023",
+   "you": 23,
+   "startRadius": 1,
+   "ease": 0.65
+  }
+ ],
+ "provenance": {
+  "dataset": "dracor-shake-v0",
+  "edgeDefinition": "characters who appear in the same scene of a play",
+  "sourceUnit": "play",
+  "weightSemantics": "count of shared scenes, summed across the 37-play corpus",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": false,
+   "minComponentSize": 8,
+   "nodesBefore": 871,
+   "nodesAfter": 830,
+   "edgesBefore": 4546,
+   "edgesAfter": 4518
+  },
+  "license": {
+   "name": "Creative Commons Attribution-NonCommercial 3.0 Unported",
+   "spdx": "CC-BY-NC-3.0",
+   "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "allowsCommercialUse": false,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "Shakespeare Drama Corpus (DraCor)",
+   "creator": "DraCor / Folger Shakespeare Library",
+   "creatorUrl": "https://dracor.org/",
+   "sourceUrl": "https://github.com/dracor-org/shakedracor",
+   "projectUrl": "https://dracor.org/shake",
+   "citation": "F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.",
+   "citationDoi": "",
+   "retrieved": "2026-09-17",
+   "modifications": [
+    "Merged all 37 plays into one graph, summing scene co-presence across plays.",
+    "Dropped group nodes (crowds, attendants) so a waking is always a person.",
+    "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
+    "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
+    "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"Shakespeare Drama Corpus (DraCor)\" by DraCor / Folger Shakespeare Library, (https://github.com/dracor-org/shakedracor), licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, modified for this project."
+ }
+}

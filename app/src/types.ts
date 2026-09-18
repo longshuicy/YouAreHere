@@ -8,17 +8,18 @@ export type NodeIndex = number;
 /** data/index.json — loaded at boot. */
 export interface PlayableCounts {
   total: number;
-  /** Present today: difficulty scoring has not run, so every playable start is unbanded. */
-  unbanded?: number;
-  /** Not present in the current data. Kept optional so the app degrades gracefully
-   * once a real pipeline run adds band counts. */
-  approachable?: number;
-  hard?: number;
+  /** How this world's starts are spread along the difficulty scale, in
+   * `IndexFile.easeBuckets` equal buckets from 0 to 1. Lets the client choose
+   * which world to fetch for a given slider position, before it has fetched any. */
+  histogram?: number[];
 }
 
 export interface IndexUniverseEntry {
   id: UniverseId;
   file: string;
+  /** The world's name. Present so the story list can be offered before the
+   * universes themselves have been fetched. */
+  title: string;
   nodes: number;
   edges: number;
   playable: PlayableCounts;
@@ -26,7 +27,8 @@ export interface IndexUniverseEntry {
 
 export interface IndexFile {
   pipelineVersion: string;
-  banded: boolean;
+  /** Resolution of every `PlayableCounts.histogram`. */
+  easeBuckets?: number;
   universes: IndexUniverseEntry[];
 }
 
@@ -42,14 +44,13 @@ export interface UniverseNode {
 /** [sourceIdx, targetIdx, weight, rankFromSource, rankFromTarget] */
 export type UniverseEdge = [NodeIndex, NodeIndex, number, number, number];
 
-/** Puzzle records currently carry no `band` or `reveal` — those fields are added
- * by a difficulty-scoring pipeline stage that has not been run yet. Both are
- * optional so the app works today and picks them up automatically once emitted. */
 export interface PuzzleRecord {
   id: string;
   you: NodeIndex;
   startRadius: number;
-  band?: 'approachable' | 'hard';
+  /** How findable this start is, 0 (obscure) to 1 (recognisable). Scored at
+   * build time; the difficulty slider selects along it. */
+  ease?: number;
   reveal?: {
     line: string;
     stat: { kind: string; value: number };
