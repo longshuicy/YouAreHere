@@ -1,4 +1,4 @@
-import { BrandMark, MarginLinks } from '../render/MarginLinks';
+import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
 import { FullGraph } from '../render/FullGraph';
 import type { Session } from '../engine/session';
 import { clueTotal } from '../render/Ledger';
@@ -53,7 +53,7 @@ export function Reveal({
         style={{
           position: 'absolute',
           inset: 0,
-          padding: '44px 64px 56px 64px',
+          padding: CHROME_PADDING,
           display: 'flex',
           flexDirection: 'column',
           // Let hovers reach the network underneath; only the exits take clicks.

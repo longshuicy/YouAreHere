@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Stage } from '../render/Stage';
 import { Ledger } from '../render/Ledger';
-import { BrandMark, MarginLinks } from '../render/MarginLinks';
+import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -131,7 +131,7 @@ export function Guess({
         style={{
           position: 'absolute',
           inset: 0,
-          padding: '44px 64px 56px 64px',
+          padding: CHROME_PADDING,
           display: 'flex',
           flexDirection: 'column',
           pointerEvents: 'none',

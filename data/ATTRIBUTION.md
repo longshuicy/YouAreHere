@@ -80,6 +80,45 @@ Used as follows:
 2. Filtered class and meta labels that are not standing facts a player can use.
 3. Composed original one-line descriptions from those attributes.
 
+## 紅樓夢
+
+*Shipped as `hongloumeng.json` — 200 characters, 1307 ties.*
+
+"紅樓夢" by **Public domain text; digital edition via Project Gutenberg (eBook #24264)** (<https://www.gutenberg.org/>)
+
+- Source: <https://www.gutenberg.org/ebooks/24264>
+- Project: <https://www.wikidata.org/>
+- Licence: [Public domain](https://en.wikipedia.org/wiki/Public_domain) (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+- Cite as: Text: Cao Xueqin, 紅樓夢, Project Gutenberg eBook #24264, public domain. Identification of persons: Wikidata (CC0 1.0), queried for characters of the novel.
+
+Changes made to the original data:
+
+1. Built a character network from the text: two people are tied when a sentence names both.
+2. Identified persons from Wikidata rather than from the text, so that places, titles, and unnamed servants are never nodes.
+3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
+4. Dropped generic kinship and office words (夫人, 二奶奶, 家的) which name a role far more often than a person.
+5. Derived the names the novel actually uses (寶釵, 探春) by dropping the surname from each figure's Chinese label.
+6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (471 nodes and 3452 ties in, 200 and 1307 out).
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `hongloumeng.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
 ## Shakespeare Drama Corpus (DraCor)
 
 *Shipped as 28 worlds — 830 characters and 4518 ties in total, as `file` (characters/ties): `shakespeare-a-midsummer-nights-dream.json` (22/181), `shakespeare-alls-well-that-ends-well.json` (19/77), `shakespeare-as-you-like-it.json` (23/96), `shakespeare-coriolanus.json` (13/52), `shakespeare-cymbeline.json` (18/81), `shakespeare-english-histories.json` (254/1574), `shakespeare-hamlet.json` (18/88), `shakespeare-henry-viii.json` (37/169), `shakespeare-king-john.json` (25/145), `shakespeare-king-lear.json` (18/100), `shakespeare-loves-labors-lost.json` (18/129), `shakespeare-macbeth.json` (16/58), `shakespeare-measure-for-measure.json` (21/91), `shakespeare-much-ado-about-nothing.json` (22/130), `shakespeare-othello.json` (12/55), `shakespeare-pericles.json` (21/55), `shakespeare-rome.json` (59/332), `shakespeare-romeo-and-juliet.json` (20/116), `shakespeare-the-comedy-of-errors.json` (18/101), `shakespeare-the-merchant-of-venice.json` (19/84), `shakespeare-the-taming-of-the-shrew.json` (18/95), `shakespeare-the-tempest.json` (15/84), `shakespeare-the-winters-tale.json` (21/91), `shakespeare-timon-of-athens.json` (24/115), `shakespeare-titus-andronicus.json` (22/135), `shakespeare-troilus-and-cressida.json` (28/150), `shakespeare-twelfth-night.json` (14/69), `shakespeare-two-gentlemen-of-verona.json` (15/65).*

@@ -96,8 +96,8 @@ One file per source, one contract, no exceptions.
 ```
 pipeline/ingest/
   asoiaf.py          edge list CSV
-  hongloumeng.py     character × event matrix
-  xiyouji.py         character × scene matrix
+  hongloumeng.py     sentence co-occurrence from the PD text
+  xiyouji.py         later — PKU dump has no licence
   harrypotter.py     later
 ```
 
@@ -111,18 +111,18 @@ def load() -> CanonicalGraph:
 
 ### Two shapes of source
 
-The sources fall into two families, and the second is really one adapter used twice.
+The sources fall into two families that actually ship, and a third that does not.
 
 **Edge lists** (ASOIAF) arrive as source, target, weight. Nearly nothing to do: map names to ids, apply the alias table, sum weights across books if you want a single graph or keep them segmented if you want per-book universes.
 
-**Bipartite matrices** (both PKU datasets) arrive as character × event or character × scene occurrence. Project to a character-character graph where the weight is the number of shared units:
+**Built from text** (Bible, 紅樓夢). A public-domain text plus a Wikidata person list. Two people are tied when the same unit names both — a verse, a sentence. The PKU dumps for 紅樓夢 and 西游记 were this project's intended bipartite-matrix family, but they have no licence and are not shipped.
+
+If a licensed matrix ever arrives, project to a character-character graph where the weight is the number of shared units:
 
 ```python
 W = M @ M.T          # M: characters × events, boolean
 np.fill_diagonal(W, 0)
 ```
-
-红楼梦 and 西游记 differ only in what a column means, so they share an adapter with the unit name passed in. Get this right once and the third and fourth Chinese-language sources are nearly free.
 
 ### Filtering
 
@@ -297,8 +297,8 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | Star Wars (Gabasova) | Per-episode scene-speech JSON | Shipped | CC BY 3.0. Episodes I–VII as segments. |
 | Shakespeare (DraCor / Folger) | 37 plays, scene co-presence | Shipped | CC BY-NC 3.0. Merged; unnamed crowds dropped. |
 | Bible | — | Not yet | KJV is PD; ready-made graphs are BY-SA (cannot merge) or mix people with places. See `pipeline/raw/bible/SOURCE.md`. |
-| 红楼梦 (PKU) | Character × event matrix, \~376 × 475 | Later | No licence on the GitHub dump. |
-| 西游记 (PKU) | Character × scene matrix, \~302 × 408 | Build third | Same adapter as 红楼梦, different unit name |
+| 红楼梦 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24264 + Wikidata. PKU matrix has no licence; see `pipeline/raw/hongloumeng/SOURCE.md`. |
+| 西游记 (PKU) | Character × scene matrix, \~302 × 408 | Later | No licence on the GitHub dump. Same problem as the 紅樓夢 matrix. |
 | 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
 | 水浒传, 百年孤独 | No settled dataset | Much later | Would need your own pipeline |
