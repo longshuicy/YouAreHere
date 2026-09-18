@@ -89,21 +89,16 @@ function CharacterRow({ character, of }: { character: CharacterMetrics; of: numb
 /** A column header, identical on both sides so two columns start on the same
  * line — the fingerprint and the network it measures were drifting apart by
  * however tall their captions happened to be. */
-function SectionHead({ children, right }: { children: ReactNode; right?: ReactNode }) {
+/** A column header. Deliberately carries nothing but its label: when one of a
+ * pair held a control and the other did not, the button's padding made that
+ * header taller and the two rules stopped lining up. */
+function SectionHead({ children }: { children: ReactNode }) {
   return (
     <div
-      style={{
-        display: 'flex',
-        alignItems: 'baseline',
-        justifyContent: 'space-between',
-        gap: 16,
-        borderBottom: '1px solid var(--rule)',
-        paddingBottom: 8,
-        marginBottom: 18,
-      }}
+      className="field-label"
+      style={{ borderBottom: '1px solid var(--rule)', paddingBottom: 8, marginBottom: 18 }}
     >
-      <span className="field-label">{children}</span>
-      {right}
+      {children}
     </div>
   );
 }
@@ -112,14 +107,10 @@ function WorldDetail({
   world,
   universe,
   onBack,
-  keyOpen,
-  setKeyOpen,
 }: {
   world: WorldMetrics;
   universe: Universe | undefined;
   onBack: () => void;
-  keyOpen: boolean;
-  setKeyOpen: (next: boolean) => void;
 }) {
   const connected = world.characters.filter((c) => c.degree > 0);
   const byGain = [...connected].sort((a, b) => b.gain - a.gain);
@@ -170,11 +161,6 @@ function WorldDetail({
         ))}
       </div>
 
-      {/* The key explains the fingerprint, so it is opened from the fingerprint
-          rather than from the top of the page — as a page-level link it read as
-          being about the world, which it is not. */}
-      {keyOpen && <Explain sample={world} onDismiss={() => setKeyOpen(false)} />}
-
       {/* The fingerprint again, at a size it can be read, beside the network it
           is a measurement of. Both columns carry the same header so they start
           on the same line. */}
@@ -187,17 +173,7 @@ function WorldDetail({
         }}
       >
         <div>
-          <SectionHead
-            right={
-              !keyOpen && (
-                <button className="annot-link" onClick={() => setKeyOpen(true)}>
-                  How to interpret
-                </button>
-              )
-            }
-          >
-            The fingerprint
-          </SectionHead>
+          <SectionHead>The fingerprint</SectionHead>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 26 }}>
             <div title={noteTooltip('ties')}>
               <StripLabel left="Ties each" right="Few → many" width={DETAIL_STRIP} size={8.5} />
@@ -388,13 +364,7 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
       </div>
 
       {detail ? (
-        <WorldDetail
-          world={detail}
-          universe={byId.get(detail.id)}
-          onBack={() => setOpen(null)}
-          keyOpen={showKey}
-          setKeyOpen={setKey}
-        />
+        <WorldDetail world={detail} universe={byId.get(detail.id)} onBack={() => setOpen(null)} />
       ) : (
         <>
           <div style={{ paddingTop: 30, maxWidth: 620 }}>
