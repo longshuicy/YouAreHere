@@ -35,6 +35,12 @@ const SORTS: { key: SortKey; label: string; of: (w: WorldMetrics) => number | st
 ];
 
 const DETAIL_STRIP = 560;
+/** Drawn to land on the same height as the network beside them, so the two
+ * columns finish together instead of the fingerprint stopping a third of the
+ * way down. */
+const DETAIL_GRAPH = 320;
+const DETAIL_BARS = 116;
+const DETAIL_TICKS = 126;
 /** Long enough to see a camp's shape, short enough that the page is still a
  * page. The rest are a scroll away rather than four hundred names down. */
 const CAMP_PREVIEW = 20;
@@ -168,18 +174,18 @@ function WorldDetail({
           <div style={{ display: 'flex', flexDirection: 'column', gap: 26 }}>
             <div title={noteTooltip('ties')}>
               <StripLabel left="Ties each" right="Few → many" width={DETAIL_STRIP} size={8.5} />
-              <DegreeBars histogram={world.degreeHistogram} width={DETAIL_STRIP} height={40} labelSize={8.5} />
+              <DegreeBars histogram={world.degreeHistogram} width={DETAIL_STRIP} height={DETAIL_BARS} labelSize={8.5} />
             </div>
             <div title={noteTooltip('horizon')}>
               <StripLabel left="Horizon" right="One mark per character" width={DETAIL_STRIP} size={8.5} />
-              <HorizonStrip world={world} width={DETAIL_STRIP} height={40} labelMarks />
+              <HorizonStrip world={world} width={DETAIL_STRIP} height={DETAIL_TICKS} labelMarks />
             </div>
           </div>
         </div>
 
         <div>
           <SectionHead>The whole network</SectionHead>
-          <div style={{ height: 320 }}>
+          <div style={{ height: DETAIL_GRAPH }}>
             {universe ? <FullGraph universe={universe} /> : <div className="annot">Not loaded</div>}
           </div>
           <div className="annot" style={{ fontSize: 9, paddingTop: 10 }}>
@@ -346,27 +352,28 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
   const detail = open ? worlds.find((w) => w.id === open) : null;
 
   // On a world's own page the key is drawn on that world, so the reader is
-  // looking at the explanation and the thing explained at once.
-  const keyPanel = showKey ? (
+  // looking at the explanation and the thing explained at once. Closed, it
+  // folds to a line in the same place rather than disappearing into the corner
+  // — the first version left nothing on the page to say a key existed.
+  const keyPanel = (
     <div style={{ paddingTop: 22 }}>
-      <Explain sample={detail ?? sample} onDismiss={() => setKey(false)} />
+      {showKey ? (
+        <Explain sample={detail ?? sample} onDismiss={() => setKey(false)} />
+      ) : (
+        <button className="annot-link" onClick={() => setKey(true)}>
+          How to read a card
+        </button>
+      )}
     </div>
-  ) : null;
+  );
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', padding: '44px 64px 72px 64px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <BrandMark onStartAgain={onStartAgain} />
-        <div style={{ display: 'flex', alignItems: 'flex-start', gap: 22 }}>
-          {!showKey && (
-            <button className="annot-link" onClick={() => setKey(true)}>
-              How to read this
-            </button>
-          )}
-          <button className="annot-link" onClick={onClose}>
-            Back to the game
-          </button>
-        </div>
+        <button className="annot-link" onClick={onClose}>
+          Back to the game
+        </button>
       </div>
 
       {detail ? (

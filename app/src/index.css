@@ -222,6 +222,32 @@ button {
   display: none;
 }
 
+/* A world's card. Nothing about a card said it could be pressed, so the whole
+   drawing answers the pointer at once: title, bars, ticks and figures all go to
+   the accent together. The colours are passed down as custom properties, which
+   lets the same strip components be drawn unhovered on the detail page and in
+   the key — they fall back to their own colours when no card is above them. */
+.fingerprint {
+  --fp-ink: var(--ink);
+  --fp-body: var(--body);
+  --fp-bar: var(--unknown);
+  --fp-tick: var(--tie-strong);
+  --fp-label: var(--unknown);
+  --fp-rule: var(--rule);
+  transition: color 90ms ease;
+}
+
+.fingerprint:hover,
+.fingerprint:focus-visible {
+  --fp-ink: var(--accent);
+  --fp-body: var(--accent);
+  --fp-bar: var(--accent);
+  --fp-tick: var(--accent);
+  --fp-label: var(--accent);
+  --fp-rule: var(--accent);
+  outline: none;
+}
+
 /* A search field's own clear mark, sitting on the field's rule. */
 .field-clear {
   font-family: var(--mono);

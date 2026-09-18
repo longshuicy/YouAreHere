@@ -33,7 +33,7 @@ export function StripLabel({
         fontSize: size,
         letterSpacing: '0.18em',
         textTransform: 'uppercase',
-        color: 'var(--unknown)',
+        color: 'var(--fp-label, var(--unknown))',
         width: '100%',
         maxWidth: width,
         paddingBottom: 3,
@@ -85,7 +85,7 @@ export function DegreeBars({
               y={countRow + height - h}
               width={barWidth - 2}
               height={h}
-              fill="var(--unknown)"
+              fill="var(--fp-bar, var(--unknown))"
               opacity={0.55}
             />
             {showCounts && count > 0 && (
@@ -93,7 +93,7 @@ export function DegreeBars({
                 x={mid}
                 y={countRow - 3}
                 textAnchor="middle"
-                style={{ font: `${labelSize}px var(--mono)`, fill: 'var(--body)', letterSpacing: '0.04em' }}
+                style={{ font: `${labelSize}px var(--mono)`, fill: 'var(--fp-body, var(--body))', letterSpacing: '0.04em' }}
               >
                 {count}
               </text>
@@ -101,7 +101,7 @@ export function DegreeBars({
           </g>
         );
       })}
-      <line x1={0} y1={baseline} x2={width} y2={baseline} stroke="var(--rule)" strokeWidth={1} />
+      <line x1={0} y1={baseline} x2={width} y2={baseline} stroke="var(--fp-rule, var(--rule))" strokeWidth={1} />
       {showBands &&
         DEGREE_BANDS.map(([low, high], i) => (
           <text
@@ -109,7 +109,7 @@ export function DegreeBars({
             x={i * barWidth + barWidth / 2}
             y={baseline + labelSize + 3}
             textAnchor="middle"
-            style={{ font: `${labelSize}px var(--mono)`, fill: 'var(--unknown)', letterSpacing: '0.04em' }}
+            style={{ font: `${labelSize}px var(--mono)`, fill: 'var(--fp-label, var(--unknown))', letterSpacing: '0.04em' }}
           >
             {high === Infinity ? `${low}+` : `${low}\u2013${high}`}
           </text>
@@ -137,7 +137,7 @@ export function HorizonStrip({
       aria-hidden
       style={{ display: 'block', width: '100%', maxWidth: width, height: 'auto' }}
     >
-      <line x1={0} y1={base} x2={width} y2={base} stroke="var(--rule)" strokeWidth={1} />
+      <line x1={0} y1={base} x2={width} y2={base} stroke="var(--fp-rule, var(--rule))" strokeWidth={1} />
       {marks.map((mark) => {
         const x = Math.min(width - 0.5, Math.max(0.5, gainToX(mark, width)));
         return (
@@ -167,7 +167,7 @@ export function HorizonStrip({
             y1={1}
             x2={gainToX(c.gain, width)}
             y2={base - 1.5}
-            stroke="var(--tie-strong)"
+            stroke="var(--fp-tick, var(--tie-strong))"
             strokeWidth={1}
             opacity={0.5}
           />
@@ -179,10 +179,10 @@ export function HorizonStrip({
 function Figure({ label, value, note }: { label: string; value: string; note?: string }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 3 }} title={note}>
-      <span className="mono" style={{ fontSize: 7.5, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--unknown)' }}>
+      <span className="mono" style={{ fontSize: 7.5, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--fp-label, var(--unknown))' }}>
         {label}
       </span>
-      <span className="mono" style={{ fontSize: 12, letterSpacing: '0.04em', color: 'var(--body)' }}>
+      <span className="mono" style={{ fontSize: 12, letterSpacing: '0.04em', color: 'var(--fp-body, var(--body))' }}>
         {value}
       </span>
     </div>
@@ -198,6 +198,7 @@ export function Fingerprint({ world, onOpen }: Props) {
   return (
     <button
       onClick={() => onOpen(world.id)}
+      className="fingerprint"
       aria-label={`${world.title} — cast of ${world.nodes}, ${world.communities} camps`}
       style={{
         display: 'flex',
@@ -214,7 +215,7 @@ export function Fingerprint({ world, onOpen }: Props) {
           fontFamily: 'var(--serif)',
           fontSize: 17,
           lineHeight: 1.15,
-          color: 'var(--ink)',
+          color: 'var(--fp-ink, var(--ink))',
           minHeight: 40,
         }}
       >
