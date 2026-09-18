@@ -98,6 +98,13 @@ def load() -> CanonicalGraph:
         nodes=nodes,
         edges=edges,
         provenance=provenance,
+        segment_labels={
+            "agot": "A Game of Thrones",
+            "acok": "A Clash of Kings",
+            "asos": "A Storm of Swords",
+            "affc": "A Feast for Crows",
+            "adwd": "A Dance with Dragons",
+        },
     ).sorted()
 
 

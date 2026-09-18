@@ -12,16 +12,6 @@ from collections import Counter, defaultdict
 from ..canon.types import CanonicalGraph
 from . import anapi
 
-BOOK_TITLES = {
-    "agot": "A Game of Thrones",
-    "acok": "A Clash of Kings",
-    "asos": "A Storm of Swords",
-    "affc": "A Feast for Crows",
-    "adwd": "A Dance with Dragons",
-}
-
-BOOK_ORDER = list(BOOK_TITLES)
-
 
 def extract(
     graph: CanonicalGraph, overrides: dict[str, dict] | None = None
@@ -45,21 +35,25 @@ def extract(
 
 
 def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, dict]:
-    # A display name shared by several characters cannot be matched safely: the
-    # graph holds two people called "Aemon Targaryen", and a name lookup gives
-    # both of them the Maester's life. Ambiguous names are skipped, not guessed.
+    labels = graph.segment_labels
+    order = list(labels) if labels else None
+
+    appearances = _appearances(graph, order)
+    api_by_name, api_by_url, houses = {}, {}, {}
     graph_name_counts = Counter(node.name.lower() for node in graph.nodes)
 
-    characters = anapi.characters()
-    api_by_name: dict[str, list[dict]] = defaultdict(list)
-    for character in characters:
-        if character.get("name"):
-            api_by_name[character["name"].lower()].append(character)
-    api_by_url = {character["url"]: character for character in characters}
+    # Discrete Ice-and-Fire attributes only belong on that universe. Matching
+    # "Jon" in Shakespeare against Jon Snow would be a real bug.
+    if graph.id == "asoiaf":
+        characters = anapi.characters()
+        api_by_name = defaultdict(list)
+        for character in characters:
+            if character.get("name"):
+                api_by_name[character["name"].lower()].append(character)
+        api_by_url = {character["url"]: character for character in characters}
+        houses = anapi.house_names()
 
-    pinned = _pinned(overrides, api_by_url, graph)
-    houses = anapi.house_names()
-    appearances = _appearances(graph)
+    pinned = _pinned(overrides, api_by_url, graph) if api_by_url else {}
 
     facts: dict[str, dict] = {}
     for node in graph.nodes:
@@ -67,35 +61,42 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
 
         books = appearances.get(node.id)
         if books:
-            record["books"] = books
+            record["books"] = [_label(labels, seg) for seg in books]
+            record["unit"] = graph.provenance.source_unit
+            if labels:
+                record["corpusSize"] = len(labels)
 
-        key = node.name.lower()
-        if node.id in pinned:
-            matches = [pinned[node.id]]
-            unambiguous = True
-        else:
-            matches = _resolve(api_by_name.get(key, []))
-            unambiguous = graph_name_counts[key] == 1
+        if node.metadata.get("gender") in ("Male", "Female"):
+            record["gender"] = node.metadata["gender"]
 
-        if len(matches) == 1 and unambiguous:
-            character = matches[0]
-            if character.get("gender") in ("Male", "Female"):
-                record["gender"] = character["gender"]
-            if character.get("culture"):
-                record["culture"] = character["culture"]
-            if character.get("titles"):
-                titles = [t for t in character["titles"] if t]
-                if titles:
-                    record["titles"] = titles
-            allegiances = [houses[url] for url in character.get("allegiances", []) if url in houses]
-            if allegiances:
-                record["houses"] = allegiances
-            if character.get("born"):
-                record["born"] = character["born"]
-            if character.get("died"):
-                record["died"] = character["died"]
-            if character.get("povBooks"):
-                record["pov"] = len(character["povBooks"])
+        if api_by_name:
+            key = node.name.lower()
+            if node.id in pinned:
+                matches = [pinned[node.id]]
+                unambiguous = True
+            else:
+                matches = _resolve(api_by_name.get(key, []))
+                unambiguous = graph_name_counts[key] == 1
+
+            if len(matches) == 1 and unambiguous:
+                character = matches[0]
+                if character.get("gender") in ("Male", "Female"):
+                    record["gender"] = character["gender"]
+                if character.get("culture"):
+                    record["culture"] = character["culture"]
+                if character.get("titles"):
+                    titles = [t for t in character["titles"] if t]
+                    if titles:
+                        record["titles"] = titles
+                allegiances = [houses[url] for url in character.get("allegiances", []) if url in houses]
+                if allegiances:
+                    record["houses"] = allegiances
+                if character.get("born"):
+                    record["born"] = character["born"]
+                if character.get("died"):
+                    record["died"] = character["died"]
+                if character.get("povBooks"):
+                    record["pov"] = len(character["povBooks"])
 
         if record:
             facts[node.id] = record
@@ -143,33 +144,51 @@ def _resolve(matches: list[dict]) -> list[dict]:
     return populated or matches
 
 
-def _appearances(graph: CanonicalGraph) -> dict[str, list[str]]:
-    """Which novels a character appears in, taken from the ties themselves.
-
-    Derived from the graph rather than from the API's book list, which also
-    counts novellas and companion volumes the graph does not cover.
-    """
+def _appearances(graph: CanonicalGraph, order: list[str] | None) -> dict[str, list[str]]:
+    """Which segments a character appears in, taken from the ties themselves."""
     seen: dict[str, set[str]] = defaultdict(set)
     for edge in graph.edges:
         seen[edge.source].update(edge.segments)
         seen[edge.target].update(edge.segments)
+
+    def sort_key(segment: str):
+        if order and segment in order:
+            return (0, order.index(segment))
+        return (1, segment)
+
     return {
-        node_id: sorted(segments, key=BOOK_ORDER.index)
+        node_id: sorted(segments, key=sort_key)
         for node_id, segments in seen.items()
         if segments
     }
 
 
+def _label(labels: dict, segment: str) -> str:
+    return labels.get(segment, segment)
+
+
 def _edge_facts(graph: CanonicalGraph, node_facts: dict[str, dict]) -> dict[tuple[str, str], dict]:
     facts: dict[tuple[str, str], dict] = {}
+    labels = graph.segment_labels
+    order = list(labels) if labels else None
+
+    def sort_key(segment: str):
+        if order and segment in order:
+            return (0, order.index(segment))
+        return (1, segment)
+
     for edge in graph.edges:
         if not edge.segments:
             continue
-        books = sorted(edge.segments, key=BOOK_ORDER.index)
-        record = {"books": books, "first": books[0]}
+        books = [_label(labels, seg) for seg in sorted(edge.segments, key=sort_key)]
+        record = {
+            "books": books,
+            "first": books[0],
+            "unit": graph.provenance.source_unit,
+        }
+        if labels:
+            record["corpusSize"] = len(labels)
 
-        # Shared allegiance is a fact about both characters, not a claim about
-        # their relationship. Two men sworn to the same house may be enemies.
         left = set(node_facts.get(edge.source, {}).get("houses", ()))
         right = set(node_facts.get(edge.target, {}).get("houses", ()))
         shared = sorted(left & right)

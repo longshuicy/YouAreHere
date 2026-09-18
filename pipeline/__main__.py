@@ -49,18 +49,23 @@ def build(names: list[str], out: Path) -> int:
             graph,
             min_edge_weight=source.min_edge_weight,
             min_degree=source.min_degree,
+            min_component_size=source.min_component_size,
         )
         print(f"[{name}]   filtered   {len(graph.nodes):>5} characters  {len(graph.edges):>5} ties")
 
         summary = writer.write_universe(graph, source.name, out)
         graphs[name] = graph
 
+        meta_sources = []
+        if name == "asoiaf":
+            meta_sources.append((anapi.ATTRIBUTION, anapi.LICENSE))
+
         meta = writer.write_metadata(
             graph,
             source.name,
             node_facts,
             edge_facts,
-            [(anapi.ATTRIBUTION, anapi.LICENSE)],
+            meta_sources,
             out,
         )
         print(f"[{name}]   reveal     {meta['nodes']:>5} characters  {meta['edges']:>5} ties -> {meta['file']}")

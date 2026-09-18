@@ -1,0 +1,185 @@
+:root {
+  --paper: #f4f0e6;
+  --ink: #16130f;
+  /* Prose sits a shade off full ink; the design uses it for every body line. */
+  --body: #4a453d;
+  --annotation: #6b655c;
+  --unknown: #9a9287;
+  --accent: #8c2f2a;
+  --rule: #ded8c9;
+  --leader: #b6afa2;
+  /* Panels lift off the paper rather than blending into it. */
+  --panel: #fffdf8;
+  --panel-edge: #b9b2a5;
+
+  /* Ties darken as they thicken, so strength reads even in greyscale. */
+  --tie-hairline: #9a9287;
+  --tie-weak: #8a8378;
+  --tie-strong: #7c756a;
+
+  /* Spectral over EB Garamond: drawn for screens, so it holds colour at text
+     sizes instead of going spidery, and its italic carries the reveal lines. */
+  --serif: 'Spectral', Georgia, serif;
+  --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 18px;
+}
+
+/* Nothing in this design is a boxed button: actions are set as tracked mono
+   text, underlined when primary. The reset keeps that from being fought. */
+button {
+  font-family: inherit;
+  background: transparent;
+  border: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.mono {
+  font-family: var(--mono);
+}
+
+/* Small tracked mono — the analytical voice: headers, ledger, annotations. */
+.chrome {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  white-space: nowrap;
+}
+
+.annot {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--unknown);
+}
+
+/* A marginal link. Same small tracked mono as an annotation, but ruled so it
+   reads as something to press — unruled, these were invisible as controls. */
+.annot-link {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--leader);
+  padding: 0 1px 3px 1px;
+  cursor: pointer;
+}
+
+.annot-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.field-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--annotation);
+}
+
+/* The primary action: tracked mono over a hairline rule. */
+.action {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--ink);
+  padding: 14px 4px 10px 4px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.action:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.action:disabled {
+  color: var(--unknown);
+  border-bottom-color: var(--rule);
+  cursor: default;
+}
+
+/* The quieter sibling: no rule, annotation grey. */
+.action-quiet {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  background: transparent;
+  border: none;
+  padding: 14px 4px 10px 4px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.action-quiet:hover {
+  color: var(--accent);
+}
+
+/* Fields are a serif line over a rule — no boxes here either. */
+.field {
+  width: 100%;
+  font-family: var(--serif);
+  font-size: 25px;
+  color: var(--ink);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--ink);
+  border-radius: 0;
+  padding: 8px 0 12px 0;
+  outline: none;
+  appearance: none;
+  min-height: 44px;
+}
+
+.field::placeholder {
+  color: var(--unknown);
+}
+
+.field:focus {
+  border-bottom-color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

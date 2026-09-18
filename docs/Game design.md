@@ -30,7 +30,9 @@ No losing. A wrong guess returns the player to the graph with the ledger unchang
 
 ## Waking again
 
-The reveal ends with two doors, not one.
+> **Parked, 2026-09-18 — not built.** The reveal has one door: `WAKE SOMEWHERE ELSE`, a new stranger in a new world, with nothing carried over. The residence model below is kept as a record of the thinking, because the argument for it still holds and it is the obvious answer to the first-round problem. It is parked rather than rejected: it wants the difficulty bands to exist first, since "starts are drawn from progressively harder bands" is most of what makes staying feel different from repeating. Everything below describes a design, not the current build.
+
+The reveal was to end with two doors, not one.
 
 - `WAKE AGAIN HERE` — you wake as someone else in the same novel.
 - `WAKE SOMEWHERE ELSE` — a shuffle: new novel, new stranger.
@@ -64,13 +66,26 @@ Waking repeatedly in one novel is a better fantasy than shuffling. You are not s
 | Action | Gives | Cost | Recorded as |
 | --- | --- | --- | --- |
 | Expand | one node's neighbours | 1 | clue |
-| Weigh | the tie strengths around *another* node | 1 | clue |
+| Facts | what is known of *another* character — books, titles, allegiances, dates | 2 | clue |
 | Name | one neighbour's name | 3 | clue |
-| Locate | the novel | 2 | hint |
 
-**Free, always:** your own tie strengths, and node size, which encodes degree.
+**Free, always:** every tie's strength, and node size, which encodes degree.
 
-**Ledger.** One line in the margin: `Information used: 4 clues`. A count, not a budget — a budget implies a fail state and makes players hoard. Hints are counted apart from clues, and `0 hints` is the thing worth wanting.
+**Weigh is gone, and tie strength is free everywhere.** It was originally a purchase: your own ties drawn true, a stranger's ties bought a node at a time. In play that charged for the diagram itself — thickness is the evidence, and a graph of uniform hairlines is not a puzzle, it is a waiting room. Removing it costs less than it looks like it should, because the thing a player actually lacks is not the shape but who is standing in it.
+
+**Facts took its slot.** It returns the discrete attributes the enrichment sidecar already holds for a character — *Ser, Westerlands, sworn to House Lannister of Casterly Rock; appears in all five books, three of them through his eyes* — without naming them. It is the middle rung the economy was missing: structure is free, a name is decisive, and a reading is the step between. It is also the most informative thing you can buy for 2, and the cost may want to rise to 3 once anyone has played a full session.
+
+**Nothing about your own node is for sale.** Naming yourself, or reading your own facts, is just answering the question. So your node's menu carries exactly one entry — `I KNOW WHO I AM · free` — which opens the guess. The action that used to hide in the margin is now attached to the thing it is about, and the marginal link is set in the accent at a weight nothing else on the screen carries.
+
+**Ledger.** One line in the margin: `Information used: 4 clues`. A count, not a budget — a budget implies a fail state and makes players hoard.
+
+**There is one currency.** Locate was originally recorded as a *hint*, counted apart from clues, so a hinted run stayed distinguishable from a clean one. That was a second scoreboard nobody asked for: two numbers, neither of which was the score, and no way to compare a run against another run without comparing both. Everything costs clues, and the single number is what a player carries away.
+
+**Locate is gone, and the world is free.** It sold the name of the world for 2 clues. But guessing is free and a wrong guess costs nothing, so a player could work the story out from a short dropdown in a few free tries — paying for what trial gives away is not a trade, it is a tax on players who did not notice. So the world is now revealed by *naming it correctly*, which costs nothing and is half of the question the guess screen already asks. Get the story right and wrong the person, and the world and its one-line introduction appear on the explore screen and stay there.
+
+That also fixes where it lived. Every other purchase hangs off a node, in the menu, attached to the thing it concerns; Locate was the only action floating in the chrome, and it was loudest at the start, when nobody wants it yet.
+
+**Watch for:** this makes the story half of the question nearly free once more worlds ship, since a determined player can walk the dropdown. If that starts to feel cheap, the fix is to make a wrong *story* guess cost something — not to reinstate a purchase for information that trial hands over.
 
 **Name is the pivot.** One name usually gives the story away too, because a reader who recognises a character recognises the book. That is the design, not a leak: structure narrows the field, a name converts it to an answer, the ledger records how much structure you read before reaching for one.
 
@@ -93,13 +108,13 @@ The player never sees the word *weight*. It is a code word and it promises a pre
 
 **What a tie is not.** Not affection, not alliance, not importance. Two enemies who appear in every scene together have one of the heaviest ties in the book. Copy must never say *close*, *knows well*, or *friend* — the player will read warmth into thickness on their own, which is fine, but the game should not assert it.
 
-**Why your own ties are free.** A person waking with no memory would not first ask how many people they know. They would ask who matters. Your own intimacies are the one thing amnesia leaves intact, so they are drawn at true thickness from the first frame — and it makes the opening screen carry real information instead of five identical hairlines. Weighing someone else's node is buying the shape of a stranger's life, which is worth paying for.
+**Why every tie is drawn true.** This began as an asymmetry — your own ties free, a stranger's bought — on the reasoning that your own intimacies are what amnesia leaves intact. The asymmetry read well and played badly: beyond your first ring the diagram became identical hairlines, which is to say no diagram at all. Thickness is the medium the puzzle is written in, so it is never for sale. What you pay for is *identity* — who these people are — not the shape they make, which you can always see.
 
 ## Screen states
 
-**1 · Cold open.** Title, your node, its neighbours at true tie thickness, the legend line, three lines of copy, `BEGIN`. No book list, no mode selector, no settings, no how-to-play.
+**1 · Cold open.** Your node, its neighbours at true tie thickness, two lines of copy, `BEGIN`. No book list, no mode selector, no settings, no how-to-play — and no rules. The legend used to sit here; it moved into the key, which is reachable from every screen, because a rule printed once on a screen you pass through in four seconds is not available when it is wanted.
 
-**2 · Exploring.** Your node centred, hollow neighbours, the ledger, the question line. Actions attach to a node on hover, never to a toolbar. Withheld: names, other nodes' tie strengths, the size of the graph.
+**2 · Exploring.** Your node centred, hollow neighbours, the ledger, the question line. Actions attach to a node on hover, never to a toolbar. Withheld: names, and the size of the graph. Tie strength is not withheld anywhere.
 
 **3 · Guess.** The graph dims but stays visible — it is the evidence. Story is a dropdown of loaded universes. Character is a free-text field with type-ahead: suggestions begin after three characters and are drawn from **every loaded universe**, so the list never reveals how many candidates the chosen novel has. A player who half-remembers a name gets there; a player fishing learns nothing. `THIS IS ME` commits.
 
@@ -111,7 +126,7 @@ The player never sees the word *weight*. It is a code word and it promises a pre
 
 **6 · The key.** Reachable at any time from a thin mono link in the margin: `WHAT CAN I DO`. It opens over the paper without navigating away, and lists the four actions with their costs plus the tie legend. There is no first-run tutorial and no modal — the cold open has exactly one thing to click, which teaches the only lesson a tutorial could.
 
-**7 · Share.** After the reveal, a card the player can send. It carries their anonymised one-hop shape, their clue and hint counts, and a link to the same puzzle. It must not carry the answer — no name, no book, no labels anywhere — because the recipient is being invited to play, not told the ending.
+**7 · Share.** After the reveal, a card the player can send. It carries their anonymised one-hop shape, their clue count, and a link to the same puzzle. It must not carry the answer — no name, no book, no labels anywhere — because the recipient is being invited to play, not told the ending.
 
 ## Visual language
 

@@ -41,7 +41,7 @@ One reducer owns the session. Everything the player has learned lives in a singl
 
 ```ts
 type Phase = 'cold' | 'explore' | 'guess' | 'reveal'
-type Band  = 'approachable' | 'hard'
+type Band  = 'approachable' | 'hard' | 'unbanded'  // 'unbanded' covers today's data, pre-difficulty-scoring
 
 interface Session {
   phase: Phase
@@ -52,16 +52,14 @@ interface Session {
   known: {
     visible: Set<NodeId>      // drawn at all
     expanded: Set<NodeId>     // neighbours materialised
-    weighed: Set<NodeId>      // OTHER nodes whose tie strengths were bought
+    facts: Set<NodeId>        // OTHER nodes whose facts were bought
     named: Map<NodeId, string>
-    locatedUniverse: boolean
   }
 
-  ledger: {
+  ledger: {          // COUNTS of actions taken, not clue totals
     expansions: number
-    weights: number
+    facts: number
     names: number
-    hints: number
   }
 
   guesses: Array<{ universe: UniverseId; character: NodeId; correct: boolean }>
@@ -76,21 +74,29 @@ The renderer must never receive the full graph. A projection function sits betwe
 function project(universe: Universe, known: Known): VisibleGraph
 ```
 
-`VisibleGraph` contains only nodes in `known.visible`, with `name: null` unless revealed. Tie strength is present on every edge incident to the player's own node and `null` elsewhere unless that node has been weighed — the one asymmetry in the projection, and the reason it belongs in this function rather than in the renderer.
+`VisibleGraph` contains only nodes in `known.visible`, with `name: null` unless revealed. Tie strength is present on every visible edge: thickness is the medium the puzzle is written in and is never withheld. The projection still earns its place — it is what keeps unvisited nodes, unbought names and the size of the graph out of the DOM entirely.
 
 If the full graph is passed down and components merely decline to draw parts of it, every answer sits in the DOM and in the React devtools. Someone will find it, and the codebase will stop being able to tell you what the player knows.
 
 ### Costs live in one table
 
 ```ts
-const COST = { expand: 1, weigh: 1, name: 3, locate: 8 } as const
+const COST = { expand: 1, facts: 2, name: 3 } as const
 ```
 
-Actions are dispatched as `{ type: 'expand', node }`; the reducer applies the cost and the knowledge change together so they cannot drift apart. `locate` increments `ledger.hints` rather than the clue total, so a hinted run stays distinguishable from a clean one at every point in the session, not only at the reveal.
+Actions are dispatched as `{ type: 'expand', node }`; the reducer applies the cost and the knowledge change together so they cannot drift apart. Everything is counted in clues — there is no second hint currency; see the Game design doc for why that was dropped.
+
+`locate` was removed outright, along with `known.locatedUniverse`. Which world you are in is now derived, not bought: `worldIsKnown(session)` is true once any guess got the story right. Deriving it from the guess log rather than storing a flag means there is no way for the flag and the guess history to disagree.
+
+The ledger holds **counts**, never costs. `clueTotal()` is the single place the two are multiplied, which is what keeps "one name" from being reported as "3 names" — the bug that follows directly from storing a cost in a field named for a count.
+
+> **Superseded 2026-09-17/18:** the table once read `{ expand: 1, weigh: 1, name: 3, locate: 8 }`. `weigh` went because tie strength is the diagram and charging for it charged for the puzzle itself; `locate` went because free guessing already gave the world away. Both stories are in the Game design doc's information economy section.
 
 ### Residence
 
-A session belongs to a residence, which outlives it. The residence is what makes a second waking in the same book easier, and it is the only state that crosses runs.
+> **Parked, 2026-09-18 — not implemented.** `Session` has no `residence` field, `initSession` takes no residence, and there is no `WAKE_AGAIN` action. Every waking starts clean and nothing crosses between runs, which is why the session object is now exactly what one run needs and no more. The sketch below stands as the spec for when it comes back; see the Game design doc for why it is parked.
+
+A session would belong to a residence, which outlives it. The residence is what makes a second waking in the same book easier, and it would be the only state that crosses runs.
 
 ```ts
 interface Residence {
@@ -98,12 +104,11 @@ interface Residence {
   wakings: number
   learned: Map<NodeId, string>   // names bought in ANY waking here
   clues: number                  // running total across the residence
-  hints: number
   bandFloor: Band                // rises as wakings accumulate
 }
 ```
 
-On a new waking, `known.named` is seeded from `residence.learned` at no cost, and the projection treats those as revealed from the first frame. `phase` still starts at `cold`, but the guess screen omits the story field and the node menu omits Locate whenever `residence.wakings > 0`.
+On a new waking, `known.named` is seeded from `residence.learned` at no cost, and the projection treats those as revealed from the first frame. `phase` still starts at `cold`, but the guess screen omits the story field whenever `residence.wakings > 0`.
 
 Shuffling discards the residence and starts a new one. There is no way back into a discarded residence, which keeps the state model to exactly one live object and avoids a save-slot interface the game does not want.
 
@@ -135,13 +140,29 @@ No `d3.select`, no `enter/exit/update`, no D3-managed transitions on elements Re
 
 Draw order is deliberate: edges under nodes, labels above both, menu above everything. Labels need a halo in the paper colour so they stay legible where they cross an edge.
 
+### Where chrome lives
+
+Four zones, and nothing crosses between them. Top-left is the title. **The right margin holds everything *about* the session rather than in it** — the ledger, the itemised tally, the key, and the way out — stacked and right-aligned in one column. Bottom-left is the question. Bottom-right is reserved for the single action that ends a run, which is why the utility links moved out of it: two competing right-aligned clusters at the same corner have no alignment that reads as deliberate.
+
+A form's commit belongs to the form. `THIS IS ME` sits directly under the field it submits with `KEEP LOOKING` beside it, rather than pinned to the window's edge where it reads as unrelated chrome.
+
 ### Why SVG and not canvas
 
 The graphs are small — tens of visible nodes, a few hundred at full reveal. SVG gives real DOM nodes for hit testing, CSS transitions for the motion described in the design tab, crisp hairlines at any zoom, and an inspector that shows you what is wrong. Canvas would only be worth it past a few thousand elements, which this never reaches. If the full-reveal frame does stutter, the fix is to simplify that one animation, not to rewrite the renderer.
 
 ### Coordinates
 
-A single `Stage` transform handles pan and zoom. Layout works in an abstract coordinate space centred on the player's node at the origin; the stage maps that to the viewport. Keeping the two separate means the reveal animation can expand the world without the player's node moving on screen, which is the effect the design calls for.
+A single `Stage` transform handles pan and zoom, driven by `d3-zoom` through `graph/zoom.ts`: D3 owns the gesture maths and hands back a `{k, x, y}`, which React applies to one `<g>`. D3 never touches the DOM React owns. The same hook drives the reveal's full-graph view. There is no rubber-band overscroll — `d3-zoom` clamps rather than bounces, and the elastic feel would have to be written by hand.
+
+**Ties meet the circumference, not the centre.** Each line is trimmed by the drawn radius at both ends. A line that runs under a hollow circle reads as a line *crossing* it rather than a tie *to* it, which is exactly the wrong reading in a diagram whose whole subject is what connects to what.
+
+**Nodes can be dragged** out of the way, because labels collide and no automatic layout fixes that as well as a hand does. A nudge is a per-node offset held in the `Stage`, applied on top of the laid-out position, so a relayout never fights a manual placement. A drag under 3px is treated as a click, so dragging never also pins the menu.
+
+D3 binds its zoom listener natively to the `<svg>`, which runs *before* React's synthetic handlers — so `stopPropagation` in a React `onPointerDown` is too late to stop a pan, and dragging a node moves the whole graph. The fix belongs in `d3-zoom`'s own `.filter()`: reject any non-wheel gesture whose target sits inside `[data-node]`.
+
+There is **no rubber-band overscroll**. `d3-zoom` clamps rather than bounces, and the elastic feel would have to be hand-written; it also contradicts the motion rule that the diagram is still except when the player has caused something — a snap-back is the graph moving after the player stopped.
+
+Both stages **measure themselves** and express marks in real pixels rather than layout units. A fixed `viewBox` means one user unit is a different number of pixels in a 300px-tall cold-open diagram than in a full-window explore view, so a 10px label renders at 4px in one and 14px in the other, and hit targets shrink to nothing. The stage observes its own size and maps one unit to one CSS pixel; zoom-to-fit then scales *positions only*, leaving node radii, tie widths and labels at their true size so degree and tie strength stay readable at every depth. Layout works in an abstract coordinate space centred on the player's node at the origin; the stage maps that to the viewport. Keeping the two separate means the reveal animation can expand the world without the player's node moving on screen, which is the effect the design calls for.
 
 ### Accessibility
 
@@ -206,12 +227,12 @@ CSS transitions for node and edge properties, driven by React state. Use `d3-int
 
 ```
 /data/index.json          universe list and band counts, well under 1 KB
-/data/asoiaf.json         full graph + layout + puzzle records
-/data/asoiaf.meta.json    reveal-only enrichment, fetched when the reveal fires
+/data/asoiaf.json
+/data/starwars.json
+/data/shakespeare.json
+/data/asoiaf.meta.json    character enrichment, fetched on the first Facts buy or at the reveal
 /data/ATTRIBUTION.md      source credit, citations, and what was changed
 /data/LICENSE             terms the emitted graphs inherit from their sources
-/data/hongloumeng.json
-/data/xiyouji.json
 ```
 
 `index.json` loads at boot and carries universe ids, file names, and how many playable starts of each difficulty band each universe holds. A universe file loads when a session starts.

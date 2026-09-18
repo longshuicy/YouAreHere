@@ -11,6 +11,26 @@
     "total": 169,
     "unbanded": 169
    }
+  },
+  {
+   "id": "shakespeare",
+   "file": "shakespeare.json",
+   "nodes": 845,
+   "edges": 4598,
+   "playable": {
+    "total": 322,
+    "unbanded": 322
+   }
+  },
+  {
+   "id": "starwars",
+   "file": "starwars.json",
+   "nodes": 103,
+   "edges": 441,
+   "playable": {
+    "total": 32,
+    "unbanded": 32
+   }
   }
  ]
 }

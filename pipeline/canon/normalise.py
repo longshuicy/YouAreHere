@@ -12,10 +12,13 @@ def filter_graph(
     *,
     min_edge_weight: float,
     min_degree: int,
+    min_component_size: int | None = None,
 ) -> CanonicalGraph:
-    """Drop weak edges, then low-degree nodes, then everything outside the
-    largest connected component. Dropping nodes can orphan others, so iterate
-    until stable. Before-and-after counts land in provenance.filters."""
+    """Drop weak edges, then low-degree nodes. Then either keep only the largest
+    connected component (the default — noisy projections leave a spray of pairs)
+    or keep every component of at least `min_component_size`. A merged drama
+    corpus is many plays sharing few characters; the largest-component rule
+    would throw away Hamlet to save the history cycle."""
 
     before = (len(graph.nodes), len(graph.edges))
 
@@ -30,22 +33,37 @@ def filter_graph(
         nodes = {nid: n for nid, n in nodes.items() if nid in survivors}
         edges = [e for e in edges if e.source in survivors and e.target in survivors]
 
-    component = _largest_component(nodes.keys(), _adjacency(edges))
-    nodes = {nid: n for nid, n in nodes.items() if nid in component}
-    edges = [e for e in edges if e.source in component and e.target in component]
+    adjacency = _adjacency(edges)
+    if min_component_size is None:
+        keep = _largest_component(nodes.keys(), adjacency)
+        largest_only = True
+    else:
+        keep = set()
+        for component in _components(nodes.keys(), adjacency):
+            if len(component) >= min_component_size:
+                keep |= component
+        largest_only = False
+
+    nodes = {nid: n for nid, n in nodes.items() if nid in keep}
+    edges = [e for e in edges if e.source in keep and e.target in keep]
 
     graph.provenance.filters = {
         "minEdgeWeight": min_edge_weight,
         "minDegree": min_degree,
-        "largestComponentOnly": True,
+        "largestComponentOnly": largest_only,
+        "minComponentSize": min_component_size,
         "nodesBefore": before[0],
         "nodesAfter": len(nodes),
         "edgesBefore": before[1],
         "edgesAfter": len(edges),
     }
+    if largest_only:
+        kept = "then kept the largest connected component"
+    else:
+        kept = f"then kept every component of at least {min_component_size} characters"
     graph.provenance.with_modification(
         f"Dropped ties weaker than {min_edge_weight:g} and characters with fewer than "
-        f"{min_degree} ties, then kept the largest connected component "
+        f"{min_degree} ties, {kept} "
         f"({before[0]} nodes and {before[1]} ties in, {len(nodes)} and {len(edges)} out)."
     )
 
@@ -56,6 +74,7 @@ def filter_graph(
         nodes=list(nodes.values()),
         edges=edges,
         provenance=graph.provenance,
+        segment_labels=dict(graph.segment_labels),
     ).sorted()
 
 
@@ -146,6 +165,7 @@ def apply_identity_overrides(graph: CanonicalGraph, overrides: dict[str, dict]) 
         nodes=nodes,
         edges=graph.edges,
         provenance=graph.provenance,
+        segment_labels=dict(graph.segment_labels),
     ).sorted()
 
 
@@ -188,9 +208,9 @@ def _adjacency(edges: list[Edge]) -> dict[str, set[str]]:
     return adjacency
 
 
-def _largest_component(node_ids, adjacency: dict[str, set[str]]) -> set[str]:
+def _components(node_ids, adjacency: dict[str, set[str]]) -> list[set[str]]:
     unvisited = set(node_ids)
-    largest: set[str] = set()
+    found = []
     while unvisited:
         seed = min(unvisited)
         component = {seed}
@@ -202,6 +222,10 @@ def _largest_component(node_ids, adjacency: dict[str, set[str]]) -> set[str]:
                     component.add(neighbour)
                     frontier.append(neighbour)
         unvisited -= component
-        if len(component) > len(largest):
-            largest = component
-    return largest
+        found.append(component)
+    return found
+
+
+def _largest_component(node_ids, adjacency: dict[str, set[str]]) -> set[str]:
+    parts = _components(node_ids, adjacency)
+    return max(parts, key=len) if parts else set()

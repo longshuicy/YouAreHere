@@ -46,6 +46,8 @@ Every adapter produces this shape and nothing else. The analysis layer should ne
 }
 ```
 
+`work` and `metadata` are fields on the internal canonical `Node` dataclass (`pipeline/canon/types.py`), useful during ingest and analysis. They are **not** serialized into the emitted universe file — the app never receives them. What reaches the client is only `i` (index), `n` (name), `x`/`y` (layout), and `a` (aliases, omitted when empty); see "Universe file" below for the emitted shape.
+
 ### Edge
 
 ```json
@@ -202,6 +204,7 @@ Loaded at boot. Universes ship under their own names, which is not a secret — 
 
 ```json
 {
+  "pipelineVersion": "0.1.0-thin",
   "banded": true,
   "universes": [
     { "id": "asoiaf", "file": "asoiaf.json", "nodes": 592, "edges": 2619,
@@ -209,6 +212,8 @@ Loaded at boot. Universes ship under their own names, which is not a secret — 
   ]
 }
 ```
+
+**Current state of the committed data.** Difficulty scoring (candidate counts, cross-universe ambiguity) has not been run yet, so `banded` is presently `false` and every universe's `playable` object looks like `{ "total": 169, "unbanded": 169 }` instead of the `approachable`/`hard` split shown above. The app is written to degrade gracefully in this state — when `unbanded` is the only count present, it treats the whole playable pool as one band. Both shapes are valid; a consuming client should check for `approachable`/`hard` first and fall back to treating `unbanded` as the entire pool.
 
 **There is no puzzle manifest.** Enumerating every puzzle here would put the whole catalogue in front of the first frame, and each entry would say nothing a universe file does not already say. The one thing the boot payload genuinely needs is band availability: the game serves approachable starts first, so it must choose which universe to fetch before it has fetched any, and without counts it would have to download a universe to discover whether it holds a suitable start.
 
@@ -248,15 +253,19 @@ Inline in the universe file, since they are only useful once that file is loaded
 }
 ```
 
+**Current state of the committed data.** The difficulty-scoring stage that computes `band` and `reveal` has not been run yet, so today's `asoiaf.json` puzzle records carry only `id`, `you`, and `startRadius` — both `band` and `reveal` are absent. The app treats both fields as optional: with no `band` it falls back to `'unbanded'`, and with no `reveal` the Reveal screen simply omits the structural-fact line rather than showing a blank or placeholder. Both fields are expected to appear automatically once that pipeline stage runs, with no client change required.
+
 **Why these cannot be assembled in the browser.** Which node you wake as is trivially live-computable and needs no build step. Difficulty is not: `crossUniverseAmbiguity` counts structural twins *in other novels*, and the client holds exactly one universe by design. A client able to measure difficulty would be one that had downloaded every book, which costs bandwidth and puts every answer in memory. The reveal line follows the same logic — generated at build time so the templates and the statistics that choose between them never ship.
 
 The reveal line is generated from the candidate counts with a small set of templates chosen by which statistic is most striking for that character — *most connected person you never saw*, *three edges from everyone*, *your shape is unique in all three stories*. Written at build time, not runtime, so the client has no logic that could give an answer away.
 
 ### Reveal-only enrichment
 
-A sidecar, `<universe>.meta.json`, fetched when the reveal fires and never before. It holds a one-line description per character and per tie, plus the structured facts those lines were built from, so the app can render its own phrasing.
+A sidecar, `<universe>.meta.json`. It holds a one-line description per character and per tie, plus the structured facts those lines were built from, so the app can render its own phrasing.
 
-It is separate from the universe file for two reasons, neither of them spoiler-prevention — the universe file already holds every name. The first is weight: nothing should pay for this during a session that ends in a wrong guess. The second is licensing, and it is the one with teeth.
+**It is no longer reveal-only.** The `Facts` action buys a character's line mid-session, so the client fetches this file the first time facts are bought, or when the reveal fires, whichever comes first — and then keeps it. The name is now a slight misnomer; the file's contents are unchanged.
+
+It is still separate from the universe file for two reasons, neither of them spoiler-prevention — the universe file already holds every name. The first is weight: a session that never buys facts and ends in a wrong guess never pays for it. The second is licensing, and it is the one with teeth.
 
 **Sources must be merge-safe.** Enrichment material is combined with graph data that is CC BY-NC-SA, and ShareAlike forbids adding restrictions — so CC BY-SA material cannot be folded in, because the result would need to be NonCommercial and not-NonCommercial at once. `License.can_merge_into()` encodes this and the emitter refuses any source that fails it. That rules out both obvious wikis and is why descriptions are *composed here from discrete facts* rather than copied: facts carry no licence, sentences do.
 
@@ -276,8 +285,11 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 
 | Source | Shape | Status | Notes |
 | --- | --- | --- | --- |
-| ASOIAF (Beveridge) | Edge list with weights | Build first | Clean, weighted, multi-book, minimal preprocessing risk |
-| 红楼梦 (PKU) | Character × event matrix, \~376 × 475 | Build second | Clear analytical provenance; project to co-occurrence |
+| ASOIAF (Beveridge) | Edge list with weights | Shipped | CC BY-NC-SA 4.0. Five books as segments. |
+| Star Wars (Gabasova) | Per-episode scene-speech JSON | Shipped | CC BY 3.0. Episodes I–VII as segments. |
+| Shakespeare (DraCor / Folger) | 37 plays, scene co-presence | Shipped | CC BY-NC 3.0. Merged; unnamed crowds dropped. |
+| Bible | — | Not yet | KJV is PD; ready-made graphs are BY-SA (cannot merge) or mix people with places. See `pipeline/raw/bible/SOURCE.md`. |
+| 红楼梦 (PKU) | Character × event matrix, \~376 × 475 | Later | No licence on the GitHub dump. |
 | 西游记 (PKU) | Character × scene matrix, \~302 × 408 | Build third | Same adapter as 红楼梦, different unit name |
 | 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
@@ -304,6 +316,10 @@ It is the one source where the data work is nearly zero, which means the first b
 They turn *what story are you in* from a formality into a real question, and they are nearly the same adapter. They also stress-test the invariant that all universes look identical — a Qing-dynasty household network and a Westerosi court network should be visually indistinguishable until the reveal, and if they are not, the design has a leak.
 
 There is a second, quieter reason to include them early: a structurally similar court is exactly the kind of near-miss that makes the cross-universe question interesting.
+
+### Bible, not yet
+
+The text is public domain. The graphs on the internet are not usable here. MetaV/Gnosis people tables are CC BY-SA, which cannot share a `/data` directory with ASOIAF's CC BY-NC-SA. KONECT's Bible network mixes names with places. Building a people-only verse co-occurrence graph from the KJV plus Wikidata labels (CC0) is the merge-safe path; it is not written.
 
 ### Harry Potter, deferred
 

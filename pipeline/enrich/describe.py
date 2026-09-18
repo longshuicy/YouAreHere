@@ -10,9 +10,7 @@ receives the structured facts alongside these lines and may ignore them.
 
 from __future__ import annotations
 
-from .facts import BOOK_ORDER, BOOK_TITLES
-
-COUNT_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}
+COUNT_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven"}
 
 # The source mixes three kinds of value under "culture": peoples (Northmen),
 # places (Westeros), and adjectives (Valyrian). Only the first takes "of the" —
@@ -52,15 +50,18 @@ def edge_line(facts: dict) -> str:
     clauses = []
 
     books = facts.get("books", [])
+    unit = facts.get("unit", "book")
+    first = books[0] if books else ""
+    total = facts.get("corpusSize") or 0
+
     if books:
-        first = BOOK_TITLES[books[0]]
         if len(books) == 1:
             clauses.append(f"They share the page only in {first}")
-        elif len(books) == len(BOOK_ORDER):
-            clauses.append(f"They share the page in every book, first in {first}")
+        elif total and len(books) == total:
+            clauses.append(f"They share the page in every {unit}, first in {first}")
         else:
             count = COUNT_WORDS.get(len(books), str(len(books)))
-            clauses.append(f"They share the page in {count} books, first in {first}")
+            clauses.append(f"They share the page in {count} {unit}s, first in {first}")
 
     if facts.get("sharedHouses"):
         # Stated as a fact about each of them, never as a claim about the tie.
@@ -85,12 +86,15 @@ def _presence(facts: dict) -> str:
     if not books:
         return ""
 
-    if len(books) == len(BOOK_ORDER):
-        where = "Appears in all five books"
+    unit = facts.get("unit", "book")
+    total = facts.get("corpusSize") or 0
+
+    if total and len(books) == total:
+        where = f"Appears in all {COUNT_WORDS.get(total, total)} {unit}s"
     elif len(books) <= 2:
-        where = "Appears in " + " and ".join(BOOK_TITLES[b] for b in books)
+        where = "Appears in " + " and ".join(books)
     else:
-        where = f"Appears in {COUNT_WORDS.get(len(books), len(books))} of the five books"
+        where = f"Appears in {COUNT_WORDS.get(len(books), len(books))} {unit}s"
 
     pov = facts.get("pov")
     if not pov:

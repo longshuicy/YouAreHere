@@ -42,11 +42,53 @@ Used as follows:
 2. Resolved house allegiance URLs to house names.
 3. Composed original one-line descriptions from those attributes.
 
+## Shakespeare
+
+*Shipped as `shakespeare.json` — 845 characters, 4598 ties.*
+
+"Shakespeare Drama Corpus (DraCor)" by **DraCor / Folger Shakespeare Library** (<https://dracor.org/>)
+
+- Source: <https://github.com/dracor-org/shakedracor>
+- Project: <https://dracor.org/shake>
+- Licence: [Creative Commons Attribution-NonCommercial 3.0 Unported](https://creativecommons.org/licenses/by-nc/3.0/) (`CC-BY-NC-3.0`)
+- Retrieved: 2026-09-17
+- Cite as: F. Fischer et al., “Programmable Corpora: Introducing DraCor”, DH2019. Texts from the Folger Shakespeare Library.
+
+Changes made to the original data:
+
+1. Merged all 37 plays into one graph, summing scene co-presence across plays.
+2. Dropped group nodes (crowds, attendants) so a waking is always a person.
+3. Disambiguated repeated generic names (Messenger, Soldier) with the play title.
+4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (889 nodes and 4628 ties in, 845 and 4598 out).
+5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+6. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+## Star Wars
+
+*Shipped as `starwars.json` — 103 characters, 441 ties.*
+
+"Star Wars social network" by **Evelina Gabasova** (<https://evelinag.com/>)
+
+- Source: <https://github.com/evelinag/star-wars-network-data>
+- Project: <https://doi.org/10.5281/zenodo.1411479>
+- Licence: [Creative Commons Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/) (`CC-BY-3.0`)
+- Retrieved: 2026-09-17
+- Cite as: E. Gabasova, “Star Wars social network”, 2016. DOI: [10.5281/zenodo.1411479](https://doi.org/10.5281/zenodo.1411479)
+
+Changes made to the original data:
+
+1. Merged the seven per-episode interaction networks, summing scene counts across films.
+2. Used the allCharacters files so R2-D2 and Chewbacca, who do not speak, are included.
+3. Title-cased display names; identifiers such as R2-D2 were left as written.
+4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (112 nodes and 449 ties in, 103 and 441 out).
+5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+6. Computed a force-directed layout for the full graph, used by the reveal animation.
+
 ## What these terms require of this project
 
 **ShareAlike** (CC-BY-NC-SA-4.0). The files in this directory are adaptations of
 ShareAlike-licensed data and are distributed under the same terms — see `LICENSE` here,
 which governs `/data` specifically and not the application source code.
 
-**NonCommercial** (CC-BY-NC-SA-4.0). While these datasets ship, the game may not
+**NonCommercial** (CC-BY-NC-3.0, CC-BY-NC-SA-4.0). While these datasets ship, the game may not
 be put to commercial use. Removing or replacing them is what lifts that restriction.

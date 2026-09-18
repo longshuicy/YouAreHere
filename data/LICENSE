@@ -9,3 +9,10 @@ Effective licence: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Int
 Full terms: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 Credit the creator, link the licence, and state that changes were made. No commercial use. Adaptations must carry the same licence.
+
+Sources ship under more than one licence; the most restrictive is applied above.
+Per-source terms:
+
+  asoiaf.json  CC-BY-NC-SA-4.0  https://creativecommons.org/licenses/by-nc-sa/4.0/
+  shakespeare.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
+  starwars.json  CC-BY-3.0  https://creativecommons.org/licenses/by/3.0/

@@ -1,3 +1,3 @@
-from . import asoiaf
+from . import asoiaf, shakespeare, starwars
 
-__all__ = ["asoiaf"]
+__all__ = ["asoiaf", "shakespeare", "starwars"]

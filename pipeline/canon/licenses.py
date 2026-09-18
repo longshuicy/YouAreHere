@@ -17,6 +17,27 @@ CC_BY_NC_SA_4_0 = License(
     ),
 )
 
+CC_BY_3_0 = License(
+    name="Creative Commons Attribution 3.0 Unported",
+    spdx="CC-BY-3.0",
+    url="https://creativecommons.org/licenses/by/3.0/",
+    allows_commercial_use=True,
+    share_alike=False,
+    deed_summary="Credit the creator, link the licence, and state that changes were made.",
+)
+
+CC_BY_NC_3_0 = License(
+    name="Creative Commons Attribution-NonCommercial 3.0 Unported",
+    spdx="CC-BY-NC-3.0",
+    url="https://creativecommons.org/licenses/by-nc/3.0/",
+    allows_commercial_use=False,
+    share_alike=False,
+    deed_summary=(
+        "Credit the creator, link the licence, and state that changes were made. "
+        "No commercial use."
+    ),
+)
+
 CC_BY_4_0 = License(
     name="Creative Commons Attribution 4.0 International",
     spdx="CC-BY-4.0",

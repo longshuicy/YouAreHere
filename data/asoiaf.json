@@ -22991,6 +22991,7 @@
    "minEdgeWeight": 1,
    "minDegree": 2,
    "largestComponentOnly": true,
+   "minComponentSize": null,
    "nodesBefore": 796,
    "nodesAfter": 592,
    "edgesBefore": 2823,

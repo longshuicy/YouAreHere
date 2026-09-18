@@ -132,6 +132,7 @@ class CanonicalGraph:
     nodes: list[Node]
     edges: list[Edge]
     provenance: Provenance
+    segment_labels: dict = field(default_factory=dict)
 
     def sorted(self) -> CanonicalGraph:
         """Deterministic ordering. Every stage returns a sorted graph so two runs
@@ -143,4 +144,5 @@ class CanonicalGraph:
             nodes=sorted(self.nodes, key=lambda n: n.id),
             edges=sorted(self.edges, key=lambda e: e.key),
             provenance=self.provenance,
+            segment_labels=dict(self.segment_labels),
         )

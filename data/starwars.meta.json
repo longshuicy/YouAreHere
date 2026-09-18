@@ -1,0 +1,6077 @@
+{
+ "id": "starwars",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Return of the Jedi and The Force Awakens."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in four films."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in three films."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones and A New Hope."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Return of the Jedi."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in A New Hope."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "The Empire Strikes Back"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones and The Empire Strikes Back."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Return of the Jedi."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith",
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in all seven films."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in A New Hope."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Revenge of the Sith."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones and Revenge of the Sith."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in four films."
+  },
+  "21": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "22": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Revenge of the Sith."
+  },
+  "23": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones and Revenge of the Sith."
+  },
+  "24": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "25": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith",
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in four films."
+  },
+  "26": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Empire Strikes Back."
+  },
+  "27": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in A New Hope."
+  },
+  "28": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "29": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "30": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in five films."
+  },
+  "31": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Revenge of the Sith."
+  },
+  "32": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "33": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "34": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "35": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Revenge of the Sith."
+  },
+  "36": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "37": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Revenge of the Sith."
+  },
+  "38": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in A New Hope."
+  },
+  "39": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace and A New Hope."
+  },
+  "40": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in four films."
+  },
+  "41": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "A New Hope",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in three films."
+  },
+  "42": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "43": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in three films."
+  },
+  "44": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "45": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "46": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "47": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace and Attack of the Clones."
+  },
+  "48": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "49": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "50": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "51": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Empire Strikes Back and Return of the Jedi."
+  },
+  "52": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in four films."
+  },
+  "53": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "54": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "55": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in four films."
+  },
+  "56": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in three films."
+  },
+  "57": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "58": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Revenge of the Sith and Return of the Jedi."
+  },
+  "59": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in A New Hope."
+  },
+  "60": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Empire Strikes Back."
+  },
+  "61": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "62": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in three films."
+  },
+  "63": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith",
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in six films."
+  },
+  "64": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Revenge of the Sith."
+  },
+  "65": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "66": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones and A New Hope."
+  },
+  "67": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Empire Strikes Back."
+  },
+  "68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in three films."
+  },
+  "69": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Empire Strikes Back and Return of the Jedi."
+  },
+  "70": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace and Attack of the Clones."
+  },
+  "71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "72": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Revenge of the Sith"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace and Revenge of the Sith."
+  },
+  "74": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith",
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in all seven films."
+  },
+  "75": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "76": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in A New Hope."
+  },
+  "77": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in A New Hope."
+  },
+  "78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "79": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "80": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Empire Strikes Back."
+  },
+  "81": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "82": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "83": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "84": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "85": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace and Attack of the Clones."
+  },
+  "86": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace and Attack of the Clones."
+  },
+  "87": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "88": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "89": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "90": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "91": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in A New Hope."
+  },
+  "92": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in Attack of the Clones."
+  },
+  "93": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "94": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "95": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "96": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "97": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace."
+  },
+  "98": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Phantom Menace and Attack of the Clones."
+  },
+  "99": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in three films."
+  },
+  "100": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in five films."
+  },
+  "101": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Force Awakens."
+  },
+  "102": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "Appears in The Empire Strikes Back."
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "0-14": {
+   "facts": {
+    "books": [
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Return of the Jedi."
+  },
+  "0-32": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "0-40": {
+   "facts": {
+    "books": [
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Return of the Jedi."
+  },
+  "0-51": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "0-52": {
+   "facts": {
+    "books": [
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Return of the Jedi."
+  },
+  "0-55": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "0-58": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "0-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "0-87": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "0-99": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "1-14": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "1-32": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "1-40": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "1-52": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "1-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "1-87": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-13": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-14": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "2-17": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-19": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "2-21": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-22": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "2-23": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "2-25": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "2-30": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "2-35": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "2-39": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-41": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-43": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "2-45": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-46": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-47": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-48": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-55": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "2-56": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "2-62": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-63": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "2-64": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "2-66": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "2-72": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-74": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "2-75": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-79": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-82": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-83": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-85": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "2-86": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-89": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-90": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "2-97": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "2-98": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "2-100": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "3-14": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "3-16": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "3-30": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "3-31": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "3-37": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "3-43": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "3-47": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "3-56": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "3-58": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "3-63": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "3-68": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "3-73": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "3-74": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "3-84": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "3-96": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "3-100": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "4-5": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "4-20": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "4-32": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "4-40": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "4-78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-14": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-20": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-32": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-40": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-52": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-54": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-57": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-74": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "5-95": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "A New Hope"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "6-21": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "6-52": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "6-55": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "6-66": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "A New Hope"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "6-68": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "6-74": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "7-14": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "7-41": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "7-55": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "8-14": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "8-15": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "8-38": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "8-52": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "8-55": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "8-74": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "8-76": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "8-99": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "9-14": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "9-20": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "9-25": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "9-40": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "9-42": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "9-51": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "9-52": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "9-63": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "9-69": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "9-92": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "10-17": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "10-43": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "10-63": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "10-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "10-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "11-40": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "11-41": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "11-52": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "12-13": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "12-79": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "13-79": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "14-16": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "14-19": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "14-20": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in four films, first in A New Hope."
+  },
+  "14-21": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "14-25": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "14-26": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "14-30": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "14-32": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "14-40": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in four films, first in A New Hope."
+  },
+  "14-41": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "14-48": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "14-51": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Empire Strikes Back."
+  },
+  "14-52": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in four films, first in A New Hope."
+  },
+  "14-55": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in A New Hope."
+  },
+  "14-58": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "14-63": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith",
+     "A New Hope"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Revenge of the Sith."
+  },
+  "14-66": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "A New Hope"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "14-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "14-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "14-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "14-74": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith",
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in every film, first in The Phantom Menace."
+  },
+  "14-76": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "14-80": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "14-87": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "14-98": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "14-100": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "15-55": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "16-74": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "17-30": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "17-43": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "17-63": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "17-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "17-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "17-79": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "17-86": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "18-20": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "18-32": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "18-36": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "18-40": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "18-49": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "18-54": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "18-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "19-43": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "19-63": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "19-68": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "20-25": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "20-32": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "20-40": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in four films, first in A New Hope."
+  },
+  "20-49": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "20-51": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Empire Strikes Back."
+  },
+  "20-52": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in four films, first in A New Hope."
+  },
+  "20-55": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in A New Hope."
+  },
+  "20-57": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "20-58": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "20-63": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "20-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "20-74": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in four films, first in A New Hope."
+  },
+  "20-78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "20-80": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "21-66": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "21-68": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "22-56": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "22-63": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "22-100": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "23-30": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "23-42": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "23-56": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "23-62": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "23-63": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "23-68": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "23-72": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "23-90": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "23-100": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "24-30": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "24-34": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "24-62": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "24-81": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "25-30": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in Revenge of the Sith."
+  },
+  "25-40": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "25-51": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "25-52": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in A New Hope."
+  },
+  "25-55": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Empire Strikes Back."
+  },
+  "25-59": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "25-60": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "25-63": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "25-67": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "25-69": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Empire Strikes Back."
+  },
+  "25-91": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "26-52": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "27-38": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "27-55": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "27-99": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "28-62": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "28-93": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "28-94": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "29-44": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "29-61": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "29-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "29-101": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "30-34": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "30-43": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "30-47": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "30-55": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "30-56": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "30-62": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "30-63": {
+   "facts": {
+    "books": [
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Attack of the Clones."
+  },
+  "30-65": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "30-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "30-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "30-74": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "30-81": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "30-84": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "30-86": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "30-96": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "30-100": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "31-37": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "31-58": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "31-68": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "32-40": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "32-49": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "32-52": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "32-57": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "32-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "32-78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "32-87": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "33-41": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "33-43": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "33-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "34-43": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "34-62": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "35-62": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "35-63": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "36-49": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "36-53": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "36-88": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "37-58": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "37-68": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "38-55": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "38-76": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "38-99": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "39-40": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "39-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "39-97": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "40-41": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "40-49": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "40-51": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Empire Strikes Back."
+  },
+  "40-52": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi",
+     "The Force Awakens"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in four films, first in A New Hope."
+  },
+  "40-55": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in A New Hope."
+  },
+  "40-57": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "40-58": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "40-63": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in A New Hope."
+  },
+  "40-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "40-74": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in A New Hope."
+  },
+  "40-78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "40-80": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "40-87": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "40-102": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "41-43": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "41-55": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "41-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "41-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "41-74": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "41-83": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "41-85": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "42-63": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "42-92": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "43-48": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "43-56": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "43-63": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "43-65": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "43-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "43-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "43-79": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "43-83": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "43-84": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "43-85": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "43-86": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "43-96": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "43-97": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "43-100": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "44-61": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "44-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "44-87": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "44-101": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "45-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "45-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "46-68": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "46-82": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "46-89": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "47-56": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "47-63": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "47-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "47-75": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "47-100": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "48-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "48-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "48-74": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "48-85": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "48-97": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "48-98": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "49-53": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "49-54": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "49-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "49-78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "49-88": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "50-63": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "50-92": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "51-52": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Empire Strikes Back."
+  },
+  "51-55": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Empire Strikes Back."
+  },
+  "51-58": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "51-74": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Empire Strikes Back."
+  },
+  "51-99": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "52-55": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in A New Hope."
+  },
+  "52-58": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "52-59": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "52-63": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "52-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "52-74": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in A New Hope."
+  },
+  "52-76": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "52-78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "52-80": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "52-87": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "52-91": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "54-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "55-58": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "55-63": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in A New Hope."
+  },
+  "55-66": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "55-74": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in A New Hope."
+  },
+  "55-76": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "55-77": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "55-78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "55-99": {
+   "facts": {
+    "books": [
+     "A New Hope",
+     "The Empire Strikes Back"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in A New Hope."
+  },
+  "55-100": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back",
+     "Return of the Jedi"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Empire Strikes Back."
+  },
+  "55-102": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "56-63": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "56-68": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "56-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "56-75": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "56-84": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "56-100": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "57-78": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "58-68": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "58-74": {
+   "facts": {
+    "books": [
+     "Return of the Jedi"
+    ],
+    "first": "Return of the Jedi",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Return of the Jedi."
+  },
+  "59-91": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "60-69": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "61-71": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "61-101": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "62-63": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "62-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "62-72": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "62-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "62-81": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "62-86": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "62-90": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "62-93": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "62-94": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "63-64": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "63-68": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "63-70": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "63-72": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "63-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "63-74": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith",
+     "A New Hope"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in Revenge of the Sith."
+  },
+  "63-79": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "63-84": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "63-85": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "63-86": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "63-90": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "63-92": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "63-93": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "63-100": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith",
+     "The Empire Strikes Back"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in four films, first in The Phantom Menace."
+  },
+  "65-84": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "66-68": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "66-74": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "67-69": {
+   "facts": {
+    "books": [
+     "The Empire Strikes Back"
+    ],
+    "first": "The Empire Strikes Back",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Empire Strikes Back."
+  },
+  "68-72": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "68-73": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "68-74": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Attack of the Clones",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in three films, first in The Phantom Menace."
+  },
+  "68-82": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "68-83": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "68-85": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "68-86": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "68-89": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "68-90": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "68-98": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "68-100": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "70-93": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "71-87": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "71-101": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "72-90": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "73-74": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-75": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-79": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-83": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-85": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-86": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-93": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-96": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-97": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-98": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "73-100": {
+   "facts": {
+    "books": [
+     "The Phantom Menace",
+     "Revenge of the Sith"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page in two films, first in The Phantom Menace."
+  },
+  "74-98": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "74-100": {
+   "facts": {
+    "books": [
+     "Revenge of the Sith"
+    ],
+    "first": "Revenge of the Sith",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Revenge of the Sith."
+  },
+  "75-100": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "76-77": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "76-99": {
+   "facts": {
+    "books": [
+     "A New Hope"
+    ],
+    "first": "A New Hope",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in A New Hope."
+  },
+  "78-95": {
+   "facts": {
+    "books": [
+     "The Force Awakens"
+    ],
+    "first": "The Force Awakens",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Force Awakens."
+  },
+  "81-94": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "82-89": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  },
+  "83-85": {
+   "facts": {
+    "books": [
+     "The Phantom Menace"
+    ],
+    "first": "The Phantom Menace",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in The Phantom Menace."
+  },
+  "84-100": {
+   "facts": {
+    "books": [
+     "Attack of the Clones"
+    ],
+    "first": "Attack of the Clones",
+    "unit": "film",
+    "corpusSize": 7
+   },
+   "line": "They share the page only in Attack of the Clones."
+  }
+ },
+ "sources": []
+}
