@@ -53,12 +53,21 @@ flat top is the metric correctly reporting that the play has no outsiders.
 
 Do not plot raw two-hop reach: it saturates — in most worlds nearly everyone reaches nearly
 everyone — and only re-draws cast size. Do not plot the world average either; it tracks cast size
-almost perfectly. Plot the **spread**, which separates *Romeo and Juliet* from *Shrew* at equal
-cast size.
+almost perfectly.
 
-Three layers: a strip of one tick per character on a shared log axis, identical on every card; the
-90th-to-10th-percentile ratio as the card's single number; and on click, a per-character step line
-of cumulative reach at each hop. The Apothecary's is a cliff, Romeo's is flat from the first step.
+The card's number is the **highest gain over the median**: how far the furthest character stands
+from a typical one. This was chosen by measuring the candidates rather than by taste, and the
+obvious choice loses. A 90th-to-10th-percentile spread fails the exact case the metric exists for —
+it scores *Romeo and Juliet* at 2.05 and *The Taming of the Shrew* at 1.91, when the whole
+difference between those two plays is that one has an Apothecary and the other has nobody outside
+the story at all. Percentiles discard the outlier, and the outlier is the finding. Raw maximum
+fails the other way, correlating 0.95 with the log of cast size. Against the median the two plays
+separate 5.0 to 1.4, and *King Lear* still outranks *A Song of Ice and Fire* — which a raw maximum
+can never do.
+
+Three layers: a strip of one tick per character on a shared log axis, identical on every card; that
+ratio as the card's single number; and on click, a per-character step line of cumulative reach at
+each hop. The Apothecary's is a cliff, Romeo's is flat from the first step.
 
 ### 3 · The character index
 
@@ -96,7 +105,7 @@ pipeline work.
 
 | metric | measures | blind to |
 |---|---|---|
-| Concentration | how much of the story a few people carry; star system against ensemble | who. A two-hander and a tyranny score alike. |
+| Concentration | how much of the story a few people carry; star system against ensemble | who. A two-hander and a tyranny score alike. Measured as a Gini of weighted degree rather than a top-decile share, because "the top 10%" is one and a bit characters in a twelve-hander. |
 | Modularity | how cleanly the cast splits into camps that mostly talk among themselves | small factions, swallowed by big ones at the resolution limit |
 | Betweenness | who stands between others: the go-between, the messenger | that co-appearance is not information flow. Sharing a scene is not carrying a message. |
 | Plain-against-weighted rank gap | who meets many people once, against who is actually present throughout | nothing new — the Shemaiah/Azariah observation in `_prominence`, promoted to a number |
@@ -104,7 +113,7 @@ pipeline work.
 | Assortativity | whether the prominent attach to the prominent or to the minor | bimodal casts, hidden inside one number |
 | Articulation points | who is load-bearing — remove them and the story falls into pieces | the edge-weight filter. Move the threshold and the answer moves. |
 | k-core | the dense inner ring against the periphery; a principled definition of furniture | fine distinctions. Integer-valued, so it is coarse in small plays. |
-| Horizon spread | how unequally access to the story is distributed | degree-1 characters, where one tie makes the ratio arbitrary |
+| Horizon | how much of the story is invisible from where a character stands | everyone but the outermost character, who decides the figure alone; and degree-1 characters, where one tie makes their own gain arbitrary |
 
 Every metric that ships must carry its own version of this line. A number without a stated blind
 spot reads as authority it has not earned.
@@ -129,7 +138,11 @@ Adding a book then costs the gallery no work at all — the world appears and ev
 against the new whole. Nothing in the interface may hardcode a count, a total, or a list of worlds.
 
 Two notes. Community detection must be seeded or use deterministic tie-breaking, or it breaks the
-build's promise that two runs on unchanged input produce an empty diff. And the metadata files are
+build's promise that two runs on unchanged input produce an empty diff. Label propagation was tried
+first and is not usable at all: a small play's co-appearance graph is dense enough that it collapses
+the whole cast into one community, and it reported *Romeo and Juliet* as undivided — the single case
+the metric exists to catch. Weighted Louvain, visited in index order with ties going to the lower
+community, finds the two households. And the metadata files are
 dominated by quoted lines the gallery has no use for; it wants its own payload — names, facts,
 metrics, no layout coordinates, no lines.
 

@@ -13,6 +13,7 @@ interface Props {
   onWakeElsewhere: () => void;
   onOpenKey: () => void;
   onStartAgain: () => void;
+  onOpenGallery: () => void;
 }
 
 /** The full named network, faint, with your node held in the accent.
@@ -155,6 +156,7 @@ export function Reveal({
   onWakeElsewhere,
   onOpenKey,
   onStartAgain,
+  onOpenGallery,
 }: Props) {
   const you = universe.nodes.find((n) => n.i === session.you);
   const clues = clueTotal(session.ledger);
@@ -193,7 +195,7 @@ export function Reveal({
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <BrandMark onStartAgain={onStartAgain} />
-          <MarginLinks onOpenKey={onOpenKey} />
+          <MarginLinks onOpenKey={onOpenKey} onOpenGallery={onOpenGallery} />
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 46, textAlign: 'center' }}>
