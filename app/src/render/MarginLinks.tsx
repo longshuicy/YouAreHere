@@ -9,6 +9,9 @@ interface Props {
   /** Half an answer: which story, leaving who you are still open. Absent once
    * the world is known by any route, because then there is nothing to tell. */
   onRevealStory?: () => void;
+  /** The companion piece. Offered only at the reveal, and only once a run has
+   * been finished — see `Gallery` for why it sits behind the answer. */
+  onOpenGallery?: () => void;
 }
 
 /**
@@ -19,7 +22,7 @@ interface Props {
  *
  * Starting over lives on the brand wordmark, not here.
  */
-export function MarginLinks({ onOpenKey, onReveal, onRevealStory }: Props) {
+export function MarginLinks({ onOpenKey, onReveal, onRevealStory, onOpenGallery }: Props) {
   return (
     <div
       style={{
@@ -44,6 +47,11 @@ export function MarginLinks({ onOpenKey, onReveal, onRevealStory }: Props) {
       {onReveal && (
         <button className="annot-link" onClick={onReveal}>
           Reveal answer
+        </button>
+      )}
+      {onOpenGallery && (
+        <button className="annot-link" onClick={onOpenGallery}>
+          The topology gallery
         </button>
       )}
     </div>

@@ -14,6 +14,7 @@ interface Props {
   onChooseEase: (ease: number) => void;
   onOpenKey: () => void;
   onStartAgain: () => void;
+  onOpenGallery: () => void;
 }
 
 /**
@@ -40,6 +41,7 @@ export function ColdOpen({
   onChooseEase,
   onOpenKey,
   onStartAgain,
+  onOpenGallery,
 }: Props) {
 
   return (
@@ -63,7 +65,7 @@ export function ColdOpen({
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexShrink: 0 }}>
         <BrandMark onStartAgain={onStartAgain} />
-        <MarginLinks onOpenKey={onOpenKey} />
+        <MarginLinks onOpenKey={onOpenKey} onOpenGallery={onOpenGallery} />
       </div>
 
       <div
