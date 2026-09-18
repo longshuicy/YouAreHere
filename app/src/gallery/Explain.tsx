@@ -116,11 +116,6 @@ export function Explain({
           term="Outermost"
           body="The furthest character's horizon divided by an ordinary one's. A big number means the world has genuine outsiders; near 1 means it has none. One person decides this figure, which is the point of it — that person is what you are being shown."
         />
-        <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.8 }}>
-          Every scale is fixed, so two cards are a comparison and not just a texture. Nothing is
-          stored — it is measured from the graphs each time, so adding a book changes no figure that
-          was already right.
-        </div>
       </div>
     </div>
   );

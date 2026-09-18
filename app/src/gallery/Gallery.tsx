@@ -89,13 +89,21 @@ function CharacterRow({ character, of }: { character: CharacterMetrics; of: numb
 /** A column header, identical on both sides so two columns start on the same
  * line — the fingerprint and the network it measures were drifting apart by
  * however tall their captions happened to be. */
-function SectionHead({ children }: { children: ReactNode }) {
+function SectionHead({ children, right }: { children: ReactNode; right?: ReactNode }) {
   return (
     <div
-      className="field-label"
-      style={{ borderBottom: '1px solid var(--rule)', paddingBottom: 8, marginBottom: 18 }}
+      style={{
+        display: 'flex',
+        alignItems: 'baseline',
+        justifyContent: 'space-between',
+        gap: 16,
+        borderBottom: '1px solid var(--rule)',
+        paddingBottom: 8,
+        marginBottom: 18,
+      }}
     >
-      {children}
+      <span className="field-label">{children}</span>
+      {right}
     </div>
   );
 }
@@ -104,10 +112,14 @@ function WorldDetail({
   world,
   universe,
   onBack,
+  keyOpen,
+  setKeyOpen,
 }: {
   world: WorldMetrics;
   universe: Universe | undefined;
   onBack: () => void;
+  keyOpen: boolean;
+  setKeyOpen: (next: boolean) => void;
 }) {
   const connected = world.characters.filter((c) => c.degree > 0);
   const byGain = [...connected].sort((a, b) => b.gain - a.gain);
@@ -158,6 +170,11 @@ function WorldDetail({
         ))}
       </div>
 
+      {/* The key explains the fingerprint, so it is opened from the fingerprint
+          rather than from the top of the page — as a page-level link it read as
+          being about the world, which it is not. */}
+      {keyOpen && <Explain sample={world} onDismiss={() => setKeyOpen(false)} />}
+
       {/* The fingerprint again, at a size it can be read, beside the network it
           is a measurement of. Both columns carry the same header so they start
           on the same line. */}
@@ -170,7 +187,17 @@ function WorldDetail({
         }}
       >
         <div>
-          <SectionHead>The fingerprint</SectionHead>
+          <SectionHead
+            right={
+              !keyOpen && (
+                <button className="annot-link" onClick={() => setKeyOpen(true)}>
+                  How to interpret
+                </button>
+              )
+            }
+          >
+            The fingerprint
+          </SectionHead>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 26 }}>
             <div title={noteTooltip('ties')}>
               <StripLabel left="Ties each" right="Few → many" width={DETAIL_STRIP} size={8.5} />
@@ -351,22 +378,6 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
 
   const detail = open ? worlds.find((w) => w.id === open) : null;
 
-  // On a world's own page the key is drawn on that world, so the reader is
-  // looking at the explanation and the thing explained at once. Closed, it
-  // folds to a line in the same place rather than disappearing into the corner
-  // — the first version left nothing on the page to say a key existed.
-  const keyPanel = (
-    <div style={{ paddingTop: 22 }}>
-      {showKey ? (
-        <Explain sample={detail ?? sample} onDismiss={() => setKey(false)} />
-      ) : (
-        <button className="annot-link" onClick={() => setKey(true)}>
-          How to interpret
-        </button>
-      )}
-    </div>
-  );
-
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', padding: '44px 64px 72px 64px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
@@ -377,10 +388,13 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
       </div>
 
       {detail ? (
-        <>
-          {keyPanel}
-          <WorldDetail world={detail} universe={byId.get(detail.id)} onBack={() => setOpen(null)} />
-        </>
+        <WorldDetail
+          world={detail}
+          universe={byId.get(detail.id)}
+          onBack={() => setOpen(null)}
+          keyOpen={showKey}
+          setKeyOpen={setKey}
+        />
       ) : (
         <>
           <div style={{ paddingTop: 30, maxWidth: 620 }}>
@@ -410,15 +424,30 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
               borderBottom: '1px solid var(--rule)',
             }}
           >
-            <RadioRow
-              label="Show"
-              value={view}
-              onChange={setView}
-              options={[
-                { key: 'worlds', label: 'Worlds' },
-                { key: 'characters', label: 'Characters' },
-              ]}
-            />
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'baseline',
+                justifyContent: 'space-between',
+                gap: 20,
+                flexWrap: 'wrap',
+              }}
+            >
+              <RadioRow
+                label="Show"
+                value={view}
+                onChange={setView}
+                options={[
+                  { key: 'worlds', label: 'Worlds' },
+                  { key: 'characters', label: 'Characters' },
+                ]}
+              />
+              {!showKey && (
+                <button className="annot-link" onClick={() => setKey(true)}>
+                  How to interpret
+                </button>
+              )}
+            </div>
             {view === 'worlds' && (
               <RadioRow
                 label="Order by"
@@ -429,7 +458,11 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
             )}
           </div>
 
-          {keyPanel}
+          {showKey && (
+            <div style={{ paddingTop: 22 }}>
+              <Explain sample={sample} onDismiss={() => setKey(false)} />
+            </div>
+          )}
 
           {view === 'worlds' ? (
             <div
