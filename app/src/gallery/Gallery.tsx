@@ -361,7 +361,7 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
         <Explain sample={detail ?? sample} onDismiss={() => setKey(false)} />
       ) : (
         <button className="annot-link" onClick={() => setKey(true)}>
-          How to read a card
+          How to interpret
         </button>
       )}
     </div>

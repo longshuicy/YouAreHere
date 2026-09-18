@@ -1,5 +1,6 @@
 import { DEGREE_BANDS, GAIN_AXIS, type WorldMetrics } from './metrics';
 import { noteTooltip as tooltip } from './notes';
+import { degreeBarsBox, horizonStripBox } from './stripBox';
 
 /** Fixed log placement, so a tick means the same thing on every card and at
  * every size. */
@@ -63,12 +64,11 @@ export function DegreeBars({
   const peak = Math.max(...histogram, 1);
   const barWidth = width / DEGREE_BANDS.length;
   const countRow = showCounts ? labelSize + 4 : 0;
-  const bandRow = showBands ? labelSize + 6 : 0;
   const baseline = countRow + height + 0.5;
 
   return (
     <svg
-      viewBox={`0 0 ${width} ${baseline + bandRow}`}
+      viewBox={`0 0 ${width} ${degreeBarsBox(height, labelSize, showCounts, showBands)}`}
       aria-hidden
       style={{ display: 'block', width: '100%', maxWidth: width, height: 'auto' }}
     >
@@ -133,7 +133,7 @@ export function HorizonStrip({
   const marks = [1, 3, 10, 30, 100];
   return (
     <svg
-      viewBox={`0 0 ${width} ${height + (labelMarks ? 14 : 0)}`}
+      viewBox={`0 0 ${width} ${horizonStripBox(height, labelMarks)}`}
       aria-hidden
       style={{ display: 'block', width: '100%', maxWidth: width, height: 'auto' }}
     >

@@ -1,7 +1,15 @@
 import { DegreeBars, HorizonStrip, StripLabel } from './Fingerprint';
+import { degreeBarsBox, horizonStripHeightFor } from './stripBox';
 import type { WorldMetrics } from './metrics';
 
 const WIDE = 420;
+const LABEL = 8.5;
+/** Both charts are drawn to one box height, so the prose under them starts on
+ * the same line. The degree strip carries two rows of labels and the horizon
+ * strip one, so matching them by eye gets it wrong by about fourteen pixels —
+ * the tick height is solved for instead. */
+const CHART_BOX = degreeBarsBox(30, LABEL);
+const TICKS = horizonStripHeightFor(CHART_BOX, true);
 
 function Line({ term, body }: { term: string; body: string }) {
   return (
@@ -26,7 +34,7 @@ function Line({ term, body }: { term: string; body: string }) {
 }
 
 /**
- * How to read a card, shown on a real one rather than described.
+ * How to interpret a card, shown on a real one rather than described.
  *
  * The first version was a list of sentences at the foot of the page, which is
  * where an explanation goes to be ignored — the reader has to hold a paragraph
@@ -56,7 +64,7 @@ export function Explain({
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 16 }}>
-        <span className="field-label">How to read a card</span>
+        <span className="field-label">How to interpret</span>
         <button className="annot-link" onClick={onDismiss}>
           Close
         </button>
@@ -70,9 +78,9 @@ export function Explain({
         }}
       >
         <div>
-          <StripLabel left="Ties each" width={WIDE} size={8.5} />
+          <StripLabel left="Ties each" width={WIDE} size={LABEL} />
           {sample && (
-            <DegreeBars histogram={sample.degreeHistogram} width={WIDE} height={30} labelSize={8.5} />
+            <DegreeBars histogram={sample.degreeHistogram} width={WIDE} height={30} labelSize={LABEL} />
           )}
           <div style={{ fontSize: 15, color: 'var(--body)', lineHeight: 1.55, paddingTop: 12 }}>
             Each bar is a group of characters, sorted by how many people they appear with. The number
@@ -83,8 +91,8 @@ export function Explain({
         </div>
 
         <div>
-          <StripLabel left="Horizon" right="One mark per character" width={WIDE} size={8.5} />
-          {sample && <HorizonStrip world={sample} width={WIDE} height={30} labelMarks />}
+          <StripLabel left="Horizon" right="One mark per character" width={WIDE} size={LABEL} />
+          {sample && <HorizonStrip world={sample} width={WIDE} height={TICKS} labelMarks />}
           <div style={{ fontSize: 15, color: 'var(--body)', lineHeight: 1.55, paddingTop: 12 }}>
             One mark per character, asking: if you know a handful of people, how many more do you
             reach through them? A mark at <span className="mono" style={{ fontSize: 13 }}>1×</span>{' '}
