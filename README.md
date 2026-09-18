@@ -16,7 +16,7 @@ one number. Guessing costs nothing, and a wrong guess costs nothing either.
 |---|---|
 | `pipeline/` | Python. Turns third-party character-network datasets into the game's own format. |
 | `app/` | TypeScript + React + Vite. The game. |
-| `data/` | Generated. 31 worlds, their reveal-only sidecars, and the licence files that travel with them. |
+| `data/` | Generated. 32 worlds, their reveal-only sidecars, and the licence files that travel with them. |
 | `docs/` | Design and specification. [Algorithms](docs/Algorithms.md) is the one with the equations in it. |
 
 ## Running it
@@ -41,13 +41,16 @@ partial index.
 
 ## The worlds
 
-31 of them, from four sources:
+32 of them, from five sources:
 
 - **A Song of Ice and Fire** — 592 characters, tied when named within fifteen words
   of each other.
 - **The Bible** — 726 characters, tied when named in the same verse. Built here from
   the King James text and Wikidata rather than taken ready-made; see
   `pipeline/raw/bible/SOURCE.md` for why, and for the traps.
+- **紅樓夢** — characters tied when named in the same sentence.
+  Built here from the Project Gutenberg text and Wikidata; the PKU matrix has no
+  licence, see `pipeline/raw/hongloumeng/SOURCE.md`.
 - **Shakespeare** — 28 worlds, tied when they share a scene. One per play, except
   where plays genuinely interlock: the English histories are one world, and so are
   the two Roman plays.

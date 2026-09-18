@@ -42,7 +42,7 @@ def meta_sources_for(name: str) -> list[tuple]:
     """Attribution pairs to credit on the enrichment sidecar."""
     if name == "asoiaf":
         return [(anapi.ATTRIBUTION, anapi.LICENSE)]
-    if name == "bible":
+    if name in ("bible", "hongloumeng"):
         return [(wikidata.ATTRIBUTION, wikidata.LICENSE)]
     if name == "shakespeare":
         return [
@@ -87,7 +87,7 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
         qid = qid_by_node.get(node.id)
         if qid and qid in wd_by_qid:
             wikidata.apply_to_record(record, wd_by_qid[qid])
-            if source in ("bible", "shakespeare"):
+            if source in ("bible", "shakespeare", "hongloumeng"):
                 # Species / homeworld / affiliation claims on these corpora are
                 # real-world ethnicity and citizenship, not standing facts.
                 for key in ("species", "homeworld", "affiliations"):
@@ -167,7 +167,7 @@ def _wikidata_for(
         pinned = overrides.get(node.id, {}).get("wikidata")
         if pinned:
             qid_by_node[node.id] = pinned
-        elif source == "bible" and re.fullmatch(r"Q\d+", node.id):
+        elif source in ("bible", "hongloumeng") and re.fullmatch(r"Q\d+", node.id):
             qid_by_node[node.id] = node.id
         elif source == "shakespeare" and node.metadata.get("wikidata"):
             qid_by_node[node.id] = node.metadata["wikidata"]
@@ -183,9 +183,17 @@ def _wikidata_for(
     cache_dir = RAW / {"bible": "bible", "shakespeare": "shakespeare", "starwars": "starwars"}.get(
         source, source
     )
-    attrs = wikidata.attributes_for(
-        qids, cache_name="wikidata-attributes.json", cache_dir=cache_dir
-    )
+    if source == "hongloumeng":
+        attrs = wikidata.attributes_for(
+            qids,
+            cache_name="wikidata-attributes-zh.json",
+            cache_dir=cache_dir,
+            languages=("zh-hant", "zh", "zh-hk", "zh-tw", "zh-hans", "zh-cn"),
+        )
+    else:
+        attrs = wikidata.attributes_for(
+            qids, cache_name="wikidata-attributes.json", cache_dir=cache_dir
+        )
 
     # Pins that are missing from the cache after a fetch are a real error.
     for node_id, override in overrides.items():

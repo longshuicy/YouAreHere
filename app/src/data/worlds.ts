@@ -17,6 +17,8 @@ const FALLBACK: Record<string, string> = {
     'Seven kingdoms and a dozen great houses, told across five volumes and a great many rival points of view.',
   bible:
     'Sixty-six books of genealogy, exile and prophecy, where a tie means two people share a single verse.',
+  hongloumeng:
+    '一座繁华家族走向衰败，一场青春与爱情终成大梦。',
   starwars: 'A galaxy of pilots, senators and smugglers, across seven films.',
 
   // Shakespeare, one world per play — except where the plays genuinely

@@ -1041,7 +1041,7 @@
    "id": "shakespeare-loves-labors-lost-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.349
+   "ease": 0.344
   },
   {
    "id": "shakespeare-loves-labors-lost-p0001",
@@ -1053,13 +1053,13 @@
    "id": "shakespeare-loves-labors-lost-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.374
+   "ease": 0.369
   },
   {
    "id": "shakespeare-loves-labors-lost-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.405
+   "ease": 0.4
   },
   {
    "id": "shakespeare-loves-labors-lost-p0004",
@@ -1071,37 +1071,37 @@
    "id": "shakespeare-loves-labors-lost-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.365
+   "ease": 0.356
   },
   {
    "id": "shakespeare-loves-labors-lost-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.502
+   "ease": 0.497
   },
   {
    "id": "shakespeare-loves-labors-lost-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.297
+   "ease": 0.293
   },
   {
    "id": "shakespeare-loves-labors-lost-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.315
+   "ease": 0.306
   },
   {
    "id": "shakespeare-loves-labors-lost-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.287
+   "ease": 0.283
   },
   {
    "id": "shakespeare-loves-labors-lost-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.527
+   "ease": 0.523
   },
   {
    "id": "shakespeare-loves-labors-lost-p0012",
@@ -1113,31 +1113,31 @@
    "id": "shakespeare-loves-labors-lost-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.236
+   "ease": 0.232
   },
   {
    "id": "shakespeare-loves-labors-lost-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.43
+   "ease": 0.425
   },
   {
    "id": "shakespeare-loves-labors-lost-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.323
+   "ease": 0.318
   },
   {
    "id": "shakespeare-loves-labors-lost-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.456
+   "ease": 0.451
   },
   {
    "id": "shakespeare-loves-labors-lost-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.481
+   "ease": 0.476
   }
  ],
  "provenance": {

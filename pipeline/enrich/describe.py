@@ -23,6 +23,9 @@ PEOPLES = {
 
 
 def node_line(facts: dict) -> str:
+    if _zh_facts(facts):
+        return _node_line_zh(facts)
+
     clauses = []
 
     standing = _standing(facts)
@@ -41,6 +44,9 @@ def node_line(facts: dict) -> str:
 
 
 def edge_line(facts: dict) -> str:
+    if _zh_facts(facts):
+        return _edge_line_zh(facts)
+
     clauses = []
 
     books = facts.get("books", [])
@@ -69,6 +75,57 @@ def edge_line(facts: dict) -> str:
             clauses.append(f"Both belong to {shared[0]}")
 
     return " ".join(f"{clause}." for clause in clauses)
+
+
+def _zh_facts(facts: dict) -> bool:
+    books = facts.get("books") or []
+    return bool(books) and books[0].startswith("第") and books[0].endswith("回")
+
+
+def _node_line_zh(facts: dict) -> str:
+    clauses = []
+    standing = None
+    if facts.get("titles"):
+        standing = _title(facts["titles"][0])
+    elif facts.get("occupation"):
+        standing = _title(facts["occupation"])
+    if standing:
+        clauses.append(standing)
+    presence = _presence_zh(facts)
+    if presence:
+        clauses.append(presence)
+    return "。".join(clauses) + ("。" if clauses else "")
+
+
+def _edge_line_zh(facts: dict) -> str:
+    books = facts.get("books", [])
+    first = books[0] if books else ""
+    world_size = facts.get("worldSize")
+    total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
+    clauses = []
+    if books and not (total == 1 and len(books) == 1):
+        if len(books) == 1:
+            clauses.append(f"僅在{first}同頁")
+        elif total and len(books) == total:
+            clauses.append(f"每回同頁，始於{first}")
+        else:
+            clauses.append(f"共見於{len(books)}回，始於{first}")
+    return "。".join(clauses) + ("。" if clauses else "")
+
+
+def _presence_zh(facts: dict) -> str:
+    books = facts.get("books", [])
+    if not books:
+        return ""
+    world_size = facts.get("worldSize")
+    total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
+    if total == 1 and len(books) == 1:
+        return ""
+    if total and len(books) == total:
+        return f"{total}回皆見"
+    if len(books) <= 2:
+        return "見於" + "、".join(books)
+    return f"見於{len(books)}回"
 
 
 def _standing(facts: dict) -> str:
