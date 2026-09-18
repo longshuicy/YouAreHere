@@ -61,6 +61,16 @@ JUNK_LABELS = {
     "organism",
     "taxon",
     "person",
+    "人",
+    "人類",
+    "人类",
+    "虛構人物",
+    "虚构人物",
+    "文學角色",
+    "文学角色",
+    "小說人物",
+    "小说人物",
+    "角色",
 }
 
 GENERIC_SPECIES = {"human", "fictional human"}
@@ -98,6 +108,12 @@ WEAK_OCCUPATIONS = {
     "bounty hunter",  # kept only if nothing better; R2 is not one
     "starship pilot",
     "pilot",
+    "作家",
+    "詩人",
+    "诗人",
+    "政治人物",
+    "軍人",
+    "军人",
 }
 
 # Prefer these occupations when several are listed (Star Wars and similar).
@@ -164,6 +180,13 @@ GENDER = {
     "Q43445": "Female",  # female organism
 }
 
+GENDER_ZH = {
+    "Q6581097": "男",
+    "Q6581072": "女",
+    "Q44148": "男",
+    "Q43445": "女",
+}
+
 PROPS = {
     "P21": "gender",
     "P106": "occupations",
@@ -177,7 +200,9 @@ PROPS = {
 }
 
 
-def attributes_for(qids: list[str], *, cache_name: str, cache_dir: Path) -> dict[str, dict]:
+def attributes_for(
+    qids: list[str], *, cache_name: str, cache_dir: Path, languages: tuple[str, ...] = ("en",)
+) -> dict[str, dict]:
     """Return {qid: {gender, occupations, titles, species, affiliations, homeworld}}."""
     wanted = sorted({qid for qid in qids if re.fullmatch(r"Q\d+", qid)})
     if not wanted:
@@ -196,7 +221,7 @@ def attributes_for(qids: list[str], *, cache_name: str, cache_dir: Path) -> dict
         to_fetch = wanted
 
     print(f"  fetching Wikidata attributes for {len(to_fetch)} characters ...")
-    fetched = _fetch_attributes(to_fetch)
+    fetched = _fetch_attributes(to_fetch, languages=languages)
     cached.update(fetched)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(cached, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
@@ -289,7 +314,14 @@ def apply_to_record(record: dict, attrs: dict) -> None:
 
 
 def _prefer_occupation(occupations: list[str]) -> str | None:
-    usable = [o for o in occupations if o.lower() not in WEAK_OCCUPATIONS and not o.lower().startswith("fictional ")]
+    usable = [
+        o
+        for o in occupations
+        if o.lower() not in WEAK_OCCUPATIONS
+        and not o.lower().startswith("fictional ")
+        and not o.startswith("虛構")
+        and not o.startswith("虚构")
+    ]
     if not usable:
         return None
     lowered = {o.lower(): o for o in usable}
@@ -303,7 +335,13 @@ def _prefer_occupation(occupations: list[str]) -> str | None:
 
 
 def _prefer_title(titles: list[str]) -> str:
-    usable = [t for t in titles if not t.lower().startswith("fictional ")]
+    usable = [
+        t
+        for t in titles
+        if not t.lower().startswith("fictional ")
+        and not t.startswith("虛構")
+        and not t.startswith("虚构")
+    ]
     if not usable:
         return titles[0]
     # Prefer the most specific imperial/royal style when several offices are listed.
@@ -332,7 +370,7 @@ def _prefer_affiliations(affiliations: list[str]) -> list[str]:
     return ranked[:3]
 
 
-def _fetch_attributes(qids: list[str]) -> dict[str, dict]:
+def _fetch_attributes(qids: list[str], *, languages: tuple[str, ...]) -> dict[str, dict]:
     entities = _get_entities(qids)
     # Collect referenced entity ids so we can resolve labels in one pass.
     refs: set[str] = set()
@@ -340,7 +378,8 @@ def _fetch_attributes(qids: list[str]) -> dict[str, dict]:
         for prop in PROPS:
             for value_id in _claim_ids(entity, prop):
                 refs.add(value_id)
-    labels = _entity_labels(sorted(refs))
+    labels = _entity_labels(sorted(refs), languages=languages)
+    gender = GENDER_ZH if any(lang.startswith("zh") for lang in languages) else GENDER
 
     out: dict[str, dict] = {}
     for qid in qids:
@@ -348,16 +387,16 @@ def _fetch_attributes(qids: list[str]) -> dict[str, dict]:
         if not entity:
             out[qid] = _empty()
             continue
-        out[qid] = _attributes_from_entity(entity, labels)
+        out[qid] = _attributes_from_entity(entity, labels, gender=gender)
     return out
 
 
-def _attributes_from_entity(entity: dict, labels: dict[str, str]) -> dict:
+def _attributes_from_entity(entity: dict, labels: dict[str, str], *, gender: dict[str, str]) -> dict:
     rec = _empty()
 
     for value_id in _claim_ids(entity, "P21"):
-        if value_id in GENDER:
-            rec["gender"] = GENDER[value_id]
+        if value_id in gender:
+            rec["gender"] = gender[value_id]
             break
 
     for prop, field in (
@@ -375,10 +414,17 @@ def _attributes_from_entity(entity: dict, labels: dict[str, str]) -> dict:
             if field == "occupations" and label.lower() in WEAK_OCCUPATIONS:
                 continue
             if field == "titles" and (
-                label.lower() in {"biblical judge"} or label.lower().startswith("fictional ")
+                label.lower() in {"biblical judge"}
+                or label.lower().startswith("fictional ")
+                or label.startswith("虛構")
+                or label.startswith("虚构")
             ):
                 continue
-            if field == "occupations" and label.lower().startswith("fictional "):
+            if field == "occupations" and (
+                label.lower().startswith("fictional ")
+                or label.startswith("虛構")
+                or label.startswith("虚构")
+            ):
                 continue
             rec[field].append(label)
 
@@ -456,7 +502,7 @@ def _get_entities(qids: list[str]) -> dict[str, dict]:
     return entities
 
 
-def _entity_labels(qids: list[str]) -> dict[str, str]:
+def _entity_labels(qids: list[str], *, languages: tuple[str, ...] = ("en",)) -> dict[str, str]:
     labels: dict[str, str] = {}
     for start in range(0, len(qids), 50):
         batch = qids[start : start + 50]
@@ -467,12 +513,17 @@ def _entity_labels(qids: list[str]) -> dict[str, str]:
                 "action": "wbgetentities",
                 "ids": "|".join(batch),
                 "props": "labels",
-                "languages": "en",
+                "languages": "|".join(languages),
                 "format": "json",
             }
         )
         for qid, entity in (payload.get("entities") or {}).items():
-            label = ((entity.get("labels") or {}).get("en") or {}).get("value")
+            by_lang = entity.get("labels") or {}
+            label = ""
+            for lang in languages:
+                label = (by_lang.get(lang) or {}).get("value") or ""
+                if label:
+                    break
             if label:
                 labels[qid] = label
         if start + 50 < len(qids):

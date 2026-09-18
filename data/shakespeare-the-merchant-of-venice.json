@@ -728,13 +728,13 @@
    "id": "shakespeare-the-merchant-of-venice-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.415
+   "ease": 0.413
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.504
+   "ease": 0.502
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0005",
@@ -752,13 +752,13 @@
    "id": "shakespeare-the-merchant-of-venice-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.522
+   "ease": 0.52
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.46
+   "ease": 0.455
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0009",
@@ -770,25 +770,25 @@
    "id": "shakespeare-the-merchant-of-venice-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.516
+   "ease": 0.511
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.54
+   "ease": 0.535
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.478
+   "ease": 0.475
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.435
+   "ease": 0.433
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0016",
@@ -800,7 +800,7 @@
    "id": "shakespeare-the-merchant-of-venice-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.452
+   "ease": 0.45
   }
  ],
  "provenance": {

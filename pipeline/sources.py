@@ -15,7 +15,7 @@ from dataclasses import dataclass
 from typing import Callable
 
 from .canon.types import CanonicalGraph
-from .ingest import asoiaf, bible, shakespeare, starwars
+from .ingest import asoiaf, bible, hongloumeng, shakespeare, starwars
 
 
 @dataclass(frozen=True)
@@ -51,6 +51,16 @@ SOURCES: dict[str, Source] = {
         # text, so a single co-occurrence means something here in a way one
         # sentence-window hit in a novel does not.
         min_edge_weight=1,
+        min_degree=2,
+    ),
+    "hongloumeng": Source(
+        name="hongloumeng",
+        load=hongloumeng.load,
+        # Sentence co-occurrence in a novel is noisier than a verse in the
+        # Bible: a banquet sentence can name a dozen people who never address
+        # each other. Two shared sentences is the same floor the notes give
+        # matrix projections.
+        min_edge_weight=2,
         min_degree=2,
     ),
     "starwars": Source(
