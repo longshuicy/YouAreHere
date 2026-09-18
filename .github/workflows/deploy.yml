@@ -1,0 +1,72 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# What the deployment needs, and nothing else: read the tree, mint a Pages
+# deployment, and prove the job's identity to the Pages service.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time, and never cancel one in flight — cancelling half way
+# through leaves the site serving whichever files happened to land.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Install
+        working-directory: app
+        run: npm ci
+
+      - name: Build
+        working-directory: app
+        env:
+          # A project site lives at /<repo>/, so the build needs that prefix.
+          # Taken from the repository rather than written out, so a rename or a
+          # fork deploys correctly without anyone remembering this line.
+          BASE_PATH: /${{ github.event.repository.name }}/
+        run: npm run build
+
+      # app/public/data is a symlink to the repository's data/ directory, and
+      # everything the client reads comes through it. Vite follows it into dist,
+      # but silently: if the link ever breaks the site deploys with an empty
+      # catalogue and no error, so it is checked rather than assumed.
+      - name: Check the data came with it
+        working-directory: app
+        run: |
+          test -f dist/data/index.json || { echo "dist/data/index.json is missing — is app/public/data still a symlink to data/?"; exit 1; }
+          worlds=$(node -e "process.stdout.write(String(require('./dist/data/index.json').universes.length))")
+          test "$worlds" -gt 0 || { echo "index.json lists no universes"; exit 1; }
+          echo "$worlds worlds bundled"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
