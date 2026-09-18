@@ -131,20 +131,28 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
       >
         <div style={{ fontSize: 27, textAlign: 'center' }}>Where would you like to wake?</div>
 
-        <input
-          className="field"
-          type="search"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search worlds"
-          aria-label="Search worlds"
-          autoComplete="off"
-          style={{
-            width: 'min(420px, 92vw)',
-            fontSize: 20,
-            textAlign: 'center',
-          }}
-        />
+        <div style={{ position: 'relative', width: 'min(420px, 92vw)' }}>
+          <input
+            className="field"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search worlds"
+            aria-label="Search worlds"
+            autoComplete="off"
+            style={{ fontSize: 20, textAlign: 'center', paddingRight: 28, paddingLeft: 28 }}
+          />
+          {query && (
+            <button
+              className="field-clear"
+              aria-label="Clear the search"
+              onClick={() => setQuery('')}
+              style={{ position: 'absolute', right: 0, bottom: 10 }}
+            >
+              ×
+            </button>
+          )}
+        </div>
 
         {/* Newspaper columns rather than a grid, so the alphabet reads *down*
             one column and continues at the top of the next — which is how an

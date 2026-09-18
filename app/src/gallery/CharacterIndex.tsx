@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import type { UniverseMeta } from '../types';
 import type { WorldMetrics } from './metrics';
 import { buildIndex, TIER_NOTE } from './indexData';
+import { RadioRow } from './RadioRow';
 
 /**
  * Every character in every loaded world, searchable, with the facets as filters.
@@ -16,6 +17,17 @@ type SortKey = 'name' | 'world' | 'degree' | 'gain' | 'prominence';
 /** Rendering every row at once is slow and useless; nobody reads past a screen
  * or two, and the count says what the filter actually matched. */
 const PAGE = 150;
+
+/** One set of column widths for the header and the rows, so they line up. */
+const COL = { ties: 46, horizon: 58, presence: 64 };
+
+const COLUMN_NOTES = {
+  ties: 'How many other characters they appear with.',
+  horizon:
+    'How much their second ring multiplies their first. 1.0× means they already reach everyone they ever will.',
+  presence:
+    'Where they rank inside their own world for how much of the story they are in, from 0 (barely present) to 100 (the most present character in the book).',
+};
 
 export function CharacterIndex({
   worlds,
@@ -76,58 +88,49 @@ export function CharacterIndex({
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 20, paddingTop: 22 }}>
-      <input
-        className="field"
-        type="search"
-        value={query}
-        onChange={(e) => {
-          setQuery(e.target.value);
-          setLimit(PAGE);
-        }}
-        placeholder="Search every character"
-        aria-label="Search every character"
-        autoComplete="off"
-        style={{ width: 'min(460px, 100%)', fontSize: 21 }}
-      />
-
-      <div style={{ display: 'flex', alignItems: 'baseline', gap: 14, flexWrap: 'wrap' }}>
-        <span className="annot" style={{ fontSize: 9 }}>Facet</span>
-        <button
-          onClick={() => chooseFacet(null)}
-          className="mono"
-          style={{
-            fontSize: 10,
-            letterSpacing: '0.16em',
-            textTransform: 'uppercase',
-            color: facetKey === null ? 'var(--accent)' : 'var(--annotation)',
-            borderBottom: `1px solid ${facetKey === null ? 'var(--accent)' : 'transparent'}`,
-            padding: '6px 2px 4px 2px',
+      <div style={{ position: 'relative', width: 'min(460px, 100%)' }}>
+        <input
+          className="field"
+          type="search"
+          value={query}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setLimit(PAGE);
           }}
-        >
-          Any
-        </button>
-        {facets.map((facet) => (
+          placeholder="Search every character"
+          aria-label="Search every character"
+          autoComplete="off"
+          style={{ fontSize: 21, paddingRight: 28 }}
+        />
+        {query && (
           <button
-            key={facet.key}
-            onClick={() => chooseFacet(facet.key)}
-            title={`${facet.characters} characters across ${facet.worlds} ${facet.worlds === 1 ? 'world' : 'worlds'}. ${TIER_NOTE[facet.tier]}`}
-            className="mono"
-            style={{
-              fontSize: 10,
-              letterSpacing: '0.16em',
-              textTransform: 'uppercase',
-              color: facetKey === facet.key ? 'var(--accent)' : 'var(--annotation)',
-              borderBottom: `1px solid ${facetKey === facet.key ? 'var(--accent)' : 'transparent'}`,
-              padding: '6px 2px 4px 2px',
-              // Single-world facets are dimmed rather than hidden: they are real
-              // and worth browsing, they just cannot carry a corpus-wide claim.
-              opacity: facet.tier === 'single' ? 0.55 : 1,
+            className="field-clear"
+            aria-label="Clear the search"
+            onClick={() => {
+              setQuery('');
+              setLimit(PAGE);
             }}
+            style={{ position: 'absolute', right: 0, bottom: 10 }}
           >
-            {facet.key}
+            ×
           </button>
-        ))}
+        )}
       </div>
+
+      <RadioRow
+        label="Facet"
+        value={facetKey ?? ''}
+        onChange={(key) => chooseFacet(key === '' ? null : key)}
+        dim={(key) => facets.find((f) => f.key === key)?.tier === 'single'}
+        options={[
+          { key: '', label: 'Any' },
+          ...facets.map((facet) => ({
+            key: facet.key,
+            label: facet.key,
+            title: `${facet.characters} characters across ${facet.worlds} ${facet.worlds === 1 ? 'world' : 'worlds'}. ${TIER_NOTE[facet.tier]}`,
+          })),
+        ]}
+      />
 
       {activeFacet && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
@@ -169,40 +172,47 @@ export function CharacterIndex({
           paddingTop: 12,
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 14, flexWrap: 'wrap' }}>
-          <span className="annot" style={{ fontSize: 9 }}>Order by</span>
-          {(
-            [
-              ['prominence', 'Presence'],
-              ['gain', 'Horizon'],
-              ['degree', 'Ties'],
-              ['name', 'Name'],
-              ['world', 'World'],
-            ] as [SortKey, string][]
-          ).map(([key, label]) => (
-            <button
-              key={key}
-              onClick={() => setSort(key)}
-              className="mono"
-              style={{
-                fontSize: 10,
-                letterSpacing: '0.16em',
-                textTransform: 'uppercase',
-                color: sort === key ? 'var(--accent)' : 'var(--annotation)',
-                borderBottom: `1px solid ${sort === key ? 'var(--accent)' : 'transparent'}`,
-                padding: '6px 2px 4px 2px',
-              }}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
+        <RadioRow
+          label="Order by"
+          value={sort}
+          onChange={setSort}
+          options={[
+            { key: 'prominence', label: 'Presence' },
+            { key: 'gain', label: 'Horizon' },
+            { key: 'degree', label: 'Ties' },
+            { key: 'name', label: 'Name' },
+            { key: 'world', label: 'World' },
+          ]}
+        />
         <span className="annot" style={{ fontSize: 9 }}>
           {loading ? 'Reading the enrichment files…' : `${filtered.length} of ${rows.length}`}
         </span>
       </div>
 
       <div>
+        {/* The three numbers meant nothing without these. */}
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'baseline',
+            gap: 16,
+            padding: '0 0 7px 0',
+            borderBottom: '1px solid var(--rule)',
+          }}
+        >
+          <span className="annot" style={{ fontSize: 9, flex: 1, minWidth: 0 }}>
+            Character
+          </span>
+          <span className="annot" style={{ fontSize: 9, width: COL.ties, textAlign: 'right' }} title={COLUMN_NOTES.ties}>
+            Ties
+          </span>
+          <span className="annot" style={{ fontSize: 9, width: COL.horizon, textAlign: 'right' }} title={COLUMN_NOTES.horizon}>
+            Horizon
+          </span>
+          <span className="annot" style={{ fontSize: 9, width: COL.presence, textAlign: 'right' }} title={COLUMN_NOTES.presence}>
+            Presence
+          </span>
+        </div>
         {filtered.slice(0, limit).map((row) => (
           <div
             key={row.key}
@@ -215,35 +225,40 @@ export function CharacterIndex({
             }}
           >
             <div style={{ flex: 1, minWidth: 0 }}>
-              <span style={{ fontFamily: 'var(--serif)', fontSize: 17, color: 'var(--ink)' }}>
+              <div style={{ fontFamily: 'var(--serif)', fontSize: 17, color: 'var(--ink)' }}>
                 {row.name}
-              </span>
-              <span className="annot" style={{ fontSize: 9, paddingLeft: 12 }}>
+              </div>
+              {/* Under the name rather than beside it: at a narrow width the
+                  world's title used to wrap into the numbers column and read as
+                  part of the next row. */}
+              <div className="annot" style={{ fontSize: 9, paddingTop: 2 }}>
                 {row.worldTitle}
-              </span>
-              {activeFacet && row.facts[activeFacet.key] && (
-                <span
-                  style={{
-                    fontFamily: 'var(--serif)',
-                    fontSize: 13,
-                    color: 'var(--annotation)',
-                    paddingLeft: 12,
-                  }}
-                >
-                  {row.facts[activeFacet.key].join(', ')}
-                </span>
-              )}
+                {activeFacet && row.facts[activeFacet.key] && (
+                  <span style={{ color: 'var(--body)' }}>
+                    {' · '}
+                    {row.facts[activeFacet.key].join(', ')}
+                  </span>
+                )}
+              </div>
             </div>
-            <span className="mono" style={{ fontSize: 11, color: 'var(--body)', width: 58, textAlign: 'right' }}>
-              {row.degree} ties
+            <span
+              className="mono"
+              style={{ fontSize: 11, color: 'var(--body)', width: COL.ties, textAlign: 'right' }}
+              title={COLUMN_NOTES.ties}
+            >
+              {row.degree}
             </span>
-            <span className="mono" style={{ fontSize: 11, color: 'var(--body)', width: 52, textAlign: 'right' }}>
+            <span
+              className="mono"
+              style={{ fontSize: 11, color: 'var(--body)', width: COL.horizon, textAlign: 'right' }}
+              title={COLUMN_NOTES.horizon}
+            >
               {row.gain.toFixed(1)}×
             </span>
             <span
               className="mono"
-              style={{ fontSize: 11, color: 'var(--unknown)', width: 46, textAlign: 'right' }}
-              title="Where their weighted degree ranks inside their own world"
+              style={{ fontSize: 11, color: 'var(--unknown)', width: COL.presence, textAlign: 'right' }}
+              title={COLUMN_NOTES.presence}
             >
               {Math.round(row.prominence * 100)}
             </span>

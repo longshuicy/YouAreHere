@@ -49,36 +49,71 @@ export function DegreeBars({
   histogram,
   width = CARD_STRIP,
   height = 20,
+  showCounts = true,
+  showBands = true,
+  labelSize = 7,
 }: {
   histogram: number[];
   width?: number;
   height?: number;
+  showCounts?: boolean;
+  showBands?: boolean;
+  labelSize?: number;
 }) {
   const peak = Math.max(...histogram, 1);
   const barWidth = width / DEGREE_BANDS.length;
+  const countRow = showCounts ? labelSize + 4 : 0;
+  const bandRow = showBands ? labelSize + 6 : 0;
+  const baseline = countRow + height + 0.5;
+
   return (
     <svg
-      viewBox={`0 0 ${width} ${height + 1}`}
+      viewBox={`0 0 ${width} ${baseline + bandRow}`}
       aria-hidden
       style={{ display: 'block', width: '100%', maxWidth: width, height: 'auto' }}
     >
       {histogram.map((count, i) => {
         // Scaled to the world's own tallest band: the panel is the *shape* of the
-        // distribution, and a world's cast size is already said elsewhere.
+        // distribution. The counts are printed because the shape alone cannot say
+        // whether a bar is three characters or three hundred.
         const h = (count / peak) * height;
+        const mid = i * barWidth + barWidth / 2;
         return (
-          <rect
-            key={i}
-            x={i * barWidth + 1}
-            y={height - h}
-            width={barWidth - 2}
-            height={h}
-            fill="var(--unknown)"
-            opacity={0.55}
-          />
+          <g key={i}>
+            <rect
+              x={i * barWidth + 1}
+              y={countRow + height - h}
+              width={barWidth - 2}
+              height={h}
+              fill="var(--unknown)"
+              opacity={0.55}
+            />
+            {showCounts && count > 0 && (
+              <text
+                x={mid}
+                y={countRow - 3}
+                textAnchor="middle"
+                style={{ font: `${labelSize}px var(--mono)`, fill: 'var(--body)', letterSpacing: '0.04em' }}
+              >
+                {count}
+              </text>
+            )}
+          </g>
         );
       })}
-      <line x1={0} y1={height + 0.5} x2={width} y2={height + 0.5} stroke="var(--rule)" strokeWidth={1} />
+      <line x1={0} y1={baseline} x2={width} y2={baseline} stroke="var(--rule)" strokeWidth={1} />
+      {showBands &&
+        DEGREE_BANDS.map(([low, high], i) => (
+          <text
+            key={i}
+            x={i * barWidth + barWidth / 2}
+            y={baseline + labelSize + 3}
+            textAnchor="middle"
+            style={{ font: `${labelSize}px var(--mono)`, fill: 'var(--unknown)', letterSpacing: '0.04em' }}
+          >
+            {high === Infinity ? `${low}+` : `${low}\u2013${high}`}
+          </text>
+        ))}
     </svg>
   );
 }

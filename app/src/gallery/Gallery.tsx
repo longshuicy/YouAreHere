@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { BrandMark } from '../render/MarginLinks';
 import { FullGraph } from '../render/FullGraph';
 import { fetchMeta } from '../data/loader';
@@ -7,6 +7,7 @@ import { CARD_STRIP, DegreeBars, Fingerprint, HorizonStrip, StripLabel } from '.
 import { CharacterIndex } from './CharacterIndex';
 import { Explain } from './Explain';
 import { noteTooltip } from './notes';
+import { RadioRow } from './RadioRow';
 import { measureWorld, type CharacterMetrics, type WorldMetrics } from './metrics';
 
 /**
@@ -34,33 +35,10 @@ const SORTS: { key: SortKey; label: string; of: (w: WorldMetrics) => number | st
 ];
 
 const DETAIL_STRIP = 560;
-
-function Tracked({
-  label,
-  active,
-  onClick,
-}: {
-  label: string;
-  active: boolean;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      onClick={onClick}
-      className="mono"
-      style={{
-        fontSize: 10,
-        letterSpacing: '0.16em',
-        textTransform: 'uppercase',
-        color: active ? 'var(--accent)' : 'var(--annotation)',
-        borderBottom: `1px solid ${active ? 'var(--accent)' : 'transparent'}`,
-        padding: '6px 2px 4px 2px',
-      }}
-    >
-      {label}
-    </button>
-  );
-}
+/** Long enough to see a camp's shape, short enough that the page is still a
+ * page. The rest are a scroll away rather than four hundred names down. */
+const CAMP_PREVIEW = 20;
+const KEY_STORAGE = 'you-are-here:gallery-key';
 
 function StepCurve({ curve, of }: { curve: number[]; of: number }) {
   const width = 88;
@@ -102,6 +80,20 @@ function CharacterRow({ character, of }: { character: CharacterMetrics; of: numb
   );
 }
 
+/** A column header, identical on both sides so two columns start on the same
+ * line — the fingerprint and the network it measures were drifting apart by
+ * however tall their captions happened to be. */
+function SectionHead({ children }: { children: ReactNode }) {
+  return (
+    <div
+      className="field-label"
+      style={{ borderBottom: '1px solid var(--rule)', paddingBottom: 8, marginBottom: 18 }}
+    >
+      {children}
+    </div>
+  );
+}
+
 function WorldDetail({
   world,
   universe,
@@ -129,7 +121,7 @@ function WorldDetail({
   }, [world]);
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 28, paddingTop: 10 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 30, paddingTop: 10 }}>
       <div>
         <button className="annot-link" onClick={onBack}>
           All worlds
@@ -160,66 +152,65 @@ function WorldDetail({
         ))}
       </div>
 
-      {/* The fingerprint again, at a size it can actually be read, beside the
-          network it is a measurement of. */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(440px, 100%), 1fr))', gap: 44 }}>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 22 }}>
-          <div title={noteTooltip('ties')}>
-            <StripLabel left="Ties each" right="Few → many" width={DETAIL_STRIP} size={8.5} />
-            <DegreeBars histogram={world.degreeHistogram} width={DETAIL_STRIP} height={34} />
-          </div>
-          <div title={noteTooltip('horizon')}>
-            <StripLabel left="Horizon" right="One tick per character" width={DETAIL_STRIP} size={8.5} />
-            <HorizonStrip world={world} width={DETAIL_STRIP} height={34} labelMarks />
+      {/* The fingerprint again, at a size it can be read, beside the network it
+          is a measurement of. Both columns carry the same header so they start
+          on the same line. */}
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(440px, 100%), 1fr))',
+          gap: 44,
+          alignItems: 'start',
+        }}
+      >
+        <div>
+          <SectionHead>The fingerprint</SectionHead>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 26 }}>
+            <div title={noteTooltip('ties')}>
+              <StripLabel left="Ties each" right="Few → many" width={DETAIL_STRIP} size={8.5} />
+              <DegreeBars histogram={world.degreeHistogram} width={DETAIL_STRIP} height={40} labelSize={8.5} />
+            </div>
+            <div title={noteTooltip('horizon')}>
+              <StripLabel left="Horizon" right="One mark per character" width={DETAIL_STRIP} size={8.5} />
+              <HorizonStrip world={world} width={DETAIL_STRIP} height={40} labelMarks />
+            </div>
           </div>
         </div>
 
         <div>
-          <div className="field-label" style={{ paddingBottom: 8 }}>The whole network</div>
-          <div
-            style={{
-              height: 300,
-              border: '1px solid var(--rule)',
-              // The one place the gallery may show a named graph outright: by
-              // now the player has been told which world this is.
-            }}
-          >
-            {universe ? (
-              <FullGraph universe={universe} />
-            ) : (
-              <div className="annot" style={{ padding: 20 }}>Not loaded</div>
-            )}
+          <SectionHead>The whole network</SectionHead>
+          <div style={{ height: 320 }}>
+            {universe ? <FullGraph universe={universe} /> : <div className="annot">Not loaded</div>}
           </div>
-          <div className="annot" style={{ fontSize: 9, paddingTop: 8 }}>
+          <div className="annot" style={{ fontSize: 9, paddingTop: 10 }}>
             Drag to pan, scroll to zoom, hover to name anyone.
           </div>
         </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 44 }}>
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))',
+          gap: 44,
+          alignItems: 'start',
+        }}
+      >
         <div>
-          <div className="field-label" style={{ borderBottom: '1px solid var(--rule)', paddingBottom: 8 }}>
-            Furthest from the story
-          </div>
-          <div style={{ paddingTop: 6 }}>
-            {outermost.map((c) => (
-              <CharacterRow key={c.i} character={c} of={world.nodes} />
-            ))}
-          </div>
+          <SectionHead>Furthest from the story</SectionHead>
+          {outermost.map((c) => (
+            <CharacterRow key={c.i} character={c} of={world.nodes} />
+          ))}
           <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.7 }}>
             A few ties, and the whole world standing behind them.
           </div>
         </div>
 
         <div>
-          <div className="field-label" style={{ borderBottom: '1px solid var(--rule)', paddingBottom: 8 }}>
-            At the centre
-          </div>
-          <div style={{ paddingTop: 6 }}>
-            {innermost.map((c) => (
-              <CharacterRow key={c.i} character={c} of={world.nodes} />
-            ))}
-          </div>
+          <SectionHead>At the centre</SectionHead>
+          {innermost.map((c) => (
+            <CharacterRow key={c.i} character={c} of={world.nodes} />
+          ))}
           <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.7 }}>
             The second ring adds nobody. They already see everyone.
           </div>
@@ -227,17 +218,38 @@ function WorldDetail({
       </div>
 
       <div>
-        <div className="field-label" style={{ borderBottom: '1px solid var(--rule)', paddingBottom: 8 }}>
-          Camps
-        </div>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 32, paddingTop: 14 }}>
+        <SectionHead>Camps · {camps.length}</SectionHead>
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(240px, 100%), 1fr))',
+            gap: 28,
+            alignItems: 'start',
+          }}
+        >
           {camps.map((members, i) => (
-            <div key={i} style={{ maxWidth: 260 }}>
-              <div className="annot" style={{ fontSize: 9, paddingBottom: 4 }}>
-                {members.length} {members.length === 1 ? 'character' : 'characters'}
+            <div key={i}>
+              <div className="annot" style={{ fontSize: 9, paddingBottom: 6 }}>
+                Camp {i + 1} · {members.length} {members.length === 1 ? 'character' : 'characters'}
               </div>
-              <div style={{ fontFamily: 'var(--serif)', fontSize: 14, lineHeight: 1.5, color: 'var(--body)' }}>
-                {members.map((m) => m.name).join(', ')}
+              <div
+                className="world-list"
+                style={{
+                  maxHeight: 132,
+                  overflowY: 'auto',
+                  paddingRight: 8,
+                  fontFamily: 'var(--serif)',
+                  fontSize: 14,
+                  lineHeight: 1.55,
+                  color: 'var(--body)',
+                }}
+              >
+                {members.slice(0, CAMP_PREVIEW).map((m) => m.name).join(', ')}
+                {members.length > CAMP_PREVIEW && (
+                  <span style={{ color: 'var(--unknown)' }}>
+                    {' '}… and {members.length - CAMP_PREVIEW} more
+                  </span>
+                )}
               </div>
             </div>
           ))}
@@ -257,12 +269,30 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
   const [view, setView] = useState<'worlds' | 'characters'>('worlds');
   const [sort, setSort] = useState<SortKey>('concentration');
   const [open, setOpen] = useState<string | null>(null);
-  const [explain, setExplain] = useState(false);
+  /** Open until dismissed, and then dismissed until asked for again. Nobody can
+   * read the cards without it the first time, and everybody can after a while. */
+  const [showKey, setShowKey] = useState(() => {
+    try {
+      return localStorage.getItem(KEY_STORAGE) !== 'closed';
+    } catch {
+      return true;
+    }
+  });
   const [metas, setMetas] = useState<Map<string, UniverseMeta>>(new Map());
   /** Derived rather than stored: the sidecars are either all in or they are not,
    * and a second piece of state would only be a chance for the two to disagree. */
   const loadingMetas = view === 'characters' && metas.size < universes.length;
   const requested = useRef(new Set<string>());
+
+  const setKey = (next: boolean) => {
+    setShowKey(next);
+    try {
+      if (next) localStorage.removeItem(KEY_STORAGE);
+      else localStorage.setItem(KEY_STORAGE, 'closed');
+    } catch {
+      // A private window simply gets the key on every visit.
+    }
+  };
 
   const worlds = useMemo(() => universes.map(measureWorld), [universes]);
   const byId = useMemo(() => new Map(universes.map((u) => [u.id, u])), [universes]);
@@ -315,17 +345,35 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
 
   const detail = open ? worlds.find((w) => w.id === open) : null;
 
+  // On a world's own page the key is drawn on that world, so the reader is
+  // looking at the explanation and the thing explained at once.
+  const keyPanel = showKey ? (
+    <div style={{ paddingTop: 22 }}>
+      <Explain sample={detail ?? sample} onDismiss={() => setKey(false)} />
+    </div>
+  ) : null;
+
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', padding: '44px 64px 72px 64px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <BrandMark onStartAgain={onStartAgain} />
-        <button className="annot-link" onClick={onClose}>
-          Back to the game
-        </button>
+        <div style={{ display: 'flex', alignItems: 'flex-start', gap: 22 }}>
+          {!showKey && (
+            <button className="annot-link" onClick={() => setKey(true)}>
+              How to read this
+            </button>
+          )}
+          <button className="annot-link" onClick={onClose}>
+            Back to the game
+          </button>
+        </div>
       </div>
 
       {detail ? (
-        <WorldDetail world={detail} universe={byId.get(detail.id)} onBack={() => setOpen(null)} />
+        <>
+          {keyPanel}
+          <WorldDetail world={detail} universe={byId.get(detail.id)} onBack={() => setOpen(null)} />
+        </>
       ) : (
         <>
           <div style={{ paddingTop: 30, maxWidth: 620 }}>
@@ -338,8 +386,8 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
             </div>
           </div>
 
-          {/* Sticky, because the figures are unreadable without their key and a
-              key at the foot of thirty cards is a key nobody reads. */}
+          {/* Sticky, because thirty cards is a long way to scroll back to change
+              the ordering. */}
           <div
             style={{
               position: 'sticky',
@@ -347,49 +395,34 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
               zIndex: 5,
               background: 'var(--paper)',
               display: 'flex',
-              alignItems: 'baseline',
-              justifyContent: 'space-between',
-              gap: 20,
-              flexWrap: 'wrap',
+              flexDirection: 'column',
+              gap: 2,
               marginTop: 24,
               paddingTop: 16,
               paddingBottom: 8,
               borderBottom: '1px solid var(--rule)',
             }}
           >
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: 16, flexWrap: 'wrap' }}>
-              <Tracked label="Worlds" active={view === 'worlds'} onClick={() => setView('worlds')} />
-              <Tracked
-                label="Characters"
-                active={view === 'characters'}
-                onClick={() => setView('characters')}
-              />
-              {view === 'worlds' && (
-                <>
-                  <span className="annot" style={{ fontSize: 9, paddingLeft: 10 }}>Order by</span>
-                  {SORTS.map((option) => (
-                    <Tracked
-                      key={option.key}
-                      label={option.label}
-                      active={sort === option.key}
-                      onClick={() => setSort(option.key)}
-                    />
-                  ))}
-                </>
-              )}
-            </div>
-            <Tracked
-              label={explain ? 'Hide the key' : 'How to read this'}
-              active={explain}
-              onClick={() => setExplain((v) => !v)}
+            <RadioRow
+              label="Show"
+              value={view}
+              onChange={setView}
+              options={[
+                { key: 'worlds', label: 'Worlds' },
+                { key: 'characters', label: 'Characters' },
+              ]}
             />
+            {view === 'worlds' && (
+              <RadioRow
+                label="Order by"
+                value={sort}
+                onChange={setSort}
+                options={SORTS.map((s) => ({ key: s.key, label: s.label }))}
+              />
+            )}
           </div>
 
-          {explain && (
-            <div style={{ paddingTop: 22, paddingBottom: 8, borderBottom: '1px solid var(--rule)' }}>
-              <Explain sample={sample} />
-            </div>
-          )}
+          {keyPanel}
 
           {view === 'worlds' ? (
             <div
