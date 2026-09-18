@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useZoom, zoomTransform } from '../graph/zoom';
-import { BrandMark, MarginLinks } from '../render/MarginLinks';
+import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
 import type { Session } from '../engine/session';
 import { clueTotal } from '../render/Ledger';
 import type { PuzzleRecord, Universe, UniverseMeta } from '../types';
@@ -184,7 +184,7 @@ export function Reveal({
         style={{
           position: 'absolute',
           inset: 0,
-          padding: '44px 64px 56px 64px',
+          padding: CHROME_PADDING,
           display: 'flex',
           flexDirection: 'column',
           // Let hovers reach the network underneath; only the exits take clicks.

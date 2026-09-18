@@ -1,3 +1,7 @@
+/** Shared page inset so the brand mark does not jump when the screen changes.
+ *  A screen may override only the bottom; top and sides stay put. */
+export const CHROME_PADDING = '44px 64px 56px 64px';
+
 interface Props {
   onOpenKey: () => void;
   /** Absent before the game starts and at the reveal, where there is nothing left to give up. */
