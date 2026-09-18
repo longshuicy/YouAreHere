@@ -9,9 +9,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "legendary king of Britain"
+    ]
    },
-   "line": "Appears in Cymbeline."
+   "line": "Legendary king of Britain."
   },
   "1": {
    "facts": {
@@ -21,8 +24,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +34,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +44,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "4": {
    "facts": {
@@ -53,9 +53,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "King of Britain"
    },
-   "line": "Appears in Cymbeline."
+   "line": "King of Britain."
   },
   "5": {
    "facts": {
@@ -65,8 +66,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +76,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +86,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "8": {
    "facts": {
@@ -97,9 +95,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "legendary king of Britain"
+    ]
    },
-   "line": "Appears in Cymbeline."
+   "line": "Legendary king of Britain."
   },
   "9": {
    "facts": {
@@ -109,8 +110,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "10": {
    "facts": {
@@ -120,8 +120,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "11": {
    "facts": {
@@ -129,9 +128,9 @@
      "Cymbeline"
     ],
     "unit": "play",
-    "corpusSize": 37
-   },
-   "line": "Appears in Cymbeline."
+    "corpusSize": 37,
+    "gender": "Male"
+   }
   },
   "12": {
    "facts": {
@@ -141,8 +140,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "13": {
    "facts": {
@@ -152,8 +150,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "14": {
    "facts": {
@@ -163,8 +160,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "15": {
    "facts": {
@@ -174,8 +170,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "16": {
    "facts": {
@@ -185,8 +180,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Cymbeline."
+   }
   },
   "17": {
    "facts": {
@@ -196,8 +190,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Cymbeline."
+   }
   }
  },
  "edges": {
@@ -209,8 +202,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-2": {
    "facts": {
@@ -220,8 +212,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-3": {
    "facts": {
@@ -231,8 +222,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-4": {
    "facts": {
@@ -242,8 +232,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-8": {
    "facts": {
@@ -253,8 +242,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-9": {
    "facts": {
@@ -264,8 +252,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-10": {
    "facts": {
@@ -275,8 +262,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-12": {
    "facts": {
@@ -286,8 +272,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-14": {
    "facts": {
@@ -297,8 +282,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-15": {
    "facts": {
@@ -308,8 +292,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "0-17": {
    "facts": {
@@ -319,8 +302,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-2": {
    "facts": {
@@ -330,8 +312,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-3": {
    "facts": {
@@ -341,8 +322,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-4": {
    "facts": {
@@ -352,8 +332,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-8": {
    "facts": {
@@ -363,8 +342,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-9": {
    "facts": {
@@ -374,8 +352,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-10": {
    "facts": {
@@ -385,8 +362,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-12": {
    "facts": {
@@ -396,8 +372,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-14": {
    "facts": {
@@ -407,8 +382,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-15": {
    "facts": {
@@ -418,8 +392,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "1-17": {
    "facts": {
@@ -429,8 +402,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "2-4": {
    "facts": {
@@ -440,8 +412,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "2-8": {
    "facts": {
@@ -451,8 +422,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "2-10": {
    "facts": {
@@ -462,8 +432,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "2-12": {
    "facts": {
@@ -473,8 +442,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "2-14": {
    "facts": {
@@ -484,8 +452,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "2-16": {
    "facts": {
@@ -495,8 +462,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "2-17": {
    "facts": {
@@ -506,8 +472,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "3-4": {
    "facts": {
@@ -517,8 +482,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "3-8": {
    "facts": {
@@ -528,8 +492,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "3-9": {
    "facts": {
@@ -539,8 +502,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "3-10": {
    "facts": {
@@ -550,8 +512,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "3-12": {
    "facts": {
@@ -561,8 +522,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "3-14": {
    "facts": {
@@ -572,8 +532,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "3-15": {
    "facts": {
@@ -583,8 +542,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "3-16": {
    "facts": {
@@ -594,8 +552,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "3-17": {
    "facts": {
@@ -605,8 +562,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "4-8": {
    "facts": {
@@ -616,8 +572,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "4-9": {
    "facts": {
@@ -627,8 +582,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "4-10": {
    "facts": {
@@ -638,8 +592,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "4-12": {
    "facts": {
@@ -649,8 +602,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "4-14": {
    "facts": {
@@ -660,8 +612,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "4-15": {
    "facts": {
@@ -671,8 +622,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "4-16": {
    "facts": {
@@ -682,8 +632,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "4-17": {
    "facts": {
@@ -693,8 +642,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "5-9": {
    "facts": {
@@ -704,8 +652,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "5-13": {
    "facts": {
@@ -715,8 +662,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "5-15": {
    "facts": {
@@ -726,8 +672,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "6-7": {
    "facts": {
@@ -737,8 +682,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "6-11": {
    "facts": {
@@ -748,8 +692,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "6-15": {
    "facts": {
@@ -759,8 +702,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "7-11": {
    "facts": {
@@ -770,8 +712,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "7-15": {
    "facts": {
@@ -781,8 +722,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "8-9": {
    "facts": {
@@ -792,8 +732,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "8-10": {
    "facts": {
@@ -803,8 +742,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "8-12": {
    "facts": {
@@ -814,8 +752,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "8-14": {
    "facts": {
@@ -825,8 +762,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "8-15": {
    "facts": {
@@ -836,8 +772,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "8-17": {
    "facts": {
@@ -847,8 +782,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "9-10": {
    "facts": {
@@ -858,8 +792,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "9-12": {
    "facts": {
@@ -869,8 +802,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "9-13": {
    "facts": {
@@ -880,8 +812,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "9-14": {
    "facts": {
@@ -891,8 +822,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "9-15": {
    "facts": {
@@ -902,8 +832,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "9-17": {
    "facts": {
@@ -913,8 +842,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "10-12": {
    "facts": {
@@ -924,8 +852,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "10-14": {
    "facts": {
@@ -935,8 +862,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "10-15": {
    "facts": {
@@ -946,8 +872,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "10-16": {
    "facts": {
@@ -957,8 +882,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "10-17": {
    "facts": {
@@ -968,8 +892,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "11-15": {
    "facts": {
@@ -979,8 +902,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "12-14": {
    "facts": {
@@ -990,8 +912,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "12-15": {
    "facts": {
@@ -1001,8 +922,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "12-16": {
    "facts": {
@@ -1012,8 +932,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "12-17": {
    "facts": {
@@ -1023,8 +942,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "13-15": {
    "facts": {
@@ -1034,8 +952,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "14-15": {
    "facts": {
@@ -1045,8 +962,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "14-16": {
    "facts": {
@@ -1056,8 +972,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "14-17": {
    "facts": {
@@ -1067,8 +982,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "15-16": {
    "facts": {
@@ -1078,8 +992,7 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   },
   "15-17": {
    "facts": {
@@ -1089,9 +1002,33 @@
     "first": "Cymbeline",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Cymbeline."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

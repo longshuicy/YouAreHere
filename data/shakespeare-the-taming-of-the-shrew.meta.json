@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "1": {
    "facts": {
@@ -21,8 +20,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +30,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +40,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +50,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +60,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +70,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +80,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "8": {
    "facts": {
@@ -98,8 +90,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "9": {
    "facts": {
@@ -109,8 +100,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "10": {
    "facts": {
@@ -120,8 +110,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "11": {
    "facts": {
@@ -131,8 +120,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +130,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "13": {
    "facts": {
@@ -153,8 +140,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "14": {
    "facts": {
@@ -164,8 +150,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "15": {
    "facts": {
@@ -175,8 +160,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "16": {
    "facts": {
@@ -186,8 +170,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   },
   "17": {
    "facts": {
@@ -197,8 +180,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Taming of the Shrew."
+   }
   }
  },
  "edges": {
@@ -210,8 +192,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-2": {
    "facts": {
@@ -221,8 +202,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-4": {
    "facts": {
@@ -232,8 +212,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-5": {
    "facts": {
@@ -243,8 +222,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-6": {
    "facts": {
@@ -254,8 +232,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-7": {
    "facts": {
@@ -265,8 +242,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-8": {
    "facts": {
@@ -276,8 +252,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-9": {
    "facts": {
@@ -287,8 +262,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-15": {
    "facts": {
@@ -298,8 +272,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-16": {
    "facts": {
@@ -309,8 +282,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "0-17": {
    "facts": {
@@ -320,8 +292,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-2": {
    "facts": {
@@ -331,8 +302,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-4": {
    "facts": {
@@ -342,8 +312,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-5": {
    "facts": {
@@ -353,8 +322,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-6": {
    "facts": {
@@ -364,8 +332,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-7": {
    "facts": {
@@ -375,8 +342,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-8": {
    "facts": {
@@ -386,8 +352,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-9": {
    "facts": {
@@ -397,8 +362,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-15": {
    "facts": {
@@ -408,8 +372,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-16": {
    "facts": {
@@ -419,8 +382,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "1-17": {
    "facts": {
@@ -430,8 +392,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "2-4": {
    "facts": {
@@ -441,8 +402,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "2-5": {
    "facts": {
@@ -452,8 +412,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "2-6": {
    "facts": {
@@ -463,8 +422,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "2-7": {
    "facts": {
@@ -474,8 +432,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "2-8": {
    "facts": {
@@ -485,8 +442,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "2-9": {
    "facts": {
@@ -496,8 +452,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "2-15": {
    "facts": {
@@ -507,8 +462,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "2-16": {
    "facts": {
@@ -518,8 +472,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "2-17": {
    "facts": {
@@ -529,8 +482,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "3-5": {
    "facts": {
@@ -540,8 +492,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "3-7": {
    "facts": {
@@ -551,8 +502,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "3-9": {
    "facts": {
@@ -562,8 +512,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "3-10": {
    "facts": {
@@ -573,8 +522,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "3-11": {
    "facts": {
@@ -584,8 +532,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "3-12": {
    "facts": {
@@ -595,8 +542,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "3-13": {
    "facts": {
@@ -606,8 +552,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "3-14": {
    "facts": {
@@ -617,8 +562,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "4-5": {
    "facts": {
@@ -628,8 +572,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "4-6": {
    "facts": {
@@ -639,8 +582,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "4-7": {
    "facts": {
@@ -650,8 +592,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "4-8": {
    "facts": {
@@ -661,8 +602,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "4-9": {
    "facts": {
@@ -672,8 +612,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "4-15": {
    "facts": {
@@ -683,8 +622,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "4-16": {
    "facts": {
@@ -694,8 +632,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "4-17": {
    "facts": {
@@ -705,8 +642,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-6": {
    "facts": {
@@ -716,8 +652,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-7": {
    "facts": {
@@ -727,8 +662,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-8": {
    "facts": {
@@ -738,8 +672,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-9": {
    "facts": {
@@ -749,8 +682,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-10": {
    "facts": {
@@ -760,8 +692,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-11": {
    "facts": {
@@ -771,8 +702,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-12": {
    "facts": {
@@ -782,8 +712,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-13": {
    "facts": {
@@ -793,8 +722,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-14": {
    "facts": {
@@ -804,8 +732,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "5-16": {
    "facts": {
@@ -815,8 +742,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "6-7": {
    "facts": {
@@ -826,8 +752,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "6-8": {
    "facts": {
@@ -837,8 +762,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "6-9": {
    "facts": {
@@ -848,8 +772,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "6-15": {
    "facts": {
@@ -859,8 +782,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "6-16": {
    "facts": {
@@ -870,8 +792,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "6-17": {
    "facts": {
@@ -881,8 +802,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-8": {
    "facts": {
@@ -892,8 +812,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-9": {
    "facts": {
@@ -903,8 +822,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-10": {
    "facts": {
@@ -914,8 +832,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-11": {
    "facts": {
@@ -925,8 +842,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-12": {
    "facts": {
@@ -936,8 +852,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-13": {
    "facts": {
@@ -947,8 +862,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-14": {
    "facts": {
@@ -958,8 +872,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-15": {
    "facts": {
@@ -969,8 +882,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-16": {
    "facts": {
@@ -980,8 +892,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "7-17": {
    "facts": {
@@ -991,8 +902,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "8-9": {
    "facts": {
@@ -1002,8 +912,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "8-15": {
    "facts": {
@@ -1013,8 +922,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "8-16": {
    "facts": {
@@ -1024,8 +932,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "8-17": {
    "facts": {
@@ -1035,8 +942,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "9-10": {
    "facts": {
@@ -1046,8 +952,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "9-11": {
    "facts": {
@@ -1057,8 +962,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "9-12": {
    "facts": {
@@ -1068,8 +972,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "9-13": {
    "facts": {
@@ -1079,8 +982,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "9-14": {
    "facts": {
@@ -1090,8 +992,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "9-16": {
    "facts": {
@@ -1101,8 +1002,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "9-17": {
    "facts": {
@@ -1112,8 +1012,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "10-11": {
    "facts": {
@@ -1123,8 +1022,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "10-12": {
    "facts": {
@@ -1134,8 +1032,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "10-13": {
    "facts": {
@@ -1145,8 +1042,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "10-14": {
    "facts": {
@@ -1156,8 +1052,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "11-12": {
    "facts": {
@@ -1167,8 +1062,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "11-13": {
    "facts": {
@@ -1178,8 +1072,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "11-14": {
    "facts": {
@@ -1189,8 +1082,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "12-13": {
    "facts": {
@@ -1200,8 +1092,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "12-14": {
    "facts": {
@@ -1211,8 +1102,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "13-14": {
    "facts": {
@@ -1222,8 +1112,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "15-16": {
    "facts": {
@@ -1233,8 +1122,7 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   },
   "16-17": {
    "facts": {
@@ -1244,9 +1132,33 @@
     "first": "The Taming of the Shrew",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Taming of the Shrew."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

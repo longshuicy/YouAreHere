@@ -1,0 +1,122 @@
+# Hand-maintained identity table for the Star Wars universe.
+#
+# `wikidata` pins reveal-screen facts to one exact Wikidata record. Needed where
+# Gabasova's script name is ambiguous or too short for a reliable search
+# (Emperor → Palpatine; Anakin and Darth Vader are correctly two people).
+#
+# Optional `wikidataSearch` overrides the string sent to Wikidata search when a
+# pin is not used.
+#
+# Unknown ids fail the build rather than being ignored.
+
+starwars:
+
+  # --- Ambiguous or short script names ---------------------------------------
+
+  emperor:
+    wikidata: Q51770
+    aliases: ["Palpatine", "Darth Sidious", "The Emperor"]
+
+  anakin:
+    wikidata: Q51752
+    aliases: ["Anakin Skywalker"]
+
+  darth_vader:
+    wikidata: Q12206942
+    aliases: ["Vader"]
+
+  luke:
+    wikidata: Q51746
+    aliases: ["Luke Skywalker"]
+
+  leia:
+    wikidata: Q51797
+    aliases: ["Leia Organa", "Princess Leia"]
+
+  han:
+    wikidata: Q51802
+    aliases: ["Han Solo"]
+
+  padme:
+    wikidata: Q51789
+    aliases: ["Padmé Amidala", "Padme Amidala", "Amidala"]
+
+  obi_wan:
+    wikidata: Q51740
+    aliases: ["Obi-Wan Kenobi", "Ben Kenobi"]
+
+  yoda:
+    wikidata: Q51730
+
+  chewbacca:
+    wikidata: Q51803
+    aliases: ["Chewie"]
+
+  c_3po:
+    wikidata: Q51787
+    aliases: ["See-Threepio", "Threepio"]
+
+  r2_d2:
+    wikidata: Q51790
+    aliases: ["Artoo", "Artoo-Detoo"]
+
+  jar_jar:
+    wikidata: Q51780
+    aliases: ["Jar Jar Binks"]
+
+  qui_gon:
+    wikidata: Q51776
+    aliases: ["Qui-Gon Jinn"]
+
+  bb_8:
+    wikidata: Q21541731
+
+  kylo_ren:
+    wikidata: Q21515016
+
+  lando:
+    aliases: ["Lando Calrissian"]
+    wikidata: Q51799
+
+  admiral_ackbar:
+    wikidata: Q52306
+
+  jabba:
+    aliases: ["Jabba the Hutt"]
+    wikidataSearch: "Jabba the Hutt"
+
+  rey:
+    wikidata: Q21772117
+
+  finn:
+    aliases: ["FN-2187"]
+    wikidataSearch: "FN-2187"
+
+  poe:
+    aliases: ["Poe Dameron"]
+    wikidataSearch: "Poe Dameron"
+
+  snoke:
+    wikidata: Q20501302
+
+  maz:
+    aliases: ["Maz Kanata"]
+    wikidataSearch: "Maz Kanata"
+
+  captain_phasma:
+    wikidataSearch: "Captain Phasma"
+
+  general_hux:
+    wikidata: Q21884092
+
+  count_dooku:
+    wikidata: Q51727
+
+  darth_maul:
+    wikidata: Q51766
+
+  general_grievous:
+    wikidata: Q51792
+
+  mace_windu:
+    wikidata: Q51725

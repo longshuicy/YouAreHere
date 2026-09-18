@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Stage } from '../render/Stage';
 import { Ledger } from '../render/Ledger';
-import { MarginLinks } from '../render/MarginLinks';
+import { BrandMark, MarginLinks } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -138,14 +138,13 @@ export function Guess({
         }}
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-          <div className="chrome">YOU ARE HERE</div>
+          <BrandMark onStartAgain={onStartAgain} />
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 18 }}>
             <Ledger ledger={session.ledger} />
             <MarginLinks
               onOpenKey={onOpenKey}
               onReveal={onReveal}
               onRevealStory={worldIsKnown(session) ? undefined : onRevealStory}
-              onStartAgain={onStartAgain}
             />
           </div>
         </div>

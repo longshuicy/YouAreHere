@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "1": {
    "facts": {
@@ -20,9 +19,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "King of Naples"
    },
-   "line": "Appears in The Tempest."
+   "line": "King of Naples."
   },
   "2": {
    "facts": {
@@ -32,8 +32,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "3": {
    "facts": {
@@ -41,9 +40,10 @@
      "The Tempest"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Servant"
    },
-   "line": "Appears in The Tempest."
+   "line": "Servant."
   },
   "4": {
    "facts": {
@@ -53,8 +53,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "5": {
    "facts": {
@@ -63,9 +62,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in The Tempest."
+   "line": "Servant."
   },
   "6": {
    "facts": {
@@ -74,9 +74,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Prince of Naples"
    },
-   "line": "Appears in The Tempest."
+   "line": "Prince of Naples."
   },
   "7": {
    "facts": {
@@ -86,8 +87,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "8": {
    "facts": {
@@ -97,8 +97,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "9": {
    "facts": {
@@ -108,8 +107,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "10": {
    "facts": {
@@ -119,8 +117,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "11": {
    "facts": {
@@ -130,8 +127,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "12": {
    "facts": {
@@ -141,8 +137,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "13": {
    "facts": {
@@ -152,8 +147,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Tempest."
+   }
   },
   "14": {
    "facts": {
@@ -162,9 +156,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in The Tempest."
+   "line": "Servant."
   }
  },
  "edges": {
@@ -176,8 +171,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "0-2": {
    "facts": {
@@ -187,8 +181,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "0-3": {
    "facts": {
@@ -198,8 +191,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "0-7": {
    "facts": {
@@ -209,8 +201,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "0-8": {
    "facts": {
@@ -220,8 +211,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "0-10": {
    "facts": {
@@ -231,8 +221,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "0-11": {
    "facts": {
@@ -242,8 +231,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-2": {
    "facts": {
@@ -253,8 +241,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-3": {
    "facts": {
@@ -264,8 +251,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-4": {
    "facts": {
@@ -275,8 +261,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-5": {
    "facts": {
@@ -286,8 +271,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-6": {
    "facts": {
@@ -297,8 +281,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-7": {
    "facts": {
@@ -308,8 +291,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-8": {
    "facts": {
@@ -319,8 +301,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-9": {
    "facts": {
@@ -330,8 +311,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-10": {
    "facts": {
@@ -341,8 +321,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-11": {
    "facts": {
@@ -352,8 +331,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-12": {
    "facts": {
@@ -363,8 +341,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-13": {
    "facts": {
@@ -374,8 +351,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "1-14": {
    "facts": {
@@ -385,8 +361,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-3": {
    "facts": {
@@ -396,8 +371,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-4": {
    "facts": {
@@ -407,8 +381,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-5": {
    "facts": {
@@ -418,8 +391,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-6": {
    "facts": {
@@ -429,8 +401,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-7": {
    "facts": {
@@ -440,8 +411,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-8": {
    "facts": {
@@ -451,8 +421,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-9": {
    "facts": {
@@ -462,8 +431,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-10": {
    "facts": {
@@ -473,8 +441,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-11": {
    "facts": {
@@ -484,8 +451,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-12": {
    "facts": {
@@ -495,8 +461,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-13": {
    "facts": {
@@ -506,8 +471,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "2-14": {
    "facts": {
@@ -517,8 +481,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-4": {
    "facts": {
@@ -528,8 +491,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-5": {
    "facts": {
@@ -539,8 +501,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-6": {
    "facts": {
@@ -550,8 +511,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-7": {
    "facts": {
@@ -561,8 +521,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-8": {
    "facts": {
@@ -572,8 +531,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-9": {
    "facts": {
@@ -583,8 +541,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-10": {
    "facts": {
@@ -594,8 +551,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-11": {
    "facts": {
@@ -605,8 +561,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-13": {
    "facts": {
@@ -616,8 +571,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "3-14": {
    "facts": {
@@ -627,8 +581,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "4-5": {
    "facts": {
@@ -638,8 +591,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "4-6": {
    "facts": {
@@ -649,8 +601,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "4-8": {
    "facts": {
@@ -660,8 +611,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "4-9": {
    "facts": {
@@ -671,8 +621,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "4-10": {
    "facts": {
@@ -682,8 +631,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "4-11": {
    "facts": {
@@ -693,8 +641,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "4-12": {
    "facts": {
@@ -704,8 +651,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "4-13": {
    "facts": {
@@ -715,8 +661,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "4-14": {
    "facts": {
@@ -726,8 +671,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "5-6": {
    "facts": {
@@ -737,8 +681,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "5-8": {
    "facts": {
@@ -748,8 +691,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "5-9": {
    "facts": {
@@ -759,8 +701,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "5-10": {
    "facts": {
@@ -770,8 +711,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "5-11": {
    "facts": {
@@ -781,8 +721,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "5-13": {
    "facts": {
@@ -792,8 +731,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "5-14": {
    "facts": {
@@ -803,8 +741,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "6-8": {
    "facts": {
@@ -814,8 +751,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "6-9": {
    "facts": {
@@ -825,8 +761,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "6-10": {
    "facts": {
@@ -836,8 +771,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "6-11": {
    "facts": {
@@ -847,8 +781,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "6-13": {
    "facts": {
@@ -858,8 +791,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "6-14": {
    "facts": {
@@ -869,8 +801,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "7-8": {
    "facts": {
@@ -880,8 +811,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "7-10": {
    "facts": {
@@ -891,8 +821,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "7-11": {
    "facts": {
@@ -902,8 +831,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "8-9": {
    "facts": {
@@ -913,8 +841,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "8-10": {
    "facts": {
@@ -924,8 +851,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "8-11": {
    "facts": {
@@ -935,8 +861,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "8-12": {
    "facts": {
@@ -946,8 +871,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "8-13": {
    "facts": {
@@ -957,8 +881,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "8-14": {
    "facts": {
@@ -968,8 +891,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "9-10": {
    "facts": {
@@ -979,8 +901,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "9-11": {
    "facts": {
@@ -990,8 +911,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "9-13": {
    "facts": {
@@ -1001,8 +921,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "9-14": {
    "facts": {
@@ -1012,8 +931,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "10-11": {
    "facts": {
@@ -1023,8 +941,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "10-13": {
    "facts": {
@@ -1034,8 +951,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "10-14": {
    "facts": {
@@ -1045,8 +961,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "11-12": {
    "facts": {
@@ -1056,8 +971,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "11-13": {
    "facts": {
@@ -1067,8 +981,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "11-14": {
    "facts": {
@@ -1078,8 +991,7 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   },
   "13-14": {
    "facts": {
@@ -1089,9 +1001,33 @@
     "first": "The Tempest",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Tempest."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

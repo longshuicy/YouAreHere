@@ -9,9 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "King of Antioch"
    },
-   "line": "Appears in Pericles."
+   "line": "King of Antioch."
   },
   "1": {
    "facts": {
@@ -21,8 +22,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "2": {
    "facts": {
@@ -31,9 +31,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in Pericles."
+   "line": "Servant."
   },
   "3": {
    "facts": {
@@ -43,8 +44,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +54,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "5": {
    "facts": {
@@ -64,9 +63,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Prince"
    },
-   "line": "Appears in Pericles."
+   "line": "Prince."
   },
   "6": {
    "facts": {
@@ -76,8 +76,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +86,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "8": {
    "facts": {
@@ -98,8 +96,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "9": {
    "facts": {
@@ -109,8 +106,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "10": {
    "facts": {
@@ -119,9 +115,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in Pericles."
+   "line": "Servant."
   },
   "11": {
    "facts": {
@@ -131,8 +128,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +138,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "13": {
    "facts": {
@@ -153,8 +148,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "14": {
    "facts": {
@@ -164,8 +158,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "15": {
    "facts": {
@@ -175,8 +168,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "16": {
    "facts": {
@@ -185,9 +177,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Prince of Tyre"
    },
-   "line": "Appears in Pericles."
+   "line": "Prince of Tyre."
   },
   "17": {
    "facts": {
@@ -196,9 +189,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in Pericles."
+   "line": "Servant."
   },
   "18": {
    "facts": {
@@ -207,9 +201,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "King of Pentapolis"
    },
-   "line": "Appears in Pericles."
+   "line": "King of Pentapolis."
   },
   "19": {
    "facts": {
@@ -219,8 +214,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Pericles."
+   }
   },
   "20": {
    "facts": {
@@ -230,8 +224,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Pericles."
+   }
   }
  },
  "edges": {
@@ -243,8 +236,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "0-12": {
    "facts": {
@@ -254,8 +246,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "0-16": {
    "facts": {
@@ -265,8 +256,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "0-20": {
    "facts": {
@@ -276,8 +266,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "1-2": {
    "facts": {
@@ -287,8 +276,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "1-11": {
    "facts": {
@@ -298,8 +286,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "1-13": {
    "facts": {
@@ -309,8 +296,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "1-15": {
    "facts": {
@@ -320,8 +306,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "2-11": {
    "facts": {
@@ -331,8 +316,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "2-13": {
    "facts": {
@@ -342,8 +326,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "2-15": {
    "facts": {
@@ -353,8 +336,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "3-9": {
    "facts": {
@@ -364,8 +346,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "3-13": {
    "facts": {
@@ -375,8 +356,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "3-16": {
    "facts": {
@@ -386,8 +366,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "3-17": {
    "facts": {
@@ -397,8 +376,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "3-19": {
    "facts": {
@@ -408,8 +386,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "4-7": {
    "facts": {
@@ -419,8 +396,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "4-16": {
    "facts": {
@@ -430,8 +406,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "5-12": {
    "facts": {
@@ -441,8 +416,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "5-16": {
    "facts": {
@@ -452,8 +426,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "5-20": {
    "facts": {
@@ -463,8 +436,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "6-8": {
    "facts": {
@@ -474,8 +446,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "6-9": {
    "facts": {
@@ -485,8 +456,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "6-11": {
    "facts": {
@@ -496,8 +466,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "6-13": {
    "facts": {
@@ -507,8 +476,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "6-16": {
    "facts": {
@@ -518,8 +486,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "7-10": {
    "facts": {
@@ -529,8 +496,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "7-13": {
    "facts": {
@@ -540,8 +506,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "7-16": {
    "facts": {
@@ -551,8 +516,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "8-9": {
    "facts": {
@@ -562,8 +526,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "8-11": {
    "facts": {
@@ -573,8 +536,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "8-13": {
    "facts": {
@@ -584,8 +546,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "8-16": {
    "facts": {
@@ -595,8 +556,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "9-11": {
    "facts": {
@@ -606,8 +566,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "9-13": {
    "facts": {
@@ -617,8 +576,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "9-16": {
    "facts": {
@@ -628,8 +586,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "9-19": {
    "facts": {
@@ -639,8 +596,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "9-20": {
    "facts": {
@@ -650,8 +606,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "10-13": {
    "facts": {
@@ -661,8 +616,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "11-13": {
    "facts": {
@@ -672,8 +626,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "11-15": {
    "facts": {
@@ -683,8 +636,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "11-16": {
    "facts": {
@@ -694,8 +646,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "12-16": {
    "facts": {
@@ -705,8 +656,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "12-20": {
    "facts": {
@@ -716,8 +666,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "13-15": {
    "facts": {
@@ -727,8 +676,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "13-16": {
    "facts": {
@@ -738,8 +686,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "13-19": {
    "facts": {
@@ -749,8 +696,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "14-16": {
    "facts": {
@@ -760,8 +706,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "14-18": {
    "facts": {
@@ -771,8 +716,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "14-19": {
    "facts": {
@@ -782,8 +726,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "16-18": {
    "facts": {
@@ -793,8 +736,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "16-19": {
    "facts": {
@@ -804,8 +746,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "16-20": {
    "facts": {
@@ -815,8 +756,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "17-19": {
    "facts": {
@@ -826,8 +766,7 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   },
   "18-19": {
    "facts": {
@@ -837,9 +776,33 @@
     "first": "Pericles",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Pericles."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

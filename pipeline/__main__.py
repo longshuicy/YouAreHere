@@ -17,7 +17,7 @@ from .canon.normalise import (
 )
 from .analyse import difficulty
 from .emit import writer
-from .enrich import anapi, facts as enrich_facts
+from .enrich import facts as enrich_facts
 from .sources import SOURCES
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -70,9 +70,7 @@ def build(names: list[str], out: Path) -> int:
         else:
             worlds = [graph]
 
-        meta_sources = []
-        if name == "asoiaf":
-            meta_sources.append((anapi.ATTRIBUTION, anapi.LICENSE))
+        meta_sources = enrich_facts.meta_sources_for(name)
 
         prepared.append((name, worlds, node_facts, edge_facts, meta_sources))
 

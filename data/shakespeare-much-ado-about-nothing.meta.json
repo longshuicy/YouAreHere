@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "1": {
    "facts": {
@@ -21,8 +20,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +30,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +40,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +50,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +60,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +70,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +80,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "8": {
    "facts": {
@@ -98,8 +90,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "9": {
    "facts": {
@@ -109,8 +100,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "10": {
    "facts": {
@@ -119,9 +109,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Prince of Aragon"
    },
-   "line": "Appears in Much Ado About Nothing."
+   "line": "Prince of Aragon."
   },
   "11": {
    "facts": {
@@ -131,8 +122,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +132,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "13": {
    "facts": {
@@ -153,8 +142,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "14": {
    "facts": {
@@ -164,8 +152,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "15": {
    "facts": {
@@ -175,8 +162,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "16": {
    "facts": {
@@ -186,8 +172,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "17": {
    "facts": {
@@ -197,8 +182,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "18": {
    "facts": {
@@ -208,8 +192,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "19": {
    "facts": {
@@ -219,8 +202,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "20": {
    "facts": {
@@ -230,8 +212,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   },
   "21": {
    "facts": {
@@ -240,8 +221,7 @@
     ],
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "Appears in Much Ado About Nothing."
+   }
   }
  },
  "edges": {
@@ -253,8 +233,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-2": {
    "facts": {
@@ -264,8 +243,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-3": {
    "facts": {
@@ -275,8 +253,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-4": {
    "facts": {
@@ -286,8 +263,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-6": {
    "facts": {
@@ -297,8 +273,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-9": {
    "facts": {
@@ -308,8 +283,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-10": {
    "facts": {
@@ -319,8 +293,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-12": {
    "facts": {
@@ -330,8 +303,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-13": {
    "facts": {
@@ -341,8 +313,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-14": {
    "facts": {
@@ -352,8 +323,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-15": {
    "facts": {
@@ -363,8 +333,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "0-17": {
    "facts": {
@@ -374,8 +343,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-2": {
    "facts": {
@@ -385,8 +353,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-3": {
    "facts": {
@@ -396,8 +363,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-4": {
    "facts": {
@@ -407,8 +373,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-5": {
    "facts": {
@@ -418,8 +383,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-6": {
    "facts": {
@@ -429,8 +393,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-9": {
    "facts": {
@@ -440,8 +403,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-10": {
    "facts": {
@@ -451,8 +413,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-12": {
    "facts": {
@@ -462,8 +423,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-13": {
    "facts": {
@@ -473,8 +433,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-14": {
    "facts": {
@@ -484,8 +443,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-15": {
    "facts": {
@@ -495,8 +453,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "1-17": {
    "facts": {
@@ -506,8 +463,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-3": {
    "facts": {
@@ -517,8 +473,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-4": {
    "facts": {
@@ -528,8 +483,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-5": {
    "facts": {
@@ -539,8 +493,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-6": {
    "facts": {
@@ -550,8 +503,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-9": {
    "facts": {
@@ -561,8 +513,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-10": {
    "facts": {
@@ -572,8 +523,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-11": {
    "facts": {
@@ -583,8 +533,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-12": {
    "facts": {
@@ -594,8 +543,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-13": {
    "facts": {
@@ -605,8 +553,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-14": {
    "facts": {
@@ -616,8 +563,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-15": {
    "facts": {
@@ -627,8 +573,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "2-17": {
    "facts": {
@@ -638,8 +583,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-4": {
    "facts": {
@@ -649,8 +593,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-5": {
    "facts": {
@@ -660,8 +603,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-6": {
    "facts": {
@@ -671,8 +613,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-8": {
    "facts": {
@@ -682,8 +623,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-9": {
    "facts": {
@@ -693,8 +633,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-10": {
    "facts": {
@@ -704,8 +643,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-11": {
    "facts": {
@@ -715,8 +653,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-12": {
    "facts": {
@@ -726,8 +663,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-13": {
    "facts": {
@@ -737,8 +673,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-14": {
    "facts": {
@@ -748,8 +683,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-15": {
    "facts": {
@@ -759,8 +693,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-17": {
    "facts": {
@@ -770,8 +703,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "3-18": {
    "facts": {
@@ -781,8 +713,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-6": {
    "facts": {
@@ -792,8 +723,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-7": {
    "facts": {
@@ -803,8 +733,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-8": {
    "facts": {
@@ -814,8 +743,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-9": {
    "facts": {
@@ -825,8 +753,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-10": {
    "facts": {
@@ -836,8 +763,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-12": {
    "facts": {
@@ -847,8 +773,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-13": {
    "facts": {
@@ -858,8 +783,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-14": {
    "facts": {
@@ -869,8 +793,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-15": {
    "facts": {
@@ -880,8 +803,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-16": {
    "facts": {
@@ -891,8 +813,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-17": {
    "facts": {
@@ -902,8 +823,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-18": {
    "facts": {
@@ -913,8 +833,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-19": {
    "facts": {
@@ -924,8 +843,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-20": {
    "facts": {
@@ -935,8 +853,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "4-21": {
    "facts": {
@@ -946,8 +863,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "5-6": {
    "facts": {
@@ -957,8 +873,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "5-10": {
    "facts": {
@@ -968,8 +883,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "5-13": {
    "facts": {
@@ -979,8 +893,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-8": {
    "facts": {
@@ -990,8 +903,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-9": {
    "facts": {
@@ -1001,8 +913,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-10": {
    "facts": {
@@ -1012,8 +923,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-11": {
    "facts": {
@@ -1023,8 +933,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-12": {
    "facts": {
@@ -1034,8 +943,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-13": {
    "facts": {
@@ -1045,8 +953,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-14": {
    "facts": {
@@ -1056,8 +963,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-15": {
    "facts": {
@@ -1067,8 +973,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-17": {
    "facts": {
@@ -1078,8 +983,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "6-18": {
    "facts": {
@@ -1089,8 +993,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "7-8": {
    "facts": {
@@ -1100,8 +1003,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "7-9": {
    "facts": {
@@ -1111,8 +1013,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "7-16": {
    "facts": {
@@ -1122,8 +1023,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "7-18": {
    "facts": {
@@ -1133,8 +1033,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "7-19": {
    "facts": {
@@ -1144,8 +1043,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "7-20": {
    "facts": {
@@ -1155,8 +1053,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "7-21": {
    "facts": {
@@ -1166,8 +1063,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "8-10": {
    "facts": {
@@ -1177,8 +1073,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "8-13": {
    "facts": {
@@ -1188,8 +1083,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "8-14": {
    "facts": {
@@ -1199,8 +1093,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "8-16": {
    "facts": {
@@ -1210,8 +1103,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "8-18": {
    "facts": {
@@ -1221,8 +1113,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "8-19": {
    "facts": {
@@ -1232,8 +1123,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "8-20": {
    "facts": {
@@ -1243,8 +1133,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "8-21": {
    "facts": {
@@ -1254,8 +1143,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "9-10": {
    "facts": {
@@ -1265,8 +1153,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "9-11": {
    "facts": {
@@ -1276,8 +1163,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "9-12": {
    "facts": {
@@ -1287,8 +1173,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "9-13": {
    "facts": {
@@ -1298,8 +1183,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "9-14": {
    "facts": {
@@ -1309,8 +1193,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "9-15": {
    "facts": {
@@ -1320,8 +1203,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "9-17": {
    "facts": {
@@ -1331,8 +1213,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "10-11": {
    "facts": {
@@ -1342,8 +1223,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "10-12": {
    "facts": {
@@ -1353,8 +1233,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "10-13": {
    "facts": {
@@ -1364,8 +1243,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "10-14": {
    "facts": {
@@ -1375,8 +1253,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "10-15": {
    "facts": {
@@ -1386,8 +1263,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "10-17": {
    "facts": {
@@ -1397,8 +1273,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "10-18": {
    "facts": {
@@ -1408,8 +1283,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "11-12": {
    "facts": {
@@ -1419,8 +1293,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "11-13": {
    "facts": {
@@ -1430,8 +1303,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "11-14": {
    "facts": {
@@ -1441,8 +1313,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "12-13": {
    "facts": {
@@ -1452,8 +1323,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "12-14": {
    "facts": {
@@ -1463,8 +1333,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "12-15": {
    "facts": {
@@ -1474,8 +1343,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "12-17": {
    "facts": {
@@ -1485,8 +1353,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "13-14": {
    "facts": {
@@ -1496,8 +1363,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "13-15": {
    "facts": {
@@ -1507,8 +1373,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "13-17": {
    "facts": {
@@ -1518,8 +1383,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "13-18": {
    "facts": {
@@ -1529,8 +1393,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "14-15": {
    "facts": {
@@ -1540,8 +1403,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "14-17": {
    "facts": {
@@ -1551,8 +1413,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "14-18": {
    "facts": {
@@ -1562,8 +1423,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "15-17": {
    "facts": {
@@ -1573,8 +1433,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "16-18": {
    "facts": {
@@ -1584,8 +1443,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "16-19": {
    "facts": {
@@ -1595,8 +1453,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "16-21": {
    "facts": {
@@ -1606,8 +1463,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "18-19": {
    "facts": {
@@ -1617,8 +1473,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "18-20": {
    "facts": {
@@ -1628,8 +1483,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "18-21": {
    "facts": {
@@ -1639,8 +1493,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "19-20": {
    "facts": {
@@ -1650,8 +1503,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "19-21": {
    "facts": {
@@ -1661,8 +1513,7 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   },
   "20-21": {
    "facts": {
@@ -1672,9 +1523,33 @@
     "first": "Much Ado About Nothing",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Much Ado About Nothing."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

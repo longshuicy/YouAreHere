@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "1": {
    "facts": {
@@ -21,8 +20,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +30,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +40,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +50,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +60,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +70,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "7": {
    "facts": {
@@ -86,9 +79,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Queen of Sicilia"
    },
-   "line": "Appears in The Winter's Tale."
+   "line": "Queen of Sicilia."
   },
   "8": {
    "facts": {
@@ -98,8 +92,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "9": {
    "facts": {
@@ -109,8 +102,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "10": {
    "facts": {
@@ -119,9 +111,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "King of Sicilia"
    },
-   "line": "Appears in The Winter's Tale."
+   "line": "King of Sicilia."
   },
   "11": {
    "facts": {
@@ -131,8 +124,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +134,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "13": {
    "facts": {
@@ -152,8 +143,7 @@
     ],
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "14": {
    "facts": {
@@ -163,8 +153,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "15": {
    "facts": {
@@ -174,8 +163,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "16": {
    "facts": {
@@ -184,9 +172,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "King of Bohemia"
    },
-   "line": "Appears in The Winter's Tale."
+   "line": "King of Bohemia."
   },
   "17": {
    "facts": {
@@ -196,8 +185,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "18": {
    "facts": {
@@ -206,8 +194,7 @@
     ],
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "19": {
    "facts": {
@@ -217,8 +204,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   },
   "20": {
    "facts": {
@@ -228,8 +214,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Winter's Tale."
+   }
   }
  },
  "edges": {
@@ -241,8 +226,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "0-10": {
    "facts": {
@@ -252,8 +236,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "0-11": {
    "facts": {
@@ -263,8 +246,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "0-14": {
    "facts": {
@@ -274,8 +256,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "0-18": {
    "facts": {
@@ -285,8 +266,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "0-19": {
    "facts": {
@@ -296,8 +276,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "0-20": {
    "facts": {
@@ -307,8 +286,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "1-2": {
    "facts": {
@@ -318,8 +296,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "1-5": {
    "facts": {
@@ -329,8 +306,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "1-6": {
    "facts": {
@@ -340,8 +316,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "1-12": {
    "facts": {
@@ -351,8 +326,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "1-15": {
    "facts": {
@@ -362,8 +336,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "1-16": {
    "facts": {
@@ -373,8 +346,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "1-17": {
    "facts": {
@@ -384,8 +356,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "1-19": {
    "facts": {
@@ -395,8 +366,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "1-20": {
    "facts": {
@@ -406,8 +376,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-5": {
    "facts": {
@@ -417,8 +386,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-6": {
    "facts": {
@@ -428,8 +396,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-7": {
    "facts": {
@@ -439,8 +406,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-10": {
    "facts": {
@@ -450,8 +416,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-11": {
    "facts": {
@@ -461,8 +426,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-12": {
    "facts": {
@@ -472,8 +436,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-14": {
    "facts": {
@@ -483,8 +446,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-15": {
    "facts": {
@@ -494,8 +456,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-16": {
    "facts": {
@@ -505,8 +466,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-17": {
    "facts": {
@@ -516,8 +476,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-19": {
    "facts": {
@@ -527,8 +486,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "2-20": {
    "facts": {
@@ -538,8 +496,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "3-4": {
    "facts": {
@@ -549,8 +506,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "3-6": {
    "facts": {
@@ -560,8 +516,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "3-7": {
    "facts": {
@@ -571,8 +526,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "3-10": {
    "facts": {
@@ -582,8 +536,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "3-13": {
    "facts": {
@@ -593,8 +546,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "3-14": {
    "facts": {
@@ -604,8 +556,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "3-15": {
    "facts": {
@@ -615,8 +566,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "4-6": {
    "facts": {
@@ -626,8 +576,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "4-7": {
    "facts": {
@@ -637,8 +586,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "4-10": {
    "facts": {
@@ -648,8 +596,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "4-13": {
    "facts": {
@@ -659,8 +606,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "4-14": {
    "facts": {
@@ -670,8 +616,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "4-15": {
    "facts": {
@@ -681,8 +626,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "5-6": {
    "facts": {
@@ -692,8 +636,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "5-12": {
    "facts": {
@@ -703,8 +646,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "5-15": {
    "facts": {
@@ -714,8 +656,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "5-16": {
    "facts": {
@@ -725,8 +666,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "5-17": {
    "facts": {
@@ -736,8 +676,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "5-19": {
    "facts": {
@@ -747,8 +686,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "5-20": {
    "facts": {
@@ -758,8 +696,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "6-10": {
    "facts": {
@@ -769,8 +706,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "6-12": {
    "facts": {
@@ -780,8 +716,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "6-14": {
    "facts": {
@@ -791,8 +726,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "6-15": {
    "facts": {
@@ -802,8 +736,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "6-16": {
    "facts": {
@@ -813,8 +746,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "6-17": {
    "facts": {
@@ -824,8 +756,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "6-19": {
    "facts": {
@@ -835,8 +766,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "6-20": {
    "facts": {
@@ -846,8 +776,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "7-10": {
    "facts": {
@@ -857,8 +786,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "7-11": {
    "facts": {
@@ -868,8 +796,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "7-13": {
    "facts": {
@@ -879,8 +806,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "7-14": {
    "facts": {
@@ -890,8 +816,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "7-15": {
    "facts": {
@@ -901,8 +826,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "7-16": {
    "facts": {
@@ -912,8 +836,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "8-9": {
    "facts": {
@@ -923,8 +846,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "8-14": {
    "facts": {
@@ -934,8 +856,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "9-14": {
    "facts": {
@@ -945,8 +866,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "10-11": {
    "facts": {
@@ -956,8 +876,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "10-13": {
    "facts": {
@@ -967,8 +886,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "10-14": {
    "facts": {
@@ -978,8 +896,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "10-15": {
    "facts": {
@@ -989,8 +906,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "10-16": {
    "facts": {
@@ -1000,8 +916,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "11-16": {
    "facts": {
@@ -1011,8 +926,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "12-15": {
    "facts": {
@@ -1022,8 +936,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "12-16": {
    "facts": {
@@ -1033,8 +946,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "12-17": {
    "facts": {
@@ -1044,8 +956,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "12-19": {
    "facts": {
@@ -1055,8 +966,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "12-20": {
    "facts": {
@@ -1066,8 +976,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "13-14": {
    "facts": {
@@ -1077,8 +986,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "14-15": {
    "facts": {
@@ -1088,8 +996,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "14-16": {
    "facts": {
@@ -1099,8 +1006,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "15-16": {
    "facts": {
@@ -1110,8 +1016,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "15-17": {
    "facts": {
@@ -1121,8 +1026,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "15-19": {
    "facts": {
@@ -1132,8 +1036,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "15-20": {
    "facts": {
@@ -1143,8 +1046,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "16-17": {
    "facts": {
@@ -1154,8 +1056,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "16-19": {
    "facts": {
@@ -1165,8 +1066,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "16-20": {
    "facts": {
@@ -1176,8 +1076,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "17-19": {
    "facts": {
@@ -1187,8 +1086,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "17-20": {
    "facts": {
@@ -1198,8 +1096,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "18-19": {
    "facts": {
@@ -1209,8 +1106,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "18-20": {
    "facts": {
@@ -1220,8 +1116,7 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   },
   "19-20": {
    "facts": {
@@ -1231,9 +1126,33 @@
     "first": "The Winter's Tale",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Winter's Tale."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

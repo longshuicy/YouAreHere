@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "1": {
    "facts": {
@@ -21,8 +20,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +30,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +40,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +50,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +60,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "6": {
    "facts": {
@@ -75,9 +69,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Steward"
    },
-   "line": "Appears in Twelfth Night."
+   "line": "Steward."
   },
   "7": {
    "facts": {
@@ -87,8 +82,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "8": {
    "facts": {
@@ -98,8 +92,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "9": {
    "facts": {
@@ -108,9 +101,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Duke"
    },
-   "line": "Appears in Twelfth Night."
+   "line": "Duke."
   },
   "10": {
    "facts": {
@@ -120,8 +114,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "11": {
    "facts": {
@@ -131,8 +124,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +134,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   },
   "13": {
    "facts": {
@@ -153,8 +144,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Twelfth Night."
+   }
   }
  },
  "edges": {
@@ -166,8 +156,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "0-5": {
    "facts": {
@@ -177,8 +166,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "0-9": {
    "facts": {
@@ -188,8 +176,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "0-13": {
    "facts": {
@@ -199,8 +186,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "1-9": {
    "facts": {
@@ -210,8 +196,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "1-13": {
    "facts": {
@@ -221,8 +206,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-3": {
    "facts": {
@@ -232,8 +216,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-4": {
    "facts": {
@@ -243,8 +226,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-5": {
    "facts": {
@@ -254,8 +236,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-6": {
    "facts": {
@@ -265,8 +246,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-7": {
    "facts": {
@@ -276,8 +256,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-8": {
    "facts": {
@@ -287,8 +266,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-9": {
    "facts": {
@@ -298,8 +276,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-10": {
    "facts": {
@@ -309,8 +286,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-11": {
    "facts": {
@@ -320,8 +296,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-12": {
    "facts": {
@@ -331,8 +306,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "2-13": {
    "facts": {
@@ -342,8 +316,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-4": {
    "facts": {
@@ -353,8 +326,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-5": {
    "facts": {
@@ -364,8 +336,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-6": {
    "facts": {
@@ -375,8 +346,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-7": {
    "facts": {
@@ -386,8 +356,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-8": {
    "facts": {
@@ -397,8 +366,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-9": {
    "facts": {
@@ -408,8 +376,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-10": {
    "facts": {
@@ -419,8 +386,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-11": {
    "facts": {
@@ -430,8 +396,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-12": {
    "facts": {
@@ -441,8 +406,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "3-13": {
    "facts": {
@@ -452,8 +416,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "4-5": {
    "facts": {
@@ -463,8 +426,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "4-6": {
    "facts": {
@@ -474,8 +436,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "4-7": {
    "facts": {
@@ -485,8 +446,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "4-8": {
    "facts": {
@@ -496,8 +456,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "4-9": {
    "facts": {
@@ -507,8 +466,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "4-10": {
    "facts": {
@@ -518,8 +476,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "4-11": {
    "facts": {
@@ -529,8 +486,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "4-12": {
    "facts": {
@@ -540,8 +496,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "4-13": {
    "facts": {
@@ -551,8 +506,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "5-6": {
    "facts": {
@@ -562,8 +516,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "5-7": {
    "facts": {
@@ -573,8 +526,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "5-8": {
    "facts": {
@@ -584,8 +536,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "5-9": {
    "facts": {
@@ -595,8 +546,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "5-10": {
    "facts": {
@@ -606,8 +556,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "5-11": {
    "facts": {
@@ -617,8 +566,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "5-12": {
    "facts": {
@@ -628,8 +576,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "5-13": {
    "facts": {
@@ -639,8 +586,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "6-7": {
    "facts": {
@@ -650,8 +596,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "6-8": {
    "facts": {
@@ -661,8 +606,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "6-9": {
    "facts": {
@@ -672,8 +616,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "6-10": {
    "facts": {
@@ -683,8 +626,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "6-11": {
    "facts": {
@@ -694,8 +636,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "6-12": {
    "facts": {
@@ -705,8 +646,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "6-13": {
    "facts": {
@@ -716,8 +656,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "7-8": {
    "facts": {
@@ -727,8 +666,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "7-12": {
    "facts": {
@@ -738,8 +676,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "7-13": {
    "facts": {
@@ -749,8 +686,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "8-9": {
    "facts": {
@@ -760,8 +696,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "8-10": {
    "facts": {
@@ -771,8 +706,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "8-11": {
    "facts": {
@@ -782,8 +716,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "8-12": {
    "facts": {
@@ -793,8 +726,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "8-13": {
    "facts": {
@@ -804,8 +736,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "9-10": {
    "facts": {
@@ -815,8 +746,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "9-11": {
    "facts": {
@@ -826,8 +756,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "9-12": {
    "facts": {
@@ -837,8 +766,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "9-13": {
    "facts": {
@@ -848,8 +776,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "10-11": {
    "facts": {
@@ -859,8 +786,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "10-12": {
    "facts": {
@@ -870,8 +796,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "10-13": {
    "facts": {
@@ -881,8 +806,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "11-12": {
    "facts": {
@@ -892,8 +816,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "11-13": {
    "facts": {
@@ -903,8 +826,7 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   },
   "12-13": {
    "facts": {
@@ -914,9 +836,33 @@
     "first": "Twelfth Night",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Twelfth Night."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

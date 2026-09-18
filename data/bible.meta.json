@@ -9,9 +9,13 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "governor"
+    ]
    },
-   "line": "Appears in Ezra and Nehemiah."
+   "line": "Governor. Appears in Ezra and Nehemiah."
   },
   "1": {
    "facts": {
@@ -24,9 +28,13 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "leader"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "Leader. Appears in six books."
   },
   "2": {
    "facts": {
@@ -34,7 +42,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Judges."
   },
@@ -45,7 +54,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -58,9 +68,11 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in four books."
+   "line": "Prophet. Appears in four books."
   },
   "5": {
    "facts": {
@@ -70,7 +82,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -81,7 +94,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -91,7 +105,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Esther."
   },
@@ -101,7 +116,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -111,7 +127,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -122,7 +139,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -142,7 +160,8 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Daniel."
   },
@@ -152,7 +171,8 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in I Samuel."
   },
@@ -162,7 +182,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel."
   },
@@ -172,7 +193,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -183,7 +205,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -194,7 +217,8 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Judges and I Samuel."
   },
@@ -204,9 +228,11 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "centurion"
    },
-   "line": "Appears in Acts."
+   "line": "Centurion. Appears in Acts."
   },
   "19": {
    "facts": {
@@ -215,9 +241,10 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "occupation": "monarch"
    },
-   "line": "Appears in Judges and Psalms."
+   "line": "Monarch. Appears in Judges and Psalms."
   },
   "20": {
    "facts": {
@@ -226,9 +253,11 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "monarch"
    },
-   "line": "Appears in Judges and Psalms."
+   "line": "Monarch. Appears in Judges and Psalms."
   },
   "21": {
    "facts": {
@@ -237,9 +266,11 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in Genesis and Luke."
+   "line": "Prophet. Appears in Genesis and Luke."
   },
   "22": {
    "facts": {
@@ -249,9 +280,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "founder"
    },
-   "line": "Appears in three books."
+   "line": "Founder. Appears in three books."
   },
   "23": {
    "facts": {
@@ -261,7 +294,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -273,7 +307,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -283,9 +318,13 @@
      "I Corinthians"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in I Corinthians."
+   "line": "Apostle. Appears in I Corinthians."
   },
   "26": {
    "facts": {
@@ -298,9 +337,13 @@
      "Micah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "King of Judah. Appears in six books."
   },
   "27": {
    "facts": {
@@ -308,7 +351,8 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Acts."
   },
@@ -319,9 +363,11 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "prophet"
    },
-   "line": "Appears in Ezra and Nehemiah."
+   "line": "Prophet. Appears in Ezra and Nehemiah."
   },
   "29": {
    "facts": {
@@ -332,7 +378,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -344,7 +391,8 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -354,9 +402,11 @@
      "Joshua"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "prostitute"
    },
-   "line": "Appears in Joshua."
+   "line": "Prostitute. Appears in Joshua."
   },
   "32": {
    "facts": {
@@ -369,7 +419,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in six books."
   },
@@ -381,7 +432,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -391,7 +443,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -401,7 +454,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -417,9 +471,11 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "military leader"
    },
-   "line": "Appears in seven books."
+   "line": "Military leader. Appears in seven books."
   },
   "37": {
    "facts": {
@@ -430,9 +486,11 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "biblical judge"
    },
-   "line": "Appears in four books."
+   "line": "Biblical judge. Appears in four books."
   },
   "38": {
    "facts": {
@@ -443,7 +501,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -457,7 +516,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -467,7 +527,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings."
   },
@@ -477,7 +538,8 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings."
   },
@@ -489,7 +551,8 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -499,7 +562,8 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Kings."
   },
@@ -510,7 +574,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles and II Chronicles."
   },
@@ -521,7 +586,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel and I Chronicles."
   },
@@ -532,7 +598,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel and I Chronicles."
   },
@@ -543,7 +610,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles and II Chronicles."
   },
@@ -555,9 +623,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "military leader"
    },
-   "line": "Appears in three books."
+   "line": "Military leader. Appears in three books."
   },
   "49": {
    "facts": {
@@ -567,7 +637,8 @@
      "Amos"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -577,7 +648,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -587,7 +659,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -597,7 +670,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -609,7 +683,8 @@
      "Zephaniah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -619,7 +694,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -629,7 +705,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -639,7 +716,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -649,7 +727,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -659,7 +738,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -669,7 +749,8 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings."
   },
@@ -680,7 +761,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles and Nehemiah."
   },
@@ -691,7 +773,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles and Nehemiah."
   },
@@ -701,7 +784,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -713,7 +797,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -725,7 +810,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -735,7 +821,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -745,7 +832,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -755,7 +843,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -766,7 +855,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles and Ezra."
   },
@@ -776,7 +866,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -788,7 +879,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -799,7 +891,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles and Nehemiah."
   },
@@ -809,7 +902,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -819,7 +913,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -840,7 +935,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -852,7 +948,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -863,7 +960,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Exodus and I Chronicles."
   },
@@ -873,7 +971,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -883,7 +982,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -894,7 +994,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles and II Chronicles."
   },
@@ -907,7 +1008,8 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -919,7 +1021,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -933,7 +1036,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -943,9 +1047,11 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "soldier"
    },
-   "line": "Appears in II Samuel."
+   "line": "Soldier. Appears in II Samuel."
   },
   "85": {
    "facts": {
@@ -957,7 +1063,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -967,7 +1074,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -978,7 +1086,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -988,7 +1097,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Samuel."
   },
@@ -998,7 +1108,8 @@
      "Exodus"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Exodus."
   },
@@ -1009,7 +1120,8 @@
      "II Timothy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Colossians and II Timothy."
   },
@@ -1022,7 +1134,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -1032,7 +1145,8 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Matthew."
   },
@@ -1042,7 +1156,8 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Matthew."
   },
@@ -1055,7 +1170,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -1066,7 +1182,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1076,7 +1193,8 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Matthew."
   },
@@ -1086,7 +1204,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -1097,7 +1216,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1107,7 +1227,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -1121,7 +1242,8 @@
      "Ezekiel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -1132,7 +1254,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1142,7 +1265,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis."
   },
@@ -1155,7 +1279,8 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -1166,7 +1291,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings and Nehemiah."
   },
@@ -1176,7 +1302,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings."
   },
@@ -1187,7 +1314,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings and I Chronicles."
   },
@@ -1198,7 +1326,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in I Samuel and I Chronicles."
   },
@@ -1208,7 +1337,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -1219,7 +1349,8 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel and Psalms."
   },
@@ -1264,7 +1395,8 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -1275,7 +1407,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings and Jeremiah."
   },
@@ -1289,7 +1422,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -1300,7 +1434,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Nehemiah and Jeremiah."
   },
@@ -1312,7 +1447,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -1323,7 +1459,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ezra and Jeremiah."
   },
@@ -1333,7 +1470,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Jeremiah."
   },
@@ -1346,7 +1484,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -1356,7 +1495,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Jeremiah."
   },
@@ -1367,7 +1507,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings and Jeremiah."
   },
@@ -1378,7 +1519,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1389,7 +1531,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1399,7 +1542,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -1410,7 +1554,8 @@
      "Deuteronomy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Deuteronomy."
   },
@@ -1421,7 +1566,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1433,7 +1579,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -1444,7 +1591,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1455,7 +1603,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1467,7 +1616,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -1477,7 +1627,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -1487,7 +1638,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -1498,7 +1650,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1508,7 +1661,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -1518,7 +1672,8 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel."
   },
@@ -1529,7 +1684,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -1539,7 +1695,8 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings."
   },
@@ -1549,7 +1706,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -1559,9 +1717,11 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "spy"
    },
-   "line": "Appears in Numbers."
+   "line": "Spy. Appears in Numbers."
   },
   "141": {
    "facts": {
@@ -1575,9 +1735,13 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Babylon"
+    ]
    },
-   "line": "Appears in seven books."
+   "line": "King of Babylon. Appears in seven books."
   },
   "142": {
    "facts": {
@@ -1587,7 +1751,8 @@
      "Ezekiel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -1597,7 +1762,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Numbers."
   },
@@ -1608,7 +1774,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Numbers and I Chronicles."
   },
@@ -1620,9 +1787,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "monarch"
    },
-   "line": "Appears in three books."
+   "line": "Monarch. Appears in three books."
   },
   "146": {
    "facts": {
@@ -1631,9 +1800,11 @@
      "Joshua"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "monarch"
    },
-   "line": "Appears in Numbers and Joshua."
+   "line": "Monarch. Appears in Numbers and Joshua."
   },
   "147": {
    "facts": {
@@ -1641,7 +1812,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Numbers."
   },
@@ -1653,7 +1825,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -1664,7 +1837,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -1674,7 +1848,8 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Acts."
   },
@@ -1687,7 +1862,8 @@
      "II Timothy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -1702,9 +1878,13 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "King of Judah. Appears in six books."
   },
   "153": {
    "facts": {
@@ -1716,7 +1896,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -1729,9 +1910,13 @@
      "Amos"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "King. Appears in four books."
   },
   "155": {
    "facts": {
@@ -1745,9 +1930,13 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in seven books."
+   "line": "High Priest of Israel. Appears in seven books."
   },
   "156": {
    "facts": {
@@ -1756,9 +1945,13 @@
      "II Timothy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in Colossians and II Timothy."
+   "line": "Apostle. Appears in Colossians and II Timothy."
   },
   "157": {
    "facts": {
@@ -1766,9 +1959,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in Acts."
+   "line": "Apostle. Appears in Acts."
   },
   "158": {
    "facts": {
@@ -1777,9 +1974,13 @@
      "Ruth"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in Genesis and Ruth."
+   "line": "Prophet. Appears in Genesis and Ruth."
   },
   "159": {
    "facts": {
@@ -1789,7 +1990,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -1800,9 +2002,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "military leader"
    },
-   "line": "Appears in Judges and I Chronicles."
+   "line": "Military leader. Appears in Judges and I Chronicles."
   },
   "161": {
    "facts": {
@@ -1810,7 +2014,8 @@
      "Job"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Job."
   },
@@ -1821,7 +2026,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ezra and Nehemiah."
   },
@@ -1833,7 +2039,8 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -1843,7 +2050,8 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings."
   },
@@ -1853,7 +2061,8 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel."
   },
@@ -1866,7 +2075,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -1877,7 +2087,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -1888,7 +2099,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -1900,7 +2112,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -1911,7 +2124,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -1922,9 +2136,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "soldier"
    },
-   "line": "Appears in II Samuel and I Chronicles."
+   "line": "Soldier. Appears in II Samuel and I Chronicles."
   },
   "172": {
    "facts": {
@@ -1932,7 +2148,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings."
   },
@@ -1942,9 +2159,11 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "secretary"
    },
-   "line": "Appears in I Kings."
+   "line": "Secretary. Appears in I Kings."
   },
   "174": {
    "facts": {
@@ -1952,7 +2171,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings."
   },
@@ -1963,9 +2183,11 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "biblical judge"
    },
-   "line": "Appears in Genesis and Numbers."
+   "line": "Biblical judge. Appears in Genesis and Numbers."
   },
   "176": {
    "facts": {
@@ -1974,7 +2196,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings and II Chronicles."
   },
@@ -1984,7 +2207,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings."
   },
@@ -1994,7 +2218,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings."
   },
@@ -2005,7 +2230,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings and II Chronicles."
   },
@@ -2018,9 +2244,13 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "Prophet. Appears in four books."
   },
   "181": {
    "facts": {
@@ -2028,7 +2258,8 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings."
   },
@@ -2038,7 +2269,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Judges."
   },
@@ -2052,7 +2284,8 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -2064,7 +2297,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -2077,7 +2311,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -2088,7 +2323,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings and II Chronicles."
   },
@@ -2100,7 +2336,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in three books."
   },
@@ -2110,7 +2347,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -2122,7 +2360,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -2133,7 +2372,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -2147,7 +2387,8 @@
      "Ezekiel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -2167,7 +2408,8 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in John."
   },
@@ -2178,7 +2420,8 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Esther and Daniel."
   },
@@ -2189,7 +2432,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings and I Chronicles."
   },
@@ -2201,7 +2445,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -2252,7 +2497,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Kings and II Chronicles."
   },
@@ -2263,7 +2509,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -2284,7 +2531,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Numbers."
   },
@@ -2294,7 +2542,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2306,7 +2555,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -2316,7 +2566,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2326,7 +2577,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ezra."
   },
@@ -2336,7 +2588,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2366,7 +2619,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2376,7 +2630,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2386,7 +2641,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2396,7 +2652,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2406,7 +2663,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2436,7 +2694,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2456,7 +2715,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2466,7 +2726,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Nehemiah."
   },
@@ -2510,7 +2771,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Nehemiah."
   },
@@ -2520,7 +2782,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2530,7 +2793,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ezra."
   },
@@ -2540,7 +2804,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2560,7 +2825,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2570,7 +2836,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Nehemiah."
   },
@@ -2580,7 +2847,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2591,7 +2859,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Joshua and I Chronicles."
   },
@@ -2615,9 +2884,13 @@
      "Colossians"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "Apostle. Appears in three books."
   },
   "237": {
    "facts": {
@@ -2625,7 +2898,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2636,7 +2910,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ezra and Nehemiah."
   },
@@ -2647,7 +2922,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ezra and Nehemiah."
   },
@@ -2657,9 +2933,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "bishop"
+    ]
    },
-   "line": "Appears in Acts."
+   "line": "Bishop. Appears in Acts."
   },
   "241": {
    "facts": {
@@ -2677,7 +2957,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2719,7 +3000,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -2729,7 +3011,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2739,7 +3022,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2749,7 +3033,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ezra."
   },
@@ -2769,7 +3054,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2779,9 +3065,10 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "occupation": "warrior"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Warrior. Appears in I Chronicles."
   },
   "253": {
    "facts": {
@@ -2795,9 +3082,13 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in seven books."
+   "line": "High Priest of Israel. Appears in seven books."
   },
   "254": {
    "facts": {
@@ -2805,7 +3096,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2815,7 +3107,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2845,7 +3138,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2860,7 +3154,8 @@
      "Amos"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in six books."
   },
@@ -2880,7 +3175,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel."
   },
@@ -2890,7 +3186,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Judges."
   },
@@ -2900,7 +3197,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2930,7 +3228,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2951,7 +3250,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -2991,7 +3291,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Chronicles."
   },
@@ -3001,9 +3302,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "Roman emperor"
+    ]
    },
-   "line": "Appears in Acts."
+   "line": "Roman emperor. Appears in Acts."
   },
   "274": {
    "facts": {
@@ -3011,9 +3316,13 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "Roman emperor"
+    ]
    },
-   "line": "Appears in Luke."
+   "line": "Roman emperor. Appears in Luke."
   },
   "275": {
    "facts": {
@@ -3024,9 +3333,13 @@
      "Micah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "King. Appears in four books."
   },
   "276": {
    "facts": {
@@ -3068,7 +3381,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Esther."
   },
@@ -3089,9 +3403,13 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in 12 books."
+   "line": "Prophet. Appears in 12 books."
   },
   "281": {
    "facts": {
@@ -3099,7 +3417,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -3120,7 +3439,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -3136,9 +3456,11 @@
      "Amos"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "biblical judge"
    },
-   "line": "Appears in seven books."
+   "line": "Biblical judge. Appears in seven books."
   },
   "285": {
    "facts": {
@@ -3147,7 +3469,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Numbers and Judges."
   },
@@ -3161,7 +3484,8 @@
      "Zephaniah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -3173,7 +3497,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3185,9 +3510,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "biblical judge"
    },
-   "line": "Appears in three books."
+   "line": "Biblical judge. Appears in three books."
   },
   "289": {
    "facts": {
@@ -3196,9 +3523,11 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in I Kings and II Chronicles."
+   "line": "Prophet. Appears in I Kings and II Chronicles."
   },
   "290": {
    "facts": {
@@ -3208,7 +3537,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in three books."
   },
@@ -3220,7 +3550,8 @@
      "Habakkuk"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3231,7 +3562,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -3241,9 +3573,11 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "kohen"
    },
-   "line": "Appears in I Samuel."
+   "line": "Kohen. Appears in I Samuel."
   },
   "294": {
    "facts": {
@@ -3253,7 +3587,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3263,7 +3598,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ezra."
   },
@@ -3273,7 +3609,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -3288,9 +3625,13 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "Prophet. Appears in six books."
   },
   "298": {
    "facts": {
@@ -3309,9 +3650,13 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in 12 books."
+   "line": "High Priest of Israel. Appears in 12 books."
   },
   "299": {
    "facts": {
@@ -3322,7 +3667,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -3333,9 +3679,11 @@
      "Haggai"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in Ezra and Haggai."
+   "line": "Prophet. Appears in Ezra and Haggai."
   },
   "301": {
    "facts": {
@@ -3343,7 +3691,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Chronicles."
   },
@@ -3354,7 +3703,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -3365,7 +3715,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Kings and Jeremiah."
   },
@@ -3376,9 +3727,11 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "sovereign"
    },
-   "line": "Appears in I Samuel and I Kings."
+   "line": "Sovereign. Appears in I Samuel and I Kings."
   },
   "305": {
    "facts": {
@@ -3390,9 +3743,11 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "kohen"
    },
-   "line": "Appears in five books."
+   "line": "Kohen. Appears in five books."
   },
   "306": {
    "facts": {
@@ -3401,7 +3756,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles and Jeremiah."
   },
@@ -3414,9 +3770,11 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "fisher"
    },
-   "line": "Appears in four books."
+   "line": "Fisher. Appears in four books."
   },
   "308": {
    "facts": {
@@ -3424,7 +3782,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -3434,7 +3793,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Judges."
   },
@@ -3447,7 +3807,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -3459,7 +3820,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3470,7 +3832,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel and II Samuel."
   },
@@ -3485,9 +3848,13 @@
      "I Timothy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prefect of Judea"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "Prefect of Judea. Appears in six books."
   },
   "314": {
    "facts": {
@@ -3498,9 +3865,11 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "religious leader"
    },
-   "line": "Appears in four books."
+   "line": "Religious leader. Appears in four books."
   },
   "315": {
    "facts": {
@@ -3523,7 +3892,8 @@
      "Joshua"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in three books."
   },
@@ -3534,9 +3904,13 @@
      "Hebrews"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in Judges and Hebrews."
+   "line": "Prophet. Appears in Judges and Hebrews."
   },
   "318": {
    "facts": {
@@ -3548,9 +3922,13 @@
      "Zechariah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "Prophet. Appears in five books."
   },
   "319": {
    "facts": {
@@ -3560,7 +3938,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3570,7 +3949,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -3581,7 +3961,8 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Ruth and Matthew."
   },
@@ -3591,7 +3972,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -3603,7 +3985,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3615,7 +3998,8 @@
      "Ezekiel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3625,7 +4009,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis."
   },
@@ -3640,7 +4025,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in six books."
   },
@@ -3650,7 +4036,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Jeremiah."
   },
@@ -3665,9 +4052,13 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "High Priest of Israel. Appears in six books."
   },
   "329": {
    "facts": {
@@ -3677,7 +4068,8 @@
      "Job"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3689,7 +4081,8 @@
      "Habakkuk"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3704,7 +4097,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in six books."
   },
@@ -3720,9 +4114,13 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in seven books."
+   "line": "King of Judah. Appears in seven books."
   },
   "333": {
    "facts": {
@@ -3731,9 +4129,13 @@
      "Galatians"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "bishop"
+    ]
    },
-   "line": "Appears in Acts and Galatians."
+   "line": "Bishop. Appears in Acts and Galatians."
   },
   "334": {
    "facts": {
@@ -3741,7 +4143,8 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Matthew."
   },
@@ -3751,7 +4154,8 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Matthew."
   },
@@ -3761,7 +4165,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in I Chronicles."
   },
@@ -3773,9 +4178,13 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "Prophet. Appears in three books."
   },
   "338": {
    "facts": {
@@ -3783,7 +4192,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Esther."
   },
@@ -3794,7 +4204,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Joshua and I Chronicles."
   },
@@ -3804,9 +4215,11 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "courtier"
    },
-   "line": "Appears in Esther."
+   "line": "Courtier. Appears in Esther."
   },
   "341": {
    "facts": {
@@ -3816,9 +4229,13 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "kohen"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "Kohen. Appears in three books."
   },
   "342": {
    "facts": {
@@ -3827,7 +4244,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel and I Chronicles."
   },
@@ -3840,9 +4258,11 @@
      "Micah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "prophet"
    },
-   "line": "Appears in four books."
+   "line": "Prophet. Appears in four books."
   },
   "344": {
    "facts": {
@@ -3851,7 +4271,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Kings."
   },
@@ -3862,7 +4283,8 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis and Isaiah."
   },
@@ -3874,9 +4296,11 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in three books."
+   "line": "Prophet. Appears in three books."
   },
   "347": {
    "facts": {
@@ -3887,7 +4311,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in four books."
   },
@@ -3897,7 +4322,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -3908,7 +4334,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -3920,7 +4347,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3931,7 +4359,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -3943,7 +4372,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3953,7 +4383,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis."
   },
@@ -3963,7 +4394,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -3976,7 +4408,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -3988,7 +4421,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -3998,7 +4432,8 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Kings."
   },
@@ -4010,9 +4445,11 @@
      "Jude"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "farmer"
    },
-   "line": "Appears in three books."
+   "line": "Farmer. Appears in three books."
   },
   "359": {
    "facts": {
@@ -4024,9 +4461,13 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "King. Appears in five books."
   },
   "360": {
    "facts": {
@@ -4034,9 +4475,11 @@
      "Exodus"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "herder"
    },
-   "line": "Appears in Exodus."
+   "line": "Herder. Appears in Exodus."
   },
   "361": {
    "facts": {
@@ -4045,9 +4488,13 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in I Kings and II Kings."
+   "line": "Prophet. Appears in I Kings and II Kings."
   },
   "362": {
    "facts": {
@@ -4055,7 +4502,8 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in I Samuel."
   },
@@ -4067,9 +4515,13 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Assyria"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "King of Assyria. Appears in three books."
   },
   "364": {
    "facts": {
@@ -4078,9 +4530,13 @@
      "Ruth"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in Genesis and Ruth."
+   "line": "Prophet. Appears in Genesis and Ruth."
   },
   "365": {
    "facts": {
@@ -4091,7 +4547,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -4105,9 +4562,11 @@
      "Joel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "judge"
    },
-   "line": "Appears in five books."
+   "line": "Judge. Appears in five books."
   },
   "367": {
    "facts": {
@@ -4119,9 +4578,11 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in five books."
+   "line": "Prophet. Appears in five books."
   },
   "368": {
    "facts": {
@@ -4130,7 +4591,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -4142,9 +4604,13 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "King of Judah. Appears in three books."
   },
   "370": {
    "facts": {
@@ -4152,9 +4618,13 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "ruler of Elam"
+    ]
    },
-   "line": "Appears in Genesis."
+   "line": "Ruler of Elam. Appears in Genesis."
   },
   "371": {
    "facts": {
@@ -4165,7 +4635,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -4178,9 +4649,13 @@
      "Philemon"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "bishop"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "Bishop. Appears in four books."
   },
   "373": {
    "facts": {
@@ -4188,7 +4663,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Numbers."
   },
@@ -4200,7 +4676,8 @@
      "Jude"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -4210,7 +4687,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -4221,9 +4699,13 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in Genesis and Judges."
+   "line": "Prophet. Appears in Genesis and Judges."
   },
   "377": {
    "facts": {
@@ -4232,9 +4714,11 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in Amos and Luke."
+   "line": "Prophet. Appears in Amos and Luke."
   },
   "378": {
    "facts": {
@@ -4242,9 +4726,13 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "titles": [
+     "consort"
+    ]
    },
-   "line": "Appears in Genesis."
+   "line": "Consort. Appears in Genesis."
   },
   "379": {
    "facts": {
@@ -4253,9 +4741,11 @@
      "Hebrews"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "warrior"
    },
-   "line": "Appears in Judges and Hebrews."
+   "line": "Warrior. Appears in Judges and Hebrews."
   },
   "380": {
    "facts": {
@@ -4263,7 +4753,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -4273,7 +4764,8 @@
      "II Timothy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Timothy."
   },
@@ -4283,7 +4775,8 @@
      "II Timothy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Timothy."
   },
@@ -4293,9 +4786,13 @@
      "Hebrews"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in Hebrews."
+   "line": "King. Appears in Hebrews."
   },
   "384": {
    "facts": {
@@ -4306,9 +4803,13 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "High Priest of Israel. Appears in four books."
   },
   "385": {
    "facts": {
@@ -4318,7 +4819,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -4330,7 +4832,8 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -4340,9 +4843,13 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "crown prince"
+    ]
    },
-   "line": "Appears in Daniel."
+   "line": "Crown prince. Appears in Daniel."
   },
   "388": {
    "facts": {
@@ -4355,7 +4862,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in six books."
   },
@@ -4365,7 +4873,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Esther."
   },
@@ -4376,7 +4885,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -4387,9 +4897,11 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "seigneur"
    },
-   "line": "Appears in Luke and John."
+   "line": "Seigneur. Appears in Luke and John."
   },
   "392": {
    "facts": {
@@ -4398,9 +4910,13 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in I Chronicles and Ezra."
+   "line": "High Priest of Israel. Appears in I Chronicles and Ezra."
   },
   "393": {
    "facts": {
@@ -4409,7 +4925,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -4419,9 +4936,13 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in I Samuel."
+   "line": "Prophet. Appears in I Samuel."
   },
   "395": {
    "facts": {
@@ -4429,7 +4950,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Luke."
   },
@@ -4443,9 +4965,13 @@
      "Micah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "King of Israel. Appears in five books."
   },
   "397": {
    "facts": {
@@ -4453,7 +4979,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Kings."
   },
@@ -4463,7 +4990,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel."
   },
@@ -4474,7 +5002,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -4486,7 +5015,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -4503,9 +5033,13 @@
      "Micah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in 8 books."
+   "line": "King of Judah. Appears in 8 books."
   },
   "402": {
    "facts": {
@@ -4517,7 +5051,8 @@
      "Jude"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -4529,9 +5064,13 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "Prophet. Appears in three books."
   },
   "404": {
    "facts": {
@@ -4539,7 +5078,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -4552,7 +5092,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -4562,9 +5103,11 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "aristocrat"
    },
-   "line": "Appears in Acts."
+   "line": "Aristocrat. Appears in Acts."
   },
   "407": {
    "facts": {
@@ -4572,9 +5115,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "Roman consul"
+    ]
    },
-   "line": "Appears in Acts."
+   "line": "Roman consul. Appears in Acts."
   },
   "408": {
    "facts": {
@@ -4582,7 +5129,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -4592,7 +5140,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -4602,7 +5151,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -4612,7 +5162,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -4622,7 +5173,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -4632,7 +5184,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -4642,7 +5195,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -4652,7 +5206,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Luke."
   },
@@ -4663,7 +5218,8 @@
      "Joshua"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Numbers and Joshua."
   },
@@ -4674,9 +5230,11 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in I Kings and II Chronicles."
+   "line": "Prophet. Appears in I Kings and II Chronicles."
   },
   "418": {
    "facts": {
@@ -4684,7 +5242,8 @@
      "Ruth"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Ruth."
   },
@@ -4694,7 +5253,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Jeremiah."
   },
@@ -4704,7 +5264,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis."
   },
@@ -4716,9 +5277,11 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "spy"
    },
-   "line": "Appears in three books."
+   "line": "Spy. Appears in three books."
   },
   "422": {
    "facts": {
@@ -4728,7 +5291,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -4739,7 +5303,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Joshua and Judges."
   },
@@ -4751,7 +5316,8 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in three books."
   },
@@ -4765,7 +5331,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -4777,7 +5344,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -4790,9 +5358,11 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "military leader"
    },
-   "line": "Appears in four books."
+   "line": "Military leader. Appears in four books."
   },
   "428": {
    "facts": {
@@ -4800,7 +5370,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Luke."
   },
@@ -4811,7 +5382,8 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Daniel."
   },
@@ -4822,9 +5394,13 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "elder"
+    ]
    },
-   "line": "Appears in Mark and John."
+   "line": "Elder. Appears in Mark and John."
   },
   "431": {
    "facts": {
@@ -4834,7 +5410,8 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -4844,9 +5421,13 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in Nehemiah."
+   "line": "High Priest of Israel. Appears in Nehemiah."
   },
   "433": {
    "facts": {
@@ -4855,9 +5436,13 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in I Kings and II Chronicles."
+   "line": "King of Judah. Appears in I Kings and II Chronicles."
   },
   "434": {
    "facts": {
@@ -4865,7 +5450,8 @@
      "Job"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Job."
   },
@@ -4875,9 +5461,10 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "occupation": "eunuch"
    },
-   "line": "Appears in Esther."
+   "line": "Eunuch. Appears in Esther."
   },
   "436": {
    "facts": {
@@ -4889,9 +5476,11 @@
      "Micah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in five books."
+   "line": "Prophet. Appears in five books."
   },
   "437": {
    "facts": {
@@ -4899,7 +5488,8 @@
      "Joshua"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Joshua."
   },
@@ -4909,7 +5499,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -4920,7 +5511,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel and II Samuel."
   },
@@ -4932,7 +5524,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in three books."
   },
@@ -4942,9 +5535,11 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "king"
    },
-   "line": "Appears in Genesis."
+   "line": "King. Appears in Genesis."
   },
   "442": {
    "facts": {
@@ -4952,7 +5547,8 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel."
   },
@@ -4966,9 +5562,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "King of Israel. Appears in five books."
   },
   "444": {
    "facts": {
@@ -4977,7 +5577,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -4988,7 +5589,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -4998,7 +5600,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Samuel."
   },
@@ -5008,7 +5611,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -5021,9 +5625,13 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "High Priest of Israel. Appears in four books."
   },
   "449": {
    "facts": {
@@ -5034,7 +5642,8 @@
      "Ezekiel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -5045,7 +5654,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -5056,7 +5666,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -5067,7 +5678,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -5079,7 +5691,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -5092,7 +5705,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -5105,7 +5719,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -5119,7 +5734,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -5129,7 +5745,8 @@
      "Exodus"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Exodus."
   },
@@ -5139,9 +5756,11 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "official"
    },
-   "line": "Appears in Isaiah."
+   "line": "Official. Appears in Isaiah."
   },
   "459": {
    "facts": {
@@ -5172,9 +5791,13 @@
      "Revelation of John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in 24 books."
+   "line": "Prophet. Appears in 24 books."
   },
   "460": {
    "facts": {
@@ -5182,7 +5805,8 @@
      "Ruth"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ruth."
   },
@@ -5192,7 +5816,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Esther."
   },
@@ -5203,9 +5828,11 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "biblical judge"
    },
-   "line": "Appears in I Chronicles and II Chronicles."
+   "line": "Biblical judge. Appears in I Chronicles and II Chronicles."
   },
   "463": {
    "facts": {
@@ -5218,9 +5845,13 @@
      "Micah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "King of Judah. Appears in six books."
   },
   "464": {
    "facts": {
@@ -5228,9 +5859,13 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in II Kings."
+   "line": "King of Israel. Appears in II Kings."
   },
   "465": {
    "facts": {
@@ -5244,9 +5879,13 @@
      "Amos"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in seven books."
+   "line": "King of Judah. Appears in seven books."
   },
   "466": {
    "facts": {
@@ -5258,9 +5897,13 @@
      "Micah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "King of Israel. Appears in five books."
   },
   "467": {
    "facts": {
@@ -5272,9 +5915,13 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "King of Israel. Appears in five books."
   },
   "468": {
    "facts": {
@@ -5285,9 +5932,13 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "King of Israel. Appears in four books."
   },
   "469": {
    "facts": {
@@ -5298,9 +5949,13 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "King of Israel. Appears in four books."
   },
   "470": {
    "facts": {
@@ -5315,9 +5970,13 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in 8 books."
+   "line": "King of Judah. Appears in 8 books."
   },
   "471": {
    "facts": {
@@ -5328,9 +5987,13 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "King of Israel. Appears in four books."
   },
   "472": {
    "facts": {
@@ -5341,9 +6004,13 @@
      "Amos"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "King of Judah. Appears in four books."
   },
   "473": {
    "facts": {
@@ -5355,9 +6022,13 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "King of Judah. Appears in five books."
   },
   "474": {
    "facts": {
@@ -5366,9 +6037,11 @@
      "Mark"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "criminal"
    },
-   "line": "Appears in Matthew and Mark."
+   "line": "Criminal. Appears in Matthew and Mark."
   },
   "475": {
    "facts": {
@@ -5382,9 +6055,11 @@
      "Hebrews"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "shepherd"
    },
-   "line": "Appears in seven books."
+   "line": "Shepherd. Appears in seven books."
   },
   "476": {
    "facts": {
@@ -5399,9 +6074,13 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in 8 books."
+   "line": "King of Judah. Appears in 8 books."
   },
   "477": {
    "facts": {
@@ -5409,9 +6088,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "procurator of Judea"
+    ]
    },
-   "line": "Appears in Acts."
+   "line": "Procurator of Judea. Appears in Acts."
   },
   "478": {
    "facts": {
@@ -5423,9 +6106,13 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "King of Israel. Appears in five books."
   },
   "479": {
    "facts": {
@@ -5437,9 +6124,13 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "King of Judah. Appears in five books."
   },
   "480": {
    "facts": {
@@ -5449,9 +6140,13 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "King of Israel. Appears in three books."
   },
   "481": {
    "facts": {
@@ -5463,9 +6158,13 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "King of Judah. Appears in five books."
   },
   "482": {
    "facts": {
@@ -5480,9 +6179,11 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in 8 books."
+   "line": "Prophet. Appears in 8 books."
   },
   "483": {
    "facts": {
@@ -5491,9 +6192,13 @@
      "Philemon"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "Ecumenical Patriarch of Constantinople"
+    ]
    },
-   "line": "Appears in Colossians and Philemon."
+   "line": "Ecumenical Patriarch of Constantinople. Appears in Colossians and Philemon."
   },
   "484": {
    "facts": {
@@ -5504,9 +6209,13 @@
      "Titus"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "bishop"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "Bishop. Appears in four books."
   },
   "485": {
    "facts": {
@@ -5519,9 +6228,13 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "governor"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "Governor. Appears in six books."
   },
   "486": {
    "facts": {
@@ -5531,9 +6244,11 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in three books."
+   "line": "Prophet. Appears in three books."
   },
   "487": {
    "facts": {
@@ -5544,9 +6259,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "kohen"
    },
-   "line": "Appears in four books."
+   "line": "Kohen. Appears in four books."
   },
   "488": {
    "facts": {
@@ -5554,7 +6271,8 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Matthew."
   },
@@ -5564,7 +6282,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in I Kings."
   },
@@ -5577,9 +6296,13 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "High Priest of Israel. Appears in four books."
   },
   "491": {
    "facts": {
@@ -5590,7 +6313,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -5606,9 +6330,13 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in seven books."
+   "line": "High Priest of Israel. Appears in seven books."
   },
   "493": {
    "facts": {
@@ -5616,7 +6344,8 @@
      "Joshua"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Joshua."
   },
@@ -5627,7 +6356,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -5639,7 +6369,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -5650,7 +6381,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -5660,7 +6392,8 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Psalms."
   },
@@ -5671,7 +6404,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -5682,7 +6416,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis and I Kings."
   },
@@ -5694,9 +6429,13 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Ammon"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "King of Ammon. Appears in three books."
   },
   "501": {
    "facts": {
@@ -5710,7 +6449,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in seven books."
   },
@@ -5722,9 +6462,13 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "King of Israel. Appears in three books."
   },
   "503": {
    "facts": {
@@ -5737,9 +6481,13 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "King of Israel. Appears in six books."
   },
   "504": {
    "facts": {
@@ -5747,9 +6495,13 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in II Kings."
+   "line": "King of Israel. Appears in II Kings."
   },
   "505": {
    "facts": {
@@ -5758,9 +6510,13 @@
      "I Corinthians"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in Acts and I Corinthians."
+   "line": "Apostle. Appears in Acts and I Corinthians."
   },
   "506": {
    "facts": {
@@ -5768,7 +6524,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -5786,9 +6543,13 @@
      "II Peter"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "Pope"
+    ]
    },
-   "line": "Appears in 9 books."
+   "line": "Pope. Appears in 9 books."
   },
   "508": {
    "facts": {
@@ -5800,7 +6561,8 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in five books."
   },
@@ -5810,9 +6572,13 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in I Chronicles."
+   "line": "King. Appears in I Chronicles."
   },
   "510": {
    "facts": {
@@ -5820,7 +6586,8 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Acts."
   },
@@ -5830,7 +6597,8 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Samuel."
   },
@@ -5845,9 +6613,11 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "patriarch"
    },
-   "line": "Appears in six books."
+   "line": "Patriarch. Appears in six books."
   },
   "513": {
    "facts": {
@@ -5858,7 +6628,8 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -5869,7 +6640,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Judges and II Samuel."
   },
@@ -5882,7 +6654,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -5893,7 +6666,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -5905,9 +6679,13 @@
      "Matthew"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "High Priest of Israel. Appears in three books."
   },
   "518": {
    "facts": {
@@ -5915,7 +6693,8 @@
      "Ruth"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ruth."
   },
@@ -5926,7 +6705,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -5946,9 +6726,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in 11 books."
+   "line": "King of Israel. Appears in 11 books."
   },
   "521": {
    "facts": {
@@ -5956,7 +6740,8 @@
      "Job"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Job."
   },
@@ -5966,7 +6751,8 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Acts."
   },
@@ -5976,7 +6762,8 @@
      "Job"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Job."
   },
@@ -5986,9 +6773,11 @@
      "I Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "monarch"
    },
-   "line": "Appears in I Samuel."
+   "line": "Monarch. Appears in I Samuel."
   },
   "525": {
    "facts": {
@@ -5999,9 +6788,13 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "High Priest of Israel. Appears in four books."
   },
   "526": {
    "facts": {
@@ -6011,7 +6804,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in three books."
   },
@@ -6021,7 +6815,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel."
   },
@@ -6032,7 +6827,8 @@
      "Romans"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis and Romans."
   },
@@ -6043,7 +6839,8 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Psalms."
   },
@@ -6053,9 +6850,13 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "minister"
+    ]
    },
-   "line": "Appears in I Kings."
+   "line": "Minister. Appears in I Kings."
   },
   "531": {
    "facts": {
@@ -6085,9 +6886,13 @@
      "Revelation of John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in 23 books."
+   "line": "King of Israel. Appears in 23 books."
   },
   "532": {
    "facts": {
@@ -6100,7 +6905,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in six books."
   },
@@ -6111,7 +6917,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Kings and II Chronicles."
   },
@@ -6121,7 +6928,8 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Acts."
   },
@@ -6132,7 +6940,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Luke."
   },
@@ -6143,7 +6952,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -6154,7 +6964,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -6165,7 +6976,8 @@
      "Joshua"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Numbers and Joshua."
   },
@@ -6175,7 +6987,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Nehemiah."
   },
@@ -6191,9 +7004,11 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "musician"
    },
-   "line": "Appears in seven books."
+   "line": "Musician. Appears in seven books."
   },
   "541": {
    "facts": {
@@ -6201,7 +7016,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel."
   },
@@ -6215,9 +7031,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "Ecumenical Patriarch of Constantinople"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "Ecumenical Patriarch of Constantinople. Appears in five books."
   },
   "543": {
    "facts": {
@@ -6228,9 +7048,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "Apostle. Appears in four books."
   },
   "544": {
    "facts": {
@@ -6238,9 +7062,13 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in John."
+   "line": "Apostle. Appears in John."
   },
   "545": {
    "facts": {
@@ -6251,9 +7079,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "Apostle. Appears in four books."
   },
   "546": {
    "facts": {
@@ -6267,9 +7099,13 @@
      "Jude"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in seven books."
+   "line": "Apostle. Appears in seven books."
   },
   "547": {
    "facts": {
@@ -6279,7 +7115,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -6290,7 +7127,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Numbers."
   },
@@ -6301,7 +7139,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Numbers."
   },
@@ -6313,9 +7152,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "queen consort"
    },
-   "line": "Appears in three books."
+   "line": "Queen consort. Appears in three books."
   },
   "551": {
    "facts": {
@@ -6324,9 +7165,11 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "farmer"
    },
-   "line": "Appears in I Kings and II Kings."
+   "line": "Farmer. Appears in I Kings and II Kings."
   },
   "552": {
    "facts": {
@@ -6335,7 +7178,8 @@
      "Joshua"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Numbers and Joshua."
   },
@@ -6354,7 +7198,8 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in 10 books."
   },
@@ -6366,7 +7211,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -6376,9 +7222,11 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "religious leader"
    },
-   "line": "Appears in Genesis."
+   "line": "Religious leader. Appears in Genesis."
   },
   "556": {
    "facts": {
@@ -6388,9 +7236,13 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "titles": [
+     "King of Judah"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "King of Judah. Appears in three books."
   },
   "557": {
    "facts": {
@@ -6398,9 +7250,13 @@
      "Acts"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "procurator of Judea"
+    ]
    },
-   "line": "Appears in Acts."
+   "line": "Procurator of Judea. Appears in Acts."
   },
   "558": {
    "facts": {
@@ -6409,9 +7265,13 @@
      "Romans"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in Acts and Romans."
+   "line": "Apostle. Appears in Acts and Romans."
   },
   "559": {
    "facts": {
@@ -6419,7 +7279,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Judges."
   },
@@ -6429,7 +7290,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -6440,7 +7302,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Numbers and I Chronicles."
   },
@@ -6452,7 +7315,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -6466,9 +7330,13 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in five books."
+   "line": "High Priest of Israel. Appears in five books."
   },
   "564": {
    "facts": {
@@ -6478,7 +7346,8 @@
      "Job"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -6490,7 +7359,8 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -6503,7 +7373,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -6517,9 +7388,11 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in five books."
+   "line": "Prophet. Appears in five books."
   },
   "568": {
    "facts": {
@@ -6534,9 +7407,11 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in 8 books."
+   "line": "Prophet. Appears in 8 books."
   },
   "569": {
    "facts": {
@@ -6546,7 +7421,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in three books."
   },
@@ -6560,7 +7436,8 @@
      "II Peter"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -6575,7 +7452,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in six books."
   },
@@ -6585,7 +7463,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -6598,7 +7477,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -6623,9 +7503,13 @@
      "Hebrews"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in 16 books."
+   "line": "High Priest of Israel. Appears in 16 books."
   },
   "575": {
    "facts": {
@@ -6634,7 +7518,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -6646,9 +7531,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "biblical judge"
    },
-   "line": "Appears in three books."
+   "line": "Biblical judge. Appears in three books."
   },
   "577": {
    "facts": {
@@ -6657,7 +7544,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -6668,7 +7556,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -6679,9 +7568,13 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "bishop"
+    ]
    },
-   "line": "Appears in Luke and John."
+   "line": "Bishop. Appears in Luke and John."
   },
   "580": {
    "facts": {
@@ -6689,7 +7582,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -6699,7 +7593,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -6709,9 +7604,11 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "treasurer"
    },
-   "line": "Appears in Ezra."
+   "line": "Treasurer. Appears in Ezra."
   },
   "583": {
    "facts": {
@@ -6721,7 +7618,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -6733,7 +7631,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in three books."
   },
@@ -6768,9 +7667,13 @@
      "Jude"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "Prophet. Appears in six books."
   },
   "588": {
    "facts": {
@@ -6779,9 +7682,11 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "prophet"
    },
-   "line": "Appears in II Kings and II Chronicles."
+   "line": "Prophet. Appears in II Kings and II Chronicles."
   },
   "589": {
    "facts": {
@@ -6791,7 +7696,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -6801,7 +7707,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -6811,7 +7718,8 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Daniel."
   },
@@ -6822,7 +7730,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Exodus and Numbers."
   },
@@ -6833,7 +7742,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -6843,9 +7753,11 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "spy"
    },
-   "line": "Appears in II Samuel."
+   "line": "Spy. Appears in II Samuel."
   },
   "595": {
    "facts": {
@@ -6856,9 +7768,13 @@
      "Haggai"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "King. Appears in four books."
   },
   "596": {
    "facts": {
@@ -6866,7 +7782,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis."
   },
@@ -6876,7 +7793,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -6886,7 +7804,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -6896,7 +7815,8 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings."
   },
@@ -6910,9 +7830,11 @@
      "Zechariah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "priest"
    },
-   "line": "Appears in five books."
+   "line": "Priest. Appears in five books."
   },
   "601": {
    "facts": {
@@ -6923,7 +7845,8 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -6934,7 +7857,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -6944,7 +7868,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -6954,9 +7879,13 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in Nehemiah."
+   "line": "High Priest of Israel. Appears in Nehemiah."
   },
   "605": {
    "facts": {
@@ -6965,7 +7894,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and Jeremiah."
   },
@@ -6975,9 +7905,13 @@
      "Exodus"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in Exodus."
+   "line": "Prophet. Appears in Exodus."
   },
   "607": {
    "facts": {
@@ -6988,9 +7922,11 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "caregiver"
    },
-   "line": "Appears in four books."
+   "line": "Caregiver. Appears in four books."
   },
   "608": {
    "facts": {
@@ -6999,7 +7935,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Numbers."
   },
@@ -7009,7 +7946,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Esther."
   },
@@ -7020,7 +7958,8 @@
      "Exodus"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Exodus."
   },
@@ -7030,7 +7969,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -7043,7 +7983,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -7055,7 +7996,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7085,7 +8027,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -7095,9 +8038,11 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "warrior"
    },
-   "line": "Appears in II Samuel."
+   "line": "Warrior. Appears in II Samuel."
   },
   "618": {
    "facts": {
@@ -7115,7 +8060,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -7125,7 +8071,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Esther."
   },
@@ -7140,9 +8087,13 @@
      "Hebrews"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in six books."
+   "line": "Prophet. Appears in six books."
   },
   "622": {
    "facts": {
@@ -7150,7 +8101,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Esther."
   },
@@ -7161,7 +8113,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7171,9 +8124,11 @@
      "Hosea"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "prophet"
    },
-   "line": "Appears in Hosea."
+   "line": "Prophet. Appears in Hosea."
   },
   "625": {
    "facts": {
@@ -7181,7 +8136,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel."
   },
@@ -7191,7 +8147,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Jeremiah."
   },
@@ -7202,7 +8159,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7230,9 +8188,13 @@
      "James"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in 19 books."
+   "line": "Prophet. Appears in 19 books."
   },
   "629": {
    "facts": {
@@ -7241,7 +8203,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7251,7 +8214,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -7261,7 +8225,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -7273,7 +8238,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7295,7 +8261,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7307,9 +8274,13 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Ammon"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "King of Ammon. Appears in three books."
   },
   "636": {
    "facts": {
@@ -7323,9 +8294,11 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "rabbi"
    },
-   "line": "Appears in seven books."
+   "line": "Rabbi. Appears in seven books."
   },
   "637": {
    "facts": {
@@ -7333,7 +8306,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Jeremiah."
   },
@@ -7344,7 +8318,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7360,9 +8335,11 @@
      "Jude"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "farmer"
    },
-   "line": "Appears in seven books."
+   "line": "Farmer. Appears in seven books."
   },
   "640": {
    "facts": {
@@ -7370,9 +8347,13 @@
      "Philemon"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in Philemon."
+   "line": "Apostle. Appears in Philemon."
   },
   "641": {
    "facts": {
@@ -7380,7 +8361,8 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in John."
   },
@@ -7391,7 +8373,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Kings."
   },
@@ -7404,7 +8387,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -7414,9 +8398,13 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in II Samuel."
+   "line": "King. Appears in II Samuel."
   },
   "645": {
    "facts": {
@@ -7425,9 +8413,13 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "titles": [
+     "queen consort"
+    ]
    },
-   "line": "Appears in I Kings and II Kings."
+   "line": "Queen consort. Appears in I Kings and II Kings."
   },
   "646": {
    "facts": {
@@ -7435,7 +8427,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis."
   },
@@ -7455,7 +8448,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Esther."
   },
@@ -7466,7 +8460,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7482,9 +8477,13 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prince"
+    ]
    },
-   "line": "Appears in seven books."
+   "line": "Prince. Appears in seven books."
   },
   "651": {
    "facts": {
@@ -7493,9 +8492,11 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "comptroller"
    },
-   "line": "Appears in II Kings and Isaiah."
+   "line": "Comptroller. Appears in II Kings and Isaiah."
   },
   "652": {
    "facts": {
@@ -7504,7 +8505,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7515,9 +8517,13 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "pharaoh"
+    ]
    },
-   "line": "Appears in I Kings and II Chronicles."
+   "line": "Pharaoh. Appears in I Kings and II Chronicles."
   },
   "654": {
    "facts": {
@@ -7525,9 +8531,13 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "stadtholder"
+    ]
    },
-   "line": "Appears in Nehemiah."
+   "line": "Stadtholder. Appears in Nehemiah."
   },
   "655": {
    "facts": {
@@ -7535,7 +8545,8 @@
      "I Corinthians"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Corinthians."
   },
@@ -7553,9 +8564,13 @@
      "Zechariah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in 9 books."
+   "line": "Prophet. Appears in 9 books."
   },
   "657": {
    "facts": {
@@ -7563,7 +8578,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -7574,9 +8590,13 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in II Samuel and I Chronicles."
+   "line": "King. Appears in II Samuel and I Chronicles."
   },
   "659": {
    "facts": {
@@ -7586,9 +8606,13 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "High Priest of Israel"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "High Priest of Israel. Appears in three books."
   },
   "660": {
    "facts": {
@@ -7597,7 +8621,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7608,9 +8633,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "domestic worker"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Domestic worker. Appears in Genesis and I Chronicles."
   },
   "662": {
    "facts": {
@@ -7620,7 +8647,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7630,7 +8658,8 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in I Kings."
   },
@@ -7640,7 +8669,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel."
   },
@@ -7651,7 +8681,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in II Kings and II Chronicles."
   },
@@ -7662,9 +8693,11 @@
      "Hebrews"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "biblical judge"
    },
-   "line": "Appears in Judges and Hebrews."
+   "line": "Biblical judge. Appears in Judges and Hebrews."
   },
   "667": {
    "facts": {
@@ -7672,7 +8705,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -7683,9 +8717,13 @@
      "John"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in Luke and John."
+   "line": "Apostle. Appears in Luke and John."
   },
   "669": {
    "facts": {
@@ -7697,9 +8735,11 @@
      "Ezekiel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "farmer"
    },
-   "line": "Appears in five books."
+   "line": "Farmer. Appears in five books."
   },
   "670": {
    "facts": {
@@ -7711,9 +8751,11 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "military leader"
    },
-   "line": "Appears in five books."
+   "line": "Military leader. Appears in five books."
   },
   "671": {
    "facts": {
@@ -7723,9 +8765,11 @@
      "I Timothy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female",
+    "occupation": "assistant"
    },
-   "line": "Appears in three books."
+   "line": "Assistant. Appears in three books."
   },
   "672": {
    "facts": {
@@ -7734,7 +8778,8 @@
      "Deuteronomy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Deuteronomy."
   },
@@ -7746,9 +8791,13 @@
      "Daniel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "Great King"
+    ]
    },
-   "line": "Appears in three books."
+   "line": "Great King. Appears in three books."
   },
   "674": {
    "facts": {
@@ -7756,7 +8805,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in I Chronicles."
   },
@@ -7766,7 +8816,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel."
   },
@@ -7776,7 +8827,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -7786,7 +8838,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -7796,7 +8849,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -7808,7 +8862,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7820,7 +8875,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7831,7 +8887,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7843,7 +8900,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7854,7 +8912,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Numbers."
   },
@@ -7865,7 +8924,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Numbers."
   },
@@ -7876,7 +8936,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Numbers."
   },
@@ -7887,7 +8948,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -7901,7 +8963,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -7911,7 +8974,8 @@
      "Joshua"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Joshua."
   },
@@ -7924,7 +8988,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -7936,7 +9001,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7948,7 +9014,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7960,7 +9027,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7972,7 +9040,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -7982,7 +9051,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -7994,7 +9064,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -8004,7 +9075,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -8017,7 +9089,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -8029,7 +9102,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -8040,7 +9114,8 @@
      "Numbers"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis and Numbers."
   },
@@ -8050,7 +9125,8 @@
      "Genesis"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Genesis."
   },
@@ -8060,7 +9136,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Esther."
   },
@@ -8071,9 +9148,13 @@
      "Isaiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in II Kings and Isaiah."
+   "line": "King. Appears in II Kings and Isaiah."
   },
   "703": {
    "facts": {
@@ -8084,9 +9165,13 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in four books."
+   "line": "King. Appears in four books."
   },
   "704": {
    "facts": {
@@ -8094,9 +9179,13 @@
      "I Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "King of Israel"
+    ]
    },
-   "line": "Appears in I Kings."
+   "line": "King of Israel. Appears in I Kings."
   },
   "705": {
    "facts": {
@@ -8105,7 +9194,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Joshua and Luke."
   },
@@ -8115,7 +9205,8 @@
      "Ruth"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ruth."
   },
@@ -8145,9 +9236,13 @@
      "II Timothy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in 21 books."
+   "line": "Prophet. Appears in 21 books."
   },
   "708": {
    "facts": {
@@ -8156,7 +9251,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Genesis and I Chronicles."
   },
@@ -8188,9 +9284,13 @@
      "I Peter"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "prophet"
+    ]
    },
-   "line": "Appears in 23 books."
+   "line": "Prophet. Appears in 23 books."
   },
   "710": {
    "facts": {
@@ -8211,9 +9311,13 @@
      "Philemon"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in 14 books."
+   "line": "Apostle. Appears in 14 books."
   },
   "711": {
    "facts": {
@@ -8226,9 +9330,11 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "spy"
    },
-   "line": "Appears in six books."
+   "line": "Spy. Appears in six books."
   },
   "712": {
    "facts": {
@@ -8237,7 +9343,8 @@
      "I Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Samuel and I Chronicles."
   },
@@ -8249,7 +9356,8 @@
      "Luke"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -8264,7 +9372,8 @@
      "Jeremiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in six books."
   },
@@ -8274,7 +9383,8 @@
      "Esther"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Esther."
   },
@@ -8284,7 +9394,8 @@
      "Ezra"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in Ezra."
   },
@@ -8294,7 +9405,8 @@
      "Judges"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Female"
    },
    "line": "Appears in Judges."
   },
@@ -8307,7 +9419,8 @@
      "Psalms"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in four books."
   },
@@ -8321,7 +9434,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in five books."
   },
@@ -8332,7 +9446,8 @@
      "II Chronicles"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in II Kings and II Chronicles."
   },
@@ -8344,7 +9459,8 @@
      "II Samuel"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male"
    },
    "line": "Appears in three books."
   },
@@ -8356,9 +9472,11 @@
      "Nehemiah"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "military leader"
    },
-   "line": "Appears in three books."
+   "line": "Military leader. Appears in three books."
   },
   "723": {
    "facts": {
@@ -8366,9 +9484,11 @@
      "II Kings"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "occupation": "valet"
    },
-   "line": "Appears in II Kings."
+   "line": "Valet. Appears in II Kings."
   },
   "724": {
    "facts": {
@@ -8376,9 +9496,13 @@
      "II Timothy"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in II Timothy."
+   "line": "Apostle. Appears in II Timothy."
   },
   "725": {
    "facts": {
@@ -8386,9 +9510,13 @@
      "I Corinthians"
     ],
     "unit": "book",
-    "corpusSize": 66
+    "corpusSize": 66,
+    "gender": "Male",
+    "titles": [
+     "apostle"
+    ]
    },
-   "line": "Appears in I Corinthians."
+   "line": "Apostle. Appears in I Corinthians."
   }
  },
  "edges": {
@@ -42198,5 +43326,18 @@
    "line": "They share the page in two books, first in Numbers."
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

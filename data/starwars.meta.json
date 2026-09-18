@@ -9,9 +9,16 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "affiliations": [
+     "Rebel Alliance",
+     "Resistance",
+     "Galactic Republic"
+    ],
+    "homeworld": "Mon Calamari"
    },
-   "line": "Appears in Return of the Jedi and The Force Awakens."
+   "line": "Of Mon Calamari, of the Rebel Alliance. Appears in Return of the Jedi and The Force Awakens."
   },
   "1": {
    "facts": {
@@ -32,9 +39,14 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Jedi",
+    "affiliations": [
+     "Jedi"
+    ]
    },
-   "line": "Appears in four films."
+   "line": "Jedi. Appears in four films."
   },
   "3": {
    "facts": {
@@ -44,9 +56,11 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "homeworld": "Alderaan"
    },
-   "line": "Appears in three films."
+   "line": "Of Alderaan. Appears in three films."
   },
   "4": {
    "facts": {
@@ -54,7 +68,8 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in The Force Awakens."
   },
@@ -64,9 +79,18 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "navigator",
+    "species": "droid",
+    "affiliations": [
+     "Resistance",
+     "New Republic",
+     "Rapier Squadron"
+    ],
+    "homeworld": "Hosnian Prime"
    },
-   "line": "Appears in The Force Awakens."
+   "line": "Navigator, Droid, of Hosnian Prime, of the Resistance. Appears in The Force Awakens."
   },
   "6": {
    "facts": {
@@ -75,9 +99,12 @@
      "A New Hope"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Female",
+    "occupation": "farmer",
+    "homeworld": "Tatooine"
    },
-   "line": "Appears in Attack of the Clones and A New Hope."
+   "line": "Farmer, of Tatooine. Appears in Attack of the Clones and A New Hope."
   },
   "7": {
    "facts": {
@@ -85,9 +112,11 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "homeworld": "Ryloth"
    },
-   "line": "Appears in Return of the Jedi."
+   "line": "Of Ryloth. Appears in Return of the Jedi."
   },
   "8": {
    "facts": {
@@ -95,9 +124,15 @@
      "A New Hope"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "rebel",
+    "affiliations": [
+     "Rebel Alliance"
+    ],
+    "homeworld": "Tatooine"
    },
-   "line": "Appears in A New Hope."
+   "line": "Rebel, of Tatooine, of the Rebel Alliance. Appears in A New Hope."
   },
   "9": {
    "facts": {
@@ -106,9 +141,11 @@
      "The Empire Strikes Back"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "homeworld": "Kamino"
    },
-   "line": "Appears in Attack of the Clones and The Empire Strikes Back."
+   "line": "Of Kamino. Appears in Attack of the Clones and The Empire Strikes Back."
   },
   "10": {
    "facts": {
@@ -116,9 +153,11 @@
      "The Phantom Menace"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "species": "Gungan"
    },
-   "line": "Appears in The Phantom Menace."
+   "line": "Gungan. Appears in The Phantom Menace."
   },
   "11": {
    "facts": {
@@ -126,7 +165,8 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in Return of the Jedi."
   },
@@ -162,9 +202,18 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Protocol droid",
+    "species": "droid",
+    "affiliations": [
+     "Rebel Alliance",
+     "Resistance",
+     "Royal House of Naboo"
+    ],
+    "homeworld": "Tatooine"
    },
-   "line": "Appears in all seven films."
+   "line": "Protocol droid, Droid, of Tatooine, of the Rebel Alliance. Appears in all seven films."
   },
   "15": {
    "facts": {
@@ -226,9 +275,18 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "smuggler",
+    "species": "Wookiee",
+    "affiliations": [
+     "Rebel Alliance",
+     "Resistance",
+     "Galactic Republic"
+    ],
+    "homeworld": "Kashyyyk"
    },
-   "line": "Appears in four films."
+   "line": "Smuggler, Wookiee, of Kashyyyk, of the Rebel Alliance. Appears in four films."
   },
   "21": {
    "facts": {
@@ -236,7 +294,8 @@
      "Attack of the Clones"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in Attack of the Clones."
   },
@@ -257,9 +316,17 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Sith",
+    "affiliations": [
+     "Sith",
+     "Jedi",
+     "Jedi Council"
+    ],
+    "homeworld": "Serenno"
    },
-   "line": "Appears in Attack of the Clones and Revenge of the Sith."
+   "line": "Sith, of Serenno. Appears in Attack of the Clones and Revenge of the Sith."
   },
   "24": {
    "facts": {
@@ -267,9 +334,17 @@
      "The Phantom Menace"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Sith",
+    "affiliations": [
+     "Sith",
+     "Black Sun",
+     "Death Watch"
+    ],
+    "homeworld": "Dathomir"
    },
-   "line": "Appears in The Phantom Menace."
+   "line": "Sith, of Dathomir. Appears in The Phantom Menace."
   },
   "25": {
    "facts": {
@@ -280,9 +355,17 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Sith",
+    "affiliations": [
+     "Sith",
+     "Jedi",
+     "Galactic Republic"
+    ],
+    "homeworld": "Tatooine"
    },
-   "line": "Appears in four films."
+   "line": "Sith, of Tatooine. Appears in four films."
   },
   "26": {
    "facts": {
@@ -300,9 +383,14 @@
      "A New Hope"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "rebel",
+    "affiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "Appears in A New Hope."
+   "line": "Rebel, of the Rebel Alliance. Appears in A New Hope."
   },
   "28": {
    "facts": {
@@ -334,9 +422,19 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "titles": [
+     "Galactic Emperor"
+    ],
+    "affiliations": [
+     "Sith",
+     "First Order",
+     "Royal House of Naboo"
+    ],
+    "homeworld": "Naboo"
    },
-   "line": "Appears in five films."
+   "line": "Galactic Emperor, of Naboo, of the Sith. Appears in five films."
   },
   "31": {
    "facts": {
@@ -344,7 +442,8 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in Revenge of the Sith."
   },
@@ -354,9 +453,11 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "stormtrooper"
    },
-   "line": "Appears in The Force Awakens."
+   "line": "Stormtrooper. Appears in The Force Awakens."
   },
   "33": {
    "facts": {
@@ -384,9 +485,16 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "affiliations": [
+     "Confederacy of Independent Systems",
+     "InterGalactic Banking Clan",
+     "Kaleesh warriors"
+    ],
+    "homeworld": "Kalee"
    },
-   "line": "Appears in Revenge of the Sith."
+   "line": "Of Kalee, of the Confederacy of Independent Systems. Appears in Revenge of the Sith."
   },
   "36": {
    "facts": {
@@ -394,7 +502,8 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in The Force Awakens."
   },
@@ -414,7 +523,8 @@
      "A New Hope"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in A New Hope."
   },
@@ -425,9 +535,11 @@
      "A New Hope"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "homeworld": "Rodia"
    },
-   "line": "Appears in The Phantom Menace and A New Hope."
+   "line": "Of Rodia. Appears in The Phantom Menace and A New Hope."
   },
   "40": {
    "facts": {
@@ -438,9 +550,17 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "smuggler",
+    "affiliations": [
+     "Rebel Alliance",
+     "Galactic Empire",
+     "New Republic"
+    ],
+    "homeworld": "Corellia"
    },
-   "line": "Appears in four films."
+   "line": "Smuggler, of Corellia, of the Rebel Alliance. Appears in four films."
   },
   "41": {
    "facts": {
@@ -450,9 +570,16 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "crime boss",
+    "species": "Hutt",
+    "affiliations": [
+     "Crymorah Syndicate"
+    ],
+    "homeworld": "Nal Hutta"
    },
-   "line": "Appears in three films."
+   "line": "Crime boss, Hutt, of Nal Hutta, of the Crymorah Syndicate. Appears in three films."
   },
   "42": {
    "facts": {
@@ -460,7 +587,8 @@
      "Attack of the Clones"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in Attack of the Clones."
   },
@@ -472,9 +600,16 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "affiliations": [
+     "Galactic Empire",
+     "Chiss Ascendancy",
+     "Empire of the Hand"
+    ],
+    "homeworld": "Rentor"
    },
-   "line": "Appears in three films."
+   "line": "Of Rentor, of the Galactic Empire. Appears in three films."
   },
   "44": {
    "facts": {
@@ -513,9 +648,17 @@
      "Attack of the Clones"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Jedi",
+    "affiliations": [
+     "Jedi",
+     "Jedi Council",
+     "Galactic Republic"
+    ],
+    "homeworld": "Cerea"
    },
-   "line": "Appears in The Phantom Menace and Attack of the Clones."
+   "line": "Jedi, of Cerea. Appears in The Phantom Menace and Attack of the Clones."
   },
   "48": {
    "facts": {
@@ -533,9 +676,17 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Jedi",
+    "affiliations": [
+     "Jedi",
+     "First Order",
+     "Knights of ren"
+    ],
+    "homeworld": "Chandrila"
    },
-   "line": "Appears in The Force Awakens."
+   "line": "Jedi, of Chandrila. Appears in The Force Awakens."
   },
   "50": {
    "facts": {
@@ -543,7 +694,8 @@
      "Attack of the Clones"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in Attack of the Clones."
   },
@@ -554,9 +706,17 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "smuggler",
+    "affiliations": [
+     "Rebel Alliance",
+     "Resistance",
+     "New Republic"
+    ],
+    "homeworld": "Socorro"
    },
-   "line": "Appears in The Empire Strikes Back and Return of the Jedi."
+   "line": "Smuggler, of Socorro, of the Rebel Alliance. Appears in The Empire Strikes Back and Return of the Jedi."
   },
   "52": {
    "facts": {
@@ -567,9 +727,19 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Female",
+    "titles": [
+     "senator"
+    ],
+    "affiliations": [
+     "Rebel Alliance",
+     "Resistance",
+     "New Jedi Order"
+    ],
+    "homeworld": "Alderaan"
    },
-   "line": "Appears in four films."
+   "line": "Senator, of Alderaan, of the Rebel Alliance. Appears in four films."
   },
   "53": {
    "facts": {
@@ -587,7 +757,8 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in The Force Awakens."
   },
@@ -600,9 +771,17 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Jedi",
+    "affiliations": [
+     "Rebel Alliance",
+     "New Jedi Order",
+     "Jedi"
+    ],
+    "homeworld": "Tatooine"
    },
-   "line": "Appears in four films."
+   "line": "Jedi, of Tatooine, of the Rebel Alliance. Appears in four films."
   },
   "56": {
    "facts": {
@@ -612,9 +791,17 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Jedi",
+    "affiliations": [
+     "Jedi",
+     "Jedi Council",
+     "Galactic Republic"
+    ],
+    "homeworld": "Haruun Kal"
    },
-   "line": "Appears in three films."
+   "line": "Jedi, of Haruun Kal. Appears in three films."
   },
   "57": {
    "facts": {
@@ -622,7 +809,8 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Female"
    },
    "line": "Appears in The Force Awakens."
   },
@@ -633,9 +821,15 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Female",
+    "occupation": "rebel",
+    "affiliations": [
+     "Rebel Alliance"
+    ],
+    "homeworld": "Chandrila"
    },
-   "line": "Appears in Revenge of the Sith and Return of the Jedi."
+   "line": "Rebel, of Chandrila, of the Rebel Alliance. Appears in Revenge of the Sith and Return of the Jedi."
   },
   "59": {
    "facts": {
@@ -643,9 +837,13 @@
      "A New Hope"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "affiliations": [
+     "Galactic Empire"
+    ]
    },
-   "line": "Appears in A New Hope."
+   "line": "Of the Galactic Empire. Appears in A New Hope."
   },
   "60": {
    "facts": {
@@ -653,9 +851,13 @@
      "The Empire Strikes Back"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "affiliations": [
+     "Galactic Empire"
+    ]
    },
-   "line": "Appears in The Empire Strikes Back."
+   "line": "Of the Galactic Empire. Appears in The Empire Strikes Back."
   },
   "61": {
    "facts": {
@@ -675,9 +877,13 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "titles": [
+     "Viceroy of the Trade Federation"
+    ]
    },
-   "line": "Appears in three films."
+   "line": "Viceroy of the Trade Federation. Appears in three films."
   },
   "63": {
    "facts": {
@@ -690,9 +896,17 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Jedi",
+    "affiliations": [
+     "Mandalorian resistance",
+     "Jedi",
+     "Jedi Council"
+    ],
+    "homeworld": "Stewjon"
    },
-   "line": "Appears in six films."
+   "line": "Jedi, of Stewjon, of the Mandalorian resistance. Appears in six films."
   },
   "64": {
    "facts": {
@@ -710,9 +924,11 @@
      "Attack of the Clones"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "homeworld": "Ryloth"
    },
-   "line": "Appears in Attack of the Clones."
+   "line": "Of Ryloth. Appears in Attack of the Clones."
   },
   "66": {
    "facts": {
@@ -721,9 +937,12 @@
      "A New Hope"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "farmer",
+    "homeworld": "Tatooine"
    },
-   "line": "Appears in Attack of the Clones and A New Hope."
+   "line": "Farmer, of Tatooine. Appears in Attack of the Clones and A New Hope."
   },
   "67": {
    "facts": {
@@ -743,9 +962,19 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Female",
+    "titles": [
+     "Queen of Naboo"
+    ],
+    "affiliations": [
+     "Royal House of Naboo",
+     "Galactic Republic",
+     "Galactic Empire"
+    ],
+    "homeworld": "Naboo"
    },
-   "line": "Appears in three films."
+   "line": "Queen of Naboo, of Naboo, of the Royal House of Naboo. Appears in three films."
   },
   "69": {
    "facts": {
@@ -754,7 +983,8 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in The Empire Strikes Back and Return of the Jedi."
   },
@@ -796,9 +1026,13 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "titles": [
+     "Principal Chief of the Cherokee Nation"
+    ]
    },
-   "line": "Appears in The Phantom Menace and Revenge of the Sith."
+   "line": "Principal Chief of the Cherokee Nation. Appears in The Phantom Menace and Revenge of the Sith."
   },
   "74": {
    "facts": {
@@ -812,9 +1046,11 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "homeworld": "Kamino"
    },
-   "line": "Appears in all seven films."
+   "line": "Of Kamino. Appears in all seven films."
   },
   "75": {
    "facts": {
@@ -832,9 +1068,11 @@
      "A New Hope"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "rebel"
    },
-   "line": "Appears in A New Hope."
+   "line": "Rebel. Appears in A New Hope."
   },
   "77": {
    "facts": {
@@ -852,9 +1090,16 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Female",
+    "occupation": "Jedi",
+    "affiliations": [
+     "Resistance",
+     "Jedi"
+    ],
+    "homeworld": "Jakku"
    },
-   "line": "Appears in The Force Awakens."
+   "line": "Jedi, of Jakku, of the Resistance. Appears in The Force Awakens."
   },
   "79": {
    "facts": {
@@ -872,9 +1117,13 @@
      "The Empire Strikes Back"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "affiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "Appears in The Empire Strikes Back."
+   "line": "Of the Rebel Alliance. Appears in The Empire Strikes Back."
   },
   "81": {
    "facts": {
@@ -954,9 +1203,13 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "affiliations": [
+     "First Order"
+    ]
    },
-   "line": "Appears in The Force Awakens."
+   "line": "Of the First Order. Appears in The Force Awakens."
   },
   "89": {
    "facts": {
@@ -984,9 +1237,14 @@
      "A New Hope"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "affiliations": [
+     "Galactic Republic",
+     "Galactic Empire"
+    ]
    },
-   "line": "Appears in A New Hope."
+   "line": "Of the Galactic Republic. Appears in A New Hope."
   },
   "92": {
    "facts": {
@@ -994,9 +1252,11 @@
      "Attack of the Clones"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Female",
+    "homeworld": "Kamino"
    },
-   "line": "Appears in Attack of the Clones."
+   "line": "Of Kamino. Appears in Attack of the Clones."
   },
   "93": {
    "facts": {
@@ -1004,9 +1264,10 @@
      "The Phantom Menace"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "species": "droid"
    },
-   "line": "Appears in The Phantom Menace."
+   "line": "Droid. Appears in The Phantom Menace."
   },
   "94": {
    "facts": {
@@ -1034,9 +1295,13 @@
      "The Phantom Menace"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "affiliations": [
+     "Galactic Republic"
+    ]
    },
-   "line": "Appears in The Phantom Menace."
+   "line": "Of the Galactic Republic. Appears in The Phantom Menace."
   },
   "97": {
    "facts": {
@@ -1055,7 +1320,8 @@
      "Attack of the Clones"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male"
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones."
   },
@@ -1067,9 +1333,12 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "rebel",
+    "homeworld": "Corellia"
    },
-   "line": "Appears in three films."
+   "line": "Rebel, of Corellia. Appears in three films."
   },
   "100": {
    "facts": {
@@ -1081,9 +1350,16 @@
      "Return of the Jedi"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "gender": "Male",
+    "occupation": "Jedi Master",
+    "affiliations": [
+     "Jedi",
+     "Jedi Council",
+     "Galactic Republic"
+    ]
    },
-   "line": "Appears in five films."
+   "line": "Jedi Master. Appears in five films."
   },
   "101": {
    "facts": {
@@ -1126,9 +1402,13 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance",
+     "Resistance"
+    ]
    },
-   "line": "They share the page in two films, first in Return of the Jedi."
+   "line": "They share the page in two films, first in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "0-32": {
    "facts": {
@@ -1149,9 +1429,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in two films, first in Return of the Jedi."
+   "line": "They share the page in two films, first in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "0-51": {
    "facts": {
@@ -1160,9 +1443,13 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance",
+     "Resistance"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "0-52": {
    "facts": {
@@ -1172,9 +1459,13 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance",
+     "Resistance"
+    ]
    },
-   "line": "They share the page in two films, first in Return of the Jedi."
+   "line": "They share the page in two films, first in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "0-55": {
    "facts": {
@@ -1183,9 +1474,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "0-58": {
    "facts": {
@@ -1194,9 +1488,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "0-71": {
    "facts": {
@@ -1418,9 +1715,12 @@
     ],
     "first": "Attack of the Clones",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in two films, first in Attack of the Clones. Both belong to Jedi."
   },
   "2-25": {
    "facts": {
@@ -1429,9 +1729,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Jedi."
   },
   "2-30": {
    "facts": {
@@ -1519,9 +1822,12 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page only in The Phantom Menace."
+   "line": "They share the page only in The Phantom Menace. Both belong to Jedi."
   },
   "2-48": {
    "facts": {
@@ -1541,9 +1847,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Jedi."
   },
   "2-56": {
    "facts": {
@@ -1554,9 +1863,12 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Jedi."
   },
   "2-62": {
    "facts": {
@@ -1578,9 +1890,12 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Jedi."
   },
   "2-64": {
    "facts": {
@@ -1773,9 +2088,12 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Jedi."
   },
   "3-14": {
    "facts": {
@@ -2019,9 +2337,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Resistance"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to Resistance."
   },
   "5-20": {
    "facts": {
@@ -2030,9 +2351,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Resistance"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to Resistance."
   },
   "5-32": {
    "facts": {
@@ -2052,9 +2376,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "New Republic"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to New Republic."
   },
   "5-52": {
    "facts": {
@@ -2063,9 +2390,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Resistance"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to Resistance."
   },
   "5-54": {
    "facts": {
@@ -2118,9 +2448,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Resistance"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to Resistance."
   },
   "5-95": {
    "facts": {
@@ -2252,9 +2585,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in A New Hope."
+   "line": "They share the page only in A New Hope. Both belong to Rebel Alliance."
   },
   "8-15": {
    "facts": {
@@ -2285,9 +2621,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in A New Hope."
+   "line": "They share the page only in A New Hope. Both belong to Rebel Alliance."
   },
   "8-55": {
    "facts": {
@@ -2296,9 +2635,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in A New Hope."
+   "line": "They share the page only in A New Hope. Both belong to Rebel Alliance."
   },
   "8-74": {
    "facts": {
@@ -2607,9 +2949,13 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance",
+     "Resistance"
+    ]
    },
-   "line": "They share the page in four films, first in A New Hope."
+   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "14-21": {
    "facts": {
@@ -2651,9 +2997,12 @@
     ],
     "first": "Revenge of the Sith",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Royal House of Naboo"
+    ]
    },
-   "line": "They share the page only in Revenge of the Sith."
+   "line": "They share the page only in Revenge of the Sith. Both belong to Royal House of Naboo."
   },
   "14-32": {
    "facts": {
@@ -2676,9 +3025,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in four films, first in A New Hope."
+   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "14-41": {
    "facts": {
@@ -2710,9 +3062,13 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance",
+     "Resistance"
+    ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back."
+   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "14-52": {
    "facts": {
@@ -2724,9 +3080,13 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance",
+     "Resistance"
+    ]
    },
-   "line": "They share the page in four films, first in A New Hope."
+   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "14-55": {
    "facts": {
@@ -2737,9 +3097,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in three films, first in A New Hope."
+   "line": "They share the page in three films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "14-58": {
    "facts": {
@@ -2748,9 +3111,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "14-63": {
    "facts": {
@@ -2785,9 +3151,12 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Royal House of Naboo"
+    ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Royal House of Naboo."
   },
   "14-71": {
    "facts": {
@@ -2846,9 +3215,12 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in The Empire Strikes Back."
+   "line": "They share the page only in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "14-87": {
    "facts": {
@@ -3099,9 +3471,12 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Galactic Republic"
+    ]
    },
-   "line": "They share the page only in The Empire Strikes Back."
+   "line": "They share the page only in The Empire Strikes Back. Both belong to Galactic Republic."
   },
   "20-32": {
    "facts": {
@@ -3124,9 +3499,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in four films, first in A New Hope."
+   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "20-49": {
    "facts": {
@@ -3147,9 +3525,13 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance",
+     "Resistance"
+    ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back."
+   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "20-52": {
    "facts": {
@@ -3161,9 +3543,13 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance",
+     "Resistance"
+    ]
    },
-   "line": "They share the page in four films, first in A New Hope."
+   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "20-55": {
    "facts": {
@@ -3174,9 +3560,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in three films, first in A New Hope."
+   "line": "They share the page in three films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "20-57": {
    "facts": {
@@ -3196,9 +3585,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "20-63": {
    "facts": {
@@ -3243,9 +3635,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Resistance"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to Resistance."
   },
   "20-80": {
    "facts": {
@@ -3254,9 +3649,12 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in The Empire Strikes Back."
+   "line": "They share the page only in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "21-66": {
    "facts": {
@@ -3321,9 +3719,12 @@
     ],
     "first": "Attack of the Clones",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Sith"
+    ]
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in two films, first in Attack of the Clones. Both belong to Sith."
   },
   "23-42": {
    "facts": {
@@ -3343,9 +3744,13 @@
     ],
     "first": "Attack of the Clones",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi",
+     "Jedi Council"
+    ]
    },
-   "line": "They share the page only in Attack of the Clones."
+   "line": "They share the page only in Attack of the Clones. Both belong to Jedi."
   },
   "23-62": {
    "facts": {
@@ -3366,9 +3771,13 @@
     ],
     "first": "Attack of the Clones",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi",
+     "Jedi Council"
+    ]
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in two films, first in Attack of the Clones. Both belong to Jedi."
   },
   "23-68": {
    "facts": {
@@ -3410,9 +3819,13 @@
     ],
     "first": "Attack of the Clones",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi",
+     "Jedi Council"
+    ]
    },
-   "line": "They share the page only in Attack of the Clones."
+   "line": "They share the page only in Attack of the Clones. Both belong to Jedi."
   },
   "24-30": {
    "facts": {
@@ -3421,9 +3834,12 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Sith"
+    ]
    },
-   "line": "They share the page only in The Phantom Menace."
+   "line": "They share the page only in The Phantom Menace. Both belong to Sith."
   },
   "24-34": {
    "facts": {
@@ -3467,9 +3883,12 @@
     ],
     "first": "Revenge of the Sith",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Sith"
+    ]
    },
-   "line": "They share the page in three films, first in Revenge of the Sith."
+   "line": "They share the page in three films, first in Revenge of the Sith. Both belong to Sith."
   },
   "25-40": {
    "facts": {
@@ -3513,9 +3932,12 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back."
+   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Jedi."
   },
   "25-59": {
    "facts": {
@@ -3546,9 +3968,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page only in A New Hope."
+   "line": "They share the page only in A New Hope. Both belong to Jedi."
   },
   "25-67": {
    "facts": {
@@ -3580,9 +4005,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Galactic Republic"
+    ]
    },
-   "line": "They share the page only in A New Hope."
+   "line": "They share the page only in A New Hope. Both belong to Galactic Republic."
   },
   "26-52": {
    "facts": {
@@ -3613,9 +4041,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in A New Hope."
+   "line": "They share the page only in A New Hope. Both belong to Rebel Alliance."
   },
   "27-99": {
    "facts": {
@@ -3806,9 +4237,12 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Royal House of Naboo"
+    ]
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in two films, first in The Phantom Menace. Both belong to Royal House of Naboo."
   },
   "30-73": {
    "facts": {
@@ -4225,9 +4659,13 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "New Republic",
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back."
+   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to New Republic."
   },
   "40-52": {
    "facts": {
@@ -4239,9 +4677,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in four films, first in A New Hope."
+   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "40-55": {
    "facts": {
@@ -4252,9 +4693,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in three films, first in A New Hope."
+   "line": "They share the page in three films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "40-57": {
    "facts": {
@@ -4274,9 +4718,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "40-63": {
    "facts": {
@@ -4332,9 +4779,12 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in The Empire Strikes Back."
+   "line": "They share the page only in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "40-87": {
    "facts": {
@@ -4510,9 +4960,12 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Galactic Empire"
+    ]
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in two films, first in The Phantom Menace. Both belong to Galactic Empire."
   },
   "43-73": {
    "facts": {
@@ -4720,9 +5173,14 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Galactic Republic",
+     "Jedi",
+     "Jedi Council"
+    ]
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in two films, first in The Phantom Menace. Both belong to Galactic Republic."
   },
   "47-63": {
    "facts": {
@@ -4731,9 +5189,13 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi",
+     "Jedi Council"
+    ]
    },
-   "line": "They share the page only in The Phantom Menace."
+   "line": "They share the page only in The Phantom Menace. Both belong to Jedi."
   },
   "47-73": {
    "facts": {
@@ -4765,9 +5227,14 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Galactic Republic",
+     "Jedi",
+     "Jedi Council"
+    ]
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in two films, first in The Phantom Menace. Both belong to Galactic Republic."
   },
   "48-68": {
    "facts": {
@@ -4875,9 +5342,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to Jedi."
   },
   "49-88": {
    "facts": {
@@ -4886,9 +5356,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "First Order"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to First Order."
   },
   "50-63": {
    "facts": {
@@ -4920,9 +5393,13 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance",
+     "Resistance"
+    ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back."
+   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "51-55": {
    "facts": {
@@ -4932,9 +5409,12 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back."
+   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "51-58": {
    "facts": {
@@ -4943,9 +5423,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "51-74": {
    "facts": {
@@ -4979,9 +5462,13 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "New Jedi Order",
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page in three films, first in A New Hope."
+   "line": "They share the page in three films, first in A New Hope. Both belong to New Jedi Order."
   },
   "52-58": {
    "facts": {
@@ -4990,9 +5477,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "52-59": {
    "facts": {
@@ -5058,9 +5548,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Resistance"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to Resistance."
   },
   "52-80": {
    "facts": {
@@ -5069,9 +5562,12 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in The Empire Strikes Back."
+   "line": "They share the page only in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "52-87": {
    "facts": {
@@ -5113,9 +5609,12 @@
     ],
     "first": "Return of the Jedi",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Rebel Alliance"
+    ]
    },
-   "line": "They share the page only in Return of the Jedi."
+   "line": "They share the page only in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "55-63": {
    "facts": {
@@ -5126,9 +5625,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page in three films, first in A New Hope."
+   "line": "They share the page in three films, first in A New Hope. Both belong to Jedi."
   },
   "55-66": {
    "facts": {
@@ -5183,9 +5685,12 @@
     ],
     "first": "The Force Awakens",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page only in The Force Awakens."
+   "line": "They share the page only in The Force Awakens. Both belong to Jedi."
   },
   "55-99": {
    "facts": {
@@ -5207,9 +5712,12 @@
     ],
     "first": "The Empire Strikes Back",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi"
+    ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back."
+   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Jedi."
   },
   "55-102": {
    "facts": {
@@ -5231,9 +5739,13 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi",
+     "Jedi Council"
+    ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Jedi."
   },
   "56-68": {
    "facts": {
@@ -5242,9 +5754,12 @@
     ],
     "first": "Attack of the Clones",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Galactic Republic"
+    ]
    },
-   "line": "They share the page only in Attack of the Clones."
+   "line": "They share the page only in Attack of the Clones. Both belong to Galactic Republic."
   },
   "56-73": {
    "facts": {
@@ -5288,9 +5803,14 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Galactic Republic",
+     "Jedi",
+     "Jedi Council"
+    ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Galactic Republic."
   },
   "57-78": {
    "facts": {
@@ -5332,9 +5852,12 @@
     ],
     "first": "A New Hope",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Galactic Empire"
+    ]
    },
-   "line": "They share the page only in A New Hope."
+   "line": "They share the page only in A New Hope. Both belong to Galactic Empire."
   },
   "60-69": {
    "facts": {
@@ -5625,9 +6148,13 @@
     ],
     "first": "The Phantom Menace",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Jedi",
+     "Jedi Council"
+    ]
    },
-   "line": "They share the page in four films, first in The Phantom Menace."
+   "line": "They share the page in four films, first in The Phantom Menace. Both belong to Jedi."
   },
   "65-84": {
    "facts": {
@@ -5792,9 +6319,12 @@
     ],
     "first": "Attack of the Clones",
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "sharedAffiliations": [
+     "Galactic Republic"
+    ]
    },
-   "line": "They share the page only in Attack of the Clones."
+   "line": "They share the page only in Attack of the Clones. Both belong to Galactic Republic."
   },
   "70-93": {
    "facts": {
@@ -6073,5 +6603,18 @@
    "line": "They share the page only in Attack of the Clones."
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

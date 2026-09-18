@@ -69,6 +69,20 @@ button {
   white-space: nowrap;
 }
 
+/* The brand wordmark doubles as start-again. Same chrome voice; hover goes
+   accent so it reads as a control without an underline under the product name. */
+.chrome-link {
+  cursor: pointer;
+  padding: 9px 0 5px 0;
+  transition: color 90ms ease;
+}
+
+.chrome-link:hover,
+.chrome-link:focus-visible {
+  color: var(--accent);
+  outline: none;
+}
+
 .annot {
   font-family: var(--mono);
   font-size: 10px;
@@ -200,6 +214,27 @@ button {
 
 .field:focus {
   border-bottom-color: var(--accent);
+}
+
+/* The world catalogue: keep a thin track visible so thirty-one titles do not
+   look like a finished page when they spill past the fold. */
+.world-list {
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--leader) transparent;
+}
+
+.world-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.world-list::-webkit-scrollbar-thumb {
+  background: var(--leader);
+  border-radius: 3px;
+}
+
+.world-list::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 @media (prefers-reduced-motion: reduce) {

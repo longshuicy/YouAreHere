@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Hamlet."
+   }
   },
   "1": {
    "facts": {
@@ -21,8 +20,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Hamlet."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +30,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Hamlet."
+   }
   },
   "3": {
    "facts": {
@@ -42,9 +39,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Prince of Norway"
    },
-   "line": "Appears in Hamlet."
+   "line": "Prince of Norway."
   },
   "4": {
    "facts": {
@@ -54,8 +52,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Hamlet."
+   }
   },
   "5": {
    "facts": {
@@ -63,9 +60,9 @@
      "Hamlet"
     ],
     "unit": "play",
-    "corpusSize": 37
-   },
-   "line": "Appears in Hamlet."
+    "corpusSize": 37,
+    "gender": "Female"
+   }
   },
   "6": {
    "facts": {
@@ -73,9 +70,13 @@
      "Hamlet"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
-   "line": "Appears in Hamlet."
+   "line": "King."
   },
   "7": {
    "facts": {
@@ -83,9 +84,9 @@
      "Hamlet"
     ],
     "unit": "play",
-    "corpusSize": 37
-   },
-   "line": "Appears in Hamlet."
+    "corpusSize": 37,
+    "gender": "Male"
+   }
   },
   "8": {
    "facts": {
@@ -93,9 +94,11 @@
      "Hamlet"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Prince of Denmark",
+    "gender": "Male"
    },
-   "line": "Appears in Hamlet."
+   "line": "Prince of Denmark."
   },
   "9": {
    "facts": {
@@ -105,8 +108,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Hamlet."
+   }
   },
   "10": {
    "facts": {
@@ -116,8 +118,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Hamlet."
+   }
   },
   "11": {
    "facts": {
@@ -127,8 +128,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Hamlet."
+   }
   },
   "12": {
    "facts": {
@@ -136,9 +136,9 @@
      "Hamlet"
     ],
     "unit": "play",
-    "corpusSize": 37
-   },
-   "line": "Appears in Hamlet."
+    "corpusSize": 37,
+    "gender": "Female"
+   }
   },
   "13": {
    "facts": {
@@ -148,8 +148,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Hamlet."
+   }
   },
   "14": {
    "facts": {
@@ -158,9 +157,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Councillor"
    },
-   "line": "Appears in Hamlet."
+   "line": "Councillor."
   },
   "15": {
    "facts": {
@@ -169,9 +169,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in Hamlet."
+   "line": "Servant."
   },
   "16": {
    "facts": {
@@ -179,9 +180,9 @@
      "Hamlet"
     ],
     "unit": "play",
-    "corpusSize": 37
-   },
-   "line": "Appears in Hamlet."
+    "corpusSize": 37,
+    "gender": "Male"
+   }
   },
   "17": {
    "facts": {
@@ -191,8 +192,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Hamlet."
+   }
   }
  },
  "edges": {
@@ -204,8 +204,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "0-2": {
    "facts": {
@@ -215,8 +214,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "0-4": {
    "facts": {
@@ -226,8 +224,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "0-5": {
    "facts": {
@@ -237,8 +234,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "0-8": {
    "facts": {
@@ -248,8 +244,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "0-9": {
    "facts": {
@@ -259,8 +254,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "0-10": {
    "facts": {
@@ -270,8 +264,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "0-11": {
    "facts": {
@@ -281,8 +274,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "0-14": {
    "facts": {
@@ -292,8 +284,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "0-17": {
    "facts": {
@@ -303,8 +294,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-2": {
    "facts": {
@@ -314,8 +304,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-3": {
    "facts": {
@@ -325,8 +314,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-5": {
    "facts": {
@@ -336,8 +324,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-7": {
    "facts": {
@@ -347,8 +334,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-8": {
    "facts": {
@@ -358,8 +344,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-9": {
    "facts": {
@@ -369,8 +354,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-10": {
    "facts": {
@@ -380,8 +364,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-11": {
    "facts": {
@@ -391,8 +374,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-12": {
    "facts": {
@@ -402,8 +384,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-13": {
    "facts": {
@@ -413,8 +394,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-14": {
    "facts": {
@@ -424,8 +404,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-16": {
    "facts": {
@@ -435,8 +414,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "1-17": {
    "facts": {
@@ -446,8 +424,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "2-5": {
    "facts": {
@@ -457,8 +434,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "2-8": {
    "facts": {
@@ -468,8 +444,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "2-9": {
    "facts": {
@@ -479,8 +454,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "2-10": {
    "facts": {
@@ -490,8 +464,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "2-11": {
    "facts": {
@@ -501,8 +474,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "2-14": {
    "facts": {
@@ -512,8 +484,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "2-17": {
    "facts": {
@@ -523,8 +494,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "3-5": {
    "facts": {
@@ -534,8 +504,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "3-8": {
    "facts": {
@@ -545,8 +514,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "3-9": {
    "facts": {
@@ -556,8 +524,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "3-10": {
    "facts": {
@@ -567,8 +534,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "3-13": {
    "facts": {
@@ -578,8 +544,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "3-16": {
    "facts": {
@@ -589,8 +554,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "4-9": {
    "facts": {
@@ -600,8 +564,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "4-11": {
    "facts": {
@@ -611,8 +574,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-6": {
    "facts": {
@@ -622,8 +584,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-7": {
    "facts": {
@@ -633,8 +594,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-8": {
    "facts": {
@@ -644,8 +604,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-9": {
    "facts": {
@@ -655,8 +614,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-10": {
    "facts": {
@@ -666,8 +624,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-11": {
    "facts": {
@@ -677,8 +634,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-12": {
    "facts": {
@@ -688,8 +644,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-13": {
    "facts": {
@@ -699,8 +654,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-14": {
    "facts": {
@@ -710,8 +664,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-16": {
    "facts": {
@@ -721,8 +674,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "5-17": {
    "facts": {
@@ -732,8 +684,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "6-8": {
    "facts": {
@@ -743,8 +694,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "6-9": {
    "facts": {
@@ -754,8 +704,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "6-11": {
    "facts": {
@@ -765,8 +714,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "6-14": {
    "facts": {
@@ -776,8 +724,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "7-8": {
    "facts": {
@@ -787,8 +734,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "7-9": {
    "facts": {
@@ -798,8 +744,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "7-12": {
    "facts": {
@@ -809,8 +754,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "7-14": {
    "facts": {
@@ -820,8 +764,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "7-16": {
    "facts": {
@@ -831,8 +774,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "7-17": {
    "facts": {
@@ -842,8 +784,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "8-9": {
    "facts": {
@@ -853,8 +794,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "8-10": {
    "facts": {
@@ -864,8 +804,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "8-11": {
    "facts": {
@@ -875,8 +814,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "8-12": {
    "facts": {
@@ -886,8 +824,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "8-13": {
    "facts": {
@@ -897,8 +834,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "8-14": {
    "facts": {
@@ -908,8 +844,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "8-16": {
    "facts": {
@@ -919,8 +854,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "8-17": {
    "facts": {
@@ -930,8 +864,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "9-10": {
    "facts": {
@@ -941,8 +874,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "9-11": {
    "facts": {
@@ -952,8 +884,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "9-12": {
    "facts": {
@@ -963,8 +894,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "9-13": {
    "facts": {
@@ -974,8 +904,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "9-14": {
    "facts": {
@@ -985,8 +914,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "9-16": {
    "facts": {
@@ -996,8 +924,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "9-17": {
    "facts": {
@@ -1007,8 +934,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "10-11": {
    "facts": {
@@ -1018,8 +944,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "10-12": {
    "facts": {
@@ -1029,8 +954,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "10-13": {
    "facts": {
@@ -1040,8 +964,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "10-14": {
    "facts": {
@@ -1051,8 +974,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "10-17": {
    "facts": {
@@ -1062,8 +984,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "11-14": {
    "facts": {
@@ -1073,8 +994,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "11-17": {
    "facts": {
@@ -1084,8 +1004,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "12-14": {
    "facts": {
@@ -1095,8 +1014,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "12-15": {
    "facts": {
@@ -1106,8 +1024,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "12-16": {
    "facts": {
@@ -1117,8 +1034,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "14-15": {
    "facts": {
@@ -1128,8 +1044,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "14-16": {
    "facts": {
@@ -1139,8 +1054,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "14-17": {
    "facts": {
@@ -1150,8 +1064,7 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   },
   "16-17": {
    "facts": {
@@ -1161,9 +1074,33 @@
     "first": "Hamlet",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Hamlet."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

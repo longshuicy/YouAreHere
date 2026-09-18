@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useZoom, zoomTransform } from '../graph/zoom';
-import { MarginLinks } from '../render/MarginLinks';
+import { BrandMark, MarginLinks } from '../render/MarginLinks';
 import type { Session } from '../engine/session';
 import { clueTotal } from '../render/Ledger';
 import type { PuzzleRecord, Universe, UniverseMeta } from '../types';
@@ -175,8 +175,8 @@ export function Reveal({
 
   return (
     <div style={{ position: 'relative', height: '100vh', overflow: 'hidden' }}>
-      {/* The network sits low on the page so the answer keeps clean paper behind it. */}
-      <div style={{ position: 'absolute', left: 0, right: 0, top: '38%', bottom: 0 }}>
+      {/* Full-bleed network; the answer floats over it on clean paper. */}
+      <div style={{ position: 'absolute', inset: 0 }}>
         <FullGraph universe={universe} you={session.you} />
       </div>
 
@@ -192,8 +192,8 @@ export function Reveal({
         }}
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-          <div className="chrome">YOU ARE HERE</div>
-          <MarginLinks onOpenKey={onOpenKey} onStartAgain={onStartAgain} />
+          <BrandMark onStartAgain={onStartAgain} />
+          <MarginLinks onOpenKey={onOpenKey} />
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 46, textAlign: 'center' }}>
@@ -203,7 +203,13 @@ export function Reveal({
             {you?.n ?? 'Unknown'}
           </div>
 
-          <div style={{ fontSize: 23, fontStyle: 'italic', color: 'var(--body)', marginTop: 6 }}>
+          {characterLine && (
+            <div style={{ fontSize: 19, color: 'var(--body)', marginTop: 14, maxWidth: 620 }}>
+              {characterLine}
+            </div>
+          )}
+
+          <div style={{ fontSize: 23, fontStyle: 'italic', color: 'var(--body)', marginTop: characterLine ? 10 : 6 }}>
             {universe.title}
           </div>
 
@@ -227,12 +233,6 @@ export function Reveal({
           {structuralLine && (
             <div style={{ fontSize: 21, fontStyle: 'italic', color: 'var(--body)', marginTop: 34 }}>
               {structuralLine}
-            </div>
-          )}
-
-          {characterLine && (
-            <div style={{ fontSize: 19, color: 'var(--body)', marginTop: 18, maxWidth: 620 }}>
-              {characterLine}
             </div>
           )}
 

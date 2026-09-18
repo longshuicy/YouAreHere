@@ -9,9 +9,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "strategos"
+    ]
    },
-   "line": "Appears in Timon of Athens."
+   "line": "Strategos."
   },
   "1": {
    "facts": {
@@ -21,8 +24,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +34,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +44,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +54,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +64,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +74,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +84,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "8": {
    "facts": {
@@ -98,8 +94,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "9": {
    "facts": {
@@ -109,8 +104,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "10": {
    "facts": {
@@ -120,8 +114,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "11": {
    "facts": {
@@ -131,8 +124,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "12": {
    "facts": {
@@ -141,9 +133,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in Timon of Athens."
+   "line": "Servant."
   },
   "13": {
    "facts": {
@@ -153,8 +146,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "14": {
    "facts": {
@@ -164,8 +156,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "15": {
    "facts": {
@@ -175,8 +166,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "16": {
    "facts": {
@@ -186,8 +176,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "17": {
    "facts": {
@@ -197,8 +186,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "18": {
    "facts": {
@@ -208,8 +196,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "19": {
    "facts": {
@@ -219,8 +206,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "20": {
    "facts": {
@@ -230,8 +216,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "21": {
    "facts": {
@@ -241,8 +226,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "22": {
    "facts": {
@@ -252,8 +236,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Timon of Athens."
+   }
   },
   "23": {
    "facts": {
@@ -262,9 +245,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "philosopher"
    },
-   "line": "Appears in Timon of Athens."
+   "line": "Philosopher."
   }
  },
  "edges": {
@@ -276,8 +260,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-2": {
    "facts": {
@@ -287,8 +270,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-3": {
    "facts": {
@@ -298,8 +280,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-4": {
    "facts": {
@@ -309,8 +290,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-6": {
    "facts": {
@@ -320,8 +300,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-7": {
    "facts": {
@@ -331,8 +310,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-8": {
    "facts": {
@@ -342,8 +320,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-9": {
    "facts": {
@@ -353,8 +330,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-10": {
    "facts": {
@@ -364,8 +340,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-11": {
    "facts": {
@@ -375,8 +350,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-19": {
    "facts": {
@@ -386,8 +360,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-22": {
    "facts": {
@@ -397,8 +370,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "0-23": {
    "facts": {
@@ -408,8 +380,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-2": {
    "facts": {
@@ -419,8 +390,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-3": {
    "facts": {
@@ -430,8 +400,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-4": {
    "facts": {
@@ -441,8 +410,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-5": {
    "facts": {
@@ -452,8 +420,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-6": {
    "facts": {
@@ -463,8 +430,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-7": {
    "facts": {
@@ -474,8 +440,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-8": {
    "facts": {
@@ -485,8 +450,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-9": {
    "facts": {
@@ -496,8 +460,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-10": {
    "facts": {
@@ -507,8 +470,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-11": {
    "facts": {
@@ -518,8 +480,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-12": {
    "facts": {
@@ -529,8 +490,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-14": {
    "facts": {
@@ -540,8 +500,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-16": {
    "facts": {
@@ -551,8 +510,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-18": {
    "facts": {
@@ -562,8 +520,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-19": {
    "facts": {
@@ -573,8 +530,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-20": {
    "facts": {
@@ -584,8 +540,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-22": {
    "facts": {
@@ -595,8 +550,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "1-23": {
    "facts": {
@@ -606,8 +560,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "2-3": {
    "facts": {
@@ -617,8 +570,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "2-4": {
    "facts": {
@@ -628,8 +580,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "2-20": {
    "facts": {
@@ -639,8 +590,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "2-23": {
    "facts": {
@@ -650,8 +600,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "3-4": {
    "facts": {
@@ -661,8 +610,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "3-23": {
    "facts": {
@@ -672,8 +620,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-5": {
    "facts": {
@@ -683,8 +630,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-9": {
    "facts": {
@@ -694,8 +640,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-10": {
    "facts": {
@@ -705,8 +650,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-11": {
    "facts": {
@@ -716,8 +660,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-12": {
    "facts": {
@@ -727,8 +670,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-13": {
    "facts": {
@@ -738,8 +680,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-14": {
    "facts": {
@@ -749,8 +690,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-15": {
    "facts": {
@@ -760,8 +700,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-16": {
    "facts": {
@@ -771,8 +710,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-17": {
    "facts": {
@@ -782,8 +720,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-18": {
    "facts": {
@@ -793,8 +730,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-20": {
    "facts": {
@@ -804,8 +740,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-21": {
    "facts": {
@@ -815,8 +750,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-22": {
    "facts": {
@@ -826,8 +760,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "4-23": {
    "facts": {
@@ -837,8 +770,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "5-12": {
    "facts": {
@@ -848,8 +780,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "5-14": {
    "facts": {
@@ -859,8 +790,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "5-16": {
    "facts": {
@@ -870,8 +800,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "5-18": {
    "facts": {
@@ -881,8 +810,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "5-20": {
    "facts": {
@@ -892,8 +820,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "5-23": {
    "facts": {
@@ -903,8 +830,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "6-7": {
    "facts": {
@@ -914,8 +840,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "6-8": {
    "facts": {
@@ -925,8 +850,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "6-9": {
    "facts": {
@@ -936,8 +860,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "6-11": {
    "facts": {
@@ -947,8 +870,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "6-19": {
    "facts": {
@@ -958,8 +880,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "6-23": {
    "facts": {
@@ -969,8 +890,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "7-8": {
    "facts": {
@@ -980,8 +900,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "7-9": {
    "facts": {
@@ -991,8 +910,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "7-11": {
    "facts": {
@@ -1002,8 +920,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "7-19": {
    "facts": {
@@ -1013,8 +930,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "7-23": {
    "facts": {
@@ -1024,8 +940,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "8-9": {
    "facts": {
@@ -1035,8 +950,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "8-11": {
    "facts": {
@@ -1046,8 +960,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "8-19": {
    "facts": {
@@ -1057,8 +970,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "8-23": {
    "facts": {
@@ -1068,8 +980,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "9-11": {
    "facts": {
@@ -1079,8 +990,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "9-19": {
    "facts": {
@@ -1090,8 +1000,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "9-23": {
    "facts": {
@@ -1101,8 +1010,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "10-22": {
    "facts": {
@@ -1112,8 +1020,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "10-23": {
    "facts": {
@@ -1123,8 +1030,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "11-19": {
    "facts": {
@@ -1134,8 +1040,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "11-23": {
    "facts": {
@@ -1145,8 +1050,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "12-14": {
    "facts": {
@@ -1156,8 +1060,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "12-16": {
    "facts": {
@@ -1167,8 +1070,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "12-18": {
    "facts": {
@@ -1178,8 +1080,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "12-20": {
    "facts": {
@@ -1189,8 +1090,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "12-23": {
    "facts": {
@@ -1200,8 +1100,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "13-15": {
    "facts": {
@@ -1211,8 +1110,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "13-17": {
    "facts": {
@@ -1222,8 +1120,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "13-18": {
    "facts": {
@@ -1233,8 +1130,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "13-20": {
    "facts": {
@@ -1244,8 +1140,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "13-21": {
    "facts": {
@@ -1255,8 +1150,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "13-23": {
    "facts": {
@@ -1266,8 +1160,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "14-16": {
    "facts": {
@@ -1277,8 +1170,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "14-18": {
    "facts": {
@@ -1288,8 +1180,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "14-20": {
    "facts": {
@@ -1299,8 +1190,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "14-23": {
    "facts": {
@@ -1310,8 +1200,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "15-17": {
    "facts": {
@@ -1321,8 +1210,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "15-18": {
    "facts": {
@@ -1332,8 +1220,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "15-20": {
    "facts": {
@@ -1343,8 +1230,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "15-21": {
    "facts": {
@@ -1354,8 +1240,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "15-23": {
    "facts": {
@@ -1365,8 +1250,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "16-18": {
    "facts": {
@@ -1376,8 +1260,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "16-20": {
    "facts": {
@@ -1387,8 +1270,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "16-23": {
    "facts": {
@@ -1398,8 +1280,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "17-18": {
    "facts": {
@@ -1409,8 +1290,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "17-20": {
    "facts": {
@@ -1420,8 +1300,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "17-21": {
    "facts": {
@@ -1431,8 +1310,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "17-23": {
    "facts": {
@@ -1442,8 +1320,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "18-20": {
    "facts": {
@@ -1453,8 +1330,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "18-21": {
    "facts": {
@@ -1464,8 +1340,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "18-23": {
    "facts": {
@@ -1475,8 +1350,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "19-23": {
    "facts": {
@@ -1486,8 +1360,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "20-21": {
    "facts": {
@@ -1497,8 +1370,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "20-23": {
    "facts": {
@@ -1508,8 +1380,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "21-23": {
    "facts": {
@@ -1519,8 +1390,7 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   },
   "22-23": {
    "facts": {
@@ -1530,9 +1400,33 @@
     "first": "Timon of Athens",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Timon of Athens."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

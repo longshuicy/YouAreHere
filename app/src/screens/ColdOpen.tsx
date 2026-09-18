@@ -1,5 +1,5 @@
 import { Stage } from '../render/Stage';
-import { MarginLinks } from '../render/MarginLinks';
+import { BrandMark, MarginLinks } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -62,8 +62,8 @@ export function ColdOpen({
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-        <div className="chrome">YOU ARE HERE</div>
-        <MarginLinks onOpenKey={onOpenKey} onStartAgain={onStartAgain} />
+        <BrandMark onStartAgain={onStartAgain} />
+        <MarginLinks onOpenKey={onOpenKey} />
       </div>
 
       <div

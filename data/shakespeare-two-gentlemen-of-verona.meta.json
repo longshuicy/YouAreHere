@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "1": {
    "facts": {
@@ -21,8 +20,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +30,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +40,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +50,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +60,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +70,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +80,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "8": {
    "facts": {
@@ -98,8 +90,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "9": {
    "facts": {
@@ -109,8 +100,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "10": {
    "facts": {
@@ -120,8 +110,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "11": {
    "facts": {
@@ -131,8 +120,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +130,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "13": {
    "facts": {
@@ -153,8 +140,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   },
   "14": {
    "facts": {
@@ -164,8 +150,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Two Gentlemen of Verona."
+   }
   }
  },
  "edges": {
@@ -177,8 +162,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "0-9": {
    "facts": {
@@ -188,8 +172,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-3": {
    "facts": {
@@ -199,8 +182,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-4": {
    "facts": {
@@ -210,8 +192,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-5": {
    "facts": {
@@ -221,8 +202,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-6": {
    "facts": {
@@ -232,8 +212,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-7": {
    "facts": {
@@ -243,8 +222,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-9": {
    "facts": {
@@ -254,8 +232,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-10": {
    "facts": {
@@ -265,8 +242,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-11": {
    "facts": {
@@ -276,8 +252,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-12": {
    "facts": {
@@ -287,8 +262,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-13": {
    "facts": {
@@ -298,8 +272,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "1-14": {
    "facts": {
@@ -309,8 +282,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "2-3": {
    "facts": {
@@ -320,8 +292,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "2-9": {
    "facts": {
@@ -331,8 +302,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "2-12": {
    "facts": {
@@ -342,8 +312,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "2-13": {
    "facts": {
@@ -353,8 +322,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "3-4": {
    "facts": {
@@ -364,8 +332,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "3-5": {
    "facts": {
@@ -375,8 +342,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "3-6": {
    "facts": {
@@ -386,8 +352,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "3-7": {
    "facts": {
@@ -397,8 +362,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "3-8": {
    "facts": {
@@ -408,8 +372,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "3-9": {
    "facts": {
@@ -419,8 +382,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "3-12": {
    "facts": {
@@ -430,8 +392,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "3-13": {
    "facts": {
@@ -441,8 +402,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "3-14": {
    "facts": {
@@ -452,8 +412,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "4-8": {
    "facts": {
@@ -463,8 +422,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "4-9": {
    "facts": {
@@ -474,8 +432,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "4-11": {
    "facts": {
@@ -485,8 +442,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "4-12": {
    "facts": {
@@ -496,8 +452,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "4-14": {
    "facts": {
@@ -507,8 +462,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "5-6": {
    "facts": {
@@ -518,8 +472,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "5-7": {
    "facts": {
@@ -529,8 +482,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "5-9": {
    "facts": {
@@ -540,8 +492,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "5-11": {
    "facts": {
@@ -551,8 +502,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "5-12": {
    "facts": {
@@ -562,8 +512,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "5-13": {
    "facts": {
@@ -573,8 +522,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "5-14": {
    "facts": {
@@ -584,8 +532,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "6-7": {
    "facts": {
@@ -595,8 +542,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "6-9": {
    "facts": {
@@ -606,8 +552,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "6-11": {
    "facts": {
@@ -617,8 +562,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "6-12": {
    "facts": {
@@ -628,8 +572,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "6-13": {
    "facts": {
@@ -639,8 +582,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "6-14": {
    "facts": {
@@ -650,8 +592,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "7-9": {
    "facts": {
@@ -661,8 +602,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "7-11": {
    "facts": {
@@ -672,8 +612,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "7-12": {
    "facts": {
@@ -683,8 +622,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "7-13": {
    "facts": {
@@ -694,8 +632,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "7-14": {
    "facts": {
@@ -705,8 +642,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "8-9": {
    "facts": {
@@ -716,8 +652,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "9-10": {
    "facts": {
@@ -727,8 +662,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "9-11": {
    "facts": {
@@ -738,8 +672,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "9-12": {
    "facts": {
@@ -749,8 +682,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "9-13": {
    "facts": {
@@ -760,8 +692,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "9-14": {
    "facts": {
@@ -771,8 +702,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "10-11": {
    "facts": {
@@ -782,8 +712,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "10-12": {
    "facts": {
@@ -793,8 +722,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "10-13": {
    "facts": {
@@ -804,8 +732,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "10-14": {
    "facts": {
@@ -815,8 +742,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "11-12": {
    "facts": {
@@ -826,8 +752,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "11-13": {
    "facts": {
@@ -837,8 +762,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "11-14": {
    "facts": {
@@ -848,8 +772,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "12-13": {
    "facts": {
@@ -859,8 +782,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "12-14": {
    "facts": {
@@ -870,8 +792,7 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   },
   "13-14": {
    "facts": {
@@ -881,9 +802,33 @@
     "first": "Two Gentlemen of Verona",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Two Gentlemen of Verona."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

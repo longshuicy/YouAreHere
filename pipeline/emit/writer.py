@@ -210,13 +210,19 @@ def write_metadata(
             )
 
     index_of = {node.id: i for i, node in enumerate(graph.nodes)}
+    world_size = len(graph.segment_labels) if graph.segment_labels else 0
+    allowed_labels = (
+        set(graph.segment_labels.values()) | set(graph.segment_labels) if graph.segment_labels else set()
+    )
 
     nodes = {}
     for node_id, record in sorted(node_facts.items()):
         if node_id not in index_of:
             continue  # dropped by filtering
-        line = describe.node_line(record)
-        entry = {"facts": record}
+        view = _world_view(record, world_size, allowed_labels)
+        line = describe.node_line(view)
+        shipped = {k: v for k, v in view.items() if k != "worldSize"}
+        entry = {"facts": shipped}
         if line:
             entry["line"] = line
         nodes[str(index_of[node_id])] = entry
@@ -226,8 +232,10 @@ def write_metadata(
         if source not in index_of or target_id not in index_of:
             continue
         key = f"{index_of[source]}-{index_of[target_id]}"
-        line = describe.edge_line(record)
-        entry = {"facts": record}
+        view = _world_view(record, world_size, allowed_labels)
+        line = describe.edge_line(view)
+        shipped = {k: v for k, v in view.items() if k != "worldSize"}
+        entry = {"facts": shipped}
         if line:
             entry["line"] = line
         edges[key] = entry
@@ -259,6 +267,24 @@ def write_metadata(
         "edges": len(edges),
         "sources": list(sources),
     }
+
+
+def _world_view(record: dict, world_size: int, allowed_labels: set[str]) -> dict:
+    """Facts as seen from one emitted world.
+
+    Enrichment runs on the pre-split corpus, so Shakespeare characters carry a
+    corpusSize of 37. Presence lines must reason about this world's segments —
+    otherwise every Hamlet line reads "Appears in Hamlet."
+    """
+    view = dict(record)
+    if world_size:
+        view["worldSize"] = world_size
+    books = view.get("books") or []
+    if books and allowed_labels:
+        filtered = [b for b in books if b in allowed_labels]
+        if filtered:
+            view["books"] = filtered
+    return view
 
 
 def write_attribution(summaries: list[dict], graphs: dict[str, CanonicalGraph], out: Path) -> None:

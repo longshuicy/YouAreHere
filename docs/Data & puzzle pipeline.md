@@ -273,7 +273,9 @@ A sidecar, `<universe>.meta.json`. It holds a one-line description per character
 
 It is still separate from the universe file for two reasons, neither of them spoiler-prevention — the universe file already holds every name. The first is weight: a session that never buys facts and ends in a wrong guess never pays for it. The second is licensing, and it is the one with teeth.
 
-**Sources must be merge-safe.** Enrichment material is combined with graph data that is CC BY-NC-SA, and ShareAlike forbids adding restrictions — so CC BY-SA material cannot be folded in, because the result would need to be NonCommercial and not-NonCommercial at once. `License.can_merge_into()` encodes this and the emitter refuses any source that fails it. That rules out both obvious wikis and is why descriptions are *composed here from discrete facts* rather than copied: facts carry no licence, sentences do.
+**Sources must be merge-safe.** Enrichment material is combined with graph data that is CC BY-NC-SA, and ShareAlike forbids adding restrictions — so a CC BY-SA *work* cannot be folded into `/data`, because the result would need to be NonCommercial and not-NonCommercial at once. `License.can_merge_into()` encodes this and the emitter refuses any source that fails it.
+
+**CC BY-SA may be read, not copied.** Sources such as Wikipedia, Wookieepedia, and A Wiki of Ice and Fire may be consulted for factual research, but CC BY-SA text, descriptions, or other expressive material must not be copied or adapted into `/data`. Enrichment must consist of independently encoded discrete facts. Generated prose is composed from those facts, not paraphrased from source prose. That is why descriptions are *composed here from discrete facts* rather than copied: facts carry no licence, sentences do. The trap is copying expression, not learning a fact.
 
 For the same reason there are no quotations from the novels. A database of them is systematic reproduction of a living author's text, which is not what fair use covers, and the reveal loses nothing without it.
 

@@ -25,15 +25,9 @@ PEOPLES = {
 def node_line(facts: dict) -> str:
     clauses = []
 
-    standing = []
-    if facts.get("titles"):
-        standing.append(_title(facts["titles"][0]))
-    if facts.get("culture"):
-        standing.append(_culture(facts["culture"]))
-    if facts.get("houses"):
-        standing.append(f"sworn to {facts['houses'][0]}")
+    standing = _standing(facts)
     if standing:
-        clauses.append(_capitalise(", ".join(standing)))
+        clauses.append(_capitalise(standing))
 
     life = _life(facts)
     if life:
@@ -52,9 +46,12 @@ def edge_line(facts: dict) -> str:
     books = facts.get("books", [])
     unit = facts.get("unit", "book")
     first = books[0] if books else ""
-    total = facts.get("corpusSize") or 0
+    world_size = facts.get("worldSize")
+    total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
 
-    if books:
+    # A one-segment world already is that play or film; saying the tie appears
+    # only there tells the player nothing they do not know from the world title.
+    if books and not (total == 1 and len(books) == 1):
         if len(books) == 1:
             clauses.append(f"They share the page only in {first}")
         elif total and len(books) == total:
@@ -63,11 +60,47 @@ def edge_line(facts: dict) -> str:
             count = COUNT_WORDS.get(len(books), str(len(books)))
             clauses.append(f"They share the page in {count} {unit}s, first in {first}")
 
-    if facts.get("sharedHouses"):
+    shared = facts.get("sharedHouses") or facts.get("sharedAffiliations")
+    if shared:
         # Stated as a fact about each of them, never as a claim about the tie.
-        clauses.append(f"Both are sworn to {facts['sharedHouses'][0]}")
+        if facts.get("sharedHouses"):
+            clauses.append(f"Both are sworn to {shared[0]}")
+        else:
+            clauses.append(f"Both belong to {shared[0]}")
 
     return " ".join(f"{clause}." for clause in clauses)
+
+
+def _standing(facts: dict) -> str:
+    parts = []
+
+    title = None
+    if facts.get("titles"):
+        title = _title(facts["titles"][0])
+    elif facts.get("role"):
+        title = _title(facts["role"])
+    elif facts.get("occupation"):
+        title = _title(facts["occupation"])
+    if title:
+        parts.append(title)
+
+    if facts.get("culture"):
+        parts.append(_culture(facts["culture"]))
+    elif facts.get("species"):
+        parts.append(_species(facts["species"]))
+
+    if facts.get("homeworld"):
+        parts.append(f"of {facts['homeworld']}")
+
+    if facts.get("houses"):
+        parts.append(f"sworn to {facts['houses'][0]}")
+    elif facts.get("affiliations"):
+        affiliation = facts["affiliations"][0]
+        # Avoid "Sith, of the Sith" when occupation and affiliation repeat.
+        if affiliation.lower() not in ", ".join(parts).lower():
+            parts.append(f"of the {affiliation}")
+
+    return ", ".join(parts)
 
 
 def _life(facts: dict) -> str:
@@ -87,7 +120,12 @@ def _presence(facts: dict) -> str:
         return ""
 
     unit = facts.get("unit", "book")
-    total = facts.get("corpusSize") or 0
+    world_size = facts.get("worldSize")
+    total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
+
+    # One-segment worlds: "Appears in Hamlet" restates the world title.
+    if total == 1 and len(books) == 1:
+        return ""
 
     if total and len(books) == total:
         where = f"Appears in all {COUNT_WORDS.get(total, total)} {unit}s"
@@ -120,6 +158,14 @@ def _culture(culture: str) -> str:
     if normalised.lower() in PEOPLES:
         return f"of the {normalised}"
     return normalised
+
+
+def _species(species: str) -> str:
+    species = species.strip()
+    if not species:
+        return species
+    # "of the Wookiee" is wrong; species stands as an apposition.
+    return species[:1].upper() + species[1:] if species else species
 
 
 def _title(title: str) -> str:

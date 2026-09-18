@@ -1,6 +1,6 @@
 import { Stage } from '../render/Stage';
 import { Ledger, LedgerBreakdown } from '../render/Ledger';
-import { MarginLinks } from '../render/MarginLinks';
+import { BrandMark, MarginLinks } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -71,7 +71,7 @@ export function Explore({
         }}
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-          <div className="chrome">YOU ARE HERE</div>
+          <BrandMark onStartAgain={onStartAgain} />
           <Ledger ledger={session.ledger} />
         </div>
 
@@ -131,7 +131,6 @@ export function Explore({
               onOpenKey={onOpenKey}
               onReveal={onReveal}
               onRevealStory={worldIsKnown(session) ? undefined : onRevealStory}
-              onStartAgain={onStartAgain}
             />
       </div>
     </div>

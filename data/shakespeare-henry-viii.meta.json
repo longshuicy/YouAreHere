@@ -9,9 +9,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "member of the House of Lords"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Member of the House of Lords."
   },
   "1": {
    "facts": {
@@ -19,9 +22,13 @@
      "Henry VIII"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Female",
+    "titles": [
+     "Queen Consort of England"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Queen Consort of England."
   },
   "2": {
    "facts": {
@@ -30,9 +37,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Roman Catholic Bishop of Lincoln (England)"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Roman Catholic Bishop of Lincoln (England)."
   },
   "3": {
    "facts": {
@@ -42,8 +52,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "4": {
    "facts": {
@@ -52,9 +61,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "member of the House of Lords"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Member of the House of Lords."
   },
   "5": {
    "facts": {
@@ -63,9 +75,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "physician"
    },
-   "line": "Appears in Henry VIII."
+   "line": "Physician."
   },
   "6": {
    "facts": {
@@ -73,9 +86,13 @@
      "Henry VIII"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "cardinal"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Cardinal."
   },
   "7": {
    "facts": {
@@ -84,9 +101,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Ambassador"
    },
-   "line": "Appears in Henry VIII."
+   "line": "Ambassador."
   },
   "8": {
    "facts": {
@@ -95,9 +113,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "ambassador"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Ambassador."
   },
   "9": {
    "facts": {
@@ -106,9 +127,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Lord Chancellor"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Lord Chancellor."
   },
   "10": {
    "facts": {
@@ -117,9 +141,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Roman Catholic Archbishop of Canterbury"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Roman Catholic Archbishop of Canterbury."
   },
   "11": {
    "facts": {
@@ -129,8 +156,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "12": {
    "facts": {
@@ -138,9 +164,11 @@
      "Henry VIII"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Servant",
+    "gender": "Male"
    },
-   "line": "Appears in Henry VIII."
+   "line": "Servant."
   },
   "13": {
    "facts": {
@@ -149,9 +177,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Member of Parliament in the Parliament of England"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Member of Parliament in the Parliament of England."
   },
   "14": {
    "facts": {
@@ -161,8 +192,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "15": {
    "facts": {
@@ -172,8 +202,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "16": {
    "facts": {
@@ -183,8 +212,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "17": {
    "facts": {
@@ -193,9 +221,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "ambassador of the Kingdom of England to the Kingdom of Spain"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Ambassador of the Kingdom of England to the Kingdom of Spain."
   },
   "18": {
    "facts": {
@@ -205,8 +236,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "19": {
    "facts": {
@@ -216,8 +246,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "20": {
    "facts": {
@@ -226,9 +255,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Member of Parliament in the Parliament of England"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Member of Parliament in the Parliament of England."
   },
   "21": {
    "facts": {
@@ -236,9 +268,13 @@
      "Henry VIII"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "King of Ireland"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "King of Ireland."
   },
   "22": {
    "facts": {
@@ -247,9 +283,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "titles": [
+     "Ambassador of the Kingdom of Spain to the Kingdom of England"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Ambassador of the Kingdom of Spain to the Kingdom of England."
   },
   "23": {
    "facts": {
@@ -259,8 +298,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "24": {
    "facts": {
@@ -270,8 +308,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "25": {
    "facts": {
@@ -280,9 +317,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Member of the 1495 Parliament"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Member of the 1495 Parliament."
   },
   "26": {
    "facts": {
@@ -291,9 +331,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Member of the Privy Council of the United Kingdom"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Member of the Privy Council of the United Kingdom."
   },
   "27": {
    "facts": {
@@ -303,8 +346,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "28": {
    "facts": {
@@ -314,8 +356,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "29": {
    "facts": {
@@ -324,9 +365,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Lord Chamberlain"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Lord Chamberlain."
   },
   "30": {
    "facts": {
@@ -336,8 +380,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "31": {
    "facts": {
@@ -347,8 +390,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "32": {
    "facts": {
@@ -357,9 +399,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Lord Lieutenant of Buckinghamshire"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Lord Lieutenant of Buckinghamshire."
   },
   "33": {
    "facts": {
@@ -368,9 +413,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "member of the House of Lords"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Member of the House of Lords."
   },
   "34": {
    "facts": {
@@ -380,8 +428,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Henry VIII."
+   }
   },
   "35": {
    "facts": {
@@ -390,9 +437,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Member of Parliament in the Parliament of England"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Member of Parliament in the Parliament of England."
   },
   "36": {
    "facts": {
@@ -401,9 +451,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Lord Chancellor"
+    ]
    },
-   "line": "Appears in Henry VIII."
+   "line": "Lord Chancellor."
   }
  },
  "edges": {
@@ -415,8 +468,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "0-4": {
    "facts": {
@@ -426,8 +478,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "0-26": {
    "facts": {
@@ -437,8 +488,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "0-31": {
    "facts": {
@@ -448,8 +498,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "0-36": {
    "facts": {
@@ -459,8 +508,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "1-8": {
    "facts": {
@@ -470,8 +518,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "1-20": {
    "facts": {
@@ -481,8 +528,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "1-21": {
    "facts": {
@@ -492,8 +538,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "1-25": {
    "facts": {
@@ -503,8 +548,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "1-27": {
    "facts": {
@@ -514,8 +558,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "1-29": {
    "facts": {
@@ -525,8 +568,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "1-36": {
    "facts": {
@@ -536,8 +578,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "2-6": {
    "facts": {
@@ -547,8 +588,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "2-11": {
    "facts": {
@@ -558,8 +598,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "2-21": {
    "facts": {
@@ -569,8 +608,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "2-22": {
    "facts": {
@@ -580,8 +618,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "2-30": {
    "facts": {
@@ -591,8 +628,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "2-34": {
    "facts": {
@@ -602,8 +638,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "2-36": {
    "facts": {
@@ -613,8 +648,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "3-4": {
    "facts": {
@@ -624,8 +658,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "3-26": {
    "facts": {
@@ -635,8 +668,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "3-31": {
    "facts": {
@@ -646,8 +678,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "3-36": {
    "facts": {
@@ -657,8 +688,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "4-14": {
    "facts": {
@@ -668,8 +698,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "4-15": {
    "facts": {
@@ -679,8 +708,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "4-25": {
    "facts": {
@@ -690,8 +718,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "4-26": {
    "facts": {
@@ -701,8 +728,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "4-31": {
    "facts": {
@@ -712,8 +738,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "4-35": {
    "facts": {
@@ -723,8 +748,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "4-36": {
    "facts": {
@@ -734,8 +758,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-8": {
    "facts": {
@@ -745,8 +768,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-9": {
    "facts": {
@@ -756,8 +778,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-10": {
    "facts": {
@@ -767,8 +788,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-12": {
    "facts": {
@@ -778,8 +798,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-17": {
    "facts": {
@@ -789,8 +808,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-21": {
    "facts": {
@@ -800,8 +818,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-23": {
    "facts": {
@@ -811,8 +828,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-26": {
    "facts": {
@@ -822,8 +838,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-32": {
    "facts": {
@@ -833,8 +848,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "5-33": {
    "facts": {
@@ -844,8 +858,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-8": {
    "facts": {
@@ -855,8 +868,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-11": {
    "facts": {
@@ -866,8 +878,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-17": {
    "facts": {
@@ -877,8 +888,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-21": {
    "facts": {
@@ -888,8 +898,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-22": {
    "facts": {
@@ -899,8 +908,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-26": {
    "facts": {
@@ -910,8 +918,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-30": {
    "facts": {
@@ -921,8 +928,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-32": {
    "facts": {
@@ -932,8 +938,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-34": {
    "facts": {
@@ -943,8 +948,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "6-36": {
    "facts": {
@@ -954,8 +958,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "7-19": {
    "facts": {
@@ -965,8 +968,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "7-22": {
    "facts": {
@@ -976,8 +978,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "7-24": {
    "facts": {
@@ -987,8 +988,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-9": {
    "facts": {
@@ -998,8 +998,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-10": {
    "facts": {
@@ -1009,8 +1008,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-12": {
    "facts": {
@@ -1020,8 +1018,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-17": {
    "facts": {
@@ -1031,8 +1028,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-20": {
    "facts": {
@@ -1042,8 +1038,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-21": {
    "facts": {
@@ -1053,8 +1048,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-23": {
    "facts": {
@@ -1064,8 +1058,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-25": {
    "facts": {
@@ -1075,8 +1068,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-26": {
    "facts": {
@@ -1086,8 +1078,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-27": {
    "facts": {
@@ -1097,8 +1088,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-29": {
    "facts": {
@@ -1108,8 +1098,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-32": {
    "facts": {
@@ -1119,8 +1108,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-33": {
    "facts": {
@@ -1130,8 +1118,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "8-36": {
    "facts": {
@@ -1141,8 +1128,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "9-10": {
    "facts": {
@@ -1152,8 +1138,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "9-12": {
    "facts": {
@@ -1163,8 +1148,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "9-17": {
    "facts": {
@@ -1174,8 +1158,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "9-21": {
    "facts": {
@@ -1185,8 +1168,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "9-23": {
    "facts": {
@@ -1196,8 +1178,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "9-26": {
    "facts": {
@@ -1207,8 +1188,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "9-32": {
    "facts": {
@@ -1218,8 +1198,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "9-33": {
    "facts": {
@@ -1229,8 +1208,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-12": {
    "facts": {
@@ -1240,8 +1218,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-13": {
    "facts": {
@@ -1251,8 +1228,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-17": {
    "facts": {
@@ -1262,8 +1238,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-18": {
    "facts": {
@@ -1273,8 +1248,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-21": {
    "facts": {
@@ -1284,8 +1258,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-23": {
    "facts": {
@@ -1295,8 +1268,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-25": {
    "facts": {
@@ -1306,8 +1278,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-26": {
    "facts": {
@@ -1317,8 +1288,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-27": {
    "facts": {
@@ -1328,8 +1298,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-28": {
    "facts": {
@@ -1339,8 +1308,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-32": {
    "facts": {
@@ -1350,8 +1318,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "10-33": {
    "facts": {
@@ -1361,8 +1328,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "11-21": {
    "facts": {
@@ -1372,8 +1338,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "11-22": {
    "facts": {
@@ -1383,8 +1348,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "11-30": {
    "facts": {
@@ -1394,8 +1358,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "11-34": {
    "facts": {
@@ -1405,8 +1368,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "11-36": {
    "facts": {
@@ -1416,8 +1378,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "12-17": {
    "facts": {
@@ -1427,8 +1388,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "12-21": {
    "facts": {
@@ -1438,8 +1398,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "12-23": {
    "facts": {
@@ -1449,8 +1408,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "12-26": {
    "facts": {
@@ -1460,8 +1418,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "12-32": {
    "facts": {
@@ -1471,8 +1428,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "12-33": {
    "facts": {
@@ -1482,8 +1438,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "12-36": {
    "facts": {
@@ -1493,8 +1448,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "13-17": {
    "facts": {
@@ -1504,8 +1458,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "13-21": {
    "facts": {
@@ -1515,8 +1468,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "13-25": {
    "facts": {
@@ -1526,8 +1478,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "13-27": {
    "facts": {
@@ -1537,8 +1488,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "13-28": {
    "facts": {
@@ -1548,8 +1498,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "13-32": {
    "facts": {
@@ -1559,8 +1508,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "14-15": {
    "facts": {
@@ -1570,8 +1518,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "14-16": {
    "facts": {
@@ -1581,8 +1528,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "14-25": {
    "facts": {
@@ -1592,8 +1538,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "14-35": {
    "facts": {
@@ -1603,8 +1548,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "15-16": {
    "facts": {
@@ -1614,8 +1558,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "15-25": {
    "facts": {
@@ -1625,8 +1568,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "15-35": {
    "facts": {
@@ -1636,8 +1578,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "17-21": {
    "facts": {
@@ -1647,8 +1588,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "17-23": {
    "facts": {
@@ -1658,8 +1598,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "17-25": {
    "facts": {
@@ -1669,8 +1608,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "17-26": {
    "facts": {
@@ -1680,8 +1618,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "17-27": {
    "facts": {
@@ -1691,8 +1628,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "17-28": {
    "facts": {
@@ -1702,8 +1638,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "17-32": {
    "facts": {
@@ -1713,8 +1648,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "17-33": {
    "facts": {
@@ -1724,8 +1658,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "17-36": {
    "facts": {
@@ -1735,8 +1668,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "18-21": {
    "facts": {
@@ -1746,8 +1678,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "19-22": {
    "facts": {
@@ -1757,8 +1688,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "19-24": {
    "facts": {
@@ -1768,8 +1698,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "20-21": {
    "facts": {
@@ -1779,8 +1708,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "20-25": {
    "facts": {
@@ -1790,8 +1718,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "20-29": {
    "facts": {
@@ -1801,8 +1728,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "20-36": {
    "facts": {
@@ -1812,8 +1738,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-22": {
    "facts": {
@@ -1823,8 +1748,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-23": {
    "facts": {
@@ -1834,8 +1758,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-25": {
    "facts": {
@@ -1845,8 +1768,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-26": {
    "facts": {
@@ -1856,8 +1778,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-27": {
    "facts": {
@@ -1867,8 +1788,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-28": {
    "facts": {
@@ -1878,8 +1798,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-29": {
    "facts": {
@@ -1889,8 +1808,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-30": {
    "facts": {
@@ -1900,8 +1818,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-32": {
    "facts": {
@@ -1911,8 +1828,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-33": {
    "facts": {
@@ -1922,8 +1838,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-34": {
    "facts": {
@@ -1933,8 +1848,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "21-36": {
    "facts": {
@@ -1944,8 +1858,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "22-24": {
    "facts": {
@@ -1955,8 +1868,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "22-26": {
    "facts": {
@@ -1966,8 +1878,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "22-30": {
    "facts": {
@@ -1977,8 +1888,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "22-34": {
    "facts": {
@@ -1988,8 +1898,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "22-36": {
    "facts": {
@@ -1999,8 +1908,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "23-26": {
    "facts": {
@@ -2010,8 +1918,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "23-32": {
    "facts": {
@@ -2021,8 +1928,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "23-33": {
    "facts": {
@@ -2032,8 +1938,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "25-27": {
    "facts": {
@@ -2043,8 +1948,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "25-28": {
    "facts": {
@@ -2054,8 +1958,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "25-29": {
    "facts": {
@@ -2065,8 +1968,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "25-32": {
    "facts": {
@@ -2076,8 +1978,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "25-35": {
    "facts": {
@@ -2087,8 +1988,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "25-36": {
    "facts": {
@@ -2098,8 +1998,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "26-31": {
    "facts": {
@@ -2109,8 +2008,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "26-32": {
    "facts": {
@@ -2120,8 +2018,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "26-33": {
    "facts": {
@@ -2131,8 +2028,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "26-36": {
    "facts": {
@@ -2142,8 +2038,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "27-28": {
    "facts": {
@@ -2153,8 +2048,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "27-32": {
    "facts": {
@@ -2164,8 +2058,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "28-32": {
    "facts": {
@@ -2175,8 +2068,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "29-36": {
    "facts": {
@@ -2186,8 +2078,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "30-34": {
    "facts": {
@@ -2197,8 +2088,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "30-36": {
    "facts": {
@@ -2208,8 +2098,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "31-36": {
    "facts": {
@@ -2219,8 +2108,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "32-33": {
    "facts": {
@@ -2230,8 +2118,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "32-36": {
    "facts": {
@@ -2241,8 +2128,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "33-36": {
    "facts": {
@@ -2252,8 +2138,7 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   },
   "34-36": {
    "facts": {
@@ -2263,9 +2148,33 @@
     "first": "Henry VIII",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Henry VIII."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

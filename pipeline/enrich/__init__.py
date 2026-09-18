@@ -1,3 +1,3 @@
-from . import anapi, describe, facts
+from . import anapi, describe, facts, folger, wikidata
 
-__all__ = ["anapi", "describe", "facts"]
+__all__ = ["anapi", "describe", "facts", "folger", "wikidata"]

@@ -8,9 +8,13 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "Roman governor"
+    ]
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Roman governor. Appears in Antony and Cleopatra."
   },
   "1": {
    "facts": {
@@ -30,9 +34,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "teacher"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Teacher. Appears in Antony and Cleopatra."
   },
   "3": {
    "facts": {
@@ -41,9 +46,13 @@
      "Julius Caesar"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "king consort"
+    ]
    },
-   "line": "Appears in Antony and Cleopatra and Julius Caesar."
+   "line": "King consort. Appears in all two plays."
   },
   "4": {
    "facts": {
@@ -73,9 +82,13 @@
      "Julius Caesar"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "praetor"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Praetor. Appears in Julius Caesar."
   },
   "7": {
    "facts": {
@@ -94,9 +107,13 @@
      "Julius Caesar"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "Roman dictator"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Roman dictator. Appears in Julius Caesar."
   },
   "9": {
    "facts": {
@@ -115,9 +132,13 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "consul suffectus"
+    ]
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Consul suffectus. Appears in Antony and Cleopatra."
   },
   "11": {
    "facts": {
@@ -126,9 +147,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "ancient Roman senator"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar."
   },
   "12": {
    "facts": {
@@ -136,9 +160,13 @@
      "Julius Caesar"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "tribune of the plebs"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Tribune of the plebs. Appears in Julius Caesar."
   },
   "13": {
    "facts": {
@@ -146,9 +174,11 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Female",
+    "occupation": "lady's maid"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Lady's maid. Appears in Antony and Cleopatra."
   },
   "14": {
    "facts": {
@@ -157,9 +187,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "quaestor"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Quaestor. Appears in Julius Caesar."
   },
   "15": {
    "facts": {
@@ -167,9 +200,11 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Queen of Egypt",
+    "gender": "Female"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Queen of Egypt. Appears in Antony and Cleopatra."
   },
   "16": {
    "facts": {
@@ -189,9 +224,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Roman governor"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Roman governor. Appears in Julius Caesar."
   },
   "18": {
    "facts": {
@@ -221,9 +259,13 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "ancient Roman senator"
+    ]
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Ancient Roman senator. Appears in Antony and Cleopatra."
   },
   "21": {
    "facts": {
@@ -242,9 +284,13 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "Roman governor"
+    ]
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Roman governor. Appears in Antony and Cleopatra."
   },
   "23": {
    "facts": {
@@ -275,9 +321,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "praefectus Aegypti"
+    ]
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Praefectus Aegypti. Appears in Antony and Cleopatra."
   },
   "26": {
    "facts": {
@@ -297,9 +346,13 @@
      "Julius Caesar"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "magister equitum"
+    ]
    },
-   "line": "Appears in Antony and Cleopatra and Julius Caesar."
+   "line": "Magister equitum. Appears in all two plays."
   },
   "28": {
    "facts": {
@@ -308,9 +361,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "ancient Roman senator"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar."
   },
   "29": {
    "facts": {
@@ -329,9 +385,11 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "occupation": "patron of the arts"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Patron of the arts. Appears in Antony and Cleopatra."
   },
   "31": {
    "facts": {
@@ -350,7 +408,8 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male"
    },
    "line": "Appears in Antony and Cleopatra."
   },
@@ -361,9 +420,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "ancient Roman senator"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar."
   },
   "34": {
    "facts": {
@@ -371,7 +433,8 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Female"
    },
    "line": "Appears in Antony and Cleopatra."
   },
@@ -382,9 +445,13 @@
      "Julius Caesar"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "Roman emperor"
+    ]
    },
-   "line": "Appears in Antony and Cleopatra and Julius Caesar."
+   "line": "Roman emperor. Appears in all two plays."
   },
   "36": {
    "facts": {
@@ -414,9 +481,13 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "Roman consul"
+    ]
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Roman consul. Appears in Antony and Cleopatra."
   },
   "39": {
    "facts": {
@@ -424,9 +495,13 @@
      "Julius Caesar"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "titles": [
+     "legatus"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Legatus. Appears in Julius Caesar."
   },
   "40": {
    "facts": {
@@ -435,9 +510,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "occupation": "philosopher"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Philosopher. Appears in Julius Caesar."
   },
   "41": {
    "facts": {
@@ -445,7 +521,8 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male"
    },
    "line": "Appears in Antony and Cleopatra."
   },
@@ -520,9 +597,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "ancient Roman senator"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar."
   },
   "49": {
    "facts": {
@@ -542,9 +622,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "centurion"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Centurion. Appears in Julius Caesar."
   },
   "51": {
    "facts": {
@@ -553,9 +634,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "ancient Roman senator"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar."
   },
   "52": {
    "facts": {
@@ -564,9 +648,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "philosopher"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Philosopher. Appears in Julius Caesar."
   },
   "53": {
    "facts": {
@@ -574,7 +659,8 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male"
    },
    "line": "Appears in Antony and Cleopatra."
   },
@@ -584,7 +670,8 @@
      "Antony and Cleopatra"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male"
    },
    "line": "Appears in Antony and Cleopatra."
   },
@@ -617,9 +704,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "tribune of the plebs"
+    ]
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Tribune of the plebs. Appears in Julius Caesar."
   },
   "58": {
    "facts": {
@@ -1150,7 +1240,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Antony and Cleopatra."
+   "line": "They share the page in every play, first in Antony and Cleopatra."
   },
   "3-30": {
    "facts": {
@@ -1217,7 +1307,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Antony and Cleopatra."
+   "line": "They share the page in every play, first in Antony and Cleopatra."
   },
   "3-36": {
    "facts": {
@@ -3451,7 +3541,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Antony and Cleopatra."
+   "line": "They share the page in every play, first in Antony and Cleopatra."
   },
   "27-38": {
    "facts": {
@@ -4290,5 +4380,30 @@
    "line": "They share the page only in Julius Caesar."
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

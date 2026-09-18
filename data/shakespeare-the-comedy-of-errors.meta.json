@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "1": {
    "facts": {
@@ -21,8 +20,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +30,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +40,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +50,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +60,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +70,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +80,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "8": {
    "facts": {
@@ -98,8 +90,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "9": {
    "facts": {
@@ -109,8 +100,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "10": {
    "facts": {
@@ -120,8 +110,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "11": {
    "facts": {
@@ -131,8 +120,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +130,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "13": {
    "facts": {
@@ -153,8 +140,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "14": {
    "facts": {
@@ -164,8 +150,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "15": {
    "facts": {
@@ -174,9 +159,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in The Comedy of Errors."
+   "line": "Servant."
   },
   "16": {
    "facts": {
@@ -186,8 +172,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   },
   "17": {
    "facts": {
@@ -197,8 +182,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Comedy of Errors."
+   }
   }
  },
  "edges": {
@@ -210,8 +194,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-2": {
    "facts": {
@@ -221,8 +204,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-3": {
    "facts": {
@@ -232,8 +214,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-4": {
    "facts": {
@@ -243,8 +224,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-6": {
    "facts": {
@@ -254,8 +234,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-7": {
    "facts": {
@@ -265,8 +244,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-8": {
    "facts": {
@@ -276,8 +254,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-9": {
    "facts": {
@@ -287,8 +264,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-10": {
    "facts": {
@@ -298,8 +274,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-12": {
    "facts": {
@@ -309,8 +284,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-14": {
    "facts": {
@@ -320,8 +294,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "0-15": {
    "facts": {
@@ -331,8 +304,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-2": {
    "facts": {
@@ -342,8 +314,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-3": {
    "facts": {
@@ -353,8 +324,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-4": {
    "facts": {
@@ -364,8 +334,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-5": {
    "facts": {
@@ -375,8 +344,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-6": {
    "facts": {
@@ -386,8 +354,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-7": {
    "facts": {
@@ -397,8 +364,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-8": {
    "facts": {
@@ -408,8 +374,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-9": {
    "facts": {
@@ -419,8 +384,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-10": {
    "facts": {
@@ -430,8 +394,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-11": {
    "facts": {
@@ -441,8 +404,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-12": {
    "facts": {
@@ -452,8 +414,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-14": {
    "facts": {
@@ -463,8 +424,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-15": {
    "facts": {
@@ -474,8 +434,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "1-17": {
    "facts": {
@@ -485,8 +444,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-3": {
    "facts": {
@@ -496,8 +454,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-4": {
    "facts": {
@@ -507,8 +464,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-5": {
    "facts": {
@@ -518,8 +474,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-6": {
    "facts": {
@@ -529,8 +484,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-7": {
    "facts": {
@@ -540,8 +494,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-8": {
    "facts": {
@@ -551,8 +504,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-9": {
    "facts": {
@@ -562,8 +514,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-10": {
    "facts": {
@@ -573,8 +524,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-11": {
    "facts": {
@@ -584,8 +534,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-12": {
    "facts": {
@@ -595,8 +544,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-14": {
    "facts": {
@@ -606,8 +554,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "2-15": {
    "facts": {
@@ -617,8 +564,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-4": {
    "facts": {
@@ -628,8 +574,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-5": {
    "facts": {
@@ -639,8 +584,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-6": {
    "facts": {
@@ -650,8 +594,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-7": {
    "facts": {
@@ -661,8 +604,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-8": {
    "facts": {
@@ -672,8 +614,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-9": {
    "facts": {
@@ -683,8 +624,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-10": {
    "facts": {
@@ -694,8 +634,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-11": {
    "facts": {
@@ -705,8 +644,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-12": {
    "facts": {
@@ -716,8 +654,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-14": {
    "facts": {
@@ -727,8 +664,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-15": {
    "facts": {
@@ -738,8 +674,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "3-17": {
    "facts": {
@@ -749,8 +684,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-6": {
    "facts": {
@@ -760,8 +694,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-7": {
    "facts": {
@@ -771,8 +704,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-8": {
    "facts": {
@@ -782,8 +714,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-9": {
    "facts": {
@@ -793,8 +724,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-10": {
    "facts": {
@@ -804,8 +734,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-12": {
    "facts": {
@@ -815,8 +744,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-13": {
    "facts": {
@@ -826,8 +754,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-14": {
    "facts": {
@@ -837,8 +764,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-15": {
    "facts": {
@@ -848,8 +774,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "4-17": {
    "facts": {
@@ -859,8 +784,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "5-7": {
    "facts": {
@@ -870,8 +794,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "5-8": {
    "facts": {
@@ -881,8 +804,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "5-11": {
    "facts": {
@@ -892,8 +814,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "6-7": {
    "facts": {
@@ -903,8 +824,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "6-8": {
    "facts": {
@@ -914,8 +834,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "6-9": {
    "facts": {
@@ -925,8 +844,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "6-10": {
    "facts": {
@@ -936,8 +854,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "6-12": {
    "facts": {
@@ -947,8 +864,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "6-14": {
    "facts": {
@@ -958,8 +874,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "6-15": {
    "facts": {
@@ -969,8 +884,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "6-17": {
    "facts": {
@@ -980,8 +894,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "7-8": {
    "facts": {
@@ -991,8 +904,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "7-9": {
    "facts": {
@@ -1002,8 +914,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "7-10": {
    "facts": {
@@ -1013,8 +924,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "7-11": {
    "facts": {
@@ -1024,8 +934,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "7-12": {
    "facts": {
@@ -1035,8 +944,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "7-13": {
    "facts": {
@@ -1046,8 +954,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "7-14": {
    "facts": {
@@ -1057,8 +964,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "7-15": {
    "facts": {
@@ -1068,8 +974,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "7-17": {
    "facts": {
@@ -1079,8 +984,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "8-9": {
    "facts": {
@@ -1090,8 +994,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "8-10": {
    "facts": {
@@ -1101,8 +1004,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "8-11": {
    "facts": {
@@ -1112,8 +1014,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "8-12": {
    "facts": {
@@ -1123,8 +1024,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "8-13": {
    "facts": {
@@ -1134,8 +1034,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "8-14": {
    "facts": {
@@ -1145,8 +1044,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "8-15": {
    "facts": {
@@ -1156,8 +1054,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "8-17": {
    "facts": {
@@ -1167,8 +1064,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "9-10": {
    "facts": {
@@ -1178,8 +1074,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "9-12": {
    "facts": {
@@ -1189,8 +1084,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "9-14": {
    "facts": {
@@ -1200,8 +1094,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "9-15": {
    "facts": {
@@ -1211,8 +1104,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "9-16": {
    "facts": {
@@ -1222,8 +1114,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "10-12": {
    "facts": {
@@ -1233,8 +1124,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "10-14": {
    "facts": {
@@ -1244,8 +1134,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "10-15": {
    "facts": {
@@ -1255,8 +1144,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "10-16": {
    "facts": {
@@ -1266,8 +1154,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "12-14": {
    "facts": {
@@ -1277,8 +1164,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "12-15": {
    "facts": {
@@ -1288,8 +1174,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "12-17": {
    "facts": {
@@ -1299,8 +1184,7 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   },
   "14-15": {
    "facts": {
@@ -1310,9 +1194,33 @@
     "first": "The Comedy of Errors",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Comedy of Errors."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

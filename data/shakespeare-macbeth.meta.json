@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Macbeth."
+   }
   },
   "1": {
    "facts": {
@@ -21,8 +20,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Macbeth."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +30,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Macbeth."
+   }
   },
   "3": {
    "facts": {
@@ -41,9 +38,9 @@
      "Macbeth"
     ],
     "unit": "play",
-    "corpusSize": 37
-   },
-   "line": "Appears in Macbeth."
+    "corpusSize": 37,
+    "gender": "Male"
+   }
   },
   "4": {
    "facts": {
@@ -51,9 +48,11 @@
      "Macbeth"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "King of Scotland",
+    "gender": "Male"
    },
-   "line": "Appears in Macbeth."
+   "line": "King of Scotland."
   },
   "5": {
    "facts": {
@@ -63,8 +62,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Macbeth."
+   }
   },
   "6": {
    "facts": {
@@ -74,8 +72,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Macbeth."
+   }
   },
   "7": {
    "facts": {
@@ -83,9 +80,9 @@
      "Macbeth"
     ],
     "unit": "play",
-    "corpusSize": 37
-   },
-   "line": "Appears in Macbeth."
+    "corpusSize": 37,
+    "gender": "Female"
+   }
   },
   "8": {
    "facts": {
@@ -95,8 +92,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Macbeth."
+   }
   },
   "9": {
    "facts": {
@@ -104,9 +100,11 @@
      "Macbeth"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "gender": "Male",
+    "occupation": "murderer"
    },
-   "line": "Appears in Macbeth."
+   "line": "Murderer."
   },
   "10": {
    "facts": {
@@ -116,8 +114,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Macbeth."
+   }
   },
   "11": {
    "facts": {
@@ -125,9 +122,9 @@
      "Macbeth"
     ],
     "unit": "play",
-    "corpusSize": 37
-   },
-   "line": "Appears in Macbeth."
+    "corpusSize": 37,
+    "gender": "Male"
+   }
   },
   "12": {
    "facts": {
@@ -137,8 +134,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Macbeth."
+   }
   },
   "13": {
    "facts": {
@@ -148,8 +144,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Macbeth."
+   }
   },
   "14": {
    "facts": {
@@ -158,9 +153,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Earl of Northumbria"
+    ]
    },
-   "line": "Appears in Macbeth."
+   "line": "Earl of Northumbria."
   },
   "15": {
    "facts": {
@@ -170,8 +168,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Macbeth."
+   }
   }
  },
  "edges": {
@@ -183,8 +180,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "0-2": {
    "facts": {
@@ -194,8 +190,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "0-8": {
    "facts": {
@@ -205,8 +200,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "0-9": {
    "facts": {
@@ -216,8 +210,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "0-12": {
    "facts": {
@@ -227,8 +220,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "0-13": {
    "facts": {
@@ -238,8 +230,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "1-3": {
    "facts": {
@@ -249,8 +240,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "1-4": {
    "facts": {
@@ -260,8 +250,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "1-5": {
    "facts": {
@@ -271,8 +260,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "1-7": {
    "facts": {
@@ -282,8 +270,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "1-8": {
    "facts": {
@@ -293,8 +280,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "1-9": {
    "facts": {
@@ -304,8 +290,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "1-10": {
    "facts": {
@@ -315,8 +300,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "1-11": {
    "facts": {
@@ -326,8 +310,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "1-13": {
    "facts": {
@@ -337,8 +320,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "2-8": {
    "facts": {
@@ -348,8 +330,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "2-12": {
    "facts": {
@@ -359,8 +340,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "3-7": {
    "facts": {
@@ -370,8 +350,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "3-8": {
    "facts": {
@@ -381,8 +360,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "3-9": {
    "facts": {
@@ -392,8 +370,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "3-10": {
    "facts": {
@@ -403,8 +380,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "3-11": {
    "facts": {
@@ -414,8 +390,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "3-13": {
    "facts": {
@@ -425,8 +400,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "4-7": {
    "facts": {
@@ -436,8 +410,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "4-8": {
    "facts": {
@@ -447,8 +420,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "4-9": {
    "facts": {
@@ -458,8 +430,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "4-11": {
    "facts": {
@@ -469,8 +440,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "4-13": {
    "facts": {
@@ -480,8 +450,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "5-9": {
    "facts": {
@@ -491,8 +460,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "6-8": {
    "facts": {
@@ -502,8 +470,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "6-9": {
    "facts": {
@@ -513,8 +480,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "7-8": {
    "facts": {
@@ -524,8 +490,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "7-9": {
    "facts": {
@@ -535,8 +500,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "7-10": {
    "facts": {
@@ -546,8 +510,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "7-11": {
    "facts": {
@@ -557,8 +520,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "7-13": {
    "facts": {
@@ -568,8 +530,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "8-9": {
    "facts": {
@@ -579,8 +540,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "8-10": {
    "facts": {
@@ -590,8 +550,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "8-11": {
    "facts": {
@@ -601,8 +560,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "8-12": {
    "facts": {
@@ -612,8 +570,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "8-13": {
    "facts": {
@@ -623,8 +580,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "9-10": {
    "facts": {
@@ -634,8 +590,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "9-11": {
    "facts": {
@@ -645,8 +600,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "9-13": {
    "facts": {
@@ -656,8 +610,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "9-14": {
    "facts": {
@@ -667,8 +620,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "9-15": {
    "facts": {
@@ -678,8 +630,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "10-11": {
    "facts": {
@@ -689,8 +640,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "10-12": {
    "facts": {
@@ -700,8 +650,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "10-13": {
    "facts": {
@@ -711,8 +660,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "10-14": {
    "facts": {
@@ -722,8 +670,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "10-15": {
    "facts": {
@@ -733,8 +680,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "11-12": {
    "facts": {
@@ -744,8 +690,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "11-13": {
    "facts": {
@@ -755,8 +700,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "11-14": {
    "facts": {
@@ -766,8 +710,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "11-15": {
    "facts": {
@@ -777,8 +720,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "12-14": {
    "facts": {
@@ -788,8 +730,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "13-14": {
    "facts": {
@@ -799,8 +740,7 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   },
   "14-15": {
    "facts": {
@@ -810,9 +750,33 @@
     "first": "Macbeth",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Macbeth."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

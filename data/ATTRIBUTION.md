@@ -64,6 +64,22 @@ Changes made to the original data:
 6. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
 7. Computed a force-directed layout for the full graph, used by the reveal animation.
 
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `bible.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
 ## Shakespeare Drama Corpus (DraCor)
 
 *Shipped as 28 worlds — 830 characters and 4518 ties in total, as `file` (characters/ties): `shakespeare-a-midsummer-nights-dream.json` (22/181), `shakespeare-alls-well-that-ends-well.json` (19/77), `shakespeare-as-you-like-it.json` (23/96), `shakespeare-coriolanus.json` (13/52), `shakespeare-cymbeline.json` (18/81), `shakespeare-english-histories.json` (254/1574), `shakespeare-hamlet.json` (18/88), `shakespeare-henry-viii.json` (37/169), `shakespeare-king-john.json` (25/145), `shakespeare-king-lear.json` (18/100), `shakespeare-loves-labors-lost.json` (18/129), `shakespeare-macbeth.json` (16/58), `shakespeare-measure-for-measure.json` (21/91), `shakespeare-much-ado-about-nothing.json` (22/130), `shakespeare-othello.json` (12/55), `shakespeare-pericles.json` (21/55), `shakespeare-rome.json` (59/332), `shakespeare-romeo-and-juliet.json` (20/116), `shakespeare-the-comedy-of-errors.json` (18/101), `shakespeare-the-merchant-of-venice.json` (19/84), `shakespeare-the-taming-of-the-shrew.json` (18/95), `shakespeare-the-tempest.json` (15/84), `shakespeare-the-winters-tale.json` (21/91), `shakespeare-timon-of-athens.json` (24/115), `shakespeare-titus-andronicus.json` (22/135), `shakespeare-troilus-and-cressida.json` (28/150), `shakespeare-twelfth-night.json` (14/69), `shakespeare-two-gentlemen-of-verona.json` (15/65).*
@@ -87,6 +103,38 @@ Changes made to the original data:
 7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
 8. Computed a force-directed layout for the full graph, used by the reveal animation.
 
+### Reveal-screen enrichment — Folger Shakespeare Library dramatis personae (via DraCor TEI)
+
+*Shipped separately as 28 `.meta.json` sidecars, one per world, loaded only at the reveal.*
+
+by **Folger Shakespeare Library / DraCor** (<https://www.folger.edu/>)
+
+- Source: <https://github.com/dracor-org/shakedracor>
+- Terms: Creative Commons Attribution-NonCommercial 3.0 Unported (`CC-BY-NC-3.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Read <roleDesc> from the TEI cast list as research material only.
+2. Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.
+3. Composed original one-line descriptions from those attributes.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as 28 `.meta.json` sidecars, one per world, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
 ## Star Wars
 
 *Shipped as `starwars.json` — 103 characters, 441 ties.*
@@ -104,9 +152,26 @@ Changes made to the original data:
 1. Merged the seven per-episode interaction networks, summing scene counts across films.
 2. Used the allCharacters files so R2-D2 and Chewbacca, who do not speak, are included.
 3. Title-cased display names; identifiers such as R2-D2 were left as written.
-4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (112 nodes and 449 ties in, 103 and 441 out).
-5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-6. Computed a force-directed layout for the full graph, used by the reveal animation.
+4. Applied a hand-maintained identity table covering 30 characters: display names, nicknames for the guess field, and disambiguators.
+5. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (112 nodes and 449 ties in, 103 and 441 out).
+6. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+7. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `starwars.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
 
 ## What these terms require of this project
 

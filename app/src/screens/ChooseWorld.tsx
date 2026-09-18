@@ -1,5 +1,5 @@
-import { useMemo } from 'react';
-import { MarginLinks } from '../render/MarginLinks';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { BrandMark, MarginLinks } from '../render/MarginLinks';
 import type { IndexUniverseEntry } from '../types';
 
 interface Props {
@@ -56,14 +56,25 @@ function sizeOf(nodes: number) {
 }
 
 export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartAgain, pending }: Props) {
+  const [query, setQuery] = useState('');
+  const listRef = useRef<HTMLDivElement>(null);
+  const [canScroll, setCanScroll] = useState(false);
+  const [atBottom, setAtBottom] = useState(true);
+
+  const filtered = useMemo(() => {
+    const needle = query.trim().toLowerCase();
+    const list = [...universes].sort((a, b) => a.title.localeCompare(b.title));
+    if (!needle) return list;
+    return list.filter((entry) => entry.title.toLowerCase().includes(needle));
+  }, [universes, query]);
+
   // Grouped under the letter a title actually starts with, articles included —
   // "A Song of Ice and Fire" files under A and "The Tempest" under T. Filing by
   // the first *significant* word is the librarian's convention, but it hides a
-  // title under a letter the reader is not looking at, and thirty-one worlds is
-  // a list you scan rather than one you search.
+  // title under a letter the reader is not looking at.
   const groups = useMemo(() => {
     const byLetter = new Map<string, IndexUniverseEntry[]>();
-    for (const entry of [...universes].sort((a, b) => a.title.localeCompare(b.title))) {
+    for (const entry of filtered) {
       const first = entry.title.trim().charAt(0).toUpperCase();
       const letter = /[A-Z]/.test(first) ? first : '#';
       const bucket = byLetter.get(letter);
@@ -71,7 +82,27 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
       else byLetter.set(letter, [entry]);
     }
     return [...byLetter.entries()].sort(([a], [b]) => a.localeCompare(b));
-  }, [universes]);
+  }, [filtered]);
+
+  useEffect(() => {
+    const el = listRef.current;
+    if (!el) return;
+
+    const update = () => {
+      const overflow = el.scrollHeight > el.clientHeight + 2;
+      setCanScroll(overflow);
+      setAtBottom(!overflow || el.scrollTop + el.clientHeight >= el.scrollHeight - 4);
+    };
+
+    update();
+    el.addEventListener('scroll', update, { passive: true });
+    const observer = new ResizeObserver(update);
+    observer.observe(el);
+    return () => {
+      el.removeEventListener('scroll', update);
+      observer.disconnect();
+    };
+  }, [groups]);
 
   return (
     <div
@@ -83,8 +114,8 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-        <div className="chrome">YOU ARE HERE</div>
-        <MarginLinks onOpenKey={onOpenKey} onStartAgain={onStartAgain} />
+        <BrandMark onStartAgain={onStartAgain} />
+        <MarginLinks onOpenKey={onOpenKey} />
       </div>
 
       <div
@@ -93,12 +124,27 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: 22,
+          gap: 18,
           minHeight: 0,
           paddingTop: 24,
         }}
       >
         <div style={{ fontSize: 27, textAlign: 'center' }}>Where would you like to wake?</div>
+
+        <input
+          className="field"
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search worlds"
+          aria-label="Search worlds"
+          autoComplete="off"
+          style={{
+            width: 'min(420px, 92vw)',
+            fontSize: 20,
+            textAlign: 'center',
+          }}
+        />
 
         {/* Newspaper columns rather than a grid, so the alphabet reads *down*
             one column and continues at the top of the next — which is how an
@@ -111,76 +157,114 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
             protected there. */}
         <div
           style={{
+            position: 'relative',
             width: 'min(880px, 92vw)',
             flex: 1,
             minHeight: 0,
-            overflowY: 'auto',
-            paddingRight: 4,
           }}
         >
-          {/* The columns live *inside* the scroller, at their natural height.
-              Given a fixed height instead, a multi-column box does not scroll
-              its overflow downward — it lays out more columns to the right, off
-              the edge of a container that only scrolls vertically. The whole of
-              T, twelve worlds including The Bible, was sitting out there
-              unreachable. */}
-          <div style={{ columnWidth: 210, columnGap: 44 }}>
-          {groups.map(([letter, entries]) => (
-            <div key={letter} style={{ breakInside: 'avoid', marginBottom: 20 }}>
-              <div
-                className="mono"
-                style={{
-                  fontSize: 10,
-                  letterSpacing: '0.3em',
-                  color: 'var(--unknown)',
-                  borderBottom: '1px solid var(--rule)',
-                  paddingBottom: 6,
-                  marginBottom: 2,
-                }}
-              >
-                {letter}
+          <div
+            ref={listRef}
+            className="world-list"
+            style={{
+              height: '100%',
+              overflowY: 'auto',
+              paddingRight: 10,
+              // Room under the last row so a bottom fade does not cover titles.
+              paddingBottom: canScroll && !atBottom ? 28 : 8,
+            }}
+          >
+            {/* The columns live *inside* the scroller, at their natural height.
+                Given a fixed height instead, a multi-column box does not scroll
+                its overflow downward — it lays out more columns to the right, off
+                the edge of a container that only scrolls vertically. The whole of
+                T, twelve worlds including The Bible, was sitting out there
+                unreachable. */}
+            {groups.length === 0 ? (
+              <div className="annot" style={{ textAlign: 'center', paddingTop: 48 }}>
+                No world matches
               </div>
-              {entries.map((entry) => (
-                <button
-                  key={entry.id}
-                  onClick={() => onChoose(entry)}
-                  disabled={pending !== null}
-                  title={sizeOf(entry.nodes).title}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'baseline',
-                    justifyContent: 'space-between',
-                    gap: 8,
-                    width: '100%',
-                    fontFamily: 'var(--serif)',
-                    fontSize: 18,
-                    lineHeight: 1.25,
-                    color: pending === entry.id ? 'var(--accent)' : 'var(--body)',
-                    textAlign: 'left',
-                    padding: '9px 0 8px 0',
-                    minHeight: 40,
-                    cursor: pending === null ? 'pointer' : 'default',
-                    opacity: pending !== null && pending !== entry.id ? 0.45 : 1,
-                  }}
-                >
-                  <span>{entry.title}</span>
-                  <span
-                    className="mono"
-                    style={{
-                      fontSize: 9,
-                      letterSpacing: '0.16em',
-                      color: 'var(--unknown)',
-                      flexShrink: 0,
-                      paddingLeft: 10,
-                    }}
-                  >
-                    {sizeOf(entry.nodes).label}
-                  </span>
-                </button>
-              ))}
-            </div>
-          ))}
+            ) : (
+              <div style={{ columnWidth: 200, columnGap: 36 }}>
+                {groups.map(([letter, entries]) => (
+                  <div key={letter} style={{ breakInside: 'avoid', marginBottom: 12 }}>
+                    <div
+                      className="mono"
+                      style={{
+                        fontSize: 9,
+                        letterSpacing: '0.28em',
+                        color: 'var(--unknown)',
+                        borderBottom: '1px solid var(--rule)',
+                        paddingBottom: 4,
+                        marginBottom: 1,
+                      }}
+                    >
+                      {letter}
+                    </div>
+                    {entries.map((entry) => (
+                      <button
+                        key={entry.id}
+                        onClick={() => onChoose(entry)}
+                        disabled={pending !== null}
+                        title={sizeOf(entry.nodes).title}
+                        style={{
+                          display: 'flex',
+                          alignItems: 'baseline',
+                          justifyContent: 'space-between',
+                          gap: 6,
+                          width: '100%',
+                          fontFamily: 'var(--serif)',
+                          fontSize: 14,
+                          lineHeight: 1.2,
+                          color: pending === entry.id ? 'var(--accent)' : 'var(--body)',
+                          textAlign: 'left',
+                          padding: '4px 0 3px 0',
+                          minHeight: 26,
+                          cursor: pending === null ? 'pointer' : 'default',
+                          opacity: pending !== null && pending !== entry.id ? 0.45 : 1,
+                        }}
+                      >
+                        <span>{entry.title}</span>
+                        <span
+                          className="mono"
+                          style={{
+                            fontSize: 8,
+                            letterSpacing: '0.14em',
+                            color: 'var(--unknown)',
+                            flexShrink: 0,
+                            paddingLeft: 8,
+                          }}
+                        >
+                          {sizeOf(entry.nodes).label}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
+
+          {canScroll && !atBottom && (
+            <div
+              aria-hidden
+              style={{
+                pointerEvents: 'none',
+                position: 'absolute',
+                left: 0,
+                right: 10,
+                bottom: 0,
+                height: 56,
+                background: 'linear-gradient(to bottom, transparent, var(--paper) 72%)',
+                display: 'flex',
+                alignItems: 'flex-end',
+                justifyContent: 'center',
+                paddingBottom: 6,
+              }}
+            >
+              <span className="annot">More below</span>
+            </div>
+          )}
         </div>
 
         <div className="annot" style={{ textAlign: 'center' }}>

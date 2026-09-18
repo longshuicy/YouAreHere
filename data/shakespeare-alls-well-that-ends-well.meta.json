@@ -9,9 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Count of Rossillion"
    },
-   "line": "Appears in All’s Well That Ends Well."
+   "line": "Count of Rossillion."
   },
   "1": {
    "facts": {
@@ -21,8 +22,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +32,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +42,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +52,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +62,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +72,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +82,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "8": {
    "facts": {
@@ -98,8 +92,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "9": {
    "facts": {
@@ -109,8 +102,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "10": {
    "facts": {
@@ -120,8 +112,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "11": {
    "facts": {
@@ -131,8 +122,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +132,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "13": {
    "facts": {
@@ -153,8 +142,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "14": {
    "facts": {
@@ -164,8 +152,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "15": {
    "facts": {
@@ -175,8 +162,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "16": {
    "facts": {
@@ -186,8 +172,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "17": {
    "facts": {
@@ -197,8 +182,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   },
   "18": {
    "facts": {
@@ -208,8 +192,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in All’s Well That Ends Well."
+   }
   }
  },
  "edges": {
@@ -221,8 +204,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-2": {
    "facts": {
@@ -232,8 +214,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-3": {
    "facts": {
@@ -243,8 +224,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-7": {
    "facts": {
@@ -254,8 +234,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-8": {
    "facts": {
@@ -265,8 +244,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-9": {
    "facts": {
@@ -276,8 +254,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-10": {
    "facts": {
@@ -287,8 +264,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-11": {
    "facts": {
@@ -298,8 +274,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-12": {
    "facts": {
@@ -309,8 +284,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-14": {
    "facts": {
@@ -320,8 +294,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-15": {
    "facts": {
@@ -331,8 +304,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-16": {
    "facts": {
@@ -342,8 +314,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "0-18": {
    "facts": {
@@ -353,8 +324,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-2": {
    "facts": {
@@ -364,8 +334,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-4": {
    "facts": {
@@ -375,8 +344,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-5": {
    "facts": {
@@ -386,8 +354,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-6": {
    "facts": {
@@ -397,8 +364,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-7": {
    "facts": {
@@ -408,8 +374,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-8": {
    "facts": {
@@ -419,8 +384,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-9": {
    "facts": {
@@ -430,8 +394,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-12": {
    "facts": {
@@ -441,8 +404,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-14": {
    "facts": {
@@ -452,8 +414,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-15": {
    "facts": {
@@ -463,8 +424,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-17": {
    "facts": {
@@ -474,8 +434,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "1-18": {
    "facts": {
@@ -485,8 +444,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "2-7": {
    "facts": {
@@ -496,8 +454,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "2-8": {
    "facts": {
@@ -507,8 +464,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "2-9": {
    "facts": {
@@ -518,8 +474,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "2-12": {
    "facts": {
@@ -529,8 +484,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "2-13": {
    "facts": {
@@ -540,8 +494,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "2-15": {
    "facts": {
@@ -551,8 +504,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "2-18": {
    "facts": {
@@ -562,8 +514,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "3-10": {
    "facts": {
@@ -573,8 +524,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "3-11": {
    "facts": {
@@ -584,8 +534,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "4-5": {
    "facts": {
@@ -595,8 +544,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "4-6": {
    "facts": {
@@ -606,8 +554,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "4-8": {
    "facts": {
@@ -617,8 +564,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "4-12": {
    "facts": {
@@ -628,8 +574,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "4-15": {
    "facts": {
@@ -639,8 +584,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "4-17": {
    "facts": {
@@ -650,8 +594,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "5-6": {
    "facts": {
@@ -661,8 +604,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "5-8": {
    "facts": {
@@ -672,8 +614,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "6-8": {
    "facts": {
@@ -683,8 +624,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "7-8": {
    "facts": {
@@ -694,8 +634,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "7-9": {
    "facts": {
@@ -705,8 +644,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "7-12": {
    "facts": {
@@ -716,8 +654,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "7-15": {
    "facts": {
@@ -727,8 +664,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "7-18": {
    "facts": {
@@ -738,8 +674,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "8-9": {
    "facts": {
@@ -749,8 +684,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "8-10": {
    "facts": {
@@ -760,8 +694,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "8-11": {
    "facts": {
@@ -771,8 +704,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "8-12": {
    "facts": {
@@ -782,8 +714,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "8-13": {
    "facts": {
@@ -793,8 +724,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "8-14": {
    "facts": {
@@ -804,8 +734,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "8-15": {
    "facts": {
@@ -815,8 +744,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "8-17": {
    "facts": {
@@ -826,8 +754,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "8-18": {
    "facts": {
@@ -837,8 +764,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "9-10": {
    "facts": {
@@ -848,8 +774,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "9-11": {
    "facts": {
@@ -859,8 +784,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "9-12": {
    "facts": {
@@ -870,8 +794,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "9-15": {
    "facts": {
@@ -881,8 +804,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "9-18": {
    "facts": {
@@ -892,8 +814,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "10-11": {
    "facts": {
@@ -903,8 +824,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "10-12": {
    "facts": {
@@ -914,8 +834,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "10-15": {
    "facts": {
@@ -925,8 +844,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "10-16": {
    "facts": {
@@ -936,8 +854,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "11-12": {
    "facts": {
@@ -947,8 +864,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "11-15": {
    "facts": {
@@ -958,8 +874,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "11-16": {
    "facts": {
@@ -969,8 +884,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "12-14": {
    "facts": {
@@ -980,8 +894,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "12-15": {
    "facts": {
@@ -991,8 +904,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "12-18": {
    "facts": {
@@ -1002,8 +914,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "13-15": {
    "facts": {
@@ -1013,8 +924,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "13-18": {
    "facts": {
@@ -1024,8 +934,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "14-15": {
    "facts": {
@@ -1035,8 +944,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "15-16": {
    "facts": {
@@ -1046,8 +954,7 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   },
   "15-18": {
    "facts": {
@@ -1057,9 +964,33 @@
     "first": "All’s Well That Ends Well",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in All’s Well That Ends Well."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

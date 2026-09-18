@@ -10,8 +10,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "1": {
    "facts": {
@@ -21,8 +20,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +30,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +40,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +50,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +60,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +70,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +80,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "8": {
    "facts": {
@@ -98,8 +90,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "9": {
    "facts": {
@@ -109,8 +100,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "10": {
    "facts": {
@@ -120,8 +110,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "11": {
    "facts": {
@@ -131,8 +120,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +130,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "13": {
    "facts": {
@@ -153,8 +140,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "14": {
    "facts": {
@@ -164,8 +150,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "15": {
    "facts": {
@@ -175,8 +160,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "16": {
    "facts": {
@@ -186,8 +170,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "17": {
    "facts": {
@@ -197,8 +180,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "18": {
    "facts": {
@@ -208,8 +190,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "19": {
    "facts": {
@@ -219,8 +200,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in Measure for Measure."
+   }
   },
   "20": {
    "facts": {
@@ -229,8 +209,7 @@
     ],
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "Appears in Measure for Measure."
+   }
   }
  },
  "edges": {
@@ -242,8 +221,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "0-5": {
    "facts": {
@@ -253,8 +231,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "0-6": {
    "facts": {
@@ -264,8 +241,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "0-11": {
    "facts": {
@@ -275,8 +251,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "0-14": {
    "facts": {
@@ -286,8 +261,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "0-16": {
    "facts": {
@@ -297,8 +271,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "0-18": {
    "facts": {
@@ -308,8 +281,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "0-19": {
    "facts": {
@@ -319,8 +291,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-6": {
    "facts": {
@@ -330,8 +301,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-7": {
    "facts": {
@@ -341,8 +311,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-8": {
    "facts": {
@@ -352,8 +321,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-9": {
    "facts": {
@@ -363,8 +331,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-10": {
    "facts": {
@@ -374,8 +341,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-11": {
    "facts": {
@@ -385,8 +351,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-13": {
    "facts": {
@@ -396,8 +361,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-14": {
    "facts": {
@@ -407,8 +371,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-15": {
    "facts": {
@@ -418,8 +381,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-18": {
    "facts": {
@@ -429,8 +391,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-19": {
    "facts": {
@@ -440,8 +401,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "1-20": {
    "facts": {
@@ -451,8 +411,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "2-6": {
    "facts": {
@@ -462,8 +421,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "2-11": {
    "facts": {
@@ -473,8 +431,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "2-14": {
    "facts": {
@@ -484,8 +441,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "2-18": {
    "facts": {
@@ -495,8 +451,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "2-19": {
    "facts": {
@@ -506,8 +461,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "3-5": {
    "facts": {
@@ -517,8 +471,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "3-6": {
    "facts": {
@@ -528,8 +481,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "3-7": {
    "facts": {
@@ -539,8 +491,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "3-8": {
    "facts": {
@@ -550,8 +501,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "3-14": {
    "facts": {
@@ -561,8 +511,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "3-18": {
    "facts": {
@@ -572,8 +521,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "3-19": {
    "facts": {
@@ -583,8 +531,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "4-6": {
    "facts": {
@@ -594,8 +541,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "4-11": {
    "facts": {
@@ -605,8 +551,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "4-15": {
    "facts": {
@@ -616,8 +561,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "5-6": {
    "facts": {
@@ -627,8 +571,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "5-11": {
    "facts": {
@@ -638,8 +581,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "5-14": {
    "facts": {
@@ -649,8 +591,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "5-16": {
    "facts": {
@@ -660,8 +601,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "5-18": {
    "facts": {
@@ -671,8 +611,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "5-19": {
    "facts": {
@@ -682,8 +621,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-7": {
    "facts": {
@@ -693,8 +631,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-8": {
    "facts": {
@@ -704,8 +641,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-9": {
    "facts": {
@@ -715,8 +651,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-11": {
    "facts": {
@@ -726,8 +661,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-12": {
    "facts": {
@@ -737,8 +671,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-14": {
    "facts": {
@@ -748,8 +681,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-15": {
    "facts": {
@@ -759,8 +691,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-16": {
    "facts": {
@@ -770,8 +701,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-18": {
    "facts": {
@@ -781,8 +711,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "6-19": {
    "facts": {
@@ -792,8 +721,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "7-8": {
    "facts": {
@@ -803,8 +731,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "7-10": {
    "facts": {
@@ -814,8 +741,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "7-13": {
    "facts": {
@@ -825,8 +751,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "7-14": {
    "facts": {
@@ -836,8 +761,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "7-18": {
    "facts": {
@@ -847,8 +771,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "7-19": {
    "facts": {
@@ -858,8 +781,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "8-9": {
    "facts": {
@@ -869,8 +791,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "8-10": {
    "facts": {
@@ -880,8 +801,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "8-11": {
    "facts": {
@@ -891,8 +811,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "8-13": {
    "facts": {
@@ -902,8 +821,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "8-14": {
    "facts": {
@@ -913,8 +831,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "8-15": {
    "facts": {
@@ -924,8 +841,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "8-18": {
    "facts": {
@@ -935,8 +851,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "8-19": {
    "facts": {
@@ -946,8 +861,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "9-11": {
    "facts": {
@@ -957,8 +871,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "9-14": {
    "facts": {
@@ -968,8 +881,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "9-15": {
    "facts": {
@@ -979,8 +891,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "9-19": {
    "facts": {
@@ -990,8 +901,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "10-13": {
    "facts": {
@@ -1001,8 +911,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "10-18": {
    "facts": {
@@ -1012,8 +921,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "10-19": {
    "facts": {
@@ -1023,8 +931,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "11-14": {
    "facts": {
@@ -1034,8 +941,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "11-15": {
    "facts": {
@@ -1045,8 +951,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "11-17": {
    "facts": {
@@ -1056,8 +961,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "11-18": {
    "facts": {
@@ -1067,8 +971,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "11-19": {
    "facts": {
@@ -1078,8 +981,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "11-20": {
    "facts": {
@@ -1089,8 +991,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "12-19": {
    "facts": {
@@ -1100,8 +1001,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "13-18": {
    "facts": {
@@ -1111,8 +1011,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "13-19": {
    "facts": {
@@ -1122,8 +1021,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "14-15": {
    "facts": {
@@ -1133,8 +1031,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "14-17": {
    "facts": {
@@ -1144,8 +1041,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "14-18": {
    "facts": {
@@ -1155,8 +1051,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "14-19": {
    "facts": {
@@ -1166,8 +1061,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "14-20": {
    "facts": {
@@ -1177,8 +1071,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "15-19": {
    "facts": {
@@ -1188,8 +1081,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "16-18": {
    "facts": {
@@ -1199,8 +1091,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "16-19": {
    "facts": {
@@ -1210,8 +1101,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "18-19": {
    "facts": {
@@ -1221,8 +1111,7 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   },
   "19-20": {
    "facts": {
@@ -1232,9 +1121,33 @@
     "first": "Measure for Measure",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in Measure for Measure."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }

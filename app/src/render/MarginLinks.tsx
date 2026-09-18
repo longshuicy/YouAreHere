@@ -5,18 +5,17 @@ interface Props {
   /** Half an answer: which story, leaving who you are still open. Absent once
    * the world is known by any route, because then there is nothing to tell. */
   onRevealStory?: () => void;
-  /** A new stranger somewhere else. Offered on every screen, because wanting out
-   * of a waking is not something that only happens once you have finished it. */
-  onStartAgain?: () => void;
 }
 
 /**
  * The right margin holds everything *about* the session rather than in it: what
- * may still be bought, what the actions are, and the way out. They sit in one
- * list with one spacing — a cluster of right-aligned links with uneven gaps
- * reads as three separate things that happen to be near each other.
+ * may still be bought, what the actions are. They sit in one list with one
+ * spacing — a cluster of right-aligned links with uneven gaps reads as three
+ * separate things that happen to be near each other.
+ *
+ * Starting over lives on the brand wordmark, not here.
  */
-export function MarginLinks({ onOpenKey, onReveal, onRevealStory, onStartAgain }: Props) {
+export function MarginLinks({ onOpenKey, onReveal, onRevealStory }: Props) {
   return (
     <div
       style={{
@@ -43,11 +42,21 @@ export function MarginLinks({ onOpenKey, onReveal, onRevealStory, onStartAgain }
           Reveal answer
         </button>
       )}
-      {onStartAgain && (
-        <button className="annot-link" onClick={onStartAgain}>
-          Start again
-        </button>
-      )}
     </div>
+  );
+}
+
+/** The product name in the corner — also the way back to a new stranger. */
+export function BrandMark({ onStartAgain }: { onStartAgain: () => void }) {
+  return (
+    <button
+      type="button"
+      className="chrome chrome-link"
+      onClick={onStartAgain}
+      title="Start again"
+      style={{ pointerEvents: 'auto' }}
+    >
+      YOU ARE HERE
+    </button>
   );
 }

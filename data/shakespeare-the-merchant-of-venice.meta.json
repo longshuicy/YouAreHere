@@ -9,9 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in The Merchant of Venice."
+   "line": "Servant."
   },
   "1": {
    "facts": {
@@ -21,8 +22,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "2": {
    "facts": {
@@ -32,8 +32,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "3": {
    "facts": {
@@ -43,8 +42,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "4": {
    "facts": {
@@ -54,8 +52,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "5": {
    "facts": {
@@ -65,8 +62,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "6": {
    "facts": {
@@ -76,8 +72,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "7": {
    "facts": {
@@ -87,8 +82,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "8": {
    "facts": {
@@ -97,9 +91,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
-   "line": "Appears in The Merchant of Venice."
+   "line": "Servant."
   },
   "9": {
    "facts": {
@@ -109,8 +104,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "10": {
    "facts": {
@@ -120,8 +114,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "11": {
    "facts": {
@@ -131,8 +124,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "12": {
    "facts": {
@@ -142,8 +134,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "13": {
    "facts": {
@@ -153,8 +144,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "14": {
    "facts": {
@@ -164,8 +154,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "15": {
    "facts": {
@@ -175,8 +164,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "16": {
    "facts": {
@@ -186,8 +174,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "17": {
    "facts": {
@@ -197,8 +184,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   },
   "18": {
    "facts": {
@@ -208,8 +194,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   },
-   "line": "Appears in The Merchant of Venice."
+   }
   }
  },
  "edges": {
@@ -221,8 +206,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "0-6": {
    "facts": {
@@ -232,8 +216,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "0-8": {
    "facts": {
@@ -243,8 +226,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "0-12": {
    "facts": {
@@ -254,8 +236,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "1-7": {
    "facts": {
@@ -265,8 +246,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "1-9": {
    "facts": {
@@ -276,8 +256,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "1-11": {
    "facts": {
@@ -287,8 +266,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "1-13": {
    "facts": {
@@ -298,8 +276,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "2-3": {
    "facts": {
@@ -309,8 +286,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "2-5": {
    "facts": {
@@ -320,8 +296,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "2-6": {
    "facts": {
@@ -331,8 +306,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "2-7": {
    "facts": {
@@ -342,8 +316,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "2-8": {
    "facts": {
@@ -353,8 +326,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "2-9": {
    "facts": {
@@ -364,8 +336,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "2-11": {
    "facts": {
@@ -375,8 +346,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "2-13": {
    "facts": {
@@ -386,8 +356,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-5": {
    "facts": {
@@ -397,8 +366,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-6": {
    "facts": {
@@ -408,8 +376,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-7": {
    "facts": {
@@ -419,8 +386,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-8": {
    "facts": {
@@ -430,8 +396,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-9": {
    "facts": {
@@ -441,8 +406,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-11": {
    "facts": {
@@ -452,8 +416,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-13": {
    "facts": {
@@ -463,8 +426,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-14": {
    "facts": {
@@ -474,8 +436,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-15": {
    "facts": {
@@ -485,8 +446,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-16": {
    "facts": {
@@ -496,8 +456,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "3-17": {
    "facts": {
@@ -507,8 +466,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "4-10": {
    "facts": {
@@ -518,8 +476,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "4-11": {
    "facts": {
@@ -529,8 +486,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "4-13": {
    "facts": {
@@ -540,8 +496,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-6": {
    "facts": {
@@ -551,8 +506,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-7": {
    "facts": {
@@ -562,8 +516,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-8": {
    "facts": {
@@ -573,8 +526,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-9": {
    "facts": {
@@ -584,8 +536,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-11": {
    "facts": {
@@ -595,8 +546,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-12": {
    "facts": {
@@ -606,8 +556,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-13": {
    "facts": {
@@ -617,8 +566,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-14": {
    "facts": {
@@ -628,8 +576,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-15": {
    "facts": {
@@ -639,8 +586,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-16": {
    "facts": {
@@ -650,8 +596,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "5-17": {
    "facts": {
@@ -661,8 +606,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-7": {
    "facts": {
@@ -672,8 +616,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-8": {
    "facts": {
@@ -683,8 +626,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-9": {
    "facts": {
@@ -694,8 +636,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-11": {
    "facts": {
@@ -705,8 +646,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-12": {
    "facts": {
@@ -716,8 +656,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-13": {
    "facts": {
@@ -727,8 +666,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-14": {
    "facts": {
@@ -738,8 +676,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-15": {
    "facts": {
@@ -749,8 +686,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-16": {
    "facts": {
@@ -760,8 +696,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "6-17": {
    "facts": {
@@ -771,8 +706,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "7-8": {
    "facts": {
@@ -782,8 +716,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "7-9": {
    "facts": {
@@ -793,8 +726,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "7-11": {
    "facts": {
@@ -804,8 +736,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "7-13": {
    "facts": {
@@ -815,8 +746,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "7-14": {
    "facts": {
@@ -826,8 +756,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "7-15": {
    "facts": {
@@ -837,8 +766,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "7-16": {
    "facts": {
@@ -848,8 +776,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "8-9": {
    "facts": {
@@ -859,8 +786,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "8-11": {
    "facts": {
@@ -870,8 +796,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "8-12": {
    "facts": {
@@ -881,8 +806,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "8-13": {
    "facts": {
@@ -892,8 +816,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "8-14": {
    "facts": {
@@ -903,8 +826,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "8-16": {
    "facts": {
@@ -914,8 +836,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "8-17": {
    "facts": {
@@ -925,8 +846,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "9-11": {
    "facts": {
@@ -936,8 +856,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "9-13": {
    "facts": {
@@ -947,8 +866,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "9-14": {
    "facts": {
@@ -958,8 +876,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "9-15": {
    "facts": {
@@ -969,8 +886,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "9-17": {
    "facts": {
@@ -980,8 +896,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "10-11": {
    "facts": {
@@ -991,8 +906,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "10-13": {
    "facts": {
@@ -1002,8 +916,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "11-13": {
    "facts": {
@@ -1013,8 +926,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "11-15": {
    "facts": {
@@ -1024,8 +936,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "11-16": {
    "facts": {
@@ -1035,8 +946,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "13-15": {
    "facts": {
@@ -1046,8 +956,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "13-16": {
    "facts": {
@@ -1057,8 +966,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "14-16": {
    "facts": {
@@ -1068,8 +976,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "14-17": {
    "facts": {
@@ -1079,8 +986,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "14-18": {
    "facts": {
@@ -1090,8 +996,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "15-16": {
    "facts": {
@@ -1101,8 +1006,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "16-17": {
    "facts": {
@@ -1112,8 +1016,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "16-18": {
    "facts": {
@@ -1123,8 +1026,7 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   },
   "17-18": {
    "facts": {
@@ -1134,9 +1036,33 @@
     "first": "The Merchant of Venice",
     "unit": "play",
     "corpusSize": 37
-   },
-   "line": "They share the page only in The Merchant of Venice."
+   }
   }
  },
- "sources": []
+ "sources": [
+  {
+   "title": "Folger Shakespeare Library dramatis personae (via DraCor TEI)",
+   "creator": "Folger Shakespeare Library / DraCor",
+   "url": "https://github.com/dracor-org/shakedracor",
+   "license": "CC-BY-NC-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+   "modifications": [
+    "Read <roleDesc> from the TEI cast list as research material only.",
+    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
 }
