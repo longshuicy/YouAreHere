@@ -119,6 +119,185 @@ Used as follows:
 2. Filtered class and meta labels that are not standing facts a player can use.
 3. Composed original one-line descriptions from those attributes.
 
+## The Iliad
+
+*Shipped as `iliad.json` — 327 characters, 1335 ties.*
+
+"homer.dat (The Iliad)" by **Donald E. Knuth, Stanford GraphBase** (<https://www-cs-faculty.stanford.edu/~knuth/sgb.html>)
+
+- Source: <http://ftp.cs.stanford.edu/pub/sgb/homer.dat>
+- Project: <https://www-cs-faculty.stanford.edu/~knuth/sgb.html>
+- Licence: [Public domain](https://en.wikipedia.org/wiki/Public_domain) (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+- Cite as: D. E. Knuth, The Stanford GraphBase: A Platform for Combinatorial Computing, ACM Press, 1993. File homer.dat, public domain.
+
+Changes made to the original data:
+
+1. Read the encounter groups as an undirected weighted graph, summing shared groups across the 24 books.
+2. Dropped collective nodes (armies, the Olympians as a body) and paired livestock.
+3. Took the Greek name as the label where Knuth gives a Latin equivalent in parentheses.
+4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (550 nodes and 1553 ties in, 327 and 1335 out).
+5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+6. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Stanford GraphBase character glosses
+
+*Shipped separately as `iliad.meta.json`, loaded only at the reveal.*
+
+by **Donald E. Knuth, Stanford GraphBase** (<https://www-cs-faculty.stanford.edu/~knuth/sgb.html>)
+
+- Source: <https://www-cs-faculty.stanford.edu/~knuth/sgb.html>
+- Terms: Public domain (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Parsed discrete camp, occupation, title, and species tokens from the public-domain character glosses in homer.dat and jean.dat. No gloss prose is copied.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `iliad.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
+## Les Misérables
+
+*Shipped as `lesmiserables.json` — 54 characters, 226 ties.*
+
+"jean.dat (Les Misérables)" by **Donald E. Knuth, Stanford GraphBase** (<https://www-cs-faculty.stanford.edu/~knuth/sgb.html>)
+
+- Source: <http://ftp.cs.stanford.edu/pub/sgb/jean.dat>
+- Project: <https://www-cs-faculty.stanford.edu/~knuth/sgb.html>
+- Licence: [Public domain](https://en.wikipedia.org/wiki/Public_domain) (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+- Cite as: D. E. Knuth, The Stanford GraphBase: A Platform for Combinatorial Computing, ACM Press, 1993. File jean.dat, public domain.
+
+Changes made to the original data:
+
+1. Read the encounter groups as an undirected weighted graph, summing shared groups across the novel.
+2. Collapsed Hugo's chapter tags to the five volumes, so a segment is a tome.
+3. Dropped redacted and numbered-anonymous figures (G--, Old woman 1) who cannot be guessed.
+4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (69 nodes and 241 ties in, 54 and 226 out).
+5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+6. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Stanford GraphBase character glosses
+
+*Shipped separately as `lesmiserables.meta.json`, loaded only at the reveal.*
+
+by **Donald E. Knuth, Stanford GraphBase** (<https://www-cs-faculty.stanford.edu/~knuth/sgb.html>)
+
+- Source: <https://www-cs-faculty.stanford.edu/~knuth/sgb.html>
+- Terms: Public domain (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Parsed discrete camp, occupation, title, and species tokens from the public-domain character glosses in homer.dat and jean.dat. No gloss prose is copied.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `lesmiserables.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
+## The Odyssey
+
+*Shipped as `odyssey.json` — 32 characters, 124 ties.*
+
+"The Odyssey of Homer (Butcher and Lang)" by **Public domain text; digital edition via Project Gutenberg (eBook #1728)** (<https://www.gutenberg.org/>)
+
+- Source: <https://www.gutenberg.org/ebooks/1728>
+- Project: <https://www.wikidata.org/>
+- Licence: [Public domain](https://en.wikipedia.org/wiki/Public_domain) (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+- Cite as: Text: Homer, The Odyssey, trans. S. H. Butcher and A. Lang, Project Gutenberg eBook #1728, public domain. Identification of persons: Wikidata (CC0 1.0), queried for figures of the poem.
+
+Changes made to the original data:
+
+1. Built a character network from the text: two people are tied when a sentence names both.
+2. Identified persons from Wikidata rather than from the text, so that places and common nouns are never nodes.
+3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
+4. Blocked English common nouns that are also deities (Dawn, Night) and place-names (Troy, Ithaca).
+5. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (39 nodes and 128 ties in, 32 and 124 out).
+6. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+7. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `odyssey.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
+## 三國演義
+
+*Shipped as `sanguoyanyi.json` — 436 characters, 1796 ties.*
+
+"三國演義" by **Public domain text; digital edition via Project Gutenberg (eBook #23950)** (<https://www.gutenberg.org/>)
+
+- Source: <https://www.gutenberg.org/ebooks/23950>
+- Project: <https://www.wikidata.org/>
+- Licence: [Public domain](https://en.wikipedia.org/wiki/Public_domain) (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+- Cite as: Text: Luo Guanzhong, 三國演義, Project Gutenberg eBook #23950, public domain. Identification of persons: Wikidata (CC0 1.0), queried for characters of the novel.
+
+Changes made to the original data:
+
+1. Built a character network from the text: two people are tied when a sentence names both.
+2. Identified persons from Wikidata rather than from the text, so that places, titles, and unnamed extras are never nodes.
+3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
+4. Dropped generic kinship and office words which name a role far more often than a person.
+5. Derived the names the novel actually uses by dropping the surname from each figure's Chinese label.
+6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (1016 nodes and 5250 ties in, 436 and 1796 out).
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `sanguoyanyi.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
 ## Shakespeare Drama Corpus (DraCor)
 
 *Shipped as 28 worlds — 830 characters and 4518 ties in total, as `file` (characters/ties): `shakespeare-a-midsummer-nights-dream.json` (22/181), `shakespeare-alls-well-that-ends-well.json` (19/77), `shakespeare-as-you-like-it.json` (23/96), `shakespeare-coriolanus.json` (13/52), `shakespeare-cymbeline.json` (18/81), `shakespeare-english-histories.json` (254/1574), `shakespeare-hamlet.json` (18/88), `shakespeare-henry-viii.json` (37/169), `shakespeare-king-john.json` (25/145), `shakespeare-king-lear.json` (18/100), `shakespeare-loves-labors-lost.json` (18/129), `shakespeare-macbeth.json` (16/58), `shakespeare-measure-for-measure.json` (21/91), `shakespeare-much-ado-about-nothing.json` (22/130), `shakespeare-othello.json` (12/55), `shakespeare-pericles.json` (21/55), `shakespeare-rome.json` (59/332), `shakespeare-romeo-and-juliet.json` (20/116), `shakespeare-the-comedy-of-errors.json` (18/101), `shakespeare-the-merchant-of-venice.json` (19/84), `shakespeare-the-taming-of-the-shrew.json` (18/95), `shakespeare-the-tempest.json` (15/84), `shakespeare-the-winters-tale.json` (21/91), `shakespeare-timon-of-athens.json` (24/115), `shakespeare-titus-andronicus.json` (22/135), `shakespeare-troilus-and-cressida.json` (28/150), `shakespeare-twelfth-night.json` (14/69), `shakespeare-two-gentlemen-of-verona.json` (15/65).*
@@ -174,6 +353,45 @@ Used as follows:
 2. Filtered class and meta labels that are not standing facts a player can use.
 3. Composed original one-line descriptions from those attributes.
 
+## 水滸傳
+
+*Shipped as `shuihuzhuan.json` — 214 characters, 5836 ties.*
+
+"水滸傳" by **Public domain text; digital edition via Project Gutenberg (eBook #23863)** (<https://www.gutenberg.org/>)
+
+- Source: <https://www.gutenberg.org/ebooks/23863>
+- Project: <https://www.wikidata.org/>
+- Licence: [Public domain](https://en.wikipedia.org/wiki/Public_domain) (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+- Cite as: Text: Shi Nai'an, 水滸傳, Project Gutenberg eBook #23863, public domain. Identification of persons: Wikidata (CC0 1.0), queried for characters of the novel.
+
+Changes made to the original data:
+
+1. Built a character network from the text: two people are tied when a sentence names both.
+2. Identified persons from Wikidata rather than from the text, so that places, titles, and unnamed extras are never nodes.
+3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
+4. Dropped generic kinship and office words which name a role far more often than a person.
+5. Derived the names the novel actually uses by dropping the surname from each figure's Chinese label.
+6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (298 nodes and 6876 ties in, 214 and 5836 out).
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `shuihuzhuan.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
 ## Star Wars
 
 *Shipped as `starwars.json` — 103 characters, 441 ties.*
@@ -199,6 +417,45 @@ Changes made to the original data:
 ### Reveal-screen enrichment — Wikidata
 
 *Shipped separately as `starwars.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
+## 西遊記
+
+*Shipped as `xiyouji.json` — 69 characters, 221 ties.*
+
+"西遊記" by **Public domain text; digital edition via Project Gutenberg (eBook #23962)** (<https://www.gutenberg.org/>)
+
+- Source: <https://www.gutenberg.org/ebooks/23962>
+- Project: <https://www.wikidata.org/>
+- Licence: [Public domain](https://en.wikipedia.org/wiki/Public_domain) (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+- Cite as: Text: Wu Cheng'en, 西遊記, Project Gutenberg eBook #23962, public domain. Identification of persons: Wikidata (CC0 1.0), queried for characters of the novel.
+
+Changes made to the original data:
+
+1. Built a character network from the text: two people are tied when a sentence names both.
+2. Identified persons from Wikidata rather than from the text, so that places, titles, and unnamed extras are never nodes.
+3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
+4. Dropped generic kinship and office words which name a role far more often than a person.
+5. Derived the names the novel actually uses by dropping the surname from each figure's Chinese label.
+6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (186 nodes and 561 ties in, 69 and 221 out).
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `xiyouji.meta.json`, loaded only at the reveal.*
 
 by **Wikidata contributors** (<https://www.wikidata.org/>)
 

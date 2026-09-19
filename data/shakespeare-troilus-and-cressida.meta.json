@@ -198,7 +198,7 @@
      "mythological king of Sparta"
     ]
    },
-   "line": "Mythological king of Sparta."
+   "line": "King of Sparta."
   },
   "17": {
    "facts": {
@@ -319,12 +319,8 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "king in Greek mythology"
-    ]
-   },
-   "line": "King in Greek mythology."
+    "gender": "Male"
+   }
   }
  },
  "edges": {

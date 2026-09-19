@@ -1,0 +1,3364 @@
+{
+ "id": "lesmiserables",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in three volumes."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "affiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "Of the Friends of the ABC. Appears in Volume 3 and Volume 4."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "bandit"
+   },
+   "line": "Bandit. Appears in Volume 3 and Volume 4."
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "criminal"
+   },
+   "line": "Criminal. Appears in Volume 4."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "student"
+   },
+   "line": "Student. Appears in Volume 1."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 1."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "affiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "Of the Friends of the ABC. Appears in three volumes."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "convict"
+   },
+   "line": "Convict. Appears in Volume 1."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "convict"
+   },
+   "line": "Convict. Appears in Volume 1."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 1."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "affiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "Of the Friends of the ABC. Appears in three volumes."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "convict"
+   },
+   "line": "Convict. Appears in Volume 1."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "gender": "Female"
+   },
+   "line": "Appears in four volumes."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "affiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "Of the Friends of the ABC. Appears in three volumes."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 1."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "affiliations": [
+     "Friends of the ABC"
+    ],
+    "gender": "Male",
+    "occupation": "revolutionary"
+   },
+   "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "gender": "Female"
+   },
+   "line": "Appears in three volumes."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "student"
+   },
+   "line": "Student. Appears in Volume 1."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "affiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "Of the Friends of the ABC. Appears in Volume 4 and Volume 5."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "Volume 1",
+     "Volume 2"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "notary"
+   },
+   "line": "Notary. Appears in Volume 1 and Volume 2."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "gender": "Female",
+    "occupation": "prostitute"
+   },
+   "line": "Prostitute. Appears in Volume 1."
+  },
+  "21": {
+   "facts": {
+    "books": [
+     "Volume 1",
+     "Volume 3"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "student"
+   },
+   "line": "Student. Appears in Volume 1 and Volume 3."
+  },
+  "22": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 1."
+  },
+  "23": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "urchin",
+    "gender": "Male"
+   },
+   "line": "Urchin. Appears in three volumes."
+  },
+  "24": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in three volumes."
+  },
+  "25": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 2 and Volume 3."
+  },
+  "26": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "affiliations": [
+     "Friends of the ABC"
+    ],
+    "occupation": "revolutionary"
+   },
+   "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes."
+  },
+  "27": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "bandit"
+   },
+   "line": "Bandit. Appears in Volume 3 and Volume 4."
+  },
+  "28": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "innkeeper"
+   },
+   "line": "Innkeeper. Appears in Volume 4."
+  },
+  "29": {
+   "facts": {
+    "books": [
+     "Volume 1",
+     "Volume 2",
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "police officer",
+    "gender": "Male"
+   },
+   "line": "Police officer. Appears in all five volumes."
+  },
+  "30": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "affiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "Of the Friends of the ABC. Appears in three volumes."
+  },
+  "31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "affiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "Of the Friends of the ABC. Appears in Volume 4."
+  },
+  "32": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "judge"
+   },
+   "line": "Judge. Appears in Volume 1."
+  },
+  "33": {
+   "facts": {
+    "books": [
+     "Volume 1",
+     "Volume 2",
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "thief",
+    "gender": "Male"
+   },
+   "line": "Thief. Appears in all five volumes."
+  },
+  "34": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "student"
+   },
+   "line": "Student. Appears in Volume 1."
+  },
+  "35": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in three volumes."
+  },
+  "36": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 1."
+  },
+  "37": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "housekeeper"
+   },
+   "line": "Housekeeper. Appears in Volume 1."
+  },
+  "38": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in three volumes."
+  },
+  "39": {
+   "facts": {
+    "books": [
+     "Volume 2"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "titles": [
+     "prioress of Convent of Petite Rue Picpus"
+    ]
+   },
+   "line": "Prioress of Convent of Petite Rue Picpus. Appears in Volume 2."
+  },
+  "40": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 3 and Volume 4."
+  },
+  "41": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "servant"
+   },
+   "line": "Servant. Appears in Volume 3 and Volume 4."
+  },
+  "42": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "bandit"
+   },
+   "line": "Bandit. Appears in Volume 3 and Volume 4."
+  },
+  "43": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 3."
+  },
+  "44": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 1."
+  },
+  "45": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "titles": [
+     "bishop"
+    ],
+    "gender": "Male"
+   },
+   "line": "Bishop. Appears in Volume 1."
+  },
+  "46": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "bandit"
+   },
+   "line": "Bandit. Appears in Volume 3 and Volume 4."
+  },
+  "47": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "nun"
+   },
+   "line": "Nun. Appears in Volume 1."
+  },
+  "48": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "nun"
+   },
+   "line": "Nun. Appears in Volume 1."
+  },
+  "49": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "soldier"
+   },
+   "line": "Soldier. Appears in Volume 3 and Volume 4."
+  },
+  "50": {
+   "facts": {
+    "books": [
+     "Volume 1",
+     "Volume 2",
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "innkeeper"
+   },
+   "line": "Innkeeper. Appears in all five volumes."
+  },
+  "51": {
+   "facts": {
+    "books": [
+     "Volume 1",
+     "Volume 2",
+     "Volume 3",
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "gender": "Female"
+   },
+   "line": "Appears in four volumes."
+  },
+  "52": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "unit": "volume",
+    "corpusSize": 5,
+    "occupation": "servant"
+   },
+   "line": "Servant. Appears in Volume 4."
+  },
+  "53": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "Appears in Volume 1."
+  }
+ },
+ "edges": {
+  "0-16": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 2."
+  },
+  "0-50": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "0-51": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "1-13": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "1-18": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "1-23": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "1-26": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "1-28": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "1-30": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 3. Both belong to the Friends of the ABC."
+  },
+  "1-31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "1-35": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "1-40": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "2-16": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "2-23": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "2-27": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "2-29": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "2-33": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "2-42": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "2-46": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "2-50": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "2-51": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "3-16": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "3-23": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "3-27": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "3-42": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "3-46": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "3-50": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "4-14": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "4-17": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "4-20": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "4-21": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "4-22": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "4-34": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "4-53": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "5-7": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "5-8": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "5-9": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "5-20": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "5-29": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "5-32": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "5-33": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "6-13": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in three volumes, first in Volume 3. Both belong to the Friends of the ABC."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "6-18": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "6-23": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 4."
+  },
+  "6-26": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 3. Both belong to the Friends of the ABC."
+  },
+  "6-28": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "6-30": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "6-31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "6-33": {
+   "facts": {
+    "books": [
+     "Volume 5"
+    ],
+    "first": "Volume 5",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 5."
+  },
+  "6-35": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 3."
+  },
+  "6-40": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "7-9": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "7-32": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "7-33": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "8-9": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "8-32": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "8-33": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "9-32": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "9-33": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in three volumes, first in Volume 3. Both belong to the Friends of the ABC."
+  },
+  "10-15": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in three volumes, first in Volume 3. Both belong to the Friends of the ABC."
+  },
+  "10-18": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "10-23": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 4."
+  },
+  "10-26": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "10-30": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "10-31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "10-35": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 3."
+  },
+  "10-40": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "11-32": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "11-33": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "12-21": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "12-24": {
+   "facts": {
+    "books": [
+     "Volume 5"
+    ],
+    "first": "Volume 5",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 5."
+  },
+  "12-29": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "12-33": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in four volumes, first in Volume 2."
+  },
+  "12-35": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 3."
+  },
+  "12-38": {
+   "facts": {
+    "books": [
+     "Volume 5"
+    ],
+    "first": "Volume 5",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 5."
+  },
+  "12-49": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "12-50": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "12-51": {
+   "facts": {
+    "books": [
+     "Volume 2"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 2."
+  },
+  "12-52": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "13-15": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in three volumes, first in Volume 3. Both belong to the Friends of the ABC."
+  },
+  "13-16": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "13-18": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "13-23": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 4."
+  },
+  "13-26": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "13-28": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "13-30": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "13-31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "13-35": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 3."
+  },
+  "13-40": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "14-17": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "14-20": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "14-21": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "14-22": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "14-34": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "14-53": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "15-18": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "15-23": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 4."
+  },
+  "15-26": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "15-28": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "15-29": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 4."
+  },
+  "15-30": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "15-31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "15-33": {
+   "facts": {
+    "books": [
+     "Volume 5"
+    ],
+    "first": "Volume 5",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 5."
+  },
+  "15-35": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 3."
+  },
+  "15-40": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "15-46": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "16-27": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "16-35": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "16-40": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "16-42": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "16-46": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "16-50": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "16-51": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 2."
+  },
+  "17-20": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "17-21": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "17-22": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "17-34": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "17-53": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "18-23": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "18-26": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "18-30": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "18-31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "18-35": {
+   "facts": {
+    "books": [
+     "Volume 5"
+    ],
+    "first": "Volume 5",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 5."
+  },
+  "18-40": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "19-29": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "19-33": {
+   "facts": {
+    "books": [
+     "Volume 1",
+     "Volume 2"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 1."
+  },
+  "19-39": {
+   "facts": {
+    "books": [
+     "Volume 2"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 2."
+  },
+  "20-21": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-22": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-29": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-33": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-34": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-44": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-47": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-48": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-50": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-51": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "20-53": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "21-22": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "21-34": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "21-35": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "21-53": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "22-34": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "22-53": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "23-26": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "23-27": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "23-28": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "23-29": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "23-30": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "23-31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "23-33": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "23-35": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 4."
+  },
+  "23-40": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "23-42": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "23-50": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "24-33": {
+   "facts": {
+    "books": [
+     "Volume 5"
+    ],
+    "first": "Volume 5",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 5."
+  },
+  "24-35": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 3."
+  },
+  "24-38": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 3."
+  },
+  "24-41": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "24-49": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "25-35": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "25-43": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "25-50": {
+   "facts": {
+    "books": [
+     "Volume 2"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 2."
+  },
+  "26-28": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "26-30": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "26-31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "27-29": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "27-33": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "27-42": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "27-46": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "27-50": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "27-51": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "28-30": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "29-33": {
+   "facts": {
+    "books": [
+     "Volume 1",
+     "Volume 2",
+     "Volume 3",
+     "Volume 5"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in four volumes, first in Volume 1."
+  },
+  "29-42": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "29-46": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "29-48": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "29-50": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3",
+     "Volume 5"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 2."
+  },
+  "29-51": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "29-52": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "30-31": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Friends of the ABC"
+    ]
+   },
+   "line": "They share the page only in Volume 4. Both belong to the Friends of the ABC."
+  },
+  "30-35": {
+   "facts": {
+    "books": [
+     "Volume 4",
+     "Volume 5"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 4."
+  },
+  "30-40": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "32-33": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "33-35": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "33-36": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "33-37": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "33-38": {
+   "facts": {
+    "books": [
+     "Volume 5"
+    ],
+    "first": "Volume 5",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 5."
+  },
+  "33-39": {
+   "facts": {
+    "books": [
+     "Volume 2"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 2."
+  },
+  "33-42": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "33-44": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "33-45": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "33-46": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "33-48": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "33-50": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3",
+     "Volume 5"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 2."
+  },
+  "33-51": {
+   "facts": {
+    "books": [
+     "Volume 2",
+     "Volume 3"
+    ],
+    "first": "Volume 2",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 2."
+  },
+  "33-52": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "34-53": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "35-38": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "35-40": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "35-49": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "35-50": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 5"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "36-37": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "36-45": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "37-45": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "38-43": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "38-49": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "41-51": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "42-46": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "42-50": {
+   "facts": {
+    "books": [
+     "Volume 4"
+    ],
+    "first": "Volume 4",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 4."
+  },
+  "46-50": {
+   "facts": {
+    "books": [
+     "Volume 3",
+     "Volume 4"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two volumes, first in Volume 3."
+  },
+  "46-51": {
+   "facts": {
+    "books": [
+     "Volume 3"
+    ],
+    "first": "Volume 3",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 3."
+  },
+  "47-48": {
+   "facts": {
+    "books": [
+     "Volume 1"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in Volume 1."
+  },
+  "50-51": {
+   "facts": {
+    "books": [
+     "Volume 1",
+     "Volume 2",
+     "Volume 3"
+    ],
+    "first": "Volume 1",
+    "unit": "volume",
+    "corpusSize": 5
+   },
+   "line": "They share the page in three volumes, first in Volume 1."
+  }
+ },
+ "sources": [
+  {
+   "title": "Stanford GraphBase character glosses",
+   "creator": "Donald E. Knuth, Stanford GraphBase",
+   "url": "https://www-cs-faculty.stanford.edu/~knuth/sgb.html",
+   "license": "NONE-PUBLIC-DOMAIN",
+   "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+   "modifications": [
+    "Parsed discrete camp, occupation, title, and species tokens from the public-domain character glosses in homer.dat and jean.dat. No gloss prose is copied."
+   ]
+  },
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
+}

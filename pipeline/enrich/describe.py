@@ -10,6 +10,8 @@ receives the structured facts alongside these lines and may ignore them.
 
 from __future__ import annotations
 
+import re
+
 COUNT_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven"}
 
 # The source mixes three kinds of value under "culture": peoples (Northmen),
@@ -19,6 +21,7 @@ COUNT_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7
 PEOPLES = {
     "northmen", "ironborn", "free folk", "dothraki", "crannogmen",
     "sistermen", "rivermen", "valemen", "mountain clans", "andals", "first men",
+    "greeks", "trojans", "achaeans", "myrmidons", "dardanians", "olympians",
 }
 
 
@@ -72,7 +75,11 @@ def edge_line(facts: dict) -> str:
         if facts.get("sharedHouses"):
             clauses.append(f"Both are sworn to {shared[0]}")
         else:
-            clauses.append(f"Both belong to {shared[0]}")
+            affiliation = shared[0]
+            article = "the " if (
+                affiliation.lower() in PEOPLES or affiliation.lower().startswith("friends of")
+            ) else ""
+            clauses.append(f"Both belong to {article}{affiliation}")
 
     return " ".join(f"{clause}." for clause in clauses)
 
@@ -89,8 +96,15 @@ def _node_line_zh(facts: dict) -> str:
         standing = _title(facts["titles"][0])
     elif facts.get("occupation"):
         standing = _title(facts["occupation"])
+    elif facts.get("species"):
+        standing = facts["species"]
+    elif facts.get("homeworld"):
+        standing = f"{facts['homeworld']}出身"
     if standing:
         clauses.append(standing)
+    affiliation = (facts.get("affiliations") or [None])[0]
+    if affiliation and affiliation not in (standing or ""):
+        clauses.append(f"屬{affiliation}")
     presence = _presence_zh(facts)
     if presence:
         clauses.append(presence)
@@ -110,6 +124,9 @@ def _edge_line_zh(facts: dict) -> str:
             clauses.append(f"每回同頁，始於{first}")
         else:
             clauses.append(f"共見於{len(books)}回，始於{first}")
+    shared = facts.get("sharedHouses") or facts.get("sharedAffiliations")
+    if shared:
+        clauses.append(f"同屬{shared[0]}")
     return "。".join(clauses) + ("。" if clauses else "")
 
 
@@ -228,7 +245,10 @@ def _species(species: str) -> str:
 def _title(title: str) -> str:
     """Royal styles run to a full line on their own. The first clause carries the
     rank, which is what the reveal is for."""
-    return title.split(",")[0].strip()
+    title = title.split(",")[0].strip()
+    title = re.sub(r"\s+in Greek mythology$", "", title, flags=re.I)
+    title = re.sub(r"^mythological\s+", "", title, flags=re.I)
+    return title
 
 
 def _capitalise(text: str) -> str:

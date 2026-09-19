@@ -15,7 +15,19 @@ from dataclasses import dataclass
 from typing import Callable
 
 from .canon.types import CanonicalGraph
-from .ingest import asoiaf, bible, hongloumeng, shakespeare, starwars
+from .ingest import (
+    asoiaf,
+    bible,
+    hongloumeng,
+    iliad,
+    lesmiserables,
+    odyssey,
+    sanguoyanyi,
+    shakespeare,
+    shuihuzhuan,
+    starwars,
+    xiyouji,
+)
 
 
 @dataclass(frozen=True)
@@ -60,6 +72,45 @@ SOURCES: dict[str, Source] = {
         # Bible: a banquet sentence can name a dozen people who never address
         # each other. Two shared sentences is the same floor the notes give
         # matrix projections.
+        min_edge_weight=2,
+        min_degree=2,
+    ),
+    "iliad": Source(
+        name="iliad",
+        load=iliad.load,
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "lesmiserables": Source(
+        name="lesmiserables",
+        load=lesmiserables.load,
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "odyssey": Source(
+        name="odyssey",
+        load=odyssey.load,
+        # A sentence naming two people in this translation is already a
+        # deliberate act of the verse, closer to a biblical verse than to a
+        # banquet sentence in a novel.
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "sanguoyanyi": Source(
+        name="sanguoyanyi",
+        load=sanguoyanyi.load,
+        min_edge_weight=2,
+        min_degree=2,
+    ),
+    "shuihuzhuan": Source(
+        name="shuihuzhuan",
+        load=shuihuzhuan.load,
+        min_edge_weight=2,
+        min_degree=2,
+    ),
+    "xiyouji": Source(
+        name="xiyouji",
+        load=xiyouji.load,
         min_edge_weight=2,
         min_degree=2,
     ),

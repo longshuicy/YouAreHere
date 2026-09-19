@@ -12,7 +12,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from ..canon.types import CanonicalGraph
-from . import anapi, folger, wikidata
+from . import anapi, folger, knuth, wikidata
 
 RAW = Path(__file__).resolve().parent.parent / "raw"
 
@@ -42,7 +42,19 @@ def meta_sources_for(name: str) -> list[tuple]:
     """Attribution pairs to credit on the enrichment sidecar."""
     if name == "asoiaf":
         return [(anapi.ATTRIBUTION, anapi.LICENSE)]
-    if name in ("bible", "hongloumeng"):
+    if name in ("iliad", "lesmiserables"):
+        return [
+            (knuth.ATTRIBUTION, knuth.LICENSE),
+            (wikidata.ATTRIBUTION, wikidata.LICENSE),
+        ]
+    if name in (
+        "bible",
+        "hongloumeng",
+        "odyssey",
+        "sanguoyanyi",
+        "shuihuzhuan",
+        "xiyouji",
+    ):
         return [(wikidata.ATTRIBUTION, wikidata.LICENSE)]
     if name == "shakespeare":
         return [
@@ -84,14 +96,14 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
         if node.id in roles:
             record["role"] = roles[node.id]
 
+        if source in ("iliad", "lesmiserables"):
+            for key, value in knuth.from_node(source, node).items():
+                record.setdefault(key, value)
+
         qid = qid_by_node.get(node.id)
         if qid and qid in wd_by_qid:
             wikidata.apply_to_record(record, wd_by_qid[qid])
-            if source in ("bible", "shakespeare", "hongloumeng"):
-                # Species / homeworld / affiliation claims on these corpora are
-                # real-world ethnicity and citizenship, not standing facts.
-                for key in ("species", "homeworld", "affiliations"):
-                    record.pop(key, None)
+        _trim_literary(record, source)
 
         if record:
             facts[node.id] = record
@@ -167,23 +179,30 @@ def _wikidata_for(
         pinned = overrides.get(node.id, {}).get("wikidata")
         if pinned:
             qid_by_node[node.id] = pinned
-        elif source in ("bible", "hongloumeng") and re.fullmatch(r"Q\d+", node.id):
+        elif re.fullmatch(r"Q\d+", node.id):
             qid_by_node[node.id] = node.id
-        elif source == "shakespeare" and node.metadata.get("wikidata"):
+        elif node.metadata.get("wikidata"):
             qid_by_node[node.id] = node.metadata["wikidata"]
 
     if source == "starwars":
         for node_id, qid in _match_starwars(graph, overrides).items():
             qid_by_node.setdefault(node_id, qid)
 
+    work_qid = wikidata.WORK_CAST.get(source)
+    if work_qid:
+        for node_id, qid in wikidata.match_work_cast(
+            graph.nodes,
+            work_qid=work_qid,
+            cache_dir=RAW / source,
+        ).items():
+            qid_by_node.setdefault(node_id, qid)
+
     qids = sorted(set(qid_by_node.values()))
     if not qids:
         return {}, qid_by_node
 
-    cache_dir = RAW / {"bible": "bible", "shakespeare": "shakespeare", "starwars": "starwars"}.get(
-        source, source
-    )
-    if source == "hongloumeng":
+    cache_dir = RAW / source
+    if source in ("hongloumeng", "sanguoyanyi", "shuihuzhuan", "xiyouji"):
         attrs = wikidata.attributes_for(
             qids,
             cache_name="wikidata-attributes-zh.json",
@@ -353,6 +372,40 @@ def _appearances(graph: CanonicalGraph, order: list[str] | None) -> dict[str, li
 
 def _label(labels: dict, segment: str) -> str:
     return labels.get(segment, segment)
+
+
+# Real-world ethnicity, citizenship, and birthplace, not a standing fact in the story.
+STRIP_SPECIES_HOMEWORLD = {
+    "bible",
+    "shakespeare",
+    "hongloumeng",
+    "sanguoyanyi",
+    "shuihuzhuan",
+    "lesmiserables",
+}
+STRIP_AFFILIATIONS = {
+    "bible",
+    "shakespeare",
+    "hongloumeng",
+}
+
+
+def _trim_literary(record: dict, source: str) -> None:
+    if source in STRIP_SPECIES_HOMEWORLD:
+        record.pop("species", None)
+        record.pop("homeworld", None)
+    if source in STRIP_AFFILIATIONS:
+        record.pop("affiliations", None)
+    if source == "iliad":
+        if record.get("homeworld") in {"Troy", "Greece"}:
+            record.pop("homeworld", None)
+        mapped = []
+        for affiliation in record.get("affiliations") or []:
+            camp = {"Troy": "Trojans", "Greece": "Greeks"}.get(affiliation, affiliation)
+            if camp not in mapped:
+                mapped.append(camp)
+        if mapped:
+            record["affiliations"] = mapped
 
 
 def _edge_facts(graph: CanonicalGraph, node_facts: dict[str, dict]) -> dict[tuple[str, str], dict]:
