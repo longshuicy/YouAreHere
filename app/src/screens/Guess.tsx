@@ -116,7 +116,7 @@ export function Guess({
       : false;
 
   return (
-    <div style={{ position: 'relative', height: '100vh', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', height: '100dvh', overflow: 'hidden' }}>
       {/* The graph stays visible — it is the evidence, not the subject. */}
       <div style={{ position: 'absolute', inset: 0 }}>
         <Stage
@@ -139,13 +139,19 @@ export function Guess({
           padding: CHROME_PADDING,
           display: 'flex',
           flexDirection: 'column',
+          // The form is taller than a phone. The overlay is what scrolls —
+          // the graph behind it stays put, which is the point of keeping it.
+          overflowY: 'auto',
           pointerEvents: 'none',
         }}
       >
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <div
+          className="chrome-row"
+          style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}
+        >
           <BrandCluster onStartAgain={onStartAgain} />
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 12 }}>
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: 28 }}>
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 'clamp(12px, 4vw, 28px)' }}>
               <Ledger ledger={session.ledger} />
               <HelpLink onOpenKey={onOpenKey} />
             </div>
@@ -158,20 +164,21 @@ export function Guess({
 
         <div
           style={{
-            flex: 1,
+            flex: '1 0 auto',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
-            gap: 44,
+            gap: 'clamp(22px, 5vh, 44px)',
+            paddingTop: 24,
             pointerEvents: 'auto',
           }}
         >
           {headline && (
             <div style={{ textAlign: 'center', maxWidth: 520 }}>
-              <div style={{ fontSize: 27 }}>{headline}</div>
+              <div style={{ fontSize: 'clamp(21px, 6vw, 27px)' }}>{headline}</div>
               {bearing && (
-                <div style={{ fontSize: 18, color: 'var(--body)', marginTop: 12, lineHeight: 1.5 }}>
+                <div style={{ fontSize: 'clamp(15px, 4vw, 18px)', color: 'var(--body)', marginTop: 12, lineHeight: 1.5 }}>
                   {bearing}
                 </div>
               )}
@@ -188,12 +195,12 @@ export function Guess({
               settled answer invites the player to re-pick what they have already
               established, and makes the screen look like it is still asking. */}
           {settled ? (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 10, width: 470 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 10, width: 'min(470px, 100%)' }}>
               <div className="field-label">The story</div>
-              <div style={{ fontSize: 23 }}>{settled.title}</div>
+              <div style={{ fontSize: 'clamp(19px, 5vw, 23px)' }}>{settled.title}</div>
             </div>
           ) : (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: 470 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: 'min(470px, 100%)' }}>
               <label className="field-label" htmlFor="story">
                 What story are you in?
               </label>
@@ -215,7 +222,7 @@ export function Guess({
             </div>
           )}
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: 470 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: 'min(470px, 100%)' }}>
             <label className="field-label" htmlFor="character">
               Who are you?
             </label>

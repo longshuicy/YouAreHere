@@ -8,7 +8,9 @@ export function Ledger({ ledger }: { ledger: LedgerT }) {
   const clues = clueTotal(ledger);
   return (
     <div className="chrome">
-      Information used &nbsp;·&nbsp; {clues} {clues === 1 ? 'clue' : 'clues'}
+      {/* The sentence is dropped on a phone; the count never is. */}
+      <span className="ledger-long">Information used &nbsp;·&nbsp; </span>
+      {clues} {clues === 1 ? 'clue' : 'clues'}
     </div>
   );
 }
@@ -23,7 +25,7 @@ export function LedgerBreakdown({ ledger }: { ledger: LedgerT }) {
   if (rows.length === 0 && !ledger.recognitions) return null;
 
   return (
-    <div className="annot" style={{ textAlign: 'right', lineHeight: 2 }}>
+    <div className="annot ledger-breakdown" style={{ textAlign: 'right', lineHeight: 2 }}>
       {rows.map((r) => (
         <div key={r}>{r}</div>
       ))}

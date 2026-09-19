@@ -92,14 +92,15 @@ export function ColdOpen({
 
   return (
     <div
+      className="cold-open"
       style={{
-        height: '100vh',
+        height: '100dvh',
         overflow: 'auto',
         display: 'flex',
         flexDirection: 'column',
         gap: 'clamp(10px, 2vh, 20px)',
         padding: CHROME_PADDING,
-        paddingBottom: 80,
+        paddingBottom: 'max(40px, var(--pad-bottom))',
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-start', flexShrink: 0 }}>
@@ -107,6 +108,7 @@ export function ColdOpen({
       </div>
 
       <div
+        className="cold-main"
         style={{
           flex: 1,
           minHeight: 0,
@@ -144,7 +146,10 @@ export function ColdOpen({
             width, is what decides how many characters can stand around you
             before they touch. At 300px it was about a dozen, which is fewer
             than the puzzle generator is allowed to hand it. */}
-        <div style={{ width: 'min(620px, 80vw)', height: 'min(440px, 44vh)', flexShrink: 1, minHeight: 0, overflow: 'visible' }}>
+        <div
+          className="cold-stage"
+          style={{ width: 'min(620px, 92vw)', height: 'min(440px, 44vh)', flexShrink: 1, minHeight: 0, overflow: 'visible' }}
+        >
           <Stage
             graph={graph}
             positions={positions}
@@ -197,8 +202,8 @@ export function ColdOpen({
           style={{
             display: 'flex',
             alignItems: 'center',
-            gap: 16,
-            width: 'min(420px, 76vw)',
+            gap: 'clamp(8px, 3vw, 16px)',
+            width: 'min(420px, 100%)',
           }}
         >
           <span className="mono" style={{ fontSize: 10, letterSpacing: '0.2em', color: 'var(--unknown)', whiteSpace: 'nowrap' }}>

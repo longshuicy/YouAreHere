@@ -52,7 +52,7 @@ export function Explore({
   const worldKnown = worldIsKnown(session);
 
   return (
-    <div style={{ position: 'relative', height: '100vh', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', height: '100dvh', overflow: 'hidden' }}>
       {/* The diagram is the page, not a panel on it. */}
       <div style={{ position: 'absolute', inset: 0 }}>
         <Stage
@@ -82,35 +82,48 @@ export function Explore({
           pointerEvents: 'none',
         }}
       >
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
+        <div className="chrome-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
           <BrandCluster onStartAgain={onStartAgain} />
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 28 }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 'clamp(12px, 4vw, 28px)' }}>
             <Ledger ledger={session.ledger} />
             <HelpLink onOpenKey={onOpenKey} />
           </div>
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 24 }}>
+        <div
+          className="stack-sm"
+          style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 24 }}
+        >
           {/* This corner is about *where* you are. */}
           <div style={{ maxWidth: 520 }}>
             {worldKnown ? (
               <>
-                <div style={{ fontSize: 21 }}>{universeTitle}</div>
+                <div style={{ fontSize: 'clamp(17px, 4.6vw, 21px)' }}>{universeTitle}</div>
                 {worldBlurb && (
-                  <div style={{ fontSize: 17, color: 'var(--body)', marginTop: 6, lineHeight: 1.5 }}>
+                  <div style={{ fontSize: 'clamp(14px, 3.8vw, 17px)', color: 'var(--body)', marginTop: 6, lineHeight: 1.5 }}>
                     {worldBlurb}
                   </div>
                 )}
               </>
             ) : (
-              <div style={{ fontSize: 21, color: 'var(--body)' }}>You don’t know where you are.</div>
+              <div style={{ fontSize: 'clamp(17px, 4.6vw, 21px)', color: 'var(--body)' }}>
+                You don’t know where you are.
+              </div>
             )}
-            <div style={{ fontSize: 17, color: 'var(--body)', marginTop: 10, fontStyle: 'italic' }}>
+            <div
+              style={{
+                fontSize: 'clamp(14px, 3.8vw, 17px)',
+                color: 'var(--body)',
+                marginTop: 10,
+                fontStyle: 'italic',
+              }}
+            >
               {standing}
             </div>
           </div>
           {/* Win path first; give-up sits under it, same corner, quieter. */}
           <div
+            className="foot-actions"
             style={{
               display: 'flex',
               flexDirection: 'column',
@@ -124,8 +137,8 @@ export function Explore({
               style={{
                 pointerEvents: 'auto',
                 whiteSpace: 'nowrap',
-                fontSize: 15,
-                letterSpacing: '0.3em',
+                fontSize: 'clamp(12px, 3.4vw, 15px)',
+                letterSpacing: 'clamp(0.16em, 1vw, 0.3em)',
                 color: 'var(--accent)',
                 borderBottom: '2px solid var(--accent)',
                 padding: '16px 10px 12px 10px',
@@ -145,8 +158,8 @@ export function Explore({
       <div
         style={{
           position: 'absolute',
-          right: 64,
-          top: 80,
+          right: 'var(--pad-x)',
+          top: 'calc(var(--pad-top) + 36px)',
         }}
       >
         <LedgerBreakdown ledger={session.ledger} />
