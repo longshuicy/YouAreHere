@@ -3,18 +3,27 @@ import { useZoom, zoomTransform } from '../graph/zoom';
 import type { Universe } from '../types';
 
 /**
- * The full named network, faint, pannable and zoomable, naming any node on
- * hover.
+ * The full named network, pannable and zoomable, naming any node on hover.
  *
  * Shared by the reveal and the gallery. The reveal passes `you` and gets the
  * accent mark; the gallery passes nothing, because in a gallery nobody is you —
- * the accent is reserved for the player's own position and means nothing here.
+ * that accent is reserved for the player's own position and means nothing here.
+ *
+ * `role` is why the two can share one component. On the reveal the network is a
+ * backdrop: it lies under the answer and several lines of prose, so it has to
+ * stay out of their way, and drawn any heavier it competes with the words for
+ * the same patch of paper. In the gallery it is the subject, and a subject
+ * drawn at eleven percent of a grey is not reticent, it is invisible. Same
+ * marks, same geometry, two different jobs.
  */
+export type GraphRole = 'backdrop' | 'subject';
+
 export function FullGraph({
   universe,
   you,
   named,
   tieLine,
+  role = 'backdrop',
 }: {
   universe: Universe;
   you?: number;
@@ -26,6 +35,7 @@ export function FullGraph({
   /** What the sidecar says about the tie between `you` and another node, shown
    * when one of your own neighbours is hovered. */
   tieLine?: (other: number) => string | null;
+  role?: GraphRole;
 }) {
   const { ref, transform } = useZoom([0.5, 12]);
   const [hovered, setHovered] = useState<number | null>(null);
@@ -87,6 +97,14 @@ export function FullGraph({
     return { edges, neighbours };
   }, [universe, you]);
 
+  // Weight, not hue. The gallery was unreadable because the network was drawn
+  // at eleven percent of a grey, so what it needed was presence: darker ink,
+  // heavier strokes, solid nodes. Colour was the wrong answer to that — the
+  // accent belongs to your own position and to nothing else, and a whole graph
+  // drawn in it says "you are here" about every character at once.
+  const subject = role === 'subject';
+  const ink = subject ? 'var(--tie-strong)' : 'var(--unknown)';
+
   return (
     <svg
       ref={ref}
@@ -97,7 +115,7 @@ export function FullGraph({
       style={{ cursor: 'grab', touchAction: 'none' }}
     >
       <g transform={zoomTransform(transform)}>
-        <g stroke="var(--unknown)" strokeWidth={0.9 * unit} opacity={0.11}>
+        <g stroke={ink} strokeWidth={(subject ? 1.15 : 0.9) * unit} opacity={subject ? 0.5 : 0.11}>
           {universe.edges.map(([s, t], idx) => {
             const a = byIndex.get(s);
             const b = byIndex.get(t);
@@ -106,16 +124,16 @@ export function FullGraph({
           })}
         </g>
 
-        <g opacity={0.3}>
+        <g opacity={subject ? 1 : 0.3}>
           {universe.nodes.map((n) => (
             <circle
               key={n.i}
               cx={n.x}
               cy={n.y}
-              r={3.5 * unit}
+              r={(subject ? 3.8 : 3.5) * unit}
               fill="var(--paper)"
-              stroke="var(--unknown)"
-              strokeWidth={1 * unit}
+              stroke={ink}
+              strokeWidth={(subject ? 1.15 : 1) * unit}
             />
           ))}
         </g>
