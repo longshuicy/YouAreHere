@@ -12,9 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.143,
-    "company": 0.722
+    "lookAlikes": 154
    }
   },
   "1": {
@@ -27,9 +25,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.381,
-    "company": 0.648
+    "lookAlikes": 188
    }
   },
   "2": {
@@ -42,9 +38,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.81,
-    "company": 0.595
+    "lookAlikes": 188
    }
   },
   "3": {
@@ -57,9 +51,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.952,
-    "company": 0.574
+    "lookAlikes": 188
    }
   },
   "4": {
@@ -72,9 +64,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.714,
-    "company": 0.524
+    "lookAlikes": 134
    }
   },
   "5": {
@@ -87,9 +77,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 67,
-    "prominence": 0.0,
-    "company": 0.817
+    "lookAlikes": 67
    }
   },
   "6": {
@@ -102,9 +90,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.857,
-    "company": 0.58
+    "lookAlikes": 188
    }
   },
   "7": {
@@ -117,9 +103,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 11,
-    "prominence": 0.286,
-    "company": 0.369
+    "lookAlikes": 11
    }
   },
   "8": {
@@ -132,9 +116,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.429,
-    "company": 0.54
+    "lookAlikes": 154
    }
   },
   "9": {
@@ -147,9 +129,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.667,
-    "company": 0.626
+    "lookAlikes": 188
    }
   },
   "10": {
@@ -164,9 +144,7 @@
    },
    "line": "Prince of Aragon.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.905,
-    "company": 0.577
+    "lookAlikes": 188
    }
   },
   "11": {
@@ -179,9 +157,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.333,
-    "company": 0.821
+    "lookAlikes": 92
    }
   },
   "12": {
@@ -194,9 +170,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.762,
-    "company": 0.645
+    "lookAlikes": 188
    }
   },
   "13": {
@@ -209,9 +183,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 1.0,
-    "company": 0.571
+    "lookAlikes": 188
    }
   },
   "14": {
@@ -224,9 +196,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.619,
-    "company": 0.635
+    "lookAlikes": 188
    }
   },
   "15": {
@@ -239,9 +209,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.476,
-    "company": 0.694
+    "lookAlikes": 154
    }
   },
   "16": {
@@ -254,9 +222,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 6,
-    "prominence": 0.048,
-    "company": 0.405
+    "lookAlikes": 6
    }
   },
   "17": {
@@ -269,9 +235,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.524,
-    "company": 0.69
+    "lookAlikes": 154
    }
   },
   "18": {
@@ -284,9 +248,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26,
-    "prominence": 0.571,
-    "company": 0.528
+    "lookAlikes": 26
    }
   },
   "19": {
@@ -299,9 +261,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 6,
-    "prominence": 0.19,
-    "company": 0.34
+    "lookAlikes": 6
    }
   },
   "20": {
@@ -314,9 +274,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 6,
-    "prominence": 0.095,
-    "company": 0.405
+    "lookAlikes": 6
    }
   },
   "21": {
@@ -328,9 +286,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 6,
-    "prominence": 0.238,
-    "company": 0.333
+    "lookAlikes": 6
    }
   }
  },

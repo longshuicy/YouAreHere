@@ -12,9 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 21,
-    "prominence": 0.267,
-    "company": 0.622
+    "lookAlikes": 21
    }
   },
   "1": {
@@ -27,9 +25,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.733,
-    "company": 0.6
+    "lookAlikes": 154
    }
   },
   "2": {
@@ -52,9 +48,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 33,
-    "prominence": 0.4,
-    "company": 0.8
+    "lookAlikes": 33
    }
   },
   "4": {
@@ -69,9 +63,7 @@
    },
    "line": "King of Scotland.",
    "signals": {
-    "lookAlikes": 33,
-    "prominence": 0.467,
-    "company": 0.8
+    "lookAlikes": 33
    }
   },
   "5": {
@@ -104,9 +96,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.6,
-    "company": 0.733
+    "lookAlikes": 92
    }
   },
   "8": {
@@ -119,9 +109,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.667,
-    "company": 0.55
+    "lookAlikes": 154
    }
   },
   "9": {
@@ -136,9 +124,7 @@
    },
    "line": "Murderer.",
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 1.0,
-    "company": 0.503
+    "lookAlikes": 29
    }
   },
   "10": {
@@ -151,9 +137,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.8,
-    "company": 0.627
+    "lookAlikes": 154
    }
   },
   "11": {
@@ -166,9 +150,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39,
-    "prominence": 0.933,
-    "company": 0.6
+    "lookAlikes": 39
    }
   },
   "12": {
@@ -181,9 +163,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 9,
-    "prominence": 0.333,
-    "company": 0.556
+    "lookAlikes": 9
    }
   },
   "13": {
@@ -196,9 +176,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39,
-    "prominence": 0.867,
-    "company": 0.64
+    "lookAlikes": 39
    }
   },
   "14": {
@@ -215,9 +193,7 @@
    },
    "line": "Earl of Northumbria.",
    "signals": {
-    "lookAlikes": 67,
-    "prominence": 0.533,
-    "company": 0.689
+    "lookAlikes": 67
    }
   },
   "15": {

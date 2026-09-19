@@ -234,13 +234,18 @@ def write_metadata(
         # this file is the reveal's, and by then the narrowing is the point:
         # `lookAlikes` is the game's own thesis said back to the player, and it
         # is already computed.
+        # Only `lookAlikes`, because only `lookAlikes` needs to be built. It
+        # counts structural twins *in other novels*, and a client able to work
+        # that out would be one that had downloaded every novel. `prominence`
+        # and `company` shipped alongside it for a while on no better reasoning
+        # than that they sat next to it in the score; both are weighted degree
+        # over the one universe the client already holds, and it already holds
+        # every tie weight because it draws thickness with them. Sending the
+        # answer as well was fifty kilobytes of the same number twice, and a
+        # second definition to keep in step with this one.
         signals = scores.get(node_id)
         if signals:
-            entry["signals"] = {
-                "lookAlikes": signals["lookAlikes"],
-                "prominence": signals["prominence"],
-                "company": signals["company"],
-            }
+            entry["signals"] = {"lookAlikes": signals["lookAlikes"]}
         nodes[str(index_of[node_id])] = entry
 
     edges = {}

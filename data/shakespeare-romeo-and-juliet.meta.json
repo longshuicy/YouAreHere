@@ -22,9 +22,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.842,
-    "company": 0.52
+    "lookAlikes": 188
    }
   },
   "2": {
@@ -37,9 +35,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 0.895,
-    "company": 0.539
+    "lookAlikes": 29
    }
   },
   "3": {
@@ -54,9 +50,7 @@
    },
    "line": "Friar.",
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.474,
-    "company": 0.668
+    "lookAlikes": 154
    }
   },
   "4": {
@@ -69,9 +63,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.737,
-    "company": 0.703
+    "lookAlikes": 154
    }
   },
   "5": {
@@ -84,9 +76,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 6,
-    "prominence": 0.947,
-    "company": 0.503
+    "lookAlikes": 6
    }
   },
   "6": {
@@ -99,9 +89,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.158,
-    "company": 0.637
+    "lookAlikes": 154
    }
   },
   "7": {
@@ -114,9 +102,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 33,
-    "prominence": 0.421,
-    "company": 0.626
+    "lookAlikes": 33
    }
   },
   "8": {
@@ -129,9 +115,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.632,
-    "company": 0.53
+    "lookAlikes": 188
    }
   },
   "9": {
@@ -144,9 +128,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.789,
-    "company": 0.653
+    "lookAlikes": 154
    }
   },
   "10": {
@@ -159,9 +141,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.526,
-    "company": 0.679
+    "lookAlikes": 154
    }
   },
   "11": {
@@ -174,9 +154,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 31,
-    "prominence": 0.053,
-    "company": 0.729
+    "lookAlikes": 31
    }
   },
   "12": {
@@ -191,9 +169,7 @@
    },
    "line": "Prince of Verona.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.684,
-    "company": 0.526
+    "lookAlikes": 188
    }
   },
   "13": {
@@ -206,9 +182,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 6,
-    "prominence": 1.0,
-    "company": 0.474
+    "lookAlikes": 6
    }
   },
   "14": {
@@ -221,9 +195,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.211,
-    "company": 0.632
+    "lookAlikes": 154
    }
   },
   "15": {
@@ -236,9 +208,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.105,
-    "company": 0.737
+    "lookAlikes": 42
    }
   },
   "16": {
@@ -251,9 +221,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.263,
-    "company": 0.626
+    "lookAlikes": 154
    }
   },
   "17": {
@@ -266,9 +234,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.316,
-    "company": 0.621
+    "lookAlikes": 154
    }
   },
   "18": {
@@ -281,9 +247,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.368,
-    "company": 0.655
+    "lookAlikes": 92
    }
   },
   "19": {
@@ -298,9 +262,7 @@
    },
    "line": "Murderer.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.579,
-    "company": 0.568
+    "lookAlikes": 188
    }
   }
  },

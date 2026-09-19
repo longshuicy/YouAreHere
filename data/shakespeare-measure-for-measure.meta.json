@@ -12,9 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.5,
-    "company": 0.675
+    "lookAlikes": 42
    }
   },
   "1": {
@@ -27,9 +25,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.7,
-    "company": 0.654
+    "lookAlikes": 154
    }
   },
   "2": {
@@ -42,9 +38,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 67,
-    "prominence": 0.2,
-    "company": 0.833
+    "lookAlikes": 67
    }
   },
   "3": {
@@ -57,9 +51,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 33,
-    "prominence": 0.4,
-    "company": 0.793
+    "lookAlikes": 33
    }
   },
   "4": {
@@ -82,9 +74,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 31,
-    "prominence": 0.55,
-    "company": 0.694
+    "lookAlikes": 31
    }
   },
   "6": {
@@ -97,9 +87,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.95,
-    "company": 0.537
+    "lookAlikes": 188
    }
   },
   "7": {
@@ -112,9 +100,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.6,
-    "company": 0.672
+    "lookAlikes": 92
    }
   },
   "8": {
@@ -127,9 +113,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.75,
-    "company": 0.654
+    "lookAlikes": 154
    }
   },
   "9": {
@@ -142,9 +126,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 33,
-    "prominence": 0.45,
-    "company": 0.829
+    "lookAlikes": 33
    }
   },
   "10": {
@@ -157,9 +139,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 23,
-    "prominence": 0.25,
-    "company": 0.692
+    "lookAlikes": 23
    }
   },
   "11": {
@@ -172,9 +152,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.85,
-    "company": 0.568
+    "lookAlikes": 188
    }
   },
   "12": {
@@ -197,9 +175,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 23,
-    "prominence": 0.3,
-    "company": 0.683
+    "lookAlikes": 23
    }
   },
   "14": {
@@ -212,9 +188,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.9,
-    "company": 0.587
+    "lookAlikes": 188
    }
   },
   "15": {
@@ -227,9 +201,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.65,
-    "company": 0.713
+    "lookAlikes": 42
    }
   },
   "16": {
@@ -262,9 +234,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.8,
-    "company": 0.579
+    "lookAlikes": 188
    }
   },
   "19": {
@@ -277,9 +247,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 1.0,
-    "company": 0.519
+    "lookAlikes": 134
    }
   },
   "20": {

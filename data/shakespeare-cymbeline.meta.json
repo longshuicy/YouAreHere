@@ -16,9 +16,7 @@
    },
    "line": "Legendary king of Britain.",
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.647,
-    "company": 0.663
+    "lookAlikes": 154
    }
   },
   "1": {
@@ -31,9 +29,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.706,
-    "company": 0.658
+    "lookAlikes": 154
    }
   },
   "2": {
@@ -46,9 +42,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.412,
-    "company": 0.732
+    "lookAlikes": 92
    }
   },
   "3": {
@@ -61,9 +55,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.294,
-    "company": 0.701
+    "lookAlikes": 154
    }
   },
   "4": {
@@ -78,9 +70,7 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.765,
-    "company": 0.637
+    "lookAlikes": 154
    }
   },
   "5": {
@@ -127,9 +117,7 @@
    },
    "line": "Legendary king of Britain.",
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.824,
-    "company": 0.647
+    "lookAlikes": 154
    }
   },
   "9": {
@@ -142,9 +130,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.529,
-    "company": 0.603
+    "lookAlikes": 154
    }
   },
   "10": {
@@ -157,9 +143,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 39,
-    "prominence": 1.0,
-    "company": 0.618
+    "lookAlikes": 39
    }
   },
   "11": {
@@ -182,9 +166,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39,
-    "prominence": 0.882,
-    "company": 0.627
+    "lookAlikes": 39
    }
   },
   "13": {
@@ -207,9 +189,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39,
-    "prominence": 0.941,
-    "company": 0.623
+    "lookAlikes": 39
    }
   },
   "15": {
@@ -222,9 +202,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.588,
-    "company": 0.5
+    "lookAlikes": 188
    }
   },
   "16": {
@@ -237,9 +215,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.471,
-    "company": 0.697
+    "lookAlikes": 50
    }
   },
   "17": {
@@ -252,9 +228,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.353,
-    "company": 0.69
+    "lookAlikes": 154
    }
   }
  },

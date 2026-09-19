@@ -14,9 +14,7 @@
    },
    "line": "Count of Rossillion.",
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 0.889,
-    "company": 0.585
+    "lookAlikes": 29
    }
   },
   "1": {
@@ -29,9 +27,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.778,
-    "company": 0.543
+    "lookAlikes": 188
    }
   },
   "2": {
@@ -44,9 +40,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.5,
-    "company": 0.71
+    "lookAlikes": 92
    }
   },
   "3": {
@@ -69,9 +63,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 21,
-    "prominence": 0.444,
-    "company": 0.563
+    "lookAlikes": 21
    }
   },
   "5": {
@@ -104,9 +96,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.389,
-    "company": 0.792
+    "lookAlikes": 92
    }
   },
   "8": {
@@ -119,9 +109,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 1.0,
-    "company": 0.51
+    "lookAlikes": 29
    }
   },
   "9": {
@@ -134,9 +122,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.722,
-    "company": 0.717
+    "lookAlikes": 154
    }
   },
   "10": {
@@ -149,9 +135,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.611,
-    "company": 0.66
+    "lookAlikes": 92
    }
   },
   "11": {
@@ -164,9 +148,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.556,
-    "company": 0.667
+    "lookAlikes": 92
    }
   },
   "12": {
@@ -179,9 +161,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.833,
-    "company": 0.648
+    "lookAlikes": 154
    }
   },
   "13": {
@@ -214,9 +194,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 0.944,
-    "company": 0.583
+    "lookAlikes": 29
    }
   },
   "16": {
@@ -249,9 +227,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.667,
-    "company": 0.691
+    "lookAlikes": 92
    }
   }
  },

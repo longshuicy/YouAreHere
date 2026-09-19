@@ -16,9 +16,7 @@
    },
    "line": "King of Myrmidons.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.852,
-    "company": 0.714
+    "lookAlikes": 188
    }
   },
   "1": {
@@ -33,9 +31,7 @@
    },
    "line": "Military leader.",
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.741,
-    "company": 0.673
+    "lookAlikes": 134
    }
   },
   "2": {
@@ -52,9 +48,7 @@
    },
    "line": "King of Mycenae.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.815,
-    "company": 0.717
+    "lookAlikes": 188
    }
   },
   "3": {
@@ -71,9 +65,7 @@
    },
    "line": "Mythical king of Salamis.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.889,
-    "company": 0.712
+    "lookAlikes": 188
    }
   },
   "4": {
@@ -128,9 +120,7 @@
    },
    "line": "Seer.",
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.444,
-    "company": 0.787
+    "lookAlikes": 154
    }
   },
   "9": {
@@ -145,9 +135,7 @@
    },
    "line": "Oracle.",
    "signals": {
-    "lookAlikes": 7,
-    "prominence": 0.333,
-    "company": 0.492
+    "lookAlikes": 7
    }
   },
   "10": {
@@ -160,9 +148,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.556,
-    "company": 0.61
+    "lookAlikes": 134
    }
   },
   "11": {
@@ -175,9 +161,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 21,
-    "prominence": 0.407,
-    "company": 0.64
+    "lookAlikes": 21
    }
   },
   "12": {
@@ -194,9 +178,7 @@
    },
    "line": "King of Argos.",
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 1.0,
-    "company": 0.662
+    "lookAlikes": 134
    }
   },
   "13": {
@@ -209,9 +191,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.667,
-    "company": 0.644
+    "lookAlikes": 134
    }
   },
   "14": {
@@ -250,9 +230,7 @@
    },
    "line": "Mythological king of Sparta.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.593,
-    "company": 0.766
+    "lookAlikes": 188
    }
   },
   "17": {
@@ -269,9 +247,7 @@
    },
    "line": "King of Pylos.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.778,
-    "company": 0.72
+    "lookAlikes": 188
    }
   },
   "18": {
@@ -284,9 +260,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 0.519,
-    "company": 0.394
+    "lookAlikes": 29
    }
   },
   "19": {
@@ -301,9 +275,7 @@
    },
    "line": "Herder.",
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 0.481,
-    "company": 0.479
+    "lookAlikes": 29
    }
   },
   "20": {
@@ -316,9 +288,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.704,
-    "company": 0.758
+    "lookAlikes": 188
    }
   },
   "21": {
@@ -333,9 +303,7 @@
    },
    "line": "King of Troy.",
    "signals": {
-    "lookAlikes": 7,
-    "prominence": 0.37,
-    "company": 0.487
+    "lookAlikes": 7
    }
   },
   "22": {
@@ -348,9 +316,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.296,
-    "company": 0.877
+    "lookAlikes": 50
    }
   },
   "23": {
@@ -387,9 +353,7 @@
    },
    "line": "King of Calydon.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.63,
-    "company": 0.764
+    "lookAlikes": 188
    }
   },
   "26": {
@@ -402,9 +366,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.963,
-    "company": 0.569
+    "lookAlikes": 134
    }
   },
   "27": {
@@ -421,9 +383,7 @@
    },
    "line": "King in Greek mythology.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.926,
-    "company": 0.709
+    "lookAlikes": 188
    }
   }
  },

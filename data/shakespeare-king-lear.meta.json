@@ -12,9 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.529,
-    "company": 0.592
+    "lookAlikes": 188
    }
   },
   "1": {
@@ -27,9 +25,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.235,
-    "company": 0.688
+    "lookAlikes": 154
    }
   },
   "2": {
@@ -42,9 +38,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.353,
-    "company": 0.588
+    "lookAlikes": 188
    }
   },
   "3": {
@@ -57,9 +51,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.588,
-    "company": 0.584
+    "lookAlikes": 188
    }
   },
   "4": {
@@ -94,9 +86,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.647,
-    "company": 0.555
+    "lookAlikes": 188
    }
   },
   "7": {
@@ -109,9 +99,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.706,
-    "company": 0.555
+    "lookAlikes": 188
    }
   },
   "8": {
@@ -124,9 +112,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.471,
-    "company": 0.732
+    "lookAlikes": 92
    }
   },
   "9": {
@@ -139,9 +125,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.294,
-    "company": 0.682
+    "lookAlikes": 154
    }
   },
   "10": {
@@ -154,9 +138,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 0.882,
-    "company": 0.525
+    "lookAlikes": 29
    }
   },
   "11": {
@@ -169,9 +151,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.765,
-    "company": 0.576
+    "lookAlikes": 188
    }
   },
   "12": {
@@ -184,9 +164,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 33,
-    "prominence": 0.176,
-    "company": 0.721
+    "lookAlikes": 33
    }
   },
   "13": {
@@ -199,9 +177,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 1.0,
-    "company": 0.525
+    "lookAlikes": 29
    }
   },
   "14": {
@@ -216,9 +192,7 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 0.941,
-    "company": 0.529
+    "lookAlikes": 29
    }
   },
   "15": {
@@ -241,9 +215,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.412,
-    "company": 0.735
+    "lookAlikes": 154
    }
   },
   "17": {
@@ -256,9 +228,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.824,
-    "company": 0.541
+    "lookAlikes": 188
    }
   }
  },

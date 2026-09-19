@@ -16,10 +16,27 @@ import type { MetaRecord, NodeFacts, NodeIndex, Universe, UniverseMeta } from '.
  */
 export interface RevealMetrics {
   degree: number;
-  /** 1-based rank by degree, and the cast it is out of. The denominator is
-   * withheld during play and given here, because the game is over. */
+  /** 1-based rank by number of ties, and the cast it is out of. The
+   * denominator is withheld during play and given here, because the game is
+   * over. */
   rank: number;
   castSize: number;
+  /**
+   * 1-based rank by *weighted* degree: tie weights summed, which is roughly how
+   * much of the text this character is present for.
+   *
+   * Not the same question as `rank`, and the pipeline's own note on the measure
+   * explains why it matters: plain degree "rewards whoever meets many people
+   * once each". Ranked by ties, the best-connected people in the Bible are
+   * Azariah and Shemaiah, named beside many others in genealogies. Ranked by
+   * page time, David, Saul, Moses and Aaron rise. Across the catalogue the two
+   * ranks differ by a median of eight places and at the extreme by nearly
+   * three hundred — Haman is 337th by ties and 57th by page time.
+   */
+  pageRank: number;
+  /** Mean standing of the people you were tied to, 0 to 1. Whether you stood
+   * among the major figures or among the spear-carriers. */
+  company: number;
   /** Your strongest tie, and the one below it — "half again your next" is a
    * more legible reading than any raw count. */
   heaviest: { other: NodeIndex; name: string; weight: number; next: number } | null;
@@ -78,6 +95,36 @@ export function revealMetrics(universe: Universe, you: NodeIndex): RevealMetrics
     if (n.i !== you && (adj.get(n.i)?.size ?? 0) > degree) above += 1;
   }
 
+  // Weighted degree, and the standing that falls out of it. Computed here
+  // rather than read off the sidecar: the client already holds every tie weight
+  // (it draws thickness with them), so shipping the answer as well would be the
+  // same number in two places, and the gallery has already grown its own copy.
+  const weighted = new Map<NodeIndex, number>();
+  for (const n of universe.nodes) weighted.set(n.i, 0);
+  for (const [s, t, w] of universe.edges) {
+    weighted.set(s, (weighted.get(s) ?? 0) + w);
+    weighted.set(t, (weighted.get(t) ?? 0) + w);
+  }
+  const mineWeighted = weighted.get(you) ?? 0;
+  let heavier = 0;
+  for (const n of universe.nodes) {
+    if (n.i !== you && (weighted.get(n.i) ?? 0) > mineWeighted) heavier += 1;
+  }
+
+  // Standing as a 0-to-1 rank, so an average over neighbours means something.
+  const ascending = [...universe.nodes].sort(
+    (a, b) => (weighted.get(a.i) ?? 0) - (weighted.get(b.i) ?? 0),
+  );
+  const standing = new Map<NodeIndex, number>();
+  const last = Math.max(1, ascending.length - 1);
+  ascending.forEach((n, idx) => standing.set(n.i, idx / last));
+
+  const neighbourList = [...mine.keys()];
+  const company =
+    neighbourList.length > 0
+      ? neighbourList.reduce((sum, n) => sum + (standing.get(n) ?? 0), 0) / neighbourList.length
+      : 0;
+
   // Heaviest tie, and the one under it.
   let best: { other: NodeIndex; weight: number } | null = null;
   let second = 0;
@@ -121,6 +168,8 @@ export function revealMetrics(universe: Universe, you: NodeIndex): RevealMetrics
     degree,
     rank: above + 1,
     castSize: universe.nodes.length,
+    pageRank: heavier + 1,
+    company,
     heaviest: best ? { other: best.other, name: nameOf(best.other), weight: best.weight, next: second } : null,
     clustering: pairs > 0 ? closed / pairs : 0,
     eccentricity: eccentricity > 0 ? eccentricity : null,
@@ -196,8 +245,24 @@ export function describeReadings(
   out.push(
     m.rank === 1
       ? `You had ${plural(m.degree, 'tie', 'ties')}, more than anyone else in the story.`
-      : `You had ${plural(m.degree, 'tie', 'ties')}, which put you ${ordinal(m.rank)} out of ${m.castSize}.`,
+      : `You had ${plural(m.degree, 'tie', 'ties')}, which put you ${ordinal(m.rank)} out of ${m.castSize} for people met.`,
   );
+
+  // How many people you met and how much of the book you were in are different
+  // questions, and the sentence above only answers the first. Said separately,
+  // and only when the two answers disagree enough to be worth the line: a
+  // character who met few people but was on the page constantly is a shape
+  // worth naming, and one whose two ranks agree has nothing extra to report.
+  const spread = Math.abs(m.rank - m.pageRank);
+  if (spread >= Math.max(5, Math.round(m.castSize * 0.1))) {
+    out.push(
+      m.pageRank === 1
+        ? 'For all that, no one was on the page more than you.'
+        : m.pageRank < m.rank
+          ? `For time on the page, though, you came ${ordinal(m.pageRank)}: fewer people, far more of the story.`
+          : `For time on the page, though, you came only ${ordinal(m.pageRank)}: many people, each of them briefly.`,
+    );
+  }
 
   if (m.heaviest) {
     const ratio = m.heaviest.next > 0 ? m.heaviest.weight / m.heaviest.next : Infinity;
@@ -213,6 +278,16 @@ export function describeReadings(
     // "Share the story" is the phrase the whole game uses for a tie's weight,
     // and the one place the design forbids saying "close" or "knows well".
     out.push(`You shared more of the story with ${m.heaviest.name} than with anyone else${how}.`);
+  }
+
+  // Whose company you kept. Distinct from how many people you knew and from
+  // whether they knew each other, and the only one of the three that is about
+  // them rather than about you.
+  if (m.degree >= 3) {
+    if (m.company >= 0.82)
+      out.push('The people you stood among were some of the best known in the book.');
+    else if (m.company <= 0.4)
+      out.push('You kept company with the story\u2019s minor figures.');
   }
 
   if (m.degree >= 3) {

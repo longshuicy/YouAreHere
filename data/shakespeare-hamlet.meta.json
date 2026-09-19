@@ -12,9 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.353,
-    "company": 0.629
+    "lookAlikes": 154
    }
   },
   "1": {
@@ -27,9 +25,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 0.941,
-    "company": 0.563
+    "lookAlikes": 29
    }
   },
   "2": {
@@ -42,9 +38,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.294,
-    "company": 0.699
+    "lookAlikes": 92
    }
   },
   "3": {
@@ -59,9 +53,7 @@
    },
    "line": "Prince of Norway.",
    "signals": {
-    "lookAlikes": 33,
-    "prominence": 0.235,
-    "company": 0.731
+    "lookAlikes": 33
    }
   },
   "4": {
@@ -84,9 +76,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 0.882,
-    "company": 0.537
+    "lookAlikes": 29
    }
   },
   "6": {
@@ -113,9 +103,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.588,
-    "company": 0.757
+    "lookAlikes": 92
    }
   },
   "8": {
@@ -130,9 +118,7 @@
    },
    "line": "Prince of Denmark.",
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 1.0,
-    "company": 0.529
+    "lookAlikes": 29
    }
   },
   "9": {
@@ -145,9 +131,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.765,
-    "company": 0.515
+    "lookAlikes": 188
    }
   },
   "10": {
@@ -160,9 +144,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26,
-    "prominence": 0.647,
-    "company": 0.574
+    "lookAlikes": 26
    }
   },
   "11": {
@@ -175,9 +157,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.471,
-    "company": 0.572
+    "lookAlikes": 154
    }
   },
   "12": {
@@ -190,9 +170,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.529,
-    "company": 0.706
+    "lookAlikes": 92
    }
   },
   "13": {
@@ -205,9 +183,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.176,
-    "company": 0.745
+    "lookAlikes": 50
    }
   },
   "14": {
@@ -222,9 +198,7 @@
    },
    "line": "Councillor.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.824,
-    "company": 0.55
+    "lookAlikes": 188
    }
   },
   "15": {
@@ -249,9 +223,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.706,
-    "company": 0.686
+    "lookAlikes": 92
    }
   },
   "17": {
@@ -264,9 +236,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.412,
-    "company": 0.679
+    "lookAlikes": 154
    }
   }
  },

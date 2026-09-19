@@ -22,9 +22,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.714,
-    "company": 0.597
+    "lookAlikes": 154
    }
   },
   "2": {
@@ -47,9 +45,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 26,
-    "prominence": 0.643,
-    "company": 0.552
+    "lookAlikes": 26
    }
   },
   "4": {
@@ -62,9 +58,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 33,
-    "prominence": 0.286,
-    "company": 0.694
+    "lookAlikes": 33
    }
   },
   "5": {
@@ -77,9 +71,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.357,
-    "company": 0.714
+    "lookAlikes": 92
    }
   },
   "6": {
@@ -92,9 +84,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.429,
-    "company": 0.706
+    "lookAlikes": 92
    }
   },
   "7": {
@@ -107,9 +97,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.5,
-    "company": 0.698
+    "lookAlikes": 92
    }
   },
   "8": {
@@ -132,9 +120,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
-    "prominence": 1.0,
-    "company": 0.464
+    "lookAlikes": 29
    }
   },
   "10": {
@@ -147,9 +133,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 33,
-    "prominence": 0.214,
-    "company": 0.81
+    "lookAlikes": 33
    }
   },
   "11": {
@@ -162,9 +146,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26,
-    "prominence": 0.571,
-    "company": 0.607
+    "lookAlikes": 26
    }
   },
   "12": {
@@ -177,9 +159,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 39,
-    "prominence": 0.857,
-    "company": 0.542
+    "lookAlikes": 39
    }
   },
   "13": {
@@ -192,9 +172,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.786,
-    "company": 0.571
+    "lookAlikes": 154
    }
   },
   "14": {
@@ -207,9 +185,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39,
-    "prominence": 0.929,
-    "company": 0.578
+    "lookAlikes": 39
    }
   }
  },

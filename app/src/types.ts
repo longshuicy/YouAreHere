@@ -87,10 +87,12 @@ export interface MetaRecord {
    * than `ease`; shipped here because this file is the reveal's. */
   signals?: {
     /** Characters anywhere in the catalogue presenting the same shape as this
-     * one. Zero means the shape is unique across all 32 worlds. */
+     * one. Zero means the shape is unique across all 32 worlds.
+     *
+     * The only signal that has to be built: it is a fact about the catalogue,
+     * and the client holds one universe. Everything else the reveal says is
+     * computed from the book in hand. */
     lookAlikes: number;
-    prominence: number;
-    company: number;
   };
 }
 

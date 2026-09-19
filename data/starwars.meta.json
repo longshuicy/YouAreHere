@@ -20,9 +20,7 @@
    },
    "line": "Of Mon Calamari, of the Rebel Alliance. Appears in Return of the Jedi and The Force Awakens.",
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.706,
-    "company": 0.802
+    "lookAlikes": 154
    }
   },
   "1": {
@@ -35,9 +33,7 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.49,
-    "company": 0.839
+    "lookAlikes": 50
    }
   },
   "2": {
@@ -72,9 +68,7 @@
    },
    "line": "Of Alderaan. Appears in three films.",
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.824,
-    "company": 0.701
+    "lookAlikes": 134
    }
   },
   "4": {
@@ -107,9 +101,7 @@
    },
    "line": "Navigator, Droid, of Hosnian Prime, of the Resistance. Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 26,
-    "prominence": 0.853,
-    "company": 0.739
+    "lookAlikes": 26
    }
   },
   "6": {
@@ -126,9 +118,7 @@
    },
    "line": "Farmer, of Tatooine. Appears in Attack of the Clones and A New Hope.",
    "signals": {
-    "lookAlikes": 31,
-    "prominence": 0.647,
-    "company": 0.862
+    "lookAlikes": 31
    }
   },
   "7": {
@@ -159,9 +149,7 @@
    },
    "line": "Rebel, of Tatooine, of the Rebel Alliance. Appears in A New Hope.",
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.657,
-    "company": 0.692
+    "lookAlikes": 42
    }
   },
   "9": {
@@ -177,9 +165,7 @@
    },
    "line": "Of Kamino. Appears in Attack of the Clones and The Empire Strikes Back.",
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.676,
-    "company": 0.804
+    "lookAlikes": 154
    }
   },
   "10": {
@@ -194,9 +180,7 @@
    },
    "line": "Gungan. Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 67,
-    "prominence": 0.52,
-    "company": 0.905
+    "lookAlikes": 67
    }
   },
   "11": {
@@ -255,9 +239,7 @@
    },
    "line": "Protocol droid, Droid, of Tatooine, of the Rebel Alliance. Appears in all seven films.",
    "signals": {
-    "lookAlikes": 97,
-    "prominence": 0.99,
-    "company": 0.694
+    "lookAlikes": 97
    }
   },
   "15": {
@@ -290,9 +272,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.794,
-    "company": 0.816
+    "lookAlikes": 42
    }
   },
   "18": {
@@ -305,9 +285,7 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.529,
-    "company": 0.768
+    "lookAlikes": 50
    }
   },
   "19": {
@@ -343,9 +321,7 @@
    },
    "line": "Smuggler, Wookiee, of Kashyyyk, of the Rebel Alliance. Appears in four films.",
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.98,
-    "company": 0.787
+    "lookAlikes": 134
    }
   },
   "21": {
@@ -388,9 +364,7 @@
    },
    "line": "Sith, of Serenno. Appears in Attack of the Clones and Revenge of the Sith.",
    "signals": {
-    "lookAlikes": 26,
-    "prominence": 0.735,
-    "company": 0.747
+    "lookAlikes": 26
    }
   },
   "24": {
@@ -432,9 +406,7 @@
    },
    "line": "Sith, of Tatooine. Appears in four films.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.814,
-    "company": 0.713
+    "lookAlikes": 188
    }
   },
   "26": {
@@ -506,9 +478,7 @@
    },
    "line": "Galactic Emperor, of Naboo, of the Sith. Appears in five films.",
    "signals": {
-    "lookAlikes": 73,
-    "prominence": 0.873,
-    "company": 0.722
+    "lookAlikes": 73
    }
   },
   "31": {
@@ -534,9 +504,7 @@
    },
    "line": "Stormtrooper. Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.902,
-    "company": 0.744
+    "lookAlikes": 188
    }
   },
   "33": {
@@ -642,9 +610,7 @@
    },
    "line": "Smuggler, of Corellia, of the Rebel Alliance. Appears in four films.",
    "signals": {
-    "lookAlikes": 73,
-    "prominence": 1.0,
-    "company": 0.683
+    "lookAlikes": 73
    }
   },
   "41": {
@@ -666,9 +632,7 @@
    },
    "line": "Crime boss, Hutt, of Nal Hutta, of the Crymorah Syndicate. Appears in three films.",
    "signals": {
-    "lookAlikes": 13,
-    "prominence": 0.696,
-    "company": 0.718
+    "lookAlikes": 13
    }
   },
   "42": {
@@ -701,9 +665,7 @@
    },
    "line": "Of Rentor, of the Galactic Empire. Appears in three films.",
    "signals": {
-    "lookAlikes": 73,
-    "prominence": 0.892,
-    "company": 0.633
+    "lookAlikes": 73
    }
   },
   "44": {
@@ -755,9 +717,7 @@
    },
    "line": "Jedi, of Cerea. Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.686,
-    "company": 0.812
+    "lookAlikes": 42
    }
   },
   "48": {
@@ -770,9 +730,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.608,
-    "company": 0.839
+    "lookAlikes": 42
    }
   },
   "49": {
@@ -793,9 +751,7 @@
    },
    "line": "Jedi, of Chandrila. Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 21,
-    "prominence": 0.765,
-    "company": 0.638
+    "lookAlikes": 21
    }
   },
   "50": {
@@ -828,9 +784,7 @@
    },
    "line": "Smuggler, of Socorro, of the Rebel Alliance. Appears in The Empire Strikes Back and Return of the Jedi.",
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.843,
-    "company": 0.855
+    "lookAlikes": 154
    }
   },
   "52": {
@@ -856,9 +810,7 @@
    },
    "line": "Senator, of Alderaan, of the Rebel Alliance. Appears in four films.",
    "signals": {
-    "lookAlikes": 73,
-    "prominence": 0.961,
-    "company": 0.693
+    "lookAlikes": 73
    }
   },
   "53": {
@@ -903,9 +855,7 @@
    },
    "line": "Jedi, of Tatooine, of the Rebel Alliance. Appears in four films.",
    "signals": {
-    "lookAlikes": 73,
-    "prominence": 0.931,
-    "company": 0.658
+    "lookAlikes": 73
    }
   },
   "56": {
@@ -928,9 +878,7 @@
    },
    "line": "Jedi, of Haruun Kal. Appears in three films.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.833,
-    "company": 0.74
+    "lookAlikes": 188
    }
   },
   "57": {
@@ -961,9 +909,7 @@
    },
    "line": "Rebel, of Chandrila, of the Rebel Alliance. Appears in Revenge of the Sith and Return of the Jedi.",
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.667,
-    "company": 0.801
+    "lookAlikes": 154
    }
   },
   "59": {
@@ -1020,9 +966,7 @@
    },
    "line": "Viceroy of the Trade Federation. Appears in three films.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.784,
-    "company": 0.55
+    "lookAlikes": 188
    }
   },
   "63": {
@@ -1048,9 +992,7 @@
    },
    "line": "Jedi, of Stewjon, of the Mandalorian resistance. Appears in six films.",
    "signals": {
-    "lookAlikes": 97,
-    "prominence": 0.941,
-    "company": 0.673
+    "lookAlikes": 97
    }
   },
   "64": {
@@ -1089,9 +1031,7 @@
    },
    "line": "Farmer, of Tatooine. Appears in Attack of the Clones and A New Hope.",
    "signals": {
-    "lookAlikes": 67,
-    "prominence": 0.755,
-    "company": 0.832
+    "lookAlikes": 67
    }
   },
   "67": {
@@ -1126,9 +1066,7 @@
    },
    "line": "Queen of Naboo, of Naboo, of the Royal House of Naboo. Appears in three films.",
    "signals": {
-    "lookAlikes": 97,
-    "prominence": 0.922,
-    "company": 0.637
+    "lookAlikes": 97
    }
   },
   "69": {
@@ -1164,9 +1102,7 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 13,
-    "prominence": 0.804,
-    "company": 0.658
+    "lookAlikes": 13
    }
   },
   "72": {
@@ -1179,9 +1115,7 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.461,
-    "company": 0.806
+    "lookAlikes": 50
    }
   },
   "73": {
@@ -1199,9 +1133,7 @@
    },
    "line": "Principal Chief of the Cherokee Nation. Appears in The Phantom Menace and Revenge of the Sith.",
    "signals": {
-    "lookAlikes": 73,
-    "prominence": 0.912,
-    "company": 0.677
+    "lookAlikes": 73
    }
   },
   "74": {
@@ -1222,9 +1154,7 @@
    },
    "line": "Of Kamino. Appears in all seven films.",
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.951,
-    "company": 0.807
+    "lookAlikes": 134
    }
   },
   "75": {
@@ -1249,9 +1179,7 @@
    },
    "line": "Rebel. Appears in A New Hope.",
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.627,
-    "company": 0.65
+    "lookAlikes": 50
    }
   },
   "77": {
@@ -1281,9 +1209,7 @@
    },
    "line": "Jedi, of Jakku, of the Resistance. Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 26,
-    "prominence": 0.882,
-    "company": 0.742
+    "lookAlikes": 26
    }
   },
   "79": {
@@ -1296,9 +1222,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 67,
-    "prominence": 0.716,
-    "company": 0.735
+    "lookAlikes": 67
    }
   },
   "80": {
@@ -1345,9 +1269,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.559,
-    "company": 0.861
+    "lookAlikes": 50
    }
   },
   "84": {
@@ -1360,9 +1282,7 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.471,
-    "company": 0.773
+    "lookAlikes": 50
    }
   },
   "85": {
@@ -1376,9 +1296,7 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.775,
-    "company": 0.812
+    "lookAlikes": 92
    }
   },
   "86": {
@@ -1392,9 +1310,7 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.598,
-    "company": 0.886
+    "lookAlikes": 42
    }
   },
   "87": {
@@ -1407,9 +1323,7 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.51,
-    "company": 0.787
+    "lookAlikes": 42
    }
   },
   "88": {
@@ -1446,9 +1360,7 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 50,
-    "prominence": 0.48,
-    "company": 0.802
+    "lookAlikes": 50
    }
   },
   "91": {
@@ -1545,9 +1457,7 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 67,
-    "prominence": 0.745,
-    "company": 0.892
+    "lookAlikes": 67
    }
   },
   "99": {
@@ -1565,9 +1475,7 @@
    },
    "line": "Rebel, of Corellia. Appears in three films.",
    "signals": {
-    "lookAlikes": 23,
-    "prominence": 0.725,
-    "company": 0.581
+    "lookAlikes": 23
    }
   },
   "100": {
@@ -1591,9 +1499,7 @@
    },
    "line": "Jedi Master. Appears in five films.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.863,
-    "company": 0.779
+    "lookAlikes": 188
    }
   },
   "101": {

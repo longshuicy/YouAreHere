@@ -12,9 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.857,
-    "company": 0.507
+    "lookAlikes": 134
    }
   },
   "1": {
@@ -26,9 +24,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.952,
-    "company": 0.5
+    "lookAlikes": 134
    }
   },
   "2": {
@@ -41,9 +37,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.143,
-    "company": 0.652
+    "lookAlikes": 188
    }
   },
   "3": {
@@ -66,9 +60,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.238,
-    "company": 0.582
+    "lookAlikes": 134
    }
   },
   "5": {
@@ -80,9 +72,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 26,
-    "prominence": 0.048,
-    "company": 0.567
+    "lookAlikes": 26
    }
   },
   "6": {
@@ -95,9 +85,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.286,
-    "company": 0.579
+    "lookAlikes": 134
    }
   },
   "7": {
@@ -110,9 +98,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.333,
-    "company": 0.577
+    "lookAlikes": 134
    }
   },
   "8": {
@@ -125,9 +111,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.476,
-    "company": 0.543
+    "lookAlikes": 134
    }
   },
   "9": {
@@ -140,9 +124,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.714,
-    "company": 0.565
+    "lookAlikes": 188
    }
   },
   "10": {
@@ -155,9 +137,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.429,
-    "company": 0.63
+    "lookAlikes": 188
    }
   },
   "11": {
@@ -172,9 +152,7 @@
    },
    "line": "Queen.",
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.524,
-    "company": 0.549
+    "lookAlikes": 134
    }
   },
   "12": {
@@ -187,9 +165,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.81,
-    "company": 0.534
+    "lookAlikes": 134
    }
   },
   "13": {
@@ -204,9 +180,7 @@
    },
    "line": "King.",
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.762,
-    "company": 0.51
+    "lookAlikes": 134
    }
   },
   "14": {
@@ -219,9 +193,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.095,
-    "company": 0.67
+    "lookAlikes": 188
    }
   },
   "15": {
@@ -234,9 +206,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.571,
-    "company": 0.538
+    "lookAlikes": 134
    }
   },
   "16": {
@@ -249,9 +219,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 1.0,
-    "company": 0.476
+    "lookAlikes": 134
    }
   },
   "17": {
@@ -264,9 +232,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.381,
-    "company": 0.549
+    "lookAlikes": 134
    }
   },
   "18": {
@@ -279,9 +245,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 0.19,
-    "company": 0.663
+    "lookAlikes": 188
    }
   },
   "19": {
@@ -293,9 +257,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.619,
-    "company": 0.535
+    "lookAlikes": 134
    }
   },
   "20": {
@@ -310,9 +272,7 @@
    },
    "line": "Duke of Athens.",
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.667,
-    "company": 0.541
+    "lookAlikes": 134
    }
   },
   "21": {
@@ -327,9 +287,7 @@
    },
    "line": "Queen.",
    "signals": {
-    "lookAlikes": 134,
-    "prominence": 0.905,
-    "company": 0.481
+    "lookAlikes": 134
    }
   }
  },

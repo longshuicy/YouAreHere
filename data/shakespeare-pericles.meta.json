@@ -108,9 +108,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 42,
-    "prominence": 0.85,
-    "company": 0.688
+    "lookAlikes": 42
    }
   },
   "10": {
@@ -135,9 +133,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92,
-    "prominence": 0.8,
-    "company": 0.681
+    "lookAlikes": 92
    }
   },
   "12": {
@@ -160,9 +156,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 154,
-    "prominence": 0.95,
-    "company": 0.629
+    "lookAlikes": 154
    }
   },
   "14": {
@@ -197,9 +191,7 @@
    },
    "line": "Prince of Tyre.",
    "signals": {
-    "lookAlikes": 188,
-    "prominence": 1.0,
-    "company": 0.503
+    "lookAlikes": 188
    }
   },
   "17": {
@@ -236,9 +228,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 67,
-    "prominence": 0.9,
-    "company": 0.586
+    "lookAlikes": 67
    }
   },
   "20": {
