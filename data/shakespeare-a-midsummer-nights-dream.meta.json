@@ -10,6 +10,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "1": {
@@ -19,6 +22,9 @@
     ],
     "unit": "play",
     "corpusSize": 37
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "2": {
@@ -29,6 +35,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "3": {
@@ -49,6 +58,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "5": {
@@ -58,6 +70,9 @@
     ],
     "unit": "play",
     "corpusSize": 37
+   },
+   "signals": {
+    "lookAlikes": 26
    }
   },
   "6": {
@@ -68,6 +83,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "7": {
@@ -78,6 +96,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "8": {
@@ -88,6 +109,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "9": {
@@ -98,6 +122,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "10": {
@@ -108,6 +135,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "11": {
@@ -120,7 +150,10 @@
     "gender": "Female",
     "role": "Queen"
    },
-   "line": "Queen."
+   "line": "Queen.",
+   "signals": {
+    "lookAlikes": 134
+   }
   },
   "12": {
    "facts": {
@@ -130,6 +163,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "13": {
@@ -142,7 +178,10 @@
     "gender": "Male",
     "role": "King"
    },
-   "line": "King."
+   "line": "King.",
+   "signals": {
+    "lookAlikes": 134
+   }
   },
   "14": {
    "facts": {
@@ -152,6 +191,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "15": {
@@ -162,6 +204,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "16": {
@@ -172,6 +217,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "17": {
@@ -182,6 +230,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "18": {
@@ -192,6 +243,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "19": {
@@ -201,6 +255,9 @@
     ],
     "unit": "play",
     "corpusSize": 37
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "20": {
@@ -213,7 +270,10 @@
     "gender": "Male",
     "role": "Duke of Athens"
    },
-   "line": "Duke of Athens."
+   "line": "Duke of Athens.",
+   "signals": {
+    "lookAlikes": 134
+   }
   },
   "21": {
    "facts": {
@@ -225,7 +285,10 @@
     "gender": "Female",
     "role": "Queen"
    },
-   "line": "Queen."
+   "line": "Queen.",
+   "signals": {
+    "lookAlikes": 134
+   }
   }
  },
  "edges": {

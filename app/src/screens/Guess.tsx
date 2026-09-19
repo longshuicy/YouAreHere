@@ -6,6 +6,7 @@ import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
 import { worldIsKnown } from '../engine/session';
+import { resolveName, suggestNames } from '../engine/names';
 import type { Universe } from '../types';
 
 interface Props {
@@ -55,42 +56,15 @@ export function Guess({
     [loaded],
   );
 
-  /**
-   * Suggestions are drawn from EVERY loaded story, never just the selected one.
-   * That is the point: a list scoped to one book would tell the player how large
-   * that book's cast is, which is the one real leak in the guess screen. Names
-   * are deduplicated and carry no hint of which story they came from.
-   */
-  const suggestions = useMemo(() => {
-    if (query.trim().length < 3) return [];
-    const q = query.trim().toLowerCase();
-    const seen = new Set<string>();
-    const out: string[] = [];
-    for (const u of stories) {
-      for (const n of u.nodes) {
-        if (out.length >= 6) break;
-        const hit =
-          n.n.toLowerCase().includes(q) || (n.a ?? []).some((a) => a.toLowerCase().includes(q));
-        if (!hit) continue;
-        const key = n.n.toLowerCase();
-        if (seen.has(key)) continue;
-        seen.add(key);
-        out.push(n.n);
-      }
-    }
-    return out;
-  }, [query, stories]);
+  /** Drawn from EVERY loaded story, never just the selected one — see
+   * `suggestNames`, which the claim field now shares. */
+  const suggestions = useMemo(() => suggestNames(stories, query), [query, stories]);
 
   /** Resolved against the SELECTED story: the guess is a pair, and a name that
    * exists in another book is simply not this book's answer. */
   const resolve = (text: string, storyId: string): number | null => {
     const u = loaded.get(storyId);
-    if (!u) return null;
-    const q = text.trim().toLowerCase();
-    const found = u.nodes.find((n) => n.n.toLowerCase() === q);
-    if (found) return found.i;
-    const byAlias = u.nodes.find((n) => (n.a ?? []).some((a) => a.toLowerCase() === q));
-    return byAlias ? byAlias.i : null;
+    return u ? resolveName(u, text) : null;
   };
 
   /** The world, when there is nothing left to ask about it. */
@@ -109,6 +83,37 @@ export function Guess({
       : !last.storyCorrect
         ? 'Not this story.'
         : null;
+
+  /**
+   * What a wrong guess is worth.
+   *
+   * The screen used to mark the field right or wrong and stop there. That is
+   * austere, and it is also the reason a run could not be worked: with no
+   * signal between waking and winning there was nothing to reason against, so
+   * the only way forward was to buy a name. A distance changes that without
+   * giving anything away about identity — it is a fact about the shape, which
+   * is the register the whole game is written in.
+   *
+   * It is only ever offered once the story is right, which is the guard: you
+   * cannot use the box as a rangefinder until you have established the book.
+   */
+  const bearing = !last || last.characterCorrect || !last.storyCorrect
+    ? null
+    : last.characterIndex === null
+      ? 'No one by that name is in this story.'
+      : last.hops === null
+        ? 'They are in this story, but no run of ties reaches them from you.'
+        : last.hops === 1
+          ? 'They are standing right next to you, one tie away.'
+          : `They are ${last.hops} ties away from you.`;
+
+  /** When the misnamed character was already on the paper, the reducer labelled
+   * them. Say so, because the graph is behind a dimmed screen and the player
+   * will not see it happen. */
+  const placed =
+    last && last.storyCorrect && !last.characterCorrect && last.characterIndex !== null
+      ? session.known.recognised.has(last.characterIndex)
+      : false;
 
   return (
     <div style={{ position: 'relative', height: '100vh', overflow: 'hidden' }}>
@@ -160,7 +165,21 @@ export function Guess({
             pointerEvents: 'auto',
           }}
         >
-          {headline && <div style={{ fontSize: 27 }}>{headline}</div>}
+          {headline && (
+            <div style={{ textAlign: 'center', maxWidth: 520 }}>
+              <div style={{ fontSize: 27 }}>{headline}</div>
+              {bearing && (
+                <div style={{ fontSize: 18, color: 'var(--body)', marginTop: 12, lineHeight: 1.5 }}>
+                  {bearing}
+                </div>
+              )}
+              {placed && (
+                <div className="annot" style={{ marginTop: 10 }}>
+                  Right name. They are on your graph, now labelled.
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Once the world is settled — named correctly, or chosen before play —
               the question stops being asked. Leaving a dropdown open on a
@@ -228,7 +247,7 @@ export function Guess({
                 ))}
               </div>
             ) : (
-              <div className="annot">Suggests after 3 letters · drawn from every story loaded</div>
+              <div className="annot">Suggests after 2 letters · drawn from every story loaded</div>
             )}
 
             {/* The commit sits under the field it commits, with its way out beside

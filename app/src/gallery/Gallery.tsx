@@ -189,7 +189,11 @@ function WorldDetail({
         <div>
           <SectionHead>The whole network</SectionHead>
           <div style={{ height: DETAIL_GRAPH }}>
-            {universe ? <FullGraph universe={universe} /> : <div className="annot">Not loaded</div>}
+            {universe ? (
+              <FullGraph universe={universe} role="subject" />
+            ) : (
+              <div className="annot">Not loaded</div>
+            )}
           </div>
           <div className="annot" style={{ fontSize: 9, paddingTop: 10 }}>
             Drag to pan, scroll to zoom, hover to name anyone.

@@ -14,7 +14,10 @@
      "strategos"
     ]
    },
-   "line": "Strategos."
+   "line": "Strategos.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "1": {
    "facts": {
@@ -24,6 +27,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "2": {
@@ -34,6 +40,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 67
    }
   },
   "3": {
@@ -54,6 +63,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134
    }
   },
   "5": {
@@ -64,6 +76,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92
    }
   },
   "6": {
@@ -74,6 +89,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92
    }
   },
   "7": {
@@ -84,6 +102,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92
    }
   },
   "8": {
@@ -94,6 +115,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92
    }
   },
   "9": {
@@ -104,6 +128,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 42
    }
   },
   "10": {
@@ -124,6 +151,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 42
    }
   },
   "12": {
@@ -136,7 +166,10 @@
     "gender": "Male",
     "role": "Servant"
    },
-   "line": "Servant."
+   "line": "Servant.",
+   "signals": {
+    "lookAlikes": 92
+   }
   },
   "13": {
    "facts": {
@@ -146,6 +179,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21
    }
   },
   "14": {
@@ -156,6 +192,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92
    }
   },
   "15": {
@@ -166,6 +205,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21
    }
   },
   "16": {
@@ -176,6 +218,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92
    }
   },
   "17": {
@@ -186,6 +231,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21
    }
   },
   "18": {
@@ -196,6 +244,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154
    }
   },
   "19": {
@@ -206,6 +257,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 42
    }
   },
   "20": {
@@ -216,6 +270,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "21": {
@@ -226,6 +283,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21
    }
   },
   "22": {
@@ -248,7 +308,10 @@
     "gender": "Male",
     "occupation": "philosopher"
    },
-   "line": "Philosopher."
+   "line": "Philosopher.",
+   "signals": {
+    "lookAlikes": 73
+   }
   }
  },
  "edges": {

@@ -14,7 +14,10 @@
      "Roman governor"
     ]
    },
-   "line": "Roman governor. Appears in Antony and Cleopatra."
+   "line": "Roman governor. Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "1": {
    "facts": {
@@ -25,7 +28,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 67
+   }
   },
   "2": {
    "facts": {
@@ -37,7 +43,10 @@
     "gender": "Male",
     "occupation": "teacher"
    },
-   "line": "Teacher. Appears in Antony and Cleopatra."
+   "line": "Teacher. Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 67
+   }
   },
   "3": {
    "facts": {
@@ -63,7 +72,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 154
+   }
   },
   "5": {
    "facts": {
@@ -74,7 +86,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 92
+   }
   },
   "6": {
    "facts": {
@@ -88,7 +103,10 @@
      "praetor"
     ]
    },
-   "line": "Praetor. Appears in Julius Caesar."
+   "line": "Praetor. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 73
+   }
   },
   "7": {
    "facts": {
@@ -113,7 +131,10 @@
      "Roman dictator"
     ]
    },
-   "line": "Roman dictator. Appears in Julius Caesar."
+   "line": "Roman dictator. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 134
+   }
   },
   "9": {
    "facts": {
@@ -124,7 +145,10 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 92
+   }
   },
   "10": {
    "facts": {
@@ -152,7 +176,10 @@
      "ancient Roman senator"
     ]
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "12": {
    "facts": {
@@ -166,7 +193,10 @@
      "tribune of the plebs"
     ]
    },
-   "line": "Tribune of the plebs. Appears in Julius Caesar."
+   "line": "Tribune of the plebs. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 73
+   }
   },
   "13": {
    "facts": {
@@ -178,7 +208,10 @@
     "gender": "Female",
     "occupation": "lady's maid"
    },
-   "line": "Lady's maid. Appears in Antony and Cleopatra."
+   "line": "Lady's maid. Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 134
+   }
   },
   "14": {
    "facts": {
@@ -204,7 +237,10 @@
     "role": "Queen of Egypt",
     "gender": "Female"
    },
-   "line": "Queen of Egypt. Appears in Antony and Cleopatra."
+   "line": "Queen of Egypt. Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 73
+   }
   },
   "16": {
    "facts": {
@@ -215,7 +251,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 92
+   }
   },
   "17": {
    "facts": {
@@ -229,7 +268,10 @@
      "Roman governor"
     ]
    },
-   "line": "Roman governor. Appears in Julius Caesar."
+   "line": "Roman governor. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "18": {
    "facts": {
@@ -251,7 +293,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "20": {
    "facts": {
@@ -265,7 +310,10 @@
      "ancient Roman senator"
     ]
    },
-   "line": "Ancient Roman senator. Appears in Antony and Cleopatra."
+   "line": "Ancient Roman senator. Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 13
+   }
   },
   "21": {
    "facts": {
@@ -276,7 +324,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "22": {
    "facts": {
@@ -290,7 +341,10 @@
      "Roman governor"
     ]
    },
-   "line": "Roman governor. Appears in Antony and Cleopatra."
+   "line": "Roman governor. Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 134
+   }
   },
   "23": {
    "facts": {
@@ -301,7 +355,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "24": {
    "facts": {
@@ -312,7 +369,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 154
+   }
   },
   "25": {
    "facts": {
@@ -326,7 +386,10 @@
      "praefectus Aegypti"
     ]
    },
-   "line": "Praefectus Aegypti. Appears in Antony and Cleopatra."
+   "line": "Praefectus Aegypti. Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 92
+   }
   },
   "26": {
    "facts": {
@@ -337,7 +400,10 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "27": {
    "facts": {
@@ -352,7 +418,10 @@
      "magister equitum"
     ]
    },
-   "line": "Magister equitum. Appears in all two plays."
+   "line": "Magister equitum. Appears in all two plays.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "28": {
    "facts": {
@@ -366,7 +435,10 @@
      "ancient Roman senator"
     ]
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 33
+   }
   },
   "29": {
    "facts": {
@@ -377,7 +449,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 29
+   }
   },
   "30": {
    "facts": {
@@ -389,7 +464,10 @@
     "gender": "Male",
     "occupation": "patron of the arts"
    },
-   "line": "Patron of the arts. Appears in Antony and Cleopatra."
+   "line": "Patron of the arts. Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 134
+   }
   },
   "31": {
    "facts": {
@@ -400,7 +478,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 92
+   }
   },
   "32": {
    "facts": {
@@ -411,7 +492,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "33": {
    "facts": {
@@ -425,7 +509,10 @@
      "ancient Roman senator"
     ]
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "34": {
    "facts": {
@@ -436,7 +523,10 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 67
+   }
   },
   "35": {
    "facts": {
@@ -451,7 +541,10 @@
      "Roman emperor"
     ]
    },
-   "line": "Roman emperor. Appears in all two plays."
+   "line": "Roman emperor. Appears in all two plays.",
+   "signals": {
+    "lookAlikes": 73
+   }
   },
   "36": {
    "facts": {
@@ -473,7 +566,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 31
+   }
   },
   "38": {
    "facts": {
@@ -487,7 +583,10 @@
      "Roman consul"
     ]
    },
-   "line": "Roman consul. Appears in Antony and Cleopatra."
+   "line": "Roman consul. Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "39": {
    "facts": {
@@ -501,7 +600,10 @@
      "legatus"
     ]
    },
-   "line": "Legatus. Appears in Julius Caesar."
+   "line": "Legatus. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 154
+   }
   },
   "40": {
    "facts": {
@@ -513,7 +615,10 @@
     "gender": "Female",
     "occupation": "philosopher"
    },
-   "line": "Philosopher. Appears in Julius Caesar."
+   "line": "Philosopher. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 33
+   }
   },
   "41": {
    "facts": {
@@ -524,7 +629,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 26
+   }
   },
   "42": {
    "facts": {
@@ -534,7 +642,10 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 154
+   }
   },
   "43": {
    "facts": {
@@ -545,7 +656,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 33
+   }
   },
   "44": {
    "facts": {
@@ -555,7 +669,10 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 33
+   }
   },
   "45": {
    "facts": {
@@ -566,7 +683,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "46": {
    "facts": {
@@ -577,7 +697,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "47": {
    "facts": {
@@ -588,7 +711,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "48": {
    "facts": {
@@ -602,7 +728,10 @@
      "ancient Roman senator"
     ]
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "49": {
    "facts": {
@@ -613,7 +742,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Julius Caesar."
+   "line": "Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "50": {
    "facts": {
@@ -625,7 +757,10 @@
     "gender": "Male",
     "occupation": "centurion"
    },
-   "line": "Centurion. Appears in Julius Caesar."
+   "line": "Centurion. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 39
+   }
   },
   "51": {
    "facts": {
@@ -639,7 +774,10 @@
      "ancient Roman senator"
     ]
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar."
+   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 33
+   }
   },
   "52": {
    "facts": {
@@ -651,7 +789,10 @@
     "gender": "Male",
     "occupation": "philosopher"
    },
-   "line": "Philosopher. Appears in Julius Caesar."
+   "line": "Philosopher. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "53": {
    "facts": {
@@ -662,7 +803,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 67
+   }
   },
   "54": {
    "facts": {
@@ -673,7 +817,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 92
+   }
   },
   "55": {
    "facts": {
@@ -684,7 +831,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "56": {
    "facts": {
@@ -695,7 +845,10 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra."
+   "line": "Appears in Antony and Cleopatra.",
+   "signals": {
+    "lookAlikes": 67
+   }
   },
   "57": {
    "facts": {
@@ -709,7 +862,10 @@
      "tribune of the plebs"
     ]
    },
-   "line": "Tribune of the plebs. Appears in Julius Caesar."
+   "line": "Tribune of the plebs. Appears in Julius Caesar.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "58": {
    "facts": {

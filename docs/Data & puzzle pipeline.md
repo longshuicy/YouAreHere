@@ -77,7 +77,9 @@ Provenance is not bureaucracy. Different literary datasets mean different things
 
 ### Normalisation
 
-Weights are not comparable across sources, so the canon layer stores both the raw weight and a normalised rank. The renderer should key edge thickness off the rank, so a thick edge means *strong relative to this character's other ties* — which is the only reading that survives across datasets.
+Weights are not comparable across sources, so the canon layer stores both the raw weight and a normalised rank.
+
+> **Superseded 2026-09-18.** This read *"the renderer should key edge thickness off the rank, so a thick edge means strong relative to this character's other ties — which is the only reading that survives across datasets."* In play that flattened the diagram: ranking per endpoint gives every node the same ladder, so hubs and leaves drew alike and thickness told the player nothing about the book. The renderer keys off the raw weight, normalised logarithmically against the heaviest tie in that world. The cross-dataset problem is solved by normalising *within* a world rather than by ranking within a character. The ranks are still emitted and are still correct; nothing reads them today.
 
 ### Aliases
 
@@ -97,8 +99,12 @@ One file per source, one contract, no exceptions.
 pipeline/ingest/
   asoiaf.py          edge list CSV
   hongloumeng.py     sentence co-occurrence from the PD text
-  xiyouji.py         later — PKU dump has no licence
-  harrypotter.py     later
+  xiyouji.py         same construction as 紅樓夢
+  sanguoyanyi.py     same construction as 紅樓夢
+  shuihuzhuan.py     same construction as 紅樓夢
+  iliad.py           Knuth GraphBase encounter file
+  lesmiserables.py   Knuth GraphBase encounter file
+  odyssey.py         Gutenberg prose + Wikidata
 ```
 
 Each exposes:
@@ -240,7 +246,7 @@ A puzzle is addressable as a universe plus a node index, so a share link carries
 }
 ```
 
-Edges are index tuples rather than objects with string keys. On a 3,000-edge graph that is the difference between a comfortable file and an awkward one. After source, target, and raw weight come the two normalised ranks — the tie's strength relative to the source's other ties, then relative to the target's — because thickness is read from whichever end the player is looking out from. `a` holds aliases and is omitted when empty; the type-ahead matches against them so a half-remembered nickname still lands. The `x`/`y` are the precomputed full-graph layout used by the reveal animation.
+Edges are index tuples rather than objects with string keys. On a 3,000-edge graph that is the difference between a comfortable file and an awkward one. After source, target, and raw weight come the two normalised ranks — the tie's strength relative to the source's other ties, then relative to the target's. These are no longer what thickness is drawn from; see the note above. `a` holds aliases and is omitted when empty; the type-ahead matches against them so a half-remembered nickname still lands. The `x`/`y` are the precomputed full-graph layout used by the reveal animation.
 
 ### Puzzle records
 
@@ -261,9 +267,11 @@ Inline in the universe file, since they are only useful once that file is loaded
 
 **Current state of the committed data.** The difficulty-scoring stage that computes `band` and `reveal` has not been run yet, so today's `asoiaf.json` puzzle records carry only `id`, `you`, and `startRadius` — both `band` and `reveal` are absent. The app treats both fields as optional: with no `band` it falls back to `'unbanded'`, and with no `reveal` the Reveal screen simply omits the structural-fact line rather than showing a blank or placeholder. Both fields are expected to appear automatically once that pipeline stage runs, with no client change required.
 
-**Why these cannot be assembled in the browser.** Which node you wake as is trivially live-computable and needs no build step. Difficulty is not: `crossUniverseAmbiguity` counts structural twins *in other novels*, and the client holds exactly one universe by design. A client able to measure difficulty would be one that had downloaded every book, which costs bandwidth and puts every answer in memory. The reveal line follows the same logic — generated at build time so the templates and the statistics that choose between them never ship.
+**Why these cannot be assembled in the browser.** Which node you wake as is trivially live-computable and needs no build step. Difficulty is not: `crossUniverseAmbiguity` counts structural twins *in other novels*, and the client holds exactly one universe by design. A client able to measure difficulty would be one that had downloaded every book, which costs bandwidth and puts every answer in memory. The reveal's cross-catalogue signals follow the same logic: `lookAlikes` is counted at build time and ships as a number, because the count it comes from cannot be reconstructed without the whole catalogue.
 
-The reveal line is generated from the candidate counts with a small set of templates chosen by which statistic is most striking for that character — *most connected person you never saw*, *three edges from everyone*, *your shape is unique in all three stories*. Written at build time, not runtime, so the client has no logic that could give an answer away.
+> **Superseded 2026-09-18 — never built.** This described the reveal line as *"generated from the candidate counts with a small set of templates chosen by which statistic is most striking for that character"*, written at build time onto `puzzle.reveal`. No such record was ever emitted: zero of 1,357 puzzles carried one, so the slot sat behind a null check in the reveal screen and was never once seen. The record and the type that described it have been removed.
+>
+> The readings are composed in the browser instead, from the one universe already loaded. The argument above still holds for the part that genuinely needs the catalogue — a client able to count a start's structural twins *in other novels* would be a client that had downloaded every novel — which is why `lookAlikes` is still counted at build time and shipped as a single number on the reveal-only sidecar, alongside `prominence` and `company`. Nothing else the reveal says needs more than the book in hand, and computing it at runtime is what lets the 26 worlds with no enrichment have anything said about them at all.
 
 ### Reveal-only enrichment
 
@@ -296,12 +304,15 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | ASOIAF (Beveridge) | Edge list with weights | Shipped | CC BY-NC-SA 4.0. Five books as segments. |
 | Star Wars (Gabasova) | Per-episode scene-speech JSON | Shipped | CC BY 3.0. Episodes I–VII as segments. |
 | Shakespeare (DraCor / Folger) | 37 plays, scene co-presence | Shipped | CC BY-NC 3.0. Merged; unnamed crowds dropped. |
-| Bible | — | Not yet | KJV is PD; ready-made graphs are BY-SA (cannot merge) or mix people with places. See `pipeline/raw/bible/SOURCE.md`. |
-| 红楼梦 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24264 + Wikidata. PKU matrix has no licence; see `pipeline/raw/hongloumeng/SOURCE.md`. |
-| 西游记 (PKU) | Character × scene matrix, \~302 × 408 | Later | No licence on the GitHub dump. Same problem as the 紅樓夢 matrix. |
-| 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
+| Bible | Verse co-occurrence from the KJV | Shipped | Built here. Ready-made graphs are BY-SA or mix people with places. |
+| 紅樓夢 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24264 + Wikidata. |
+| The Iliad | Chapter encounters (Knuth GraphBase) | Shipped | Public domain `homer.dat`. |
+| The Odyssey | Sentence co-occurrence from Butcher & Lang | Shipped | Gutenberg #1728 + Wikidata. |
+| Les Misérables | Chapter encounters (Knuth GraphBase) | Shipped | Public domain `jean.dat`. |
+| 三國演義 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #23950 + Wikidata. |
+| 西遊記 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #23962 + Wikidata. PKU matrix has no licence. |
+| 水滸傳 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #23863 (70-chapter recension) + Wikidata. |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
-| 水浒传, 百年孤独 | No settled dataset | Much later | Would need your own pipeline |
 
 ### Licensing
 
@@ -325,9 +336,9 @@ They turn *what story are you in* from a formality into a real question, and the
 
 There is a second, quieter reason to include them early: a structurally similar court is exactly the kind of near-miss that makes the cross-universe question interesting.
 
-### Bible, not yet
+### Bible, shipped
 
-The text is public domain. The graphs on the internet are not usable here. MetaV/Gnosis people tables are CC BY-SA, which cannot share a `/data` directory with ASOIAF's CC BY-NC-SA. KONECT's Bible network mixes names with places. Building a people-only verse co-occurrence graph from the KJV plus Wikidata labels (CC0) is the merge-safe path; it is not written.
+The text is public domain. The graphs on the internet were not usable: MetaV/Gnosis people tables are CC BY-SA, which cannot share a `/data` directory with ASOIAF's CC BY-NC-SA, and KONECT's Bible network mixes names with places. The shipped graph is a people-only verse co-occurrence built from the KJV plus Wikidata labels (CC0).
 
 ### Harry Potter, deferred
 

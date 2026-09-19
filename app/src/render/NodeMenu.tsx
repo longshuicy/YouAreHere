@@ -1,9 +1,10 @@
+import { useState } from 'react';
 import type { VisibleNode } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { applyZoom, type ZoomState } from '../graph/zoom';
 import { COST } from '../engine/session';
 import type { ActionKey, Session } from '../engine/session';
-import { availableActionsFor } from '../engine/session';
+import { availableActionsFor, canClaim } from '../engine/session';
 import { nodeRadius } from './scales';
 
 interface Props {
@@ -19,6 +20,14 @@ interface Props {
   onExpand: (i: number) => void;
   onFacts: (i: number) => void;
   onName: (i: number) => void;
+  /** Put a name to this node and find out. */
+  onClaim: (i: number, query: string) => void;
+  /** Names matching what has been typed so far, drawn from every loaded story.
+   * The same list the guess screen offers, for the same reason. */
+  suggest: (query: string) => string[];
+  /** Whether the sidecar holds a reading for a node. Nodes it has nothing for
+   * do not offer one. */
+  hasFacts: (i: number) => boolean;
   /** Your own node's only offer: the guess. */
   onOpenGuess: () => void;
   onPointerEnter: () => void;
@@ -33,6 +42,184 @@ const GLOSS: Record<ActionKey, string> = {
 
 const MENU_W = 244;
 
+/**
+ * The free move.
+ *
+ * Every other row on this menu buys information. This one asserts it: you say
+ * who you think the node is, and the graph tells you whether you were right.
+ * It is the only thing in the game that gives a clue back, and the only
+ * feedback the player can get without spending — which is the whole reason it
+ * exists. A puzzle whose one signal is "solved / not solved" is not hard, it is
+ * closed, and nothing here could be tested against anything until this row.
+ *
+ * It cannot cost anything. A free move that charges for being wrong is not
+ * free, and the player it would charge is the one with a hypothesis and no
+ * other way to test it — which is the player this row was built for.
+ */
+function ClaimRow({
+  node,
+  onClaim,
+  suggest,
+  ruled,
+}: {
+  node: VisibleNode;
+  onClaim: (i: number, query: string) => void;
+  suggest: (query: string) => string[];
+  ruled: boolean;
+}) {
+  const [open, setOpen] = useState(false);
+  const [text, setText] = useState('');
+
+  // A free move that demands you spell a half-remembered name from cold is not
+  // free, it is a spelling test. The guess screen has always suggested; there
+  // was never a reason for this field not to, and the list is drawn from every
+  // loaded story so it gives away no more here than it does there.
+  const suggestions = suggest(text);
+
+  const submit = (value = text) => {
+    if (!value.trim()) return;
+    onClaim(node.i, value);
+    setText('');
+  };
+
+  return (
+    <div style={{ borderBottom: ruled ? '1px solid var(--rule)' : 'none' }}>
+      {/* Names already refused here stay on the page, struck through, so the
+          same wrong answer is never paid for twice by accident. */}
+      {node.rejected.length > 0 && (
+        <div style={{ padding: '8px 0 0 0' }}>
+          {node.rejected.map((r) => (
+            <div
+              key={r}
+              style={{
+                fontFamily: 'var(--serif)',
+                fontSize: 14,
+                color: 'var(--unknown)',
+                textDecoration: 'line-through',
+              }}
+            >
+              {r}
+            </div>
+          ))}
+        </div>
+      )}
+
+      {!open ? (
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            setOpen(true);
+          }}
+          style={{
+            display: 'flex',
+            alignItems: 'baseline',
+            justifyContent: 'space-between',
+            gap: 12,
+            width: '100%',
+            padding: '9px 0',
+            textAlign: 'left',
+            whiteSpace: 'nowrap',
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.color = 'var(--accent)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.color = '';
+          }}
+        >
+          <span className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
+            claim
+          </span>
+          <span style={{ fontFamily: 'var(--serif)', fontSize: 14, color: 'var(--body)' }}>
+            say who they are · free
+          </span>
+        </button>
+      ) : (
+        <div style={{ padding: '9px 0 12px 0' }} onClick={(e) => e.stopPropagation()}>
+          <div className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase', paddingBottom: 7 }}>
+            claim
+          </div>
+          <input
+            autoFocus
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            onKeyDown={(e) => {
+              e.stopPropagation();
+              if (e.key === 'Enter') submit();
+              if (e.key === 'Escape') setOpen(false);
+            }}
+            placeholder="a name"
+            style={{
+              width: '100%',
+              font: '16px var(--serif)',
+              color: 'var(--ink)',
+              background: 'transparent',
+              border: 'none',
+              borderBottom: '1px solid var(--ink)',
+              padding: '2px 0 5px 0',
+              outline: 'none',
+            }}
+          />
+          {/* Return commits, but a field whose only way forward is a key you
+              have to know about is a field with no way forward. */}
+          {suggestions.length > 0 ? (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 6, paddingTop: 9 }}>
+              {suggestions.map((name) => (
+                <button
+                  key={name}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setText(name);
+                  }}
+                  style={{
+                    fontFamily: 'var(--serif)',
+                    fontSize: 14,
+                    color: 'var(--body)',
+                    textAlign: 'left',
+                    whiteSpace: 'normal',
+                    lineHeight: 1.3,
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.color = 'var(--ink)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.color = 'var(--body)';
+                  }}
+                >
+                  {name}
+                </button>
+              ))}
+            </div>
+          ) : (
+            <div className="annot" style={{ paddingTop: 8 }}>right gives a clue back</div>
+          )}
+          <div style={{ paddingTop: 11 }}>
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                submit();
+              }}
+              className="mono"
+              style={{
+                fontSize: 11,
+                letterSpacing: '0.2em',
+                textTransform: 'uppercase',
+                whiteSpace: 'nowrap',
+                color: text.trim() ? 'var(--accent)' : 'var(--unknown)',
+                borderBottom: `1px solid ${text.trim() ? 'var(--accent)' : 'var(--rule)'}`,
+                paddingBottom: 3,
+                cursor: text.trim() ? 'pointer' : 'default',
+              }}
+            >
+              That's them
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function NodeMenu({
   node,
   positions,
@@ -43,6 +230,9 @@ export function NodeMenu({
   onExpand,
   onFacts,
   onName,
+  onClaim,
+  suggest,
+  hasFacts,
   onOpenGuess,
   onPointerEnter,
   onPointerLeave,
@@ -50,13 +240,18 @@ export function NodeMenu({
   if (!node) return null;
   const p = positions.get(node.i);
   if (!p) return null;
-  const actions = availableActionsFor(session, node.i);
-  if (actions.length === 0 && !factLine && !node.isYou) return null;
+  const actions = availableActionsFor(session, node.i, hasFacts);
+  // Said plainly rather than left as a gap in the menu: a node whose row simply
+  // vanished would read as a bug, and "nothing is recorded" is itself worth
+  // knowing — it is why there is nothing to buy.
+  const factsEmpty = !node.isYou && !session.known.facts.has(node.i) && !hasFacts(node.i);
+  const claimable = canClaim(session, node.i);
+  if (actions.length === 0 && !claimable && !factsEmpty && !factLine && !node.isYou) return null;
 
   const handlers = { expand: onExpand, facts: onFacts, name: onName };
 
   const [cx, cy] = applyZoom(zoom, p.x, p.y);
-  const ring = (nodeRadius(node.degree) + 10.5) * zoom.k;
+  const ring = (nodeRadius(node.presence) + 10.5) * zoom.k;
   const GAP = 26;
 
   // Prefer the right of the node, flip left when that would overflow — then
@@ -80,7 +275,7 @@ export function NodeMenu({
         strokeWidth={1}
         strokeDasharray="2 3"
       />
-      <foreignObject x={menuX} y={cy - 26} width={MENU_W} height={320} style={{ overflow: 'visible' }}>
+      <foreignObject x={menuX} y={cy - 26} width={MENU_W} height={440} style={{ overflow: 'visible' }}>
         <div
           onMouseEnter={onPointerEnter}
           onMouseLeave={onPointerLeave}
@@ -128,10 +323,40 @@ export function NodeMenu({
                 color: 'var(--body)',
                 padding: '10px 0',
                 whiteSpace: 'normal',
-                borderBottom: actions.length > 0 ? '1px solid var(--rule)' : 'none',
+                borderBottom: actions.length > 0 || claimable || factsEmpty ? '1px solid var(--rule)' : 'none',
               }}
             >
               {factLine}
+            </div>
+          )}
+
+          {claimable && (
+            <ClaimRow
+              key={node.i}
+              node={node}
+              onClaim={onClaim}
+              suggest={suggest}
+              ruled={actions.length > 0 || factsEmpty}
+            />
+          )}
+
+          {factsEmpty && (
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'baseline',
+                justifyContent: 'space-between',
+                gap: 12,
+                padding: '9px 0',
+                borderBottom: actions.length > 0 ? '1px solid var(--rule)' : 'none',
+                whiteSpace: 'nowrap',
+                color: 'var(--unknown)',
+              }}
+            >
+              <span className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
+                facts
+              </span>
+              <span style={{ fontFamily: 'var(--serif)', fontSize: 14 }}>nothing is recorded</span>
             </div>
           )}
 

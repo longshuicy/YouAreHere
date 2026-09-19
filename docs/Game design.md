@@ -22,7 +22,7 @@ The title is the mall-map phrase — a dot that means nothing without the map ar
 2. **Expand** — one hop at a time, outward from a node you choose.
 3. **Infer** — shape is the evidence: hubs, bridges, leaves, closed triangles, density.
 4. **Guess** — story first, then character. Available from the first frame.
-5. **Reveal** — the answer, the ledger, one structural fact, then the ego network unfolds into the full named graph.
+5. **Reveal** — the answer, the ledger, what the network says about you, then the ego network unfolds into the full named graph.
 
 Story is answered first: it collapses the identity space, and it makes the good failure possible — right book, wrong person.
 
@@ -65,20 +65,45 @@ Waking repeatedly in one novel is a better fantasy than shuffling. You are not s
 
 | Action | Gives | Cost | Recorded as |
 | --- | --- | --- | --- |
-| Expand | one node's neighbours | 1 | clue |
+| Expand | one node's neighbours, and that node's monogram | 1 | clue |
 | Facts | what is known of *another* character — books, titles, allegiances, dates | 2 | clue |
 | Name | one neighbour's name | 3 | clue |
 | Story | which story this is | 2 | clue |
+| Claim | whether a name you offer belongs to a node | free | a clue back, when right |
 
-**Free, always:** every tie's strength, and node size, which encodes degree.
+**Free, always:** every tie's strength, and node size, which encodes presence.
 
 **Weigh is gone, and tie strength is free everywhere.** It was originally a purchase: your own ties drawn true, a stranger's ties bought a node at a time. In play that charged for the diagram itself — thickness is the evidence, and a graph of uniform hairlines is not a puzzle, it is a waiting room. Removing it costs less than it looks like it should, because the thing a player actually lacks is not the shape but who is standing in it.
+
+**Facts is not offered when there is nothing behind it.** In 22 of the 32 worlds most nodes have no sidecar line — Othello has one across twelve characters, and four plays have none at all — so Facts was charging 2 clues to answer *nothing is recorded of them*, and charging before saying so. The menu now reads the sidecar first: a node with nothing to read shows `FACTS — nothing is recorded`, greyed, unpriced and unclickable. It is said rather than hidden, because a row that simply vanished would read as a bug, and because *nothing is recorded* is itself worth knowing — it is the reason there is nothing to buy. This leaks one bit about the node, but that bit tracks prominence, which node size already gives away for free.
 
 **Facts took its slot.** It returns the discrete attributes the enrichment sidecar already holds for a character — *Ser, Westerlands, sworn to House Lannister of Casterly Rock; appears in all five books, three of them through his eyes* — without naming them. It is the middle rung the economy was missing: structure is free, a name is decisive, and a reading is the step between. It is also the most informative thing you can buy for 2, and the cost may want to rise to 3 once anyone has played a full session.
 
 **Nothing about your own node is for sale.** Naming yourself, or reading your own facts, is just answering the question. So your node's menu carries exactly one entry — `I'VE FOUND MYSELF · free` — which opens the guess. The action that used to hide in the margin is now attached to the thing it is about, and the marginal link is set in the accent at a weight nothing else on the screen carries.
 
 **Ledger.** One line in the margin: `Information used: 4 clues`. A count, not a budget — a budget implies a fail state and makes players hoard.
+
+## Claim, and what a wrong guess is worth
+
+> **Added 2026-09-18.** Both of these exist because the first build could not be solved by anybody, including its author. The diagnosis was not that the puzzles were hard. It was that the game gave no feedback between waking and winning, so nothing the player thought could be tested against anything, and the only way forward was to buy a name at 3.
+
+**The claim field suggests, exactly as the guess field does.** It shipped as a bare text box, which made a free move into a spelling test — you had to produce a half-remembered name from cold with no help, while the guess screen two clicks away was offering type-ahead. The list is drawn from every loaded story, so it gives away no more here than it does there. The threshold dropped from three characters to two at the same time: three was set with Latin names in mind and quietly excluded 紅樓夢, where a great many names are two characters long and the field would never have suggested them at all.
+
+**Claim.** Point at anyone else's node and say who you think they are. Right: the node is named for nothing and gives a clue back. Wrong: the name is struck through on that node and nothing else happens — nothing said, no proximity, no warmer, and nothing charged.
+
+This is the doctrine the world question has always run on, finally applied to the other half: *naming it correctly is free, because that is an answer and not a purchase.* There was never anything about that rule specific to the world.
+
+**It costs nothing to be wrong.** A wrong claim was briefly priced at 1, on the reasoning that a free attempt makes walking a cast list a procedure rather than a bet. That reasoning was backwards. *Guessing is free* is the governing rule, not a rule with an exception for guessing about other people, and a charge for being wrong lands on exactly the player the mechanic exists for — the one holding a hypothesis with no other way to test it. The brute-force worry is thinner than it looks, too: the claim field has no type-ahead, so names come from the player's own memory of the book, and a player who can recite the cast has already answered the half of the question that was hard.
+
+**Wrong claims are not counted anywhere.** They cost nothing, so a tally of them would be a scoreboard of the player's mistakes and nothing else. The struck-through names on the node they were offered to are the only record, and they are there as a memory aid, not a mark. Re-offering a name a node has already refused changes nothing.
+
+**Name is no longer the only foothold.** It is now what you buy when you have nothing, which is what it was always supposed to be.
+
+**A wrong guess returns a distance.** Name a character on the guess screen and you are told how many ties stand between you and them. *Right story, wrong person* was a consolation prize; a number makes it a move. It is only ever offered once the story is right, which is the guard against using the guess box as a rangefinder — you cannot ask how far away someone is until you have established which book you are both in.
+
+**And if they are already on your paper, they are labelled, free.** You produced a real name from this book and put it on the wrong node; the correction is worth having, and you paid for it by getting the harder half right. Mastermind's right-piece-wrong-place, in a network.
+
+**Watch for:** the type-ahead draws from every loaded story, so a determined player could try to triangulate by fishing. The story gate is what stops that today. If it stops being enough, the lever is to charge for a distance rather than to withhold it.
 
 **There is one currency.** Locate was originally recorded as a *hint*, counted apart from clues, so a hinted run stayed distinguishable from a clean one. That was a second scoreboard nobody asked for: two numbers, neither of which was the score, and no way to compare a run against another run without comparing both. Everything costs clues, and the single number is what a player carries away.
 
@@ -113,6 +138,18 @@ The player never sees the word *weight*. It is a code word and it promises a pre
 
 **What a tie is not.** Not affection, not alliance, not importance. Two enemies who appear in every scene together have one of the heaviest ties in the book. Copy must never say *close*, *knows well*, or *friend* — the player will read warmth into thickness on their own, which is fine, but the game should not assert it.
 
+**Node size is presence, not a count of ties.**
+
+> **Superseded 2026-09-18.** Size encoded plain degree: how many people you were tied to. That is the measure the pipeline's own note on prominence warns against, because it "rewards whoever meets many people once each". Ranked by ties, the second and third largest figures in the Bible are Azariah and Shemaiah, named beside many others in genealogies and known to nobody; Saul, Moses and Aaron drew smaller. A player trying to recognise a book by its shape was being shown a shape drawn on the wrong axis, on the first frame, in every world.
+>
+> Size is now weighted degree — tie weights summed, roughly how much of the text a character is present for — log-scaled and stretched between the faintest and fullest presence in their own world. The six largest circles in the Bible are now David, Saul, Moses, Aaron, Jesus Christ and Abraham. The free standing line in the margin changed with it: *Only 45 people here are in more of this story than you.*
+
+**Thickness is absolute within a world, not ranked per character.**
+
+> **Superseded 2026-09-18.** Ties were drawn by their *rank* from whichever end the player was looking out from, so a thick tie meant *strong relative to this character's other ties*. The reasoning — raw weights are not comparable across datasets — is correct, and the conclusion drawn from it was not. Ranking per endpoint gives every node a strongest tie, a second strongest and so on, so a hub and a leaf present the identical ladder and the diagram collapses into one pattern repeated at every node. Thickness stopped saying anything about the book, which is a strange fate for the thing the puzzle is supposedly written in.
+>
+> A tie is now drawn against the heaviest tie in its own world, on a log scale because the weights are heavy-tailed — ASOIAF runs from 3 to 334, and a linear scale draws almost all of it as hairline. The comparison stays inside one dataset, where it means something, and every world still renders on the same 0-to-1 range, which is what the invariant was actually asking for.
+
 **Why every tie is drawn true.** This began as an asymmetry — your own ties free, a stranger's bought — on the reasoning that your own intimacies are what amnesia leaves intact. The asymmetry read well and played badly: beyond your first ring the diagram became identical hairlines, which is to say no diagram at all. Thickness is the medium the puzzle is written in, so it is never for sale. What you pay for is *identity* — who these people are — not the shape they make, which you can always see.
 
 ## Screen states
@@ -121,11 +158,19 @@ The player never sees the word *weight*. It is a code word and it promises a pre
 
 **2 · Exploring.** Your node centred, hollow neighbours, the ledger, the question line. Actions attach to a node on hover, never to a toolbar. Withheld: names, and the size of the graph. Tie strength is not withheld anywhere.
 
+Your **standing** is stated free, in the corner, from the first frame: *You are the fifth most connected person here.* Degree has always been given away — node size encodes it — but a circle is only legible against the circles beside it, and your own has nothing to stand against until you have expanded far enough to find somebody larger. The rank is the same free information made usable immediately, and it narrows hard once the world is known: the fifth most connected person in a story is a short list in any book. The denominator is withheld, in keeping with withholding the size of the graph — though a high rank does imply a large world, which is a leak the design accepts in exchange for the reading being possible at all.
+
+An expanded node keeps a **monogram** below it: its initial, in mono, and a rule as long as the rest of its name. Structure alone can confirm a hypothesis but cannot produce one — nobody recognises a novel by its degree distribution — so expanding used to add hollow circles and nothing a reader could think with. An initial is enormous human-legible signal at no cost in data, and it is still a long way short of a name. Your own node never carries one: the initial of your own name is not structure, it is the answer.
+
 **3 · Guess.** The graph dims but stays visible — it is the evidence. Story is a dropdown of loaded universes. Character is a free-text field with type-ahead: suggestions begin after three characters and are drawn from **every loaded universe**, so the list never reveals how many candidates the chosen novel has. A player who half-remembers a name gets there; a player fishing learns nothing. `THIS IS ME` commits.
 
-**4 · Wrong guess.** Graph undimmed and unchanged. Each field marked right or wrong and nothing more — no proximity, no remaining-candidate count. The rejected name struck through above a cleared field. The ledger visibly does not move.
+**4 · Wrong guess.** Graph undimmed. Each field marked right or wrong, the rejected name struck through above a cleared field, and the ledger visibly does not move.
 
-**5 · Reveal.** In order: the answer, the ledger read back, one generated structural fact, what a tie meant in this book, then the unfolding into the full named graph with your node held in place. It ends on three exits, weighted by size: `WAKE AGAIN HERE`, `WAKE SOMEWHERE ELSE`, and the share card.
+> **Superseded 2026-09-18.** This read *"nothing more — no proximity, no remaining-candidate count"*. The austerity was the point and it was also why the game could not be played: see *Claim, and what a wrong guess is worth*. A wrong guess now returns the distance in ties to the character named, and labels them if they are already on the paper. The remaining-candidate count is still withheld, and always will be — that is a number about the puzzle, not about the book.
+
+**5 · Reveal.** In order: the answer, the ledger read back, a few readings of the network you were standing in, what a tie meant in this book, then the unfolding into the full named graph with your node held in place — your own ties in the accent, and any names you bought or claimed still on the paper.
+
+> **Amended 2026-09-18.** This said *one generated structural fact*, to arrive from the pipeline. None ever did. The readings are computed in the browser at the moment the reveal fires, which is what lets a Shakespeare play with an empty sidecar end on something specific rather than on nothing. Capped at four: a reveal is a beat, and six true sentences in a column is a dashboard. It ends on three exits, weighted by size: `WAKE AGAIN HERE`, `WAKE SOMEWHERE ELSE`, and the share card.
 
 **5b · Waking again.** The same cold open, one word different — *You wake up here. Again.* The graph opens with previously bought names already in place, set in serif, and the running residence ledger in the margin.
 
@@ -149,7 +194,7 @@ An old printed book, a mathematical diagram, an archival document.
 | Named | hollow circle, serif label below |
 | Frontier | hollow circle at reduced opacity |
 | Tie | hairline to 3.4px, scaled by strength |
-| Node size | scaled by degree |
+| Node size | scaled by presence — how much of the story they are in |
 
 **Motion.** Edges draw outward from the parent (400ms), nodes emerge at the far end (250ms, +150ms delay), layout settles rather than jumps (600ms), names rise 4px (500ms), the reveal unfolds staggered by hop distance (2000ms). Nothing loops. Respect `prefers-reduced-motion`.
 
@@ -164,7 +209,7 @@ An old printed book, a mathematical diagram, an archival document.
 | Story field | Dropdown of loaded universes. A small public list is not a leak. |
 | Character field | Free text with type-ahead after three characters, suggesting across **all** loaded universes. Solves the forgotten-spelling problem without revealing the cast size of any one novel. |
 | Starting radius | One hop, and expansion moves one hop at a time. |
-| Degree | Encoded as node size, free. A deliberate hint — it makes the diagram readable and rewards structural reading. |
+| Presence | Encoded as node size, free. A deliberate hint — it makes the diagram readable and rewards structural reading. Weighted degree, not a count of ties: see *What a tie means*. |
 | Playable starts | Degree ≥ 6, excluding the three highest-degree characters in each universe. Provisional; tune at M1. |
 | Repeat play | Endless. No daily, no accounts, no streaks. |
 | Cross-novel confusion | Keep it. Prefer structurally similar universes over maximally different ones. |

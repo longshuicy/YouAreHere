@@ -28,7 +28,10 @@
      "Queen Consort of England"
     ]
    },
-   "line": "Queen Consort of England."
+   "line": "Queen Consort of England.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "2": {
    "facts": {
@@ -42,7 +45,10 @@
      "Roman Catholic Bishop of Lincoln (England)"
     ]
    },
-   "line": "Roman Catholic Bishop of Lincoln (England)."
+   "line": "Roman Catholic Bishop of Lincoln (England).",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "3": {
    "facts": {
@@ -66,7 +72,10 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords."
+   "line": "Member of the House of Lords.",
+   "signals": {
+    "lookAlikes": 0
+   }
   },
   "5": {
    "facts": {
@@ -78,7 +87,10 @@
     "gender": "Male",
     "occupation": "physician"
    },
-   "line": "Physician."
+   "line": "Physician.",
+   "signals": {
+    "lookAlikes": 154
+   }
   },
   "6": {
    "facts": {
@@ -92,7 +104,10 @@
      "cardinal"
     ]
    },
-   "line": "Cardinal."
+   "line": "Cardinal.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "7": {
    "facts": {
@@ -118,7 +133,10 @@
      "ambassador"
     ]
    },
-   "line": "Ambassador."
+   "line": "Ambassador.",
+   "signals": {
+    "lookAlikes": 134
+   }
   },
   "9": {
    "facts": {
@@ -132,7 +150,10 @@
      "Lord Chancellor"
     ]
    },
-   "line": "Lord Chancellor."
+   "line": "Lord Chancellor.",
+   "signals": {
+    "lookAlikes": 154
+   }
   },
   "10": {
    "facts": {
@@ -146,7 +167,10 @@
      "Roman Catholic Archbishop of Canterbury"
     ]
    },
-   "line": "Roman Catholic Archbishop of Canterbury."
+   "line": "Roman Catholic Archbishop of Canterbury.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "11": {
    "facts": {
@@ -156,6 +180,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21
    }
   },
   "12": {
@@ -168,7 +195,10 @@
     "role": "Servant",
     "gender": "Male"
    },
-   "line": "Servant."
+   "line": "Servant.",
+   "signals": {
+    "lookAlikes": 154
+   }
   },
   "13": {
    "facts": {
@@ -182,7 +212,10 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England."
+   "line": "Member of Parliament in the Parliament of England.",
+   "signals": {
+    "lookAlikes": 33
+   }
   },
   "14": {
    "facts": {
@@ -226,7 +259,10 @@
      "ambassador of the Kingdom of England to the Kingdom of Spain"
     ]
    },
-   "line": "Ambassador of the Kingdom of England to the Kingdom of Spain."
+   "line": "Ambassador of the Kingdom of England to the Kingdom of Spain.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "18": {
    "facts": {
@@ -260,7 +296,10 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England."
+   "line": "Member of Parliament in the Parliament of England.",
+   "signals": {
+    "lookAlikes": 67
+   }
   },
   "21": {
    "facts": {
@@ -274,7 +313,10 @@
      "King of Ireland"
     ]
    },
-   "line": "King of Ireland."
+   "line": "King of Ireland.",
+   "signals": {
+    "lookAlikes": 73
+   }
   },
   "22": {
    "facts": {
@@ -288,7 +330,10 @@
      "Ambassador of the Kingdom of Spain to the Kingdom of England"
     ]
    },
-   "line": "Ambassador of the Kingdom of Spain to the Kingdom of England."
+   "line": "Ambassador of the Kingdom of Spain to the Kingdom of England.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "23": {
    "facts": {
@@ -298,6 +343,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154
    }
   },
   "24": {
@@ -322,7 +370,10 @@
      "Member of the 1495 Parliament"
     ]
    },
-   "line": "Member of the 1495 Parliament."
+   "line": "Member of the 1495 Parliament.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "26": {
    "facts": {
@@ -336,7 +387,10 @@
      "Member of the Privy Council of the United Kingdom"
     ]
    },
-   "line": "Member of the Privy Council of the United Kingdom."
+   "line": "Member of the Privy Council of the United Kingdom.",
+   "signals": {
+    "lookAlikes": 134
+   }
   },
   "27": {
    "facts": {
@@ -346,6 +400,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 42
    }
   },
   "28": {
@@ -356,6 +413,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 33
    }
   },
   "29": {
@@ -370,7 +430,10 @@
      "Lord Chamberlain"
     ]
    },
-   "line": "Lord Chamberlain."
+   "line": "Lord Chamberlain.",
+   "signals": {
+    "lookAlikes": 67
+   }
   },
   "30": {
    "facts": {
@@ -380,6 +443,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21
    }
   },
   "31": {
@@ -404,7 +470,10 @@
      "Lord Lieutenant of Buckinghamshire"
     ]
    },
-   "line": "Lord Lieutenant of Buckinghamshire."
+   "line": "Lord Lieutenant of Buckinghamshire.",
+   "signals": {
+    "lookAlikes": 188
+   }
   },
   "33": {
    "facts": {
@@ -418,7 +487,10 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords."
+   "line": "Member of the House of Lords.",
+   "signals": {
+    "lookAlikes": 154
+   }
   },
   "34": {
    "facts": {
@@ -428,6 +500,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21
    }
   },
   "35": {
@@ -456,7 +531,10 @@
      "Lord Chancellor"
     ]
    },
-   "line": "Lord Chancellor."
+   "line": "Lord Chancellor.",
+   "signals": {
+    "lookAlikes": 134
+   }
   }
  },
  "edges": {

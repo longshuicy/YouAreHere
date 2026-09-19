@@ -37,7 +37,7 @@ export function Nodes({
       {nodes.map((n) => {
         const p = positions.get(n.i);
         if (!p) return null;
-        const r = n.isYou ? 8.5 : nodeRadius(n.degree);
+        const r = n.isYou ? 8.5 : nodeRadius(n.presence);
         const isFrontier = !n.isYou && !n.expanded && n.hop === maxHop;
         return (
           <g

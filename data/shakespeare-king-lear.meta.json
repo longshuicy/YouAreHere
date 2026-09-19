@@ -10,6 +10,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "1": {
@@ -20,6 +23,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154
    }
   },
   "2": {
@@ -30,6 +36,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "3": {
@@ -40,6 +49,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "4": {
@@ -72,6 +84,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "7": {
@@ -82,6 +97,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "8": {
@@ -92,6 +110,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92
    }
   },
   "9": {
@@ -102,6 +123,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154
    }
   },
   "10": {
@@ -112,6 +136,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 29
    }
   },
   "11": {
@@ -122,6 +149,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   },
   "12": {
@@ -132,6 +162,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33
    }
   },
   "13": {
@@ -142,6 +175,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 29
    }
   },
   "14": {
@@ -154,7 +190,10 @@
     "role": "King of Britain",
     "gender": "Male"
    },
-   "line": "King of Britain."
+   "line": "King of Britain.",
+   "signals": {
+    "lookAlikes": 29
+   }
   },
   "15": {
    "facts": {
@@ -174,6 +213,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154
    }
   },
   "17": {
@@ -184,6 +226,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188
    }
   }
  },

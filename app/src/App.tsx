@@ -3,7 +3,8 @@ import { fetchIndex, fetchMeta, fetchUniverse, pickPuzzle, pickWorld } from './d
 import type { IndexFile, PuzzleRecord, Universe, UniverseMeta } from './types';
 import { initSession, makeReducer } from './engine/session';
 import type { Session } from './engine/session';
-import { project } from './graph/project';
+import { cardinal, project, standingOf } from './graph/project';
+import { suggestNames } from './engine/names';
 import { useRadialLayout } from './graph/layout';
 import { blurbFor } from './data/worlds';
 import { KeyOverlay } from './render/KeyOverlay';
@@ -117,7 +118,17 @@ export default function App() {
   // Hooks must run unconditionally; guard inside instead of early-returning above.
   const positions = useRadialLayout(
     graph ?? { you: 0, nodes: [], edges: [] },
-    session?.known ?? { visible: new Set(), expanded: new Set(), facts: new Set(), named: new Map(), hop: new Map(), parent: new Map() },
+    session?.known ?? {
+      visible: new Set(),
+      expanded: new Set(),
+      facts: new Set(),
+      named: new Map(),
+      initials: new Map(),
+      rejected: new Map(),
+      recognised: new Set(),
+      hop: new Map(),
+      parent: new Map(),
+    },
   );
 
   // Fetch this world's sidecar as soon as the world is known — not on the click
@@ -136,6 +147,28 @@ export default function App() {
       })
       .catch(() => {});
   }, [universeId]);
+
+  /** Shared by the guess screen and the claim field, so a free move is not also
+   * a spelling test. Scoped to every loaded story on purpose — a list scoped to
+   * one book would report that book's cast size. */
+  const suggest = useMemo(() => {
+    const universes = [...loaded.values()];
+    return (query: string) => suggestNames(universes, query);
+  }, [loaded]);
+
+  /** Whether the enrichment sidecar actually has a line for a node. In most of
+   * the Shakespeare worlds it usually does not — four plays have none at all —
+   * and Facts was charging 2 clues to say "nothing is recorded of them". */
+  const hasFacts = useMemo(() => {
+    return (i: number) => Boolean(meta?.nodes[String(i)]?.line);
+  }, [meta]);
+
+  const standing = useMemo(() => {
+    if (!universe || !session) return '';
+    const above = standingOf(universe, session.you) - 1;
+    if (above === 0) return 'No one is in more of this story than you.';
+    return `Only ${cardinal(above)} ${above === 1 ? 'person' : 'people'} here are in more of this story than you.`;
+  }, [universe, session]);
 
   const factLines = useMemo(() => {
     const out = new Map<number, string>();
@@ -276,9 +309,16 @@ export default function App() {
           positions={positions}
           session={session}
           onExpand={(i) => dispatch({ type: 'EXPAND', node: i })}
-          onFacts={(i) => dispatch({ type: 'FACTS', node: i })}
+          onFacts={(i) => {
+            if (!hasFacts(i)) return;
+            dispatch({ type: 'FACTS', node: i });
+          }}
           onName={(i) => dispatch({ type: 'NAME', node: i, name: nameOf(i) })}
+          onClaim={(i, query) => dispatch({ type: 'CLAIM', node: i, query })}
+          suggest={suggest}
+          hasFacts={hasFacts}
           factLines={factLines}
+          standing={standing}
           onOpenGuess={() => dispatch({ type: 'OPEN_GUESS' })}
           onOpenKey={openKey}
           onReveal={revealAnswer}
@@ -306,12 +346,10 @@ export default function App() {
       );
       break;
     case 'reveal': {
-      const puzzle = universe.puzzles.find((p) => p.id === session.puzzleId) ?? boot.puzzle;
       screen = (
         <Reveal
           session={session}
           universe={universe}
-          puzzle={puzzle}
           meta={meta}
           onWakeElsewhere={wakeElsewhere}
           onOpenKey={openKey}
