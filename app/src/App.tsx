@@ -89,7 +89,6 @@ export default function App() {
    * themselves, not a guess the app gets to keep making.
    */
   const [readsChineseClassics, setReadsChineseClassics] = useState(readsChineseByDefault);
-  void setReadsChineseClassics; // until the cold open carries a control for it
   /** What `pickWorld` weighs a world's nameability by. */
   const familiarityOf = (world: { id: string }) => familiarityFor(world.id, readsChineseClassics);
   /** The last few starts served, so the same setting does not keep producing the
@@ -269,14 +268,15 @@ export default function App() {
    * moving the slider has to draw another one — otherwise it would only take
    * effect on the waking after the one the player is looking at.
    */
-  const chooseEase = async (next: number) => {
+  const redraw = async (ease: number, reads: boolean) => {
     if (boot.status !== 'ready') return;
-    setTargetEase(next);
-    const entry = pickWorld(boot.index.universes, next, boot.index.easeBuckets, familiarityOf);
+    const entry = pickWorld(boot.index.universes, ease, boot.index.easeBuckets, (world) =>
+      familiarityFor(world.id, reads),
+    );
     if (!entry) return;
     try {
       const universe = loaded.get(entry.id) ?? (await fetchUniverse(entry.file));
-      const puzzle = pickPuzzle(universe, next, recentPuzzles.current);
+      const puzzle = pickPuzzle(universe, ease, recentPuzzles.current);
       if (!puzzle) return;
       remember(puzzle.id);
       setLoaded((prev) => (prev.has(universe.id) ? prev : new Map(prev).set(universe.id, universe)));
@@ -285,6 +285,28 @@ export default function App() {
     } catch {
       // Keep the waking already on screen rather than emptying the stage.
     }
+  };
+
+  const chooseEase = async (next: number) => {
+    setTargetEase(next);
+    await redraw(next, readsChineseClassics);
+  };
+
+  /** Said once and remembered, because it is a fact about the player and not a
+   * setting for this waking — and because the browser's language list is a guess
+   * that should stop being made as soon as they have answered it themselves.
+   *
+   * Redraws for the same reason the scale does: the stranger on the stage has
+   * already been drawn, so a change that only took effect on the *next* waking
+   * would look like it did nothing. */
+  const chooseReadsChineseClassics = async (next: boolean) => {
+    setReadsChineseClassics(next);
+    try {
+      localStorage.setItem('reads-chinese-classics', String(next));
+    } catch {
+      // Blocked site data: the answer holds for this session and is asked again.
+    }
+    await redraw(targetEase, next);
   };
 
   const chooseWorld = async (entry: { id: string; file: string }) => {
@@ -336,6 +358,8 @@ export default function App() {
           onChooseWorld={() => setChoosing(true)}
           targetEase={targetEase}
           onChooseEase={chooseEase}
+          readsChineseClassics={readsChineseClassics}
+          onReadsChineseClassics={chooseReadsChineseClassics}
           onOpenKey={openKey}
           onStartAgain={startAgain}
           onOpenGallery={() => setShowGallery(true)}
