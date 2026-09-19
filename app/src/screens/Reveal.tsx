@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from 'react';
-import { useZoom, zoomTransform } from '../graph/zoom';
-import { BrandMark, MarginLinks } from '../render/MarginLinks';
+import { useMemo } from 'react';
+import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
+import { FullGraph } from '../render/FullGraph';
 import type { Session } from '../engine/session';
 import { clueTotal } from '../render/Ledger';
 import { describeContext, describeReadings, revealMetrics } from '../graph/metrics';
@@ -14,222 +14,7 @@ interface Props {
   onWakeElsewhere: () => void;
   onOpenKey: () => void;
   onStartAgain: () => void;
-}
-
-/** The full named network, faint, with your node held in the accent.
- * Pannable and zoomable; hovering any node names it. */
-function FullGraph({
-  universe,
-  you,
-  named,
-  tieLine,
-}: {
-  universe: Universe;
-  you: number;
-  /** Names the player bought or got right, kept on the paper through the
-   * unfold — they earned them, and losing them at the reveal throws away the
-   * only part of the map they had actually read. */
-  named: Map<number, string>;
-  /** What the sidecar says about the tie between you and another node. */
-  tieLine: (other: number) => string | null;
-}) {
-  const { ref, transform } = useZoom([0.5, 12]);
-  const [hovered, setHovered] = useState<number | null>(null);
-
-  const { viewBox, vbW, vbH, byIndex, yours } = useMemo(() => {
-    const xs = universe.nodes.map((n) => n.x);
-    const ys = universe.nodes.map((n) => n.y);
-    const pad = 40;
-    const minX = Math.min(...xs);
-    const maxX = Math.max(...xs);
-    const minY = Math.min(...ys);
-    const maxY = Math.max(...ys);
-    const w = maxX - minX + pad * 2;
-    const h = maxY - minY + pad * 2;
-    const m = new Map<number, (typeof universe.nodes)[number]>();
-    universe.nodes.forEach((n) => m.set(n.i, n));
-    return {
-      viewBox: `${minX - pad} ${minY - pad} ${w} ${h}`,
-      vbW: w,
-      vbH: h,
-      byIndex: m,
-      yours: m.get(you) ?? null,
-    };
-  }, [universe, you]);
-
-  /** Your own ties, so the shape you spent the whole game learning is still on
-   * the paper at the moment it is explained, instead of dissolving into a
-   * uniform mesh. */
-  const mine = useMemo(() => {
-    const out: Array<[number, number]> = [];
-    const neighbours = new Set<number>();
-    for (const [s, t] of universe.edges) {
-      if (s === you) { out.push([s, t]); neighbours.add(t); }
-      else if (t === you) { out.push([s, t]); neighbours.add(s); }
-    }
-    return { edges: out, neighbours };
-  }, [universe, you]);
-
-  // The layout's coordinate space is nothing like CSS pixels, so measure the
-  // rendered size and express every mark in real pixels. Without this the hit
-  // targets come out a couple of pixels wide and hovering a node is luck.
-  const [rendered, setRendered] = useState({ w: 0, h: 0 });
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new ResizeObserver(([entry]) => {
-      const { width, height } = entry.contentRect;
-      setRendered({ w: width, h: height });
-    });
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [ref]);
-
-  const baseScale =
-    rendered.w > 0 && rendered.h > 0 ? Math.min(rendered.w / vbW, rendered.h / vbH) : 1;
-  /** User units per CSS pixel at the current zoom. */
-  const unit = 1 / (baseScale * transform.k);
-
-  const hoveredNode = hovered !== null ? byIndex.get(hovered) : null;
-
-  return (
-    <svg
-      ref={ref}
-      viewBox={viewBox}
-      width="100%"
-      height="100%"
-      preserveAspectRatio="xMidYMid meet"
-      style={{ cursor: 'grab', touchAction: 'none' }}
-    >
-      <g transform={zoomTransform(transform)}>
-        <g stroke="var(--unknown)" strokeWidth={0.9 * unit} opacity={0.11}>
-          {universe.edges.map(([s, t], idx) => {
-            const a = byIndex.get(s);
-            const b = byIndex.get(t);
-            if (!a || !b) return null;
-            return <line key={idx} x1={a.x} y1={a.y} x2={b.x} y2={b.y} />;
-          })}
-        </g>
-
-        <g opacity={0.3}>
-          {universe.nodes.map((n) => (
-            <circle
-              key={n.i}
-              cx={n.x}
-              cy={n.y}
-              r={3.5 * unit}
-              fill="var(--paper)"
-              stroke="var(--unknown)"
-              strokeWidth={1 * unit}
-            />
-          ))}
-        </g>
-
-        {/* Generous invisible hit targets, so naming by hover is easy. */}
-        <g>
-          {universe.nodes.map((n) => (
-            <circle
-              key={n.i}
-              cx={n.x}
-              cy={n.y}
-              r={11 * unit}
-              fill="transparent"
-              onMouseEnter={() => setHovered(n.i)}
-              onMouseLeave={() => setHovered((h) => (h === n.i ? null : h))}
-            />
-          ))}
-        </g>
-
-        {/* Your ring, drawn over the faint mesh. */}
-        <g stroke="var(--accent)" strokeWidth={1.1 * unit} opacity={0.5}>
-          {mine.edges.map(([s, t]) => {
-            const a = byIndex.get(s);
-            const b = byIndex.get(t);
-            if (!a || !b) return null;
-            return <line key={`me-${s}-${t}`} x1={a.x} y1={a.y} x2={b.x} y2={b.y} />;
-          })}
-        </g>
-
-        {/* Names the player already had. Held at a size that survives the zoom. */}
-        <g pointerEvents="none">
-          {[...named].map(([i, name]) => {
-            const n = byIndex.get(i);
-            if (!n) return null;
-            return (
-              <text
-                key={`n-${i}`}
-                x={n.x}
-                y={n.y - 11 * unit}
-                textAnchor="middle"
-                style={{
-                  font: `${12 * unit}px var(--serif)`,
-                  fill: 'var(--body)',
-                  paintOrder: 'stroke',
-                  stroke: 'var(--paper)',
-                  strokeWidth: 3.5 * unit,
-                  strokeLinejoin: 'round',
-                }}
-              >
-                {name}
-              </text>
-            );
-          })}
-        </g>
-
-        {yours && <circle cx={yours.x} cy={yours.y} r={6 * unit} fill="var(--accent)" />}
-
-        {hoveredNode && (
-          <g pointerEvents="none">
-            <circle
-              cx={hoveredNode.x}
-              cy={hoveredNode.y}
-              r={9 * unit}
-              fill="none"
-              stroke="var(--accent)"
-              strokeWidth={1 * unit}
-              opacity={0.6}
-            />
-            <text
-              x={hoveredNode.x}
-              y={hoveredNode.y - 14 * unit}
-              textAnchor="middle"
-              style={{
-                font: `${15 * unit}px var(--serif)`,
-                fill: 'var(--ink)',
-                paintOrder: 'stroke',
-                stroke: 'var(--paper)',
-                strokeWidth: 4 * unit,
-                strokeLinejoin: 'round',
-              }}
-            >
-              {hoveredNode.n}
-            </text>
-            {/* What the tie between you and them was made of. The sidecar has
-                carried a written line for every tie in the six enriched worlds
-                since the data existed, and nothing had ever read one. */}
-            {mine.neighbours.has(hoveredNode.i) && tieLine(hoveredNode.i) && (
-              <text
-                x={hoveredNode.x}
-                y={hoveredNode.y + 20 * unit}
-                textAnchor="middle"
-                style={{
-                  font: `${11 * unit}px var(--serif)`,
-                  fontStyle: 'italic',
-                  fill: 'var(--body)',
-                  paintOrder: 'stroke',
-                  stroke: 'var(--paper)',
-                  strokeWidth: 4 * unit,
-                  strokeLinejoin: 'round',
-                }}
-              >
-                {tieLine(hoveredNode.i)}
-              </text>
-            )}
-          </g>
-        )}
-      </g>
-    </svg>
-  );
+  onOpenGallery: () => void;
 }
 
 export function Reveal({
@@ -240,6 +25,7 @@ export function Reveal({
   onWakeElsewhere,
   onOpenKey,
   onStartAgain,
+  onOpenGallery,
 }: Props) {
   const you = universe.nodes.find((n) => n.i === session.you);
   const clues = clueTotal(session.ledger);
@@ -329,7 +115,7 @@ export function Reveal({
         style={{
           position: 'absolute',
           inset: 0,
-          padding: '44px 64px 56px 64px',
+          padding: CHROME_PADDING,
           display: 'flex',
           flexDirection: 'column',
           // Let hovers reach the network underneath; only the exits take clicks.
@@ -338,7 +124,7 @@ export function Reveal({
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <BrandMark onStartAgain={onStartAgain} />
-          <MarginLinks onOpenKey={onOpenKey} />
+          <MarginLinks onOpenKey={onOpenKey} onOpenGallery={onOpenGallery} />
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 46, textAlign: 'center' }}>

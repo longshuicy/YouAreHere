@@ -8,6 +8,7 @@ import { suggestNames } from './engine/names';
 import { useRadialLayout } from './graph/layout';
 import { blurbFor } from './data/worlds';
 import { KeyOverlay } from './render/KeyOverlay';
+import { Gallery } from './gallery/Gallery';
 import { ColdOpen } from './screens/ColdOpen';
 import { ChooseWorld } from './screens/ChooseWorld';
 import { Explore } from './screens/Explore';
@@ -39,6 +40,13 @@ export default function App() {
    * meta was truthy, and a bought reading looked up against the wrong index. */
   const [metas, setMetas] = useState<Map<string, UniverseMeta>>(new Map());
   const [showKey, setShowKey] = useState(false);
+  /** The gallery is a companion piece, not a mode. It is offered from the cold
+   * open and from the reveal, and never as a way to avoid playing — see
+   * docs/The topology gallery.md, which argued for keeping it strictly behind a
+   * finished run and has been relaxed: the case for the gate was that reading
+   * anonymous worlds first teaches you to read them as data, but a companion
+   * piece nobody can find is not a companion to anything. */
+  const [showGallery, setShowGallery] = useState(false);
   /** The world chooser, and which world it is currently fetching. `choosing`
    * is separate from the session phase because it replaces the cold open rather
    * than following it — there is no session for the chosen world yet. */
@@ -288,6 +296,7 @@ export default function App() {
           onChooseEase={chooseEase}
           onOpenKey={openKey}
           onStartAgain={startAgain}
+          onOpenGallery={() => setShowGallery(true)}
         />
       );
       break;
@@ -345,12 +354,26 @@ export default function App() {
           onWakeElsewhere={wakeElsewhere}
           onOpenKey={openKey}
           onStartAgain={startAgain}
+          onOpenGallery={() => setShowGallery(true)}
         />
       );
       break;
     }
     default:
       screen = null;
+  }
+
+  if (showGallery) {
+    return (
+      <Gallery
+        universes={[...loaded.values()]}
+        onClose={() => setShowGallery(false)}
+        onStartAgain={() => {
+          setShowGallery(false);
+          startAgain();
+        }}
+      />
+    );
   }
 
   return (

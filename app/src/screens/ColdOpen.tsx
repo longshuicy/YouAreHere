@@ -1,5 +1,5 @@
 import { Stage } from '../render/Stage';
-import { BrandMark, MarginLinks } from '../render/MarginLinks';
+import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -14,6 +14,7 @@ interface Props {
   onChooseEase: (ease: number) => void;
   onOpenKey: () => void;
   onStartAgain: () => void;
+  onOpenGallery: () => void;
 }
 
 /**
@@ -40,41 +41,44 @@ export function ColdOpen({
   onChooseEase,
   onOpenKey,
   onStartAgain,
+  onOpenGallery,
 }: Props) {
 
   return (
     <div
       style={{
-        // minHeight, not height: on a short window the copy and the controls
-        // below it used to be clipped off the bottom of the screen with no way
-        // to reach them, which quietly hid the difficulty scale and `Begin` itself.
-        // minHeight so nothing is ever unreachable, but everything below is
-        // sized so the screen does not actually need it on a laptop: at 1280x800
-        // the whole cold open came to 936px and scrolled. The stage kept its
-        // height — it is what decides how many neighbours can be drawn around
-        // you — so the space came out of the padding, the leading and the gaps.
-        minHeight: '100vh',
+        // Height, not minHeight: with only a floor the page grew past the
+        // window and the bottom inset fell off the edge, which parked Begin
+        // on the glass. Overflow still scrolls on a short window.
+        // Top and sides share CHROME_PADDING so the brand mark does not jump
+        // when this screen gives way to play. Leftover height sits above the
+        // scale rather than between the headline and the graph; the extra
+        // bottom inset lifts Begin off the edge.
+        height: '100vh',
+        overflow: 'auto',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-between',
         gap: 'clamp(10px, 2vh, 20px)',
-        padding: 'clamp(16px, 3.1vh, 36px) 64px clamp(18px, 3.3vh, 40px) 64px',
+        padding: CHROME_PADDING,
+        paddingBottom: 80,
       }}
     >
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexShrink: 0 }}>
         <BrandMark onStartAgain={onStartAgain} />
-        <MarginLinks onOpenKey={onOpenKey} />
+        <MarginLinks onOpenKey={onOpenKey} onOpenGallery={onOpenGallery} />
       </div>
 
       <div
         style={{
+          flex: 1,
+          minHeight: 0,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           gap: 'clamp(12px, 2.2vh, 22px)',
         }}
       >
-        <div style={{ fontSize: 'clamp(24px, 3.2vh, 31px)', letterSpacing: '0.01em' }}>
+        <div style={{ fontSize: 'clamp(24px, 3.2vh, 31px)', letterSpacing: '0.01em', flexShrink: 0 }}>
           You wake up here.
         </div>
 
@@ -83,7 +87,7 @@ export function ColdOpen({
             width, is what decides how many characters can stand around you
             before they touch. At 300px it was about a dozen, which is fewer
             than the puzzle generator is allowed to hand it. */}
-        <div style={{ width: 'min(620px, 80vw)', height: 'min(440px, 44vh)' }}>
+        <div style={{ width: 'min(620px, 80vw)', height: 'min(440px, 44vh)', flexShrink: 1, minHeight: 0 }}>
           <Stage
             graph={graph}
             positions={positions}
@@ -106,6 +110,7 @@ export function ColdOpen({
             color: 'var(--body)',
             lineHeight: 1.5,
             textAlign: 'center',
+            flexShrink: 0,
           }}
         >
           <div>
@@ -120,7 +125,15 @@ export function ColdOpen({
         </div>
       </div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'clamp(8px, 1.4vh, 18px)' }}>
+      <div
+        style={{
+          flexShrink: 0,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 'clamp(8px, 1.4vh, 18px)',
+        }}
+      >
         {/* The scale sits above the commit, because it changes what you
             are about to begin — the stranger on the stage is redrawn the moment
             it is touched, so the choice is visible before it is taken. */}
