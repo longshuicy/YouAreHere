@@ -34,7 +34,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Beru",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -47,7 +53,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Jessica",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -70,7 +82,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-winters-tale",
+     "story": "The Winter's Tale",
+     "name": "Perdita",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -83,7 +101,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Proteus",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -96,7 +120,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Antonio",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -111,7 +141,13 @@
    },
    "line": "Servant.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-comedy-of-errors",
+     "story": "The Comedy of Errors",
+     "name": "Courtesan",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -124,7 +160,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-winters-tale",
+     "story": "The Winter's Tale",
+     "name": "Paulina",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -147,7 +189,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Portia",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -170,7 +218,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Nerissa",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -183,7 +237,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Outlaws 1",
+     "tied": 2
+    }
    }
   },
   "15": {
@@ -196,7 +256,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Abhorson",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -209,7 +275,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Antonio",
+     "tied": 0
+    }
    }
   },
   "17": {
@@ -222,7 +294,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-as-you-like-it",
+     "story": "As You Like It",
+     "name": "Corin",
+     "tied": 0
+    }
    }
   },
   "18": {

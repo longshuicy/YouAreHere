@@ -12,7 +12,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Aemilius",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -25,7 +31,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-hamlet",
+     "story": "Hamlet",
+     "name": "Queen Gertrude",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -38,7 +50,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-coriolanus",
+     "story": "Coriolanus",
+     "name": "Valeria",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -53,7 +71,13 @@
    },
    "line": "Prince of Norway.",
    "signals": {
-    "lookAlikes": 9
+    "lookAlikes": 9,
+    "nearest": {
+     "world": "shakespeare-the-comedy-of-errors",
+     "story": "The Comedy of Errors",
+     "name": "Dr. Pinch",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -76,7 +100,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-hamlet",
+     "story": "Hamlet",
+     "name": "Hamlet",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -103,7 +133,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Maria",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -118,7 +154,13 @@
    },
    "line": "Prince of Denmark.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-hamlet",
+     "story": "Hamlet",
+     "name": "Queen Gertrude",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -131,7 +173,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Benvolio",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -144,7 +192,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Iachimo",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -157,7 +211,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-hamlet",
+     "story": "Hamlet",
+     "name": "Voltemand",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -170,7 +230,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Cloten",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -183,7 +249,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "shakespeare-othello",
+     "story": "Othello",
+     "name": "Brabantio",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -198,7 +270,13 @@
    },
    "line": "Councillor.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-comedy-of-errors",
+     "story": "The Comedy of Errors",
+     "name": "Antipholus of Syracuse",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -223,7 +301,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-king-lear",
+     "story": "King Lear",
+     "name": "Fool",
+     "tied": 0
+    }
    }
   },
   "17": {
@@ -236,7 +320,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-hamlet",
+     "story": "Hamlet",
+     "name": "Marcellus",
+     "tied": 0
+    }
    }
   }
  },

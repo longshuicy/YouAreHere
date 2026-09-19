@@ -22,7 +22,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Thurio",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -45,7 +51,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Ferdinand",
+     "tied": 1
+    }
    }
   },
   "4": {
@@ -58,7 +70,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 7
+    "lookAlikes": 7,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Mistress Overdone",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -71,7 +89,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Outlaws 2",
+     "tied": 1
+    }
    }
   },
   "6": {
@@ -84,7 +108,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Outlaws 1",
+     "tied": 1
+    }
    }
   },
   "7": {
@@ -97,7 +127,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Outlaws 1",
+     "tied": 1
+    }
    }
   },
   "8": {
@@ -120,7 +156,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Gratiano",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -133,7 +175,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 7
+    "lookAlikes": 7,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "小衙內",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -146,7 +194,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-macbeth",
+     "story": "Macbeth",
+     "name": "Banquo",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -159,7 +213,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Fool",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -172,7 +232,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Duke",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -185,7 +251,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Malvolio",
+     "tied": 0
+    }
    }
   }
  },

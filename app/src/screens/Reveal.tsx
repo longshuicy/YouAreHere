@@ -61,7 +61,10 @@ export function Reveal({
    * a reveal is a beat and not a report — six true sentences in a column is a
    * dashboard, and this page is the last thing the player sees.
    */
-  const readings = useMemo(() => describeReadings(metrics, signals), [metrics, signals]);
+  const readings = useMemo(
+    () => describeReadings(metrics, signals, universe.id),
+    [metrics, signals, universe.id],
+  );
 
   /** What you actually turned over, and how near you came. Both read off the
    * session rather than the data — this is the part of the page that is about
@@ -194,7 +197,7 @@ export function Reveal({
           }}
         >
           <button className="action" style={{ letterSpacing: '0.3em' }} onClick={onWakeElsewhere}>
-            Wake somewhere else
+            Start somewhere else
           </button>
           <button type="button" className="action-quiet" onClick={onOpenGallery}>
             The topology gallery

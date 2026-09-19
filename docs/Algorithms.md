@@ -312,6 +312,39 @@ $$
 A(u) = \Bigl|\bigl\{v \in \textstyle\bigcup_k V_k \ : \ S(v) = S(u)\bigr\}\Bigr| - 1
 $$
 
+### 5.2a Resemblance, which is a different question from ambiguity
+
+> **Added 2026-09-19.** $A(u)$ counts how many characters could be mistaken for $u$,
+> and cannot say *who* — everyone sharing a signature is equally alike by
+> construction, so a bucket has no inside order. Naming one at the reveal needs a
+> distance, so there is one, and it is deliberately not the signature:
+
+$$
+\sigma(u) = \Bigl(\ln\bigl(1 + d(u)\bigr),\ P(u),\ p_1(u),\ \dots,\ p_5(u)\Bigr), \qquad
+p_i(u) = i\text{-th largest } P(v),\ v \in N(u)
+$$
+
+$$
+\mathrm{twin}(u) = \operatorname*{arg\,min}_{v \neq u} \ \sum_{j} w_j\bigl(\sigma_j(u) - \sigma_j(v)\bigr)^2,
+\qquad w = (1,\ 1,\ 0.6,\ 0.5,\ 0.4,\ 0.3,\ 0.2)
+$$
+
+> Every axis the signature rounds off, this one keeps: exact degree rather than a
+> band twelve wide at the top, the character's own presence — which the signature
+> omits entirely — and the five largest neighbours' standing rather than two capped
+> counts either side of a cliff at 0.85. Weights are judgement, on the same footing
+> as the ease weights.
+>
+> Measured over the shipped catalogue (4,829 characters in 41 worlds, 2,587 playable
+> starts): a **unique** nearest for 88% of starts, one other tied for 6%, at worst
+> seven ties; 59% of twins come from the start's own world. Ties are reported, not
+> broken. Sansa Stark's 165 signature-mates include a 110-tie Liangshan outlaw; her
+> nearest by $\sigma$ is Arya Stark, two hundred times closer.
+>
+> Both measurements ship. $A(u)$ keeps scoring difficulty, where coarseness is
+> correct and precision is false precision, and $\mathrm{twin}(u)$ is named at the
+> reveal, where a count of a hundred and sixty-three is trivia and a name is not.
+
 ### 5.3 Ease
 
 $$

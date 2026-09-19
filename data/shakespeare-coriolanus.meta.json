@@ -28,7 +28,13 @@
    },
    "line": "Ancient Roman senator.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shakespeare-coriolanus",
+     "story": "Coriolanus",
+     "name": "Sicinius",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -41,7 +47,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-othello",
+     "story": "Othello",
+     "name": "Iago",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -64,7 +76,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Beru",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -95,7 +113,13 @@
    },
    "line": "Ancient Roman senator.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-coriolanus",
+     "story": "Coriolanus",
+     "name": "Martius Coriolanus",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -110,7 +134,13 @@
    },
    "line": "Tribune.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shakespeare-coriolanus",
+     "story": "Coriolanus",
+     "name": "Sicinius",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -125,7 +155,13 @@
    },
    "line": "Tribune.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shakespeare-coriolanus",
+     "story": "Coriolanus",
+     "name": "Brutus",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -138,7 +174,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shakespeare-hamlet",
+     "story": "Hamlet",
+     "name": "Cornelius",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -151,7 +193,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Lando",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -164,7 +212,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "shakespeare-othello",
+     "story": "Othello",
+     "name": "Roderigo",
+     "tied": 0
+    }
    }
   },
   "12": {

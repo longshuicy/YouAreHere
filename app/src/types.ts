@@ -93,6 +93,25 @@ export interface MetaRecord {
      * and the client holds one universe. Everything else the reveal says is
      * computed from the book in hand. */
     lookAlikes: number;
+    /**
+     * The one character in the whole catalogue whose shape is nearest to this
+     * one, by a continuous distance over degree, presence and the standing of
+     * the largest people on the other end of the ties.
+     *
+     * The other half of `lookAlikes`, and a different measurement on purpose.
+     * The count comes from a coarse bucket — same degree band, same rough mix
+     * of large and small neighbours — which is right for *how many people could
+     * be mistaken for you* and useless for *who*, because everyone in a bucket
+     * is equally alike by construction. `tied` is how many others are exactly
+     * as near, which is none for about nine starts in ten.
+     */
+    nearest?: {
+      world: UniverseId;
+      /** The story's title, so the reveal can name it without holding that world. */
+      story: string;
+      name: string;
+      tied: number;
+    };
   };
 }
 

@@ -12,7 +12,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Aeneas",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -25,7 +31,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-hamlet",
+     "story": "Hamlet",
+     "name": "Barnardo",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -38,7 +50,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Lavinia",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -51,7 +69,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Mutius",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -64,7 +88,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Posthumus Leonatus",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -77,7 +107,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Odius",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -90,7 +126,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-comedy-of-errors",
+     "story": "The Comedy of Errors",
+     "name": "Dromio of Ephesus",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -103,7 +145,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Dontos Hollard",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -126,7 +174,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Bassianus",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -139,7 +193,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Hector",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -152,7 +212,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Lady Capulet",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -165,7 +231,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Quintus",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -188,7 +260,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Captain",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -211,7 +289,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Quentin Burdick",
+     "tied": 0
+    }
    }
   },
   "17": {
@@ -224,7 +308,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Martius",
+     "tied": 0
+    }
    }
   },
   "18": {
@@ -237,7 +327,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Tamora",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -252,7 +348,13 @@
    },
    "line": "Queen.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Saturninus",
+     "tied": 0
+    }
    }
   },
   "20": {
@@ -265,7 +367,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Romeo",
+     "tied": 0
+    }
    }
   },
   "21": {
@@ -278,7 +386,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Cornelius",
+     "tied": 0
+    }
    }
   }
  },

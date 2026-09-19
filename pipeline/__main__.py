@@ -80,6 +80,10 @@ def build(names: list[str], out: Path) -> int:
     # every world is loaded before any is written.
     all_worlds = [world for _, worlds, _, _, _ in prepared for world in worlds]
     corpus_index = difficulty.build_corpus_index(all_worlds)
+    # Built from the same pass, answering the other question: the index above
+    # counts how many characters wear a shape, this one holds where each of them
+    # stands, so a start can be told which single character it most resembles.
+    shape_index = difficulty.build_shape_index(all_worlds)
     print(f"\nscoring {len(all_worlds)} worlds against {sum(corpus_index.values())} characters")
 
     for name, worlds, node_facts, edge_facts, meta_sources in prepared:
@@ -100,7 +104,7 @@ def build(names: list[str], out: Path) -> int:
                 edge_facts,
                 meta_sources,
                 out,
-                scores=difficulty.score(world, playable, corpus_index),
+                scores=difficulty.score(world, playable, corpus_index, shape_index),
             )
 
             summary["metaFile"] = meta["file"]

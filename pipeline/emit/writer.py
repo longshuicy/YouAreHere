@@ -243,9 +243,17 @@ def write_metadata(
         # every tie weight because it draws thickness with them. Sending the
         # answer as well was fifty kilobytes of the same number twice, and a
         # second definition to keep in step with this one.
+        # `nearest` travels with it, and is the other half of the same thesis.
+        # The count says how many people wear this shape; it cannot say who,
+        # because a bucket has no inside order. The name comes from a distance
+        # instead, and it is the one reading at the reveal that needs the whole
+        # catalogue rather than the book in hand — which is exactly the test for
+        # what belongs in this file.
         signals = scores.get(node_id)
         if signals:
             entry["signals"] = {"lookAlikes": signals["lookAlikes"]}
+            if signals.get("nearest"):
+                entry["signals"]["nearest"] = signals["nearest"]
         nodes[str(index_of[node_id])] = entry
 
     edges = {}

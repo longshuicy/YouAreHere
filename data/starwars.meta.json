@@ -20,7 +20,13 @@
    },
    "line": "Of Mon Calamari, of the Rebel Alliance. Appears in Return of the Jedi and The Force Awakens.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "秦可卿",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -33,7 +39,13 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 9
+    "lookAlikes": 9,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Vintner",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -54,7 +66,13 @@
    },
    "line": "Jedi. Appears in four films.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Diomedes",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -71,7 +89,13 @@
    },
    "line": "Of Alderaan. Appears in three films.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Kevan Lannister",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -104,7 +128,13 @@
    },
    "line": "Navigator, Droid, of Hosnian Prime, of the Resistance. Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-comedy-of-errors",
+     "story": "The Comedy of Errors",
+     "name": "Second Merchant",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -121,7 +151,13 @@
    },
    "line": "Farmer, of Tatooine. Appears in Attack of the Clones and A New Hope.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Stephano",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -152,7 +188,13 @@
    },
    "line": "Rebel, of Tatooine, of the Rebel Alliance. Appears in A New Hope.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Eurybates",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -168,7 +210,13 @@
    },
    "line": "Of Kamino. Appears in Attack of the Clones and The Empire Strikes Back.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Talthybius",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -183,7 +231,13 @@
    },
    "line": "Gungan. Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Pandarus",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -242,7 +296,13 @@
    },
    "line": "Protocol droid, Droid, of Tatooine, of the Rebel Alliance. Appears in all seven films.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Obi-Wan",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -275,7 +335,13 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-the-winters-tale",
+     "story": "The Winter's Tale",
+     "name": "Dorcas",
+     "tied": 2
+    }
    }
   },
   "18": {
@@ -288,7 +354,13 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Godry Farring",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -324,7 +396,13 @@
    },
    "line": "Smuggler, Wookiee, of Kashyyyk, of the Rebel Alliance. Appears in four films.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Lysander",
+     "tied": 0
+    }
    }
   },
   "21": {
@@ -367,7 +445,13 @@
    },
    "line": "Sith, of Serenno. Appears in Attack of the Clones and Revenge of the Sith.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Montjoy",
+     "tied": 0
+    }
    }
   },
   "24": {
@@ -409,7 +493,13 @@
    },
    "line": "Sith, of Tatooine. Appears in four films.",
    "signals": {
-    "lookAlikes": 11
+    "lookAlikes": 11,
+    "nearest": {
+     "world": "shakespeare-the-taming-of-the-shrew",
+     "story": "The Taming of the Shrew",
+     "name": "Grumio",
+     "tied": 0
+    }
    }
   },
   "26": {
@@ -481,7 +571,13 @@
    },
    "line": "Galactic Emperor, of Naboo, of the Sith. Appears in five films.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Oxford",
+     "tied": 0
+    }
    }
   },
   "31": {
@@ -507,7 +603,13 @@
    },
    "line": "Stormtrooper. Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-as-you-like-it",
+     "story": "As You Like It",
+     "name": "Jaques",
+     "tied": 0
+    }
    }
   },
   "33": {
@@ -613,7 +715,13 @@
    },
    "line": "Smuggler, of Corellia, of the Rebel Alliance. Appears in four films.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Leia",
+     "tied": 0
+    }
    }
   },
   "41": {
@@ -635,7 +743,13 @@
    },
    "line": "Crime boss, Hutt, of Nal Hutta, of the Crymorah Syndicate. Appears in three films.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Philostrate",
+     "tied": 0
+    }
    }
   },
   "42": {
@@ -668,7 +782,13 @@
    },
    "line": "Of Rentor, of the Galactic Empire. Appears in three films.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Aemon Targaryen",
+     "tied": 0
+    }
    }
   },
   "44": {
@@ -720,7 +840,13 @@
    },
    "line": "Jedi, of Cerea. Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Thomas of Clarence",
+     "tied": 0
+    }
    }
   },
   "48": {
@@ -733,7 +859,13 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Mayor (Henry VI, Part 1)",
+     "tied": 0
+    }
    }
   },
   "49": {
@@ -754,7 +886,13 @@
    },
    "line": "Jedi, of Chandrila. Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "英布",
+     "tied": 0
+    }
    }
   },
   "50": {
@@ -787,7 +925,13 @@
    },
    "line": "Smuggler, of Socorro, of the Rebel Alliance. Appears in The Empire Strikes Back and Return of the Jedi.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "shakespeare-coriolanus",
+     "story": "Coriolanus",
+     "name": "Virgilia",
+     "tied": 0
+    }
    }
   },
   "52": {
@@ -813,7 +957,13 @@
    },
    "line": "Senator, of Alderaan, of the Rebel Alliance. Appears in four films.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Luke",
+     "tied": 0
+    }
    }
   },
   "53": {
@@ -858,7 +1008,13 @@
    },
    "line": "Jedi, of Tatooine, of the Rebel Alliance. Appears in four films.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Leia",
+     "tied": 0
+    }
    }
   },
   "56": {
@@ -881,7 +1037,13 @@
    },
    "line": "Jedi, of Haruun Kal. Appears in three films.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Paris",
+     "tied": 0
+    }
    }
   },
   "57": {
@@ -912,7 +1074,13 @@
    },
    "line": "Rebel, of Chandrila, of the Rebel Alliance. Appears in Revenge of the Sith and Return of the Jedi.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Iden",
+     "tied": 2
+    }
    }
   },
   "59": {
@@ -969,7 +1137,13 @@
    },
    "line": "Viceroy of the Trade Federation. Appears in three films.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Antenor",
+     "tied": 0
+    }
    }
   },
   "63": {
@@ -995,7 +1169,13 @@
    },
    "line": "Jedi, of Stewjon, of the Mandalorian resistance. Appears in six films.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Warwick",
+     "tied": 0
+    }
    }
   },
   "64": {
@@ -1034,7 +1214,13 @@
    },
    "line": "Farmer, of Tatooine. Appears in Attack of the Clones and A New Hope.",
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Cleos Frey",
+     "tied": 0
+    }
    }
   },
   "67": {
@@ -1069,7 +1255,13 @@
    },
    "line": "Queen of Naboo, of Naboo, of the Royal House of Naboo. Appears in three films.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Meriones",
+     "tied": 0
+    }
    }
   },
   "69": {
@@ -1105,7 +1297,13 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 11
+    "lookAlikes": 11,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "刘姥姥",
+     "tied": 0
+    }
    }
   },
   "72": {
@@ -1118,7 +1316,13 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Sun Rit",
+     "tied": 0
+    }
    }
   },
   "73": {
@@ -1136,7 +1340,13 @@
    },
    "line": "Principal Chief of the Cherokee Nation. Appears in The Phantom Menace and Revenge of the Sith.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Hera",
+     "tied": 0
+    }
    }
   },
   "74": {
@@ -1157,7 +1367,13 @@
    },
    "line": "Of Kamino. Appears in all seven films.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Titania",
+     "tied": 0
+    }
    }
   },
   "75": {
@@ -1182,7 +1398,13 @@
    },
    "line": "Rebel. Appears in A New Hope.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tanda Stokeworth",
+     "tied": 0
+    }
    }
   },
   "77": {
@@ -1212,7 +1434,13 @@
    },
    "line": "Jedi, of Jakku, of the Resistance. Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-alls-well-that-ends-well",
+     "story": "All’s Well That Ends Well",
+     "name": "King",
+     "tied": 0
+    }
    }
   },
   "79": {
@@ -1225,7 +1453,13 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Nestor Royce",
+     "tied": 0
+    }
    }
   },
   "80": {
@@ -1272,7 +1506,13 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "A Schoolmaster Ambassador",
+     "tied": 1
+    }
    }
   },
   "84": {
@@ -1285,7 +1525,13 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "李恢",
+     "tied": 0
+    }
    }
   },
   "85": {
@@ -1299,7 +1545,13 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Nan",
+     "tied": 0
+    }
    }
   },
   "86": {
@@ -1313,7 +1565,13 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "George Voinovich",
+     "tied": 0
+    }
    }
   },
   "87": {
@@ -1326,7 +1584,13 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Willas Tyrell",
+     "tied": 0
+    }
    }
   },
   "88": {
@@ -1363,7 +1627,13 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Poggle",
+     "tied": 0
+    }
    }
   },
   "91": {
@@ -1460,7 +1730,13 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 9
+    "lookAlikes": 9,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Servants",
+     "tied": 0
+    }
    }
   },
   "99": {
@@ -1478,7 +1754,13 @@
    },
    "line": "Rebel, of Corellia. Appears in three films.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "高順",
+     "tied": 0
+    }
    }
   },
   "100": {
@@ -1502,7 +1784,13 @@
    },
    "line": "Jedi Master. Appears in five films.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Rickon Stark",
+     "tied": 0
+    }
    }
   },
   "101": {

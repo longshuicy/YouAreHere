@@ -16,7 +16,13 @@
    },
    "line": "Legendary king of Britain.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Olivia",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -29,7 +35,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Guiderius",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -42,7 +54,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-hamlet",
+     "story": "Hamlet",
+     "name": "Ophelia",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -55,7 +73,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Young Lucius",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -70,7 +94,13 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Caius Lucius",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -117,7 +147,13 @@
    },
    "line": "Legendary king of Britain.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Belarius",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -130,7 +166,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Antonio",
+     "tied": 1
+    }
    }
   },
   "10": {
@@ -143,7 +185,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Pisanio",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -166,7 +214,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Cymbeline",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -189,7 +243,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Lorenzo",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -202,7 +262,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Chiron",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -215,7 +281,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 7
+    "lookAlikes": 7,
+    "nearest": {
+     "world": "shakespeare-the-winters-tale",
+     "story": "The Winter's Tale",
+     "name": "Cleomenes",
+     "tied": 1
+    }
    }
   },
   "17": {
@@ -228,7 +300,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Lando",
+     "tied": 0
+    }
    }
   }
  },

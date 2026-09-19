@@ -273,6 +273,8 @@ Inline in the universe file, since they are only useful once that file is loaded
 >
 > The readings are composed in the browser instead, from the one universe already loaded. The argument above still holds for the part that genuinely needs the catalogue — a client able to count a start's structural twins *in other novels* would be a client that had downloaded every novel — which is why `lookAlikes` is still counted at build time and shipped as a single number on the reveal-only sidecar, alongside `prominence` and `company`. Nothing else the reveal says needs more than the book in hand, and computing it at runtime is what lets the 26 worlds with no enrichment have anything said about them at all.
 
+> **Amended 2026-09-19 — `signals.nearest`.** `lookAlikes` now travels with the name of one person: the character anywhere in the catalogue whose shape is nearest, `{world, story, name, tied}`. Same argument for why it is built rather than computed — it needs every world, and the client holds one — and a different measurement from the count beside it. The count comes from a coarse signature bucket, which cannot name anybody because everyone in a bucket is equally alike; the name comes from a continuous distance over degree, presence and neighbour standing. See Algorithms §5.2a. `tied` is how many others are exactly as near, which is none for 88% of starts. It costs about 18,000 lines across the 41 sidecars and nothing in the universe files, which are byte-identical after the change.
+
 ### Reveal-only enrichment
 
 A sidecar, `<universe>.meta.json`. It holds a one-line description per character and per tie, plus the structured facts those lines were built from, so the app can render its own phrasing.

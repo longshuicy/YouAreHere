@@ -34,7 +34,13 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Another Lord",
+     "tied": 1
+    }
    }
   },
   "3": {
@@ -48,7 +54,13 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Charles",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -62,7 +74,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Katherine",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -76,7 +94,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Robin",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -120,7 +144,13 @@
    },
    "line": "Earl of Rutland. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duke of York (Richard II)",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -137,7 +167,13 @@
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "程普",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -154,7 +190,13 @@
    },
    "line": "Appears in four plays.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Pistol",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -168,7 +210,13 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Priest",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -185,7 +233,13 @@
    },
    "line": "Grand Chamberlain of France. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Burgundy",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -199,7 +253,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Man",
+     "tied": 3
+    }
    }
   },
   "14": {
@@ -219,7 +279,13 @@
    },
    "line": "Member of the House of Lords. Appears in four plays.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "張郃",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -233,7 +299,13 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nathanael",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -247,7 +319,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Holland",
+     "tied": 2
+    }
    }
   },
   "17": {
@@ -278,7 +356,13 @@
    },
    "line": "Roman Catholic Bishop of Carlisle. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Fitzwater",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -309,7 +393,13 @@
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Thomas of Clarence",
+     "tied": 0
+    }
    }
   },
   "21": {
@@ -326,7 +416,13 @@
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Earl of Richmond",
+     "tied": 0
+    }
    }
   },
   "22": {
@@ -341,7 +437,13 @@
    },
    "line": "Astronomer. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Jourdain",
+     "tied": 1
+    }
    }
   },
   "23": {
@@ -377,7 +479,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "司馬師",
+     "tied": 0
+    }
    }
   },
   "26": {
@@ -392,7 +500,13 @@
    },
    "line": "Lieutenant. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Donald Pease",
+     "tied": 0
+    }
    }
   },
   "27": {
@@ -420,7 +534,13 @@
    },
    "line": "Ambassador to the Kingdom of France. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "George Clarence",
+     "tied": 0
+    }
    }
   },
   "29": {
@@ -437,7 +557,13 @@
    },
    "line": "Member of the House of Lords. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Apollo",
+     "tied": 0
+    }
    }
   },
   "30": {
@@ -451,7 +577,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Feeble",
+     "tied": 3
+    }
    }
   },
   "31": {
@@ -468,7 +600,13 @@
    },
    "line": "Monarch. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Orleance",
+     "tied": 0
+    }
    }
   },
   "32": {
@@ -485,7 +623,13 @@
    },
    "line": "Regent. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Queen Isabel of France",
+     "tied": 0
+    }
    }
   },
   "33": {
@@ -502,7 +646,13 @@
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Green",
+     "tied": 0
+    }
    }
   },
   "34": {
@@ -516,7 +666,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Beadle",
+     "tied": 3
+    }
    }
   },
   "35": {
@@ -531,7 +687,13 @@
    },
    "line": "Impostor. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Dick",
+     "tied": 0
+    }
    }
   },
   "36": {
@@ -560,7 +722,13 @@
    },
    "line": "Roman Catholic Bishop of Lincoln (England). Appears in Henry VI, Part 1 and Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Patroclus",
+     "tied": 0
+    }
    }
   },
   "38": {
@@ -577,7 +745,13 @@
    },
    "line": "Lord Chancellor. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "James Tyrrel",
+     "tied": 0
+    }
    }
   },
   "39": {
@@ -594,7 +768,13 @@
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jeor Mormont",
+     "tied": 0
+    }
    }
   },
   "40": {
@@ -611,7 +791,13 @@
    },
    "line": "King of France. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "張嶷",
+     "tied": 0
+    }
    }
   },
   "41": {
@@ -625,7 +811,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Falstaff’s Page",
+     "tied": 0
+    }
    }
   },
   "42": {
@@ -642,7 +834,13 @@
    },
    "line": "Lord Lieutenant of Ireland. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Sir Walter Blunt",
+     "tied": 0
+    }
    }
   },
   "43": {
@@ -660,7 +858,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Buckingham",
+     "tied": 0
+    }
    }
   },
   "44": {
@@ -675,7 +879,13 @@
    },
    "line": "Aristocrat. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Daughter",
+     "tied": 0
+    }
    }
   },
   "45": {
@@ -690,7 +900,13 @@
    },
    "line": "Lady-in-waiting. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Boy (Richard III)",
+     "tied": 0
+    }
    }
   },
   "46": {
@@ -704,7 +920,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Brother",
+     "tied": 1
+    }
    }
   },
   "47": {
@@ -718,7 +940,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Osmund Kettleblack",
+     "tied": 0
+    }
    }
   },
   "48": {
@@ -736,7 +964,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Somerset (Henry VI, Part 3)",
+     "tied": 0
+    }
    }
   },
   "49": {
@@ -764,7 +998,13 @@
    },
    "line": "Constable of France. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Dauphin",
+     "tied": 0
+    }
    }
   },
   "51": {
@@ -790,7 +1030,13 @@
    },
    "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Monsieur Mabeuf",
+     "tied": 0
+    }
    }
   },
   "53": {
@@ -805,7 +1051,13 @@
    },
    "line": "Aristocrat. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Constable of France",
+     "tied": 0
+    }
    }
   },
   "54": {
@@ -831,7 +1083,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bevis",
+     "tied": 3
+    }
    }
   },
   "56": {
@@ -845,7 +1103,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Slender",
+     "tied": 0
+    }
    }
   },
   "57": {
@@ -860,7 +1124,13 @@
    },
    "line": "Prostitute. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Elmar Frey",
+     "tied": 0
+    }
    }
   },
   "58": {
@@ -874,7 +1144,13 @@
    },
    "line": "Appears in Richard III.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jon Connington",
+     "tied": 0
+    }
    }
   },
   "59": {
@@ -889,7 +1165,13 @@
    },
    "line": "Earl of Douglas. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Jean Prouvaire",
+     "tied": 0
+    }
    }
   },
   "60": {
@@ -904,7 +1186,13 @@
    },
    "line": "Aristocrat. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Osmund Kettleblack",
+     "tied": 0
+    }
    }
   },
   "61": {
@@ -930,7 +1218,13 @@
    },
    "line": "Aristocrat. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Sarpedon",
+     "tied": 0
+    }
    }
   },
   "63": {
@@ -947,7 +1241,13 @@
    },
    "line": "Earl of March. Appears in three plays.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Warwick",
+     "tied": 0
+    }
    }
   },
   "64": {
@@ -964,7 +1264,13 @@
    },
    "line": "Monarch of England. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Earl of Richmond",
+     "tied": 0
+    }
    }
   },
   "65": {
@@ -981,7 +1287,13 @@
    },
    "line": "Lord Warden of the Cinque Ports. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Alexander Court",
+     "tied": 1
+    }
    }
   },
   "66": {
@@ -998,7 +1310,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "刘姥姥",
+     "tied": 0
+    }
    }
   },
   "67": {
@@ -1015,7 +1333,13 @@
    },
    "line": "Lord Chancellor. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Iris",
+     "tied": 0
+    }
    }
   },
   "68": {
@@ -1029,7 +1353,13 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "賴升",
+     "tied": 0
+    }
    }
   },
   "69": {
@@ -1046,7 +1376,13 @@
    },
    "line": "Knight. Appears in three plays.",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "魏延",
+     "tied": 0
+    }
    }
   },
   "70": {
@@ -1061,7 +1397,13 @@
    },
    "line": "Soldier. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Helenus",
+     "tied": 0
+    }
    }
   },
   "71": {
@@ -1086,7 +1428,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bullcalf",
+     "tied": 3
+    }
    }
   },
   "73": {
@@ -1100,7 +1448,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Robin",
+     "tied": 0
+    }
    }
   },
   "74": {
@@ -1117,7 +1471,13 @@
    },
    "line": "Member of the House of Lords. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "John of Gaunt",
+     "tied": 0
+    }
    }
   },
   "75": {
@@ -1131,7 +1491,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Captain Gower",
+     "tied": 0
+    }
    }
   },
   "76": {
@@ -1201,7 +1567,13 @@
    },
    "line": "Duke of Lancaster. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Fitzwater",
+     "tied": 0
+    }
    }
   },
   "82": {
@@ -1215,7 +1587,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tom of Sevenstreams",
+     "tied": 0
+    }
    }
   },
   "83": {
@@ -1258,7 +1636,13 @@
    },
    "line": "Lord Warden of the Cinque Ports. Appears in four plays.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Agamemnon",
+     "tied": 0
+    }
    }
   },
   "86": {
@@ -1272,7 +1656,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Captain Fluellen",
+     "tied": 0
+    }
    }
   },
   "87": {
@@ -1300,7 +1690,13 @@
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bushy",
+     "tied": 0
+    }
    }
   },
   "89": {
@@ -1325,7 +1721,13 @@
    },
    "line": "Appears in Richard III.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Polydamus",
+     "tied": 0
+    }
    }
   },
   "91": {
@@ -1350,7 +1752,13 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Marshal",
+     "tied": 1
+    }
    }
   },
   "93": {
@@ -1364,7 +1772,13 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "First Herald",
+     "tied": 1
+    }
    }
   },
   "94": {
@@ -1378,7 +1792,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Madame Hucheloup",
+     "tied": 0
+    }
    }
   },
   "95": {
@@ -1405,7 +1825,13 @@
    },
    "line": "Lord. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aeneas",
+     "tied": 0
+    }
    }
   },
   "97": {
@@ -1422,7 +1848,13 @@
    },
    "line": "Duke of Hereford. Appears in three plays.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord John of Lancaster",
+     "tied": 0
+    }
    }
   },
   "98": {
@@ -1439,7 +1871,13 @@
    },
    "line": "Monarch of England. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Sir James Blunt",
+     "tied": 0
+    }
    }
   },
   "99": {
@@ -1459,7 +1897,13 @@
    },
    "line": "Monarch of England. Appears in four plays.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Achilles",
+     "tied": 0
+    }
    }
   },
   "100": {
@@ -1476,7 +1920,13 @@
    },
    "line": "Prince of Wales. Appears in three plays.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Anakin",
+     "tied": 0
+    }
    }
   },
   "101": {
@@ -1501,7 +1951,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bevis",
+     "tied": 2
+    }
    }
   },
   "103": {
@@ -1515,7 +1971,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Thump",
+     "tied": 0
+    }
    }
   },
   "104": {
@@ -1529,7 +1991,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Mistress Ford",
+     "tied": 0
+    }
    }
   },
   "105": {
@@ -1547,7 +2015,13 @@
    },
    "line": "High Sheriff of Flintshire. Appears in Henry IV, Part I and Richard II.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "李典",
+     "tied": 0
+    }
    }
   },
   "106": {
@@ -1561,7 +2035,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Page (The Merry Wives of Windsor)",
+     "tied": 0
+    }
    }
   },
   "107": {
@@ -1575,7 +2055,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Rick Boucher",
+     "tied": 0
+    }
    }
   },
   "108": {
@@ -1600,7 +2086,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Norfolk",
+     "tied": 1
+    }
    }
   },
   "110": {
@@ -1636,7 +2128,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Captain MacMorris",
+     "tied": 0
+    }
    }
   },
   "113": {
@@ -1661,7 +2159,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Robert",
+     "tied": 0
+    }
    }
   },
   "115": {
@@ -1676,7 +2180,13 @@
    },
    "line": "Businessperson. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bolingbroke",
+     "tied": 1
+    }
    }
   },
   "116": {
@@ -1691,7 +2201,13 @@
    },
    "line": "Prince. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Alice",
+     "tied": 0
+    }
    }
   },
   "117": {
@@ -1708,7 +2224,13 @@
    },
    "line": "King of France. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lady Bona",
+     "tied": 0
+    }
    }
   },
   "118": {
@@ -1725,7 +2247,13 @@
    },
    "line": "King of France. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Adamas",
+     "tied": 0
+    }
    }
   },
   "119": {
@@ -1739,7 +2267,13 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Abbot of Westminster",
+     "tied": 1
+    }
    }
   },
   "120": {
@@ -1754,7 +2288,13 @@
    },
    "line": "Consort. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Agenor",
+     "tied": 0
+    }
    }
   },
   "121": {
@@ -1771,7 +2311,13 @@
    },
    "line": "Duchess. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "King Lewis",
+     "tied": 0
+    }
    }
   },
   "122": {
@@ -1797,7 +2343,13 @@
    },
    "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Donald Manzullo",
+     "tied": 0
+    }
    }
   },
   "124": {
@@ -1845,7 +2397,13 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "賈蓉續娶之妻",
+     "tied": 0
+    }
    }
   },
   "128": {
@@ -1859,7 +2417,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Hagen",
+     "tied": 0
+    }
    }
   },
   "129": {
@@ -1872,7 +2436,13 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "First Herald",
+     "tied": 1
+    }
    }
   },
   "130": {
@@ -1889,7 +2459,13 @@
    },
    "line": "Lord Chamberlain. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "James Tyrrel",
+     "tied": 0
+    }
    }
   },
   "131": {
@@ -1903,7 +2479,13 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Shepherd",
+     "tied": 0
+    }
    }
   },
   "132": {
@@ -1917,7 +2499,13 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Second Messenger",
+     "tied": 1
+    }
    }
   },
   "133": {
@@ -1931,7 +2519,13 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "First Messenger",
+     "tied": 1
+    }
    }
   },
   "134": {
@@ -1945,7 +2539,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Fang",
+     "tied": 1
+    }
    }
   },
   "135": {
@@ -1958,7 +2558,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "翠縷",
+     "tied": 0
+    }
    }
   },
   "136": {
@@ -1972,7 +2578,13 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Alliser Thorne",
+     "tied": 0
+    }
    }
   },
   "137": {
@@ -1986,7 +2598,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Captain Jamy",
+     "tied": 0
+    }
    }
   },
   "138": {
@@ -2000,7 +2618,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Mistress Page",
+     "tied": 0
+    }
    }
   },
   "139": {
@@ -2025,7 +2649,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Sir Hugh",
+     "tied": 0
+    }
    }
   },
   "141": {
@@ -2064,7 +2694,13 @@
    },
    "line": "Sheriff of the City of London. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Chett",
+     "tied": 0
+    }
    }
   },
   "144": {
@@ -2078,7 +2714,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Beadle",
+     "tied": 3
+    }
    }
   },
   "145": {
@@ -2103,7 +2745,13 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Kitster",
+     "tied": 0
+    }
    }
   },
   "147": {
@@ -2117,7 +2765,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bevis",
+     "tied": 2
+    }
    }
   },
   "148": {
@@ -2131,7 +2785,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Host",
+     "tied": 0
+    }
    }
   },
   "149": {
@@ -2145,7 +2805,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Ford",
+     "tied": 0
+    }
    }
   },
   "150": {
@@ -2162,7 +2828,13 @@
    },
    "line": "Appears in four plays.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Justice Robert Shallow",
+     "tied": 0
+    }
    }
   },
   "151": {
@@ -2179,7 +2851,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Ilyn Payne",
+     "tied": 0
+    }
    }
   },
   "152": {
@@ -2204,7 +2882,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Grantaire",
+     "tied": 0
+    }
    }
   },
   "154": {
@@ -2242,7 +2926,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bullcalf",
+     "tied": 3
+    }
    }
   },
   "157": {
@@ -2269,7 +2959,13 @@
    },
    "line": "Duke of Norfolk. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "孟優",
+     "tied": 0
+    }
    }
   },
   "159": {
@@ -2286,7 +2982,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Iden",
+     "tied": 1
+    }
    }
   },
   "160": {
@@ -2303,7 +3005,13 @@
    },
    "line": "Member of the House of Lords. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Earl of Surrey",
+     "tied": 0
+    }
    }
   },
   "161": {
@@ -2320,7 +3028,13 @@
    },
    "line": "Lord Lieutenant of Sussex. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Shae",
+     "tied": 0
+    }
    }
   },
   "162": {
@@ -2339,7 +3053,13 @@
    },
    "line": "Member of the House of Lords. Appears in three plays.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "King Richard II",
+     "tied": 0
+    }
    }
   },
   "163": {
@@ -2354,7 +3074,13 @@
    },
    "line": "Appears in Henry V and The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "劉表",
+     "tied": 0
+    }
    }
   },
   "164": {
@@ -2368,7 +3094,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Gower",
+     "tied": 1
+    }
    }
   },
   "165": {
@@ -2382,7 +3114,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Fang",
+     "tied": 1
+    }
    }
   },
   "166": {
@@ -2411,7 +3149,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Emperor",
+     "tied": 0
+    }
    }
   },
   "168": {
@@ -2426,7 +3170,13 @@
    },
    "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Poins",
+     "tied": 0
+    }
    }
   },
   "169": {
@@ -2442,7 +3192,13 @@
    },
    "line": "Appears in three plays.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bardolph",
+     "tied": 0
+    }
    }
   },
   "170": {
@@ -2457,7 +3213,13 @@
    },
    "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Peto",
+     "tied": 0
+    }
    }
   },
   "171": {
@@ -2483,7 +3245,13 @@
    },
    "line": "Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Varys",
+     "tied": 0
+    }
    }
   },
   "173": {
@@ -2498,7 +3266,13 @@
    },
    "line": "Religious leader. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Sir Thomas Lovell",
+     "tied": 0
+    }
    }
   },
   "174": {
@@ -2525,7 +3299,13 @@
    },
    "line": "Consort. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Aemon Targaryen",
+     "tied": 0
+    }
    }
   },
   "176": {
@@ -2543,7 +3323,13 @@
    },
    "line": "Aristocrat. Appears in four plays.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Great Ajax",
+     "tied": 0
+    }
    }
   },
   "177": {
@@ -2560,7 +3346,13 @@
    },
    "line": "Regent. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duke of Burgundy",
+     "tied": 0
+    }
    }
   },
   "178": {
@@ -2574,7 +3366,13 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "伊籍",
+     "tied": 0
+    }
    }
   },
   "179": {
@@ -2599,7 +3397,13 @@
    },
    "line": "Appears in Richard III.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Polydamus",
+     "tied": 0
+    }
    }
   },
   "181": {
@@ -2614,7 +3418,13 @@
    },
    "line": "Duke of Anjou. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Captain Fluellen",
+     "tied": 1
+    }
    }
   },
   "182": {
@@ -2631,7 +3441,13 @@
    },
    "line": "Duke of Gloucester. Appears in three plays.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "King Henry VI",
+     "tied": 0
+    }
    }
   },
   "183": {
@@ -2648,7 +3464,13 @@
    },
    "line": "Monarch of England. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Earl of Northumberland",
+     "tied": 0
+    }
    }
   },
   "184": {
@@ -2664,7 +3486,13 @@
    },
    "line": "Aristocrat. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Lysa Arryn",
+     "tied": 0
+    }
    }
   },
   "185": {
@@ -2678,7 +3506,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "John",
+     "tied": 0
+    }
    }
   },
   "186": {
@@ -2692,7 +3526,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Fenton",
+     "tied": 0
+    }
    }
   },
   "187": {
@@ -2709,7 +3549,13 @@
    },
    "line": "Member of the House of Lords. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Willoughby",
+     "tied": 0
+    }
    }
   },
   "188": {
@@ -2723,7 +3569,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Edward Feighan",
+     "tied": 0
+    }
    }
   },
   "189": {
@@ -2749,7 +3601,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Chief Justice",
+     "tied": 0
+    }
    }
   },
   "191": {
@@ -2774,7 +3632,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Alexander Court",
+     "tied": 1
+    }
    }
   },
   "193": {
@@ -2788,7 +3652,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "John Bates",
+     "tied": 1
+    }
    }
   },
   "194": {
@@ -2802,7 +3672,13 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Montjoy",
+     "tied": 0
+    }
    }
   },
   "195": {
@@ -2827,7 +3703,13 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Claudius",
+     "tied": 1
+    }
    }
   },
   "197": {
@@ -2869,7 +3751,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Tom Snout",
+     "tied": 0
+    }
    }
   },
   "200": {
@@ -2886,7 +3774,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duke of York (Henry V)",
+     "tied": 0
+    }
    }
   },
   "201": {
@@ -2914,7 +3808,13 @@
    },
    "line": "Member of the 1447 Parliament. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Owen",
+     "tied": 0
+    }
    }
   },
   "203": {
@@ -2953,7 +3853,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bullcalf",
+     "tied": 3
+    }
    }
   },
   "206": {
@@ -2968,7 +3874,13 @@
    },
    "line": "Appears in Henry IV, Part II and The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Hostess",
+     "tied": 0
+    }
    }
   },
   "207": {
@@ -2983,7 +3895,13 @@
    },
    "line": "Farm operator. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lucy",
+     "tied": 0
+    }
    }
   },
   "208": {
@@ -3008,7 +3926,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "史文恭",
+     "tied": 0
+    }
    }
   },
   "210": {
@@ -3022,7 +3946,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Beadle",
+     "tied": 3
+    }
    }
   },
   "211": {
@@ -3036,7 +3966,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Beadle",
+     "tied": 3
+    }
    }
   },
   "212": {
@@ -3050,7 +3986,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Thetis",
+     "tied": 0
+    }
    }
   },
   "213": {
@@ -3075,7 +4017,13 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Ford",
+     "tied": 0
+    }
    }
   },
   "215": {
@@ -3089,7 +4037,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bevis",
+     "tied": 2
+    }
    }
   },
   "216": {
@@ -3107,7 +4061,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Stanley",
+     "tied": 0
+    }
    }
   },
   "217": {
@@ -3124,7 +4084,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Cobweb",
+     "tied": 2
+    }
    }
   },
   "218": {
@@ -3138,7 +4104,13 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "First Messenger",
+     "tied": 1
+    }
    }
   },
   "219": {
@@ -3162,7 +4134,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bolingbroke",
+     "tied": 1
+    }
    }
   },
   "221": {
@@ -3176,7 +4154,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Brother",
+     "tied": 1
+    }
    }
   },
   "222": {
@@ -3205,7 +4189,13 @@
    },
    "line": "Earl of Derby. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jeor Mormont",
+     "tied": 0
+    }
    }
   },
   "224": {
@@ -3221,7 +4211,13 @@
    },
    "line": "Earl. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Apollo",
+     "tied": 0
+    }
    }
   },
   "225": {
@@ -3238,7 +4234,13 @@
    },
    "line": "Earl Marshal. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Abbot of Westminster",
+     "tied": 1
+    }
    }
   },
   "226": {
@@ -3255,7 +4257,13 @@
    },
    "line": "Member of the Privy Council of the United Kingdom. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duke of Norfolk",
+     "tied": 0
+    }
    }
   },
   "227": {
@@ -3272,7 +4280,13 @@
    },
    "line": "Lord Lieutenant of Ireland. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jorah Mormont",
+     "tied": 0
+    }
    }
   },
   "228": {
@@ -3286,7 +4300,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Horner",
+     "tied": 0
+    }
    }
   },
   "229": {
@@ -3323,7 +4343,13 @@
    },
    "line": "Gentleman. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Lovell",
+     "tied": 0
+    }
    }
   },
   "232": {
@@ -3340,7 +4366,13 @@
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duke of Norfolk",
+     "tied": 1
+    }
    }
   },
   "233": {
@@ -3354,7 +4386,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 7
+    "lookAlikes": 7,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "E. Nelson",
+     "tied": 0
+    }
    }
   },
   "234": {
@@ -3379,7 +4417,13 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "李成",
+     "tied": 0
+    }
    }
   },
   "236": {
@@ -3393,7 +4437,13 @@
    },
    "line": "Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tomard",
+     "tied": 0
+    }
    }
   },
   "237": {
@@ -3407,7 +4457,13 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Second Watch",
+     "tied": 1
+    }
    }
   },
   "238": {
@@ -3421,7 +4477,13 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "First Watch",
+     "tied": 1
+    }
    }
   },
   "239": {
@@ -3435,7 +4497,13 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "First Watch",
+     "tied": 1
+    }
    }
   },
   "240": {
@@ -3449,7 +4517,13 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bullcalf",
+     "tied": 3
+    }
    }
   },
   "241": {
@@ -3465,7 +4539,13 @@
    },
    "line": "Appears in three plays.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Earl of Westmoreland",
+     "tied": 0
+    }
    }
   },
   "242": {
@@ -3483,7 +4563,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Obi-Wan",
+     "tied": 0
+    }
    }
   },
   "243": {
@@ -3502,7 +4588,13 @@
    },
    "line": "Member of the House of Lords. Appears in three plays.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Davos Seaworth",
+     "tied": 0
+    }
    }
   },
   "244": {
@@ -3519,7 +4611,13 @@
    },
    "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Iden",
+     "tied": 1
+    }
    }
   },
   "245": {
@@ -3555,7 +4653,13 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Clerk",
+     "tied": 1
+    }
    }
   },
   "248": {
@@ -3572,7 +4676,13 @@
    },
    "line": "Member of the House of Lords. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Ross",
+     "tied": 0
+    }
    }
   },
   "249": {
@@ -3601,7 +4711,13 @@
    },
    "line": "Lord High Admiral. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Peleus",
+     "tied": 0
+    }
    }
   },
   "251": {
@@ -3620,7 +4736,13 @@
    },
    "line": "Lord Lieutenant of Ireland. Appears in three plays.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Diomedes",
+     "tied": 0
+    }
    }
   },
   "252": {
@@ -3637,7 +4759,13 @@
    },
    "line": "Duke of York. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Earl of Salisbury (Henry V)",
+     "tied": 0
+    }
    }
   },
   "253": {
@@ -3654,7 +4782,13 @@
    },
    "line": "Governor of Brittany. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duke of Aumerle",
+     "tied": 0
+    }
    }
   }
  },

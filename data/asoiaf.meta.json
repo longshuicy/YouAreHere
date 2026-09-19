@@ -22,7 +22,13 @@
    },
    "line": "Ser, sworn to House Marbrand of Ashemark. Appears in three books.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "張大老爺",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -48,7 +54,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Eurus",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -63,7 +75,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "茗烟",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -80,7 +98,13 @@
    },
    "line": "Appears in all five books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Melisandre",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -126,7 +150,13 @@
    },
    "line": "Priest of the Drowned God, of the Ironborn, sworn to House Greyjoy of Pyke. Born in or between 269 AC and 273 AC, at Pyke. Appears in three books, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bevis",
+     "tied": 3
+    }
    }
   },
   "7": {
@@ -143,7 +173,13 @@
    },
    "line": "Appears in all five books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jon Arryn",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -182,7 +218,13 @@
    },
    "line": "Ko, of the Dothraki, sworn to House Targaryen of King's Landing. Appears in four books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Rakharo",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -265,7 +307,13 @@
    },
    "line": "Lord of Brightwater, sworn to House Florent of Brightwater Keep. Born at Brightwater Keep, died in 300 AC, at Dragonstone. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "張華",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -324,7 +372,13 @@
    },
    "line": "Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Adam",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -348,7 +402,13 @@
    },
    "line": "Ser, sworn to House Thorne. Born in 248 AC (roughly). Appears in four books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Aerys II Targaryen",
+     "tied": 0
+    }
    }
   },
   "20": {
@@ -441,7 +501,13 @@
    },
    "line": "Ser, sworn to House Lannister of Casterly Rock. Died in 299 AC, at Harrenhal. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Robert Mrazek",
+     "tied": 0
+    }
    }
   },
   "26": {
@@ -511,7 +577,13 @@
    },
    "line": "Born at Dornish Marches. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Laban",
+     "tied": 0
+    }
    }
   },
   "30": {
@@ -531,7 +603,13 @@
    },
    "line": "Lady of Ironoaks, sworn to House Waynwood of Ironoaks. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Lorren",
+     "tied": 0
+    }
    }
   },
   "31": {
@@ -572,7 +650,13 @@
    },
    "line": "Captain of the Guard at Sunspear, Norvoshi, sworn to House Nymeros Martell of Sunspear. Born in 257 AC or before, at Norvos. Appears in A Feast for Crows and A Dance with Dragons, every one of them through his eyes.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hazael",
+     "tied": 0
+    }
    }
   },
   "33": {
@@ -596,7 +680,13 @@
    },
    "line": "Princess of Dorne, Dornish, sworn to House Nymeros Martell of Sunspear. Born in 276 AC, at Sunspear. Appears in A Feast for Crows and A Dance with Dragons, one of them through her eyes.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mordecai",
+     "tied": 0
+    }
    }
   },
   "34": {
@@ -610,7 +700,13 @@
    },
    "line": "Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Thomas Tancredo",
+     "tied": 0
+    }
    }
   },
   "35": {
@@ -654,7 +750,13 @@
    },
    "line": "Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Styr",
+     "tied": 0
+    }
    }
   },
   "38": {
@@ -701,7 +803,13 @@
    },
    "line": "Princess, of the Northmen, sworn to House Stark of Winterfell. Born in 289 AC, at Winterfell. Appears in all five books, every one of them through her eyes.",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Sansa Stark",
+     "tied": 0
+    }
    }
   },
   "40": {
@@ -728,7 +836,13 @@
    },
    "line": "Ser, Reach, sworn to House Oakheart of Old Oak. Born at Old Oak, died in 300 AC, at the Greenblood. Appears in four books, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Gershon",
+     "tied": 0
+    }
    }
   },
   "41": {
@@ -756,7 +870,13 @@
    },
    "line": "Princess, of the Ironborn, sworn to House Greyjoy of Pyke. Born in 275 AC or 276 AC, at Pyke. Appears in three books, two of them through her eyes.",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zerubbabel",
+     "tied": 0
+    }
    }
   },
   "42": {
@@ -779,7 +899,13 @@
    },
    "line": "Grand admiral (master of ships), Valyrian, sworn to House Velaryon of Driftmark. Born in 277 AC or 278 AC. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Donald Pease",
+     "tied": 0
+    }
    }
   },
   "43": {
@@ -802,7 +928,13 @@
    },
    "line": "Ser, sworn to House Florent of Brightwater Keep. Appears in three books.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "英布",
+     "tied": 0
+    }
    }
   },
   "44": {
@@ -897,7 +1029,13 @@
    },
    "line": "Iron King. Died 299 AC, at Pyke. Appears in all five books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Falstaff’s Page",
+     "tied": 0
+    }
    }
   },
   "49": {
@@ -922,7 +1060,13 @@
    },
    "line": "Ser, Stormlands, sworn to House Swann of Stonehelm. Appears in all five books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "侍書",
+     "tied": 0
+    }
    }
   },
   "50": {
@@ -957,7 +1101,13 @@
    },
    "line": "Lady of Barrowton, of the Northmen, sworn to House Dustin of Barrowton. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Pindarus",
+     "tied": 0
+    }
    }
   },
   "52": {
@@ -986,7 +1136,13 @@
    },
    "line": "Ser, Westeros, sworn to House Selmy of Harvest Hall. Born in 237 AC. Appears in all five books, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "賈珍",
+     "tied": 0
+    }
    }
   },
   "53": {
@@ -1029,7 +1185,13 @@
    },
    "line": "Meereenese, sworn to House Targaryen of King's Landing. Appears in three books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jhogo",
+     "tied": 0
+    }
    }
   },
   "56": {
@@ -1057,7 +1219,13 @@
    },
    "line": "Commander of the Second Sons. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "蕊官",
+     "tied": 0
+    }
    }
   },
   "58": {
@@ -1127,7 +1295,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Boros Blount",
+     "tied": 0
+    }
    }
   },
   "63": {
@@ -1152,7 +1326,13 @@
    },
    "line": "Lord of Blackhaven, sworn to House Dondarrion of Blackhaven. Born in 276 AC or 277 AC, at Blackhaven, died in 300 AC (his seventh and final death), at the riverlands. Appears in four books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Rhaegar Targaryen",
+     "tied": 0
+    }
    }
   },
   "64": {
@@ -1239,7 +1419,13 @@
    },
    "line": "Ser, sworn to House Blount. Appears in all five books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "秋紋",
+     "tied": 0
+    }
    }
   },
   "70": {
@@ -1259,7 +1445,13 @@
    },
    "line": "Lord Steward. Appears in three books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jehoiada",
+     "tied": 0
+    }
    }
   },
   "71": {
@@ -1276,7 +1468,13 @@
    },
    "line": "Appears in all five books.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Menelaus",
+     "tied": 0
+    }
    }
   },
   "72": {
@@ -1290,7 +1488,13 @@
    },
    "line": "Appears in A Game of Thrones and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "秋桐",
+     "tied": 0
+    }
    }
   },
   "73": {
@@ -1343,7 +1547,13 @@
    },
    "line": "Sworn to House Baratheon of Storm's End. Born in 280 AC. Appears in four books, one of them through her eyes.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Antilochus",
+     "tied": 0
+    }
    }
   },
   "76": {
@@ -1368,7 +1578,13 @@
    },
    "line": "Ser, sworn to House Stokeworth of Stokeworth. Born in or between 264 AC and 268 AC. Appears in four books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "晴雯",
+     "tied": 0
+    }
    }
   },
   "77": {
@@ -1462,7 +1678,13 @@
    },
    "line": "Ser, of the Rivermen, sworn to House Arryn of the Eyrie. Born in or between 242 AC and 245 AC. Appears in all five books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Thrasymedes",
+     "tied": 0
+    }
    }
   },
   "82": {
@@ -1533,7 +1755,13 @@
    },
    "line": "Lady of Winterfell, of the Rivermen, sworn to House Stark of Winterfell. Born in 264 AC, at Riverrun, died in 299 AC, at the Twins. Appears in all five books, three of them through her eyes.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Robb Stark",
+     "tied": 0
+    }
    }
   },
   "86": {
@@ -1608,7 +1836,13 @@
    },
    "line": "Light of the West, Westerman, sworn to House Lannister of Casterly Rock. Born in 266 AC, at Casterly Rock. Appears in all five books, two of them through her eyes.",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Daniel Moynihan",
+     "tied": 0
+    }
    }
   },
   "90": {
@@ -1653,7 +1887,13 @@
    },
    "line": "Born at Hag's Mire, died in 299 AC, at Fist of the First Men. Appears in three books, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Mayor",
+     "tied": 0
+    }
    }
   },
   "93": {
@@ -1683,7 +1923,13 @@
    },
    "line": "Sworn to House Clegane. Died in 299 AC, at Harrenhal. Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Matthew McHugh",
+     "tied": 0
+    }
    }
   },
   "95": {
@@ -1761,7 +2007,13 @@
    },
    "line": "Ser, sworn to House Frey of the Crossing. Born in or between 258 AC and 275 AC, at Casterly Rock, died in 299 AC, at Riverlands. Appears in three books.",
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Owen",
+     "tied": 0
+    }
    }
   },
   "99": {
@@ -1827,7 +2079,13 @@
    },
    "line": "Born in 240 AC or before. Appears in four books.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Anne Bullen",
+     "tied": 0
+    }
    }
   },
   "103": {
@@ -1877,7 +2135,13 @@
    },
    "line": "Maester, sworn to House Arryn of the Eyrie. Appears in A Game of Thrones and A Feast for Crows.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "滕府尹",
+     "tied": 0
+    }
    }
   },
   "106": {
@@ -1927,7 +2191,13 @@
    },
    "line": "Ser, sworn to House Penrose of Parchments. Born at Parchments, died in 299 AC, at Storm's End. Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "孔太公",
+     "tied": 0
+    }
    }
   },
   "109": {
@@ -1946,7 +2216,13 @@
    },
    "line": "Commander of Eastwatch-by-the-Sea, of the Ironborn. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Artemidorus",
+     "tied": 1
+    }
    }
   },
   "110": {
@@ -1964,7 +2240,13 @@
    },
    "line": "Of the Free Folk. Died in 299 AC, at Craster's Keep. Appears in three books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Gilly",
+     "tied": 0
+    }
    }
   },
   "111": {
@@ -2000,7 +2282,13 @@
    },
    "line": "Maester. Born in 219 AC or 220 AC, died in 299 AC, at Dragonstone. Appears in A Clash of Kings and A Storm of Swords, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Osha",
+     "tied": 0
+    }
    }
   },
   "113": {
@@ -2026,7 +2314,13 @@
    },
    "line": "Tyroshi. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "司馬昭",
+     "tied": 0
+    }
    }
   },
   "115": {
@@ -2092,7 +2386,13 @@
    },
    "line": "Queen of the Andals and the Rhoynar and the First Men, Valyrian, sworn to House Targaryen of King's Landing. Born in 284 AC, at Dragonstone. Appears in four books, every one of them through her eyes.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "王夫人",
+     "tied": 0
+    }
    }
   },
   "118": {
@@ -2149,7 +2449,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Devan Seaworth",
+     "tied": 0
+    }
    }
   },
   "122": {
@@ -2255,7 +2561,13 @@
    },
    "line": "Ser, Westeros, sworn to House Baratheon of Dragonstone. Born in 260 AC or before, at King's Landing. Appears in three books, every one of them through his eyes.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Earl of Westmoreland",
+     "tied": 0
+    }
    }
   },
   "128": {
@@ -2290,7 +2602,13 @@
    },
    "line": "Ser, sworn to House Mallister of Seagard. Born in 245 AC or before, at Seagard. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Ben Plumm",
+     "tied": 0
+    }
    }
   },
   "130": {
@@ -2345,7 +2663,13 @@
    },
    "line": "Sworn to House Baratheon of Dragonstone. Born in 287 AC. Appears in three books.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Dalla",
+     "tied": 0
+    }
    }
   },
   "133": {
@@ -2405,7 +2729,13 @@
    },
    "line": "Sworn to House Baratheon of Storm's End. Born in or between 244 AC and 252 AC, died in 300 AC, at The Wall, near Castle Black. Appears in three books.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Calphurnia",
+     "tied": 0
+    }
    }
   },
   "137": {
@@ -2429,7 +2759,13 @@
    },
    "line": "Lady of Hornwood, of the Northmen, sworn to House Hornwood of Hornwood. Born in or before 249 AC, died in 299 AC, at Hornwood. Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Bill Archer",
+     "tied": 0
+    }
    }
   },
   "138": {
@@ -2453,7 +2789,13 @@
    },
    "line": "Ser, sworn to House Hollard. Born in or between 261 AC and 263 AC, at near Duskendale, died in 300 AC, at Blackwater Bay. Appears in three books.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Balthasar",
+     "tied": 0
+    }
    }
   },
   "139": {
@@ -2478,7 +2820,13 @@
    },
    "line": "Prince of Dorne, Dornish, sworn to House Nymeros Martell of Sunspear. Born in 247 AC or 248 AC, at Sunspear. Appears in four books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "贾兰",
+     "tied": 0
+    }
    }
   },
   "140": {
@@ -2495,7 +2843,13 @@
    },
    "line": "Sworn to House Lannister of Casterly Rock. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Cassandra",
+     "tied": 0
+    }
    }
   },
   "141": {
@@ -2516,7 +2870,13 @@
    },
    "line": "Lysene, sworn to House Targaryen of King's Landing. Born in 278 or 279 AC, died in 299 AC, at Red waste. Appears in A Game of Thrones and A Clash of Kings.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "陳豨",
+     "tied": 0
+    }
    }
   },
   "142": {
@@ -2555,7 +2915,13 @@
    },
    "line": "Khal, of the Dothraki. Born in or around 267 AC, died in 298 AC, at Dothraki sea. Appears in four books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "司馬昭",
+     "tied": 0
+    }
    }
   },
   "144": {
@@ -2575,7 +2941,13 @@
    },
    "line": "Sworn to House Clegane. Appears in four books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tickler",
+     "tied": 0
+    }
    }
   },
   "145": {
@@ -2611,7 +2983,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Mardian",
+     "tied": 0
+    }
    }
   },
   "147": {
@@ -2655,7 +3033,13 @@
    },
    "line": "Lord of Winterfell, of the Northmen, sworn to House Stark of Winterfell. Born in 263 AC, at Winterfell, died in 299 AC, at Great Sept of Baelor in King's Landing. Appears in all five books, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Robert Baratheon",
+     "tied": 0
+    }
    }
   },
   "149": {
@@ -2671,7 +3055,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Adonijah",
+     "tied": 0
+    }
    }
   },
   "150": {
@@ -2697,7 +3087,13 @@
    },
    "line": "Ser, of the Rivermen, sworn to House Tully of Riverrun. Born in or between 267 AC and 274 AC. Appears in four books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Ramsay Snow",
+     "tied": 0
+    }
    }
   },
   "151": {
@@ -2715,7 +3111,13 @@
    },
    "line": "Sworn to House Baratheon of Storm's End. Born in 287 AC. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Barbara Kennelly",
+     "tied": 0
+    }
    }
   },
   "152": {
@@ -2771,7 +3173,13 @@
    },
    "line": "Princess, sworn to House Nymeros Martell of Sunspear. Born in 256 AC or 257 AC, died in 283 AC, at King's Landing. Appears in three books.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-as-you-like-it",
+     "story": "As You Like It",
+     "name": "Hymen",
+     "tied": 1
+    }
    }
   },
   "155": {
@@ -2807,7 +3215,13 @@
    },
    "line": "Dornish, sworn to House Nymeros Martell of Sunspear. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Doeg the Edomite",
+     "tied": 0
+    }
    }
   },
   "157": {
@@ -2825,7 +3239,13 @@
    },
    "line": "Sworn to House Frey of the Crossing. Born in 290 AC. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Doll Tearsheet",
+     "tied": 0
+    }
    }
   },
   "158": {
@@ -2877,7 +3297,13 @@
    },
    "line": "Lord of Riverrun, sworn to House Frey of Riverrun. Born in 237 AC or 238 AC. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Ed Pastor",
+     "tied": 0
+    }
    }
   },
   "161": {
@@ -2946,7 +3372,13 @@
    },
    "line": "Iron King, of the Ironborn. Born or before 267 AC. Appears in three books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Dick",
+     "tied": 0
+    }
    }
   },
   "165": {
@@ -3032,7 +3464,13 @@
    },
    "line": "Green Grace, Ghiscari. Born in 217 AC (roughly), at Meereen. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Mirri Maz Duur",
+     "tied": 0
+    }
    }
   },
   "171": {
@@ -3056,7 +3494,13 @@
    },
    "line": "Master of Deepwood Motte, of the Northmen, sworn to House Glover of Deepwood Motte. Born at Deepwood Motte. Appears in three books.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Alexander Court",
+     "tied": 2
+    }
    }
   },
   "172": {
@@ -3082,7 +3526,13 @@
    },
    "line": "Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Dave Camp",
+     "tied": 0
+    }
    }
   },
   "174": {
@@ -3106,7 +3556,13 @@
    },
    "line": "Ser, sworn to House Tyrell of Brightwater Keep. Born in 277 AC, at Highgarden. Appears in three books.",
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "shakespeare-hamlet",
+     "story": "Hamlet",
+     "name": "Osric",
+     "tied": 0
+    }
    }
   },
   "175": {
@@ -3182,7 +3638,13 @@
    },
    "line": "Ser. Born in 284 AC, at King's Landing. Appears in four books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Bowen Marsh",
+     "tied": 0
+    }
    }
   },
   "180": {
@@ -3245,7 +3707,13 @@
    },
    "line": "Ser, sworn to House Hightower of the Hightower. Died in 283 AC, at Tower of Joy. Appears in A Game of Thrones and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Galbart Glover",
+     "tied": 0
+    }
    }
   },
   "183": {
@@ -3267,7 +3735,13 @@
    },
    "line": "Ser, Dornish, sworn to House Drinkwater. Born in 275 AC. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Anguy",
+     "tied": 0
+    }
    }
   },
   "184": {
@@ -3301,7 +3775,13 @@
    },
    "line": "Of the Free Folk. Born in either 282 AC, 283 AC or 284 AC, at Craster's Keep. Appears in three books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Craster",
+     "tied": 0
+    }
    }
   },
   "186": {
@@ -3341,7 +3821,13 @@
    },
    "line": "Ser, sworn to House Baratheon of Dragonstone. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Young Cato",
+     "tied": 0
+    }
    }
   },
   "188": {
@@ -3407,7 +3893,13 @@
    },
    "line": "Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Steny Hoyer",
+     "tied": 0
+    }
    }
   },
   "193": {
@@ -3435,7 +3927,13 @@
    },
    "line": "Ser, sworn to House Clegane. Born in 265 AC or 266 AC, died in 300 AC. Appears in all five books.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "紫鵑",
+     "tied": 0
+    }
    }
   },
   "194": {
@@ -3455,7 +3953,13 @@
    },
    "line": "Westeros. Born in 281 AC or 282 AC. Appears in all five books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Casca",
+     "tied": 0
+    }
    }
   },
   "195": {
@@ -3487,7 +3991,13 @@
    },
    "line": "Sworn to House Targaryen of King's Landing. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Walder Frey (son of Merrett)",
+     "tied": 0
+    }
    }
   },
   "197": {
@@ -3533,7 +4043,13 @@
    },
    "line": "Captain, Pentoshi, sworn to House Targaryen of King's Landing. Died in 300 AC, at Meereen. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "灌嬰",
+     "tied": 0
+    }
    }
   },
   "200": {
@@ -3625,7 +4141,13 @@
    },
    "line": "Lord of Rosby, sworn to House Rosby of Rosby. Died in 300 AC, at King's Landing. Appears in three books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Qyburn",
+     "tied": 0
+    }
    }
   },
   "205": {
@@ -3653,7 +4175,13 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Bardolph",
+     "tied": 0
+    }
    }
   },
   "207": {
@@ -3672,7 +4200,13 @@
    },
    "line": "Bloodrider of Khal Drogo, of the Dothraki. Died in 298 AC, at Dothraki sea. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jaqen Hghar",
+     "tied": 0
+    }
    }
   },
   "208": {
@@ -3700,7 +4234,13 @@
    },
    "line": "Born in 281 AC or 282 AC. Appears in A Game of Thrones and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Dywen",
+     "tied": 0
+    }
    }
   },
   "210": {
@@ -3717,7 +4257,13 @@
    },
    "line": "Sworn to House Targaryen of King's Landing. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Amnon",
+     "tied": 0
+    }
    }
   },
   "211": {
@@ -3740,7 +4286,13 @@
    },
    "line": "Captain of the guards for Winterfell, of the Northmen, sworn to House Mollen. Appears in A Game of Thrones and A Clash of Kings.",
    "signals": {
-    "lookAlikes": 9
+    "lookAlikes": 9,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Pandarus",
+     "tied": 0
+    }
    }
   },
   "212": {
@@ -3773,7 +4325,13 @@
    },
    "line": "Grand Maester. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "殷開山",
+     "tied": 0
+    }
    }
   },
   "214": {
@@ -3789,7 +4347,13 @@
    },
    "line": "Of the Free Folk. Died in 300 AC, at The Wall. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jehozabad",
+     "tied": 0
+    }
    }
   },
   "215": {
@@ -3878,7 +4442,13 @@
    },
    "line": "Of the Northmen, sworn to House Stark of Winterfell. Born in 271 AC or later. Appears in A Game of Thrones and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Miriam",
+     "tied": 0
+    }
    }
   },
   "220": {
@@ -3903,7 +4473,13 @@
    },
    "line": "Knight of Cornfield, sworn to House Swyft of Cornfield. Appears in three books.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Sam Farr",
+     "tied": 0
+    }
    }
   },
   "221": {
@@ -4003,7 +4579,13 @@
    },
    "line": "Appears in A Feast for Crows and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Mardian",
+     "tied": 0
+    }
    }
   },
   "228": {
@@ -4025,7 +4607,13 @@
    },
    "line": "King of Meereen, Ghiscari. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Paul the Apostle",
+     "tied": 0
+    }
    }
   },
   "229": {
@@ -4041,7 +4629,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Leitus",
+     "tied": 0
+    }
    }
   },
   "230": {
@@ -4061,7 +4655,13 @@
    },
    "line": "Sworn to House Stark of Winterfell. Appears in four books.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Meera Reed",
+     "tied": 0
+    }
    }
   },
   "231": {
@@ -4148,7 +4748,13 @@
    },
    "line": "Lord Paramount of the Trident, of the Rivermen, sworn to House Tully of Riverrun. Born in or between 237 AC and 240 AC, died in 299 AC, at Riverrun. Appears in three books.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Montjoy",
+     "tied": 0
+    }
    }
   },
   "236": {
@@ -4163,7 +4769,13 @@
    },
    "line": "Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 5
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "漢文帝",
+     "tied": 0
+    }
    }
   },
   "237": {
@@ -4242,7 +4854,13 @@
    },
    "line": "Master of horse at Winterfell, of the Northmen, sworn to House Stark of Winterfell. Died in 298 AC, at King's Landing. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Floyd Spence",
+     "tied": 0
+    }
    }
   },
   "241": {
@@ -4290,7 +4908,13 @@
    },
    "line": "Ser, sworn to House Hunt. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Nestor Royce",
+     "tied": 0
+    }
    }
   },
   "244": {
@@ -4329,7 +4953,13 @@
    },
    "line": "Magister of Pentos, Pentoshi, sworn to House Targaryen of King's Landing. Born at Pentos. Appears in three books.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tickler",
+     "tied": 0
+    }
    }
   },
   "246": {
@@ -4354,7 +4984,13 @@
    },
    "line": "Ser King's Justice, Westeros, sworn to House Payne. Appears in all five books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Myrcella Baratheon",
+     "tied": 0
+    }
    }
   },
   "247": {
@@ -4376,7 +5012,13 @@
    },
    "line": "Of the Dothraki, sworn to House Targaryen of King's Landing. Born in 283 AC or 284 AC. Appears in four books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "丁奉",
+     "tied": 0
+    }
    }
   },
   "248": {
@@ -4400,7 +5042,13 @@
    },
    "line": "Ser, sworn to House Bywater. Died in 299 AC, at King's Landing. Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Mayor (Henry VI, Part 1)",
+     "tied": 0
+    }
    }
   },
   "249": {
@@ -4445,7 +5093,13 @@
    },
    "line": "Ser, Westerlands, sworn to House Lannister of Casterly Rock. Born in 266 AC, at Casterly Rock. Appears in all five books, three of them through his eyes.",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Dennis DeConcini",
+     "tied": 0
+    }
    }
   },
   "251": {
@@ -4486,7 +5140,13 @@
    },
    "line": "Commander of the City Watch Lord of Harrenhal, sworn to House Slynt of Harrenhal. Born in or between 278 AC and 260 AC, at King's Landing, died in 300 AC, at Castle Black. Appears in four books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Mace Tyrell",
+     "tied": 0
+    }
    }
   },
   "253": {
@@ -4499,7 +5159,13 @@
    },
    "line": "Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Haggo",
+     "tied": 0
+    }
    }
   },
   "254": {
@@ -4551,7 +5217,13 @@
    },
    "line": "Of the Free Folk. Died in 299 AC, at the Wall. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Styr",
+     "tied": 0
+    }
    }
   },
   "257": {
@@ -4616,7 +5288,13 @@
    },
    "line": "Lord of Bear Island (formerly), of the Northmen, sworn to House Mormont of Bear Island. Born in 230 AC, died in 299 AC, at Craster's Keep. Appears in all five books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Sir William Catesby",
+     "tied": 0
+    }
    }
   },
   "260": {
@@ -4636,7 +5314,13 @@
    },
    "line": "Of the Northmen, sworn to House Poole. Born at Winterfell. Appears in A Game of Thrones and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "James Moran",
+     "tied": 0
+    }
    }
   },
   "261": {
@@ -4669,7 +5353,13 @@
    },
    "line": "Of the Dothraki, sworn to House Targaryen of King's Landing. Born in 284 AC. Appears in four books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Skahaz mo Kandaq",
+     "tied": 0
+    }
    }
   },
   "263": {
@@ -4695,7 +5385,13 @@
    },
    "line": "Ko, of the Dothraki, sworn to House Targaryen of King's Landing. Born in or between 281 AC and 283 AC, at Dothraki sea. Appears in four books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Skahaz mo Kandaq",
+     "tied": 0
+    }
    }
   },
   "264": {
@@ -4734,7 +5430,13 @@
    },
    "line": "King of the Andals. Born 286 AC, at King's Landing, died 300 AC, at Red Keep, King's Landing. Appears in all five books.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Eddard Stark",
+     "tied": 0
+    }
    }
   },
   "266": {
@@ -4755,7 +5457,13 @@
    },
    "line": "Of the Crannogmen, sworn to House Reed of Greywater Watch. Born in 286 AC, at Greywater Watch. Appears in three books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Meera Reed",
+     "tied": 0
+    }
    }
   },
   "267": {
@@ -4798,7 +5506,13 @@
    },
    "line": "Lord of the Eyrie, of the Valemen, sworn to House Arryn of the Eyrie. Born in or between 217 AC and 220 AC (roughly), at the Eyrie, died in 298 AC, at King's Landing. Appears in three books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Aerys II Targaryen",
+     "tied": 0
+    }
    }
   },
   "269": {
@@ -4824,7 +5538,13 @@
    },
    "line": "Lord of Griffin's Roost, Stormlands, sworn to House Connington of Griffin's Roost. Born in or between 263 AC and 265 AC. Appears in A Dance with Dragons, every one of them through his eyes.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Marquess of Dorset",
+     "tied": 0
+    }
    }
   },
   "270": {
@@ -4851,7 +5571,13 @@
    },
    "line": "Lord Commander of the Night's Watch, of the Northmen, sworn to House Stark of Winterfell. Born in 283 AC. Appears in all five books, four of them through his eyes.",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tyrion Lannister",
+     "tied": 0
+    }
    }
   },
   "271": {
@@ -4867,7 +5593,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Anthony Beilenson",
+     "tied": 0
+    }
    }
   },
   "272": {
@@ -4941,7 +5673,13 @@
    },
    "line": "Ser, of the Northmen, sworn to House Mormont of Bear Island. Born in 254 AC (roughly). Appears in four books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Talbot",
+     "tied": 0
+    }
    }
   },
   "276": {
@@ -4980,7 +5718,13 @@
    },
    "line": "Captain of the guard, of the Northmen, sworn to House Cassel. Born at Winterfell, died in 298 AC, at King's Landing. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "芳官",
+     "tied": 0
+    }
    }
   },
   "278": {
@@ -5102,7 +5846,13 @@
    },
    "line": "Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abijah",
+     "tied": 0
+    }
    }
   },
   "286": {
@@ -5131,7 +5881,13 @@
    },
    "line": "Ser, sworn to House Lannister of Casterly Rock. Born in 244 AC, died in 300 AC, at King's Landing. Appears in four books, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Bail Organa",
+     "tied": 0
+    }
    }
   },
   "287": {
@@ -5261,7 +6017,13 @@
    },
    "line": "Ser, sworn to House Lannister of Casterly Rock. Born in 282 AC. Appears in all five books.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Calchas",
+     "tied": 0
+    }
    }
   },
   "296": {
@@ -5319,7 +6081,13 @@
    },
    "line": "Sworn to House Osgrey of Standfast. Born in or around 161 AC. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Aegon Targaryen",
+     "tied": 0
+    }
    }
   },
   "300": {
@@ -5332,7 +6100,13 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Yandry",
+     "tied": 0
+    }
    }
   },
   "301": {
@@ -5420,7 +6194,13 @@
    },
    "line": "Lady of Stokeworth, sworn to House Stokeworth of Stokeworth. Born in 265 AC. Appears in three books.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Haggith",
+     "tied": 0
+    }
    }
   },
   "306": {
@@ -5433,7 +6213,13 @@
    },
    "line": "Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jephunneh",
+     "tied": 0
+    }
    }
   },
   "307": {
@@ -5459,7 +6245,13 @@
    },
    "line": "Ser, Reach, sworn to House Tyrell of Highgarden. Born in 282 AC, at Highgarden. Appears in four books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "薛宝琴",
+     "tied": 0
+    }
    }
   },
   "308": {
@@ -5475,7 +6267,13 @@
    },
    "line": "Died in 299 AC, at Winterfell. Appears in A Clash of Kings and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Anya Waynwood",
+     "tied": 0
+    }
    }
   },
   "309": {
@@ -5497,7 +6295,13 @@
    },
    "line": "Steward of the Twins, of the Rivermen, sworn to House Frey of the Crossing. Born in 265 AC or 266 AC, at Twins. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Miriam",
+     "tied": 0
+    }
    }
   },
   "310": {
@@ -5538,7 +6342,13 @@
    },
    "line": "Westeros, sworn to House Stark of Winterfell. Died in 299 AC, at Winterfell. Appears in four books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Montague",
+     "tied": 0
+    }
    }
   },
   "312": {
@@ -5638,7 +6448,13 @@
    },
    "line": "Lady of the Vale, sworn to House Arryn of the Eyrie. Born in 266 AC or 267 AC, at Riverrun, died in 300 AC, at the Eyrie. Appears in four books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Bronn",
+     "tied": 0
+    }
    }
   },
   "317": {
@@ -5668,7 +6484,13 @@
    },
    "line": "Lord of Highgarden, sworn to House Tyrell of Highgarden. Born in After 256 AC. Appears in all five books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Janos Slynt",
+     "tied": 0
+    }
    }
   },
   "318": {
@@ -5771,7 +6593,13 @@
    },
    "line": "King-Beyond-the-Wall, of the Free Folk. Born , at Beyond the Wall. Appears in four books.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Gregor Clegane",
+     "tied": 0
+    }
    }
   },
   "325": {
@@ -5794,7 +6622,13 @@
    },
    "line": "Ser, of the Valemen, sworn to House Moore. Died in 299 AC, at the Blackwater Rush. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Olenna Redwyne",
+     "tied": 0
+    }
    }
   },
   "326": {
@@ -5819,7 +6653,13 @@
    },
    "line": "Queen of the Seven Kingdoms, Westeros, sworn to House Tyrell of Highgarden. Born in 283 AC, at Highgarden. Appears in four books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "尤氏",
+     "tied": 0
+    }
    }
   },
   "327": {
@@ -5837,7 +6677,13 @@
    },
    "line": "Born in 279 AC or 280 AC, died in 300 AC, at the Eyrie. Appears in three books.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Poseidon",
+     "tied": 0
+    }
    }
   },
   "328": {
@@ -5894,7 +6740,13 @@
    },
    "line": "Ser, of the Rivermen, sworn to House Piper of Pinkmaiden. Born at Pinkmaiden Castle. Appears in A Game of Thrones and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Eddie Johnson",
+     "tied": 0
+    }
    }
   },
   "331": {
@@ -5975,7 +6827,13 @@
    },
    "line": "Lord of Goldengrove, Reach, sworn to House Rowan of Goldengrove. Appears in three books.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Shepherd",
+     "tied": 0
+    }
    }
   },
   "336": {
@@ -5996,7 +6854,13 @@
    },
    "line": "Of the Crannogmen, sworn to House Reed of Greywater Watch. Born in 283 AC, at Greywater Watch. Appears in three books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Hodor",
+     "tied": 0
+    }
    }
   },
   "337": {
@@ -6066,7 +6930,13 @@
    },
    "line": "Asshai. Born at Unknown. Appears in four books, one of them through her eyes.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Ares",
+     "tied": 0
+    }
    }
   },
   "341": {
@@ -6160,7 +7030,13 @@
    },
    "line": "Ser, sworn to House Trant of Gallowsgrey. Appears in all five books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Ilyn Payne",
+     "tied": 0
+    }
    }
   },
   "347": {
@@ -6230,7 +7106,13 @@
    },
    "line": "Godswife, Lhazareen. Born in 257 AC, 258 AC or 259 AC, at Essos. Either in Lhazar, or in an unnamed Lhazareen settlement of the Dothraki sea., died in 299 AC, at the red waste. Appears in A Game of Thrones and A Clash of Kings.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Galazza Galare",
+     "tied": 0
+    }
    }
   },
   "351": {
@@ -6250,7 +7132,13 @@
    },
    "line": "Naathi, sworn to House Targaryen of King's Landing. Born in 288 AC or 289 AC, at Naath. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "夏金桂",
+     "tied": 0
+    }
    }
   },
   "352": {
@@ -6348,7 +7236,13 @@
    },
    "line": "Septa, sworn to House Stark of Winterfell. Died in 298 AC, at King's Landing. Appears in A Game of Thrones and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Young Lucius",
+     "tied": 0
+    }
    }
   },
   "358": {
@@ -6412,7 +7306,13 @@
    },
    "line": "Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 5
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Rekem",
+     "tied": 0
+    }
    }
   },
   "362": {
@@ -6507,7 +7407,13 @@
    },
    "line": "Princess, sworn to House Baratheon of King's Landing. Born in 290 AC, at King's Landing. Appears in all five books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Ilyn Payne",
+     "tied": 0
+    }
    }
   },
   "368": {
@@ -6527,7 +7433,13 @@
    },
    "line": "Sworn to House Stark of Winterfell. Appears in four books.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Peter",
+     "tied": 0
+    }
    }
   },
   "369": {
@@ -6555,7 +7467,13 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tallad",
+     "tied": 0
+    }
    }
   },
   "371": {
@@ -6577,7 +7495,13 @@
    },
    "line": "Keeper of the Gates of the Moon, sworn to House Royce of the Gates of the Moon. Appears in A Game of Thrones and A Feast for Crows.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Hyle Hunt",
+     "tied": 0
+    }
    }
   },
   "372": {
@@ -6642,7 +7566,13 @@
    },
    "line": "Dornish, sworn to House Nymeros Martell of Sunspear. Born in 271 AC or 272 AC, at Oldtown. Appears in A Feast for Crows and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "呂不韋",
+     "tied": 0
+    }
    }
   },
   "376": {
@@ -6657,7 +7587,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "邢岫烟",
+     "tied": 0
+    }
    }
   },
   "377": {
@@ -6696,7 +7632,13 @@
    },
    "line": "Dowager Lady of Highgarden, sworn to House Redwyne of the Arbor. Born in 228 AC, at Arbor. Appears in A Storm of Swords and A Feast for Crows.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Mandon Moore",
+     "tied": 0
+    }
    }
   },
   "379": {
@@ -6748,7 +7690,13 @@
    },
    "line": "Lord of Longtable, sworn to House Merryweather of Longtable. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "王仁",
+     "tied": 0
+    }
    }
   },
   "382": {
@@ -6786,7 +7734,13 @@
    },
    "line": "Of the Free Folk, sworn to House Stark of Winterfell. Appears in A Game of Thrones and A Clash of Kings.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Cressen",
+     "tied": 0
+    }
    }
   },
   "384": {
@@ -6808,7 +7762,13 @@
    },
    "line": "Ser, sworn to House Kettleblack. Appears in three books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duchess",
+     "tied": 0
+    }
    }
   },
   "385": {
@@ -6830,7 +7790,13 @@
    },
    "line": "Ser, sworn to House Kettleblack. Appears in three books.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Leitus",
+     "tied": 0
+    }
    }
   },
   "386": {
@@ -6886,7 +7852,13 @@
    },
    "line": "First Builder, sworn to House Yarwyck. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Rattleshirt",
+     "tied": 0
+    }
    }
   },
   "389": {
@@ -6922,7 +7894,13 @@
    },
    "line": "Died at Stepstones. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Artemidorus",
+     "tied": 1
+    }
    }
   },
   "391": {
@@ -7012,7 +7990,13 @@
    },
    "line": "Lord of the Arbor, sworn to House Redwyne of the Arbor. Appears in four books.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Poggle",
+     "tied": 1
+    }
    }
   },
   "397": {
@@ -7027,7 +8011,13 @@
    },
    "line": "Born in 281 AC, 282 AC or 283 AC. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Eurymachus",
+     "tied": 0
+    }
    }
   },
   "398": {
@@ -7076,7 +8066,13 @@
    },
    "line": "Master of coin (formerly), of the Valemen, sworn to House Baelish of Harrenhal. Born in 268 AC, at the Fingers. Appears in all five books.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tywin Lannister",
+     "tied": 0
+    }
    }
   },
   "400": {
@@ -7127,7 +8123,13 @@
    },
    "line": "Sworn to House Payne. Born in 286 AC or 287 AC. Appears in three books.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Claquesous",
+     "tied": 0
+    }
    }
   },
   "403": {
@@ -7149,7 +8151,13 @@
    },
    "line": "Castellan of Harrenhal, sworn to House Clegane. Died in 300 AC, at Inn at the Crossroads. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Iris",
+     "tied": 0
+    }
    }
   },
   "404": {
@@ -7250,7 +8258,13 @@
    },
    "line": "Grand Maester, sworn to House Baratheon of King's Landing. Born in 216 AC, died in 300 AC, at the Red Keep, King's Landing. Appears in all five books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Bronn",
+     "tied": 0
+    }
    }
   },
   "410": {
@@ -7281,7 +8295,13 @@
    },
    "line": "Maester. Born in 273 AC or 274 AC. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jaqen Hghar",
+     "tied": 0
+    }
    }
   },
   "412": {
@@ -7298,7 +8318,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Grenn",
+     "tied": 0
+    }
    }
   },
   "413": {
@@ -7350,7 +8376,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Metellus Cimber",
+     "tied": 0
+    }
    }
   },
   "417": {
@@ -7369,7 +8401,13 @@
    },
    "line": "Bloodrider of Khal Drogo, of the Dothraki. Died in 298 AC, at Dothraki sea. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "劉璝",
+     "tied": 0
+    }
    }
   },
   "418": {
@@ -7427,7 +8465,13 @@
    },
    "line": "Prince, Dornish, sworn to House Nymeros Martell of Sunspear. Born in 281 AC, at Sunspear, Dorne, died in 300 AC, at Meereen. Appears in A Feast for Crows and A Dance with Dragons, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Daario Naharis",
+     "tied": 0
+    }
    }
   },
   "421": {
@@ -7463,7 +8507,13 @@
    },
    "line": "Master of whisperers, sworn to House Lannister of Casterly Rock. Born in 217AC or after. Appears in four books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Gyles Rosby",
+     "tied": 0
+    }
    }
   },
   "423": {
@@ -7484,7 +8534,13 @@
    },
    "line": "Sworn to House Clegane. Died in 300 AC, at Braavos. Appears in four books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Polliver",
+     "tied": 0
+    }
    }
   },
   "424": {
@@ -7509,7 +8565,13 @@
    },
    "line": "Ko, of the Dothraki, sworn to House Targaryen of King's Landing. Appears in four books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Aggo",
+     "tied": 0
+    }
    }
   },
   "425": {
@@ -7553,7 +8615,13 @@
    },
    "line": "Lord of the Hornwood, of the Northmen, sworn to House Bolton of the Dreadfort. Born in 282 AC or before. Appears in three books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Edmure Tully",
+     "tied": 0
+    }
    }
   },
   "427": {
@@ -7579,7 +8647,13 @@
    },
    "line": "Lord of Horn Hill, sworn to House Tarly of Horn Hill. Appears in all five books.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Mel Levine",
+     "tied": 0
+    }
    }
   },
   "428": {
@@ -7594,7 +8668,13 @@
    },
    "line": "Died in +/- 299 AC, at Castle Black. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Willis Wode",
+     "tied": 0
+    }
    }
   },
   "429": {
@@ -7609,7 +8689,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Ygritte",
+     "tied": 0
+    }
    }
   },
   "430": {
@@ -7697,7 +8783,13 @@
    },
    "line": "Lord Paramount of the Stormlands, Stormlands, sworn to House Baratheon of Storm's End. Born in 277 AC, died in 299 AC, at Storm's End. Appears in four books.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aeneas",
+     "tied": 0
+    }
    }
   },
   "435": {
@@ -7760,7 +8852,13 @@
    },
    "line": "Prince of Dragonstone, Valyrian, sworn to House Targaryen of King's Landing. Born in 259 AC, at Summerhall, died in 283 AC, at the Trident. Appears in all five books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duchess",
+     "tied": 0
+    }
    }
   },
   "438": {
@@ -7836,7 +8934,13 @@
    },
    "line": "Lord of Karhold, of the Northmen, sworn to House Karstark of Karhold. Born at Karhold, died in 299 AC, at Riverrun (executed). Appears in four books.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Albert Bustamante",
+     "tied": 0
+    }
    }
   },
   "442": {
@@ -7873,7 +8977,13 @@
    },
    "line": "Prince of Winterfell, of the Northmen, sworn to House Stark of Winterfell. Born in 295 AC, at Winterfell. Appears in all five books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Cobweb",
+     "tied": 2
+    }
    }
   },
   "444": {
@@ -7918,7 +9028,13 @@
    },
    "line": "King in the North. Born 283 AC, at Riverrun, died 299 AC, at the Twins. Appears in all five books.",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Catelyn Stark",
+     "tied": 0
+    }
    }
   },
   "446": {
@@ -7945,7 +9061,13 @@
    },
    "line": "Lord of the Eyrie, of the Valemen, sworn to House Arryn of the Eyrie. Born in 292 AC. Appears in four books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "張都監",
+     "tied": 0
+    }
    }
   },
   "447": {
@@ -7962,7 +9084,13 @@
    },
    "line": "Appears in all five books.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Eddard Stark",
+     "tied": 0
+    }
    }
   },
   "448": {
@@ -7993,7 +9121,13 @@
    },
    "line": "Of the Northmen, sworn to House Glover of Deepwood Motte. Born at Deepwood Motte. Appears in three books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mark",
+     "tied": 0
+    }
    }
   },
   "450": {
@@ -8060,7 +9194,13 @@
    },
    "line": "Ser, of the Northmen, sworn to House Cassel. Died in 299 AC, at Winterfell. Appears in four books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "周二爺",
+     "tied": 0
+    }
    }
   },
   "453": {
@@ -8084,7 +9224,13 @@
    },
    "line": "Lord of Harlaw, of the Ironborn, sworn to House Harlaw of Harlaw. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Athaliah",
+     "tied": 0
+    }
    }
   },
   "454": {
@@ -8145,7 +9291,13 @@
    },
    "line": "Ser, sworn to House Targaryen of King's Landing. Born at Bitterbridge. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 5
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Styr",
+     "tied": 0
+    }
    }
   },
   "458": {
@@ -8201,7 +9353,13 @@
    },
    "line": "Lord of the Dreadfort, of the Northmen, sworn to House Bolton of the Dreadfort. Born in 260 AC or before, at the Dreadfort. Appears in all five books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "贾环",
+     "tied": 0
+    }
    }
   },
   "461": {
@@ -8217,7 +9375,13 @@
    },
    "line": "Died in 300 AC, at the inn at the crossroads. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Dathan",
+     "tied": 0
+    }
    }
   },
   "462": {
@@ -8293,7 +9457,13 @@
    },
    "line": "Ser, sworn to House Frey of the Crossing. Born in 246 AC, 247 AC or 248 AC, died in 300 AC, at near the Twins. Appears in A Storm of Swords and A Feast for Crows.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Juanita Millender-McDonald",
+     "tied": 0
+    }
    }
   },
   "467": {
@@ -8351,7 +9521,13 @@
    },
    "line": "Andal, sworn to House Tarly of Horn Hill. Born in 283 AC, at Horn Hill. Appears in all five books, two of them through his eyes.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "關羽",
+     "tied": 0
+    }
    }
   },
   "470": {
@@ -8374,7 +9550,13 @@
    },
    "line": "Sworn to House Clegane. Born in 270 AC or 271 AC, died in 300 AC (supposedly). Appears in four books.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "李紈",
+     "tied": 0
+    }
    }
   },
   "471": {
@@ -8402,7 +9584,13 @@
    },
    "line": "Princess, of the Northmen, sworn to House Baelish of Harrenhal. Born in 286 AC, at Winterfell. Appears in all five books, four of them through her eyes.",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Arya Stark",
+     "tied": 0
+    }
    }
   },
   "472": {
@@ -8418,7 +9606,13 @@
    },
    "line": "Born in 280 AC or 281 AC, at Oldtown. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joram",
+     "tied": 0
+    }
    }
   },
   "473": {
@@ -8466,7 +9660,13 @@
    },
    "line": "Lady, sworn to House Baratheon of Dragonstone. Appears in three books.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Bowen Marsh",
+     "tied": 0
+    }
    }
   },
   "476": {
@@ -8518,7 +9718,13 @@
    },
    "line": "Born in 280 AC or 281 AC, died in 300 AC, at King's Landing. Appears in all five books.",
    "signals": {
-    "lookAlikes": 11
+    "lookAlikes": 11,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Northumberland",
+     "tied": 0
+    }
    }
   },
   "479": {
@@ -8545,7 +9751,13 @@
    },
    "line": "Died in 300 AC, at near the Whispers. Appears in A Storm of Swords and A Feast for Crows.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Alice",
+     "tied": 1
+    }
    }
   },
   "481": {
@@ -8579,7 +9791,13 @@
    },
    "line": "Princess, sworn to House Baratheon of Dragonstone. Born in 289 AC, at Dragonstone. Appears in three books.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "贾雨村",
+     "tied": 0
+    }
    }
   },
   "483": {
@@ -8635,7 +9853,13 @@
    },
    "line": "Ghiscari, sworn to House Targaryen of King's Landing. Born at Meereen. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jhogo",
+     "tied": 0
+    }
    }
   },
   "486": {
@@ -8664,7 +9888,13 @@
    },
    "line": "Died in 299 AC, at Beyond the Wall. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "阿會喃",
+     "tied": 0
+    }
    }
   },
   "488": {
@@ -8677,7 +9907,13 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Alice",
+     "tied": 1
+    }
    }
   },
   "489": {
@@ -8691,7 +9927,13 @@
    },
    "line": "Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Alcimedon",
+     "tied": 0
+    }
    }
   },
   "490": {
@@ -8778,7 +10020,13 @@
    },
    "line": "Master of ships (formerly). Born 264 AC. Appears in all five books.",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Richard Durbin",
+     "tied": 0
+    }
    }
   },
   "495": {
@@ -8886,7 +10134,13 @@
    },
    "line": "Magnar of Thenn, of the Free Folk. Died in 300 AC, at Castle Black. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jarl",
+     "tied": 0
+    }
    }
   },
   "502": {
@@ -8919,7 +10173,13 @@
    },
    "line": "Lady of the Crag, sworn to House Spicer of Castamere. Appears in three books.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Sleep",
+     "tied": 0
+    }
    }
   },
   "504": {
@@ -9042,7 +10302,13 @@
    },
    "line": "Myrish, sworn to House Merryweather of Longtable. Born in 276 AC (roughly). Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Vernon",
+     "tied": 0
+    }
    }
   },
   "511": {
@@ -9074,7 +10340,13 @@
    },
    "line": "Ser, sworn to House Baratheon of King's Landing. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duke of Burgundy",
+     "tied": 1
+    }
    }
   },
   "513": {
@@ -9098,7 +10370,13 @@
    },
    "line": "Lady of Stokeworth, sworn to House Stokeworth of Stokeworth. Born at Stokeworth, died in 300 AC, at Stokeworth. Appears in three books.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Red Leader",
+     "tied": 0
+    }
    }
   },
   "514": {
@@ -9111,7 +10389,13 @@
    },
    "line": "Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Bill Pascrell Jr.",
+     "tied": 0
+    }
    }
   },
   "515": {
@@ -9124,7 +10408,13 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Sihon",
+     "tied": 0
+    }
    }
   },
   "516": {
@@ -9192,7 +10482,13 @@
    },
    "line": "Prince of Winterfell, of the Ironborn, sworn to House Greyjoy of Pyke. Born in 278 AC or 279 AC, at Pyke. Appears in all five books, two of them through his eyes.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "贾琏",
+     "tied": 0
+    }
    }
   },
   "520": {
@@ -9211,7 +10507,13 @@
    },
    "line": "First Ranger (self-styled). Died in 299 AC, at Fist of the First Men. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "High Sparrow",
+     "tied": 0
+    }
    }
   },
   "521": {
@@ -9229,7 +10531,13 @@
    },
    "line": "Myrish. Appears in four books.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Val",
+     "tied": 0
+    }
    }
   },
   "522": {
@@ -9244,7 +10552,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Illyrio Mopatis",
+     "tied": 0
+    }
    }
   },
   "523": {
@@ -9299,7 +10613,13 @@
    },
    "line": "Born in or between 240 AC and 249 AC. Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Laban",
+     "tied": 0
+    }
    }
   },
   "527": {
@@ -9319,7 +10639,13 @@
    },
    "line": "Of the Northmen, sworn to House Stark of Winterfell. Born in or between 249 AC and 253 AC, died in 298 AC, at King's Landing. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Vintner",
+     "tied": 0
+    }
    }
   },
   "528": {
@@ -9342,7 +10668,13 @@
    },
    "line": "King of the Andals. Born 291 AC. Appears in all five books.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Gregor Clegane",
+     "tied": 0
+    }
    }
   },
   "529": {
@@ -9377,7 +10709,13 @@
    },
    "line": "Tall-talker, of the Free Folk. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Ygritte",
+     "tied": 0
+    }
    }
   },
   "531": {
@@ -9495,7 +10833,13 @@
    },
    "line": "Dornish, sworn to House Nymeros Martell of Sunspear. Born in 276 AC or 277 AC. Appears in A Feast for Crows and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zimri",
+     "tied": 0
+    }
    }
   },
   "538": {
@@ -9522,7 +10866,13 @@
    },
    "line": "Acting Hand of the King (former), sworn to House Lannister of Casterly Rock. Born in 273 AC, at Casterly Rock. Appears in all five books, four of them through his eyes.",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "John Kerry",
+     "tied": 0
+    }
    }
   },
   "539": {
@@ -9586,7 +10936,13 @@
    },
    "line": "Lord of Casterly Rock, sworn to House Lannister of Casterly Rock. Born in 242 AC, died in 300 AC, at King's Landing. Appears in all five books.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Petyr Baelish",
+     "tied": 0
+    }
    }
   },
   "542": {
@@ -9652,7 +11008,13 @@
    },
    "line": "Of the Free Folk. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Antinous",
+     "tied": 0
+    }
    }
   },
   "546": {
@@ -9693,7 +11055,13 @@
    },
    "line": "Ser, of the Valemen, sworn to House Arryn of the Eyrie. Born in or between 249 AC and 253 AC, died in 298 AC, at the Eyrie. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Willis Wode",
+     "tied": 0
+    }
    }
   },
   "548": {
@@ -9714,7 +11082,13 @@
    },
    "line": "Lord of Harrenhal, Qohor. Died in 300 AC, at Harrenhal. Appears in three books.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Michael Williams",
+     "tied": 0
+    }
    }
   },
   "549": {
@@ -9736,7 +11110,13 @@
    },
    "line": "Master of Whisperers. Born at Lys. Appears in all five books.",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "李紈",
+     "tied": 0
+    }
    }
   },
   "550": {
@@ -9780,7 +11160,13 @@
    },
    "line": "Lord Captain of the Iron Fleet, of the Ironborn, sworn to House Greyjoy of Pyke. Born in 268 AC or before, at Pyke. Appears in three books, two of them through his eyes.",
    "signals": {
-    "lookAlikes": 1
+    "lookAlikes": 1,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Quentyn Martell",
+     "tied": 0
+    }
    }
   },
   "552": {
@@ -9827,7 +11213,13 @@
    },
    "line": "King of the Andals, Valyrian, sworn to House Targaryen of King's Landing. Born in 276 AC, at King's Landing, died in 298 AC, at Vaes Dothrak. Appears in four books.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Dunsen",
+     "tied": 0
+    }
    }
   },
   "554": {
@@ -9896,7 +11288,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Thrasymedes",
+     "tied": 0
+    }
    }
   },
   "559": {
@@ -9921,7 +11319,13 @@
    },
    "line": "Appears in A Clash of Kings and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Grey Worm",
+     "tied": 0
+    }
    }
   },
   "561": {
@@ -10016,7 +11420,13 @@
    },
    "line": "Sworn to House Lannister of Casterly Rock. Died in 299 AC, at Harrenhal. Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "來旺",
+     "tied": 0
+    }
    }
   },
   "567": {
@@ -10040,7 +11450,13 @@
    },
    "line": "Ser, sworn to House Manderly of White Harbor. Born in or between 254 AC and 263 AC, at White Harbor, died in 299 AC, at the Twins. Appears in three books.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Fang",
+     "tied": 2
+    }
    }
   },
   "568": {
@@ -10130,7 +11546,13 @@
    },
    "line": "Sworn to House Tyrell of Highgarden. Born in or between 270 AC and 276 AC. Appears in A Storm of Swords and A Feast for Crows.",
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Snap",
+     "tied": 0
+    }
    }
   },
   "574": {
@@ -10167,7 +11589,13 @@
    },
    "line": "Ser, sworn to House Whent of Harrenhal. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Amphinomus",
+     "tied": 0
+    }
    }
   },
   "576": {
@@ -10259,7 +11687,13 @@
    },
    "line": "Lord of White Harbor, sworn to House Manderly of White Harbor. Born in or between 239 AC and 242 AC, at White Harbour. Appears in A Clash of Kings and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "William Jefferson",
+     "tied": 0
+    }
    }
   },
   "582": {
@@ -10301,7 +11735,13 @@
    },
    "line": "Sworn to House Targaryen of King's Landing. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Lemore",
+     "tied": 0
+    }
    }
   },
   "585": {
@@ -10340,7 +11780,13 @@
    },
    "line": "Of the Free Folk. Born in 280 AC, died in 299 AC, at Castle Black. Appears in three books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Skahaz mo Kandaq",
+     "tied": 0
+    }
    }
   },
   "588": {
@@ -10362,7 +11808,13 @@
    },
    "line": "Lord of Runestone, of the Valemen, sworn to House Royce of Runestone. Appears in A Storm of Swords and A Feast for Crows.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "臧霸",
+     "tied": 0
+    }
    }
   },
   "589": {
@@ -10379,7 +11831,13 @@
    },
    "line": "Westeros. Died in 299 AC, at Gods Eye. Appears in A Game of Thrones and A Clash of Kings.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "赵姨娘",
+     "tied": 0
+    }
    }
   },
   "590": {
@@ -10393,7 +11851,13 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Brevet",
+     "tied": 2
+    }
    }
   },
   "591": {

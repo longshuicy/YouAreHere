@@ -12,7 +12,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Scarus",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -25,7 +31,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Speed",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -48,7 +60,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "妙玉",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -63,7 +81,13 @@
    },
    "line": "King of Scotland.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Watto",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -96,7 +120,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Maria",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -109,7 +139,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Angelo",
+     "tied": 1
+    }
    }
   },
   "9": {
@@ -124,7 +160,13 @@
    },
    "line": "Murderer.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Ariel",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -137,7 +179,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-macbeth",
+     "story": "Macbeth",
+     "name": "Ross",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -150,7 +198,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Sir Andrew Aguecheek",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -163,7 +217,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "張繡",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -176,7 +236,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-macbeth",
+     "story": "Macbeth",
+     "name": "Macduff",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -193,7 +259,13 @@
    },
    "line": "Earl of Northumbria.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "沙國王",
+     "tied": 0
+    }
    }
   },
   "15": {

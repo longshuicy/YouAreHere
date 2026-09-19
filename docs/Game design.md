@@ -30,12 +30,7 @@ No losing. A wrong guess returns the player to the graph with the ledger unchang
 
 ## Waking again
 
-> **Parked, 2026-09-18 — not built.** The reveal has one door: `WAKE SOMEWHERE ELSE`, a new stranger in a new world, with nothing carried over. The residence model below is kept as a record of the thinking, because the argument for it still holds and it is the obvious answer to the first-round problem. It is parked rather than rejected: it wants the difficulty bands to exist first, since "starts are drawn from progressively harder bands" is most of what makes staying feel different from repeating. Everything below describes a design, not the current build.
-
-The reveal was to end with two doors, not one.
-
-- `WAKE AGAIN HERE` — you wake as someone else in the same novel.
-- `WAKE SOMEWHERE ELSE` — a shuffle: new novel, new stranger.
+> **Parked, 2026-09-18 — not built.** The reveal has one door: `START SOMEWHERE ELSE`, a new stranger in a new world, with nothing carried over. The residence model below is kept as a record of the thinking, because the argument for it still holds and it is the obvious answer to the first-round problem. It is parked rather than rejected: it wants the difficulty bands to exist first, since "starts are drawn from progressively harder bands" is most of what makes staying feel different from repeating. Everything below describes a design, not the current build.
 
 ### What staying changes
 
@@ -166,6 +161,12 @@ The player never sees the word *weight*. It is a code word and it promises a pre
 
 **Why every tie is drawn true.** This began as an asymmetry — your own ties free, a stranger's bought — on the reasoning that your own intimacies are what amnesia leaves intact. The asymmetry read well and played badly: beyond your first ring the diagram became identical hairlines, which is to say no diagram at all. Thickness is the medium the puzzle is written in, so it is never for sale. What you pay for is *identity* — who these people are — not the shape they make, which you can always see.
 
+**The reveal reads its numbers rather than reciting them.**
+
+> **Added 2026-09-19.** The cross-catalogue line used to say *"Another 163 characters across these stories would have looked just like you"* — true, and it lands as trivia: a large number the reader has no scale for and no use for. What the number *means* is the game's own thesis, whether the shape you stood in could ever have named you, and 163 says it could not while three says it nearly did. So the line interprets the count instead of reporting it — *so the shape alone was never going to name you*, *enough to hide in, not enough to disappear into*, *you were nearly unmistakable* — and then names one person, in the same breath: **Your nearest double is Arya Stark, in this same story.** *Double* rather than *the person you were shaped most like*: the second is accurate and is a description of a calculation, the first is the word a reader already has for the idea, and this is the last sentence of the game rather than a method note. The catalogue is *these worlds* and the book you are in is *this story* — one is forty-one of them, the other is the one you just answered.
+>
+> The name cannot come from the count. Everyone sharing a signature is equally alike by construction, so a bucket has no nearest; it comes from a distance measured over the same catalogue, which answers the other question — who is most like you, rather than how many could be confused with you. Where nothing separates two candidates the line says so, exactly as the `MOST WITH` row does. A start with no look-alikes at all is told *the closest thing you have to a double*, because claiming it has one a sentence after *nobody stood in a shape like yours* reads as a contradiction, whatever the two measurements are doing.
+
 ## Screen states
 
 **1 · Cold open.** Your node, its neighbours at true tie thickness, two lines of copy, `BEGIN`. No book list, no mode selector, no settings, no how-to-play — and no rules. The legend used to sit here; it moved into the key, which is reachable from every screen, because a rule printed once on a screen you pass through in four seconds is not available when it is wanted.
@@ -184,7 +185,7 @@ An expanded node keeps a **monogram** below it: its initial, in mono, and a rule
 
 **5 · Reveal.** In order: the answer, the ledger read back, a few readings of the network you were standing in, what a tie meant in this book, then the unfolding into the full named graph with your node held in place — your own ties in the accent, and any names you bought or claimed still on the paper.
 
-> **Amended 2026-09-18.** This said *one generated structural fact*, to arrive from the pipeline. None ever did. The readings are computed in the browser at the moment the reveal fires, which is what lets a Shakespeare play with an empty sidecar end on something specific rather than on nothing. Capped at four: a reveal is a beat, and six true sentences in a column is a dashboard. It ends on three exits, weighted by size: `WAKE AGAIN HERE`, `WAKE SOMEWHERE ELSE`, and the share card.
+> **Amended 2026-09-18.** This said *one generated structural fact*, to arrive from the pipeline. None ever did. The readings are computed in the browser at the moment the reveal fires, which is what lets a Shakespeare play with an empty sidecar end on something specific rather than on nothing. Capped at four: a reveal is a beat, and six true sentences in a column is a dashboard. It ends on three exits, weighted by size: `START AGAIN HERE`, `START SOMEWHERE ELSE`, and the share card.
 
 **5b · Waking again.** The same cold open, one word different — *You wake up here. Again.* The graph opens with previously bought names already in place, set in serif, and the running residence ledger in the margin.
 

@@ -12,7 +12,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Boy Page Mote",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -25,7 +31,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Duke",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -38,7 +50,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Armado Braggart",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -51,7 +69,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Maria",
+     "tied": 2
+    }
    }
   },
   "4": {
@@ -64,7 +88,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Provost",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -77,7 +107,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Sebastian",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -90,7 +126,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "King",
+     "tied": 1
+    }
    }
   },
   "7": {
@@ -113,7 +155,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Nathaniel Curate",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -126,7 +174,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Francis",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -139,7 +193,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Blanche",
+     "tied": 1
+    }
    }
   },
   "11": {
@@ -152,7 +212,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Dumaine",
+     "tied": 1
+    }
    }
   },
   "12": {
@@ -165,7 +231,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Dumaine",
+     "tied": 1
+    }
    }
   },
   "13": {
@@ -178,7 +250,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Briseis",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -191,7 +269,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Boyet",
+     "tied": 2
+    }
    }
   },
   "15": {
@@ -204,7 +288,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Holofernes Pedant",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -217,7 +307,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Boyet",
+     "tied": 2
+    }
    }
   },
   "17": {
@@ -230,7 +326,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Boyet",
+     "tied": 2
+    }
    }
   }
  },

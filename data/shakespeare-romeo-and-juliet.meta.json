@@ -22,7 +22,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Chiron",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -35,7 +41,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Demetrius",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -50,7 +62,13 @@
    },
    "line": "Friar.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-alls-well-that-ends-well",
+     "story": "All’s Well That Ends Well",
+     "name": "King",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -63,7 +81,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Olivia",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -76,7 +100,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Marius",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -89,7 +119,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Abram",
+     "tied": 2
+    }
    }
   },
   "7": {
@@ -102,7 +138,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Elbow",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -115,7 +157,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Escalus",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -128,7 +176,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-as-you-like-it",
+     "story": "As You Like It",
+     "name": "Celia",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -141,7 +195,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-cymbeline",
+     "story": "Cymbeline",
+     "name": "Soothsayer",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -154,7 +214,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "黃文炳",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -169,7 +235,13 @@
    },
    "line": "Prince of Verona.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Montague",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -182,7 +254,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Titus Andronicus",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -195,7 +273,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Abram",
+     "tied": 2
+    }
    }
   },
   "15": {
@@ -208,7 +292,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-alls-well-that-ends-well",
+     "story": "All’s Well That Ends Well",
+     "name": "Gentleman",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -221,7 +311,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Abram",
+     "tied": 2
+    }
    }
   },
   "17": {
@@ -234,7 +330,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Gregory",
+     "tied": 2
+    }
    }
   },
   "18": {
@@ -247,7 +349,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Dontos Hollard",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -262,7 +370,13 @@
    },
    "line": "Murderer.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Blanche",
+     "tied": 1
+    }
    }
   }
  },

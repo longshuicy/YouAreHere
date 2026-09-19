@@ -202,25 +202,70 @@ function plural(n: number, one: string, many: string): string {
 export function describeReadings(
   m: RevealMetrics,
   signals: MetaRecord['signals'] | null,
+  /** Which world this is, so a twin from the same book is said as such rather
+   * than by a title the player has just been given. */
+  universeId = '',
   limit = 4,
 ): string[] {
   const out: string[] = [];
 
-  // What `lookAlikes` actually counts is characters who would have been
-  // indistinguishable from you on the cold open — same rough number of ties,
-  // same rough mix of large and small people on the other end. So that is what
-  // it says. "Stands in a shape like yours" was the pipeline's phrase for it
-  // and meant nothing to anyone who had not read the pipeline.
+  // The reveal's one cross-catalogue reading, and the only pair of numbers here
+  // that needs interpreting rather than reporting.
+  //
+  // It used to say "Another 163 characters across these stories would have
+  // looked just like you", which is true and lands as trivia: a large number
+  // the reader has no scale for and no use for. What the number *means* is the
+  // game's own thesis — whether the shape you stood in could ever have named
+  // you. A hundred and sixty-three says it could not; three says it nearly did;
+  // neither says so unless the sentence does.
+  //
+  // Then one person is named, in the same breath, because the count cannot name
+  // anybody. It comes from a coarse bucket — same rough number of ties, same
+  // rough mix of large and small people around you — where everyone is equally
+  // alike by construction, so there is no nearest inside it. The name comes
+  // from a distance measured across the same catalogue, which answers the other
+  // question: not how many could be confused with you, but who is most like
+  // you. That is the better last line. You were shaped like Arya Stark, or like
+  // a senator from Minnesota.
+  //
+  // One entry, not two, because the cap is four and these are two halves of one
+  // thought.
   if (signals) {
-    out.push(
-      signals.lookAlikes === 0
-        ? 'No one else in any of these stories would have looked quite like you.'
-        : signals.lookAlikes === 1
-          ? 'One other character across these stories would have looked just like you.'
-          // "Another 97" rather than "97 others", so the sentence does not open
-          // on a numeral.
-          : `Another ${signals.lookAlikes} characters across these stories would have looked just like you.`,
-    );
+    const n = signals.lookAlikes;
+    const shape =
+      n === 0
+        ? 'Nobody anywhere in these worlds stood in a shape like yours; your diagram was a name, if anyone could have read it.'
+        : n <= 9
+          ? `Only ${cardinal(n)} other ${n === 1 ? 'character' : 'characters'} in all of these worlds stood in a shape like yours \u2014 you were nearly unmistakable.`
+          : n <= 40
+            ? `Another ${n} characters across these worlds stood in a shape like yours: enough to hide in, not enough to disappear into.`
+            : `Another ${n} characters across these worlds stood in a shape like yours, so the shape alone was never going to name you.`;
+
+    const twin = signals.nearest;
+    // "In this same story" rather than the title when the twin is from the book
+    // the player is already standing in: they have just been told which one it
+    // is, and naming it again reads as a sentence that has not noticed.
+    const where =
+      twin && (twin.world === universeId ? 'in this same world' : `in ${twin.story}`);
+    // "Your nearest double" rather than "the person you were shaped most like".
+    // The second is accurate and it is a description of a calculation; the first
+    // is the word an ordinary reader already has for the idea, and this is the
+    // last sentence of the game, not a method note.
+    //
+    // A start with no look-alikes has just been told nobody was built like it,
+    // so claiming it has a double one sentence later would read as a
+    // contradiction. It is not one — the count is a bucket and this is a
+    // distance — but the reader has no reason to know that, and the sentence has
+    // to hold on its own. *The closest thing to a double* is true either way.
+    const nearest = !twin
+      ? ''
+      : signals.lookAlikes === 0
+        ? ` The closest thing you have to a double is ${twin.name}, ${where}.`
+        : twin.tied === 0
+          ? ` Your nearest double is ${twin.name}, ${where}.`
+          : ` Your nearest double is ${twin.name}, ${where} \u2014 and ${cardinal(twin.tied)} ${twin.tied === 1 ? 'other' : 'others'} just as alike.`;
+
+    out.push(`${shape}${nearest}`);
   }
 
   if (m.cutsOff !== null) {

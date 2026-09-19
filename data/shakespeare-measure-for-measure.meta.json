@@ -12,7 +12,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Claudio",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -25,7 +31,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Escalus",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -38,7 +50,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "shakespeare-the-comedy-of-errors",
+     "story": "The Comedy of Errors",
+     "name": "Balthasar",
+     "tied": 1
+    }
    }
   },
   "3": {
@@ -51,7 +69,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 9
+    "lookAlikes": 9,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Friar Peter",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -74,7 +98,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Abhorson",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -87,7 +117,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Berowne",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -100,7 +136,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Mercutio",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -113,7 +155,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Angelo",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -126,7 +174,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 9
+    "lookAlikes": 9,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Mistress Overdone",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -139,7 +193,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Justice",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -152,7 +212,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Pompey",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -175,7 +241,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Froth",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -188,7 +260,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Enjolras",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -201,7 +279,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Claudio",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -234,7 +318,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 11
+    "lookAlikes": 11,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Isabella",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -247,7 +337,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Costard Clown Swain",
+     "tied": 0
+    }
    }
   },
   "20": {

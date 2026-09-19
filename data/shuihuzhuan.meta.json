@@ -55,7 +55,13 @@
    },
    "line": "教師。屬三十六天罡星。見於39回。",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "花榮",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -79,7 +85,13 @@
    },
    "line": "團練使。屬七十二地煞星。見於5回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "金大堅",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -107,7 +119,13 @@
    },
    "line": "屬七十二地煞星。見於12回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "孔明",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -135,7 +153,13 @@
    },
    "line": "屬三十六天罡星。見於12回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "楊林",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -165,7 +189,13 @@
    },
    "line": "巡檢。屬三十六天罡星。見於11回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "柴進",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -207,7 +237,13 @@
    },
    "line": "屬三十六天罡星。見於26回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "穆弘",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -244,7 +280,13 @@
    },
    "line": "屬三十六天罡星。見於21回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "戴宗",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -282,7 +324,13 @@
    },
    "line": "提辖。屬三十六天罡星。見於19回。",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "黃信",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -310,7 +358,13 @@
    },
    "line": "屬三十六天罡星。見於12回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "施恩",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -326,7 +380,13 @@
    },
    "line": "教師。見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "許攸",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -438,7 +498,13 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Deipyrus",
+     "tied": 0
+    }
    }
   },
   "17": {
@@ -483,7 +549,13 @@
    },
    "line": "屠户。見於5回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "樊建",
+     "tied": 0
+    }
    }
   },
   "20": {
@@ -648,7 +720,13 @@
    },
    "line": "开封府尹。見於10回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Colemon",
+     "tied": 0
+    }
    }
   },
   "31": {
@@ -717,7 +795,13 @@
    },
    "line": "留守。見於16回。",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "劉璋",
+     "tied": 0
+    }
    }
   },
   "35": {
@@ -745,7 +829,13 @@
    },
    "line": "太師。見於12回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Gene Green",
+     "tied": 0
+    }
    }
   },
   "36": {
@@ -803,7 +893,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "小衙內",
+     "tied": 0
+    }
    }
   },
   "40": {
@@ -848,7 +944,13 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Cassandra",
+     "tied": 1
+    }
    }
   },
   "43": {
@@ -878,7 +980,13 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Cortnay Penrose",
+     "tied": 0
+    }
    }
   },
   "45": {
@@ -912,7 +1020,13 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "劉璝",
+     "tied": 0
+    }
    }
   },
   "47": {
@@ -936,7 +1050,13 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Walder Frey",
+     "tied": 0
+    }
    }
   },
   "48": {
@@ -983,7 +1103,13 @@
    },
    "line": "見於21回。",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Bob Traxler",
+     "tied": 0
+    }
    }
   },
   "50": {
@@ -1049,7 +1175,13 @@
    },
    "line": "主管。見於4回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Ric Olie",
+     "tied": 0
+    }
    }
   },
   "54": {
@@ -1070,7 +1202,13 @@
    },
    "line": "知府。見於5回。",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "湯知寨",
+     "tied": 0
+    }
    }
   },
   "55": {
@@ -1173,7 +1311,13 @@
    },
    "line": "見於14回。",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Robin",
+     "tied": 0
+    }
    }
   },
   "62": {
@@ -1214,7 +1358,13 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "欒廷玉",
+     "tied": 0
+    }
    }
   },
   "65": {
@@ -1243,7 +1393,13 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "李綺",
+     "tied": 0
+    }
    }
   },
   "67": {
@@ -1343,7 +1499,13 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Servants",
+     "tied": 0
+    }
    }
   },
   "75": {
@@ -1386,7 +1548,13 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "慕容彥達",
+     "tied": 0
+    }
    }
   },
   "78": {
@@ -1428,7 +1596,13 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "曾魁",
+     "tied": 0
+    }
    }
   },
   "81": {
@@ -1443,7 +1617,13 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "曾密",
+     "tied": 0
+    }
    }
   },
   "82": {
@@ -1458,7 +1638,13 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mephibosheth",
+     "tied": 0
+    }
    }
   },
   "83": {
@@ -1474,7 +1660,13 @@
    },
    "line": "教師。見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "曾密",
+     "tied": 0
+    }
    }
   },
   "84": {
@@ -1489,7 +1681,13 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "郝萌",
+     "tied": 0
+    }
    }
   },
   "85": {
@@ -1507,7 +1705,13 @@
    },
    "line": "管家。見於4回。",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Lovell",
+     "tied": 0
+    }
    }
   },
   "86": {
@@ -1557,7 +1761,13 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Calypso",
+     "tied": 0
+    }
    }
   },
   "89": {
@@ -1595,7 +1805,13 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "曾魁",
+     "tied": 0
+    }
    }
   },
   "92": {
@@ -1641,7 +1857,13 @@
    },
    "line": "通判。見於3回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Petruchio",
+     "tied": 0
+    }
    }
   },
   "95": {
@@ -1665,7 +1887,13 @@
    },
    "line": "虞候。見於8回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Julian Dixon",
+     "tied": 0
+    }
    }
   },
   "96": {
@@ -1742,7 +1970,13 @@
    },
    "line": "屬三十六天罡星。見於33回。",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "李逵",
+     "tied": 0
+    }
    }
   },
   "99": {
@@ -1760,7 +1994,13 @@
    },
    "line": "屬大金。見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "曹丕",
+     "tied": 0
+    }
    }
   },
   "100": {
@@ -1781,7 +2021,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Jean Prouvaire",
+     "tied": 0
+    }
    }
   },
   "101": {
@@ -1796,7 +2042,13 @@
    },
    "line": "見於第46回、第49回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "First Herald",
+     "tied": 2
+    }
    }
   },
   "102": {
@@ -1822,7 +2074,13 @@
    },
    "line": "屬七十二地煞星。見於10回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "穆春",
+     "tied": 0
+    }
    }
   },
   "103": {
@@ -1867,7 +2125,13 @@
    },
    "line": "屬七十二地煞星。見於15回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "阮小二",
+     "tied": 0
+    }
    }
   },
   "105": {
@@ -1886,7 +2150,13 @@
    },
    "line": "知府。見於3回。",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "李紋",
+     "tied": 0
+    }
    }
   },
   "106": {
@@ -1924,7 +2194,13 @@
    },
    "line": "屬三十六天罡星。見於22回。",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "林沖",
+     "tied": 0
+    }
    }
   },
   "107": {
@@ -1974,7 +2250,13 @@
    },
    "line": "見於37回。",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "劉備",
+     "tied": 0
+    }
    }
   },
   "108": {
@@ -1991,7 +2273,13 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Mirri Maz Duur",
+     "tied": 0
+    }
    }
   },
   "109": {
@@ -2011,7 +2299,13 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Eurus",
+     "tied": 0
+    }
    }
   },
   "110": {
@@ -2032,7 +2326,13 @@
    },
    "line": "屬七十二地煞星。見於5回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "周通",
+     "tied": 0
+    }
    }
   },
   "111": {
@@ -2053,7 +2353,13 @@
    },
    "line": "虞候。見於5回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "武大郎",
+     "tied": 0
+    }
    }
   },
   "112": {
@@ -2088,7 +2394,13 @@
    },
    "line": "屬三十六天罡星。見於7回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "金大堅",
+     "tied": 0
+    }
    }
   },
   "114": {
@@ -2151,7 +2463,13 @@
    },
    "line": "比丘。屬三十六天罡星。見於21回。",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "李逵",
+     "tied": 0
+    }
    }
   },
   "117": {
@@ -2183,7 +2501,13 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Vernon",
+     "tied": 0
+    }
    }
   },
   "119": {
@@ -2210,7 +2534,13 @@
    },
    "line": "屬七十二地煞星。見於11回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "顾大嫂",
+     "tied": 0
+    }
    }
   },
   "120": {
@@ -2238,7 +2568,13 @@
    },
    "line": "團練使。屬七十二地煞星。見於9回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "燕青",
+     "tied": 0
+    }
    }
   },
   "121": {
@@ -2265,7 +2601,13 @@
    },
    "line": "屬七十二地煞星。見於11回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "孫新",
+     "tied": 0
+    }
    }
   },
   "122": {
@@ -2326,7 +2668,13 @@
    },
    "line": "叛亂領袖。屬三十六天罡星。見於44回。",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "David",
+     "tied": 0
+    }
    }
   },
   "123": {
@@ -2345,7 +2693,13 @@
    },
    "line": "屬七十二地煞星。見於3回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "蔡庆",
+     "tied": 0
+    }
    }
   },
   "124": {
@@ -2367,7 +2721,13 @@
    },
    "line": "劊子手。屬七十二地煞星。見於5回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "安道全",
+     "tied": 0
+    }
    }
   },
   "125": {
@@ -2388,7 +2748,13 @@
    },
    "line": "獄警。屬七十二地煞星。見於4回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "鲍旭",
+     "tied": 0
+    }
    }
   },
   "126": {
@@ -2413,7 +2779,13 @@
    },
    "line": "屬七十二地煞星。見於9回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "李應",
+     "tied": 0
+    }
    }
   },
   "127": {
@@ -2445,7 +2817,13 @@
    },
    "line": "屬七十二地煞星。見於16回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "鄧飛",
+     "tied": 0
+    }
    }
   },
   "128": {
@@ -2470,7 +2848,13 @@
    },
    "line": "商人。屬七十二地煞星。見於8回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "張清",
+     "tied": 0
+    }
    }
   },
   "129": {
@@ -2493,7 +2877,13 @@
    },
    "line": "屬七十二地煞星。見於7回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "項充",
+     "tied": 0
+    }
    }
   },
   "130": {
@@ -2511,7 +2901,13 @@
    },
    "line": "屬七十二地煞星。見於第69回、第70回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "丁得孫",
+     "tied": 0
+    }
    }
   },
   "131": {
@@ -2542,7 +2938,13 @@
    },
    "line": "屬七十二地煞星。見於15回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "張青",
+     "tied": 0
+    }
    }
   },
   "132": {
@@ -2565,7 +2967,13 @@
    },
    "line": "屬七十二地煞星。見於7回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "孫新",
+     "tied": 0
+    }
    }
   },
   "133": {
@@ -2591,7 +2999,13 @@
    },
    "line": "屬七十二地煞星。見於10回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "孔明",
+     "tied": 0
+    }
    }
   },
   "134": {
@@ -2611,7 +3025,13 @@
    },
    "line": "屬七十二地煞星。見於4回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "丁得孫",
+     "tied": 0
+    }
    }
   },
   "135": {
@@ -2632,7 +3052,13 @@
    },
    "line": "屬七十二地煞星。見於5回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "朱富",
+     "tied": 0
+    }
    }
   },
   "136": {
@@ -2651,7 +3077,13 @@
    },
    "line": "屬七十二地煞星。見於3回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "皇甫端",
+     "tied": 0
+    }
    }
   },
   "137": {
@@ -2675,7 +3107,13 @@
    },
    "line": "屬七十二地煞星。見於8回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "孫二娘",
+     "tied": 0
+    }
    }
   },
   "138": {
@@ -2703,7 +3141,13 @@
    },
    "line": "屬七十二地煞星。見於12回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "郁保四",
+     "tied": 0
+    }
    }
   },
   "139": {
@@ -2724,7 +3168,13 @@
    },
    "line": "屬七十二地煞星。見於5回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "孟康",
+     "tied": 0
+    }
    }
   },
   "140": {
@@ -2758,7 +3208,13 @@
    },
    "line": "劊子手。屬三十六天罡星。見於17回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "李俊",
+     "tied": 0
+    }
    }
   },
   "141": {
@@ -2775,7 +3231,13 @@
    },
    "line": "教師。見於3回。",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Orton Merryweather",
+     "tied": 0
+    }
    }
   },
   "142": {
@@ -2797,7 +3259,13 @@
    },
    "line": "屬七十二地煞星。見於6回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "樊瑞",
+     "tied": 1
+    }
    }
   },
   "143": {
@@ -2830,7 +3298,13 @@
    },
    "line": "屬七十二地煞星。見於17回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "郑天寿",
+     "tied": 0
+    }
    }
   },
   "144": {
@@ -2848,7 +3322,13 @@
    },
    "line": "屬七十二地煞星。見於第58回、第70回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Helen Bentley",
+     "tied": 0
+    }
    }
   },
   "145": {
@@ -2881,7 +3361,13 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Alcimedon",
+     "tied": 0
+    }
    }
   },
   "147": {
@@ -2909,7 +3395,13 @@
    },
    "line": "屬三十六天罡星。見於12回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "陈达",
+     "tied": 0
+    }
    }
   },
   "148": {
@@ -2937,7 +3429,13 @@
    },
    "line": "孔目。屬七十二地煞星。見於9回。",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "單廷珪",
+     "tied": 0
+    }
    }
   },
   "149": {
@@ -2961,7 +3459,13 @@
    },
    "line": "屬七十二地煞星。見於8回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "索超",
+     "tied": 0
+    }
    }
   },
   "150": {
@@ -2985,7 +3489,13 @@
    },
    "line": "屬七十二地煞星。見於8回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "董平",
+     "tied": 0
+    }
    }
   },
   "151": {
@@ -3013,7 +3523,13 @@
    },
    "line": "屬三十六天罡星。見於12回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "童威",
+     "tied": 0
+    }
    }
   },
   "152": {
@@ -3045,7 +3561,13 @@
    },
    "line": "屬七十二地煞星。見於16回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "白勝",
+     "tied": 0
+    }
    }
   },
   "153": {
@@ -3064,7 +3586,13 @@
    },
    "line": "屬七十二地煞星。見於3回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "宋清",
+     "tied": 0
+    }
    }
   },
   "154": {
@@ -3095,7 +3623,13 @@
    },
    "line": "銀匠。屬七十二地煞星。見於14回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "朱貴",
+     "tied": 0
+    }
    }
   },
   "155": {
@@ -3128,7 +3662,13 @@
    },
    "line": "屬三十六天罡星。見於17回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "關勝",
+     "tied": 0
+    }
    }
   },
   "156": {
@@ -3156,7 +3696,13 @@
    },
    "line": "弓箭手。屬三十六天罡星。見於11回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "韓滔",
+     "tied": 0
+    }
    }
   },
   "157": {
@@ -3191,7 +3737,13 @@
    },
    "line": "鐵匠。屬三十六天罡星。見於18回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "楊志",
+     "tied": 0
+    }
    }
   },
   "158": {
@@ -3212,7 +3764,13 @@
    },
    "line": "屬七十二地煞星。見於5回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "蒋敬",
+     "tied": 0
+    }
    }
   },
   "159": {
@@ -3247,7 +3805,13 @@
    },
    "line": "屬三十六天罡星。見於19回。",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "黃信",
+     "tied": 0
+    }
    }
   },
   "160": {
@@ -3286,7 +3850,13 @@
    },
    "line": "屬三十六天罡星。見於23回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "燕順",
+     "tied": 0
+    }
    }
   },
   "161": {
@@ -3316,7 +3886,13 @@
    },
    "line": "屬七十二地煞星。見於14回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "李立",
+     "tied": 0
+    }
    }
   },
   "162": {
@@ -3347,7 +3923,13 @@
    },
    "line": "屬七十二地煞星。見於15回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "解珍",
+     "tied": 0
+    }
    }
   },
   "163": {
@@ -3392,7 +3974,13 @@
    },
    "line": "弓箭手。屬三十六天罡星。見於28回。",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "吳用",
+     "tied": 0
+    }
    }
   },
   "164": {
@@ -3421,7 +4009,13 @@
    },
    "line": "屬三十六天罡星。見於13回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "歐鵬",
+     "tied": 0
+    }
    }
   },
   "165": {
@@ -3447,7 +4041,13 @@
    },
    "line": "教師。屬三十六天罡星。見於9回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "阮小七",
+     "tied": 0
+    }
    }
   },
   "166": {
@@ -3478,7 +4078,13 @@
    },
    "line": "屬三十六天罡星。見於15回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "雷橫",
+     "tied": 0
+    }
    }
   },
   "167": {
@@ -3500,7 +4106,13 @@
    },
    "line": "農民。屬七十二地煞星。見於5回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "蒋敬",
+     "tied": 0
+    }
    }
   },
   "168": {
@@ -3519,7 +4131,13 @@
    },
    "line": "屬三十六天罡星。見於3回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "曹正",
+     "tied": 0
+    }
    }
   },
   "169": {
@@ -3537,7 +4155,13 @@
    },
    "line": "屬三十六天罡星。見於第69回、第70回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "杜兴",
+     "tied": 0
+    }
    }
   },
   "170": {
@@ -3574,7 +4198,13 @@
    },
    "line": "屬三十六天罡星。見於21回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "李俊",
+     "tied": 0
+    }
    }
   },
   "171": {
@@ -3601,7 +4231,13 @@
    },
    "line": "屬七十二地煞星。見於11回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "楊春",
+     "tied": 0
+    }
    }
   },
   "172": {
@@ -3645,7 +4281,13 @@
    },
    "line": "屬三十六天罡星。見於28回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "秦明",
+     "tied": 0
+    }
    }
   },
   "173": {
@@ -3677,7 +4319,13 @@
    },
    "line": "屬七十二地煞星。見於16回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "楊林",
+     "tied": 0
+    }
    }
   },
   "174": {
@@ -3706,7 +4354,13 @@
    },
    "line": "獵人。屬三十六天罡星。見於12回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "歐鵬",
+     "tied": 0
+    }
    }
   },
   "175": {
@@ -3741,7 +4395,13 @@
    },
    "line": "屬七十二地煞星。見於19回。",
    "signals": {
-    "lookAlikes": 36
+    "lookAlikes": 36,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "朱仝",
+     "tied": 0
+    }
    }
   },
   "176": {
@@ -3764,7 +4424,13 @@
    },
    "line": "團練使。屬七十二地煞星。見於4回。",
    "signals": {
-    "lookAlikes": 96
+    "lookAlikes": 96,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "裴宣",
+     "tied": 0
+    }
    }
   },
   "177": {
@@ -3803,7 +4469,13 @@
    },
    "line": "屬三十六天罡星。見於23回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "石勇",
+     "tied": 0
+    }
    }
   },
   "178": {
@@ -3826,7 +4498,13 @@
    },
    "line": "團練使。屬七十二地煞星。見於4回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "翠墨",
+     "tied": 0
+    }
    }
   },
   "179": {
@@ -3850,7 +4528,13 @@
    },
    "line": "屬七十二地煞星。見於8回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "韓滔",
+     "tied": 0
+    }
    }
   },
   "180": {
@@ -3890,7 +4574,13 @@
    },
    "line": "君主。屬三十六天罡星。見於21回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "燕順",
+     "tied": 0
+    }
    }
   },
   "181": {
@@ -3913,7 +4603,13 @@
    },
    "line": "屬七十二地煞星。見於7回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "宣贊",
+     "tied": 0
+    }
    }
   },
   "182": {
@@ -3947,7 +4643,13 @@
    },
    "line": "屬三十六天罡星。見於18回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "公孫勝",
+     "tied": 0
+    }
    }
   },
   "183": {
@@ -3979,7 +4681,13 @@
    },
    "line": "商人。屬七十二地煞星。見於15回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "劉唐",
+     "tied": 0
+    }
    }
   },
   "184": {
@@ -4013,7 +4721,13 @@
    },
    "line": "屬三十六天罡星。見於18回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "穆弘",
+     "tied": 0
+    }
    }
   },
   "185": {
@@ -4036,7 +4750,13 @@
    },
    "line": "屬七十二地煞星。見於7回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "郝思文",
+     "tied": 0
+    }
    }
   },
   "186": {
@@ -4059,7 +4779,13 @@
    },
    "line": "屬七十二地煞星。見於7回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "張清",
+     "tied": 0
+    }
    }
   },
   "187": {
@@ -4092,7 +4818,13 @@
    },
    "line": "屬三十六天罡星。見於17回。",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Henry Hyde",
+     "tied": 0
+    }
    }
   },
   "188": {
@@ -4120,7 +4852,13 @@
    },
    "line": "屬三十六天罡星。見於12回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "徐寧",
+     "tied": 0
+    }
    }
   },
   "189": {
@@ -4153,7 +4891,13 @@
    },
    "line": "屬七十二地煞星。見於17回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "孫立",
+     "tied": 0
+    }
    }
   },
   "190": {
@@ -4184,7 +4928,13 @@
    },
    "line": "屬七十二地煞星。見於15回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "石勇",
+     "tied": 0
+    }
    }
   },
   "191": {
@@ -4213,7 +4963,13 @@
    },
    "line": "獵人。屬三十六天罡星。見於12回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "白勝",
+     "tied": 0
+    }
    }
   },
   "192": {
@@ -4253,7 +5009,13 @@
    },
    "line": "商人。屬七十二地煞星。見於23回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "郭盛",
+     "tied": 0
+    }
    }
   },
   "193": {
@@ -4276,7 +5038,13 @@
    },
    "line": "屬七十二地煞星。見於7回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "郁保四",
+     "tied": 0
+    }
    }
   },
   "194": {
@@ -4316,7 +5084,13 @@
    },
    "line": "商人。屬七十二地煞星。見於23回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "呂方",
+     "tied": 0
+    }
    }
   },
   "195": {
@@ -4342,7 +5116,13 @@
    },
    "line": "屬七十二地煞星。見於10回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "穆春",
+     "tied": 0
+    }
    }
   },
   "196": {
@@ -4365,7 +5145,13 @@
    },
    "line": "屠户。屬七十二地煞星。見於6回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "董平",
+     "tied": 0
+    }
    }
   },
   "197": {
@@ -4383,7 +5169,13 @@
    },
    "line": "屬七十二地煞星。見於第67回、第70回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "龚旺",
+     "tied": 0
+    }
    }
   },
   "198": {
@@ -4416,7 +5208,13 @@
    },
    "line": "屬七十二地煞星。見於17回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "鄧飛",
+     "tied": 0
+    }
    }
   },
   "199": {
@@ -4435,7 +5233,13 @@
    },
    "line": "獸醫。屬七十二地煞星。見於第69回、第70回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "焦挺",
+     "tied": 0
+    }
    }
   },
   "200": {
@@ -4454,7 +5258,13 @@
    },
    "line": "醫生。屬七十二地煞星。見於第64回、第70回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "蔡福",
+     "tied": 0
+    }
    }
   },
   "201": {
@@ -4484,7 +5294,13 @@
    },
    "line": "屬七十二地煞星。見於14回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "關勝",
+     "tied": 0
+    }
    }
   },
   "202": {
@@ -4511,7 +5327,13 @@
    },
    "line": "屬七十二地煞星。見於11回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "童猛",
+     "tied": 0
+    }
    }
   },
   "203": {
@@ -4536,7 +5358,13 @@
    },
    "line": "裁縫。屬七十二地煞星。見於8回。",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Howard Berman",
+     "tied": 0
+    }
    }
   },
   "204": {
@@ -4562,7 +5390,13 @@
    },
    "line": "屬七十二地煞星。見於10回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "孔亮",
+     "tied": 0
+    }
    }
   },
   "205": {
@@ -4586,7 +5420,13 @@
    },
    "line": "屬七十二地煞星。見於8回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "樊瑞",
+     "tied": 0
+    }
    }
   },
   "206": {
@@ -4613,7 +5453,13 @@
    },
    "line": "屬七十二地煞星。見於11回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "李立",
+     "tied": 0
+    }
    }
   },
   "207": {
@@ -4634,7 +5480,13 @@
    },
    "line": "屬七十二地煞星。見於5回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "鄒潤",
+     "tied": 0
+    }
    }
   },
   "208": {
@@ -4660,7 +5512,13 @@
    },
    "line": "獄警。屬七十二地煞星。見於9回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "朱武",
+     "tied": 0
+    }
    }
   },
   "209": {
@@ -4688,7 +5546,13 @@
    },
    "line": "商人。屬七十二地煞星。見於11回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "徐寧",
+     "tied": 0
+    }
    }
   },
   "210": {
@@ -4712,7 +5576,13 @@
    },
    "line": "鐵匠。屬七十二地煞星。見於7回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "魏定國",
+     "tied": 0
+    }
    }
   },
   "211": {
@@ -4732,7 +5602,13 @@
    },
    "line": "屬七十二地煞星。見於4回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "龚旺",
+     "tied": 0
+    }
    }
   },
   "212": {
@@ -4767,7 +5643,13 @@
    },
    "line": "屬七十二地煞星。見於19回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "呂方",
+     "tied": 0
+    }
    }
   },
   "213": {
@@ -4800,7 +5682,13 @@
    },
    "line": "屬七十二地煞星。見於17回。",
    "signals": {
-    "lookAlikes": 163
+    "lookAlikes": 163,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "解珍",
+     "tied": 0
+    }
    }
   }
  },

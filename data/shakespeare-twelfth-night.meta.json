@@ -32,7 +32,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-two-gentlemen-of-verona",
+     "story": "Two Gentlemen of Verona",
+     "name": "Valentine",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -45,7 +51,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Cromwell",
+     "tied": 1
+    }
    }
   },
   "4": {
@@ -58,7 +70,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Stephano",
+     "tied": 1
+    }
    }
   },
   "5": {
@@ -71,7 +89,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Antonio",
+     "tied": 1
+    }
    }
   },
   "6": {
@@ -86,7 +110,13 @@
    },
    "line": "Steward.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Olivia",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -99,7 +129,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-macbeth",
+     "story": "Macbeth",
+     "name": "Lady Macbeth",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -112,7 +148,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Caliban",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -127,7 +169,13 @@
    },
    "line": "Duke.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Boatswain",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -140,7 +188,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Beadle",
+     "tied": 4
+    }
    }
   },
   "11": {
@@ -153,7 +207,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Dull Constable",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -166,7 +226,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-winters-tale",
+     "story": "The Winter's Tale",
+     "name": "Leontes",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -179,7 +245,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-comedy-of-errors",
+     "story": "The Comedy of Errors",
+     "name": "Luciana",
+     "tied": 0
+    }
    }
   }
  },

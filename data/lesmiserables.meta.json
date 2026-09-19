@@ -28,7 +28,13 @@
    },
    "line": "Of the Friends of the ABC. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Joly",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -43,7 +49,13 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Gueulemer",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -57,7 +69,13 @@
    },
    "line": "Criminal. Appears in Volume 4.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "張團練",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -71,7 +89,13 @@
    },
    "line": "Student. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Dahlia",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -84,7 +108,13 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Andromache",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -102,7 +132,13 @@
    },
    "line": "Of the Friends of the ABC. Appears in three volumes.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Viola Cesario",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -116,7 +152,13 @@
    },
    "line": "Convict. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Chenildieu",
+     "tied": 1
+    }
    }
   },
   "8": {
@@ -130,7 +172,13 @@
    },
    "line": "Convict. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Brevet",
+     "tied": 1
+    }
    }
   },
   "9": {
@@ -143,7 +191,13 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Judge of Douai",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -161,7 +215,13 @@
    },
    "line": "Of the Friends of the ABC. Appears in three volumes.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-winters-tale",
+     "story": "The Winter's Tale",
+     "name": "Shepherd’s Son",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -175,7 +235,13 @@
    },
    "line": "Convict. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Brevet",
+     "tied": 1
+    }
    }
   },
   "12": {
@@ -192,7 +258,13 @@
    },
    "line": "Appears in four volumes.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-macbeth",
+     "story": "Macbeth",
+     "name": "Macduff",
+     "tied": 1
+    }
    }
   },
   "13": {
@@ -210,7 +282,13 @@
    },
    "line": "Of the Friends of the ABC. Appears in three volumes.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Viola Cesario",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -223,7 +301,13 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Blacheville",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -243,7 +327,13 @@
    },
    "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Lucio",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -259,7 +349,13 @@
    },
    "line": "Appears in three volumes.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Hephaestus",
+     "tied": 0
+    }
    }
   },
   "17": {
@@ -273,7 +369,13 @@
    },
    "line": "Student. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Listolier",
+     "tied": 1
+    }
    }
   },
   "18": {
@@ -290,7 +392,13 @@
    },
    "line": "Of the Friends of the ABC. Appears in Volume 4 and Volume 5.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Bahorel",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -317,7 +425,13 @@
    },
    "line": "Prostitute. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Agrippa",
+     "tied": 0
+    }
    }
   },
   "21": {
@@ -332,7 +446,13 @@
    },
    "line": "Student. Appears in Volume 1 and Volume 3.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abihu",
+     "tied": 0
+    }
    }
   },
   "22": {
@@ -345,7 +465,13 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Blacheville",
+     "tied": 1
+    }
    }
   },
   "23": {
@@ -362,7 +488,13 @@
    },
    "line": "Urchin. Appears in three volumes.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Lucius",
+     "tied": 0
+    }
    }
   },
   "24": {
@@ -377,7 +509,13 @@
    },
    "line": "Appears in three volumes.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Madamoiselle Gillenormand",
+     "tied": 0
+    }
    }
   },
   "25": {
@@ -407,7 +545,13 @@
    },
    "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Montjoy",
+     "tied": 0
+    }
    }
   },
   "27": {
@@ -422,7 +566,13 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Babet",
+     "tied": 0
+    }
    }
   },
   "28": {
@@ -436,7 +586,13 @@
    },
    "line": "Innkeeper. Appears in Volume 4.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Harcourt",
+     "tied": 0
+    }
    }
   },
   "29": {
@@ -455,7 +611,13 @@
    },
    "line": "Police officer. Appears in all five volumes.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Cranmer",
+     "tied": 0
+    }
    }
   },
   "30": {
@@ -473,7 +635,13 @@
    },
    "line": "Of the Friends of the ABC. Appears in three volumes.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Bahorel",
+     "tied": 0
+    }
    }
   },
   "31": {
@@ -489,7 +657,13 @@
    },
    "line": "Of the Friends of the ABC. Appears in Volume 4.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "王倫",
+     "tied": 0
+    }
    }
   },
   "32": {
@@ -503,7 +677,13 @@
    },
    "line": "Judge. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Champmathieu",
+     "tied": 0
+    }
    }
   },
   "33": {
@@ -522,7 +702,13 @@
    },
    "line": "Thief. Appears in all five volumes.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Odysseus",
+     "tied": 0
+    }
    }
   },
   "34": {
@@ -536,7 +722,13 @@
    },
    "line": "Student. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Fameuil",
+     "tied": 1
+    }
    }
   },
   "35": {
@@ -553,7 +745,13 @@
    },
    "line": "Revolutionary. Appears in three volumes.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Lady Capulet",
+     "tied": 0
+    }
    }
   },
   "36": {
@@ -589,7 +787,13 @@
    },
    "line": "Appears in three volumes.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Monsieur Luke Esprit Gillenormand",
+     "tied": 0
+    }
    }
   },
   "39": {
@@ -616,7 +820,13 @@
    },
    "line": "Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Francis",
+     "tied": 0
+    }
    }
   },
   "41": {
@@ -643,7 +853,13 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Xanthus",
+     "tied": 0
+    }
    }
   },
   "43": {
@@ -692,7 +908,13 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Podrick Payne",
+     "tied": 0
+    }
    }
   },
   "47": {
@@ -744,7 +966,13 @@
    },
    "line": "Innkeeper. Appears in all five volumes.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Athena",
+     "tied": 0
+    }
    }
   },
   "51": {
@@ -761,7 +989,13 @@
    },
    "line": "Appears in four volumes.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "龐德",
+     "tied": 0
+    }
    }
   },
   "52": {
@@ -785,7 +1019,13 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Fameuil",
+     "tied": 1
+    }
    }
   }
  },

@@ -16,7 +16,13 @@
    },
    "line": "King of Myrmidons.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Agamemnon",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -31,7 +37,13 @@
    },
    "line": "Military leader.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Aaron",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -48,7 +60,13 @@
    },
    "line": "King of Mycenae.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Achilles",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -65,7 +83,13 @@
    },
    "line": "Mythical king of Salamis.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Ulysses",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -120,7 +144,13 @@
    },
    "line": "Seer.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Lancel Lannister",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -135,7 +165,13 @@
    },
    "line": "Oracle.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Priam",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -148,7 +184,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Hippolyta",
+     "tied": 1
+    }
    }
   },
   "11": {
@@ -161,7 +203,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Mistress Overdone",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -178,7 +226,13 @@
    },
    "line": "King of Argos.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-the-taming-of-the-shrew",
+     "story": "The Taming of the Shrew",
+     "name": "Katherine",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -191,7 +245,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Aeneas",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -230,7 +290,13 @@
    },
    "line": "King of Sparta.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Hermia",
+     "tied": 0
+    }
    }
   },
   "17": {
@@ -247,7 +313,13 @@
    },
    "line": "King of Pylos.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Helena",
+     "tied": 0
+    }
    }
   },
   "18": {
@@ -260,7 +332,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Earl of Salisbury",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -275,7 +353,13 @@
    },
    "line": "Herder.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Mace Windu",
+     "tied": 0
+    }
    }
   },
   "20": {
@@ -288,7 +372,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Thersites",
+     "tied": 0
+    }
    }
   },
   "21": {
@@ -303,7 +393,13 @@
    },
    "line": "King of Troy.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Cassandra",
+     "tied": 0
+    }
    }
   },
   "22": {
@@ -316,7 +412,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Quentin Burdick",
+     "tied": 0
+    }
    }
   },
   "23": {
@@ -353,7 +455,13 @@
    },
    "line": "King of Calydon.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Patroclus",
+     "tied": 0
+    }
    }
   },
   "26": {
@@ -366,7 +474,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-a-midsummer-nights-dream",
+     "story": "A Midsummer Night’s Dream",
+     "name": "Titania",
+     "tied": 0
+    }
    }
   },
   "27": {
@@ -379,7 +493,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-troilus-and-cressida",
+     "story": "Troilus and Cressida",
+     "name": "Ajax",
+     "tied": 0
+    }
    }
   }
  },

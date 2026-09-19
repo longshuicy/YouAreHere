@@ -12,7 +12,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Achish",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -25,7 +31,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "夏侯楙",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -38,7 +50,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Nurse",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -51,7 +69,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Balthasar",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -64,7 +88,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Solanio",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -89,7 +119,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "劉高",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -102,7 +138,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Aemilius",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -115,7 +157,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-as-you-like-it",
+     "story": "As You Like It",
+     "name": "Second Brother",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -128,7 +176,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Louis the Dauphin",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -141,7 +195,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Odius",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -174,7 +234,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Val",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -187,7 +253,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Lady Capulet",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -200,7 +272,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shakespeare-alls-well-that-ends-well",
+     "story": "All’s Well That Ends Well",
+     "name": "Diana",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -213,7 +291,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-alls-well-that-ends-well",
+     "story": "All’s Well That Ends Well",
+     "name": "Parolles",
+     "tied": 0
+    }
    }
   },
   "17": {
@@ -244,7 +328,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55
+    "lookAlikes": 55,
+    "nearest": {
+     "world": "shakespeare-as-you-like-it",
+     "story": "As You Like It",
+     "name": "Hymen",
+     "tied": 0
+    }
    }
   },
   "20": {
@@ -257,7 +347,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-othello",
+     "story": "Othello",
+     "name": "Roderigo",
+     "tied": 0
+    }
    }
   },
   "21": {
@@ -270,7 +366,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Lady Capulet",
+     "tied": 0
+    }
    }
   },
   "22": {

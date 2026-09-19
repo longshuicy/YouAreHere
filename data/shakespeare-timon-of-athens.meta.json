@@ -16,7 +16,13 @@
    },
    "line": "Strategos.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Servilius",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -29,7 +35,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Flavius",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -42,7 +54,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "賈蓉續娶之妻",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -65,7 +83,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Apemantus",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -78,7 +102,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Caphis",
+     "tied": 2
+    }
    }
   },
   "6": {
@@ -91,7 +121,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Lucilius",
+     "tied": 2
+    }
    }
   },
   "7": {
@@ -104,7 +140,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Jeweler",
+     "tied": 2
+    }
    }
   },
   "8": {
@@ -117,7 +159,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Jeweler",
+     "tied": 2
+    }
    }
   },
   "9": {
@@ -130,7 +178,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Poet",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -153,7 +207,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Painter",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -168,7 +228,13 @@
    },
    "line": "Servant.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Fool",
+     "tied": 2
+    }
    }
   },
   "13": {
@@ -181,7 +247,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Lucius’ Man",
+     "tied": 2
+    }
    }
   },
   "14": {
@@ -194,7 +266,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Caphis",
+     "tied": 2
+    }
    }
   },
   "15": {
@@ -207,7 +285,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Hortensius",
+     "tied": 2
+    }
    }
   },
   "16": {
@@ -220,7 +304,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Caphis",
+     "tied": 2
+    }
    }
   },
   "17": {
@@ -233,7 +323,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Hortensius",
+     "tied": 2
+    }
    }
   },
   "18": {
@@ -246,7 +342,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Servilius",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -259,7 +361,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Jeweler",
+     "tied": 2
+    }
    }
   },
   "20": {
@@ -272,7 +380,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Flaminius",
+     "tied": 0
+    }
    }
   },
   "21": {
@@ -285,7 +399,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Hortensius",
+     "tied": 2
+    }
    }
   },
   "22": {
@@ -310,7 +430,13 @@
    },
    "line": "Philosopher.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "劉邦",
+     "tied": 0
+    }
    }
   }
  },

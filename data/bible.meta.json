@@ -17,7 +17,13 @@
    },
    "line": "Governor. Appears in Ezra and Nehemiah.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Hobb",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -39,7 +45,13 @@
    },
    "line": "Leader. Appears in six books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shephatiah",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -65,7 +77,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Cainan",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -83,7 +101,13 @@
    },
    "line": "Prophet. Appears in four books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nebat",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -99,7 +123,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Manahath",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -114,7 +144,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Polypoetes",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -128,7 +164,13 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abagtha",
+     "tied": 6
+    }
    }
   },
   "8": {
@@ -208,7 +250,13 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ittai",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -323,7 +371,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jeroham",
+     "tied": 0
+    }
    }
   },
   "24": {
@@ -339,7 +393,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Eden",
+     "tied": 0
+    }
    }
   },
   "25": {
@@ -375,7 +435,13 @@
    },
    "line": "King of Judah. Appears in six books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Daniel",
+     "tied": 0
+    }
    }
   },
   "27": {
@@ -416,7 +482,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Grenn",
+     "tied": 0
+    }
    }
   },
   "30": {
@@ -432,7 +504,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abiram",
+     "tied": 0
+    }
    }
   },
   "31": {
@@ -463,7 +541,13 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joash",
+     "tied": 0
+    }
    }
   },
   "33": {
@@ -479,7 +563,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Arianne Martell",
+     "tied": 0
+    }
    }
   },
   "34": {
@@ -522,7 +612,13 @@
    },
    "line": "Military leader. Appears in seven books.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Eleazar",
+     "tied": 0
+    }
    }
   },
   "37": {
@@ -540,7 +636,13 @@
    },
    "line": "Biblical judge. Appears in four books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Steve Rothman",
+     "tied": 0
+    }
    }
   },
   "38": {
@@ -557,7 +659,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 5
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aethra",
+     "tied": 1
+    }
    }
   },
   "39": {
@@ -575,7 +683,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "丁謐",
+     "tied": 1
+    }
    }
   },
   "40": {
@@ -613,7 +727,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elisha",
+     "tied": 0
+    }
    }
   },
   "43": {
@@ -639,7 +759,13 @@
    },
    "line": "Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abiel",
+     "tied": 0
+    }
    }
   },
   "45": {
@@ -666,7 +792,13 @@
    },
    "line": "Appears in I Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Armoni",
+     "tied": 0
+    }
    }
   },
   "47": {
@@ -681,7 +813,13 @@
    },
    "line": "Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jeroham",
+     "tied": 0
+    }
    }
   },
   "48": {
@@ -698,7 +836,13 @@
    },
    "line": "Military leader. Appears in three books.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Metellus Cimber",
+     "tied": 0
+    }
    }
   },
   "49": {
@@ -714,7 +858,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abdon",
+     "tied": 0
+    }
    }
   },
   "50": {
@@ -763,7 +913,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "賈菖",
+     "tied": 1
+    }
    }
   },
   "54": {
@@ -810,7 +966,13 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Benjamin",
+     "tied": 0
+    }
    }
   },
   "58": {
@@ -859,7 +1021,13 @@
    },
    "line": "Appears in I Chronicles and Nehemiah.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "殷開山",
+     "tied": 0
+    }
    }
   },
   "62": {
@@ -886,7 +1054,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Darius the Mede",
+     "tied": 0
+    }
    }
   },
   "64": {
@@ -902,7 +1076,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nahash",
+     "tied": 0
+    }
    }
   },
   "65": {
@@ -938,7 +1118,13 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Dave Camp",
+     "tied": 0
+    }
    }
   },
   "68": {
@@ -953,7 +1139,13 @@
    },
    "line": "Appears in I Chronicles and Ezra.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joah",
+     "tied": 0
+    }
    }
   },
   "69": {
@@ -980,7 +1172,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ben",
+     "tied": 0
+    }
    }
   },
   "71": {
@@ -995,7 +1193,13 @@
    },
    "line": "Appears in I Chronicles and Nehemiah.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Levi",
+     "tied": 0
+    }
    }
   },
   "72": {
@@ -1030,7 +1234,13 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abagtha",
+     "tied": 5
+    }
    }
   },
   "75": {
@@ -1058,7 +1268,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joel",
+     "tied": 0
+    }
    }
   },
   "77": {
@@ -1095,7 +1311,13 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Amos",
+     "tied": 0
+    }
    }
   },
   "80": {
@@ -1110,7 +1332,13 @@
    },
    "line": "Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Salmon",
+     "tied": 0
+    }
    }
   },
   "81": {
@@ -1127,7 +1355,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ben",
+     "tied": 0
+    }
    }
   },
   "82": {
@@ -1143,7 +1377,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "First Herald",
+     "tied": 2
+    }
    }
   },
   "83": {
@@ -1161,7 +1401,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Obed",
+     "tied": 0
+    }
    }
   },
   "84": {
@@ -1176,7 +1422,13 @@
    },
    "line": "Soldier. Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bichri",
+     "tied": 0
+    }
    }
   },
   "85": {
@@ -1194,7 +1446,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jedaiah",
+     "tied": 0
+    }
    }
   },
   "86": {
@@ -1231,7 +1489,13 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "John McHugh",
+     "tied": 0
+    }
    }
   },
   "89": {
@@ -1271,7 +1535,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Jerry Costello",
+     "tied": 0
+    }
    }
   },
   "92": {
@@ -1310,7 +1580,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Mirri Maz Duur",
+     "tied": 0
+    }
    }
   },
   "95": {
@@ -1385,7 +1661,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "逢紀",
+     "tied": 0
+    }
    }
   },
   "101": {
@@ -1400,7 +1682,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ishbak",
+     "tied": 2
+    }
    }
   },
   "102": {
@@ -1428,7 +1716,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Doug Bereuter",
+     "tied": 0
+    }
    }
   },
   "104": {
@@ -1443,7 +1737,13 @@
    },
    "line": "Appears in I Kings and Nehemiah.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bakbukiah",
+     "tied": 0
+    }
    }
   },
   "105": {
@@ -1481,7 +1781,13 @@
    },
    "line": "Appears in I Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joanna",
+     "tied": 0
+    }
    }
   },
   "108": {
@@ -1507,7 +1813,13 @@
    },
    "line": "Appears in I Samuel and Psalms.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Amphinomus",
+     "tied": 0
+    }
    }
   },
   "110": {
@@ -1541,7 +1853,13 @@
    },
    "line": "Appears in Ezra and Esther.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Armen",
+     "tied": 0
+    }
    }
   },
   "113": {
@@ -1559,7 +1877,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Satin",
+     "tied": 0
+    }
    }
   },
   "114": {
@@ -1589,7 +1913,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Boreas",
+     "tied": 0
+    }
    }
   },
   "116": {
@@ -1617,7 +1947,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Tom DeLay",
+     "tied": 0
+    }
    }
   },
   "118": {
@@ -1632,7 +1968,13 @@
    },
    "line": "Appears in Ezra and Jeremiah.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Eden",
+     "tied": 0
+    }
    }
   },
   "119": {
@@ -1646,7 +1988,13 @@
    },
    "line": "Appears in Jeremiah.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jether",
+     "tied": 0
+    }
    }
   },
   "120": {
@@ -1663,7 +2011,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elishama",
+     "tied": 0
+    }
    }
   },
   "121": {
@@ -1689,7 +2043,13 @@
    },
    "line": "Appears in II Kings and Jeremiah.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ephai the Netophathite",
+     "tied": 0
+    }
    }
   },
   "123": {
@@ -1716,7 +2076,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shepho",
+     "tied": 0
+    }
    }
   },
   "125": {
@@ -1767,7 +2133,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Cain",
+     "tied": 0
+    }
    }
   },
   "129": {
@@ -1807,7 +2179,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Fred Upton",
+     "tied": 0
+    }
    }
   },
   "132": {
@@ -1844,7 +2222,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Asher",
+     "tied": 0
+    }
    }
   },
   "135": {
@@ -1881,7 +2265,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mahalalel",
+     "tied": 0
+    }
    }
   },
   "138": {
@@ -1938,7 +2328,13 @@
    },
    "line": "King of Babylon. Appears in seven books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ahab",
+     "tied": 0
+    }
    }
   },
   "142": {
@@ -1954,7 +2350,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shammua",
+     "tied": 0
+    }
    }
   },
   "143": {
@@ -1980,7 +2382,13 @@
    },
    "line": "Appears in Numbers and I Chronicles.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "George Gekas",
+     "tied": 0
+    }
    }
   },
   "145": {
@@ -1997,7 +2405,13 @@
    },
    "line": "Monarch. Appears in three books.",
    "signals": {
-    "lookAlikes": 5
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Medon",
+     "tied": 0
+    }
    }
   },
   "146": {
@@ -2013,7 +2427,13 @@
    },
    "line": "Monarch. Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Evi",
+     "tied": 0
+    }
    }
   },
   "147": {
@@ -2077,7 +2497,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Charles Stenholm",
+     "tied": 0
+    }
    }
   },
   "152": {
@@ -2099,7 +2525,13 @@
    },
    "line": "King of Judah. Appears in six books.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Asaph",
+     "tied": 0
+    }
    }
   },
   "153": {
@@ -2117,7 +2549,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "魏徵",
+     "tied": 0
+    }
    }
   },
   "154": {
@@ -2137,7 +2575,13 @@
    },
    "line": "King. Appears in four books.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Areo Hotah",
+     "tied": 0
+    }
    }
   },
   "155": {
@@ -2160,7 +2604,13 @@
    },
    "line": "High Priest of Israel. Appears in seven books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "滿寵",
+     "tied": 0
+    }
    }
   },
   "156": {
@@ -2192,7 +2642,13 @@
    },
    "line": "Apostle. Appears in Acts.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Libni",
+     "tied": 0
+    }
    }
   },
   "158": {
@@ -2210,7 +2666,13 @@
    },
    "line": "Prophet. Appears in Genesis and Ruth.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Richard Armey",
+     "tied": 0
+    }
    }
   },
   "159": {
@@ -2226,7 +2688,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Amon",
+     "tied": 0
+    }
    }
   },
   "160": {
@@ -2242,7 +2710,13 @@
    },
    "line": "Military leader. Appears in Judges and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Enoch",
+     "tied": 0
+    }
    }
   },
   "161": {
@@ -2268,7 +2742,13 @@
    },
    "line": "Appears in Ezra and Nehemiah.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Tekoa",
+     "tied": 0
+    }
    }
   },
   "163": {
@@ -2320,7 +2800,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "董卓",
+     "tied": 0
+    }
    }
   },
   "167": {
@@ -2335,7 +2821,13 @@
    },
    "line": "Appears in II Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Gershom",
+     "tied": 0
+    }
    }
   },
   "168": {
@@ -2458,7 +2950,13 @@
    },
    "line": "Appears in I Kings.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "葵官",
+     "tied": 0
+    }
    }
   },
   "178": {
@@ -2501,7 +2999,13 @@
    },
    "line": "Prophet. Appears in four books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "楊奉",
+     "tied": 0
+    }
    }
   },
   "181": {
@@ -2541,7 +3045,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Michael Bilirakis",
+     "tied": 0
+    }
    }
   },
   "184": {
@@ -2557,7 +3067,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Harma",
+     "tied": 0
+    }
    }
   },
   "185": {
@@ -2574,7 +3090,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Obadiah",
+     "tied": 0
+    }
    }
   },
   "186": {
@@ -2602,7 +3124,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mephibosheth",
+     "tied": 0
+    }
    }
   },
   "188": {
@@ -2656,7 +3184,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elnathan",
+     "tied": 0
+    }
    }
   },
   "192": {
@@ -2680,7 +3214,13 @@
    },
    "line": "Appears in John.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Mecisteus",
+     "tied": 0
+    }
    }
   },
   "194": {
@@ -2695,7 +3235,13 @@
    },
    "line": "Appears in Esther and Daniel.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Anah",
+     "tied": 0
+    }
    }
   },
   "195": {
@@ -2710,7 +3256,13 @@
    },
    "line": "Appears in I Kings and I Chronicles.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jedaiah",
+     "tied": 0
+    }
    }
   },
   "196": {
@@ -2790,7 +3342,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Alvan",
+     "tied": 0
+    }
    }
   },
   "203": {
@@ -3066,7 +3624,13 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Isander",
+     "tied": 0
+    }
    }
   },
   "228": {
@@ -3123,7 +3687,13 @@
    },
    "line": "Appears in Nehemiah.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abda",
+     "tied": 0
+    }
    }
   },
   "233": {
@@ -3177,7 +3747,13 @@
    },
    "line": "Apostle. Appears in three books.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Sour Alyn",
+     "tied": 0
+    }
    }
   },
   "237": {
@@ -3293,7 +3869,13 @@
    },
    "line": "Appears in II Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Matthew the Apostle",
+     "tied": 0
+    }
    }
   },
   "247": {
@@ -3381,7 +3963,13 @@
    },
    "line": "High Priest of Israel. Appears in seven books.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Benaiah",
+     "tied": 0
+    }
    }
   },
   "254": {
@@ -3453,7 +4041,13 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joah",
+     "tied": 0
+    }
    }
   },
   "260": {
@@ -3541,7 +4135,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Gad",
+     "tied": 0
+    }
    }
   },
   "268": {
@@ -3651,7 +4251,13 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abagtha",
+     "tied": 5
+    }
    }
   },
   "277": {
@@ -3665,7 +4271,13 @@
    },
    "line": "Appears in I Chronicles and Zechariah.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mahalalel",
+     "tied": 0
+    }
    }
   },
   "278": {
@@ -3681,7 +4293,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ethan",
+     "tied": 0
+    }
    }
   },
   "279": {
@@ -3720,7 +4338,13 @@
    },
    "line": "Prophet. Appears in 12 books.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "侯健",
+     "tied": 0
+    }
    }
   },
   "281": {
@@ -3774,7 +4398,13 @@
    },
    "line": "Biblical judge. Appears in seven books.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Obed",
+     "tied": 0
+    }
    }
   },
   "285": {
@@ -3804,7 +4434,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "E. Shaw Jr.",
+     "tied": 0
+    }
    }
   },
   "287": {
@@ -3820,7 +4456,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "周瑞",
+     "tied": 0
+    }
    }
   },
   "288": {
@@ -3837,7 +4479,13 @@
    },
    "line": "Biblical judge. Appears in three books.",
    "signals": {
-    "lookAlikes": 5
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aenius",
+     "tied": 6
+    }
    }
   },
   "289": {
@@ -3853,7 +4501,13 @@
    },
    "line": "Prophet. Appears in I Kings and II Chronicles.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bartholomew the Apostle",
+     "tied": 0
+    }
    }
   },
   "290": {
@@ -3894,7 +4548,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Thomas Tancredo",
+     "tied": 0
+    }
    }
   },
   "293": {
@@ -3944,7 +4604,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Medon",
+     "tied": 0
+    }
    }
   },
   "297": {
@@ -3966,7 +4632,13 @@
    },
    "line": "Prophet. Appears in six books.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ishmael",
+     "tied": 0
+    }
    }
   },
   "298": {
@@ -3994,7 +4666,13 @@
    },
    "line": "High Priest of Israel. Appears in 12 books.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joab",
+     "tied": 0
+    }
    }
   },
   "299": {
@@ -4011,7 +4689,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Mark Foley",
+     "tied": 0
+    }
    }
   },
   "300": {
@@ -4027,7 +4711,13 @@
    },
    "line": "Prophet. Appears in Ezra and Haggai.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bartholomew the Apostle",
+     "tied": 0
+    }
    }
   },
   "301": {
@@ -4078,7 +4768,13 @@
    },
    "line": "Sovereign. Appears in I Samuel and I Kings.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "shakespeare-as-you-like-it",
+     "story": "As You Like It",
+     "name": "Adam",
+     "tied": 0
+    }
    }
   },
   "305": {
@@ -4097,7 +4793,13 @@
    },
    "line": "Kohen. Appears in five books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "呂蒙",
+     "tied": 0
+    }
    }
   },
   "306": {
@@ -4112,7 +4814,13 @@
    },
    "line": "Appears in I Chronicles and Jeremiah.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shephatiah",
+     "tied": 0
+    }
    }
   },
   "307": {
@@ -4130,7 +4838,13 @@
    },
    "line": "Fisher. Appears in four books.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Medon",
+     "tied": 0
+    }
    }
   },
   "308": {
@@ -4169,7 +4883,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 8
+    "lookAlikes": 8,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Dywen",
+     "tied": 0
+    }
    }
   },
   "311": {
@@ -4185,7 +4905,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jezebel",
+     "tied": 0
+    }
    }
   },
   "312": {
@@ -4200,7 +4926,13 @@
    },
    "line": "Appears in I Samuel and II Samuel.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "劉肥",
+     "tied": 0
+    }
    }
   },
   "313": {
@@ -4222,7 +4954,13 @@
    },
    "line": "Prefect of Judea. Appears in six books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "夏侯楙",
+     "tied": 0
+    }
    }
   },
   "314": {
@@ -4240,7 +4978,13 @@
    },
    "line": "Prophet. Appears in four books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jotham",
+     "tied": 0
+    }
    }
   },
   "315": {
@@ -4269,7 +5013,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aethra",
+     "tied": 1
+    }
    }
   },
   "317": {
@@ -4287,7 +5037,13 @@
    },
    "line": "Prophet. Appears in Judges and Hebrews.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Naomi",
+     "tied": 0
+    }
    }
   },
   "318": {
@@ -4308,7 +5064,13 @@
    },
    "line": "Prophet. Appears in five books.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Pashur",
+     "tied": 0
+    }
    }
   },
   "319": {
@@ -4324,7 +5086,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jahath",
+     "tied": 0
+    }
    }
   },
   "320": {
@@ -4350,7 +5118,13 @@
    },
    "line": "Appears in Ruth and Matthew.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bartholomew the Apostle",
+     "tied": 0
+    }
    }
   },
   "322": {
@@ -4364,7 +5138,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Issachar",
+     "tied": 0
+    }
    }
   },
   "323": {
@@ -4393,7 +5173,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ram",
+     "tied": 0
+    }
    }
   },
   "325": {
@@ -4407,7 +5193,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Reuel",
+     "tied": 0
+    }
    }
   },
   "326": {
@@ -4426,7 +5218,13 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 1
+    "lookAlikes": 1,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Ken Calvert",
+     "tied": 0
+    }
    }
   },
   "327": {
@@ -4459,7 +5257,13 @@
    },
    "line": "High Priest of Israel. Appears in six books.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ishmael",
+     "tied": 0
+    }
    }
   },
   "329": {
@@ -4475,7 +5279,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zibeon",
+     "tied": 0
+    }
    }
   },
   "330": {
@@ -4507,7 +5317,13 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jeremiah",
+     "tied": 0
+    }
    }
   },
   "332": {
@@ -4530,7 +5346,13 @@
    },
    "line": "King of Judah. Appears in seven books.",
    "signals": {
-    "lookAlikes": 1
+    "lookAlikes": 1,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Robert Dornan",
+     "tied": 0
+    }
    }
   },
   "333": {
@@ -4548,7 +5370,13 @@
    },
    "line": "Bishop. Appears in Acts and Galatians.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jehozadak",
+     "tied": 0
+    }
    }
   },
   "334": {
@@ -4600,7 +5428,13 @@
    },
    "line": "Prophet. Appears in three books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Amoz",
+     "tied": 0
+    }
    }
   },
   "338": {
@@ -4638,7 +5472,13 @@
    },
    "line": "Courtier. Appears in Esther.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abagtha",
+     "tied": 5
+    }
    }
   },
   "341": {
@@ -4657,7 +5497,13 @@
    },
    "line": "Kohen. Appears in three books.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nethaneel",
+     "tied": 0
+    }
    }
   },
   "342": {
@@ -4687,7 +5533,13 @@
    },
    "line": "Prophet. Appears in four books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Harwin",
+     "tied": 0
+    }
    }
   },
   "344": {
@@ -4702,7 +5554,13 @@
    },
    "line": "Appears in II Samuel and I Kings.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "李貴",
+     "tied": 0
+    }
    }
   },
   "345": {
@@ -4717,7 +5575,13 @@
    },
    "line": "Appears in Genesis and Isaiah.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Brujon",
+     "tied": 0
+    }
    }
   },
   "346": {
@@ -4734,7 +5598,13 @@
    },
    "line": "Prophet. Appears in three books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "劉交",
+     "tied": 0
+    }
    }
   },
   "347": {
@@ -4751,7 +5621,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nathan",
+     "tied": 0
+    }
    }
   },
   "348": {
@@ -4790,7 +5666,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "何晏",
+     "tied": 1
+    }
    }
   },
   "351": {
@@ -4805,7 +5687,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Joel Hefley",
+     "tied": 0
+    }
    }
   },
   "352": {
@@ -4821,7 +5709,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shethar",
+     "tied": 0
+    }
    }
   },
   "353": {
@@ -4860,7 +5754,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Stephanie Jones",
+     "tied": 0
+    }
    }
   },
   "356": {
@@ -4901,7 +5801,13 @@
    },
    "line": "Farmer. Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mahalalel",
+     "tied": 0
+    }
    }
   },
   "359": {
@@ -4922,7 +5828,13 @@
    },
    "line": "King. Appears in five books.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joshua",
+     "tied": 0
+    }
    }
   },
   "360": {
@@ -4952,7 +5864,13 @@
    },
    "line": "Prophet. Appears in I Kings and II Kings.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Remaliah",
+     "tied": 0
+    }
    }
   },
   "362": {
@@ -4997,7 +5915,13 @@
    },
    "line": "Prophet. Appears in Genesis and Ruth.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Garin",
+     "tied": 0
+    }
    }
   },
   "365": {
@@ -5014,7 +5938,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "丁謐",
+     "tied": 1
+    }
    }
   },
   "366": {
@@ -5033,7 +5963,13 @@
    },
    "line": "Judge. Appears in five books.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jehiel",
+     "tied": 0
+    }
    }
   },
   "367": {
@@ -5052,7 +5988,13 @@
    },
    "line": "Prophet. Appears in five books.",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Azariah",
+     "tied": 0
+    }
    }
   },
   "368": {
@@ -5083,7 +6025,13 @@
    },
    "line": "King of Judah. Appears in three books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elijah",
+     "tied": 0
+    }
    }
   },
   "370": {
@@ -5114,7 +6062,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hepher",
+     "tied": 0
+    }
    }
   },
   "372": {
@@ -5158,7 +6112,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jared",
+     "tied": 0
+    }
    }
   },
   "375": {
@@ -5200,7 +6160,13 @@
    },
    "line": "Prophet. Appears in Amos and Luke.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Heldai",
+     "tied": 0
+    }
    }
   },
   "378": {
@@ -5241,7 +6207,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joanna",
+     "tied": 0
+    }
    }
   },
   "381": {
@@ -5297,7 +6269,13 @@
    },
    "line": "High Priest of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Bowen Marsh",
+     "tied": 0
+    }
    }
   },
   "385": {
@@ -5313,7 +6291,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Aholibamah",
+     "tied": 0
+    }
    }
   },
   "386": {
@@ -5329,7 +6313,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Anguy",
+     "tied": 0
+    }
    }
   },
   "387": {
@@ -5362,7 +6352,13 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Ron Packard",
+     "tied": 0
+    }
    }
   },
   "389": {
@@ -5376,7 +6372,13 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abagtha",
+     "tied": 5
+    }
    }
   },
   "390": {
@@ -5431,7 +6433,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Izhar",
+     "tied": 0
+    }
    }
   },
   "394": {
@@ -5477,7 +6485,13 @@
    },
    "line": "King of Israel. Appears in five books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nebuchadnezzar II",
+     "tied": 0
+    }
    }
   },
   "397": {
@@ -5527,7 +6541,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Porter Goss",
+     "tied": 0
+    }
    }
   },
   "401": {
@@ -5551,7 +6571,13 @@
    },
    "line": "King of Judah. Appears in 8 books.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Asaph",
+     "tied": 0
+    }
    }
   },
   "402": {
@@ -5569,7 +6595,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ahimaaz",
+     "tied": 0
+    }
    }
   },
   "403": {
@@ -5613,7 +6645,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "橋蕤",
+     "tied": 0
+    }
    }
   },
   "406": {
@@ -5742,7 +6780,13 @@
    },
    "line": "Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Reba",
+     "tied": 0
+    }
    }
   },
   "417": {
@@ -5769,7 +6813,13 @@
    },
    "line": "Appears in Ruth.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Gideon",
+     "tied": 0
+    }
    }
   },
   "419": {
@@ -5808,7 +6858,13 @@
    },
    "line": "Spy. Appears in three books.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jaazaniah",
+     "tied": 0
+    }
    }
   },
   "422": {
@@ -5824,7 +6880,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Andrew the Apostle",
+     "tied": 0
+    }
    }
   },
   "423": {
@@ -5852,7 +6914,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "柳家的",
+     "tied": 0
+    }
    }
   },
   "425": {
@@ -5870,7 +6938,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Kish",
+     "tied": 0
+    }
    }
   },
   "426": {
@@ -5886,7 +6960,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hanani",
+     "tied": 0
+    }
    }
   },
   "427": {
@@ -5904,7 +6984,13 @@
    },
    "line": "Military leader. Appears in four books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Rehoboam",
+     "tied": 0
+    }
    }
   },
   "428": {
@@ -5918,7 +7004,13 @@
    },
    "line": "Appears in Luke.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abiah",
+     "tied": 0
+    }
    }
   },
   "429": {
@@ -5961,7 +7053,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bartholomew the Apostle",
+     "tied": 0
+    }
    }
   },
   "432": {
@@ -5993,7 +7091,13 @@
    },
    "line": "King of Judah. Appears in I Kings and II Chronicles.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Kegs",
+     "tied": 0
+    }
    }
   },
   "434": {
@@ -6034,7 +7138,13 @@
    },
    "line": "Prophet. Appears in five books.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zephaniah",
+     "tied": 0
+    }
    }
   },
   "437": {
@@ -6059,7 +7169,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Polypoetes",
+     "tied": 0
+    }
    }
   },
   "439": {
@@ -6074,7 +7190,13 @@
    },
    "line": "Appears in I Samuel and II Samuel.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Rizpah",
+     "tied": 0
+    }
    }
   },
   "440": {
@@ -6131,7 +7253,13 @@
    },
    "line": "King of Israel. Appears in five books.",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "呂布",
+     "tied": 0
+    }
    }
   },
   "444": {
@@ -6158,7 +7286,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jimnah",
+     "tied": 0
+    }
    }
   },
   "446": {
@@ -6172,7 +7306,13 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 8
+    "lookAlikes": 8,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "韓暹",
+     "tied": 0
+    }
    }
   },
   "447": {
@@ -6203,7 +7343,13 @@
    },
    "line": "High Priest of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ahitub",
+     "tied": 0
+    }
    }
   },
   "449": {
@@ -6220,7 +7366,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nebuchadnezzar II",
+     "tied": 0
+    }
    }
   },
   "450": {
@@ -6286,7 +7438,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mary",
+     "tied": 0
+    }
    }
   },
   "455": {
@@ -6303,7 +7461,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Xanthus",
+     "tied": 0
+    }
    }
   },
   "456": {
@@ -6321,7 +7485,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Merari",
+     "tied": 0
+    }
    }
   },
   "457": {
@@ -6335,7 +7505,13 @@
    },
    "line": "Appears in Exodus.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tansy",
+     "tied": 0
+    }
    }
   },
   "458": {
@@ -6387,7 +7563,13 @@
    },
    "line": "Prophet. Appears in 24 books.",
    "signals": {
-    "lookAlikes": 103
+    "lookAlikes": 103,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "孫權",
+     "tied": 0
+    }
    }
   },
   "460": {
@@ -6412,7 +7594,13 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bigta",
+     "tied": 5
+    }
    }
   },
   "462": {
@@ -6428,7 +7616,13 @@
    },
    "line": "Biblical judge. Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Tekoa",
+     "tied": 0
+    }
    }
   },
   "463": {
@@ -6450,7 +7644,13 @@
    },
    "line": "King of Judah. Appears in six books.",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Peter Deutsch",
+     "tied": 0
+    }
    }
   },
   "464": {
@@ -6487,7 +7687,13 @@
    },
    "line": "King of Judah. Appears in seven books.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Wally Herger",
+     "tied": 0
+    }
    }
   },
   "466": {
@@ -6508,7 +7714,13 @@
    },
    "line": "King of Israel. Appears in five books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elihu",
+     "tied": 0
+    }
    }
   },
   "467": {
@@ -6529,7 +7741,13 @@
    },
    "line": "King of Israel. Appears in five books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Saint Peter",
+     "tied": 0
+    }
    }
   },
   "468": {
@@ -6549,7 +7767,13 @@
    },
    "line": "King of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "伊籍",
+     "tied": 0
+    }
    }
   },
   "469": {
@@ -6569,7 +7793,13 @@
    },
    "line": "King of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "E. Shaw Jr.",
+     "tied": 0
+    }
    }
   },
   "470": {
@@ -6593,7 +7823,13 @@
    },
    "line": "King of Judah. Appears in 8 books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jotham",
+     "tied": 0
+    }
    }
   },
   "471": {
@@ -6613,7 +7849,13 @@
    },
    "line": "King of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Charles Canady",
+     "tied": 0
+    }
    }
   },
   "472": {
@@ -6633,7 +7875,13 @@
    },
    "line": "King of Judah. Appears in four books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hanani",
+     "tied": 0
+    }
    }
   },
   "473": {
@@ -6654,7 +7902,13 @@
    },
    "line": "King of Judah. Appears in five books.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nethaneel",
+     "tied": 0
+    }
    }
   },
   "474": {
@@ -6688,7 +7942,13 @@
    },
    "line": "Shepherd. Appears in seven books.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "贾芹",
+     "tied": 0
+    }
    }
   },
   "476": {
@@ -6712,7 +7972,13 @@
    },
    "line": "King of Judah. Appears in 8 books.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Garin",
+     "tied": 0
+    }
    }
   },
   "477": {
@@ -6747,7 +8013,13 @@
    },
    "line": "King of Israel. Appears in five books.",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Amminadab",
+     "tied": 0
+    }
    }
   },
   "479": {
@@ -6768,7 +8040,13 @@
    },
    "line": "King of Judah. Appears in five books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Rattleshirt",
+     "tied": 0
+    }
    }
   },
   "480": {
@@ -6787,7 +8065,13 @@
    },
    "line": "King of Israel. Appears in three books.",
    "signals": {
-    "lookAlikes": 5
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "賈菖",
+     "tied": 1
+    }
    }
   },
   "481": {
@@ -6808,7 +8092,13 @@
    },
    "line": "King of Judah. Appears in five books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shebna",
+     "tied": 0
+    }
    }
   },
   "482": {
@@ -6830,7 +8120,13 @@
    },
    "line": "Prophet. Appears in 8 books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zeruiah",
+     "tied": 0
+    }
    }
   },
   "483": {
@@ -6884,7 +8180,13 @@
    },
    "line": "Governor. Appears in six books.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Michael Bilirakis",
+     "tied": 0
+    }
    }
   },
   "486": {
@@ -6901,7 +8203,13 @@
    },
    "line": "Prophet. Appears in three books.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ethan",
+     "tied": 0
+    }
    }
   },
   "487": {
@@ -6919,7 +8227,13 @@
    },
    "line": "Kohen. Appears in four books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "夏金桂",
+     "tied": 0
+    }
    }
   },
   "488": {
@@ -6961,7 +8275,13 @@
    },
    "line": "High Priest of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Merari",
+     "tied": 0
+    }
    }
   },
   "491": {
@@ -6978,7 +8298,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hezron",
+     "tied": 0
+    }
    }
   },
   "492": {
@@ -7001,7 +8327,13 @@
    },
    "line": "High Priest of Israel. Appears in seven books.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ishmael",
+     "tied": 0
+    }
    }
   },
   "493": {
@@ -7027,7 +8359,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Eri",
+     "tied": 1
+    }
    }
   },
   "495": {
@@ -7043,7 +8381,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hepher",
+     "tied": 0
+    }
    }
   },
   "496": {
@@ -7093,7 +8437,13 @@
    },
    "line": "Appears in Genesis and I Kings.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aethra",
+     "tied": 1
+    }
    }
   },
   "500": {
@@ -7129,7 +8479,13 @@
    },
    "line": "Appears in seven books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Aggo",
+     "tied": 0
+    }
    }
   },
   "502": {
@@ -7148,7 +8504,13 @@
    },
    "line": "King of Israel. Appears in three books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Christopher Cox",
+     "tied": 0
+    }
    }
   },
   "503": {
@@ -7170,7 +8532,13 @@
    },
    "line": "King of Israel. Appears in six books.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "E. Shaw Jr.",
+     "tied": 0
+    }
    }
   },
   "504": {
@@ -7235,7 +8603,13 @@
    },
    "line": "Pope. Appears in 9 books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nadab",
+     "tied": 0
+    }
    }
   },
   "508": {
@@ -7253,7 +8627,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Kohath",
+     "tied": 0
+    }
    }
   },
   "509": {
@@ -7323,7 +8703,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joram",
+     "tied": 0
+    }
    }
   },
   "514": {
@@ -7352,7 +8738,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Eddison Tollett",
+     "tied": 0
+    }
    }
   },
   "516": {
@@ -7367,7 +8759,13 @@
    },
    "line": "Appears in II Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 5
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Omri",
+     "tied": 0
+    }
    }
   },
   "517": {
@@ -7386,7 +8784,13 @@
    },
    "line": "High Priest of Israel. Appears in three books.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "周倉",
+     "tied": 0
+    }
    }
   },
   "518": {
@@ -7412,7 +8816,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Norman Dicks",
+     "tied": 0
+    }
    }
   },
   "520": {
@@ -7439,7 +8849,13 @@
    },
    "line": "King of Israel. Appears in 11 books.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "馬超",
+     "tied": 0
+    }
    }
   },
   "521": {
@@ -7504,7 +8920,13 @@
    },
    "line": "High Priest of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Helen",
+     "tied": 0
+    }
    }
   },
   "526": {
@@ -7520,7 +8942,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Owen",
+     "tied": 0
+    }
    }
   },
   "527": {
@@ -7534,7 +8962,13 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zuph the Ephrathite",
+     "tied": 0
+    }
    }
   },
   "528": {
@@ -7549,7 +8983,13 @@
    },
    "line": "Appears in Genesis and Romans.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "逢紀",
+     "tied": 0
+    }
    }
   },
   "529": {
@@ -7614,7 +9054,13 @@
    },
    "line": "King of Israel. Appears in 23 books.",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "宋江",
+     "tied": 0
+    }
    }
   },
   "532": {
@@ -7633,7 +9079,13 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "John Doolittle",
+     "tied": 0
+    }
    }
   },
   "533": {
@@ -7671,7 +9123,13 @@
    },
    "line": "Appears in Genesis and Luke.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Gatam",
+     "tied": 0
+    }
    }
   },
   "536": {
@@ -7686,7 +9144,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jeush",
+     "tied": 0
+    }
    }
   },
   "537": {
@@ -7701,7 +9165,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ahasuerus",
+     "tied": 0
+    }
    }
   },
   "538": {
@@ -7716,7 +9186,13 @@
    },
    "line": "Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hoglah",
+     "tied": 0
+    }
    }
   },
   "539": {
@@ -7748,7 +9224,13 @@
    },
    "line": "Prophet. Appears in seven books.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hezekiah",
+     "tied": 0
+    }
    }
   },
   "541": {
@@ -7780,7 +9262,13 @@
    },
    "line": "Ecumenical Patriarch of Constantinople. Appears in five books.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zelophehad",
+     "tied": 0
+    }
    }
   },
   "543": {
@@ -7800,7 +9288,13 @@
    },
    "line": "Apostle. Appears in four books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-much-ado-about-nothing",
+     "story": "Much Ado About Nothing",
+     "name": "First Watchman",
+     "tied": 1
+    }
    }
   },
   "544": {
@@ -7834,7 +9328,13 @@
    },
    "line": "Apostle. Appears in four books.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ruth",
+     "tied": 0
+    }
    }
   },
   "546": {
@@ -7857,7 +9357,13 @@
    },
    "line": "Apostle. Appears in seven books.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Leah",
+     "tied": 0
+    }
    }
   },
   "547": {
@@ -7911,7 +9417,13 @@
    },
    "line": "Queen consort. Appears in three books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "黃蓋",
+     "tied": 0
+    }
    }
   },
   "551": {
@@ -7939,7 +9451,13 @@
    },
    "line": "Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mahlah",
+     "tied": 0
+    }
    }
   },
   "553": {
@@ -7962,7 +9480,13 @@
    },
    "line": "Appears in 10 books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ithamar",
+     "tied": 0
+    }
    }
   },
   "554": {
@@ -7978,7 +9502,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "蘇定",
+     "tied": 0
+    }
    }
   },
   "555": {
@@ -7993,7 +9523,13 @@
    },
    "line": "Religious leader. Appears in Genesis.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ishi",
+     "tied": 0
+    }
    }
   },
   "556": {
@@ -8012,7 +9548,13 @@
    },
    "line": "King of Judah. Appears in three books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Azubah",
+     "tied": 0
+    }
    }
   },
   "557": {
@@ -8091,7 +9633,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Cade",
+     "tied": 0
+    }
    }
   },
   "563": {
@@ -8112,7 +9660,13 @@
    },
    "line": "High Priest of Israel. Appears in five books.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ahimaaz",
+     "tied": 0
+    }
    }
   },
   "564": {
@@ -8128,7 +9682,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Omri",
+     "tied": 0
+    }
    }
   },
   "565": {
@@ -8144,7 +9704,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Isaiah",
+     "tied": 0
+    }
    }
   },
   "566": {
@@ -8161,7 +9727,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Machaon",
+     "tied": 0
+    }
    }
   },
   "567": {
@@ -8180,7 +9752,13 @@
    },
    "line": "Prophet. Appears in five books.",
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jozacar",
+     "tied": 0
+    }
    }
   },
   "568": {
@@ -8202,7 +9780,13 @@
    },
    "line": "Prophet. Appears in 8 books.",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shemaiah",
+     "tied": 0
+    }
    }
   },
   "569": {
@@ -8218,7 +9802,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Athaliah",
+     "tied": 0
+    }
    }
   },
   "570": {
@@ -8236,7 +9826,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Tom Davis",
+     "tied": 0
+    }
    }
   },
   "571": {
@@ -8255,7 +9851,13 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "C. Young",
+     "tied": 0
+    }
    }
   },
   "572": {
@@ -8283,7 +9885,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "魏徵",
+     "tied": 0
+    }
    }
   },
   "574": {
@@ -8315,7 +9923,13 @@
    },
    "line": "High Priest of Israel. Appears in 16 books.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joab",
+     "tied": 0
+    }
    }
   },
   "575": {
@@ -8356,7 +9970,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Roscoe Bartlett",
+     "tied": 0
+    }
    }
   },
   "578": {
@@ -8371,7 +9991,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ishi",
+     "tied": 0
+    }
    }
   },
   "579": {
@@ -8449,7 +10075,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "葵官",
+     "tied": 0
+    }
    }
   },
   "585": {
@@ -8491,7 +10123,13 @@
    },
    "line": "Prophet. Appears in six books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "漢景帝",
+     "tied": 0
+    }
    }
   },
   "588": {
@@ -8520,7 +10158,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Ray LaHood",
+     "tied": 0
+    }
    }
   },
   "590": {
@@ -8569,7 +10213,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jokshan",
+     "tied": 2
+    }
    }
   },
   "594": {
@@ -8601,7 +10251,13 @@
    },
    "line": "King. Appears in four books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Reuben",
+     "tied": 0
+    }
    }
   },
   "596": {
@@ -8637,7 +10293,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Huppim",
+     "tied": 0
+    }
    }
   },
   "599": {
@@ -8667,7 +10329,13 @@
    },
    "line": "Priest. Appears in five books.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shealtiel",
+     "tied": 0
+    }
    }
   },
   "601": {
@@ -8684,7 +10352,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mahath",
+     "tied": 0
+    }
    }
   },
   "602": {
@@ -8710,7 +10384,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Darius the Mede",
+     "tied": 0
+    }
    }
   },
   "604": {
@@ -8727,7 +10407,13 @@
    },
    "line": "High Priest of Israel. Appears in Nehemiah.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "武大郎",
+     "tied": 0
+    }
    }
   },
   "605": {
@@ -8742,7 +10428,13 @@
    },
    "line": "Appears in II Samuel and Jeremiah.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "闞澤",
+     "tied": 0
+    }
    }
   },
   "606": {
@@ -8774,7 +10466,13 @@
    },
    "line": "Caregiver. Appears in four books.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "shakespeare-much-ado-about-nothing",
+     "story": "Much Ado About Nothing",
+     "name": "First Watchman",
+     "tied": 1
+    }
    }
   },
   "608": {
@@ -8789,7 +10487,13 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ashbel",
+     "tied": 1
+    }
    }
   },
   "609": {
@@ -8803,7 +10507,13 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Esther",
+     "tied": 0
+    }
    }
   },
   "610": {
@@ -8829,7 +10539,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Asher",
+     "tied": 0
+    }
    }
   },
   "612": {
@@ -8859,7 +10575,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Onan",
+     "tied": 0
+    }
    }
   },
   "614": {
@@ -8893,7 +10615,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mered",
+     "tied": 0
+    }
    }
   },
   "617": {
@@ -8959,7 +10687,13 @@
    },
    "line": "Prophet. Appears in six books.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aphrodite",
+     "tied": 0
+    }
    }
   },
   "622": {
@@ -8973,7 +10707,13 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abagtha",
+     "tied": 5
+    }
    }
   },
   "623": {
@@ -8988,7 +10728,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hamul",
+     "tied": 0
+    }
    }
   },
   "624": {
@@ -9014,7 +10760,13 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ephai the Netophathite",
+     "tied": 0
+    }
    }
   },
   "626": {
@@ -9028,7 +10780,13 @@
    },
    "line": "Appears in Jeremiah.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Neriah",
+     "tied": 0
+    }
    }
   },
   "627": {
@@ -9075,7 +10833,13 @@
    },
    "line": "Prophet. Appears in 19 books.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Lucilius",
+     "tied": 0
+    }
    }
   },
   "629": {
@@ -9090,7 +10854,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Serah",
+     "tied": 0
+    }
    }
   },
   "630": {
@@ -9104,7 +10874,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jimnah",
+     "tied": 1
+    }
    }
   },
   "631": {
@@ -9118,7 +10894,13 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elon the Hittite",
+     "tied": 0
+    }
    }
   },
   "632": {
@@ -9145,7 +10927,13 @@
    },
    "line": "Appears in Ezra and Nehemiah.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abdon",
+     "tied": 0
+    }
    }
   },
   "634": {
@@ -9176,7 +10964,13 @@
    },
    "line": "King of Ammon. Appears in three books.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "李貴",
+     "tied": 0
+    }
    }
   },
   "636": {
@@ -9197,7 +10991,13 @@
    },
    "line": "Rabbi. Appears in seven books.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joseph",
+     "tied": 0
+    }
    }
   },
   "637": {
@@ -9211,7 +11011,13 @@
    },
    "line": "Appears in Jeremiah.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Gemariah",
+     "tied": 0
+    }
    }
   },
   "638": {
@@ -9244,7 +11050,13 @@
    },
    "line": "Prophet of Islam. Appears in seven books.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Alleras",
+     "tied": 0
+    }
    }
   },
   "640": {
@@ -9298,7 +11110,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zephaniah",
+     "tied": 0
+    }
    }
   },
   "644": {
@@ -9330,7 +11148,13 @@
    },
    "line": "Queen consort. Appears in I Kings and II Kings.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nimshi",
+     "tied": 0
+    }
    }
   },
   "646": {
@@ -9377,7 +11201,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ishbak",
+     "tied": 2
+    }
    }
   },
   "650": {
@@ -9400,7 +11230,13 @@
    },
    "line": "Prince. Appears in seven books.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Solomon",
+     "tied": 0
+    }
    }
   },
   "651": {
@@ -9416,7 +11252,13 @@
    },
    "line": "Comptroller. Appears in II Kings and Isaiah.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jeconiah",
+     "tied": 0
+    }
    }
   },
   "652": {
@@ -9493,7 +11335,13 @@
    },
    "line": "Prophet. Appears in 9 books.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "廖化",
+     "tied": 0
+    }
    }
   },
   "657": {
@@ -9538,7 +11386,13 @@
    },
    "line": "High Priest of Israel. Appears in three books.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Absalom",
+     "tied": 0
+    }
    }
   },
   "660": {
@@ -9553,7 +11407,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ishbak",
+     "tied": 2
+    }
    }
   },
   "661": {
@@ -9569,7 +11429,13 @@
    },
    "line": "Domestic worker. Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Azubah",
+     "tied": 0
+    }
    }
   },
   "662": {
@@ -9585,7 +11451,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Thomas Tancredo",
+     "tied": 0
+    }
    }
   },
   "663": {
@@ -9635,7 +11507,13 @@
    },
    "line": "Biblical judge. Appears in Judges and Hebrews.",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "郭舍人",
+     "tied": 0
+    }
    }
   },
   "667": {
@@ -9680,7 +11558,13 @@
    },
    "line": "Prophet. Appears in five books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Pekah",
+     "tied": 0
+    }
    }
   },
   "670": {
@@ -9699,7 +11583,13 @@
    },
    "line": "Military leader. Appears in five books.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zadok",
+     "tied": 0
+    }
    }
   },
   "671": {
@@ -9727,7 +11617,13 @@
    },
    "line": "Appears in Genesis and Deuteronomy.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tom of Sevenstreams",
+     "tied": 0
+    }
    }
   },
   "673": {
@@ -9746,7 +11642,13 @@
    },
    "line": "Great King. Appears in three books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elnathan",
+     "tied": 0
+    }
    }
   },
   "674": {
@@ -9771,7 +11673,13 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "曾昇",
+     "tied": 0
+    }
    }
   },
   "676": {
@@ -9785,7 +11693,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bilhan",
+     "tied": 0
+    }
    }
   },
   "677": {
@@ -9799,7 +11713,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Areli",
+     "tied": 1
+    }
    }
   },
   "678": {
@@ -9813,7 +11733,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Arodi",
+     "tied": 1
+    }
    }
   },
   "679": {
@@ -9829,7 +11755,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ehi",
+     "tied": 0
+    }
    }
   },
   "680": {
@@ -9845,7 +11777,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Adah",
+     "tied": 0
+    }
    }
   },
   "681": {
@@ -9860,7 +11798,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ram",
+     "tied": 0
+    }
    }
   },
   "682": {
@@ -9876,7 +11820,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ashbel",
+     "tied": 0
+    }
    }
   },
   "683": {
@@ -9891,7 +11841,13 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ezbon",
+     "tied": 0
+    }
    }
   },
   "684": {
@@ -9906,7 +11862,13 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Eri",
+     "tied": 0
+    }
    }
   },
   "685": {
@@ -9921,7 +11883,13 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shuni",
+     "tied": 0
+    }
    }
   },
   "686": {
@@ -9936,7 +11904,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Zebulun",
+     "tied": 0
+    }
    }
   },
   "687": {
@@ -9954,7 +11928,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Naaman",
+     "tied": 0
+    }
    }
   },
   "688": {
@@ -9982,7 +11962,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Reuel",
+     "tied": 0
+    }
    }
   },
   "690": {
@@ -10011,7 +11997,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ruth",
+     "tied": 0
+    }
    }
   },
   "692": {
@@ -10027,7 +12019,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jeconiah",
+     "tied": 0
+    }
    }
   },
   "693": {
@@ -10043,7 +12041,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jimnah",
+     "tied": 1
+    }
    }
   },
   "694": {
@@ -10057,7 +12061,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Rosh",
+     "tied": 0
+    }
    }
   },
   "695": {
@@ -10084,7 +12094,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Muppim",
+     "tied": 0
+    }
    }
   },
   "697": {
@@ -10126,7 +12142,13 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Haggi",
+     "tied": 0
+    }
    }
   },
   "700": {
@@ -10140,7 +12162,13 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Areli",
+     "tied": 1
+    }
    }
   },
   "701": {
@@ -10154,7 +12182,13 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abagtha",
+     "tied": 5
+    }
    }
   },
   "702": {
@@ -10189,7 +12223,13 @@
    },
    "line": "King. Appears in four books.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Thomas Petri",
+     "tied": 0
+    }
    }
   },
   "704": {
@@ -10263,7 +12303,13 @@
    },
    "line": "Prophet. Appears in 21 books.",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "趙雲",
+     "tied": 0
+    }
    }
   },
   "708": {
@@ -10278,7 +12324,13 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Bellerophon",
+     "tied": 0
+    }
    }
   },
   "709": {
@@ -10317,7 +12369,13 @@
    },
    "line": "Prophet. Appears in 23 books.",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Joab",
+     "tied": 0
+    }
    }
   },
   "710": {
@@ -10347,7 +12405,13 @@
    },
    "line": "Apostle. Appears in 14 books.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Hizdahr zo Loraq",
+     "tied": 0
+    }
    }
   },
   "711": {
@@ -10367,7 +12431,13 @@
    },
    "line": "Spy. Appears in six books.",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Mark Foley",
+     "tied": 0
+    }
    }
   },
   "712": {
@@ -10395,7 +12465,13 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Timna",
+     "tied": 0
+    }
    }
   },
   "714": {
@@ -10414,7 +12490,13 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elishama",
+     "tied": 0
+    }
    }
   },
   "715": {
@@ -10464,7 +12546,13 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Lycomedes",
+     "tied": 0
+    }
    }
   },
   "719": {
@@ -10482,7 +12570,13 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 73,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Merari",
+     "tied": 0
+    }
    }
   },
   "720": {

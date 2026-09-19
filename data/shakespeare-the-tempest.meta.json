@@ -12,7 +12,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Francisco",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -27,7 +33,13 @@
    },
    "line": "King of Naples.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Antonio",
+     "tied": 2
+    }
    }
   },
   "2": {
@@ -40,7 +52,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Alonso",
+     "tied": 2
+    }
    }
   },
   "3": {
@@ -54,7 +72,13 @@
    },
    "line": "Servant.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Gratiano",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -67,7 +91,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Orsino",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -82,7 +112,13 @@
    },
    "line": "Servant.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-twelfth-night",
+     "story": "Twelfth Night",
+     "name": "Olivia",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -97,7 +133,13 @@
    },
    "line": "Prince of Naples.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Miranda",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -110,7 +152,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Adrian",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -123,7 +171,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Alonso",
+     "tied": 2
+    }
    }
   },
   "9": {
@@ -136,7 +190,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Ferdinand",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -149,7 +209,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-winters-tale",
+     "story": "The Winter's Tale",
+     "name": "Camillo",
+     "tied": 1
+    }
    }
   },
   "11": {
@@ -162,7 +228,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Alonso",
+     "tied": 2
+    }
    }
   },
   "12": {
@@ -185,7 +257,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Trinculo",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -200,7 +278,13 @@
    },
    "line": "Servant.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-the-tempest",
+     "story": "The Tempest",
+     "name": "Stephano",
+     "tied": 0
+    }
    }
   }
  },

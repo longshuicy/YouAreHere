@@ -16,7 +16,13 @@
    },
    "line": "Roman governor. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Javert",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -30,7 +36,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Octavia",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -45,7 +57,13 @@
    },
    "line": "Teacher. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Thidias",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -63,7 +81,13 @@
    },
    "line": "King consort. Appears in all two plays.",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Sir John Falstaff",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -77,7 +101,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Popilius Lena",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -91,7 +121,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "A Soothsayer",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -108,7 +144,13 @@
    },
    "line": "Praetor. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "唐三藏",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -136,7 +178,13 @@
    },
    "line": "Roman dictator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Pypar",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -150,7 +198,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Dywen",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -181,7 +235,13 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Grenn",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -198,7 +258,13 @@
    },
    "line": "Tribune of the plebs. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Cleopatra",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -213,7 +279,13 @@
    },
    "line": "Lady's maid. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Mistress Page",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -242,7 +314,13 @@
    },
    "line": "Queen of Egypt. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Caius Cassius",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -256,7 +334,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Gallus",
+     "tied": 1
+    }
    }
   },
   "17": {
@@ -273,7 +357,13 @@
    },
    "line": "Roman governor. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Trebonius",
+     "tied": 0
+    }
    }
   },
   "18": {
@@ -298,7 +388,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Chett",
+     "tied": 0
+    }
    }
   },
   "20": {
@@ -315,7 +411,13 @@
    },
    "line": "Ancient Roman senator. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Ascalaphus",
+     "tied": 0
+    }
    }
   },
   "21": {
@@ -329,7 +431,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Tansy",
+     "tied": 0
+    }
    }
   },
   "22": {
@@ -346,7 +454,13 @@
    },
    "line": "Roman governor. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Maecenas",
+     "tied": 0
+    }
    }
   },
   "23": {
@@ -360,7 +474,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "許昌",
+     "tied": 0
+    }
    }
   },
   "24": {
@@ -374,7 +494,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Artemidorus",
+     "tied": 1
+    }
    }
   },
   "25": {
@@ -391,7 +517,13 @@
    },
    "line": "Praefectus Aegypti. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "A Countryman",
+     "tied": 1
+    }
    }
   },
   "26": {
@@ -405,7 +537,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Lucilius",
+     "tied": 0
+    }
    }
   },
   "27": {
@@ -423,7 +561,13 @@
    },
    "line": "Magister equitum. Appears in all two plays.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Earl of Pembroke",
+     "tied": 0
+    }
    }
   },
   "28": {
@@ -440,7 +584,13 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Portia",
+     "tied": 0
+    }
    }
   },
   "29": {
@@ -454,7 +604,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "糜芳",
+     "tied": 0
+    }
    }
   },
   "30": {
@@ -469,7 +625,13 @@
    },
    "line": "Patron of the arts. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Enobarbus Domitius",
+     "tied": 0
+    }
    }
   },
   "31": {
@@ -483,7 +645,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Dywen",
+     "tied": 0
+    }
    }
   },
   "32": {
@@ -497,7 +665,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Sextus Pompeius Pompey",
+     "tied": 0
+    }
    }
   },
   "33": {
@@ -514,7 +688,13 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Qhorin Halfhand",
+     "tied": 0
+    }
    }
   },
   "34": {
@@ -528,7 +708,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 25
+    "lookAlikes": 25,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Page to Gardiner",
+     "tied": 1
+    }
    }
   },
   "35": {
@@ -546,7 +732,13 @@
    },
    "line": "Roman emperor. Appears in all two plays.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Hostess",
+     "tied": 0
+    }
    }
   },
   "36": {
@@ -571,7 +763,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "阿會喃",
+     "tied": 0
+    }
    }
   },
   "38": {
@@ -588,7 +786,13 @@
    },
    "line": "Roman consul. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Menas",
+     "tied": 0
+    }
    }
   },
   "39": {
@@ -605,7 +809,13 @@
    },
    "line": "Legatus. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Artemidorus",
+     "tied": 0
+    }
    }
   },
   "40": {
@@ -620,7 +830,13 @@
    },
    "line": "Philosopher. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Caius Ligarius",
+     "tied": 0
+    }
    }
   },
   "41": {
@@ -634,7 +850,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aphareus",
+     "tied": 0
+    }
    }
   },
   "42": {
@@ -647,7 +869,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "蔡瑁",
+     "tied": 0
+    }
    }
   },
   "43": {
@@ -661,7 +889,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Diomedes",
+     "tied": 0
+    }
    }
   },
   "44": {
@@ -674,7 +908,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Varro",
+     "tied": 0
+    }
    }
   },
   "45": {
@@ -688,7 +928,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Dardanus",
+     "tied": 2
+    }
    }
   },
   "46": {
@@ -702,7 +948,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Clitus",
+     "tied": 2
+    }
    }
   },
   "47": {
@@ -716,7 +968,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Messala",
+     "tied": 0
+    }
    }
   },
   "48": {
@@ -733,7 +991,13 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Lucilius",
+     "tied": 0
+    }
    }
   },
   "49": {
@@ -747,7 +1011,13 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Clitus",
+     "tied": 2
+    }
    }
   },
   "50": {
@@ -762,7 +1032,13 @@
    },
    "line": "Centurion. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "周倉",
+     "tied": 0
+    }
    }
   },
   "51": {
@@ -779,7 +1055,13 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Claudius",
+     "tied": 0
+    }
    }
   },
   "52": {
@@ -794,7 +1076,13 @@
    },
    "line": "Philosopher. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Clitus",
+     "tied": 2
+    }
    }
   },
   "53": {
@@ -808,7 +1096,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-measure-for-measure",
+     "story": "Measure for Measure",
+     "name": "Froth",
+     "tied": 1
+    }
    }
   },
   "54": {
@@ -822,7 +1116,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "A Countryman",
+     "tied": 1
+    }
    }
   },
   "55": {
@@ -836,7 +1136,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "A Boy",
+     "tied": 0
+    }
    }
   },
   "56": {
@@ -850,7 +1156,13 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "A Schoolmaster Ambassador",
+     "tied": 0
+    }
    }
   },
   "57": {
@@ -867,7 +1179,13 @@
    },
    "line": "Tribune of the plebs. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Decius Brutus",
+     "tied": 0
+    }
    }
   },
   "58": {

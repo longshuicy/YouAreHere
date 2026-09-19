@@ -30,7 +30,13 @@
    },
    "line": "Queen Consort of England.",
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Clydas",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -47,7 +53,13 @@
    },
    "line": "Roman Catholic Bishop of Lincoln (England).",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Crier",
+     "tied": 2
+    }
    }
   },
   "3": {
@@ -74,7 +86,13 @@
    },
    "line": "Member of the House of Lords.",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Heracles",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -89,7 +107,13 @@
    },
    "line": "Physician.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Keeper",
+     "tied": 1
+    }
    }
   },
   "6": {
@@ -106,7 +130,13 @@
    },
    "line": "Cardinal.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Cromwell",
+     "tied": 1
+    }
    }
   },
   "7": {
@@ -135,7 +165,13 @@
    },
    "line": "Ambassador.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Duke of Norfolk",
+     "tied": 0
+    }
    }
   },
   "9": {
@@ -152,7 +188,13 @@
    },
    "line": "Lord Chancellor.",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Doctor Butts",
+     "tied": 1
+    }
    }
   },
   "10": {
@@ -169,7 +211,13 @@
    },
    "line": "Roman Catholic Archbishop of Canterbury.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Javert",
+     "tied": 0
+    }
    }
   },
   "11": {
@@ -182,7 +230,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Bishop of Lincoln",
+     "tied": 2
+    }
    }
   },
   "12": {
@@ -197,7 +251,13 @@
    },
    "line": "Servant.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Earl of Surrey",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -214,7 +274,13 @@
    },
    "line": "Member of Parliament in the Parliament of England.",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Page to Gardiner",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -261,7 +327,13 @@
    },
    "line": "Ambassador of the Kingdom of England to the Kingdom of Spain.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Armado Braggart",
+     "tied": 1
+    }
    }
   },
   "18": {
@@ -298,7 +370,13 @@
    },
    "line": "Member of Parliament in the Parliament of England.",
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "A Schoolmaster Ambassador",
+     "tied": 1
+    }
    }
   },
   "21": {
@@ -315,7 +393,13 @@
    },
    "line": "King of Ireland.",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Bastard Philip Faulconbridge",
+     "tied": 0
+    }
    }
   },
   "22": {
@@ -332,7 +416,13 @@
    },
    "line": "Ambassador of the Kingdom of Spain to the Kingdom of England.",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Penelope",
+     "tied": 0
+    }
    }
   },
   "23": {
@@ -345,7 +435,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Doctor Butts",
+     "tied": 1
+    }
    }
   },
   "24": {
@@ -372,7 +468,13 @@
    },
    "line": "Member of the 1495 Parliament.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Holofernes Pedant",
+     "tied": 1
+    }
    }
   },
   "26": {
@@ -389,7 +491,13 @@
    },
    "line": "Member of the Privy Council of the United Kingdom.",
    "signals": {
-    "lookAlikes": 101
+    "lookAlikes": 101,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Lord Chamberlain",
+     "tied": 0
+    }
    }
   },
   "27": {
@@ -402,7 +510,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Poseidon",
+     "tied": 0
+    }
    }
   },
   "28": {
@@ -415,7 +529,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Sir Anthony Denny",
+     "tied": 0
+    }
    }
   },
   "29": {
@@ -432,7 +552,13 @@
    },
    "line": "Lord Chamberlain.",
    "signals": {
-    "lookAlikes": 26
+    "lookAlikes": 26,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Sir Henry Guilford",
+     "tied": 0
+    }
    }
   },
   "30": {
@@ -445,7 +571,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Bishop of Lincoln",
+     "tied": 2
+    }
    }
   },
   "31": {
@@ -472,7 +604,13 @@
    },
    "line": "Lord Lieutenant of Buckinghamshire.",
    "signals": {
-    "lookAlikes": 138
+    "lookAlikes": 138,
+    "nearest": {
+     "world": "shakespeare-loves-labors-lost",
+     "story": "Love’s Labor’s Lost",
+     "name": "Dumaine",
+     "tied": 2
+    }
    }
   },
   "33": {
@@ -489,7 +627,13 @@
    },
    "line": "Member of the House of Lords.",
    "signals": {
-    "lookAlikes": 118
+    "lookAlikes": 118,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Cromwell",
+     "tied": 0
+    }
    }
   },
   "34": {
@@ -502,7 +646,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Bishop of Lincoln",
+     "tied": 2
+    }
    }
   },
   "35": {
@@ -533,7 +683,13 @@
    },
    "line": "Lord Chancellor.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "John",
+     "tied": 0
+    }
    }
   }
  },

@@ -188,7 +188,7 @@ button {
 }
 
 /* The quiet action where nothing around it says it is clickable — a hairline
-   under the words, at the muted weight. `Wake anywhere instead` sits alone under
+   under the words, at the muted weight. `Start anywhere instead` sits alone under
    a list of things that are obviously buttons, and without a rule it read as a
    caption on them. */
 .action-quiet.ruled {

@@ -108,7 +108,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 12
+    "lookAlikes": 12,
+    "nearest": {
+     "world": "shakespeare-pericles",
+     "story": "Pericles",
+     "name": "Lysimachus",
+     "tied": 0
+    }
    }
   },
   "10": {
@@ -133,7 +139,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 8
+    "lookAlikes": 8,
+    "nearest": {
+     "world": "shakespeare-pericles",
+     "story": "Pericles",
+     "name": "Helicanus",
+     "tied": 0
+    }
    }
   },
   "12": {
@@ -156,7 +168,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "shakespeare-macbeth",
+     "story": "Macbeth",
+     "name": "Malcolm",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -191,7 +209,13 @@
    },
    "line": "Prince of Tyre.",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-alls-well-that-ends-well",
+     "story": "All’s Well That Ends Well",
+     "name": "Helen",
+     "tied": 0
+    }
    }
   },
   "17": {
@@ -228,7 +252,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-pericles",
+     "story": "Pericles",
+     "name": "Helicanus",
+     "tied": 0
+    }
    }
   },
   "20": {

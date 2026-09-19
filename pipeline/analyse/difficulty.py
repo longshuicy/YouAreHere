@@ -35,6 +35,9 @@ from __future__ import annotations
 
 import math
 from collections import defaultdict
+from dataclasses import dataclass
+
+import numpy as np
 
 from ..canon.types import CanonicalGraph
 
@@ -113,6 +116,132 @@ def signature(degree: int, neighbour_prominence: list[float]) -> tuple:
     )
 
 
+# How much each part of a shape counts when measuring *who is nearest*, as
+# opposed to *how many are alike*.
+#
+# Degree and presence lead because they are the two things a player reads off
+# the cold open without doing anything: how many lines come out of the circle,
+# and — from the free standing line in the margin — how much of the book you are
+# in. The neighbours decay because the first big name beside you says far more
+# about where you are standing than the fifth does.
+#
+# Judgement, calibrated against nothing but a read of the output, exactly as the
+# weights above the fold are.
+SHAPE_WEIGHTS = np.array([1.0, 1.0, 0.6, 0.5, 0.4, 0.3, 0.2])
+
+# How many neighbours a shape carries. Beyond five the tail is noise in every
+# world small enough to matter and identical in every world large enough not to.
+NEIGHBOURS_IN_SHAPE = 5
+
+# Two shapes count as equally near within this. Distances here are sums of
+# squared differences on 0-to-1 axes, so this is far below anything a difference
+# in the underlying graph could produce — it exists to catch float wobble, not to
+# make near things equal.
+SAME_DISTANCE = 1e-9
+
+
+@dataclass(frozen=True)
+class Twin:
+    """The character a start most resembles, anywhere in the catalogue."""
+
+    world: str
+    story: str
+    name: str
+    #: How many others are exactly as near. Zero when the winner is alone.
+    tied: int
+
+
+@dataclass
+class ShapeIndex:
+    """Every character in every world as a point, for nearest-neighbour search.
+
+    Held apart from `build_corpus_index` on purpose, because the two answer
+    different questions and neither answer serves the other. The corpus index is
+    a bucket count: *how many people could be mistaken for you*, deliberately
+    coarse, because precision there is false precision — an earlier exact-match
+    version gave half of all starts zero look-alikes and scored every puzzle as
+    easy. This is a distance: *who is nearest*, where coarseness is useless,
+    because inside one bucket everybody ties and there is no nearest at all.
+
+    So the bucket count keeps scoring difficulty and this names one person at the
+    reveal, and neither is asked to do the other's job.
+    """
+
+    #: (world id, node id) -> row, so a start finds itself without a scan.
+    at: dict[tuple[str, str], int]
+    worlds: list[str]
+    stories: list[str]
+    names: list[str]
+    points: np.ndarray
+
+
+def shape(degree: int, prominence: float, neighbour_prominence: list[float]) -> list[float]:
+    """A character as a point: how many ties, how much of the book, and the
+    standing of the five largest people on the other end of those ties."""
+    top = sorted(neighbour_prominence, reverse=True)[:NEIGHBOURS_IN_SHAPE]
+    top += [0.0] * (NEIGHBOURS_IN_SHAPE - len(top))
+    return [math.log1p(degree), prominence, *top]
+
+
+def build_shape_index(worlds: list[CanonicalGraph]) -> ShapeIndex:
+    at: dict[tuple[str, str], int] = {}
+    world_ids, stories, names, points = [], [], [], []
+    for world in worlds:
+        adjacency = _adjacency(world)
+        prominence = _prominence(world)
+        for node in world.nodes:
+            neighbours = adjacency[node.id]
+            at[(world.id, node.id)] = len(world_ids)
+            world_ids.append(world.id)
+            stories.append(world.title)
+            names.append(node.name)
+            points.append(
+                shape(len(neighbours), prominence[node.id], [prominence[n] for n in neighbours])
+            )
+    return ShapeIndex(
+        at=at,
+        worlds=world_ids,
+        stories=stories,
+        names=names,
+        points=np.array(points) if points else np.zeros((0, 2 + NEIGHBOURS_IN_SHAPE)),
+    )
+
+
+def nearest_twin(world_id: str, node_id: str, index: ShapeIndex) -> Twin | None:
+    """The one character in the catalogue whose shape is closest to this one.
+
+    Yourself excluded, obviously. Everyone else is in, including your own
+    neighbours and your own book: "the person you were shaped most like is your
+    own sister" is a true and better reading than one that had to reach into
+    another novel to avoid saying so.
+
+    Ties are reported rather than broken. They are rare — a unique winner for
+    about nine starts in ten — but where two characters are genuinely
+    equidistant, picking one by sort order would be inventing a distinction the
+    measurement does not make.
+    """
+    me = index.at.get((world_id, node_id))
+    if me is None:
+        return None
+
+    delta = index.points - index.points[me]
+    distance = (delta * delta * SHAPE_WEIGHTS).sum(axis=1)
+    distance[me] = np.inf
+    best = float(distance.min())
+    if not math.isfinite(best):
+        return None
+    winners = np.flatnonzero(distance <= best + SAME_DISTANCE)
+    # Sorted so a rebuild on unchanged input names the same character; the
+    # ordering is arbitrary and is only ever seen when nothing separates them.
+    pick = min(winners, key=lambda k: (index.worlds[k], index.names[k]))
+    return Twin(
+        world=index.worlds[pick],
+        story=index.stories[pick],
+        name=index.names[pick],
+        tied=len(winners) - 1,
+    )
+
+
 def build_corpus_index(worlds: list[CanonicalGraph]) -> dict:
     """Every character in every world, filed by the shape they present.
 
@@ -128,7 +257,12 @@ def build_corpus_index(worlds: list[CanonicalGraph]) -> dict:
     return index
 
 
-def score(world: CanonicalGraph, playable: list[str], corpus_index: dict) -> dict[str, dict]:
+def score(
+    world: CanonicalGraph,
+    playable: list[str],
+    corpus_index: dict,
+    shape_index: ShapeIndex | None = None,
+) -> dict[str, dict]:
     """Difficulty for each playable start in one world."""
     signatures = _signatures(world)
     prominence = _prominence(world)
@@ -156,6 +290,20 @@ def score(world: CanonicalGraph, playable: list[str], corpus_index: dict) -> dic
             "prominence": round(prominence[node_id], 3),
             "company": round(company, 3),
         }
+
+        # Named, not counted. `lookAlikes` says how many people wear this shape
+        # and cannot say who, because everyone in a bucket is equally alike by
+        # construction; this says who, and is the only thing in the reveal that
+        # reaches outside the book in hand.
+        if shape_index is not None:
+            twin = nearest_twin(world.id, node_id, shape_index)
+            if twin is not None:
+                scored[node_id]["nearest"] = {
+                    "world": twin.world,
+                    "story": twin.story,
+                    "name": twin.name,
+                    "tied": twin.tied,
+                }
     return scored
 
 

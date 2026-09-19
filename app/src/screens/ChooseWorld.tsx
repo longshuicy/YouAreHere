@@ -293,7 +293,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
             Choosing settles the story. You will still have to work out who you are.
           </div>
           <button className="action-quiet ruled" onClick={onCancel}>
-            Wake anywhere instead
+            Start anywhere instead
           </button>
         </div>
       </div>

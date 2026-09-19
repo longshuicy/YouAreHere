@@ -180,7 +180,13 @@
    },
    "line": "屬蜀漢。見於第87回、第88回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "吳蘭",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -319,7 +325,13 @@
    },
    "line": "屬蜀漢。見於3回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Mowbray",
+     "tied": 0
+    }
    }
   },
   "24": {
@@ -399,7 +411,13 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jared",
+     "tied": 0
+    }
    }
   },
   "29": {
@@ -515,7 +533,13 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "諸葛誕",
+     "tied": 0
+    }
    }
   },
   "38": {
@@ -609,7 +633,13 @@
    },
    "line": "州牧。屬蜀漢。見於62回。",
    "signals": {
-    "lookAlikes": 1
+    "lookAlikes": 1,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "趙雲",
+     "tied": 0
+    }
    }
   },
   "40": {
@@ -686,7 +716,13 @@
    },
    "line": "屬蜀漢。見於42回。",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "張郃",
+     "tied": 0
+    }
    }
   },
   "42": {
@@ -736,7 +772,13 @@
    },
    "line": "見於37回。",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "袁紹",
+     "tied": 0
+    }
    }
   },
   "43": {
@@ -830,7 +872,13 @@
    },
    "line": "見於81回。",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Jon Snow",
+     "tied": 0
+    }
    }
   },
   "44": {
@@ -873,7 +921,13 @@
    },
    "line": "見於17回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ner",
+     "tied": 0
+    }
    }
   },
   "46": {
@@ -894,7 +948,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Charles Bennett",
+     "tied": 0
+    }
    }
   },
   "47": {
@@ -931,7 +991,13 @@
    },
    "line": "見於24回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "簡雍",
+     "tied": 0
+    }
    }
   },
   "48": {
@@ -1007,7 +1073,13 @@
    },
    "line": "軍閥。見於38回。",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "馬超",
+     "tied": 0
+    }
    }
   },
   "51": {
@@ -1032,7 +1104,13 @@
    },
    "line": "謀士。見於11回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "James Florio",
+     "tied": 0
+    }
    }
   },
   "52": {
@@ -1067,7 +1145,13 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Gilly",
+     "tied": 0
+    }
    }
   },
   "54": {
@@ -1090,7 +1174,13 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Arstan",
+     "tied": 0
+    }
    }
   },
   "55": {
@@ -1171,7 +1261,13 @@
    },
    "line": "見於21回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "甘寧",
+     "tied": 0
+    }
    }
   },
   "59": {
@@ -1239,7 +1335,13 @@
    },
    "line": "見於27回。",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "劉備",
+     "tied": 0
+    }
    }
   },
   "62": {
@@ -1302,7 +1404,13 @@
    },
    "line": "縣令。見於10回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "馬騰",
+     "tied": 0
+    }
    }
   },
   "66": {
@@ -1334,7 +1442,13 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "許褚",
+     "tied": 0
+    }
    }
   },
   "67": {
@@ -1371,7 +1485,13 @@
    },
    "line": "見於24回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "夏侯淵",
+     "tied": 0
+    }
    }
   },
   "68": {
@@ -1416,7 +1536,13 @@
    },
    "line": "見於32回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "馬岱",
+     "tied": 0
+    }
    }
   },
   "69": {
@@ -1450,7 +1576,13 @@
    },
    "line": "見於21回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "李典",
+     "tied": 0
+    }
    }
   },
   "70": {
@@ -1493,7 +1625,13 @@
    },
    "line": "見於30回。",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "張郃",
+     "tied": 0
+    }
    }
   },
   "71": {
@@ -1530,7 +1668,13 @@
    },
    "line": "見於24回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "樂進",
+     "tied": 0
+    }
    }
   },
   "72": {
@@ -1615,7 +1759,13 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "董承",
+     "tied": 0
+    }
    }
   },
   "78": {
@@ -1639,7 +1789,13 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Qhorin Halfhand",
+     "tied": 0
+    }
    }
   },
   "79": {
@@ -1668,7 +1824,13 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "丁奉",
+     "tied": 0
+    }
    }
   },
   "80": {
@@ -1695,7 +1857,13 @@
    },
    "line": "見於14回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Pypar",
+     "tied": 0
+    }
    }
   },
   "81": {
@@ -1727,7 +1895,13 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Duke of York (Richard II)",
+     "tied": 0
+    }
    }
   },
   "82": {
@@ -1754,7 +1928,13 @@
    },
    "line": "見於14回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "袁尚",
+     "tied": 0
+    }
    }
   },
   "83": {
@@ -1779,7 +1959,13 @@
    },
    "line": "見於12回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Thetis",
+     "tied": 0
+    }
    }
   },
   "84": {
@@ -1816,7 +2002,13 @@
    },
    "line": "見於24回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "糜竺",
+     "tied": 0
+    }
    }
   },
   "85": {
@@ -1854,7 +2046,13 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "簡雍",
+     "tied": 0
+    }
    }
   },
   "87": {
@@ -1873,7 +2071,13 @@
    },
    "line": "謀士。見於5回。",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Haran",
+     "tied": 0
+    }
    }
   },
   "88": {
@@ -1907,7 +2111,13 @@
    },
    "line": "謀士。見於6回。",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Andrew the Apostle",
+     "tied": 0
+    }
    }
   },
   "90": {
@@ -1929,7 +2139,13 @@
    },
    "line": "謀士。見於8回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Randy Cunningham",
+     "tied": 0
+    }
    }
   },
   "91": {
@@ -1949,7 +2165,13 @@
    },
    "line": "謀士。見於6回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Leitus",
+     "tied": 0
+    }
    }
   },
   "92": {
@@ -2004,7 +2226,13 @@
    },
    "line": "見於42回。",
    "signals": {
-    "lookAlikes": 1
+    "lookAlikes": 1,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "劉備",
+     "tied": 0
+    }
    }
   },
   "93": {
@@ -2024,7 +2252,13 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "George",
+     "tied": 0
+    }
    }
   },
   "94": {
@@ -2064,7 +2298,13 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Samuel",
+     "tied": 0
+    }
    }
   },
   "96": {
@@ -2122,7 +2362,13 @@
    },
    "line": "見於45回。",
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 6,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jesus Christ",
+     "tied": 0
+    }
    }
   },
   "97": {
@@ -2207,7 +2453,13 @@
    },
    "line": "謀士。屬蜀漢。見於42回。",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Talbot",
+     "tied": 0
+    }
    }
   },
   "100": {
@@ -2239,7 +2491,13 @@
    },
    "line": "謀士。見於18回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "典韋",
+     "tied": 0
+    }
    }
   },
   "101": {
@@ -2265,7 +2523,13 @@
    },
    "line": "見於第9回、第10回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "劉交",
+     "tied": 0
+    }
    }
   },
   "103": {
@@ -2299,7 +2563,13 @@
    },
    "line": "見於9回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Publius",
+     "tied": 0
+    }
    }
   },
   "105": {
@@ -2330,7 +2600,13 @@
    },
    "line": "見於18回。",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "袁紹",
+     "tied": 0
+    }
    }
   },
   "106": {
@@ -2361,7 +2637,13 @@
    },
    "line": "謀士。見於17回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "糜竺",
+     "tied": 0
+    }
    }
   },
   "107": {
@@ -2394,7 +2676,13 @@
    },
    "line": "謀士。見於19回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "董卓",
+     "tied": 0
+    }
    }
   },
   "108": {
@@ -2416,7 +2704,13 @@
    },
    "line": "謀士。見於8回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "曹休",
+     "tied": 0
+    }
    }
   },
   "109": {
@@ -2440,7 +2734,13 @@
    },
    "line": "謀士。見於10回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Eli",
+     "tied": 0
+    }
    }
   },
   "110": {
@@ -2464,7 +2764,13 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Phinehas",
+     "tied": 0
+    }
    }
   },
   "111": {
@@ -2486,7 +2792,13 @@
    },
    "line": "見於9回。",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Deiphobus",
+     "tied": 0
+    }
    }
   },
   "112": {
@@ -2507,7 +2819,13 @@
    },
    "line": "謀士。見於7回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Chett",
+     "tied": 0
+    }
    }
   },
   "113": {
@@ -2547,7 +2865,13 @@
    },
    "line": "見於27回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "許褚",
+     "tied": 0
+    }
    }
   },
   "114": {
@@ -2568,7 +2892,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "張魯",
+     "tied": 0
+    }
    }
   },
   "115": {
@@ -2626,7 +2956,13 @@
    },
    "line": "見於22回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "劉表",
+     "tied": 0
+    }
    }
   },
   "118": {
@@ -2674,7 +3010,13 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "陳蘭",
+     "tied": 0
+    }
    }
   },
   "121": {
@@ -2768,7 +3110,13 @@
    },
    "line": "屬大魏。見於29回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "夏侯惇",
+     "tied": 0
+    }
    }
   },
   "126": {
@@ -2789,7 +3137,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Yohn Royce",
+     "tied": 0
+    }
    }
   },
   "127": {
@@ -2806,7 +3160,13 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "華歆",
+     "tied": 0
+    }
    }
   },
   "128": {
@@ -2865,7 +3225,13 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Mary Magdalene",
+     "tied": 0
+    }
    }
   },
   "132": {
@@ -2882,7 +3248,13 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "武大郎",
+     "tied": 0
+    }
    }
   },
   "133": {
@@ -2903,7 +3275,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Wedge",
+     "tied": 0
+    }
    }
   },
   "134": {
@@ -2935,7 +3313,13 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "劉表",
+     "tied": 0
+    }
    }
   },
   "135": {
@@ -2978,7 +3362,13 @@
    },
    "line": "見於30回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "樂進",
+     "tied": 0
+    }
    }
   },
   "136": {
@@ -2999,7 +3389,13 @@
    },
    "line": "謀士。見於7回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elijah",
+     "tied": 0
+    }
    }
   },
   "137": {
@@ -3017,7 +3413,13 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Solomon Ortiz",
+     "tied": 0
+    }
    }
   },
   "138": {
@@ -3033,7 +3435,13 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Elijah",
+     "tied": 0
+    }
    }
   },
   "139": {
@@ -3076,7 +3484,13 @@
    },
    "line": "屬大魏。見於27回。",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "張郃",
+     "tied": 0
+    }
    }
   },
   "140": {
@@ -3097,7 +3511,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "陶謙",
+     "tied": 0
+    }
    }
   },
   "141": {
@@ -3113,7 +3533,13 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Hecuba",
+     "tied": 0
+    }
    }
   },
   "142": {
@@ -3143,7 +3569,13 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "John Rugby",
+     "tied": 0
+    }
    }
   },
   "144": {
@@ -3202,7 +3634,13 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "諸葛瑾",
+     "tied": 0
+    }
    }
   },
   "148": {
@@ -3234,7 +3672,13 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abraham",
+     "tied": 0
+    }
    }
   },
   "149": {
@@ -3267,7 +3711,13 @@
    },
    "line": "屬吳國。見於17回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Old Lady",
+     "tied": 0
+    }
    }
   },
   "150": {
@@ -3306,7 +3756,13 @@
    },
    "line": "見於12回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Artemis",
+     "tied": 0
+    }
    }
   },
   "152": {
@@ -3335,7 +3791,13 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "徐盛",
+     "tied": 0
+    }
    }
   },
   "153": {
@@ -3378,7 +3840,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "John of Gaunt",
+     "tied": 0
+    }
    }
   },
   "156": {
@@ -3426,7 +3894,13 @@
    },
    "line": "屬大魏。見於7回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Portia",
+     "tied": 0
+    }
    }
   },
   "159": {
@@ -3458,7 +3932,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Eli",
+     "tied": 0
+    }
    }
   },
   "161": {
@@ -3546,7 +4026,13 @@
    },
    "line": "見於75回。",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "George Miller",
+     "tied": 0
+    }
    }
   },
   "162": {
@@ -3561,7 +4047,13 @@
    },
    "line": "見於第15回、第17回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "雷薄",
+     "tied": 0
+    }
    }
   },
   "163": {
@@ -3577,7 +4069,13 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "橋蕤",
+     "tied": 0
+    }
    }
   },
   "164": {
@@ -3594,7 +4092,13 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "太史慈",
+     "tied": 0
+    }
    }
   },
   "165": {
@@ -3660,7 +4164,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-macbeth",
+     "story": "Macbeth",
+     "name": "Menteith",
+     "tied": 0
+    }
    }
   },
   "169": {
@@ -3712,7 +4222,13 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Helen",
+     "tied": 0
+    }
    }
   },
   "171": {
@@ -3736,7 +4252,13 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "典韋",
+     "tied": 0
+    }
    }
   },
   "172": {
@@ -3750,7 +4272,13 @@
    },
    "line": "見於第17回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Randy Cunningham",
+     "tied": 0
+    }
    }
   },
   "173": {
@@ -3828,7 +4356,13 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "蔡瑁",
+     "tied": 0
+    }
    }
   },
   "178": {
@@ -3856,7 +4390,13 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Lucius",
+     "tied": 0
+    }
    }
   },
   "179": {
@@ -3923,7 +4463,13 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Cass Ballenger",
+     "tied": 0
+    }
    }
   },
   "184": {
@@ -4008,7 +4554,13 @@
    },
    "line": "謀士。見於8回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "薛虬",
+     "tied": 0
+    }
    }
   },
   "190": {
@@ -4024,7 +4576,13 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "司馬師",
+     "tied": 0
+    }
    }
   },
   "191": {
@@ -4059,7 +4617,13 @@
    },
    "line": "屬大魏。見於19回。",
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "徐晃",
+     "tied": 0
+    }
    }
   },
   "192": {
@@ -4114,7 +4678,13 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "郭舍人",
+     "tied": 0
+    }
    }
   },
   "196": {
@@ -4213,7 +4783,13 @@
    },
    "line": "屬蜀漢。見於24回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "王平",
+     "tied": 0
+    }
    }
   },
   "201": {
@@ -4252,7 +4828,13 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "周泰",
+     "tied": 0
+    }
    }
   },
   "203": {
@@ -4277,7 +4859,13 @@
    },
    "line": "屬大魏。見於9回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "郝萌",
+     "tied": 0
+    }
    }
   },
   "204": {
@@ -4305,7 +4893,13 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Gueulemer",
+     "tied": 0
+    }
    }
   },
   "205": {
@@ -4336,7 +4930,13 @@
    },
    "line": "屬吳國。見於15回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "呂範",
+     "tied": 0
+    }
    }
   },
   "206": {
@@ -4359,7 +4959,13 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Melanthius",
+     "tied": 0
+    }
    }
   },
   "207": {
@@ -4377,7 +4983,13 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "顏良",
+     "tied": 0
+    }
    }
   },
   "208": {
@@ -4394,7 +5006,13 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "shakespeare-as-you-like-it",
+     "story": "As You Like It",
+     "name": "Adam",
+     "tied": 0
+    }
    }
   },
   "209": {
@@ -4410,7 +5028,13 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bichri",
+     "tied": 0
+    }
    }
   },
   "210": {
@@ -4511,7 +5135,13 @@
    },
    "line": "屬大魏。見於13回。",
    "signals": {
-    "lookAlikes": 19
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "曾弄",
+     "tied": 0
+    }
    }
   },
   "216": {
@@ -4575,7 +5205,13 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Baasha",
+     "tied": 0
+    }
    }
   },
   "220": {
@@ -4633,7 +5269,13 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "James Leach",
+     "tied": 0
+    }
    }
   },
   "223": {
@@ -4672,7 +5314,13 @@
    },
    "line": "縣令。見於8回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Fenton",
+     "tied": 0
+    }
    }
   },
   "225": {
@@ -4692,7 +5340,13 @@
    },
    "line": "謀士。見於6回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Mayor",
+     "tied": 0
+    }
    }
   },
   "226": {
@@ -4724,7 +5378,13 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Meshach",
+     "tied": 0
+    }
    }
   },
   "227": {
@@ -4741,7 +5401,13 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Mecisteus",
+     "tied": 0
+    }
    }
   },
   "228": {
@@ -4787,7 +5453,13 @@
    },
    "line": "見於17回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "甘寧",
+     "tied": 0
+    }
    }
   },
   "230": {
@@ -4823,7 +5495,13 @@
    },
    "line": "屬吳國。見於20回。",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "潘璋",
+     "tied": 0
+    }
    }
   },
   "231": {
@@ -4849,7 +5527,13 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "周泰",
+     "tied": 0
+    }
    }
   },
   "232": {
@@ -4875,7 +5559,13 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 20,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "陸遜",
+     "tied": 0
+    }
    }
   },
   "233": {
@@ -4907,7 +5597,13 @@
    },
    "line": "屬吳國。見於16回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "程普",
+     "tied": 0
+    }
    }
   },
   "234": {
@@ -4936,7 +5632,13 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "呂蒙",
+     "tied": 0
+    }
    }
   },
   "235": {
@@ -4960,7 +5662,13 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "雷銅",
+     "tied": 0
+    }
    }
   },
   "236": {
@@ -5010,7 +5718,13 @@
    },
    "line": "屬大魏。見於22回。",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "張翼",
+     "tied": 0
+    }
    }
   },
   "238": {
@@ -5075,7 +5789,13 @@
    },
    "line": "屬蜀漢。見於35回。",
    "signals": {
-    "lookAlikes": 1
+    "lookAlikes": 1,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Sir John Falstaff",
+     "tied": 0
+    }
    }
   },
   "240": {
@@ -5136,7 +5856,13 @@
    },
    "line": "屬蜀漢。見於8回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abinadab",
+     "tied": 0
+    }
    }
   },
   "244": {
@@ -5162,7 +5888,13 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Peneleos",
+     "tied": 0
+    }
    }
   },
   "245": {
@@ -5191,7 +5923,13 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "馬岱",
+     "tied": 0
+    }
    }
   },
   "246": {
@@ -5228,7 +5966,13 @@
    },
    "line": "屬大魏。見於10回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "許昌",
+     "tied": 0
+    }
    }
   },
   "248": {
@@ -5277,7 +6021,13 @@
    },
    "line": "見於21回。",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 18,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "夏侯惇",
+     "tied": 0
+    }
    }
   },
   "250": {
@@ -5320,7 +6070,13 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Madame Thénardier",
+     "tied": 0
+    }
    }
   },
   "253": {
@@ -5472,7 +6228,13 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "許攸",
+     "tied": 0
+    }
    }
   },
   "264": {
@@ -5505,7 +6267,13 @@
    },
    "line": "太守。屬大魏。見於14回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "蔣欽",
+     "tied": 0
+    }
    }
   },
   "265": {
@@ -5541,7 +6309,13 @@
    },
    "line": "屬蜀漢。見於4回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Richard Gephardt",
+     "tied": 0
+    }
    }
   },
   "267": {
@@ -5559,7 +6333,13 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "張團練",
+     "tied": 0
+    }
    }
   },
   "268": {
@@ -5577,7 +6357,13 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aphareus",
+     "tied": 0
+    }
    }
   },
   "269": {
@@ -5619,7 +6405,13 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "曹真",
+     "tied": 0
+    }
    }
   },
   "271": {
@@ -5638,7 +6430,13 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "董荼那",
+     "tied": 0
+    }
    }
   },
   "272": {
@@ -5657,7 +6455,13 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "凌統",
+     "tied": 0
+    }
    }
   },
   "273": {
@@ -5684,7 +6488,13 @@
    },
    "line": "屬蜀漢。見於11回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "王朗",
+     "tied": 0
+    }
    }
   },
   "274": {
@@ -5706,7 +6516,13 @@
    },
    "line": "太守。見於6回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Hyle Hunt",
+     "tied": 0
+    }
    }
   },
   "275": {
@@ -5759,7 +6575,13 @@
    },
    "line": "屬蜀漢。見於25回。",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "司馬懿",
+     "tied": 0
+    }
    }
   },
   "277": {
@@ -5853,7 +6675,13 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bilhan",
+     "tied": 0
+    }
    }
   },
   "284": {
@@ -5914,7 +6742,13 @@
    },
    "line": "屬蜀漢。見於7回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Aphareus",
+     "tied": 0
+    }
    }
   },
   "288": {
@@ -5950,7 +6784,13 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "A Countryman",
+     "tied": 2
+    }
    }
   },
   "290": {
@@ -6101,7 +6941,13 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "吳班",
+     "tied": 0
+    }
    }
   },
   "301": {
@@ -6136,7 +6982,13 @@
    },
    "line": "屬蜀漢。見於3回。",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Edward Feighan",
+     "tied": 0
+    }
    }
   },
   "303": {
@@ -6179,7 +7031,13 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "廖化",
+     "tied": 0
+    }
    }
   },
   "305": {
@@ -6253,7 +7111,13 @@
    },
    "line": "屬蜀漢。見於17回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "曹真",
+     "tied": 0
+    }
    }
   },
   "309": {
@@ -6304,7 +7168,13 @@
    },
    "line": "屬大魏。見於10回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "曹叡",
+     "tied": 0
+    }
    }
   },
   "312": {
@@ -6446,7 +7316,13 @@
    },
    "line": "屬蜀漢。見於10回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Dolabella",
+     "tied": 0
+    }
    }
   },
   "321": {
@@ -6477,7 +7353,13 @@
    },
    "line": "屬蜀漢。見於15回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Captain Fluellen",
+     "tied": 1
+    }
    }
   },
   "322": {
@@ -6512,7 +7394,13 @@
    },
    "line": "屬吳國。見於3回。",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Rodrik Harlaw",
+     "tied": 0
+    }
    }
   },
   "324": {
@@ -6568,7 +7456,13 @@
    },
    "line": "屬大魏。見於12回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "孟獲",
+     "tied": 0
+    }
    }
   },
   "327": {
@@ -6619,7 +7513,13 @@
    },
    "line": "屬蜀漢。見於7回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "曹真",
+     "tied": 0
+    }
    }
   },
   "330": {
@@ -6714,7 +7614,13 @@
    },
    "line": "屬蜀漢。見於7回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Madame Hucheloup",
+     "tied": 0
+    }
    }
   },
   "336": {
@@ -6734,7 +7640,13 @@
    },
    "line": "屬蜀漢。見於4回。",
    "signals": {
-    "lookAlikes": 52
+    "lookAlikes": 52,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Nathanael",
+     "tied": 0
+    }
    }
   },
   "337": {
@@ -6764,7 +7676,13 @@
    },
    "line": "屬蜀漢。見於14回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Charles",
+     "tied": 0
+    }
    }
   },
   "338": {
@@ -6791,7 +7709,13 @@
    },
    "line": "屬大魏。見於11回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 43,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lord Ross",
+     "tied": 1
+    }
    }
   },
   "339": {
@@ -6860,7 +7784,13 @@
    },
    "line": "屬蜀漢。見於5回。",
    "signals": {
-    "lookAlikes": 57
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "John",
+     "tied": 1
+    }
    }
   },
   "343": {
@@ -6894,7 +7824,13 @@
    },
    "line": "屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Mowbray",
+     "tied": 0
+    }
    }
   },
   "345": {
@@ -7023,7 +7959,13 @@
    },
    "line": "屬蜀漢。見於26回。",
    "signals": {
-    "lookAlikes": 13
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Bardolph",
+     "tied": 0
+    }
    }
   },
   "351": {
@@ -7057,7 +7999,13 @@
    },
    "line": "屬大魏。見於18回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Saint Peter",
+     "tied": 0
+    }
    }
   },
   "352": {
@@ -7362,7 +8310,13 @@
    },
    "line": "屬大魏。見於5回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Bob Livingston",
+     "tied": 0
+    }
    }
   },
   "371": {
@@ -7381,7 +8335,13 @@
    },
    "line": "屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Leah",
+     "tied": 0
+    }
    }
   },
   "372": {
@@ -7399,7 +8359,13 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "鄧颺",
+     "tied": 0
+    }
    }
   },
   "373": {
@@ -7417,7 +8383,13 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "何晏",
+     "tied": 0
+    }
    }
   },
   "374": {
@@ -7435,7 +8407,13 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Garin",
+     "tied": 0
+    }
    }
   },
   "375": {
@@ -7453,7 +8431,13 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "畢軌",
+     "tied": 0
+    }
    }
   },
   "376": {
@@ -7471,7 +8455,13 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "丁謐",
+     "tied": 0
+    }
    }
   },
   "377": {
@@ -7489,7 +8479,13 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "曹彥",
+     "tied": 1
+    }
    }
   },
   "378": {
@@ -7507,7 +8503,13 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "曹彥",
+     "tied": 0
+    }
    }
   },
   "379": {
@@ -7525,7 +8527,13 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "sanguoyanyi",
+     "story": "三國演義",
+     "name": "曹訓",
+     "tied": 0
+    }
    }
   },
   "380": {
@@ -7594,7 +8602,13 @@
    },
    "line": "屬大魏。見於8回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "寶蟾",
+     "tied": 0
+    }
    }
   },
   "384": {
@@ -7621,7 +8635,13 @@
    },
    "line": "屬大魏。見於11回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 28,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Cade",
+     "tied": 0
+    }
    }
   },
   "385": {
@@ -7731,7 +8751,13 @@
    },
    "line": "屬大魏。見於4回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 66,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Peter Hoekstra",
+     "tied": 0
+    }
    }
   },
   "392": {
@@ -7766,7 +8792,13 @@
    },
    "line": "屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 27
+    "lookAlikes": 27,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Thomas Petri",
+     "tied": 0
+    }
    }
   },
   "394": {
@@ -7921,7 +8953,13 @@
    },
    "line": "屬蜀漢。見於5回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Donald Manzullo",
+     "tied": 0
+    }
    }
   },
   "403": {
@@ -8247,7 +9285,13 @@
    },
    "line": "見於第87回、第88回。",
    "signals": {
-    "lookAlikes": 53
+    "lookAlikes": 53,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Small Paul",
+     "tied": 0
+    }
    }
   },
   "423": {
@@ -8359,7 +9403,13 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Titinius",
+     "tied": 0
+    }
    }
   },
   "431": {

@@ -125,7 +125,13 @@
    },
    "line": "比丘。屬唐。見於89回。",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Marcus Brutus",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -236,7 +242,13 @@
    },
    "line": "見於83回。",
    "signals": {
-    "lookAlikes": 2
+    "lookAlikes": 2,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Zeus",
+     "tied": 0
+    }
    }
   },
   "4": {
@@ -270,7 +282,13 @@
    },
    "line": "神仙。見於20回。",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Earl of Essex",
+     "tied": 3
+    }
    }
   },
   "5": {
@@ -378,7 +396,13 @@
    },
    "line": "仙石出身。見於94回。",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "shakespeare-rome",
+     "story": "Shakespeare's Rome",
+     "name": "Antony",
+     "tied": 0
+    }
    }
   },
   "6": {
@@ -468,7 +492,13 @@
    },
    "line": "見於77回。",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "shakespeare-alls-well-that-ends-well",
+     "story": "All’s Well That Ends Well",
+     "name": "Bertram",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -570,7 +600,13 @@
    },
    "line": "屬唐。見於16回。",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 3,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Hippothous",
+     "tied": 0
+    }
    }
   },
   "13": {
@@ -591,7 +627,13 @@
    },
    "line": "屬唐。見於5回。",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Naaman",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -629,7 +671,13 @@
    },
    "line": "屬唐。見於6回。",
    "signals": {
-    "lookAlikes": 4
+    "lookAlikes": 4,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Rephaiah",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -648,7 +696,13 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 1
+    "lookAlikes": 1,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Tim Holden",
+     "tied": 0
+    }
    }
   },
   "17": {
@@ -681,7 +735,13 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "杜如晦",
+     "tied": 3
+    }
    }
   },
   "19": {
@@ -699,7 +759,13 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "房玄齡",
+     "tied": 3
+    }
    }
   },
   "20": {
@@ -717,7 +783,13 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "房玄齡",
+     "tied": 4
+    }
    }
   },
   "21": {
@@ -735,7 +807,13 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "房玄齡",
+     "tied": 3
+    }
    }
   },
   "22": {
@@ -755,7 +833,13 @@
    },
    "line": "屬唐。見於4回。",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "房玄齡",
+     "tied": 3
+    }
    }
   },
   "23": {
@@ -773,7 +857,13 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "房玄齡",
+     "tied": 3
+    }
    }
   },
   "24": {
@@ -792,7 +882,13 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "秦叔寶",
+     "tied": 0
+    }
    }
   },
   "25": {
@@ -810,7 +906,13 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 17
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "胡敬德",
+     "tied": 0
+    }
    }
   },
   "26": {
@@ -1040,7 +1142,13 @@
    },
    "line": "王。屬流沙國。見於22回。",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "odyssey",
+     "story": "The Odyssey",
+     "name": "Nestor",
+     "tied": 0
+    }
    }
   },
   "39": {
@@ -1265,7 +1373,13 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Arys Oakheart",
+     "tied": 0
+    }
    }
   },
   "52": {
@@ -1317,7 +1431,13 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-as-you-like-it",
+     "story": "As You Like It",
+     "name": "Le Beau",
+     "tied": 0
+    }
    }
   },
   "55": {
@@ -1367,7 +1487,13 @@
    },
    "line": "妖怪。見於22回。",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "秦可卿",
+     "tied": 0
+    }
    }
   },
   "57": {
@@ -1418,7 +1544,13 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 0,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Ahinoam",
+     "tied": 0
+    }
    }
   },
   "60": {
@@ -1496,7 +1628,13 @@
    },
    "line": "見於9回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "牛魔王",
+     "tied": 0
+    }
    }
   },
   "65": {
@@ -1537,7 +1675,13 @@
    },
    "line": "見於28回。",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "紅孩兒",
+     "tied": 0
+    }
    }
   },
   "66": {
@@ -1569,7 +1713,13 @@
    },
    "line": "妖怪。見於18回。",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "xiyouji",
+     "story": "西遊記",
+     "name": "木吒",
+     "tied": 0
+    }
    }
   },
   "67": {
@@ -1618,7 +1768,13 @@
    },
    "line": "見於36回。",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "shakespeare-timon-of-athens",
+     "story": "Timon of Athens",
+     "name": "Flaminius",
+     "tied": 0
+    }
    }
   },
   "68": {
@@ -1643,7 +1799,13 @@
    },
    "line": "見於12回。",
    "signals": {
-    "lookAlikes": 5
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Rolly Duckfield",
+     "tied": 0
+    }
    }
   }
  },

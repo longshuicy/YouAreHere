@@ -14,7 +14,13 @@
    },
    "line": "Duke of Brittany.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Duke of Norfolk",
+     "tied": 0
+    }
    }
   },
   "1": {
@@ -31,7 +37,13 @@
    },
    "line": "Duke.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Blanche",
+     "tied": 0
+    }
    }
   },
   "2": {
@@ -44,7 +56,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 24,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "John",
+     "tied": 0
+    }
    }
   },
   "3": {
@@ -73,7 +91,13 @@
    },
    "line": "Queen Consort of France.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Duke of Austria Limoges",
+     "tied": 0
+    }
    }
   },
   "5": {
@@ -85,7 +109,13 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "English Herald",
+     "tied": 1
+    }
    }
   },
   "6": {
@@ -100,7 +130,13 @@
    },
    "line": "Ambassador.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Sir Thomas Lovell",
+     "tied": 0
+    }
    }
   },
   "7": {
@@ -117,7 +153,13 @@
    },
    "line": "Duke of Brittany.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "King Philip II",
+     "tied": 0
+    }
    }
   },
   "8": {
@@ -134,7 +176,13 @@
    },
    "line": "King of France.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Constance",
+     "tied": 1
+    }
    }
   },
   "9": {
@@ -151,7 +199,13 @@
    },
    "line": "Justiciar.",
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "James Gurney",
+     "tied": 2
+    }
    }
   },
   "10": {
@@ -164,7 +218,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Earl of Essex",
+     "tied": 2
+    }
    }
   },
   "11": {
@@ -177,7 +237,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Citizen",
+     "tied": 1
+    }
    }
   },
   "12": {
@@ -190,7 +256,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Citizen",
+     "tied": 1
+    }
    }
   },
   "13": {
@@ -207,7 +279,13 @@
    },
    "line": "Chief governor of Ireland.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-the-merchant-of-venice",
+     "story": "The Merchant of Venice",
+     "name": "Solanio",
+     "tied": 0
+    }
    }
   },
   "14": {
@@ -222,7 +300,13 @@
    },
    "line": "King of England.",
    "signals": {
-    "lookAlikes": 46
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Cardinal Wolsey",
+     "tied": 0
+    }
    }
   },
   "15": {
@@ -239,7 +323,13 @@
    },
    "line": "King of France.",
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Constance",
+     "tied": 0
+    }
    }
   },
   "16": {
@@ -252,7 +342,13 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Earl of Essex",
+     "tied": 2
+    }
    }
   },
   "17": {
@@ -279,7 +375,13 @@
    },
    "line": "Roman Catholic Bishop of Norwich (England).",
    "signals": {
-    "lookAlikes": 63
+    "lookAlikes": 63,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Friar Lawrence",
+     "tied": 0
+    }
    }
   },
   "19": {
@@ -296,7 +398,13 @@
    },
    "line": "Earl Marshal.",
    "signals": {
-    "lookAlikes": 44
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shakespeare-romeo-and-juliet",
+     "story": "Romeo and Juliet",
+     "name": "Mercutio",
+     "tied": 0
+    }
    }
   },
   "20": {
@@ -337,7 +445,13 @@
    },
    "line": "Queen of Franks.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "shakespeare-titus-andronicus",
+     "story": "Titus Andronicus",
+     "name": "Tamora",
+     "tied": 0
+    }
    }
   },
   "23": {
@@ -349,7 +463,13 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 37
+    "lookAlikes": 37,
+    "nearest": {
+     "world": "shakespeare-king-john",
+     "story": "King John",
+     "name": "Earl of Essex",
+     "tied": 2
+    }
    }
   },
   "24": {
@@ -362,7 +482,13 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65
+    "lookAlikes": 65,
+    "nearest": {
+     "world": "shakespeare-henry-viii",
+     "story": "Henry VIII",
+     "name": "Duke of Suffolk",
+     "tied": 0
+    }
    }
   }
  },
