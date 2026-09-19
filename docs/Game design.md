@@ -71,7 +71,7 @@ Waking repeatedly in one novel is a better fantasy than shuffling. You are not s
 | Story | which story this is | 2 | clue |
 | Claim | whether a name you offer belongs to a node | free | a clue back, when right |
 
-**Free, always:** every tie's strength, and node size, which encodes presence.
+**Free, always:** every tie's strength, node size, which encodes presence, and `SHARES MOST` — which of a node's drawn ties is the heaviest.
 
 **Weigh is gone, and tie strength is free everywhere.** It was originally a purchase: your own ties drawn true, a stranger's ties bought a node at a time. In play that charged for the diagram itself — thickness is the evidence, and a graph of uniform hairlines is not a puzzle, it is a waiting room. Removing it costs less than it looks like it should, because the thing a player actually lacks is not the shape but who is standing in it.
 
@@ -149,6 +149,18 @@ The player never sees the word *weight*. It is a code word and it promises a pre
 > **Superseded 2026-09-18.** Ties were drawn by their *rank* from whichever end the player was looking out from, so a thick tie meant *strong relative to this character's other ties*. The reasoning — raw weights are not comparable across datasets — is correct, and the conclusion drawn from it was not. Ranking per endpoint gives every node a strongest tie, a second strongest and so on, so a hub and a leaf present the identical ladder and the diagram collapses into one pattern repeated at every node. Thickness stopped saying anything about the book, which is a strange fate for the thing the puzzle is supposedly written in.
 >
 > A tie is now drawn against the heaviest tie in its own world, on a log scale because the weights are heavy-tailed — ASOIAF runs from 3 to 334, and a linear scale draws almost all of it as hairline. The comparison stays inside one dataset, where it means something, and every world still renders on the same 0-to-1 range, which is what the invariant was actually asking for.
+
+**`SHARES MOST` — the thickest tie, said in words.**
+
+> **Added 2026-09-18.** Thickness has always carried which tie is strongest, and on a node with three ties it is legible at a glance. On a hub it is not: twenty ties fanning out of one circle, drawn between one and three and a half pixels, cannot be ranked by eye. The information was free and unreadable, which is the same as withheld — and it is the single most useful structural thing the diagram knows about a person.
+>
+> Every node's menu with more than one drawn tie carries a free row: `SHARES MOST — Sansa Stark · 47`. Hovering it lights that tie in the accent on the paper, dims the rest of the fan, rings the far node and sets the figure beside the tie. Clicking follows it: the tie stays lit and the far node's own menu opens, so naming, expanding or reading them is the next click rather than a hunt for a circle.
+>
+> **Read off the drawn ties only, never the world's.** A node's true heaviest tie may run to somebody who has not been expanded into view; saying so would describe a stranger the player has not met. The row answers a question about the paper, which is why it can be free: it decodes a mark already there, exactly as showing thickness at all does.
+>
+> **When two are equal the game declines to choose.** All the joint-heaviest ties light, every far end is ringed, and a line under the row says *Nothing separates them. Take whichever you like.* Picking the first of two identical ties would be answering a question nobody asked.
+>
+> **The figure is a bare number.** No unit, ever — *47 shared scenes* against *47 verses naming both* would hand over the dataset, and the word *weight* stays out of the player's sight as it always has. Unitless it does the one job it is there for: 47 against 12 settles in a glance what two strokes a pixel apart never will. It is shown only on a tie the player has asked to see lit.
 
 **Why every tie is drawn true.** This began as an asymmetry — your own ties free, a stranger's bought — on the reasoning that your own intimacies are what amnesia leaves intact. The asymmetry read well and played badly: beyond your first ring the diagram became identical hairlines, which is to say no diagram at all. Thickness is the medium the puzzle is written in, so it is never for sale. What you pay for is *identity* — who these people are — not the shape they make, which you can always see.
 

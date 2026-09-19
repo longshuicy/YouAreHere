@@ -1,4 +1,4 @@
-import type { VisibleEdge } from '../graph/project';
+import { edgeKey, type VisibleEdge } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { tieColor, tieWidth } from './scales';
 
@@ -10,11 +10,20 @@ interface Props {
   radiusOf: (i: number) => number;
   /** Transitions are suppressed mid-drag so the tie tracks the node exactly. */
   animate?: boolean;
+  /** Keys — `source-target`, in the edge's own order — of the ties the player
+   * has asked to see picked out: a node's heaviest. Drawn in the accent with
+   * their figure beside them; everything else fades back so the answer is the
+   * only thing on the paper that is fully inked. */
+  lit?: Set<string>;
+  /** The node the lit ties run out from, so the figure can be set at the far
+   * end of them, clear of that node's open menu. */
+  litFrom?: number | null;
 }
 
 /** Ties meet the circumference of a node, never its centre — a line running
  * under a hollow circle reads as a line crossing it, not as a tie to it. */
-export function Edges({ edges, positions, radiusOf, animate = true }: Props) {
+export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom }: Props) {
+  const litAny = lit !== undefined && lit.size > 0;
   return (
     <g className="edges">
       {edges.map((e) => {
@@ -32,21 +41,57 @@ export function Edges({ edges, positions, radiusOf, animate = true }: Props) {
         const ux = dx / len;
         const uy = dy / len;
 
+        const isLit = litAny && lit!.has(edgeKey(e));
+        const x1 = a.x + ux * gapA;
+        const y1 = a.y + uy * gapA;
+        const x2 = b.x - ux * gapB;
+        const y2 = b.y - uy * gapB;
+
         return (
-          <line
-            key={`${e.source}-${e.target}`}
-            x1={a.x + ux * gapA}
-            y1={a.y + uy * gapA}
-            x2={b.x - ux * gapB}
-            y2={b.y - uy * gapB}
-            stroke={tieColor(e.strength)}
-            strokeWidth={tieWidth(e.strength)}
-            style={{
-              transition: animate
-                ? 'x1 400ms ease-out, y1 400ms ease-out, x2 400ms ease-out, y2 400ms ease-out, stroke-width 300ms ease-out, stroke 300ms ease-out'
-                : 'none',
-            }}
-          />
+          <g key={edgeKey(e)}>
+            <line
+              x1={x1}
+              y1={y1}
+              x2={x2}
+              y2={y2}
+              stroke={isLit ? 'var(--accent)' : tieColor(e.strength)}
+              strokeWidth={isLit ? tieWidth(e.strength) + 1 : tieWidth(e.strength)}
+              // Not hidden, dimmed: the rest of the fan is still the context
+              // that makes the lit tie mean anything.
+              opacity={litAny && !isLit ? 0.3 : 1}
+              style={{
+                transition: animate
+                  ? 'x1 400ms ease-out, y1 400ms ease-out, x2 400ms ease-out, y2 400ms ease-out, stroke-width 300ms ease-out, stroke 300ms ease-out, opacity 200ms ease-out'
+                  : 'none',
+              }}
+            />
+            {/* The figure the thickness stands for, set in the analytical voice
+                and only while the tie is lit. Two of them side by side is the
+                whole reason it is here: 47 against 12 settles in a glance what
+                two strokes a pixel apart never will. */}
+            {isLit && (
+              <text
+                // Two thirds of the way along rather than halfway: the tie is
+                // lit from a node whose menu is open over the near end, and a
+                // figure set at the midpoint of a short tie hides under it.
+                x={x1 + (x2 - x1) * (litFrom === e.target ? 0.34 : 0.66)}
+                y={y1 + (y2 - y1) * (litFrom === e.target ? 0.34 : 0.66) - 4}
+                textAnchor="middle"
+                className="mono"
+                style={{
+                  fontSize: 11,
+                  fill: 'var(--accent)',
+                  paintOrder: 'stroke',
+                  stroke: 'var(--paper)',
+                  strokeWidth: 3.5,
+                  strokeLinejoin: 'round',
+                  pointerEvents: 'none',
+                }}
+              >
+                {e.weight}
+              </text>
+            )}
+          </g>
         );
       })}
     </g>
