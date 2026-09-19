@@ -22,7 +22,7 @@ The title is the mall-map phrase — a dot that means nothing without the map ar
 2. **Expand** — one hop at a time, outward from a node you choose.
 3. **Infer** — shape is the evidence: hubs, bridges, leaves, closed triangles, density.
 4. **Guess** — story first, then character. Available from the first frame.
-5. **Reveal** — the answer, the ledger, one structural fact, then the ego network unfolds into the full named graph.
+5. **Reveal** — the answer, the ledger, what the network says about you, then the ego network unfolds into the full named graph.
 
 Story is answered first: it collapses the identity space, and it makes the good failure possible — right book, wrong person.
 
@@ -162,7 +162,9 @@ An expanded node keeps a **monogram** below it: its initial, in mono, and a rule
 
 > **Superseded 2026-09-18.** This read *"nothing more — no proximity, no remaining-candidate count"*. The austerity was the point and it was also why the game could not be played: see *Claim, and what a wrong guess is worth*. A wrong guess now returns the distance in ties to the character named, and labels them if they are already on the paper. The remaining-candidate count is still withheld, and always will be — that is a number about the puzzle, not about the book.
 
-**5 · Reveal.** In order: the answer, the ledger read back, one generated structural fact, what a tie meant in this book, then the unfolding into the full named graph with your node held in place. It ends on three exits, weighted by size: `WAKE AGAIN HERE`, `WAKE SOMEWHERE ELSE`, and the share card.
+**5 · Reveal.** In order: the answer, the ledger read back, a few readings of the network you were standing in, what a tie meant in this book, then the unfolding into the full named graph with your node held in place — your own ties in the accent, and any names you bought or claimed still on the paper.
+
+> **Amended 2026-09-18.** This said *one generated structural fact*, to arrive from the pipeline. None ever did. The readings are computed in the browser at the moment the reveal fires, which is what lets a Shakespeare play with an empty sidecar end on something specific rather than on nothing. Capped at four: a reveal is a beat, and six true sentences in a column is a dashboard. It ends on three exits, weighted by size: `WAKE AGAIN HERE`, `WAKE SOMEWHERE ELSE`, and the share card.
 
 **5b · Waking again.** The same cold open, one word different — *You wake up here. Again.* The graph opens with previously bought names already in place, set in serif, and the running residence ledger in the margin.
 

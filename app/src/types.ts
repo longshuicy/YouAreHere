@@ -51,10 +51,6 @@ export interface PuzzleRecord {
   /** How findable this start is, 0 (obscure) to 1 (recognisable). Scored at
    * build time; the difficulty slider selects along it. */
   ease?: number;
-  reveal?: {
-    line: string;
-    stat: { kind: string; value: number };
-  };
 }
 
 export interface Provenance {

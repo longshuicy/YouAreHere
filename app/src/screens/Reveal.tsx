@@ -4,12 +4,11 @@ import { FullGraph } from '../render/FullGraph';
 import type { Session } from '../engine/session';
 import { clueTotal } from '../render/Ledger';
 import { describeContext, describeReadings, revealMetrics } from '../graph/metrics';
-import type { NodeFacts, PuzzleRecord, Universe, UniverseMeta } from '../types';
+import type { NodeFacts, Universe, UniverseMeta } from '../types';
 
 interface Props {
   session: Session;
   universe: Universe;
-  puzzle: PuzzleRecord;
   meta: UniverseMeta | null;
   onWakeElsewhere: () => void;
   onOpenKey: () => void;
@@ -20,7 +19,6 @@ interface Props {
 export function Reveal({
   session,
   universe,
-  puzzle,
   meta,
   onWakeElsewhere,
   onOpenKey,
@@ -34,12 +32,20 @@ export function Reveal({
   /**
    * The structural fact the design has always promised at the reveal.
    *
-   * It was to arrive from the pipeline, on `puzzle.reveal.line`. The pipeline
-   * has never emitted one — zero of 1,357 puzzles carry the record — so the
-   * slot has sat behind a null check since it was written and has never once
-   * been seen. Everything below is computed in the browser instead, which also
-   * means it works in the 26 worlds whose enrichment sidecar is empty, and
-   * those are precisely the worlds the reveal had nothing to say about.
+   * It was to arrive from the pipeline, on `puzzle.reveal.line`, chosen at
+   * build time from a set of templates. The pipeline never emitted one: zero of
+   * 1,357 puzzles carried the record, so the slot sat behind a null check from
+   * the day it was written and was never once seen. The record and the prop
+   * that carried it are gone.
+   *
+   * Everything below is computed here instead, which also means it works in the
+   * 26 worlds whose enrichment sidecar is empty, and those are precisely the
+   * worlds the reveal had nothing to say about. The pipeline doc argued this
+   * could not be done in the browser, because measuring a start against the
+   * whole catalogue would mean shipping the whole catalogue. That still holds,
+   * and it is why `lookAlikes` is counted at build time and shipped as a single
+   * number on the reveal-only sidecar. Nothing else here needs more than the
+   * one universe already loaded.
    */
   const metrics = useMemo(() => revealMetrics(universe, session.you), [universe, session.you]);
   const signals = meta?.nodes[String(session.you)]?.signals ?? null;
@@ -75,13 +81,12 @@ export function Reveal({
       edges[`${session.you}-${other}`]?.line ?? edges[`${other}-${session.you}`]?.line ?? null;
   }, [meta, session.you]);
 
-  const structuralLine = puzzle.reveal?.line ?? null;
 
-  /** Context, readings and the pipeline's structural line are all the same kind
-   * of remark about the same person, so they are one list and one style. */
+  /** Context and readings are the same kind of remark about the same person,
+   * so they are one list and one style. */
   const notes = useMemo(
-    () => [...context, ...readings, ...(structuralLine ? [structuralLine] : [])],
-    [context, readings, structuralLine],
+    () => [...context, ...readings],
+    [context, readings],
   );
   const characterLine = meta?.nodes[String(session.you)]?.line ?? null;
   const tieMeaning = universe.provenance?.edgeDefinition

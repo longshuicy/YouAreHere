@@ -16,11 +16,22 @@ export function RadioRow<T extends string>({
   dim,
 }: {
   label: string;
-  options: { key: T; label: string; title?: string }[];
+  /**
+   * `T` is inferred from `value` alone, and from nothing else.
+   *
+   * Every call site passes its options as an inline array literal, where the
+   * `key` strings widen to `string`. TypeScript was taking that as a candidate
+   * for `T`, settling on `string`, and then rejecting the `useState` setter
+   * handed to `onChange` — which is narrowed to the real union and cannot
+   * accept an arbitrary string. `NoInfer` takes the other positions out of the
+   * running, so `T` comes from the value being displayed, which is the one
+   * place it is unambiguous.
+   */
+  options: { key: NoInfer<T>; label: string; title?: string }[];
   value: T;
-  onChange: (key: T) => void;
+  onChange: (key: NoInfer<T>) => void;
   /** Options that are real but cannot carry the weight the others can. */
-  dim?: (key: T) => boolean;
+  dim?: (key: NoInfer<T>) => boolean;
 }) {
   return (
     <div

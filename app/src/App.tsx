@@ -344,12 +344,10 @@ export default function App() {
       );
       break;
     case 'reveal': {
-      const puzzle = universe.puzzles.find((p) => p.id === session.puzzleId) ?? boot.puzzle;
       screen = (
         <Reveal
           session={session}
           universe={universe}
-          puzzle={puzzle}
           meta={meta}
           onWakeElsewhere={wakeElsewhere}
           onOpenKey={openKey}
