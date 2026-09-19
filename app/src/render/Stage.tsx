@@ -16,6 +16,11 @@ interface Props {
   onExpand: (i: number) => void;
   onFacts: (i: number) => void;
   onName: (i: number) => void;
+  onClaim?: (i: number, query: string) => void;
+  /** Name suggestions for the claim field, drawn from every loaded story. */
+  suggest?: (query: string) => string[];
+  /** Whether the sidecar holds a reading for a node. */
+  hasFacts?: (i: number) => boolean;
   onOpenGuess?: () => void;
   /** Fact lines for nodes whose facts have been bought, keyed by node index. */
   factLines?: Map<number, string>;
@@ -38,6 +43,9 @@ export function Stage({
   onExpand,
   onFacts,
   onName,
+  onClaim,
+  suggest,
+  hasFacts,
   onOpenGuess,
   factLines,
   dimmed,
@@ -277,6 +285,17 @@ export function Stage({
               setHovered(i);
               onName(i);
             }}
+            onClaim={(i, query) => {
+              // Pinned before the claim lands, for the same reason buying a
+              // reading is: a correct claim removes the row that was clicked,
+              // which fires mouseleave and hides the result.
+              cancelClose();
+              setPinned(i);
+              setHovered(i);
+              onClaim?.(i, query);
+            }}
+            suggest={suggest ?? (() => [])}
+            hasFacts={hasFacts ?? (() => true)}
             onOpenGuess={onOpenGuess ?? (() => {})}
             onPointerEnter={cancelClose}
             onPointerLeave={scheduleClose}

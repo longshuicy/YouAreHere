@@ -26,7 +26,12 @@
      "ancient Roman senator"
     ]
    },
-   "line": "Ancient Roman senator."
+   "line": "Ancient Roman senator.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.833,
+    "company": 0.593
+   }
   },
   "2": {
    "facts": {
@@ -36,6 +41,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 1.0,
+    "company": 0.5
    }
   },
   "3": {
@@ -56,6 +66,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.167,
+    "company": 0.698
    }
   },
   "5": {
@@ -84,7 +99,12 @@
      "ancient Roman senator"
     ]
    },
-   "line": "Ancient Roman senator."
+   "line": "Ancient Roman senator.",
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.917,
+    "company": 0.55
+   }
   },
   "7": {
    "facts": {
@@ -96,7 +116,12 @@
     "role": "Tribune",
     "gender": "Male"
    },
-   "line": "Tribune."
+   "line": "Tribune.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.667,
+    "company": 0.611
+   }
   },
   "8": {
    "facts": {
@@ -108,7 +133,12 @@
     "role": "Tribune",
     "gender": "Male"
    },
-   "line": "Tribune."
+   "line": "Tribune.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.75,
+    "company": 0.602
+   }
   },
   "9": {
    "facts": {
@@ -118,6 +148,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.333,
+    "company": 0.602
    }
   },
   "10": {
@@ -128,6 +163,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.5,
+    "company": 0.508
    }
   },
   "11": {
@@ -138,6 +178,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.583,
+    "company": 0.5
    }
   },
   "12": {

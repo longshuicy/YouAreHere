@@ -10,6 +10,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.455,
+    "company": 0.606
    }
   },
   "1": {
@@ -20,6 +25,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.091,
+    "company": 0.667
    }
   },
   "2": {
@@ -30,6 +40,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 1,
+    "prominence": 0.818,
+    "company": 0.518
    }
   },
   "3": {
@@ -40,6 +55,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 1,
+    "prominence": 0.727,
+    "company": 0.479
    }
   },
   "4": {
@@ -50,6 +70,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 0,
+    "prominence": 0.636,
+    "company": 0.586
    }
   },
   "5": {
@@ -60,6 +85,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.182,
+    "company": 0.636
    }
   },
   "6": {
@@ -70,6 +100,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 1.0,
+    "company": 0.455
    }
   },
   "7": {
@@ -80,6 +115,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.364,
+    "company": 0.616
    }
   },
   "8": {
@@ -90,6 +130,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.273,
+    "company": 0.626
    }
   },
   "9": {
@@ -102,7 +147,12 @@
     "gender": "Male",
     "occupation": "soldier"
    },
-   "line": "Soldier."
+   "line": "Soldier.",
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.909,
+    "company": 0.463
+   }
   },
   "10": {
    "facts": {
@@ -112,6 +162,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.545,
+    "company": 0.496
    }
   },
   "11": {

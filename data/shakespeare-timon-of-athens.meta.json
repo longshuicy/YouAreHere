@@ -14,7 +14,12 @@
      "strategos"
     ]
    },
-   "line": "Strategos."
+   "line": "Strategos.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.87,
+    "company": 0.502
+   }
   },
   "1": {
    "facts": {
@@ -24,6 +29,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.913,
+    "company": 0.533
    }
   },
   "2": {
@@ -34,6 +44,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.13,
+    "company": 0.761
    }
   },
   "3": {
@@ -54,6 +69,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.957,
+    "company": 0.478
    }
   },
   "5": {
@@ -64,6 +84,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.348,
+    "company": 0.772
    }
   },
   "6": {
@@ -74,6 +99,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.391,
+    "company": 0.723
    }
   },
   "7": {
@@ -84,6 +114,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.435,
+    "company": 0.717
    }
   },
   "8": {
@@ -94,6 +129,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.478,
+    "company": 0.712
    }
   },
   "9": {
@@ -104,6 +144,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.696,
+    "company": 0.715
    }
   },
   "10": {
@@ -124,6 +169,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.739,
+    "company": 0.71
    }
   },
   "12": {
@@ -136,7 +186,12 @@
     "gender": "Male",
     "role": "Servant"
    },
-   "line": "Servant."
+   "line": "Servant.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.522,
+    "company": 0.75
+   }
   },
   "13": {
    "facts": {
@@ -146,6 +201,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.174,
+    "company": 0.621
    }
   },
   "14": {
@@ -156,6 +216,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.565,
+    "company": 0.745
    }
   },
   "15": {
@@ -166,6 +231,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.217,
+    "company": 0.615
    }
   },
   "16": {
@@ -176,6 +246,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.609,
+    "company": 0.739
    }
   },
   "17": {
@@ -186,6 +261,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.261,
+    "company": 0.609
    }
   },
   "18": {
@@ -196,6 +276,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.783,
+    "company": 0.558
    }
   },
   "19": {
@@ -206,6 +291,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.652,
+    "company": 0.69
    }
   },
   "20": {
@@ -216,6 +306,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.826,
+    "company": 0.522
    }
   },
   "21": {
@@ -226,6 +321,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.304,
+    "company": 0.602
    }
   },
   "22": {
@@ -248,7 +348,12 @@
     "gender": "Male",
     "occupation": "philosopher"
    },
-   "line": "Philosopher."
+   "line": "Philosopher.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 1.0,
+    "company": 0.478
+   }
   }
  },
  "edges": {

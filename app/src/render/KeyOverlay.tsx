@@ -3,13 +3,16 @@ interface Props {
 }
 
 const ROWS: Array<{ label: string; gloss: string; cost: string }> = [
-  { label: 'Expand', gloss: 'show its neighbours', cost: '1' },
+  { label: 'Expand', gloss: 'their neighbours, and their initial', cost: '1' },
   { label: 'Facts', gloss: 'what is known of them', cost: '2' },
   { label: 'Name', gloss: 'one name, nothing more', cost: '3' },
   // Not attached to a node like the others — it is about the world, so it lives
   // in the margin. Listed here all the same, because a price that is only
   // discoverable by paying it is not a price.
   { label: 'Story', gloss: 'which story this is', cost: '2' },
+  // The only row that can pay you, and the only one that can never charge you.
+  // Listed last because it is not a purchase in either direction.
+  { label: 'Claim', gloss: 'say who they are · right gives one back', cost: 'free' },
 ];
 
 /** Opens over the paper without navigating away — a persistent key, not a tutorial. */
@@ -61,6 +64,9 @@ export function KeyOverlay({ onClose }: Props) {
           <div style={{ color: 'var(--ink)' }}>Read the graph.</div>
           <div style={{ marginTop: 18 }}>Larger nodes have more connections.</div>
           <div>Thicker lines mean stronger ties.</div>
+          <div>An expanded node keeps its initial, and a rule as long as its name.</div>
+          <div style={{ marginTop: 18, color: 'var(--ink)' }}>Guessing is free, and it answers back.</div>
+          <div>Name anyone and you are told how far from you they stand.</div>
           <div style={{ marginTop: 18 }}>Your clues are counted.</div>
           <div>How many will it take to find yourself?</div>
         </div>

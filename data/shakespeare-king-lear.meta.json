@@ -10,6 +10,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.529,
+    "company": 0.592
    }
   },
   "1": {
@@ -20,6 +25,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.235,
+    "company": 0.688
    }
   },
   "2": {
@@ -30,6 +40,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.353,
+    "company": 0.588
    }
   },
   "3": {
@@ -40,6 +55,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.588,
+    "company": 0.584
    }
   },
   "4": {
@@ -72,6 +92,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.647,
+    "company": 0.555
    }
   },
   "7": {
@@ -82,6 +107,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.706,
+    "company": 0.555
    }
   },
   "8": {
@@ -92,6 +122,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.471,
+    "company": 0.732
    }
   },
   "9": {
@@ -102,6 +137,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.294,
+    "company": 0.682
    }
   },
   "10": {
@@ -112,6 +152,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 0.882,
+    "company": 0.525
    }
   },
   "11": {
@@ -122,6 +167,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.765,
+    "company": 0.576
    }
   },
   "12": {
@@ -132,6 +182,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.176,
+    "company": 0.721
    }
   },
   "13": {
@@ -142,6 +197,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 1.0,
+    "company": 0.525
    }
   },
   "14": {
@@ -154,7 +214,12 @@
     "role": "King of Britain",
     "gender": "Male"
    },
-   "line": "King of Britain."
+   "line": "King of Britain.",
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 0.941,
+    "company": 0.529
+   }
   },
   "15": {
    "facts": {
@@ -174,6 +239,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.412,
+    "company": 0.735
    }
   },
   "17": {
@@ -184,6 +254,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.824,
+    "company": 0.541
    }
   }
  },

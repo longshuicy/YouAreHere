@@ -28,7 +28,12 @@
      "Queen Consort of England"
     ]
    },
-   "line": "Queen Consort of England."
+   "line": "Queen Consort of England.",
+   "signals": {
+    "lookAlikes": 50,
+    "prominence": 0.5,
+    "company": 0.738
+   }
   },
   "2": {
    "facts": {
@@ -42,7 +47,12 @@
      "Roman Catholic Bishop of Lincoln (England)"
     ]
    },
-   "line": "Roman Catholic Bishop of Lincoln (England)."
+   "line": "Roman Catholic Bishop of Lincoln (England).",
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.333,
+    "company": 0.667
+   }
   },
   "3": {
    "facts": {
@@ -66,7 +76,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords."
+   "line": "Member of the House of Lords.",
+   "signals": {
+    "lookAlikes": 0,
+    "prominence": 0.556,
+    "company": 0.441
+   }
   },
   "5": {
    "facts": {
@@ -78,7 +93,12 @@
     "gender": "Male",
     "occupation": "physician"
    },
-   "line": "Physician."
+   "line": "Physician.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.611,
+    "company": 0.825
+   }
   },
   "6": {
    "facts": {
@@ -92,7 +112,12 @@
      "cardinal"
     ]
    },
-   "line": "Cardinal."
+   "line": "Cardinal.",
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.694,
+    "company": 0.72
+   }
   },
   "7": {
    "facts": {
@@ -118,7 +143,12 @@
      "ambassador"
     ]
    },
-   "line": "Ambassador."
+   "line": "Ambassador.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.944,
+    "company": 0.725
+   }
   },
   "9": {
    "facts": {
@@ -132,7 +162,12 @@
      "Lord Chancellor"
     ]
    },
-   "line": "Lord Chancellor."
+   "line": "Lord Chancellor.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.639,
+    "company": 0.822
+   }
   },
   "10": {
    "facts": {
@@ -146,7 +181,12 @@
      "Roman Catholic Archbishop of Canterbury"
     ]
    },
-   "line": "Roman Catholic Archbishop of Canterbury."
+   "line": "Roman Catholic Archbishop of Canterbury.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.806,
+    "company": 0.687
+   }
   },
   "11": {
    "facts": {
@@ -156,6 +196,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.361,
+    "company": 0.663
    }
   },
   "12": {
@@ -168,7 +213,12 @@
     "role": "Servant",
     "gender": "Male"
    },
-   "line": "Servant."
+   "line": "Servant.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.75,
+    "company": 0.826
+   }
   },
   "13": {
    "facts": {
@@ -182,7 +232,12 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England."
+   "line": "Member of Parliament in the Parliament of England.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.389,
+    "company": 0.77
+   }
   },
   "14": {
    "facts": {
@@ -226,7 +281,12 @@
      "ambassador of the Kingdom of England to the Kingdom of Spain"
     ]
    },
-   "line": "Ambassador of the Kingdom of England to the Kingdom of Spain."
+   "line": "Ambassador of the Kingdom of England to the Kingdom of Spain.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.861,
+    "company": 0.743
+   }
   },
   "18": {
    "facts": {
@@ -260,7 +320,12 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England."
+   "line": "Member of Parliament in the Parliament of England.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.306,
+    "company": 0.796
+   }
   },
   "21": {
    "facts": {
@@ -274,7 +339,12 @@
      "King of Ireland"
     ]
    },
-   "line": "King of Ireland."
+   "line": "King of Ireland.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 1.0,
+    "company": 0.618
+   }
   },
   "22": {
    "facts": {
@@ -288,7 +358,12 @@
      "Ambassador of the Kingdom of Spain to the Kingdom of England"
     ]
    },
-   "line": "Ambassador of the Kingdom of Spain to the Kingdom of England."
+   "line": "Ambassador of the Kingdom of Spain to the Kingdom of England.",
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.722,
+    "company": 0.495
+   }
   },
   "23": {
    "facts": {
@@ -298,6 +373,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.667,
+    "company": 0.819
    }
   },
   "24": {
@@ -322,7 +402,12 @@
      "Member of the 1495 Parliament"
     ]
    },
-   "line": "Member of the 1495 Parliament."
+   "line": "Member of the 1495 Parliament.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.833,
+    "company": 0.589
+   }
   },
   "26": {
    "facts": {
@@ -336,7 +421,12 @@
      "Member of the Privy Council of the United Kingdom"
     ]
    },
-   "line": "Member of the Privy Council of the United Kingdom."
+   "line": "Member of the Privy Council of the United Kingdom.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.917,
+    "company": 0.675
+   }
   },
   "27": {
    "facts": {
@@ -346,6 +436,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.583,
+    "company": 0.738
    }
   },
   "28": {
@@ -356,6 +451,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.417,
+    "company": 0.766
    }
   },
   "29": {
@@ -370,7 +470,12 @@
      "Lord Chamberlain"
     ]
    },
-   "line": "Lord Chamberlain."
+   "line": "Lord Chamberlain.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.528,
+    "company": 0.759
+   }
   },
   "30": {
    "facts": {
@@ -380,6 +485,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.444,
+    "company": 0.651
    }
   },
   "31": {
@@ -404,7 +514,12 @@
      "Lord Lieutenant of Buckinghamshire"
     ]
    },
-   "line": "Lord Lieutenant of Buckinghamshire."
+   "line": "Lord Lieutenant of Buckinghamshire.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.889,
+    "company": 0.741
+   }
   },
   "33": {
    "facts": {
@@ -418,7 +533,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords."
+   "line": "Member of the House of Lords.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.778,
+    "company": 0.823
+   }
   },
   "34": {
    "facts": {
@@ -428,6 +548,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.472,
+    "company": 0.647
    }
   },
   "35": {
@@ -456,7 +581,12 @@
      "Lord Chancellor"
     ]
    },
-   "line": "Lord Chancellor."
+   "line": "Lord Chancellor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.972,
+    "company": 0.594
+   }
   }
  },
  "edges": {

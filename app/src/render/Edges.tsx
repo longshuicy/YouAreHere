@@ -39,8 +39,8 @@ export function Edges({ edges, positions, radiusOf, animate = true }: Props) {
             y1={a.y + uy * gapA}
             x2={b.x - ux * gapB}
             y2={b.y - uy * gapB}
-            stroke={tieColor(e.rank)}
-            strokeWidth={tieWidth(e.rank)}
+            stroke={tieColor(e.strength)}
+            strokeWidth={tieWidth(e.strength)}
             style={{
               transition: animate
                 ? 'x1 400ms ease-out, y1 400ms ease-out, x2 400ms ease-out, y2 400ms ease-out, stroke-width 300ms ease-out, stroke 300ms ease-out'

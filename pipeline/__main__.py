@@ -15,7 +15,7 @@ from .canon.normalise import (
     load_identity_table,
     split_components,
 )
-from .analyse import difficulty
+from .analyse import difficulty, starts
 from .emit import writer
 from .enrich import facts as enrich_facts
 from .sources import SOURCES
@@ -87,6 +87,12 @@ def build(names: list[str], out: Path) -> int:
             summary = writer.write_universe(world, world.id, out, corpus_index)
             graphs[world.id] = world
 
+            # Scored a second time here rather than threaded out of
+            # write_universe: the summary that function returns is handed to
+            # write_index, which asserts no character name appears in it, and
+            # these scores are keyed by character id. Cheap enough at build time
+            # to pay twice rather than weaken that check.
+            playable, _ = starts.select(world)
             meta = writer.write_metadata(
                 world,
                 world.id,
@@ -94,6 +100,7 @@ def build(names: list[str], out: Path) -> int:
                 edge_facts,
                 meta_sources,
                 out,
+                scores=difficulty.score(world, playable, corpus_index),
             )
 
             summary["metaFile"] = meta["file"]

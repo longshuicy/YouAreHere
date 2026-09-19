@@ -12,7 +12,12 @@
     "role": "Duke of Brittany",
     "gender": "Male"
    },
-   "line": "Duke of Brittany."
+   "line": "Duke of Brittany.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.875,
+    "company": 0.62
+   }
   },
   "1": {
    "facts": {
@@ -26,7 +31,12 @@
      "duke"
     ]
    },
-   "line": "Duke."
+   "line": "Duke.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.625,
+    "company": 0.696
+   }
   },
   "2": {
    "facts": {
@@ -36,6 +46,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 1.0,
+    "company": 0.5
    }
   },
   "3": {
@@ -62,7 +77,12 @@
      "Queen Consort of France"
     ]
    },
-   "line": "Queen Consort of France."
+   "line": "Queen Consort of France.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.667,
+    "company": 0.693
+   }
   },
   "5": {
    "facts": {
@@ -71,6 +91,11 @@
     ],
     "unit": "play",
     "corpusSize": 37
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.333,
+    "company": 0.722
    }
   },
   "6": {
@@ -83,7 +108,12 @@
     "gender": "Male",
     "role": "Ambassador"
    },
-   "line": "Ambassador."
+   "line": "Ambassador.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.583,
+    "company": 0.583
+   }
   },
   "7": {
    "facts": {
@@ -97,7 +127,12 @@
      "duke of Brittany"
     ]
    },
-   "line": "Duke of Brittany."
+   "line": "Duke of Brittany.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.708,
+    "company": 0.69
+   }
   },
   "8": {
    "facts": {
@@ -111,7 +146,12 @@
      "King of France"
     ]
    },
-   "line": "King of France."
+   "line": "King of France.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.792,
+    "company": 0.685
+   }
   },
   "9": {
    "facts": {
@@ -125,7 +165,12 @@
      "Justiciar"
     ]
    },
-   "line": "Justiciar."
+   "line": "Justiciar.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.167,
+    "company": 0.601
+   }
   },
   "10": {
    "facts": {
@@ -135,6 +180,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.208,
+    "company": 0.595
    }
   },
   "11": {
@@ -145,6 +195,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.375,
+    "company": 0.719
    }
   },
   "12": {
@@ -155,6 +210,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.417,
+    "company": 0.715
    }
   },
   "13": {
@@ -169,7 +229,12 @@
      "chief governor of Ireland"
     ]
    },
-   "line": "Chief governor of Ireland."
+   "line": "Chief governor of Ireland.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.5,
+    "company": 0.656
+   }
   },
   "14": {
    "facts": {
@@ -181,7 +246,12 @@
     "role": "King of England",
     "gender": "Male"
    },
-   "line": "King of England."
+   "line": "King of England.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.958,
+    "company": 0.521
+   }
   },
   "15": {
    "facts": {
@@ -195,7 +265,12 @@
      "King of France"
     ]
    },
-   "line": "King of France."
+   "line": "King of France.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.75,
+    "company": 0.688
+   }
   },
   "16": {
    "facts": {
@@ -205,6 +280,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.25,
+    "company": 0.589
    }
   },
   "17": {
@@ -229,7 +309,12 @@
      "Roman Catholic Bishop of Norwich (England)"
     ]
    },
-   "line": "Roman Catholic Bishop of Norwich (England)."
+   "line": "Roman Catholic Bishop of Norwich (England).",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.542,
+    "company": 0.812
+   }
   },
   "19": {
    "facts": {
@@ -243,7 +328,12 @@
      "Earl Marshal"
     ]
    },
-   "line": "Earl Marshal."
+   "line": "Earl Marshal.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.458,
+    "company": 0.491
+   }
   },
   "20": {
    "facts": {
@@ -281,7 +371,12 @@
      "queen of Franks"
     ]
    },
-   "line": "Queen of Franks."
+   "line": "Queen of Franks.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.917,
+    "company": 0.572
+   }
   },
   "23": {
    "facts": {
@@ -290,6 +385,11 @@
     ],
     "unit": "play",
     "corpusSize": 37
+   },
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.292,
+    "company": 0.583
    }
   },
   "24": {
@@ -300,6 +400,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.833,
+    "company": 0.565
    }
   }
  },

@@ -86,6 +86,31 @@ export interface Universe {
 export interface MetaRecord {
   facts: Record<string, unknown>;
   line?: string;
+  /** The signals behind the difficulty score, carried for playable starts only.
+   * Withheld from the universe file, where they would be a far sharper hint
+   * than `ease`; shipped here because this file is the reveal's. */
+  signals?: {
+    /** Characters anywhere in the catalogue presenting the same shape as this
+     * one. Zero means the shape is unique across all 32 worlds. */
+    lookAlikes: number;
+    prominence: number;
+    company: number;
+  };
+}
+
+/** The discrete attributes the sidecar holds for a character. Every field is
+ * optional and most are absent outside the six enriched worlds. */
+export interface NodeFacts {
+  books?: string[];
+  unit?: string;
+  corpusSize?: number;
+  gender?: string;
+  houses?: string[];
+  titles?: string[];
+  culture?: string;
+  born?: string;
+  died?: string;
+  pov?: unknown;
 }
 
 export interface UniverseMeta {

@@ -191,6 +191,7 @@ def write_metadata(
     edge_facts: dict,
     sources: list[tuple],
     out: Path,
+    scores: dict[str, dict] | None = None,
 ) -> dict:
     """Reveal-only enrichment, written to its own file.
 
@@ -215,6 +216,8 @@ def write_metadata(
         set(graph.segment_labels.values()) | set(graph.segment_labels) if graph.segment_labels else set()
     )
 
+    scores = scores or {}
+
     nodes = {}
     for node_id, record in sorted(node_facts.items()):
         if node_id not in index_of:
@@ -225,6 +228,19 @@ def write_metadata(
         entry = {"facts": shipped}
         if line:
             entry["line"] = line
+        # The signals behind the difficulty score. They are withheld from the
+        # universe file, where they would be a far sharper hint than `ease` --
+        # "you have no look-alikes anywhere" narrows the field enormously -- but
+        # this file is the reveal's, and by then the narrowing is the point:
+        # `lookAlikes` is the game's own thesis said back to the player, and it
+        # is already computed.
+        signals = scores.get(node_id)
+        if signals:
+            entry["signals"] = {
+                "lookAlikes": signals["lookAlikes"],
+                "prominence": signals["prominence"],
+                "company": signals["company"],
+            }
         nodes[str(index_of[node_id])] = entry
 
     edges = {}

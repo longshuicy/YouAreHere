@@ -20,6 +20,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.842,
+    "company": 0.52
    }
   },
   "2": {
@@ -30,6 +35,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 0.895,
+    "company": 0.539
    }
   },
   "3": {
@@ -42,7 +52,12 @@
     "gender": "Male",
     "occupation": "friar"
    },
-   "line": "Friar."
+   "line": "Friar.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.474,
+    "company": 0.668
+   }
   },
   "4": {
    "facts": {
@@ -52,6 +67,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.737,
+    "company": 0.703
    }
   },
   "5": {
@@ -62,6 +82,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 6,
+    "prominence": 0.947,
+    "company": 0.503
    }
   },
   "6": {
@@ -72,6 +97,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.158,
+    "company": 0.637
    }
   },
   "7": {
@@ -82,6 +112,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.421,
+    "company": 0.626
    }
   },
   "8": {
@@ -92,6 +127,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.632,
+    "company": 0.53
    }
   },
   "9": {
@@ -102,6 +142,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.789,
+    "company": 0.653
    }
   },
   "10": {
@@ -112,6 +157,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.526,
+    "company": 0.679
    }
   },
   "11": {
@@ -122,6 +172,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.053,
+    "company": 0.729
    }
   },
   "12": {
@@ -134,7 +189,12 @@
     "gender": "Male",
     "role": "Prince of Verona"
    },
-   "line": "Prince of Verona."
+   "line": "Prince of Verona.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.684,
+    "company": 0.526
+   }
   },
   "13": {
    "facts": {
@@ -144,6 +204,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 6,
+    "prominence": 1.0,
+    "company": 0.474
    }
   },
   "14": {
@@ -154,6 +219,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.211,
+    "company": 0.632
    }
   },
   "15": {
@@ -164,6 +234,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.105,
+    "company": 0.737
    }
   },
   "16": {
@@ -174,6 +249,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.263,
+    "company": 0.626
    }
   },
   "17": {
@@ -184,6 +264,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.316,
+    "company": 0.621
    }
   },
   "18": {
@@ -194,6 +279,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.368,
+    "company": 0.655
    }
   },
   "19": {
@@ -206,7 +296,12 @@
     "gender": "Male",
     "occupation": "murderer"
    },
-   "line": "Murderer."
+   "line": "Murderer.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.579,
+    "company": 0.568
+   }
   }
  },
  "edges": {

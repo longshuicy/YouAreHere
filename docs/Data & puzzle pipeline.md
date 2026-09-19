@@ -77,7 +77,9 @@ Provenance is not bureaucracy. Different literary datasets mean different things
 
 ### Normalisation
 
-Weights are not comparable across sources, so the canon layer stores both the raw weight and a normalised rank. The renderer should key edge thickness off the rank, so a thick edge means *strong relative to this character's other ties* — which is the only reading that survives across datasets.
+Weights are not comparable across sources, so the canon layer stores both the raw weight and a normalised rank.
+
+> **Superseded 2026-09-18.** This read *"the renderer should key edge thickness off the rank, so a thick edge means strong relative to this character's other ties — which is the only reading that survives across datasets."* In play that flattened the diagram: ranking per endpoint gives every node the same ladder, so hubs and leaves drew alike and thickness told the player nothing about the book. The renderer keys off the raw weight, normalised logarithmically against the heaviest tie in that world. The cross-dataset problem is solved by normalising *within* a world rather than by ranking within a character. The ranks are still emitted and are still correct; nothing reads them today.
 
 ### Aliases
 
@@ -97,8 +99,12 @@ One file per source, one contract, no exceptions.
 pipeline/ingest/
   asoiaf.py          edge list CSV
   hongloumeng.py     sentence co-occurrence from the PD text
-  xiyouji.py         later — PKU dump has no licence
-  harrypotter.py     later
+  xiyouji.py         same construction as 紅樓夢
+  sanguoyanyi.py     same construction as 紅樓夢
+  shuihuzhuan.py     same construction as 紅樓夢
+  iliad.py           Knuth GraphBase encounter file
+  lesmiserables.py   Knuth GraphBase encounter file
+  odyssey.py         Gutenberg prose + Wikidata
 ```
 
 Each exposes:
@@ -240,7 +246,7 @@ A puzzle is addressable as a universe plus a node index, so a share link carries
 }
 ```
 
-Edges are index tuples rather than objects with string keys. On a 3,000-edge graph that is the difference between a comfortable file and an awkward one. After source, target, and raw weight come the two normalised ranks — the tie's strength relative to the source's other ties, then relative to the target's — because thickness is read from whichever end the player is looking out from. `a` holds aliases and is omitted when empty; the type-ahead matches against them so a half-remembered nickname still lands. The `x`/`y` are the precomputed full-graph layout used by the reveal animation.
+Edges are index tuples rather than objects with string keys. On a 3,000-edge graph that is the difference between a comfortable file and an awkward one. After source, target, and raw weight come the two normalised ranks — the tie's strength relative to the source's other ties, then relative to the target's. These are no longer what thickness is drawn from; see the note above. `a` holds aliases and is omitted when empty; the type-ahead matches against them so a half-remembered nickname still lands. The `x`/`y` are the precomputed full-graph layout used by the reveal animation.
 
 ### Puzzle records
 
@@ -296,12 +302,15 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | ASOIAF (Beveridge) | Edge list with weights | Shipped | CC BY-NC-SA 4.0. Five books as segments. |
 | Star Wars (Gabasova) | Per-episode scene-speech JSON | Shipped | CC BY 3.0. Episodes I–VII as segments. |
 | Shakespeare (DraCor / Folger) | 37 plays, scene co-presence | Shipped | CC BY-NC 3.0. Merged; unnamed crowds dropped. |
-| Bible | — | Not yet | KJV is PD; ready-made graphs are BY-SA (cannot merge) or mix people with places. See `pipeline/raw/bible/SOURCE.md`. |
-| 红楼梦 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24264 + Wikidata. PKU matrix has no licence; see `pipeline/raw/hongloumeng/SOURCE.md`. |
-| 西游记 (PKU) | Character × scene matrix, \~302 × 408 | Later | No licence on the GitHub dump. Same problem as the 紅樓夢 matrix. |
-| 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
+| Bible | Verse co-occurrence from the KJV | Shipped | Built here. Ready-made graphs are BY-SA or mix people with places. |
+| 紅樓夢 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24264 + Wikidata. |
+| The Iliad | Chapter encounters (Knuth GraphBase) | Shipped | Public domain `homer.dat`. |
+| The Odyssey | Sentence co-occurrence from Butcher & Lang | Shipped | Gutenberg #1728 + Wikidata. |
+| Les Misérables | Chapter encounters (Knuth GraphBase) | Shipped | Public domain `jean.dat`. |
+| 三國演義 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #23950 + Wikidata. |
+| 西遊記 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #23962 + Wikidata. PKU matrix has no licence. |
+| 水滸傳 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #23863 (70-chapter recension) + Wikidata. |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
-| 水浒传, 百年孤独 | No settled dataset | Much later | Would need your own pipeline |
 
 ### Licensing
 
@@ -325,9 +334,9 @@ They turn *what story are you in* from a formality into a real question, and the
 
 There is a second, quieter reason to include them early: a structurally similar court is exactly the kind of near-miss that makes the cross-universe question interesting.
 
-### Bible, not yet
+### Bible, shipped
 
-The text is public domain. The graphs on the internet are not usable here. MetaV/Gnosis people tables are CC BY-SA, which cannot share a `/data` directory with ASOIAF's CC BY-NC-SA. KONECT's Bible network mixes names with places. Building a people-only verse co-occurrence graph from the KJV plus Wikidata labels (CC0) is the merge-safe path; it is not written.
+The text is public domain. The graphs on the internet were not usable: MetaV/Gnosis people tables are CC BY-SA, which cannot share a `/data` directory with ASOIAF's CC BY-NC-SA, and KONECT's Bible network mixes names with places. The shipped graph is a people-only verse co-occurrence built from the KJV plus Wikidata labels (CC0).
 
 ### Harry Potter, deferred
 

@@ -20,6 +20,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.714,
+    "company": 0.597
    }
   },
   "2": {
@@ -40,6 +45,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 26,
+    "prominence": 0.643,
+    "company": 0.552
    }
   },
   "4": {
@@ -50,6 +60,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.286,
+    "company": 0.694
    }
   },
   "5": {
@@ -60,6 +75,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.357,
+    "company": 0.714
    }
   },
   "6": {
@@ -70,6 +90,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.429,
+    "company": 0.706
    }
   },
   "7": {
@@ -80,6 +105,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.5,
+    "company": 0.698
    }
   },
   "8": {
@@ -100,6 +130,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 1.0,
+    "company": 0.464
    }
   },
   "10": {
@@ -110,6 +145,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.214,
+    "company": 0.81
    }
   },
   "11": {
@@ -120,6 +160,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 26,
+    "prominence": 0.571,
+    "company": 0.607
    }
   },
   "12": {
@@ -130,6 +175,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.857,
+    "company": 0.542
    }
   },
   "13": {
@@ -140,6 +190,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.786,
+    "company": 0.571
    }
   },
   "14": {
@@ -150,6 +205,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.929,
+    "company": 0.578
    }
   }
  },

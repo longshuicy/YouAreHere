@@ -10,6 +10,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 23,
+    "prominence": 0.5,
+    "company": 0.571
    }
   },
   "1": {
@@ -20,6 +25,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 9,
+    "prominence": 0.409,
+    "company": 0.383
    }
   },
   "2": {
@@ -30,6 +40,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.864,
+    "company": 0.695
    }
   },
   "3": {
@@ -40,6 +55,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.545,
+    "company": 0.631
    }
   },
   "4": {
@@ -50,6 +70,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.682,
+    "company": 0.733
    }
   },
   "5": {
@@ -72,6 +97,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.455,
+    "company": 0.727
    }
   },
   "7": {
@@ -82,6 +112,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.636,
+    "company": 0.664
    }
   },
   "8": {
@@ -92,6 +127,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.318,
+    "company": 0.773
    }
   },
   "9": {
@@ -102,6 +142,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.818,
+    "company": 0.601
    }
   },
   "10": {
@@ -112,6 +157,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.227,
+    "company": 0.788
    }
   },
   "11": {
@@ -142,6 +192,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.591,
+    "company": 0.667
    }
   },
   "14": {
@@ -152,6 +207,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.955,
+    "company": 0.58
    }
   },
   "15": {
@@ -162,6 +222,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.727,
+    "company": 0.707
    }
   },
   "16": {
@@ -172,6 +237,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 1.0,
+    "company": 0.633
    }
   },
   "17": {
@@ -200,6 +270,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.364,
+    "company": 0.767
    }
   },
   "20": {
@@ -210,6 +285,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.773,
+    "company": 0.715
    }
   },
   "21": {
@@ -220,6 +300,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.909,
+    "company": 0.503
    }
   },
   "22": {

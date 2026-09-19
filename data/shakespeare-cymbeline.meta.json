@@ -14,7 +14,12 @@
      "legendary king of Britain"
     ]
    },
-   "line": "Legendary king of Britain."
+   "line": "Legendary king of Britain.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.647,
+    "company": 0.663
+   }
   },
   "1": {
    "facts": {
@@ -24,6 +29,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.706,
+    "company": 0.658
    }
   },
   "2": {
@@ -34,6 +44,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.412,
+    "company": 0.732
    }
   },
   "3": {
@@ -44,6 +59,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.294,
+    "company": 0.701
    }
   },
   "4": {
@@ -56,7 +76,12 @@
     "gender": "Male",
     "role": "King of Britain"
    },
-   "line": "King of Britain."
+   "line": "King of Britain.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.765,
+    "company": 0.637
+   }
   },
   "5": {
    "facts": {
@@ -100,7 +125,12 @@
      "legendary king of Britain"
     ]
    },
-   "line": "Legendary king of Britain."
+   "line": "Legendary king of Britain.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.824,
+    "company": 0.647
+   }
   },
   "9": {
    "facts": {
@@ -110,6 +140,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.529,
+    "company": 0.603
    }
   },
   "10": {
@@ -120,6 +155,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 1.0,
+    "company": 0.618
    }
   },
   "11": {
@@ -140,6 +180,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.882,
+    "company": 0.627
    }
   },
   "13": {
@@ -160,6 +205,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.941,
+    "company": 0.623
    }
   },
   "15": {
@@ -170,6 +220,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.588,
+    "company": 0.5
    }
   },
   "16": {
@@ -180,6 +235,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 50,
+    "prominence": 0.471,
+    "company": 0.697
    }
   },
   "17": {
@@ -190,6 +250,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.353,
+    "company": 0.69
    }
   }
  },

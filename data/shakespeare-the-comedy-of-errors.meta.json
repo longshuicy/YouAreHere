@@ -10,6 +10,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.294,
+    "company": 0.676
    }
   },
   "1": {
@@ -20,6 +25,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 0.882,
+    "company": 0.537
    }
   },
   "2": {
@@ -30,6 +40,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.647,
+    "company": 0.576
    }
   },
   "3": {
@@ -40,6 +55,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.706,
+    "company": 0.549
    }
   },
   "4": {
@@ -50,6 +70,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.824,
+    "company": 0.563
    }
   },
   "5": {
@@ -60,6 +85,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 50,
+    "prominence": 0.118,
+    "company": 0.725
    }
   },
   "6": {
@@ -70,6 +100,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.588,
+    "company": 0.62
    }
   },
   "7": {
@@ -80,6 +115,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 0.941,
+    "company": 0.504
    }
   },
   "8": {
@@ -90,6 +130,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 1.0,
+    "company": 0.5
    }
   },
   "9": {
@@ -100,6 +145,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.412,
+    "company": 0.615
    }
   },
   "10": {
@@ -110,6 +160,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.471,
+    "company": 0.611
    }
   },
   "11": {
@@ -120,6 +175,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 50,
+    "prominence": 0.176,
+    "company": 0.716
    }
   },
   "12": {
@@ -130,6 +190,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.765,
+    "company": 0.606
    }
   },
   "13": {
@@ -150,6 +215,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.529,
+    "company": 0.657
    }
   },
   "15": {
@@ -162,7 +232,12 @@
     "gender": "Male",
     "role": "Servant"
    },
-   "line": "Servant."
+   "line": "Servant.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.353,
+    "company": 0.672
+   }
   },
   "16": {
    "facts": {
@@ -182,6 +257,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.235,
+    "company": 0.815
    }
   }
  },

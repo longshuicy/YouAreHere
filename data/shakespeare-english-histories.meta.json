@@ -32,7 +32,12 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "Appears in Richard II."
+   "line": "Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.51,
+    "company": 0.727
+   }
   },
   "3": {
    "facts": {
@@ -43,7 +48,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.802,
+    "company": 0.77
+   }
   },
   "4": {
    "facts": {
@@ -54,7 +64,12 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 7,
+    "prominence": 0.304,
+    "company": 0.53
+   }
   },
   "5": {
    "facts": {
@@ -65,7 +80,12 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.739,
+    "company": 0.883
+   }
   },
   "6": {
    "facts": {
@@ -106,7 +126,12 @@
     "role": "Earl of Rutland",
     "gender": "Male"
    },
-   "line": "Earl of Rutland. Appears in Richard II."
+   "line": "Earl of Rutland. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 6,
+    "prominence": 0.806,
+    "company": 0.541
+   }
   },
   "9": {
    "facts": {
@@ -120,7 +145,12 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Richard II."
+   "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 0.652,
+    "company": 0.646
+   }
   },
   "10": {
    "facts": {
@@ -134,7 +164,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in four plays."
+   "line": "Appears in four plays.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.964,
+    "company": 0.664
+   }
   },
   "11": {
    "facts": {
@@ -145,7 +180,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.573,
+    "company": 0.861
+   }
   },
   "12": {
    "facts": {
@@ -159,7 +199,12 @@
      "Grand Chamberlain of France"
     ]
    },
-   "line": "Grand Chamberlain of France. Appears in Henry VI, Part 1."
+   "line": "Grand Chamberlain of France. Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.763,
+    "company": 0.723
+   }
   },
   "13": {
    "facts": {
@@ -170,7 +215,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 8,
+    "prominence": 0.466,
+    "company": 0.775
+   }
   },
   "14": {
    "facts": {
@@ -187,7 +237,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in four plays."
+   "line": "Member of the House of Lords. Appears in four plays.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.913,
+    "company": 0.653
+   }
   },
   "15": {
    "facts": {
@@ -198,7 +253,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Richard II."
+   "line": "Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.225,
+    "company": 0.767
+   }
   },
   "16": {
    "facts": {
@@ -209,7 +269,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.7,
+    "company": 0.638
+   }
   },
   "17": {
    "facts": {
@@ -237,7 +302,12 @@
      "Roman Catholic Bishop of Carlisle"
     ]
    },
-   "line": "Roman Catholic Bishop of Carlisle. Appears in Richard II."
+   "line": "Roman Catholic Bishop of Carlisle. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 29,
+    "prominence": 0.581,
+    "company": 0.631
+   }
   },
   "19": {
    "facts": {
@@ -265,7 +335,12 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Henry IV, Part I."
+   "line": "Member of Parliament in the Parliament of England. Appears in Henry IV, Part I.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.577,
+    "company": 0.814
+   }
   },
   "21": {
    "facts": {
@@ -279,7 +354,12 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Richard III."
+   "line": "Member of Parliament in the Parliament of England. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.656,
+    "company": 0.782
+   }
   },
   "22": {
    "facts": {
@@ -291,7 +371,12 @@
     "gender": "Male",
     "occupation": "astronomer"
    },
-   "line": "Astronomer. Appears in Henry VI, Part 2."
+   "line": "Astronomer. Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 6,
+    "prominence": 0.229,
+    "company": 0.603
+   }
   },
   "23": {
    "facts": {
@@ -324,7 +409,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.613,
+    "company": 0.663
+   }
   },
   "26": {
    "facts": {
@@ -336,7 +426,12 @@
     "role": "Lieutenant",
     "gender": "Male"
    },
-   "line": "Lieutenant. Appears in Richard III."
+   "line": "Lieutenant. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.47,
+    "company": 0.762
+   }
   },
   "27": {
    "facts": {
@@ -361,7 +456,12 @@
      "ambassador to the Kingdom of France"
     ]
    },
-   "line": "Ambassador to the Kingdom of France. Appears in Henry VI, Part 2."
+   "line": "Ambassador to the Kingdom of France. Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.921,
+    "company": 0.694
+   }
   },
   "29": {
    "facts": {
@@ -375,7 +475,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Richard III."
+   "line": "Member of the House of Lords. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.917,
+    "company": 0.672
+   }
   },
   "30": {
    "facts": {
@@ -386,7 +491,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.379,
+    "company": 0.644
+   }
   },
   "31": {
    "facts": {
@@ -400,7 +510,12 @@
      "monarch"
     ]
    },
-   "line": "Monarch. Appears in Henry VI, Part 1."
+   "line": "Monarch. Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.775,
+    "company": 0.722
+   }
   },
   "32": {
    "facts": {
@@ -414,7 +529,12 @@
      "regent"
     ]
    },
-   "line": "Regent. Appears in Henry V."
+   "line": "Regent. Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 7,
+    "prominence": 0.233,
+    "company": 0.542
+   }
   },
   "33": {
    "facts": {
@@ -428,7 +548,12 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Richard II."
+   "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 12,
+    "prominence": 0.53,
+    "company": 0.669
+   }
   },
   "34": {
    "facts": {
@@ -439,7 +564,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 8,
+    "prominence": 0.474,
+    "company": 0.774
+   }
   },
   "35": {
    "facts": {
@@ -451,7 +581,12 @@
     "gender": "Male",
     "occupation": "impostor"
    },
-   "line": "Impostor. Appears in Henry VI, Part 2."
+   "line": "Impostor. Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 1,
+    "prominence": 0.743,
+    "company": 0.628
+   }
   },
   "36": {
    "facts": {
@@ -477,7 +612,12 @@
      "Roman Catholic Bishop of Lincoln (England)"
     ]
    },
-   "line": "Roman Catholic Bishop of Lincoln (England). Appears in Henry VI, Part 1 and Henry VI, Part 2."
+   "line": "Roman Catholic Bishop of Lincoln (England). Appears in Henry VI, Part 1 and Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.957,
+    "company": 0.693
+   }
   },
   "38": {
    "facts": {
@@ -491,7 +631,12 @@
      "Lord Chancellor"
     ]
    },
-   "line": "Lord Chancellor. Appears in Richard III."
+   "line": "Lord Chancellor. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.237,
+    "company": 0.831
+   }
   },
   "39": {
    "facts": {
@@ -505,7 +650,12 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Richard III."
+   "line": "Member of Parliament in the Parliament of England. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.881,
+    "company": 0.693
+   }
   },
   "40": {
    "facts": {
@@ -519,7 +669,12 @@
      "King of France"
     ]
    },
-   "line": "King of France. Appears in Henry VI, Part 1."
+   "line": "King of France. Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.822,
+    "company": 0.738
+   }
   },
   "41": {
    "facts": {
@@ -530,7 +685,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 10,
+    "prominence": 0.636,
+    "company": 0.736
+   }
   },
   "42": {
    "facts": {
@@ -544,7 +704,12 @@
      "Lord Lieutenant of Ireland"
     ]
    },
-   "line": "Lord Lieutenant of Ireland. Appears in Henry IV, Part II."
+   "line": "Lord Lieutenant of Ireland. Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.534,
+    "company": 0.809
+   }
   },
   "43": {
    "facts": {
@@ -559,7 +724,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3 and Richard III."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 3 and Richard III.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.949,
+    "company": 0.717
+   }
   },
   "44": {
    "facts": {
@@ -571,7 +741,12 @@
     "gender": "Male",
     "occupation": "aristocrat"
    },
-   "line": "Aristocrat. Appears in Richard III."
+   "line": "Aristocrat. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.383,
+    "company": 0.8
+   }
   },
   "45": {
    "facts": {
@@ -583,7 +758,12 @@
     "gender": "Female",
     "occupation": "lady-in-waiting"
    },
-   "line": "Lady-in-waiting. Appears in Richard III."
+   "line": "Lady-in-waiting. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.387,
+    "company": 0.799
+   }
   },
   "46": {
    "facts": {
@@ -594,7 +774,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 11,
+    "prominence": 0.391,
+    "company": 0.65
+   }
   },
   "47": {
    "facts": {
@@ -605,7 +790,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.755,
+    "company": 0.831
+   }
   },
   "48": {
    "facts": {
@@ -620,7 +810,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 2 and Henry VI, Part 3."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.854,
+    "company": 0.761
+   }
   },
   "49": {
    "facts": {
@@ -645,7 +840,12 @@
      "Constable of France"
     ]
    },
-   "line": "Constable of France. Appears in Henry V."
+   "line": "Constable of France. Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 4,
+    "prominence": 0.585,
+    "company": 0.308
+   }
   },
   "51": {
    "facts": {
@@ -668,7 +868,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part I and Henry IV, Part II."
+   "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.601,
+    "company": 0.779
+   }
   },
   "53": {
    "facts": {
@@ -680,7 +885,12 @@
     "gender": "Male",
     "occupation": "aristocrat"
    },
-   "line": "Aristocrat. Appears in Henry V."
+   "line": "Aristocrat. Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 4,
+    "prominence": 0.589,
+    "company": 0.307
+   }
   },
   "54": {
    "facts": {
@@ -703,7 +913,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.735,
+    "company": 0.635
+   }
   },
   "56": {
    "facts": {
@@ -714,7 +929,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.877,
+    "company": 0.816
+   }
   },
   "57": {
    "facts": {
@@ -726,7 +946,12 @@
     "gender": "Female",
     "occupation": "prostitute"
    },
-   "line": "Prostitute. Appears in Henry IV, Part II."
+   "line": "Prostitute. Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.478,
+    "company": 0.838
+   }
   },
   "58": {
    "facts": {
@@ -737,7 +962,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Richard III."
+   "line": "Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.767,
+    "company": 0.782
+   }
   },
   "59": {
    "facts": {
@@ -749,7 +979,12 @@
     "role": "Earl of Douglas",
     "gender": "Male"
    },
-   "line": "Earl of Douglas. Appears in Henry IV, Part I."
+   "line": "Earl of Douglas. Appears in Henry IV, Part I.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.66,
+    "company": 0.818
+   }
   },
   "60": {
    "facts": {
@@ -761,7 +996,12 @@
     "gender": "Female",
     "occupation": "aristocrat"
    },
-   "line": "Aristocrat. Appears in Henry VI, Part 2."
+   "line": "Aristocrat. Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 5,
+    "prominence": 0.779,
+    "company": 0.679
+   }
   },
   "61": {
    "facts": {
@@ -784,7 +1024,12 @@
     "gender": "Female",
     "occupation": "aristocrat"
    },
-   "line": "Aristocrat. Appears in Richard III."
+   "line": "Aristocrat. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.68,
+    "company": 0.725
+   }
   },
   "63": {
    "facts": {
@@ -798,7 +1043,12 @@
     "role": "Earl of March",
     "gender": "Male"
    },
-   "line": "Earl of March. Appears in three plays."
+   "line": "Earl of March. Appears in three plays.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.968,
+    "company": 0.659
+   }
   },
   "64": {
    "facts": {
@@ -812,7 +1062,12 @@
      "monarch of England"
     ]
    },
-   "line": "Monarch of England. Appears in Richard III."
+   "line": "Monarch of England. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.704,
+    "company": 0.772
+   }
   },
   "65": {
    "facts": {
@@ -826,7 +1081,12 @@
      "Lord Warden of the Cinque Ports"
     ]
    },
-   "line": "Lord Warden of the Cinque Ports. Appears in Henry V."
+   "line": "Lord Warden of the Cinque Ports. Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.399,
+    "company": 0.746
+   }
   },
   "66": {
    "facts": {
@@ -840,7 +1100,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.723,
+    "company": 0.781
+   }
   },
   "67": {
    "facts": {
@@ -854,7 +1119,12 @@
      "Lord Chancellor"
     ]
    },
-   "line": "Lord Chancellor. Appears in Henry VI, Part 1."
+   "line": "Lord Chancellor. Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.759,
+    "company": 0.78
+   }
   },
   "68": {
    "facts": {
@@ -865,7 +1135,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Richard II."
+   "line": "Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.312,
+    "company": 0.6
+   }
   },
   "69": {
    "facts": {
@@ -891,7 +1166,12 @@
     "gender": "Male",
     "occupation": "soldier"
    },
-   "line": "Soldier. Appears in Henry VI, Part 1."
+   "line": "Soldier. Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.64,
+    "company": 0.839
+   }
   },
   "71": {
    "facts": {
@@ -913,7 +1193,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.403,
+    "company": 0.641
+   }
   },
   "73": {
    "facts": {
@@ -924,7 +1209,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.692,
+    "company": 0.853
+   }
   },
   "74": {
    "facts": {
@@ -938,7 +1228,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Richard II."
+   "line": "Member of the House of Lords. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.593,
+    "company": 0.686
+   }
   },
   "75": {
    "facts": {
@@ -949,7 +1244,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.783,
+    "company": 0.674
+   }
   },
   "76": {
    "facts": {
@@ -1016,7 +1316,12 @@
     "role": "Duke of Lancaster",
     "gender": "Male"
    },
-   "line": "Duke of Lancaster. Appears in Richard II."
+   "line": "Duke of Lancaster. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.605,
+    "company": 0.615
+   }
   },
   "82": {
    "facts": {
@@ -1027,7 +1332,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 12,
+    "prominence": 0.597,
+    "company": 0.721
+   }
   },
   "83": {
    "facts": {
@@ -1078,7 +1388,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.787,
+    "company": 0.674
+   }
   },
   "87": {
    "facts": {
@@ -1103,7 +1418,12 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Richard II."
+   "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 12,
+    "prominence": 0.538,
+    "company": 0.668
+   }
   },
   "89": {
    "facts": {
@@ -1125,7 +1445,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Richard III."
+   "line": "Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.771,
+    "company": 0.822
+   }
   },
   "91": {
    "facts": {
@@ -1147,7 +1472,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Richard II."
+   "line": "Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 23,
+    "prominence": 0.316,
+    "company": 0.618
+   }
   },
   "93": {
    "facts": {
@@ -1158,7 +1488,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Richard II."
+   "line": "Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 23,
+    "prominence": 0.32,
+    "company": 0.617
+   }
   },
   "94": {
    "facts": {
@@ -1169,7 +1504,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.324,
+    "company": 0.863
+   }
   },
   "95": {
    "facts": {
@@ -1193,7 +1533,12 @@
     "gender": "Male",
     "role": "Lord"
    },
-   "line": "Lord. Appears in Henry VI, Part 3 and Richard III."
+   "line": "Lord. Appears in Henry VI, Part 3 and Richard III.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.937,
+    "company": 0.64
+   }
   },
   "97": {
    "facts": {
@@ -1207,7 +1552,12 @@
     "role": "Duke of Hereford",
     "gender": "Male"
    },
-   "line": "Duke of Hereford. Appears in three plays."
+   "line": "Duke of Hereford. Appears in three plays.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.925,
+    "company": 0.618
+   }
   },
   "98": {
    "facts": {
@@ -1221,7 +1571,12 @@
      "monarch of England"
     ]
    },
-   "line": "Monarch of England. Appears in Richard III."
+   "line": "Monarch of England. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.684,
+    "company": 0.78
+   }
   },
   "99": {
    "facts": {
@@ -1274,7 +1629,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.708,
+    "company": 0.638
+   }
   },
   "103": {
    "facts": {
@@ -1285,7 +1645,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 26,
+    "prominence": 0.664,
+    "company": 0.918
+   }
   },
   "104": {
    "facts": {
@@ -1296,7 +1661,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.81,
+    "company": 0.847
+   }
   },
   "105": {
    "facts": {
@@ -1311,7 +1681,12 @@
      "High Sheriff of Flintshire"
     ]
    },
-   "line": "High Sheriff of Flintshire. Appears in Henry IV, Part I and Richard II."
+   "line": "High Sheriff of Flintshire. Appears in Henry IV, Part I and Richard II.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.897,
+    "company": 0.605
+   }
   },
   "106": {
    "facts": {
@@ -1322,7 +1697,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.909,
+    "company": 0.795
+   }
   },
   "107": {
    "facts": {
@@ -1333,7 +1713,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.407,
+    "company": 0.632
+   }
   },
   "108": {
    "facts": {
@@ -1355,7 +1740,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 26,
+    "prominence": 0.542,
+    "company": 0.917
+   }
   },
   "110": {
    "facts": {
@@ -1388,7 +1778,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.332,
+    "company": 0.751
+   }
   },
   "113": {
    "facts": {
@@ -1410,7 +1805,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.617,
+    "company": 0.858
+   }
   },
   "115": {
    "facts": {
@@ -1422,7 +1822,12 @@
     "gender": "Female",
     "occupation": "businessperson"
    },
-   "line": "Businessperson. Appears in Henry VI, Part 2."
+   "line": "Businessperson. Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 6,
+    "prominence": 0.245,
+    "company": 0.6
+   }
   },
   "116": {
    "facts": {
@@ -1434,7 +1839,12 @@
     "role": "Prince",
     "gender": "Female"
    },
-   "line": "Prince. Appears in Henry V."
+   "line": "Prince. Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 7,
+    "prominence": 0.336,
+    "company": 0.525
+   }
   },
   "117": {
    "facts": {
@@ -1448,7 +1858,12 @@
      "King of France"
     ]
    },
-   "line": "King of France. Appears in Henry VI, Part 3."
+   "line": "King of France. Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.249,
+    "company": 0.772
+   }
   },
   "118": {
    "facts": {
@@ -1462,7 +1877,12 @@
      "King of France"
     ]
    },
-   "line": "King of France. Appears in Henry V."
+   "line": "King of France. Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 12,
+    "prominence": 0.514,
+    "company": 0.466
+   }
   },
   "119": {
    "facts": {
@@ -1473,7 +1893,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Richard II."
+   "line": "Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.518,
+    "company": 0.727
+   }
   },
   "120": {
    "facts": {
@@ -1485,7 +1910,12 @@
     "gender": "Female",
     "occupation": "consort"
    },
-   "line": "Consort. Appears in Richard III."
+   "line": "Consort. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.727,
+    "company": 0.757
+   }
   },
   "121": {
    "facts": {
@@ -1499,7 +1929,12 @@
      "duchess"
     ]
    },
-   "line": "Duchess. Appears in Henry VI, Part 3."
+   "line": "Duchess. Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.253,
+    "company": 0.771
+   }
   },
   "122": {
    "facts": {
@@ -1522,7 +1957,12 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in Henry IV, Part I and Henry IV, Part II."
+   "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 9,
+    "prominence": 0.34,
+    "company": 0.464
+   }
   },
   "124": {
    "facts": {
@@ -1567,7 +2007,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 3."
+   "line": "Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 50,
+    "prominence": 0.257,
+    "company": 0.876
+   }
   },
   "128": {
    "facts": {
@@ -1578,7 +2023,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 4,
+    "prominence": 0.261,
+    "company": 0.329
+   }
   },
   "129": {
    "facts": {
@@ -1588,7 +2038,12 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "Appears in Richard II."
+   "line": "Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 23,
+    "prominence": 0.344,
+    "company": 0.614
+   }
   },
   "130": {
    "facts": {
@@ -1602,7 +2057,12 @@
      "Lord Chamberlain"
     ]
    },
-   "line": "Lord Chamberlain. Appears in Richard III."
+   "line": "Lord Chamberlain. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.411,
+    "company": 0.849
+   }
   },
   "131": {
    "facts": {
@@ -1613,7 +2073,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.348,
+    "company": 0.854
+   }
   },
   "132": {
    "facts": {
@@ -1624,7 +2089,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 3."
+   "line": "Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.451,
+    "company": 0.813
+   }
   },
   "133": {
    "facts": {
@@ -1635,7 +2105,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 3."
+   "line": "Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.455,
+    "company": 0.812
+   }
   },
   "134": {
    "facts": {
@@ -1646,7 +2121,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.265,
+    "company": 0.631
+   }
   },
   "135": {
    "facts": {
@@ -1656,7 +2136,12 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 7,
+    "prominence": 0.415,
+    "company": 0.963
+   }
   },
   "136": {
    "facts": {
@@ -1667,7 +2152,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 3."
+   "line": "Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 13,
+    "prominence": 0.644,
+    "company": 0.79
+   }
   },
   "137": {
    "facts": {
@@ -1678,7 +2168,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.352,
+    "company": 0.748
+   }
   },
   "138": {
    "facts": {
@@ -1689,7 +2184,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.889,
+    "company": 0.838
+   }
   },
   "139": {
    "facts": {
@@ -1711,7 +2211,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.941,
+    "company": 0.812
+   }
   },
   "141": {
    "facts": {
@@ -1747,7 +2252,12 @@
      "Sheriff of the City of London"
     ]
    },
-   "line": "Sheriff of the City of London. Appears in Richard III."
+   "line": "Sheriff of the City of London. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.545,
+    "company": 0.727
+   }
   },
   "144": {
    "facts": {
@@ -1758,7 +2268,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 8,
+    "prominence": 0.482,
+    "company": 0.774
+   }
   },
   "145": {
    "facts": {
@@ -1780,7 +2295,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.522,
+    "company": 0.834
+   }
   },
   "147": {
    "facts": {
@@ -1791,7 +2311,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.711,
+    "company": 0.637
+   }
   },
   "148": {
    "facts": {
@@ -1802,7 +2327,12 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.826,
+    "company": 0.834
+   }
   },
   "149": {
    "facts": {
@@ -1813,7 +2343,12 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.901,
+    "company": 0.789
+   }
   },
   "150": {
    "facts": {
@@ -1827,7 +2362,12 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in four plays."
+   "line": "Appears in four plays.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.953,
+    "company": 0.699
+   }
   },
   "151": {
    "facts": {
@@ -1841,7 +2381,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.814,
+    "company": 0.763
+   }
   },
   "152": {
    "facts": {
@@ -1863,7 +2408,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.609,
+    "company": 0.746
+   }
   },
   "154": {
    "facts": {
@@ -1898,7 +2448,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.419,
+    "company": 0.639
+   }
   },
   "157": {
    "facts": {
@@ -1922,7 +2477,12 @@
     "role": "Duke of Norfolk",
     "gender": "Male"
    },
-   "line": "Duke of Norfolk. Appears in Richard II."
+   "line": "Duke of Norfolk. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 23,
+    "prominence": 0.486,
+    "company": 0.593
+   }
   },
   "159": {
    "facts": {
@@ -1936,7 +2496,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.549,
+    "company": 0.873
+   }
   },
   "160": {
    "facts": {
@@ -1950,7 +2515,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Richard III."
+   "line": "Member of the House of Lords. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.621,
+    "company": 0.821
+   }
   },
   "161": {
    "facts": {
@@ -1964,7 +2534,12 @@
      "Lord Lieutenant of Sussex"
     ]
    },
-   "line": "Lord Lieutenant of Sussex. Appears in Henry VI, Part 3."
+   "line": "Lord Lieutenant of Sussex. Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.715,
+    "company": 0.866
+   }
   },
   "162": {
    "facts": {
@@ -1980,7 +2555,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in three plays."
+   "line": "Member of the House of Lords. Appears in three plays.",
+   "signals": {
+    "lookAlikes": 2,
+    "prominence": 0.834,
+    "company": 0.524
+   }
   },
   "163": {
    "facts": {
@@ -1992,7 +2572,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V and The Merry Wives of Windsor."
+   "line": "Appears in Henry V and The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.798,
+    "company": 0.805
+   }
   },
   "164": {
    "facts": {
@@ -2003,7 +2588,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.269,
+    "company": 0.63
+   }
   },
   "165": {
    "facts": {
@@ -2014,7 +2604,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 21,
+    "prominence": 0.273,
+    "company": 0.63
+   }
   },
   "166": {
    "facts": {
@@ -2040,7 +2635,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3 and Richard III."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 3 and Richard III.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.874,
+    "company": 0.616
+   }
   },
   "168": {
    "facts": {
@@ -2052,7 +2652,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part I and Henry IV, Part II."
+   "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.688,
+    "company": 0.715
+   }
   },
   "169": {
    "facts": {
@@ -2065,7 +2670,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in three plays."
+   "line": "Appears in three plays.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.96,
+    "company": 0.707
+   }
   },
   "170": {
    "facts": {
@@ -2077,7 +2687,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part I and Henry IV, Part II."
+   "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.747,
+    "company": 0.71
+   }
   },
   "171": {
    "facts": {
@@ -2100,7 +2715,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 3 and Richard III."
+   "line": "Appears in Henry VI, Part 3 and Richard III.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.893,
+    "company": 0.736
+   }
   },
   "173": {
    "facts": {
@@ -2112,7 +2732,12 @@
     "gender": "Female",
     "occupation": "religious leader"
    },
-   "line": "Religious leader. Appears in Henry VI, Part 1."
+   "line": "Religious leader. Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.858,
+    "company": 0.765
+   }
   },
   "174": {
    "facts": {
@@ -2136,7 +2761,12 @@
     "gender": "Female",
     "occupation": "consort"
    },
-   "line": "Consort. Appears in Henry VI, Part 3 and Richard III."
+   "line": "Consort. Appears in Henry VI, Part 3 and Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.87,
+    "company": 0.715
+   }
   },
   "176": {
    "facts": {
@@ -2165,7 +2795,12 @@
      "regent"
     ]
    },
-   "line": "Regent. Appears in Henry V."
+   "line": "Regent. Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 7,
+    "prominence": 0.277,
+    "company": 0.535
+   }
   },
   "178": {
    "facts": {
@@ -2176,7 +2811,12 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in Richard II."
+   "line": "Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 1,
+    "prominence": 0.565,
+    "company": 0.614
+   }
   },
   "179": {
    "facts": {
@@ -2198,7 +2838,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Richard III."
+   "line": "Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.791,
+    "company": 0.778
+   }
   },
   "181": {
    "facts": {
@@ -2210,7 +2855,12 @@
     "role": "Duke of Anjou",
     "gender": "Male"
    },
-   "line": "Duke of Anjou. Appears in Henry VI, Part 1."
+   "line": "Duke of Anjou. Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.794,
+    "company": 0.797
+   }
   },
   "182": {
    "facts": {
@@ -2238,7 +2888,12 @@
      "monarch of England"
     ]
    },
-   "line": "Monarch of England. Appears in Richard II."
+   "line": "Monarch of England. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 2,
+    "prominence": 0.838,
+    "company": 0.507
+   }
   },
   "184": {
    "facts": {
@@ -2251,7 +2906,12 @@
     "gender": "Male",
     "occupation": "aristocrat"
    },
-   "line": "Aristocrat. Appears in Henry VI, Part 3 and Richard III."
+   "line": "Aristocrat. Appears in Henry VI, Part 3 and Richard III.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.842,
+    "company": 0.783
+   }
   },
   "185": {
    "facts": {
@@ -2262,7 +2922,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.625,
+    "company": 0.857
+   }
   },
   "186": {
    "facts": {
@@ -2273,7 +2938,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.696,
+    "company": 0.87
+   }
   },
   "187": {
    "facts": {
@@ -2287,7 +2957,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Richard II."
+   "line": "Member of the House of Lords. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.553,
+    "company": 0.698
+   }
   },
   "188": {
    "facts": {
@@ -2298,7 +2973,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.458,
+    "company": 0.852
+   }
   },
   "189": {
    "facts": {
@@ -2321,7 +3001,12 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.668,
+    "company": 0.676
+   }
   },
   "191": {
    "facts": {
@@ -2343,7 +3028,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.423,
+    "company": 0.743
+   }
   },
   "193": {
    "facts": {
@@ -2354,7 +3044,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 92,
+    "prominence": 0.427,
+    "company": 0.742
+   }
   },
   "194": {
    "facts": {
@@ -2365,7 +3060,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.628,
+    "company": 0.721
+   }
   },
   "195": {
    "facts": {
@@ -2387,7 +3087,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.431,
+    "company": 0.822
+   }
   },
   "197": {
    "facts": {
@@ -2426,7 +3131,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 2."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.885,
+    "company": 0.849
+   }
   },
   "200": {
    "facts": {
@@ -2440,7 +3150,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry V."
+   "line": "Member of the House of Lords. Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 50,
+    "prominence": 0.281,
+    "company": 0.771
+   }
   },
   "201": {
    "facts": {
@@ -2465,7 +3180,12 @@
      "Member of the 1447 Parliament"
     ]
    },
-   "line": "Member of the 1447 Parliament. Appears in Henry VI, Part 2."
+   "line": "Member of the 1447 Parliament. Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.494,
+    "company": 0.782
+   }
   },
   "203": {
    "facts": {
@@ -2501,7 +3221,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.435,
+    "company": 0.637
+   }
   },
   "206": {
    "facts": {
@@ -2513,7 +3238,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II and The Merry Wives of Windsor."
+   "line": "Appears in Henry IV, Part II and The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.929,
+    "company": 0.727
+   }
   },
   "207": {
    "facts": {
@@ -2525,7 +3255,12 @@
     "gender": "Male",
     "occupation": "farm operator"
    },
-   "line": "Farm operator. Appears in Henry VI, Part 1."
+   "line": "Farm operator. Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.364,
+    "company": 0.868
+   }
   },
   "208": {
    "facts": {
@@ -2547,7 +3282,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 8,
+    "prominence": 0.569,
+    "company": 0.632
+   }
   },
   "210": {
    "facts": {
@@ -2558,7 +3298,12 @@
     "corpusSize": 37,
     "gender": "Female"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 8,
+    "prominence": 0.498,
+    "company": 0.772
+   }
   },
   "211": {
    "facts": {
@@ -2569,7 +3314,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 8,
+    "prominence": 0.502,
+    "company": 0.772
+   }
   },
   "212": {
    "facts": {
@@ -2580,7 +3330,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 188,
+    "prominence": 0.751,
+    "company": 0.849
+   }
   },
   "213": {
    "facts": {
@@ -2602,7 +3357,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Appears in The Merry Wives of Windsor.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.862,
+    "company": 0.838
+   }
   },
   "215": {
    "facts": {
@@ -2613,7 +3373,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.719,
+    "company": 0.637
+   }
   },
   "216": {
    "facts": {
@@ -2628,7 +3393,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 1 and Henry VI, Part 2."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.933,
+    "company": 0.751
+   }
   },
   "217": {
    "facts": {
@@ -2642,7 +3412,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 5,
+    "prominence": 0.818,
+    "company": 0.706
+   }
   },
   "218": {
    "facts": {
@@ -2653,7 +3428,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 3."
+   "line": "Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 42,
+    "prominence": 0.462,
+    "company": 0.812
+   }
   },
   "219": {
    "facts": {
@@ -2674,7 +3454,12 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 6,
+    "prominence": 0.285,
+    "company": 0.594
+   }
   },
   "221": {
    "facts": {
@@ -2685,7 +3470,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 11,
+    "prominence": 0.439,
+    "company": 0.644
+   }
   },
   "222": {
    "facts": {
@@ -2711,7 +3501,12 @@
     "gender": "Male",
     "role": "Earl of Derby"
    },
-   "line": "Earl of Derby. Appears in Richard III."
+   "line": "Earl of Derby. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.905,
+    "company": 0.706
+   }
   },
   "224": {
    "facts": {
@@ -2724,7 +3519,12 @@
     "role": "Earl",
     "gender": "Male"
    },
-   "line": "Earl. Appears in Henry VI, Part 1 and Henry VI, Part 2."
+   "line": "Earl. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.945,
+    "company": 0.636
+   }
   },
   "225": {
    "facts": {
@@ -2738,7 +3538,12 @@
      "Earl Marshal"
     ]
    },
-   "line": "Earl Marshal. Appears in Richard II."
+   "line": "Earl Marshal. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 39,
+    "prominence": 0.526,
+    "company": 0.726
+   }
   },
   "226": {
    "facts": {
@@ -2752,7 +3557,12 @@
      "Member of the Privy Council of the United Kingdom"
     ]
    },
-   "line": "Member of the Privy Council of the United Kingdom. Appears in Richard III."
+   "line": "Member of the Privy Council of the United Kingdom. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.632,
+    "company": 0.821
+   }
   },
   "227": {
    "facts": {
@@ -2766,7 +3576,12 @@
      "Lord Lieutenant of Ireland"
     ]
    },
-   "line": "Lord Lieutenant of Ireland. Appears in Henry VI, Part 1."
+   "line": "Lord Lieutenant of Ireland. Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.846,
+    "company": 0.606
+   }
   },
   "228": {
    "facts": {
@@ -2777,7 +3592,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 26,
+    "prominence": 0.672,
+    "company": 0.918
+   }
   },
   "229": {
    "facts": {
@@ -2811,7 +3631,12 @@
     "gender": "Male",
     "role": "Gentleman"
    },
-   "line": "Gentleman. Appears in Richard III."
+   "line": "Gentleman. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.368,
+    "company": 0.773
+   }
   },
   "232": {
    "facts": {
@@ -2825,7 +3650,12 @@
      "Member of Parliament in the Parliament of England"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Richard III."
+   "line": "Member of Parliament in the Parliament of England. Appears in Richard III.",
+   "signals": {
+    "lookAlikes": 134,
+    "prominence": 0.676,
+    "company": 0.818
+   }
   },
   "233": {
    "facts": {
@@ -2836,7 +3666,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 16,
+    "prominence": 0.372,
+    "company": 0.955
+   }
   },
   "234": {
    "facts": {
@@ -2858,7 +3693,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Appears in Henry VI, Part 1.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.648,
+    "company": 0.805
+   }
   },
   "236": {
    "facts": {
@@ -2869,7 +3709,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part I."
+   "line": "Appears in Henry IV, Part I.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.375,
+    "company": 0.845
+   }
   },
   "237": {
    "facts": {
@@ -2880,7 +3725,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 3."
+   "line": "Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.289,
+    "company": 0.704
+   }
   },
   "238": {
    "facts": {
@@ -2891,7 +3741,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 3."
+   "line": "Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.292,
+    "company": 0.704
+   }
   },
   "239": {
    "facts": {
@@ -2902,7 +3757,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 3."
+   "line": "Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 67,
+    "prominence": 0.296,
+    "company": 0.703
+   }
   },
   "240": {
    "facts": {
@@ -2913,7 +3773,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Appears in Henry IV, Part II.",
+   "signals": {
+    "lookAlikes": 31,
+    "prominence": 0.443,
+    "company": 0.636
+   }
   },
   "241": {
    "facts": {
@@ -2926,7 +3791,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in three plays."
+   "line": "Appears in three plays.",
+   "signals": {
+    "lookAlikes": 73,
+    "prominence": 0.866,
+    "company": 0.748
+   }
   },
   "242": {
    "facts": {
@@ -2941,7 +3811,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 2 and Henry VI, Part 3."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 97,
+    "prominence": 0.976,
+    "company": 0.696
+   }
   },
   "243": {
    "facts": {
@@ -2957,7 +3832,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in three plays."
+   "line": "Member of the House of Lords. Appears in three plays.",
+   "signals": {
+    "lookAlikes": 0,
+    "prominence": 0.85,
+    "company": 0.49
+   }
   },
   "244": {
    "facts": {
@@ -2971,7 +3851,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.557,
+    "company": 0.872
+   }
   },
   "245": {
    "facts": {
@@ -3004,7 +3889,12 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "Appears in Henry VI, Part 2.",
+   "signals": {
+    "lookAlikes": 11,
+    "prominence": 0.447,
+    "company": 0.643
+   }
   },
   "248": {
    "facts": {
@@ -3018,7 +3908,12 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Richard II."
+   "line": "Member of the House of Lords. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 33,
+    "prominence": 0.561,
+    "company": 0.697
+   }
   },
   "249": {
    "facts": {
@@ -3044,7 +3939,12 @@
      "Lord High Admiral"
     ]
    },
-   "line": "Lord High Admiral. Appears in Henry IV, Part I."
+   "line": "Lord High Admiral. Appears in Henry IV, Part I.",
+   "signals": {
+    "lookAlikes": 154,
+    "prominence": 0.731,
+    "company": 0.659
+   }
   },
   "251": {
    "facts": {
@@ -3074,7 +3974,12 @@
      "Duke of York"
     ]
    },
-   "line": "Duke of York. Appears in Henry V."
+   "line": "Duke of York. Appears in Henry V.",
+   "signals": {
+    "lookAlikes": 50,
+    "prominence": 0.3,
+    "company": 0.768
+   }
   },
   "253": {
    "facts": {
@@ -3088,7 +3993,12 @@
      "governor of Brittany"
     ]
    },
-   "line": "Governor of Brittany. Appears in Richard II."
+   "line": "Governor of Brittany. Appears in Richard II.",
+   "signals": {
+    "lookAlikes": 6,
+    "prominence": 0.83,
+    "company": 0.585
+   }
   }
  },
  "edges": {
