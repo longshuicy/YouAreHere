@@ -31,7 +31,7 @@ export function Labels({ nodes, positions, animate = true }: Props) {
         .map((n) => {
           const p = positions.get(n.i);
           if (!p || !n.monogram) return null;
-          const r = nodeRadius(n.degree);
+          const r = nodeRadius(n.presence);
           const rest = Math.max(0, n.monogram.length - 1);
           const ruleLen = rest * RULE_UNIT;
           // The initial is centred with its rule as one mark, which means
@@ -79,7 +79,7 @@ export function Labels({ nodes, positions, animate = true }: Props) {
         .map((n) => {
           const p = positions.get(n.i);
           if (!p) return null;
-          const r = nodeRadius(n.degree);
+          const r = nodeRadius(n.presence);
           return (
             <g
               key={n.i}

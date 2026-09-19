@@ -112,7 +112,7 @@ export function Stage({
     return (i: number) => {
       const n = byIndex.get(i);
       if (!n) return 7;
-      return n.isYou ? 8.5 : nodeRadius(n.degree);
+      return n.isYou ? 8.5 : nodeRadius(n.presence);
     };
   }, [graph.nodes]);
 

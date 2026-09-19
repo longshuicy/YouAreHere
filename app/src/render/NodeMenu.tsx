@@ -251,7 +251,7 @@ export function NodeMenu({
   const handlers = { expand: onExpand, facts: onFacts, name: onName };
 
   const [cx, cy] = applyZoom(zoom, p.x, p.y);
-  const ring = (nodeRadius(node.degree) + 10.5) * zoom.k;
+  const ring = (nodeRadius(node.presence) + 10.5) * zoom.k;
   const GAP = 26;
 
   // Prefer the right of the node, flip left when that would overflow — then

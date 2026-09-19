@@ -3,7 +3,7 @@ import { fetchIndex, fetchMeta, fetchUniverse, pickPuzzle, pickWorld } from './d
 import type { IndexFile, PuzzleRecord, Universe, UniverseMeta } from './types';
 import { initSession, makeReducer } from './engine/session';
 import type { Session } from './engine/session';
-import { ordinal, project, standingOf } from './graph/project';
+import { cardinal, project, standingOf } from './graph/project';
 import { suggestNames } from './engine/names';
 import { useRadialLayout } from './graph/layout';
 import { blurbFor } from './data/worlds';
@@ -165,7 +165,9 @@ export default function App() {
 
   const standing = useMemo(() => {
     if (!universe || !session) return '';
-    return `You are the ${ordinal(standingOf(universe, session.you))} most connected person here.`;
+    const above = standingOf(universe, session.you) - 1;
+    if (above === 0) return 'No one is in more of this story than you.';
+    return `Only ${cardinal(above)} ${above === 1 ? 'person' : 'people'} here are in more of this story than you.`;
   }, [universe, session]);
 
   const factLines = useMemo(() => {

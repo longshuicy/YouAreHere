@@ -1,4 +1,4 @@
-import { ordinal } from './project';
+import { cardinal, ordinal } from './project';
 import type { MetaRecord, NodeFacts, NodeIndex, Universe, UniverseMeta } from '../types';
 
 /**
@@ -179,17 +179,6 @@ export function revealMetrics(universe: Universe, you: NodeIndex): RevealMetrics
 
 function plural(n: number, one: string, many: string): string {
   return `${n} ${n === 1 ? one : many}`;
-}
-
-const CARDINALS = [
-  'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
-  'eleven', 'twelve',
-];
-
-/** Words up to twelve, numerals past it. A sentence about pacing outward reads
- * badly with a digit dropped into the middle of it. */
-function cardinal(n: number): string {
-  return n <= CARDINALS.length ? CARDINALS[n - 1] : String(n);
 }
 
 /**

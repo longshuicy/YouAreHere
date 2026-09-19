@@ -62,7 +62,7 @@ export function KeyOverlay({ onClose }: Props) {
 
         <div style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--body)' }}>
           <div style={{ color: 'var(--ink)' }}>Read the graph.</div>
-          <div style={{ marginTop: 18 }}>Larger nodes have more connections.</div>
+          <div style={{ marginTop: 18 }}>Larger nodes are in more of the story.</div>
           <div>Thicker lines mean stronger ties.</div>
           <div>An expanded node keeps its initial, and a rule as long as its name.</div>
           <div style={{ marginTop: 18, color: 'var(--ink)' }}>Guessing is free, and it answers back.</div>

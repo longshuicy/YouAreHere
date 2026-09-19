@@ -71,7 +71,7 @@ Waking repeatedly in one novel is a better fantasy than shuffling. You are not s
 | Story | which story this is | 2 | clue |
 | Claim | whether a name you offer belongs to a node | free | a clue back, when right |
 
-**Free, always:** every tie's strength, and node size, which encodes degree.
+**Free, always:** every tie's strength, and node size, which encodes presence.
 
 **Weigh is gone, and tie strength is free everywhere.** It was originally a purchase: your own ties drawn true, a stranger's ties bought a node at a time. In play that charged for the diagram itself — thickness is the evidence, and a graph of uniform hairlines is not a puzzle, it is a waiting room. Removing it costs less than it looks like it should, because the thing a player actually lacks is not the shape but who is standing in it.
 
@@ -138,6 +138,12 @@ The player never sees the word *weight*. It is a code word and it promises a pre
 
 **What a tie is not.** Not affection, not alliance, not importance. Two enemies who appear in every scene together have one of the heaviest ties in the book. Copy must never say *close*, *knows well*, or *friend* — the player will read warmth into thickness on their own, which is fine, but the game should not assert it.
 
+**Node size is presence, not a count of ties.**
+
+> **Superseded 2026-09-18.** Size encoded plain degree: how many people you were tied to. That is the measure the pipeline's own note on prominence warns against, because it "rewards whoever meets many people once each". Ranked by ties, the second and third largest figures in the Bible are Azariah and Shemaiah, named beside many others in genealogies and known to nobody; Saul, Moses and Aaron drew smaller. A player trying to recognise a book by its shape was being shown a shape drawn on the wrong axis, on the first frame, in every world.
+>
+> Size is now weighted degree — tie weights summed, roughly how much of the text a character is present for — log-scaled and stretched between the faintest and fullest presence in their own world. The six largest circles in the Bible are now David, Saul, Moses, Aaron, Jesus Christ and Abraham. The free standing line in the margin changed with it: *Only 45 people here are in more of this story than you.*
+
 **Thickness is absolute within a world, not ranked per character.**
 
 > **Superseded 2026-09-18.** Ties were drawn by their *rank* from whichever end the player was looking out from, so a thick tie meant *strong relative to this character's other ties*. The reasoning — raw weights are not comparable across datasets — is correct, and the conclusion drawn from it was not. Ranking per endpoint gives every node a strongest tie, a second strongest and so on, so a hub and a leaf present the identical ladder and the diagram collapses into one pattern repeated at every node. Thickness stopped saying anything about the book, which is a strange fate for the thing the puzzle is supposedly written in.
@@ -188,7 +194,7 @@ An old printed book, a mathematical diagram, an archival document.
 | Named | hollow circle, serif label below |
 | Frontier | hollow circle at reduced opacity |
 | Tie | hairline to 3.4px, scaled by strength |
-| Node size | scaled by degree |
+| Node size | scaled by presence — how much of the story they are in |
 
 **Motion.** Edges draw outward from the parent (400ms), nodes emerge at the far end (250ms, +150ms delay), layout settles rather than jumps (600ms), names rise 4px (500ms), the reveal unfolds staggered by hop distance (2000ms). Nothing loops. Respect `prefers-reduced-motion`.
 
@@ -203,7 +209,7 @@ An old printed book, a mathematical diagram, an archival document.
 | Story field | Dropdown of loaded universes. A small public list is not a leak. |
 | Character field | Free text with type-ahead after three characters, suggesting across **all** loaded universes. Solves the forgotten-spelling problem without revealing the cast size of any one novel. |
 | Starting radius | One hop, and expansion moves one hop at a time. |
-| Degree | Encoded as node size, free. A deliberate hint — it makes the diagram readable and rewards structural reading. |
+| Presence | Encoded as node size, free. A deliberate hint — it makes the diagram readable and rewards structural reading. Weighted degree, not a count of ties: see *What a tie means*. |
 | Playable starts | Degree ≥ 6, excluding the three highest-degree characters in each universe. Provisional; tune at M1. |
 | Repeat play | Endless. No daily, no accounts, no streaks. |
 | Cross-novel confusion | Keep it. Prefer structurally similar universes over maximally different ones. |

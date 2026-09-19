@@ -10,8 +10,22 @@ import type { NodeIndex, Universe } from '../types';
 export interface VisibleNode {
   i: NodeIndex;
   isYou: boolean;
-  /** Free, always: node size encodes degree, in the full graph. */
-  degree: number;
+  /**
+   * How much of the story this character is in, 0 to 1, against the fullest
+   * presence in their own world. Free, always: this is what node size encodes.
+   *
+   * Weighted degree, not a count of ties, and the difference is the point. A
+   * count rewards whoever meets many people once each: ranked that way the
+   * second and third largest figures in the Bible are Azariah and Shemaiah,
+   * named beside many others in genealogies and known to nobody, while Saul,
+   * Moses and Aaron draw smaller. A player trying to recognise a book by its
+   * shape was being shown a shape drawn on the wrong axis.
+   *
+   * Logarithmic, because the weights are heavy-tailed, and normalised against
+   * the world's own fullest presence so every universe still renders on the
+   * same scale.
+   */
+  presence: number;
   expanded: boolean;
   name: string | null;
   /** Left behind by an expansion: the first character of this node's name and
@@ -67,21 +81,40 @@ function maxWeight(universe: Universe): number {
   return max;
 }
 
-function degreeOf(universe: Universe, node: NodeIndex): number {
-  let d = 0;
-  for (const [s, t] of universe.edges) {
-    if (s === node || t === node) d++;
+/** Tie weights summed: roughly how much of the text a character is present
+ * for, counted through whoever stands next to them. */
+function weightedDegrees(universe: Universe): Map<NodeIndex, number> {
+  const out = new Map<NodeIndex, number>();
+  for (const n of universe.nodes) out.set(n.i, 0);
+  for (const [s, t, w] of universe.edges) {
+    out.set(s, (out.get(s) ?? 0) + w);
+    out.set(t, (out.get(t) ?? 0) + w);
   }
-  return d;
+  return out;
 }
 
 export function project(universe: Universe, known: Known, you: NodeIndex): VisibleGraph {
+  // Stretched between this world's faintest and fullest presence rather than
+  // from zero, because the radius range is deliberately narrow — six to nine
+  // and a half units, so the diagram stays one family of marks — and measuring
+  // from zero spent only the top two thirds of it. What matters is who is
+  // larger than whom inside this book.
+  const weighted = weightedDegrees(universe);
+  let fullest = 0;
+  let faintest = Infinity;
+  for (const w of weighted.values()) {
+    if (w > fullest) fullest = w;
+    if (w < faintest) faintest = w;
+  }
+  const floor = Math.log1p(Number.isFinite(faintest) ? faintest : 0);
+  const span = Math.log1p(fullest) - floor || 1;
+
   const nodes: VisibleNode[] = [];
   for (const i of known.visible) {
     nodes.push({
       i,
       isYou: i === you,
-      degree: degreeOf(universe, i),
+      presence: (Math.log1p(weighted.get(i) ?? 0) - floor) / span,
       expanded: known.expanded.has(i),
       name: known.named.get(i) ?? null,
       monogram: known.named.has(i) ? null : (known.initials.get(i) ?? null),
@@ -92,7 +125,7 @@ export function project(universe: Universe, known: Known, you: NodeIndex): Visib
   }
 
   const heaviest = maxWeight(universe);
-  const ceiling = Math.log1p(heaviest) || 1;
+  const tieCeiling = Math.log1p(heaviest) || 1;
 
   const edges: VisibleEdge[] = [];
   for (const [s, t, weight] of universe.edges) {
@@ -105,7 +138,7 @@ export function project(universe: Universe, known: Known, you: NodeIndex): Visib
     const tExpanded = known.expanded.has(t);
     if (!sExpanded && !tExpanded) continue;
 
-    edges.push({ source: s, target: t, strength: Math.log1p(weight) / ceiling });
+    edges.push({ source: s, target: t, strength: Math.log1p(weight) / tieCeiling });
   }
 
   return { you, nodes, edges };
@@ -128,13 +161,24 @@ export function project(universe: Universe, known: Known, you: NodeIndex): Visib
  * reading being possible at all.
  */
 export function standingOf(universe: Universe, you: NodeIndex): number {
-  const mine = degreeOf(universe, you);
+  const weighted = weightedDegrees(universe);
+  const mine = weighted.get(you) ?? 0;
   let above = 0;
   for (const n of universe.nodes) {
     if (n.i === you) continue;
-    if (degreeOf(universe, n.i) > mine) above += 1;
+    if ((weighted.get(n.i) ?? 0) > mine) above += 1;
   }
   return above + 1;
+}
+
+const CARDINALS = [
+  'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+  'eleven', 'twelve',
+];
+
+/** Words up to twelve, numerals past it. */
+export function cardinal(n: number): string {
+  return n <= CARDINALS.length ? CARDINALS[n - 1] : String(n);
 }
 
 const ORDINALS = [
