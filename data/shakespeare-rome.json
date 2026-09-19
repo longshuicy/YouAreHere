@@ -2688,6 +2688,7 @@
   0,
   1,
   2,
+  3,
   4,
   5,
   6,
@@ -2743,313 +2744,319 @@
    "id": "shakespeare-rome-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.563
+   "ease": 0.54
   },
   {
    "id": "shakespeare-rome-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.504
+   "ease": 0.462
   },
   {
    "id": "shakespeare-rome-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.301
+   "ease": 0.405
+  },
+  {
+   "id": "shakespeare-rome-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.727
   },
   {
    "id": "shakespeare-rome-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.406
+   "ease": 0.405
   },
   {
    "id": "shakespeare-rome-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.328
+   "ease": 0.414
   },
   {
    "id": "shakespeare-rome-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.616
+   "ease": 0.64
   },
   {
    "id": "shakespeare-rome-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.556
+   "ease": 0.517
   },
   {
    "id": "shakespeare-rome-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.474
+   "ease": 0.448
   },
   {
    "id": "shakespeare-rome-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.504
+   "ease": 0.484
   },
   {
    "id": "shakespeare-rome-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.606
+   "ease": 0.607
   },
   {
    "id": "shakespeare-rome-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.559
+   "ease": 0.556
   },
   {
    "id": "shakespeare-rome-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.591
+   "ease": 0.613
   },
   {
    "id": "shakespeare-rome-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.389
+   "ease": 0.403
   },
   {
    "id": "shakespeare-rome-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.5
+   "ease": 0.488
   },
   {
    "id": "shakespeare-rome-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.343
+   "ease": 0.383
   },
   {
    "id": "shakespeare-rome-p0020",
    "you": 20,
    "startRadius": 1,
-   "ease": 0.583
+   "ease": 0.444
   },
   {
    "id": "shakespeare-rome-p0021",
    "you": 21,
    "startRadius": 1,
-   "ease": 0.313
+   "ease": 0.379
   },
   {
    "id": "shakespeare-rome-p0022",
    "you": 22,
    "startRadius": 1,
-   "ease": 0.582
+   "ease": 0.577
   },
   {
    "id": "shakespeare-rome-p0023",
    "you": 23,
    "startRadius": 1,
-   "ease": 0.541
+   "ease": 0.446
   },
   {
    "id": "shakespeare-rome-p0024",
    "you": 24,
    "startRadius": 1,
-   "ease": 0.382
+   "ease": 0.501
   },
   {
    "id": "shakespeare-rome-p0025",
    "you": 25,
    "startRadius": 1,
-   "ease": 0.396
+   "ease": 0.403
   },
   {
    "id": "shakespeare-rome-p0026",
    "you": 26,
    "startRadius": 1,
-   "ease": 0.528
+   "ease": 0.493
   },
   {
    "id": "shakespeare-rome-p0027",
    "you": 27,
    "startRadius": 1,
-   "ease": 0.636
+   "ease": 0.549
   },
   {
    "id": "shakespeare-rome-p0028",
    "you": 28,
    "startRadius": 1,
-   "ease": 0.362
+   "ease": 0.383
   },
   {
    "id": "shakespeare-rome-p0029",
    "you": 29,
    "startRadius": 1,
-   "ease": 0.56
+   "ease": 0.476
   },
   {
    "id": "shakespeare-rome-p0030",
    "you": 30,
    "startRadius": 1,
-   "ease": 0.583
+   "ease": 0.569
   },
   {
    "id": "shakespeare-rome-p0031",
    "you": 31,
    "startRadius": 1,
-   "ease": 0.447
+   "ease": 0.426
   },
   {
    "id": "shakespeare-rome-p0032",
    "you": 32,
    "startRadius": 1,
-   "ease": 0.541
+   "ease": 0.474
   },
   {
    "id": "shakespeare-rome-p0033",
    "you": 33,
    "startRadius": 1,
-   "ease": 0.495
+   "ease": 0.459
   },
   {
    "id": "shakespeare-rome-p0034",
    "you": 34,
    "startRadius": 1,
-   "ease": 0.505
+   "ease": 0.49
   },
   {
    "id": "shakespeare-rome-p0035",
    "you": 35,
    "startRadius": 1,
-   "ease": 0.632
+   "ease": 0.645
   },
   {
    "id": "shakespeare-rome-p0037",
    "you": 37,
    "startRadius": 1,
-   "ease": 0.372
+   "ease": 0.374
   },
   {
    "id": "shakespeare-rome-p0038",
    "you": 38,
    "startRadius": 1,
-   "ease": 0.548
+   "ease": 0.474
   },
   {
    "id": "shakespeare-rome-p0039",
    "you": 39,
    "startRadius": 1,
-   "ease": 0.421
+   "ease": 0.405
   },
   {
    "id": "shakespeare-rome-p0040",
    "you": 40,
    "startRadius": 1,
-   "ease": 0.448
+   "ease": 0.395
   },
   {
    "id": "shakespeare-rome-p0041",
    "you": 41,
    "startRadius": 1,
-   "ease": 0.518
+   "ease": 0.43
   },
   {
    "id": "shakespeare-rome-p0042",
    "you": 42,
    "startRadius": 1,
-   "ease": 0.466
+   "ease": 0.451
   },
   {
    "id": "shakespeare-rome-p0043",
    "you": 43,
    "startRadius": 1,
-   "ease": 0.38
+   "ease": 0.389
   },
   {
    "id": "shakespeare-rome-p0044",
    "you": 44,
    "startRadius": 1,
-   "ease": 0.384
+   "ease": 0.383
   },
   {
    "id": "shakespeare-rome-p0045",
    "you": 45,
    "startRadius": 1,
-   "ease": 0.356
+   "ease": 0.387
   },
   {
    "id": "shakespeare-rome-p0046",
    "you": 46,
    "startRadius": 1,
-   "ease": 0.363
+   "ease": 0.387
   },
   {
    "id": "shakespeare-rome-p0047",
    "you": 47,
    "startRadius": 1,
-   "ease": 0.512
+   "ease": 0.481
   },
   {
    "id": "shakespeare-rome-p0048",
    "you": 48,
    "startRadius": 1,
-   "ease": 0.497
+   "ease": 0.477
   },
   {
    "id": "shakespeare-rome-p0049",
    "you": 49,
    "startRadius": 1,
-   "ease": 0.37
+   "ease": 0.387
   },
   {
    "id": "shakespeare-rome-p0050",
    "you": 50,
    "startRadius": 1,
-   "ease": 0.495
+   "ease": 0.428
   },
   {
    "id": "shakespeare-rome-p0051",
    "you": 51,
    "startRadius": 1,
-   "ease": 0.412
+   "ease": 0.383
   },
   {
    "id": "shakespeare-rome-p0052",
    "you": 52,
    "startRadius": 1,
-   "ease": 0.385
+   "ease": 0.387
   },
   {
    "id": "shakespeare-rome-p0053",
    "you": 53,
    "startRadius": 1,
-   "ease": 0.393
+   "ease": 0.392
   },
   {
    "id": "shakespeare-rome-p0054",
    "you": 54,
    "startRadius": 1,
-   "ease": 0.411
+   "ease": 0.403
   },
   {
    "id": "shakespeare-rome-p0055",
    "you": 55,
    "startRadius": 1,
-   "ease": 0.47
+   "ease": 0.424
   },
   {
    "id": "shakespeare-rome-p0056",
    "you": 56,
    "startRadius": 1,
-   "ease": 0.308
+   "ease": 0.405
   },
   {
    "id": "shakespeare-rome-p0057",
    "you": 57,
    "startRadius": 1,
-   "ease": 0.507
+   "ease": 0.488
   }
  ],
  "provenance": {

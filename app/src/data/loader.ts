@@ -28,6 +28,12 @@ export async function fetchMeta(universeId: string): Promise<UniverseMeta> {
  * rule took a window around the *nearest* start, which at the ends of the scale
  * left only a handful of candidates — 7% of all scored starts could be served at
  * the default slider position, and The English Histories had exactly one.
+ *
+ * Left where it was when the leads became playable, though it was tempting to
+ * sharpen it. At FINDABLE this now serves the 9th most present character in
+ * their world as its median, with about 890 starts in play across the
+ * catalogue; sharpening to 0.06 buys the 5th and costs half of that variety.
+ * The number was never what was wrong — what the slider was reaching for was.
  */
 const EASE_TEMPERATURE = 0.08;
 

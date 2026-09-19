@@ -180,7 +180,7 @@
    },
    "line": "屬蜀漢。見於第87回、第88回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 52
    }
   },
   "14": {
@@ -319,7 +319,7 @@
    },
    "line": "屬蜀漢。見於3回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 53
    }
   },
   "24": {
@@ -399,7 +399,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 10
+    "lookAlikes": 66
    }
   },
   "29": {
@@ -515,7 +515,7 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 39
    }
   },
   "38": {
@@ -607,7 +607,10 @@
      "蜀漢"
     ]
    },
-   "line": "州牧。屬蜀漢。見於62回。"
+   "line": "州牧。屬蜀漢。見於62回。",
+   "signals": {
+    "lookAlikes": 1
+   }
   },
   "40": {
    "facts": {
@@ -683,7 +686,7 @@
    },
    "line": "屬蜀漢。見於42回。",
    "signals": {
-    "lookAlikes": 459
+    "lookAlikes": 16
    }
   },
   "42": {
@@ -731,7 +734,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於37回。"
+   "line": "見於37回。",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "43": {
    "facts": {
@@ -822,7 +828,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於81回。"
+   "line": "見於81回。",
+   "signals": {
+    "lookAlikes": 0
+   }
   },
   "44": {
    "facts": {
@@ -864,7 +873,7 @@
    },
    "line": "見於17回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "46": {
@@ -885,7 +894,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 37
    }
   },
   "47": {
@@ -922,7 +931,7 @@
    },
    "line": "見於24回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 57
    }
   },
   "48": {
@@ -996,7 +1005,10 @@
     "gender": "男",
     "occupation": "軍閥"
    },
-   "line": "軍閥。見於38回。"
+   "line": "軍閥。見於38回。",
+   "signals": {
+    "lookAlikes": 13
+   }
   },
   "51": {
    "facts": {
@@ -1020,7 +1032,7 @@
    },
    "line": "謀士。見於11回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "52": {
@@ -1055,7 +1067,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 4
    }
   },
   "54": {
@@ -1078,7 +1090,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 50
+    "lookAlikes": 13
    }
   },
   "55": {
@@ -1159,7 +1171,7 @@
    },
    "line": "見於21回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "59": {
@@ -1225,7 +1237,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於27回。"
+   "line": "見於27回。",
+   "signals": {
+    "lookAlikes": 6
+   }
   },
   "62": {
    "facts": {
@@ -1287,7 +1302,7 @@
    },
    "line": "縣令。見於10回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "66": {
@@ -1319,7 +1334,7 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "67": {
@@ -1356,7 +1371,7 @@
    },
    "line": "見於24回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "68": {
@@ -1401,7 +1416,7 @@
    },
    "line": "見於32回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "69": {
@@ -1435,7 +1450,7 @@
    },
    "line": "見於21回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "70": {
@@ -1478,7 +1493,7 @@
    },
    "line": "見於30回。",
    "signals": {
-    "lookAlikes": 459
+    "lookAlikes": 13
    }
   },
   "71": {
@@ -1515,7 +1530,7 @@
    },
    "line": "見於24回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "72": {
@@ -1600,7 +1615,7 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 27
    }
   },
   "78": {
@@ -1624,7 +1639,7 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "79": {
@@ -1653,7 +1668,7 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 28
    }
   },
   "80": {
@@ -1680,7 +1695,7 @@
    },
    "line": "見於14回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "81": {
@@ -1712,7 +1727,7 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 20
    }
   },
   "82": {
@@ -1739,7 +1754,7 @@
    },
    "line": "見於14回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 15
    }
   },
   "83": {
@@ -1764,7 +1779,7 @@
    },
    "line": "見於12回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "84": {
@@ -1801,7 +1816,7 @@
    },
    "line": "見於24回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "85": {
@@ -1839,7 +1854,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "87": {
@@ -1914,7 +1929,7 @@
    },
    "line": "謀士。見於8回。",
    "signals": {
-    "lookAlikes": 42
+    "lookAlikes": 39
    }
   },
   "91": {
@@ -1934,7 +1949,7 @@
    },
    "line": "謀士。見於6回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "92": {
@@ -1987,7 +2002,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於42回。"
+   "line": "見於42回。",
+   "signals": {
+    "lookAlikes": 1
+   }
   },
   "93": {
    "facts": {
@@ -2006,7 +2024,7 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 43
    }
   },
   "94": {
@@ -2046,7 +2064,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "96": {
@@ -2102,7 +2120,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於45回。"
+   "line": "見於45回。",
+   "signals": {
+    "lookAlikes": 6
+   }
   },
   "97": {
    "facts": {
@@ -2186,7 +2207,7 @@
    },
    "line": "謀士。屬蜀漢。見於42回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 18
    }
   },
   "100": {
@@ -2218,7 +2239,7 @@
    },
    "line": "謀士。見於18回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "101": {
@@ -2244,7 +2265,7 @@
    },
    "line": "見於第9回、第10回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 53
    }
   },
   "103": {
@@ -2278,7 +2299,7 @@
    },
    "line": "見於9回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "105": {
@@ -2309,7 +2330,7 @@
    },
    "line": "見於18回。",
    "signals": {
-    "lookAlikes": 459
+    "lookAlikes": 16
    }
   },
   "106": {
@@ -2340,7 +2361,7 @@
    },
    "line": "謀士。見於17回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "107": {
@@ -2373,7 +2394,7 @@
    },
    "line": "謀士。見於19回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "108": {
@@ -2395,7 +2416,7 @@
    },
    "line": "謀士。見於8回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "109": {
@@ -2419,7 +2440,7 @@
    },
    "line": "謀士。見於10回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 37
    }
   },
   "110": {
@@ -2443,7 +2464,7 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "111": {
@@ -2465,7 +2486,7 @@
    },
    "line": "見於9回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 20
    }
   },
   "112": {
@@ -2486,7 +2507,7 @@
    },
    "line": "謀士。見於7回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 52
    }
   },
   "113": {
@@ -2526,7 +2547,7 @@
    },
    "line": "見於27回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "114": {
@@ -2547,7 +2568,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 53
    }
   },
   "115": {
@@ -2605,7 +2626,7 @@
    },
    "line": "見於22回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "118": {
@@ -2653,7 +2674,7 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 41
+    "lookAlikes": 37
    }
   },
   "121": {
@@ -2747,7 +2768,7 @@
    },
    "line": "屬大魏。見於29回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "126": {
@@ -2768,7 +2789,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 3
+    "lookAlikes": 13
    }
   },
   "127": {
@@ -2785,7 +2806,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 43
    }
   },
   "128": {
@@ -2844,7 +2865,7 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 42
+    "lookAlikes": 39
    }
   },
   "132": {
@@ -2861,7 +2882,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 42
+    "lookAlikes": 39
    }
   },
   "133": {
@@ -2882,7 +2903,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 27
    }
   },
   "134": {
@@ -2914,7 +2935,7 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "135": {
@@ -2957,7 +2978,7 @@
    },
    "line": "見於30回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "136": {
@@ -2978,7 +2999,7 @@
    },
    "line": "謀士。見於7回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 15
    }
   },
   "137": {
@@ -2996,7 +3017,7 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 42
+    "lookAlikes": 33
    }
   },
   "138": {
@@ -3012,7 +3033,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "139": {
@@ -3055,7 +3076,7 @@
    },
    "line": "屬大魏。見於27回。",
    "signals": {
-    "lookAlikes": 459
+    "lookAlikes": 13
    }
   },
   "140": {
@@ -3076,7 +3097,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 50
+    "lookAlikes": 19
    }
   },
   "141": {
@@ -3092,7 +3113,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 27
    }
   },
   "142": {
@@ -3122,7 +3143,7 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 43
    }
   },
   "144": {
@@ -3181,7 +3202,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 43
    }
   },
   "148": {
@@ -3213,7 +3234,7 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 459
+    "lookAlikes": 13
    }
   },
   "149": {
@@ -3246,7 +3267,7 @@
    },
    "line": "屬吳國。見於17回。",
    "signals": {
-    "lookAlikes": 60
+    "lookAlikes": 39
    }
   },
   "150": {
@@ -3285,7 +3306,7 @@
    },
    "line": "見於12回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 28
    }
   },
   "152": {
@@ -3314,7 +3335,7 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 20
    }
   },
   "153": {
@@ -3357,7 +3378,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 41
+    "lookAlikes": 37
    }
   },
   "156": {
@@ -3405,7 +3426,7 @@
    },
    "line": "屬大魏。見於7回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 43
    }
   },
   "159": {
@@ -3437,7 +3458,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 37
    }
   },
   "161": {
@@ -3523,7 +3544,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於75回。"
+   "line": "見於75回。",
+   "signals": {
+    "lookAlikes": 0
+   }
   },
   "162": {
    "facts": {
@@ -3537,7 +3561,7 @@
    },
    "line": "見於第15回、第17回。",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 43
    }
   },
   "163": {
@@ -3553,7 +3577,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 43
    }
   },
   "164": {
@@ -3570,7 +3594,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 37
    }
   },
   "165": {
@@ -3636,7 +3660,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 52
    }
   },
   "169": {
@@ -3688,7 +3712,7 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "171": {
@@ -3712,7 +3736,7 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 53
    }
   },
   "172": {
@@ -3726,7 +3750,7 @@
    },
    "line": "見於第17回。",
    "signals": {
-    "lookAlikes": 42
+    "lookAlikes": 39
    }
   },
   "173": {
@@ -3804,7 +3828,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 57
    }
   },
   "178": {
@@ -3832,7 +3856,7 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 28
    }
   },
   "179": {
@@ -3899,7 +3923,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 11
+    "lookAlikes": 66
    }
   },
   "184": {
@@ -3984,7 +4008,7 @@
    },
    "line": "謀士。見於8回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "190": {
@@ -4000,7 +4024,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 43
    }
   },
   "191": {
@@ -4035,7 +4059,7 @@
    },
    "line": "屬大魏。見於19回。",
    "signals": {
-    "lookAlikes": 459
+    "lookAlikes": 16
    }
   },
   "192": {
@@ -4090,7 +4114,7 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 50
+    "lookAlikes": 19
    }
   },
   "196": {
@@ -4189,7 +4213,7 @@
    },
    "line": "屬蜀漢。見於24回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "201": {
@@ -4228,7 +4252,7 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 20
    }
   },
   "203": {
@@ -4253,7 +4277,7 @@
    },
    "line": "屬大魏。見於9回。",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 43
    }
   },
   "204": {
@@ -4281,7 +4305,7 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 57
    }
   },
   "205": {
@@ -4312,7 +4336,7 @@
    },
    "line": "屬吳國。見於15回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 43
    }
   },
   "206": {
@@ -4335,7 +4359,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 28
    }
   },
   "207": {
@@ -4353,7 +4377,7 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 15
    }
   },
   "208": {
@@ -4370,7 +4394,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 33
    }
   },
   "209": {
@@ -4386,7 +4410,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 28
    }
   },
   "210": {
@@ -4487,7 +4511,7 @@
    },
    "line": "屬大魏。見於13回。",
    "signals": {
-    "lookAlikes": 50
+    "lookAlikes": 19
    }
   },
   "216": {
@@ -4551,7 +4575,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 37
    }
   },
   "220": {
@@ -4609,7 +4633,7 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 53
    }
   },
   "223": {
@@ -4648,7 +4672,7 @@
    },
    "line": "縣令。見於8回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "225": {
@@ -4668,7 +4692,7 @@
    },
    "line": "謀士。見於6回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 52
    }
   },
   "226": {
@@ -4700,7 +4724,7 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 37
    }
   },
   "227": {
@@ -4717,7 +4741,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 28
    }
   },
   "228": {
@@ -4763,7 +4787,7 @@
    },
    "line": "見於17回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "230": {
@@ -4799,7 +4823,7 @@
    },
    "line": "屬吳國。見於20回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 20
    }
   },
   "231": {
@@ -4825,7 +4849,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 28
    }
   },
   "232": {
@@ -4851,7 +4875,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 20
    }
   },
   "233": {
@@ -4883,7 +4907,7 @@
    },
    "line": "屬吳國。見於16回。",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 28
    }
   },
   "234": {
@@ -4912,7 +4936,7 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "235": {
@@ -4936,7 +4960,7 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 43
    }
   },
   "236": {
@@ -4986,7 +5010,7 @@
    },
    "line": "屬大魏。見於22回。",
    "signals": {
-    "lookAlikes": 459
+    "lookAlikes": 13
    }
   },
   "238": {
@@ -5049,7 +5073,10 @@
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於35回。"
+   "line": "屬蜀漢。見於35回。",
+   "signals": {
+    "lookAlikes": 1
+   }
   },
   "240": {
    "facts": {
@@ -5109,7 +5136,7 @@
    },
    "line": "屬蜀漢。見於8回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "244": {
@@ -5135,7 +5162,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 37
    }
   },
   "245": {
@@ -5164,7 +5191,7 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 18
    }
   },
   "246": {
@@ -5201,7 +5228,7 @@
    },
    "line": "屬大魏。見於10回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 57
    }
   },
   "248": {
@@ -5250,7 +5277,7 @@
    },
    "line": "見於21回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 18
    }
   },
   "250": {
@@ -5293,7 +5320,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 57
    }
   },
   "253": {
@@ -5445,7 +5472,7 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 57
    }
   },
   "264": {
@@ -5478,7 +5505,7 @@
    },
    "line": "太守。屬大魏。見於14回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 28
    }
   },
   "265": {
@@ -5514,7 +5541,7 @@
    },
    "line": "屬蜀漢。見於4回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 52
    }
   },
   "267": {
@@ -5532,7 +5559,7 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 28
    }
   },
   "268": {
@@ -5550,7 +5577,7 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "269": {
@@ -5592,7 +5619,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "271": {
@@ -5611,7 +5638,7 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 52
    }
   },
   "272": {
@@ -5630,7 +5657,7 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 39
    }
   },
   "273": {
@@ -5657,7 +5684,7 @@
    },
    "line": "屬蜀漢。見於11回。",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 43
    }
   },
   "274": {
@@ -5679,7 +5706,7 @@
    },
    "line": "太守。見於6回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 52
    }
   },
   "275": {
@@ -5732,7 +5759,7 @@
    },
    "line": "屬蜀漢。見於25回。",
    "signals": {
-    "lookAlikes": 459
+    "lookAlikes": 13
    }
   },
   "277": {
@@ -5826,7 +5853,7 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 0
+    "lookAlikes": 33
    }
   },
   "284": {
@@ -5887,7 +5914,7 @@
    },
    "line": "屬蜀漢。見於7回。",
    "signals": {
-    "lookAlikes": 41
+    "lookAlikes": 57
    }
   },
   "288": {
@@ -5923,7 +5950,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 60
+    "lookAlikes": 39
    }
   },
   "290": {
@@ -6074,7 +6101,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 37
    }
   },
   "301": {
@@ -6109,7 +6136,7 @@
    },
    "line": "屬蜀漢。見於3回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 39
    }
   },
   "303": {
@@ -6152,7 +6179,7 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "305": {
@@ -6226,7 +6253,7 @@
    },
    "line": "屬蜀漢。見於17回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "309": {
@@ -6277,7 +6304,7 @@
    },
    "line": "屬大魏。見於10回。",
    "signals": {
-    "lookAlikes": 60
+    "lookAlikes": 43
    }
   },
   "312": {
@@ -6419,7 +6446,7 @@
    },
    "line": "屬蜀漢。見於10回。",
    "signals": {
-    "lookAlikes": 18
+    "lookAlikes": 53
    }
   },
   "321": {
@@ -6450,7 +6477,7 @@
    },
    "line": "屬蜀漢。見於15回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "322": {
@@ -6485,7 +6512,7 @@
    },
    "line": "屬吳國。見於3回。",
    "signals": {
-    "lookAlikes": 10
+    "lookAlikes": 27
    }
   },
   "324": {
@@ -6541,7 +6568,7 @@
    },
    "line": "屬大魏。見於12回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "327": {
@@ -6592,7 +6619,7 @@
    },
    "line": "屬蜀漢。見於7回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "330": {
@@ -6687,7 +6714,7 @@
    },
    "line": "屬蜀漢。見於7回。",
    "signals": {
-    "lookAlikes": 71
+    "lookAlikes": 52
    }
   },
   "336": {
@@ -6707,7 +6734,7 @@
    },
    "line": "屬蜀漢。見於4回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 52
    }
   },
   "337": {
@@ -6737,7 +6764,7 @@
    },
    "line": "屬蜀漢。見於14回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "338": {
@@ -6764,7 +6791,7 @@
    },
    "line": "屬大魏。見於11回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 43
    }
   },
   "339": {
@@ -6833,7 +6860,7 @@
    },
    "line": "屬蜀漢。見於5回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 57
    }
   },
   "343": {
@@ -6867,7 +6894,7 @@
    },
    "line": "屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 53
    }
   },
   "345": {
@@ -6996,7 +7023,7 @@
    },
    "line": "屬蜀漢。見於26回。",
    "signals": {
-    "lookAlikes": 459
+    "lookAlikes": 13
    }
   },
   "351": {
@@ -7030,7 +7057,7 @@
    },
    "line": "屬大魏。見於18回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "352": {
@@ -7335,7 +7362,7 @@
    },
    "line": "屬大魏。見於5回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 53
    }
   },
   "371": {
@@ -7354,7 +7381,7 @@
    },
    "line": "屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 34
+    "lookAlikes": 2
    }
   },
   "372": {
@@ -7372,7 +7399,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 33
    }
   },
   "373": {
@@ -7390,7 +7417,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 33
    }
   },
   "374": {
@@ -7426,7 +7453,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 33
    }
   },
   "376": {
@@ -7444,7 +7471,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 33
    }
   },
   "377": {
@@ -7462,7 +7489,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 33
    }
   },
   "378": {
@@ -7480,7 +7507,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 33
    }
   },
   "379": {
@@ -7498,7 +7525,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 23
+    "lookAlikes": 33
    }
   },
   "380": {
@@ -7567,7 +7594,7 @@
    },
    "line": "屬大魏。見於8回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 53
    }
   },
   "384": {
@@ -7594,7 +7621,7 @@
    },
    "line": "屬大魏。見於11回。",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 28
    }
   },
   "385": {
@@ -7704,7 +7731,7 @@
    },
    "line": "屬大魏。見於4回。",
    "signals": {
-    "lookAlikes": 10
+    "lookAlikes": 66
    }
   },
   "392": {
@@ -7739,7 +7766,7 @@
    },
    "line": "屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 10
+    "lookAlikes": 27
    }
   },
   "394": {
@@ -7894,7 +7921,7 @@
    },
    "line": "屬蜀漢。見於5回。",
    "signals": {
-    "lookAlikes": 71
+    "lookAlikes": 53
    }
   },
   "403": {
@@ -8220,7 +8247,7 @@
    },
    "line": "見於第87回、第88回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 53
    }
   },
   "423": {
@@ -8332,7 +8359,7 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 37
    }
   },
   "431": {

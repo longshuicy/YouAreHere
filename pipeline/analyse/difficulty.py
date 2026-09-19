@@ -46,7 +46,33 @@ from ..canon.types import CanonicalGraph
 # early version of this file matched exact degree ±1 and an exact neighbour
 # profile; half of all starts came out with zero look-alikes, and every puzzle
 # in the game scored as easy.
-DEGREE_BANDS = ((6, 7), (8, 9), (10, 12), (13, 16), (17, 22), (23, 30))
+#
+# The bands above thirty were added when the client learned to draw a wide
+# neighbourhood and `starts.py` stopped refusing one. Before that, every
+# character with more than thirty ties fell into a single overflow band, which
+# was harmless while none of them could be a start and wrong the moment they
+# could: Chandler's 302 ties and a minor lord's 31 presented as the same shape,
+# so the whole of a large world's leadership counted as look-alikes for each
+# other and scored as ambiguous. Tyrion came out at 0.63 — the middle of the
+# scale — for a neighbourhood nobody could mistake for anything else.
+#
+# They widen as they climb, for the reason the ambiguity ceiling is logarithmic:
+# the difference between 31 ties and 45 is legible at a glance, and the
+# difference between 280 and 300 is not.
+DEGREE_BANDS = (
+    (6, 7),
+    (8, 9),
+    (10, 12),
+    (13, 16),
+    (17, 22),
+    (23, 30),
+    (31, 45),
+    (46, 70),
+    (71, 110),
+    (111, 170),
+    (171, 260),
+    (261, 400),
+)
 
 # A neighbour is a landmark above this prominence, and furniture below the
 # second. What a player reads off a diagram is "a couple of big ones and a lot of
@@ -134,7 +160,7 @@ def score(world: CanonicalGraph, playable: list[str], corpus_index: dict) -> dic
 
 
 def _prominence(world: CanonicalGraph) -> dict[str, float]:
-    """How much of the story a character is in, as a rank from 0 to 1.
+    """How much of the story a character is in, from 0 to 1.
 
     Weighted degree, not plain degree, and the weighting is the whole point. An
     edge weight counts shared units — scenes, verses, sentence windows — so the
@@ -159,11 +185,36 @@ def _prominence(world: CanonicalGraph) -> dict[str, float]:
         weighted[edge.source] += edge.weight
         weighted[edge.target] += edge.weight
 
-    # Rank, not the raw total: weights are not comparable between datasets, a
-    # verse count and a scene count being different units.
-    ordered = sorted(weighted, key=lambda n: (weighted[n], n))
-    span = len(ordered) - 1
-    return {node_id: (i / span if span else 1.0) for i, node_id in enumerate(ordered)}
+    # Against the world's own fullest presence, on a log scale — the same
+    # measure, on the same scale, that the client draws node size by. It used to
+    # be the rank instead, on the reasoning that raw weights are not comparable
+    # between datasets, which is true and is answered by normalising inside a
+    # world rather than by throwing the values away.
+    #
+    # A rank says only where you stand in the queue, and the queue is not evenly
+    # spaced: presence is heavy-tailed, so 16th of 586 reads as 0.97 whether that
+    # is a lead or a guest who appeared in three episodes. Scored that way, the
+    # easiest start in the entire catalogue was Susan in Friends — fifteen ties,
+    # sixteenth by presence, ahead of all six leads. The player looks at a small
+    # node with a thin ring and is told this is the findable end of the scale.
+    #
+    # Log, because the weights are heavy-tailed and a linear normalisation would
+    # put everyone but the lead near zero.
+    # Between the world's quietest presence and its fullest, not between zero
+    # and its fullest, because the floor is a property of the dataset and not of
+    # the story. Congress counts shared bills and its edges start at fifty, so
+    # against a bare ceiling every member reads as present: Lincoln Chafee, 218th
+    # by presence, came out as the second most findable start in the catalogue.
+    # Spanning the world's own range puts each cast back across the full scale,
+    # whatever units it was measured in.
+    most = max(weighted.values(), default=0.0)
+    least = min(weighted.values(), default=0.0)
+    floor, ceiling = math.log1p(least), math.log1p(most)
+    if ceiling <= floor:
+        return {node_id: 1.0 for node_id in weighted}
+    return {
+        node_id: (math.log1p(w) - floor) / (ceiling - floor) for node_id, w in weighted.items()
+    }
 
 
 def _degree_band(degree: int) -> int:

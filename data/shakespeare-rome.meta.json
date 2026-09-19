@@ -16,7 +16,7 @@
    },
    "line": "Roman governor. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "1": {
@@ -30,7 +30,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 52
    }
   },
   "2": {
@@ -45,7 +45,7 @@
    },
    "line": "Teacher. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 37
    }
   },
   "3": {
@@ -61,7 +61,10 @@
      "king consort"
     ]
    },
-   "line": "King consort. Appears in all two plays."
+   "line": "King consort. Appears in all two plays.",
+   "signals": {
+    "lookAlikes": 13
+   }
   },
   "4": {
    "facts": {
@@ -74,7 +77,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "5": {
@@ -88,7 +91,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 44
    }
   },
   "6": {
@@ -105,7 +108,7 @@
    },
    "line": "Praetor. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 18
    }
   },
   "7": {
@@ -133,7 +136,7 @@
    },
    "line": "Roman dictator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "9": {
@@ -147,7 +150,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 39
    }
   },
   "10": {
@@ -178,7 +181,7 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "12": {
@@ -195,7 +198,7 @@
    },
    "line": "Tribune of the plebs. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 18
    }
   },
   "13": {
@@ -210,7 +213,7 @@
    },
    "line": "Lady's maid. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 39
    }
   },
   "14": {
@@ -239,7 +242,7 @@
    },
    "line": "Queen of Egypt. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 18
    }
   },
   "16": {
@@ -253,7 +256,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 39
    }
   },
   "17": {
@@ -270,7 +273,7 @@
    },
    "line": "Roman governor. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "18": {
@@ -295,7 +298,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 52
    }
   },
   "20": {
@@ -312,7 +315,7 @@
    },
    "line": "Ancient Roman senator. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 24
+    "lookAlikes": 53
    }
   },
   "21": {
@@ -326,7 +329,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 28
    }
   },
   "22": {
@@ -343,7 +346,7 @@
    },
    "line": "Roman governor. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 39
    }
   },
   "23": {
@@ -357,7 +360,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 41
+    "lookAlikes": 57
    }
   },
   "24": {
@@ -371,7 +374,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 6
    }
   },
   "25": {
@@ -388,7 +391,7 @@
    },
    "line": "Praefectus Aegypti. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 39
    }
   },
   "26": {
@@ -402,7 +405,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "27": {
@@ -420,7 +423,7 @@
    },
    "line": "Magister equitum. Appears in all two plays.",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 44
    }
   },
   "28": {
@@ -437,7 +440,7 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 50
+    "lookAlikes": 43
    }
   },
   "29": {
@@ -451,7 +454,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 34
+    "lookAlikes": 28
    }
   },
   "30": {
@@ -466,7 +469,7 @@
    },
    "line": "Patron of the arts. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 39
    }
   },
   "31": {
@@ -480,7 +483,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 39
    }
   },
   "32": {
@@ -494,7 +497,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 44
    }
   },
   "33": {
@@ -511,7 +514,7 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "34": {
@@ -525,7 +528,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 25
    }
   },
   "35": {
@@ -543,7 +546,7 @@
    },
    "line": "Roman emperor. Appears in all two plays.",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "36": {
@@ -568,7 +571,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 43
+    "lookAlikes": 53
    }
   },
   "38": {
@@ -585,7 +588,7 @@
    },
    "line": "Roman consul. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 44
    }
   },
   "39": {
@@ -602,7 +605,7 @@
    },
    "line": "Legatus. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "40": {
@@ -617,7 +620,7 @@
    },
    "line": "Philosopher. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 50
+    "lookAlikes": 43
    }
   },
   "41": {
@@ -631,7 +634,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 57
    }
   },
   "42": {
@@ -644,7 +647,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 57
    }
   },
   "43": {
@@ -658,7 +661,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 52
    }
   },
   "44": {
@@ -671,7 +674,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 50
+    "lookAlikes": 43
    }
   },
   "45": {
@@ -685,7 +688,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 44
    }
   },
   "46": {
@@ -699,7 +702,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 44
    }
   },
   "47": {
@@ -713,7 +716,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "48": {
@@ -730,7 +733,7 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "49": {
@@ -744,7 +747,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 44
    }
   },
   "50": {
@@ -759,7 +762,7 @@
    },
    "line": "Centurion. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 45
+    "lookAlikes": 37
    }
   },
   "51": {
@@ -776,7 +779,7 @@
    },
    "line": "Ancient Roman senator. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 50
+    "lookAlikes": 43
    }
   },
   "52": {
@@ -791,7 +794,7 @@
    },
    "line": "Philosopher. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 44
    }
   },
   "53": {
@@ -805,7 +808,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 52
    }
   },
   "54": {
@@ -819,7 +822,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 129
+    "lookAlikes": 39
    }
   },
   "55": {
@@ -833,7 +836,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 44
    }
   },
   "56": {
@@ -847,7 +850,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 37
    }
   },
   "57": {
@@ -864,7 +867,7 @@
    },
    "line": "Tribune of the plebs. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 53
    }
   },
   "58": {

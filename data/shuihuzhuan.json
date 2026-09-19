@@ -43207,6 +43207,15 @@
   ]
  ],
  "playable": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
   9,
   16,
   19,
@@ -43236,272 +43245,1005 @@
   91,
   94,
   95,
+  98,
   99,
   100,
   101,
+  102,
+  104,
   105,
+  106,
+  107,
   108,
   109,
+  110,
   111,
+  113,
+  116,
   118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
   141,
+  142,
+  143,
   144,
   146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
   176,
-  178
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213
  ],
  "puzzles": [
+  {
+   "id": "shuihuzhuan-p0000",
+   "you": 0,
+   "startRadius": 1,
+   "ease": 0.67
+  },
+  {
+   "id": "shuihuzhuan-p0001",
+   "you": 1,
+   "startRadius": 1,
+   "ease": 0.529
+  },
+  {
+   "id": "shuihuzhuan-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.541
+  },
+  {
+   "id": "shuihuzhuan-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.55
+  },
+  {
+   "id": "shuihuzhuan-p0004",
+   "you": 4,
+   "startRadius": 1,
+   "ease": 0.546
+  },
+  {
+   "id": "shuihuzhuan-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.567
+  },
+  {
+   "id": "shuihuzhuan-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.584
+  },
+  {
+   "id": "shuihuzhuan-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.631
+  },
+  {
+   "id": "shuihuzhuan-p0008",
+   "you": 8,
+   "startRadius": 1,
+   "ease": 0.55
+  },
   {
    "id": "shuihuzhuan-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.584
+   "ease": 0.52
   },
   {
    "id": "shuihuzhuan-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.357
+   "ease": 0.421
   },
   {
    "id": "shuihuzhuan-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.391
+   "ease": 0.356
   },
   {
    "id": "shuihuzhuan-p0030",
    "you": 30,
    "startRadius": 1,
-   "ease": 0.468
+   "ease": 0.343
   },
   {
    "id": "shuihuzhuan-p0034",
    "you": 34,
    "startRadius": 1,
-   "ease": 0.405
+   "ease": 0.451
   },
   {
    "id": "shuihuzhuan-p0035",
    "you": 35,
    "startRadius": 1,
-   "ease": 0.425
+   "ease": 0.395
   },
   {
    "id": "shuihuzhuan-p0039",
    "you": 39,
    "startRadius": 1,
-   "ease": 0.458
+   "ease": 0.432
   },
   {
    "id": "shuihuzhuan-p0042",
    "you": 42,
    "startRadius": 1,
-   "ease": 0.414
+   "ease": 0.418
   },
   {
    "id": "shuihuzhuan-p0044",
    "you": 44,
    "startRadius": 1,
-   "ease": 0.418
+   "ease": 0.432
   },
   {
    "id": "shuihuzhuan-p0046",
    "you": 46,
    "startRadius": 1,
-   "ease": 0.462
+   "ease": 0.397
   },
   {
    "id": "shuihuzhuan-p0047",
    "you": 47,
    "startRadius": 1,
-   "ease": 0.386
+   "ease": 0.479
   },
   {
    "id": "shuihuzhuan-p0049",
    "you": 49,
    "startRadius": 1,
-   "ease": 0.417
+   "ease": 0.461
   },
   {
    "id": "shuihuzhuan-p0053",
    "you": 53,
    "startRadius": 1,
-   "ease": 0.459
+   "ease": 0.455
   },
   {
    "id": "shuihuzhuan-p0054",
    "you": 54,
    "startRadius": 1,
-   "ease": 0.457
+   "ease": 0.44
   },
   {
    "id": "shuihuzhuan-p0061",
    "you": 61,
    "startRadius": 1,
-   "ease": 0.498
+   "ease": 0.387
   },
   {
    "id": "shuihuzhuan-p0064",
    "you": 64,
    "startRadius": 1,
-   "ease": 0.429
+   "ease": 0.383
   },
   {
    "id": "shuihuzhuan-p0066",
    "you": 66,
    "startRadius": 1,
-   "ease": 0.447
+   "ease": 0.39
   },
   {
    "id": "shuihuzhuan-p0074",
    "you": 74,
    "startRadius": 1,
-   "ease": 0.447
+   "ease": 0.468
   },
   {
    "id": "shuihuzhuan-p0077",
    "you": 77,
    "startRadius": 1,
-   "ease": 0.424
+   "ease": 0.41
   },
   {
    "id": "shuihuzhuan-p0080",
    "you": 80,
    "startRadius": 1,
-   "ease": 0.434
+   "ease": 0.291
   },
   {
    "id": "shuihuzhuan-p0081",
    "you": 81,
    "startRadius": 1,
-   "ease": 0.436
+   "ease": 0.299
   },
   {
    "id": "shuihuzhuan-p0082",
    "you": 82,
    "startRadius": 1,
-   "ease": 0.61
+   "ease": 0.43
   },
   {
    "id": "shuihuzhuan-p0083",
    "you": 83,
    "startRadius": 1,
-   "ease": 0.465
+   "ease": 0.314
   },
   {
    "id": "shuihuzhuan-p0084",
    "you": 84,
    "startRadius": 1,
-   "ease": 0.463
+   "ease": 0.425
   },
   {
    "id": "shuihuzhuan-p0085",
    "you": 85,
    "startRadius": 1,
-   "ease": 0.427
+   "ease": 0.437
   },
   {
    "id": "shuihuzhuan-p0088",
    "you": 88,
    "startRadius": 1,
-   "ease": 0.455
+   "ease": 0.494
   },
   {
    "id": "shuihuzhuan-p0091",
    "you": 91,
    "startRadius": 1,
-   "ease": 0.452
+   "ease": 0.306
   },
   {
    "id": "shuihuzhuan-p0094",
    "you": 94,
    "startRadius": 1,
-   "ease": 0.447
+   "ease": 0.446
   },
   {
    "id": "shuihuzhuan-p0095",
    "you": 95,
    "startRadius": 1,
-   "ease": 0.419
+   "ease": 0.371
+  },
+  {
+   "id": "shuihuzhuan-p0098",
+   "you": 98,
+   "startRadius": 1,
+   "ease": 0.666
   },
   {
    "id": "shuihuzhuan-p0099",
    "you": 99,
    "startRadius": 1,
-   "ease": 0.537
+   "ease": 0.395
   },
   {
    "id": "shuihuzhuan-p0100",
    "you": 100,
    "startRadius": 1,
-   "ease": 0.473
+   "ease": 0.502
   },
   {
    "id": "shuihuzhuan-p0101",
    "you": 101,
    "startRadius": 1,
-   "ease": 0.381
+   "ease": 0.311
+  },
+  {
+   "id": "shuihuzhuan-p0102",
+   "you": 102,
+   "startRadius": 1,
+   "ease": 0.546
+  },
+  {
+   "id": "shuihuzhuan-p0104",
+   "you": 104,
+   "startRadius": 1,
+   "ease": 0.556
   },
   {
    "id": "shuihuzhuan-p0105",
    "you": 105,
    "startRadius": 1,
-   "ease": 0.529
+   "ease": 0.397
+  },
+  {
+   "id": "shuihuzhuan-p0106",
+   "you": 106,
+   "startRadius": 1,
+   "ease": 0.659
+  },
+  {
+   "id": "shuihuzhuan-p0107",
+   "you": 107,
+   "startRadius": 1,
+   "ease": 0.58
   },
   {
    "id": "shuihuzhuan-p0108",
    "you": 108,
    "startRadius": 1,
-   "ease": 0.491
+   "ease": 0.424
   },
   {
    "id": "shuihuzhuan-p0109",
    "you": 109,
    "startRadius": 1,
-   "ease": 0.425
+   "ease": 0.461
+  },
+  {
+   "id": "shuihuzhuan-p0110",
+   "you": 110,
+   "startRadius": 1,
+   "ease": 0.524
   },
   {
    "id": "shuihuzhuan-p0111",
    "you": 111,
    "startRadius": 1,
-   "ease": 0.43
+   "ease": 0.357
+  },
+  {
+   "id": "shuihuzhuan-p0113",
+   "you": 113,
+   "startRadius": 1,
+   "ease": 0.532
+  },
+  {
+   "id": "shuihuzhuan-p0116",
+   "you": 116,
+   "startRadius": 1,
+   "ease": 0.647
   },
   {
    "id": "shuihuzhuan-p0118",
    "you": 118,
    "startRadius": 1,
-   "ease": 0.479
+   "ease": 0.417
+  },
+  {
+   "id": "shuihuzhuan-p0119",
+   "you": 119,
+   "startRadius": 1,
+   "ease": 0.542
+  },
+  {
+   "id": "shuihuzhuan-p0120",
+   "you": 120,
+   "startRadius": 1,
+   "ease": 0.531
+  },
+  {
+   "id": "shuihuzhuan-p0121",
+   "you": 121,
+   "startRadius": 1,
+   "ease": 0.545
+  },
+  {
+   "id": "shuihuzhuan-p0122",
+   "you": 122,
+   "startRadius": 1,
+   "ease": 0.713
+  },
+  {
+   "id": "shuihuzhuan-p0123",
+   "you": 123,
+   "startRadius": 1,
+   "ease": 0.51
+  },
+  {
+   "id": "shuihuzhuan-p0124",
+   "you": 124,
+   "startRadius": 1,
+   "ease": 0.515
+  },
+  {
+   "id": "shuihuzhuan-p0125",
+   "you": 125,
+   "startRadius": 1,
+   "ease": 0.512
+  },
+  {
+   "id": "shuihuzhuan-p0126",
+   "you": 126,
+   "startRadius": 1,
+   "ease": 0.537
+  },
+  {
+   "id": "shuihuzhuan-p0127",
+   "you": 127,
+   "startRadius": 1,
+   "ease": 0.564
+  },
+  {
+   "id": "shuihuzhuan-p0128",
+   "you": 128,
+   "startRadius": 1,
+   "ease": 0.525
+  },
+  {
+   "id": "shuihuzhuan-p0129",
+   "you": 129,
+   "startRadius": 1,
+   "ease": 0.53
+  },
+  {
+   "id": "shuihuzhuan-p0130",
+   "you": 130,
+   "startRadius": 1,
+   "ease": 0.518
+  },
+  {
+   "id": "shuihuzhuan-p0131",
+   "you": 131,
+   "startRadius": 1,
+   "ease": 0.543
+  },
+  {
+   "id": "shuihuzhuan-p0132",
+   "you": 132,
+   "startRadius": 1,
+   "ease": 0.541
+  },
+  {
+   "id": "shuihuzhuan-p0133",
+   "you": 133,
+   "startRadius": 1,
+   "ease": 0.541
+  },
+  {
+   "id": "shuihuzhuan-p0134",
+   "you": 134,
+   "startRadius": 1,
+   "ease": 0.521
+  },
+  {
+   "id": "shuihuzhuan-p0135",
+   "you": 135,
+   "startRadius": 1,
+   "ease": 0.516
+  },
+  {
+   "id": "shuihuzhuan-p0136",
+   "you": 136,
+   "startRadius": 1,
+   "ease": 0.511
+  },
+  {
+   "id": "shuihuzhuan-p0137",
+   "you": 137,
+   "startRadius": 1,
+   "ease": 0.538
+  },
+  {
+   "id": "shuihuzhuan-p0138",
+   "you": 138,
+   "startRadius": 1,
+   "ease": 0.52
+  },
+  {
+   "id": "shuihuzhuan-p0139",
+   "you": 139,
+   "startRadius": 1,
+   "ease": 0.515
+  },
+  {
+   "id": "shuihuzhuan-p0140",
+   "you": 140,
+   "startRadius": 1,
+   "ease": 0.567
   },
   {
    "id": "shuihuzhuan-p0141",
    "you": 141,
    "startRadius": 1,
-   "ease": 0.348
+   "ease": 0.392
+  },
+  {
+   "id": "shuihuzhuan-p0142",
+   "you": 142,
+   "startRadius": 1,
+   "ease": 0.53
+  },
+  {
+   "id": "shuihuzhuan-p0143",
+   "you": 143,
+   "startRadius": 1,
+   "ease": 0.56
   },
   {
    "id": "shuihuzhuan-p0144",
    "you": 144,
    "startRadius": 1,
-   "ease": 0.514
+   "ease": 0.449
   },
   {
    "id": "shuihuzhuan-p0146",
    "you": 146,
    "startRadius": 1,
-   "ease": 0.389
+   "ease": 0.317
+  },
+  {
+   "id": "shuihuzhuan-p0147",
+   "you": 147,
+   "startRadius": 1,
+   "ease": 0.538
+  },
+  {
+   "id": "shuihuzhuan-p0148",
+   "you": 148,
+   "startRadius": 1,
+   "ease": 0.488
+  },
+  {
+   "id": "shuihuzhuan-p0149",
+   "you": 149,
+   "startRadius": 1,
+   "ease": 0.531
+  },
+  {
+   "id": "shuihuzhuan-p0150",
+   "you": 150,
+   "startRadius": 1,
+   "ease": 0.525
+  },
+  {
+   "id": "shuihuzhuan-p0151",
+   "you": 151,
+   "startRadius": 1,
+   "ease": 0.553
+  },
+  {
+   "id": "shuihuzhuan-p0152",
+   "you": 152,
+   "startRadius": 1,
+   "ease": 0.56
+  },
+  {
+   "id": "shuihuzhuan-p0153",
+   "you": 153,
+   "startRadius": 1,
+   "ease": 0.522
+  },
+  {
+   "id": "shuihuzhuan-p0154",
+   "you": 154,
+   "startRadius": 1,
+   "ease": 0.559
+  },
+  {
+   "id": "shuihuzhuan-p0155",
+   "you": 155,
+   "startRadius": 1,
+   "ease": 0.543
+  },
+  {
+   "id": "shuihuzhuan-p0156",
+   "you": 156,
+   "startRadius": 1,
+   "ease": 0.531
+  },
+  {
+   "id": "shuihuzhuan-p0157",
+   "you": 157,
+   "startRadius": 1,
+   "ease": 0.557
+  },
+  {
+   "id": "shuihuzhuan-p0158",
+   "you": 158,
+   "startRadius": 1,
+   "ease": 0.524
+  },
+  {
+   "id": "shuihuzhuan-p0159",
+   "you": 159,
+   "startRadius": 1,
+   "ease": 0.653
+  },
+  {
+   "id": "shuihuzhuan-p0160",
+   "you": 160,
+   "startRadius": 1,
+   "ease": 0.574
+  },
+  {
+   "id": "shuihuzhuan-p0161",
+   "you": 161,
+   "startRadius": 1,
+   "ease": 0.548
+  },
+  {
+   "id": "shuihuzhuan-p0162",
+   "you": 162,
+   "startRadius": 1,
+   "ease": 0.563
+  },
+  {
+   "id": "shuihuzhuan-p0163",
+   "you": 163,
+   "startRadius": 1,
+   "ease": 0.68
+  },
+  {
+   "id": "shuihuzhuan-p0164",
+   "you": 164,
+   "startRadius": 1,
+   "ease": 0.567
+  },
+  {
+   "id": "shuihuzhuan-p0165",
+   "you": 165,
+   "startRadius": 1,
+   "ease": 0.553
+  },
+  {
+   "id": "shuihuzhuan-p0166",
+   "you": 166,
+   "startRadius": 1,
+   "ease": 0.56
+  },
+  {
+   "id": "shuihuzhuan-p0167",
+   "you": 167,
+   "startRadius": 1,
+   "ease": 0.524
+  },
+  {
+   "id": "shuihuzhuan-p0168",
+   "you": 168,
+   "startRadius": 1,
+   "ease": 0.524
+  },
+  {
+   "id": "shuihuzhuan-p0169",
+   "you": 169,
+   "startRadius": 1,
+   "ease": 0.526
+  },
+  {
+   "id": "shuihuzhuan-p0170",
+   "you": 170,
+   "startRadius": 1,
+   "ease": 0.572
+  },
+  {
+   "id": "shuihuzhuan-p0171",
+   "you": 171,
+   "startRadius": 1,
+   "ease": 0.538
+  },
+  {
+   "id": "shuihuzhuan-p0172",
+   "you": 172,
+   "startRadius": 1,
+   "ease": 0.591
+  },
+  {
+   "id": "shuihuzhuan-p0173",
+   "you": 173,
+   "startRadius": 1,
+   "ease": 0.56
+  },
+  {
+   "id": "shuihuzhuan-p0174",
+   "you": 174,
+   "startRadius": 1,
+   "ease": 0.561
+  },
+  {
+   "id": "shuihuzhuan-p0175",
+   "you": 175,
+   "startRadius": 1,
+   "ease": 0.652
   },
   {
    "id": "shuihuzhuan-p0176",
    "you": 176,
    "startRadius": 1,
-   "ease": 0.426
+   "ease": 0.491
+  },
+  {
+   "id": "shuihuzhuan-p0177",
+   "you": 177,
+   "startRadius": 1,
+   "ease": 0.558
   },
   {
    "id": "shuihuzhuan-p0178",
    "you": 178,
    "startRadius": 1,
-   "ease": 0.418
+   "ease": 0.464
+  },
+  {
+   "id": "shuihuzhuan-p0179",
+   "you": 179,
+   "startRadius": 1,
+   "ease": 0.535
+  },
+  {
+   "id": "shuihuzhuan-p0180",
+   "you": 180,
+   "startRadius": 1,
+   "ease": 0.572
+  },
+  {
+   "id": "shuihuzhuan-p0181",
+   "you": 181,
+   "startRadius": 1,
+   "ease": 0.533
+  },
+  {
+   "id": "shuihuzhuan-p0182",
+   "you": 182,
+   "startRadius": 1,
+   "ease": 0.568
+  },
+  {
+   "id": "shuihuzhuan-p0183",
+   "you": 183,
+   "startRadius": 1,
+   "ease": 0.575
+  },
+  {
+   "id": "shuihuzhuan-p0184",
+   "you": 184,
+   "startRadius": 1,
+   "ease": 0.568
+  },
+  {
+   "id": "shuihuzhuan-p0185",
+   "you": 185,
+   "startRadius": 1,
+   "ease": 0.534
+  },
+  {
+   "id": "shuihuzhuan-p0186",
+   "you": 186,
+   "startRadius": 1,
+   "ease": 0.528
+  },
+  {
+   "id": "shuihuzhuan-p0187",
+   "you": 187,
+   "startRadius": 1,
+   "ease": 0.572
+  },
+  {
+   "id": "shuihuzhuan-p0188",
+   "you": 188,
+   "startRadius": 1,
+   "ease": 0.553
+  },
+  {
+   "id": "shuihuzhuan-p0189",
+   "you": 189,
+   "startRadius": 1,
+   "ease": 0.558
+  },
+  {
+   "id": "shuihuzhuan-p0190",
+   "you": 190,
+   "startRadius": 1,
+   "ease": 0.56
+  },
+  {
+   "id": "shuihuzhuan-p0191",
+   "you": 191,
+   "startRadius": 1,
+   "ease": 0.559
+  },
+  {
+   "id": "shuihuzhuan-p0192",
+   "you": 192,
+   "startRadius": 1,
+   "ease": 0.579
+  },
+  {
+   "id": "shuihuzhuan-p0193",
+   "you": 193,
+   "startRadius": 1,
+   "ease": 0.527
+  },
+  {
+   "id": "shuihuzhuan-p0194",
+   "you": 194,
+   "startRadius": 1,
+   "ease": 0.579
+  },
+  {
+   "id": "shuihuzhuan-p0195",
+   "you": 195,
+   "startRadius": 1,
+   "ease": 0.546
+  },
+  {
+   "id": "shuihuzhuan-p0196",
+   "you": 196,
+   "startRadius": 1,
+   "ease": 0.526
+  },
+  {
+   "id": "shuihuzhuan-p0197",
+   "you": 197,
+   "startRadius": 1,
+   "ease": 0.516
+  },
+  {
+   "id": "shuihuzhuan-p0198",
+   "you": 198,
+   "startRadius": 1,
+   "ease": 0.56
+  },
+  {
+   "id": "shuihuzhuan-p0199",
+   "you": 199,
+   "startRadius": 1,
+   "ease": 0.513
+  },
+  {
+   "id": "shuihuzhuan-p0200",
+   "you": 200,
+   "startRadius": 1,
+   "ease": 0.518
+  },
+  {
+   "id": "shuihuzhuan-p0201",
+   "you": 201,
+   "startRadius": 1,
+   "ease": 0.543
+  },
+  {
+   "id": "shuihuzhuan-p0202",
+   "you": 202,
+   "startRadius": 1,
+   "ease": 0.548
+  },
+  {
+   "id": "shuihuzhuan-p0203",
+   "you": 203,
+   "startRadius": 1,
+   "ease": 0.51
+  },
+  {
+   "id": "shuihuzhuan-p0204",
+   "you": 204,
+   "startRadius": 1,
+   "ease": 0.541
+  },
+  {
+   "id": "shuihuzhuan-p0205",
+   "you": 205,
+   "startRadius": 1,
+   "ease": 0.53
+  },
+  {
+   "id": "shuihuzhuan-p0206",
+   "you": 206,
+   "startRadius": 1,
+   "ease": 0.542
+  },
+  {
+   "id": "shuihuzhuan-p0207",
+   "you": 207,
+   "startRadius": 1,
+   "ease": 0.517
+  },
+  {
+   "id": "shuihuzhuan-p0208",
+   "you": 208,
+   "startRadius": 1,
+   "ease": 0.532
+  },
+  {
+   "id": "shuihuzhuan-p0209",
+   "you": 209,
+   "startRadius": 1,
+   "ease": 0.553
+  },
+  {
+   "id": "shuihuzhuan-p0210",
+   "you": 210,
+   "startRadius": 1,
+   "ease": 0.528
+  },
+  {
+   "id": "shuihuzhuan-p0211",
+   "you": 211,
+   "startRadius": 1,
+   "ease": 0.52
+  },
+  {
+   "id": "shuihuzhuan-p0212",
+   "you": 212,
+   "startRadius": 1,
+   "ease": 0.578
+  },
+  {
+   "id": "shuihuzhuan-p0213",
+   "you": 213,
+   "startRadius": 1,
+   "ease": 0.562
   }
  ],
  "provenance": {

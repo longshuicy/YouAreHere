@@ -25,35 +25,29 @@ from ..canon.types import CanonicalGraph
 
 MIN_DEGREE = 6
 
-# The ceiling is a drawing constraint, not a difficulty one.
+# The ceiling is a drawing constraint, not a difficulty one — and for a long
+# while it was quietly a difficulty one anyway.
 #
-# Every neighbour lands on a single ring, and the stage zooms that ring to fit
-# its box — so the ring always fills the frame, and the gap between neighbours is
-# the frame's circumference divided by how many there are. Node radii do not
-# scale with that zoom, so the gap is what decides legibility.
+# Every neighbour lands on a ring, and the stage zooms that ring to fit its box.
+# Node radii do not scale with that zoom, so the gap between neighbours is what
+# decides legibility, and one ring holds about forty people. That forty then sat
+# here as a cap on who you were allowed to be — which in a large world is a
+# description of the leads. Tyrion has 114 ties, David 131, Chandler 302. The
+# note at the top of this file says the game stopped banning the recognisable
+# characters; the cap had been re-banning them ever since, and every large world
+# was handing the player its 77th most present character and calling it the easy
+# end of the scale.
 #
-# The binding frame is the cold open's, because the fit takes half the *smaller*
-# side of the stage and that stage is the shortest one in the game. Two things
-# were fixed in the client to make this number reachable at all, both found by
-# measuring the rendered frame rather than reasoning about it:
+# The client now spreads your own ties across a band of concentric rings rather
+# than one, so the ceiling is where the band stops buying room: widening it pushes
+# the outermost ring out, and the zoom-to-fit answers by shrinking everything.
+# They cancel somewhere past four hundred ties. Nothing in the catalogue is near
+# that — the widest neighbourhood shipped is Chandler's 302 — so this is a real
+# limit that currently excludes nobody, which is the right shape for it.
 #
-#   - your own neighbours were being laid out across 162 degrees rather than the
-#     full circle, so they crowded at a dozen while half the ring stood empty;
-#   - the cold open's stage was 300px tall, which after the fit's 64px margin
-#     left 86px of usable radius — 540px of circumference for ring nodes 12.5
-#     to 19px across.
-#
-# With both addressed, nineteen neighbours stand clear where seventeen used to
-# overlap. Forty is still the optimistic end of the range: the relaxation does
-# not space the ring perfectly evenly, so a start near the cap can put two
-# neighbours closer together than the average gap suggests. It is kept at forty
-# because the 30-40 band is where several genuinely recognisable characters live
-# — Aaron, Solomon, Obi-Wan — and losing them to a rounder number costs the
-# player more than the occasional tight pair does.
-#
-# Do not try to raise this by growing the ring radius in the client's layout: the
-# zoom-to-fit cancels it exactly. Stage height is the lever.
-MAX_DEGREE = 40
+# Do not try to raise it by growing the ring radius in the client's layout: the
+# zoom-to-fit cancels that exactly. Stage height, or another ring, is the lever.
+MAX_DEGREE = 400
 
 MIN_REACHABLE_WITHIN_3 = 20
 
