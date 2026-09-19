@@ -338,7 +338,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
           }}
         >
           <div className="annot" style={{ textAlign: 'center' }}>
-            Choosing settles the story. You will still have to work out who you are.
+            Choosing settles the world. You will still have to work out who you are.
           </div>
           <button className="action-quiet ruled" onClick={onCancel}>
             Start anywhere instead

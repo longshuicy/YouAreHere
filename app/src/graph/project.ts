@@ -376,6 +376,18 @@ const ORDINALS = [
  * sentence the eye trips over, and the exact figure is the point by then. */
 export function ordinal(n: number): string {
   if (n <= ORDINALS.length) return ORDINALS[n - 1];
+  return ordinalMark(n);
+}
+
+/**
+ * The same rank as a figure rather than a word: 4th, 11th, 22nd.
+ *
+ * `ordinal` spells the small numbers out, which is right inside a sentence and
+ * wrong in a column of them. Ranked down a list, "eleventh of 70" sitting above
+ * "13th of 68" reads as two different measurements rather than one column, and
+ * the eye cannot compare down it.
+ */
+export function ordinalMark(n: number): string {
   const tens = n % 100;
   const suffix =
     tens >= 11 && tens <= 13 ? 'th' : { 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] ?? 'th';

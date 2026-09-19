@@ -26,17 +26,21 @@ const COLUMN_NOTES = {
   horizon:
     'How much their second ring multiplies their first. 1.0× means they already reach everyone they ever will.',
   presence:
-    'Where they rank inside their own world for how much of the story they are in, from 0 (barely present) to 100 (the most present character in the book).',
+    'Where they rank inside their own world for how much of it they are in, from 0 (barely present) to 100 (the most present character in that world).',
 };
 
 export function CharacterIndex({
   worlds,
   metas,
   loading,
+  onOpen,
 }: {
   worlds: WorldMetrics[];
   metas: Map<string, UniverseMeta>;
   loading: boolean;
+  /** Opening a character replaces the whole gallery, the way opening a world
+   * does — so the page it opens onto is owned up there, not here. */
+  onOpen: (worldId: string, i: number) => void;
 }) {
   const [query, setQuery] = useState('');
   const [facetKey, setFacetKey] = useState<string | null>(null);
@@ -227,14 +231,19 @@ export function CharacterIndex({
           </span>
         </div>
         {filtered.slice(0, limit).map((row) => (
-          <div
+          <button
             key={row.key}
+            className="world-row"
+            onClick={() => onOpen(row.worldId, row.i)}
             style={{
               display: 'flex',
               alignItems: 'baseline',
               gap: 16,
               padding: '9px 0',
               borderBottom: '1px solid var(--rule)',
+              width: '100%',
+              textAlign: 'left',
+              cursor: 'pointer',
             }}
           >
             <div style={{ flex: 1, minWidth: 0 }}>
@@ -275,7 +284,7 @@ export function CharacterIndex({
             >
               {Math.round(row.prominence * 100)}
             </span>
-          </div>
+          </button>
         ))}
 
         {filtered.length === 0 && (

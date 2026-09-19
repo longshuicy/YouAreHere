@@ -96,7 +96,7 @@ export function Explain({
           <div style={{ fontSize: 15, color: 'var(--body)', lineHeight: 1.55, paddingTop: 12 }}>
             One mark per character, asking: if you know a handful of people, how many more do you
             reach through them? A mark at <span className="mono" style={{ fontSize: 13 }}>1×</span>{' '}
-            is someone who reaches nobody new — they already know everyone, which is where the leads
+            is someone who reaches nobody new: they already know everyone, which is where the leads
             sit. A mark at <span className="mono" style={{ fontSize: 13 }}>10×</span> is someone
             whose few acquaintances open onto ten times as many people again.
           </div>
@@ -106,7 +106,7 @@ export function Explain({
       <div style={{ borderTop: '1px solid var(--rule)', paddingTop: 4 }}>
         <Line
           term="Concentration"
-          body="Whether the story is shared out or hoarded. Near 0, everyone gets roughly the same amount of it. Near 1, a few people carry the book and the rest are furniture. It cannot tell you who — a two-hander and a one-man tyranny score much the same."
+          body="Whether a world is shared out or hoarded. Near 0, everyone gets roughly the same amount of it. Near 1, a few people carry it and the rest are furniture. It cannot tell you who: a two-hander and a one-man tyranny score much the same."
         />
         <Line
           term="Camps"
@@ -114,7 +114,7 @@ export function Explain({
         />
         <Line
           term="Outermost"
-          body="The furthest character's horizon divided by an ordinary one's. A big number means the world has genuine outsiders; near 1 means it has none. One person decides this figure, which is the point of it — that person is what you are being shown."
+          body="The furthest character's horizon divided by an ordinary one's. A big number means the world has genuine outsiders; near 1 means it has none. One person decides this figure, which is the point of it: that person is what you are being shown."
         />
       </div>
     </div>

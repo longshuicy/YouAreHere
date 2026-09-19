@@ -209,8 +209,8 @@ export default function App() {
   const standing = useMemo(() => {
     if (!universe || !session) return '';
     const above = standingOf(universe, session.you) - 1;
-    if (above === 0) return 'No one is in more of this story than you.';
-    return `Only ${cardinal(above)} ${above === 1 ? 'person' : 'people'} here are in more of this story than you.`;
+    if (above === 0) return 'No one is in more of this world than you.';
+    return `Only ${cardinal(above)} ${above === 1 ? 'person' : 'people'} here are in more of this world than you.`;
   }, [universe, session]);
 
   const factLines = useMemo(() => {
@@ -376,7 +376,6 @@ export default function App() {
           onChooseEase={chooseEase}
           readsChineseClassics={readsChineseClassics}
           onReadsChineseClassics={chooseReadsChineseClassics}
-          onOpenKey={openKey}
           onOpenGallery={() => setShowGallery(true)}
         />
       );
@@ -430,8 +429,6 @@ export default function App() {
           session={session}
           universe={universe}
           meta={meta}
-          onWakeElsewhere={wakeElsewhere}
-          onOpenKey={openKey}
           onStartAgain={startAgain}
           onOpenGallery={() => setShowGallery(true)}
         />

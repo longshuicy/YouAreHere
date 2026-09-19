@@ -1,9 +1,14 @@
 import { useRef, useState } from 'react';
 import { Stage } from '../render/Stage';
-import { CHROME_PADDING, HelpLink } from '../render/MarginLinks';
+import { CHROME_PADDING, ChromeRight } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
+
+/** One column for the whole page: the title, the diagram, the verse, the
+ *  settings and the action all take their width from here, so every edge on
+ *  the page lines up with every other one. */
+const MEASURE = 'min(460px, 92vw)';
 
 /** Where the title sits once play begins — same inset as the explore chrome. */
 const TITLE_CORNER = { top: 44, left: 64 };
@@ -22,7 +27,6 @@ interface Props {
   onChooseEase: (ease: number) => void;
   readsChineseClassics: boolean;
   onReadsChineseClassics: (next: boolean) => void;
-  onOpenKey: () => void;
   onOpenGallery: () => void;
 }
 
@@ -51,7 +55,6 @@ export function ColdOpen({
   onChooseEase,
   readsChineseClassics,
   onReadsChineseClassics,
-  onOpenKey,
   onOpenGallery,
 }: Props) {
   const titleRef = useRef<HTMLDivElement>(null);
@@ -98,57 +101,81 @@ export function ColdOpen({
         overflow: 'auto',
         display: 'flex',
         flexDirection: 'column',
-        gap: 'clamp(10px, 2vh, 20px)',
+        gap: 'clamp(8px, 1.4vh, 16px)',
         padding: CHROME_PADDING,
-        paddingBottom: 'max(40px, var(--pad-bottom))',
+        paddingBottom: 'max(32px, var(--pad-bottom))',
       }}
     >
-      <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-start', flexShrink: 0 }}>
-        <HelpLink onOpenKey={onOpenKey} />
+      {/* The gallery is not a thing to do here, so it is not offered beside the
+          thing to do. It goes to the corner this game keeps everything that is
+          not the page in, which also means it is reachable from every screen
+          rather than only from the two ends of a run. */}
+      <div style={{ display: 'flex', justifyContent: 'flex-end', flexShrink: 0 }}>
+        <ChromeRight>
+          <button type="button" className="annot-link" onClick={onOpenGallery} disabled={walking}>
+            The topology gallery
+          </button>
+        </ChromeRight>
       </div>
 
+      {/* One column, and everything sits in it.
+          There were four widths down this page: 243px of verse, a 256px
+          drawing, a 560px stage and a 772px row of controls, none of them
+          sharing an edge. Worse, the scale was not on the page's axis at all:
+          paired with the toggle and centred as a pair, its track sat 140px
+          left of the title above it, which is the kind of wrongness a reader
+          feels without being able to name. */}
       <div
         className="cold-main"
         style={{
           flex: 1,
           minHeight: 0,
+          width: MEASURE,
+          margin: '0 auto',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: 'clamp(12px, 2.2vh, 22px)',
+          justifyContent: 'center',
+          gap: 'clamp(10px, 1.7vh, 18px)',
         }}
       >
         <div style={{ textAlign: 'center', flexShrink: 0 }}>
           <div
             ref={titleRef}
             className="brand"
-            style={{ fontSize: 'clamp(28px, 3.8vh, 38px)', letterSpacing: '0.04em' }}
+            style={{ fontSize: 'clamp(26px, 3.4vh, 33px)', letterSpacing: '0.04em' }}
           >
             You are here.
           </div>
           <div
             className="title-sub"
             style={{
-              fontSize: 'clamp(20px, 2.6vh, 26px)',
+              fontSize: 'clamp(17px, 2.2vh, 21px)',
               fontStyle: worldTitle ? 'italic' : undefined,
               color: 'var(--body)',
-              marginTop: 10,
+              marginTop: 8,
               opacity: walking ? 0 : 1,
               transition: 'opacity 400ms ease',
             }}
           >
-            {worldTitle ?? 'You don’t know where here is.'}
+            {worldTitle ?? 'You don\u2019t know where here is.'}
           </div>
         </div>
 
         {/* The opening ring has to hold every neighbour you have, and the stage
-            zooms it to fit half the *smaller* side — so this height, not the
-            width, is what decides how many characters can stand around you
-            before they touch. At 300px it was about a dozen, which is fewer
-            than the puzzle generator is allowed to hand it. */}
+            zooms it to fit half the *smaller* side, so this height is what
+            decides how many characters can stand around you before they touch.
+            It is the shortest stage in the game and `COLD_OPEN_FIT` in
+            layout.ts is calibrated against it. */}
         <div
           className="cold-stage"
-          style={{ width: 'min(620px, 92vw)', height: 'min(440px, 44vh)', flexShrink: 1, minHeight: 0, overflow: 'visible' }}
+          style={{
+            width: '100%',
+            height: 'min(400px, 40vh)',
+            flexShrink: 1,
+            minHeight: 0,
+            overflow: 'visible',
+          }}
         >
           <Stage
             graph={graph}
@@ -167,10 +194,10 @@ export function ColdOpen({
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: 'clamp(10px, 1.6vh, 18px)',
-            fontSize: 'clamp(15px, 1.95vh, 19px)',
+            gap: 'clamp(6px, 1vh, 12px)',
+            fontSize: 'clamp(14px, 1.8vh, 17px)',
             color: 'var(--body)',
-            lineHeight: 1.5,
+            lineHeight: 1.45,
             textAlign: 'center',
             flexShrink: 0,
           }}
@@ -186,24 +213,29 @@ export function ColdOpen({
         </div>
       </div>
 
+      {/* Everything here is an adjustment to the stranger you are about to be
+          handed: which scale to draw them from, whether the draw may reach the
+          Chinese classics, which world they live in. And then the one thing
+          that is not an adjustment. Choosing a world used to sit beside Begin
+          as though it were an alternative to beginning. It is not: it is the
+          last setting before it. */}
       <div
         style={{
+          width: MEASURE,
+          margin: '0 auto',
           flexShrink: 0,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: 'clamp(8px, 1.4vh, 18px)',
+          gap: 'clamp(9px, 1.5vh, 16px)',
         }}
       >
-        {/* The scale sits above the commit, because it changes what you
-            are about to begin — the stranger on the stage is redrawn the moment
-            it is touched, so the choice is visible before it is taken. */}
         <div
           style={{
             display: 'flex',
             alignItems: 'center',
             gap: 'clamp(8px, 3vw, 16px)',
-            width: 'min(420px, 100%)',
+            width: '100%',
           }}
         >
           <span className="mono" style={{ fontSize: 10, letterSpacing: '0.2em', color: 'var(--unknown)', whiteSpace: 'nowrap' }}>
@@ -225,38 +257,53 @@ export function ColdOpen({
           </span>
         </div>
 
-        {/* Hidden once a world is named: this only tilts the random draw. */}
-        {!worldTitle && (
-          <button
-            className="action-quiet"
-            aria-pressed={readsChineseClassics}
-            onClick={() => onReadsChineseClassics(!readsChineseClassics)}
-            style={{ color: readsChineseClassics ? 'var(--ink)' : undefined, fontSize: 10, letterSpacing: '0.2em' }}
-          >
-            <span aria-hidden="true" style={{ marginRight: 8 }}>{readsChineseClassics ? '[\u00d7]' : '[ ]'}</span>
-            I read the Chinese classics
-          </button>
-        )}
-
         <div
           style={{
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'baseline',
-            gap: 34,
+            gap: 'clamp(14px, 4vw, 30px)',
             flexWrap: 'wrap',
           }}
         >
-          <button className="action" onClick={begin} disabled={walking}>
-            Begin
-          </button>
-          <button className="action-quiet" onClick={onChooseWorld} disabled={walking}>
+          <button
+            className="action-quiet"
+            onClick={onChooseWorld}
+            disabled={walking}
+            style={{ fontSize: 10, letterSpacing: '0.18em', minHeight: 0, padding: '7px 2px' }}
+          >
             {worldTitle ? 'Choose another world' : 'Choose a world'}
           </button>
-          <button type="button" className="action-quiet" onClick={onOpenGallery} disabled={walking}>
-            The topology gallery
-          </button>
+
+          {/* Hidden once a world is named: this only tilts the random draw. */}
+          {!worldTitle && (
+            <button
+              className="action-quiet"
+              aria-pressed={readsChineseClassics}
+              onClick={() => onReadsChineseClassics(!readsChineseClassics)}
+              style={{
+                color: readsChineseClassics ? 'var(--ink)' : undefined,
+                fontSize: 10,
+                letterSpacing: '0.18em',
+                minHeight: 0,
+                padding: '7px 2px',
+              }}
+            >
+              <span aria-hidden="true" style={{ marginRight: 8 }}>{readsChineseClassics ? '[\u00d7]' : '[ ]'}</span>
+              I read the Chinese classics
+            </button>
+          )}
         </div>
+
+        {/* The only thing on this page that is not a setting. */}
+        <button
+          className="action"
+          onClick={begin}
+          disabled={walking}
+          style={{ fontSize: 15, letterSpacing: '0.44em', borderBottomWidth: 2, padding: '14px 0 11px 6px' }}
+        >
+          Begin
+        </button>
       </div>
     </div>
   );

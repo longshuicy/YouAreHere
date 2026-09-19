@@ -79,9 +79,9 @@ export function Guess({
     : last.storyCorrect && !last.characterCorrect
       ? settled && session.worldChosen
         ? 'Not this person.'
-        : 'Right story. Wrong person.'
+        : 'Right world. Wrong person.'
       : !last.storyCorrect
-        ? 'Not this story.'
+        ? 'Not this world.'
         : null;
 
   /**
@@ -100,9 +100,9 @@ export function Guess({
   const bearing = !last || last.characterCorrect || !last.storyCorrect
     ? null
     : last.characterIndex === null
-      ? 'No one by that name is in this story.'
+      ? 'No one by that name is in this world.'
       : last.hops === null
-        ? 'They are in this story, but no run of ties reaches them from you.'
+        ? 'They are in this world, but no run of ties reaches them from you.'
         : last.hops === 1
           ? 'They are standing right next to you, one tie away.'
           : `They are ${last.hops} ties away from you.`;
@@ -196,13 +196,13 @@ export function Guess({
               established, and makes the screen look like it is still asking. */}
           {settled ? (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10, width: 'min(470px, 100%)' }}>
-              <div className="field-label">The story</div>
+              <div className="field-label">The world</div>
               <div style={{ fontSize: 'clamp(19px, 5vw, 23px)' }}>{settled.title}</div>
             </div>
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 12, width: 'min(470px, 100%)' }}>
               <label className="field-label" htmlFor="story">
-                What story are you in?
+                What world are you in?
               </label>
               <select
                 id="story"
@@ -256,7 +256,7 @@ export function Guess({
                 ))}
               </div>
             ) : (
-              <div className="annot">Suggests after 2 letters · drawn from every story loaded</div>
+              <div className="annot">Suggests after 2 letters · drawn from every world loaded</div>
             )}
 
             {/* The commit sits under the field it commits, with its way out beside

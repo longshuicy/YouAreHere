@@ -236,7 +236,7 @@ export function describeReadings(
       n === 0
         ? 'Nobody anywhere in these worlds stood in a shape like yours; your diagram was a name, if anyone could have read it.'
         : n <= 9
-          ? `Only ${cardinal(n)} other ${n === 1 ? 'character' : 'characters'} in all of these worlds stood in a shape like yours \u2014 you were nearly unmistakable.`
+          ? `Only ${cardinal(n)} other ${n === 1 ? 'character' : 'characters'} in all of these worlds stood in a shape like yours, so you were nearly unmistakable.`
           : n <= 40
             ? `Another ${n} characters across these worlds stood in a shape like yours: enough to hide in, not enough to disappear into.`
             : `Another ${n} characters across these worlds stood in a shape like yours, so the shape alone was never going to name you.`;
@@ -263,7 +263,7 @@ export function describeReadings(
         ? ` The closest thing you have to a double is ${twin.name}, ${where}.`
         : twin.tied === 0
           ? ` Your nearest double is ${twin.name}, ${where}.`
-          : ` Your nearest double is ${twin.name}, ${where} \u2014 and ${cardinal(twin.tied)} ${twin.tied === 1 ? 'other' : 'others'} just as alike.`;
+          : ` Your nearest double is ${twin.name}, ${where}, and ${cardinal(twin.tied)} ${twin.tied === 1 ? 'other' : 'others'} just as alike.`;
 
     out.push(`${shape}${nearest}`);
   }
@@ -271,14 +271,14 @@ export function describeReadings(
   if (m.cutsOff !== null) {
     out.push(
       m.cutsOff === 1
-        ? 'Take you out of the story and one character is left with no way through to anyone else.'
-        : `Take you out of the story and ${m.cutsOff} characters are left with no way through to anyone else.`,
+        ? 'Take you out of this world and one character is left with no way through to anyone else.'
+        : `Take you out of this world and ${m.cutsOff} characters are left with no way through to anyone else.`,
     );
   }
 
   out.push(
     m.rank === 1
-      ? `You had ${plural(m.degree, 'tie', 'ties')}, more than anyone else in the story.`
+      ? `You had ${plural(m.degree, 'tie', 'ties')}, more than anyone else in this world.`
       : `You had ${plural(m.degree, 'tie', 'ties')}, which put you ${ordinal(m.rank)} out of ${m.castSize} for people met.`,
   );
 
@@ -293,7 +293,7 @@ export function describeReadings(
       m.pageRank === 1
         ? 'For all that, no one was on the page more than you.'
         : m.pageRank < m.rank
-          ? `For time on the page, though, you came ${ordinal(m.pageRank)}: fewer people, far more of the story.`
+          ? `For time on the page, though, you came ${ordinal(m.pageRank)}: fewer people, far more of the world.`
           : `For time on the page, though, you came only ${ordinal(m.pageRank)}: many people, each of them briefly.`,
     );
   }
@@ -311,7 +311,7 @@ export function describeReadings(
           : '';
     // "Share the story" is the phrase the whole game uses for a tie's weight,
     // and the one place the design forbids saying "close" or "knows well".
-    out.push(`You shared more of the story with ${m.heaviest.name} than with anyone else${how}.`);
+    out.push(`You shared more of this world with ${m.heaviest.name} than with anyone else${how}.`);
   }
 
   // Whose company you kept. Distinct from how many people you knew and from
@@ -319,9 +319,9 @@ export function describeReadings(
   // them rather than about you.
   if (m.degree >= 3) {
     if (m.company >= 0.82)
-      out.push('The people you stood among were some of the best known in the book.');
+      out.push('The people you stood among were some of the best known in this world.');
     else if (m.company <= 0.4)
-      out.push('You kept company with the story\u2019s minor figures.');
+      out.push('You kept company with this world\u2019s minor figures.');
   }
 
   if (m.degree >= 3) {
@@ -372,8 +372,8 @@ export function describeContext(meta: UniverseMeta | null, facts: NodeFacts): st
     const voices = all.filter((n) => Number((n.facts as NodeFacts)?.pov ?? 0) > 0).length;
     out.push(
       voices === 1
-        ? 'You are this story\u2019s only viewpoint character: the whole of it is told through your eyes.'
-        : `You are one of only ${voices} viewpoint characters in this story, one of the few it is told through.`,
+        ? 'You are this world\u2019s only viewpoint character: the whole of it is told through your eyes.'
+        : `You are one of only ${voices} viewpoint characters in this world, one of the few it is told through.`,
     );
   }
 
@@ -394,8 +394,8 @@ export function describeContext(meta: UniverseMeta | null, facts: NodeFacts): st
     // demonyms ("Ironborn", "Dothraki") and bare place names ("Westeros", "the
     // Reach") indiscriminately, and the obvious phrasing produced "one of 8
     // Westeros in this story". This shape is grammatical whichever it is.
-    if (kin === 2) out.push(`One other person in this story shares your background: ${culture}.`);
-    else if (kin > 2) out.push(`Another ${kin - 1} people in this story share your background: ${culture}.`);
+    if (kin === 2) out.push(`One other person in this world shares your background: ${culture}.`);
+    else if (kin > 2) out.push(`Another ${kin - 1} people in this world share your background: ${culture}.`);
   }
   return out;
 }

@@ -27,6 +27,10 @@
   --pad-top: 44px;
   --pad-x: 64px;
   --pad-bottom: 56px;
+  /* How much room the top bar takes: its inset, plus the wordmark's own line.
+     Screens that float chrome over a drawing use it to keep the drawing out
+     from under the bar. */
+  --chrome-band: calc(var(--pad-top) + 34px);
 
   color-scheme: light;
 }
@@ -363,26 +367,128 @@ button {
   box-shadow: 0 0 0 3px rgba(140, 47, 42, 0.22);
 }
 
-/* Reveal: paper on the left, network on the right. No frame — the graph is
-   still the page, just not under the prose. */
-.reveal-graph {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 62%;
+/* A figure and the note that explains it, side by side: the drawing takes
+   half the column and the note sits in the margin beside it.
+
+   Drawn full width, these were ten times as wide as they were tall, which is
+   not a chart, it is a smear. Half a column is about two to one, which is a
+   shape a reader can actually take a reading off. It also stops the notes from
+   pushing every figure another four lines down the scroll. */
+.reading-plate {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
 }
 
+/* Under a narrow column there is no margin to put a note in. */
+@media (max-width: 1040px) {
+  .reading-plate {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
+
+/* Reveal: paper on the left, network on the right, half the page each. No
+   frame: the graph is still the page, just not under the prose. */
+/* The network starts below the top bar rather than running behind it. Drawn
+   full bleed, the wordmark and the links in the corner sit on top of the ties,
+   and at any pan where a dense part of the graph is up there the bar becomes
+   unreadable and so does the graph. The copy column clears the bar the same
+   way, with its own padding. */
+.reveal-graph {
+  position: absolute;
+  top: var(--chrome-band);
+  right: 0;
+  bottom: 0;
+  width: 50%;
+}
+
+/* The column itself no longer scrolls. It is a header that stays put and a
+   body that moves under it, so the name of the person you turned out to be is
+   on the page the whole time you are reading what it meant. */
 .reveal-copy {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  width: 38%;
-  overflow: auto;
-  padding: 110px 36px 56px 64px;
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 110px 36px 0 64px;
   background: var(--paper);
   box-shadow: 20px 0 28px 8px var(--paper);
+}
+
+/* The name, and beside it what the round cost. The tally used to be the last
+   group in the scroll, which put the one thing that is about the player at the
+   bottom of a column about the character; up here it shares the line that is
+   already pinned, and it is on the page the whole time. */
+.reveal-head {
+  flex: 0 0 auto;
+  display: flex;
+  /* Both blocks start on the same line: the eyebrow over the name and the
+     label over the tally are the same small mono, so their first lines sit on
+     one rule across the column. Bottom-aligned instead, as this was first
+     drawn, the two headings landed at different heights and the pair read as
+     one block that had slipped. */
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.reveal-head-name {
+  min-width: 0;
+}
+
+/* The tally fills the name's height rather than stopping wherever its last
+   line happens to fall: the lines are spread down the block, so three lines or
+   five, the two halves of the head start and finish together. */
+.reveal-head-aside {
+  flex: 0 0 auto;
+  width: 232px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reveal-head-tally {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Too narrow to seat two blocks on one line: the tally goes under the name. */
+@media (max-width: 1040px) {
+  .reveal-head {
+    display: block;
+  }
+
+  .reveal-head-aside {
+    width: auto;
+    padding-top: 16px;
+    padding-bottom: 0;
+  }
+
+  /* Stacked, there is no name beside it to match, so the lines sit together. */
+  .reveal-head-tally {
+    display: block;
+  }
+}
+
+.reveal-sections {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 10px;
+  padding-bottom: 56px;
+  /* A line cut in half at the top edge of a scrolling box reads as a rendering
+     fault rather than as more text above. The first few pixels fade out, so the
+     content goes under the name instead of stopping dead against it. */
+  mask-image: linear-gradient(to bottom, transparent 0, #000 16px);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 16px);
 }
 
 @media (max-width: 800px) {
@@ -400,6 +506,9 @@ button {
     width: 100%;
     height: 38vh;
     min-height: 240px;
+    /* Stacked, the graph is the first thing on the page, so it has to make
+       room for the bar itself. */
+    margin-top: var(--chrome-band);
   }
 
   .reveal-copy {
@@ -408,8 +517,19 @@ button {
     height: auto;
     max-height: none;
     overflow: visible;
+    display: block;
     padding: 8px var(--pad-x) 48px var(--pad-x);
     box-shadow: none;
+  }
+
+  /* Nothing is pinned on a phone: the page itself is the scroller, and a
+     header that held its place would eat a third of a short screen. */
+  .reveal-sections {
+    overflow: visible;
+    padding-right: 0;
+    padding-bottom: 0;
+    mask-image: none;
+    -webkit-mask-image: none;
   }
 }
 

@@ -21,7 +21,7 @@ export function LedgerBreakdown({ ledger }: { ledger: LedgerT }) {
   if (ledger.expansions) rows.push(`${ledger.expansions} ${ledger.expansions === 1 ? 'expansion' : 'expansions'}`);
   if (ledger.facts) rows.push(`${ledger.facts} ${ledger.facts === 1 ? 'reading' : 'readings'}`);
   if (ledger.names) rows.push(`${ledger.names} ${ledger.names === 1 ? 'name' : 'names'}`);
-  if (ledger.stories) rows.push('the story');
+  if (ledger.stories) rows.push('the world');
   if (rows.length === 0 && !ledger.recognitions) return null;
 
   return (

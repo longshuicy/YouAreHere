@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { BrandCluster, CHROME_PADDING } from '../render/MarginLinks';
+import { BackLink, BrandCluster, CHROME_PADDING, ChromeRight } from '../render/MarginLinks';
 import { FullGraph } from '../render/FullGraph';
 import { fetchMeta } from '../data/loader';
 import type { Universe, UniverseMeta } from '../types';
 import { CARD_STRIP, DegreeBars, Fingerprint, HorizonStrip, StripLabel } from './Fingerprint';
 import { CharacterIndex } from './CharacterIndex';
+import { ReadingPage } from '../screens/ReadingPage';
 import { Explain } from './Explain';
 import { noteTooltip } from './notes';
 import { RadioRow } from './RadioRow';
@@ -106,11 +107,9 @@ function SectionHead({ children }: { children: ReactNode }) {
 function WorldDetail({
   world,
   universe,
-  onBack,
 }: {
   world: WorldMetrics;
   universe: Universe | undefined;
-  onBack: () => void;
 }) {
   const connected = world.characters.filter((c) => c.degree > 0);
   const byGain = [...connected].sort((a, b) => b.gain - a.gain);
@@ -131,12 +130,6 @@ function WorldDetail({
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 30, paddingTop: 10 }}>
-      <div>
-        <button className="annot-link" onClick={onBack}>
-          All worlds
-        </button>
-      </div>
-
       <div style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(24px, 6.4vw, 34px)', lineHeight: 1.1 }}>
         {world.title}
       </div>
@@ -212,7 +205,7 @@ function WorldDetail({
         }}
       >
         <div>
-          <SectionHead>Furthest from the story</SectionHead>
+          <SectionHead>Furthest from the world</SectionHead>
           {outermost.map((c) => (
             <CharacterRow key={c.i} character={c} of={world.nodes} />
           ))}
@@ -283,6 +276,8 @@ export function Gallery({ universes, onStartAgain }: Props) {
   const [view, setView] = useState<'worlds' | 'characters'>('worlds');
   const [sort, setSort] = useState<SortKey>('concentration');
   const [open, setOpen] = useState<string | null>(null);
+  /** A character page, which replaces the gallery the same way a world's does. */
+  const [character, setCharacter] = useState<{ worldId: string; i: number } | null>(null);
   /** Open until dismissed, and then dismissed until asked for again. Nobody can
    * read the cards without it the first time, and everybody can after a while. */
   const [showKey, setShowKey] = useState(() => {
@@ -358,6 +353,39 @@ export function Gallery({ universes, onStartAgain }: Props) {
   }, [worlds]);
 
   const detail = open ? worlds.find((w) => w.id === open) : null;
+  const openCharacter = character
+    ? {
+        world: worlds.find((w) => w.id === character.worldId),
+        universe: byId.get(character.worldId),
+        meta: metas.get(character.worldId) ?? null,
+        i: character.i,
+      }
+    : null;
+
+  /**
+   * An opened character is the reveal page, for somebody nobody played — the
+   * same component, not a copy of its layout. It takes the whole screen rather
+   * than sitting inside the gallery's padded column, because half of that
+   * layout is a graph pinned to the right edge of the window.
+   */
+  if (openCharacter?.world && openCharacter.universe) {
+    return (
+      <ReadingPage
+        universe={openCharacter.universe}
+        world={openCharacter.world}
+        meta={openCharacter.meta}
+        i={openCharacter.i}
+        eyebrow="If you woke here, you would be"
+        subtitle={openCharacter.world.title}
+        chromeLeft={<BrandCluster onStartAgain={onStartAgain} />}
+        chromeRight={
+          <ChromeRight>
+            <BackLink label="All characters" onBack={() => setCharacter(null)} />
+          </ChromeRight>
+        }
+      />
+    );
+  }
 
   return (
     <div
@@ -373,10 +401,15 @@ export function Gallery({ universes, onStartAgain }: Props) {
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <BrandCluster onStartAgain={onStartAgain} />
+        {detail && (
+          <ChromeRight>
+            <BackLink label="All worlds" onBack={() => setOpen(null)} />
+          </ChromeRight>
+        )}
       </div>
 
       {detail ? (
-        <WorldDetail world={detail} universe={byId.get(detail.id)} onBack={() => setOpen(null)} />
+        <WorldDetail world={detail} universe={byId.get(detail.id)} />
       ) : (
         <>
           <div style={{ paddingTop: 30, maxWidth: 620 }}>
@@ -453,7 +486,12 @@ export function Gallery({ universes, onStartAgain }: Props) {
               ))}
             </div>
           ) : (
-            <CharacterIndex worlds={worlds} metas={metas} loading={loadingMetas} />
+            <CharacterIndex
+                worlds={worlds}
+                metas={metas}
+                loading={loadingMetas}
+                onOpen={(worldId, i) => setCharacter({ worldId, i })}
+              />
           )}
         </>
       )}

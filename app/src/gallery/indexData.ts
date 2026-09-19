@@ -14,6 +14,8 @@ import type { WorldMetrics } from './metrics';
 
 export interface IndexRow {
   key: string;
+  /** The character's index inside their own world, so a row can be opened. */
+  i: number;
   name: string;
   worldId: string;
   worldTitle: string;
@@ -34,7 +36,7 @@ export interface FacetSummary {
 }
 
 export const TIER_NOTE: Record<Tier, string> = {
-  universal: 'In every world — safe to compare across the whole catalogue.',
+  universal: 'In every world, so it is safe to compare across the whole catalogue.',
   broad: 'In several worlds, but not all. Filter freely; a ranking would be reading absence as evidence.',
   single: 'From one world only. A room inside that book, never a claim about the corpus.',
 };
@@ -80,6 +82,7 @@ export function buildIndex(
 
       rows.push({
         key: `${world.id}:${character.i}`,
+        i: character.i,
         name: character.name,
         worldId: world.id,
         worldTitle: world.title,

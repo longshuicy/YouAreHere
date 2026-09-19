@@ -13,7 +13,7 @@ export interface MetricNote {
 
 export const METRIC_NOTES: Record<string, MetricNote> = {
   concentration: {
-    measures: 'How much of the story a few people carry. Low is an ensemble, high is a star system.',
+    measures: 'How much of a world a few people carry. Low is an ensemble, high is a star system.',
     blind: 'Who. A two-hander and a tyranny score alike.',
   },
   camps: {
@@ -22,9 +22,9 @@ export const METRIC_NOTES: Record<string, MetricNote> = {
   },
   horizon: {
     measures:
-      'How much of the story is invisible from where a character stands. A protagonist sits at 1× and already sees everyone; the far end is someone with a few ties and the whole world standing behind them.',
+      'How much of a world is invisible from where a character stands. A protagonist sits at 1× and already sees everyone; the far end is someone with a few ties and the whole world standing behind them.',
     blind:
-      'Everyone but the outermost character, who decides the figure alone — and characters with a single tie, where one neighbour decides theirs.',
+      'Everyone but the outermost character, who decides the figure alone, and characters with a single tie, where one neighbour decides theirs.',
   },
   ties: {
     measures: 'How many people each character appears with, in fixed bands.',

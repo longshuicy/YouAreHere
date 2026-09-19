@@ -199,7 +199,7 @@ export function Fingerprint({ world, onOpen }: Props) {
     <button
       onClick={() => onOpen(world.id)}
       className="fingerprint"
-      aria-label={`${world.title} — cast of ${world.nodes}, ${world.communities} camps`}
+      aria-label={`${world.title}: cast of ${world.nodes}, ${world.communities} camps`}
       style={{
         display: 'flex',
         flexDirection: 'column',
