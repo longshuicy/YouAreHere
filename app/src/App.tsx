@@ -270,18 +270,25 @@ export default function App() {
    */
   const redraw = async (ease: number, reads: boolean) => {
     if (boot.status !== 'ready') return;
-    const entry = pickWorld(boot.index.universes, ease, boot.index.easeBuckets, (world) =>
-      familiarityFor(world.id, reads),
-    );
-    if (!entry) return;
+    // A chosen world stays chosen: the slider only redraws the stranger
+    // inside it. Familiarity is a tilt on *which book* is drawn, so it
+    // must not run once the player has named one.
+    const locked = session.worldChosen ? universe : null;
     try {
-      const universe = loaded.get(entry.id) ?? (await fetchUniverse(entry.file));
-      const puzzle = pickPuzzle(universe, ease, recentPuzzles.current);
+      let nextUniverse = locked;
+      if (!nextUniverse) {
+        const entry = pickWorld(boot.index.universes, ease, boot.index.easeBuckets, (world) =>
+          familiarityFor(world.id, reads),
+        );
+        if (!entry) return;
+        nextUniverse = loaded.get(entry.id) ?? (await fetchUniverse(entry.file));
+      }
+      const puzzle = pickPuzzle(nextUniverse, ease, recentPuzzles.current);
       if (!puzzle) return;
       remember(puzzle.id);
-      setLoaded((prev) => (prev.has(universe.id) ? prev : new Map(prev).set(universe.id, universe)));
-      setBoot({ ...boot, universe, puzzle });
-      setSession(initSession(universe, puzzle));
+      setLoaded((prev) => (prev.has(nextUniverse.id) ? prev : new Map(prev).set(nextUniverse.id, nextUniverse)));
+      setBoot({ ...boot, universe: nextUniverse, puzzle });
+      setSession(initSession(nextUniverse, puzzle, { worldChosen: Boolean(locked) }));
     } catch {
       // Keep the waking already on screen rather than emptying the stage.
     }
@@ -306,6 +313,7 @@ export default function App() {
     } catch {
       // Blocked site data: the answer holds for this session and is asked again.
     }
+    if (session.worldChosen) return;
     await redraw(targetEase, next);
   };
 
@@ -319,7 +327,9 @@ export default function App() {
       remember(puzzle.id);
       setLoaded((prev) => (prev.has(next.id) ? prev : new Map(prev).set(next.id, next)));
       setBoot({ ...boot, universe: next, puzzle });
-      setSession({ ...initSession(next, puzzle, { worldChosen: true }), phase: 'explore' });
+      // Stay on the cold open: the story is settled, the stranger is not.
+      // Begin is still the commit; the scale can still redraw who you wake as.
+      setSession(initSession(next, puzzle, { worldChosen: true }));
       setChoosing(false);
     } catch {
       // Leave the chooser open: the world simply did not load, and the player
@@ -354,6 +364,7 @@ export default function App() {
           graph={graph}
           positions={positions}
           session={session}
+          worldTitle={session.worldChosen ? universe.title : null}
           onBegin={() => setSession({ ...session, phase: 'explore' })}
           onChooseWorld={() => setChoosing(true)}
           targetEase={targetEase}
@@ -361,7 +372,6 @@ export default function App() {
           readsChineseClassics={readsChineseClassics}
           onReadsChineseClassics={chooseReadsChineseClassics}
           onOpenKey={openKey}
-          onStartAgain={startAgain}
           onOpenGallery={() => setShowGallery(true)}
         />
       );
@@ -431,7 +441,6 @@ export default function App() {
     return (
       <Gallery
         universes={[...loaded.values()]}
-        onClose={() => setShowGallery(false)}
         onStartAgain={() => {
           setShowGallery(false);
           startAgain();
