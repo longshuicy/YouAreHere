@@ -1,5 +1,7 @@
+import type { ReactNode } from 'react';
 import { cardinal, ordinal } from './project';
-import type { MetaRecord, NodeFacts, NodeIndex, Universe, UniverseMeta } from '../types';
+import { NameLink } from '../render/NameLink';
+import type { MetaRecord, NodeFacts, NodeIndex, Universe, UniverseId, UniverseMeta } from '../types';
 
 /**
  * Reveal-time readings of the network, computed in the browser from the
@@ -206,8 +208,17 @@ export function describeReadings(
    * than by a title the player has just been given. */
   universeId = '',
   limit = 4,
-): string[] {
-  const out: string[] = [];
+  /** Jump to another character in this same world — the one name here that is
+   * never a spoiler, because the strongest tie is drawn on the graph already. */
+  linkToCharacter?: (i: NodeIndex) => void,
+  /** Jump to the nearest double, who may stand in a different world entirely.
+   * Takes the world and the name rather than an index: the sidecar that names
+   * a cross-catalogue twin was never asked to carry one, and resolving a name
+   * to a node is a question only the caller — holding every loaded world —
+   * can answer. */
+  linkToTwin?: (world: UniverseId, name: string) => void,
+): ReactNode[] {
+  const out: ReactNode[] = [];
 
   // The reveal's one cross-catalogue reading, and the only pair of numbers here
   // that needs interpreting rather than reporting.
@@ -245,8 +256,15 @@ export function describeReadings(
     // "In this same story" rather than the title when the twin is from the book
     // the player is already standing in: they have just been told which one it
     // is, and naming it again reads as a sentence that has not noticed.
-    const where =
-      twin && (twin.world === universeId ? 'in this same world' : `in ${twin.story}`);
+    const where: ReactNode = twin && (twin.world === universeId ? 'in this same world' : `in ${twin.story}`);
+    // Linked when the caller can resolve a name back to a node — which needs
+    // every loaded world's own cast list, not just this one, so it is the
+    // caller's job and not this function's.
+    const twinName: ReactNode = twin
+      ? linkToTwin
+        ? <NameLink onClick={() => linkToTwin(twin.world, twin.name)}>{twin.name}</NameLink>
+        : twin.name
+      : null;
     // "Your nearest double" rather than "the person you were shaped most like".
     // The second is accurate and it is a description of a calculation; the first
     // is the word an ordinary reader already has for the idea, and this is the
@@ -257,15 +275,24 @@ export function describeReadings(
     // contradiction. It is not one — the count is a bucket and this is a
     // distance — but the reader has no reason to know that, and the sentence has
     // to hold on its own. *The closest thing to a double* is true either way.
-    const nearest = !twin
-      ? ''
-      : signals.lookAlikes === 0
-        ? ` The closest thing you have to a double is ${twin.name}, ${where}.`
-        : twin.tied === 0
-          ? ` Your nearest double is ${twin.name}, ${where}.`
-          : ` Your nearest double is ${twin.name}, ${where}, and ${cardinal(twin.tied)} ${twin.tied === 1 ? 'other' : 'others'} just as alike.`;
+    const nearest: ReactNode = !twin ? null : signals.lookAlikes === 0 ? (
+      <> The closest thing you have to a double is {twinName}, {where}.</>
+    ) : twin.tied === 0 ? (
+      <> Your nearest double is {twinName}, {where}.</>
+    ) : (
+      <>
+        {' '}
+        Your nearest double is {twinName}, {where}, and {cardinal(twin.tied)}{' '}
+        {twin.tied === 1 ? 'other' : 'others'} just as alike.
+      </>
+    );
 
-    out.push(`${shape}${nearest}`);
+    out.push(
+      <>
+        {shape}
+        {nearest}
+      </>,
+    );
   }
 
   if (m.cutsOff !== null) {
@@ -311,7 +338,17 @@ export function describeReadings(
           : '';
     // "Share the story" is the phrase the whole game uses for a tie's weight,
     // and the one place the design forbids saying "close" or "knows well".
-    out.push(`You shared more of this world with ${m.heaviest.name} than with anyone else${how}.`);
+    const partner = m.heaviest.other;
+    const name: ReactNode = linkToCharacter ? (
+      <NameLink onClick={() => linkToCharacter(partner)}>{m.heaviest.name}</NameLink>
+    ) : (
+      m.heaviest.name
+    );
+    out.push(
+      <>
+        You shared more of this world with {name} than with anyone else{how}.
+      </>,
+    );
   }
 
   // Whose company you kept. Distinct from how many people you knew and from

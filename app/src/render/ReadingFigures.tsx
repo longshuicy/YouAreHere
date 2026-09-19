@@ -215,9 +215,13 @@ import type { RingMark } from '../graph/reading';
 export function LookAlikeRings({
   rings,
   width = WIDTH * 2,
+  onSelect,
 }: {
-  rings: { name: string; ring: RingMark[]; you?: boolean }[];
+  rings: { i?: number; name: string; ring: RingMark[]; you?: boolean }[];
   width?: number;
+  /** Present only where a rival's index means something to jump to — the
+   * gallery and the reveal both know it, but nothing here requires it. */
+  onSelect?: (i: number) => void;
 }) {
   const cells = Math.max(1, rings.length);
   const cell = width / cells;
@@ -235,12 +239,16 @@ export function LookAlikeRings({
     <div>
       <svg
         viewBox={`0 0 ${width} ${height}`}
-        aria-hidden
+        // Decorative except for the name underneath each ring, which stays
+        // reachable when it can be selected — hiding the whole figure would
+        // hide the one part of it that is also a control.
+        aria-hidden={!onSelect}
         style={{ display: 'block', width: '100%', height: 'auto' }}
       >
         {rings.map((subject, index) => {
           const cx = index * cell + cell / 2;
           const cy = radius + 4;
+          const selectable = !subject.you && onSelect && subject.i !== undefined;
           return (
             <g key={`${subject.name}-${index}`}>
               {subject.ring.map((mark, k) => {
@@ -274,9 +282,22 @@ export function LookAlikeRings({
                 x={cx}
                 y={height - 5}
                 textAnchor="middle"
+                role={selectable ? 'link' : undefined}
+                tabIndex={selectable ? 0 : undefined}
+                onClick={selectable ? () => onSelect!(subject.i!) : undefined}
+                onKeyDown={
+                  selectable
+                    ? (e) => {
+                        if (e.key === 'Enter' || e.key === ' ') onSelect!(subject.i!);
+                      }
+                    : undefined
+                }
                 style={{
                   font: `10px var(--serif)`,
                   fill: subject.you ? 'var(--accent)' : 'var(--annotation)',
+                  textDecoration: selectable ? 'underline' : undefined,
+                  textDecorationColor: 'var(--leader)',
+                  cursor: selectable ? 'pointer' : undefined,
                 }}
               >
                 {subject.you ? 'You' : subject.name}

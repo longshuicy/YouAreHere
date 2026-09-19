@@ -3,6 +3,7 @@ import { describeContext, describeReadings, revealMetrics } from '../graph/metri
 import { cardinal, ordinal, ordinalMark } from '../graph/project';
 import { describeAsymmetry, readCharacter, type RoundReading } from '../graph/reading';
 import { CampSplit, CrowdStrip, LookAlikeRings, TieWeights } from '../render/ReadingFigures';
+import { NameLink } from '../render/NameLink';
 import { DegreeBars } from '../gallery/Fingerprint';
 import type { WorldMetrics } from '../gallery/metrics';
 import type { NodeFacts, NodeIndex, Universe, UniverseMeta } from '../types';
@@ -46,12 +47,12 @@ export function Group({ question, children }: { question: string; children: Reac
   );
 }
 
-function Prose({ lines }: { lines: string[] }) {
+function Prose({ lines }: { lines: ReactNode[] }) {
   if (lines.length === 0) return null;
   return (
     <div style={{ fontSize: 16, color: 'var(--annotation)', lineHeight: 1.75 }}>
-      {lines.map((line) => (
-        <div key={line}>{line}</div>
+      {lines.map((line, k) => (
+        <div key={k}>{line}</div>
       ))}
     </div>
   );
@@ -65,7 +66,11 @@ function Prose({ lines }: { lines: string[] }) {
  * this page describing something they could have done differently, and unlike
  * the count it is specific enough to argue with.
  */
-function ringsCaption(shown: number, round: RoundReading | null): string {
+function ringsCaption(
+  shown: number,
+  round: RoundReading | null,
+  linkToCharacter?: (i: number) => void,
+): ReactNode {
   // Says how many are drawn, because the sentence above gives how many there
   // were and the two are rarely the same number: sixty-one look-alikes, three
   // of them on the paper.
@@ -79,9 +84,17 @@ function ringsCaption(shown: number, round: RoundReading | null): string {
   if (!discriminator || discriminator.rulesOut === 0) {
     return `${what} Nothing left in your own ring would have separated you from them. The diagram alone was never going to name you.`;
   }
-  return discriminator.leavesOnlyYou
-    ? `${what} Turning over ${discriminator.name} would have left only you.`
-    : `${what} Turning over ${discriminator.name} would have ruled out ${cardinal(discriminator.rulesOut)} of them.`;
+  const name = linkToCharacter ? (
+    <NameLink onClick={() => linkToCharacter(discriminator.i)}>{discriminator.name}</NameLink>
+  ) : (
+    discriminator.name
+  );
+  return (
+    <>
+      {what} Turning over {name}{' '}
+      {discriminator.leavesOnlyYou ? 'would have left only you.' : `would have ruled out ${cardinal(discriminator.rulesOut)} of them.`}
+    </>
+  );
 }
 
 /** How many ties the list beside the drawing holds.
@@ -95,10 +108,21 @@ function ringsCaption(shown: number, round: RoundReading | null): string {
 const TIE_ROWS = 10;
 
 /** "A", "A and B", "A, B and C" — the list is at most three names long, so
- * there is no case here worth a library. */
-function joinNames(names: string[]): string {
+ * there is no case here worth a library. Takes nodes rather than strings so a
+ * name can be a link without this losing its punctuation logic. */
+function joinNames(names: ReactNode[]): ReactNode {
   if (names.length <= 1) return names[0] ?? '';
-  return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+  return (
+    <>
+      {names.slice(0, -1).map((name, k) => (
+        <span key={k}>
+          {name}
+          {', '}
+        </span>
+      ))}
+      and {names[names.length - 1]}
+    </>
+  );
 }
 
 /**
@@ -142,6 +166,8 @@ export function CharacterReading({
   meta,
   i,
   round = null,
+  linkToCharacter,
+  linkToTwin,
 }: {
   universe: Universe;
   world: WorldMetrics;
@@ -149,6 +175,13 @@ export function CharacterReading({
   i: NodeIndex;
   /** Absent in the gallery, where there is no round behind the character. */
   round?: RoundReading | null;
+  /** Jump to another character's own reading, in the topology gallery. Every
+   * name below is someone the story already names by the time this page can
+   * be read, so nothing here is a spoiler that a link would hand out early. */
+  linkToCharacter?: (i: NodeIndex) => void;
+  /** The one name on this page that can belong to a different world: the
+   * nearest double, found across the whole catalogue. */
+  linkToTwin?: (world: string, name: string) => void;
 }) {
   const reading = useMemo(() => readCharacter(universe, world, i), [universe, world, i]);
   const metrics = useMemo(() => revealMetrics(universe, i), [universe, i]);
@@ -156,8 +189,8 @@ export function CharacterReading({
   const facts = useMemo(() => (record?.facts ?? {}) as NodeFacts, [record]);
   const context = useMemo(() => describeContext(meta, facts), [meta, facts]);
   const readings = useMemo(
-    () => describeReadings(metrics, record?.signals ?? null, universe.id),
-    [metrics, record, universe.id],
+    () => describeReadings(metrics, record?.signals ?? null, universe.id, 4, linkToCharacter, linkToTwin),
+    [metrics, record, universe.id, linkToCharacter, linkToTwin],
   );
   const asymmetry = describeAsymmetry(reading);
 
@@ -249,7 +282,13 @@ export function CharacterReading({
                         whiteSpace: 'nowrap',
                       }}
                     >
-                      {tie.name}
+                      {linkToCharacter ? (
+                        <NameLink style={{ display: 'inline' }} onClick={() => linkToCharacter(tie.i)}>
+                          {tie.name}
+                        </NameLink>
+                      ) : (
+                        tie.name
+                      )}
                     </span>
                     <span
                       className="mono"
@@ -287,10 +326,13 @@ export function CharacterReading({
             <LookAlikeRings
               rings={[
                 { name: reading.name, ring: reading.ring, you: true },
-                ...shortlist.nearest.map((other) => ({ name: other.name, ring: other.ring })),
+                ...shortlist.nearest.map((other) => ({ i: other.i, name: other.name, ring: other.ring })),
               ]}
+              onSelect={linkToCharacter}
             />
-            <Note style={{ paddingTop: 10 }}>{ringsCaption(shortlist.nearest.length, round)}</Note>
+            <Note style={{ paddingTop: 10 }}>
+              {ringsCaption(shortlist.nearest.length, round, linkToCharacter)}
+            </Note>
           </div>
         )}
       </Group>
@@ -342,15 +384,46 @@ export function CharacterReading({
         <Group question="What you left on the table">
           {round.neverTurned.length > 0 && (
             <div style={{ fontSize: 16, color: 'var(--annotation)', lineHeight: 1.75 }}>
-              {round.neverTurned.length === 1
-                ? `You never once turned over ${round.neverTurned[0].name}, and you shared more of this world with them than with almost anyone.`
-                : `You never turned over ${joinNames(round.neverTurned.map((t) => t.name))}: ${cardinal(round.neverTurned.length)} of the people you shared most of this world with.`}
+              {(() => {
+                const nameNode = (t: (typeof round.neverTurned)[number]) =>
+                  linkToCharacter ? (
+                    <NameLink key={t.i} onClick={() => linkToCharacter(t.i)}>
+                      {t.name}
+                    </NameLink>
+                  ) : (
+                    t.name
+                  );
+                return round.neverTurned.length === 1 ? (
+                  <>
+                    You never once turned over {nameNode(round.neverTurned[0])}, and you shared more of
+                    this world with them than with almost anyone.
+                  </>
+                ) : (
+                  <>
+                    You never turned over {joinNames(round.neverTurned.map(nameNode))}:{' '}
+                    {cardinal(round.neverTurned.length)} of the people you shared most of this world with.
+                  </>
+                );
+              })()}
             </div>
           )}
           {round.missed && (
             <div style={{ fontSize: 16, color: 'var(--annotation)', lineHeight: 1.75 }}>
-              One more expansion, through {round.missed.through}, and you would have been looking at{' '}
-              {round.missed.who}.
+              One more expansion, through{' '}
+              {linkToCharacter ? (
+                <NameLink onClick={() => linkToCharacter(round.missed!.throughId)}>
+                  {round.missed.through}
+                </NameLink>
+              ) : (
+                round.missed.through
+              )}
+              , and you would have been looking at{' '}
+              {linkToCharacter ? (
+                <NameLink onClick={() => linkToCharacter(round.missed!.whoId)}>{round.missed.who}</NameLink>
+              ) : (
+                round.missed.who
+              )}
+              .
             </div>
           )}
         </Group>

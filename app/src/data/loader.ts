@@ -1,4 +1,4 @@
-import type { IndexFile, PlayableCounts, PuzzleRecord, Universe, UniverseMeta } from '../types';
+import type { IndexFile, NodeIndex, PlayableCounts, PuzzleRecord, Universe, UniverseMeta } from '../types';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
@@ -19,6 +19,20 @@ export async function fetchMeta(universeId: string): Promise<UniverseMeta> {
   const res = await fetch(`${base}/data/${universeId}.meta.json`);
   if (!res.ok) throw new Error(`Failed to load ${universeId}.meta.json: ${res.status}`);
   return res.json();
+}
+
+/**
+ * A node's index, from its name alone.
+ *
+ * Exists for exactly one caller: a cross-catalogue "nearest double", whose
+ * sidecar carries a name and a world but not the index inside it — that
+ * signal is built once, offline, over every world at once, and was never
+ * going to also carry a client-side node id for each. Names collide rarely
+ * enough in these worlds that the first match is the right one; a link that
+ * occasionally misses is still worth more than a name nobody can follow.
+ */
+export function findByName(universe: Universe, name: string): NodeIndex | null {
+  return universe.nodes.find((n) => n.n === name)?.i ?? null;
 }
 
 /** How sharply selection concentrates around the requested score.

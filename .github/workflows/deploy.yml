@@ -55,6 +55,18 @@ jobs:
           test "$worlds" -gt 0 || { echo "index.json lists no universes"; exit 1; }
           echo "$worlds worlds bundled"
 
+      # The gallery and its worlds and characters are real routes now
+      # (/gallery, /gallery/<world>, /gallery/<world>/<i>), pushed with the
+      # History API rather than a #-fragment. Pages has no server-side router,
+      # so a fresh load — or a reload — of any of those paths 404s unless
+      # something serves the app there too. Pages' documented answer is to let
+      # 404.html serve the SPA: a copy of index.html under that name is what
+      # it falls back to for a path it does not recognise, and main.tsx reads
+      # the real path back out of the URL once it boots.
+      - name: Serve the app for deep links (404.html)
+        working-directory: app
+        run: cp dist/index.html dist/404.html
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3

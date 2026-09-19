@@ -342,11 +342,11 @@ export interface RoundReading {
    * what one more move would have. It is computable for every tie still face
    * down, and it is the only part of this reading a player could have acted on.
    */
-  discriminator: { name: string; rulesOut: number; leavesOnlyYou: boolean } | null;
+  discriminator: { i: NodeIndex; name: string; rulesOut: number; leavesOnlyYou: boolean } | null;
   /** The person standing one unturned step away who would have said the most. */
-  missed: { through: string; who: string } | null;
+  missed: { throughId: NodeIndex; through: string; whoId: NodeIndex; who: string } | null;
   /** Ties among your strongest that you never once turned over. */
-  neverTurned: { name: string; place: number }[];
+  neverTurned: { i: NodeIndex; name: string; place: number }[];
 }
 
 /** Is every count in `need` also in `have`? Both sorted ascending. */
@@ -408,13 +408,13 @@ export function readRound(
     const left = standing.filter((c) => contains(ringOf.get(c.i) ?? [], next)).length;
     const rulesOut = standing.length - left;
     if (rulesOut > (discriminator?.rulesOut ?? 0)) {
-      discriminator = { name: tie.name, rulesOut, leavesOnlyYou: left <= 1 };
+      discriminator = { i: tie.i, name: tie.name, rulesOut, leavesOnlyYou: left <= 1 };
     }
   }
 
   // What one more expansion would have been worth: of everyone you could still
   // have turned over, whose ring held the largest figure you had never seen?
-  let missed: { through: string; who: string } | null = null;
+  let missed: RoundReading['missed'] = null;
   let best = -1;
   for (const v of known.visible) {
     if (known.expanded.has(v)) continue;
@@ -423,7 +423,12 @@ export function readRound(
       const standing = byIndex.get(n)?.prominence ?? 0;
       if (standing > best) {
         best = standing;
-        missed = { through: nameOf.get(v) ?? 'someone', who: nameOf.get(n) ?? 'someone' };
+        missed = {
+          throughId: v,
+          through: nameOf.get(v) ?? 'someone',
+          whoId: n,
+          who: nameOf.get(n) ?? 'someone',
+        };
       }
     }
   }
@@ -439,7 +444,7 @@ export function readRound(
         !known.named.has(t.i) &&
         !known.facts.has(t.i),
     )
-    .map((t) => ({ name: t.name, place: t.yourPlace }));
+    .map((t) => ({ i: t.i, name: t.name, place: t.yourPlace }));
 
   return {
     candidates: { opened: candidates.length, standing: standing.length },

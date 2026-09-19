@@ -13,6 +13,15 @@ interface Props {
   meta: UniverseMeta | null;
   onStartAgain: () => void;
   onOpenGallery: () => void;
+  /** Jump straight into another character's own page in the topology gallery
+   * — every name on this page belongs to someone the story has already
+   * named, so nothing here is a spoiler a link would hand out early. */
+  onOpenCharacter: (i: number) => void;
+  /** Jump to this world's own card in the gallery. */
+  onOpenWorld: () => void;
+  /** Jump to the nearest double named in "What the shape said" — the one name
+   * on this page that can belong to a different world entirely. */
+  onOpenTwin: (world: string, name: string) => void;
 }
 
 export function Reveal({
@@ -21,6 +30,9 @@ export function Reveal({
   meta,
   onStartAgain,
   onOpenGallery,
+  onOpenCharacter,
+  onOpenWorld,
+  onOpenTwin,
 }: Props) {
   const clues = clueTotal(session.ledger);
   const { expansions, facts, names } = session.ledger;
@@ -88,6 +100,9 @@ export function Reveal({
       named={session.known.named}
       tieLine={tieLine}
       round={round}
+      linkToCharacter={onOpenCharacter}
+      linkToTwin={onOpenTwin}
+      onOpenWorld={onOpenWorld}
       chromeLeft={<BrandCluster onStartAgain={onStartAgain} />}
       chromeRight={
         <ChromeRight>

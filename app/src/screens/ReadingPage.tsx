@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { FullGraph } from '../render/FullGraph';
 import { CHROME_PADDING } from '../render/MarginLinks';
+import { NameLink } from '../render/NameLink';
 import { CharacterReading } from './CharacterReading';
 import type { RoundReading } from '../graph/reading';
 import type { WorldMetrics } from '../gallery/metrics';
@@ -33,6 +34,9 @@ export function ReadingPage({
   chromeLeft,
   chromeRight,
   after,
+  linkToCharacter,
+  linkToTwin,
+  onOpenWorld,
 }: {
   universe: Universe;
   world: WorldMetrics;
@@ -53,6 +57,15 @@ export function ReadingPage({
   chromeRight?: ReactNode;
   /** Whatever belongs under the reading: the round, the actions. */
   after?: ReactNode;
+  /** Passed straight through to the reading: jump to another character in the
+   * topology gallery. Absent where there is nowhere to jump to. */
+  linkToCharacter?: (i: NodeIndex) => void;
+  /** Passed straight through to the reading: jump to a cross-catalogue nearest
+   * double, who may stand in a world that is not this one. */
+  linkToTwin?: (world: string, name: string) => void;
+  /** Turns the world's own title, under the name, into a way to the gallery's
+   * card for it. Absent on the reveal for a story the player never named. */
+  onOpenWorld?: () => void;
 }) {
   const character = universe.nodes.find((n) => n.i === i);
   return (
@@ -96,7 +109,13 @@ export function ReadingPage({
                 marginTop: 10,
               }}
             >
-              {subtitle}
+              {onOpenWorld ? (
+                <NameLink style={{ fontStyle: 'italic' }} onClick={onOpenWorld}>
+                  {subtitle}
+                </NameLink>
+              ) : (
+                subtitle
+              )}
             </div>
           </div>
 
@@ -104,7 +123,15 @@ export function ReadingPage({
         </div>
 
         <div className="reveal-sections">
-          <CharacterReading universe={universe} world={world} meta={meta} i={i} round={round} />
+          <CharacterReading
+            universe={universe}
+            world={world}
+            meta={meta}
+            i={i}
+            round={round}
+            linkToCharacter={linkToCharacter}
+            linkToTwin={linkToTwin}
+          />
           {after}
         </div>
       </div>

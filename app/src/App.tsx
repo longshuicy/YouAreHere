@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { fetchIndex, fetchMeta, fetchUniverse, pickPuzzle, pickWorld } from './data/loader';
+import { fetchIndex, fetchMeta, fetchUniverse, findByName, pickPuzzle, pickWorld } from './data/loader';
 import type { IndexFile, PuzzleRecord, Universe, UniverseMeta } from './types';
 import { initSession, makeReducer } from './engine/session';
 import type { Session } from './engine/session';
@@ -8,6 +8,7 @@ import { suggestNames } from './engine/names';
 import { useRadialLayout } from './graph/layout';
 import { blurbFor, familiarityFor, unscoredWorlds } from './data/worlds';
 import { KeyOverlay } from './render/KeyOverlay';
+import { useRoute } from './engine/route';
 import { Gallery } from './gallery/Gallery';
 import { ColdOpen } from './screens/ColdOpen';
 import { ChooseWorld } from './screens/ChooseWorld';
@@ -62,8 +63,14 @@ export default function App() {
    * docs/The topology gallery.md, which argued for keeping it strictly behind a
    * finished run and has been relaxed: the case for the gate was that reading
    * anonymous worlds first teaches you to read them as data, but a companion
-   * piece nobody can find is not a companion to anything. */
-  const [showGallery, setShowGallery] = useState(false);
+   * piece nobody can find is not a companion to anything.
+   *
+   * Routed rather than a plain flag: the gallery, a world's card and a
+   * character's page are each a real address now, so a link into one from
+   * outside — or the back button leaving one — behaves the way any other page
+   * on the web does. A running puzzle never appears here; see `Route`. */
+  const { route, navigate } = useRoute();
+  const showGallery = route.screen !== 'game';
   /** The world chooser, and which world it is currently fetching. `choosing`
    * is separate from the session phase because it replaces the cold open rather
    * than following it — there is no session for the chosen world yet. */
@@ -376,7 +383,7 @@ export default function App() {
           onChooseEase={chooseEase}
           readsChineseClassics={readsChineseClassics}
           onReadsChineseClassics={chooseReadsChineseClassics}
-          onOpenGallery={() => setShowGallery(true)}
+          onOpenGallery={() => navigate({ screen: 'gallery' })}
         />
       );
       break;
@@ -430,7 +437,19 @@ export default function App() {
           universe={universe}
           meta={meta}
           onStartAgain={startAgain}
-          onOpenGallery={() => setShowGallery(true)}
+          onOpenGallery={() => navigate({ screen: 'gallery' })}
+          onOpenCharacter={(i) => navigate({ screen: 'gallery-character', worldId: universe.id, i })}
+          onOpenWorld={() => navigate({ screen: 'gallery-world', worldId: universe.id })}
+          onOpenTwin={(worldId, name) => {
+            // Only linkable once that world's own file has landed — every
+            // world loads in the background from boot, so by the time a
+            // round has actually been played this has almost always
+            // resolved; if it has not, the click is a quiet no-op rather
+            // than a broken link, because there is no index to send it to.
+            const target = loaded.get(worldId);
+            const i = target ? findByName(target, name) : null;
+            if (i != null) navigate({ screen: 'gallery-character', worldId, i });
+          }}
         />
       );
       break;
@@ -443,8 +462,10 @@ export default function App() {
     return (
       <Gallery
         universes={[...loaded.values()]}
+        route={route}
+        navigate={navigate}
         onStartAgain={() => {
-          setShowGallery(false);
+          navigate({ screen: 'game' });
           startAgain();
         }}
       />
