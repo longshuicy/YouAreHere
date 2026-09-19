@@ -1,4 +1,4 @@
-import { edgeKey, timesTogether, type VisibleEdge } from '../graph/project';
+import { edgeKey, timesFigure, type VisibleEdge } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { tieColor, tieWidth } from './scales';
 
@@ -67,10 +67,10 @@ export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom
             />
             {/* The figure the thickness stands for, set in the analytical voice
                 and only while the tie is lit. Two of them side by side is the
-                whole reason it is here: 47 times against 12 settles in a glance
-                what two strokes a pixel apart never will. The unit is *times*
-                in every world, because the real one — verses, scenes, bills —
-                would say which world this is. */}
+                whole reason it is here: 47× against 12× settles in a
+                glance what two strokes a pixel apart never will. The sign is
+                *times* in every world, because the real unit — verses, scenes,
+                bills — would say which world this is. */}
             {isLit && (
               <text
                 // Two thirds of the way along rather than halfway: the tie is
@@ -90,7 +90,7 @@ export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom
                   pointerEvents: 'none',
                 }}
               >
-                {timesTogether(e.weight)}
+                {timesFigure(e.weight)}
               </text>
             )}
           </g>

@@ -233,15 +233,17 @@ export function standingOf(universe: Universe, you: NodeIndex): number {
 }
 
 /**
- * A tie's figure with its unit attached, in the one unit every world shares.
+ * A tie's figure, with the one unit sign that works in every world.
  *
  * The count means something different in each dataset — verses naming both,
  * shared scenes, bills co-sponsored — and saying which would tell the player
- * where they are. *Times* is true of all of them and names none of them, and a
- * bare numeral beside a name reads as an identifier rather than a quantity.
+ * where they are. `48×` says *forty-eight times* without naming what
+ * happened forty-eight times, and it says it in two glyphs: the figure sits
+ * beside a name on one line and beside a tie on the paper without becoming the
+ * loudest thing in either place, which spelling it out did.
  */
-export function timesTogether(weight: number): string {
-  return weight === 1 ? 'once' : `${weight} times`;
+export function timesFigure(weight: number): string {
+  return `${weight}\u00d7`;
 }
 
 const CARDINALS = [

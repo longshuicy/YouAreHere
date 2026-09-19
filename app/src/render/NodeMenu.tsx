@@ -7,7 +7,7 @@ import type { ActionKey, Session } from '../engine/session';
 import type { NodeIndex } from '../types';
 import { availableActionsFor, canClaim } from '../engine/session';
 import { nodeRadius } from './scales';
-import { cardinal, timesTogether } from '../graph/project';
+import { cardinal, timesFigure } from '../graph/project';
 
 interface Props {
   node: VisibleNode | null;
@@ -403,10 +403,17 @@ export function NodeMenu({
                   display: 'flex',
                   alignItems: 'baseline',
                   justifyContent: 'space-between',
-                  gap: 12,
+                  // Tighter than the other rows: this one carries a name and a
+                  // figure where they carry a phrase, and the twelve every
+                  // other row uses is what pushed it onto two lines.
+                  gap: 7,
                   width: '100%',
                   padding: '9px 0',
                   textAlign: 'left',
+                  // A name too long to sit beside the label drops whole onto
+                  // the next line, rather than breaking between its own words
+                  // and leaving the figure stranded in the middle of somebody.
+                  flexWrap: 'wrap',
                   color: lit ? 'var(--accent)' : undefined,
                 }}
               >
@@ -419,13 +426,18 @@ export function NodeMenu({
                     whiteSpace: 'nowrap',
                   }}
                 >
-                  shares most
+                  thickest
                 </span>
-                {/* The only row whose right-hand side can run long — a bought
-                    name and a figure together — so it is the only one allowed
-                    to wrap rather than push past the edge of the panel. */}
+                {/* Who, then how much — and the figure is set in the small mono
+                    of a measurement rather than in the prose of a name, so the
+                    person is what the eye lands on and the count is there to be
+                    compared against the next one. */}
                 <span
                   style={{
+                    display: 'flex',
+                    alignItems: 'baseline',
+                    justifyContent: 'flex-end',
+                    gap: 6,
                     fontFamily: 'var(--serif)',
                     fontSize: 14,
                     color: 'var(--body)',
@@ -433,10 +445,17 @@ export function NodeMenu({
                     lineHeight: 1.3,
                   }}
                 >
-                  {picker.neighbours.length === 1
-                    ? labelOf(picker.neighbours[0])
-                    : `${cardinal(picker.neighbours.length)} equal`}{' '}
-                  · {timesTogether(picker.weight)}
+                  <span style={{ whiteSpace: 'nowrap' }}>
+                    {picker.neighbours.length === 1
+                      ? labelOf(picker.neighbours[0])
+                      : `${cardinal(picker.neighbours.length)} equal`}
+                  </span>
+                  <span
+                    className="mono"
+                    style={{ fontSize: 10.5, color: 'var(--annotation)', whiteSpace: 'nowrap' }}
+                  >
+                    {timesFigure(picker.weight)}
+                  </span>
                 </span>
               </button>
               {lit && picker.neighbours.length > 1 && (
