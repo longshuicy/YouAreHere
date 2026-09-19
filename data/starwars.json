@@ -3776,6 +3776,7 @@
  "playable": [
   0,
   1,
+  2,
   3,
   5,
   6,
@@ -3827,283 +3828,289 @@
    "id": "starwars-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.529
+   "ease": 0.381
   },
   {
    "id": "starwars-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.509
+   "ease": 0.465
+  },
+  {
+   "id": "starwars-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.581
   },
   {
    "id": "starwars-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.565
+   "ease": 0.463
   },
   {
    "id": "starwars-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.661
+   "ease": 0.51
   },
   {
    "id": "starwars-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.59
+   "ease": 0.499
   },
   {
    "id": "starwars-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.538
+   "ease": 0.4
   },
   {
    "id": "starwars-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.516
+   "ease": 0.456
   },
   {
    "id": "starwars-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.513
+   "ease": 0.449
   },
   {
    "id": "starwars-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.619
+   "ease": 0.623
   },
   {
    "id": "starwars-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.631
+   "ease": 0.51
   },
   {
    "id": "starwars-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.509
+   "ease": 0.38
   },
   {
    "id": "starwars-p0020",
    "you": 20,
    "startRadius": 1,
-   "ease": 0.657
+   "ease": 0.638
   },
   {
    "id": "starwars-p0023",
    "you": 23,
    "startRadius": 1,
-   "ease": 0.61
+   "ease": 0.404
   },
   {
    "id": "starwars-p0025",
    "you": 25,
    "startRadius": 1,
-   "ease": 0.554
+   "ease": 0.582
   },
   {
    "id": "starwars-p0030",
    "you": 30,
    "startRadius": 1,
-   "ease": 0.618
+   "ease": 0.522
   },
   {
    "id": "starwars-p0032",
    "you": 32,
    "startRadius": 1,
-   "ease": 0.602
+   "ease": 0.522
   },
   {
    "id": "starwars-p0040",
    "you": 40,
    "startRadius": 1,
-   "ease": 0.665
+   "ease": 0.651
   },
   {
    "id": "starwars-p0041",
    "you": 41,
    "startRadius": 1,
-   "ease": 0.624
+   "ease": 0.366
   },
   {
    "id": "starwars-p0043",
    "you": 43,
    "startRadius": 1,
-   "ease": 0.604
+   "ease": 0.578
   },
   {
    "id": "starwars-p0047",
    "you": 47,
    "startRadius": 1,
-   "ease": 0.582
+   "ease": 0.43
   },
   {
    "id": "starwars-p0048",
    "you": 48,
    "startRadius": 1,
-   "ease": 0.553
+   "ease": 0.406
   },
   {
    "id": "starwars-p0049",
    "you": 49,
    "startRadius": 1,
-   "ease": 0.607
+   "ease": 0.407
   },
   {
    "id": "starwars-p0051",
    "you": 51,
    "startRadius": 1,
-   "ease": 0.604
+   "ease": 0.614
   },
   {
    "id": "starwars-p0052",
    "you": 52,
    "startRadius": 1,
-   "ease": 0.65
+   "ease": 0.619
   },
   {
    "id": "starwars-p0055",
    "you": 55,
    "startRadius": 1,
-   "ease": 0.628
+   "ease": 0.608
   },
   {
    "id": "starwars-p0056",
    "you": 56,
    "startRadius": 1,
-   "ease": 0.57
+   "ease": 0.493
   },
   {
    "id": "starwars-p0058",
    "you": 58,
    "startRadius": 1,
-   "ease": 0.511
+   "ease": 0.382
   },
   {
    "id": "starwars-p0062",
    "you": 62,
    "startRadius": 1,
-   "ease": 0.5
+   "ease": 0.41
   },
   {
    "id": "starwars-p0063",
    "you": 63,
    "startRadius": 1,
-   "ease": 0.592
+   "ease": 0.596
   },
   {
    "id": "starwars-p0066",
    "you": 66,
    "startRadius": 1,
-   "ease": 0.6
+   "ease": 0.497
   },
   {
    "id": "starwars-p0068",
    "you": 68,
    "startRadius": 1,
-   "ease": 0.574
+   "ease": 0.547
   },
   {
    "id": "starwars-p0071",
    "you": 71,
    "startRadius": 1,
-   "ease": 0.657
+   "ease": 0.549
   },
   {
    "id": "starwars-p0072",
    "you": 72,
    "startRadius": 1,
-   "ease": 0.488
+   "ease": 0.407
   },
   {
    "id": "starwars-p0073",
    "you": 73,
    "startRadius": 1,
-   "ease": 0.624
+   "ease": 0.562
   },
   {
    "id": "starwars-p0074",
    "you": 74,
    "startRadius": 1,
-   "ease": 0.649
+   "ease": 0.632
   },
   {
    "id": "starwars-p0076",
    "you": 76,
    "startRadius": 1,
-   "ease": 0.524
+   "ease": 0.355
   },
   {
    "id": "starwars-p0078",
    "you": 78,
    "startRadius": 1,
-   "ease": 0.675
+   "ease": 0.596
   },
   {
    "id": "starwars-p0079",
    "you": 79,
    "startRadius": 1,
-   "ease": 0.558
+   "ease": 0.435
   },
   {
    "id": "starwars-p0083",
    "you": 83,
    "startRadius": 1,
-   "ease": 0.546
+   "ease": 0.386
   },
   {
    "id": "starwars-p0084",
    "you": 84,
    "startRadius": 1,
-   "ease": 0.484
+   "ease": 0.347
   },
   {
    "id": "starwars-p0085",
    "you": 85,
    "startRadius": 1,
-   "ease": 0.596
+   "ease": 0.474
   },
   {
    "id": "starwars-p0086",
    "you": 86,
    "startRadius": 1,
-   "ease": 0.56
+   "ease": 0.424
   },
   {
    "id": "starwars-p0087",
    "you": 87,
    "startRadius": 1,
-   "ease": 0.496
+   "ease": 0.404
   },
   {
    "id": "starwars-p0090",
    "you": 90,
    "startRadius": 1,
-   "ease": 0.496
+   "ease": 0.407
   },
   {
    "id": "starwars-p0098",
    "you": 98,
    "startRadius": 1,
-   "ease": 0.611
+   "ease": 0.556
   },
   {
    "id": "starwars-p0099",
    "you": 99,
    "startRadius": 1,
-   "ease": 0.574
+   "ease": 0.388
   },
   {
    "id": "starwars-p0100",
    "you": 100,
    "startRadius": 1,
-   "ease": 0.593
+   "ease": 0.504
   }
  ],
  "provenance": {

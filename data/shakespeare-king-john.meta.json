@@ -14,7 +14,7 @@
    },
    "line": "Duke of Brittany.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 39
    }
   },
   "1": {
@@ -31,7 +31,7 @@
    },
    "line": "Duke.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "2": {
@@ -44,7 +44,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 24
    }
   },
   "3": {
@@ -73,7 +73,7 @@
    },
    "line": "Queen Consort of France.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "5": {
@@ -85,7 +85,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 63
    }
   },
   "6": {
@@ -100,7 +100,7 @@
    },
    "line": "Ambassador.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "7": {
@@ -117,7 +117,7 @@
    },
    "line": "Duke of Brittany.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "8": {
@@ -134,7 +134,7 @@
    },
    "line": "King of France.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "9": {
@@ -151,7 +151,7 @@
    },
    "line": "Justiciar.",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 37
    }
   },
   "10": {
@@ -164,7 +164,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 37
    }
   },
   "11": {
@@ -177,7 +177,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 63
    }
   },
   "12": {
@@ -190,7 +190,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 63
    }
   },
   "13": {
@@ -207,7 +207,7 @@
    },
    "line": "Chief governor of Ireland.",
    "signals": {
-    "lookAlikes": 60
+    "lookAlikes": 44
    }
   },
   "14": {
@@ -222,7 +222,7 @@
    },
    "line": "King of England.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 46
    }
   },
   "15": {
@@ -239,7 +239,7 @@
    },
    "line": "King of France.",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   },
   "16": {
@@ -252,7 +252,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 37
    }
   },
   "17": {
@@ -279,7 +279,7 @@
    },
    "line": "Roman Catholic Bishop of Norwich (England).",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 63
    }
   },
   "19": {
@@ -296,7 +296,7 @@
    },
    "line": "Earl Marshal.",
    "signals": {
-    "lookAlikes": 60
+    "lookAlikes": 44
    }
   },
   "20": {
@@ -337,7 +337,7 @@
    },
    "line": "Queen of Franks.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 39
    }
   },
   "23": {
@@ -349,7 +349,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 37
    }
   },
   "24": {
@@ -362,7 +362,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 65
    }
   }
  },

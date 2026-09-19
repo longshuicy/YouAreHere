@@ -12604,6 +12604,7 @@
   66,
   67,
   68,
+  69,
   70,
   72,
   73,
@@ -12611,6 +12612,7 @@
   75,
   81,
   82,
+  85,
   86,
   88,
   90,
@@ -12620,6 +12622,8 @@
   96,
   97,
   98,
+  99,
+  100,
   102,
   103,
   104,
@@ -12675,10 +12679,12 @@
   172,
   173,
   175,
+  176,
   177,
   178,
   180,
   181,
+  182,
   183,
   184,
   185,
@@ -12729,6 +12735,7 @@
   247,
   248,
   250,
+  251,
   252,
   253
  ],
@@ -12737,1093 +12744,1135 @@
    "id": "shakespeare-english-histories-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.51
+   "ease": 0.4
   },
   {
    "id": "shakespeare-english-histories-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.563
+   "ease": 0.521
   },
   {
    "id": "shakespeare-english-histories-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.431
+   "ease": 0.329
   },
   {
    "id": "shakespeare-english-histories-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.563
+   "ease": 0.514
   },
   {
    "id": "shakespeare-english-histories-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.677
+   "ease": 0.52
   },
   {
    "id": "shakespeare-english-histories-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.568
+   "ease": 0.458
   },
   {
    "id": "shakespeare-english-histories-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.6
+   "ease": 0.659
   },
   {
    "id": "shakespeare-english-histories-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.484
+   "ease": 0.407
   },
   {
    "id": "shakespeare-english-histories-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.623
+   "ease": 0.5
   },
   {
    "id": "shakespeare-english-histories-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.558
+   "ease": 0.355
   },
   {
    "id": "shakespeare-english-histories-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.574
+   "ease": 0.532
   },
   {
    "id": "shakespeare-english-histories-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.394
+   "ease": 0.331
   },
   {
    "id": "shakespeare-english-histories-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.614
+   "ease": 0.497
   },
   {
    "id": "shakespeare-english-histories-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.532
+   "ease": 0.428
   },
   {
    "id": "shakespeare-english-histories-p0020",
    "you": 20,
    "startRadius": 1,
-   "ease": 0.507
+   "ease": 0.443
   },
   {
    "id": "shakespeare-english-histories-p0021",
    "you": 21,
    "startRadius": 1,
-   "ease": 0.51
+   "ease": 0.478
   },
   {
    "id": "shakespeare-english-histories-p0022",
    "you": 22,
    "startRadius": 1,
-   "ease": 0.428
+   "ease": 0.339
   },
   {
    "id": "shakespeare-english-histories-p0025",
    "you": 25,
    "startRadius": 1,
-   "ease": 0.486
+   "ease": 0.43
   },
   {
    "id": "shakespeare-english-histories-p0026",
    "you": 26,
    "startRadius": 1,
-   "ease": 0.446
+   "ease": 0.405
   },
   {
    "id": "shakespeare-english-histories-p0028",
    "you": 28,
    "startRadius": 1,
-   "ease": 0.588
+   "ease": 0.547
   },
   {
    "id": "shakespeare-english-histories-p0029",
    "you": 29,
    "startRadius": 1,
-   "ease": 0.581
+   "ease": 0.539
   },
   {
    "id": "shakespeare-english-histories-p0030",
    "you": 30,
    "startRadius": 1,
-   "ease": 0.416
+   "ease": 0.371
   },
   {
    "id": "shakespeare-english-histories-p0031",
    "you": 31,
    "startRadius": 1,
-   "ease": 0.628
+   "ease": 0.504
   },
   {
    "id": "shakespeare-english-histories-p0032",
    "you": 32,
    "startRadius": 1,
-   "ease": 0.402
+   "ease": 0.315
   },
   {
    "id": "shakespeare-english-histories-p0033",
    "you": 33,
    "startRadius": 1,
-   "ease": 0.543
+   "ease": 0.391
   },
   {
    "id": "shakespeare-english-histories-p0034",
    "you": 34,
    "startRadius": 1,
-   "ease": 0.561
+   "ease": 0.355
   },
   {
    "id": "shakespeare-english-histories-p0035",
    "you": 35,
    "startRadius": 1,
-   "ease": 0.665
+   "ease": 0.596
   },
   {
    "id": "shakespeare-english-histories-p0037",
    "you": 37,
    "startRadius": 1,
-   "ease": 0.604
+   "ease": 0.565
   },
   {
    "id": "shakespeare-english-histories-p0038",
    "you": 38,
    "startRadius": 1,
-   "ease": 0.367
+   "ease": 0.357
   },
   {
    "id": "shakespeare-english-histories-p0039",
    "you": 39,
    "startRadius": 1,
-   "ease": 0.615
+   "ease": 0.529
   },
   {
    "id": "shakespeare-english-histories-p0040",
    "you": 40,
    "startRadius": 1,
-   "ease": 0.564
+   "ease": 0.528
   },
   {
    "id": "shakespeare-english-histories-p0041",
    "you": 41,
    "startRadius": 1,
-   "ease": 0.616
+   "ease": 0.399
   },
   {
    "id": "shakespeare-english-histories-p0042",
    "you": 42,
    "startRadius": 1,
-   "ease": 0.512
+   "ease": 0.429
   },
   {
    "id": "shakespeare-english-histories-p0043",
    "you": 43,
    "startRadius": 1,
-   "ease": 0.606
+   "ease": 0.567
   },
   {
    "id": "shakespeare-english-histories-p0044",
    "you": 44,
    "startRadius": 1,
-   "ease": 0.417
+   "ease": 0.391
   },
   {
    "id": "shakespeare-english-histories-p0045",
    "you": 45,
    "startRadius": 1,
-   "ease": 0.418
+   "ease": 0.391
   },
   {
    "id": "shakespeare-english-histories-p0046",
    "you": 46,
    "startRadius": 1,
-   "ease": 0.472
+   "ease": 0.35
   },
   {
    "id": "shakespeare-english-histories-p0047",
    "you": 47,
    "startRadius": 1,
-   "ease": 0.566
+   "ease": 0.48
   },
   {
    "id": "shakespeare-english-histories-p0048",
    "you": 48,
    "startRadius": 1,
-   "ease": 0.593
+   "ease": 0.522
   },
   {
    "id": "shakespeare-english-histories-p0050",
    "you": 50,
    "startRadius": 1,
-   "ease": 0.514
+   "ease": 0.32
   },
   {
    "id": "shakespeare-english-histories-p0052",
    "you": 52,
    "startRadius": 1,
-   "ease": 0.476
+   "ease": 0.432
   },
   {
    "id": "shakespeare-english-histories-p0053",
    "you": 53,
    "startRadius": 1,
-   "ease": 0.516
+   "ease": 0.32
   },
   {
    "id": "shakespeare-english-histories-p0055",
    "you": 55,
    "startRadius": 1,
-   "ease": 0.63
+   "ease": 0.506
   },
   {
    "id": "shakespeare-english-histories-p0056",
    "you": 56,
    "startRadius": 1,
-   "ease": 0.618
+   "ease": 0.576
   },
   {
    "id": "shakespeare-english-histories-p0057",
    "you": 57,
    "startRadius": 1,
-   "ease": 0.469
+   "ease": 0.416
   },
   {
    "id": "shakespeare-english-histories-p0058",
    "you": 58,
    "startRadius": 1,
-   "ease": 0.55
+   "ease": 0.454
   },
   {
    "id": "shakespeare-english-histories-p0059",
    "you": 59,
    "startRadius": 1,
-   "ease": 0.546
+   "ease": 0.48
   },
   {
    "id": "shakespeare-english-histories-p0060",
    "you": 60,
    "startRadius": 1,
-   "ease": 0.711
+   "ease": 0.464
   },
   {
    "id": "shakespeare-english-histories-p0062",
    "you": 62,
    "startRadius": 1,
-   "ease": 0.497
+   "ease": 0.447
   },
   {
    "id": "shakespeare-english-histories-p0063",
    "you": 63,
    "startRadius": 1,
-   "ease": 0.601
+   "ease": 0.59
   },
   {
    "id": "shakespeare-english-histories-p0064",
    "you": 64,
    "startRadius": 1,
-   "ease": 0.528
+   "ease": 0.49
   },
   {
    "id": "shakespeare-english-histories-p0065",
    "you": 65,
    "startRadius": 1,
-   "ease": 0.41
+   "ease": 0.37
   },
   {
    "id": "shakespeare-english-histories-p0066",
    "you": 66,
    "startRadius": 1,
-   "ease": 0.531
+   "ease": 0.442
   },
   {
    "id": "shakespeare-english-histories-p0067",
    "you": 67,
    "startRadius": 1,
-   "ease": 0.546
+   "ease": 0.453
   },
   {
    "id": "shakespeare-english-histories-p0068",
    "you": 68,
    "startRadius": 1,
-   "ease": 0.392
+   "ease": 0.319
+  },
+  {
+   "id": "shakespeare-english-histories-p0069",
+   "you": 69,
+   "startRadius": 1,
+   "ease": 0.744
   },
   {
    "id": "shakespeare-english-histories-p0070",
    "you": 70,
    "startRadius": 1,
-   "ease": 0.517
+   "ease": 0.431
   },
   {
    "id": "shakespeare-english-histories-p0072",
    "you": 72,
    "startRadius": 1,
-   "ease": 0.426
+   "ease": 0.371
   },
   {
    "id": "shakespeare-english-histories-p0073",
    "you": 73,
    "startRadius": 1,
-   "ease": 0.534
+   "ease": 0.488
   },
   {
    "id": "shakespeare-english-histories-p0074",
    "you": 74,
    "startRadius": 1,
-   "ease": 0.537
+   "ease": 0.424
   },
   {
    "id": "shakespeare-english-histories-p0075",
    "you": 75,
    "startRadius": 1,
-   "ease": 0.531
+   "ease": 0.473
   },
   {
    "id": "shakespeare-english-histories-p0081",
    "you": 81,
    "startRadius": 1,
-   "ease": 0.566
+   "ease": 0.415
   },
   {
    "id": "shakespeare-english-histories-p0082",
    "you": 82,
    "startRadius": 1,
-   "ease": 0.586
+   "ease": 0.478
+  },
+  {
+   "id": "shakespeare-english-histories-p0085",
+   "you": 85,
+   "startRadius": 1,
+   "ease": 0.59
   },
   {
    "id": "shakespeare-english-histories-p0086",
    "you": 86,
    "startRadius": 1,
-   "ease": 0.532
+   "ease": 0.473
   },
   {
    "id": "shakespeare-english-histories-p0088",
    "you": 88,
    "startRadius": 1,
-   "ease": 0.547
+   "ease": 0.391
   },
   {
    "id": "shakespeare-english-histories-p0090",
    "you": 90,
    "startRadius": 1,
-   "ease": 0.571
+   "ease": 0.477
   },
   {
    "id": "shakespeare-english-histories-p0092",
    "you": 92,
    "startRadius": 1,
-   "ease": 0.399
+   "ease": 0.316
   },
   {
    "id": "shakespeare-english-histories-p0093",
    "you": 93,
    "startRadius": 1,
-   "ease": 0.401
+   "ease": 0.316
   },
   {
    "id": "shakespeare-english-histories-p0094",
    "you": 94,
    "startRadius": 1,
-   "ease": 0.414
+   "ease": 0.417
   },
   {
    "id": "shakespeare-english-histories-p0096",
    "you": 96,
    "startRadius": 1,
-   "ease": 0.582
+   "ease": 0.543
   },
   {
    "id": "shakespeare-english-histories-p0097",
    "you": 97,
    "startRadius": 1,
-   "ease": 0.571
+   "ease": 0.526
   },
   {
    "id": "shakespeare-english-histories-p0098",
    "you": 98,
    "startRadius": 1,
-   "ease": 0.522
+   "ease": 0.483
+  },
+  {
+   "id": "shakespeare-english-histories-p0099",
+   "you": 99,
+   "startRadius": 1,
+   "ease": 0.633
+  },
+  {
+   "id": "shakespeare-english-histories-p0100",
+   "you": 100,
+   "startRadius": 1,
+   "ease": 0.659
   },
   {
    "id": "shakespeare-english-histories-p0102",
    "you": 102,
    "startRadius": 1,
-   "ease": 0.618
+   "ease": 0.497
   },
   {
    "id": "shakespeare-english-histories-p0103",
    "you": 103,
    "startRadius": 1,
-   "ease": 0.621
+   "ease": 0.463
   },
   {
    "id": "shakespeare-english-histories-p0104",
    "you": 104,
    "startRadius": 1,
-   "ease": 0.595
+   "ease": 0.555
   },
   {
    "id": "shakespeare-english-histories-p0105",
    "you": 105,
    "startRadius": 1,
-   "ease": 0.6
+   "ease": 0.592
   },
   {
    "id": "shakespeare-english-histories-p0106",
    "you": 106,
    "startRadius": 1,
-   "ease": 0.627
+   "ease": 0.598
   },
   {
    "id": "shakespeare-english-histories-p0107",
    "you": 107,
    "startRadius": 1,
-   "ease": 0.394
+   "ease": 0.365
   },
   {
    "id": "shakespeare-english-histories-p0109",
    "you": 109,
    "startRadius": 1,
-   "ease": 0.565
+   "ease": 0.412
   },
   {
    "id": "shakespeare-english-histories-p0112",
    "you": 112,
    "startRadius": 1,
-   "ease": 0.438
+   "ease": 0.346
   },
   {
    "id": "shakespeare-english-histories-p0114",
    "you": 114,
    "startRadius": 1,
-   "ease": 0.503
+   "ease": 0.459
   },
   {
    "id": "shakespeare-english-histories-p0115",
    "you": 115,
    "startRadius": 1,
-   "ease": 0.434
+   "ease": 0.339
   },
   {
    "id": "shakespeare-english-histories-p0116",
    "you": 116,
    "startRadius": 1,
-   "ease": 0.444
+   "ease": 0.329
   },
   {
    "id": "shakespeare-english-histories-p0117",
    "you": 117,
    "startRadius": 1,
-   "ease": 0.358
+   "ease": 0.366
   },
   {
    "id": "shakespeare-english-histories-p0118",
    "you": 118,
    "startRadius": 1,
-   "ease": 0.485
+   "ease": 0.388
   },
   {
    "id": "shakespeare-english-histories-p0119",
    "you": 119,
    "startRadius": 1,
-   "ease": 0.513
+   "ease": 0.4
   },
   {
    "id": "shakespeare-english-histories-p0120",
    "you": 120,
    "startRadius": 1,
-   "ease": 0.535
+   "ease": 0.49
   },
   {
    "id": "shakespeare-english-histories-p0121",
    "you": 121,
    "startRadius": 1,
-   "ease": 0.359
+   "ease": 0.366
   },
   {
    "id": "shakespeare-english-histories-p0123",
    "you": 123,
    "startRadius": 1,
-   "ease": 0.407
+   "ease": 0.325
   },
   {
    "id": "shakespeare-english-histories-p0127",
    "you": 127,
    "startRadius": 1,
-   "ease": 0.414
+   "ease": 0.41
   },
   {
    "id": "shakespeare-english-histories-p0128",
    "you": 128,
    "startRadius": 1,
-   "ease": 0.374
+   "ease": 0.263
   },
   {
    "id": "shakespeare-english-histories-p0129",
    "you": 129,
    "startRadius": 1,
-   "ease": 0.41
+   "ease": 0.316
   },
   {
    "id": "shakespeare-english-histories-p0130",
    "you": 130,
    "startRadius": 1,
-   "ease": 0.45
+   "ease": 0.389
   },
   {
    "id": "shakespeare-english-histories-p0131",
    "you": 131,
    "startRadius": 1,
-   "ease": 0.462
+   "ease": 0.372
   },
   {
    "id": "shakespeare-english-histories-p0132",
    "you": 132,
    "startRadius": 1,
-   "ease": 0.476
+   "ease": 0.392
   },
   {
    "id": "shakespeare-english-histories-p0133",
    "you": 133,
    "startRadius": 1,
-   "ease": 0.477
+   "ease": 0.392
   },
   {
    "id": "shakespeare-english-histories-p0134",
    "you": 134,
    "startRadius": 1,
-   "ease": 0.404
+   "ease": 0.337
   },
   {
    "id": "shakespeare-english-histories-p0135",
    "you": 135,
    "startRadius": 1,
-   "ease": 0.551
+   "ease": 0.426
   },
   {
    "id": "shakespeare-english-histories-p0136",
    "you": 136,
    "startRadius": 1,
-   "ease": 0.618
+   "ease": 0.422
   },
   {
    "id": "shakespeare-english-histories-p0137",
    "you": 137,
    "startRadius": 1,
-   "ease": 0.446
+   "ease": 0.346
   },
   {
    "id": "shakespeare-english-histories-p0138",
    "you": 138,
    "startRadius": 1,
-   "ease": 0.629
+   "ease": 0.595
   },
   {
    "id": "shakespeare-english-histories-p0140",
    "you": 140,
    "startRadius": 1,
-   "ease": 0.645
+   "ease": 0.617
   },
   {
    "id": "shakespeare-english-histories-p0143",
    "you": 143,
    "startRadius": 1,
-   "ease": 0.48
+   "ease": 0.405
   },
   {
    "id": "shakespeare-english-histories-p0144",
    "you": 144,
    "startRadius": 1,
-   "ease": 0.565
+   "ease": 0.355
   },
   {
    "id": "shakespeare-english-histories-p0146",
    "you": 146,
    "startRadius": 1,
-   "ease": 0.527
+   "ease": 0.422
   },
   {
    "id": "shakespeare-english-histories-p0147",
    "you": 147,
    "startRadius": 1,
-   "ease": 0.619
+   "ease": 0.497
   },
   {
    "id": "shakespeare-english-histories-p0148",
    "you": 148,
    "startRadius": 1,
-   "ease": 0.599
+   "ease": 0.559
   },
   {
    "id": "shakespeare-english-histories-p0149",
    "you": 149,
    "startRadius": 1,
-   "ease": 0.622
+   "ease": 0.586
   },
   {
    "id": "shakespeare-english-histories-p0150",
    "you": 150,
    "startRadius": 1,
-   "ease": 0.603
+   "ease": 0.654
   },
   {
    "id": "shakespeare-english-histories-p0151",
    "you": 151,
    "startRadius": 1,
-   "ease": 0.576
+   "ease": 0.5
   },
   {
    "id": "shakespeare-english-histories-p0153",
    "you": 153,
    "startRadius": 1,
-   "ease": 0.471
+   "ease": 0.424
   },
   {
    "id": "shakespeare-english-histories-p0156",
    "you": 156,
    "startRadius": 1,
-   "ease": 0.432
+   "ease": 0.371
   },
   {
    "id": "shakespeare-english-histories-p0158",
    "you": 158,
    "startRadius": 1,
-   "ease": 0.469
+   "ease": 0.348
   },
   {
    "id": "shakespeare-english-histories-p0159",
    "you": 159,
    "startRadius": 1,
-   "ease": 0.476
+   "ease": 0.399
   },
   {
    "id": "shakespeare-english-histories-p0160",
    "you": 160,
    "startRadius": 1,
-   "ease": 0.503
+   "ease": 0.469
   },
   {
    "id": "shakespeare-english-histories-p0161",
    "you": 161,
    "startRadius": 1,
-   "ease": 0.548
+   "ease": 0.456
   },
   {
    "id": "shakespeare-english-histories-p0162",
    "you": 162,
    "startRadius": 1,
-   "ease": 0.733
+   "ease": 0.557
   },
   {
    "id": "shakespeare-english-histories-p0163",
    "you": 163,
    "startRadius": 1,
-   "ease": 0.579
+   "ease": 0.537
   },
   {
    "id": "shakespeare-english-histories-p0164",
    "you": 164,
    "startRadius": 1,
-   "ease": 0.405
+   "ease": 0.337
   },
   {
    "id": "shakespeare-english-histories-p0165",
    "you": 165,
    "startRadius": 1,
-   "ease": 0.407
+   "ease": 0.337
   },
   {
    "id": "shakespeare-english-histories-p0167",
    "you": 167,
    "startRadius": 1,
-   "ease": 0.592
+   "ease": 0.513
   },
   {
    "id": "shakespeare-english-histories-p0168",
    "you": 168,
    "startRadius": 1,
-   "ease": 0.499
+   "ease": 0.448
   },
   {
    "id": "shakespeare-english-histories-p0169",
    "you": 169,
    "startRadius": 1,
-   "ease": 0.609
+   "ease": 0.57
   },
   {
    "id": "shakespeare-english-histories-p0170",
    "you": 170,
    "startRadius": 1,
-   "ease": 0.524
+   "ease": 0.469
   },
   {
    "id": "shakespeare-english-histories-p0172",
    "you": 172,
    "startRadius": 1,
-   "ease": 0.586
+   "ease": 0.537
   },
   {
    "id": "shakespeare-english-histories-p0173",
    "you": 173,
    "startRadius": 1,
-   "ease": 0.587
+   "ease": 0.538
   },
   {
    "id": "shakespeare-english-histories-p0175",
    "you": 175,
    "startRadius": 1,
-   "ease": 0.589
+   "ease": 0.512
+  },
+  {
+   "id": "shakespeare-english-histories-p0176",
+   "you": 176,
+   "startRadius": 1,
+   "ease": 0.622
   },
   {
    "id": "shakespeare-english-histories-p0177",
    "you": 177,
    "startRadius": 1,
-   "ease": 0.42
+   "ease": 0.315
   },
   {
    "id": "shakespeare-english-histories-p0178",
    "you": 178,
    "startRadius": 1,
-   "ease": 0.562
+   "ease": 0.391
   },
   {
    "id": "shakespeare-english-histories-p0180",
    "you": 180,
    "startRadius": 1,
-   "ease": 0.569
+   "ease": 0.48
   },
   {
    "id": "shakespeare-english-histories-p0181",
    "you": 181,
    "startRadius": 1,
-   "ease": 0.566
+   "ease": 0.511
+  },
+  {
+   "id": "shakespeare-english-histories-p0182",
+   "you": 182,
+   "startRadius": 1,
+   "ease": 0.631
   },
   {
    "id": "shakespeare-english-histories-p0183",
    "you": 183,
    "startRadius": 1,
-   "ease": 0.731
+   "ease": 0.559
   },
   {
    "id": "shakespeare-english-histories-p0184",
    "you": 184,
    "startRadius": 1,
-   "ease": 0.619
+   "ease": 0.532
   },
   {
    "id": "shakespeare-english-histories-p0185",
    "you": 185,
    "startRadius": 1,
-   "ease": 0.506
+   "ease": 0.459
   },
   {
    "id": "shakespeare-english-histories-p0186",
    "you": 186,
    "startRadius": 1,
-   "ease": 0.54
+   "ease": 0.494
   },
   {
    "id": "shakespeare-english-histories-p0187",
    "you": 187,
    "startRadius": 1,
-   "ease": 0.517
+   "ease": 0.398
   },
   {
    "id": "shakespeare-english-histories-p0188",
    "you": 188,
    "startRadius": 1,
-   "ease": 0.463
+   "ease": 0.404
   },
   {
    "id": "shakespeare-english-histories-p0190",
    "you": 190,
    "startRadius": 1,
-   "ease": 0.479
+   "ease": 0.432
   },
   {
    "id": "shakespeare-english-histories-p0192",
    "you": 192,
    "startRadius": 1,
-   "ease": 0.42
+   "ease": 0.37
   },
   {
    "id": "shakespeare-english-histories-p0193",
    "you": 193,
    "startRadius": 1,
-   "ease": 0.422
+   "ease": 0.37
   },
   {
    "id": "shakespeare-english-histories-p0194",
    "you": 194,
    "startRadius": 1,
-   "ease": 0.474
+   "ease": 0.421
   },
   {
    "id": "shakespeare-english-histories-p0196",
    "you": 196,
    "startRadius": 1,
-   "ease": 0.493
+   "ease": 0.382
   },
   {
    "id": "shakespeare-english-histories-p0199",
    "you": 199,
    "startRadius": 1,
-   "ease": 0.63
+   "ease": 0.561
   },
   {
    "id": "shakespeare-english-histories-p0200",
    "you": 200,
    "startRadius": 1,
-   "ease": 0.398
+   "ease": 0.363
   },
   {
    "id": "shakespeare-english-histories-p0202",
    "you": 202,
    "startRadius": 1,
-   "ease": 0.429
+   "ease": 0.514
   },
   {
    "id": "shakespeare-english-histories-p0205",
    "you": 205,
    "startRadius": 1,
-   "ease": 0.439
+   "ease": 0.371
   },
   {
    "id": "shakespeare-english-histories-p0206",
    "you": 206,
    "startRadius": 1,
-   "ease": 0.644
+   "ease": 0.641
   },
   {
    "id": "shakespeare-english-histories-p0207",
    "you": 207,
    "startRadius": 1,
-   "ease": 0.473
+   "ease": 0.376
   },
   {
    "id": "shakespeare-english-histories-p0209",
    "you": 209,
    "startRadius": 1,
-   "ease": 0.568
+   "ease": 0.381
   },
   {
    "id": "shakespeare-english-histories-p0210",
    "you": 210,
    "startRadius": 1,
-   "ease": 0.571
+   "ease": 0.355
   },
   {
    "id": "shakespeare-english-histories-p0211",
    "you": 211,
    "startRadius": 1,
-   "ease": 0.573
+   "ease": 0.355
   },
   {
    "id": "shakespeare-english-histories-p0212",
    "you": 212,
    "startRadius": 1,
-   "ease": 0.56
+   "ease": 0.506
   },
   {
    "id": "shakespeare-english-histories-p0214",
    "you": 214,
    "startRadius": 1,
-   "ease": 0.616
+   "ease": 0.572
   },
   {
    "id": "shakespeare-english-histories-p0215",
    "you": 215,
    "startRadius": 1,
-   "ease": 0.623
+   "ease": 0.497
   },
   {
    "id": "shakespeare-english-histories-p0216",
    "you": 216,
    "startRadius": 1,
-   "ease": 0.652
+   "ease": 0.582
   },
   {
    "id": "shakespeare-english-histories-p0217",
    "you": 217,
    "startRadius": 1,
-   "ease": 0.735
+   "ease": 0.496
   },
   {
    "id": "shakespeare-english-histories-p0218",
    "you": 218,
    "startRadius": 1,
-   "ease": 0.481
+   "ease": 0.392
   },
   {
    "id": "shakespeare-english-histories-p0220",
    "you": 220,
    "startRadius": 1,
-   "ease": 0.45
+   "ease": 0.339
   },
   {
    "id": "shakespeare-english-histories-p0221",
    "you": 221,
    "startRadius": 1,
-   "ease": 0.491
+   "ease": 0.35
   },
   {
    "id": "shakespeare-english-histories-p0223",
    "you": 223,
    "startRadius": 1,
-   "ease": 0.628
+   "ease": 0.547
   },
   {
    "id": "shakespeare-english-histories-p0224",
    "you": 224,
    "startRadius": 1,
-   "ease": 0.629
+   "ease": 0.562
   },
   {
    "id": "shakespeare-english-histories-p0225",
    "you": 225,
    "startRadius": 1,
-   "ease": 0.517
+   "ease": 0.4
   },
   {
    "id": "shakespeare-english-histories-p0226",
    "you": 226,
    "startRadius": 1,
-   "ease": 0.509
+   "ease": 0.469
   },
   {
    "id": "shakespeare-english-histories-p0227",
    "you": 227,
    "startRadius": 1,
-   "ease": 0.577
+   "ease": 0.497
   },
   {
    "id": "shakespeare-english-histories-p0228",
    "you": 228,
    "startRadius": 1,
-   "ease": 0.624
+   "ease": 0.463
   },
   {
    "id": "shakespeare-english-histories-p0231",
    "you": 231,
    "startRadius": 1,
-   "ease": 0.411
+   "ease": 0.365
   },
   {
    "id": "shakespeare-english-histories-p0232",
    "you": 232,
    "startRadius": 1,
-   "ease": 0.528
+   "ease": 0.486
   },
   {
    "id": "shakespeare-english-histories-p0233",
    "you": 233,
    "startRadius": 1,
-   "ease": 0.481
+   "ease": 0.511
   },
   {
    "id": "shakespeare-english-histories-p0235",
    "you": 235,
    "startRadius": 1,
-   "ease": 0.504
+   "ease": 0.427
   },
   {
    "id": "shakespeare-english-histories-p0236",
    "you": 236,
    "startRadius": 1,
-   "ease": 0.472
+   "ease": 0.393
   },
   {
    "id": "shakespeare-english-histories-p0237",
    "you": 237,
    "startRadius": 1,
-   "ease": 0.358
+   "ease": 0.35
   },
   {
    "id": "shakespeare-english-histories-p0238",
    "you": 238,
    "startRadius": 1,
-   "ease": 0.36
+   "ease": 0.35
   },
   {
    "id": "shakespeare-english-histories-p0239",
    "you": 239,
    "startRadius": 1,
-   "ease": 0.362
+   "ease": 0.35
   },
   {
    "id": "shakespeare-english-histories-p0240",
    "you": 240,
    "startRadius": 1,
-   "ease": 0.442
+   "ease": 0.371
   },
   {
    "id": "shakespeare-english-histories-p0241",
    "you": 241,
    "startRadius": 1,
-   "ease": 0.621
+   "ease": 0.529
   },
   {
    "id": "shakespeare-english-histories-p0242",
    "you": 242,
    "startRadius": 1,
-   "ease": 0.613
+   "ease": 0.607
   },
   {
    "id": "shakespeare-english-histories-p0243",
    "you": 243,
    "startRadius": 1,
-   "ease": 0.805
+   "ease": 0.475
   },
   {
    "id": "shakespeare-english-histories-p0244",
    "you": 244,
    "startRadius": 1,
-   "ease": 0.48
+   "ease": 0.399
   },
   {
    "id": "shakespeare-english-histories-p0247",
    "you": 247,
    "startRadius": 1,
-   "ease": 0.495
+   "ease": 0.35
   },
   {
    "id": "shakespeare-english-histories-p0248",
    "you": 248,
    "startRadius": 1,
-   "ease": 0.52
+   "ease": 0.398
   },
   {
    "id": "shakespeare-english-histories-p0250",
    "you": 250,
    "startRadius": 1,
-   "ease": 0.505
+   "ease": 0.45
+  },
+  {
+   "id": "shakespeare-english-histories-p0251",
+   "you": 251,
+   "startRadius": 1,
+   "ease": 0.603
   },
   {
    "id": "shakespeare-english-histories-p0252",
    "you": 252,
    "startRadius": 1,
-   "ease": 0.406
+   "ease": 0.363
   },
   {
    "id": "shakespeare-english-histories-p0253",
    "you": 253,
    "startRadius": 1,
-   "ease": 0.699
+   "ease": 0.541
   }
  ],
  "provenance": {

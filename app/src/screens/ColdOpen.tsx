@@ -12,6 +12,8 @@ interface Props {
   onChooseWorld: () => void;
   targetEase: number;
   onChooseEase: (ease: number) => void;
+  readsChineseClassics: boolean;
+  onReadsChineseClassics: (next: boolean) => void;
   onOpenKey: () => void;
   onStartAgain: () => void;
   onOpenGallery: () => void;
@@ -39,6 +41,8 @@ export function ColdOpen({
   onChooseWorld,
   targetEase,
   onChooseEase,
+  readsChineseClassics,
+  onReadsChineseClassics,
   onOpenKey,
   onStartAgain,
   onOpenGallery,
@@ -163,6 +167,28 @@ export function ColdOpen({
             FINDABLE
           </span>
         </div>
+
+        {/* What the scale cannot ask.
+            The scale moves along a measured score — how distinctive a start's
+            shape is — and that score says nothing about whether the book has a
+            name you could reach for. The catalogue's answer to that is written
+            for an English-speaking reader, which leaves 三國演義 sorted in with
+            Cymbeline. This is where a player says otherwise about themselves.
+            Phrased as a fact about the reader rather than a difficulty setting,
+            because that is what it is; it lowers nothing, so saying yes only
+            adds five worlds back to the draw. Like the scale, it redraws the
+            stranger on the stage as soon as it is touched. */}
+        <button
+          className="action-quiet"
+          aria-pressed={readsChineseClassics}
+          onClick={() => onReadsChineseClassics(!readsChineseClassics)}
+          style={{ color: readsChineseClassics ? 'var(--ink)' : undefined, fontSize: 10, letterSpacing: '0.2em' }}
+        >
+          {/* A mark as well as a colour: the state has to survive being read by
+              someone who cannot tell these two greys apart. */}
+          <span aria-hidden="true" style={{ marginRight: 8 }}>{readsChineseClassics ? '[\u00d7]' : '[ ]'}</span>
+          I read the Chinese classics
+        </button>
 
         {/* Begin stays the loud one and stays first: the default is still to wake
             somewhere nobody has named. Choosing is offered beside it, quieter. */}

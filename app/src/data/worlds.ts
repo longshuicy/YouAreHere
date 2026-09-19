@@ -75,3 +75,106 @@ const FALLBACK: Record<string, string> = {
 export function blurbFor(universe: { id: string; blurb?: string }): string | null {
   return universe.blurb ?? FALLBACK[universe.id] ?? null;
 }
+
+/**
+ * How likely a player is to be able to *name* this world, which is a different
+ * question from how hard the diagram is to read.
+ *
+ * `ease` in the pipeline measures structural distinctiveness — how many other
+ * characters wear the same shape. It is a measurement, and `difficulty.py` is
+ * right to refuse to cut it into bands. This is the opposite kind of number: a
+ * judgement about audiences, with no measurement under it anywhere, so decimals
+ * here would be a precision that does not exist. Three levels, and the boundary
+ * between them is admittedly arguable.
+ *
+ *   2  a player could plausibly name it unprompted
+ *   1  they have heard of it and have probably not read it
+ *   0  they have not heard of it
+ *
+ * The scale is written for an English-speaking player, which is a choice and not
+ * a fact about the books — see `CHINESE_CLASSICS`. Keyed by universe id rather
+ * than by source, because `shakespeare` is one source holding both ends of the
+ * range: Hamlet and Pericles come out of the same entry in `sources.py`.
+ *
+ * Lives here for the same reason the blurbs do, and should move into the
+ * emitter with them.
+ */
+const FAMILIARITY: Record<string, 0 | 1 | 2> = {
+  asoiaf: 2,
+  bible: 2,
+  friends: 2,
+  starwars: 2,
+  lesmiserables: 2,
+  iliad: 1,
+  odyssey: 1,
+  // Nameable, but only to Americans — the same kind of accident as the five
+  // below, and it sits a band down for the same reason.
+  congress: 1,
+
+  // Read as an English-speaking player: a syllabus most of them never sat.
+  hongloumeng: 0,
+  sanguoyanyi: 0,
+  shuihuzhuan: 0,
+  xiyouji: 0,
+  shiji: 0,
+
+  // Shakespeare. The ones everyone can name, then the ones they have heard of,
+  // then the ones that are a surprise even to people who like the plays.
+  'shakespeare-hamlet': 2,
+  'shakespeare-macbeth': 2,
+  'shakespeare-romeo-and-juliet': 2,
+  'shakespeare-a-midsummer-nights-dream': 2,
+  'shakespeare-king-lear': 1,
+  'shakespeare-othello': 1,
+  'shakespeare-the-tempest': 1,
+  'shakespeare-twelfth-night': 1,
+  'shakespeare-much-ado-about-nothing': 1,
+  'shakespeare-the-taming-of-the-shrew': 1,
+  'shakespeare-as-you-like-it': 1,
+  'shakespeare-the-comedy-of-errors': 1,
+  'shakespeare-rome': 1,
+  'shakespeare-english-histories': 1,
+  'shakespeare-the-merchant-of-venice': 0,
+  'shakespeare-titus-andronicus': 0,
+  'shakespeare-troilus-and-cressida': 0,
+  'shakespeare-coriolanus': 0,
+  'shakespeare-timon-of-athens': 0,
+  'shakespeare-pericles': 0,
+  'shakespeare-cymbeline': 0,
+  'shakespeare-the-winters-tale': 0,
+  'shakespeare-measure-for-measure': 0,
+  'shakespeare-alls-well-that-ends-well': 0,
+  'shakespeare-two-gentlemen-of-verona': 0,
+  'shakespeare-loves-labors-lost': 0,
+  'shakespeare-king-john': 0,
+  'shakespeare-henry-viii': 0,
+};
+
+/** Worlds whose band above is an accident of which language the player reads,
+ * not of how famous the book is. 三國演義 is a household story for a great many
+ * people; it scores 0 above only because the default audience is an
+ * English-speaking one. The knob raises these a band and lowers nothing: a
+ * reader of the Chinese classics still knows Hamlet. */
+const CHINESE_CLASSICS: ReadonlySet<string> = new Set([
+  'hongloumeng',
+  'sanguoyanyi',
+  'shuihuzhuan',
+  'xiyouji',
+  'shiji',
+]);
+
+/** The band `pickWorld` should weigh, for this player. Unknown worlds — a source
+ * added and not yet scored — come back at the top band, so a new world is
+ * offered freely rather than quietly buried. */
+export function familiarityFor(universeId: string, readsChineseClassics = false): number {
+  const band = FAMILIARITY[universeId] ?? 2;
+  if (readsChineseClassics && CHINESE_CLASSICS.has(universeId)) return Math.min(2, band + 1);
+  return band;
+}
+
+/** Worlds in the catalogue that nobody has given a band. Not thrown at build
+ * time — the pipeline does not know about this file yet — but reported at the
+ * console on boot, so world 42 cannot ship unscored in silence. */
+export function unscoredWorlds(ids: readonly string[]): string[] {
+  return ids.filter((id) => !(id in FAMILIARITY));
+}

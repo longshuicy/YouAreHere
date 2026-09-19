@@ -12,7 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "1": {
@@ -24,7 +24,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "2": {
@@ -37,7 +37,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 138
    }
   },
   "3": {
@@ -60,7 +60,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "5": {
@@ -72,7 +72,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 118
    }
   },
   "6": {
@@ -85,7 +85,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "7": {
@@ -98,7 +98,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "8": {
@@ -111,7 +111,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "9": {
@@ -124,7 +124,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 138
    }
   },
   "10": {
@@ -137,7 +137,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 138
    }
   },
   "11": {
@@ -152,7 +152,7 @@
    },
    "line": "Queen.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "12": {
@@ -165,7 +165,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "13": {
@@ -180,7 +180,7 @@
    },
    "line": "King.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "14": {
@@ -193,7 +193,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 138
    }
   },
   "15": {
@@ -206,7 +206,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "16": {
@@ -219,7 +219,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "17": {
@@ -232,7 +232,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "18": {
@@ -245,7 +245,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 138
    }
   },
   "19": {
@@ -257,7 +257,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "20": {
@@ -272,7 +272,7 @@
    },
    "line": "Duke of Athens.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   },
   "21": {
@@ -287,7 +287,7 @@
    },
    "line": "Queen.",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 101
    }
   }
  },

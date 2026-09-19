@@ -6,7 +6,7 @@ import type { Session } from './engine/session';
 import { cardinal, project, standingOf } from './graph/project';
 import { suggestNames } from './engine/names';
 import { useRadialLayout } from './graph/layout';
-import { blurbFor } from './data/worlds';
+import { blurbFor, familiarityFor, unscoredWorlds } from './data/worlds';
 import { KeyOverlay } from './render/KeyOverlay';
 import { Gallery } from './gallery/Gallery';
 import { ColdOpen } from './screens/ColdOpen';
@@ -19,6 +19,23 @@ type Boot =
   | { status: 'loading' }
   | { status: 'error'; message: string }
   | { status: 'ready'; index: IndexFile; universe: Universe; puzzle: PuzzleRecord };
+
+/** The opening guess at whether this player reads the Chinese classics.
+ *
+ * A guess, and a cheap one: it only tilts which world comes up first, so being
+ * wrong costs a re-roll. A stored answer always wins, because the player saying
+ * so outranks what their browser is configured in.
+ */
+function readsChineseByDefault(): boolean {
+  try {
+    const stored = localStorage.getItem('reads-chinese-classics');
+    if (stored !== null) return stored === 'true';
+  } catch {
+    // Private windows and blocked site data: fall through to the language list.
+  }
+  const languages = typeof navigator === 'undefined' ? [] : (navigator.languages ?? [navigator.language]);
+  return languages.some((tag) => typeof tag === 'string' && tag.toLowerCase().startsWith('zh'));
+}
 
 /** A loaded universe's own spread along the scale, for re-rolling mid-session
  * without going back to the index. */
@@ -63,6 +80,17 @@ export default function App() {
    * is the thing that was actually scored. Starts findable.
    */
   const [targetEase, setTargetEase] = useState(1);
+  /** Whether to treat the Chinese classics as books this player can name.
+   *
+   * The familiarity bands are written for an English-speaking player, which puts
+   * 三國演義 and 水滸傳 down with Cymbeline — right for a stranger, wrong for
+   * half the people likely to open this. Defaulted from the browser's languages
+   * and meant to be overridable; the setting is the player's claim about
+   * themselves, not a guess the app gets to keep making.
+   */
+  const [readsChineseClassics, setReadsChineseClassics] = useState(readsChineseByDefault);
+  /** What `pickWorld` weighs a world's nameability by. */
+  const familiarityOf = (world: { id: string }) => familiarityFor(world.id, readsChineseClassics);
   /** The last few starts served, so the same setting does not keep producing the
    * same stranger. A ref rather than state: it is read at the moment a waking is
    * drawn and never rendered, so it must not go stale in a closure and must not
@@ -76,7 +104,17 @@ export default function App() {
     (async () => {
       try {
         const index = await fetchIndex();
-        const entry = pickWorld(index.universes, 1, index.easeBuckets);
+        const unscored = unscoredWorlds(index.universes.map((u) => u.id));
+        if (unscored.length > 0) {
+          console.warn(`No familiarity band for: ${unscored.join(', ')} — see data/worlds.ts`);
+        }
+        // The stored answer rather than the state, so the one-shot boot effect
+        // does not claim a dependency on something it never re-reads. They are
+        // the same value on the first frame, which is the only frame this runs on.
+        const opening = readsChineseByDefault();
+        const entry = pickWorld(index.universes, 1, index.easeBuckets, (world) =>
+          familiarityFor(world.id, opening),
+        );
         if (!entry) throw new Error('No universes in index.json');
         const universe = await fetchUniverse(entry.file);
         const puzzle = pickPuzzle(universe, 1, recentPuzzles.current);
@@ -212,6 +250,7 @@ export default function App() {
       })),
       targetEase,
       buckets,
+      (world) => familiarityOf(world.universe),
     )!.universe;
     const puzzle = pickPuzzle(next, targetEase, recentPuzzles.current);
     if (!puzzle) return;
@@ -229,14 +268,15 @@ export default function App() {
    * moving the slider has to draw another one — otherwise it would only take
    * effect on the waking after the one the player is looking at.
    */
-  const chooseEase = async (next: number) => {
+  const redraw = async (ease: number, reads: boolean) => {
     if (boot.status !== 'ready') return;
-    setTargetEase(next);
-    const entry = pickWorld(boot.index.universes, next, boot.index.easeBuckets);
+    const entry = pickWorld(boot.index.universes, ease, boot.index.easeBuckets, (world) =>
+      familiarityFor(world.id, reads),
+    );
     if (!entry) return;
     try {
       const universe = loaded.get(entry.id) ?? (await fetchUniverse(entry.file));
-      const puzzle = pickPuzzle(universe, next, recentPuzzles.current);
+      const puzzle = pickPuzzle(universe, ease, recentPuzzles.current);
       if (!puzzle) return;
       remember(puzzle.id);
       setLoaded((prev) => (prev.has(universe.id) ? prev : new Map(prev).set(universe.id, universe)));
@@ -245,6 +285,28 @@ export default function App() {
     } catch {
       // Keep the waking already on screen rather than emptying the stage.
     }
+  };
+
+  const chooseEase = async (next: number) => {
+    setTargetEase(next);
+    await redraw(next, readsChineseClassics);
+  };
+
+  /** Said once and remembered, because it is a fact about the player and not a
+   * setting for this waking — and because the browser's language list is a guess
+   * that should stop being made as soon as they have answered it themselves.
+   *
+   * Redraws for the same reason the scale does: the stranger on the stage has
+   * already been drawn, so a change that only took effect on the *next* waking
+   * would look like it did nothing. */
+  const chooseReadsChineseClassics = async (next: boolean) => {
+    setReadsChineseClassics(next);
+    try {
+      localStorage.setItem('reads-chinese-classics', String(next));
+    } catch {
+      // Blocked site data: the answer holds for this session and is asked again.
+    }
+    await redraw(targetEase, next);
   };
 
   const chooseWorld = async (entry: { id: string; file: string }) => {
@@ -296,6 +358,8 @@ export default function App() {
           onChooseWorld={() => setChoosing(true)}
           targetEase={targetEase}
           onChooseEase={chooseEase}
+          readsChineseClassics={readsChineseClassics}
+          onReadsChineseClassics={chooseReadsChineseClassics}
           onOpenKey={openKey}
           onStartAgain={startAgain}
           onOpenGallery={() => setShowGallery(true)}

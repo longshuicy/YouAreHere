@@ -125,7 +125,7 @@
    },
    "line": "比丘。屬唐。見於89回。",
    "signals": {
-    "lookAlikes": 128
+    "lookAlikes": 0
    }
   },
   "2": {
@@ -236,7 +236,7 @@
    },
    "line": "見於83回。",
    "signals": {
-    "lookAlikes": 209
+    "lookAlikes": 2
    }
   },
   "4": {
@@ -270,7 +270,7 @@
    },
    "line": "神仙。見於20回。",
    "signals": {
-    "lookAlikes": 110
+    "lookAlikes": 65
    }
   },
   "5": {
@@ -376,7 +376,10 @@
     "gender": "男",
     "homeworld": "仙石"
    },
-   "line": "仙石出身。見於94回。"
+   "line": "仙石出身。見於94回。",
+   "signals": {
+    "lookAlikes": 0
+   }
   },
   "6": {
    "facts": {
@@ -465,7 +468,7 @@
    },
    "line": "見於77回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 3
    }
   },
   "7": {
@@ -567,7 +570,7 @@
    },
    "line": "屬唐。見於16回。",
    "signals": {
-    "lookAlikes": 249
+    "lookAlikes": 3
    }
   },
   "13": {
@@ -588,7 +591,7 @@
    },
    "line": "屬唐。見於5回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 17
    }
   },
   "14": {
@@ -626,7 +629,7 @@
    },
    "line": "屬唐。見於6回。",
    "signals": {
-    "lookAlikes": 20
+    "lookAlikes": 4
    }
   },
   "16": {
@@ -645,7 +648,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 10
+    "lookAlikes": 1
    }
   },
   "17": {
@@ -678,7 +681,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 17
    }
   },
   "19": {
@@ -696,7 +699,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 17
    }
   },
   "20": {
@@ -714,7 +717,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 17
    }
   },
   "21": {
@@ -732,7 +735,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 17
    }
   },
   "22": {
@@ -752,7 +755,7 @@
    },
    "line": "屬唐。見於4回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 17
    }
   },
   "23": {
@@ -770,7 +773,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 17
    }
   },
   "24": {
@@ -789,7 +792,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 17
    }
   },
   "25": {
@@ -807,7 +810,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 17
    }
   },
   "26": {
@@ -1037,7 +1040,7 @@
    },
    "line": "王。屬流沙國。見於22回。",
    "signals": {
-    "lookAlikes": 66
+    "lookAlikes": 65
    }
   },
   "39": {
@@ -1262,7 +1265,7 @@
    },
    "line": "見於16回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 46
    }
   },
   "52": {
@@ -1314,7 +1317,7 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 71
+    "lookAlikes": 65
    }
   },
   "55": {
@@ -1364,7 +1367,7 @@
    },
    "line": "妖怪。見於22回。",
    "signals": {
-    "lookAlikes": 15
+    "lookAlikes": 21
    }
   },
   "57": {
@@ -1415,7 +1418,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 0
    }
   },
   "60": {
@@ -1493,7 +1496,7 @@
    },
    "line": "見於9回。",
    "signals": {
-    "lookAlikes": 28
+    "lookAlikes": 46
    }
   },
   "65": {
@@ -1534,7 +1537,7 @@
    },
    "line": "見於28回。",
    "signals": {
-    "lookAlikes": 51
+    "lookAlikes": 21
    }
   },
   "66": {
@@ -1566,7 +1569,7 @@
    },
    "line": "妖怪。見於18回。",
    "signals": {
-    "lookAlikes": 60
+    "lookAlikes": 46
    }
   },
   "67": {
@@ -1615,7 +1618,7 @@
    },
    "line": "見於36回。",
    "signals": {
-    "lookAlikes": 244
+    "lookAlikes": 21
    }
   },
   "68": {
@@ -1640,7 +1643,7 @@
    },
    "line": "見於12回。",
    "signals": {
-    "lookAlikes": 79
+    "lookAlikes": 5
    }
   }
  },
