@@ -20,13 +20,19 @@ export function LedgerBreakdown({ ledger }: { ledger: LedgerT }) {
   if (ledger.facts) rows.push(`${ledger.facts} ${ledger.facts === 1 ? 'reading' : 'readings'}`);
   if (ledger.names) rows.push(`${ledger.names} ${ledger.names === 1 ? 'name' : 'names'}`);
   if (ledger.stories) rows.push('the story');
-  if (rows.length === 0) return null;
+  if (rows.length === 0 && !ledger.recognitions) return null;
 
   return (
     <div className="annot" style={{ textAlign: 'right', lineHeight: 2 }}>
       {rows.map((r) => (
         <div key={r}>{r}</div>
       ))}
+      {/* Set apart and signed, because it is the only line that subtracts. */}
+      {ledger.recognitions > 0 && (
+        <div style={{ color: 'var(--accent)' }}>
+          −{ledger.recognitions} recognised
+        </div>
+      )}
     </div>
   );
 }

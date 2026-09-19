@@ -90,7 +90,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "9": {
    "facts": {
@@ -142,7 +145,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "14": {
    "facts": {
@@ -163,7 +169,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 4 and Season 10."
+   "line": "Appears in Season 4 and Season 10.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "16": {
    "facts": {
@@ -173,7 +182,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "17": {
    "facts": {
@@ -183,7 +195,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "18": {
    "facts": {
@@ -195,7 +210,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in Season 9 and Season 10."
+   "line": "Appears in Season 9 and Season 10.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "19": {
    "facts": {
@@ -215,7 +233,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "21": {
    "facts": {
@@ -225,7 +246,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "22": {
    "facts": {
@@ -337,7 +361,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 6."
+   "line": "Appears in Season 6.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "33": {
    "facts": {
@@ -367,7 +394,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "36": {
    "facts": {
@@ -387,7 +417,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "38": {
    "facts": {
@@ -397,7 +430,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "39": {
    "facts": {
@@ -407,7 +443,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "40": {
    "facts": {
@@ -429,7 +468,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "42": {
    "facts": {
@@ -446,7 +488,10 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in seven seasons."
+   "line": "Appears in seven seasons.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "43": {
    "facts": {
@@ -497,7 +542,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9 and Season 10."
+   "line": "Appears in Season 9 and Season 10.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "48": {
    "facts": {
@@ -539,7 +587,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "52": {
    "facts": {
@@ -561,7 +612,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3 and Season 4."
+   "line": "Appears in Season 3 and Season 4.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "54": {
    "facts": {
@@ -611,7 +665,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7."
+   "line": "Appears in Season 7.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "59": {
    "facts": {
@@ -631,7 +688,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "61": {
    "facts": {
@@ -641,7 +701,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "62": {
    "facts": {
@@ -652,7 +715,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1 and Season 6."
+   "line": "Appears in Season 1 and Season 6.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "63": {
    "facts": {
@@ -669,7 +735,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in seven seasons."
+   "line": "Appears in seven seasons.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "64": {
    "facts": {
@@ -749,7 +818,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7."
+   "line": "Appears in Season 7.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "72": {
    "facts": {
@@ -801,7 +873,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9 and Season 10."
+   "line": "Appears in Season 9 and Season 10.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "76": {
    "facts": {
@@ -872,7 +947,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "83": {
    "facts": {
@@ -912,7 +990,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "87": {
    "facts": {
@@ -922,7 +1003,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "88": {
    "facts": {
@@ -932,7 +1016,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "89": {
    "facts": {
@@ -982,7 +1069,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "94": {
    "facts": {
@@ -992,7 +1082,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "95": {
    "facts": {
@@ -1002,7 +1095,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "96": {
    "facts": {
@@ -1034,7 +1130,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "99": {
    "facts": {
@@ -1064,7 +1163,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "102": {
    "facts": {
@@ -1094,7 +1196,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "105": {
    "facts": {
@@ -1105,7 +1210,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7 and Season 8."
+   "line": "Appears in Season 7 and Season 8.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "106": {
    "facts": {
@@ -1115,7 +1223,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "107": {
    "facts": {
@@ -1155,7 +1266,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "111": {
    "facts": {
@@ -1247,7 +1361,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "120": {
    "facts": {
@@ -1269,7 +1386,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "122": {
    "facts": {
@@ -1279,7 +1399,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "123": {
    "facts": {
@@ -1289,7 +1412,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "124": {
    "facts": {
@@ -1330,7 +1456,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "128": {
    "facts": {
@@ -1371,7 +1500,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "132": {
    "facts": {
@@ -1482,7 +1614,10 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "143": {
    "facts": {
@@ -1504,7 +1639,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in Season 5 and Season 6."
+   "line": "Appears in Season 5 and Season 6.",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "145": {
    "facts": {
@@ -1546,7 +1684,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in Season 4 and Season 5."
+   "line": "Appears in Season 4 and Season 5.",
+   "signals": {
+    "lookAlikes": 7
+   }
   },
   "149": {
    "facts": {
@@ -1557,7 +1698,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "150": {
    "facts": {
@@ -1578,7 +1722,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3 and Season 8."
+   "line": "Appears in Season 3 and Season 8.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "152": {
    "facts": {
@@ -1589,7 +1736,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2 and Season 10."
+   "line": "Appears in Season 2 and Season 10.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "153": {
    "facts": {
@@ -1600,7 +1750,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7 and Season 8."
+   "line": "Appears in Season 7 and Season 8.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "154": {
    "facts": {
@@ -1618,7 +1771,10 @@
     "gender": "Female",
     "occupation": "talent agent"
    },
-   "line": "Talent agent. Appears in seven seasons."
+   "line": "Talent agent. Appears in seven seasons.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "155": {
    "facts": {
@@ -1678,7 +1834,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 4."
+   "line": "Appears in Season 4.",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "161": {
    "facts": {
@@ -1802,7 +1961,10 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in four seasons."
+   "line": "Appears in four seasons.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "173": {
    "facts": {
@@ -1822,7 +1984,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "175": {
    "facts": {
@@ -1894,7 +2059,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1 and Season 2."
+   "line": "Appears in Season 1 and Season 2.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "182": {
    "facts": {
@@ -1915,7 +2083,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5 and Season 7."
+   "line": "Appears in Season 5 and Season 7.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "184": {
    "facts": {
@@ -1966,7 +2137,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9."
+   "line": "Appears in Season 9.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "189": {
    "facts": {
@@ -2016,7 +2190,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "194": {
    "facts": {
@@ -2046,7 +2223,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "197": {
    "facts": {
@@ -2056,7 +2236,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "198": {
    "facts": {
@@ -2106,7 +2289,10 @@
     "gender": "Male",
     "occupation": "manager"
    },
-   "line": "Manager. Appears in 9 seasons."
+   "line": "Manager. Appears in 9 seasons.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "202": {
    "facts": {
@@ -2338,7 +2524,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "225": {
    "facts": {
@@ -2359,7 +2548,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1 and Season 2."
+   "line": "Appears in Season 1 and Season 2.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "227": {
    "facts": {
@@ -2391,7 +2583,10 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in Season 6 and Season 10."
+   "line": "Appears in Season 6 and Season 10.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "230": {
    "facts": {
@@ -2451,7 +2646,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in all 10 seasons."
+   "line": "Appears in all 10 seasons.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "235": {
    "facts": {
@@ -2462,7 +2660,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 6 and Season 8."
+   "line": "Appears in Season 6 and Season 8.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "236": {
    "facts": {
@@ -2514,7 +2715,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1 and Season 5."
+   "line": "Appears in Season 1 and Season 5.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "241": {
    "facts": {
@@ -2564,7 +2768,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "246": {
    "facts": {
@@ -2617,7 +2824,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "251": {
    "facts": {
@@ -2628,7 +2838,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3 and Season 4."
+   "line": "Appears in Season 3 and Season 4.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "252": {
    "facts": {
@@ -2638,7 +2851,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "253": {
    "facts": {
@@ -2730,7 +2946,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "261": {
    "facts": {
@@ -2750,7 +2969,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 4."
+   "line": "Appears in Season 4.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "263": {
    "facts": {
@@ -2771,7 +2993,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "265": {
    "facts": {
@@ -2785,7 +3010,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in five seasons."
+   "line": "Appears in five seasons.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "266": {
    "facts": {
@@ -2846,7 +3074,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 4 and Season 7."
+   "line": "Appears in Season 4 and Season 7.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "272": {
    "facts": {
@@ -2857,7 +3088,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5 and Season 8."
+   "line": "Appears in Season 5 and Season 8.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "273": {
    "facts": {
@@ -2887,7 +3121,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "276": {
    "facts": {
@@ -2928,7 +3165,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "280": {
    "facts": {
@@ -2960,7 +3200,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5 and Season 7."
+   "line": "Appears in Season 5 and Season 7.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "283": {
    "facts": {
@@ -3042,7 +3285,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1 and Season 3."
+   "line": "Appears in Season 1 and Season 3.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "291": {
    "facts": {
@@ -3112,7 +3358,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "298": {
    "facts": {
@@ -3154,7 +3403,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "302": {
    "facts": {
@@ -3165,7 +3417,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1 and Season 6."
+   "line": "Appears in Season 1 and Season 6.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "303": {
    "facts": {
@@ -3175,7 +3430,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7."
+   "line": "Appears in Season 7.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "304": {
    "facts": {
@@ -3186,7 +3444,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2 and Season 3."
+   "line": "Appears in Season 2 and Season 3.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "305": {
    "facts": {
@@ -3198,7 +3459,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "306": {
    "facts": {
@@ -3228,7 +3492,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "309": {
    "facts": {
@@ -3268,7 +3535,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9."
+   "line": "Appears in Season 9.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "313": {
    "facts": {
@@ -3379,7 +3649,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "324": {
    "facts": {
@@ -3409,7 +3682,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "327": {
    "facts": {
@@ -3459,7 +3735,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7."
+   "line": "Appears in Season 7.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "332": {
    "facts": {
@@ -3469,7 +3748,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9."
+   "line": "Appears in Season 9.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "333": {
    "facts": {
@@ -3480,7 +3762,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3 and Season 9."
+   "line": "Appears in Season 3 and Season 9.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "334": {
    "facts": {
@@ -3495,7 +3780,10 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in five seasons."
+   "line": "Appears in five seasons.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "335": {
    "facts": {
@@ -3505,7 +3793,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "336": {
    "facts": {
@@ -3515,7 +3806,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "337": {
    "facts": {
@@ -3526,7 +3820,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1 and Season 2."
+   "line": "Appears in Season 1 and Season 2.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "338": {
    "facts": {
@@ -3538,7 +3835,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "339": {
    "facts": {
@@ -3568,7 +3868,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9."
+   "line": "Appears in Season 9.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "342": {
    "facts": {
@@ -3578,7 +3881,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 7
+   }
   },
   "343": {
    "facts": {
@@ -3619,7 +3925,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 6."
+   "line": "Appears in Season 6.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "346": {
    "facts": {
@@ -3649,7 +3958,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "349": {
    "facts": {
@@ -3679,7 +3991,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7."
+   "line": "Appears in Season 7.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "352": {
    "facts": {
@@ -3699,7 +4014,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "354": {
    "facts": {
@@ -3749,7 +4067,10 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in 9 seasons."
+   "line": "Appears in 9 seasons.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "358": {
    "facts": {
@@ -3759,7 +4080,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "359": {
    "facts": {
@@ -3771,7 +4095,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "360": {
    "facts": {
@@ -3823,7 +4150,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "365": {
    "facts": {
@@ -3833,7 +4163,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "366": {
    "facts": {
@@ -3844,7 +4177,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 4 and Season 5."
+   "line": "Appears in Season 4 and Season 5.",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "367": {
    "facts": {
@@ -3897,7 +4233,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "372": {
    "facts": {
@@ -3911,7 +4250,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in four seasons."
+   "line": "Appears in four seasons.",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "373": {
    "facts": {
@@ -3959,7 +4301,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in 8 seasons."
+   "line": "Appears in 8 seasons.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "377": {
    "facts": {
@@ -3970,7 +4315,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2 and Season 8."
+   "line": "Appears in Season 2 and Season 8.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "378": {
    "facts": {
@@ -3980,7 +4328,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "379": {
    "facts": {
@@ -4020,7 +4371,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "383": {
    "facts": {
@@ -4031,7 +4385,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 4 and Season 5."
+   "line": "Appears in Season 4 and Season 5.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "384": {
    "facts": {
@@ -4201,7 +4558,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1."
+   "line": "Appears in Season 1.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "401": {
    "facts": {
@@ -4211,7 +4571,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "402": {
    "facts": {
@@ -4221,7 +4584,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "403": {
    "facts": {
@@ -4231,7 +4597,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "404": {
    "facts": {
@@ -4241,7 +4610,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 10."
+   "line": "Appears in Season 10.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "405": {
    "facts": {
@@ -4283,7 +4655,10 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in Season 1 and Season 6."
+   "line": "Appears in Season 1 and Season 6.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "409": {
    "facts": {
@@ -4293,7 +4668,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "410": {
    "facts": {
@@ -4313,7 +4691,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "412": {
    "facts": {
@@ -4323,7 +4704,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "413": {
    "facts": {
@@ -4405,7 +4789,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9."
+   "line": "Appears in Season 9.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "420": {
    "facts": {
@@ -4415,7 +4802,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "421": {
    "facts": {
@@ -4517,7 +4907,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9."
+   "line": "Appears in Season 9.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "430": {
    "facts": {
@@ -4592,7 +4985,10 @@
     "gender": "Male",
     "occupation": "ophthalmologist"
    },
-   "line": "Ophthalmologist. Appears in four seasons."
+   "line": "Ophthalmologist. Appears in four seasons.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "437": {
    "facts": {
@@ -4633,7 +5029,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "441": {
    "facts": {
@@ -4653,7 +5052,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "443": {
    "facts": {
@@ -4674,7 +5076,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1 and Season 8."
+   "line": "Appears in Season 1 and Season 8.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "445": {
    "facts": {
@@ -4716,7 +5121,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2 and Season 10."
+   "line": "Appears in Season 2 and Season 10.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "448": {
    "facts": {
@@ -4727,7 +5135,10 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "449": {
    "facts": {
@@ -4788,7 +5199,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 1 and Season 9."
+   "line": "Appears in Season 1 and Season 9.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "455": {
    "facts": {
@@ -4811,7 +5225,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in four seasons."
+   "line": "Appears in four seasons.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "457": {
    "facts": {
@@ -4861,7 +5278,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9."
+   "line": "Appears in Season 9.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "462": {
    "facts": {
@@ -4881,7 +5301,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "464": {
    "facts": {
@@ -4941,7 +5364,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "470": {
    "facts": {
@@ -4951,7 +5377,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "471": {
    "facts": {
@@ -5057,7 +5486,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in four seasons."
+   "line": "Appears in four seasons.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "481": {
    "facts": {
@@ -5133,7 +5565,10 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in five seasons."
+   "line": "Appears in five seasons.",
+   "signals": {
+    "lookAlikes": 0
+   }
   },
   "488": {
    "facts": {
@@ -5143,7 +5578,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "489": {
    "facts": {
@@ -5154,7 +5592,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7 and Season 8."
+   "line": "Appears in Season 7 and Season 8.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "490": {
    "facts": {
@@ -5237,7 +5678,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5 and Season 7."
+   "line": "Appears in Season 5 and Season 7.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "498": {
    "facts": {
@@ -5329,7 +5773,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "507": {
    "facts": {
@@ -5341,7 +5788,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "508": {
    "facts": {
@@ -5431,7 +5881,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "517": {
    "facts": {
@@ -5482,7 +5935,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5 and Season 7."
+   "line": "Appears in Season 5 and Season 7.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "522": {
    "facts": {
@@ -5532,7 +5988,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 5."
+   "line": "Appears in Season 5.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "527": {
    "facts": {
@@ -5602,7 +6061,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7."
+   "line": "Appears in Season 7.",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "534": {
    "facts": {
@@ -5684,7 +6146,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 6."
+   "line": "Appears in Season 6.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "542": {
    "facts": {
@@ -5724,7 +6189,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 7."
+   "line": "Appears in Season 7.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "546": {
    "facts": {
@@ -5756,7 +6224,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "549": {
    "facts": {
@@ -5787,7 +6258,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 4 and Season 8."
+   "line": "Appears in Season 4 and Season 8.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "552": {
    "facts": {
@@ -5799,7 +6273,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "553": {
    "facts": {
@@ -5809,7 +6286,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "554": {
    "facts": {
@@ -5839,7 +6319,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "557": {
    "facts": {
@@ -5849,7 +6332,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 9."
+   "line": "Appears in Season 9.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "558": {
    "facts": {
@@ -5859,7 +6345,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "559": {
    "facts": {
@@ -5869,7 +6358,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2."
+   "line": "Appears in Season 2.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "560": {
    "facts": {
@@ -5879,7 +6371,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "561": {
    "facts": {
@@ -5896,7 +6391,10 @@
     "gender": "Female",
     "occupation": "pornographic film actor"
    },
-   "line": "Pornographic film actor. Appears in six seasons."
+   "line": "Pornographic film actor. Appears in six seasons.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "562": {
    "facts": {
@@ -5926,7 +6424,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 3."
+   "line": "Appears in Season 3.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "565": {
    "facts": {
@@ -5938,7 +6439,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in three seasons.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "566": {
    "facts": {
@@ -6018,7 +6522,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "574": {
    "facts": {
@@ -6028,7 +6535,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 8."
+   "line": "Appears in Season 8.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "575": {
    "facts": {
@@ -6101,7 +6611,10 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in Season 2 and Season 3."
+   "line": "Appears in Season 2 and Season 3.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "582": {
    "facts": {

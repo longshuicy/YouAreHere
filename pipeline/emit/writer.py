@@ -191,6 +191,7 @@ def write_metadata(
     edge_facts: dict,
     sources: list[tuple],
     out: Path,
+    scores: dict[str, dict] | None = None,
 ) -> dict:
     """Reveal-only enrichment, written to its own file.
 
@@ -215,6 +216,8 @@ def write_metadata(
         set(graph.segment_labels.values()) | set(graph.segment_labels) if graph.segment_labels else set()
     )
 
+    scores = scores or {}
+
     nodes = {}
     for node_id, record in sorted(node_facts.items()):
         if node_id not in index_of:
@@ -225,6 +228,24 @@ def write_metadata(
         entry = {"facts": shipped}
         if line:
             entry["line"] = line
+        # The signals behind the difficulty score. They are withheld from the
+        # universe file, where they would be a far sharper hint than `ease` --
+        # "you have no look-alikes anywhere" narrows the field enormously -- but
+        # this file is the reveal's, and by then the narrowing is the point:
+        # `lookAlikes` is the game's own thesis said back to the player, and it
+        # is already computed.
+        # Only `lookAlikes`, because only `lookAlikes` needs to be built. It
+        # counts structural twins *in other novels*, and a client able to work
+        # that out would be one that had downloaded every novel. `prominence`
+        # and `company` shipped alongside it for a while on no better reasoning
+        # than that they sat next to it in the score; both are weighted degree
+        # over the one universe the client already holds, and it already holds
+        # every tie weight because it draws thickness with them. Sending the
+        # answer as well was fifty kilobytes of the same number twice, and a
+        # second definition to keep in step with this one.
+        signals = scores.get(node_id)
+        if signals:
+            entry["signals"] = {"lookAlikes": signals["lookAlikes"]}
         nodes[str(index_of[node_id])] = entry
 
     edges = {}

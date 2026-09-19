@@ -123,7 +123,10 @@
     ],
     "homeworld": "江州"
    },
-   "line": "比丘。屬唐。見於89回。"
+   "line": "比丘。屬唐。見於89回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "2": {
    "facts": {
@@ -231,7 +234,10 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於83回。"
+   "line": "見於83回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "4": {
    "facts": {
@@ -262,7 +268,10 @@
     "gender": "男",
     "species": "神仙"
    },
-   "line": "神仙。見於20回。"
+   "line": "神仙。見於20回。",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "5": {
    "facts": {
@@ -454,7 +463,10 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於77回。"
+   "line": "見於77回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "7": {
    "facts": {
@@ -553,7 +565,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於16回。"
+   "line": "屬唐。見於16回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "13": {
    "facts": {
@@ -571,7 +586,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於5回。"
+   "line": "屬唐。見於5回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "14": {
    "facts": {
@@ -606,7 +624,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於6回。"
+   "line": "屬唐。見於6回。",
+   "signals": {
+    "lookAlikes": 20
+   }
   },
   "16": {
    "facts": {
@@ -622,7 +643,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於3回。"
+   "line": "屬唐。見於3回。",
+   "signals": {
+    "lookAlikes": 10
+   }
   },
   "17": {
    "facts": {
@@ -652,7 +676,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於3回。"
+   "line": "屬唐。見於3回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "19": {
    "facts": {
@@ -667,7 +694,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於第10回、第11回。"
+   "line": "屬唐。見於第10回、第11回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "20": {
    "facts": {
@@ -682,7 +712,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於第10回、第11回。"
+   "line": "屬唐。見於第10回、第11回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "21": {
    "facts": {
@@ -697,7 +730,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於第10回、第11回。"
+   "line": "屬唐。見於第10回、第11回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "22": {
    "facts": {
@@ -714,7 +750,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於4回。"
+   "line": "屬唐。見於4回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "23": {
    "facts": {
@@ -729,7 +768,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於第10回、第11回。"
+   "line": "屬唐。見於第10回、第11回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "24": {
    "facts": {
@@ -745,7 +787,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於3回。"
+   "line": "屬唐。見於3回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "25": {
    "facts": {
@@ -760,7 +805,10 @@
      "唐"
     ]
    },
-   "line": "屬唐。見於第10回、第11回。"
+   "line": "屬唐。見於第10回、第11回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "26": {
    "facts": {
@@ -987,7 +1035,10 @@
      "流沙國"
     ]
    },
-   "line": "王。屬流沙國。見於22回。"
+   "line": "王。屬流沙國。見於22回。",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "39": {
    "facts": {
@@ -1209,7 +1260,10 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於16回。"
+   "line": "見於16回。",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "52": {
    "facts": {
@@ -1258,7 +1312,10 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於11回。"
+   "line": "見於11回。",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "55": {
    "facts": {
@@ -1305,7 +1362,10 @@
     "gender": "男",
     "species": "妖怪"
    },
-   "line": "妖怪。見於22回。"
+   "line": "妖怪。見於22回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "57": {
    "facts": {
@@ -1353,7 +1413,10 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於13回。"
+   "line": "見於13回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "60": {
    "facts": {
@@ -1428,7 +1491,10 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於9回。"
+   "line": "見於9回。",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "65": {
    "facts": {
@@ -1466,7 +1532,10 @@
     "corpusSize": 100,
     "gender": "女"
    },
-   "line": "見於28回。"
+   "line": "見於28回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "66": {
    "facts": {
@@ -1495,7 +1564,10 @@
     "gender": "男",
     "species": "妖怪"
    },
-   "line": "妖怪。見於18回。"
+   "line": "妖怪。見於18回。",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "67": {
    "facts": {
@@ -1541,7 +1613,10 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於36回。"
+   "line": "見於36回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "68": {
    "facts": {
@@ -1563,7 +1638,10 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於12回。"
+   "line": "見於12回。",
+   "signals": {
+    "lookAlikes": 79
+   }
   }
  },
  "edges": {

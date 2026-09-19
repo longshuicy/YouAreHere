@@ -20,6 +20,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 244
    }
   },
   "2": {
@@ -40,6 +43,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 51
    }
   },
   "4": {
@@ -50,6 +56,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 51
    }
   },
   "5": {
@@ -60,6 +69,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "6": {
@@ -70,6 +82,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "7": {
@@ -80,6 +95,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "8": {
@@ -100,6 +118,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 34
    }
   },
   "10": {
@@ -110,6 +131,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 51
    }
   },
   "11": {
@@ -120,6 +144,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 51
    }
   },
   "12": {
@@ -130,6 +157,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 45
    }
   },
   "13": {
@@ -140,6 +170,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 244
    }
   },
   "14": {
@@ -150,6 +183,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 45
    }
   }
  },

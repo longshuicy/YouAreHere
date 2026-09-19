@@ -23,7 +23,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於13回。"
+   "line": "見於13回。",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "1": {
    "facts": {
@@ -53,7 +56,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於20回。"
+   "line": "見於20回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "2": {
    "facts": {
@@ -77,7 +83,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於13回。"
+   "line": "丫鬟。見於13回。",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "3": {
    "facts": {
@@ -100,7 +109,10 @@
      "管理者"
     ]
    },
-   "line": "管理者。見於10回。"
+   "line": "管理者。見於10回。",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "4": {
    "facts": {
@@ -181,7 +193,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於6回。"
+   "line": "丫鬟。見於6回。",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "9": {
    "facts": {
@@ -220,7 +235,10 @@
     "gender": "女",
     "occupation": "比丘尼"
    },
-   "line": "比丘尼。見於15回。"
+   "line": "比丘尼。見於15回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "11": {
    "facts": {
@@ -249,7 +267,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於3回。"
+   "line": "丫鬟。見於3回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "13": {
    "facts": {
@@ -265,7 +286,10 @@
     "gender": "女",
     "occupation": "比丘尼"
    },
-   "line": "比丘尼。見於5回。"
+   "line": "比丘尼。見於5回。",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "14": {
    "facts": {
@@ -288,7 +312,10 @@
      "主管"
     ]
    },
-   "line": "主管。見於10回。"
+   "line": "主管。見於10回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "15": {
    "facts": {
@@ -322,7 +349,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於24回。"
+   "line": "見於24回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "16": {
    "facts": {
@@ -338,7 +368,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於6回。"
+   "line": "見於6回。",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "17": {
    "facts": {
@@ -355,7 +388,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於7回。"
+   "line": "見於7回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "18": {
    "facts": {
@@ -372,7 +408,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於7回。"
+   "line": "見於7回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "19": {
    "facts": {
@@ -426,7 +465,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於30回。"
+   "line": "見於30回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "21": {
    "facts": {
@@ -449,7 +491,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於13回。"
+   "line": "見於13回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "22": {
    "facts": {
@@ -486,7 +531,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於27回。"
+   "line": "見於27回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "23": {
    "facts": {
@@ -511,7 +559,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於第9回、第10回。"
+   "line": "見於第9回、第10回。",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "25": {
    "facts": {
@@ -600,7 +651,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於49回。"
+   "line": "見於49回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "28": {
    "facts": {
@@ -633,7 +687,10 @@
      "鳳藻宮尚書"
     ]
    },
-   "line": "鳳藻宮尚書。見於20回。"
+   "line": "鳳藻宮尚書。見於20回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "29": {
    "facts": {
@@ -695,7 +752,10 @@
     "gender": "女",
     "occupation": "畫家"
    },
-   "line": "畫家。見於51回。"
+   "line": "畫家。見於51回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "30": {
    "facts": {
@@ -723,7 +783,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於18回。"
+   "line": "見於18回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "31": {
    "facts": {
@@ -795,7 +858,10 @@
      "主管"
     ]
    },
-   "line": "主管。見於59回。"
+   "line": "主管。見於59回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "32": {
    "facts": {
@@ -889,7 +955,10 @@
     "gender": "女",
     "occupation": "侍女"
    },
-   "line": "侍女。見於20回。"
+   "line": "侍女。見於20回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "38": {
    "facts": {
@@ -923,7 +992,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於7回。"
+   "line": "見於7回。",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "40": {
    "facts": {
@@ -983,7 +1055,10 @@
      "國朝皇帝"
     ]
    },
-   "line": "國朝皇帝。見於14回。"
+   "line": "國朝皇帝。見於14回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "43": {
    "facts": {
@@ -1047,7 +1122,10 @@
     "gender": "女",
     "occupation": "侍女"
    },
-   "line": "侍女。見於11回。"
+   "line": "侍女。見於11回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "47": {
    "facts": {
@@ -1061,7 +1139,10 @@
     "gender": "女",
     "occupation": "比丘尼"
    },
-   "line": "比丘尼。見於3回。"
+   "line": "比丘尼。見於3回。",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "48": {
    "facts": {
@@ -1103,7 +1184,10 @@
     "gender": "女",
     "occupation": "侍女"
    },
-   "line": "侍女。見於20回。"
+   "line": "侍女。見於20回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "50": {
    "facts": {
@@ -1154,7 +1238,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於10回。"
+   "line": "見於10回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "53": {
    "facts": {
@@ -1181,7 +1268,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於6回。"
+   "line": "見於6回。",
+   "signals": {
+    "lookAlikes": 26
+   }
   },
   "55": {
    "facts": {
@@ -1245,7 +1335,10 @@
      "北靜郡王"
     ]
    },
-   "line": "北靜郡王。見於13回。"
+   "line": "北靜郡王。見於13回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "59": {
    "facts": {
@@ -1294,7 +1387,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "63": {
    "facts": {
@@ -1308,7 +1404,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "64": {
    "facts": {
@@ -1365,7 +1464,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於9回。"
+   "line": "見於9回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "68": {
    "facts": {
@@ -1443,7 +1545,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於15回。"
+   "line": "見於15回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "73": {
    "facts": {
@@ -1468,7 +1573,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於15回。"
+   "line": "見於15回。",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "74": {
    "facts": {
@@ -1513,7 +1621,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於22回。"
+   "line": "丫鬟。見於22回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "76": {
    "facts": {
@@ -1533,7 +1644,10 @@
     "gender": "女",
     "occupation": "侍女"
    },
-   "line": "侍女。見於9回。"
+   "line": "侍女。見於9回。",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "77": {
    "facts": {
@@ -1552,7 +1666,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於9回。"
+   "line": "見於9回。",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "78": {
    "facts": {
@@ -1571,7 +1688,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於8回。"
+   "line": "丫鬟。見於8回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "79": {
    "facts": {
@@ -1611,7 +1731,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於13回。"
+   "line": "丫鬟。見於13回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "81": {
    "facts": {
@@ -1645,7 +1768,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於8回。"
+   "line": "見於8回。",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "83": {
    "facts": {
@@ -1721,7 +1847,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於9回。"
+   "line": "丫鬟。見於9回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "87": {
    "facts": {
@@ -1786,7 +1915,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於8回。"
+   "line": "丫鬟。見於8回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "91": {
    "facts": {
@@ -1865,7 +1997,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於9回。"
+   "line": "丫鬟。見於9回。",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "96": {
    "facts": {
@@ -1896,7 +2031,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於7回。"
+   "line": "見於7回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "98": {
    "facts": {
@@ -1914,7 +2052,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於8回。"
+   "line": "見於8回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "99": {
    "facts": {
@@ -1940,7 +2081,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於16回。"
+   "line": "見於16回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "100": {
    "facts": {
@@ -1951,7 +2095,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於第52回。"
+   "line": "見於第52回。",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "101": {
    "facts": {
@@ -1962,7 +2109,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於第52回。"
+   "line": "見於第52回。",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "102": {
    "facts": {
@@ -1973,7 +2123,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於第52回。"
+   "line": "見於第52回。",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "103": {
    "facts": {
@@ -1984,7 +2137,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於第52回。"
+   "line": "見於第52回。",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "104": {
    "facts": {
@@ -2041,7 +2197,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於5回。"
+   "line": "丫鬟。見於5回。",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "108": {
    "facts": {
@@ -2112,7 +2271,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "113": {
    "facts": {
@@ -2155,7 +2317,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於16回。"
+   "line": "丫鬟。見於16回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "115": {
    "facts": {
@@ -2203,7 +2368,10 @@
     "gender": "男",
     "occupation": "宦官"
    },
-   "line": "宦官。見於12回。"
+   "line": "宦官。見於12回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "118": {
    "facts": {
@@ -2227,7 +2395,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於13回。"
+   "line": "丫鬟。見於13回。",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "119": {
    "facts": {
@@ -2282,7 +2453,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於6回。"
+   "line": "丫鬟。見於6回。",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "123": {
    "facts": {
@@ -2318,7 +2492,10 @@
      "道員"
     ]
    },
-   "line": "道員。見於23回。"
+   "line": "道員。見於23回。",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "124": {
    "facts": {
@@ -2396,7 +2573,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "130": {
    "facts": {
@@ -2412,7 +2592,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於6回。"
+   "line": "見於6回。",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "131": {
    "facts": {
@@ -2517,7 +2700,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於56回。"
+   "line": "見於56回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "135": {
    "facts": {
@@ -2592,7 +2778,10 @@
     "gender": "女",
     "occupation": "比丘尼"
    },
-   "line": "比丘尼。見於30回。"
+   "line": "比丘尼。見於30回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "138": {
    "facts": {
@@ -2610,7 +2799,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於8回。"
+   "line": "見於8回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "139": {
    "facts": {
@@ -2719,7 +2911,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於44回。"
+   "line": "見於44回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "144": {
    "facts": {
@@ -2747,7 +2942,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於6回。"
+   "line": "見於6回。",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "146": {
    "facts": {
@@ -2847,7 +3045,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於46回。"
+   "line": "丫鬟。見於46回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "150": {
    "facts": {
@@ -2902,7 +3103,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於44回。"
+   "line": "丫鬟。見於44回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "151": {
    "facts": {
@@ -2922,7 +3126,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於10回。"
+   "line": "見於10回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "152": {
    "facts": {
@@ -2943,7 +3150,10 @@
     "gender": "男",
     "occupation": "管家"
    },
-   "line": "管家。見於10回。"
+   "line": "管家。見於10回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "153": {
    "facts": {
@@ -2966,7 +3176,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於13回。"
+   "line": "見於13回。",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "154": {
    "facts": {
@@ -3163,7 +3376,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於12回。"
+   "line": "丫鬟。見於12回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "157": {
    "facts": {
@@ -3177,7 +3393,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "158": {
    "facts": {
@@ -3206,7 +3425,10 @@
      "知府"
     ]
    },
-   "line": "知府。見於16回。"
+   "line": "知府。見於16回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "159": {
    "facts": {
@@ -3265,7 +3487,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於49回。"
+   "line": "見於49回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "160": {
    "facts": {
@@ -3297,7 +3522,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於21回。"
+   "line": "丫鬟。見於21回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "161": {
    "facts": {
@@ -3352,7 +3580,10 @@
     "gender": "女",
     "occupation": "侍女"
    },
-   "line": "侍女。見於44回。"
+   "line": "侍女。見於44回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "162": {
    "facts": {
@@ -3399,7 +3630,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於37回。"
+   "line": "見於37回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "163": {
    "facts": {
@@ -3424,7 +3658,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於14回。"
+   "line": "丫鬟。見於14回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "164": {
    "facts": {
@@ -3445,7 +3682,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於11回。"
+   "line": "見於11回。",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "165": {
    "facts": {
@@ -3472,7 +3712,10 @@
      "京營節度使"
     ]
    },
-   "line": "京營節度使。見於14回。"
+   "line": "京營節度使。見於14回。",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "166": {
    "facts": {
@@ -3512,7 +3755,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於30回。"
+   "line": "見於30回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "167": {
    "facts": {
@@ -3525,7 +3771,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於第58回、第60回。"
+   "line": "丫鬟。見於第58回、第60回。",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "168": {
    "facts": {
@@ -3559,7 +3808,10 @@
     "gender": "女",
     "occupation": "比丘尼"
    },
-   "line": "比丘尼。見於5回。"
+   "line": "比丘尼。見於5回。",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "170": {
    "facts": {
@@ -3628,7 +3880,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於59回。"
+   "line": "見於59回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "171": {
    "facts": {
@@ -3661,7 +3916,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於23回。"
+   "line": "見於23回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "172": {
    "facts": {
@@ -3686,7 +3944,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於15回。"
+   "line": "見於15回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "173": {
    "facts": {
@@ -3756,7 +4017,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於46回。"
+   "line": "見於46回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "175": {
    "facts": {
@@ -3872,7 +4136,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於32回。"
+   "line": "見於32回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "177": {
    "facts": {
@@ -3921,7 +4188,10 @@
     "gender": "男",
     "occupation": "承包人"
    },
-   "line": "承包人。見於16回。"
+   "line": "承包人。見於16回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "179": {
    "facts": {
@@ -3950,7 +4220,10 @@
     "gender": "男",
     "occupation": "管家"
    },
-   "line": "管家。見於18回。"
+   "line": "管家。見於18回。",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "180": {
    "facts": {
@@ -3977,7 +4250,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於17回。"
+   "line": "見於17回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "181": {
    "facts": {
@@ -4456,7 +4732,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於10回。"
+   "line": "見於10回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "187": {
    "facts": {
@@ -4571,7 +4850,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於33回。"
+   "line": "丫鬟。見於33回。",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "189": {
    "facts": {
@@ -4595,7 +4877,10 @@
     "gender": "女",
     "occupation": "比丘尼"
    },
-   "line": "比丘尼。見於13回。"
+   "line": "比丘尼。見於13回。",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "190": {
    "facts": {
@@ -4720,7 +5005,10 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於39回。"
+   "line": "丫鬟。見於39回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "192": {
    "facts": {
@@ -4775,7 +5063,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於45回。"
+   "line": "見於45回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "193": {
    "facts": {
@@ -4815,7 +5106,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於30回。"
+   "line": "見於30回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "194": {
    "facts": {
@@ -4963,7 +5257,10 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於28回。"
+   "line": "見於28回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "196": {
    "facts": {
@@ -5127,7 +5424,10 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於15回。"
+   "line": "見於15回。",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "199": {
    "facts": {

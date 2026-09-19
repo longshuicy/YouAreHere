@@ -1,6 +1,6 @@
 import { Stage } from '../render/Stage';
 import { Ledger, LedgerBreakdown } from '../render/Ledger';
-import { BrandMark, MarginLinks } from '../render/MarginLinks';
+import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -13,7 +13,12 @@ interface Props {
   onExpand: (i: number) => void;
   onFacts: (i: number) => void;
   onName: (i: number) => void;
+  onClaim: (i: number, query: string) => void;
+  suggest: (query: string) => string[];
+  hasFacts: (i: number) => boolean;
   factLines: Map<number, string>;
+  /** Your place in this world by number of ties, said in words. Free. */
+  standing: string;
   onOpenGuess: () => void;
   onOpenKey: () => void;
   onReveal: () => void;
@@ -31,7 +36,11 @@ export function Explore({
   onExpand,
   onFacts,
   onName,
+  onClaim,
+  suggest,
+  hasFacts,
   factLines,
+  standing,
   onOpenGuess,
   onOpenKey,
   onReveal,
@@ -53,6 +62,9 @@ export function Explore({
           onExpand={onExpand}
           onFacts={onFacts}
           onName={onName}
+          onClaim={onClaim}
+          suggest={suggest}
+          hasFacts={hasFacts}
           onOpenGuess={onOpenGuess}
           factLines={factLines}
         />
@@ -63,7 +75,7 @@ export function Explore({
         style={{
           position: 'absolute',
           inset: 0,
-          padding: '44px 64px 56px 64px',
+          padding: CHROME_PADDING,
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between',
@@ -92,6 +104,13 @@ export function Explore({
             ) : (
               <div style={{ fontSize: 21, color: 'var(--body)' }}>You don’t know where you are.</div>
             )}
+            {/* Free, and true from the first frame. Size already encodes degree,
+                but a circle is only legible next to the circles around it, and
+                your own has nothing to stand against until you have expanded far
+                enough to find somebody larger. */}
+            <div style={{ fontSize: 17, color: 'var(--body)', marginTop: 10, fontStyle: 'italic' }}>
+              {standing}
+            </div>
           </div>
           {/* The one action that ends the run: given the accent, a heavier rule
               and more air than anything else on the screen. */}

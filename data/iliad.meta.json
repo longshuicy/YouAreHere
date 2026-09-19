@@ -28,7 +28,10 @@
     "corpusSize": 24,
     "occupation": "lieutenant"
    },
-   "line": "Lieutenant. Appears in five books."
+   "line": "Lieutenant. Appears in five books.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "2": {
    "facts": {
@@ -76,7 +79,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 12 and Book 13."
+   "line": "Appears in Book 12 and Book 13.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "6": {
    "facts": {
@@ -88,7 +94,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 2 and Book 17."
+   "line": "Appears in Book 2 and Book 17.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "7": {
    "facts": {
@@ -134,7 +143,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 2 and Book 17."
+   "line": "Appears in Book 2 and Book 17.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "11": {
    "facts": {
@@ -145,7 +157,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 2 and Book 17."
+   "line": "Appears in Book 2 and Book 17.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "12": {
    "facts": {
@@ -156,7 +171,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 2 and Book 17."
+   "line": "Appears in Book 2 and Book 17.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "13": {
    "facts": {
@@ -171,7 +189,10 @@
      "prince"
     ]
    },
-   "line": "Prince. Appears in Book 2 and Book 17."
+   "line": "Prince. Appears in Book 2 and Book 17.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "14": {
    "facts": {
@@ -186,7 +207,10 @@
     "occupation": "priest",
     "gender": "Male"
    },
-   "line": "Priest, of the Trojans. Appears in Book 3."
+   "line": "Priest, of the Trojans. Appears in Book 3.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "15": {
    "facts": {
@@ -199,7 +223,10 @@
      "Trojans"
     ]
    },
-   "line": "Of the Trojans. Appears in Book 3."
+   "line": "Of the Trojans. Appears in Book 3.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "16": {
    "facts": {
@@ -210,7 +237,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 3 and Book 20."
+   "line": "Appears in Book 3 and Book 20.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "17": {
    "facts": {
@@ -222,7 +252,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 3 and Book 20."
+   "line": "Appears in Book 3 and Book 20.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "18": {
    "facts": {
@@ -233,7 +266,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 3 and Book 20."
+   "line": "Appears in Book 3 and Book 20.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "19": {
    "facts": {
@@ -247,7 +283,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Trojans. Appears in Book 3."
+   "line": "Of the Trojans. Appears in Book 3.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "20": {
    "facts": {
@@ -471,11 +510,9 @@
      "Book 5"
     ],
     "unit": "book",
-    "corpusSize": 24,
-    "gender": "Male",
-    "occupation": "squire"
+    "corpusSize": 24
    },
-   "line": "Squire. Appears in Book 5."
+   "line": "Appears in Book 5."
   },
   "39": {
    "facts": {
@@ -495,7 +532,10 @@
      "king of Troy"
     ]
    },
-   "line": "King of Troy, of the Trojans. Appears in five books."
+   "line": "King of Troy, of the Trojans. Appears in five books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "40": {
    "facts": {
@@ -592,7 +632,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 6."
+   "line": "Appears in Book 6.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "49": {
    "facts": {
@@ -613,7 +656,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 6."
+   "line": "Appears in Book 6.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "51": {
    "facts": {
@@ -689,7 +735,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "57": {
    "facts": {
@@ -835,7 +884,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 12 and Book 13."
+   "line": "Appears in Book 12 and Book 13.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "70": {
    "facts": {
@@ -859,7 +911,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "72": {
    "facts": {
@@ -870,7 +925,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 12 and Book 13."
+   "line": "Appears in Book 12 and Book 13.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "73": {
    "facts": {
@@ -881,7 +939,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 12."
+   "line": "Appears in Book 12.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "74": {
    "facts": {
@@ -892,7 +953,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 12."
+   "line": "Appears in Book 12.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "75": {
    "facts": {
@@ -904,7 +968,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 12 and Book 13."
+   "line": "Appears in Book 12 and Book 13.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "76": {
    "facts": {
@@ -915,7 +982,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 12 and Book 13."
+   "line": "Appears in Book 12 and Book 13.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "77": {
    "facts": {
@@ -923,9 +993,11 @@
      "Book 13"
     ],
     "unit": "book",
-    "corpusSize": 24
+    "corpusSize": 24,
+    "gender": "Male",
+    "homeworld": "Pedaeum"
    },
-   "line": "Appears in Book 13."
+   "line": "Of Pedaeum. Appears in Book 13."
   },
   "78": {
    "facts": {
@@ -938,7 +1010,10 @@
     "occupation": "prophet",
     "gender": "Female"
    },
-   "line": "Prophet. Appears in Book 13 and Book 24."
+   "line": "Prophet. Appears in Book 13 and Book 24.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "79": {
    "facts": {
@@ -986,7 +1061,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Trojans. Appears in Book 13 and Book 14."
+   "line": "Of the Trojans. Appears in Book 13 and Book 14.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "83": {
    "facts": {
@@ -1000,7 +1078,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Trojans. Appears in Book 13."
+   "line": "Of the Trojans. Appears in Book 13.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "84": {
    "facts": {
@@ -1014,7 +1095,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Trojans. Appears in Book 13."
+   "line": "Of the Trojans. Appears in Book 13.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "85": {
    "facts": {
@@ -1027,7 +1111,10 @@
      "Trojans"
     ]
    },
-   "line": "Of the Trojans. Appears in Book 13."
+   "line": "Of the Trojans. Appears in Book 13.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "86": {
    "facts": {
@@ -1040,7 +1127,10 @@
      "Trojans"
     ]
    },
-   "line": "Of the Trojans. Appears in Book 13."
+   "line": "Of the Trojans. Appears in Book 13.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "87": {
    "facts": {
@@ -1124,7 +1214,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Greeks. Appears in Book 16 and Book 17."
+   "line": "Of the Greeks. Appears in Book 16 and Book 17.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "94": {
    "facts": {
@@ -1181,7 +1274,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Greeks. Appears in Book 16."
+   "line": "Of the Greeks. Appears in Book 16.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "99": {
    "facts": {
@@ -1223,9 +1319,13 @@
     "corpusSize": 24,
     "affiliations": [
      "Greeks"
-    ]
+    ],
+    "gender": "Male"
    },
-   "line": "Of the Greeks. Appears in Book 16."
+   "line": "Of the Greeks. Appears in Book 16.",
+   "signals": {
+    "lookAlikes": 26
+   }
   },
   "103": {
    "facts": {
@@ -1429,7 +1529,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "121": {
    "facts": {
@@ -1608,7 +1711,10 @@
     "occupation": "herald",
     "gender": "Male"
    },
-   "line": "Herald, of the Greeks. Appears in Book 9."
+   "line": "Herald, of the Greeks. Appears in Book 9.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "136": {
    "facts": {
@@ -1623,7 +1729,10 @@
      "Greeks"
     ]
    },
-   "line": "Of the Greeks. Appears in three books."
+   "line": "Of the Greeks. Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "137": {
    "facts": {
@@ -1638,7 +1747,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Greeks. Appears in Book 9 and Book 13."
+   "line": "Of the Greeks. Appears in Book 9 and Book 13.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "138": {
    "facts": {
@@ -1653,7 +1765,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Greeks. Appears in Book 9 and Book 13."
+   "line": "Of the Greeks. Appears in Book 9 and Book 13.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "139": {
    "facts": {
@@ -1716,7 +1831,10 @@
      "king of Calydon"
     ]
    },
-   "line": "King of Calydon. Appears in three books."
+   "line": "King of Calydon. Appears in three books.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "144": {
    "facts": {
@@ -1816,7 +1934,10 @@
      "Greeks"
     ]
    },
-   "line": "Of the Greeks. Appears in Book 19."
+   "line": "Of the Greeks. Appears in Book 19.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "152": {
    "facts": {
@@ -1883,7 +2004,10 @@
     "corpusSize": 24,
     "occupation": "commander"
    },
-   "line": "Commander. Appears in Book 4."
+   "line": "Commander. Appears in Book 4.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "158": {
    "facts": {
@@ -1894,7 +2018,10 @@
     "corpusSize": 24,
     "occupation": "commander"
    },
-   "line": "Commander. Appears in Book 4."
+   "line": "Commander. Appears in Book 4.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "159": {
    "facts": {
@@ -1905,7 +2032,10 @@
     "corpusSize": 24,
     "occupation": "commander"
    },
-   "line": "Commander. Appears in Book 4."
+   "line": "Commander. Appears in Book 4.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "160": {
    "facts": {
@@ -1919,7 +2049,10 @@
     "occupation": "commander",
     "gender": "Male"
    },
-   "line": "Commander. Appears in three books."
+   "line": "Commander. Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "161": {
    "facts": {
@@ -1930,7 +2063,10 @@
     "corpusSize": 24,
     "occupation": "commander"
    },
-   "line": "Commander. Appears in Book 4."
+   "line": "Commander. Appears in Book 4.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "162": {
    "facts": {
@@ -1953,7 +2089,10 @@
      "king of Cyphus"
     ]
    },
-   "line": "King of Cyphus. Appears in Book 2."
+   "line": "King of Cyphus. Appears in Book 2.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "164": {
    "facts": {
@@ -1964,7 +2103,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 2 and Book 12."
+   "line": "Appears in Book 2 and Book 12.",
+   "signals": {
+    "lookAlikes": 34
+   }
   },
   "165": {
    "facts": {
@@ -1977,7 +2119,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 34
+   }
   },
   "166": {
    "facts": {
@@ -1992,7 +2137,10 @@
     "gender": "Male",
     "occupation": "physician"
    },
-   "line": "Physician. Appears in four books."
+   "line": "Physician. Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "167": {
    "facts": {
@@ -2002,7 +2150,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 2."
+   "line": "Appears in Book 2.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "168": {
    "facts": {
@@ -2015,7 +2166,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "169": {
    "facts": {
@@ -2030,7 +2184,10 @@
      "king of Pherae"
     ]
    },
-   "line": "King of Pherae. Appears in Book 2 and Book 23."
+   "line": "King of Pherae. Appears in Book 2 and Book 23.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "170": {
    "facts": {
@@ -2041,7 +2198,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 2 and Book 13."
+   "line": "Appears in Book 2 and Book 13.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "171": {
    "facts": {
@@ -2077,7 +2237,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "174": {
    "facts": {
@@ -2162,7 +2325,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 2 and Book 9."
+   "line": "Appears in Book 2 and Book 9.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "182": {
    "facts": {
@@ -2174,7 +2340,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "183": {
    "facts": {
@@ -2235,7 +2404,10 @@
     ],
     "occupation": "lady in waiting"
    },
-   "line": "Lady in waiting, of the Trojans. Appears in Book 3."
+   "line": "Lady in waiting, of the Trojans. Appears in Book 3.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "188": {
    "facts": {
@@ -2294,7 +2466,10 @@
     "corpusSize": 24,
     "occupation": "charioteer"
    },
-   "line": "Charioteer. Appears in five books."
+   "line": "Charioteer. Appears in five books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "191": {
    "facts": {
@@ -2320,7 +2495,10 @@
     "gender": "Male",
     "occupation": "military leader"
    },
-   "line": "Military leader, of the Trojans. Appears in 12 books."
+   "line": "Military leader, of the Trojans. Appears in 12 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "192": {
    "facts": {
@@ -2344,7 +2522,10 @@
     "gender": "Female",
     "species": "deity"
    },
-   "line": "Deity, of the Trojans. Appears in 10 books."
+   "line": "Deity, of the Trojans. Appears in 10 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "193": {
    "facts": {
@@ -2390,7 +2571,10 @@
     "gender": "Female",
     "homeworld": "Thebe"
    },
-   "line": "Of Thebe. Appears in three books."
+   "line": "Of Thebe. Appears in three books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "195": {
    "facts": {
@@ -2476,7 +2660,10 @@
     "gender": "Female",
     "species": "deity"
    },
-   "line": "Deity, of the Trojans. Appears in 9 books."
+   "line": "Deity, of the Trojans. Appears in 9 books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "199": {
    "facts": {
@@ -2489,7 +2676,10 @@
     "corpusSize": 24,
     "occupation": "councilor"
    },
-   "line": "Councilor. Appears in three books."
+   "line": "Councilor. Appears in three books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "200": {
    "facts": {
@@ -2505,7 +2695,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in seven books."
+   "line": "Appears in seven books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "201": {
    "facts": {
@@ -2536,7 +2729,10 @@
      "Trojans"
     ]
    },
-   "line": "Of the Trojans. Appears in 19 books."
+   "line": "Of the Trojans. Appears in 19 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "202": {
    "facts": {
@@ -2557,7 +2753,10 @@
     "gender": "Male",
     "species": "Greek deity"
    },
-   "line": "Greek deity, of the Trojans. Appears in seven books."
+   "line": "Greek deity, of the Trojans. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "203": {
    "facts": {
@@ -2600,7 +2799,10 @@
     "species": "goddess",
     "homeworld": "Olympus"
    },
-   "line": "Goddess, of Olympus, of the Greeks. Appears in 18 books."
+   "line": "Goddess, of Olympus, of the Greeks. Appears in 18 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "205": {
    "facts": {
@@ -2627,7 +2829,10 @@
     ],
     "gender": "Male"
    },
-   "line": "King of Locris. Appears in 14 books."
+   "line": "King of Locris. Appears in 14 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "206": {
    "facts": {
@@ -2639,7 +2844,10 @@
     "corpusSize": 24,
     "species": "giant"
    },
-   "line": "Giant. Appears in Book 1 and Book 8."
+   "line": "Giant. Appears in Book 1 and Book 8.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "207": {
    "facts": {
@@ -2662,7 +2870,10 @@
      "king of Lycia after killing CM"
     ]
    },
-   "line": "King of Lycia after killing CM. Appears in Book 6."
+   "line": "King of Lycia after killing CM. Appears in Book 6.",
+   "signals": {
+    "lookAlikes": 1
+   }
   },
   "209": {
    "facts": {
@@ -2673,7 +2884,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 20 and Book 23."
+   "line": "Appears in Book 20 and Book 23.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "210": {
    "facts": {
@@ -2688,7 +2902,10 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "211": {
    "facts": {
@@ -2736,7 +2953,10 @@
     ],
     "occupation": "lady in waiting"
    },
-   "line": "Lady in waiting, of the Trojans. Appears in Book 3."
+   "line": "Lady in waiting, of the Trojans. Appears in Book 3.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "215": {
    "facts": {
@@ -2835,7 +3055,10 @@
      "Trojans"
     ]
    },
-   "line": "Of the Trojans. Appears in three books."
+   "line": "Of the Trojans. Appears in three books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "222": {
    "facts": {
@@ -2873,7 +3096,10 @@
     "corpusSize": 24,
     "occupation": "herald"
    },
-   "line": "Herald. Appears in three books."
+   "line": "Herald. Appears in three books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "225": {
    "facts": {
@@ -2943,7 +3169,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in 8 books."
+   "line": "Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "230": {
    "facts": {
@@ -2967,7 +3196,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "232": {
    "facts": {
@@ -3017,7 +3249,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in seven books."
+   "line": "Appears in seven books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "236": {
    "facts": {
@@ -3071,7 +3306,10 @@
     ],
     "gender": "Female"
    },
-   "line": "Queen of Troy, of the Trojans. Appears in three books."
+   "line": "Queen of Troy, of the Trojans. Appears in three books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "240": {
    "facts": {
@@ -3089,7 +3327,10 @@
      "king of the underworld"
     ]
    },
-   "line": "King of the underworld. Appears in six books."
+   "line": "King of the underworld. Appears in six books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "241": {
    "facts": {
@@ -3117,7 +3358,10 @@
     "gender": "Female",
     "species": "Greek deity"
    },
-   "line": "Greek deity, of the Greeks. Appears in 14 books."
+   "line": "Greek deity, of the Greeks. Appears in 14 books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "242": {
    "facts": {
@@ -3131,7 +3375,10 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "243": {
    "facts": {
@@ -3152,7 +3399,10 @@
     "occupation": "courier",
     "species": "Olympian god"
    },
-   "line": "Courier, Olympian god, of the Greeks. Appears in six books."
+   "line": "Courier, Olympian god, of the Greeks. Appears in six books.",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "244": {
    "facts": {
@@ -3167,7 +3417,10 @@
     "corpusSize": 24,
     "occupation": "soothsayer"
    },
-   "line": "Soothsayer. Appears in five books."
+   "line": "Soothsayer. Appears in five books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "245": {
    "facts": {
@@ -3189,7 +3442,10 @@
     "occupation": "blacksmith",
     "species": "Greek deity"
    },
-   "line": "Blacksmith, Greek deity, of the Greeks. Appears in seven books."
+   "line": "Blacksmith, Greek deity, of the Greeks. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "246": {
    "facts": {
@@ -3206,7 +3462,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in 8 books."
+   "line": "Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "247": {
    "facts": {
@@ -3267,7 +3526,10 @@
     "occupation": "herald",
     "gender": "Male"
    },
-   "line": "Herald, of the Trojans. Appears in three books."
+   "line": "Herald, of the Trojans. Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "250": {
    "facts": {
@@ -3294,7 +3556,10 @@
      "king of Crete"
     ]
    },
-   "line": "King of Crete. Appears in 15 books."
+   "line": "King of Crete. Appears in 15 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "251": {
    "facts": {
@@ -3314,7 +3579,10 @@
     "gender": "Female",
     "species": "Greek deity"
    },
-   "line": "Greek deity. Appears in 9 books."
+   "line": "Greek deity. Appears in 9 books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "252": {
    "facts": {
@@ -3349,7 +3617,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Trojans. Appears in Book 17."
+   "line": "Of the Trojans. Appears in Book 17.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "255": {
    "facts": {
@@ -3373,7 +3644,10 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Trojans. Appears in Book 17."
+   "line": "Of the Trojans. Appears in Book 17.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "257": {
    "facts": {
@@ -3385,7 +3659,10 @@
     "occupation": "charioteer",
     "gender": "Male"
    },
-   "line": "Charioteer. Appears in Book 21."
+   "line": "Charioteer. Appears in Book 21.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "258": {
    "facts": {
@@ -3410,7 +3687,10 @@
     "gender": "Female",
     "species": "titan"
    },
-   "line": "Titan. Appears in four books."
+   "line": "Titan. Appears in four books.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "260": {
    "facts": {
@@ -3423,7 +3703,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "261": {
    "facts": {
@@ -3436,7 +3719,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "262": {
    "facts": {
@@ -3449,7 +3735,10 @@
      "Trojans"
     ]
    },
-   "line": "Of the Trojans. Appears in Book 17."
+   "line": "Of the Trojans. Appears in Book 17.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "263": {
    "facts": {
@@ -3458,10 +3747,12 @@
     ],
     "unit": "book",
     "corpusSize": 24,
-    "occupation": "charioteer",
-    "gender": "Male"
+    "occupation": "charioteer"
    },
-   "line": "Charioteer. Appears in Book 21."
+   "line": "Charioteer. Appears in Book 21.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "264": {
    "facts": {
@@ -3517,7 +3808,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "267": {
    "facts": {
@@ -3549,7 +3843,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in 12 books."
+   "line": "Appears in 12 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "269": {
    "facts": {
@@ -3559,9 +3856,13 @@
      "Book 13"
     ],
     "unit": "book",
-    "corpusSize": 24
+    "corpusSize": 24,
+    "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "270": {
    "facts": {
@@ -3572,7 +3873,10 @@
     "corpusSize": 24,
     "occupation": "charioteer"
    },
-   "line": "Charioteer. Appears in Book 21."
+   "line": "Charioteer. Appears in Book 21.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "271": {
    "facts": {
@@ -3596,7 +3900,10 @@
     ],
     "gender": "Male"
    },
-   "line": "King of Pylus and Dorium. Appears in 11 books."
+   "line": "King of Pylus and Dorium. Appears in 11 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "272": {
    "facts": {
@@ -3630,7 +3937,10 @@
     "corpusSize": 24,
     "occupation": "charioteer"
    },
-   "line": "Charioteer. Appears in Book 21."
+   "line": "Charioteer. Appears in Book 21.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "275": {
    "facts": {
@@ -3669,7 +3979,10 @@
     ],
     "gender": "Male"
    },
-   "line": "King of Ithaca. Appears in 14 books."
+   "line": "King of Ithaca. Appears in 14 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "277": {
    "facts": {
@@ -3678,7 +3991,8 @@
     ],
     "unit": "book",
     "corpusSize": 24,
-    "species": "giant"
+    "species": "giant",
+    "gender": "Male"
    },
    "line": "Giant. Appears in Book 5."
   },
@@ -3704,7 +4018,10 @@
     "occupation": "charioteer",
     "gender": "Male"
    },
-   "line": "Charioteer. Appears in Book 21."
+   "line": "Charioteer. Appears in Book 21.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "280": {
    "facts": {
@@ -3725,7 +4042,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in 11 books."
+   "line": "Appears in 11 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "281": {
    "facts": {
@@ -3743,7 +4063,10 @@
      "king of Thebe (Troade)"
     ]
    },
-   "line": "King of Thebe (Troade). Appears in five books."
+   "line": "King of Thebe (Troade). Appears in five books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "282": {
    "facts": {
@@ -3774,7 +4097,10 @@
      "Trojans"
     ]
    },
-   "line": "Of the Trojans. Appears in 8 books."
+   "line": "Of the Trojans. Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "284": {
    "facts": {
@@ -3791,7 +4117,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in 8 books."
+   "line": "Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "285": {
    "facts": {
@@ -3804,7 +4133,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "286": {
    "facts": {
@@ -3818,7 +4150,10 @@
     "occupation": "archer",
     "gender": "Male"
    },
-   "line": "Archer. Appears in three books."
+   "line": "Archer. Appears in three books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "287": {
    "facts": {
@@ -3847,7 +4182,10 @@
     "gender": "Male",
     "species": "water deity"
    },
-   "line": "King of the sea, Water deity, of the Greeks. Appears in 12 books."
+   "line": "King of the sea, Water deity, of the Greeks. Appears in 12 books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "288": {
    "facts": {
@@ -3861,7 +4199,10 @@
      "queen of nether world"
     ]
    },
-   "line": "Queen of nether world. Appears in Book 9 and Book 14."
+   "line": "Queen of nether world. Appears in Book 9 and Book 14.",
+   "signals": {
+    "lookAlikes": 13
+   }
   },
   "289": {
    "facts": {
@@ -3885,7 +4226,10 @@
     ],
     "gender": "Male"
    },
-   "line": "King of Troy, of the Trojans. Appears in 8 books."
+   "line": "King of Troy, of the Trojans. Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "290": {
    "facts": {
@@ -3906,7 +4250,10 @@
     "gender": "Male",
     "occupation": "herder"
    },
-   "line": "Herder. Appears in 10 books."
+   "line": "Herder. Appears in 10 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "291": {
    "facts": {
@@ -3931,7 +4278,10 @@
      "king of Dolopians"
     ]
    },
-   "line": "King of Dolopians. Appears in three books."
+   "line": "King of Dolopians. Appears in three books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "293": {
    "facts": {
@@ -3959,7 +4309,10 @@
     "occupation": "charioteer",
     "gender": "Male"
    },
-   "line": "Charioteer. Appears in Book 21."
+   "line": "Charioteer. Appears in Book 21.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "295": {
    "facts": {
@@ -3981,7 +4334,10 @@
     "occupation": "charioteer",
     "gender": "Male"
    },
-   "line": "Charioteer. Appears in Book 21."
+   "line": "Charioteer. Appears in Book 21.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "297": {
    "facts": {
@@ -4003,7 +4359,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 14 and Book 15."
+   "line": "Appears in Book 14 and Book 15.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "299": {
    "facts": {
@@ -4048,7 +4407,10 @@
      "king of Lycia"
     ]
    },
-   "line": "King of Lycia, of the Trojans. Appears in six books."
+   "line": "King of Lycia, of the Trojans. Appears in six books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "302": {
    "facts": {
@@ -4081,7 +4443,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 14 and Book 16."
+   "line": "Appears in Book 14 and Book 16.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "305": {
    "facts": {
@@ -4108,7 +4473,10 @@
     "occupation": "lieutenant",
     "gender": "Male"
    },
-   "line": "Lieutenant. Appears in six books."
+   "line": "Lieutenant. Appears in six books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "307": {
    "facts": {
@@ -4118,7 +4486,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 24."
+   "line": "Appears in Book 24.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "308": {
    "facts": {
@@ -4135,7 +4506,10 @@
     "occupation": "herald",
     "gender": "Male"
    },
-   "line": "Herald. Appears in six books."
+   "line": "Herald. Appears in six books.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "309": {
    "facts": {
@@ -4153,7 +4527,10 @@
     "species": "nymph",
     "gender": "Female"
    },
-   "line": "Nymph. Appears in seven books."
+   "line": "Nymph. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "310": {
    "facts": {
@@ -4179,7 +4556,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "312": {
    "facts": {
@@ -4217,7 +4597,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "315": {
    "facts": {
@@ -4248,7 +4631,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 24."
+   "line": "Appears in Book 24.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "318": {
    "facts": {
@@ -4269,7 +4655,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in Book 24."
+   "line": "Appears in Book 24.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "320": {
    "facts": {
@@ -4292,7 +4681,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 24."
+   "line": "Appears in Book 24.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "322": {
    "facts": {
@@ -4303,7 +4695,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 24."
+   "line": "Appears in Book 24.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "323": {
    "facts": {
@@ -4315,7 +4710,10 @@
     "corpusSize": 24,
     "species": "god"
    },
-   "line": "God. Appears in Book 20 and Book 21."
+   "line": "God. Appears in Book 20 and Book 21.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "324": {
    "facts": {
@@ -4372,7 +4770,10 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   }
  },
  "edges": {

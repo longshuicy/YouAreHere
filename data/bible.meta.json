@@ -15,7 +15,10 @@
      "governor"
     ]
    },
-   "line": "Governor. Appears in Ezra and Nehemiah."
+   "line": "Governor. Appears in Ezra and Nehemiah.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "1": {
    "facts": {
@@ -34,7 +37,10 @@
      "leader"
     ]
    },
-   "line": "Leader. Appears in six books."
+   "line": "Leader. Appears in six books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "2": {
    "facts": {
@@ -57,7 +63,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "4": {
    "facts": {
@@ -72,7 +81,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in four books."
+   "line": "Prophet. Appears in four books.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "5": {
    "facts": {
@@ -85,7 +97,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "6": {
    "facts": {
@@ -97,7 +112,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "7": {
    "facts": {
@@ -108,7 +126,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "8": {
    "facts": {
@@ -185,7 +206,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel."
+   "line": "Appears in II Samuel.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "15": {
    "facts": {
@@ -297,7 +321,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "24": {
    "facts": {
@@ -310,7 +337,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "25": {
    "facts": {
@@ -343,7 +373,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in six books."
+   "line": "King of Judah. Appears in six books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "27": {
    "facts": {
@@ -381,7 +414,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "30": {
    "facts": {
@@ -394,7 +430,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "31": {
    "facts": {
@@ -422,7 +461,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "33": {
    "facts": {
@@ -435,7 +477,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 7
+   }
   },
   "34": {
    "facts": {
@@ -475,7 +520,10 @@
     "gender": "Male",
     "occupation": "military leader"
    },
-   "line": "Military leader. Appears in seven books."
+   "line": "Military leader. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "37": {
    "facts": {
@@ -490,7 +538,10 @@
     "gender": "Male",
     "occupation": "biblical judge"
    },
-   "line": "Biblical judge. Appears in four books."
+   "line": "Biblical judge. Appears in four books.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "38": {
    "facts": {
@@ -504,7 +555,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "39": {
    "facts": {
@@ -519,7 +573,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "40": {
    "facts": {
@@ -554,7 +611,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "43": {
    "facts": {
@@ -577,7 +637,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles and II Chronicles."
+   "line": "Appears in I Chronicles and II Chronicles.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "45": {
    "facts": {
@@ -601,7 +664,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Samuel and I Chronicles."
+   "line": "Appears in I Samuel and I Chronicles.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "47": {
    "facts": {
@@ -613,7 +679,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles and II Chronicles."
+   "line": "Appears in I Chronicles and II Chronicles.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "48": {
    "facts": {
@@ -627,7 +696,10 @@
     "gender": "Male",
     "occupation": "military leader"
    },
-   "line": "Military leader. Appears in three books."
+   "line": "Military leader. Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "49": {
    "facts": {
@@ -640,7 +712,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "50": {
    "facts": {
@@ -686,7 +761,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "54": {
    "facts": {
@@ -730,7 +808,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "58": {
    "facts": {
@@ -776,7 +857,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles and Nehemiah."
+   "line": "Appears in I Chronicles and Nehemiah.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "62": {
    "facts": {
@@ -800,7 +884,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "64": {
    "facts": {
@@ -813,7 +900,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "65": {
    "facts": {
@@ -846,7 +936,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "68": {
    "facts": {
@@ -858,7 +951,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles and Ezra."
+   "line": "Appears in I Chronicles and Ezra.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "69": {
    "facts": {
@@ -882,7 +978,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "71": {
    "facts": {
@@ -894,7 +993,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles and Nehemiah."
+   "line": "Appears in I Chronicles and Nehemiah.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "72": {
    "facts": {
@@ -926,7 +1028,10 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "75": {
    "facts": {
@@ -951,7 +1056,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "77": {
    "facts": {
@@ -985,7 +1093,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "signals": {
+    "lookAlikes": 26
+   }
   },
   "80": {
    "facts": {
@@ -997,7 +1108,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles and II Chronicles."
+   "line": "Appears in I Chronicles and II Chronicles.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "81": {
    "facts": {
@@ -1011,7 +1125,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "82": {
    "facts": {
@@ -1024,7 +1141,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "83": {
    "facts": {
@@ -1039,7 +1159,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "84": {
    "facts": {
@@ -1051,7 +1174,10 @@
     "gender": "Male",
     "occupation": "soldier"
    },
-   "line": "Soldier. Appears in II Samuel."
+   "line": "Soldier. Appears in II Samuel.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "85": {
    "facts": {
@@ -1066,7 +1192,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "86": {
    "facts": {
@@ -1100,7 +1229,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in II Samuel."
+   "line": "Appears in II Samuel.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "89": {
    "facts": {
@@ -1137,7 +1269,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "92": {
    "facts": {
@@ -1173,7 +1308,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "95": {
    "facts": {
@@ -1245,7 +1383,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "101": {
    "facts": {
@@ -1257,7 +1398,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "102": {
    "facts": {
@@ -1282,7 +1426,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "104": {
    "facts": {
@@ -1294,7 +1441,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Kings and Nehemiah."
+   "line": "Appears in I Kings and Nehemiah.",
+   "signals": {
+    "lookAlikes": 26
+   }
   },
   "105": {
    "facts": {
@@ -1329,7 +1479,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in I Samuel and I Chronicles."
+   "line": "Appears in I Samuel and I Chronicles.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "108": {
    "facts": {
@@ -1352,7 +1505,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Samuel and Psalms."
+   "line": "Appears in I Samuel and Psalms.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "110": {
    "facts": {
@@ -1383,7 +1539,10 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in Ezra and Esther."
+   "line": "Appears in Ezra and Esther.",
+   "signals": {
+    "lookAlikes": 10
+   }
   },
   "113": {
    "facts": {
@@ -1398,7 +1557,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "114": {
    "facts": {
@@ -1425,7 +1587,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "116": {
    "facts": {
@@ -1450,7 +1615,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "118": {
    "facts": {
@@ -1462,7 +1630,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Ezra and Jeremiah."
+   "line": "Appears in Ezra and Jeremiah.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "119": {
    "facts": {
@@ -1473,7 +1644,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Jeremiah."
+   "line": "Appears in Jeremiah.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "120": {
    "facts": {
@@ -1487,7 +1661,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "121": {
    "facts": {
@@ -1510,7 +1687,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Kings and Jeremiah."
+   "line": "Appears in II Kings and Jeremiah.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "123": {
    "facts": {
@@ -1534,7 +1714,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "125": {
    "facts": {
@@ -1582,7 +1765,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "129": {
    "facts": {
@@ -1619,7 +1805,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "132": {
    "facts": {
@@ -1653,7 +1842,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 7
+   }
   },
   "135": {
    "facts": {
@@ -1687,7 +1879,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "138": {
    "facts": {
@@ -1741,7 +1936,10 @@
      "King of Babylon"
     ]
    },
-   "line": "King of Babylon. Appears in seven books."
+   "line": "King of Babylon. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "142": {
    "facts": {
@@ -1754,7 +1952,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "143": {
    "facts": {
@@ -1777,7 +1978,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Numbers and I Chronicles."
+   "line": "Appears in Numbers and I Chronicles.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "145": {
    "facts": {
@@ -1791,7 +1995,10 @@
     "gender": "Male",
     "occupation": "monarch"
    },
-   "line": "Monarch. Appears in three books."
+   "line": "Monarch. Appears in three books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "146": {
    "facts": {
@@ -1804,7 +2011,10 @@
     "gender": "Male",
     "occupation": "monarch"
    },
-   "line": "Monarch. Appears in Numbers and Joshua."
+   "line": "Monarch. Appears in Numbers and Joshua.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "147": {
    "facts": {
@@ -1865,7 +2075,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "152": {
    "facts": {
@@ -1884,7 +2097,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in six books."
+   "line": "King of Judah. Appears in six books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "153": {
    "facts": {
@@ -1899,7 +2115,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "154": {
    "facts": {
@@ -1916,7 +2135,10 @@
      "king"
     ]
    },
-   "line": "King. Appears in four books."
+   "line": "King. Appears in four books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "155": {
    "facts": {
@@ -1936,7 +2158,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in seven books."
+   "line": "High Priest of Israel. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "156": {
    "facts": {
@@ -1965,7 +2190,10 @@
      "apostle"
     ]
    },
-   "line": "Apostle. Appears in Acts."
+   "line": "Apostle. Appears in Acts.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "158": {
    "facts": {
@@ -1980,7 +2208,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in Genesis and Ruth."
+   "line": "Prophet. Appears in Genesis and Ruth.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "159": {
    "facts": {
@@ -1993,7 +2224,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "160": {
    "facts": {
@@ -2006,7 +2240,10 @@
     "gender": "Male",
     "occupation": "military leader"
    },
-   "line": "Military leader. Appears in Judges and I Chronicles."
+   "line": "Military leader. Appears in Judges and I Chronicles.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "161": {
    "facts": {
@@ -2029,7 +2266,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Ezra and Nehemiah."
+   "line": "Appears in Ezra and Nehemiah.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "163": {
    "facts": {
@@ -2078,7 +2318,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "167": {
    "facts": {
@@ -2090,7 +2333,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel and I Chronicles."
+   "line": "Appears in II Samuel and I Chronicles.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "168": {
    "facts": {
@@ -2210,7 +2456,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Kings."
+   "line": "Appears in I Kings.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "178": {
    "facts": {
@@ -2250,7 +2499,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in four books."
+   "line": "Prophet. Appears in four books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "181": {
    "facts": {
@@ -2287,7 +2539,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "184": {
    "facts": {
@@ -2300,7 +2555,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "185": {
    "facts": {
@@ -2314,7 +2572,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "186": {
    "facts": {
@@ -2339,7 +2600,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "188": {
    "facts": {
@@ -2390,7 +2654,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "192": {
    "facts": {
@@ -2411,7 +2678,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in John."
+   "line": "Appears in John.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "194": {
    "facts": {
@@ -2423,7 +2693,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Esther and Daniel."
+   "line": "Appears in Esther and Daniel.",
+   "signals": {
+    "lookAlikes": 2
+   }
   },
   "195": {
    "facts": {
@@ -2435,7 +2708,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Kings and I Chronicles."
+   "line": "Appears in I Kings and I Chronicles.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "196": {
    "facts": {
@@ -2512,7 +2788,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "203": {
    "facts": {
@@ -2785,7 +3064,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "signals": {
+    "lookAlikes": 10
+   }
   },
   "228": {
    "facts": {
@@ -2839,7 +3121,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Nehemiah."
+   "line": "Appears in Nehemiah.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "233": {
    "facts": {
@@ -2890,7 +3175,10 @@
      "apostle"
     ]
    },
-   "line": "Apostle. Appears in three books."
+   "line": "Apostle. Appears in three books.",
+   "signals": {
+    "lookAlikes": 4
+   }
   },
   "237": {
    "facts": {
@@ -3003,7 +3291,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel and I Chronicles."
+   "line": "Appears in II Samuel and I Chronicles.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "247": {
    "facts": {
@@ -3088,7 +3379,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in seven books."
+   "line": "High Priest of Israel. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "254": {
    "facts": {
@@ -3157,7 +3451,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "260": {
    "facts": {
@@ -3242,7 +3539,10 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 1
+   }
   },
   "268": {
    "facts": {
@@ -3349,7 +3649,10 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "277": {
    "facts": {
@@ -3360,7 +3663,10 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in I Chronicles and Zechariah."
+   "line": "Appears in I Chronicles and Zechariah.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "278": {
    "facts": {
@@ -3373,7 +3679,10 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "279": {
    "facts": {
@@ -3460,7 +3769,10 @@
     "gender": "Male",
     "occupation": "biblical judge"
    },
-   "line": "Biblical judge. Appears in seven books."
+   "line": "Biblical judge. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "285": {
    "facts": {
@@ -3487,7 +3799,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "287": {
    "facts": {
@@ -3500,7 +3815,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "288": {
    "facts": {
@@ -3514,7 +3832,10 @@
     "gender": "Male",
     "occupation": "biblical judge"
    },
-   "line": "Biblical judge. Appears in three books."
+   "line": "Biblical judge. Appears in three books.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "289": {
    "facts": {
@@ -3527,7 +3848,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in I Kings and II Chronicles."
+   "line": "Prophet. Appears in I Kings and II Chronicles.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "290": {
    "facts": {
@@ -3565,7 +3889,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 11
+   }
   },
   "293": {
    "facts": {
@@ -3612,7 +3939,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "297": {
    "facts": {
@@ -3631,7 +3961,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in six books."
+   "line": "Prophet. Appears in six books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "298": {
    "facts": {
@@ -3656,7 +3989,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in 12 books."
+   "line": "High Priest of Israel. Appears in 12 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "299": {
    "facts": {
@@ -3670,7 +4006,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 7
+   }
   },
   "300": {
    "facts": {
@@ -3683,7 +4022,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in Ezra and Haggai."
+   "line": "Prophet. Appears in Ezra and Haggai.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "301": {
    "facts": {
@@ -3731,7 +4073,10 @@
     "gender": "Male",
     "occupation": "sovereign"
    },
-   "line": "Sovereign. Appears in I Samuel and I Kings."
+   "line": "Sovereign. Appears in I Samuel and I Kings.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "305": {
    "facts": {
@@ -3747,7 +4092,10 @@
     "gender": "Male",
     "occupation": "kohen"
    },
-   "line": "Kohen. Appears in five books."
+   "line": "Kohen. Appears in five books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "306": {
    "facts": {
@@ -3759,7 +4107,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles and Jeremiah."
+   "line": "Appears in I Chronicles and Jeremiah.",
+   "signals": {
+    "lookAlikes": 7
+   }
   },
   "307": {
    "facts": {
@@ -3774,7 +4125,10 @@
     "gender": "Male",
     "occupation": "fisher"
    },
-   "line": "Fisher. Appears in four books."
+   "line": "Fisher. Appears in four books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "308": {
    "facts": {
@@ -3810,7 +4164,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "311": {
    "facts": {
@@ -3823,7 +4180,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "312": {
    "facts": {
@@ -3835,7 +4195,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Samuel and II Samuel."
+   "line": "Appears in I Samuel and II Samuel.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "313": {
    "facts": {
@@ -3854,7 +4217,10 @@
      "prefect of Judea"
     ]
    },
-   "line": "Prefect of Judea. Appears in six books."
+   "line": "Prefect of Judea. Appears in six books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "314": {
    "facts": {
@@ -3869,7 +4235,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in four books."
+   "line": "Prophet. Appears in four books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "315": {
    "facts": {
@@ -3895,7 +4264,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "317": {
    "facts": {
@@ -3910,7 +4282,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in Judges and Hebrews."
+   "line": "Prophet. Appears in Judges and Hebrews.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "318": {
    "facts": {
@@ -3928,7 +4303,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in five books."
+   "line": "Prophet. Appears in five books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "319": {
    "facts": {
@@ -3941,7 +4319,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "320": {
    "facts": {
@@ -3964,7 +4345,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Ruth and Matthew."
+   "line": "Appears in Ruth and Matthew.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "322": {
    "facts": {
@@ -3975,7 +4359,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "323": {
    "facts": {
@@ -4001,7 +4388,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "325": {
    "facts": {
@@ -4012,7 +4402,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "326": {
    "facts": {
@@ -4028,7 +4421,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "327": {
    "facts": {
@@ -4058,7 +4454,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in six books."
+   "line": "High Priest of Israel. Appears in six books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "329": {
    "facts": {
@@ -4071,7 +4470,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 10
+   }
   },
   "330": {
    "facts": {
@@ -4100,7 +4502,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "332": {
    "facts": {
@@ -4135,7 +4540,10 @@
      "bishop"
     ]
    },
-   "line": "Bishop. Appears in Acts and Galatians."
+   "line": "Bishop. Appears in Acts and Galatians.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "334": {
    "facts": {
@@ -4184,7 +4592,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in three books."
+   "line": "Prophet. Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "338": {
    "facts": {
@@ -4219,7 +4630,10 @@
     "gender": "Male",
     "occupation": "courtier"
    },
-   "line": "Courtier. Appears in Esther."
+   "line": "Courtier. Appears in Esther.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "341": {
    "facts": {
@@ -4235,7 +4649,10 @@
      "kohen"
     ]
    },
-   "line": "Kohen. Appears in three books."
+   "line": "Kohen. Appears in three books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "342": {
    "facts": {
@@ -4262,7 +4679,10 @@
     "gender": "Female",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in four books."
+   "line": "Prophet. Appears in four books.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "344": {
    "facts": {
@@ -4274,7 +4694,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel and I Kings."
+   "line": "Appears in II Samuel and I Kings.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "345": {
    "facts": {
@@ -4286,7 +4709,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis and Isaiah."
+   "line": "Appears in Genesis and Isaiah.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "346": {
    "facts": {
@@ -4300,7 +4726,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in three books."
+   "line": "Prophet. Appears in three books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "347": {
    "facts": {
@@ -4314,7 +4743,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "348": {
    "facts": {
@@ -4350,7 +4782,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "351": {
    "facts": {
@@ -4362,7 +4797,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 4
+   }
   },
   "352": {
    "facts": {
@@ -4375,7 +4813,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 6
+   }
   },
   "353": {
    "facts": {
@@ -4411,7 +4852,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "356": {
    "facts": {
@@ -4449,7 +4893,10 @@
     "gender": "Male",
     "occupation": "farmer"
    },
-   "line": "Farmer. Appears in three books."
+   "line": "Farmer. Appears in three books.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "359": {
    "facts": {
@@ -4467,7 +4914,10 @@
      "king"
     ]
    },
-   "line": "King. Appears in five books."
+   "line": "King. Appears in five books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "360": {
    "facts": {
@@ -4494,7 +4944,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in I Kings and II Kings."
+   "line": "Prophet. Appears in I Kings and II Kings.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "362": {
    "facts": {
@@ -4536,7 +4989,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in Genesis and Ruth."
+   "line": "Prophet. Appears in Genesis and Ruth.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "365": {
    "facts": {
@@ -4550,7 +5006,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "366": {
    "facts": {
@@ -4566,7 +5025,10 @@
     "gender": "Male",
     "occupation": "judge"
    },
-   "line": "Judge. Appears in five books."
+   "line": "Judge. Appears in five books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "367": {
    "facts": {
@@ -4610,7 +5072,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in three books."
+   "line": "King of Judah. Appears in three books.",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "370": {
    "facts": {
@@ -4638,7 +5103,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "372": {
    "facts": {
@@ -4679,7 +5147,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "375": {
    "facts": {
@@ -4718,7 +5189,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in Amos and Luke."
+   "line": "Prophet. Appears in Amos and Luke.",
+   "signals": {
+    "lookAlikes": 10
+   }
   },
   "378": {
    "facts": {
@@ -4756,7 +5230,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "381": {
    "facts": {
@@ -4809,7 +5286,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in four books."
+   "line": "High Priest of Israel. Appears in four books.",
+   "signals": {
+    "lookAlikes": 7
+   }
   },
   "385": {
    "facts": {
@@ -4822,7 +5302,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "386": {
    "facts": {
@@ -4835,7 +5318,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "387": {
    "facts": {
@@ -4865,7 +5351,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "389": {
    "facts": {
@@ -4876,7 +5365,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "390": {
    "facts": {
@@ -4928,7 +5420,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "394": {
    "facts": {
@@ -4971,7 +5466,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in five books."
+   "line": "King of Israel. Appears in five books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "397": {
    "facts": {
@@ -5018,7 +5516,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "401": {
    "facts": {
@@ -5039,7 +5540,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in 8 books."
+   "line": "King of Judah. Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "402": {
    "facts": {
@@ -5054,7 +5558,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "403": {
    "facts": {
@@ -5095,7 +5602,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "406": {
    "facts": {
@@ -5221,7 +5731,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Numbers and Joshua."
+   "line": "Appears in Numbers and Joshua.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "417": {
    "facts": {
@@ -5245,7 +5758,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Ruth."
+   "line": "Appears in Ruth.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "419": {
    "facts": {
@@ -5281,7 +5797,10 @@
     "gender": "Male",
     "occupation": "spy"
    },
-   "line": "Spy. Appears in three books."
+   "line": "Spy. Appears in three books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "422": {
    "facts": {
@@ -5294,7 +5813,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "423": {
    "facts": {
@@ -5319,7 +5841,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 28
+   }
   },
   "425": {
    "facts": {
@@ -5334,7 +5859,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "426": {
    "facts": {
@@ -5347,7 +5875,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "427": {
    "facts": {
@@ -5362,7 +5893,10 @@
     "gender": "Male",
     "occupation": "military leader"
    },
-   "line": "Military leader. Appears in four books."
+   "line": "Military leader. Appears in four books.",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "428": {
    "facts": {
@@ -5373,7 +5907,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Luke."
+   "line": "Appears in Luke.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "429": {
    "facts": {
@@ -5413,7 +5950,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "432": {
    "facts": {
@@ -5442,7 +5982,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in I Kings and II Chronicles."
+   "line": "King of Judah. Appears in I Kings and II Chronicles.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "434": {
    "facts": {
@@ -5480,7 +6023,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in five books."
+   "line": "Prophet. Appears in five books.",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "437": {
    "facts": {
@@ -5502,7 +6048,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "439": {
    "facts": {
@@ -5514,7 +6063,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Samuel and II Samuel."
+   "line": "Appears in I Samuel and II Samuel.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "440": {
    "facts": {
@@ -5592,7 +6144,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "446": {
    "facts": {
@@ -5603,7 +6158,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in II Samuel."
+   "line": "Appears in II Samuel.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "447": {
    "facts": {
@@ -5631,7 +6189,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in four books."
+   "line": "High Priest of Israel. Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "449": {
    "facts": {
@@ -5645,7 +6206,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "450": {
    "facts": {
@@ -5708,7 +6272,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "455": {
    "facts": {
@@ -5722,7 +6289,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "456": {
    "facts": {
@@ -5737,7 +6307,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "457": {
    "facts": {
@@ -5748,7 +6321,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Exodus."
+   "line": "Appears in Exodus.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "458": {
    "facts": {
@@ -5819,7 +6395,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "462": {
    "facts": {
@@ -5832,7 +6411,10 @@
     "gender": "Male",
     "occupation": "biblical judge"
    },
-   "line": "Biblical judge. Appears in I Chronicles and II Chronicles."
+   "line": "Biblical judge. Appears in I Chronicles and II Chronicles.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "463": {
    "facts": {
@@ -5851,7 +6433,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in six books."
+   "line": "King of Judah. Appears in six books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "464": {
    "facts": {
@@ -5885,7 +6470,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in seven books."
+   "line": "King of Judah. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "466": {
    "facts": {
@@ -5903,7 +6491,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in five books."
+   "line": "King of Israel. Appears in five books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "467": {
    "facts": {
@@ -5921,7 +6512,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in five books."
+   "line": "King of Israel. Appears in five books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "468": {
    "facts": {
@@ -5938,7 +6532,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in four books."
+   "line": "King of Israel. Appears in four books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "469": {
    "facts": {
@@ -5955,7 +6552,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in four books."
+   "line": "King of Israel. Appears in four books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "470": {
    "facts": {
@@ -5976,7 +6576,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in 8 books."
+   "line": "King of Judah. Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "471": {
    "facts": {
@@ -5993,7 +6596,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in four books."
+   "line": "King of Israel. Appears in four books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "472": {
    "facts": {
@@ -6010,7 +6616,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in four books."
+   "line": "King of Judah. Appears in four books.",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "473": {
    "facts": {
@@ -6028,7 +6637,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in five books."
+   "line": "King of Judah. Appears in five books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "474": {
    "facts": {
@@ -6059,7 +6671,10 @@
     "gender": "Male",
     "occupation": "shepherd"
    },
-   "line": "Shepherd. Appears in seven books."
+   "line": "Shepherd. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "476": {
    "facts": {
@@ -6080,7 +6695,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in 8 books."
+   "line": "King of Judah. Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "477": {
    "facts": {
@@ -6112,7 +6730,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in five books."
+   "line": "King of Israel. Appears in five books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "479": {
    "facts": {
@@ -6130,7 +6751,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in five books."
+   "line": "King of Judah. Appears in five books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "480": {
    "facts": {
@@ -6146,7 +6770,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in three books."
+   "line": "King of Israel. Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "481": {
    "facts": {
@@ -6164,7 +6791,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in five books."
+   "line": "King of Judah. Appears in five books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "482": {
    "facts": {
@@ -6183,7 +6813,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in 8 books."
+   "line": "Prophet. Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "483": {
    "facts": {
@@ -6234,7 +6867,10 @@
      "governor"
     ]
    },
-   "line": "Governor. Appears in six books."
+   "line": "Governor. Appears in six books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "486": {
    "facts": {
@@ -6248,7 +6884,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in three books."
+   "line": "Prophet. Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "487": {
    "facts": {
@@ -6263,7 +6902,10 @@
     "gender": "Male",
     "occupation": "kohen"
    },
-   "line": "Kohen. Appears in four books."
+   "line": "Kohen. Appears in four books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "488": {
    "facts": {
@@ -6302,7 +6944,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in four books."
+   "line": "High Priest of Israel. Appears in four books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "491": {
    "facts": {
@@ -6316,7 +6961,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "492": {
    "facts": {
@@ -6336,7 +6984,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in seven books."
+   "line": "High Priest of Israel. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "493": {
    "facts": {
@@ -6359,7 +7010,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "495": {
    "facts": {
@@ -6372,7 +7026,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "496": {
    "facts": {
@@ -6419,7 +7076,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis and I Kings."
+   "line": "Appears in Genesis and I Kings.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "500": {
    "facts": {
@@ -6452,7 +7112,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in seven books."
+   "line": "Appears in seven books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "502": {
    "facts": {
@@ -6468,7 +7131,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in three books."
+   "line": "King of Israel. Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "503": {
    "facts": {
@@ -6487,7 +7153,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in six books."
+   "line": "King of Israel. Appears in six books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "504": {
    "facts": {
@@ -6549,7 +7218,10 @@
      "Pope"
     ]
    },
-   "line": "Pope. Appears in 9 books."
+   "line": "Pope. Appears in 9 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "508": {
    "facts": {
@@ -6564,7 +7236,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "509": {
    "facts": {
@@ -6631,7 +7306,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "514": {
    "facts": {
@@ -6657,7 +7335,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "516": {
    "facts": {
@@ -6669,7 +7350,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel and I Chronicles."
+   "line": "Appears in II Samuel and I Chronicles.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "517": {
    "facts": {
@@ -6685,7 +7369,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in three books."
+   "line": "High Priest of Israel. Appears in three books.",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "518": {
    "facts": {
@@ -6708,7 +7395,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "520": {
    "facts": {
@@ -6732,7 +7422,10 @@
      "King of Israel"
     ]
    },
-   "line": "King of Israel. Appears in 11 books."
+   "line": "King of Israel. Appears in 11 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "521": {
    "facts": {
@@ -6794,7 +7487,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in four books."
+   "line": "High Priest of Israel. Appears in four books.",
+   "signals": {
+    "lookAlikes": 18
+   }
   },
   "526": {
    "facts": {
@@ -6807,7 +7503,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "527": {
    "facts": {
@@ -6818,7 +7517,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel."
+   "line": "Appears in II Samuel.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "528": {
    "facts": {
@@ -6830,7 +7532,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis and Romans."
+   "line": "Appears in Genesis and Romans.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "529": {
    "facts": {
@@ -6908,7 +7613,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 3
+   }
   },
   "533": {
    "facts": {
@@ -6943,7 +7651,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and Luke."
+   "line": "Appears in Genesis and Luke.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "536": {
    "facts": {
@@ -6955,7 +7666,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 34
+   }
   },
   "537": {
    "facts": {
@@ -6967,7 +7681,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 9
+   }
   },
   "538": {
    "facts": {
@@ -6979,7 +7696,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Numbers and Joshua."
+   "line": "Appears in Numbers and Joshua.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "539": {
    "facts": {
@@ -7008,7 +7728,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in seven books."
+   "line": "Prophet. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "541": {
    "facts": {
@@ -7037,7 +7760,10 @@
      "Ecumenical Patriarch of Constantinople"
     ]
    },
-   "line": "Ecumenical Patriarch of Constantinople. Appears in five books."
+   "line": "Ecumenical Patriarch of Constantinople. Appears in five books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "543": {
    "facts": {
@@ -7054,7 +7780,10 @@
      "apostle"
     ]
    },
-   "line": "Apostle. Appears in four books."
+   "line": "Apostle. Appears in four books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "544": {
    "facts": {
@@ -7085,7 +7814,10 @@
      "apostle"
     ]
    },
-   "line": "Apostle. Appears in four books."
+   "line": "Apostle. Appears in four books.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "546": {
    "facts": {
@@ -7105,7 +7837,10 @@
      "apostle"
     ]
    },
-   "line": "Apostle. Appears in seven books."
+   "line": "Apostle. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "547": {
    "facts": {
@@ -7156,7 +7891,10 @@
     "gender": "Female",
     "occupation": "queen consort"
    },
-   "line": "Queen consort. Appears in three books."
+   "line": "Queen consort. Appears in three books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "551": {
    "facts": {
@@ -7181,7 +7919,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Numbers and Joshua."
+   "line": "Appears in Numbers and Joshua.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "553": {
    "facts": {
@@ -7201,7 +7942,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in 10 books."
+   "line": "Appears in 10 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "554": {
    "facts": {
@@ -7214,7 +7958,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "555": {
    "facts": {
@@ -7226,7 +7973,10 @@
     "gender": "Male",
     "occupation": "religious leader"
    },
-   "line": "Religious leader. Appears in Genesis."
+   "line": "Religious leader. Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "556": {
    "facts": {
@@ -7242,7 +7992,10 @@
      "King of Judah"
     ]
    },
-   "line": "King of Judah. Appears in three books."
+   "line": "King of Judah. Appears in three books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "557": {
    "facts": {
@@ -7318,7 +8071,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "563": {
    "facts": {
@@ -7336,7 +8092,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in five books."
+   "line": "High Priest of Israel. Appears in five books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "564": {
    "facts": {
@@ -7349,7 +8108,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "565": {
    "facts": {
@@ -7362,7 +8124,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "566": {
    "facts": {
@@ -7376,7 +8141,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "567": {
    "facts": {
@@ -7392,7 +8160,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in five books."
+   "line": "Prophet. Appears in five books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "568": {
    "facts": {
@@ -7424,7 +8195,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "570": {
    "facts": {
@@ -7439,7 +8213,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "571": {
    "facts": {
@@ -7455,7 +8232,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "572": {
    "facts": {
@@ -7480,7 +8260,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 20
+   }
   },
   "574": {
    "facts": {
@@ -7509,7 +8292,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in 16 books."
+   "line": "High Priest of Israel. Appears in 16 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "575": {
    "facts": {
@@ -7547,7 +8333,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "578": {
    "facts": {
@@ -7559,7 +8348,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "579": {
    "facts": {
@@ -7634,7 +8426,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "585": {
    "facts": {
@@ -7673,7 +8468,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in six books."
+   "line": "Prophet. Appears in six books.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "588": {
    "facts": {
@@ -7699,7 +8497,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 26
+   }
   },
   "590": {
    "facts": {
@@ -7745,7 +8546,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "594": {
    "facts": {
@@ -7774,7 +8578,10 @@
      "king"
     ]
    },
-   "line": "King. Appears in four books."
+   "line": "King. Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "596": {
    "facts": {
@@ -7807,7 +8614,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "599": {
    "facts": {
@@ -7834,7 +8644,10 @@
     "gender": "Male",
     "occupation": "priest"
    },
-   "line": "Priest. Appears in five books."
+   "line": "Priest. Appears in five books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "601": {
    "facts": {
@@ -7848,7 +8661,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "602": {
    "facts": {
@@ -7871,7 +8687,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "604": {
    "facts": {
@@ -7885,7 +8704,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in Nehemiah."
+   "line": "High Priest of Israel. Appears in Nehemiah.",
+   "signals": {
+    "lookAlikes": 26
+   }
   },
   "605": {
    "facts": {
@@ -7897,7 +8719,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel and Jeremiah."
+   "line": "Appears in II Samuel and Jeremiah.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "606": {
    "facts": {
@@ -7926,7 +8751,10 @@
     "gender": "Female",
     "occupation": "caregiver"
    },
-   "line": "Caregiver. Appears in four books."
+   "line": "Caregiver. Appears in four books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "608": {
    "facts": {
@@ -7938,7 +8766,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and Numbers."
+   "line": "Appears in Genesis and Numbers.",
+   "signals": {
+    "lookAlikes": 23
+   }
   },
   "609": {
    "facts": {
@@ -7949,7 +8780,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "610": {
    "facts": {
@@ -7972,7 +8806,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "612": {
    "facts": {
@@ -7999,7 +8836,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "614": {
    "facts": {
@@ -8030,7 +8870,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "617": {
    "facts": {
@@ -8093,7 +8936,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in six books."
+   "line": "Prophet. Appears in six books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "622": {
    "facts": {
@@ -8104,7 +8950,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "623": {
    "facts": {
@@ -8116,7 +8965,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "624": {
    "facts": {
@@ -8139,7 +8991,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel."
+   "line": "Appears in II Samuel.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "626": {
    "facts": {
@@ -8150,7 +9005,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Jeremiah."
+   "line": "Appears in Jeremiah.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "627": {
    "facts": {
@@ -8194,7 +9052,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in 19 books."
+   "line": "Prophet. Appears in 19 books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "629": {
    "facts": {
@@ -8206,7 +9067,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "630": {
    "facts": {
@@ -8217,7 +9081,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "631": {
    "facts": {
@@ -8228,7 +9095,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "632": {
    "facts": {
@@ -8252,7 +9122,10 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in Ezra and Nehemiah."
+   "line": "Appears in Ezra and Nehemiah.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "634": {
    "facts": {
@@ -8280,7 +9153,10 @@
      "King of Ammon"
     ]
    },
-   "line": "King of Ammon. Appears in three books."
+   "line": "King of Ammon. Appears in three books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "636": {
    "facts": {
@@ -8309,7 +9185,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Jeremiah."
+   "line": "Appears in Jeremiah.",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "638": {
    "facts": {
@@ -8339,7 +9218,10 @@
     "gender": "Male",
     "occupation": "prophet of Islam"
    },
-   "line": "Prophet of Islam. Appears in seven books."
+   "line": "Prophet of Islam. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "640": {
    "facts": {
@@ -8390,7 +9272,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "644": {
    "facts": {
@@ -8419,7 +9304,10 @@
      "queen consort"
     ]
    },
-   "line": "Queen consort. Appears in I Kings and II Kings."
+   "line": "Queen consort. Appears in I Kings and II Kings.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "646": {
    "facts": {
@@ -8463,7 +9351,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "650": {
    "facts": {
@@ -8496,7 +9387,10 @@
     "gender": "Male",
     "occupation": "comptroller"
    },
-   "line": "Comptroller. Appears in II Kings and Isaiah."
+   "line": "Comptroller. Appears in II Kings and Isaiah.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "652": {
    "facts": {
@@ -8570,7 +9464,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in 9 books."
+   "line": "Prophet. Appears in 9 books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "657": {
    "facts": {
@@ -8612,7 +9509,10 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in three books."
+   "line": "High Priest of Israel. Appears in three books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "660": {
    "facts": {
@@ -8624,7 +9524,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "661": {
    "facts": {
@@ -8637,7 +9540,10 @@
     "gender": "Female",
     "occupation": "domestic worker"
    },
-   "line": "Domestic worker. Appears in Genesis and I Chronicles."
+   "line": "Domestic worker. Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "662": {
    "facts": {
@@ -8650,7 +9556,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "663": {
    "facts": {
@@ -8697,7 +9606,10 @@
     "gender": "Male",
     "occupation": "biblical judge"
    },
-   "line": "Biblical judge. Appears in Judges and Hebrews."
+   "line": "Biblical judge. Appears in Judges and Hebrews.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "667": {
    "facts": {
@@ -8739,7 +9651,10 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in five books."
+   "line": "Prophet. Appears in five books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "670": {
    "facts": {
@@ -8755,7 +9670,10 @@
     "gender": "Male",
     "occupation": "military leader"
    },
-   "line": "Military leader. Appears in five books."
+   "line": "Military leader. Appears in five books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "671": {
    "facts": {
@@ -8766,10 +9684,9 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Female",
-    "occupation": "assistant"
+    "gender": "Female"
    },
-   "line": "Assistant. Appears in three books."
+   "line": "Appears in three books."
   },
   "672": {
    "facts": {
@@ -8781,7 +9698,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and Deuteronomy."
+   "line": "Appears in Genesis and Deuteronomy.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "673": {
    "facts": {
@@ -8797,7 +9717,10 @@
      "Great King"
     ]
    },
-   "line": "Great King. Appears in three books."
+   "line": "Great King. Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "674": {
    "facts": {
@@ -8819,7 +9742,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel."
+   "line": "Appears in II Samuel.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "676": {
    "facts": {
@@ -8830,7 +9756,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 2
+   }
   },
   "677": {
    "facts": {
@@ -8841,7 +9770,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "678": {
    "facts": {
@@ -8852,7 +9784,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "679": {
    "facts": {
@@ -8865,7 +9800,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 23
+   }
   },
   "680": {
    "facts": {
@@ -8878,7 +9816,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 20
+   }
   },
   "681": {
    "facts": {
@@ -8890,7 +9831,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 20
+   }
   },
   "682": {
    "facts": {
@@ -8903,7 +9847,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 23
+   }
   },
   "683": {
    "facts": {
@@ -8915,7 +9862,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and Numbers."
+   "line": "Appears in Genesis and Numbers.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "684": {
    "facts": {
@@ -8927,7 +9877,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and Numbers."
+   "line": "Appears in Genesis and Numbers.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "685": {
    "facts": {
@@ -8939,7 +9892,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and Numbers."
+   "line": "Appears in Genesis and Numbers.",
+   "signals": {
+    "lookAlikes": 23
+   }
   },
   "686": {
    "facts": {
@@ -8951,7 +9907,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 23
+   }
   },
   "687": {
    "facts": {
@@ -8966,7 +9925,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 1
+   }
   },
   "688": {
    "facts": {
@@ -8991,7 +9953,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "690": {
    "facts": {
@@ -9017,7 +9982,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "692": {
    "facts": {
@@ -9030,7 +9998,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "693": {
    "facts": {
@@ -9043,7 +10014,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 11
+   }
   },
   "694": {
    "facts": {
@@ -9054,7 +10028,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 23
+   }
   },
   "695": {
    "facts": {
@@ -9078,7 +10055,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 23
+   }
   },
   "697": {
    "facts": {
@@ -9117,7 +10097,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and Numbers."
+   "line": "Appears in Genesis and Numbers.",
+   "signals": {
+    "lookAlikes": 23
+   }
   },
   "700": {
    "facts": {
@@ -9128,7 +10111,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "701": {
    "facts": {
@@ -9139,7 +10125,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "702": {
    "facts": {
@@ -9171,7 +10160,10 @@
      "king"
     ]
    },
-   "line": "King. Appears in four books."
+   "line": "King. Appears in four books.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "704": {
    "facts": {
@@ -9254,7 +10246,10 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "signals": {
+    "lookAlikes": 20
+   }
   },
   "709": {
    "facts": {
@@ -9290,7 +10285,10 @@
      "prophet"
     ]
    },
-   "line": "Prophet. Appears in 23 books."
+   "line": "Prophet. Appears in 23 books.",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "710": {
    "facts": {
@@ -9317,7 +10315,10 @@
      "apostle"
     ]
    },
-   "line": "Apostle. Appears in 14 books."
+   "line": "Apostle. Appears in 14 books.",
+   "signals": {
+    "lookAlikes": 2
+   }
   },
   "711": {
    "facts": {
@@ -9334,7 +10335,10 @@
     "gender": "Male",
     "occupation": "spy"
    },
-   "line": "Spy. Appears in six books."
+   "line": "Spy. Appears in six books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "712": {
    "facts": {
@@ -9359,7 +10363,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 11
+   }
   },
   "714": {
    "facts": {
@@ -9375,7 +10382,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "715": {
    "facts": {
@@ -9422,7 +10432,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "719": {
    "facts": {
@@ -9437,7 +10450,10 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in five books."
+   "line": "Appears in five books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "720": {
    "facts": {

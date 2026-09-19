@@ -14,7 +14,10 @@
      "king of Myrmidons"
     ]
    },
-   "line": "King of Myrmidons."
+   "line": "King of Myrmidons.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "1": {
    "facts": {
@@ -26,7 +29,10 @@
     "gender": "Male",
     "occupation": "military leader"
    },
-   "line": "Military leader."
+   "line": "Military leader.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "2": {
    "facts": {
@@ -40,7 +46,10 @@
      "king of Mycenae"
     ]
    },
-   "line": "King of Mycenae."
+   "line": "King of Mycenae.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "3": {
    "facts": {
@@ -54,7 +63,10 @@
      "mythical king of Salamis"
     ]
    },
-   "line": "Mythical king of Salamis."
+   "line": "Mythical king of Salamis.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "4": {
    "facts": {
@@ -106,7 +118,10 @@
     "gender": "Male",
     "occupation": "seer"
    },
-   "line": "Seer."
+   "line": "Seer.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "9": {
    "facts": {
@@ -118,7 +133,10 @@
     "gender": "Female",
     "occupation": "oracle"
    },
-   "line": "Oracle."
+   "line": "Oracle.",
+   "signals": {
+    "lookAlikes": 13
+   }
   },
   "10": {
    "facts": {
@@ -128,6 +146,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 209
    }
   },
   "11": {
@@ -138,6 +159,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 26
    }
   },
   "12": {
@@ -152,7 +176,10 @@
      "king of Argos"
     ]
    },
-   "line": "King of Argos."
+   "line": "King of Argos.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "13": {
    "facts": {
@@ -162,6 +189,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 209
    }
   },
   "14": {
@@ -198,7 +228,10 @@
      "mythological king of Sparta"
     ]
    },
-   "line": "King of Sparta."
+   "line": "King of Sparta.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "17": {
    "facts": {
@@ -212,7 +245,10 @@
      "king of Pylos"
     ]
    },
-   "line": "King of Pylos."
+   "line": "King of Pylos.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "18": {
    "facts": {
@@ -222,6 +258,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 34
    }
   },
   "19": {
@@ -234,7 +273,10 @@
     "gender": "Male",
     "occupation": "herder"
    },
-   "line": "Herder."
+   "line": "Herder.",
+   "signals": {
+    "lookAlikes": 34
+   }
   },
   "20": {
    "facts": {
@@ -244,6 +286,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "21": {
@@ -256,7 +301,10 @@
     "role": "King of Troy",
     "gender": "Male"
    },
-   "line": "King of Troy."
+   "line": "King of Troy.",
+   "signals": {
+    "lookAlikes": 13
+   }
   },
   "22": {
    "facts": {
@@ -266,6 +314,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 66
    }
   },
   "23": {
@@ -300,7 +351,10 @@
      "king of Calydon"
     ]
    },
-   "line": "King of Calydon."
+   "line": "King of Calydon.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "26": {
    "facts": {
@@ -310,6 +364,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 209
    }
   },
   "27": {
@@ -320,6 +377,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   }
  },

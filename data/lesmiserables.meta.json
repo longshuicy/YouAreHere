@@ -26,7 +26,10 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in Volume 3 and Volume 4."
+   "line": "Of the Friends of the ABC. Appears in Volume 3 and Volume 4.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "2": {
    "facts": {
@@ -38,7 +41,10 @@
     "corpusSize": 5,
     "occupation": "bandit"
    },
-   "line": "Bandit. Appears in Volume 3 and Volume 4."
+   "line": "Bandit. Appears in Volume 3 and Volume 4.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "3": {
    "facts": {
@@ -49,7 +55,10 @@
     "corpusSize": 5,
     "occupation": "criminal"
    },
-   "line": "Criminal. Appears in Volume 4."
+   "line": "Criminal. Appears in Volume 4.",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "4": {
    "facts": {
@@ -60,7 +69,10 @@
     "corpusSize": 5,
     "occupation": "student"
    },
-   "line": "Student. Appears in Volume 1."
+   "line": "Student. Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "5": {
    "facts": {
@@ -70,7 +82,10 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in Volume 1."
+   "line": "Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 2
+   }
   },
   "6": {
    "facts": {
@@ -85,7 +100,10 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in three volumes."
+   "line": "Of the Friends of the ABC. Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "7": {
    "facts": {
@@ -96,7 +114,10 @@
     "corpusSize": 5,
     "occupation": "convict"
    },
-   "line": "Convict. Appears in Volume 1."
+   "line": "Convict. Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "8": {
    "facts": {
@@ -107,7 +128,10 @@
     "corpusSize": 5,
     "occupation": "convict"
    },
-   "line": "Convict. Appears in Volume 1."
+   "line": "Convict. Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "9": {
    "facts": {
@@ -117,7 +141,10 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in Volume 1."
+   "line": "Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "10": {
    "facts": {
@@ -132,7 +159,10 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in three volumes."
+   "line": "Of the Friends of the ABC. Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "11": {
    "facts": {
@@ -143,7 +173,10 @@
     "corpusSize": 5,
     "occupation": "convict"
    },
-   "line": "Convict. Appears in Volume 1."
+   "line": "Convict. Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "12": {
    "facts": {
@@ -157,7 +190,10 @@
     "corpusSize": 5,
     "gender": "Female"
    },
-   "line": "Appears in four volumes."
+   "line": "Appears in four volumes.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "13": {
    "facts": {
@@ -172,7 +208,10 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in three volumes."
+   "line": "Of the Friends of the ABC. Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "14": {
    "facts": {
@@ -182,7 +221,10 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in Volume 1."
+   "line": "Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "15": {
    "facts": {
@@ -199,7 +241,10 @@
     "gender": "Male",
     "occupation": "revolutionary"
    },
-   "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes."
+   "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "16": {
    "facts": {
@@ -212,7 +257,10 @@
     "corpusSize": 5,
     "gender": "Female"
    },
-   "line": "Appears in three volumes."
+   "line": "Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "17": {
    "facts": {
@@ -223,7 +271,10 @@
     "corpusSize": 5,
     "occupation": "student"
    },
-   "line": "Student. Appears in Volume 1."
+   "line": "Student. Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "18": {
    "facts": {
@@ -237,7 +288,10 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in Volume 4 and Volume 5."
+   "line": "Of the Friends of the ABC. Appears in Volume 4 and Volume 5.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "19": {
    "facts": {
@@ -261,7 +315,10 @@
     "gender": "Female",
     "occupation": "prostitute"
    },
-   "line": "Prostitute. Appears in Volume 1."
+   "line": "Prostitute. Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 34
+   }
   },
   "21": {
    "facts": {
@@ -273,7 +330,10 @@
     "corpusSize": 5,
     "occupation": "student"
    },
-   "line": "Student. Appears in Volume 1 and Volume 3."
+   "line": "Student. Appears in Volume 1 and Volume 3.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "22": {
    "facts": {
@@ -283,7 +343,10 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in Volume 1."
+   "line": "Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "23": {
    "facts": {
@@ -297,7 +360,10 @@
     "occupation": "urchin",
     "gender": "Male"
    },
-   "line": "Urchin. Appears in three volumes."
+   "line": "Urchin. Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "24": {
    "facts": {
@@ -309,7 +375,10 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in three volumes."
+   "line": "Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "25": {
    "facts": {
@@ -336,7 +405,10 @@
     ],
     "occupation": "revolutionary"
    },
-   "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes."
+   "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "27": {
    "facts": {
@@ -348,7 +420,10 @@
     "corpusSize": 5,
     "occupation": "bandit"
    },
-   "line": "Bandit. Appears in Volume 3 and Volume 4."
+   "line": "Bandit. Appears in Volume 3 and Volume 4.",
+   "signals": {
+    "lookAlikes": 45
+   }
   },
   "28": {
    "facts": {
@@ -359,7 +434,10 @@
     "corpusSize": 5,
     "occupation": "innkeeper"
    },
-   "line": "Innkeeper. Appears in Volume 4."
+   "line": "Innkeeper. Appears in Volume 4.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "29": {
    "facts": {
@@ -375,7 +453,10 @@
     "occupation": "police officer",
     "gender": "Male"
    },
-   "line": "Police officer. Appears in all five volumes."
+   "line": "Police officer. Appears in all five volumes.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "30": {
    "facts": {
@@ -390,7 +471,10 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in three volumes."
+   "line": "Of the Friends of the ABC. Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "31": {
    "facts": {
@@ -403,7 +487,10 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in Volume 4."
+   "line": "Of the Friends of the ABC. Appears in Volume 4.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "32": {
    "facts": {
@@ -414,7 +501,10 @@
     "corpusSize": 5,
     "occupation": "judge"
    },
-   "line": "Judge. Appears in Volume 1."
+   "line": "Judge. Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "33": {
    "facts": {
@@ -430,7 +520,10 @@
     "occupation": "thief",
     "gender": "Male"
    },
-   "line": "Thief. Appears in all five volumes."
+   "line": "Thief. Appears in all five volumes.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "34": {
    "facts": {
@@ -441,7 +534,10 @@
     "corpusSize": 5,
     "occupation": "student"
    },
-   "line": "Student. Appears in Volume 1."
+   "line": "Student. Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "35": {
    "facts": {
@@ -451,9 +547,14 @@
      "Volume 5"
     ],
     "unit": "volume",
-    "corpusSize": 5
+    "corpusSize": 5,
+    "gender": "Male",
+    "occupation": "revolutionary"
    },
-   "line": "Appears in three volumes."
+   "line": "Revolutionary. Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "36": {
    "facts": {
@@ -486,7 +587,10 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in three volumes."
+   "line": "Appears in three volumes.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "39": {
    "facts": {
@@ -510,7 +614,10 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in Volume 3 and Volume 4."
+   "line": "Appears in Volume 3 and Volume 4.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "41": {
    "facts": {
@@ -534,7 +641,10 @@
     "corpusSize": 5,
     "occupation": "bandit"
    },
-   "line": "Bandit. Appears in Volume 3 and Volume 4."
+   "line": "Bandit. Appears in Volume 3 and Volume 4.",
+   "signals": {
+    "lookAlikes": 50
+   }
   },
   "43": {
    "facts": {
@@ -580,7 +690,10 @@
     "corpusSize": 5,
     "occupation": "bandit"
    },
-   "line": "Bandit. Appears in Volume 3 and Volume 4."
+   "line": "Bandit. Appears in Volume 3 and Volume 4.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "47": {
    "facts": {
@@ -629,7 +742,10 @@
     "corpusSize": 5,
     "occupation": "innkeeper"
    },
-   "line": "Innkeeper. Appears in all five volumes."
+   "line": "Innkeeper. Appears in all five volumes.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "51": {
    "facts": {
@@ -643,7 +759,10 @@
     "corpusSize": 5,
     "gender": "Female"
    },
-   "line": "Appears in four volumes."
+   "line": "Appears in four volumes.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "52": {
    "facts": {
@@ -664,7 +783,10 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in Volume 1."
+   "line": "Appears in Volume 1.",
+   "signals": {
+    "lookAlikes": 21
+   }
   }
  },
  "edges": {

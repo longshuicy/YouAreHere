@@ -10,6 +10,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 244
    }
   },
   "1": {
@@ -20,6 +23,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 34
    }
   },
   "2": {
@@ -30,6 +36,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "3": {
@@ -42,7 +51,10 @@
     "gender": "Male",
     "role": "Prince of Norway"
    },
-   "line": "Prince of Norway."
+   "line": "Prince of Norway.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "4": {
    "facts": {
@@ -62,6 +74,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 34
    }
   },
   "6": {
@@ -86,6 +101,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "8": {
@@ -98,7 +116,10 @@
     "role": "Prince of Denmark",
     "gender": "Male"
    },
-   "line": "Prince of Denmark."
+   "line": "Prince of Denmark.",
+   "signals": {
+    "lookAlikes": 34
+   }
   },
   "9": {
    "facts": {
@@ -108,6 +129,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "10": {
@@ -118,6 +142,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 51
    }
   },
   "11": {
@@ -128,6 +155,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 244
    }
   },
   "12": {
@@ -138,6 +168,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "13": {
@@ -148,6 +181,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 66
    }
   },
   "14": {
@@ -160,7 +196,10 @@
     "gender": "Male",
     "role": "Councillor"
    },
-   "line": "Councillor."
+   "line": "Councillor.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "15": {
    "facts": {
@@ -182,6 +221,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "17": {
@@ -192,6 +234,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 244
    }
   }
  },

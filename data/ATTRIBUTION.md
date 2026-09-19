@@ -133,9 +133,10 @@ Changes made to the original data:
 1. Merged per-episode scene co-occurrence edge lists into one graph, summing weights across all ten seasons.
 2. Dropped self-loops and generic role labels (waitress, customer, …).
 3. Title-cased display names from the dataset's lowercase identifiers.
-4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (643 nodes and 2395 ties in, 586 and 2338 out).
-5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-6. Computed a force-directed layout for the full graph, used by the reveal animation.
+4. Applied a hand-maintained identity table covering 4 characters: display names, nicknames for the guess field, and disambiguators.
+5. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (643 nodes and 2395 ties in, 586 and 2338 out).
+6. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+7. Computed a force-directed layout for the full graph, used by the reveal animation.
 
 ### Reveal-screen enrichment — Wikidata
 

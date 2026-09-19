@@ -36,7 +36,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "3": {
    "facts": {
@@ -54,7 +57,10 @@
     "gender": "Male",
     "occupation": "swineherd"
    },
-   "line": "Swineherd. Appears in seven books."
+   "line": "Swineherd. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "4": {
    "facts": {
@@ -80,7 +86,10 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 66
+   }
   },
   "6": {
    "facts": {
@@ -103,7 +112,10 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in 13 books."
+   "line": "Appears in 13 books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "7": {
    "facts": {
@@ -125,7 +137,10 @@
      "mythological king of Sparta"
     ]
    },
-   "line": "King of Sparta. Appears in 9 books."
+   "line": "King of Sparta. Appears in 9 books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "8": {
    "facts": {
@@ -167,7 +182,10 @@
     "gender": "Female",
     "species": "Greek deity"
    },
-   "line": "Greek deity. Appears in six books."
+   "line": "Greek deity. Appears in six books.",
+   "signals": {
+    "lookAlikes": 10
+   }
   },
   "11": {
    "facts": {
@@ -194,7 +212,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in 17 books."
+   "line": "Appears in 17 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "12": {
    "facts": {
@@ -211,7 +232,10 @@
      "king of Pylos"
     ]
    },
-   "line": "King of Pylos. Appears in four books."
+   "line": "King of Pylos. Appears in four books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "13": {
    "facts": {
@@ -266,7 +290,10 @@
     "gender": "Male",
     "homeworld": "Dulichium"
    },
-   "line": "Of Dulichium. Appears in four books."
+   "line": "Of Dulichium. Appears in four books.",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "17": {
    "facts": {
@@ -284,7 +311,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in 8 books."
+   "line": "Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 26
+   }
   },
   "18": {
    "facts": {
@@ -319,7 +349,10 @@
     "gender": "Male",
     "species": "thunder deity"
    },
-   "line": "Thunder deity. Appears in all 24 books."
+   "line": "Thunder deity. Appears in all 24 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "19": {
    "facts": {
@@ -351,7 +384,10 @@
     "species": "goddess",
     "homeworld": "Olympus"
    },
-   "line": "Goddess, of Olympus. Appears in 20 books."
+   "line": "Goddess, of Olympus. Appears in 20 books.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "20": {
    "facts": {
@@ -369,7 +405,10 @@
     "gender": "Male",
     "species": "water deity"
    },
-   "line": "Water deity. Appears in seven books."
+   "line": "Water deity. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "21": {
    "facts": {
@@ -388,7 +427,10 @@
     "occupation": "courier",
     "species": "Olympian god"
    },
-   "line": "Courier, Olympian god. Appears in seven books."
+   "line": "Courier, Olympian god. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "22": {
    "facts": {
@@ -422,7 +464,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in all 24 books."
+   "line": "Appears in all 24 books.",
+   "signals": {
+    "lookAlikes": 128
+   }
   },
   "23": {
    "facts": {
@@ -434,7 +479,10 @@
     "gender": "Male",
     "occupation": "beggar"
    },
-   "line": "Beggar. Appears in Book 18."
+   "line": "Beggar. Appears in Book 18.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "24": {
    "facts": {
@@ -451,7 +499,10 @@
     "gender": "Female",
     "species": "Greek nymph"
    },
-   "line": "Greek nymph. Appears in six books."
+   "line": "Greek nymph. Appears in six books.",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "25": {
    "facts": {
@@ -467,7 +518,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in six books."
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "26": {
    "facts": {
@@ -486,7 +540,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in 9 books."
+   "line": "Appears in 9 books.",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "27": {
    "facts": {
@@ -563,7 +620,10 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in 19 books."
+   "line": "Appears in 19 books.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "31": {
    "facts": {

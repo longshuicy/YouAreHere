@@ -10,6 +10,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 244
    }
   },
   "1": {
@@ -20,6 +23,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 34
    }
   },
   "2": {
@@ -30,6 +36,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "3": {
@@ -40,6 +49,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "4": {
@@ -50,6 +62,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "5": {
@@ -60,6 +75,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 66
    }
   },
   "6": {
@@ -70,6 +88,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "7": {
@@ -80,6 +101,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 34
    }
   },
   "8": {
@@ -90,6 +114,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 34
    }
   },
   "9": {
@@ -100,6 +127,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "10": {
@@ -110,6 +140,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "11": {
@@ -120,6 +153,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 66
    }
   },
   "12": {
@@ -130,6 +166,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "13": {
@@ -150,6 +189,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 244
    }
   },
   "15": {
@@ -162,7 +204,10 @@
     "gender": "Male",
     "role": "Servant"
    },
-   "line": "Servant."
+   "line": "Servant.",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "16": {
    "facts": {
@@ -182,6 +227,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 51
    }
   }
  },

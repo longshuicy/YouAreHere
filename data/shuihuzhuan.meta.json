@@ -297,7 +297,10 @@
     "gender": "男",
     "occupation": "教師"
    },
-   "line": "教師。見於第59回、第67回。"
+   "line": "教師。見於第59回、第67回。",
+   "signals": {
+    "lookAlikes": 2
+   }
   },
   "10": {
    "facts": {
@@ -406,7 +409,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於15回。"
+   "line": "見於15回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "17": {
    "facts": {
@@ -448,7 +454,10 @@
     "gender": "男",
     "occupation": "屠户"
    },
-   "line": "屠户。見於5回。"
+   "line": "屠户。見於5回。",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "20": {
    "facts": {
@@ -610,7 +619,10 @@
      "开封府尹"
     ]
    },
-   "line": "开封府尹。見於10回。"
+   "line": "开封府尹。見於10回。",
+   "signals": {
+    "lookAlikes": 4
+   }
   },
   "31": {
    "facts": {
@@ -676,7 +688,10 @@
      "留守"
     ]
    },
-   "line": "留守。見於16回。"
+   "line": "留守。見於16回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "35": {
    "facts": {
@@ -701,7 +716,10 @@
      "太師"
     ]
    },
-   "line": "太師。見於12回。"
+   "line": "太師。見於12回。",
+   "signals": {
+    "lookAlikes": 42
+   }
   },
   "36": {
    "facts": {
@@ -756,7 +774,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於8回。"
+   "line": "見於8回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "40": {
    "facts": {
@@ -798,7 +819,10 @@
     "corpusSize": 70,
     "gender": "女"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "43": {
    "facts": {
@@ -825,7 +849,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於5回。"
+   "line": "見於5回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "45": {
    "facts": {
@@ -856,7 +883,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於6回。"
+   "line": "見於6回。",
+   "signals": {
+    "lookAlikes": 13
+   }
   },
   "47": {
    "facts": {
@@ -877,7 +907,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於11回。"
+   "line": "見於11回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "48": {
    "facts": {
@@ -921,7 +954,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於21回。"
+   "line": "見於21回。",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "50": {
    "facts": {
@@ -984,7 +1020,10 @@
      "主管"
     ]
    },
-   "line": "主管。見於4回。"
+   "line": "主管。見於4回。",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "54": {
    "facts": {
@@ -1002,7 +1041,10 @@
      "知府"
     ]
    },
-   "line": "知府。見於5回。"
+   "line": "知府。見於5回。",
+   "signals": {
+    "lookAlikes": 79
+   }
   },
   "55": {
    "facts": {
@@ -1102,7 +1144,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於14回。"
+   "line": "見於14回。",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "62": {
    "facts": {
@@ -1140,7 +1185,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於3回。"
+   "line": "見於3回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "65": {
    "facts": {
@@ -1166,7 +1214,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於3回。"
+   "line": "見於3回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "67": {
    "facts": {
@@ -1263,7 +1314,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "signals": {
+    "lookAlikes": 71
+   }
   },
   "75": {
    "facts": {
@@ -1303,7 +1357,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於7回。"
+   "line": "見於7回。",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "78": {
    "facts": {
@@ -1342,7 +1399,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於第59回、第67回。"
+   "line": "見於第59回、第67回。",
+   "signals": {
+    "lookAlikes": 6
+   }
   },
   "81": {
    "facts": {
@@ -1354,7 +1414,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於第59回、第67回。"
+   "line": "見於第59回、第67回。",
+   "signals": {
+    "lookAlikes": 6
+   }
   },
   "82": {
    "facts": {
@@ -1366,7 +1429,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於第59回、第67回。"
+   "line": "見於第59回、第67回。",
+   "signals": {
+    "lookAlikes": 0
+   }
   },
   "83": {
    "facts": {
@@ -1379,7 +1445,10 @@
     "gender": "男",
     "occupation": "教師"
    },
-   "line": "教師。見於第59回、第67回。"
+   "line": "教師。見於第59回、第67回。",
+   "signals": {
+    "lookAlikes": 6
+   }
   },
   "84": {
    "facts": {
@@ -1391,7 +1460,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於第59回、第67回。"
+   "line": "見於第59回、第67回。",
+   "signals": {
+    "lookAlikes": 15
+   }
   },
   "85": {
    "facts": {
@@ -1406,7 +1478,10 @@
     "gender": "男",
     "occupation": "管家"
    },
-   "line": "管家。見於4回。"
+   "line": "管家。見於4回。",
+   "signals": {
+    "lookAlikes": 43
+   }
   },
   "86": {
    "facts": {
@@ -1453,7 +1528,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於7回。"
+   "line": "見於7回。",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "89": {
    "facts": {
@@ -1488,7 +1566,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於第59回、第67回。"
+   "line": "見於第59回、第67回。",
+   "signals": {
+    "lookAlikes": 6
+   }
   },
   "92": {
    "facts": {
@@ -1531,7 +1612,10 @@
      "通判"
     ]
    },
-   "line": "通判。見於3回。"
+   "line": "通判。見於3回。",
+   "signals": {
+    "lookAlikes": 110
+   }
   },
   "95": {
    "facts": {
@@ -1552,7 +1636,10 @@
      "虞候"
     ]
    },
-   "line": "虞候。見於8回。"
+   "line": "虞候。見於8回。",
+   "signals": {
+    "lookAlikes": 41
+   }
   },
   "96": {
    "facts": {
@@ -1641,7 +1728,10 @@
      "大金"
     ]
    },
-   "line": "屬大金。見於第59回、第67回。"
+   "line": "屬大金。見於第59回、第67回。",
+   "signals": {
+    "lookAlikes": 1
+   }
   },
   "100": {
    "facts": {
@@ -1659,7 +1749,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於8回。"
+   "line": "見於8回。",
+   "signals": {
+    "lookAlikes": 129
+   }
   },
   "101": {
    "facts": {
@@ -1671,7 +1764,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於第46回、第49回。"
+   "line": "見於第46回、第49回。",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "102": {
    "facts": {
@@ -1752,7 +1848,10 @@
      "知府"
     ]
    },
-   "line": "知府。見於3回。"
+   "line": "知府。見於3回。",
+   "signals": {
+    "lookAlikes": 24
+   }
   },
   "106": {
    "facts": {
@@ -1848,7 +1947,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "signals": {
+    "lookAlikes": 21
+   }
   },
   "109": {
    "facts": {
@@ -1865,7 +1967,10 @@
     "corpusSize": 70,
     "gender": "女"
    },
-   "line": "見於7回。"
+   "line": "見於7回。",
+   "signals": {
+    "lookAlikes": 60
+   }
   },
   "110": {
    "facts": {
@@ -1901,7 +2006,10 @@
      "虞候"
     ]
    },
-   "line": "虞候。見於5回。"
+   "line": "虞候。見於5回。",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "112": {
    "facts": {
@@ -2022,7 +2130,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於7回。"
+   "line": "見於7回。",
+   "signals": {
+    "lookAlikes": 51
+   }
   },
   "119": {
    "facts": {
@@ -2545,7 +2656,10 @@
     "gender": "男",
     "occupation": "教師"
    },
-   "line": "教師。見於3回。"
+   "line": "教師。見於3回。",
+   "signals": {
+    "lookAlikes": 244
+   }
   },
   "142": {
    "facts": {
@@ -2609,7 +2723,10 @@
      "七十二地煞星"
     ]
    },
-   "line": "屬七十二地煞星。見於第58回、第70回。"
+   "line": "屬七十二地煞星。見於第58回、第70回。",
+   "signals": {
+    "lookAlikes": 10
+   }
   },
   "145": {
    "facts": {
@@ -2639,7 +2756,10 @@
     "corpusSize": 70,
     "gender": "男"
    },
-   "line": "見於5回。"
+   "line": "見於5回。",
+   "signals": {
+    "lookAlikes": 16
+   }
   },
   "147": {
    "facts": {
@@ -3432,7 +3552,10 @@
      "七十二地煞星"
     ]
    },
-   "line": "團練使。屬七十二地煞星。見於4回。"
+   "line": "團練使。屬七十二地煞星。見於4回。",
+   "signals": {
+    "lookAlikes": 459
+   }
   },
   "177": {
    "facts": {
@@ -3488,7 +3611,10 @@
      "七十二地煞星"
     ]
    },
-   "line": "團練使。屬七十二地煞星。見於4回。"
+   "line": "團練使。屬七十二地煞星。見於4回。",
+   "signals": {
+    "lookAlikes": 209
+   }
   },
   "179": {
    "facts": {

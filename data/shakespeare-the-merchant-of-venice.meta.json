@@ -32,6 +32,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "3": {
@@ -42,6 +45,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 244
    }
   },
   "4": {
@@ -62,6 +68,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 34
    }
   },
   "6": {
@@ -72,6 +81,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 34
    }
   },
   "7": {
@@ -82,6 +94,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 244
    }
   },
   "8": {
@@ -94,7 +109,10 @@
     "gender": "Male",
     "role": "Servant"
    },
-   "line": "Servant."
+   "line": "Servant.",
+   "signals": {
+    "lookAlikes": 249
+   }
   },
   "9": {
    "facts": {
@@ -104,6 +122,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 45
    }
   },
   "10": {
@@ -124,6 +145,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "12": {
@@ -144,6 +168,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female"
+   },
+   "signals": {
+    "lookAlikes": 249
    }
   },
   "14": {
@@ -154,6 +181,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "15": {
@@ -164,6 +194,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "16": {
@@ -174,6 +207,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 45
    }
   },
   "17": {
@@ -184,6 +220,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
+   },
+   "signals": {
+    "lookAlikes": 129
    }
   },
   "18": {

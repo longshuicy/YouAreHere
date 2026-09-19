@@ -3,10 +3,12 @@ import { fetchIndex, fetchMeta, fetchUniverse, pickPuzzle, pickWorld } from './d
 import type { IndexFile, PuzzleRecord, Universe, UniverseMeta } from './types';
 import { initSession, makeReducer } from './engine/session';
 import type { Session } from './engine/session';
-import { project } from './graph/project';
+import { cardinal, project, standingOf } from './graph/project';
+import { suggestNames } from './engine/names';
 import { useRadialLayout } from './graph/layout';
 import { blurbFor } from './data/worlds';
 import { KeyOverlay } from './render/KeyOverlay';
+import { Gallery } from './gallery/Gallery';
 import { ColdOpen } from './screens/ColdOpen';
 import { ChooseWorld } from './screens/ChooseWorld';
 import { Explore } from './screens/Explore';
@@ -38,6 +40,13 @@ export default function App() {
    * meta was truthy, and a bought reading looked up against the wrong index. */
   const [metas, setMetas] = useState<Map<string, UniverseMeta>>(new Map());
   const [showKey, setShowKey] = useState(false);
+  /** The gallery is a companion piece, not a mode. It is offered from the cold
+   * open and from the reveal, and never as a way to avoid playing — see
+   * docs/The topology gallery.md, which argued for keeping it strictly behind a
+   * finished run and has been relaxed: the case for the gate was that reading
+   * anonymous worlds first teaches you to read them as data, but a companion
+   * piece nobody can find is not a companion to anything. */
+  const [showGallery, setShowGallery] = useState(false);
   /** The world chooser, and which world it is currently fetching. `choosing`
    * is separate from the session phase because it replaces the cold open rather
    * than following it — there is no session for the chosen world yet. */
@@ -109,7 +118,17 @@ export default function App() {
   // Hooks must run unconditionally; guard inside instead of early-returning above.
   const positions = useRadialLayout(
     graph ?? { you: 0, nodes: [], edges: [] },
-    session?.known ?? { visible: new Set(), expanded: new Set(), facts: new Set(), named: new Map(), hop: new Map(), parent: new Map() },
+    session?.known ?? {
+      visible: new Set(),
+      expanded: new Set(),
+      facts: new Set(),
+      named: new Map(),
+      initials: new Map(),
+      rejected: new Map(),
+      recognised: new Set(),
+      hop: new Map(),
+      parent: new Map(),
+    },
   );
 
   // Fetch this world's sidecar as soon as the world is known — not on the click
@@ -128,6 +147,28 @@ export default function App() {
       })
       .catch(() => {});
   }, [universeId]);
+
+  /** Shared by the guess screen and the claim field, so a free move is not also
+   * a spelling test. Scoped to every loaded story on purpose — a list scoped to
+   * one book would report that book's cast size. */
+  const suggest = useMemo(() => {
+    const universes = [...loaded.values()];
+    return (query: string) => suggestNames(universes, query);
+  }, [loaded]);
+
+  /** Whether the enrichment sidecar actually has a line for a node. In most of
+   * the Shakespeare worlds it usually does not — four plays have none at all —
+   * and Facts was charging 2 clues to say "nothing is recorded of them". */
+  const hasFacts = useMemo(() => {
+    return (i: number) => Boolean(meta?.nodes[String(i)]?.line);
+  }, [meta]);
+
+  const standing = useMemo(() => {
+    if (!universe || !session) return '';
+    const above = standingOf(universe, session.you) - 1;
+    if (above === 0) return 'No one is in more of this story than you.';
+    return `Only ${cardinal(above)} ${above === 1 ? 'person' : 'people'} here are in more of this story than you.`;
+  }, [universe, session]);
 
   const factLines = useMemo(() => {
     const out = new Map<number, string>();
@@ -257,6 +298,7 @@ export default function App() {
           onChooseEase={chooseEase}
           onOpenKey={openKey}
           onStartAgain={startAgain}
+          onOpenGallery={() => setShowGallery(true)}
         />
       );
       break;
@@ -267,9 +309,16 @@ export default function App() {
           positions={positions}
           session={session}
           onExpand={(i) => dispatch({ type: 'EXPAND', node: i })}
-          onFacts={(i) => dispatch({ type: 'FACTS', node: i })}
+          onFacts={(i) => {
+            if (!hasFacts(i)) return;
+            dispatch({ type: 'FACTS', node: i });
+          }}
           onName={(i) => dispatch({ type: 'NAME', node: i, name: nameOf(i) })}
+          onClaim={(i, query) => dispatch({ type: 'CLAIM', node: i, query })}
+          suggest={suggest}
+          hasFacts={hasFacts}
           factLines={factLines}
+          standing={standing}
           onOpenGuess={() => dispatch({ type: 'OPEN_GUESS' })}
           onOpenKey={openKey}
           onReveal={revealAnswer}
@@ -297,22 +346,34 @@ export default function App() {
       );
       break;
     case 'reveal': {
-      const puzzle = universe.puzzles.find((p) => p.id === session.puzzleId) ?? boot.puzzle;
       screen = (
         <Reveal
           session={session}
           universe={universe}
-          puzzle={puzzle}
           meta={meta}
           onWakeElsewhere={wakeElsewhere}
           onOpenKey={openKey}
           onStartAgain={startAgain}
+          onOpenGallery={() => setShowGallery(true)}
         />
       );
       break;
     }
     default:
       screen = null;
+  }
+
+  if (showGallery) {
+    return (
+      <Gallery
+        universes={[...loaded.values()]}
+        onClose={() => setShowGallery(false)}
+        onStartAgain={() => {
+          setShowGallery(false);
+          startAgain();
+        }}
+      />
+    );
   }
 
   return (
