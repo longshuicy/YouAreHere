@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { RadioRow } from '../gallery/RadioRow';
 import { BrandCluster, CHROME_PADDING, HelpLink } from '../render/MarginLinks';
 import type { IndexUniverseEntry } from '../types';
 
@@ -55,8 +56,11 @@ function sizeOf(nodes: number) {
   return SIZES.find((size) => nodes <= size.upTo) ?? SIZES[SIZES.length - 1];
 }
 
+type Order = 'title' | 'size';
+
 export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartAgain, pending }: Props) {
   const [query, setQuery] = useState('');
+  const [order, setOrder] = useState<Order>('title');
   const listRef = useRef<HTMLDivElement>(null);
   const [canScroll, setCanScroll] = useState(false);
   const [atBottom, setAtBottom] = useState(true);
@@ -72,7 +76,25 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
   // "A Song of Ice and Fire" files under A and "The Tempest" under T. Filing by
   // the first *significant* word is the librarian's convention, but it hides a
   // title under a letter the reader is not looking at.
+  //
+  // By size, the same list is filed under the five-point scale instead, in scale
+  // order rather than alphabetically: XS first, XL last, and titles alphabetical
+  // within a band. The band is the only thing the heading says — the raw count
+  // still never appears, for the reason in the note above.
   const groups = useMemo(() => {
+    if (order === 'size') {
+      const byBand = new Map<string, IndexUniverseEntry[]>();
+      for (const entry of filtered) {
+        const label = sizeOf(entry.nodes).label;
+        const bucket = byBand.get(label);
+        if (bucket) bucket.push(entry);
+        else byBand.set(label, [entry]);
+      }
+      return SIZES.filter((size) => byBand.has(size.label)).map(
+        (size) => [size.label, byBand.get(size.label)!] as const,
+      );
+    }
+
     const byLetter = new Map<string, IndexUniverseEntry[]>();
     for (const entry of filtered) {
       const first = entry.title.trim().charAt(0).toUpperCase();
@@ -82,7 +104,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
       else byLetter.set(letter, [entry]);
     }
     return [...byLetter.entries()].sort(([a], [b]) => a.localeCompare(b));
-  }, [filtered]);
+  }, [filtered, order]);
 
   useEffect(() => {
     const el = listRef.current;
@@ -159,6 +181,21 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
           )}
         </div>
 
+        {/* Two ways into the same list, because the two questions a reader
+            arrives with are different: "is the world I have in mind here?" and
+            "what is small enough to start on?". Filing is all that changes —
+            the headings become the size scale — so switching never hides a
+            title or re-flows the page into something unfamiliar. */}
+        <RadioRow
+          label="File by"
+          value={order}
+          onChange={setOrder}
+          options={[
+            { key: 'title', label: 'Alphabet' },
+            { key: 'size', label: 'Size' },
+          ]}
+        />
+
         {/* Newspaper columns rather than a grid, so the alphabet reads *down*
             one column and continues at the top of the next — which is how an
             index is read. A grid would run it left-to-right across the letters
@@ -208,6 +245,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
                   <div key={letter} style={{ breakInside: 'avoid', marginBottom: 8 }}>
                     <div
                       className="mono"
+                      title={order === 'size' ? SIZES.find((size) => size.label === letter)?.title : undefined}
                       style={{
                         fontSize: 9,
                         letterSpacing: '0.28em',
@@ -244,18 +282,22 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
                         }}
                       >
                         <span>{entry.title}</span>
-                        <span
-                          className="mono"
-                          style={{
-                            fontSize: 8,
-                            letterSpacing: '0.14em',
-                            color: 'var(--unknown)',
-                            flexShrink: 0,
-                            paddingLeft: 8,
-                          }}
-                        >
-                          {sizeOf(entry.nodes).label}
-                        </span>
+                        {/* Filed by size, the heading has already said this —
+                            repeating it on every row in the band is noise. */}
+                        {order === 'title' && (
+                          <span
+                            className="mono"
+                            style={{
+                              fontSize: 8,
+                              letterSpacing: '0.14em',
+                              color: 'var(--unknown)',
+                              flexShrink: 0,
+                              paddingLeft: 8,
+                            }}
+                          >
+                            {sizeOf(entry.nodes).label}
+                          </span>
+                        )}
                       </button>
                     ))}
                   </div>

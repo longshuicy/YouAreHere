@@ -169,6 +169,9 @@ export default function App() {
       hop: new Map(),
       parent: new Map(),
     },
+    // One waking, one registry: the world and the puzzle together, so a re-roll
+    // in the same world starts from a clean sheet too.
+    session ? `${session.universe}:${session.puzzleId}` : 'none',
   );
 
   // Fetch this world's sidecar as soon as the world is known — not on the click

@@ -36,6 +36,8 @@ interface Props {
 const CLOSE_DELAY_MS = 180;
 /** Breathing room between the outermost ring and the edge of the stage. */
 const MARGIN = 64;
+/** Breathing room between your own circle and the nearest neighbour's. */
+const CENTRE_AIR = 9;
 
 export function Stage({
   graph,
@@ -159,20 +161,56 @@ export function Stage({
   // Zoom to fit. Only the positions are scaled — node radii, tie widths and
   // labels keep their true size, so degree and tie strength stay readable at
   // every depth instead of shrinking away as the diagram grows.
+  //
+  // Which is exactly what puts your own node at risk. The layout sets the first
+  // ring at a fixed 95 units and lets the band grow outward from there, so a hub
+  // start — a hundred and more first-ring ties — pushes the outermost ring far
+  // out, the fit answers by shrinking everything, and the first ring arrives
+  // back at the centre while the circles standing on it have not shrunk at all.
+  // On a phone, 200 ties landed the nearest neighbour 16px from the origin with
+  // 18px of node between them: a stranger sitting on top of you. So the fit
+  // keeps a clearance around the centre, by pushing every ring outward by a
+  // constant rather than by scaling the innermost one up — a constant preserves
+  // the spacing between rings, and it is the gap at the middle that is wrong,
+  // not the band.
   const fitted = useMemo(() => {
     let extent = 0;
+    let inner = Infinity;
+    let widest = 0;
     for (const n of graph.nodes) {
       if (n.horizon) continue;
       const p = positions.get(n.i);
       if (!p) continue;
       extent = Math.max(extent, Math.abs(p.x), Math.abs(p.y));
+      const r = Math.hypot(p.x, p.y);
+      if (r <= 0.5) continue; // you, at the origin
+      inner = Math.min(inner, r);
+      widest = Math.max(widest, radiusOf(n.i));
     }
     const fit = Math.max(80, Math.min(box?.w ?? 640, box?.h ?? 640) / 2 - MARGIN);
-    const k = extent === 0 ? 1 : Math.min(2.4, fit / extent);
+    let k = extent === 0 ? 1 : Math.min(2.4, fit / extent);
+
+    // Centre to centre: your own circle, the largest circle that could be
+    // standing on the first ring, and air between the two.
+    const clearance = radiusOf(graph.you) + widest + CENTRE_AIR;
+    let push = 0;
+    if (Number.isFinite(inner) && extent > inner && fit > clearance && k * inner < clearance) {
+      // The two conditions the drawing has to satisfy at once: the first ring
+      // stands clear of you, and the last one still lands inside the stage.
+      // Solving `k·inner + push = clearance` with `k·extent + push = fit` gives
+      // the largest scale that does both.
+      k = Math.min(k, (fit - clearance) / (extent - inner));
+      push = clearance - k * inner;
+    }
+
     const out = new Map<number, LaidOutNode>();
-    for (const [i, p] of positions) out.set(i, { ...p, x: p.x * k, y: p.y * k });
+    for (const [i, p] of positions) {
+      const r = Math.hypot(p.x, p.y);
+      const scale = r > 0.5 ? (r * k + push) / r : k;
+      out.set(i, { ...p, x: p.x * scale, y: p.y * scale });
+    }
     return out;
-  }, [graph.nodes, positions, box]);
+  }, [graph.nodes, graph.you, positions, box, radiusOf]);
 
   // Nodes the player has dragged out of the way, in fitted units. Kept here
   // rather than in the layout so a relayout never fights a manual placement.

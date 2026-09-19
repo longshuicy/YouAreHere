@@ -118,15 +118,29 @@ function bandShares(count: number): number[] {
  *  5. A node reachable by two paths keeps the ring of the shorter path; this
  *     hook does not re-parent an already-placed node.
  */
-export function useRadialLayout(graph: VisibleGraph, known: Known): Map<number, LaidOutNode> {
+export function useRadialLayout(graph: VisibleGraph, known: Known, run: string): Map<number, LaidOutNode> {
   const registry = useRef<Map<number, Placed>>(new Map());
+  const lastRun = useRef<string | null>(null);
 
   return useMemo(() => {
     const reg = registry.current;
     const visibleIds = new Set(graph.nodes.map((n) => n.i));
 
-    // Drop nodes that are no longer visible (shouldn't normally happen, but
-    // keeps the registry from leaking across a re-roll/new puzzle).
+    // A new waking gets a clean registry. Rule 1 — a placed node keeps its
+    // coordinates — holds *within* one graph, and node indices are per-universe,
+    // so carrying placements across a re-roll hands a stranger in the new world
+    // the position of whoever held that index in the old one. Dropping the ids
+    // that are no longer visible is not enough: the two worlds overlap on almost
+    // every index, so the entries that survive are exactly the wrong ones. The
+    // worst of them is the previous `you`, whose entry is ring 0 at radius 0 —
+    // inherited by a neighbour, it draws them sitting on top of your own node,
+    // which is how this was found.
+    if (lastRun.current !== run) {
+      reg.clear();
+      lastRun.current = run;
+    }
+
+    // Anyone no longer visible has nothing to keep a place for.
     for (const id of Array.from(reg.keys())) {
       if (!visibleIds.has(id)) reg.delete(id);
     }
@@ -306,5 +320,5 @@ export function useRadialLayout(graph: VisibleGraph, known: Known): Map<number, 
 
     return out;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [graph.nodes.map((n) => n.i).join(','), known.expanded.size]);
+  }, [graph.nodes.map((n) => n.i).join(','), known.expanded.size, run]);
 }
