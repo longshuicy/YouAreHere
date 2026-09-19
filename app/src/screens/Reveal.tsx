@@ -108,7 +108,10 @@ export function Reveal({
   ].join('  ·  ');
 
   return (
-    <div style={{ position: 'relative', height: '100vh', overflow: 'hidden', background: 'var(--paper)' }}>
+    <div
+      className="reveal-root"
+      style={{ position: 'relative', height: '100dvh', overflow: 'hidden', background: 'var(--paper)' }}
+    >
       {/* Graph is the right half of the page, not a boxed panel. */}
       <div className="reveal-graph">
         <FullGraph
@@ -126,16 +129,16 @@ export function Reveal({
           You are
         </div>
 
-        <div style={{ fontSize: 57, letterSpacing: '0.015em', marginTop: 14, lineHeight: 1.1 }}>
+        <div style={{ fontSize: 'clamp(34px, 9vw, 57px)', letterSpacing: '0.015em', marginTop: 14, lineHeight: 1.1 }}>
           {you?.n ?? 'Unknown'}
         </div>
 
-        <div style={{ fontSize: 23, fontStyle: 'italic', color: 'var(--body)', marginTop: 10 }}>
+        <div style={{ fontSize: 'clamp(18px, 5vw, 23px)', fontStyle: 'italic', color: 'var(--body)', marginTop: 10 }}>
           {universe.title}
         </div>
 
         {characterLine && (
-          <div style={{ fontSize: 19, color: 'var(--body)', marginTop: 30 }}>
+          <div style={{ fontSize: 'clamp(16px, 4.2vw, 19px)', color: 'var(--body)', marginTop: 30 }}>
             {characterLine}
           </div>
         )}
@@ -214,6 +217,9 @@ export function Reveal({
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'baseline',
+          // Over a stacked, scrolling reveal the chrome would otherwise sit at
+          // the top of the *document* and scroll away with the graph.
+          height: 'fit-content',
           pointerEvents: 'none',
         }}
       >

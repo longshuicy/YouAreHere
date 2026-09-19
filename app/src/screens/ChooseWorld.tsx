@@ -107,13 +107,16 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
   return (
     <div
       style={{
-        height: '100vh',
+        height: '100dvh',
         display: 'flex',
         flexDirection: 'column',
         padding: CHROME_PADDING,
       }}
     >
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+      <div
+        className="chrome-row"
+        style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}
+      >
         <BrandCluster onStartAgain={onStartAgain} />
         <HelpLink onOpenKey={onOpenKey} />
       </div>
@@ -129,7 +132,9 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
           paddingTop: 24,
         }}
       >
-        <div style={{ fontSize: 27, textAlign: 'center' }}>Where would you like to wake?</div>
+        <div style={{ fontSize: 'clamp(20px, 5.6vw, 27px)', textAlign: 'center' }}>
+          Where would you like to wake?
+        </div>
 
         <div style={{ position: 'relative', width: 'min(420px, 92vw)' }}>
           <input
@@ -217,6 +222,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
                     {entries.map((entry) => (
                       <button
                         key={entry.id}
+                        className="world-row"
                         onClick={() => onChoose(entry)}
                         disabled={pending !== null}
                         title={sizeOf(entry.nodes).title}

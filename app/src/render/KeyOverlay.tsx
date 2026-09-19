@@ -28,20 +28,33 @@ export function KeyOverlay({ onClose }: Props) {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 32,
+        // The key is taller than a phone once the rows wrap, so it scrolls
+        // rather than running off the bottom with Close below the fold.
+        overflowY: 'auto',
+        padding: 'max(24px, var(--pad-top)) var(--pad-x)',
         zIndex: 40,
       }}
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        style={{ width: 'min(720px, 100%)', display: 'flex', flexDirection: 'column', gap: 34 }}
+        style={{
+          width: 'min(720px, 100%)',
+          margin: 'auto 0',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 'clamp(22px, 4vh, 34px)',
+        }}
       >
-        <div className="chrome">What can I do · opens over the paper, always available</div>
+        {/* The one chrome line long enough to need two of them on a phone. */}
+        <div className="chrome" style={{ whiteSpace: 'normal', lineHeight: 1.7 }}>
+          What can I do · opens over the paper, always available
+        </div>
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           {ROWS.map((r) => (
             <div
               key={r.label}
+              className="key-row"
               style={{
                 display: 'flex',
                 justifyContent: 'space-between',
@@ -53,14 +66,14 @@ export function KeyOverlay({ onClose }: Props) {
               <div className="mono" style={{ fontSize: 12, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
                 {r.label}
               </div>
-              <div style={{ fontSize: 17, color: 'var(--body)' }}>
+              <div style={{ fontSize: 'clamp(14px, 3.8vw, 17px)', color: 'var(--body)' }}>
                 {r.gloss} &nbsp;·&nbsp; {r.cost}
               </div>
             </div>
           ))}
         </div>
 
-        <div style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--body)' }}>
+        <div style={{ fontSize: 'clamp(15px, 4vw, 18px)', lineHeight: 1.7, color: 'var(--body)' }}>
           <div style={{ color: 'var(--ink)' }}>Read the graph.</div>
           <div style={{ marginTop: 18 }}>Larger nodes are in more of the story.</div>
           <div>Thicker lines mean stronger ties.</div>

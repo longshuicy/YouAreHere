@@ -22,6 +22,12 @@
   --serif: 'Spectral', Georgia, serif;
   --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
 
+  /* The page inset, as tokens rather than a literal, so a phone can have its
+     own margins without every screen carrying a breakpoint of its own. */
+  --pad-top: 44px;
+  --pad-x: 64px;
+  --pad-bottom: 56px;
+
   color-scheme: light;
 }
 
@@ -380,18 +386,154 @@ button {
 }
 
 @media (max-width: 800px) {
+  /* Stacked: the network on top, the prose under it, and the page itself is
+     what scrolls. Two panes each scrolling inside a locked screen is the thing
+     that made this unusable on a phone. */
+  .reveal-root {
+    height: auto;
+    min-height: 100dvh;
+    overflow-y: auto !important;
+  }
+
   .reveal-graph {
     position: relative;
     width: 100%;
-    height: 42vh;
+    height: 38vh;
+    min-height: 240px;
   }
 
   .reveal-copy {
     position: relative;
     width: 100%;
     height: auto;
-    max-height: 58vh;
-    padding: 110px 32px 40px 32px;
+    max-height: none;
+    overflow: visible;
+    padding: 8px var(--pad-x) 48px var(--pad-x);
     box-shadow: none;
+  }
+}
+
+/* A phone on its side, and any short window.
+
+   The cold open is a column that squeezes: the stage shrinks to nothing and
+   the lines below it end up printed over the ones above. Under about 560px of
+   height it stops squeezing and the page scrolls instead. */
+@media (max-height: 560px) {
+  .cold-open {
+    height: auto !important;
+    min-height: 100dvh;
+  }
+
+  .cold-main {
+    flex: 0 0 auto !important;
+  }
+
+  .cold-stage {
+    height: 210px !important;
+    flex-shrink: 0 !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   The phone.
+
+   Everything above is written for a page with margins to spare. A 375pt screen
+   has none: the 64px inset alone is a third of it, the chrome rows run off the
+   right edge, and a two-column footer squeezes the prose to one word a line.
+   This block narrows the inset, lets the chrome rows wrap, and stacks the
+   footers — no screen keeps a horizontal arrangement it cannot afford.
+   --------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  :root {
+    --pad-top: 18px;
+    --pad-x: 18px;
+    --pad-bottom: 22px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .brand {
+    font-size: 17px;
+  }
+
+  .chrome {
+    font-size: 10px;
+    letter-spacing: 0.16em;
+  }
+
+  .annot-link,
+  .annot {
+    font-size: 9px;
+    letter-spacing: 0.12em;
+  }
+
+  .field-label {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+  }
+
+  .action {
+    font-size: 11px;
+    letter-spacing: 0.24em;
+  }
+
+  .action-quiet {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+  }
+
+  .field {
+    font-size: 20px;
+  }
+
+  /* The long half of the ledger. The count is the part that matters, and at
+     this width the sentence around it is what pushes it off the screen. */
+  .ledger-long {
+    display: none;
+  }
+
+  /* A chrome row: brand on the left, counters on the right, wrapping to a
+     second line rather than running off the page. */
+  .chrome-row {
+    flex-wrap: wrap;
+    gap: 6px 14px;
+  }
+
+  /* A screen's footer: the prose over the actions, both full width. */
+  .stack-sm {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 16px;
+  }
+
+  .stack-sm > * {
+    max-width: 100% !important;
+  }
+
+  .stack-sm .foot-actions {
+    align-items: flex-start !important;
+  }
+
+  /* The itemised tally duplicates the header's count and has nowhere to sit
+     over a graph this narrow. */
+  .ledger-breakdown {
+    display: none;
+  }
+
+  /* A title in the catalogue is a touch target, and 26px of it is not one. */
+  .world-row {
+    font-size: 15px !important;
+    min-height: 38px !important;
+    padding: 8px 0 7px 0 !important;
+  }
+
+  /* The key's rows: label over gloss, because the two of them side by side
+     leave the price hanging alone on a third line. */
+  .key-row {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 4px;
   }
 }

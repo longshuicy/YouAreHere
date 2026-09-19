@@ -1,6 +1,8 @@
 /** Shared page inset so the brand mark does not jump when the screen changes.
- *  A screen may override only the bottom; top and sides stay put. */
-export const CHROME_PADDING = '44px 64px 56px 64px';
+ *  A screen may override only the bottom; top and sides stay put.
+ *  The values are tokens rather than literals so a phone gets its own, narrower
+ *  margins from one place in index.css. */
+export const CHROME_PADDING = 'var(--pad-top) var(--pad-x) var(--pad-bottom) var(--pad-x)';
 
 /**
  * Chrome zones:

@@ -137,7 +137,9 @@ function WorldDetail({
         </button>
       </div>
 
-      <div style={{ fontFamily: 'var(--serif)', fontSize: 34, lineHeight: 1.1 }}>{world.title}</div>
+      <div style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(24px, 6.4vw, 34px)', lineHeight: 1.1 }}>
+        {world.title}
+      </div>
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 40, borderTop: '1px solid var(--rule)', paddingTop: 18 }}>
         {(
@@ -366,7 +368,7 @@ export function Gallery({ universes, onStartAgain }: Props) {
         // Top and sides from the shared inset so the brand mark does not jump
         // coming into the gallery; only the bottom is this screen's own.
         padding: CHROME_PADDING,
-        paddingBottom: 72,
+        paddingBottom: 'max(56px, var(--pad-bottom))',
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
@@ -378,10 +380,10 @@ export function Gallery({ universes, onStartAgain }: Props) {
       ) : (
         <>
           <div style={{ paddingTop: 30, maxWidth: 620 }}>
-            <div style={{ fontFamily: 'var(--serif)', fontSize: 34, lineHeight: 1.1 }}>
+            <div style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(24px, 6.4vw, 34px)', lineHeight: 1.1 }}>
               The topology gallery
             </div>
-            <div style={{ fontSize: 18, color: 'var(--body)', lineHeight: 1.6, paddingTop: 12 }}>
+            <div style={{ fontSize: 'clamp(15px, 4vw, 18px)', color: 'var(--body)', lineHeight: 1.6, paddingTop: 12 }}>
               Every world you have loaded, measured the same way and drawn at the same scale. Nothing
               here is a puzzle, and nothing has a right answer.
             </div>
