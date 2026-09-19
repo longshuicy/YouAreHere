@@ -232,6 +232,18 @@ export function standingOf(universe: Universe, you: NodeIndex): number {
   return above + 1;
 }
 
+/**
+ * A tie's figure with its unit attached, in the one unit every world shares.
+ *
+ * The count means something different in each dataset — verses naming both,
+ * shared scenes, bills co-sponsored — and saying which would tell the player
+ * where they are. *Times* is true of all of them and names none of them, and a
+ * bare numeral beside a name reads as an identifier rather than a quantity.
+ */
+export function timesTogether(weight: number): string {
+  return weight === 1 ? 'once' : `${weight} times`;
+}
+
 const CARDINALS = [
   'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
   'eleven', 'twelve',

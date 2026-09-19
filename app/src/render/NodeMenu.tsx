@@ -7,7 +7,7 @@ import type { ActionKey, Session } from '../engine/session';
 import type { NodeIndex } from '../types';
 import { availableActionsFor, canClaim } from '../engine/session';
 import { nodeRadius } from './scales';
-import { cardinal } from '../graph/project';
+import { cardinal, timesTogether } from '../graph/project';
 
 interface Props {
   node: VisibleNode | null;
@@ -407,21 +407,36 @@ export function NodeMenu({
                   width: '100%',
                   padding: '9px 0',
                   textAlign: 'left',
-                  whiteSpace: 'nowrap',
                   color: lit ? 'var(--accent)' : undefined,
                 }}
               >
                 <span
                   className="mono"
-                  style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}
+                  style={{
+                    fontSize: 11,
+                    letterSpacing: '0.2em',
+                    textTransform: 'uppercase',
+                    whiteSpace: 'nowrap',
+                  }}
                 >
                   shares most
                 </span>
-                <span style={{ fontFamily: 'var(--serif)', fontSize: 14, color: 'var(--body)' }}>
+                {/* The only row whose right-hand side can run long — a bought
+                    name and a figure together — so it is the only one allowed
+                    to wrap rather than push past the edge of the panel. */}
+                <span
+                  style={{
+                    fontFamily: 'var(--serif)',
+                    fontSize: 14,
+                    color: 'var(--body)',
+                    textAlign: 'right',
+                    lineHeight: 1.3,
+                  }}
+                >
                   {picker.neighbours.length === 1
                     ? labelOf(picker.neighbours[0])
                     : `${cardinal(picker.neighbours.length)} equal`}{' '}
-                  · {picker.weight}
+                  · {timesTogether(picker.weight)}
                 </span>
               </button>
               {lit && picker.neighbours.length > 1 && (
