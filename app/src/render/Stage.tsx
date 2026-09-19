@@ -111,7 +111,7 @@ export function Stage({
   // A pinned node wins over whatever the pointer is currently over, so the menu
   // stays put once clicked.
   const active = pinned ?? hovered;
-  const activeNode = graph.nodes.find((n) => n.i === active) ?? null;
+  const activeNode = graph.nodes.find((n) => n.i === active && !n.horizon) ?? null;
 
 
   const strongestOf = (i: number) => strongestTieFrom(graph.edges, i);
@@ -121,6 +121,7 @@ export function Stage({
     if (!lit || !litTie) return keys;
     const ends = new Set(litTie.neighbours);
     for (const e of graph.edges) {
+      if (e.horizon) continue;
       const other = e.source === lit.from ? e.target : e.target === lit.from ? e.source : null;
       if (other !== null && ends.has(other)) keys.add(edgeKey(e));
     }
@@ -141,7 +142,10 @@ export function Stage({
     if (n.monogram) return `${n.monogram.initial}\u2014`;
     return 'a stranger';
   };
-  const maxHop = Math.max(0, ...graph.nodes.map((n) => n.hop).filter((h) => Number.isFinite(h)));
+  const maxHop = Math.max(
+    0,
+    ...graph.nodes.filter((n) => !n.horizon).map((n) => n.hop).filter((h) => Number.isFinite(h)),
+  );
 
   const radiusOf = useMemo(() => {
     const byIndex = new Map(graph.nodes.map((n) => [n.i, n]));
@@ -158,6 +162,7 @@ export function Stage({
   const fitted = useMemo(() => {
     let extent = 0;
     for (const n of graph.nodes) {
+      if (n.horizon) continue;
       const p = positions.get(n.i);
       if (!p) continue;
       extent = Math.max(extent, Math.abs(p.x), Math.abs(p.y));
@@ -229,10 +234,11 @@ export function Stage({
   // Until the stage has measured itself the fit is guesswork, and a diagram
   // that lands wrong and then animates into place is the first thing the player
   // sees. Hold the content for that one frame instead.
+  const hasHorizon = graph.nodes.some((n) => n.horizon);
   const view = box ?? { w: 640, h: 640 };
 
   return (
-    <div ref={hostRef} style={{ width: '100%', height: '100%' }}>
+    <div ref={hostRef} style={{ width: '100%', height: '100%', overflow: hasHorizon ? 'visible' : undefined }}>
       <svg
         ref={pannable ? zoomRef : undefined}
         viewBox={`${-view.w / 2} ${-view.h / 2} ${view.w} ${view.h}`}
@@ -246,6 +252,7 @@ export function Stage({
           display: 'block',
           cursor: pannable ? 'grab' : 'default',
           touchAction: 'none',
+          overflow: hasHorizon ? 'visible' : undefined,
         }}
       >
         {/* Clicking the paper dismisses a pinned menu. Also the zoom catcher. */}

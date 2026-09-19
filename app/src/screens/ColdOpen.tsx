@@ -144,7 +144,7 @@ export function ColdOpen({
             width, is what decides how many characters can stand around you
             before they touch. At 300px it was about a dozen, which is fewer
             than the puzzle generator is allowed to hand it. */}
-        <div style={{ width: 'min(620px, 80vw)', height: 'min(440px, 44vh)', flexShrink: 1, minHeight: 0 }}>
+        <div style={{ width: 'min(620px, 80vw)', height: 'min(440px, 44vh)', flexShrink: 1, minHeight: 0, overflow: 'visible' }}>
           <Stage
             graph={graph}
             positions={positions}

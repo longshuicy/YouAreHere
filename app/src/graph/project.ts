@@ -40,6 +40,13 @@ export interface VisibleNode {
   /** True for a node that was just added by the most recent expand — used to
    * apply reduced-opacity "frontier" styling and to animate outward. */
   hop: number;
+  /**
+   * A hint of the next ring, drawn only on the cold open. Not in `known`, not
+   * named, not hittable — the world around you without the world itself.
+   */
+  horizon?: boolean;
+  /** Who revealed this node, when that is not in `known.parent` (horizon). */
+  parent?: NodeIndex | null;
 }
 
 export interface VisibleEdge {
@@ -78,6 +85,8 @@ export interface VisibleEdge {
    * compared, which is the whole of what it is for.
    */
   weight: number;
+  /** A spoke to a horizon node — drawn faint, never as evidence. */
+  horizon?: boolean;
 }
 
 /** A drawn tie's identity, in the edge's own orientation: the render key, and
@@ -121,6 +130,7 @@ export function strongestTieFrom(edges: VisibleEdge[], i: NodeIndex): StrongestT
   let neighbours: NodeIndex[] = [];
   let degree = 0;
   for (const e of edges) {
+    if (e.horizon) continue;
     const other = e.source === i ? e.target : e.target === i ? e.source : null;
     if (other === null) continue;
     degree += 1;
@@ -203,6 +213,107 @@ export function project(universe: Universe, known: Known, you: NodeIndex): Visib
   }
 
   return { you, nodes, edges };
+}
+
+/** Strongest unused neighbours of each hop-1 person, enough to suggest a ring. */
+const HORIZON_PER_PARENT = 3;
+const HORIZON_TOTAL = 40;
+
+/**
+ * A faint second hop for the cold open only.
+ *
+ * Not written into `known`: Begin must still open on the one-hop graph the
+ * player is allowed to have. Caps keep a 300-neighbour start from drawing a
+ * second catalogue.
+ */
+export function withHorizon(
+  universe: Universe,
+  you: NodeIndex,
+  visible: VisibleGraph,
+): VisibleGraph {
+  const present = new Set(visible.nodes.map((n) => n.i));
+  const hop1 = visible.nodes
+    .filter((n) => n.hop === 1)
+    .sort((a, b) => b.presence - a.presence)
+    .map((n) => n.i);
+  if (hop1.length === 0) return visible;
+
+  const heaviest = maxWeight(universe);
+  const tieCeiling = Math.log1p(heaviest) || 1;
+
+  const adj = new Map<NodeIndex, { other: NodeIndex; weight: number }[]>();
+  for (const [s, t, w] of universe.edges) {
+    const add = (from: NodeIndex, to: NodeIndex) => {
+      const list = adj.get(from);
+      if (list) list.push({ other: to, weight: w });
+      else adj.set(from, [{ other: to, weight: w }]);
+    };
+    add(s, t);
+    add(t, s);
+  }
+
+  const weighted = weightedDegrees(universe);
+  let fullest = 0;
+  let faintest = Infinity;
+  for (const w of weighted.values()) {
+    if (w > fullest) fullest = w;
+    if (w < faintest) faintest = w;
+  }
+  const floor = Math.log1p(Number.isFinite(faintest) ? faintest : 0);
+  const span = Math.log1p(fullest) - floor || 1;
+
+  const horizonNodes: VisibleNode[] = [];
+  const horizonEdges: VisibleEdge[] = [];
+  const taken = new Set(present);
+
+  const picks = new Map<NodeIndex, { other: NodeIndex; weight: number }[]>();
+  for (const parent of hop1) {
+    const ranked = [...(adj.get(parent) ?? [])]
+      .filter((n) => !taken.has(n.other))
+      .sort((a, b) => b.weight - a.weight)
+      .slice(0, HORIZON_PER_PARENT);
+    picks.set(parent, ranked);
+  }
+
+  // Round-robin so the halo walks the whole opening ring instead of piling
+  // behind the first few hubs.
+  for (let slot = 0; slot < HORIZON_PER_PARENT; slot++) {
+    for (const parent of hop1) {
+      if (horizonNodes.length >= HORIZON_TOTAL) break;
+      const candidate = picks.get(parent)?.[slot];
+      if (!candidate || taken.has(candidate.other)) continue;
+      taken.add(candidate.other);
+      const { other, weight } = candidate;
+      horizonNodes.push({
+        i: other,
+        isYou: false,
+        presence: (Math.log1p(weighted.get(other) ?? 0) - floor) / span,
+        expanded: false,
+        name: null,
+        monogram: null,
+        recognised: false,
+        rejected: [],
+        hop: 2,
+        horizon: true,
+        parent,
+      });
+      horizonEdges.push({
+        source: parent,
+        target: other,
+        strength: Math.log1p(weight) / tieCeiling,
+        weight,
+        horizon: true,
+      });
+    }
+    if (horizonNodes.length >= HORIZON_TOTAL) break;
+  }
+
+  if (horizonNodes.length === 0) return visible;
+  return {
+    you,
+    nodes: [...visible.nodes, ...horizonNodes],
+    edges: [...visible.edges, ...horizonEdges],
+  };
 }
 
 /**

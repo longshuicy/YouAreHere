@@ -3,7 +3,7 @@ import { fetchIndex, fetchMeta, fetchUniverse, pickPuzzle, pickWorld } from './d
 import type { IndexFile, PuzzleRecord, Universe, UniverseMeta } from './types';
 import { initSession, makeReducer } from './engine/session';
 import type { Session } from './engine/session';
-import { cardinal, project, standingOf } from './graph/project';
+import { cardinal, project, standingOf, withHorizon } from './graph/project';
 import { suggestNames } from './engine/names';
 import { useRadialLayout } from './graph/layout';
 import { blurbFor, familiarityFor, unscoredWorlds } from './data/worlds';
@@ -150,7 +150,9 @@ export default function App() {
 
   const graph = useMemo(() => {
     if (!universe || !session) return null;
-    return project(universe, session.known, session.you);
+    const visible = project(universe, session.known, session.you);
+    if (session.phase !== 'cold') return visible;
+    return withHorizon(universe, session.you, visible);
   }, [universe, session]);
 
   // Hooks must run unconditionally; guard inside instead of early-returning above.

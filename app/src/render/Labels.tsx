@@ -27,7 +27,7 @@ export function Labels({ nodes, positions, animate = true }: Props) {
           measurement of a name and not a name — and a rule as long as the
           letters it is standing in for. */}
       {nodes
-        .filter((n) => !n.name && n.monogram && !n.isYou)
+        .filter((n) => !n.name && n.monogram && !n.isYou && !n.horizon)
         .map((n) => {
           const p = positions.get(n.i);
           if (!p || !n.monogram) return null;

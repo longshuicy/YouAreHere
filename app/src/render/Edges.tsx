@@ -41,7 +41,7 @@ export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom
         const ux = dx / len;
         const uy = dy / len;
 
-        const isLit = litAny && lit!.has(edgeKey(e));
+        const isLit = !e.horizon && litAny && lit!.has(edgeKey(e));
         const x1 = a.x + ux * gapA;
         const y1 = a.y + uy * gapA;
         const x2 = b.x - ux * gapB;
@@ -54,11 +54,11 @@ export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom
               y1={y1}
               x2={x2}
               y2={y2}
-              stroke={isLit ? 'var(--accent)' : tieColor(e.strength)}
-              strokeWidth={isLit ? tieWidth(e.strength) + 1 : tieWidth(e.strength)}
+              stroke={e.horizon ? 'var(--unknown)' : isLit ? 'var(--accent)' : tieColor(e.strength)}
+              strokeWidth={e.horizon ? 0.7 : isLit ? tieWidth(e.strength) + 1 : tieWidth(e.strength)}
               // Not hidden, dimmed: the rest of the fan is still the context
               // that makes the lit tie mean anything.
-              opacity={litAny && !isLit ? 0.3 : 1}
+              opacity={e.horizon ? 0.18 : litAny && !isLit ? 0.3 : 1}
               style={{
                 transition: animate
                   ? 'x1 400ms ease-out, y1 400ms ease-out, x2 400ms ease-out, y2 400ms ease-out, stroke-width 300ms ease-out, stroke 300ms ease-out, opacity 200ms ease-out'
@@ -71,7 +71,7 @@ export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom
                 glance what two strokes a pixel apart never will. The sign is
                 *times* in every world, because the real unit — verses, scenes,
                 bills — would say which world this is. */}
-            {isLit && (
+            {isLit && !e.horizon && (
               <text
                 // Two thirds of the way along rather than halfway: the tie is
                 // lit from a node whose menu is open over the near end, and a

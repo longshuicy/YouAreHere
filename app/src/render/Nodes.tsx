@@ -42,6 +42,23 @@ export function Nodes({
         const p = positions.get(n.i);
         if (!p) return null;
         const r = n.isYou ? 8.5 : nodeRadius(n.presence);
+        if (n.horizon) {
+          return (
+            <g
+              key={n.i}
+              transform={`translate(${p.x}, ${p.y})`}
+              style={{ pointerEvents: 'none', transition: animate ? 'transform 600ms ease-in-out' : 'none' }}
+            >
+              <circle
+                r={Math.max(3.5, r * 0.72)}
+                fill="var(--paper)"
+                stroke="var(--unknown)"
+                strokeWidth={1}
+                opacity={0.22}
+              />
+            </g>
+          );
+        }
         const isFrontier = !n.isYou && !n.expanded && n.hop === maxHop;
         return (
           <g

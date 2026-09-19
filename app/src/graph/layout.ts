@@ -147,11 +147,12 @@ export function useRadialLayout(graph: VisibleGraph, known: Known): Map<number, 
     const bandWidth = (bandRings(yourTies) - 1) * BAND_STEP;
 
     // Group newly discovered nodes by parent so siblings split their parent's
-    // angular wedge evenly (angle is inherited from parent).
+    // angular wedge evenly (angle is inherited from parent). Horizon waits
+    // until after the sim, so its spokes still meet the people they belong to.
     const newBySameParent = new Map<number | null, number[]>();
     for (const node of graph.nodes) {
-      if (reg.has(node.i)) continue;
-      const parent = known.parent.get(node.i) ?? null;
+      if (reg.has(node.i) || node.horizon) continue;
+      const parent = known.parent.get(node.i) ?? node.parent ?? null;
       const list = newBySameParent.get(parent) ?? [];
       list.push(node.i);
       newBySameParent.set(parent, list);
@@ -239,7 +240,7 @@ export function useRadialLayout(graph: VisibleGraph, known: Known): Map<number, 
       }
     }
 
-    const nodesForSim = graph.nodes.map((n) => reg.get(n.i)!);
+    const nodesForSim = graph.nodes.filter((n) => !n.horizon).map((n) => reg.get(n.i)!);
     const you = nodesForSim.find((n) => n.ring === 0);
     if (you) {
       you.fx = 0;
@@ -275,6 +276,32 @@ export function useRadialLayout(graph: VisibleGraph, known: Known): Map<number, 
       n.y = y;
       n.angle = angle;
       out.set(n.i, { i: n.i, x, y, ring: n.ring });
+    }
+
+    // Halo sits just outside the opening band, using each parent's final angle
+    // so a faint spoke still reads as belonging to someone on the first ring.
+    const haloRadius = ringRadius(1) + bandWidth + 42;
+    const horizonByParent = new Map<number, number[]>();
+    for (const node of graph.nodes) {
+      if (!node.horizon || node.parent == null) continue;
+      const list = horizonByParent.get(node.parent) ?? [];
+      list.push(node.i);
+      horizonByParent.set(node.parent, list);
+    }
+    for (const [parentId, children] of horizonByParent) {
+      const parentPlaced = reg.get(parentId);
+      const parentAngle = parentPlaced?.angle ?? 0;
+      const wedge = Math.min(Math.PI * 0.55, Math.max(0.18, children.length * 0.12));
+      const start = parentAngle - wedge / 2;
+      const step = children.length === 1 ? 0 : wedge / (children.length - 1);
+      children.forEach((id, idx) => {
+        const angle = children.length === 1 ? parentAngle : start + step * idx;
+        const x = Math.cos(angle) * haloRadius;
+        const y = Math.sin(angle) * haloRadius;
+        const placed = { i: id, ring: 2, angle, radius: haloRadius, x, y };
+        reg.set(id, placed);
+        out.set(id, { i: id, x, y, ring: 2 });
+      });
     }
 
     return out;
