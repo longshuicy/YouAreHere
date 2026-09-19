@@ -297,6 +297,8 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | Star Wars (Gabasova) | Per-episode scene-speech JSON | Shipped | CC BY 3.0. Episodes I–VII as segments. |
 | Shakespeare (DraCor / Folger) | 37 plays, scene co-presence | Shipped | CC BY-NC 3.0. Merged; unnamed crowds dropped. |
 | Bible | — | Not yet | KJV is PD; ready-made graphs are BY-SA (cannot merge) or mix people with places. See `pipeline/raw/bible/SOURCE.md`. |
+| U.S. Congress | Cosponsorship projected graph | Shipped | Fowler via Benson et al., CC BY 4.0. Segments are Congresses. See `pipeline/raw/congress/SOURCE.md`. |
+| Friends | Scene co-occurrence edge lists | Shipped | Michelle Edwards, CC BY 4.0. Ten seasons. See `pipeline/raw/friends/SOURCE.md`. |
 | 红楼梦 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24264 + Wikidata. PKU matrix has no licence; see `pipeline/raw/hongloumeng/SOURCE.md`. |
 | 史記 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24226 + Wikidata humans described by the work (P1343). See `pipeline/raw/shiji/SOURCE.md`. |
 | 西游记 (PKU) | Character × scene matrix, \~302 × 408 | Later | No licence on the GitHub dump. Same problem as the 紅樓夢 matrix. |

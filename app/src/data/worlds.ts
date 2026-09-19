@@ -17,6 +17,10 @@ const FALLBACK: Record<string, string> = {
     'Seven kingdoms and a dozen great houses, told across five volumes and a great many rival points of view.',
   bible:
     'Sixty-six books of genealogy, exile and prophecy, where a tie means two people share a single verse.',
+  congress:
+    'The House and Senate across sixteen Congresses (~1973–2004), tied by the bills they put their names on.',
+  friends:
+    'Six people in a Manhattan orbit, ten seasons of apartments, coffee shop and guest stars.',
   hongloumeng:
     '一個繁华家族走向衰败，一场青春与爱情终成大梦。',
   iliad:

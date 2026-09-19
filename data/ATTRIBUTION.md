@@ -80,6 +80,79 @@ Used as follows:
 2. Filtered class and meta labels that are not standing facts a player can use.
 3. Composed original one-line descriptions from those attributes.
 
+## U.S. Congress
+
+*Shipped as `congress.json` — 580 characters, 9156 ties.*
+
+"congress-bills (U.S. Congress cosponsorship)" by **Austin R. Benson et al.; derived from James H. Fowler** (<https://www.cs.cornell.edu/~arb/data/congress-bills/>)
+
+- Source: <https://doi.org/10.6084/m9.figshare.21502551>
+- Project: <https://www.cs.cornell.edu/~arb/data/congress-bills/>
+- Licence: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (`CC-BY-4.0`)
+- Retrieved: 2026-09-18
+- Cite as: A. R. Benson, R. Abebe, M. T. Schaub, A. Jadbabaie, and J. Kleinberg, “Simplicial closure and higher-order link prediction,” PNAS, 2018. Derived from J. H. Fowler, “Connecting the Congress,” Political Analysis, 2006. DOI: [10.6084/m9.figshare.21502551](https://doi.org/10.6084/m9.figshare.21502551)
+
+Changes made to the original data:
+
+1. Projected each bill's sponsor/cosponsor set into pairwise ties, summing shared bills across the 93rd–108th Congresses.
+2. Dropped single-sponsor bills and bills with more than 25 names.
+3. Kept only legislators whose labels include a given name (dropped surname-only ALL-CAPS stubs).
+4. Parsed display names from `Last, First [ST-N]` labels.
+5. Dropped ties weaker than 50 and characters with fewer than 2 ties, then kept the largest connected component (1039 nodes and 223026 ties in, 580 and 9156 out).
+6. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+7. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — congress-legislators
+
+*Shipped separately as `congress.meta.json`, loaded only at the reveal.*
+
+by **the @unitedstates project** (<https://github.com/unitedstates/congress-legislators>)
+
+- Source: <https://github.com/unitedstates/congress-legislators>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete attributes only (party, chamber, state, gender) for legislators matched by unique name; no biographical prose.
+
+## Friends
+
+*Shipped as `friends.json` — 586 characters, 2338 ties.*
+
+"Friends edge lists" by **Michelle Edwards** (<https://adelaide.figshare.com/articles/dataset/Friends_edge_lists/7413593>)
+
+- Source: <https://doi.org/10.25909/5c05c2ed862ec>
+- Project: <https://adelaide.figshare.com/articles/dataset/Friends_edge_lists/7413593>
+- Licence: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (`CC-BY-4.0`)
+- Retrieved: 2026-09-18
+- Cite as: M. Edwards, “Friends edge lists,” The University of Adelaide, 2018. DOI: 10.25909/5c05c2ed862ec. DOI: [10.25909/5c05c2ed862ec](https://doi.org/10.25909/5c05c2ed862ec)
+
+Changes made to the original data:
+
+1. Merged per-episode scene co-occurrence edge lists into one graph, summing weights across all ten seasons.
+2. Dropped self-loops and generic role labels (waitress, customer, …).
+3. Title-cased display names from the dataset's lowercase identifiers.
+4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (643 nodes and 2395 ties in, 586 and 2338 out).
+5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+6. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `friends.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
 ## 紅樓夢
 
 *Shipped as `hongloumeng.json` — 200 characters, 1307 ties.*

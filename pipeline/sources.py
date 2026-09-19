@@ -18,6 +18,8 @@ from .canon.types import CanonicalGraph
 from .ingest import (
     asoiaf,
     bible,
+    congress,
+    friends,
     hongloumeng,
     iliad,
     lesmiserables,
@@ -63,6 +65,23 @@ SOURCES: dict[str, Source] = {
         # A verse naming two people together is already a deliberate act of the
         # text, so a single co-occurrence means something here in a way one
         # sentence-window hit in a novel does not.
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "congress": Source(
+        name="congress",
+        load=congress.load,
+        # Cosponsorship is dense: a popular bill ties dozens of names. Fifty
+        # shared bills is the floor that leaves a cast sized like ASOIAF rather
+        # than a complete roll of every member who ever signed anything.
+        min_edge_weight=50,
+        min_degree=2,
+    ),
+    "friends": Source(
+        name="friends",
+        load=friends.load,
+        # One shared scene is a real beat of the episode; the same floor as
+        # Star Wars scene-speech.
         min_edge_weight=1,
         min_degree=2,
     ),

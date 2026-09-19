@@ -190,6 +190,10 @@ WEAK_OCCUPATIONS = {
     "bounty hunter",  # kept only if nothing better; R2 is not one
     "starship pilot",
     "pilot",
+    "waiter",
+    "waitress",
+    "assistant",
+    "vedette",
     "作家",
     "詩人",
     "诗人",
@@ -233,6 +237,9 @@ OCCUPATION_PRIORITY = (
     "seer",
     "herald",
     "priest",
+    "paleontologist",
+    "executive chef",
+    "massage therapist",
     "謀士",
     "武將",
     "武将",
@@ -440,16 +447,23 @@ def _search_starwars(name: str) -> str | None:
 
 
 WORK_CAST = {
+    "friends": "Q79784",
     "iliad": "Q8275",
     "lesmiserables": "Q180736",
 }
+
+# Honorifics are not given names; indexing them as first tokens would collide.
+_GIVEN_NAME_SKIP = frozenset(
+    {"mr", "mrs", "ms", "miss", "dr", "sir", "lady", "lord", "dame", "frau", "herr"}
+)
 
 
 def match_work_cast(nodes, *, work_qid: str, cache_dir: Path, languages: tuple[str, ...] = ("en", "fr")) -> dict[str, str]:
     """Map node ids → QIDs by unique label/alias against the work's Wikidata cast.
 
     Ambiguous forms (two Ajaxes both called Ajax) are skipped. Pins happen
-    upstream via the identity table.
+    upstream via the identity table. Multi-word cast labels also contribute a
+    unique first-token form so TV-style given names (Ross, Rachel) resolve.
     """
     cast = _cast_of_work(work_qid, cache_dir=cache_dir, languages=languages)
     by_form: dict[str, set[str]] = {}
@@ -459,6 +473,11 @@ def match_work_cast(nodes, *, work_qid: str, cache_dir: Path, languages: tuple[s
                 continue
             for variant in _name_forms(form):
                 by_form.setdefault(variant, set()).add(qid)
+        # Given names only from the primary label — aliases like "Rachel's Sister"
+        # or "Chandler's Dad" would otherwise steal the first token.
+        label = figure.get("label") or ""
+        for variant in _given_name_forms(label):
+            by_form.setdefault(variant, set()).add(qid)
 
     unique = {form: next(iter(qids)) for form, qids in by_form.items() if len(qids) == 1}
 
@@ -557,6 +576,17 @@ def _name_forms(name: str) -> list[str]:
             if len(parts) >= 2:
                 forms.append(parts[-1])
     return list(dict.fromkeys(forms))
+
+
+def _given_name_forms(name: str) -> list[str]:
+    """First token of a multi-word label — useful when the graph uses given names."""
+    key = _norm_name(name)
+    parts = key.split()
+    if len(parts) < 2:
+        return []
+    if parts[0] in _GIVEN_NAME_SKIP:
+        return []
+    return [parts[0]]
 
 
 def _norm_name(name: str) -> str:

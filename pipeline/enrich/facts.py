@@ -12,7 +12,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from ..canon.types import CanonicalGraph
-from . import anapi, folger, knuth, wikidata
+from . import anapi, folger, knuth, legislators, wikidata
 
 RAW = Path(__file__).resolve().parent.parent / "raw"
 
@@ -47,8 +47,11 @@ def meta_sources_for(name: str) -> list[tuple]:
             (knuth.ATTRIBUTION, knuth.LICENSE),
             (wikidata.ATTRIBUTION, wikidata.LICENSE),
         ]
+    if name == "congress":
+        return [(legislators.ATTRIBUTION, legislators.LICENSE)]
     if name in (
         "bible",
+        "friends",
         "hongloumeng",
         "odyssey",
         "sanguoyanyi",
@@ -75,6 +78,7 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
     source = graph.id
     asoiaf = _asoiaf_lookup(graph, overrides) if source == "asoiaf" else None
     roles = _shakespeare_roles(graph) if source == "shakespeare" else {}
+    congress_attrs = legislators.attributes_for(graph.nodes) if source == "congress" else {}
     wd_by_qid, qid_by_node = _wikidata_for(graph, overrides)
 
     facts: dict[str, dict] = {}
@@ -100,6 +104,9 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
         if source in ("iliad", "lesmiserables"):
             for key, value in knuth.from_node(source, node).items():
                 record.setdefault(key, value)
+
+        if node.id in congress_attrs:
+            legislators.apply_to_record(record, congress_attrs[node.id])
 
         qid = qid_by_node.get(node.id)
         if qid and qid in wd_by_qid:
@@ -378,6 +385,7 @@ def _label(labels: dict, segment: str) -> str:
 # Real-world ethnicity, citizenship, and birthplace, not a standing fact in the story.
 STRIP_SPECIES_HOMEWORLD = {
     "bible",
+    "friends",
     "shakespeare",
     "hongloumeng",
     "sanguoyanyi",
@@ -387,6 +395,7 @@ STRIP_SPECIES_HOMEWORLD = {
 }
 STRIP_AFFILIATIONS = {
     "bible",
+    "friends",
     "shakespeare",
     "hongloumeng",
 }

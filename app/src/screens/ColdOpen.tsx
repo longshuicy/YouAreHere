@@ -48,17 +48,14 @@ export function ColdOpen({
         // minHeight, not height: on a short window the copy and the controls
         // below it used to be clipped off the bottom of the screen with no way
         // to reach them, which quietly hid the difficulty scale and `Begin` itself.
-        // minHeight so nothing is ever unreachable, but everything below is
-        // sized so the screen does not actually need it on a laptop: at 1280x800
-        // the whole cold open came to 936px and scrolled. The stage kept its
-        // height — it is what decides how many neighbours can be drawn around
-        // you — so the space came out of the padding, the leading and the gaps.
+        // Content packs to the top so the opening ring sits high; leftover height
+        // falls as air above the scale and Begin rather than between the headline
+        // and the graph.
         minHeight: '100vh',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-between',
-        gap: 'clamp(10px, 2vh, 20px)',
-        padding: 'clamp(16px, 3.1vh, 36px) 64px clamp(18px, 3.3vh, 40px) 64px',
+        gap: 'clamp(8px, 1.6vh, 16px)',
+        padding: 'clamp(14px, 2.4vh, 28px) 64px clamp(20px, 3.6vh, 44px) 64px',
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
@@ -71,7 +68,7 @@ export function ColdOpen({
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: 'clamp(12px, 2.2vh, 22px)',
+          gap: 'clamp(10px, 1.8vh, 18px)',
         }}
       >
         <div style={{ fontSize: 'clamp(24px, 3.2vh, 31px)', letterSpacing: '0.01em' }}>
@@ -83,7 +80,7 @@ export function ColdOpen({
             width, is what decides how many characters can stand around you
             before they touch. At 300px it was about a dozen, which is fewer
             than the puzzle generator is allowed to hand it. */}
-        <div style={{ width: 'min(620px, 80vw)', height: 'min(440px, 44vh)' }}>
+        <div style={{ width: 'min(620px, 80vw)', height: 'min(400px, 40vh)' }}>
           <Stage
             graph={graph}
             positions={positions}
@@ -120,7 +117,15 @@ export function ColdOpen({
         </div>
       </div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'clamp(8px, 1.4vh, 18px)' }}>
+      <div
+        style={{
+          marginTop: 'auto',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 'clamp(8px, 1.4vh, 18px)',
+        }}
+      >
         {/* The scale sits above the commit, because it changes what you
             are about to begin — the stranger on the stage is redrawn the moment
             it is touched, so the choice is visible before it is taken. */}

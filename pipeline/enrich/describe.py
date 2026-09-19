@@ -46,6 +46,12 @@ def node_line(facts: dict) -> str:
     return " ".join(f"{clause}." for clause in clauses)
 
 
+def _plural_unit(unit: str) -> str:
+    if unit.endswith(("s", "x", "ch", "sh")) or unit.endswith("gress"):
+        return unit + "es"
+    return unit + "s"
+
+
 def edge_line(facts: dict) -> str:
     if _zh_facts(facts):
         return _edge_line_zh(facts)
@@ -54,6 +60,7 @@ def edge_line(facts: dict) -> str:
 
     books = facts.get("books", [])
     unit = facts.get("unit", "book")
+    units = _plural_unit(unit)
     first = books[0] if books else ""
     world_size = facts.get("worldSize")
     total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
@@ -67,7 +74,7 @@ def edge_line(facts: dict) -> str:
             clauses.append(f"They share the page in every {unit}, first in {first}")
         else:
             count = COUNT_WORDS.get(len(books), str(len(books)))
-            clauses.append(f"They share the page in {count} {unit}s, first in {first}")
+            clauses.append(f"They share the page in {count} {units}, first in {first}")
 
     shared = facts.get("sharedHouses") or facts.get("sharedAffiliations")
     if shared:
@@ -211,6 +218,7 @@ def _presence(facts: dict) -> str:
         return ""
 
     unit = facts.get("unit", "book")
+    units = _plural_unit(unit)
     world_size = facts.get("worldSize")
     total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
 
@@ -219,11 +227,11 @@ def _presence(facts: dict) -> str:
         return ""
 
     if total and len(books) == total:
-        where = f"Appears in all {COUNT_WORDS.get(total, total)} {unit}s"
+        where = f"Appears in all {COUNT_WORDS.get(total, total)} {units}"
     elif len(books) <= 2:
         where = "Appears in " + " and ".join(books)
     else:
-        where = f"Appears in {COUNT_WORDS.get(len(books), len(books))} {unit}s"
+        where = f"Appears in {COUNT_WORDS.get(len(books), len(books))} {units}"
 
     pov = facts.get("pov")
     if not pov:
