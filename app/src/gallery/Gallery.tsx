@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { BrandMark, CHROME_PADDING } from '../render/MarginLinks';
+import { BrandCluster, CHROME_PADDING } from '../render/MarginLinks';
 import { FullGraph } from '../render/FullGraph';
 import { fetchMeta } from '../data/loader';
 import type { Universe, UniverseMeta } from '../types';
@@ -274,11 +274,10 @@ function WorldDetail({
 
 interface Props {
   universes: Universe[];
-  onClose: () => void;
   onStartAgain: () => void;
 }
 
-export function Gallery({ universes, onClose, onStartAgain }: Props) {
+export function Gallery({ universes, onStartAgain }: Props) {
   const [view, setView] = useState<'worlds' | 'characters'>('worlds');
   const [sort, setSort] = useState<SortKey>('concentration');
   const [open, setOpen] = useState<string | null>(null);
@@ -371,10 +370,7 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-        <BrandMark onStartAgain={onStartAgain} />
-        <button className="annot-link" onClick={onClose}>
-          Back to the game
-        </button>
+        <BrandCluster onStartAgain={onStartAgain} />
       </div>
 
       {detail ? (
@@ -391,8 +387,7 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
             </div>
           </div>
 
-          {/* Sticky, because thirty cards is a long way to scroll back to change
-              the ordering. */}
+          {/* One sticky row: view, then the tools that belong to it, then help. */}
           <div
             style={{
               position: 'sticky',
@@ -400,23 +395,17 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
               zIndex: 5,
               background: 'var(--paper)',
               display: 'flex',
-              flexDirection: 'column',
-              gap: 2,
+              alignItems: 'baseline',
+              justifyContent: 'space-between',
+              gap: 28,
+              flexWrap: 'wrap',
               marginTop: 24,
               paddingTop: 16,
-              paddingBottom: 8,
+              paddingBottom: 12,
               borderBottom: '1px solid var(--rule)',
             }}
           >
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'baseline',
-                justifyContent: 'space-between',
-                gap: 20,
-                flexWrap: 'wrap',
-              }}
-            >
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 32, flexWrap: 'wrap' }}>
               <RadioRow
                 label="Show"
                 value={view}
@@ -426,19 +415,19 @@ export function Gallery({ universes, onClose, onStartAgain }: Props) {
                   { key: 'characters', label: 'Characters' },
                 ]}
               />
-              {!showKey && (
-                <button className="annot-link" onClick={() => setKey(true)}>
-                  How to interpret
-                </button>
+              {view === 'worlds' && (
+                <RadioRow
+                  label="Order by"
+                  value={sort}
+                  onChange={setSort}
+                  options={SORTS.map((s) => ({ key: s.key, label: s.label }))}
+                />
               )}
             </div>
-            {view === 'worlds' && (
-              <RadioRow
-                label="Order by"
-                value={sort}
-                onChange={setSort}
-                options={SORTS.map((s) => ({ key: s.key, label: s.label }))}
-              />
+            {!showKey && (
+              <button className="annot-link" onClick={() => setKey(true)}>
+                How to interpret
+              </button>
             )}
           </div>
 

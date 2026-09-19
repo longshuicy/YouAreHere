@@ -27,7 +27,7 @@ export function RadioRow<T extends string>({
    * running, so `T` comes from the value being displayed, which is the one
    * place it is unambiguous.
    */
-  options: { key: NoInfer<T>; label: string; title?: string }[];
+  options: { key: NoInfer<T>; label: string; title?: string; detail?: string }[];
   value: T;
   onChange: (key: NoInfer<T>) => void;
   /** Options that are real but cannot carry the weight the others can. */
@@ -76,6 +76,9 @@ export function RadioRow<T extends string>({
               }}
             />
             {option.label}
+            {option.detail != null && (
+              <span style={{ color: 'var(--unknown)', letterSpacing: '0.08em' }}>{option.detail}</span>
+            )}
           </button>
         );
       })}

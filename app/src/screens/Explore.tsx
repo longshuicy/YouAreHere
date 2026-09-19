@@ -1,6 +1,6 @@
 import { Stage } from '../render/Stage';
 import { Ledger, LedgerBreakdown } from '../render/Ledger';
-import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
+import { BrandCluster, CHROME_PADDING, GiveUpLinks, HelpLink } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -83,14 +83,15 @@ export function Explore({
         }}
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-          <BrandMark onStartAgain={onStartAgain} />
-          <Ledger ledger={session.ledger} />
+          <BrandCluster onStartAgain={onStartAgain} />
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 28 }}>
+            <Ledger ledger={session.ledger} />
+            <HelpLink onOpenKey={onOpenKey} />
+          </div>
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 24 }}>
-          {/* This corner is about *where* you are. It fills itself the moment
-              the player names the story correctly — which is free, and which
-              they were going to do anyway. */}
+          {/* This corner is about *where* you are. */}
           <div style={{ maxWidth: 520 }}>
             {worldKnown ? (
               <>
@@ -104,53 +105,51 @@ export function Explore({
             ) : (
               <div style={{ fontSize: 21, color: 'var(--body)' }}>You don’t know where you are.</div>
             )}
-            {/* Free, and true from the first frame. Size already encodes degree,
-                but a circle is only legible next to the circles around it, and
-                your own has nothing to stand against until you have expanded far
-                enough to find somebody larger. */}
             <div style={{ fontSize: 17, color: 'var(--body)', marginTop: 10, fontStyle: 'italic' }}>
               {standing}
             </div>
           </div>
-          {/* The one action that ends the run: given the accent, a heavier rule
-              and more air than anything else on the screen. */}
-          <button
-            className="action"
-            onClick={onOpenGuess}
+          {/* Win path first; give-up sits under it, same corner, quieter. */}
+          <div
             style={{
-              pointerEvents: 'auto',
-              whiteSpace: 'nowrap',
-              fontSize: 15,
-              letterSpacing: '0.3em',
-              color: 'var(--accent)',
-              borderBottom: '2px solid var(--accent)',
-              padding: '16px 10px 12px 10px',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-end',
+              gap: 10,
             }}
           >
-            I've found myself
-          </button>
+            <button
+              className="action"
+              onClick={onOpenGuess}
+              style={{
+                pointerEvents: 'auto',
+                whiteSpace: 'nowrap',
+                fontSize: 15,
+                letterSpacing: '0.3em',
+                color: 'var(--accent)',
+                borderBottom: '2px solid var(--accent)',
+                padding: '16px 10px 12px 10px',
+              }}
+            >
+              I've found myself
+            </button>
+            <GiveUpLinks
+              onReveal={onReveal}
+              onRevealStory={worldKnown ? undefined : onRevealStory}
+            />
+          </div>
         </div>
       </div>
 
-      {/* The right margin: everything about the session rather than in it —
-          the itemised tally, what else can be bought, and the way out. */}
+      {/* Itemised tally only — exits no longer live here. */}
       <div
         style={{
           position: 'absolute',
           right: 64,
-          top: 92,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'flex-end',
-          gap: 18,
+          top: 80,
         }}
       >
         <LedgerBreakdown ledger={session.ledger} />
-        <MarginLinks
-              onOpenKey={onOpenKey}
-              onReveal={onReveal}
-              onRevealStory={worldIsKnown(session) ? undefined : onRevealStory}
-            />
       </div>
     </div>
   );

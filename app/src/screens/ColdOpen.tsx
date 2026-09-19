@@ -1,13 +1,21 @@
+import { useRef, useState } from 'react';
 import { Stage } from '../render/Stage';
-import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
+import { CHROME_PADDING, HelpLink } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
+
+/** Where the title sits once play begins — same inset as the explore chrome. */
+const TITLE_CORNER = { top: 44, left: 64 };
+const TITLE_CORNER_SIZE = 20;
 
 interface Props {
   graph: VisibleGraph;
   positions: Map<number, LaidOutNode>;
   session: Session;
+  /** Set when the player picked the book first. The story question is settled;
+   *  the stranger on the stage is still whoever the scale drew. */
+  worldTitle: string | null;
   onBegin: () => void;
   onChooseWorld: () => void;
   targetEase: number;
@@ -15,7 +23,6 @@ interface Props {
   readsChineseClassics: boolean;
   onReadsChineseClassics: (next: boolean) => void;
   onOpenKey: () => void;
-  onStartAgain: () => void;
   onOpenGallery: () => void;
 }
 
@@ -37,6 +44,7 @@ export function ColdOpen({
   graph,
   positions,
   session,
+  worldTitle,
   onBegin,
   onChooseWorld,
   targetEase,
@@ -44,20 +52,47 @@ export function ColdOpen({
   readsChineseClassics,
   onReadsChineseClassics,
   onOpenKey,
-  onStartAgain,
   onOpenGallery,
 }: Props) {
+  const titleRef = useRef<HTMLDivElement>(null);
+  const [walking, setWalking] = useState(false);
+
+  /** The centred headline takes its seat in the top-left. The second line
+   *  fades: it has said what it came to say, and the explore screen will
+   *  pick the thought up as "You don't know where you are." */
+  const begin = () => {
+    const line = titleRef.current;
+    const reduce =
+      typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!line || reduce) {
+      onBegin();
+      return;
+    }
+
+    const from = line.getBoundingClientRect();
+    const fromSize = parseFloat(getComputedStyle(line).fontSize);
+    const dx = TITLE_CORNER.left - from.left;
+    const dy = TITLE_CORNER.top - from.top;
+    const scale = TITLE_CORNER_SIZE / fromSize;
+
+    setWalking(true);
+    line.style.transformOrigin = 'top left';
+    line.style.transition = 'transform 720ms cubic-bezier(0.22, 1, 0.36, 1)';
+    line.style.transform = `translate(${dx}px, ${dy}px) scale(${scale})`;
+
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      onBegin();
+    };
+    line.addEventListener('transitionend', finish, { once: true });
+    window.setTimeout(finish, 800);
+  };
 
   return (
     <div
       style={{
-        // Height, not minHeight: with only a floor the page grew past the
-        // window and the bottom inset fell off the edge, which parked Begin
-        // on the glass. Overflow still scrolls on a short window.
-        // Top and sides share CHROME_PADDING so the brand mark does not jump
-        // when this screen gives way to play. Leftover height sits above the
-        // scale rather than between the headline and the graph; the extra
-        // bottom inset lifts Begin off the edge.
         height: '100vh',
         overflow: 'auto',
         display: 'flex',
@@ -67,9 +102,8 @@ export function ColdOpen({
         paddingBottom: 80,
       }}
     >
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexShrink: 0 }}>
-        <BrandMark onStartAgain={onStartAgain} />
-        <MarginLinks onOpenKey={onOpenKey} onOpenGallery={onOpenGallery} />
+      <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-start', flexShrink: 0 }}>
+        <HelpLink onOpenKey={onOpenKey} />
       </div>
 
       <div
@@ -82,8 +116,27 @@ export function ColdOpen({
           gap: 'clamp(12px, 2.2vh, 22px)',
         }}
       >
-        <div style={{ fontSize: 'clamp(24px, 3.2vh, 31px)', letterSpacing: '0.01em', flexShrink: 0 }}>
-          You wake up here.
+        <div style={{ textAlign: 'center', flexShrink: 0 }}>
+          <div
+            ref={titleRef}
+            className="brand"
+            style={{ fontSize: 'clamp(28px, 3.8vh, 38px)', letterSpacing: '0.04em' }}
+          >
+            You are here.
+          </div>
+          <div
+            className="title-sub"
+            style={{
+              fontSize: 'clamp(20px, 2.6vh, 26px)',
+              fontStyle: worldTitle ? 'italic' : undefined,
+              color: 'var(--body)',
+              marginTop: 10,
+              opacity: walking ? 0 : 1,
+              transition: 'opacity 400ms ease',
+            }}
+          >
+            {worldTitle ?? 'You don’t know where here is.'}
+          </div>
         </div>
 
         {/* The opening ring has to hold every neighbour you have, and the stage
@@ -123,8 +176,7 @@ export function ColdOpen({
             <div>whom we love, and whom we lose.</div>
           </div>
           <div style={{ color: 'var(--ink)' }}>
-            <div>Find your coordinates.</div>
-            <div>Find yourself.</div>
+            Find your coordinates. <em>Find yourself.</em>
           </div>
         </div>
       </div>
@@ -168,43 +220,36 @@ export function ColdOpen({
           </span>
         </div>
 
-        {/* What the scale cannot ask.
-            The scale moves along a measured score — how distinctive a start's
-            shape is — and that score says nothing about whether the book has a
-            name you could reach for. The catalogue's answer to that is written
-            for an English-speaking reader, which leaves 三國演義 sorted in with
-            Cymbeline. This is where a player says otherwise about themselves.
-            Phrased as a fact about the reader rather than a difficulty setting,
-            because that is what it is; it lowers nothing, so saying yes only
-            adds five worlds back to the draw. Like the scale, it redraws the
-            stranger on the stage as soon as it is touched. */}
-        <button
-          className="action-quiet"
-          aria-pressed={readsChineseClassics}
-          onClick={() => onReadsChineseClassics(!readsChineseClassics)}
-          style={{ color: readsChineseClassics ? 'var(--ink)' : undefined, fontSize: 10, letterSpacing: '0.2em' }}
-        >
-          {/* A mark as well as a colour: the state has to survive being read by
-              someone who cannot tell these two greys apart. */}
-          <span aria-hidden="true" style={{ marginRight: 8 }}>{readsChineseClassics ? '[\u00d7]' : '[ ]'}</span>
-          I read the Chinese classics
-        </button>
+        {/* Hidden once a world is named: this only tilts the random draw. */}
+        {!worldTitle && (
+          <button
+            className="action-quiet"
+            aria-pressed={readsChineseClassics}
+            onClick={() => onReadsChineseClassics(!readsChineseClassics)}
+            style={{ color: readsChineseClassics ? 'var(--ink)' : undefined, fontSize: 10, letterSpacing: '0.2em' }}
+          >
+            <span aria-hidden="true" style={{ marginRight: 8 }}>{readsChineseClassics ? '[\u00d7]' : '[ ]'}</span>
+            I read the Chinese classics
+          </button>
+        )}
 
-        {/* Begin stays the loud one and stays first: the default is still to wake
-            somewhere nobody has named. Choosing is offered beside it, quieter. */}
         <div
           style={{
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'baseline',
             gap: 34,
+            flexWrap: 'wrap',
           }}
         >
-          <button className="action" onClick={onBegin}>
+          <button className="action" onClick={begin} disabled={walking}>
             Begin
           </button>
-          <button className="action-quiet" onClick={onChooseWorld}>
-            Choose a world
+          <button className="action-quiet" onClick={onChooseWorld} disabled={walking}>
+            {worldTitle ? 'Choose another world' : 'Choose a world'}
+          </button>
+          <button type="button" className="action-quiet" onClick={onOpenGallery} disabled={walking}>
+            The topology gallery
           </button>
         </div>
       </div>

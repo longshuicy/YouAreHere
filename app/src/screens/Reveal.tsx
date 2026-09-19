@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
+import { BrandCluster, CHROME_PADDING, HelpLink } from '../render/MarginLinks';
 import { FullGraph } from '../render/FullGraph';
 import type { Session } from '../engine/session';
 import { clueTotal } from '../render/Ledger';
@@ -105,120 +105,117 @@ export function Reveal({
   ].join('  ·  ');
 
   return (
-    <div style={{ position: 'relative', height: '100vh', overflow: 'hidden' }}>
-      {/* Full-bleed network; the answer floats over it on clean paper. */}
-      <div style={{ position: 'absolute', inset: 0 }}>
+    <div style={{ position: 'relative', height: '100vh', overflow: 'hidden', background: 'var(--paper)' }}>
+      {/* Graph is the right half of the page, not a boxed panel. */}
+      <div className="reveal-graph">
         <FullGraph
           universe={universe}
           you={session.you}
           named={session.known.named}
           tieLine={tieLine}
+          role="subject"
         />
       </div>
 
+      {/* Paper column on the left. Wider than the old centred 560px strip. */}
+      <div className="reveal-copy">
+        <div className="chrome" style={{ letterSpacing: '0.3em' }}>
+          You are
+        </div>
+
+        <div style={{ fontSize: 57, letterSpacing: '0.015em', marginTop: 14, lineHeight: 1.1 }}>
+          {you?.n ?? 'Unknown'}
+        </div>
+
+        <div style={{ fontSize: 23, fontStyle: 'italic', color: 'var(--body)', marginTop: 10 }}>
+          {universe.title}
+        </div>
+
+        {characterLine && (
+          <div style={{ fontSize: 19, color: 'var(--body)', marginTop: 30 }}>
+            {characterLine}
+          </div>
+        )}
+
+        <div
+          className="mono"
+          style={{
+            fontSize: 11,
+            letterSpacing: '0.2em',
+            textTransform: 'uppercase',
+            color: 'var(--annotation)',
+            marginTop: characterLine ? 34 : 30,
+            lineHeight: 2.1,
+          }}
+        >
+          <div>{tally}</div>
+          <div>
+            You found yourself in {clues} {clues === 1 ? 'clue' : 'clues'}
+          </div>
+          <div>
+            You uncovered {seen} of the {metrics.castSize} people in this story
+          </div>
+          {nearest && (
+            <div>
+              Your closest guess was {nearest.name}, {nearest.hops}{' '}
+              {nearest.hops === 1 ? 'tie' : 'ties'} from you
+            </div>
+          )}
+        </div>
+
+        {notes.length > 0 && (
+          <div
+            style={{
+              fontSize: 16,
+              color: 'var(--annotation)',
+              marginTop: 28,
+              lineHeight: 1.75,
+            }}
+          >
+            {notes.map((line) => (
+              <div key={line}>{line}</div>
+            ))}
+          </div>
+        )}
+
+        {tieMeaning && (
+          <div className="annot" style={{ marginTop: 30 }}>
+            {tieMeaning}
+          </div>
+        )}
+
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'baseline',
+            gap: 36,
+            marginTop: 40,
+            flexWrap: 'wrap',
+          }}
+        >
+          <button className="action" style={{ letterSpacing: '0.3em' }} onClick={onWakeElsewhere}>
+            Wake somewhere else
+          </button>
+          <button type="button" className="action-quiet" onClick={onOpenGallery}>
+            The topology gallery
+          </button>
+        </div>
+      </div>
+
+      {/* Chrome overlays both columns so it does not steal a header row. */}
       <div
         style={{
           position: 'absolute',
           inset: 0,
           padding: CHROME_PADDING,
           display: 'flex',
-          flexDirection: 'column',
-          // Let hovers reach the network underneath; only the exits take clicks.
+          justifyContent: 'space-between',
+          alignItems: 'baseline',
           pointerEvents: 'none',
         }}
       >
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-          <BrandMark onStartAgain={onStartAgain} />
-          <MarginLinks onOpenKey={onOpenKey} onOpenGallery={onOpenGallery} />
-        </div>
-
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 46, textAlign: 'center' }}>
-          <div className="chrome" style={{ letterSpacing: '0.3em' }}>You are</div>
-
-          <div style={{ fontSize: 57, letterSpacing: '0.015em', marginTop: 14, lineHeight: 1.1 }}>
-            {you?.n ?? 'Unknown'}
-          </div>
-
-          <div style={{ fontSize: 23, fontStyle: 'italic', color: 'var(--body)', marginTop: 10 }}>
-            {universe.title}
-          </div>
-
-          {/* Everything from here down is prose, and prose is read from a fixed
-              left edge. The headline above stays centred; the column under it
-              does not, because a centred paragraph makes the reader find the
-              start of every line for themselves. */}
-          <div style={{ textAlign: 'left', width: 'min(560px, 100%)' }}>
-          {characterLine && (
-            <div style={{ fontSize: 19, color: 'var(--body)', marginTop: 30 }}>
-              {characterLine}
-            </div>
-          )}
-
-          {/* Everything about the run, in one voice. The clue count used to be
-              picked out in ink while the rest sat in annotation grey, and the
-              coverage lines lived in a second identical block further down the
-              page; two blocks styled the same way, separated by prose, is one
-              block that has been cut in half for no reason. */}
-          <div
-            className="mono"
-            style={{
-              fontSize: 11,
-              letterSpacing: '0.2em',
-              textTransform: 'uppercase',
-              color: 'var(--annotation)',
-              marginTop: characterLine ? 34 : 30,
-              lineHeight: 2.1,
-            }}
-          >
-            <div>{tally}</div>
-            <div>
-              You found yourself in {clues} {clues === 1 ? 'clue' : 'clues'}
-            </div>
-            <div>
-              You uncovered {seen} of the {metrics.castSize} people in this story
-            </div>
-            {nearest && (
-              <div>
-                Your closest guess was {nearest.name}, {nearest.hops}{' '}
-                {nearest.hops === 1 ? 'tie' : 'ties'} from you
-              </div>
-            )}
-          </div>
-
-          {/* And everything about the character and the shape they stood in,
-              also in one voice. These were three blocks at two sizes, two
-              colours and two slopes, which asked the reader to work out what
-              the differences meant. They mean nothing: it is all the same kind
-              of remark, so it is all set the same way. */}
-          {notes.length > 0 && (
-            <div
-              style={{
-                fontSize: 16,
-                color: 'var(--annotation)',
-                marginTop: 28,
-                lineHeight: 1.75,
-              }}
-            >
-              {notes.map((line) => (
-                <div key={line}>{line}</div>
-              ))}
-            </div>
-          )}
-
-          </div>
-
-          {tieMeaning && (
-            <div className="annot" style={{ marginTop: 30 }}>
-              {tieMeaning}
-            </div>
-          )}
-
-          <div style={{ display: 'flex', alignItems: 'center', gap: 36, marginTop: 40, pointerEvents: 'auto' }}>
-            <button className="action" style={{ letterSpacing: '0.3em' }} onClick={onWakeElsewhere}>
-              Wake somewhere else
-            </button>
-          </div>
-        </div>
+        <BrandCluster onStartAgain={onStartAgain} />
+        <HelpLink onOpenKey={onOpenKey} />
       </div>
     </div>
   );

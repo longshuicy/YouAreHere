@@ -9,12 +9,9 @@ import type { Universe } from '../types';
  * accent mark; the gallery passes nothing, because in a gallery nobody is you —
  * that accent is reserved for the player's own position and means nothing here.
  *
- * `role` is why the two can share one component. On the reveal the network is a
- * backdrop: it lies under the answer and several lines of prose, so it has to
- * stay out of their way, and drawn any heavier it competes with the words for
- * the same patch of paper. In the gallery it is the subject, and a subject
- * drawn at eleven percent of a grey is not reticent, it is invisible. Same
- * marks, same geometry, two different jobs.
+ * `role` is why the two can share one component. Backdrop is the faint mesh
+ * for when the graph sits under words. Subject is the network as something
+ * to look at — the gallery, and the reveal once the answer has its own column.
  */
 export type GraphRole = 'backdrop' | 'subject';
 

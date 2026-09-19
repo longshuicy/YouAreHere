@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { BrandMark, CHROME_PADDING, MarginLinks } from '../render/MarginLinks';
+import { BrandCluster, CHROME_PADDING, HelpLink } from '../render/MarginLinks';
 import type { IndexUniverseEntry } from '../types';
 
 interface Props {
@@ -114,8 +114,8 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-        <BrandMark onStartAgain={onStartAgain} />
-        <MarginLinks onOpenKey={onOpenKey} />
+        <BrandCluster onStartAgain={onStartAgain} />
+        <HelpLink onOpenKey={onOpenKey} />
       </div>
 
       <div

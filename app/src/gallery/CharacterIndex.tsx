@@ -87,7 +87,7 @@ export function CharacterIndex({
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 20, paddingTop: 22 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 18, paddingTop: 22 }}>
       <div style={{ position: 'relative', width: 'min(460px, 100%)' }}>
         <input
           className="field"
@@ -117,76 +117,89 @@ export function CharacterIndex({
         )}
       </div>
 
-      <RadioRow
-        label="Facet"
-        value={facetKey ?? ''}
-        onChange={(key) => chooseFacet(key === '' ? null : key)}
-        dim={(key) => facets.find((f) => f.key === key)?.tier === 'single'}
-        options={[
-          { key: '', label: 'Any' },
-          ...facets.map((facet) => ({
-            key: facet.key,
-            label: facet.key,
-            title: `${facet.characters} characters across ${facet.worlds} ${facet.worlds === 1 ? 'world' : 'worlds'}. ${TIER_NOTE[facet.tier]}`,
-          })),
-        ]}
-      />
-
-      {activeFacet && (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-          <div className="annot" style={{ fontSize: 9, lineHeight: 1.7, maxWidth: 640 }}>
-            {TIER_NOTE[activeFacet.tier]}
-          </div>
-          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
-            {activeFacet.values.slice(0, 40).map((v) => (
-              <button
-                key={v.value}
-                onClick={() => {
-                  setFacetValue(facetValue === v.value ? null : v.value);
-                  setLimit(PAGE);
-                }}
-                style={{
-                  fontFamily: 'var(--serif)',
-                  fontSize: 14,
-                  color: facetValue === v.value ? 'var(--accent)' : 'var(--body)',
-                  borderBottom: `1px solid ${facetValue === v.value ? 'var(--accent)' : 'var(--rule)'}`,
-                  padding: '3px 2px',
-                }}
-              >
-                {v.value}{' '}
-                <span className="mono" style={{ fontSize: 9, color: 'var(--unknown)' }}>{v.count}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-
+      {/* View tools: same radio language as Worlds order-by. */}
       <div
         style={{
           display: 'flex',
-          alignItems: 'baseline',
-          justifyContent: 'space-between',
-          gap: 16,
-          flexWrap: 'wrap',
+          flexDirection: 'column',
+          gap: 10,
           borderTop: '1px solid var(--rule)',
-          paddingTop: 12,
+          paddingTop: 14,
         }}
       >
         <RadioRow
-          label="Order by"
-          value={sort}
-          onChange={setSort}
+          label="Facet"
+          value={facetKey ?? ''}
+          onChange={(key) => chooseFacet(key === '' ? null : key)}
+          dim={(key) => facets.find((f) => f.key === key)?.tier === 'single'}
           options={[
-            { key: 'prominence', label: 'Presence' },
-            { key: 'gain', label: 'Horizon' },
-            { key: 'degree', label: 'Ties' },
-            { key: 'name', label: 'Name' },
-            { key: 'world', label: 'World' },
+            { key: '', label: 'Any' },
+            ...facets.map((facet) => ({
+              key: facet.key,
+              label: facet.key,
+              title: `${facet.characters} characters across ${facet.worlds} ${facet.worlds === 1 ? 'world' : 'worlds'}. ${TIER_NOTE[facet.tier]}`,
+            })),
           ]}
         />
-        <span className="annot" style={{ fontSize: 9 }}>
-          {loading ? 'Reading the enrichment files…' : `${filtered.length} of ${rows.length}`}
-        </span>
+
+        {activeFacet && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+            <div className="annot" style={{ fontSize: 9, lineHeight: 1.7, maxWidth: 640 }}>
+              {TIER_NOTE[activeFacet.tier]}
+            </div>
+            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'baseline' }}>
+              <span className="annot" style={{ fontSize: 9, minWidth: 54 }}>
+                Value
+              </span>
+              {activeFacet.values.slice(0, 40).map((v) => {
+                const active = facetValue === v.value;
+                return (
+                  <button
+                    key={v.value}
+                    className="annot-link"
+                    onClick={() => {
+                      setFacetValue(active ? null : v.value);
+                      setLimit(PAGE);
+                    }}
+                    style={{
+                      color: active ? 'var(--accent)' : 'var(--annotation)',
+                      borderBottomColor: active ? 'var(--accent)' : 'var(--leader)',
+                    }}
+                  >
+                    {v.value}
+                    <span style={{ marginLeft: 6, color: 'var(--unknown)' }}>{v.count}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'baseline',
+            justifyContent: 'space-between',
+            gap: 16,
+            flexWrap: 'wrap',
+          }}
+        >
+          <RadioRow
+            label="Order by"
+            value={sort}
+            onChange={setSort}
+            options={[
+              { key: 'prominence', label: 'Presence' },
+              { key: 'gain', label: 'Horizon' },
+              { key: 'degree', label: 'Ties' },
+              { key: 'name', label: 'Name' },
+              { key: 'world', label: 'World' },
+            ]}
+          />
+          <span className="annot" style={{ fontSize: 9 }}>
+            {loading ? 'Reading the enrichment files…' : `${filtered.length} of ${rows.length}`}
+          </span>
+        </div>
       </div>
 
       <div>
