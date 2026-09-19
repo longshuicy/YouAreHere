@@ -1007,7 +1007,7 @@
    "id": "shakespeare-timon-of-athens-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.399
+   "ease": 0.398
   },
   {
    "id": "shakespeare-timon-of-athens-p0006",
@@ -1031,19 +1031,19 @@
    "id": "shakespeare-timon-of-athens-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.573
+   "ease": 0.572
   },
   {
    "id": "shakespeare-timon-of-athens-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.592
+   "ease": 0.59
   },
   {
    "id": "shakespeare-timon-of-athens-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.472
+   "ease": 0.471
   },
   {
    "id": "shakespeare-timon-of-athens-p0013",
@@ -1055,7 +1055,7 @@
    "id": "shakespeare-timon-of-athens-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.49
+   "ease": 0.489
   },
   {
    "id": "shakespeare-timon-of-athens-p0015",
@@ -1067,7 +1067,7 @@
    "id": "shakespeare-timon-of-athens-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.508
+   "ease": 0.507
   },
   {
    "id": "shakespeare-timon-of-athens-p0017",
@@ -1079,13 +1079,13 @@
    "id": "shakespeare-timon-of-athens-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.511
+   "ease": 0.51
   },
   {
    "id": "shakespeare-timon-of-athens-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.547
+   "ease": 0.546
   },
   {
    "id": "shakespeare-timon-of-athens-p0020",
@@ -1103,7 +1103,7 @@
    "id": "shakespeare-timon-of-athens-p0023",
    "you": 23,
    "startRadius": 1,
-   "ease": 0.63
+   "ease": 0.629
   }
  ],
  "provenance": {

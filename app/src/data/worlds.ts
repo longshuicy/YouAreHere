@@ -27,6 +27,8 @@ const FALLBACK: Record<string, string> = {
     'A ten-year voyage home, a household of suitors waiting at the other end of it.',
   sanguoyanyi:
     '一個帝國分裂為三，一場連續百年的戰爭與計謀。',
+  shiji:
+    '從黃帝到漢武，本紀世家列傳連成一部通史。',
   shuihuzhuan:
     '一百零八個好漢被逼上梁山，一座水泊裡的義軍朝廷。',
   starwars: 'A galaxy of pilots, senators and smugglers, across seven films.',

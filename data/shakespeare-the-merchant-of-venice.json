@@ -728,13 +728,13 @@
    "id": "shakespeare-the-merchant-of-venice-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.401
+   "ease": 0.4
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.486
+   "ease": 0.485
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0005",
@@ -752,7 +752,7 @@
    "id": "shakespeare-the-merchant-of-venice-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.504
+   "ease": 0.503
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0008",
@@ -782,7 +782,7 @@
    "id": "shakespeare-the-merchant-of-venice-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.463
+   "ease": 0.462
   },
   {
    "id": "shakespeare-the-merchant-of-venice-p0015",

@@ -277,7 +277,7 @@ Changes made to the original data:
 2. Identified persons from Wikidata rather than from the text, so that places, titles, and unnamed extras are never nodes.
 3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
 4. Dropped generic kinship and office words which name a role far more often than a person.
-5. Derived the names the novel actually uses by dropping the surname from each figure's Chinese label.
+5. Derived the names the text actually uses by dropping the surname from each figure's Chinese label.
 6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (1016 nodes and 5250 ties in, 436 and 1796 out).
 7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
 8. Computed a force-directed layout for the full graph, used by the reveal animation.
@@ -353,6 +353,45 @@ Used as follows:
 2. Filtered class and meta labels that are not standing facts a player can use.
 3. Composed original one-line descriptions from those attributes.
 
+## 史記
+
+*Shipped as `shiji.json` — 80 characters, 206 ties.*
+
+"史記" by **Public domain text; digital edition via Project Gutenberg (eBook #24226)** (<https://www.gutenberg.org/>)
+
+- Source: <https://www.gutenberg.org/ebooks/24226>
+- Project: <https://www.wikidata.org/>
+- Licence: [Public domain](https://en.wikipedia.org/wiki/Public_domain) (`NONE-PUBLIC-DOMAIN`)
+- Retrieved: 2026-09-18
+- Cite as: Text: Sima Qian, 史記, Project Gutenberg eBook #24226, public domain. Identification of persons: Wikidata (CC0 1.0), queried for people Wikidata marks as described by the work (P1343).
+
+Changes made to the original data:
+
+1. Built a character network from the text: two people are tied when a sentence names both.
+2. Identified persons from Wikidata rather than from the text, so that places, titles, and unnamed extras are never nodes.
+3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
+4. Dropped generic kinship and office words which name a role far more often than a person.
+5. Derived the names the text actually uses by dropping the surname from each figure's Chinese label.
+6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (221 nodes and 608 ties in, 80 and 206 out).
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `shiji.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
+2. Filtered class and meta labels that are not standing facts a player can use.
+3. Composed original one-line descriptions from those attributes.
+
 ## 水滸傳
 
 *Shipped as `shuihuzhuan.json` — 214 characters, 5836 ties.*
@@ -371,7 +410,7 @@ Changes made to the original data:
 2. Identified persons from Wikidata rather than from the text, so that places, titles, and unnamed extras are never nodes.
 3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
 4. Dropped generic kinship and office words which name a role far more often than a person.
-5. Derived the names the novel actually uses by dropping the surname from each figure's Chinese label.
+5. Derived the names the text actually uses by dropping the surname from each figure's Chinese label.
 6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (298 nodes and 6876 ties in, 214 and 5836 out).
 7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
 8. Computed a force-directed layout for the full graph, used by the reveal animation.
@@ -448,7 +487,7 @@ Changes made to the original data:
 2. Identified persons from Wikidata rather than from the text, so that places, titles, and unnamed extras are never nodes.
 3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
 4. Dropped generic kinship and office words which name a role far more often than a person.
-5. Derived the names the novel actually uses by dropping the surname from each figure's Chinese label.
+5. Derived the names the text actually uses by dropping the surname from each figure's Chinese label.
 6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (186 nodes and 561 ties in, 69 and 221 out).
 7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
 8. Computed a force-directed layout for the full graph, used by the reveal animation.

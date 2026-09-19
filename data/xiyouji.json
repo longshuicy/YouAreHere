@@ -2428,7 +2428,7 @@
    "id": "xiyouji-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.656
+   "ease": 0.655
   },
   {
    "id": "xiyouji-p0004",
@@ -2518,7 +2518,7 @@
    "id": "xiyouji-p0038",
    "you": 38,
    "startRadius": 1,
-   "ease": 0.717
+   "ease": 0.714
   },
   {
    "id": "xiyouji-p0051",
@@ -2542,7 +2542,7 @@
    "id": "xiyouji-p0059",
    "you": 59,
    "startRadius": 1,
-   "ease": 0.595
+   "ease": 0.594
   },
   {
    "id": "xiyouji-p0064",
@@ -2554,7 +2554,7 @@
    "id": "xiyouji-p0065",
    "you": 65,
    "startRadius": 1,
-   "ease": 0.708
+   "ease": 0.707
   },
   {
    "id": "xiyouji-p0066",
@@ -2566,13 +2566,13 @@
    "id": "xiyouji-p0067",
    "you": 67,
    "startRadius": 1,
-   "ease": 0.612
+   "ease": 0.611
   },
   {
    "id": "xiyouji-p0068",
    "you": 68,
    "startRadius": 1,
-   "ease": 0.698
+   "ease": 0.697
   }
  ],
  "provenance": {
@@ -2611,7 +2611,7 @@
     "Identified persons from Wikidata rather than from the text, so that places, titles, and unnamed extras are never nodes.",
     "Resolved shared names to the most prominent claimant, and dropped those too close to call.",
     "Dropped generic kinship and office words which name a role far more often than a person.",
-    "Derived the names the novel actually uses by dropping the surname from each figure's Chinese label.",
+    "Derived the names the text actually uses by dropping the surname from each figure's Chinese label.",
     "Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (186 nodes and 561 ties in, 69 and 221 out).",
     "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
     "Computed a force-directed layout for the full graph, used by the reveal animation."

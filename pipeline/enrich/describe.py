@@ -86,7 +86,22 @@ def edge_line(facts: dict) -> str:
 
 def _zh_facts(facts: dict) -> bool:
     books = facts.get("books") or []
-    return bool(books) and books[0].startswith("第") and books[0].endswith("回")
+    if not books:
+        return False
+    sample = books[0]
+    if sample.startswith("第") and sample.endswith("回"):
+        return True
+    # 史記 juan titles, and any other Chinese segment label.
+    return bool(re.search(r"[\u3400-\u9fff]", sample))
+
+
+def _zh_unit(facts: dict) -> str:
+    unit = facts.get("unit") or ""
+    if unit == "juan":
+        return "篇"
+    if unit == "chapter" or (facts.get("books") or [""])[0].endswith("回"):
+        return "回"
+    return "篇"
 
 
 def _node_line_zh(facts: dict) -> str:
@@ -116,14 +131,15 @@ def _edge_line_zh(facts: dict) -> str:
     first = books[0] if books else ""
     world_size = facts.get("worldSize")
     total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
+    unit = _zh_unit(facts)
     clauses = []
     if books and not (total == 1 and len(books) == 1):
         if len(books) == 1:
             clauses.append(f"僅在{first}同頁")
         elif total and len(books) == total:
-            clauses.append(f"每回同頁，始於{first}")
+            clauses.append(f"每{unit}同頁，始於{first}")
         else:
-            clauses.append(f"共見於{len(books)}回，始於{first}")
+            clauses.append(f"共見於{len(books)}{unit}，始於{first}")
     shared = facts.get("sharedHouses") or facts.get("sharedAffiliations")
     if shared:
         clauses.append(f"同屬{shared[0]}")
@@ -136,13 +152,14 @@ def _presence_zh(facts: dict) -> str:
         return ""
     world_size = facts.get("worldSize")
     total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
+    unit = _zh_unit(facts)
     if total == 1 and len(books) == 1:
         return ""
     if total and len(books) == total:
-        return f"{total}回皆見"
+        return f"{total}{unit}皆見"
     if len(books) <= 2:
         return "見於" + "、".join(books)
-    return f"見於{len(books)}回"
+    return f"見於{len(books)}{unit}"
 
 
 def _standing(facts: dict) -> str:

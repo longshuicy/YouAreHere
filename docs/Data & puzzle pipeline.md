@@ -298,6 +298,7 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | Shakespeare (DraCor / Folger) | 37 plays, scene co-presence | Shipped | CC BY-NC 3.0. Merged; unnamed crowds dropped. |
 | Bible | — | Not yet | KJV is PD; ready-made graphs are BY-SA (cannot merge) or mix people with places. See `pipeline/raw/bible/SOURCE.md`. |
 | 红楼梦 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24264 + Wikidata. PKU matrix has no licence; see `pipeline/raw/hongloumeng/SOURCE.md`. |
+| 史記 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24226 + Wikidata humans described by the work (P1343). See `pipeline/raw/shiji/SOURCE.md`. |
 | 西游记 (PKU) | Character × scene matrix, \~302 × 408 | Later | No licence on the GitHub dump. Same problem as the 紅樓夢 matrix. |
 | 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |

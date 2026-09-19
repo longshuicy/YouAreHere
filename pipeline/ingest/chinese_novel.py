@@ -75,6 +75,11 @@ HEADING = re.compile(
     r"^[ \t]*第([一二三四五六七八九十零〇○百]+)回(?:[：:\u3000\s].*)?$",
     re.MULTILINE,
 )
+# Gutenberg #24226 titles each juan as `史記 五帝本紀`, not `第N回`.
+SHIJI_HEADING = re.compile(
+    r"^史記\s+(\S+(?:本紀|世家|列傳|書|表))$",
+    re.MULTILINE,
+)
 SENTENCE = re.compile(r"[。．！？!?]")
 CJK = re.compile(r"^[\u3400-\u9fff\uF900-\uFAFF]{2,}$")
 DIGITS = {
@@ -103,13 +108,20 @@ class Work:
     chapter_count: int
     author: str
     extra_generic: frozenset[str] = frozenset()
+    # "fiction" → P674 ∪ present-in-work fictional humans.
+    # "described_by" → people Wikidata marks as described by the work (P1343),
+    # the merge-safe way into a historical chronicle that has no cast list.
+    figure_mode: str = "fiction"
+    # "hui" → 第N回. "shiji" → 史記 juan titles (本紀 / 世家 / 列傳 / 書 / 表).
+    segment_style: str = "hui"
+    source_unit: str = "chapter"
 
 
 def load_work(work: Work) -> CanonicalGraph:
     raw = Path(__file__).resolve().parent.parent / "raw" / work.id
     figures = _figures(work, raw)
     surface_forms = _resolve_surface_forms(figures, work)
-    chapters = _chapters(work, raw)
+    chapters, segment_labels = _chapters(work, raw)
 
     if not surface_forms:
         raise ValueError(f"{work.id}: no Chinese names resolved from Wikidata")
@@ -166,6 +178,11 @@ def load_work(work: Work) -> CanonicalGraph:
         for source, target in sorted(weights)
     ]
 
+    who = (
+        "people Wikidata marks as described by the work (P1343)"
+        if work.figure_mode == "described_by"
+        else "characters of the novel"
+    )
     attribution = Attribution(
         title=work.title,
         creator=f"Public domain text; digital edition via Project Gutenberg (eBook #{work.gutenberg_id})",
@@ -174,8 +191,7 @@ def load_work(work: Work) -> CanonicalGraph:
         project_url="https://www.wikidata.org/",
         citation=(
             f"Text: {work.author}, {work.title}, Project Gutenberg eBook #{work.gutenberg_id}, "
-            "public domain. Identification of persons: Wikidata (CC0 1.0), queried for "
-            "characters of the novel."
+            f"public domain. Identification of persons: Wikidata (CC0 1.0), queried for {who}."
         ),
         retrieved="2026-09-18",
         modifications=(
@@ -184,16 +200,17 @@ def load_work(work: Work) -> CanonicalGraph:
             "and unnamed extras are never nodes.",
             "Resolved shared names to the most prominent claimant, and dropped those too close to call.",
             "Dropped generic kinship and office words which name a role far more often than a person.",
-            "Derived the names the novel actually uses by dropping the surname from each figure's Chinese label.",
+            "Derived the names the text actually uses by dropping the surname from each figure's Chinese label.",
         ),
     )
 
+    unit_count = len(segment_labels)
     provenance = Provenance(
         dataset=f"{work.id}-sentence-cooccurrence-v1",
         edge_definition="people named in the same sentence",
-        source_unit="chapter",
+        source_unit=work.source_unit,
         weight_semantics=(
-            f"count of sentences naming both, across all {work.chapter_count} chapters"
+            f"count of sentences naming both, across all {unit_count} {work.source_unit}s"
         ),
         attribution=attribution,
         license=PUBLIC_DOMAIN,
@@ -206,7 +223,7 @@ def load_work(work: Work) -> CanonicalGraph:
         nodes=nodes,
         edges=edges,
         provenance=provenance,
-        segment_labels={str(n): f"第{n}回" for n, _ in chapters},
+        segment_labels=segment_labels,
     ).sorted()
 
 
@@ -274,7 +291,16 @@ def _figures(work: Work, raw: Path) -> dict[str, dict]:
         payload = json.loads(path.read_text(encoding="utf-8"), strict=False)
         return {qid: _figure_from_cache(record) for qid, record in payload.items()}
 
-    query = f"""
+    if work.figure_mode == "described_by":
+        query = f"""
+SELECT DISTINCT ?p ?links WHERE {{
+  ?p wdt:P1343 wd:{work.work_qid} .
+  ?p wdt:P31 wd:Q5 .
+  ?p wikibase:sitelinks ?links .
+}}
+"""
+    else:
+        query = f"""
 SELECT DISTINCT ?p ?links WHERE {{
   {{ wd:{work.work_qid} wdt:P674 ?p }}
   UNION {{
@@ -397,7 +423,7 @@ def _figure_from_entity(figure: dict, entity: dict) -> dict:
     return figure
 
 
-def _chapters(work: Work, raw: Path) -> list[tuple[int, str]]:
+def _chapters(work: Work, raw: Path) -> tuple[list[tuple[int, str]], dict[str, str]]:
     path = raw / f"gutenberg-{work.gutenberg_id}.txt"
     if not path.exists():
         get(f"https://www.gutenberg.org/ebooks/{work.gutenberg_id}.txt.utf-8", dest=path)
@@ -407,6 +433,12 @@ def _chapters(work: Work, raw: Path) -> list[tuple[int, str]]:
     end = text.index("*** END OF THE PROJECT GUTENBERG EBOOK")
     body = text[text.index("\n", start) + 1 : end]
 
+    if work.segment_style == "shiji":
+        return _chapters_shiji(work, body)
+    return _chapters_hui(work, body)
+
+
+def _chapters_hui(work: Work, body: str) -> tuple[list[tuple[int, str]], dict[str, str]]:
     accepted: list[tuple[int, re.Match[str]]] = []
     seen: set[int] = set()
     for match in HEADING.finditer(body):
@@ -429,7 +461,35 @@ def _chapters(work: Work, raw: Path) -> list[tuple[int, str]]:
             f"(first {found[:5]}, last {found[-5:]}). The Gutenberg file's heading "
             f"pattern may have changed."
         )
-    return chapters
+    labels = {str(n): f"第{n}回" for n, _ in chapters}
+    return chapters, labels
+
+
+def _chapters_shiji(work: Work, body: str) -> tuple[list[tuple[int, str]], dict[str, str]]:
+    """One segment per juan title. Duplicate headings (commentary reprints) keep the first."""
+    accepted: list[tuple[str, re.Match[str]]] = []
+    seen: set[str] = set()
+    for match in SHIJI_HEADING.finditer(body):
+        title = match.group(1)
+        if title in seen:
+            continue
+        seen.add(title)
+        accepted.append((title, match))
+
+    if len(accepted) < 100:
+        raise ValueError(
+            f"{work.id}: expected ~130 juan headings, found {len(accepted)}. "
+            f"The Gutenberg file's heading pattern may have changed."
+        )
+
+    chapters: list[tuple[int, str]] = []
+    labels: dict[str, str] = {}
+    for i, (title, match) in enumerate(accepted):
+        number = i + 1
+        close = accepted[i + 1][1].start() if i + 1 < len(accepted) else len(body)
+        chapters.append((number, body[match.end() : close]))
+        labels[str(number)] = title
+    return chapters, labels
 
 
 def _chapter_number(raw: str, maximum: int) -> int | None:

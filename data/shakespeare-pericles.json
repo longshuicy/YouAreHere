@@ -529,19 +529,19 @@
    "id": "shakespeare-pericles-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.636
+   "ease": 0.634
   },
   {
    "id": "shakespeare-pericles-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.58
+   "ease": 0.579
   },
   {
    "id": "shakespeare-pericles-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.604
+   "ease": 0.603
   },
   {
    "id": "shakespeare-pericles-p0016",
@@ -553,7 +553,7 @@
    "id": "shakespeare-pericles-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.614
+   "ease": 0.613
   }
  ],
  "provenance": {

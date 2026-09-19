@@ -804,19 +804,19 @@
    "id": "shakespeare-the-taming-of-the-shrew-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.456
+   "ease": 0.454
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.481
+   "ease": 0.479
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.531
+   "ease": 0.53
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0003",
@@ -828,7 +828,7 @@
    "id": "shakespeare-the-taming-of-the-shrew-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.506
+   "ease": 0.505
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0005",
@@ -840,7 +840,7 @@
    "id": "shakespeare-the-taming-of-the-shrew-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.43
+   "ease": 0.429
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0007",
@@ -852,7 +852,7 @@
    "id": "shakespeare-the-taming-of-the-shrew-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.556
+   "ease": 0.555
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0009",
@@ -894,7 +894,7 @@
    "id": "shakespeare-the-taming-of-the-shrew-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.449
+   "ease": 0.447
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0016",
@@ -906,7 +906,7 @@
    "id": "shakespeare-the-taming-of-the-shrew-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.426
+   "ease": 0.425
   }
  ],
  "provenance": {

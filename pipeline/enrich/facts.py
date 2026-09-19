@@ -52,6 +52,7 @@ def meta_sources_for(name: str) -> list[tuple]:
         "hongloumeng",
         "odyssey",
         "sanguoyanyi",
+        "shiji",
         "shuihuzhuan",
         "xiyouji",
     ):
@@ -202,7 +203,7 @@ def _wikidata_for(
         return {}, qid_by_node
 
     cache_dir = RAW / source
-    if source in ("hongloumeng", "sanguoyanyi", "shuihuzhuan", "xiyouji"):
+    if source in ("hongloumeng", "sanguoyanyi", "shiji", "shuihuzhuan", "xiyouji"):
         attrs = wikidata.attributes_for(
             qids,
             cache_name="wikidata-attributes-zh.json",
@@ -380,6 +381,7 @@ STRIP_SPECIES_HOMEWORLD = {
     "shakespeare",
     "hongloumeng",
     "sanguoyanyi",
+    "shiji",
     "shuihuzhuan",
     "lesmiserables",
 }

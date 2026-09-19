@@ -533,7 +533,7 @@
    "id": "shakespeare-macbeth-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.5
+   "ease": 0.498
   },
   {
    "id": "shakespeare-macbeth-p0003",
@@ -551,13 +551,13 @@
    "id": "shakespeare-macbeth-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.503
+   "ease": 0.502
   },
   {
    "id": "shakespeare-macbeth-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.457
+   "ease": 0.456
   },
   {
    "id": "shakespeare-macbeth-p0009",
@@ -569,7 +569,7 @@
    "id": "shakespeare-macbeth-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.536
+   "ease": 0.535
   },
   {
    "id": "shakespeare-macbeth-p0011",
@@ -581,7 +581,7 @@
    "id": "shakespeare-macbeth-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.447
+   "ease": 0.443
   },
   {
    "id": "shakespeare-macbeth-p0013",
@@ -593,7 +593,7 @@
    "id": "shakespeare-macbeth-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.475
+   "ease": 0.474
   }
  ],
  "provenance": {

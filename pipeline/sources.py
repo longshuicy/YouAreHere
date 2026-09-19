@@ -24,6 +24,7 @@ from .ingest import (
     odyssey,
     sanguoyanyi,
     shakespeare,
+    shiji,
     shuihuzhuan,
     starwars,
     xiyouji,
@@ -99,6 +100,14 @@ SOURCES: dict[str, Source] = {
     "sanguoyanyi": Source(
         name="sanguoyanyi",
         load=sanguoyanyi.load,
+        min_edge_weight=2,
+        min_degree=2,
+    ),
+    "shiji": Source(
+        name="shiji",
+        load=shiji.load,
+        # Chronicle sentences name courts and armies; two shared sentences
+        # keeps the same floor as the Chinese novels.
         min_edge_weight=2,
         min_degree=2,
     ),
