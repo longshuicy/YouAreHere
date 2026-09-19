@@ -71,7 +71,7 @@ Waking repeatedly in one novel is a better fantasy than shuffling. You are not s
 | Story | which story this is | 2 | clue |
 | Claim | whether a name you offer belongs to a node | free | a clue back, when right |
 
-**Free, always:** every tie's strength, node size, which encodes presence, and `THICKEST` — which of a node's drawn ties is the heaviest.
+**Free, always:** every tie's strength, node size, which encodes presence, and `MOST WITH` — which of a node's drawn ties is the heaviest.
 
 **Weigh is gone, and tie strength is free everywhere.** It was originally a purchase: your own ties drawn true, a stranger's ties bought a node at a time. In play that charged for the diagram itself — thickness is the evidence, and a graph of uniform hairlines is not a puzzle, it is a waiting room. Removing it costs less than it looks like it should, because the thing a player actually lacks is not the shape but who is standing in it.
 
@@ -150,13 +150,15 @@ The player never sees the word *weight*. It is a code word and it promises a pre
 >
 > A tie is now drawn against the heaviest tie in its own world, on a log scale because the weights are heavy-tailed — ASOIAF runs from 3 to 334, and a linear scale draws almost all of it as hairline. The comparison stays inside one dataset, where it means something, and every world still renders on the same 0-to-1 range, which is what the invariant was actually asking for.
 
-**`THICKEST` — the heaviest tie, said in words.**
+**`MOST WITH` — the heaviest tie, said in words.**
 
 > **Added 2026-09-18.** Thickness has always carried which tie is strongest, and on a node with three ties it is legible at a glance. On a hub it is not: twenty ties fanning out of one circle, drawn between one and three and a half pixels, cannot be ranked by eye. The information was free and unreadable, which is the same as withheld — and it is the single most useful structural thing the diagram knows about a person.
 >
-> Every node's menu with more than one drawn tie carries a free row: `THICKEST — Ramsay Snow 101×`. Hovering it lights that tie in the accent on the paper, dims the rest of the fan, rings the far node and sets the figure beside the tie. Clicking follows it: the tie stays lit and the far node's own menu opens, so naming, expanding or reading them is the next click rather than a hunt for a circle.
+> Every node's menu with more than one drawn tie carries a free row: `MOST WITH — Ramsay Snow 101×`. Hovering it lights that tie in the accent on the paper, dims the rest of the fan, rings the far node and sets the figure beside the tie. Clicking follows it: the tie stays lit and the far node's own menu opens, so naming, expanding or reading them is the next click rather than a hunt for a circle.
 >
 > **Read off the drawn ties only, never the world's.** A node's true heaviest tie may run to somebody who has not been expanded into view; saying so would describe a stranger the player has not met. The row answers a question about the paper, which is why it can be free: it decodes a mark already there, exactly as showing thickness at all does.
+>
+> **The label has to fit beside the answer.** The row is the only one carrying a name and a figure rather than a phrase, and the panel is 244 wide by the design: a label of more than about ten tracked mono characters pushes the name onto a second line, which is what the row exists to avoid. `MOST WITH` is nine. It also stops short of claiming anything about the contact — the copy has never said *close*, *knows well* or *friend*, and two people named in the same verse did not necessarily meet.
 >
 > **When two are equal the game declines to choose.** All the joint-heaviest ties light, every far end is ringed, and a line under the row says *Nothing separates them. Take whichever you like.* Picking the first of two identical ties would be answering a question nobody asked.
 >

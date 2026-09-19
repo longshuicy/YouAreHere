@@ -426,7 +426,7 @@ export function NodeMenu({
                     whiteSpace: 'nowrap',
                   }}
                 >
-                  thickest
+                  most with
                 </span>
                 {/* Who, then how much — and the figure is set in the small mono
                     of a measurement rather than in the prose of a name, so the
