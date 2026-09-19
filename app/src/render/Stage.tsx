@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import type { VisibleGraph } from '../graph/project';
+import { edgeKey, strongestTieFrom } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { useZoom, zoomTransform } from '../graph/zoom';
 import { Edges } from './Edges';
@@ -56,6 +57,11 @@ export function Stage({
   const { ref: zoomRef, transform } = useZoom([0.4, 6], '[data-node]');
   const [hovered, setHovered] = useState<number | null>(null);
   const [pinned, setPinned] = useState<number | null>(null);
+  // Which node's heaviest tie is currently picked out on the paper. Sticky once
+  // the player has committed to it — hovering the row is a peek, clicking it is
+  // a decision, and a decision that unlit itself the moment the pointer moved
+  // to the node it pointed at would be useless.
+  const [lit, setLit] = useState<{ from: number; sticky: boolean } | null>(null);
   const closeTimer = useRef<number | null>(null);
 
   // The stage measures itself and maps one user unit to one CSS pixel, so type
@@ -95,6 +101,7 @@ export function Stage({
       if (e.key === 'Escape') {
         setPinned(null);
         setHovered(null);
+        setLit(null);
       }
     };
     window.addEventListener('keydown', onKey);
@@ -105,6 +112,35 @@ export function Stage({
   // stays put once clicked.
   const active = pinned ?? hovered;
   const activeNode = graph.nodes.find((n) => n.i === active) ?? null;
+
+
+  const strongestOf = (i: number) => strongestTieFrom(graph.edges, i);
+  const litTie = lit ? strongestOf(lit.from) : null;
+  const litEdges = useMemo(() => {
+    const keys = new Set<string>();
+    if (!lit || !litTie) return keys;
+    const ends = new Set(litTie.neighbours);
+    for (const e of graph.edges) {
+      const other = e.source === lit.from ? e.target : e.target === lit.from ? e.source : null;
+      if (other !== null && ends.has(other)) keys.add(edgeKey(e));
+    }
+    return keys;
+  }, [graph.edges, lit, litTie]);
+  const litNodes = useMemo(
+    () => new Set(litTie ? litTie.neighbours : []),
+    [litTie],
+  );
+
+  // A neighbour is written on the menu exactly as the paper writes them: their
+  // bought name, the monogram an expansion left behind, or nothing at all.
+  const labelOf = (i: number) => {
+    const n = graph.nodes.find((m) => m.i === i);
+    if (!n) return 'someone';
+    if (n.isYou) return 'you';
+    if (n.name) return n.name;
+    if (n.monogram) return `${n.monogram.initial}\u2014`;
+    return 'a stranger';
+  };
   const maxHop = Math.max(0, ...graph.nodes.map((n) => n.hop).filter((h) => Number.isFinite(h)));
 
   const radiusOf = useMemo(() => {
@@ -219,7 +255,10 @@ export function Stage({
           width={view.w}
           height={view.h}
           fill="transparent"
-          onClick={() => setPinned(null)}
+          onClick={() => {
+            setPinned(null);
+            setLit(null);
+          }}
         />
         {/* Nothing is mounted until the stage knows its size, so nodes are born
             at their real coordinates instead of easing in from a wrong guess. */}
@@ -231,6 +270,8 @@ export function Stage({
             you={graph.you}
             radiusOf={radiusOf}
             animate={!dragging}
+            lit={litEdges}
+            litFrom={lit?.from ?? null}
           />
           <Nodes
             nodes={graph.nodes}
@@ -249,6 +290,7 @@ export function Stage({
             onPointerMove={onNodePointerMove}
             onPointerUp={onNodePointerUp}
             maxHop={maxHop}
+            lit={litNodes}
             interactive={interactive && !dimmed}
             showYouCaption={showYouCaption}
           />
@@ -293,6 +335,27 @@ export function Stage({
               setPinned(i);
               setHovered(i);
               onClaim?.(i, query);
+            }}
+            strongest={activeNode ? strongestOf(activeNode.i) : null}
+            labelOf={labelOf}
+            lit={lit !== null && activeNode !== null && lit.from === activeNode.i}
+            onLightStrongest={(on) => {
+              if (!activeNode) return;
+              if (on) setLit({ from: activeNode.i, sticky: false });
+              else setLit((prev) => (prev && prev.sticky ? prev : null));
+            }}
+            onPickStrongest={() => {
+              if (!activeNode) return;
+              const tie = strongestOf(activeNode.i);
+              setLit({ from: activeNode.i, sticky: true });
+              // One winner: hand the player its menu, so naming, expanding or
+              // reading them is the next click. A tie between two: leave both
+              // lit and both ringed, and let them choose on the paper.
+              if (tie && tie.neighbours.length === 1) {
+                cancelClose();
+                setPinned(tie.neighbours[0]);
+                setHovered(tie.neighbours[0]);
+              }
             }}
             suggest={suggest ?? (() => [])}
             hasFacts={hasFacts ?? (() => true)}

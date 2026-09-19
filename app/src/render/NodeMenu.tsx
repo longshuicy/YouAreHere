@@ -1,11 +1,13 @@
 import { useState } from 'react';
-import type { VisibleNode } from '../graph/project';
+import type { StrongestTie, VisibleNode } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { applyZoom, type ZoomState } from '../graph/zoom';
 import { COST } from '../engine/session';
 import type { ActionKey, Session } from '../engine/session';
+import type { NodeIndex } from '../types';
 import { availableActionsFor, canClaim } from '../engine/session';
 import { nodeRadius } from './scales';
+import { cardinal, timesFigure } from '../graph/project';
 
 interface Props {
   node: VisibleNode | null;
@@ -28,6 +30,19 @@ interface Props {
   /** Whether the sidecar holds a reading for a node. Nodes it has nothing for
    * do not offer one. */
   hasFacts: (i: number) => boolean;
+  /** The heaviest tie drawn from this node, if it has more than one. Null when
+   * there is nothing to pick between. */
+  strongest: StrongestTie | null;
+  /** How to write a neighbour on the menu: their name, their monogram, or
+   * nothing yet. The menu never learns more about them than the paper shows. */
+  labelOf: (i: NodeIndex) => string;
+  /** Light the tie without committing to it — for hover. */
+  onLightStrongest: (on: boolean) => void;
+  /** Follow it: light it for good, and open the menu of whoever is on the far
+   * end, so the next move is one click away. */
+  onPickStrongest: () => void;
+  /** True while this node's strongest tie is lit. */
+  lit: boolean;
   /** Your own node's only offer: the guess. */
   onOpenGuess: () => void;
   onPointerEnter: () => void;
@@ -233,6 +248,11 @@ export function NodeMenu({
   onClaim,
   suggest,
   hasFacts,
+  strongest,
+  labelOf,
+  onLightStrongest,
+  onPickStrongest,
+  lit,
   onOpenGuess,
   onPointerEnter,
   onPointerLeave,
@@ -246,7 +266,11 @@ export function NodeMenu({
   // knowing — it is why there is nothing to buy.
   const factsEmpty = !node.isYou && !session.known.facts.has(node.i) && !hasFacts(node.i);
   const claimable = canClaim(session, node.i);
-  if (actions.length === 0 && !claimable && !factsEmpty && !factLine && !node.isYou) return null;
+  // Offered only where it settles something: one tie needs no picking out, and
+  // on a node with none there is nothing drawn to read.
+  const picker = strongest && strongest.degree > 1 ? strongest : null;
+  if (actions.length === 0 && !claimable && !factsEmpty && !factLine && !node.isYou && !picker)
+    return null;
 
   const handlers = { expand: onExpand, facts: onFacts, name: onName };
 
@@ -323,10 +347,122 @@ export function NodeMenu({
                 color: 'var(--body)',
                 padding: '10px 0',
                 whiteSpace: 'normal',
-                borderBottom: actions.length > 0 || claimable || factsEmpty ? '1px solid var(--rule)' : 'none',
+                borderBottom:
+                  picker || actions.length > 0 || claimable || factsEmpty
+                    ? '1px solid var(--rule)'
+                    : 'none',
               }}
             >
               {factLine}
+            </div>
+          )}
+
+          {/*
+            * The thickest tie, said in words.
+            *
+            * On a node with three ties the diagram answers this by itself. On a
+            * hub it does not: a fan of twenty strokes drawn between one and
+            * three and a half pixels cannot be ranked by eye, so the strongest
+            * tie — the single most useful thing the diagram knows about who
+            * this person is — was free and unreadable. This row reads it out,
+            * lights the tie on the paper with its figure beside it, and opens
+            * the far node's own menu, because knowing which neighbour it is, is
+            * only worth anything if the next move lands on them.
+            *
+            * It costs nothing, and it must not: it buys no new fact, it decodes
+            * a mark already drawn. Ties are shown by default everywhere for the
+            * same reason.
+            *
+            * When the heaviest ties are exactly equal the diagram declines to
+            * choose. All of them light, every far end is ringed, and the player
+            * picks the one they want — a menu
+            * that silently took the first of two identical ties would be
+            * answering a question it had not been asked.
+            */}
+          {picker && (
+            <div
+              style={{
+                borderBottom:
+                  claimable || factsEmpty || actions.length > 0 ? '1px solid var(--rule)' : 'none',
+              }}
+            >
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onPickStrongest();
+                }}
+                onMouseEnter={(e) => {
+                  onLightStrongest(true);
+                  e.currentTarget.style.color = 'var(--accent)';
+                }}
+                onMouseLeave={(e) => {
+                  onLightStrongest(false);
+                  e.currentTarget.style.color = '';
+                }}
+                style={{
+                  display: 'flex',
+                  alignItems: 'baseline',
+                  justifyContent: 'space-between',
+                  // Tighter than the other rows: this one carries a name and a
+                  // figure where they carry a phrase, and the twelve every
+                  // other row uses is what pushed it onto two lines.
+                  gap: 7,
+                  width: '100%',
+                  padding: '9px 0',
+                  textAlign: 'left',
+                  // A name too long to sit beside the label drops whole onto
+                  // the next line, rather than breaking between its own words
+                  // and leaving the figure stranded in the middle of somebody.
+                  flexWrap: 'wrap',
+                  color: lit ? 'var(--accent)' : undefined,
+                }}
+              >
+                <span
+                  className="mono"
+                  style={{
+                    fontSize: 11,
+                    letterSpacing: '0.2em',
+                    textTransform: 'uppercase',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  most with
+                </span>
+                {/* Who, then how much — and the figure is set in the small mono
+                    of a measurement rather than in the prose of a name, so the
+                    person is what the eye lands on and the count is there to be
+                    compared against the next one. */}
+                <span
+                  style={{
+                    display: 'flex',
+                    alignItems: 'baseline',
+                    justifyContent: 'flex-end',
+                    gap: 6,
+                    fontFamily: 'var(--serif)',
+                    fontSize: 14,
+                    color: 'var(--body)',
+                    textAlign: 'right',
+                    lineHeight: 1.3,
+                  }}
+                >
+                  <span style={{ whiteSpace: 'nowrap' }}>
+                    {picker.neighbours.length === 1
+                      ? labelOf(picker.neighbours[0])
+                      : `${cardinal(picker.neighbours.length)} equal`}
+                  </span>
+                  <span
+                    className="mono"
+                    style={{ fontSize: 10.5, color: 'var(--annotation)', whiteSpace: 'nowrap' }}
+                  >
+                    {timesFigure(picker.weight)}
+                  </span>
+                </span>
+              </button>
+              {lit && picker.neighbours.length > 1 && (
+                <div className="annot" style={{ padding: '0 0 9px 0', whiteSpace: 'normal' }}>
+                  Nothing separates them. Take whichever you like.
+                </div>
+              )}
             </div>
           )}
 

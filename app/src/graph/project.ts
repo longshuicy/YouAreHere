@@ -66,12 +66,73 @@ export interface VisibleEdge {
    * hairline.
    */
   strength: number;
+  /**
+   * The tie as the dataset counted it: shared scenes, verses naming both,
+   * co-sponsored bills — whatever this world's unit is.
+   *
+   * Carried only so the strongest tie can put a figure beside itself when the
+   * player asks which one it is. It costs nothing, because it is a reading of
+   * a mark already on the paper: thickness is this number, log-normalised.
+   * Nothing draws it unbidden, and the unit is never named during play — the
+   * unit would give the world away, and the figure alone only lets two ties be
+   * compared, which is the whole of what it is for.
+   */
+  weight: number;
+}
+
+/** A drawn tie's identity, in the edge's own orientation: the render key, and
+ * how the stage tells the renderer which ties to light. */
+export function edgeKey(e: VisibleEdge): string {
+  return `${e.source}-${e.target}`;
 }
 
 export interface VisibleGraph {
   you: NodeIndex;
   nodes: VisibleNode[];
   edges: VisibleEdge[];
+}
+
+/** The heaviest tie drawn from a node, and who is on the other end of it. */
+export interface StrongestTie {
+  /** More than one when two ties are exactly equal — the diagram cannot choose
+   * between them, so it declines to, and lights both. */
+  neighbours: NodeIndex[];
+  weight: number;
+  /** How many ties are drawn from the node at all. Below two there is nothing
+   * to pick between and the offer is not made. */
+  degree: number;
+}
+
+/**
+ * Which neighbour a node's thickest tie runs to.
+ *
+ * Thickness has always carried this, and on a leaf it is legible at a glance.
+ * On a hub it is not: twenty ties fanning out of one circle, drawn between one
+ * and three and a half pixels, and the eye cannot rank them. The information
+ * was free and unreadable, which is the same as withheld.
+ *
+ * Computed over the *drawn* ties only, never the world's. A node's true
+ * strongest tie may run to somebody who has not been expanded into view, and
+ * saying so would be telling the player about a stranger they have not paid to
+ * meet. Read only what is on the paper.
+ */
+export function strongestTieFrom(edges: VisibleEdge[], i: NodeIndex): StrongestTie | null {
+  let weight = -Infinity;
+  let neighbours: NodeIndex[] = [];
+  let degree = 0;
+  for (const e of edges) {
+    const other = e.source === i ? e.target : e.target === i ? e.source : null;
+    if (other === null) continue;
+    degree += 1;
+    if (e.weight > weight) {
+      weight = e.weight;
+      neighbours = [other];
+    } else if (e.weight === weight) {
+      neighbours.push(other);
+    }
+  }
+  if (degree === 0) return null;
+  return { neighbours, weight, degree };
 }
 
 /** The world's heaviest tie, which every other tie is drawn relative to. */
@@ -138,7 +199,7 @@ export function project(universe: Universe, known: Known, you: NodeIndex): Visib
     const tExpanded = known.expanded.has(t);
     if (!sExpanded && !tExpanded) continue;
 
-    edges.push({ source: s, target: t, strength: Math.log1p(weight) / tieCeiling });
+    edges.push({ source: s, target: t, strength: Math.log1p(weight) / tieCeiling, weight });
   }
 
   return { you, nodes, edges };
@@ -169,6 +230,20 @@ export function standingOf(universe: Universe, you: NodeIndex): number {
     if ((weighted.get(n.i) ?? 0) > mine) above += 1;
   }
   return above + 1;
+}
+
+/**
+ * A tie's figure, with the one unit sign that works in every world.
+ *
+ * The count means something different in each dataset — verses naming both,
+ * shared scenes, bills co-sponsored — and saying which would tell the player
+ * where they are. `48×` says *forty-eight times* without naming what
+ * happened forty-eight times, and it says it in two glyphs: the figure sits
+ * beside a name on one line and beside a tie on the paper without becoming the
+ * loudest thing in either place, which spelling it out did.
+ */
+export function timesFigure(weight: number): string {
+  return `${weight}\u00d7`;
 }
 
 const CARDINALS = [

@@ -14,6 +14,9 @@ interface Props {
   interactive?: boolean;
   /** The cold open and the reveal caption your node; mid-game it is unlabelled. */
   showYouCaption?: boolean;
+  /** Nodes on the far end of a lit tie — the pick the player was offered.
+   * Ringed in the accent so a tied pair reads as two choices, not as noise. */
+  lit?: Set<number>;
   /** Suppressed mid-drag: a node that eases while its ties track the pointer
    * exactly reads as the edge dragging the node along behind it. */
   animate?: boolean;
@@ -31,6 +34,7 @@ export function Nodes({
   interactive = true,
   showYouCaption = false,
   animate = true,
+  lit,
 }: Props) {
   return (
     <g className="nodes">
@@ -57,6 +61,18 @@ export function Nodes({
             {/* Invisible hit target — the drawn circles are only 6–9.5 units
                 across, which is a cruel thing to ask a pointer to find. */}
             {interactive && <circle r={Math.max(r + 10, 17)} fill="transparent" />}
+
+            {/* The other end of a lit tie wears a dashed ring: this is the one
+                to name, expand or read — or one of the two, when they tie. */}
+            {lit?.has(n.i) && (
+              <circle
+                r={r + 6.5}
+                fill="none"
+                stroke="var(--accent)"
+                strokeWidth={1}
+                strokeDasharray="2 3"
+              />
+            )}
 
             {/* The hovered node wears a thin accent ring, and the menu hangs off it. */}
             {hovered === n.i && interactive && (
