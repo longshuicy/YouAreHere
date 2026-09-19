@@ -102,12 +102,14 @@ export function blurbFor(universe: { id: string; blurb?: string }): string | nul
 const FAMILIARITY: Record<string, 0 | 1 | 2> = {
   asoiaf: 2,
   bible: 2,
-  congress: 2,
   friends: 2,
   starwars: 2,
   lesmiserables: 2,
   iliad: 1,
   odyssey: 1,
+  // Nameable, but only to Americans — the same kind of accident as the five
+  // below, and it sits a band down for the same reason.
+  congress: 1,
 
   // Read as an English-speaking player: a syllabus most of them never sat.
   hongloumeng: 0,
