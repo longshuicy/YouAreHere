@@ -6,140 +6,140 @@
   {
    "i": 0,
    "n": "Adam",
-   "x": -384.3,
-   "y": 73.2
+   "x": -384.9,
+   "y": 68.7
   },
   {
    "i": 1,
    "n": "Audrey",
-   "x": 378.1,
-   "y": -4.2
+   "x": 378.3,
+   "y": -0.2
   },
   {
    "i": 2,
    "n": "Celia",
-   "x": -39.6,
-   "y": -148.7
+   "x": -38.3,
+   "y": -149.3
   },
   {
    "i": 3,
    "n": "Charles",
-   "x": -261.8,
-   "y": -197.9
+   "x": -259.2,
+   "y": -200.9
   },
   {
    "i": 4,
    "n": "Corin",
-   "x": 145.4,
-   "y": -132.2
+   "x": 146.2,
+   "y": -130.6
   },
   {
    "i": 5,
    "n": "Dennis",
-   "x": -541.4,
-   "y": -130.5
+   "x": -539.4,
+   "y": -136.6
   },
   {
    "i": 6,
    "n": "Duke Frederick",
-   "x": -147.2,
-   "y": -271.2
+   "x": -143.9,
+   "y": -272.6
   },
   {
    "i": 7,
    "n": "Duke Senior",
-   "x": -168.3,
-   "y": 222.3
+   "x": -170.6,
+   "y": 219.6
   },
   {
    "i": 8,
    "n": "Hymen",
-   "x": 50.7,
-   "y": 233.9
+   "x": 48.5,
+   "y": 234.9
   },
   {
    "i": 9,
    "n": "Jaques",
-   "x": 2.5,
-   "y": 115.8
+   "x": 0.5,
+   "y": 115.4
   },
   {
    "i": 10,
    "n": "Le Beau",
-   "x": -40.3,
-   "y": -329.5
+   "x": -36.5,
+   "y": -329.9
   },
   {
    "i": 11,
    "n": "Amiens",
-   "x": -314.3,
-   "y": 303.4
+   "x": -317.9,
+   "y": 299.1
   },
   {
    "i": 12,
    "n": "Sir Oliver Martext",
-   "x": 357.8,
-   "y": 245.4
+   "x": 356.1,
+   "y": 249.3
   },
   {
    "i": 13,
    "n": "Oliver",
-   "x": -301.6,
-   "y": -83.3
+   "x": -299.8,
+   "y": -86.3
   },
   {
    "i": 14,
    "n": "Orlando",
-   "x": -166.6,
-   "y": -2.9
+   "x": -167.2,
+   "y": -4.7
   },
   {
    "i": 15,
    "n": "Phoebe",
-   "x": -146.8,
-   "y": 129.3
+   "x": -146.6,
+   "y": 128.4
   },
   {
    "i": 16,
    "n": "Rosalind",
-   "x": -61.4,
-   "y": -45.6
+   "x": -61.1,
+   "y": -46.0
   },
   {
    "i": 17,
    "n": "First Page",
    "x": 600.0,
-   "y": -92.5
+   "y": -85.3
   },
   {
    "i": 18,
    "n": "Second Page",
-   "x": 599.3,
-   "y": 73.2
+   "x": 597.4,
+   "y": 79.8
   },
   {
    "i": 19,
    "n": "Second Brother",
-   "x": -44.2,
-   "y": 277.0
+   "x": -47.1,
+   "y": 276.2
   },
   {
    "i": 20,
    "n": "Silvius",
-   "x": -56.8,
-   "y": 44.8
+   "x": -57.8,
+   "y": 44.9
   },
   {
    "i": 21,
    "n": "Touchstone",
-   "x": 125.6,
-   "y": -15.3
+   "x": 125.1,
+   "y": -13.9
   },
   {
    "i": 22,
    "n": "William",
-   "x": 415.2,
-   "y": -264.6
+   "x": 418.0,
+   "y": -259.9
   }
  ],
  "edges": [
@@ -840,103 +840,103 @@
    "id": "shakespeare-as-you-like-it-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.501
+   "ease": 0.47
   },
   {
    "id": "shakespeare-as-you-like-it-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.459
+   "ease": 0.417
   },
   {
    "id": "shakespeare-as-you-like-it-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.597
+   "ease": 0.573
   },
   {
    "id": "shakespeare-as-you-like-it-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.521
+   "ease": 0.487
   },
   {
    "id": "shakespeare-as-you-like-it-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.592
+   "ease": 0.56
   },
   {
    "id": "shakespeare-as-you-like-it-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.465
+   "ease": 0.439
   },
   {
    "id": "shakespeare-as-you-like-it-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.487
+   "ease": 0.463
   },
   {
    "id": "shakespeare-as-you-like-it-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.398
+   "ease": 0.38
   },
   {
    "id": "shakespeare-as-you-like-it-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.543
+   "ease": 0.528
   },
   {
    "id": "shakespeare-as-you-like-it-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.45
+   "ease": 0.374
   },
   {
    "id": "shakespeare-as-you-like-it-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.535
+   "ease": 0.502
   },
   {
    "id": "shakespeare-as-you-like-it-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.617
+   "ease": 0.594
   },
   {
    "id": "shakespeare-as-you-like-it-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.566
+   "ease": 0.548
   },
   {
    "id": "shakespeare-as-you-like-it-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.633
+   "ease": 0.618
   },
   {
    "id": "shakespeare-as-you-like-it-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.417
+   "ease": 0.4
   },
   {
    "id": "shakespeare-as-you-like-it-p0020",
    "you": 20,
    "startRadius": 1,
-   "ease": 0.561
+   "ease": 0.537
   },
   {
    "id": "shakespeare-as-you-like-it-p0021",
    "you": 21,
    "startRadius": 1,
-   "ease": 0.577
+   "ease": 0.554
   }
  ],
  "provenance": {

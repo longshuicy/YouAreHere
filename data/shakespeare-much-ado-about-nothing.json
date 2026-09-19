@@ -6,134 +6,134 @@
   {
    "i": 0,
    "n": "Signior Antonio",
-   "x": -304.6,
-   "y": -62.0
+   "x": -303.4,
+   "y": -61.0
   },
   {
    "i": 1,
    "n": "Balthasar",
-   "x": -209.8,
-   "y": -229.5
+   "x": -208.9,
+   "y": -238.8
   },
   {
    "i": 2,
    "n": "Beatrice",
-   "x": -115.7,
-   "y": -276.4
+   "x": -114.1,
+   "y": -278.2
   },
   {
    "i": 3,
    "n": "Signior Benedick",
-   "x": 17.1,
-   "y": -209.1
+   "x": 24.5,
+   "y": -208.0
   },
   {
    "i": 4,
    "n": "Borachio",
-   "x": 5.1,
-   "y": 119.4
+   "x": 4.0,
+   "y": 119.2
   },
   {
    "i": 5,
    "n": "Boy",
-   "x": -11.1,
-   "y": -530.6
+   "x": -13.4,
+   "y": -533.5
   },
   {
    "i": 6,
    "n": "Count Claudio",
-   "x": -5.9,
-   "y": -141.7
+   "x": -10.8,
+   "y": -146.7
   },
   {
    "i": 7,
    "n": "Conrade",
-   "x": 53.6,
-   "y": 406.3
+   "x": 53.2,
+   "y": 407.5
   },
   {
    "i": 8,
    "n": "Dogberry",
-   "x": 194.5,
-   "y": 193.0
+   "x": 194.2,
+   "y": 194.1
   },
   {
    "i": 9,
    "n": "Don John",
-   "x": -142.5,
-   "y": -40.8
+   "x": -141.1,
+   "y": -40.3
   },
   {
    "i": 10,
    "n": "Don Pedro",
-   "x": -82.9,
-   "y": -139.7
+   "x": -86.5,
+   "y": -138.7
   },
   {
    "i": 11,
    "n": "Friar Francis",
-   "x": 155.7,
-   "y": -328.9
+   "x": 157.8,
+   "y": -330.7
   },
   {
    "i": 12,
    "n": "Hero",
-   "x": -47.2,
-   "y": -305.7
+   "x": -44.3,
+   "y": -304.3
   },
   {
    "i": 13,
    "n": "Leonato",
-   "x": 64.4,
-   "y": -116.3
+   "x": 62.6,
+   "y": -114.9
   },
   {
    "i": 14,
    "n": "Leonato’s Brother",
-   "x": -34.2,
-   "y": -32.6
+   "x": -29.6,
+   "y": -33.7
   },
   {
    "i": 15,
    "n": "Margaret",
-   "x": -299.2,
-   "y": -193.9
+   "x": -294.5,
+   "y": -188.7
   },
   {
    "i": 16,
    "n": "Sexton",
-   "x": 410.0,
-   "y": 432.9
+   "x": 409.0,
+   "y": 433.8
   },
   {
    "i": 17,
    "n": "Ursula",
-   "x": -239.9,
-   "y": -325.4
+   "x": -242.0,
+   "y": -325.6
   },
   {
    "i": 18,
    "n": "Verges",
-   "x": 103.9,
-   "y": 234.3
+   "x": 103.5,
+   "y": 235.5
   },
   {
    "i": 19,
    "n": "First Watchman",
-   "x": 183.5,
-   "y": 514.5
+   "x": 182.4,
+   "y": 518.2
   },
   {
    "i": 20,
    "n": "Second Watchman",
-   "x": 40.6,
+   "x": 35.2,
    "y": 600.0
   },
   {
    "i": 21,
    "n": "George Seacoal",
-   "x": 264.5,
-   "y": 432.1
+   "x": 262.3,
+   "y": 434.7
   }
  ],
  "edges": [
@@ -1077,133 +1077,133 @@
    "id": "shakespeare-much-ado-about-nothing-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.28
+   "ease": 0.256
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.358
+   "ease": 0.343
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.538
+   "ease": 0.523
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.597
+   "ease": 0.582
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.495
+   "ease": 0.471
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.283
+   "ease": 0.257
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.555
+   "ease": 0.541
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.39
+   "ease": 0.354
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.363
+   "ease": 0.339
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.481
+   "ease": 0.466
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.576
+   "ease": 0.561
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.417
+   "ease": 0.399
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.528
+   "ease": 0.514
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.617
+   "ease": 0.603
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.462
+   "ease": 0.447
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.423
+   "ease": 0.399
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.32
+   "ease": 0.292
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.443
+   "ease": 0.419
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.516
+   "ease": 0.481
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.368
+   "ease": 0.34
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0020",
    "you": 20,
    "startRadius": 1,
-   "ease": 0.342
+   "ease": 0.313
   },
   {
    "id": "shakespeare-much-ado-about-nothing-p0021",
    "you": 21,
    "startRadius": 1,
-   "ease": 0.388
+   "ease": 0.36
   }
  ],
  "provenance": {

@@ -6,128 +6,128 @@
   {
    "i": 0,
    "n": "Antigonus",
-   "x": 82.6,
-   "y": 252.9
+   "x": 80.6,
+   "y": 252.8
   },
   {
    "i": 1,
    "n": "Autolycus",
-   "x": 280.3,
-   "y": -41.2
+   "x": 278.4,
+   "y": -40.8
   },
   {
    "i": 2,
    "n": "Camillo",
-   "x": 90.6,
-   "y": 15.8
+   "x": 93.3,
+   "y": 14.7
   },
   {
    "i": 3,
    "n": "Cleomenes",
-   "x": -281.1,
-   "y": -76.3
+   "x": -279.5,
+   "y": -80.9
   },
   {
    "i": 4,
    "n": "Dion",
-   "x": -266.0,
-   "y": 26.6
+   "x": -265.4,
+   "y": 22.3
   },
   {
    "i": 5,
    "n": "Dorcas",
-   "x": 313.2,
-   "y": -154.8
+   "x": 315.5,
+   "y": -151.1
   },
   {
    "i": 6,
    "n": "Florizell",
-   "x": 84.3,
-   "y": -84.7
+   "x": 79.5,
+   "y": -106.0
   },
   {
    "i": 7,
    "n": "Hermione",
-   "x": -147.7,
-   "y": 141.1
+   "x": -146.9,
+   "y": 141.2
   },
   {
    "i": 8,
    "n": "Jailer",
-   "x": -481.6,
-   "y": -453.5
+   "x": -482.8,
+   "y": -450.4
   },
   {
    "i": 9,
    "n": "Emilia",
    "x": -600.0,
-   "y": -322.2
+   "y": -318.2
   },
   {
    "i": 10,
    "n": "Leontes",
-   "x": -112.6,
-   "y": 67.5
+   "x": -112.1,
+   "y": 66.7
   },
   {
    "i": 11,
    "n": "Mamillius",
-   "x": -74.0,
-   "y": 308.6
+   "x": -74.8,
+   "y": 306.6
   },
   {
    "i": 12,
    "n": "Mopsa",
-   "x": 368.1,
-   "y": -66.7
+   "x": 367.9,
+   "y": -62.4
   },
   {
    "i": 13,
    "n": "Officer",
-   "x": -424.0,
-   "y": 96.9
+   "x": -423.1,
+   "y": 93.6
   },
   {
    "i": 14,
    "n": "Paulina",
-   "x": -194.0,
-   "y": -91.2
+   "x": -192.8,
+   "y": -91.0
   },
   {
    "i": 15,
    "n": "Perdita",
-   "x": 23.1,
-   "y": -71.0
+   "x": 27.8,
+   "y": -53.2
   },
   {
    "i": 16,
    "n": "Polixenes",
-   "x": 101.6,
-   "y": 76.1
+   "x": 101.8,
+   "y": 75.6
   },
   {
    "i": 17,
    "n": "Servant",
-   "x": 226.8,
-   "y": -173.0
+   "x": 229.6,
+   "y": -171.2
   },
   {
    "i": 18,
    "n": "Mariner",
-   "x": 417.3,
-   "y": 368.5
+   "x": 412.2,
+   "y": 370.3
   },
   {
    "i": 19,
    "n": "Shepherd",
-   "x": 265.7,
+   "x": 264.4,
    "y": 108.1
   },
   {
    "i": 20,
    "n": "Shepherd’s Son",
-   "x": 327.6,
-   "y": 72.5
+   "x": 326.4,
+   "y": 73.3
   }
  ],
  "edges": [
@@ -792,97 +792,97 @@
    "id": "shakespeare-the-winters-tale-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.382
+   "ease": 0.365
   },
   {
    "id": "shakespeare-the-winters-tale-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.519
+   "ease": 0.498
   },
   {
    "id": "shakespeare-the-winters-tale-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.542
+   "ease": 0.527
   },
   {
    "id": "shakespeare-the-winters-tale-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.465
+   "ease": 0.451
   },
   {
    "id": "shakespeare-the-winters-tale-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.486
+   "ease": 0.472
   },
   {
    "id": "shakespeare-the-winters-tale-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.414
+   "ease": 0.392
   },
   {
    "id": "shakespeare-the-winters-tale-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.456
+   "ease": 0.441
   },
   {
    "id": "shakespeare-the-winters-tale-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.626
+   "ease": 0.592
   },
   {
    "id": "shakespeare-the-winters-tale-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.63
+   "ease": 0.606
   },
   {
    "id": "shakespeare-the-winters-tale-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.435
+   "ease": 0.413
   },
   {
    "id": "shakespeare-the-winters-tale-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.551
+   "ease": 0.527
   },
   {
    "id": "shakespeare-the-winters-tale-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.587
+   "ease": 0.573
   },
   {
    "id": "shakespeare-the-winters-tale-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.607
+   "ease": 0.592
   },
   {
    "id": "shakespeare-the-winters-tale-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.456
+   "ease": 0.434
   },
   {
    "id": "shakespeare-the-winters-tale-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.533
+   "ease": 0.525
   },
   {
    "id": "shakespeare-the-winters-tale-p0020",
    "you": 20,
    "startRadius": 1,
-   "ease": 0.554
+   "ease": 0.547
   }
  ],
  "provenance": {

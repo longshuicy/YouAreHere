@@ -6,116 +6,116 @@
   {
    "i": 0,
    "n": "Bertram",
-   "x": 58.2,
-   "y": 185.6
+   "x": 55.9,
+   "y": 187.4
   },
   {
    "i": 1,
    "n": "Countess",
-   "x": -44.0,
-   "y": -201.7
+   "x": -40.1,
+   "y": -203.8
   },
   {
    "i": 2,
    "n": "Diana",
-   "x": -203.8,
-   "y": -84.7
+   "x": -199.7,
+   "y": -86.2
   },
   {
    "i": 3,
    "n": "Duke",
-   "x": 471.3,
-   "y": 522.3
+   "x": 457.6,
+   "y": 534.3
   },
   {
    "i": 4,
    "n": "Fool",
-   "x": 74.5,
-   "y": -318.8
+   "x": 78.6,
+   "y": -318.5
   },
   {
    "i": 5,
    "n": "First Gentleman",
-   "x": 74.2,
+   "x": 76.5,
    "y": -600.0
   },
   {
    "i": 6,
    "n": "Second Gentleman",
-   "x": 264.0,
-   "y": -506.2
+   "x": 266.3,
+   "y": -506.6
   },
   {
    "i": 7,
    "n": "Gentleman",
-   "x": -211.1,
-   "y": 121.7
+   "x": -202.9,
+   "y": 118.0
   },
   {
    "i": 8,
    "n": "Helen",
-   "x": -30.2,
-   "y": -89.9
+   "x": -28.0,
+   "y": -90.4
   },
   {
    "i": 9,
    "n": "King",
-   "x": 143.1,
-   "y": 36.8
+   "x": 145.1,
+   "y": 39.7
   },
   {
    "i": 10,
    "n": "First Lord",
-   "x": 267.9,
-   "y": 250.7
+   "x": 264.6,
+   "y": 255.6
   },
   {
    "i": 11,
    "n": "Second Lord",
-   "x": 178.5,
-   "y": 330.4
+   "x": 173.3,
+   "y": 333.1
   },
   {
    "i": 12,
    "n": "Lafew",
-   "x": 34.2,
-   "y": 12.8
+   "x": 38.6,
+   "y": 10.6
   },
   {
    "i": 13,
    "n": "Mariana",
-   "x": -501.4,
-   "y": -57.0
+   "x": -497.4,
+   "y": -58.9
   },
   {
    "i": 14,
    "n": "Page",
-   "x": -222.5,
-   "y": 278.1
+   "x": -234.1,
+   "y": 267.4
   },
   {
    "i": 15,
    "n": "Parolles",
-   "x": -28.5,
-   "y": 114.7
+   "x": -27.1,
+   "y": 113.5
   },
   {
    "i": 16,
    "n": "First Soldier",
-   "x": 125.0,
-   "y": 529.5
+   "x": 116.1,
+   "y": 530.3
   },
   {
    "i": 17,
    "n": "Steward",
-   "x": -191.5,
-   "y": -529.9
+   "x": -187.8,
+   "y": -529.4
   },
   {
    "i": 18,
    "n": "Widow",
-   "x": -257.8,
-   "y": 5.8
+   "x": -255.4,
+   "y": 3.8
   }
  ],
  "edges": [
@@ -678,73 +678,73 @@
    "id": "shakespeare-alls-well-that-ends-well-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.668
+   "ease": 0.659
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.51
+   "ease": 0.495
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.464
+   "ease": 0.447
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.478
+   "ease": 0.468
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.435
+   "ease": 0.417
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.699
+   "ease": 0.691
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.539
+   "ease": 0.515
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.502
+   "ease": 0.484
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.478
+   "ease": 0.461
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.572
+   "ease": 0.548
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.692
+   "ease": 0.684
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.535
+   "ease": 0.517
   }
  ],
  "provenance": {

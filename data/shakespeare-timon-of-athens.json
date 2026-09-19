@@ -6,44 +6,44 @@
   {
    "i": 0,
    "n": "Alcibiades",
-   "x": -256.0,
-   "y": -46.5
+   "x": -255.4,
+   "y": -46.0
   },
   {
    "i": 1,
    "n": "Apemantus",
-   "x": -116.3,
-   "y": 63.0
+   "x": -115.9,
+   "y": 62.8
   },
   {
    "i": 2,
    "n": "Lucius",
    "x": 54.9,
-   "y": -325.4
+   "y": -326.5
   },
   {
    "i": 3,
    "n": "Ventidius",
-   "x": -116.0,
-   "y": -406.1
+   "x": -116.4,
+   "y": -406.7
   },
   {
    "i": 4,
    "n": "Flavius",
-   "x": 112.6,
-   "y": 9.6
+   "x": 112.7,
+   "y": 9.1
   },
   {
    "i": 5,
    "n": "Fool",
-   "x": 287.2,
-   "y": 387.2
+   "x": 286.1,
+   "y": 387.5
   },
   {
    "i": 6,
    "n": "Jeweler",
-   "x": -569.7,
-   "y": -173.2
+   "x": -570.2,
+   "y": -173.4
   },
   {
    "i": 7,
@@ -54,98 +54,98 @@
   {
    "i": 8,
    "n": "Old Athenian",
-   "x": -482.0,
-   "y": -279.1
+   "x": -482.4,
+   "y": -279.4
   },
   {
    "i": 9,
    "n": "Painter",
    "x": -334.7,
-   "y": -192.1
+   "y": -191.3
   },
   {
    "i": 10,
    "n": "Phrynia",
-   "x": -169.4,
-   "y": 395.5
+   "x": -170.0,
+   "y": 396.5
   },
   {
    "i": 11,
    "n": "Poet",
-   "x": -391.4,
-   "y": -6.4
+   "x": -391.8,
+   "y": -6.1
   },
   {
    "i": 12,
    "n": "Caphis",
-   "x": 135.3,
-   "y": 382.0
+   "x": 134.7,
+   "y": 381.0
   },
   {
    "i": 13,
    "n": "Hortensius",
-   "x": 461.3,
-   "y": -208.3
+   "x": 461.8,
+   "y": -208.9
   },
   {
    "i": 14,
    "n": "Isidore’s Man",
-   "x": 203.6,
-   "y": 257.6
+   "x": 205.5,
+   "y": 257.1
   },
   {
    "i": 15,
    "n": "Lucius’ Man",
-   "x": 416.6,
-   "y": -329.2
+   "x": 416.9,
+   "y": -329.6
   },
   {
    "i": 16,
    "n": "Page",
-   "x": 379.2,
-   "y": 276.2
+   "x": 380.2,
+   "y": 277.4
   },
   {
    "i": 17,
    "n": "Philotus",
-   "x": 587.2,
-   "y": -29.1
+   "x": 588.1,
+   "y": -28.1
   },
   {
    "i": 18,
    "n": "Flaminius",
-   "x": 374.1,
+   "x": 373.8,
    "y": 79.2
   },
   {
    "i": 19,
    "n": "Lucilius",
-   "x": -546.7,
-   "y": 84.7
+   "x": -547.7,
+   "y": 85.3
   },
   {
    "i": 20,
    "n": "Servilius",
-   "x": 300.5,
-   "y": -14.6
+   "x": 300.4,
+   "y": -14.7
   },
   {
    "i": 21,
    "n": "Titus",
-   "x": 590.5,
-   "y": -185.6
+   "x": 591.0,
+   "y": -185.4
   },
   {
    "i": 22,
    "n": "Timandra",
-   "x": -312.4,
-   "y": 325.8
+   "x": -313.1,
+   "y": 326.2
   },
   {
    "i": 23,
    "n": "Timon",
-   "x": -8.4,
-   "y": -22.8
+   "x": -8.5,
+   "y": -23.3
   }
  ],
  "edges": [
@@ -983,127 +983,127 @@
    "id": "shakespeare-timon-of-athens-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.541
+   "ease": 0.526
   },
   {
    "id": "shakespeare-timon-of-athens-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.586
+   "ease": 0.563
   },
   {
    "id": "shakespeare-timon-of-athens-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.327
+   "ease": 0.301
   },
   {
    "id": "shakespeare-timon-of-athens-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.592
+   "ease": 0.569
   },
   {
    "id": "shakespeare-timon-of-athens-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.411
+   "ease": 0.394
   },
   {
    "id": "shakespeare-timon-of-athens-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.419
+   "ease": 0.401
   },
   {
    "id": "shakespeare-timon-of-athens-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.437
+   "ease": 0.419
   },
   {
    "id": "shakespeare-timon-of-athens-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.455
+   "ease": 0.437
   },
   {
    "id": "shakespeare-timon-of-athens-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.594
+   "ease": 0.561
   },
   {
    "id": "shakespeare-timon-of-athens-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.612
+   "ease": 0.58
   },
   {
    "id": "shakespeare-timon-of-athens-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.484
+   "ease": 0.466
   },
   {
    "id": "shakespeare-timon-of-athens-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.371
+   "ease": 0.36
   },
   {
    "id": "shakespeare-timon-of-athens-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.502
+   "ease": 0.485
   },
   {
    "id": "shakespeare-timon-of-athens-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.389
+   "ease": 0.378
   },
   {
    "id": "shakespeare-timon-of-athens-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.52
+   "ease": 0.503
   },
   {
    "id": "shakespeare-timon-of-athens-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.407
+   "ease": 0.396
   },
   {
    "id": "shakespeare-timon-of-athens-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.527
+   "ease": 0.502
   },
   {
    "id": "shakespeare-timon-of-athens-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.568
+   "ease": 0.536
   },
   {
    "id": "shakespeare-timon-of-athens-p0020",
    "you": 20,
    "startRadius": 1,
-   "ease": 0.527
+   "ease": 0.512
   },
   {
    "id": "shakespeare-timon-of-athens-p0021",
    "you": 21,
    "startRadius": 1,
-   "ease": 0.425
+   "ease": 0.414
   },
   {
    "id": "shakespeare-timon-of-athens-p0023",
    "you": 23,
    "startRadius": 1,
-   "ease": 0.643
+   "ease": 0.614
   }
  ],
  "provenance": {

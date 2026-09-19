@@ -6,86 +6,86 @@
   {
    "i": 0,
    "n": "Curio",
-   "x": -315.6,
-   "y": -409.6
+   "x": -316.1,
+   "y": -407.8
   },
   {
    "i": 1,
    "n": "Valentine",
-   "x": -100.7,
+   "x": -104.7,
    "y": -600.0
   },
   {
    "i": 2,
    "n": "Sir Andrew Aguecheek",
-   "x": -11.2,
-   "y": 103.0
+   "x": -9.3,
+   "y": 131.1
   },
   {
    "i": 3,
    "n": "Antonio",
-   "x": 214.9,
-   "y": 188.0
+   "x": 198.7,
+   "y": 80.6
   },
   {
    "i": 4,
    "n": "Fabian",
-   "x": 109.5,
-   "y": 84.0
+   "x": 66.6,
+   "y": 39.3
   },
   {
    "i": 5,
    "n": "Fool",
-   "x": -140.3,
-   "y": 17.8
+   "x": -134.6,
+   "y": 22.9
   },
   {
    "i": 6,
    "n": "Malvolio",
-   "x": -128.6,
-   "y": 155.2
+   "x": -127.0,
+   "y": 154.3
   },
   {
    "i": 7,
    "n": "Maria",
-   "x": -141.4,
-   "y": 317.5
+   "x": -147.6,
+   "y": 302.9
   },
   {
    "i": 8,
    "n": "Olivia",
-   "x": 94.8,
-   "y": 226.0
+   "x": 114.6,
+   "y": 203.4
   },
   {
    "i": 9,
    "n": "Orsino",
-   "x": -11.6,
-   "y": -211.2
+   "x": -4.1,
+   "y": -210.9
   },
   {
    "i": 10,
    "n": "Priest",
-   "x": 305.9,
-   "y": 19.6
+   "x": 297.8,
+   "y": 171.4
   },
   {
    "i": 11,
    "n": "Sebastian",
-   "x": 177.2,
-   "y": -55.8
+   "x": 211.0,
+   "y": -62.4
   },
   {
    "i": 12,
    "n": "Sir Toby Belch",
-   "x": -13.3,
-   "y": 228.8
+   "x": 6.0,
+   "y": 243.8
   },
   {
    "i": 13,
    "n": "Viola Cesario",
-   "x": -39.6,
-   "y": -63.3
+   "x": -51.4,
+   "y": -68.6
   }
  ],
  "edges": [
@@ -592,73 +592,73 @@
    "id": "shakespeare-twelfth-night-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.703
+   "ease": 0.692
   },
   {
    "id": "shakespeare-twelfth-night-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.428
+   "ease": 0.42
   },
   {
    "id": "shakespeare-twelfth-night-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.461
+   "ease": 0.453
   },
   {
    "id": "shakespeare-twelfth-night-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.582
+   "ease": 0.575
   },
   {
    "id": "shakespeare-twelfth-night-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.625
+   "ease": 0.618
   },
   {
    "id": "shakespeare-twelfth-night-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.535
+   "ease": 0.514
   },
   {
    "id": "shakespeare-twelfth-night-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.526
+   "ease": 0.519
   },
   {
    "id": "shakespeare-twelfth-night-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.34
+   "ease": 0.332
   },
   {
    "id": "shakespeare-twelfth-night-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.331
+   "ease": 0.324
   },
   {
    "id": "shakespeare-twelfth-night-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.396
+   "ease": 0.389
   },
   {
    "id": "shakespeare-twelfth-night-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.736
+   "ease": 0.725
   },
   {
    "id": "shakespeare-twelfth-night-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.554
+   "ease": 0.546
   }
  ],
  "provenance": {

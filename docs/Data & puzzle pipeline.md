@@ -305,13 +305,17 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | Star Wars (Gabasova) | Per-episode scene-speech JSON | Shipped | CC BY 3.0. Episodes I–VII as segments. |
 | Shakespeare (DraCor / Folger) | 37 plays, scene co-presence | Shipped | CC BY-NC 3.0. Merged; unnamed crowds dropped. |
 | Bible | Verse co-occurrence from the KJV | Shipped | Built here. Ready-made graphs are BY-SA or mix people with places. |
-| 紅樓夢 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24264 + Wikidata. |
+| 紅樓夢 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24264 + Wikidata. PKU matrix has no licence; see `pipeline/raw/hongloumeng/SOURCE.md`. |
 | The Iliad | Chapter encounters (Knuth GraphBase) | Shipped | Public domain `homer.dat`. |
 | The Odyssey | Sentence co-occurrence from Butcher & Lang | Shipped | Gutenberg #1728 + Wikidata. |
 | Les Misérables | Chapter encounters (Knuth GraphBase) | Shipped | Public domain `jean.dat`. |
 | 三國演義 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #23950 + Wikidata. |
 | 西遊記 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #23962 + Wikidata. PKU matrix has no licence. |
 | 水滸傳 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #23863 (70-chapter recension) + Wikidata. |
+| 史記 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24226 + Wikidata humans described by the work (P1343). See `pipeline/raw/shiji/SOURCE.md`. |
+| U.S. Congress | Cosponsorship projected graph | Shipped | Fowler via Benson et al., CC BY 4.0. Segments are Congresses. See `pipeline/raw/congress/SOURCE.md`. |
+| Friends | Scene co-occurrence edge lists | Shipped | Michelle Edwards, CC BY 4.0. Ten seasons. See `pipeline/raw/friends/SOURCE.md`. |
+| 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
 
 ### Licensing

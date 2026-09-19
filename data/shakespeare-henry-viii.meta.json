@@ -30,7 +30,7 @@
    },
    "line": "Queen Consort of England.",
    "signals": {
-    "lookAlikes": 50
+    "lookAlikes": 66
    }
   },
   "2": {
@@ -47,7 +47,7 @@
    },
    "line": "Roman Catholic Bishop of Lincoln (England).",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 26
    }
   },
   "3": {
@@ -89,7 +89,7 @@
    },
    "line": "Physician.",
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "6": {
@@ -106,7 +106,7 @@
    },
    "line": "Cardinal.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 41
    }
   },
   "7": {
@@ -135,7 +135,7 @@
    },
    "line": "Ambassador.",
    "signals": {
-    "lookAlikes": 134
+    "lookAlikes": 209
    }
   },
   "9": {
@@ -152,7 +152,7 @@
    },
    "line": "Lord Chancellor.",
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "10": {
@@ -169,7 +169,7 @@
    },
    "line": "Roman Catholic Archbishop of Canterbury.",
    "signals": {
-    "lookAlikes": 188
+    "lookAlikes": 249
    }
   },
   "11": {
@@ -182,7 +182,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 26
    }
   },
   "12": {
@@ -197,7 +197,7 @@
    },
    "line": "Servant.",
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "13": {
@@ -214,7 +214,7 @@
    },
    "line": "Member of Parliament in the Parliament of England.",
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 51
    }
   },
   "14": {
@@ -261,7 +261,7 @@
    },
    "line": "Ambassador of the Kingdom of England to the Kingdom of Spain.",
    "signals": {
-    "lookAlikes": 188
+    "lookAlikes": 249
    }
   },
   "18": {
@@ -298,7 +298,7 @@
    },
    "line": "Member of Parliament in the Parliament of England.",
    "signals": {
-    "lookAlikes": 67
+    "lookAlikes": 110
    }
   },
   "21": {
@@ -315,7 +315,7 @@
    },
    "line": "King of Ireland.",
    "signals": {
-    "lookAlikes": 73
+    "lookAlikes": 128
    }
   },
   "22": {
@@ -332,7 +332,7 @@
    },
    "line": "Ambassador of the Kingdom of Spain to the Kingdom of England.",
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 41
    }
   },
   "23": {
@@ -345,7 +345,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "24": {
@@ -372,7 +372,7 @@
    },
    "line": "Member of the 1495 Parliament.",
    "signals": {
-    "lookAlikes": 188
+    "lookAlikes": 249
    }
   },
   "26": {
@@ -389,7 +389,7 @@
    },
    "line": "Member of the Privy Council of the United Kingdom.",
    "signals": {
-    "lookAlikes": 134
+    "lookAlikes": 209
    }
   },
   "27": {
@@ -402,7 +402,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 42
+    "lookAlikes": 79
    }
   },
   "28": {
@@ -415,7 +415,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 51
    }
   },
   "29": {
@@ -432,7 +432,7 @@
    },
    "line": "Lord Chamberlain.",
    "signals": {
-    "lookAlikes": 67
+    "lookAlikes": 110
    }
   },
   "30": {
@@ -445,7 +445,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 26
    }
   },
   "31": {
@@ -472,7 +472,7 @@
    },
    "line": "Lord Lieutenant of Buckinghamshire.",
    "signals": {
-    "lookAlikes": 188
+    "lookAlikes": 249
    }
   },
   "33": {
@@ -489,7 +489,7 @@
    },
    "line": "Member of the House of Lords.",
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "34": {
@@ -502,7 +502,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 21
+    "lookAlikes": 26
    }
   },
   "35": {
@@ -533,7 +533,7 @@
    },
    "line": "Lord Chancellor.",
    "signals": {
-    "lookAlikes": 134
+    "lookAlikes": 209
    }
   }
  },

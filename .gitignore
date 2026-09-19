@@ -21,3 +21,6 @@ pipeline/raw/**
 
 # Regenerated suggestion dump — the curated table is aliases/*.yaml
 pipeline/aliases/*.suggested.yaml
+
+# worktree
+.worktrees/

@@ -32,7 +32,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 20
    }
   },
   "3": {
@@ -45,7 +45,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 45
    }
   },
   "4": {
@@ -58,7 +58,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 45
    }
   },
   "5": {
@@ -71,7 +71,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 45
    }
   },
   "6": {
@@ -86,7 +86,7 @@
    },
    "line": "Steward.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 45
    }
   },
   "7": {
@@ -99,7 +99,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 50
    }
   },
   "8": {
@@ -112,7 +112,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 45
    }
   },
   "9": {
@@ -127,7 +127,7 @@
    },
    "line": "Duke.",
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 45
    }
   },
   "10": {
@@ -140,7 +140,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 45
    }
   },
   "11": {
@@ -153,7 +153,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 45
    }
   },
   "12": {
@@ -166,7 +166,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 16
+    "lookAlikes": 20
    }
   },
   "13": {
@@ -179,7 +179,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 29
+    "lookAlikes": 34
    }
   }
  },

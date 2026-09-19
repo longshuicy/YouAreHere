@@ -1,0 +1,20 @@
+# Hand-maintained identity table for Friends.
+#
+# Most recurring characters resolve by unique given name against the Wikidata
+# cast of the series (Q79784). Pins cover honorifics and ambiguous first names
+# that the automatic match skips.
+
+friends:
+
+  "mrs. geller":
+    wikidata: Q20430032
+
+  "mr. geller":
+    wikidata: Q12731272
+
+  "mr. bing":
+    wikidata: Q50760334
+
+  frank:
+    # Frank Buffay Jr. — the recurring brother; Sr. shares the given name.
+    wikidata: Q3082521

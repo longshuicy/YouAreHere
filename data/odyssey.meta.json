@@ -1,0 +1,2266 @@
+{
+ "id": "odyssey",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Book 17"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "occupation": "aoidos"
+   },
+   "line": "Aoidos. Appears in Book 17."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Book 8"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in Book 8."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Book 17",
+     "Book 21",
+     "Book 22"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in three books.",
+   "signals": {
+    "lookAlikes": 51
+   }
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 20",
+     "Book 21",
+     "Book 22"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "occupation": "swineherd"
+   },
+   "line": "Swineherd. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 79
+   }
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Book 6",
+     "Book 8"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Female"
+   },
+   "line": "Appears in Book 6 and Book 8."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 15",
+     "Book 22",
+     "Book 23"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Female"
+   },
+   "line": "Appears in four books.",
+   "signals": {
+    "lookAlikes": 66
+   }
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 4",
+     "Book 11",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 21",
+     "Book 22",
+     "Book 23",
+     "Book 24"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Female"
+   },
+   "line": "Appears in 13 books.",
+   "signals": {
+    "lookAlikes": 244
+   }
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 3",
+     "Book 4",
+     "Book 8",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 17",
+     "Book 24"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "titles": [
+     "mythological king of Sparta"
+    ]
+   },
+   "line": "King of Sparta. Appears in 9 books.",
+   "signals": {
+    "lookAlikes": 79
+   }
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Book 3",
+     "Book 4",
+     "Book 15"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in three books."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Book 18",
+     "Book 19"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Female"
+   },
+   "line": "Appears in Book 18 and Book 19."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Book 8",
+     "Book 9",
+     "Book 10",
+     "Book 11",
+     "Book 12",
+     "Book 23"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Female",
+    "species": "Greek deity"
+   },
+   "line": "Greek deity. Appears in six books.",
+   "signals": {
+    "lookAlikes": 10
+   }
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 3",
+     "Book 4",
+     "Book 5",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 23",
+     "Book 24"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in 17 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 3",
+     "Book 4",
+     "Book 15"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "titles": [
+     "king of Pylos"
+    ]
+   },
+   "line": "King of Pylos. Appears in four books.",
+   "signals": {
+    "lookAlikes": 110
+   }
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 9"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "species": "cyclops"
+   },
+   "line": "Cyclops. Appears in Book 1 and Book 9."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Book 2",
+     "Book 3",
+     "Book 17",
+     "Book 22",
+     "Book 24"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in five books."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 8"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in Book 1 and Book 8."
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Book 16",
+     "Book 18",
+     "Book 20",
+     "Book 22"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "homeworld": "Dulichium"
+   },
+   "line": "Of Dulichium. Appears in four books.",
+   "signals": {
+    "lookAlikes": 43
+   }
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 4",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 21",
+     "Book 22"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in 8 books.",
+   "signals": {
+    "lookAlikes": 26
+   }
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 3",
+     "Book 4",
+     "Book 5",
+     "Book 6",
+     "Book 7",
+     "Book 8",
+     "Book 9",
+     "Book 10",
+     "Book 11",
+     "Book 12",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 23",
+     "Book 24"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "species": "thunder deity"
+   },
+   "line": "Thunder deity. Appears in all 24 books.",
+   "signals": {
+    "lookAlikes": 209
+   }
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 3",
+     "Book 4",
+     "Book 5",
+     "Book 6",
+     "Book 7",
+     "Book 8",
+     "Book 11",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 24"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Female",
+    "species": "goddess",
+    "homeworld": "Olympus"
+   },
+   "line": "Goddess, of Olympus. Appears in 20 books.",
+   "signals": {
+    "lookAlikes": 249
+   }
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 3",
+     "Book 5",
+     "Book 7",
+     "Book 8",
+     "Book 9",
+     "Book 11"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "species": "water deity"
+   },
+   "line": "Water deity. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 79
+   }
+  },
+  "21": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 5",
+     "Book 8",
+     "Book 10",
+     "Book 11",
+     "Book 12",
+     "Book 15"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "occupation": "courier",
+    "species": "Olympian god"
+   },
+   "line": "Courier, Olympian god. Appears in seven books.",
+   "signals": {
+    "lookAlikes": 129
+   }
+  },
+  "22": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 3",
+     "Book 4",
+     "Book 5",
+     "Book 6",
+     "Book 7",
+     "Book 8",
+     "Book 9",
+     "Book 10",
+     "Book 11",
+     "Book 12",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 23",
+     "Book 24"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in all 24 books.",
+   "signals": {
+    "lookAlikes": 128
+   }
+  },
+  "23": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "occupation": "beggar"
+   },
+   "line": "Beggar. Appears in Book 18.",
+   "signals": {
+    "lookAlikes": 110
+   }
+  },
+  "24": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 4",
+     "Book 5",
+     "Book 9",
+     "Book 12",
+     "Book 17"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Female",
+    "species": "Greek nymph"
+   },
+   "line": "Greek nymph. Appears in six books.",
+   "signals": {
+    "lookAlikes": 79
+   }
+  },
+  "25": {
+   "facts": {
+    "books": [
+     "Book 6",
+     "Book 7",
+     "Book 8",
+     "Book 9",
+     "Book 11",
+     "Book 13"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in six books.",
+   "signals": {
+    "lookAlikes": 110
+   }
+  },
+  "26": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 4",
+     "Book 17",
+     "Book 18",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 24"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in 9 books.",
+   "signals": {
+    "lookAlikes": 129
+   }
+  },
+  "27": {
+   "facts": {
+    "books": [
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 23"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Female",
+    "occupation": "housekeeper"
+   },
+   "line": "Housekeeper. Appears in four books."
+  },
+  "28": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 4",
+     "Book 17",
+     "Book 19",
+     "Book 21",
+     "Book 22",
+     "Book 23"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Female",
+    "occupation": "wet nurse"
+   },
+   "line": "Wet nurse. Appears in seven books."
+  },
+  "29": {
+   "facts": {
+    "books": [
+     "Book 10",
+     "Book 11",
+     "Book 12",
+     "Book 23"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "occupation": "seer"
+   },
+   "line": "Seer. Appears in four books."
+  },
+  "30": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 5",
+     "Book 8",
+     "Book 9",
+     "Book 10",
+     "Book 11",
+     "Book 12",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 23",
+     "Book 24"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male"
+   },
+   "line": "Appears in 19 books.",
+   "signals": {
+    "lookAlikes": 244
+   }
+  },
+  "31": {
+   "facts": {
+    "books": [
+     "Book 10",
+     "Book 12"
+    ],
+    "unit": "book",
+    "corpusSize": 24,
+    "gender": "Male",
+    "affiliations": [
+     "Samos"
+    ]
+   },
+   "line": "Of the Samos. Appears in Book 10 and Book 12."
+  }
+ },
+ "edges": {
+  "0-3": {
+   "facts": {
+    "books": [
+     "Book 17"
+    ],
+    "first": "Book 17",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 17."
+  },
+  "0-22": {
+   "facts": {
+    "books": [
+     "Book 17"
+    ],
+    "first": "Book 17",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 17."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "Book 8"
+    ],
+    "first": "Book 8",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 8."
+  },
+  "1-22": {
+   "facts": {
+    "books": [
+     "Book 8"
+    ],
+    "first": "Book 8",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 8."
+  },
+  "1-25": {
+   "facts": {
+    "books": [
+     "Book 8"
+    ],
+    "first": "Book 8",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 8."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "Book 22"
+    ],
+    "first": "Book 22",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 22."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "Book 22"
+    ],
+    "first": "Book 22",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 22."
+  },
+  "2-17": {
+   "facts": {
+    "books": [
+     "Book 17"
+    ],
+    "first": "Book 17",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 17."
+  },
+  "2-22": {
+   "facts": {
+    "books": [
+     "Book 22"
+    ],
+    "first": "Book 22",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 22."
+  },
+  "2-26": {
+   "facts": {
+    "books": [
+     "Book 21"
+    ],
+    "first": "Book 21",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 21."
+  },
+  "2-30": {
+   "facts": {
+    "books": [
+     "Book 22"
+    ],
+    "first": "Book 22",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 22."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "Book 17"
+    ],
+    "first": "Book 17",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 17."
+  },
+  "3-11": {
+   "facts": {
+    "books": [
+     "Book 15",
+     "Book 16"
+    ],
+    "first": "Book 15",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 15."
+  },
+  "3-18": {
+   "facts": {
+    "books": [
+     "Book 14",
+     "Book 15"
+    ],
+    "first": "Book 14",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 14."
+  },
+  "3-19": {
+   "facts": {
+    "books": [
+     "Book 16"
+    ],
+    "first": "Book 16",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 16."
+  },
+  "3-21": {
+   "facts": {
+    "books": [
+     "Book 15"
+    ],
+    "first": "Book 15",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 15."
+  },
+  "3-22": {
+   "facts": {
+    "books": [
+     "Book 14",
+     "Book 15",
+     "Book 17",
+     "Book 20",
+     "Book 21"
+    ],
+    "first": "Book 14",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in five books, first in Book 14."
+  },
+  "3-26": {
+   "facts": {
+    "books": [
+     "Book 17"
+    ],
+    "first": "Book 17",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 17."
+  },
+  "4-18": {
+   "facts": {
+    "books": [
+     "Book 6",
+     "Book 8"
+    ],
+    "first": "Book 6",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 6."
+  },
+  "4-19": {
+   "facts": {
+    "books": [
+     "Book 6"
+    ],
+    "first": "Book 6",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 6."
+  },
+  "4-22": {
+   "facts": {
+    "books": [
+     "Book 6",
+     "Book 8"
+    ],
+    "first": "Book 6",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 6."
+  },
+  "4-25": {
+   "facts": {
+    "books": [
+     "Book 6",
+     "Book 8"
+    ],
+    "first": "Book 6",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 6."
+  },
+  "5-7": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 15"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 4."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "Book 4"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 4."
+  },
+  "5-12": {
+   "facts": {
+    "books": [
+     "Book 4"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 4."
+  },
+  "5-18": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 23"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 4."
+  },
+  "5-19": {
+   "facts": {
+    "books": [
+     "Book 22"
+    ],
+    "first": "Book 22",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 22."
+  },
+  "5-22": {
+   "facts": {
+    "books": [
+     "Book 22"
+    ],
+    "first": "Book 22",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 22."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 18."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 14",
+     "Book 16",
+     "Book 17",
+     "Book 19",
+     "Book 21",
+     "Book 23"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in seven books, first in Book 4."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "Book 16"
+    ],
+    "first": "Book 16",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 16."
+  },
+  "6-17": {
+   "facts": {
+    "books": [
+     "Book 16",
+     "Book 18",
+     "Book 21"
+    ],
+    "first": "Book 16",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 16."
+  },
+  "6-19": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 18",
+     "Book 19",
+     "Book 21"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in four books, first in Book 1."
+  },
+  "6-22": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 11",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 21",
+     "Book 22",
+     "Book 23",
+     "Book 24"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in 12 books, first in Book 4."
+  },
+  "6-26": {
+   "facts": {
+    "books": [
+     "Book 17",
+     "Book 18",
+     "Book 21"
+    ],
+    "first": "Book 17",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 17."
+  },
+  "6-27": {
+   "facts": {
+    "books": [
+     "Book 17",
+     "Book 18",
+     "Book 19"
+    ],
+    "first": "Book 17",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 17."
+  },
+  "6-28": {
+   "facts": {
+    "books": [
+     "Book 22",
+     "Book 23"
+    ],
+    "first": "Book 22",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 22."
+  },
+  "6-30": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 14",
+     "Book 16",
+     "Book 19",
+     "Book 23",
+     "Book 24"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in six books, first in Book 4."
+  },
+  "7-8": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 15"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 4."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 13",
+     "Book 15",
+     "Book 17"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in four books, first in Book 4."
+  },
+  "7-12": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 3",
+     "Book 4",
+     "Book 15"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in four books, first in Book 1."
+  },
+  "7-18": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 15"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 4."
+  },
+  "7-19": {
+   "facts": {
+    "books": [
+     "Book 3",
+     "Book 4"
+    ],
+    "first": "Book 3",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 3."
+  },
+  "7-22": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 8",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 17",
+     "Book 24"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in seven books, first in Book 4."
+  },
+  "7-24": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 17"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 4."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "Book 3",
+     "Book 15"
+    ],
+    "first": "Book 3",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 3."
+  },
+  "8-12": {
+   "facts": {
+    "books": [
+     "Book 3",
+     "Book 4",
+     "Book 15"
+    ],
+    "first": "Book 3",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 3."
+  },
+  "8-18": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 15"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 4."
+  },
+  "8-22": {
+   "facts": {
+    "books": [
+     "Book 3",
+     "Book 4"
+    ],
+    "first": "Book 3",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 3."
+  },
+  "9-22": {
+   "facts": {
+    "books": [
+     "Book 19"
+    ],
+    "first": "Book 19",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 19."
+  },
+  "10-18": {
+   "facts": {
+    "books": [
+     "Book 10"
+    ],
+    "first": "Book 10",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 10."
+  },
+  "10-21": {
+   "facts": {
+    "books": [
+     "Book 10"
+    ],
+    "first": "Book 10",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 10."
+  },
+  "10-22": {
+   "facts": {
+    "books": [
+     "Book 8",
+     "Book 10"
+    ],
+    "first": "Book 8",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 8."
+  },
+  "10-24": {
+   "facts": {
+    "books": [
+     "Book 9"
+    ],
+    "first": "Book 9",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 9."
+  },
+  "10-29": {
+   "facts": {
+    "books": [
+     "Book 10",
+     "Book 12",
+     "Book 23"
+    ],
+    "first": "Book 10",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 10."
+  },
+  "10-31": {
+   "facts": {
+    "books": [
+     "Book 10"
+    ],
+    "first": "Book 10",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 10."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "Book 3",
+     "Book 4",
+     "Book 15"
+    ],
+    "first": "Book 3",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 3."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "Book 2",
+     "Book 3"
+    ],
+    "first": "Book 2",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 2."
+  },
+  "11-15": {
+   "facts": {
+    "books": [
+     "Book 1"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 1."
+  },
+  "11-16": {
+   "facts": {
+    "books": [
+     "Book 20",
+     "Book 22"
+    ],
+    "first": "Book 20",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 20."
+  },
+  "11-17": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 16"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 1."
+  },
+  "11-18": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 3",
+     "Book 4",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 20",
+     "Book 22",
+     "Book 24"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in 10 books, first in Book 1."
+  },
+  "11-19": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 3",
+     "Book 4",
+     "Book 15",
+     "Book 16",
+     "Book 18",
+     "Book 19",
+     "Book 20"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in 9 books, first in Book 1."
+  },
+  "11-20": {
+   "facts": {
+    "books": [
+     "Book 1"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 1."
+  },
+  "11-21": {
+   "facts": {
+    "books": [
+     "Book 5"
+    ],
+    "first": "Book 5",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 5."
+  },
+  "11-22": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 3",
+     "Book 4",
+     "Book 5",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 23",
+     "Book 24"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in 17 books, first in Book 1."
+  },
+  "11-23": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 18."
+  },
+  "11-24": {
+   "facts": {
+    "books": [
+     "Book 4"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 4."
+  },
+  "11-26": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 2",
+     "Book 4",
+     "Book 17",
+     "Book 20",
+     "Book 21"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in six books, first in Book 1."
+  },
+  "11-28": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 19",
+     "Book 21",
+     "Book 22",
+     "Book 23"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in five books, first in Book 1."
+  },
+  "11-30": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 14",
+     "Book 22",
+     "Book 24"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in four books, first in Book 4."
+  },
+  "12-18": {
+   "facts": {
+    "books": [
+     "Book 3",
+     "Book 4",
+     "Book 15"
+    ],
+    "first": "Book 3",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 3."
+  },
+  "12-19": {
+   "facts": {
+    "books": [
+     "Book 3"
+    ],
+    "first": "Book 3",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 3."
+  },
+  "12-22": {
+   "facts": {
+    "books": [
+     "Book 3",
+     "Book 4"
+    ],
+    "first": "Book 3",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 3."
+  },
+  "13-18": {
+   "facts": {
+    "books": [
+     "Book 9"
+    ],
+    "first": "Book 9",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 9."
+  },
+  "13-20": {
+   "facts": {
+    "books": [
+     "Book 1"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 1."
+  },
+  "13-22": {
+   "facts": {
+    "books": [
+     "Book 9"
+    ],
+    "first": "Book 9",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 9."
+  },
+  "14-18": {
+   "facts": {
+    "books": [
+     "Book 22",
+     "Book 24"
+    ],
+    "first": "Book 22",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 22."
+  },
+  "14-19": {
+   "facts": {
+    "books": [
+     "Book 2",
+     "Book 22",
+     "Book 24"
+    ],
+    "first": "Book 2",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 2."
+  },
+  "14-22": {
+   "facts": {
+    "books": [
+     "Book 2",
+     "Book 22",
+     "Book 24"
+    ],
+    "first": "Book 2",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 2."
+  },
+  "16-17": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 18."
+  },
+  "16-22": {
+   "facts": {
+    "books": [
+     "Book 18",
+     "Book 22"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 18."
+  },
+  "16-23": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 18."
+  },
+  "16-26": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 18."
+  },
+  "17-22": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 18",
+     "Book 22"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 1."
+  },
+  "17-23": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 18."
+  },
+  "17-26": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 18",
+     "Book 21"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 4."
+  },
+  "18-19": {
+   "facts": {
+    "books": [
+     "Book 2",
+     "Book 3",
+     "Book 4",
+     "Book 5",
+     "Book 6",
+     "Book 7",
+     "Book 13",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 22",
+     "Book 24"
+    ],
+    "first": "Book 2",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in 12 books, first in Book 2."
+  },
+  "18-20": {
+   "facts": {
+    "books": [
+     "Book 3",
+     "Book 11"
+    ],
+    "first": "Book 3",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 3."
+  },
+  "18-21": {
+   "facts": {
+    "books": [
+     "Book 8"
+    ],
+    "first": "Book 8",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 8."
+  },
+  "18-22": {
+   "facts": {
+    "books": [
+     "Book 2",
+     "Book 4",
+     "Book 5",
+     "Book 7",
+     "Book 8",
+     "Book 10",
+     "Book 11",
+     "Book 12",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 19",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 23",
+     "Book 24"
+    ],
+    "first": "Book 2",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in 19 books, first in Book 2."
+  },
+  "18-23": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 18."
+  },
+  "18-24": {
+   "facts": {
+    "books": [
+     "Book 5"
+    ],
+    "first": "Book 5",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 5."
+  },
+  "18-25": {
+   "facts": {
+    "books": [
+     "Book 7",
+     "Book 8",
+     "Book 13"
+    ],
+    "first": "Book 7",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 7."
+  },
+  "18-26": {
+   "facts": {
+    "books": [
+     "Book 20"
+    ],
+    "first": "Book 20",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 20."
+  },
+  "18-29": {
+   "facts": {
+    "books": [
+     "Book 10",
+     "Book 11"
+    ],
+    "first": "Book 10",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 10."
+  },
+  "18-30": {
+   "facts": {
+    "books": [
+     "Book 5",
+     "Book 10",
+     "Book 11",
+     "Book 12",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 22",
+     "Book 24"
+    ],
+    "first": "Book 5",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in 10 books, first in Book 5."
+  },
+  "19-20": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 3"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 1."
+  },
+  "19-21": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 11"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 1."
+  },
+  "19-22": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 3",
+     "Book 4",
+     "Book 5",
+     "Book 6",
+     "Book 7",
+     "Book 8",
+     "Book 13",
+     "Book 14",
+     "Book 15",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 24"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in 18 books, first in Book 1."
+  },
+  "19-23": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 18."
+  },
+  "19-25": {
+   "facts": {
+    "books": [
+     "Book 6",
+     "Book 7",
+     "Book 8"
+    ],
+    "first": "Book 6",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 6."
+  },
+  "19-30": {
+   "facts": {
+    "books": [
+     "Book 8",
+     "Book 13",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 20",
+     "Book 24"
+    ],
+    "first": "Book 8",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in seven books, first in Book 8."
+  },
+  "20-21": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 5",
+     "Book 8"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 1."
+  },
+  "20-22": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 5",
+     "Book 9",
+     "Book 11"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in four books, first in Book 1."
+  },
+  "20-24": {
+   "facts": {
+    "books": [
+     "Book 5"
+    ],
+    "first": "Book 5",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 5."
+  },
+  "20-25": {
+   "facts": {
+    "books": [
+     "Book 7"
+    ],
+    "first": "Book 7",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 7."
+  },
+  "20-30": {
+   "facts": {
+    "books": [
+     "Book 9",
+     "Book 11"
+    ],
+    "first": "Book 9",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 9."
+  },
+  "21-22": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 5"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 1."
+  },
+  "21-24": {
+   "facts": {
+    "books": [
+     "Book 5",
+     "Book 12"
+    ],
+    "first": "Book 5",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 5."
+  },
+  "22-23": {
+   "facts": {
+    "books": [
+     "Book 18"
+    ],
+    "first": "Book 18",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 18."
+  },
+  "22-24": {
+   "facts": {
+    "books": [
+     "Book 1",
+     "Book 4",
+     "Book 5",
+     "Book 17"
+    ],
+    "first": "Book 1",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in four books, first in Book 1."
+  },
+  "22-25": {
+   "facts": {
+    "books": [
+     "Book 6",
+     "Book 7",
+     "Book 8",
+     "Book 9",
+     "Book 11",
+     "Book 13"
+    ],
+    "first": "Book 6",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in six books, first in Book 6."
+  },
+  "22-26": {
+   "facts": {
+    "books": [
+     "Book 17",
+     "Book 22",
+     "Book 24"
+    ],
+    "first": "Book 17",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in three books, first in Book 17."
+  },
+  "22-27": {
+   "facts": {
+    "books": [
+     "Book 19",
+     "Book 23"
+    ],
+    "first": "Book 19",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 19."
+  },
+  "22-28": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 17",
+     "Book 22",
+     "Book 23"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in four books, first in Book 4."
+  },
+  "22-29": {
+   "facts": {
+    "books": [
+     "Book 10",
+     "Book 11"
+    ],
+    "first": "Book 10",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 10."
+  },
+  "22-30": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 5",
+     "Book 8",
+     "Book 9",
+     "Book 10",
+     "Book 11",
+     "Book 12",
+     "Book 13",
+     "Book 14",
+     "Book 16",
+     "Book 17",
+     "Book 18",
+     "Book 19",
+     "Book 20",
+     "Book 21",
+     "Book 22",
+     "Book 23",
+     "Book 24"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in 18 books, first in Book 4."
+  },
+  "22-31": {
+   "facts": {
+    "books": [
+     "Book 12"
+    ],
+    "first": "Book 12",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 12."
+  },
+  "24-30": {
+   "facts": {
+    "books": [
+     "Book 4",
+     "Book 5"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 4."
+  },
+  "25-30": {
+   "facts": {
+    "books": [
+     "Book 8"
+    ],
+    "first": "Book 8",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 8."
+  },
+  "26-27": {
+   "facts": {
+    "books": [
+     "Book 17"
+    ],
+    "first": "Book 17",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 17."
+  },
+  "28-30": {
+   "facts": {
+    "books": [
+     "Book 4"
+    ],
+    "first": "Book 4",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page only in Book 4."
+  },
+  "29-30": {
+   "facts": {
+    "books": [
+     "Book 10",
+     "Book 11"
+    ],
+    "first": "Book 10",
+    "unit": "book",
+    "corpusSize": 24
+   },
+   "line": "They share the page in two books, first in Book 10."
+  }
+ },
+ "sources": [
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
+    "Filtered class and meta labels that are not standing facts a player can use.",
+    "Composed original one-line descriptions from those attributes."
+   ]
+  }
+ ]
+}

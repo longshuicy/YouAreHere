@@ -6,110 +6,110 @@
   {
    "i": 0,
    "n": "Baptista Minola",
-   "x": 129.9,
-   "y": -383.6
+   "x": 122.1,
+   "y": -384.7
   },
   {
    "i": 1,
    "n": "Bianca",
-   "x": 3.1,
-   "y": -374.7
+   "x": -1.9,
+   "y": -372.2
   },
   {
    "i": 2,
    "n": "Biondello",
-   "x": 166.0,
-   "y": -173.9
+   "x": 164.2,
+   "y": -174.0
   },
   {
    "i": 3,
    "n": "Curtis",
-   "x": -67.5,
-   "y": 398.3
+   "x": -64.8,
+   "y": 397.3
   },
   {
    "i": 4,
    "n": "Gremio",
-   "x": -94.9,
-   "y": -311.6
+   "x": -99.0,
+   "y": -310.2
   },
   {
    "i": 5,
    "n": "Grumio",
-   "x": -69.2,
-   "y": 94.2
+   "x": -67.7,
+   "y": 94.1
   },
   {
    "i": 6,
    "n": "Hortensio",
-   "x": -119.6,
-   "y": -210.7
+   "x": -116.7,
+   "y": -207.9
   },
   {
    "i": 7,
    "n": "Katherine",
-   "x": -24.5,
-   "y": -33.1
+   "x": -24.4,
+   "y": -33.6
   },
   {
    "i": 8,
    "n": "Lucentio",
-   "x": 129.5,
-   "y": -274.7
+   "x": 133.2,
+   "y": -276.5
   },
   {
    "i": 9,
    "n": "Petruchio",
-   "x": 72.6,
-   "y": 17.6
+   "x": 72.1,
+   "y": 17.8
   },
   {
    "i": 10,
    "n": "Joseph",
-   "x": 85.5,
-   "y": 539.1
+   "x": 86.8,
+   "y": 538.4
   },
   {
    "i": 11,
    "n": "Nathaniel",
-   "x": -86.3,
-   "y": 572.6
+   "x": -84.9,
+   "y": 571.2
   },
   {
    "i": 12,
    "n": "Nicholas",
-   "x": 164.1,
-   "y": 407.2
+   "x": 166.0,
+   "y": 407.0
   },
   {
    "i": 13,
    "n": "Peter",
-   "x": -290.2,
-   "y": 341.5
+   "x": -287.6,
+   "y": 342.2
   },
   {
    "i": 14,
    "n": "Phillip",
-   "x": -244.7,
-   "y": 491.2
+   "x": -243.3,
+   "y": 491.8
   },
   {
    "i": 15,
    "n": "Christopher Sly",
-   "x": -68.2,
+   "x": -69.1,
    "y": -600.0
   },
   {
    "i": 16,
    "n": "Tranio",
-   "x": 17.4,
-   "y": -219.6
+   "x": 19.8,
+   "y": -219.5
   },
   {
    "i": 17,
    "n": "Vincentio",
-   "x": 297.0,
-   "y": -279.8
+   "x": 295.1,
+   "y": -281.3
   }
  ],
  "edges": [
@@ -804,19 +804,19 @@
    "id": "shakespeare-the-taming-of-the-shrew-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.471
+   "ease": 0.447
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.496
+   "ease": 0.472
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.546
+   "ease": 0.522
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0003",
@@ -828,37 +828,37 @@
    "id": "shakespeare-the-taming-of-the-shrew-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.521
+   "ease": 0.497
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.366
+   "ease": 0.351
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.446
+   "ease": 0.422
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.765
+   "ease": 0.747
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.571
+   "ease": 0.547
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.64
+   "ease": 0.631
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0010",
@@ -894,19 +894,19 @@
    "id": "shakespeare-the-taming-of-the-shrew-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.461
+   "ease": 0.44
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.693
+   "ease": 0.685
   },
   {
    "id": "shakespeare-the-taming-of-the-shrew-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.438
+   "ease": 0.421
   }
  ],
  "provenance": {

@@ -1,0 +1,1307 @@
+{
+ "id": "odyssey",
+ "title": "The Odyssey",
+ "accent": "#2F5F6F",
+ "nodes": [
+  {
+   "i": 0,
+   "n": "Phemius",
+   "x": -405.2,
+   "y": 245.7
+  },
+  {
+   "i": 1,
+   "n": "Euryalus",
+   "x": -463.4,
+   "y": 89.6
+  },
+  {
+   "i": 2,
+   "n": "Melanthius",
+   "x": -215.6,
+   "y": -209.0
+  },
+  {
+   "i": 3,
+   "n": "Eumaeus",
+   "x": -146.9,
+   "y": -12.5,
+   "a": [
+    "Eumaios"
+   ]
+  },
+  {
+   "i": 4,
+   "n": "Nausicaa",
+   "x": -134.2,
+   "y": 295.6,
+   "a": [
+    "Nausikaa"
+   ]
+  },
+  {
+   "i": 5,
+   "n": "Helen of Troy",
+   "x": 18.0,
+   "y": 342.0,
+   "a": [
+    "Helen of Sparta",
+    "Helen of Argos",
+    "Helen"
+   ]
+  },
+  {
+   "i": 6,
+   "n": "Penelope",
+   "x": -71.9,
+   "y": -159.5
+  },
+  {
+   "i": 7,
+   "n": "Menelaus",
+   "x": 77.4,
+   "y": 188.2,
+   "a": [
+    "Menelaos"
+   ]
+  },
+  {
+   "i": 8,
+   "n": "Peisistratus",
+   "x": 108.5,
+   "y": 290.5
+  },
+  {
+   "i": 9,
+   "n": "Melantho",
+   "x": -243.8,
+   "y": -455.7
+  },
+  {
+   "i": 10,
+   "n": "Circe",
+   "x": 379.6,
+   "y": 84.9,
+   "a": [
+    "Kirke"
+   ]
+  },
+  {
+   "i": 11,
+   "n": "Telemachus",
+   "x": -44.2,
+   "y": 2.9
+  },
+  {
+   "i": 12,
+   "n": "Nestor",
+   "x": -11.7,
+   "y": 218.4
+  },
+  {
+   "i": 13,
+   "n": "Polyphemus",
+   "x": 402.3,
+   "y": -149.6
+  },
+  {
+   "i": 14,
+   "n": "Mentor",
+   "x": -184.8,
+   "y": 116.5
+  },
+  {
+   "i": 15,
+   "n": "Anchialus",
+   "x": -600.0,
+   "y": -38.2
+  },
+  {
+   "i": 16,
+   "n": "Amphinomus",
+   "x": 87.6,
+   "y": -304.6
+  },
+  {
+   "i": 17,
+   "n": "Eurymachus",
+   "x": -49.8,
+   "y": -261.1
+  },
+  {
+   "i": 18,
+   "n": "Zeus",
+   "x": 69.6,
+   "y": 100.5,
+   "a": [
+    "Jupiter",
+    "Dias",
+    "Jove"
+   ]
+  },
+  {
+   "i": 19,
+   "n": "Athena",
+   "x": -6.3,
+   "y": 77.4,
+   "a": [
+    "Pallas Athene",
+    "Athene",
+    "Athina"
+   ]
+  },
+  {
+   "i": 20,
+   "n": "Poseidon",
+   "x": 183.0,
+   "y": -44.4,
+   "a": [
+    "Posidon"
+   ]
+  },
+  {
+   "i": 21,
+   "n": "Hermes",
+   "x": 220.0,
+   "y": 28.5
+  },
+  {
+   "i": 22,
+   "n": "Odysseus",
+   "x": 17.0,
+   "y": -10.5,
+   "a": [
+    "Ulysses"
+   ]
+  },
+  {
+   "i": 23,
+   "n": "Arnaeus",
+   "x": 164.2,
+   "y": -195.8,
+   "a": [
+    "Irus"
+   ]
+  },
+  {
+   "i": 24,
+   "n": "Calypso",
+   "x": 223.4,
+   "y": 117.3
+  },
+  {
+   "i": 25,
+   "n": "Alcinous",
+   "x": -106.3,
+   "y": 143.3,
+   "a": [
+    "Alkinoos"
+   ]
+  },
+  {
+   "i": 26,
+   "n": "Antinous",
+   "x": -5.3,
+   "y": -188.9,
+   "a": [
+    "Antinous son of Eupeithes",
+    "Antinous of Ithaca",
+    "Antinoos"
+   ]
+  },
+  {
+   "i": 27,
+   "n": "Eurynome",
+   "x": -32.3,
+   "y": -412.7
+  },
+  {
+   "i": 28,
+   "n": "Eurycleia",
+   "x": -199.0,
+   "y": -112.1,
+   "a": [
+    "Eurykleia",
+    "Euryclea"
+   ]
+  },
+  {
+   "i": 29,
+   "n": "Tiresias",
+   "x": 310.6,
+   "y": 197.6,
+   "a": [
+    "Teiresias"
+   ]
+  },
+  {
+   "i": 30,
+   "n": "Laertes",
+   "x": 74.1,
+   "y": -4.4
+  },
+  {
+   "i": 31,
+   "n": "Eurylochus",
+   "x": 585.4,
+   "y": 20.0
+  }
+ ],
+ "edges": [
+  [
+   0,
+   3,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0,
+   22,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   1,
+   15,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   1,
+   22,
+   1.0,
+   0.5,
+   0.034
+  ],
+  [
+   1,
+   25,
+   1.0,
+   1.0,
+   0.0
+  ],
+  [
+   2,
+   3,
+   2.0,
+   0.8,
+   0.5
+  ],
+  [
+   2,
+   11,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   2,
+   17,
+   1.0,
+   0.2,
+   0.0
+  ],
+  [
+   2,
+   22,
+   2.0,
+   1.0,
+   0.207
+  ],
+  [
+   2,
+   26,
+   1.0,
+   0.4,
+   0.0
+  ],
+  [
+   2,
+   30,
+   1.0,
+   0.6,
+   0.0
+  ],
+  [
+   3,
+   6,
+   3.0,
+   0.625,
+   0.3
+  ],
+  [
+   3,
+   11,
+   4.0,
+   0.875,
+   0.45
+  ],
+  [
+   3,
+   18,
+   3.0,
+   0.75,
+   0.526
+  ],
+  [
+   3,
+   19,
+   1.0,
+   0.125,
+   0.0
+  ],
+  [
+   3,
+   21,
+   1.0,
+   0.25,
+   0.0
+  ],
+  [
+   3,
+   22,
+   16.0,
+   1.0,
+   0.793
+  ],
+  [
+   3,
+   26,
+   1.0,
+   0.375,
+   0.125
+  ],
+  [
+   4,
+   18,
+   2.0,
+   0.333,
+   0.263
+  ],
+  [
+   4,
+   19,
+   1.0,
+   0.0,
+   0.071
+  ],
+  [
+   4,
+   22,
+   3.0,
+   0.667,
+   0.345
+  ],
+  [
+   4,
+   25,
+   4.0,
+   1.0,
+   0.5
+  ],
+  [
+   5,
+   7,
+   2.0,
+   0.8,
+   0.0
+  ],
+  [
+   5,
+   11,
+   1.0,
+   0.0,
+   0.05
+  ],
+  [
+   5,
+   12,
+   1.0,
+   0.2,
+   0.0
+  ],
+  [
+   5,
+   18,
+   4.0,
+   1.0,
+   0.632
+  ],
+  [
+   5,
+   19,
+   1.0,
+   0.4,
+   0.143
+  ],
+  [
+   5,
+   22,
+   1.0,
+   0.6,
+   0.069
+  ],
+  [
+   6,
+   9,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   6,
+   11,
+   11.0,
+   0.9,
+   0.7
+  ],
+  [
+   6,
+   16,
+   1.0,
+   0.1,
+   0.0
+  ],
+  [
+   6,
+   17,
+   5.0,
+   0.6,
+   0.667
+  ],
+  [
+   6,
+   19,
+   4.0,
+   0.5,
+   0.5
+  ],
+  [
+   6,
+   22,
+   25.0,
+   1.0,
+   0.862
+  ],
+  [
+   6,
+   26,
+   5.0,
+   0.7,
+   0.625
+  ],
+  [
+   6,
+   27,
+   3.0,
+   0.4,
+   1.0
+  ],
+  [
+   6,
+   28,
+   2.0,
+   0.2,
+   0.333
+  ],
+  [
+   6,
+   30,
+   6.0,
+   0.8,
+   0.7
+  ],
+  [
+   7,
+   8,
+   2.0,
+   0.143,
+   0.0
+  ],
+  [
+   7,
+   11,
+   15.0,
+   0.857,
+   0.8
+  ],
+  [
+   7,
+   12,
+   6.0,
+   0.571,
+   0.5
+  ],
+  [
+   7,
+   18,
+   15.0,
+   1.0,
+   0.789
+  ],
+  [
+   7,
+   19,
+   2.0,
+   0.286,
+   0.286
+  ],
+  [
+   7,
+   22,
+   11.0,
+   0.714,
+   0.759
+  ],
+  [
+   7,
+   24,
+   2.0,
+   0.429,
+   0.429
+  ],
+  [
+   8,
+   11,
+   3.0,
+   0.75,
+   0.4
+  ],
+  [
+   8,
+   12,
+   6.0,
+   1.0,
+   0.667
+  ],
+  [
+   8,
+   18,
+   2.0,
+   0.25,
+   0.316
+  ],
+  [
+   8,
+   22,
+   2.0,
+   0.5,
+   0.241
+  ],
+  [
+   9,
+   22,
+   1.0,
+   1.0,
+   0.103
+  ],
+  [
+   10,
+   18,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   10,
+   21,
+   3.0,
+   0.6,
+   0.429
+  ],
+  [
+   10,
+   22,
+   3.0,
+   0.8,
+   0.379
+  ],
+  [
+   10,
+   24,
+   1.0,
+   0.2,
+   0.0
+  ],
+  [
+   10,
+   29,
+   4.0,
+   1.0,
+   1.0
+  ],
+  [
+   10,
+   31,
+   1.0,
+   0.4,
+   0.0
+  ],
+  [
+   11,
+   12,
+   19.0,
+   0.85,
+   1.0
+  ],
+  [
+   11,
+   14,
+   4.0,
+   0.5,
+   0.333
+  ],
+  [
+   11,
+   15,
+   1.0,
+   0.1,
+   1.0
+  ],
+  [
+   11,
+   16,
+   2.0,
+   0.35,
+   0.8
+  ],
+  [
+   11,
+   17,
+   4.0,
+   0.55,
+   0.5
+  ],
+  [
+   11,
+   18,
+   21.0,
+   0.9,
+   0.895
+  ],
+  [
+   11,
+   19,
+   21.0,
+   0.95,
+   0.857
+  ],
+  [
+   11,
+   20,
+   1.0,
+   0.15,
+   0.0
+  ],
+  [
+   11,
+   21,
+   1.0,
+   0.2,
+   0.143
+  ],
+  [
+   11,
+   22,
+   52.0,
+   1.0,
+   0.966
+  ],
+  [
+   11,
+   23,
+   1.0,
+   0.25,
+   0.0
+  ],
+  [
+   11,
+   24,
+   1.0,
+   0.3,
+   0.143
+  ],
+  [
+   11,
+   26,
+   14.0,
+   0.75,
+   1.0
+  ],
+  [
+   11,
+   28,
+   5.0,
+   0.6,
+   0.667
+  ],
+  [
+   11,
+   30,
+   5.0,
+   0.65,
+   0.6
+  ],
+  [
+   12,
+   18,
+   6.0,
+   0.833,
+   0.684
+  ],
+  [
+   12,
+   19,
+   4.0,
+   0.333,
+   0.571
+  ],
+  [
+   12,
+   22,
+   3.0,
+   0.167,
+   0.414
+  ],
+  [
+   13,
+   18,
+   1.0,
+   0.0,
+   0.053
+  ],
+  [
+   13,
+   20,
+   1.0,
+   0.5,
+   0.125
+  ],
+  [
+   13,
+   22,
+   1.0,
+   1.0,
+   0.138
+  ],
+  [
+   14,
+   18,
+   3.0,
+   0.0,
+   0.579
+  ],
+  [
+   14,
+   19,
+   6.0,
+   1.0,
+   0.714
+  ],
+  [
+   14,
+   22,
+   5.0,
+   0.667,
+   0.552
+  ],
+  [
+   16,
+   17,
+   1.0,
+   0.2,
+   0.167
+  ],
+  [
+   16,
+   22,
+   3.0,
+   1.0,
+   0.448
+  ],
+  [
+   16,
+   23,
+   1.0,
+   0.4,
+   0.2
+  ],
+  [
+   16,
+   26,
+   1.0,
+   0.6,
+   0.25
+  ],
+  [
+   17,
+   22,
+   8.0,
+   1.0,
+   0.69
+  ],
+  [
+   17,
+   23,
+   1.0,
+   0.333,
+   0.4
+  ],
+  [
+   17,
+   26,
+   5.0,
+   0.833,
+   0.75
+  ],
+  [
+   18,
+   19,
+   32.0,
+   0.947,
+   0.929
+  ],
+  [
+   18,
+   20,
+   2.0,
+   0.368,
+   0.5
+  ],
+  [
+   18,
+   21,
+   1.0,
+   0.105,
+   0.286
+  ],
+  [
+   18,
+   22,
+   61.0,
+   1.0,
+   1.0
+  ],
+  [
+   18,
+   23,
+   1.0,
+   0.158,
+   0.6
+  ],
+  [
+   18,
+   24,
+   2.0,
+   0.421,
+   0.571
+  ],
+  [
+   18,
+   25,
+   7.0,
+   0.737,
+   0.833
+  ],
+  [
+   18,
+   26,
+   1.0,
+   0.211,
+   0.375
+  ],
+  [
+   18,
+   29,
+   2.0,
+   0.474,
+   0.0
+  ],
+  [
+   18,
+   30,
+   20.0,
+   0.842,
+   0.9
+  ],
+  [
+   19,
+   20,
+   2.0,
+   0.357,
+   0.625
+  ],
+  [
+   19,
+   21,
+   3.0,
+   0.429,
+   0.571
+  ],
+  [
+   19,
+   22,
+   44.0,
+   1.0,
+   0.897
+  ],
+  [
+   19,
+   23,
+   1.0,
+   0.214,
+   0.8
+  ],
+  [
+   19,
+   25,
+   5.0,
+   0.643,
+   0.667
+  ],
+  [
+   19,
+   30,
+   10.0,
+   0.786,
+   0.8
+  ],
+  [
+   20,
+   21,
+   3.0,
+   0.875,
+   0.714
+  ],
+  [
+   20,
+   22,
+   9.0,
+   1.0,
+   0.724
+  ],
+  [
+   20,
+   24,
+   1.0,
+   0.25,
+   0.286
+  ],
+  [
+   20,
+   25,
+   1.0,
+   0.375,
+   0.167
+  ],
+  [
+   20,
+   30,
+   2.0,
+   0.75,
+   0.3
+  ],
+  [
+   21,
+   22,
+   3.0,
+   0.857,
+   0.483
+  ],
+  [
+   21,
+   24,
+   3.0,
+   1.0,
+   0.857
+  ],
+  [
+   22,
+   23,
+   3.0,
+   0.517,
+   1.0
+  ],
+  [
+   22,
+   24,
+   6.0,
+   0.586,
+   1.0
+  ],
+  [
+   22,
+   25,
+   23.0,
+   0.828,
+   1.0
+  ],
+  [
+   22,
+   26,
+   6.0,
+   0.621,
+   0.875
+  ],
+  [
+   22,
+   27,
+   2.0,
+   0.276,
+   0.5
+  ],
+  [
+   22,
+   28,
+   7.0,
+   0.655,
+   1.0
+  ],
+  [
+   22,
+   29,
+   2.0,
+   0.31,
+   0.333
+  ],
+  [
+   22,
+   30,
+   45.0,
+   0.931,
+   1.0
+  ],
+  [
+   22,
+   31,
+   1.0,
+   0.172,
+   1.0
+  ],
+  [
+   24,
+   30,
+   2.0,
+   0.714,
+   0.4
+  ],
+  [
+   25,
+   30,
+   1.0,
+   0.333,
+   0.1
+  ],
+  [
+   26,
+   27,
+   1.0,
+   0.5,
+   0.0
+  ],
+  [
+   28,
+   30,
+   1.0,
+   0.0,
+   0.2
+  ],
+  [
+   29,
+   30,
+   2.0,
+   0.667,
+   0.5
+  ]
+ ],
+ "playable": [
+  2,
+  3,
+  5,
+  6,
+  7,
+  10,
+  11,
+  12,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  30
+ ],
+ "puzzles": [
+  {
+   "id": "odyssey-p0002",
+   "you": 2,
+   "startRadius": 1,
+   "ease": 0.396
+  },
+  {
+   "id": "odyssey-p0003",
+   "you": 3,
+   "startRadius": 1,
+   "ease": 0.545
+  },
+  {
+   "id": "odyssey-p0005",
+   "you": 5,
+   "startRadius": 1,
+   "ease": 0.463
+  },
+  {
+   "id": "odyssey-p0006",
+   "you": 6,
+   "startRadius": 1,
+   "ease": 0.541
+  },
+  {
+   "id": "odyssey-p0007",
+   "you": 7,
+   "startRadius": 1,
+   "ease": 0.619
+  },
+  {
+   "id": "odyssey-p0010",
+   "you": 10,
+   "startRadius": 1,
+   "ease": 0.512
+  },
+  {
+   "id": "odyssey-p0011",
+   "you": 11,
+   "startRadius": 1,
+   "ease": 0.59
+  },
+  {
+   "id": "odyssey-p0012",
+   "you": 12,
+   "startRadius": 1,
+   "ease": 0.594
+  },
+  {
+   "id": "odyssey-p0016",
+   "you": 16,
+   "startRadius": 1,
+   "ease": 0.415
+  },
+  {
+   "id": "odyssey-p0017",
+   "you": 17,
+   "startRadius": 1,
+   "ease": 0.569
+  },
+  {
+   "id": "odyssey-p0018",
+   "you": 18,
+   "startRadius": 1,
+   "ease": 0.605
+  },
+  {
+   "id": "odyssey-p0019",
+   "you": 19,
+   "startRadius": 1,
+   "ease": 0.587
+  },
+  {
+   "id": "odyssey-p0020",
+   "you": 20,
+   "startRadius": 1,
+   "ease": 0.532
+  },
+  {
+   "id": "odyssey-p0021",
+   "you": 21,
+   "startRadius": 1,
+   "ease": 0.481
+  },
+  {
+   "id": "odyssey-p0022",
+   "you": 22,
+   "startRadius": 1,
+   "ease": 0.619
+  },
+  {
+   "id": "odyssey-p0023",
+   "you": 23,
+   "startRadius": 1,
+   "ease": 0.366
+  },
+  {
+   "id": "odyssey-p0024",
+   "you": 24,
+   "startRadius": 1,
+   "ease": 0.523
+  },
+  {
+   "id": "odyssey-p0025",
+   "you": 25,
+   "startRadius": 1,
+   "ease": 0.558
+  },
+  {
+   "id": "odyssey-p0026",
+   "you": 26,
+   "startRadius": 1,
+   "ease": 0.524
+  },
+  {
+   "id": "odyssey-p0030",
+   "you": 30,
+   "startRadius": 1,
+   "ease": 0.577
+  }
+ ],
+ "provenance": {
+  "dataset": "odyssey-butcher-lang-sentence-v1",
+  "edgeDefinition": "people named in the same sentence",
+  "sourceUnit": "book",
+  "weightSemantics": "count of sentences naming both, across all 24 books",
+  "filters": {
+   "minEdgeWeight": 1,
+   "minDegree": 2,
+   "largestComponentOnly": true,
+   "minComponentSize": null,
+   "nodesBefore": 39,
+   "nodesAfter": 32,
+   "edgesBefore": 128,
+   "edgesAfter": 124
+  },
+  "license": {
+   "name": "Public domain",
+   "spdx": "NONE-PUBLIC-DOMAIN",
+   "url": "https://en.wikipedia.org/wiki/Public_domain",
+   "allowsCommercialUse": true,
+   "shareAlike": false
+  },
+  "attribution": {
+   "title": "The Odyssey of Homer (Butcher and Lang)",
+   "creator": "Public domain text; digital edition via Project Gutenberg (eBook #1728)",
+   "creatorUrl": "https://www.gutenberg.org/",
+   "sourceUrl": "https://www.gutenberg.org/ebooks/1728",
+   "projectUrl": "https://www.wikidata.org/",
+   "citation": "Text: Homer, The Odyssey, trans. S. H. Butcher and A. Lang, Project Gutenberg eBook #1728, public domain. Identification of persons: Wikidata (CC0 1.0), queried for figures of the poem.",
+   "citationDoi": "",
+   "retrieved": "2026-09-18",
+   "modifications": [
+    "Built a character network from the text: two people are tied when a sentence names both.",
+    "Identified persons from Wikidata rather than from the text, so that places and common nouns are never nodes.",
+    "Resolved shared names to the most prominent claimant, and dropped those too close to call.",
+    "Blocked English common nouns that are also deities (Dawn, Night) and place-names (Troy, Ithaca).",
+    "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (39 nodes and 128 ties in, 32 and 124 out).",
+    "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",
+    "Computed a force-directed layout for the full graph, used by the reveal animation."
+   ]
+  },
+  "creditLine": "\"The Odyssey of Homer (Butcher and Lang)\" by Public domain text; digital edition via Project Gutenberg (eBook #1728), (https://www.gutenberg.org/ebooks/1728), licensed under Public domain, modified for this project."
+ }
+}

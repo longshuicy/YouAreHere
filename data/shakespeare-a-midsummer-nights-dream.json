@@ -6,134 +6,134 @@
   {
    "i": 0,
    "n": "Nick Bottom",
-   "x": 44.0,
-   "y": 112.8
+   "x": 35.5,
+   "y": 111.0
   },
   {
    "i": 1,
    "n": "Demetrius",
-   "x": -100.4,
-   "y": -184.4
+   "x": -83.1,
+   "y": -189.2
   },
   {
    "i": 2,
    "n": "Egeus",
-   "x": 12.8,
-   "y": -386.5
+   "x": 34.6,
+   "y": -375.2
   },
   {
    "i": 3,
    "n": "A Fairy",
-   "x": -224.0,
+   "x": -181.1,
    "y": -600.0
   },
   {
    "i": 4,
    "n": "Cobweb",
-   "x": 268.7,
-   "y": 33.2
+   "x": 260.0,
+   "y": 50.4
   },
   {
    "i": 5,
    "n": "Mote",
-   "x": 87.6,
-   "y": 511.6
+   "x": 43.4,
+   "y": 506.5
   },
   {
    "i": 6,
    "n": "Mustardseed",
-   "x": 208.9,
-   "y": 120.1
+   "x": 195.4,
+   "y": 130.5
   },
   {
    "i": 7,
    "n": "Peaseblossom",
-   "x": -154.1,
-   "y": 47.5
+   "x": -156.9,
+   "y": 33.2
   },
   {
    "i": 8,
    "n": "Francis Flute",
-   "x": 25.6,
-   "y": 277.1
+   "x": 9.5,
+   "y": 270.7
   },
   {
    "i": 9,
    "n": "Helena",
-   "x": 116.5,
-   "y": -331.4
+   "x": 134.0,
+   "y": -317.3
   },
   {
    "i": 10,
    "n": "Hermia",
-   "x": 243.0,
-   "y": -261.7
+   "x": 253.5,
+   "y": -240.4
   },
   {
    "i": 11,
    "n": "Hippolyta",
-   "x": -169.2,
-   "y": -99.7
+   "x": -155.4,
+   "y": -109.1
   },
   {
    "i": 12,
    "n": "Lysander",
-   "x": 94.7,
-   "y": -127.8
+   "x": 106.7,
+   "y": -120.6
   },
   {
    "i": 13,
    "n": "Oberon",
-   "x": -9.9,
-   "y": -175.3
+   "x": 2.8,
+   "y": -167.0
   },
   {
    "i": 14,
    "n": "Philostrate",
-   "x": -353.8,
-   "y": 100.9
+   "x": -350.8,
+   "y": 76.8
   },
   {
    "i": 15,
    "n": "Peter Quince",
-   "x": -86.2,
-   "y": 320.8
+   "x": -103.9,
+   "y": 307.2
   },
   {
    "i": 16,
    "n": "Robin Goodfellow",
-   "x": 37.9,
-   "y": -17.6
+   "x": 36.8,
+   "y": -18.5
   },
   {
    "i": 17,
    "n": "Tom Snout",
-   "x": -96.1,
-   "y": 208.3
+   "x": -105.4,
+   "y": 198.1
   },
   {
    "i": 18,
    "n": "Snug",
-   "x": 139.4,
-   "y": 295.0
+   "x": 118.7,
+   "y": 297.3
   },
   {
    "i": 19,
    "n": "Robin Starveling",
-   "x": -195.4,
-   "y": 235.8
+   "x": -204.7,
+   "y": 217.9
   },
   {
    "i": 20,
    "n": "Theseus",
-   "x": 170.4,
-   "y": -56.0
+   "x": 168.2,
+   "y": -39.7
   },
   {
    "i": 21,
    "n": "Titania",
-   "x": -60.4,
-   "y": -22.6
+   "x": -57.8,
+   "y": -22.5
   }
  ],
  "edges": [
@@ -1433,127 +1433,127 @@
    "id": "shakespeare-a-midsummer-nights-dream-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.555
+   "ease": 0.531
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.596
+   "ease": 0.572
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.252
+   "ease": 0.237
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.295
+   "ease": 0.272
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.29
+   "ease": 0.255
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.316
+   "ease": 0.292
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.336
+   "ease": 0.313
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.392
+   "ease": 0.369
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.487
+   "ease": 0.472
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.375
+   "ease": 0.36
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.415
+   "ease": 0.392
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.54
+   "ease": 0.517
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.512
+   "ease": 0.489
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.235
+   "ease": 0.22
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.434
+   "ease": 0.411
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.611
+   "ease": 0.588
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.351
+   "ease": 0.328
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.276
+   "ease": 0.261
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.454
+   "ease": 0.431
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0020",
    "you": 20,
    "startRadius": 1,
-   "ease": 0.477
+   "ease": 0.454
   },
   {
    "id": "shakespeare-a-midsummer-nights-dream-p0021",
    "you": 21,
    "startRadius": 1,
-   "ease": 0.569
+   "ease": 0.546
   }
  ],
  "provenance": {

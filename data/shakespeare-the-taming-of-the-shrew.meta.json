@@ -12,7 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "1": {
@@ -25,7 +25,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "2": {
@@ -38,7 +38,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "3": {
@@ -64,7 +64,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "5": {
@@ -77,7 +77,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 188
+    "lookAlikes": 249
    }
   },
   "6": {
@@ -90,7 +90,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "7": {
@@ -103,7 +103,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 6
+    "lookAlikes": 9
    }
   },
   "8": {
@@ -116,7 +116,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 154
+    "lookAlikes": 244
    }
   },
   "9": {
@@ -129,7 +129,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29
+    "lookAlikes": 34
    }
   },
   "10": {
@@ -207,7 +207,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 33
+    "lookAlikes": 50
    }
   },
   "16": {
@@ -220,7 +220,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 39
+    "lookAlikes": 45
    }
   },
   "17": {
@@ -233,7 +233,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 92
+    "lookAlikes": 129
    }
   }
  },

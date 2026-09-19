@@ -6,110 +6,110 @@
   {
    "i": 0,
    "n": "Duke of Albany",
-   "x": -114.0,
-   "y": -127.1
+   "x": -120.7,
+   "y": -130.7
   },
   {
    "i": 1,
    "n": "Duke of Burgundy",
-   "x": -218.2,
-   "y": -287.0
+   "x": -251.6,
+   "y": -264.9
   },
   {
    "i": 2,
    "n": "Cordelia",
-   "x": -264.1,
-   "y": -40.7
+   "x": -271.6,
+   "y": -12.2
   },
   {
    "i": 3,
    "n": "Duke of Cornwall",
-   "x": 122.5,
-   "y": -192.6
+   "x": 101.9,
+   "y": -203.5
   },
   {
    "i": 4,
    "n": "Curan",
-   "x": 471.9,
-   "y": 54.0
+   "x": 483.3,
+   "y": 26.1
   },
   {
    "i": 5,
    "n": "Doctor",
-   "x": -590.4,
-   "y": 80.0
+   "x": -600.0,
+   "y": 111.8
   },
   {
    "i": 6,
    "n": "Edgar",
-   "x": 75.0,
-   "y": 185.1
+   "x": 96.0,
+   "y": 183.3
   },
   {
    "i": 7,
    "n": "Edmund",
-   "x": 17.1,
-   "y": -1.7
+   "x": 17.2,
+   "y": 15.7
   },
   {
    "i": 8,
    "n": "Fool",
-   "x": 220.9,
-   "y": 80.1
+   "x": 235.2,
+   "y": 34.4
   },
   {
    "i": 9,
    "n": "King of France",
-   "x": -56.4,
-   "y": -357.1
+   "x": -91.5,
+   "y": -354.1
   },
   {
    "i": 10,
    "n": "Earl of Gloucester",
-   "x": 118.1,
-   "y": 55.4
+   "x": 126.7,
+   "y": 54.0
   },
   {
    "i": 11,
    "n": "Goneril",
-   "x": -8.7,
-   "y": -141.1
+   "x": -16.8,
+   "y": -131.0
   },
   {
    "i": 12,
    "n": "Herald",
-   "x": -240.8,
-   "y": 225.8
+   "x": -220.8,
+   "y": 256.5
   },
   {
    "i": 13,
    "n": "Earl of Kent",
-   "x": -79.0,
-   "y": 67.0
+   "x": -82.6,
+   "y": 71.1
   },
   {
    "i": 14,
    "n": "Lear",
-   "x": -109.5,
-   "y": -9.8
+   "x": -111.8,
+   "y": -9.5
   },
   {
    "i": 15,
    "n": "Old Man",
-   "x": 337.7,
-   "y": 600.0
+   "x": 406.3,
+   "y": 577.5
   },
   {
    "i": 16,
    "n": "Oswald",
-   "x": 235.3,
-   "y": -116.1
+   "x": 223.9,
+   "y": -151.3
   },
   {
    "i": 17,
    "n": "Regan",
-   "x": 82.8,
-   "y": -74.3
+   "x": 77.0,
+   "y": -73.2
   }
  ],
  "edges": [
@@ -836,91 +836,91 @@
    "id": "shakespeare-king-lear-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.411
+   "ease": 0.396
   },
   {
    "id": "shakespeare-king-lear-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.313
+   "ease": 0.289
   },
   {
    "id": "shakespeare-king-lear-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.33
+   "ease": 0.316
   },
   {
    "id": "shakespeare-king-lear-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.435
+   "ease": 0.42
   },
   {
    "id": "shakespeare-king-lear-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.454
+   "ease": 0.44
   },
   {
    "id": "shakespeare-king-lear-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.481
+   "ease": 0.466
   },
   {
    "id": "shakespeare-king-lear-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.457
+   "ease": 0.439
   },
   {
    "id": "shakespeare-king-lear-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.338
+   "ease": 0.314
   },
   {
    "id": "shakespeare-king-lear-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.65
+   "ease": 0.642
   },
   {
    "id": "shakespeare-king-lear-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.512
+   "ease": 0.498
   },
   {
    "id": "shakespeare-king-lear-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.374
+   "ease": 0.353
   },
   {
    "id": "shakespeare-king-lear-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.703
+   "ease": 0.694
   },
   {
    "id": "shakespeare-king-lear-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.677
+   "ease": 0.669
   },
   {
    "id": "shakespeare-king-lear-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.404
+   "ease": 0.38
   },
   {
    "id": "shakespeare-king-lear-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.53
+   "ease": 0.516
   }
  ],
  "provenance": {

@@ -6,170 +6,170 @@
   {
    "i": 0,
    "n": "Achilles",
-   "x": 103.1,
-   "y": -342.0
+   "x": 104.5,
+   "y": -348.6
   },
   {
    "i": 1,
    "n": "Aeneas",
-   "x": 69.9,
-   "y": -25.7
+   "x": 71.5,
+   "y": -24.5
   },
   {
    "i": 2,
    "n": "Agamemnon",
-   "x": 246.0,
-   "y": -218.7
+   "x": 245.5,
+   "y": -220.7
   },
   {
    "i": 3,
    "n": "Ajax",
-   "x": 144.8,
-   "y": -288.9
+   "x": 134.5,
+   "y": -290.1
   },
   {
    "i": 4,
    "n": "Alexander",
-   "x": 326.7,
-   "y": 519.6
+   "x": 327.8,
+   "y": 519.4
   },
   {
    "i": 5,
    "n": "Andromache",
-   "x": -470.0,
-   "y": 93.5
+   "x": -469.3,
+   "y": 95.3
   },
   {
    "i": 6,
    "n": "Antenor",
-   "x": -84.2,
-   "y": 382.7
+   "x": -82.8,
+   "y": 382.1
   },
   {
    "i": 7,
    "n": "Troilus’s Boy",
-   "x": 167.0,
-   "y": 587.5
+   "x": 168.0,
+   "y": 587.2
   },
   {
    "i": 8,
    "n": "Calchas",
-   "x": 223.1,
-   "y": -386.8
+   "x": 267.6,
+   "y": -361.3
   },
   {
    "i": 9,
    "n": "Cassandra",
-   "x": -361.8,
-   "y": -83.8
+   "x": -362.5,
+   "y": -82.4
   },
   {
    "i": 10,
    "n": "Cressida",
-   "x": 155.5,
-   "y": 40.4
+   "x": 156.4,
+   "y": 41.2
   },
   {
    "i": 11,
    "n": "Deiphobus",
-   "x": 47.2,
-   "y": 195.1
+   "x": 47.8,
+   "y": 195.4
   },
   {
    "i": 12,
    "n": "Diomedes",
-   "x": 92.6,
-   "y": -137.7
+   "x": 91.1,
+   "y": -139.4
   },
   {
    "i": 13,
    "n": "Hector",
-   "x": -90.8,
-   "y": -155.1
+   "x": -92.6,
+   "y": -155.7
   },
   {
    "i": 14,
    "n": "Helen",
-   "x": -489.5,
-   "y": 490.9
+   "x": -488.0,
+   "y": 491.7
   },
   {
    "i": 15,
    "n": "Helenus",
-   "x": -475.9,
-   "y": -190.6
+   "x": -475.7,
+   "y": -189.7
   },
   {
    "i": 16,
    "n": "Menelaus",
-   "x": 225.4,
-   "y": -139.0
+   "x": 226.0,
+   "y": -139.3
   },
   {
    "i": 17,
    "n": "Nestor",
-   "x": 248.8,
-   "y": -291.3
+   "x": 228.3,
+   "y": -293.9
   },
   {
    "i": 18,
    "n": "Pandarus",
-   "x": -80.6,
-   "y": 220.2
+   "x": -80.7,
+   "y": 220.3
   },
   {
    "i": 19,
    "n": "Paris",
-   "x": -190.1,
-   "y": 136.6
+   "x": -189.3,
+   "y": 136.4
   },
   {
    "i": 20,
    "n": "Patroclus",
-   "x": 47.5,
-   "y": -247.1
+   "x": 44.5,
+   "y": -247.3
   },
   {
    "i": 21,
    "n": "Priam",
    "x": -360.4,
-   "y": 22.0
+   "y": 23.9
   },
   {
    "i": 22,
    "n": "Diomedes’ Servingman",
-   "x": 386.8,
-   "y": -490.1
+   "x": 364.4,
+   "y": -508.7
   },
   {
    "i": 23,
    "n": "Paris’s Servingman",
-   "x": -348.3,
+   "x": -346.2,
    "y": 600.0
   },
   {
    "i": 24,
    "n": "Troilus’s Man",
-   "x": 319.0,
-   "y": 297.2
+   "x": 319.1,
+   "y": 297.4
   },
   {
    "i": 25,
    "n": "Thersites",
-   "x": 21.1,
-   "y": -320.4
+   "x": 22.9,
+   "y": -321.8
   },
   {
    "i": 26,
    "n": "Troilus",
-   "x": -35.3,
-   "y": -54.6
+   "x": -33.4,
+   "y": -54.2
   },
   {
    "i": 27,
    "n": "Ulysses",
-   "x": 162.0,
-   "y": -213.9
+   "x": 161.2,
+   "y": -212.8
   }
  ],
  "edges": [
@@ -1251,121 +1251,121 @@
    "id": "shakespeare-troilus-and-cressida-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.586
+   "ease": 0.572
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.544
+   "ease": 0.521
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.57
+   "ease": 0.556
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.602
+   "ease": 0.588
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.432
+   "ease": 0.408
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.464
+   "ease": 0.434
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.445
+   "ease": 0.421
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.481
+   "ease": 0.47
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.658
+   "ease": 0.635
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.503
+   "ease": 0.48
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.483
+   "ease": 0.468
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.554
+   "ease": 0.54
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.453
+   "ease": 0.445
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.458
+   "ease": 0.449
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0020",
    "you": 20,
    "startRadius": 1,
-   "ease": 0.531
+   "ease": 0.516
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0021",
    "you": 21,
    "startRadius": 1,
-   "ease": 0.479
+   "ease": 0.45
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0022",
    "you": 22,
    "startRadius": 1,
-   "ease": 0.446
+   "ease": 0.431
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0025",
    "you": 25,
    "startRadius": 1,
-   "ease": 0.499
+   "ease": 0.484
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0026",
    "you": 26,
    "startRadius": 1,
-   "ease": 0.618
+   "ease": 0.595
   },
   {
    "id": "shakespeare-troilus-and-cressida-p0027",
    "you": 27,
    "startRadius": 1,
-   "ease": 0.618
+   "ease": 0.604
   }
  ],
  "provenance": {

@@ -10,6 +10,8 @@ receives the structured facts alongside these lines and may ignore them.
 
 from __future__ import annotations
 
+import re
+
 COUNT_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven"}
 
 # The source mixes three kinds of value under "culture": peoples (Northmen),
@@ -19,6 +21,7 @@ COUNT_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7
 PEOPLES = {
     "northmen", "ironborn", "free folk", "dothraki", "crannogmen",
     "sistermen", "rivermen", "valemen", "mountain clans", "andals", "first men",
+    "greeks", "trojans", "achaeans", "myrmidons", "dardanians", "olympians",
 }
 
 
@@ -43,6 +46,12 @@ def node_line(facts: dict) -> str:
     return " ".join(f"{clause}." for clause in clauses)
 
 
+def _plural_unit(unit: str) -> str:
+    if unit.endswith(("s", "x", "ch", "sh")) or unit.endswith("gress"):
+        return unit + "es"
+    return unit + "s"
+
+
 def edge_line(facts: dict) -> str:
     if _zh_facts(facts):
         return _edge_line_zh(facts)
@@ -51,6 +60,7 @@ def edge_line(facts: dict) -> str:
 
     books = facts.get("books", [])
     unit = facts.get("unit", "book")
+    units = _plural_unit(unit)
     first = books[0] if books else ""
     world_size = facts.get("worldSize")
     total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
@@ -64,7 +74,7 @@ def edge_line(facts: dict) -> str:
             clauses.append(f"They share the page in every {unit}, first in {first}")
         else:
             count = COUNT_WORDS.get(len(books), str(len(books)))
-            clauses.append(f"They share the page in {count} {unit}s, first in {first}")
+            clauses.append(f"They share the page in {count} {units}, first in {first}")
 
     shared = facts.get("sharedHouses") or facts.get("sharedAffiliations")
     if shared:
@@ -72,14 +82,33 @@ def edge_line(facts: dict) -> str:
         if facts.get("sharedHouses"):
             clauses.append(f"Both are sworn to {shared[0]}")
         else:
-            clauses.append(f"Both belong to {shared[0]}")
+            affiliation = shared[0]
+            article = "the " if (
+                affiliation.lower() in PEOPLES or affiliation.lower().startswith("friends of")
+            ) else ""
+            clauses.append(f"Both belong to {article}{affiliation}")
 
     return " ".join(f"{clause}." for clause in clauses)
 
 
 def _zh_facts(facts: dict) -> bool:
     books = facts.get("books") or []
-    return bool(books) and books[0].startswith("第") and books[0].endswith("回")
+    if not books:
+        return False
+    sample = books[0]
+    if sample.startswith("第") and sample.endswith("回"):
+        return True
+    # 史記 juan titles, and any other Chinese segment label.
+    return bool(re.search(r"[\u3400-\u9fff]", sample))
+
+
+def _zh_unit(facts: dict) -> str:
+    unit = facts.get("unit") or ""
+    if unit == "juan":
+        return "篇"
+    if unit == "chapter" or (facts.get("books") or [""])[0].endswith("回"):
+        return "回"
+    return "篇"
 
 
 def _node_line_zh(facts: dict) -> str:
@@ -89,8 +118,15 @@ def _node_line_zh(facts: dict) -> str:
         standing = _title(facts["titles"][0])
     elif facts.get("occupation"):
         standing = _title(facts["occupation"])
+    elif facts.get("species"):
+        standing = facts["species"]
+    elif facts.get("homeworld"):
+        standing = f"{facts['homeworld']}出身"
     if standing:
         clauses.append(standing)
+    affiliation = (facts.get("affiliations") or [None])[0]
+    if affiliation and affiliation not in (standing or ""):
+        clauses.append(f"屬{affiliation}")
     presence = _presence_zh(facts)
     if presence:
         clauses.append(presence)
@@ -102,14 +138,18 @@ def _edge_line_zh(facts: dict) -> str:
     first = books[0] if books else ""
     world_size = facts.get("worldSize")
     total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
+    unit = _zh_unit(facts)
     clauses = []
     if books and not (total == 1 and len(books) == 1):
         if len(books) == 1:
             clauses.append(f"僅在{first}同頁")
         elif total and len(books) == total:
-            clauses.append(f"每回同頁，始於{first}")
+            clauses.append(f"每{unit}同頁，始於{first}")
         else:
-            clauses.append(f"共見於{len(books)}回，始於{first}")
+            clauses.append(f"共見於{len(books)}{unit}，始於{first}")
+    shared = facts.get("sharedHouses") or facts.get("sharedAffiliations")
+    if shared:
+        clauses.append(f"同屬{shared[0]}")
     return "。".join(clauses) + ("。" if clauses else "")
 
 
@@ -119,13 +159,14 @@ def _presence_zh(facts: dict) -> str:
         return ""
     world_size = facts.get("worldSize")
     total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
+    unit = _zh_unit(facts)
     if total == 1 and len(books) == 1:
         return ""
     if total and len(books) == total:
-        return f"{total}回皆見"
+        return f"{total}{unit}皆見"
     if len(books) <= 2:
         return "見於" + "、".join(books)
-    return f"見於{len(books)}回"
+    return f"見於{len(books)}{unit}"
 
 
 def _standing(facts: dict) -> str:
@@ -177,6 +218,7 @@ def _presence(facts: dict) -> str:
         return ""
 
     unit = facts.get("unit", "book")
+    units = _plural_unit(unit)
     world_size = facts.get("worldSize")
     total = world_size if world_size is not None else (facts.get("corpusSize") or 0)
 
@@ -185,11 +227,11 @@ def _presence(facts: dict) -> str:
         return ""
 
     if total and len(books) == total:
-        where = f"Appears in all {COUNT_WORDS.get(total, total)} {unit}s"
+        where = f"Appears in all {COUNT_WORDS.get(total, total)} {units}"
     elif len(books) <= 2:
         where = "Appears in " + " and ".join(books)
     else:
-        where = f"Appears in {COUNT_WORDS.get(len(books), len(books))} {unit}s"
+        where = f"Appears in {COUNT_WORDS.get(len(books), len(books))} {units}"
 
     pov = facts.get("pov")
     if not pov:
@@ -228,7 +270,10 @@ def _species(species: str) -> str:
 def _title(title: str) -> str:
     """Royal styles run to a full line on their own. The first clause carries the
     rank, which is what the reveal is for."""
-    return title.split(",")[0].strip()
+    title = title.split(",")[0].strip()
+    title = re.sub(r"\s+in Greek mythology$", "", title, flags=re.I)
+    title = re.sub(r"^mythological\s+", "", title, flags=re.I)
+    return title
 
 
 def _capitalise(text: str) -> str:

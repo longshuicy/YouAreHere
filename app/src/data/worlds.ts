@@ -17,9 +17,27 @@ const FALLBACK: Record<string, string> = {
     'Seven kingdoms and a dozen great houses, told across five volumes and a great many rival points of view.',
   bible:
     'Sixty-six books of genealogy, exile and prophecy, where a tie means two people share a single verse.',
+  congress:
+    'The House and Senate across sixteen Congresses (~1973–2004), tied by the bills they put their names on.',
+  friends:
+    'Six people in a Manhattan orbit, ten seasons of apartments, coffee shop and guest stars.',
   hongloumeng:
-    '一座繁华家族走向衰败，一场青春与爱情终成大梦。',
+    '一個繁华家族走向衰败，一场青春与爱情终成大梦。',
+  iliad:
+    'A ten-year siege in its last weeks, two camps on a plain, and a quarrel in one of them.',
+  lesmiserables:
+    'Paris after the Restoration, a hunt that lasts twenty years, and a barricade that lasts one night.',
+  odyssey:
+    'A ten-year voyage home, a household of suitors waiting at the other end of it.',
+  sanguoyanyi:
+    '一個帝國分裂為三，一場連續百年的戰爭與計謀。',
+  shiji:
+    '從黃帝到漢武，本紀世家列傳連成一部通史。',
+  shuihuzhuan:
+    '一百零八個好漢被逼上梁山，一座水泊裡的義軍朝廷。',
   starwars: 'A galaxy of pilots, senators and smugglers, across seven films.',
+  xiyouji:
+    '取經的路上，一僧三徒，一路上的神佛與妖魔。',
 
   // Shakespeare, one world per play — except where the plays genuinely
   // interlock, and the world is the cycle rather than the evening.
