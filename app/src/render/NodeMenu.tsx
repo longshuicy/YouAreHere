@@ -175,8 +175,6 @@ function ClaimRow({
               outline: 'none',
             }}
           />
-          {/* Return commits, but a field whose only way forward is a key you
-              have to know about is a field with no way forward. */}
           {suggestions.length > 0 ? (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6, paddingTop: 9 }}>
               {suggestions.map((name) => (
@@ -184,7 +182,7 @@ function ClaimRow({
                   key={name}
                   onClick={(e) => {
                     e.stopPropagation();
-                    setText(name);
+                    submit(name);
                   }}
                   style={{
                     fontFamily: 'var(--serif)',
@@ -210,27 +208,6 @@ function ClaimRow({
               right · -{RECOGNITION_REFUND}
             </div>
           )}
-          <div style={{ paddingTop: 11 }}>
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                submit();
-              }}
-              className="mono"
-              style={{
-                fontSize: 11,
-                letterSpacing: '0.2em',
-                textTransform: 'uppercase',
-                whiteSpace: 'nowrap',
-                color: text.trim() ? 'var(--accent)' : 'var(--unknown)',
-                borderBottom: `1px solid ${text.trim() ? 'var(--accent)' : 'var(--rule)'}`,
-                paddingBottom: 3,
-                cursor: text.trim() ? 'pointer' : 'default',
-              }}
-            >
-              That's them
-            </button>
-          </div>
         </div>
       )}
     </div>

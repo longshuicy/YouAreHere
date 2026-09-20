@@ -208,7 +208,15 @@ export function Guess({
                 id="story"
                 className="field"
                 value={story}
-                onChange={(e) => setStory(e.target.value)}
+                onChange={(e) => {
+                  const next = e.target.value;
+                  setStory(next);
+                  const q = query.trim();
+                  // A name already picked from the list, then a world: that is
+                  // the other half of the same confirm as clicking a suggestion
+                  // after the world is known.
+                  if (next && q && suggestions.includes(q)) onGuess(next, q, resolve(q, next));
+                }}
               >
                 <option value="" disabled>
                   —
@@ -248,7 +256,10 @@ export function Guess({
                 {suggestions.map((name) => (
                   <button
                     key={name}
-                    onClick={() => setQuery(name)}
+                    onClick={() => {
+                      setQuery(name);
+                      if (story) onGuess(story, name, resolve(name, story));
+                    }}
                     style={{ fontFamily: 'var(--serif)', fontSize: 19, color: 'var(--body)', textAlign: 'left' }}
                   >
                     {name}
@@ -259,26 +270,7 @@ export function Guess({
               <div className="annot">Suggests after 2 letters · drawn from every world loaded</div>
             )}
 
-            {/* The commit sits under the field it commits, with its way out beside
-                it — not stranded at the far edge of the screen. */}
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: 28, marginTop: 22 }}>
-              <button
-                onClick={() => onGuess(story, query, resolve(query, story))}
-                disabled={!canSubmit}
-                className="mono"
-                style={{
-                  fontSize: 13,
-                  letterSpacing: '0.3em',
-                  textTransform: 'uppercase',
-                  padding: '14px 10px 10px 10px',
-                  minHeight: 44,
-                  color: canSubmit ? 'var(--accent)' : 'var(--unknown)',
-                  borderBottom: `2px solid ${canSubmit ? 'var(--accent)' : 'var(--rule)'}`,
-                  cursor: canSubmit ? 'pointer' : 'default',
-                }}
-              >
-                This is me
-              </button>
+            <div style={{ marginTop: 22 }}>
               <button className="action-quiet" onClick={onCancel} style={{ padding: '14px 0 10px 0' }}>
                 Keep looking
               </button>

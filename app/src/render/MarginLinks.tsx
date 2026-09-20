@@ -95,7 +95,7 @@ export function GiveUpLinks({
     >
       {onRevealStory && (
         <button type="button" className="annot-link" onClick={onRevealStory}>
-          Which world is this
+          Reveal world
         </button>
       )}
       {onReveal && (

@@ -11,7 +11,7 @@ const ROWS: Array<{ label: string; gloss: string; cost: string }> = [
   // Not attached to a node like the others — it is about the world, so it lives
   // in the margin. Listed here all the same, because a price that is only
   // discoverable by paying it is not a price.
-  { label: 'World', gloss: 'which world this is', cost: '2' },
+  { label: 'Reveal world', gloss: 'which world this is', cost: '2' },
   // The only row that can pay you, and the only one that can never charge you.
   // Listed last because it is not a purchase in either direction.
   { label: 'Claim', gloss: 'say who they are', cost: `-${RECOGNITION_REFUND}` },
