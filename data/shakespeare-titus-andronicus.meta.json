@@ -9,8 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Tamora’s lover"
    },
+   "line": "Tamora’s lover.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -28,8 +30,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A Roman nobleman"
    },
+   "line": "A Roman nobleman.",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -47,8 +51,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Younger son of the former emperor"
    },
+   "line": "Younger son of the former emperor.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -66,8 +72,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Captain"
    },
+   "line": "Captain.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -104,8 +112,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Count"
    },
+   "line": "Count.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -171,8 +181,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "His daughter"
    },
+   "line": "His daughter.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -209,8 +221,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Titus’s brother, a Roman tribune"
    },
+   "line": "Titus’s brother, a Roman tribune.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -247,8 +261,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Messenger"
+   },
+   "line": "Messenger."
   },
   "14": {
    "facts": {
@@ -276,8 +292,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "Nurse"
+   },
+   "line": "Nurse."
   },
   "16": {
    "facts": {
@@ -286,8 +304,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "His son"
    },
+   "line": "His son.",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -324,8 +344,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Elder son of the former Roman emperor, later emperor"
    },
+   "line": "Elder son of the former Roman emperor, later emperor.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -344,9 +366,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "role": "Queen"
+    "role": "Queen of the Goths, later empress"
    },
-   "line": "Queen.",
+   "line": "Queen of the Goths, later empress.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -364,8 +386,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A noble Roman general"
    },
+   "line": "A noble Roman general.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -383,8 +407,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "His grandson"
    },
+   "line": "His grandson.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -1757,8 +1783,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1768,9 +1793,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

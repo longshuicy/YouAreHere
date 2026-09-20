@@ -33,9 +33,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第52回。"
+   "line": "軍官。見於第52回。"
   },
   "3": {
    "facts": {
@@ -71,9 +72,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第61回。"
+   "line": "軍官。見於第61回。"
   },
   "6": {
    "facts": {
@@ -83,9 +85,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第70回、第71回。"
+   "line": "軍官。見於第70回、第71回。"
   },
   "7": {
    "facts": {
@@ -136,9 +139,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第41回、第42回。"
+   "line": "軍官。見於第41回、第42回。"
   },
   "11": {
    "facts": {
@@ -161,9 +165,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第52回。"
+   "line": "軍官。見於第52回。"
   },
   "13": {
    "facts": {
@@ -174,11 +179,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第87回、第88回。",
+   "line": "軍官。屬蜀漢。見於第87回、第88回。",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -260,9 +266,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於4回。"
+   "line": "軍官。見於4回。"
   },
   "19": {
    "facts": {
@@ -272,9 +279,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第27回、第28回。"
+   "line": "軍官。見於第27回、第28回。"
   },
   "20": {
    "facts": {
@@ -283,9 +291,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "家務工"
    },
-   "line": "見於第23回。"
+   "line": "家務工。見於第23回。"
   },
   "21": {
    "facts": {
@@ -294,9 +303,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第94回。"
+   "line": "軍官。見於第94回。"
   },
   "22": {
    "facts": {
@@ -368,9 +378,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "titles": [
+     "皇帝"
+    ]
    },
-   "line": "見於14回。"
+   "line": "皇帝。見於14回。"
   },
   "26": {
    "facts": {
@@ -514,9 +527,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "曲陽"
    },
-   "line": "見於第1回、第2回。"
+   "line": "曲陽出身。見於第1回、第2回。"
   },
   "37": {
    "facts": {
@@ -625,13 +639,13 @@
     "corpusSize": 120,
     "gender": "男",
     "titles": [
-     "州牧"
+     "昭烈帝"
     ],
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "州牧。屬蜀漢。見於62回。",
+   "line": "昭烈帝。屬蜀漢。見於62回。",
    "signals": {
     "lookAlikes": 1,
     "nearest": {
@@ -712,9 +726,10 @@
     "gender": "男",
     "affiliations": [
      "蜀漢"
-    ]
+    ],
+    "occupation": "武將"
    },
-   "line": "屬蜀漢。見於42回。",
+   "line": "武將。屬蜀漢。見於42回。",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -768,9 +783,13 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "武將",
+    "affiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "見於37回。",
+   "line": "武將。屬蜀漢。見於37回。",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -868,9 +887,16 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "titles": [
+     "魏王"
+    ],
+    "occupation": "丞相",
+    "affiliations": [
+     "魏"
+    ]
    },
-   "line": "見於81回。",
+   "line": "魏王。丞相。見於81回。",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -1141,9 +1167,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於10回。",
+   "line": "軍官。見於10回。",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -1170,9 +1197,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於10回。",
+   "line": "軍官。見於10回。",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -1294,9 +1322,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "61": {
    "facts": {
@@ -1331,9 +1360,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "武將"
    },
-   "line": "見於27回。",
+   "line": "武將。見於27回。",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -1820,9 +1850,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於16回。",
+   "line": "軍官。見於16回。",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -1924,9 +1955,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於14回。",
+   "line": "軍官。見於14回。",
    "signals": {
     "lookAlikes": 15,
     "nearest": {
@@ -1955,9 +1987,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於12回。",
+   "line": "軍官。見於12回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -2222,9 +2255,13 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "武將",
+    "affiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "見於42回。",
+   "line": "武將。屬蜀漢。見於42回。",
    "signals": {
     "lookAlikes": 1,
     "nearest": {
@@ -2248,9 +2285,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於7回。",
+   "line": "軍官。見於7回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -2294,9 +2332,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於13回。",
+   "line": "軍官。見於13回。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -2358,9 +2397,15 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "titles": [
+     "吳王"
+    ],
+    "affiliations": [
+     "吳"
+    ]
    },
-   "line": "見於45回。",
+   "line": "吳王。見於45回。",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -2446,12 +2491,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
-    "occupation": "謀士",
+    "occupation": "丞相",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "謀士。屬蜀漢。見於42回。",
+   "line": "丞相。屬蜀漢。見於42回。",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -2519,9 +2564,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第9回、第10回。",
+   "line": "軍官。見於第9回、第10回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -2540,9 +2586,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第9回、第10回。"
+   "line": "軍官。見於第9回、第10回。"
   },
   "104": {
    "facts": {
@@ -2596,9 +2643,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於18回。",
+   "line": "軍官。見於18回。",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -2788,9 +2836,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於9回。",
+   "line": "軍官。見於9回。",
    "signals": {
     "lookAlikes": 20,
     "nearest": {
@@ -2861,9 +2910,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於27回。",
+   "line": "軍官。見於27回。",
    "signals": {
     "lookAlikes": 24,
     "nearest": {
@@ -2888,9 +2938,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於8回。",
+   "line": "軍官。見於8回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -2920,9 +2971,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第10回、第14回。"
+   "line": "軍官。見於第10回、第14回。"
   },
   "117": {
    "facts": {
@@ -3006,9 +3058,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於6回。",
+   "line": "軍官。見於6回。",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -3040,9 +3093,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "123": {
    "facts": {
@@ -3052,9 +3106,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第11回、第12回。"
+   "line": "軍官。見於第11回、第12回。"
   },
   "124": {
    "facts": {
@@ -3064,9 +3119,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第11回、第12回。"
+   "line": "軍官。見於第11回、第12回。"
   },
   "125": {
    "facts": {
@@ -3104,11 +3160,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於29回。",
+   "line": "軍官。屬大魏。見於29回。",
    "signals": {
     "lookAlikes": 24,
     "nearest": {
@@ -3133,9 +3190,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於8回。",
+   "line": "軍官。見於8回。",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -3156,9 +3214,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於4回。",
+   "line": "軍官。見於4回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -3178,9 +3237,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "129": {
    "facts": {
@@ -3190,9 +3250,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第11回、第12回。"
+   "line": "軍官。見於第11回、第12回。"
   },
   "130": {
    "facts": {
@@ -3205,9 +3266,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於5回。"
+   "line": "軍官。見於5回。"
   },
   "131": {
    "facts": {
@@ -3221,9 +3283,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於6回。",
+   "line": "軍官。見於6回。",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -3244,9 +3307,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於4回。",
+   "line": "軍官。見於4回。",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -3271,9 +3335,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於8回。",
+   "line": "軍官。見於8回。",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -3358,9 +3423,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於30回。",
+   "line": "軍官。見於30回。",
    "signals": {
     "lookAlikes": 24,
     "nearest": {
@@ -3431,9 +3497,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。",
+   "line": "軍官。見於3回。",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -3478,11 +3545,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於27回。",
+   "line": "軍官。屬大魏。見於27回。",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -3529,9 +3597,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。",
+   "line": "軍官。見於3回。",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -3550,9 +3619,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第13回、第14回。"
+   "line": "軍官。見於第13回、第14回。"
   },
   "143": {
    "facts": {
@@ -3565,9 +3635,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於5回。",
+   "line": "軍官。見於5回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -3668,9 +3739,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於19回。",
+   "line": "軍官。見於19回。",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -3752,9 +3824,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於12回。",
+   "line": "軍官。見於12回。",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -3787,9 +3860,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於16回。",
+   "line": "軍官。見於16回。",
    "signals": {
     "lookAlikes": 20,
     "nearest": {
@@ -3818,9 +3892,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第15回。"
+   "line": "軍官。見於第15回。"
   },
   "155": {
    "facts": {
@@ -3836,9 +3911,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於8回。",
+   "line": "軍官。見於8回。",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -3870,9 +3946,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "158": {
    "facts": {
@@ -3910,9 +3987,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第15回。"
+   "line": "軍官。見於第15回。"
   },
   "160": {
    "facts": {
@@ -3928,9 +4006,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於8回。",
+   "line": "軍官。見於8回。",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -4043,9 +4122,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第15回、第17回。",
+   "line": "軍官。見於第15回、第17回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -4065,9 +4145,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。",
+   "line": "軍官。見於3回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -4088,9 +4169,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於4回。",
+   "line": "軍官。見於4回。",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -4109,9 +4191,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "官員"
    },
-   "line": "見於第16回、第17回。"
+   "line": "官員。見於第16回、第17回。"
   },
   "166": {
    "facts": {
@@ -4268,9 +4351,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第17回。",
+   "line": "軍官。見於第17回。",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -4290,9 +4374,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "174": {
    "facts": {
@@ -4303,9 +4388,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "175": {
    "facts": {
@@ -4316,9 +4402,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "176": {
    "facts": {
@@ -4329,9 +4416,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "177": {
    "facts": {
@@ -4433,9 +4521,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於4回。"
+   "line": "軍官。見於4回。"
   },
   "182": {
    "facts": {
@@ -4481,9 +4570,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "185": {
    "facts": {
@@ -4520,9 +4610,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "188": {
    "facts": {
@@ -4531,9 +4622,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第21回。"
+   "line": "軍官。見於第21回。"
   },
   "189": {
    "facts": {
@@ -4572,9 +4664,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。",
+   "line": "軍官。見於3回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -4611,11 +4704,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於19回。",
+   "line": "軍官。屬大魏。見於19回。",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -4634,9 +4728,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第22回、第23回。"
+   "line": "軍官。見於第22回、第23回。"
   },
   "193": {
    "facts": {
@@ -4697,9 +4792,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於4回。"
+   "line": "軍官。見於4回。"
   },
   "197": {
    "facts": {
@@ -4742,9 +4838,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "200": {
    "facts": {
@@ -4777,11 +4874,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於24回。",
+   "line": "軍官。屬蜀漢。見於24回。",
    "signals": {
     "lookAlikes": 24,
     "nearest": {
@@ -4824,9 +4922,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於15回。",
+   "line": "軍官。見於15回。",
    "signals": {
     "lookAlikes": 20,
     "nearest": {
@@ -5024,9 +5123,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。",
+   "line": "軍官。見於3回。",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -5046,9 +5146,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "211": {
    "facts": {
@@ -5059,9 +5160,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "212": {
    "facts": {
@@ -5091,9 +5193,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於4回。"
+   "line": "軍官。見於4回。"
   },
   "214": {
    "facts": {
@@ -5105,9 +5208,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於4回。"
+   "line": "軍官。見於4回。"
   },
   "215": {
    "facts": {
@@ -5165,9 +5269,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "218": {
    "facts": {
@@ -5231,9 +5336,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "新野縣"
    },
-   "line": "見於11回。"
+   "line": "新野縣出身。見於11回。"
   },
   "221": {
    "facts": {
@@ -5265,9 +5371,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於7回。",
+   "line": "軍官。見於7回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -5420,11 +5527,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於3回。"
+   "line": "軍官。屬吳國。見於3回。"
   },
   "229": {
    "facts": {
@@ -5489,11 +5597,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於20回。",
+   "line": "軍官。屬吳國。見於20回。",
    "signals": {
     "lookAlikes": 20,
     "nearest": {
@@ -5591,11 +5700,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於16回。",
+   "line": "軍官。屬吳國。見於16回。",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -5628,9 +5738,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於16回。",
+   "line": "軍官。見於16回。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -5679,9 +5790,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第38回、第39回。"
+   "line": "軍官。見於第38回、第39回。"
   },
   "237": {
    "facts": {
@@ -5783,11 +5895,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於35回。",
+   "line": "軍官。屬蜀漢。見於35回。",
    "signals": {
     "lookAlikes": 1,
     "nearest": {
@@ -5820,9 +5933,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第51回。"
+   "line": "軍官。見於第51回。"
   },
   "242": {
    "facts": {
@@ -5831,9 +5945,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第51回。"
+   "line": "軍官。見於第51回。"
   },
   "243": {
    "facts": {
@@ -5919,9 +6034,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於16回。",
+   "line": "軍官。見於16回。",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -5939,9 +6055,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第53回。"
+   "line": "軍官。見於第53回。"
   },
   "247": {
    "facts": {
@@ -5960,11 +6077,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於10回。",
+   "line": "軍官。屬大魏。見於10回。",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -6017,9 +6135,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於21回。",
+   "line": "軍官。見於21回。",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -6066,9 +6185,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於8回。",
+   "line": "軍官。見於8回。",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -6087,9 +6207,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第58回、第59回。"
+   "line": "軍官。見於第58回、第59回。"
   },
   "254": {
    "facts": {
@@ -6099,9 +6220,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第58回、第59回。"
+   "line": "軍官。見於第58回、第59回。"
   },
   "255": {
    "facts": {
@@ -6111,9 +6233,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第58回、第59回。"
+   "line": "軍官。見於第58回、第59回。"
   },
   "256": {
    "facts": {
@@ -6123,9 +6246,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第58回、第59回。"
+   "line": "軍官。見於第58回、第59回。"
   },
   "257": {
    "facts": {
@@ -6135,9 +6259,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第58回、第59回。"
+   "line": "軍官。見於第58回、第59回。"
   },
   "258": {
    "facts": {
@@ -6329,9 +6454,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於5回。",
+   "line": "軍官。見於5回。",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -6353,9 +6479,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於5回。",
+   "line": "軍官。見於5回。",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -6426,9 +6553,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於6回。",
+   "line": "軍官。見於6回。",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -6451,9 +6579,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於6回。",
+   "line": "軍官。見於6回。",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -6533,9 +6662,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第64回、第65回。"
+   "line": "軍官。見於第64回、第65回。"
   },
   "276": {
    "facts": {
@@ -6655,9 +6785,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第64回、第65回。"
+   "line": "軍官。見於第64回、第65回。"
   },
   "283": {
    "facts": {
@@ -6825,9 +6956,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第67回。"
+   "line": "軍官。見於第67回。"
   },
   "293": {
    "facts": {
@@ -6836,9 +6968,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第67回。"
+   "line": "軍官。見於第67回。"
   },
   "294": {
    "facts": {
@@ -6937,9 +7070,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於13回。",
+   "line": "軍官。見於13回。",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -6962,9 +7096,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於6回。"
+   "line": "軍官。見於6回。"
   },
   "302": {
    "facts": {
@@ -6976,11 +7111,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於3回。",
+   "line": "軍官。屬蜀漢。見於3回。",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -6998,9 +7134,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第71回。"
+   "line": "軍官。見於第71回。"
   },
   "304": {
    "facts": {
@@ -7027,9 +7164,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於19回。",
+   "line": "軍官。見於19回。",
    "signals": {
     "lookAlikes": 24,
     "nearest": {
@@ -7050,9 +7188,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於4回。"
+   "line": "軍官。見於4回。"
   },
   "306": {
    "facts": {
@@ -7065,9 +7204,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於5回。"
+   "line": "軍官。見於5回。"
   },
   "307": {
    "facts": {
@@ -7077,9 +7217,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第76回、第77回。"
+   "line": "軍官。見於第76回、第77回。"
   },
   "308": {
    "facts": {
@@ -7105,11 +7246,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於17回。",
+   "line": "軍官。屬蜀漢。見於17回。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -7141,9 +7283,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "311": {
    "facts": {
@@ -7186,9 +7329,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於3回。"
+   "line": "軍官。見於3回。"
   },
   "313": {
    "facts": {
@@ -7241,11 +7385,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於5回。"
+   "line": "軍官。屬蜀漢。見於5回。"
   },
   "317": {
    "facts": {
@@ -7257,11 +7402,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於3回。"
+   "line": "軍官。屬蜀漢。見於3回。"
   },
   "318": {
    "facts": {
@@ -7272,11 +7418,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第81回、第83回。"
+   "line": "軍官。屬蜀漢。見於第81回、第83回。"
   },
   "319": {
    "facts": {
@@ -7287,11 +7434,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第81回、第83回。"
+   "line": "軍官。屬蜀漢。見於第81回、第83回。"
   },
   "320": {
    "facts": {
@@ -7310,11 +7458,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於10回。",
+   "line": "軍官。屬蜀漢。見於10回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -7347,11 +7496,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於15回。",
+   "line": "軍官。屬蜀漢。見於15回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -7411,11 +7561,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第82回。"
+   "line": "軍官。屬吳國。見於第82回。"
   },
   "325": {
    "facts": {
@@ -7425,11 +7576,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第82回。"
+   "line": "軍官。屬吳國。見於第82回。"
   },
   "326": {
    "facts": {
@@ -7450,11 +7602,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於12回。",
+   "line": "軍官。屬大魏。見於12回。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -7473,11 +7626,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第84回。"
+   "line": "軍官。屬吳國。見於第84回。"
   },
   "328": {
    "facts": {
@@ -7670,11 +7824,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於14回。",
+   "line": "軍官。屬蜀漢。見於14回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -7742,11 +7897,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於3回。"
+   "line": "軍官。屬蜀漢。見於3回。"
   },
   "341": {
    "facts": {
@@ -7760,11 +7916,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於5回。"
+   "line": "軍官。屬蜀漢。見於5回。"
   },
   "342": {
    "facts": {
@@ -7802,11 +7959,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第91回、第113回。"
+   "line": "軍官。屬蜀漢。見於第91回、第113回。"
   },
   "344": {
    "facts": {
@@ -7818,11 +7976,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。",
+   "line": "軍官。屬大魏。見於3回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -7896,12 +8055,13 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "官員",
     "affiliations": [
      "蜀漢",
      "大魏"
     ]
    },
-   "line": "屬蜀漢。見於第92回、第93回。"
+   "line": "官員。屬蜀漢。見於第92回、第93回。"
   },
   "349": {
    "facts": {
@@ -7912,12 +8072,13 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "官員",
     "affiliations": [
      "蜀漢",
      "大魏"
     ]
    },
-   "line": "屬蜀漢。見於第92回、第93回。"
+   "line": "官員。屬蜀漢。見於第92回、第93回。"
   },
   "350": {
    "facts": {
@@ -7952,12 +8113,13 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢",
      "大魏"
     ]
    },
-   "line": "屬蜀漢。見於26回。",
+   "line": "軍官。屬蜀漢。見於26回。",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -8018,11 +8180,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "軍官。屬大魏。見於3回。"
   },
   "353": {
    "facts": {
@@ -8038,11 +8201,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於7回。"
+   "line": "軍官。屬大魏。見於7回。"
   },
   "354": {
    "facts": {
@@ -8066,11 +8230,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第98回。"
+   "line": "軍官。屬大魏。見於第98回。"
   },
   "356": {
    "facts": {
@@ -8080,11 +8245,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第96回。"
+   "line": "軍官。屬吳國。見於第96回。"
   },
   "357": {
    "facts": {
@@ -8122,11 +8288,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第97回。"
+   "line": "軍官。屬大魏。見於第97回。"
   },
   "360": {
    "facts": {
@@ -8141,11 +8308,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於6回。"
+   "line": "軍官。屬大魏。見於6回。"
   },
   "361": {
    "facts": {
@@ -8158,11 +8326,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於4回。"
+   "line": "軍官。屬大魏。見於4回。"
   },
   "362": {
    "facts": {
@@ -8189,11 +8358,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第99回、第100回。"
+   "line": "軍官。屬大魏。見於第99回、第100回。"
   },
   "364": {
    "facts": {
@@ -8212,11 +8382,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於10回。"
+   "line": "軍官。屬大魏。見於10回。"
   },
   "365": {
    "facts": {
@@ -8226,11 +8397,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "官員",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第103回。"
+   "line": "官員。屬大魏。見於第103回。"
   },
   "366": {
    "facts": {
@@ -8240,11 +8412,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第103回。"
+   "line": "軍官。屬大魏。見於第103回。"
   },
   "367": {
    "facts": {
@@ -8272,11 +8445,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "軍官。屬大魏。見於3回。"
   },
   "369": {
    "facts": {
@@ -8544,11 +8718,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "官員",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第107回。"
+   "line": "官員。屬大魏。見於第107回。"
   },
   "381": {
    "facts": {
@@ -8575,11 +8750,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於4回。"
+   "line": "軍官。屬大魏。見於4回。"
   },
   "383": {
    "facts": {
@@ -8596,11 +8772,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於8回。",
+   "line": "軍官。屬大魏。見於8回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -8629,11 +8806,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於11回。",
+   "line": "軍官。屬大魏。見於11回。",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -8683,11 +8861,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於3回。"
+   "line": "軍官。屬吳國。見於3回。"
   },
   "388": {
    "facts": {
@@ -8698,11 +8877,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第111回、第112回。"
+   "line": "軍官。屬吳國。見於第111回、第112回。"
   },
   "389": {
    "facts": {
@@ -8770,11 +8950,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "軍官。屬大魏。見於3回。"
   },
   "393": {
    "facts": {
@@ -8828,11 +9009,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於4回。"
+   "line": "軍官。屬大魏。見於4回。"
   },
   "396": {
    "facts": {
@@ -8846,11 +9028,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於5回。"
+   "line": "軍官。屬大魏。見於5回。"
   },
   "397": {
    "facts": {
@@ -8881,11 +9064,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於3回。"
+   "line": "軍官。屬吳國。見於3回。"
   },
   "399": {
    "facts": {
@@ -8896,11 +9080,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第111回、第112回。"
+   "line": "軍官。屬吳國。見於第111回、第112回。"
   },
   "400": {
    "facts": {
@@ -8912,11 +9097,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "軍官。屬大魏。見於3回。"
   },
   "401": {
    "facts": {
@@ -8928,11 +9114,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "軍官。屬大魏。見於3回。"
   },
   "402": {
    "facts": {
@@ -8946,12 +9133,13 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢",
      "大魏"
     ]
    },
-   "line": "屬蜀漢。見於5回。",
+   "line": "軍官。屬蜀漢。見於5回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -8974,11 +9162,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於5回。"
+   "line": "軍官。屬蜀漢。見於5回。"
   },
   "404": {
    "facts": {
@@ -9033,12 +9222,13 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢",
      "大魏"
     ]
    },
-   "line": "屬蜀漢。見於3回。"
+   "line": "軍官。屬蜀漢。見於3回。"
   },
   "407": {
    "facts": {
@@ -9050,12 +9240,13 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢",
      "大魏"
     ]
    },
-   "line": "屬蜀漢。見於3回。"
+   "line": "軍官。屬蜀漢。見於3回。"
   },
   "408": {
    "facts": {
@@ -9098,11 +9289,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第114回。"
+   "line": "軍官。屬大魏。見於第114回。"
   },
   "411": {
    "facts": {
@@ -9114,11 +9306,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "軍官。屬大魏。見於3回。"
   },
   "412": {
    "facts": {
@@ -9129,11 +9322,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第116回、第119回。"
+   "line": "軍官。屬大魏。見於第116回、第119回。"
   },
   "413": {
    "facts": {
@@ -9144,11 +9338,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第116回、第119回。"
+   "line": "軍官。屬大魏。見於第116回、第119回。"
   },
   "414": {
    "facts": {
@@ -9226,11 +9421,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第117回。"
+   "line": "軍官。屬吳國。見於第117回。"
   },
   "419": {
    "facts": {
@@ -9241,11 +9437,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第117回、第119回。"
+   "line": "軍官。屬吳國。見於第117回、第119回。"
   },
   "420": {
    "facts": {
@@ -9269,9 +9466,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第41回、第42回。"
+   "line": "軍官。見於第41回、第42回。"
   },
   "422": {
    "facts": {
@@ -9281,9 +9479,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍官"
    },
-   "line": "見於第87回、第88回。",
+   "line": "軍官。見於第87回、第88回。",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -9303,11 +9502,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第87回、第88回。"
+   "line": "軍官。屬蜀漢。見於第87回、第88回。"
   },
   "424": {
    "facts": {
@@ -9399,9 +9599,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "戰士"
    },
-   "line": "見於7回。",
+   "line": "戰士。見於7回。",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -9420,11 +9621,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第95回。"
+   "line": "軍官。屬大魏。見於第95回。"
   },
   "432": {
    "facts": {
@@ -9448,11 +9650,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第92回。"
+   "line": "軍官。屬大魏。見於第92回。"
   },
   "434": {
    "facts": {
@@ -9475,11 +9678,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "軍官",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第87回。"
+   "line": "軍官。屬蜀漢。見於第87回。"
   }
  },
  "edges": {
@@ -10775,9 +10979,12 @@
     ],
     "first": "第88回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第88回同頁。"
+   "line": "僅在第88回同頁。同屬蜀漢。"
   },
   "23-99": {
    "facts": {
@@ -12055,9 +12262,12 @@
     ],
     "first": "第1回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於6回，始於第1回。"
+   "line": "共見於6回，始於第1回。同屬蜀漢。"
   },
   "39-43": {
    "facts": {
@@ -12355,9 +12565,12 @@
     ],
     "first": "第52回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於3回，始於第52回。"
+   "line": "共見於3回，始於第52回。同屬蜀漢。"
   },
   "39-95": {
    "facts": {
@@ -13436,9 +13649,12 @@
     ],
     "first": "第1回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於13回，始於第1回。"
+   "line": "共見於13回，始於第1回。同屬蜀漢。"
   },
   "41-43": {
    "facts": {
@@ -13548,9 +13764,12 @@
     ],
     "first": "第31回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於14回，始於第31回。"
+   "line": "共見於14回，始於第31回。同屬蜀漢。"
   },
   "41-96": {
    "facts": {
@@ -14293,9 +14512,12 @@
     ],
     "first": "第28回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於5回，始於第28回。"
+   "line": "共見於5回，始於第28回。同屬蜀漢。"
   },
   "42-96": {
    "facts": {
@@ -14318,9 +14540,12 @@
     ],
     "first": "第56回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於2回，始於第56回。"
+   "line": "共見於2回，始於第56回。同屬蜀漢。"
   },
   "42-105": {
    "facts": {
@@ -14553,9 +14778,12 @@
     ],
     "first": "第27回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於3回，始於第27回。"
+   "line": "共見於3回，始於第27回。同屬蜀漢。"
   },
   "42-201": {
    "facts": {
@@ -14708,9 +14936,12 @@
     ],
     "first": "第56回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於4回，始於第56回。"
+   "line": "共見於4回，始於第56回。同屬蜀漢。"
   },
   "42-244": {
    "facts": {
@@ -14817,9 +15048,12 @@
     ],
     "first": "第81回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於2回，始於第81回。"
+   "line": "共見於2回，始於第81回。同屬蜀漢。"
   },
   "42-311": {
    "facts": {
@@ -14839,9 +15073,12 @@
     ],
     "first": "第87回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第87回同頁。"
+   "line": "僅在第87回同頁。同屬蜀漢。"
   },
   "42-430": {
    "facts": {
@@ -26265,9 +26502,12 @@
     ],
     "first": "第50回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於5回，始於第50回。"
+   "line": "共見於5回，始於第50回。同屬蜀漢。"
   },
   "92-105": {
    "facts": {
@@ -26432,9 +26672,12 @@
     ],
     "first": "第81回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第81回同頁。"
+   "line": "僅在第81回同頁。同屬蜀漢。"
   },
   "92-202": {
    "facts": {
@@ -26584,9 +26827,12 @@
     ],
     "first": "第60回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於12回，始於第60回。"
+   "line": "共見於12回，始於第60回。同屬蜀漢。"
   },
   "92-244": {
    "facts": {
@@ -26682,9 +26928,12 @@
     ],
     "first": "第87回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第87回同頁。"
+   "line": "僅在第87回同頁。同屬蜀漢。"
   },
   "92-274": {
    "facts": {
@@ -26720,9 +26969,12 @@
     ],
     "first": "第64回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於6回，始於第64回。"
+   "line": "共見於6回，始於第64回。同屬蜀漢。"
   },
   "92-287": {
    "facts": {
@@ -26734,9 +26986,12 @@
     ],
     "first": "第91回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於4回，始於第91回。"
+   "line": "共見於4回，始於第91回。同屬蜀漢。"
   },
   "92-289": {
    "facts": {
@@ -26793,9 +27048,12 @@
     ],
     "first": "第92回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於3回，始於第92回。"
+   "line": "共見於3回，始於第92回。同屬蜀漢。"
   },
   "92-315": {
    "facts": {
@@ -26804,9 +27062,12 @@
     ],
     "first": "第81回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第81回同頁。"
+   "line": "僅在第81回同頁。同屬蜀漢。"
   },
   "92-316": {
    "facts": {
@@ -26815,9 +27076,12 @@
     ],
     "first": "第81回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第81回同頁。"
+   "line": "僅在第81回同頁。同屬蜀漢。"
   },
   "92-317": {
    "facts": {
@@ -26826,9 +27090,12 @@
     ],
     "first": "第81回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第81回同頁。"
+   "line": "僅在第81回同頁。同屬蜀漢。"
   },
   "92-320": {
    "facts": {
@@ -26837,9 +27104,12 @@
     ],
     "first": "第84回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第84回同頁。"
+   "line": "僅在第84回同頁。同屬蜀漢。"
   },
   "92-321": {
    "facts": {
@@ -26850,9 +27120,12 @@
     ],
     "first": "第92回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於3回，始於第92回。"
+   "line": "共見於3回，始於第92回。同屬蜀漢。"
   },
   "92-326": {
    "facts": {
@@ -26874,9 +27147,12 @@
     ],
     "first": "第86回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於2回，始於第86回。"
+   "line": "共見於2回，始於第86回。同屬蜀漢。"
   },
   "92-331": {
    "facts": {
@@ -26896,9 +27172,12 @@
     ],
     "first": "第87回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第87回同頁。"
+   "line": "僅在第87回同頁。同屬蜀漢。"
   },
   "92-336": {
    "facts": {
@@ -26907,9 +27186,12 @@
     ],
     "first": "第87回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第87回同頁。"
+   "line": "僅在第87回同頁。同屬蜀漢。"
   },
   "92-338": {
    "facts": {
@@ -26929,9 +27211,12 @@
     ],
     "first": "第93回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第93回同頁。"
+   "line": "僅在第93回同頁。同屬蜀漢。"
   },
   "92-345": {
    "facts": {
@@ -26951,9 +27236,12 @@
     ],
     "first": "第93回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第93回同頁。"
+   "line": "僅在第93回同頁。同屬蜀漢。"
   },
   "92-350": {
    "facts": {
@@ -26963,9 +27251,12 @@
     ],
     "first": "第93回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "共見於2回，始於第93回。"
+   "line": "共見於2回，始於第93回。同屬蜀漢。"
   },
   "92-357": {
    "facts": {
@@ -26974,9 +27265,12 @@
     ],
     "first": "第97回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第97回同頁。"
+   "line": "僅在第97回同頁。同屬蜀漢。"
   },
   "92-358": {
    "facts": {
@@ -26985,9 +27279,12 @@
     ],
     "first": "第97回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第97回同頁。"
+   "line": "僅在第97回同頁。同屬蜀漢。"
   },
   "92-421": {
    "facts": {
@@ -27019,9 +27316,12 @@
     ],
     "first": "第88回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "蜀漢"
+    ]
    },
-   "line": "僅在第88回同頁。"
+   "line": "僅在第88回同頁。同屬蜀漢。"
   },
   "92-430": {
    "facts": {
@@ -54271,9 +54571,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

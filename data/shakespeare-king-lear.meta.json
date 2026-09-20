@@ -9,8 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Duke of Albany, Her husband"
    },
+   "line": "Duke of Albany, Her husband.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -28,8 +30,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Duke of Burgundy, Her suitor"
    },
+   "line": "Duke of Burgundy, Her suitor.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -47,8 +51,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "youngest daughter of Lear"
    },
+   "line": "Youngest daughter of Lear.",
    "signals": {
     "lookAlikes": 11,
     "nearest": {
@@ -66,8 +72,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Duke of Cornwall, Her husband"
    },
+   "line": "Duke of Cornwall, Her husband.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -86,9 +94,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Gentleman of Gloucester"
+    "role": "Gentleman of Gloucester’s household"
    },
-   "line": "Gentleman of Gloucester."
+   "line": "Gentleman of Gloucester’s household."
   },
   "5": {
    "facts": {
@@ -97,8 +105,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Doctor"
+   },
+   "line": "Doctor."
   },
   "6": {
    "facts": {
@@ -107,8 +117,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "son of Gloucester"
    },
+   "line": "Son of Gloucester.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -126,8 +138,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "illegitimate son of Gloucester"
    },
+   "line": "Illegitimate son of Gloucester.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -145,8 +159,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Fool"
    },
+   "line": "Fool.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -164,8 +180,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "King of France, Her suitor and then husband"
    },
+   "line": "King of France, Her suitor and then husband.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -183,8 +201,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Earl of Gloucester"
    },
+   "line": "Earl of Gloucester.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -202,8 +222,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Duchess of Albany"
    },
+   "line": "Duchess of Albany.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -221,8 +243,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Herald"
    },
+   "line": "Herald.",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -240,8 +264,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Earl of Kent"
    },
+   "line": "Earl of Kent.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -280,8 +306,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "A tenant of Gloucester’s"
+   },
+   "line": "A tenant of Gloucester’s."
   },
   "16": {
    "facts": {
@@ -290,8 +318,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Her steward"
    },
+   "line": "Her steward.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -309,8 +339,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Duchess of Cornwall"
    },
+   "line": "Duchess of Cornwall.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -1333,8 +1365,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1344,9 +1375,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

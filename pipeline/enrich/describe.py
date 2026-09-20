@@ -114,7 +114,9 @@ def _zh_unit(facts: dict) -> str:
 def _node_line_zh(facts: dict) -> str:
     clauses = []
     standing = None
-    if facts.get("titles"):
+    if facts.get("role"):
+        standing = facts["role"]
+    elif facts.get("titles"):
         standing = _title(facts["titles"][0])
     elif facts.get("occupation"):
         standing = _title(facts["occupation"])
@@ -124,6 +126,9 @@ def _node_line_zh(facts: dict) -> str:
         standing = f"{facts['homeworld']}出身"
     if standing:
         clauses.append(standing)
+    occupation = facts.get("occupation")
+    if occupation and occupation not in (standing or ""):
+        clauses.append(_title(occupation))
     affiliation = (facts.get("affiliations") or [None])[0]
     if affiliation and affiliation not in (standing or ""):
         clauses.append(f"屬{affiliation}")
@@ -173,14 +178,20 @@ def _standing(facts: dict) -> str:
     parts = []
 
     title = None
-    if facts.get("titles"):
+    if facts.get("role"):
+        title = _role_phrase(facts["role"])
+    elif facts.get("titles"):
         title = _title(facts["titles"][0])
-    elif facts.get("role"):
-        title = _title(facts["role"])
     elif facts.get("occupation"):
         title = _title(facts["occupation"])
     if title:
         parts.append(title)
+
+    occupation = facts.get("occupation")
+    if occupation and (not title or occupation.lower() not in title.lower()):
+        occ = _title(occupation)
+        if occ and occ.lower() not in ", ".join(parts).lower():
+            parts.append(occ)
 
     if facts.get("culture"):
         parts.append(_culture(facts["culture"]))
@@ -265,6 +276,12 @@ def _species(species: str) -> str:
         return species
     # "of the Wookiee" is wrong; species stands as an apposition.
     return species[:1].upper() + species[1:] if species else species
+
+
+def _role_phrase(role: str) -> str:
+    """Keep the whole Folger/identity line, including kinship."""
+    text = " ".join(role.split()).strip(" .;")
+    return _capitalise(text)
 
 
 def _title(title: str) -> str:

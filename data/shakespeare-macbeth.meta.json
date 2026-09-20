@@ -28,8 +28,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Commander, with Macbeth, of Duncan’s army"
    },
+   "line": "Commander, with Macbeth, of Duncan’s army.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -57,8 +59,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Duncan’s younger son",
     "gender": "Male"
    },
+   "line": "Duncan’s younger son.",
    "signals": {
     "lookAlikes": 25,
     "nearest": {
@@ -97,8 +101,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "His son"
+   },
+   "line": "His son."
   },
   "6": {
    "facts": {
@@ -117,8 +123,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "wife of Macbeth",
     "gender": "Female"
    },
+   "line": "Wife of Macbeth.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -155,10 +163,13 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Thane of Glamis",
     "gender": "Male",
-    "occupation": "murderer"
+    "titles": [
+     "Thane of Glamis"
+    ]
    },
-   "line": "Murderer.",
+   "line": "Thane of Glamis.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -176,8 +187,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A Scottish noble"
    },
+   "line": "A Scottish noble.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -195,8 +208,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "His elder son",
     "gender": "Male"
    },
+   "line": "His elder son.",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -253,11 +268,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Earl of Northumbria"
-    ]
+    "role": "Commander of the English forces",
+    "homeworld": "Scandinavia"
    },
-   "line": "Earl of Northumbria.",
+   "line": "Commander of the English forces, of Scandinavia.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -275,8 +289,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Siward’s son"
+   },
+   "line": "Siward’s son."
   }
  },
  "edges": {
@@ -870,8 +886,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -881,9 +896,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

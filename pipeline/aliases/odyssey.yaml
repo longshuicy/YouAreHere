@@ -1,0 +1,44 @@
+# Standing facts the Wikidata records under-specify (office buried in a
+# mythology gloss, or no office at all). Keyed by the name in the translation.
+
+odyssey:
+
+  Odysseus:
+    facts:
+      titles: [King of Ithaca]
+
+  Penelope:
+    facts:
+      titles: [Queen of Ithaca]
+
+  Telemachus:
+    facts:
+      titles: [Prince of Ithaca]
+
+  Laertes:
+    facts:
+      role: former king of Ithaca
+
+  Circe:
+    facts:
+      species: goddess
+
+  Calypso:
+    facts:
+      species: nymph
+
+  Polyphemus:
+    facts:
+      species: cyclops
+
+  Eumaeus:
+    facts:
+      occupation: swineherd
+
+  Phemius:
+    facts:
+      occupation: bard
+
+  Mentor:
+    facts:
+      occupation: counsellor

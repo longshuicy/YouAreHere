@@ -49,8 +49,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Duke of Milan and Prospero’s brother"
    },
+   "line": "Duke of Milan and Prospero’s brother.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -68,9 +70,9 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Servant"
+    "role": "A spirit, servant to Prospero"
    },
-   "line": "Servant.",
+   "line": "A spirit, servant to Prospero.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -108,9 +110,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Servant"
+    "role": "An inhabitant of the island, servant to Prospero"
    },
-   "line": "Servant.",
+   "line": "An inhabitant of the island, servant to Prospero.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -168,8 +170,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Councillor to Alonso and friend to Prospero"
    },
+   "line": "Councillor to Alonso and friend to Prospero.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -187,8 +191,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Prospero’s daughter"
    },
+   "line": "Prospero’s daughter.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -206,8 +212,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "rightful Duke of Milan"
    },
+   "line": "Rightful Duke of Milan.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -225,8 +233,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Alonso’s brother"
    },
+   "line": "Alonso’s brother.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -254,8 +264,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Alonso’s butler"
    },
+   "line": "Alonso’s butler.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -274,9 +286,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Servant"
+    "role": "Servant to Alonso"
    },
-   "line": "Servant.",
+   "line": "Servant to Alonso.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -1139,8 +1151,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1150,9 +1161,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

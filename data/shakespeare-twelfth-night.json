@@ -6,86 +6,86 @@
   {
    "i": 0,
    "n": "Curio",
-   "x": -316.1,
-   "y": -407.8
+   "x": -315.6,
+   "y": -409.6
   },
   {
    "i": 1,
    "n": "Valentine",
-   "x": -104.7,
+   "x": -100.7,
    "y": -600.0
   },
   {
    "i": 2,
    "n": "Sir Andrew Aguecheek",
-   "x": -9.3,
-   "y": 131.1
+   "x": -11.2,
+   "y": 103.0
   },
   {
    "i": 3,
    "n": "Antonio",
-   "x": 198.7,
-   "y": 80.6
+   "x": 214.9,
+   "y": 188.0
   },
   {
    "i": 4,
    "n": "Fabian",
-   "x": 66.6,
-   "y": 39.3
+   "x": 109.5,
+   "y": 84.0
   },
   {
    "i": 5,
    "n": "Fool",
-   "x": -134.6,
-   "y": 22.9
+   "x": -140.3,
+   "y": 17.8
   },
   {
    "i": 6,
    "n": "Malvolio",
-   "x": -127.0,
-   "y": 154.3
+   "x": -128.6,
+   "y": 155.2
   },
   {
    "i": 7,
    "n": "Maria",
-   "x": -147.6,
-   "y": 302.9
+   "x": -141.4,
+   "y": 317.5
   },
   {
    "i": 8,
    "n": "Olivia",
-   "x": 114.6,
-   "y": 203.4
+   "x": 94.8,
+   "y": 226.0
   },
   {
    "i": 9,
    "n": "Orsino",
-   "x": -4.1,
-   "y": -210.9
+   "x": -11.6,
+   "y": -211.2
   },
   {
    "i": 10,
    "n": "Priest",
-   "x": 297.8,
-   "y": 171.4
+   "x": 305.9,
+   "y": 19.6
   },
   {
    "i": 11,
    "n": "Sebastian",
-   "x": 211.0,
-   "y": -62.4
+   "x": 177.2,
+   "y": -55.8
   },
   {
    "i": 12,
    "n": "Sir Toby Belch",
-   "x": 6.0,
-   "y": 243.8
+   "x": -13.3,
+   "y": 228.8
   },
   {
    "i": 13,
    "n": "Viola Cesario",
-   "x": -51.4,
-   "y": -68.6
+   "x": -39.6,
+   "y": -63.3
   }
  ],
  "edges": [
@@ -697,6 +697,7 @@
     "Dropped group nodes (crowds, attendants) so a waking is always a person.",
     "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
     "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Applied a hand-maintained identity table covering 25 characters: display names, nicknames for the guess field, and disambiguators.",
     "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
     "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
     "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",

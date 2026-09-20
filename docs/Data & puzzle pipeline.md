@@ -285,13 +285,11 @@ It is still separate from the universe file for two reasons, neither of them spo
 
 **Sources must be merge-safe.** Enrichment material is combined with graph data that is CC BY-NC-SA, and ShareAlike forbids adding restrictions — so a CC BY-SA *work* cannot be folded into `/data`, because the result would need to be NonCommercial and not-NonCommercial at once. `License.can_merge_into()` encodes this and the emitter refuses any source that fails it.
 
-**CC BY-SA may be read, not copied.** Sources such as Wikipedia, Wookieepedia, and A Wiki of Ice and Fire may be consulted for factual research, but CC BY-SA text, descriptions, or other expressive material must not be copied or adapted into `/data`. Enrichment must consist of independently encoded discrete facts. Generated prose is composed from those facts, not paraphrased from source prose. That is why descriptions are *composed here from discrete facts* rather than copied: facts carry no licence, sentences do. The trap is copying expression, not learning a fact.
+**CC BY-SA may be read, not copied.** Wikipedia and the fan wikis may be consulted for facts. Their sentences must not be copied, and they must not be paraphrased: a rewrite of a CC BY-SA paragraph is still an adaptation of that paragraph, and ShareAlike cannot sit inside this NonCommercial data. Facts themselves carry no licence. Lines in the sidecar are composed here from discrete attributes — including original lines written from those attributes when a source has nothing useful. The identity table's `facts:` field is that overlay. There are no quotations from the novels: a database of them is systematic reproduction, which is not what fair use covers.
 
-For the same reason there are no quotations from the novels. A database of them is systematic reproduction of a living author's text, which is not what fair use covers, and the reveal loses nothing without it.
+**Ties get facts, not readings.** `Edge.segments` already records which books a tie appears in, so *first shared the page in A Storm of Swords* costs nothing and comes from data already shipped. Shared allegiance is stated as a fact about each character rather than a claim about the tie.
 
-**Ties get facts, not readings.** `Edge.segments` already records which books a tie appears in, so *first shared the page in A Storm of Swords* costs nothing and comes from data already shipped. Shared allegiance is stated as a fact about each character rather than a claim about the tie, because two men sworn to the same house may be enemies — the rule that a tie is not affection or alliance holds after the reveal too.
-
-**Matching is refused rather than guessed.** Where a display name is ambiguous in the source — there are genuinely two Daenerys Targaryens — enrichment is skipped unless the identity table pins an exact record with its `api` key. The same table handles characters the source files elsewhere: Hodor is listed under Walder.
+**Matching is refused when the name is ambiguous.** Two Daenerys Targaryens: skip unless the identity table pins an `api` key. Generic stations (poet, warlord, king-in-mythology) are kept; only junk labels are dropped. Kinship is kept. The table may also pin standing facts by display name for leads a source underspecifies.
 
 ### Validation
 

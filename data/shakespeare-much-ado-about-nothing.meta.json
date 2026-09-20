@@ -47,8 +47,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "niece of Leonato"
    },
+   "line": "Niece of Leonato.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -66,8 +68,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "lord of Padua"
    },
+   "line": "Lord of Padua.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -123,8 +127,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Count, A young lord from Florence"
    },
+   "line": "Count, A young lord from Florence.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -161,8 +167,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Master Constable in Messina"
    },
+   "line": "Master Constable in Messina.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -180,8 +188,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Don Pedro’s brother"
    },
+   "line": "Don Pedro’s brother.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -220,8 +230,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Friar"
    },
+   "line": "Friar.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -239,8 +251,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "His daughter"
    },
+   "line": "His daughter.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -258,8 +272,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Governor of Messina"
    },
+   "line": "Governor of Messina.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -353,8 +369,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Dogberry’s partner"
    },
+   "line": "Dogberry’s partner.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -409,8 +427,10 @@
      "Much Ado About Nothing"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Leader of the Watch"
    },
+   "line": "Leader of the Watch.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -1733,8 +1753,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1744,9 +1763,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

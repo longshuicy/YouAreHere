@@ -116,12 +116,17 @@ export interface MetaRecord {
 }
 
 /** The discrete attributes the sidecar holds for a character. Every field is
- * optional and most are absent outside the six enriched worlds. */
+ * optional; coverage is densest on the six richest worlds. */
 export interface NodeFacts {
   books?: string[];
   unit?: string;
   corpusSize?: number;
   gender?: string;
+  role?: string;
+  occupation?: string;
+  affiliations?: string[];
+  species?: string;
+  homeworld?: string;
   houses?: string[];
   titles?: string[];
   culture?: string;

@@ -227,7 +227,12 @@ def apply_identity_overrides(graph: CanonicalGraph, overrides: dict[str, dict]) 
     adapter guessed, and nobody finds out until a player cannot name someone.
     """
     known = {node.id for node in graph.nodes}
-    unknown = sorted(set(overrides) - known)
+    mutating = {
+        key
+        for key, override in overrides.items()
+        if any(field in override for field in ("name", "aliases", "qualifier", "wikidata", "api", "wikidataSearch"))
+    }
+    unknown = sorted(set(mutating) - known)
     if unknown:
         raise ValueError(
             f"{graph.id}: alias table names {len(unknown)} id(s) that are not in the graph: "

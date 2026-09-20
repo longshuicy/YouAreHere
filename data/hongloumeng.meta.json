@@ -356,11 +356,9 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
-    "titles": [
-     "主管"
-    ]
+    "occupation": "教師"
    },
-   "line": "主管。見於10回。",
+   "line": "教師。見於10回。",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -751,9 +749,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "見於49回。",
+   "line": "屬海棠詩社。見於49回。",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -864,9 +865,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "女",
-    "occupation": "畫家"
+    "occupation": "畫家",
+    "affiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "畫家。見於51回。",
+   "line": "畫家。屬海棠詩社。見於51回。",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -980,11 +984,11 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "女",
-    "titles": [
-     "主管"
+    "affiliations": [
+     "海棠詩社"
     ]
    },
-   "line": "主管。見於59回。",
+   "line": "屬海棠詩社。見於59回。",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -1440,9 +1444,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "家務工"
    },
-   "line": "見於6回。",
+   "line": "家務工。見於6回。",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -1462,9 +1467,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "家務工"
    },
-   "line": "見於3回。"
+   "line": "家務工。見於3回。"
   },
   "56": {
    "facts": {
@@ -1475,9 +1481,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "家務工"
    },
-   "line": "見於3回。"
+   "line": "家務工。見於3回。"
   },
   "57": {
    "facts": {
@@ -2012,9 +2019,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "occupation": "家務工"
    },
-   "line": "見於8回。",
+   "line": "家務工。見於8回。",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -2239,9 +2247,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "occupation": "家務工"
    },
-   "line": "見於4回。"
+   "line": "家務工。見於4回。"
   },
   "95": {
    "facts": {
@@ -2299,9 +2308,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "見於7回。",
+   "line": "屬海棠詩社。見於7回。",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -2326,9 +2338,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "見於8回。",
+   "line": "屬海棠詩社。見於8回。",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -2473,9 +2488,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "occupation": "家務工"
    },
-   "line": "見於第60回。"
+   "line": "家務工。見於第60回。"
   },
   "106": {
    "facts": {
@@ -2750,9 +2766,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "occupation": "家務工"
    },
-   "line": "見於第74回、第77回。"
+   "line": "家務工。見於第74回、第77回。"
   },
   "120": {
    "facts": {
@@ -2762,9 +2779,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "occupation": "家務工"
    },
-   "line": "見於第74回、第84回。"
+   "line": "家務工。見於第74回、第84回。"
   },
   "121": {
    "facts": {
@@ -2885,9 +2903,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "家務工"
    },
-   "line": "見於第86回、第91回。"
+   "line": "家務工。見於第86回、第91回。"
   },
   "127": {
    "facts": {
@@ -2950,9 +2969,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "家務工"
    },
-   "line": "見於6回。",
+   "line": "家務工。見於6回。",
    "signals": {
     "lookAlikes": 25,
     "nearest": {
@@ -3351,9 +3371,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "家務工"
    },
-   "line": "見於第24回、第52回。"
+   "line": "家務工。見於第24回、第52回。"
   },
   "147": {
    "facts": {
@@ -3686,9 +3707,13 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "role": "榮國府二爺",
+    "affiliations": [
+     "賈府"
+    ]
    },
-   "line": "見於73回。",
+   "line": "榮國府二爺。屬賈府。見於73回。",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -3786,9 +3811,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "女",
-    "occupation": "丫鬟"
+    "occupation": "丫鬟",
+    "affiliations": [
+     "賈府"
+    ]
    },
-   "line": "丫鬟。見於80回。",
+   "line": "丫鬟。屬賈府。見於80回。",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -4172,9 +4200,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "家務工"
    },
-   "line": "見於11回。",
+   "line": "家務工。見於11回。",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -4257,9 +4286,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "家務工"
    },
-   "line": "見於30回。",
+   "line": "家務工。見於30回。",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -4442,9 +4472,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "見於23回。",
+   "line": "屬海棠詩社。見於23回。",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -4821,9 +4854,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "見於17回。",
+   "line": "屬海棠詩社。見於17回。",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -4940,11 +4976,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "女",
-    "titles": [
-     "主管"
-    ]
+    "affiliations": [
+     "賈府"
+    ],
+    "role": "林家小姐"
    },
-   "line": "主管。見於88回。",
+   "line": "林家小姐。屬賈府。見於88回。",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -5063,9 +5100,13 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "賈府"
+    ],
+    "role": "榮國府當家"
    },
-   "line": "見於102回。",
+   "line": "榮國府當家。屬賈府。見於102回。",
    "signals": {
     "lookAlikes": 163,
     "nearest": {
@@ -5188,9 +5229,13 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "role": "榮國府夫人",
+    "affiliations": [
+     "賈府"
+    ]
    },
-   "line": "見於106回。",
+   "line": "榮國府夫人。屬賈府。見於106回。",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -5316,9 +5361,13 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "role": "賈府太君",
+    "affiliations": [
+     "賈府"
+    ]
    },
-   "line": "見於109回。",
+   "line": "賈府太君。見於109回。",
    "signals": {
     "lookAlikes": 163,
     "nearest": {
@@ -5425,9 +5474,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "見於61回。",
+   "line": "屬海棠詩社。見於61回。",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -5718,9 +5770,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "見於45回。",
+   "line": "屬海棠詩社。見於45回。",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -5767,9 +5822,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "見於30回。",
+   "line": "屬海棠詩社。見於30回。",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -5886,9 +5944,13 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "affiliations": [
+     "賈府"
+    ],
+    "role": "薛家小姐"
    },
-   "line": "見於100回。",
+   "line": "薛家小姐。屬賈府。見於100回。",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -6065,9 +6127,13 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "affiliations": [
+     "賈府"
+    ],
+    "role": "榮國府公子"
    },
-   "line": "見於113回。",
+   "line": "榮國府公子。屬賈府。見於113回。",
    "signals": {
     "lookAlikes": 36,
     "nearest": {
@@ -6115,9 +6181,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "女"
+    "gender": "女",
+    "occupation": "家務工"
    },
-   "line": "見於15回。",
+   "line": "家務工。見於15回。",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -11817,9 +11884,12 @@
     ],
     "first": "第2回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於24回，始於第2回。"
+   "line": "共見於24回，始於第2回。同屬海棠詩社。"
   },
   "27-30": {
    "facts": {
@@ -11852,9 +11922,12 @@
     ],
     "first": "第16回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於13回，始於第16回。"
+   "line": "共見於13回，始於第16回。同屬海棠詩社。"
   },
   "27-37": {
    "facts": {
@@ -12046,9 +12119,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於3回，始於第49回。"
+   "line": "共見於3回，始於第49回。同屬海棠詩社。"
   },
   "27-98": {
    "facts": {
@@ -12059,9 +12135,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於3回，始於第49回。"
+   "line": "共見於3回，始於第49回。同屬海棠詩社。"
   },
   "27-99": {
    "facts": {
@@ -12292,9 +12371,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於7回，始於第49回。"
+   "line": "共見於7回，始於第49回。同屬海棠詩社。"
   },
   "27-175": {
    "facts": {
@@ -12355,9 +12437,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於6回，始於第49回。"
+   "line": "共見於6回，始於第49回。同屬海棠詩社。"
   },
   "27-182": {
    "facts": {
@@ -12497,9 +12582,12 @@
     ],
     "first": "第2回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於24回，始於第2回。"
+   "line": "共見於24回，始於第2回。同屬海棠詩社。"
   },
   "27-190": {
    "facts": {
@@ -12541,9 +12629,12 @@
     ],
     "first": "第20回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於8回，始於第20回。"
+   "line": "共見於8回，始於第20回。同屬海棠詩社。"
   },
   "27-193": {
    "facts": {
@@ -12556,9 +12647,12 @@
     ],
     "first": "第27回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於5回，始於第27回。"
+   "line": "共見於5回，始於第27回。同屬海棠詩社。"
   },
   "27-194": {
    "facts": {
@@ -12968,9 +13062,12 @@
     ],
     "first": "第27回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於17回，始於第27回。"
+   "line": "共見於17回，始於第27回。同屬海棠詩社。"
   },
   "29-37": {
    "facts": {
@@ -13180,9 +13277,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於2回，始於第49回。"
+   "line": "共見於2回，始於第49回。同屬海棠詩社。"
   },
   "29-98": {
    "facts": {
@@ -13192,9 +13292,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於2回，始於第49回。"
+   "line": "共見於2回，始於第49回。同屬海棠詩社。"
   },
   "29-99": {
    "facts": {
@@ -13406,9 +13509,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於7回，始於第49回。"
+   "line": "共見於7回，始於第49回。同屬海棠詩社。"
   },
   "29-175": {
    "facts": {
@@ -13468,9 +13574,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於6回，始於第49回。"
+   "line": "共見於6回，始於第49回。同屬海棠詩社。"
   },
   "29-182": {
    "facts": {
@@ -13607,9 +13716,12 @@
     ],
     "first": "第2回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於26回，始於第2回。"
+   "line": "共見於26回，始於第2回。同屬海棠詩社。"
   },
   "29-189": {
    "facts": {
@@ -13654,9 +13766,12 @@
     ],
     "first": "第20回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於11回，始於第20回。"
+   "line": "共見於11回，始於第20回。同屬海棠詩社。"
   },
   "29-193": {
    "facts": {
@@ -13669,9 +13784,12 @@
     ],
     "first": "第27回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於5回，始於第27回。"
+   "line": "共見於5回，始於第27回。同屬海棠詩社。"
   },
   "29-194": {
    "facts": {
@@ -14439,9 +14557,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於3回，始於第49回。"
+   "line": "共見於3回，始於第49回。同屬海棠詩社。"
   },
   "31-98": {
    "facts": {
@@ -14453,9 +14574,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於4回，始於第49回。"
+   "line": "共見於4回，始於第49回。同屬海棠詩社。"
   },
   "31-99": {
    "facts": {
@@ -14660,9 +14784,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於7回，始於第49回。"
+   "line": "共見於7回，始於第49回。同屬海棠詩社。"
   },
   "31-174": {
    "facts": {
@@ -14733,9 +14860,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於8回，始於第49回。"
+   "line": "共見於8回，始於第49回。同屬海棠詩社。"
   },
   "31-182": {
    "facts": {
@@ -14925,9 +15055,12 @@
     ],
     "first": "第27回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於28回，始於第27回。"
+   "line": "共見於28回，始於第27回。同屬海棠詩社。"
   },
   "31-190": {
    "facts": {
@@ -14975,9 +15108,12 @@
     ],
     "first": "第22回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於10回，始於第22回。"
+   "line": "共見於10回，始於第22回。同屬海棠詩社。"
   },
   "31-193": {
    "facts": {
@@ -14988,9 +15124,12 @@
     ],
     "first": "第27回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於3回，始於第27回。"
+   "line": "共見於3回，始於第27回。同屬海棠詩社。"
   },
   "31-194": {
    "facts": {
@@ -24472,9 +24611,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於6回，始於第49回。"
+   "line": "共見於6回，始於第49回。同屬海棠詩社。"
   },
   "97-99": {
    "facts": {
@@ -24519,9 +24661,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於3回，始於第49回。"
+   "line": "共見於3回，始於第49回。同屬海棠詩社。"
   },
   "97-180": {
    "facts": {
@@ -24534,9 +24679,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於5回，始於第49回。"
+   "line": "共見於5回，始於第49回。同屬海棠詩社。"
   },
   "97-182": {
    "facts": {
@@ -24582,9 +24730,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於3回，始於第49回。"
+   "line": "共見於3回，始於第49回。同屬海棠詩社。"
   },
   "97-191": {
    "facts": {
@@ -24605,9 +24756,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於2回，始於第49回。"
+   "line": "共見於2回，始於第49回。同屬海棠詩社。"
   },
   "97-193": {
    "facts": {
@@ -24616,9 +24770,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "僅在第49回同頁。"
+   "line": "僅在第49回同頁。同屬海棠詩社。"
   },
   "97-194": {
    "facts": {
@@ -24688,9 +24845,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於2回，始於第49回。"
+   "line": "共見於2回，始於第49回。同屬海棠詩社。"
   },
   "98-180": {
    "facts": {
@@ -24702,9 +24862,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於4回，始於第49回。"
+   "line": "共見於4回，始於第49回。同屬海棠詩社。"
   },
   "98-182": {
    "facts": {
@@ -24760,9 +24923,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於3回，始於第49回。"
+   "line": "共見於3回，始於第49回。同屬海棠詩社。"
   },
   "98-191": {
    "facts": {
@@ -24782,9 +24948,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "僅在第49回同頁。"
+   "line": "僅在第49回同頁。同屬海棠詩社。"
   },
   "98-193": {
    "facts": {
@@ -24793,9 +24962,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "僅在第49回同頁。"
+   "line": "僅在第49回同頁。同屬海棠詩社。"
   },
   "98-194": {
    "facts": {
@@ -30462,9 +30634,12 @@
     ],
     "first": "第25回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於2回，始於第25回。"
+   "line": "共見於2回，始於第25回。同屬賈府。"
   },
   "154-158": {
    "facts": {
@@ -30760,9 +30935,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於6回，始於第3回。"
+   "line": "共見於6回，始於第3回。同屬賈府。"
   },
   "154-183": {
    "facts": {
@@ -30804,9 +30982,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於34回，始於第3回。"
+   "line": "共見於34回，始於第3回。同屬賈府。"
   },
   "154-184": {
    "facts": {
@@ -30834,9 +31015,12 @@
     ],
     "first": "第7回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於20回，始於第7回。"
+   "line": "共見於20回，始於第7回。同屬賈府。"
   },
   "154-185": {
    "facts": {
@@ -30870,9 +31054,12 @@
     ],
     "first": "第12回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於26回，始於第12回。"
+   "line": "共見於26回，始於第12回。同屬賈府。"
   },
   "154-186": {
    "facts": {
@@ -30935,9 +31122,12 @@
     ],
     "first": "第101回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於4回，始於第101回。"
+   "line": "共見於4回，始於第101回。同屬賈府。"
   },
   "154-195": {
    "facts": {
@@ -30977,9 +31167,12 @@
     ],
     "first": "第7回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於18回，始於第7回。"
+   "line": "共見於18回，始於第7回。同屬賈府。"
   },
   "154-198": {
    "facts": {
@@ -31227,9 +31420,12 @@
     ],
     "first": "第20回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於28回，始於第20回。"
+   "line": "共見於28回，始於第20回。同屬賈府。"
   },
   "155-183": {
    "facts": {
@@ -31250,9 +31446,12 @@
     ],
     "first": "第31回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於13回，始於第31回。"
+   "line": "共見於13回，始於第31回。同屬賈府。"
   },
   "155-184": {
    "facts": {
@@ -31282,9 +31481,12 @@
     ],
     "first": "第9回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於22回，始於第9回。"
+   "line": "共見於22回，始於第9回。同屬賈府。"
   },
   "155-185": {
    "facts": {
@@ -31324,9 +31526,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於32回，始於第3回。"
+   "line": "共見於32回，始於第3回。同屬賈府。"
   },
   "155-186": {
    "facts": {
@@ -31517,9 +31722,12 @@
     ],
     "first": "第21回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於26回，始於第21回。"
+   "line": "共見於26回，始於第21回。同屬賈府。"
   },
   "155-195": {
    "facts": {
@@ -31604,9 +31812,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於65回，始於第3回。"
+   "line": "共見於65回，始於第3回。同屬賈府。"
   },
   "155-198": {
    "facts": {
@@ -34286,9 +34497,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於6回，始於第49回。"
+   "line": "共見於6回，始於第49回。同屬海棠詩社。"
   },
   "171-182": {
    "facts": {
@@ -34373,9 +34587,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於12回，始於第49回。"
+   "line": "共見於12回，始於第49回。同屬海棠詩社。"
   },
   "171-190": {
    "facts": {
@@ -34408,9 +34625,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於14回，始於第49回。"
+   "line": "共見於14回，始於第49回。同屬海棠詩社。"
   },
   "171-193": {
    "facts": {
@@ -34423,9 +34643,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於5回，始於第49回。"
+   "line": "共見於5回，始於第49回。同屬海棠詩社。"
   },
   "171-194": {
    "facts": {
@@ -35626,9 +35849,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於7回，始於第49回。"
+   "line": "共見於7回，始於第49回。同屬海棠詩社。"
   },
   "180-189": {
    "facts": {
@@ -35678,9 +35904,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於6回，始於第49回。"
+   "line": "共見於6回，始於第49回。同屬海棠詩社。"
   },
   "180-193": {
    "facts": {
@@ -35691,9 +35920,12 @@
     ],
     "first": "第49回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於3回，始於第49回。"
+   "line": "共見於3回，始於第49回。同屬海棠詩社。"
   },
   "180-194": {
    "facts": {
@@ -35769,9 +36001,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於31回，始於第3回。"
+   "line": "共見於31回，始於第3回。同屬賈府。"
   },
   "182-184": {
    "facts": {
@@ -35804,9 +36039,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於25回，始於第3回。"
+   "line": "共見於25回，始於第3回。同屬賈府。"
   },
   "182-185": {
    "facts": {
@@ -35852,9 +36090,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於38回，始於第3回。"
+   "line": "共見於38回，始於第3回。同屬賈府。"
   },
   "182-186": {
    "facts": {
@@ -36084,9 +36325,12 @@
     ],
     "first": "第4回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於56回，始於第4回。"
+   "line": "共見於56回，始於第4回。同屬賈府。"
   },
   "182-195": {
    "facts": {
@@ -36170,9 +36414,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於65回，始於第3回。"
+   "line": "共見於65回，始於第3回。同屬賈府。"
   },
   "182-198": {
    "facts": {
@@ -36249,9 +36496,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於57回，始於第3回。"
+   "line": "共見於57回，始於第3回。同屬賈府。"
   },
   "183-185": {
    "facts": {
@@ -36322,9 +36572,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於63回，始於第3回。"
+   "line": "共見於63回，始於第3回。同屬賈府。"
   },
   "183-186": {
    "facts": {
@@ -36514,9 +36767,12 @@
     ],
     "first": "第8回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於31回，始於第8回。"
+   "line": "共見於31回，始於第8回。同屬賈府。"
   },
   "183-195": {
    "facts": {
@@ -36584,9 +36840,12 @@
     ],
     "first": "第7回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於49回，始於第7回。"
+   "line": "共見於49回，始於第7回。同屬賈府。"
   },
   "183-198": {
    "facts": {
@@ -36692,9 +36951,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於80回，始於第3回。"
+   "line": "共見於80回，始於第3回。同屬賈府。"
   },
   "184-186": {
    "facts": {
@@ -36853,9 +37115,12 @@
     ],
     "first": "第7回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於38回，始於第7回。"
+   "line": "共見於38回，始於第7回。同屬賈府。"
   },
   "184-195": {
    "facts": {
@@ -36934,9 +37199,12 @@
     ],
     "first": "第7回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於58回，始於第7回。"
+   "line": "共見於58回，始於第7回。同屬賈府。"
   },
   "184-198": {
    "facts": {
@@ -37173,9 +37441,12 @@
     ],
     "first": "第8回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於39回，始於第8回。"
+   "line": "共見於39回，始於第8回。同屬賈府。"
   },
   "185-195": {
    "facts": {
@@ -37277,9 +37548,12 @@
     ],
     "first": "第3回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於81回，始於第3回。"
+   "line": "共見於81回，始於第3回。同屬賈府。"
   },
   "185-198": {
    "facts": {
@@ -37412,9 +37686,12 @@
     ],
     "first": "第20回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於16回，始於第20回。"
+   "line": "共見於16回，始於第20回。同屬海棠詩社。"
   },
   "187-193": {
    "facts": {
@@ -37427,9 +37704,12 @@
     ],
     "first": "第27回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於5回，始於第27回。"
+   "line": "共見於5回，始於第27回。同屬海棠詩社。"
   },
   "187-194": {
    "facts": {
@@ -37828,9 +38108,12 @@
     ],
     "first": "第33回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "海棠詩社"
+    ]
    },
-   "line": "共見於8回，始於第33回。"
+   "line": "共見於8回，始於第33回。同屬海棠詩社。"
   },
   "192-194": {
    "facts": {
@@ -38091,9 +38374,12 @@
     ],
     "first": "第7回",
     "unit": "chapter",
-    "corpusSize": 120
+    "corpusSize": 120,
+    "sharedAffiliations": [
+     "賈府"
+    ]
    },
-   "line": "共見於67回，始於第7回。"
+   "line": "共見於67回，始於第7回。同屬賈府。"
   },
   "194-198": {
    "facts": {
@@ -38191,9 +38477,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

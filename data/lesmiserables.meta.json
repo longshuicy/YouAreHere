@@ -254,9 +254,10 @@
     ],
     "unit": "volume",
     "corpusSize": 5,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "lady of the Rue Plumet"
    },
-   "line": "Appears in four volumes.",
+   "line": "Lady of the Rue Plumet. Appears in four volumes.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -421,9 +422,9 @@
     "unit": "volume",
     "corpusSize": 5,
     "gender": "Female",
-    "occupation": "prostitute"
+    "occupation": "factory worker"
    },
-   "line": "Prostitute. Appears in Volume 1.",
+   "line": "Factory worker. Appears in Volume 1.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -606,10 +607,10 @@
     ],
     "unit": "volume",
     "corpusSize": 5,
-    "occupation": "police officer",
+    "occupation": "inspector",
     "gender": "Male"
    },
-   "line": "Police officer. Appears in all five volumes.",
+   "line": "Inspector. Appears in all five volumes.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -673,9 +674,10 @@
     ],
     "unit": "volume",
     "corpusSize": 5,
+    "role": "Judge of Douai",
     "occupation": "judge"
    },
-   "line": "Judge. Appears in Volume 1.",
+   "line": "Judge of Douai. Appears in Volume 1.",
    "signals": {
     "lookAlikes": 33,
     "nearest": {
@@ -697,10 +699,10 @@
     ],
     "unit": "volume",
     "corpusSize": 5,
-    "occupation": "thief",
+    "occupation": "former convict",
     "gender": "Male"
    },
-   "line": "Thief. Appears in all five volumes.",
+   "line": "Former convict. Appears in all five volumes.",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -947,9 +949,10 @@
     ],
     "unit": "volume",
     "corpusSize": 5,
+    "role": "Lieutenant",
     "occupation": "soldier"
    },
-   "line": "Soldier. Appears in Volume 3 and Volume 4."
+   "line": "Lieutenant, soldier. Appears in Volume 3 and Volume 4."
   },
   "50": {
    "facts": {
@@ -3717,9 +3720,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

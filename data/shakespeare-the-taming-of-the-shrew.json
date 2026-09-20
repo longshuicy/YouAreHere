@@ -6,110 +6,110 @@
   {
    "i": 0,
    "n": "Baptista Minola",
-   "x": 122.1,
-   "y": -384.7
+   "x": 129.9,
+   "y": -383.6
   },
   {
    "i": 1,
    "n": "Bianca",
-   "x": -1.9,
-   "y": -372.2
+   "x": 3.1,
+   "y": -374.7
   },
   {
    "i": 2,
    "n": "Biondello",
-   "x": 164.2,
-   "y": -174.0
+   "x": 166.0,
+   "y": -173.9
   },
   {
    "i": 3,
    "n": "Curtis",
-   "x": -64.8,
-   "y": 397.3
+   "x": -67.5,
+   "y": 398.3
   },
   {
    "i": 4,
    "n": "Gremio",
-   "x": -99.0,
-   "y": -310.2
+   "x": -94.9,
+   "y": -311.6
   },
   {
    "i": 5,
    "n": "Grumio",
-   "x": -67.7,
-   "y": 94.1
+   "x": -69.2,
+   "y": 94.2
   },
   {
    "i": 6,
    "n": "Hortensio",
-   "x": -116.7,
-   "y": -207.9
+   "x": -119.6,
+   "y": -210.7
   },
   {
    "i": 7,
    "n": "Katherine",
-   "x": -24.4,
-   "y": -33.6
+   "x": -24.5,
+   "y": -33.1
   },
   {
    "i": 8,
    "n": "Lucentio",
-   "x": 133.2,
-   "y": -276.5
+   "x": 129.5,
+   "y": -274.7
   },
   {
    "i": 9,
    "n": "Petruchio",
-   "x": 72.1,
-   "y": 17.8
+   "x": 72.6,
+   "y": 17.6
   },
   {
    "i": 10,
    "n": "Joseph",
-   "x": 86.8,
-   "y": 538.4
+   "x": 85.5,
+   "y": 539.1
   },
   {
    "i": 11,
    "n": "Nathaniel",
-   "x": -84.9,
-   "y": 571.2
+   "x": -86.3,
+   "y": 572.6
   },
   {
    "i": 12,
    "n": "Nicholas",
-   "x": 166.0,
-   "y": 407.0
+   "x": 164.1,
+   "y": 407.2
   },
   {
    "i": 13,
    "n": "Peter",
-   "x": -287.6,
-   "y": 342.2
+   "x": -290.2,
+   "y": 341.5
   },
   {
    "i": 14,
    "n": "Phillip",
-   "x": -243.3,
-   "y": 491.8
+   "x": -244.7,
+   "y": 491.2
   },
   {
    "i": 15,
    "n": "Christopher Sly",
-   "x": -69.1,
+   "x": -68.2,
    "y": -600.0
   },
   {
    "i": 16,
    "n": "Tranio",
-   "x": 19.8,
-   "y": -219.5
+   "x": 17.4,
+   "y": -219.6
   },
   {
    "i": 17,
    "n": "Vincentio",
-   "x": 295.1,
-   "y": -281.3
+   "x": 297.0,
+   "y": -279.8
   }
  ],
  "edges": [
@@ -945,6 +945,7 @@
     "Dropped group nodes (crowds, attendants) so a waking is always a person.",
     "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
     "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Applied a hand-maintained identity table covering 25 characters: display names, nicknames for the guess field, and disambiguators.",
     "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
     "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
     "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",

@@ -12,9 +12,10 @@
     "gender": "Male",
     "titles": [
      "Roman governor"
-    ]
+    ],
+    "homeworld": "Istria"
    },
-   "line": "Roman governor. Appears in Antony and Cleopatra.",
+   "line": "Roman governor, of Istria. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -53,9 +54,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "teacher"
+    "role": "Antony’sAmbassador to Caesar"
    },
-   "line": "Teacher. Appears in Antony and Cleopatra.",
+   "line": "Antony’sAmbassador to Caesar. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -74,12 +75,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "A triumvir of Rome",
     "gender": "Male",
-    "titles": [
-     "king consort"
-    ]
+    "affiliations": [
+     "Antony and Cleopatra"
+    ],
+    "homeworld": "Rome"
    },
-   "line": "King consort. Appears in all two plays.",
+   "line": "A triumvir of Rome, of Rome, of the Antony and Cleopatra. Appears in all two plays.",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -97,9 +100,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "homeworld": "Knidos"
    },
-   "line": "Appears in Julius Caesar.",
+   "line": "Of Knidos. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -174,9 +178,13 @@
     "gender": "Male",
     "titles": [
      "Roman dictator"
-    ]
+    ],
+    "affiliations": [
+     "First Triumvirate"
+    ],
+    "homeworld": "Rome"
    },
-   "line": "Roman dictator. Appears in Julius Caesar.",
+   "line": "Roman dictator, of Rome, of the First Triumvirate. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -194,9 +202,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "His wife",
+    "homeworld": "Rome"
    },
-   "line": "Appears in Julius Caesar.",
+   "line": "His wife, of Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -217,9 +227,10 @@
     "gender": "Male",
     "titles": [
      "consul suffectus"
-    ]
+    ],
+    "homeworld": "Ancient Rome"
    },
-   "line": "Consul suffectus. Appears in Antony and Cleopatra."
+   "line": "Consul suffectus, of Ancient Rome. Appears in Antony and Cleopatra."
   },
   "11": {
    "facts": {
@@ -231,9 +242,10 @@
     "gender": "Male",
     "titles": [
      "ancient Roman senator"
-    ]
+    ],
+    "homeworld": "Rome"
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "line": "Ancient Roman senator, of Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -254,9 +266,10 @@
     "gender": "Male",
     "titles": [
      "tribune of the plebs"
-    ]
+    ],
+    "homeworld": "Ancient Rome"
    },
-   "line": "Tribune of the plebs. Appears in Julius Caesar.",
+   "line": "Tribune of the plebs, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -275,9 +288,12 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "occupation": "lady's maid"
+    "occupation": "lady's maid",
+    "affiliations": [
+     "Ptolemaic Kingdom"
+    ]
    },
-   "line": "Lady's maid. Appears in Antony and Cleopatra.",
+   "line": "Lady's maid, of the Ptolemaic Kingdom. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -298,9 +314,10 @@
     "gender": "Male",
     "titles": [
      "quaestor"
-    ]
+    ],
+    "homeworld": "Arpino"
    },
-   "line": "Quaestor. Appears in Julius Caesar."
+   "line": "Quaestor, of Arpino. Appears in Julius Caesar."
   },
   "15": {
    "facts": {
@@ -310,9 +327,16 @@
     "unit": "play",
     "corpusSize": 37,
     "role": "Queen of Egypt",
-    "gender": "Female"
+    "gender": "Female",
+    "species": "Greeks in Egypt",
+    "affiliations": [
+     "Three Beauties of the World",
+     "Antony and Cleopatra",
+     "Ptolemaic Kingdom"
+    ],
+    "homeworld": "Alexandria"
    },
-   "line": "Queen of Egypt. Appears in Antony and Cleopatra.",
+   "line": "Queen of Egypt, Greeks in Egypt, of Alexandria, of the Three Beauties of the World. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -353,9 +377,10 @@
     "gender": "Male",
     "titles": [
      "Roman governor"
-    ]
+    ],
+    "homeworld": "Ancient Rome"
    },
-   "line": "Roman governor. Appears in Julius Caesar.",
+   "line": "Roman governor, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -407,9 +432,10 @@
     "gender": "Male",
     "titles": [
      "ancient Roman senator"
-    ]
+    ],
+    "homeworld": "Ancient Rome"
    },
-   "line": "Ancient Roman senator. Appears in Antony and Cleopatra.",
+   "line": "Ancient Roman senator, of Ancient Rome. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -447,12 +473,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Also called Domitius",
     "gender": "Male",
-    "titles": [
-     "Roman governor"
-    ]
+    "homeworld": "Ancient Rome"
    },
-   "line": "Roman governor. Appears in Antony and Cleopatra.",
+   "line": "Also called Domitius, of Ancient Rome. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -513,9 +538,10 @@
     "gender": "Male",
     "titles": [
      "praefectus Aegypti"
-    ]
+    ],
+    "homeworld": "Roman Empire"
    },
-   "line": "Praefectus Aegypti. Appears in Antony and Cleopatra.",
+   "line": "Praefectus Aegypti, of Roman Empire. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -554,12 +580,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "A triumvir of Rome",
     "gender": "Male",
-    "titles": [
-     "magister equitum"
-    ]
+    "homeworld": "Ancient Rome"
    },
-   "line": "Magister equitum. Appears in all two plays.",
+   "line": "A triumvir of Rome, of Ancient Rome. Appears in all two plays.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -580,9 +605,10 @@
     "gender": "Male",
     "titles": [
      "ancient Roman senator"
-    ]
+    ],
+    "homeworld": "Ancient Rome"
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "line": "Ancient Roman senator, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -600,9 +626,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Their servant"
    },
-   "line": "Appears in Julius Caesar.",
+   "line": "Their servant. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -621,9 +648,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "patron of the arts"
+    "occupation": "patron of the arts",
+    "homeworld": "Arezzo"
    },
-   "line": "Patron of the arts. Appears in Antony and Cleopatra.",
+   "line": "Patron of the arts, of Arezzo. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -641,9 +669,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A Eunuch"
    },
-   "line": "Appears in Antony and Cleopatra.",
+   "line": "A Eunuch. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -661,9 +690,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "military personnel",
+    "homeworld": "Ancient Rome"
    },
-   "line": "Appears in Antony and Cleopatra.",
+   "line": "Military personnel, of Ancient Rome. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -684,9 +715,10 @@
     "gender": "Male",
     "titles": [
      "ancient Roman senator"
-    ]
+    ],
+    "homeworld": "Ancient Rome"
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "line": "Ancient Roman senator, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -704,9 +736,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "role": "Sister to Caesar, later wife to Antony",
+    "gender": "Female",
+    "homeworld": "Nola"
    },
-   "line": "Appears in Antony and Cleopatra.",
+   "line": "Sister to Caesar, later wife to Antony, of Nola. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 25,
     "nearest": {
@@ -725,12 +759,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "A triumvir of Rome",
     "gender": "Male",
-    "titles": [
-     "Roman emperor"
-    ]
+    "homeworld": "Rome"
    },
-   "line": "Roman emperor. Appears in all two plays.",
+   "line": "A triumvir of Rome, of Rome. Appears in all two plays.",
    "signals": {
     "lookAlikes": 24,
     "nearest": {
@@ -759,9 +792,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Slave to Cassius, freed upon Cassius’s death"
    },
-   "line": "Appears in Julius Caesar.",
+   "line": "Slave to Cassius, freed upon Cassius’s death. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -779,12 +813,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Also called Pompey",
     "gender": "Male",
-    "titles": [
-     "Roman consul"
-    ]
+    "homeworld": "Ancient Rome"
    },
-   "line": "Roman consul. Appears in Antony and Cleopatra.",
+   "line": "Also called Pompey, of Ancient Rome. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -826,9 +859,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "occupation": "philosopher"
+    "role": "heiress of Belmont",
+    "homeworld": "Ancient Rome"
    },
-   "line": "Philosopher. Appears in Julius Caesar.",
+   "line": "Heiress of Belmont, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -846,9 +880,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "homeworld": "Ancient Rome"
    },
-   "line": "Appears in Antony and Cleopatra.",
+   "line": "Of Ancient Rome. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -885,9 +920,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "homeworld": "Ancient Rome"
    },
-   "line": "Appears in Julius Caesar.",
+   "line": "Of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -987,9 +1023,10 @@
     "gender": "Male",
     "titles": [
      "ancient Roman senator"
-    ]
+    ],
+    "homeworld": "Ancient Rome"
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "line": "Ancient Roman senator, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -1051,9 +1088,10 @@
     "gender": "Male",
     "titles": [
      "ancient Roman senator"
-    ]
+    ],
+    "homeworld": "Cremona"
    },
-   "line": "Ancient Roman senator. Appears in Julius Caesar.",
+   "line": "Ancient Roman senator, of Cremona. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -1092,9 +1130,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "military personnel"
    },
-   "line": "Appears in Antony and Cleopatra.",
+   "line": "Military personnel. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -1112,9 +1151,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Cleopatra’s treasurer",
     "gender": "Male"
    },
-   "line": "Appears in Antony and Cleopatra.",
+   "line": "Cleopatra’s treasurer. Appears in Antony and Cleopatra.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -1175,9 +1215,10 @@
     "gender": "Male",
     "titles": [
      "tribune of the plebs"
-    ]
+    ],
+    "homeworld": "Ancient Rome"
    },
-   "line": "Tribune of the plebs. Appears in Julius Caesar.",
+   "line": "Tribune of the plebs, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -1626,9 +1667,12 @@
     ],
     "first": "Antony and Cleopatra",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Antony and Cleopatra"
+    ]
    },
-   "line": "They share the page only in Antony and Cleopatra."
+   "line": "They share the page only in Antony and Cleopatra. Both belong to Antony and Cleopatra."
   },
   "3-17": {
    "facts": {
@@ -2959,9 +3003,12 @@
     ],
     "first": "Antony and Cleopatra",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Ptolemaic Kingdom"
+    ]
    },
-   "line": "They share the page only in Antony and Cleopatra."
+   "line": "They share the page only in Antony and Cleopatra. Both belong to Ptolemaic Kingdom."
   },
   "13-16": {
    "facts": {
@@ -4866,8 +4913,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -4877,9 +4923,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

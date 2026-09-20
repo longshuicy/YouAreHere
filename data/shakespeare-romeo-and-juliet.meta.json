@@ -9,8 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Apothecary"
+   },
+   "line": "Apothecary."
   },
   "1": {
    "facts": {
@@ -19,8 +21,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Their kinsman"
    },
+   "line": "Their kinsman.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -38,8 +42,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Her father"
    },
+   "line": "Her father.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -58,7 +64,7 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "friar"
+    "role": "Friar"
    },
    "line": "Friar.",
    "signals": {
@@ -78,8 +84,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "homeworld": "Verona",
+    "role": "daughter of Capulet"
    },
+   "line": "Daughter of Capulet, of Verona.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -97,8 +106,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Lady, Her mother"
    },
+   "line": "Lady, Her mother.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -116,8 +127,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Lady, His mother"
    },
+   "line": "Lady, His mother.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -135,8 +148,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "The Prince’s kinsman and Romeo’s friend"
    },
+   "line": "The Prince’s kinsman and Romeo’s friend.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -154,8 +169,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "His father"
    },
+   "line": "His father.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -173,8 +190,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Nurse"
    },
+   "line": "Nurse.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -192,8 +211,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "The Prince’s kinsman and Juliet’s suitor"
    },
+   "line": "The Prince’s kinsman and Juliet’s suitor.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -211,8 +232,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Tybalt’s companion"
    },
+   "line": "Tybalt’s companion.",
    "signals": {
     "lookAlikes": 25,
     "nearest": {
@@ -251,8 +274,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "son of Montague"
    },
+   "line": "Son of Montague.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -327,8 +352,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A Montague servingman"
    },
+   "line": "A Montague servingman.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -346,8 +373,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Romeo’s servingman"
    },
+   "line": "Romeo’s servingman.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -366,9 +395,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "murderer"
+    "role": "Kinsman to the Capulets"
    },
-   "line": "Murderer.",
+   "line": "Kinsman to the Capulets.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -1551,8 +1580,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1562,9 +1590,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

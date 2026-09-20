@@ -61,7 +61,7 @@ Waking repeatedly in one novel is a better fantasy than shuffling. You are not s
 | Action | Gives | Cost | Recorded as |
 | --- | --- | --- | --- |
 | Expand | one node's neighbours, and that node's monogram | 1 | clue |
-| Facts | what is known of *another* character — books, titles, allegiances, dates | 2 | clue |
+| Facts | what is known of *another* character — office, camp, kin, dates | 2 | clue |
 | Name | one neighbour's name | 3 | clue |
 | Story | which story this is | 2 | clue |
 | Claim | whether a name you offer belongs to a node | free | a clue back, when right |
@@ -70,9 +70,9 @@ Waking repeatedly in one novel is a better fantasy than shuffling. You are not s
 
 **Weigh is gone, and tie strength is free everywhere.** It was originally a purchase: your own ties drawn true, a stranger's ties bought a node at a time. In play that charged for the diagram itself — thickness is the evidence, and a graph of uniform hairlines is not a puzzle, it is a waiting room. Removing it costs less than it looks like it should, because the thing a player actually lacks is not the shape but who is standing in it.
 
-**Facts is not offered when there is nothing behind it.** In 22 of the 32 worlds most nodes have no sidecar line — Othello has one across twelve characters, and four plays have none at all — so Facts was charging 2 clues to answer *nothing is recorded of them*, and charging before saying so. The menu now reads the sidecar first: a node with nothing to read shows `FACTS — nothing is recorded`, greyed, unpriced and unclickable. It is said rather than hidden, because a row that simply vanished would read as a bug, and because *nothing is recorded* is itself worth knowing — it is the reason there is nothing to buy. This leaks one bit about the node, but that bit tracks prominence, which node size already gives away for free.
+**Facts is not offered when there is nothing behind it.** A node with nothing to read shows `FACTS — nothing is recorded`, greyed, unpriced and unclickable. It is said rather than hidden, because a row that simply vanished would read as a bug, and because *nothing is recorded* is itself worth knowing.
 
-**Facts took its slot.** It returns the discrete attributes the enrichment sidecar already holds for a character — *Ser, Westerlands, sworn to House Lannister of Casterly Rock; appears in all five books, three of them through his eyes* — without naming them. It is the middle rung the economy was missing: structure is free, a name is decisive, and a reading is the step between. It is also the most informative thing you can buy for 2, and the cost may want to rise to 3 once anyone has played a full session.
+**Facts took its slot.** It returns what the sidecar knows of another character — office, camp, kin, dates, which books they share — without naming *them*. Kinship that names someone else is allowed: the puzzle is hard enough that a reading should actually read. Structure is free, a name is decisive, and this is the step between.
 
 **Nothing about your own node is for sale.** Naming yourself, or reading your own facts, is just answering the question. So your node's menu carries exactly one entry — `I'VE FOUND MYSELF · free` — which opens the guess. The action that used to hide in the margin is now attached to the thing it is about, and the marginal link is set in the accent at a weight nothing else on the screen carries.
 

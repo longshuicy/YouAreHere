@@ -10,9 +10,9 @@
     "unit": "book",
     "corpusSize": 24,
     "gender": "Male",
-    "occupation": "aoidos"
+    "occupation": "bard"
    },
-   "line": "Aoidos. Appears in Book 17."
+   "line": "Bard. Appears in Book 17."
   },
   "1": {
    "facts": {
@@ -128,9 +128,12 @@
     ],
     "unit": "book",
     "corpusSize": 24,
-    "gender": "Female"
+    "gender": "Female",
+    "titles": [
+     "Queen of Ithaca"
+    ]
    },
-   "line": "Appears in 13 books.",
+   "line": "Queen of Ithaca. Appears in 13 books.",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -158,7 +161,7 @@
     "corpusSize": 24,
     "gender": "Male",
     "titles": [
-     "mythological king of Sparta"
+     "king of Sparta"
     ]
    },
    "line": "King of Sparta. Appears in 9 books.",
@@ -210,9 +213,9 @@
     "unit": "book",
     "corpusSize": 24,
     "gender": "Female",
-    "species": "Greek deity"
+    "species": "goddess"
    },
-   "line": "Greek deity. Appears in six books.",
+   "line": "Goddess. Appears in six books.",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -246,9 +249,12 @@
     ],
     "unit": "book",
     "corpusSize": 24,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "Prince of Ithaca"
+    ]
    },
-   "line": "Appears in 17 books.",
+   "line": "Prince of Ithaca. Appears in 17 books.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -309,9 +315,10 @@
     ],
     "unit": "book",
     "corpusSize": 24,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "counsellor"
    },
-   "line": "Appears in five books."
+   "line": "Counsellor. Appears in five books."
   },
   "15": {
    "facts": {
@@ -546,9 +553,12 @@
     ],
     "unit": "book",
     "corpusSize": 24,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "King of Ithaca"
+    ]
    },
-   "line": "Appears in all 24 books.",
+   "line": "King of Ithaca. Appears in all 24 books.",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -593,9 +603,9 @@
     "unit": "book",
     "corpusSize": 24,
     "gender": "Female",
-    "species": "Greek nymph"
+    "species": "nymph"
    },
-   "line": "Greek nymph. Appears in six books.",
+   "line": "Nymph. Appears in six books.",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -732,9 +742,10 @@
     ],
     "unit": "book",
     "corpusSize": 24,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "former king of Ithaca"
    },
-   "line": "Appears in 19 books.",
+   "line": "Former king of Ithaca. Appears in 19 books.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -2377,9 +2388,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

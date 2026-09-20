@@ -21,8 +21,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "Mistress of brothel and wife to Pander"
+   },
+   "line": "Mistress of brothel and wife to Pander."
   },
   "2": {
    "facts": {
@@ -32,9 +34,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Servant"
+    "role": "Servant to Pander and Bawd"
    },
-   "line": "Servant."
+   "line": "Servant to Pander and Bawd."
   },
   "3": {
    "facts": {
@@ -43,8 +45,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Lord, A wiseman/physician in Ephesus"
+   },
+   "line": "Lord, A wiseman/physician in Ephesus."
   },
   "4": {
    "facts": {
@@ -53,8 +57,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Governor of Tarsus"
+   },
+   "line": "Governor of Tarsus."
   },
   "5": {
    "facts": {
@@ -64,9 +70,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "role": "Prince"
+    "role": "Princess of Antioch"
    },
-   "line": "Prince."
+   "line": "Princess of Antioch."
   },
   "6": {
    "facts": {
@@ -75,8 +81,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "Goddess of chastity"
+   },
+   "line": "Goddess of chastity."
   },
   "7": {
    "facts": {
@@ -85,8 +93,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "Wife to Cleon"
+   },
+   "line": "Wife to Cleon."
   },
   "8": {
    "facts": {
@@ -95,8 +105,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Gentleman"
+   },
+   "line": "Gentleman."
   },
   "9": {
    "facts": {
@@ -125,9 +137,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Servant"
+    "role": "Servant to Dionyza"
    },
-   "line": "Servant."
+   "line": "Servant to Dionyza."
   },
   "11": {
    "facts": {
@@ -136,8 +148,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Governor of Mytilene"
    },
+   "line": "Governor of Mytilene.",
    "signals": {
     "lookAlikes": 8,
     "nearest": {
@@ -155,8 +169,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Messenger"
+   },
+   "line": "Messenger."
   },
   "13": {
    "facts": {
@@ -165,8 +181,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Daughter of Pericles and Thaisa"
    },
+   "line": "Daughter of Pericles and Thaisa.",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -194,8 +212,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Owner of brothel"
+   },
+   "line": "Owner of brothel."
   },
   "16": {
    "facts": {
@@ -226,9 +246,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Servant"
+    "role": "Servant to Cerimon"
    },
-   "line": "Servant."
+   "line": "Servant to Cerimon."
   },
   "18": {
    "facts": {
@@ -249,8 +269,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Princess of Pentapolis and wife to Pericles"
    },
+   "line": "Princess of Pentapolis and wife to Pericles.",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -268,8 +290,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Nobleman of Antioch"
+   },
+   "line": "Nobleman of Antioch."
   }
  },
  "edges": {
@@ -833,8 +857,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -844,9 +867,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

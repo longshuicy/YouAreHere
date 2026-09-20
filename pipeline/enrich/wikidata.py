@@ -32,10 +32,10 @@ ATTRIBUTION = Attribution(
     source_url="https://www.wikidata.org/",
     retrieved="2026-09-18",
     modifications=(
-        "Extracted discrete character attributes only (occupation, position, "
-        "species, affiliation, homeworld, gender); no descriptions or prose.",
-        "Filtered class and meta labels that are not standing facts a player can use.",
-        "Composed original one-line descriptions from those attributes.",
+        "Extracted discrete character attributes (occupation, position, noble "
+        "title, species, affiliation, homeworld, gender); no wiki descriptions.",
+        "Generic stations are kept; only junk labels (classes, misread offices) "
+        "are dropped. Sentences are composed here from those attributes.",
     ),
 )
 
@@ -86,6 +86,8 @@ ETHNIC_SPECIES = {
     "dardanians",
     "lycians",
     "argives",
+    "moors",
+    "moor",
 }
 
 # P31 labels that are a kind of being, not "character from X".
@@ -130,6 +132,25 @@ CIVIC_AFFILIATIONS = {
     "china",
     "people's republic of china",
     "han dynasty",
+    "united states",
+    "united states of america",
+    "italy",
+    "venice",
+    "republic of venice",
+    "kingdom of denmark",
+    "denmark",
+    "kingdom of scotland",
+    "scotland",
+    "england",
+    "kingdom of england",
+    "spain",
+    "egypt",
+    "reigning dynasty",
+    "當朝",
+    "國朝",
+    "国朝",
+    "唐朝",
+    "大唐",
 }
 
 WEAK_TITLES = {
@@ -138,18 +159,29 @@ WEAK_TITLES = {
     "政府首脑",
     "國家元首",
     "国家元首",
-    "中国皇帝",
-    "中國皇帝",
-    "中国国王",
-    "中國國王",
-    "中国君主",
-    "中國君主",
     "儲君",
     "储君",
     "總理",
     "总理",
     "head of state",
     "head of government",
+    "director",
+    "主管",
+}
+
+# Wikidata's office labels are often a class plus a gloss. Strip the gloss,
+# then rewrite a few that would otherwise read as encyclopedia entries.
+TITLE_REWRITE = {
+    "chinese king": "King",
+    "chinese emperor": "Emperor",
+    "emperor of china": "Emperor",
+    "king of china": "King",
+    "中国皇帝": "皇帝",
+    "中國皇帝": "皇帝",
+    "中国国王": "王",
+    "中國國王": "王",
+    "中国君主": "君主",
+    "中國君主": "君主",
 }
 
 NAME_SPELLINGS = {
@@ -157,59 +189,14 @@ NAME_SPELLINGS = {
     "pallas athene": "athena",
 }
 
-# Occupations that are too vague or wrongly assigned to be a standing clause.
+# Occupations that are junk or a misread of the source, not merely generic.
+# Generic stations (poet, warlord, military officer) are kept: Facts is allowed
+# to be informative.
 WEAK_OCCUPATIONS = {
-    "writer",
-    "artisan",
-    "instrumentalist",
-    "warlord",
-    "ruler",
-    "politician",
-    "magician",
     "chaser",
-    "seamster",
-    "translator",
-    "orator",
-    "poet",
-    "historian",
-    "mechanic",
-    "mass murderer",
-    "war criminal",
-    "drug trafficker",
-    "deserter",
-    "impersonator",
-    "gambler",
-    "author",
-    "alchemist",
-    "swordfighter",
-    "military personnel",
-    "military officer",
-    "first officer",
-    "commander-in-chief",
-    "space pirate",
-    "bounty hunter",  # kept only if nothing better; R2 is not one
-    "starship pilot",
-    "pilot",
-    "waiter",
-    "waitress",
-    "assistant",
     "vedette",
-    "作家",
-    "詩人",
-    "诗人",
-    "政治人物",
-    "軍人",
-    "军人",
-    "軍官",
-    "官员",
-    "官員",
-    "家務工",
-    "家务工",
-    "戰士",
-    "战士",
-    "公務員",
-    "公务员",
-    "政治家",
+    "director",
+    "主管",
 }
 
 # Prefer these occupations when several are listed (Star Wars and similar).
@@ -230,6 +217,10 @@ OCCUPATION_PRIORITY = (
     "chancellor",
     "queen",
     "princess",
+    "king",
+    "emperor",
+    "military leader",
+    "warlord",
     "navigator",
     "swineherd",
     "aoidos",
@@ -237,14 +228,18 @@ OCCUPATION_PRIORITY = (
     "seer",
     "herald",
     "priest",
+    "poet",
     "paleontologist",
     "executive chef",
     "massage therapist",
+    "丞相",
     "謀士",
     "武將",
     "武将",
     "軍閥",
     "军阀",
+    "軍事領袖",
+    "军事领袖",
     "叛亂領袖",
     "叛乱领袖",
     "道士",
@@ -313,6 +308,8 @@ AFFILIATION_PRIORITY = (
     "new jedi order",
     "蜀漢",
     "大魏",
+    "曹魏",
+    "cao wei",
     "吳國",
     "吴国",
     "楚國",
@@ -324,6 +321,9 @@ AFFILIATION_PRIORITY = (
     "秦國",
     "秦国",
     "秦朝",
+    "賈府",
+    "荣国府",
+    "榮國府",
     "三十六天罡星",
     "七十二地煞星",
     "trojans",
@@ -349,6 +349,7 @@ PROPS = {
     "P21": "gender",
     "P106": "occupations",
     "P39": "titles",
+    "P97": "titles",
     "P172": "species",
     "P463": "affiliations",
     "P27": "affiliations",
@@ -705,7 +706,13 @@ def _prefer_occupation(occupations: list[str]) -> str | None:
 
 
 def _prefer_title(titles: list[str]) -> str | None:
-    usable = [t for t in titles if _title_ok(t)]
+    usable = []
+    for title in titles:
+        if not _title_ok(title):
+            continue
+        rewritten = _rewrite_title(title)
+        if rewritten and rewritten not in usable:
+            usable.append(rewritten)
     if not usable:
         return None
     # Prefer the most specific imperial/royal style when several offices are listed.
@@ -732,19 +739,38 @@ def _prefer_title(titles: list[str]) -> str | None:
     return usable[0]
 
 
+def _strip_gloss(title: str) -> str:
+    text = title.strip()
+    text = re.sub(r"\s+in greek mythology$", "", text, flags=re.I)
+    text = re.sub(r"\s+in (?:norse |roman |egyptian )?mythology$", "", text, flags=re.I)
+    text = re.sub(r"^mythological\s+", "", text, flags=re.I)
+    text = re.sub(r"^legendary\s+", "", text, flags=re.I)
+    return text.strip()
+
+
+def _rewrite_title(title: str) -> str | None:
+    stripped = _strip_gloss(title)
+    if not stripped:
+        return None
+    return TITLE_REWRITE.get(stripped.lower()) or TITLE_REWRITE.get(stripped) or stripped
+
+
 def _title_ok(title: str) -> bool:
-    lower = title.lower()
-    if lower.startswith("fictional ") or title.startswith("虛構") or title.startswith("虚构"):
+    stripped = _strip_gloss(title)
+    lower = stripped.lower()
+    if lower.startswith("fictional ") or stripped.startswith("虛構") or stripped.startswith("虚构"):
         return False
-    if lower in WEAK_TITLES or title in WEAK_TITLES:
+    if lower in WEAK_TITLES or stripped in WEAK_TITLES:
         return False
-    if "in greek mythology" in lower or "in mythology" in lower:
-        return " of " in lower
-    return True
+    return bool(stripped)
 
 
 def _prefer_affiliations(affiliations: list[str]) -> list[str]:
-    usable = [a for a in affiliations if a.lower() not in WEAK_AFFILIATIONS]
+    usable = [
+        a
+        for a in affiliations
+        if a.lower() not in WEAK_AFFILIATIONS and a.lower() not in CIVIC_AFFILIATIONS
+    ]
     if not usable:
         return []
     ranked = []
@@ -793,6 +819,7 @@ def _attributes_from_entity(entity: dict, labels: dict[str, str], *, gender: dic
     for prop, field in (
         ("P106", "occupations"),
         ("P39", "titles"),
+        ("P97", "titles"),
         ("P463", "affiliations"),
         ("P27", "affiliations"),
     ):

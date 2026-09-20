@@ -9,8 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A Sicilian courtier"
    },
+   "line": "A Sicilian courtier.",
    "signals": {
     "lookAlikes": 25,
     "nearest": {
@@ -28,8 +30,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Former servant to Florizell, now a rogue"
    },
+   "line": "Former servant to Florizell, now a rogue.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -47,8 +51,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A courtier, friend to Leontes and then to Polixenes"
    },
+   "line": "A courtier, friend to Leontes and then to Polixenes.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -123,8 +129,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "His son"
    },
+   "line": "His son.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -163,8 +171,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Jailer"
+   },
+   "line": "Jailer."
   },
   "9": {
    "facts": {
@@ -173,8 +183,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "A lady-in-waiting to Hermione"
+   },
+   "line": "A lady-in-waiting to Hermione."
   },
   "10": {
    "facts": {
@@ -204,8 +216,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Their son"
+   },
+   "line": "Their son."
   },
   "12": {
    "facts": {
@@ -242,8 +256,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "His wife and lady-in-waiting to Hermione"
    },
+   "line": "His wife and lady-in-waiting to Hermione.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -261,8 +277,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Their daughter"
    },
+   "line": "Their daughter.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -301,8 +319,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Servant"
    },
+   "line": "Servant.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -329,8 +349,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Foster father to Perdita"
    },
+   "line": "Foster father to Perdita.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -1282,8 +1304,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1293,9 +1314,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

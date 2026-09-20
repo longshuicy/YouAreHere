@@ -53,12 +53,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "king of Mycenae"
-    ]
+    "role": "The general",
+    "gender": "Male"
    },
-   "line": "King of Mycenae.",
+   "line": "The general.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -99,8 +97,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Her servant"
+   },
+   "line": "Her servant."
   },
   "5": {
    "facts": {
@@ -109,8 +109,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "role": "Hector’s wife",
+    "gender": "Female",
+    "homeworld": "Thebe"
+   },
+   "line": "Hector’s wife, of Thebe."
   },
   "6": {
    "facts": {
@@ -139,10 +142,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "occupation": "seer"
+    "role": "Her father",
+    "gender": "Male"
    },
-   "line": "Seer.",
+   "line": "Her father.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -160,10 +163,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Priam’s daughter, a soothsayer",
     "gender": "Female",
-    "occupation": "oracle"
+    "homeworld": "Troy"
    },
-   "line": "Oracle.",
+   "line": "Priam’s daughter, a soothsayer, of Troy.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -200,8 +204,13 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "military personnel",
+    "affiliations": [
+     "Troy"
+    ]
    },
+   "line": "Military personnel, of the Troy.",
    "signals": {
     "lookAlikes": 25,
     "nearest": {
@@ -242,8 +251,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "affiliations": [
+     "Troy"
+    ]
    },
+   "line": "Of the Troy.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -261,8 +274,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Menelaus’s wife and queen",
     "gender": "Female"
-   }
+   },
+   "line": "Menelaus’s wife and queen."
   },
   "15": {
    "facts": {
@@ -283,12 +298,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "mythological king of Sparta"
-    ]
+    "role": "Brother to Agamemnon",
+    "gender": "Male"
    },
-   "line": "King of Sparta.",
+   "line": "Brother to Agamemnon.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -329,8 +342,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Her uncle",
     "gender": "Male"
    },
+   "line": "Her uncle.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -369,8 +384,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Achilles’ favorite companion",
     "gender": "Male"
    },
+   "line": "Achilles’ favorite companion.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -389,7 +406,10 @@
     "unit": "play",
     "corpusSize": 37,
     "role": "King of Troy",
-    "gender": "Male"
+    "gender": "Male",
+    "affiliations": [
+     "Troy"
+    ]
    },
    "line": "King of Troy.",
    "signals": {
@@ -448,12 +468,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "king of Calydon"
-    ]
+    "role": "Cynical critic",
+    "gender": "Male"
    },
-   "line": "King of Calydon.",
+   "line": "Cynical critic.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -490,8 +508,12 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "titles": [
+     "king"
+    ]
    },
+   "line": "King.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -1641,8 +1663,12 @@
     ],
     "first": "Troilus and Cressida",
     "unit": "play",
-    "corpusSize": 37
-   }
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Troy"
+    ]
+   },
+   "line": "Both belong to Troy."
   },
   "13-25": {
    "facts": {
@@ -2014,8 +2040,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -2025,9 +2050,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

@@ -1,0 +1,44 @@
+# Camps and offices the weak-label filter used to throw away. Keyed by the
+# name as it appears in the graph.
+
+sanguoyanyi:
+
+  曹操:
+    facts:
+      titles: [魏王]
+      occupation: 丞相
+      affiliations: [魏]
+
+  劉備:
+    facts:
+      titles: [昭烈帝]
+      affiliations: [蜀漢]
+
+  孫權:
+    facts:
+      titles: [吳王]
+      affiliations: [吳]
+
+  關羽:
+    facts:
+      occupation: 武將
+      affiliations: [蜀漢]
+
+  張飛:
+    facts:
+      occupation: 武將
+      affiliations: [蜀漢]
+
+  趙雲:
+    facts:
+      occupation: 武將
+      affiliations: [蜀漢]
+
+  諸葛亮:
+    facts:
+      occupation: 丞相
+      affiliations: [蜀漢]
+
+  呂布:
+    facts:
+      occupation: 武將

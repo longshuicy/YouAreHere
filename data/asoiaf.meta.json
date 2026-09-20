@@ -7510,9 +7510,10 @@
      "A Dance with Dragons"
     ],
     "unit": "book",
-    "corpusSize": 5
+    "corpusSize": 5,
+    "role": "Nurse"
    },
-   "line": "Appears in A Dance with Dragons."
+   "line": "Nurse. Appears in A Dance with Dragons."
   },
   "373": {
    "facts": {

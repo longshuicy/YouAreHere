@@ -1,0 +1,19 @@
+# Knuth's gloss calls Valjean a thief and leaves Cosette without a station.
+
+lesmiserables:
+
+  Jean Valjean:
+    facts:
+      occupation: former convict
+
+  Cosette:
+    facts:
+      role: lady of the Rue Plumet
+
+  Javert:
+    facts:
+      occupation: inspector
+
+  Fantine:
+    facts:
+      occupation: factory worker

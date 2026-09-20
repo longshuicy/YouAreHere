@@ -9,8 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "An executioner"
    },
+   "line": "An executioner.",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -28,8 +30,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Deputy to the Duke"
    },
+   "line": "Deputy to the Duke.",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -47,8 +51,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A prisoner"
    },
+   "line": "A prisoner.",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -66,8 +72,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "A bawd"
    },
+   "line": "A bawd.",
    "signals": {
     "lookAlikes": 9,
     "nearest": {
@@ -95,8 +103,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Brother to Isabella"
    },
+   "line": "Brother to Isabella.",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -114,8 +124,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Duke, Later called Friar Lodowick"
    },
+   "line": "Duke, Later called Friar Lodowick.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -133,8 +145,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A constable"
    },
+   "line": "A constable.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -152,8 +166,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A judge"
    },
+   "line": "A judge.",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -171,8 +187,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Friar"
    },
+   "line": "Friar.",
    "signals": {
     "lookAlikes": 9,
     "nearest": {
@@ -190,8 +208,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Pompey’s customer"
    },
+   "line": "Pompey’s customer.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -209,8 +229,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "A novice in the Order of Saint Clare"
    },
+   "line": "A novice in the Order of Saint Clare.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -228,8 +250,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "daughter of Capulet",
+    "homeworld": "Verona"
+   },
+   "line": "Daughter of Capulet, of Verona."
   },
   "13": {
    "facts": {
@@ -238,8 +263,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Justice"
    },
+   "line": "Justice.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -257,8 +284,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Friend to Claudio"
    },
+   "line": "Friend to Claudio.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -276,8 +305,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Betrothed to Angelo"
    },
+   "line": "Betrothed to Angelo.",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -295,8 +326,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Messenger"
+   },
+   "line": "Messenger."
   },
   "17": {
    "facts": {
@@ -305,8 +338,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "A nun"
+   },
+   "line": "A nun."
   },
   "18": {
    "facts": {
@@ -315,8 +350,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Her servant"
    },
+   "line": "Her servant.",
    "signals": {
     "lookAlikes": 11,
     "nearest": {
@@ -352,8 +389,10 @@
      "Measure for Measure"
     ],
     "unit": "play",
-    "corpusSize": 37
-   }
+    "corpusSize": 37,
+    "role": "Servant"
+   },
+   "line": "Servant."
   }
  },
  "edges": {
@@ -1277,8 +1316,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1288,9 +1326,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

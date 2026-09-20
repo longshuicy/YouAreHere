@@ -8,9 +8,13 @@ friends:
 
   "mrs. geller":
     wikidata: Q20430032
+    facts:
+      role: mother of Ross and Monica
 
   "mr. geller":
     wikidata: Q12731272
+    facts:
+      role: father of Ross and Monica
 
   "mr. bing":
     wikidata: Q50760334

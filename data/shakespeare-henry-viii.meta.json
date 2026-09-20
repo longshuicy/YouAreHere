@@ -10,11 +10,13 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "Lord, Buckingham’s son-in-law",
+    "affiliations": [
+     "Wales"
+    ],
+    "homeworld": "Abergavenny"
    },
-   "line": "Member of the House of Lords."
+   "line": "Lord, Buckingham’s son-in-law, of Abergavenny, of the Wales."
   },
   "1": {
    "facts": {
@@ -23,12 +25,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Katherine’s lady-in-waiting, later Henry’s second wife and queen",
     "gender": "Female",
-    "titles": [
-     "Queen Consort of England"
-    ]
+    "homeworld": "Blickling Hall"
    },
-   "line": "Queen Consort of England.",
+   "line": "Katherine’s lady-in-waiting, later Henry’s second wife and queen, of Blickling Hall.",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -47,11 +48,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Roman Catholic Bishop of Lincoln (England)"
-    ]
+    "role": "Bishop of Lincoln"
    },
-   "line": "Roman Catholic Bishop of Lincoln (England).",
+   "line": "Bishop of Lincoln.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -80,11 +79,14 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "Duke of Buckingham",
+    "affiliations": [
+     "United Kingdom",
+     "Wales"
+    ],
+    "homeworld": "Brecon"
    },
-   "line": "Member of the House of Lords.",
+   "line": "Duke of Buckingham, of Brecon, of the United Kingdom.",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -103,9 +105,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "physician"
+    "role": "Doctor",
+    "homeworld": "Fulham"
    },
-   "line": "Physician.",
+   "line": "Doctor, of Fulham.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -123,12 +126,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Cardinal, Papal Legate",
     "gender": "Male",
-    "titles": [
-     "cardinal"
-    ]
+    "homeworld": "Milan"
    },
-   "line": "Cardinal.",
+   "line": "Cardinal, Papal Legate, of Milan.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -147,9 +149,13 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Ambassador"
+    "role": "Ambassador from the Emperor Charles",
+    "affiliations": [
+     "Duchy of Savoy"
+    ],
+    "homeworld": "Annecy"
    },
-   "line": "Ambassador."
+   "line": "Ambassador from the Emperor Charles, of Annecy, of the Duchy of Savoy."
   },
   "8": {
    "facts": {
@@ -159,11 +165,12 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "ambassador"
+    "role": "Lord",
+    "affiliations": [
+     "Order of the Garter"
     ]
    },
-   "line": "Ambassador.",
+   "line": "Lord, of the Order of the Garter.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -182,11 +189,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Lord Chancellor"
-    ]
+    "role": "Lord",
+    "homeworld": "London"
    },
-   "line": "Lord Chancellor.",
+   "line": "Lord, of London.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -205,11 +211,13 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Roman Catholic Archbishop of Canterbury"
-    ]
+    "role": "Later Archbishop of Canterbury",
+    "affiliations": [
+     "United Kingdom"
+    ],
+    "homeworld": "Aslockton"
    },
-   "line": "Roman Catholic Archbishop of Canterbury.",
+   "line": "Later Archbishop of Canterbury, of Aslockton, of the United Kingdom.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -246,10 +254,16 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Servant",
-    "gender": "Male"
+    "role": "Servant to Wolsey, later secretary to the Privy Council",
+    "gender": "Male",
+    "affiliations": [
+     "Short Parliament",
+     "list of regicides of King Charles I",
+     "Commonwealth of England"
+    ],
+    "homeworld": "Huntingdon"
    },
-   "line": "Servant.",
+   "line": "Servant to Wolsey, later secretary to the Privy Council, of Huntingdon, of the Short Parliament.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -268,11 +282,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Member of Parliament in the Parliament of England"
-    ]
+    "role": "Sir",
+    "homeworld": "Cheshunt"
    },
-   "line": "Member of Parliament in the Parliament of England.",
+   "line": "Sir, of Cheshunt.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -321,11 +334,11 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "ambassador of the Kingdom of England to the Kingdom of Spain"
-    ]
+    "role": "Secretary to the king, later Bishop of Winchester",
+    "species": "English people",
+    "homeworld": "Bury St Edmunds"
    },
-   "line": "Ambassador of the Kingdom of England to the Kingdom of Spain.",
+   "line": "Secretary to the king, later Bishop of Winchester, English people, of Bury St Edmunds.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -353,8 +366,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Attendant on Katherine"
+   },
+   "line": "Attendant on Katherine."
   },
   "20": {
    "facts": {
@@ -364,11 +379,12 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Member of Parliament in the Parliament of England"
+    "role": "Sir",
+    "affiliations": [
+     "English Reformation Parliament"
     ]
    },
-   "line": "Member of Parliament in the Parliament of England.",
+   "line": "Sir, of the English Reformation Parliament.",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -386,12 +402,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "King",
     "gender": "Male",
-    "titles": [
-     "King of Ireland"
-    ]
+    "homeworld": "Palace of Placentia"
    },
-   "line": "King of Ireland.",
+   "line": "King, of Palace of Placentia.",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -410,11 +425,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "titles": [
-     "Ambassador of the Kingdom of Spain to the Kingdom of England"
-    ]
+    "role": "Queen, Henry’s first wife, later Princess Dowager",
+    "homeworld": "Alcalá de Henares"
    },
-   "line": "Ambassador of the Kingdom of Spain to the Kingdom of England.",
+   "line": "Queen, Henry’s first wife, later Princess Dowager, of Alcalá de Henares.",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -451,8 +465,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "Woman to Katherine"
+   },
+   "line": "Woman to Katherine."
   },
   "25": {
    "facts": {
@@ -462,11 +478,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Member of the 1495 Parliament"
-    ]
+    "role": "Sir"
    },
-   "line": "Member of the 1495 Parliament.",
+   "line": "Sir.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -485,11 +499,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Member of the Privy Council of the United Kingdom"
-    ]
+    "role": "Duke of Norfolk",
+    "homeworld": "Stoke-by-Nayland"
    },
-   "line": "Member of the Privy Council of the United Kingdom.",
+   "line": "Duke of Norfolk, of Stoke-by-Nayland.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -507,8 +520,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "With Anne Bullen"
    },
+   "line": "With Anne Bullen.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -526,8 +541,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Page"
    },
+   "line": "Page.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -546,11 +563,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Lord Chamberlain"
-    ]
+    "role": "Lord"
    },
-   "line": "Lord Chamberlain.",
+   "line": "Lord.",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -587,8 +602,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Sergeant"
+   },
+   "line": "Sergeant."
   },
   "32": {
    "facts": {
@@ -598,11 +615,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Lord Lieutenant of Buckinghamshire"
-    ]
+    "role": "Duke of Suffolk"
    },
-   "line": "Lord Lieutenant of Buckinghamshire.",
+   "line": "Duke of Suffolk.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -621,11 +636,13 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
+    "role": "Earl of Surrey, Buckingham’s son-in-law",
+    "affiliations": [
+     "Order of the Garter",
+     "United Kingdom of Great Britain and Ireland"
     ]
    },
-   "line": "Member of the House of Lords.",
+   "line": "Earl of Surrey, Buckingham’s son-in-law, of the Order of the Garter.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -643,8 +660,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Queen"
    },
+   "line": "Queen.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -663,11 +682,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Member of Parliament in the Parliament of England"
-    ]
+    "role": "Sir"
    },
-   "line": "Member of Parliament in the Parliament of England."
+   "line": "Sir."
   },
   "36": {
    "facts": {
@@ -677,11 +694,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Lord Chancellor"
-    ]
+    "role": "Cardinal, Archbishop of Canterbury",
+    "homeworld": "Ipswich"
    },
-   "line": "Lord Chancellor.",
+   "line": "Cardinal, Archbishop of Canterbury, of Ipswich.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -711,8 +727,12 @@
     ],
     "first": "Henry VIII",
     "unit": "play",
-    "corpusSize": 37
-   }
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Wales"
+    ]
+   },
+   "line": "Both belong to Wales."
   },
   "0-26": {
    "facts": {
@@ -1351,8 +1371,12 @@
     ],
     "first": "Henry VIII",
     "unit": "play",
-    "corpusSize": 37
-   }
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
+   },
+   "line": "Both belong to Order of the Garter."
   },
   "8-36": {
    "facts": {
@@ -2394,8 +2418,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -2405,9 +2428,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

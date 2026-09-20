@@ -28,8 +28,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "King, Brother to the late King Hamlet"
    },
+   "line": "King, Brother to the late King Hamlet.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -97,8 +99,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Queen, Widow of King Hamlet, now married to Claudius",
     "gender": "Female"
    },
+   "line": "Queen, Widow of King Hamlet, now married to Claudius.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -149,10 +153,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Prince of Denmark",
+    "role": "Prince of Denmark, son of the late King Hamlet and Queen Gertrude",
     "gender": "Male"
    },
-   "line": "Prince of Denmark.",
+   "line": "Prince of Denmark, son of the late King Hamlet and Queen Gertrude.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -170,8 +174,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Hamlet’s friend and confidant"
    },
+   "line": "Hamlet’s friend and confidant.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -189,8 +195,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Her brother"
    },
+   "line": "Her brother.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -227,8 +235,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "daughter of Polonius"
    },
+   "line": "Daughter of Polonius.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -266,9 +276,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Councillor"
+    "role": "Father of Ophelia and Laertes, councillor to King Claudius"
    },
-   "line": "Councillor.",
+   "line": "Father of Ophelia and Laertes, councillor to King Claudius.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -287,9 +297,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Servant"
+    "role": "Servant to Polonius"
    },
-   "line": "Servant."
+   "line": "Servant to Polonius."
   },
   "16": {
    "facts": {
@@ -1221,8 +1231,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1232,9 +1241,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

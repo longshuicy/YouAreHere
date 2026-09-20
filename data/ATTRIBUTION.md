@@ -76,9 +76,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## U.S. Congress
 
@@ -150,9 +149,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 紅樓夢
 
@@ -173,9 +171,10 @@ Changes made to the original data:
 3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
 4. Dropped generic kinship and office words (夫人, 二奶奶, 家的) which name a role far more often than a person.
 5. Derived the names the novel actually uses (寶釵, 探春) by dropping the surname from each figure's Chinese label.
-6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (471 nodes and 3452 ties in, 200 and 1307 out).
-7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-8. Computed a force-directed layout for the full graph, used by the reveal animation.
+6. Applied a hand-maintained identity table covering 8 characters: display names, nicknames for the guess field, and disambiguators.
+7. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (471 nodes and 3452 ties in, 200 and 1307 out).
+8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+9. Computed a force-directed layout for the full graph, used by the reveal animation.
 
 ### Reveal-screen enrichment — Wikidata
 
@@ -189,9 +188,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## The Iliad
 
@@ -240,9 +238,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## Les Misérables
 
@@ -261,9 +258,10 @@ Changes made to the original data:
 1. Read the encounter groups as an undirected weighted graph, summing shared groups across the novel.
 2. Collapsed Hugo's chapter tags to the five volumes, so a segment is a tome.
 3. Dropped redacted and numbered-anonymous figures (G--, Old woman 1) who cannot be guessed.
-4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (69 nodes and 241 ties in, 54 and 226 out).
-5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-6. Computed a force-directed layout for the full graph, used by the reveal animation.
+4. Applied a hand-maintained identity table covering 4 characters: display names, nicknames for the guess field, and disambiguators.
+5. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (69 nodes and 241 ties in, 54 and 226 out).
+6. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+7. Computed a force-directed layout for the full graph, used by the reveal animation.
 
 ### Reveal-screen enrichment — Stanford GraphBase character glosses
 
@@ -291,9 +289,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## The Odyssey
 
@@ -313,9 +310,10 @@ Changes made to the original data:
 2. Identified persons from Wikidata rather than from the text, so that places and common nouns are never nodes.
 3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
 4. Blocked English common nouns that are also deities (Dawn, Night) and place-names (Troy, Ithaca).
-5. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (39 nodes and 128 ties in, 32 and 124 out).
-6. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-7. Computed a force-directed layout for the full graph, used by the reveal animation.
+5. Applied a hand-maintained identity table covering 10 characters: display names, nicknames for the guess field, and disambiguators.
+6. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (39 nodes and 128 ties in, 32 and 124 out).
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
 
 ### Reveal-screen enrichment — Wikidata
 
@@ -329,9 +327,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 三國演義
 
@@ -352,9 +349,10 @@ Changes made to the original data:
 3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
 4. Dropped generic kinship and office words which name a role far more often than a person.
 5. Derived the names the text actually uses by dropping the surname from each figure's Chinese label.
-6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (1016 nodes and 5250 ties in, 436 and 1796 out).
-7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-8. Computed a force-directed layout for the full graph, used by the reveal animation.
+6. Applied a hand-maintained identity table covering 8 characters: display names, nicknames for the guess field, and disambiguators.
+7. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (1016 nodes and 5250 ties in, 436 and 1796 out).
+8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+9. Computed a force-directed layout for the full graph, used by the reveal animation.
 
 ### Reveal-screen enrichment — Wikidata
 
@@ -368,9 +366,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## Shakespeare Drama Corpus (DraCor)
 
@@ -390,10 +387,11 @@ Changes made to the original data:
 2. Dropped group nodes (crowds, attendants) so a waking is always a person.
 3. Disambiguated repeated generic names (Messenger, Soldier) with the play title.
 4. Dropped unnamed crowd roles that no play-level qualifier can tell apart.
-5. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).
-6. Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.
-7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-8. Computed a force-directed layout for the full graph, used by the reveal animation.
+5. Applied a hand-maintained identity table covering 25 characters: display names, nicknames for the guess field, and disambiguators.
+6. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).
+7. Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.
+8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+9. Computed a force-directed layout for the full graph, used by the reveal animation.
 
 ### Reveal-screen enrichment — Folger Shakespeare Library dramatis personae (via DraCor TEI)
 
@@ -408,8 +406,7 @@ by **Folger Shakespeare Library / DraCor** (<https://www.folger.edu/>)
 Used as follows:
 
 1. Read <roleDesc> from the TEI cast list as research material only.
-2. Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.
-3. Composed original one-line descriptions from those attributes.
+2. Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI.
 
 ### Reveal-screen enrichment — Wikidata
 
@@ -423,9 +420,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 史記
 
@@ -446,9 +442,10 @@ Changes made to the original data:
 3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
 4. Dropped generic kinship and office words which name a role far more often than a person.
 5. Derived the names the text actually uses by dropping the surname from each figure's Chinese label.
-6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (221 nodes and 608 ties in, 80 and 206 out).
-7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-8. Computed a force-directed layout for the full graph, used by the reveal animation.
+6. Applied a hand-maintained identity table covering 3 characters: display names, nicknames for the guess field, and disambiguators.
+7. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (221 nodes and 608 ties in, 80 and 206 out).
+8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+9. Computed a force-directed layout for the full graph, used by the reveal animation.
 
 ### Reveal-screen enrichment — Wikidata
 
@@ -462,9 +459,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 水滸傳
 
@@ -501,9 +497,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## Star Wars
 
@@ -539,9 +534,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 西遊記
 
@@ -562,9 +556,10 @@ Changes made to the original data:
 3. Resolved shared names to the most prominent claimant, and dropped those too close to call.
 4. Dropped generic kinship and office words which name a role far more often than a person.
 5. Derived the names the text actually uses by dropping the surname from each figure's Chinese label.
-6. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (186 nodes and 561 ties in, 69 and 221 out).
-7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
-8. Computed a force-directed layout for the full graph, used by the reveal animation.
+6. Applied a hand-maintained identity table covering 7 characters: display names, nicknames for the guess field, and disambiguators.
+7. Dropped ties weaker than 2 and characters with fewer than 2 ties, then kept the largest connected component (186 nodes and 561 ties in, 69 and 221 out).
+8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+9. Computed a force-directed layout for the full graph, used by the reveal animation.
 
 ### Reveal-screen enrichment — Wikidata
 
@@ -578,9 +573,8 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.
-2. Filtered class and meta labels that are not standing facts a player can use.
-3. Composed original one-line descriptions from those attributes.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## What these terms require of this project
 

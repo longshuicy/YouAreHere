@@ -9,8 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Also known as Don Adriano de Armado"
    },
+   "line": "Also known as Don Adriano de Armado.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -47,8 +49,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Armado’s Page, also known as Mote"
    },
+   "line": "Armado’s Page, also known as Mote.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -66,8 +70,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A lord attending the Princess"
    },
+   "line": "A lord attending the Princess.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -85,8 +91,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "The Clown or Swain"
    },
+   "line": "The Clown or Swain.",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -104,8 +112,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "The Constable"
    },
+   "line": "The Constable.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -152,8 +162,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "The Pedant, or schoolmaster"
    },
+   "line": "The Pedant, or schoolmaster.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -171,8 +183,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "The Wench"
    },
+   "line": "The Wench.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -209,8 +223,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "King, Also known as Ferdinand"
    },
+   "line": "King, Also known as Ferdinand.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -247,8 +263,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A messenger from France"
    },
+   "line": "A messenger from France.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -285,8 +303,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "The Curate"
    },
+   "line": "The Curate.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -304,8 +324,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Prince"
    },
+   "line": "Prince.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -1637,8 +1659,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1648,9 +1669,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

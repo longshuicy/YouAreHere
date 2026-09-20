@@ -6,44 +6,44 @@
   {
    "i": 0,
    "n": "Alcibiades",
-   "x": -255.4,
-   "y": -46.0
+   "x": -256.0,
+   "y": -46.5
   },
   {
    "i": 1,
    "n": "Apemantus",
-   "x": -115.9,
-   "y": 62.8
+   "x": -116.3,
+   "y": 63.0
   },
   {
    "i": 2,
    "n": "Lucius",
    "x": 54.9,
-   "y": -326.5
+   "y": -325.4
   },
   {
    "i": 3,
    "n": "Ventidius",
-   "x": -116.4,
-   "y": -406.7
+   "x": -116.0,
+   "y": -406.1
   },
   {
    "i": 4,
    "n": "Flavius",
-   "x": 112.7,
-   "y": 9.1
+   "x": 112.6,
+   "y": 9.6
   },
   {
    "i": 5,
    "n": "Fool",
-   "x": 286.1,
-   "y": 387.5
+   "x": 287.2,
+   "y": 387.2
   },
   {
    "i": 6,
    "n": "Jeweler",
-   "x": -570.2,
-   "y": -173.4
+   "x": -569.7,
+   "y": -173.2
   },
   {
    "i": 7,
@@ -54,98 +54,98 @@
   {
    "i": 8,
    "n": "Old Athenian",
-   "x": -482.4,
-   "y": -279.4
+   "x": -482.0,
+   "y": -279.1
   },
   {
    "i": 9,
    "n": "Painter",
    "x": -334.7,
-   "y": -191.3
+   "y": -192.1
   },
   {
    "i": 10,
    "n": "Phrynia",
-   "x": -170.0,
-   "y": 396.5
+   "x": -169.4,
+   "y": 395.5
   },
   {
    "i": 11,
    "n": "Poet",
-   "x": -391.8,
-   "y": -6.1
+   "x": -391.4,
+   "y": -6.4
   },
   {
    "i": 12,
    "n": "Caphis",
-   "x": 134.7,
-   "y": 381.0
+   "x": 135.3,
+   "y": 382.0
   },
   {
    "i": 13,
    "n": "Hortensius",
-   "x": 461.8,
-   "y": -208.9
+   "x": 461.3,
+   "y": -208.3
   },
   {
    "i": 14,
    "n": "Isidore’s Man",
-   "x": 205.5,
-   "y": 257.1
+   "x": 203.6,
+   "y": 257.6
   },
   {
    "i": 15,
    "n": "Lucius’ Man",
-   "x": 416.9,
-   "y": -329.6
+   "x": 416.6,
+   "y": -329.2
   },
   {
    "i": 16,
    "n": "Page",
-   "x": 380.2,
-   "y": 277.4
+   "x": 379.2,
+   "y": 276.2
   },
   {
    "i": 17,
    "n": "Philotus",
-   "x": 588.1,
-   "y": -28.1
+   "x": 587.2,
+   "y": -29.1
   },
   {
    "i": 18,
    "n": "Flaminius",
-   "x": 373.8,
+   "x": 374.1,
    "y": 79.2
   },
   {
    "i": 19,
    "n": "Lucilius",
-   "x": -547.7,
-   "y": 85.3
+   "x": -546.7,
+   "y": 84.7
   },
   {
    "i": 20,
    "n": "Servilius",
-   "x": 300.4,
-   "y": -14.7
+   "x": 300.5,
+   "y": -14.6
   },
   {
    "i": 21,
    "n": "Titus",
-   "x": 591.0,
-   "y": -185.4
+   "x": 590.5,
+   "y": -185.6
   },
   {
    "i": 22,
    "n": "Timandra",
-   "x": -313.1,
-   "y": 326.2
+   "x": -312.4,
+   "y": 325.8
   },
   {
    "i": 23,
    "n": "Timon",
-   "x": -8.5,
-   "y": -23.3
+   "x": -8.4,
+   "y": -22.8
   }
  ],
  "edges": [
@@ -1142,6 +1142,7 @@
     "Dropped group nodes (crowds, attendants) so a waking is always a person.",
     "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
     "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Applied a hand-maintained identity table covering 25 characters: display names, nicknames for the guess field, and disambiguators.",
     "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
     "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
     "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",

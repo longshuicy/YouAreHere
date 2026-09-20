@@ -1,0 +1,106 @@
+# Folger often describes the leads only by kinship, or not at all. These pins
+# keep a station on the names a player is most likely to wake as. Keyed by
+# display name in the merged corpus.
+
+shakespeare:
+
+  Romeo:
+    facts:
+      role: son of Montague
+
+  Ophelia:
+    facts:
+      role: daughter of Polonius
+
+  Juliet:
+    facts:
+      role: daughter of Capulet
+      homeworld: Verona
+
+  Iago:
+    facts:
+      occupation: ensign
+
+  Othello:
+    facts:
+      role: general of Venice
+
+  Desdemona:
+    facts:
+      role: daughter of Brabantio
+
+  Rosalind:
+    facts:
+      role: daughter of the banished duke
+
+  Orlando:
+    facts:
+      role: youngest son of Sir Rowland de Boys
+
+  Macbeth:
+    facts:
+      titles: [Thane of Glamis]
+
+  Lady Macbeth:
+    facts:
+      role: wife of Macbeth
+
+  Prospero:
+    facts:
+      role: rightful Duke of Milan
+
+  Viola Cesario:
+    facts:
+      role: sister of Sebastian
+
+  Olivia:
+    facts:
+      role: countess
+
+  Beatrice:
+    facts:
+      role: niece of Leonato
+
+  Signior Benedick:
+    facts:
+      role: lord of Padua
+
+  Portia:
+    facts:
+      role: heiress of Belmont
+
+  Shylock:
+    facts:
+      occupation: moneylender
+
+  Lear:
+    facts:
+      role: King of Britain
+
+  Cordelia:
+    facts:
+      role: youngest daughter of Lear
+
+  Goneril:
+    facts:
+      role: Duchess of Albany
+
+  Regan:
+    facts:
+      role: Duchess of Cornwall
+
+  Edmund:
+    facts:
+      role: illegitimate son of Gloucester
+
+  Edgar:
+    facts:
+      role: son of Gloucester
+
+  Imogen:
+    facts:
+      role: daughter of Cymbeline
+
+  Cleopatra:
+    facts:
+      role: Queen of Egypt

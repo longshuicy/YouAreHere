@@ -9,8 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "A woman in Cyprus in love with Cassio"
    },
+   "line": "A woman in Cyprus in love with Cassio.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -28,8 +30,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A Venetian senator, father to Desdemona"
    },
+   "line": "A Venetian senator, father to Desdemona.",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -47,8 +51,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Othello’s second-in-command, or lieutenant"
    },
+   "line": "Othello’s second-in-command, or lieutenant.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -66,8 +72,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "daughter of Brabantio"
    },
+   "line": "Daughter of Brabantio.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -85,8 +93,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Iago’s wife and Desdemona’s attendant"
    },
+   "line": "Iago’s wife and Desdemona’s attendant.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -123,8 +133,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Othello’s standard-bearer, or “ancient”",
+    "occupation": "ensign"
    },
+   "line": "Othello’s standard-bearer, or “ancient”, ensign.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -161,8 +174,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "An official in Cyprus"
    },
+   "line": "An official in Cyprus.",
    "signals": {
     "lookAlikes": 55,
     "nearest": {
@@ -181,9 +196,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "soldier"
+    "role": "general of Venice"
    },
-   "line": "Soldier.",
+   "line": "General of Venice.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -201,8 +216,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A Venetian gentleman"
    },
+   "line": "A Venetian gentleman.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -785,8 +802,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -796,9 +812,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

@@ -9,10 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "General",
+    "role": "General of the Volscians",
     "gender": "Male"
    },
-   "line": "General."
+   "line": "General of the Volscians."
   },
   "1": {
    "facts": {
@@ -21,12 +21,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "ancient Roman senator"
-    ]
+    "role": "Patrician and general",
+    "gender": "Male"
    },
-   "line": "Ancient Roman senator.",
+   "line": "Patrician and general.",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -44,8 +42,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "role": "Later Caius Martius Coriolanus",
+    "gender": "Male",
+    "homeworld": "Ancient Rome"
    },
+   "line": "Later Caius Martius Coriolanus, of Ancient Rome.",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -63,8 +64,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "Gentlewoman, Volumnia’s attendant"
+   },
+   "line": "Gentlewoman, Volumnia’s attendant."
   },
   "4": {
    "facts": {
@@ -73,8 +76,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Herald"
    },
+   "line": "Herald.",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -92,12 +97,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "Roman dictator"
-    ]
+    "role": "Patrician and military officer",
+    "gender": "Male"
    },
-   "line": "Roman dictator."
+   "line": "Patrician and military officer."
   },
   "6": {
    "facts": {
@@ -106,12 +109,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Patrician",
     "gender": "Male",
-    "titles": [
-     "ancient Roman senator"
-    ]
+    "homeworld": "Ancient Rome"
    },
-   "line": "Ancient Roman senator.",
+   "line": "Patrician, of Ancient Rome.",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -151,9 +153,10 @@
     "unit": "play",
     "corpusSize": 37,
     "role": "Tribune",
-    "gender": "Male"
+    "gender": "Male",
+    "homeworld": "Ancient Rome"
    },
-   "line": "Tribune.",
+   "line": "Tribune, of Ancient Rome.",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -171,8 +174,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Friend to Volumnia and Virgilia"
    },
+   "line": "Friend to Volumnia and Virgilia.",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -190,8 +195,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "His wife",
     "gender": "Female"
    },
+   "line": "His wife.",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -209,8 +216,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "His mother"
    },
+   "line": "His mother.",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -228,8 +237,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Their son"
+   },
+   "line": "Their son."
   }
  },
  "edges": {
@@ -763,8 +774,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -774,9 +784,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

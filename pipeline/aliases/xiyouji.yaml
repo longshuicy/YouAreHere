@@ -1,0 +1,32 @@
+xiyouji:
+
+  孫悟空:
+    facts:
+      species: 石猴
+      occupation: 齊天大聖
+
+  豬八戒:
+    facts:
+      species: 豬
+      occupation: 天蓬元帥
+
+  沙僧:
+    facts:
+      occupation: 捲簾大將
+
+  唐三藏:
+    facts:
+      occupation: 僧人
+      role: 取經人
+
+  玉皇上帝:
+    facts:
+      titles: [玉皇]
+
+  哪吒:
+    facts:
+      role: 三太子
+
+  李靖:
+    facts:
+      occupation: 托塔天王

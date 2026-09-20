@@ -22,6 +22,8 @@
 #   api        pins reveal-screen facts to one exact record in An API of Ice and
 #              Fire. Needed where the source name is ambiguous or differs from
 #              the one the graph uses. Without it, ambiguous names are skipped.
+#   facts      standing attributes for the sidecar (role, occupation, titles,
+#              affiliations). Wins over Wikidata. May be keyed by display name.
 #
 # Unknown ids fail the build rather than being ignored, so a typo surfaces.
 

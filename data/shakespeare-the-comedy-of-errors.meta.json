@@ -9,8 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Lady, (also called Emilia), head of a priory in Ephesus"
    },
+   "line": "Lady, (also called Emilia), head of a priory in Ephesus.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -28,8 +30,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Antipholus of Ephesus’s wife"
    },
+   "line": "Antipholus of Ephesus’s wife.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -47,8 +51,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "An Ephesian goldsmith"
    },
+   "line": "An Ephesian goldsmith.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -66,8 +72,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A citizen of Ephesus"
    },
+   "line": "A citizen of Ephesus.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -85,8 +93,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A traveler in search of his motherand his brother"
    },
+   "line": "A traveler in search of his motherand his brother.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -104,8 +114,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "An Ephesian merchant invited to dinnerby Antipholus of Ephesus"
    },
+   "line": "An Ephesian merchant invited to dinnerby Antipholus of Ephesus.",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -123,8 +135,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Hostess of Antipholus of Ephesus at dinner"
    },
+   "line": "Hostess of Antipholus of Ephesus at dinner.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -142,8 +156,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Antipholus of Ephesus’s servant"
    },
+   "line": "Antipholus of Ephesus’s servant.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -161,8 +177,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Antipholus of Syracuse’s servant"
    },
+   "line": "Antipholus of Syracuse’s servant.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -180,8 +198,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Duke"
    },
+   "line": "Duke.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -199,8 +219,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A merchant from Syracuse"
    },
+   "line": "A merchant from Syracuse.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -218,8 +240,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "(also called Nell), kitchen maid betrothed toDromio of Ephesus"
    },
+   "line": "(also called Nell), kitchen maid betrothed toDromio of Ephesus.",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -237,8 +261,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Adriana’s sister"
    },
+   "line": "Adriana’s sister.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -256,8 +282,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "A citizen of Ephesus"
+   },
+   "line": "A citizen of Ephesus."
   },
   "14": {
    "facts": {
@@ -266,8 +294,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A citizen of Ephesus to whomAngelo owes money"
    },
+   "line": "A citizen of Ephesus to whomAngelo owes money.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -286,9 +316,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Servant"
+    "role": "Servant to Antipholus of Ephesus and Adriana"
    },
-   "line": "Servant.",
+   "line": "Servant to Antipholus of Ephesus and Adriana.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -306,8 +336,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "(also called Jailer), an Ephesian law officer"
+   },
+   "line": "(also called Jailer), an Ephesian law officer."
   },
   "17": {
    "facts": {
@@ -316,8 +348,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A schoolmaster, engaged as an exorcist"
    },
+   "line": "A schoolmaster, engaged as an exorcist.",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -1350,8 +1384,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1361,9 +1394,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

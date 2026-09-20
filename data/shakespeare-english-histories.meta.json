@@ -9,9 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Page"
    },
-   "line": "Appears in Richard III."
+   "line": "Page. Appears in Richard III."
   },
   "1": {
    "facts": {
@@ -30,9 +31,10 @@
      "Richard II"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Abbot of Westminster"
    },
-   "line": "Appears in Richard II.",
+   "line": "Abbot of Westminster. Appears in Richard II.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -50,9 +52,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "military personnel",
+    "homeworld": "Argentan"
    },
-   "line": "Appears in Henry VI, Part 1.",
+   "line": "Military personnel, of Argentan. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -70,9 +74,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "A gentlewoman attending on Katherine"
    },
-   "line": "Appears in Henry V.",
+   "line": "A gentlewoman attending on Katherine. Appears in Henry V.",
    "signals": {
     "lookAlikes": 33,
     "nearest": {
@@ -90,9 +95,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Their daughter"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "Their daughter. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -111,12 +117,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "Roman Catholic archbishop of York"
-    ]
+    "role": "(Richard Scroop, archbishop of York)",
+    "gender": "Male"
    },
-   "line": "Roman Catholic archbishop of York. Appears in Henry IV, Part I and Henry IV, Part II."
+   "line": "(Richard Scroop, archbishop of York). Appears in Henry IV, Part I and Henry IV, Part II."
   },
   "7": {
    "facts": {
@@ -128,9 +132,10 @@
     "gender": "Male",
     "titles": [
      "Roman Catholic archbishop of York"
-    ]
+    ],
+    "homeworld": "Rotherham"
    },
-   "line": "Roman Catholic archbishop of York. Appears in Richard III."
+   "line": "Roman Catholic archbishop of York, of Rotherham. Appears in Richard III."
   },
   "8": {
    "facts": {
@@ -139,10 +144,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Earl of Rutland",
-    "gender": "Male"
+    "role": "Earl of Rutland, son to Duke and Duchess of York",
+    "gender": "Male",
+    "homeworld": "Norwich"
    },
-   "line": "Earl of Rutland. Appears in Richard II.",
+   "line": "Earl of Rutland, son to Duke and Duchess of York, of Norwich. Appears in Richard II.",
    "signals": {
     "lookAlikes": 20,
     "nearest": {
@@ -206,9 +212,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Of the Red Rose or Lancaster faction"
    },
-   "line": "Appears in Henry VI, Part 1.",
+   "line": "Of the Red Rose or Lancaster faction. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -229,9 +236,10 @@
     "gender": "Male",
     "titles": [
      "Grand Chamberlain of France"
-    ]
+    ],
+    "homeworld": "Kingdom of France"
    },
-   "line": "Grand Chamberlain of France. Appears in Henry VI, Part 1.",
+   "line": "Grand Chamberlain of France, of Kingdom of France. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -273,11 +281,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "Lord, Younger son of King Henry",
+    "homeworld": "England"
    },
-   "line": "Member of the House of Lords. Appears in four plays.",
+   "line": "Lord, Younger son of King Henry, of England. Appears in four plays.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -295,9 +302,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "role": "Lord",
+    "gender": "Male",
+    "homeworld": "Berkeley Castle"
    },
-   "line": "Appears in Richard II.",
+   "line": "Lord, of Berkeley Castle. Appears in Richard II.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -335,12 +344,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Bishop of Canterbury",
     "gender": "Male",
-    "titles": [
-     "Roman Catholic Archbishop of Canterbury"
-    ]
+    "homeworld": "Higham Ferrers"
    },
-   "line": "Roman Catholic Archbishop of Canterbury. Appears in Henry V."
+   "line": "Bishop of Canterbury, of Higham Ferrers. Appears in Henry V."
   },
   "18": {
    "facts": {
@@ -349,12 +357,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "Roman Catholic Bishop of Carlisle"
-    ]
+    "role": "Bishop of Carlisle",
+    "gender": "Male"
    },
-   "line": "Roman Catholic Bishop of Carlisle. Appears in Richard II.",
+   "line": "Bishop of Carlisle. Appears in Richard II.",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -372,12 +378,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "Roman Catholic Bishop of Ely"
-    ]
+    "role": "Bishop of Ely",
+    "gender": "Male"
    },
-   "line": "Roman Catholic Bishop of Ely. Appears in Henry V."
+   "line": "Bishop of Ely. Appears in Henry V."
   },
   "20": {
    "facts": {
@@ -386,12 +390,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "Member of Parliament in the Parliament of England"
-    ]
+    "role": "Sir",
+    "gender": "Male"
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Henry IV, Part I.",
+   "line": "Sir. Appears in Henry IV, Part I.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -410,11 +412,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Member of Parliament in the Parliament of England"
-    ]
+    "role": "Sir"
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Richard III.",
+   "line": "Sir. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -433,9 +433,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "astronomer"
+    "role": "A conjurer"
    },
-   "line": "Astronomer. Appears in Henry VI, Part 2.",
+   "line": "A conjurer. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -453,9 +453,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Duke of Bourbon",
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Duke of Bourbon. Appears in Henry V."
   },
   "24": {
    "facts": {
@@ -464,9 +465,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "His son"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "His son. Appears in Henry VI, Part 1."
   },
   "25": {
    "facts": {
@@ -475,9 +477,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Their servant"
    },
-   "line": "Appears in Henry V.",
+   "line": "Their servant. Appears in Henry V.",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -495,10 +498,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Lieutenant",
+    "role": "Lieutenant of the Tower in London",
     "gender": "Male"
    },
-   "line": "Lieutenant. Appears in Richard III.",
+   "line": "Lieutenant of the Tower in London. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -516,9 +519,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "role": "Duke of Brittany",
+    "gender": "Male",
+    "homeworld": "Vannes"
    },
-   "line": "Appears in Henry V."
+   "line": "Duke of Brittany, of Vannes. Appears in Henry V."
   },
   "28": {
    "facts": {
@@ -530,9 +535,13 @@
     "gender": "Male",
     "titles": [
      "ambassador to the Kingdom of France"
-    ]
+    ],
+    "affiliations": [
+     "Order of the Garter"
+    ],
+    "homeworld": "Stafford"
    },
-   "line": "Ambassador to the Kingdom of France. Appears in Henry VI, Part 2.",
+   "line": "Ambassador to the Kingdom of France, of Stafford, of the Order of the Garter. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -551,11 +560,15 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "Duke of Buckingham",
+    "affiliations": [
+     "Order of the Garter",
+     "United Kingdom",
+     "Wales"
+    ],
+    "homeworld": "Abergavenny"
    },
-   "line": "Member of the House of Lords. Appears in Richard III.",
+   "line": "Duke of Buckingham, of Abergavenny, of the Order of the Garter. Appears in Richard III.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -596,9 +609,10 @@
     "gender": "Male",
     "titles": [
      "monarch"
-    ]
+    ],
+    "homeworld": "Dijon"
    },
-   "line": "Monarch. Appears in Henry VI, Part 1.",
+   "line": "Monarch, of Dijon. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -616,12 +630,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Duke of Burgundy",
     "gender": "Male",
-    "titles": [
-     "regent"
-    ]
+    "homeworld": "Dijon"
    },
-   "line": "Regent. Appears in Henry V.",
+   "line": "Duke of Burgundy, of Dijon. Appears in Henry V.",
    "signals": {
     "lookAlikes": 33,
     "nearest": {
@@ -682,10 +695,13 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Leader of the Kentish rebellion",
     "gender": "Male",
-    "occupation": "impostor"
+    "affiliations": [
+     "United Kingdom"
+    ]
    },
-   "line": "Impostor. Appears in Henry VI, Part 2.",
+   "line": "Leader of the Kentish rebellion, of the United Kingdom. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -703,9 +719,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "role": "Earl of Cambridge",
+    "gender": "Male",
+    "homeworld": "Conisbrough Castle"
    },
-   "line": "Appears in Henry V."
+   "line": "Earl of Cambridge, of Conisbrough Castle. Appears in Henry V."
   },
   "37": {
    "facts": {
@@ -715,12 +733,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "The king’s great-uncle",
     "gender": "Male",
-    "titles": [
-     "Roman Catholic Bishop of Lincoln (England)"
-    ]
+    "homeworld": "Beaufort-en-Vallée"
    },
-   "line": "Roman Catholic Bishop of Lincoln (England). Appears in Henry VI, Part 1 and Henry VI, Part 2.",
+   "line": "The king’s great-uncle, of Beaufort-en-Vallée. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -739,11 +756,13 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Lord Chancellor"
-    ]
+    "role": "Cardinal",
+    "affiliations": [
+     "United Kingdom of Great Britain and Ireland"
+    ],
+    "homeworld": "Essex"
    },
-   "line": "Lord Chancellor. Appears in Richard III.",
+   "line": "Cardinal, of Essex, of the United Kingdom of Great Britain and Ireland. Appears in Richard III.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -761,12 +780,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "Member of Parliament in the Parliament of England"
-    ]
+    "role": "Sir",
+    "gender": "Male"
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Richard III.",
+   "line": "Sir. Appears in Richard III.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -787,9 +804,10 @@
     "gender": "Male",
     "titles": [
      "King of France"
-    ]
+    ],
+    "homeworld": "Paris"
    },
-   "line": "King of France. Appears in Henry VI, Part 1.",
+   "line": "King of France, of Paris. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -807,9 +825,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Lord"
    },
-   "line": "Appears in Henry IV, Part II.",
+   "line": "Lord. Appears in Henry IV, Part II.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -830,9 +849,13 @@
     "gender": "Male",
     "titles": [
      "Lord Lieutenant of Ireland"
-    ]
+    ],
+    "affiliations": [
+     "Order of the Garter"
+    ],
+    "homeworld": "Kenilworth Castle"
    },
-   "line": "Lord Lieutenant of Ireland. Appears in Henry IV, Part II.",
+   "line": "Lord Lieutenant of Ireland, of Kenilworth Castle, of the Order of the Garter. Appears in Henry IV, Part II.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -852,11 +875,13 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "Later Duke of Clarence",
+    "affiliations": [
+     "United Kingdom"
+    ],
+    "homeworld": "Dublin Castle"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3 and Richard III.",
+   "line": "Later Duke of Clarence, of Dublin Castle, of the United Kingdom. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -875,9 +900,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "aristocrat"
+    "occupation": "aristocrat",
+    "homeworld": "Warwick Castle"
    },
-   "line": "Aristocrat. Appears in Richard III.",
+   "line": "Aristocrat, of Warwick Castle. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -896,9 +922,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "occupation": "lady-in-waiting"
+    "occupation": "lady-in-waiting",
+    "homeworld": "Bath"
    },
-   "line": "Lady-in-waiting. Appears in Richard III.",
+   "line": "Lady-in-waiting, of Bath. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -936,9 +963,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "military personnel"
    },
-   "line": "Appears in Henry VI, Part 2.",
+   "line": "Military personnel. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -958,11 +986,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "His son"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
+   "line": "His son. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -980,9 +1006,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sir"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Sir. Appears in Henry IV, Part II."
   },
   "50": {
    "facts": {
@@ -991,10 +1018,8 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "Constable of France"
-    ]
+    "role": "Constable of France",
+    "gender": "Male"
    },
    "line": "Constable of France. Appears in Henry V.",
    "signals": {
@@ -1014,9 +1039,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Count",
+    "homeworld": "France"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Count, of France. Appears in Henry VI, Part 1."
   },
   "52": {
    "facts": {
@@ -1026,9 +1053,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "An apprentice tapster"
    },
-   "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
+   "line": "An apprentice tapster. Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -1047,9 +1075,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "aristocrat"
+    "occupation": "aristocrat",
+    "homeworld": "Paris"
    },
-   "line": "Aristocrat. Appears in Henry V.",
+   "line": "Aristocrat, of Paris. Appears in Henry V.",
    "signals": {
     "lookAlikes": 66,
     "nearest": {
@@ -1068,9 +1097,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Servant"
+    "role": "Servant to Shallow"
    },
-   "line": "Servant. Appears in Henry IV, Part II."
+   "line": "Servant to Shallow. Appears in Henry IV, Part II."
   },
   "55": {
    "facts": {
@@ -1099,9 +1128,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Doctor, A French doctor, suitor to Anne Page"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "Doctor, A French doctor, suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -1140,9 +1170,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Marquess of Dorset",
+    "homeworld": "Groby Old Hall"
    },
-   "line": "Appears in Richard III.",
+   "line": "Marquess of Dorset, of Groby Old Hall. Appears in Richard III.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -1160,10 +1192,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Earl of Douglas",
-    "gender": "Male"
+    "role": "(Archibald, earl of Douglas)",
+    "gender": "Male",
+    "homeworld": "Scotland"
    },
-   "line": "Earl of Douglas. Appears in Henry IV, Part I.",
+   "line": "(Archibald, earl of Douglas), of Scotland. Appears in Henry IV, Part I.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -1181,10 +1214,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Duchess",
     "gender": "Female",
-    "occupation": "aristocrat"
+    "homeworld": "Starborough Castle"
    },
-   "line": "Aristocrat. Appears in Henry VI, Part 2.",
+   "line": "Duchess, of Starborough Castle. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -1202,9 +1236,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "role": "Duchess of York",
+    "gender": "Female",
+    "affiliations": [
+     "Kingdom of Castile"
+    ],
+    "homeworld": "Tordesillas"
    },
-   "line": "Appears in Richard II."
+   "line": "Duchess of York, of Tordesillas, of the Kingdom of Castile. Appears in Richard II."
   },
   "62": {
    "facts": {
@@ -1214,9 +1253,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "occupation": "aristocrat"
+    "role": "Duchess of York, Mother of Richard, Edward, and Clarence",
+    "homeworld": "Raby Castle"
    },
-   "line": "Aristocrat. Appears in Richard III.",
+   "line": "Duchess of York, Mother of Richard, Edward, and Clarence, of Raby Castle. Appears in Richard III.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -1237,9 +1277,10 @@
     "unit": "play",
     "corpusSize": 37,
     "role": "Earl of March",
-    "gender": "Male"
+    "gender": "Male",
+    "homeworld": "Rouen"
    },
-   "line": "Earl of March. Appears in three plays.",
+   "line": "Earl of March, of Rouen. Appears in three plays.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -1258,11 +1299,14 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "monarch of England"
-    ]
+    "role": "Prince",
+    "affiliations": [
+     "Order of the Garter",
+     "Princes in the Tower"
+    ],
+    "homeworld": "Westminster"
    },
-   "line": "Monarch of England. Appears in Richard III.",
+   "line": "Prince, of Westminster, of the Order of the Garter. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -1280,12 +1324,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Sir",
     "gender": "Male",
-    "titles": [
-     "Lord Warden of the Cinque Ports"
-    ]
+    "affiliations": [
+     "Order of the Garter"
+    ],
+    "homeworld": "Norfolk"
    },
-   "line": "Lord Warden of the Cinque Ports. Appears in Henry V.",
+   "line": "Sir, of Norfolk, of the Order of the Garter. Appears in Henry V.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -1306,9 +1352,10 @@
     "gender": "Male",
     "titles": [
      "member of the House of Lords"
-    ]
+    ],
+    "homeworld": "London"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "line": "Member of the House of Lords, of London. Appears in Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -1326,12 +1373,13 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Uncle to the King",
     "gender": "Male",
-    "titles": [
-     "Lord Chancellor"
+    "affiliations": [
+     "Order of the Garter"
     ]
    },
-   "line": "Lord Chancellor. Appears in Henry VI, Part 1.",
+   "line": "Uncle to the King, of the Order of the Garter. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -1349,9 +1397,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sir"
    },
-   "line": "Appears in Richard II.",
+   "line": "Sir. Appears in Richard II.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -1371,10 +1420,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "occupation": "knight"
+    "role": "Sir, An impoverished knight",
+    "gender": "Male"
    },
-   "line": "Knight. Appears in three plays.",
+   "line": "Sir, An impoverished knight. Appears in three plays.",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -1393,9 +1442,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "soldier"
+    "occupation": "military personnel",
+    "homeworld": "Caister Hall"
    },
-   "line": "Soldier. Appears in Henry VI, Part 1.",
+   "line": "Military personnel, of Caister Hall. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -1444,9 +1494,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A gentleman, suitor to Anne Page"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "A gentleman, suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -1464,12 +1515,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "Lord",
+    "gender": "Male"
    },
-   "line": "Member of the House of Lords. Appears in Richard II.",
+   "line": "Lord. Appears in Richard II.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -1487,9 +1536,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Captain"
    },
-   "line": "Appears in Henry V.",
+   "line": "Captain. Appears in Henry V.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -1529,9 +1579,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Gentleman, Attending Lady Anne"
    },
-   "line": "Appears in Richard III."
+   "line": "Gentleman, Attending Lady Anne. Appears in Richard III."
   },
   "79": {
    "facts": {
@@ -1540,9 +1591,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Setter for the robbers"
    },
-   "line": "Appears in Henry IV, Part I."
+   "line": "Setter for the robbers. Appears in Henry IV, Part I."
   },
   "80": {
    "facts": {
@@ -1551,9 +1603,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "military personnel"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Military personnel. Appears in Henry VI, Part 1."
   },
   "81": {
    "facts": {
@@ -1563,9 +1616,10 @@
     "unit": "play",
     "corpusSize": 37,
     "role": "Duke of Lancaster",
-    "gender": "Male"
+    "gender": "Male",
+    "homeworld": "Ghent"
    },
-   "line": "Duke of Lancaster. Appears in Richard II.",
+   "line": "Duke of Lancaster, of Ghent. Appears in Richard II.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -1614,10 +1668,13 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "A Welsh lord, father of Lady Mortimer",
     "gender": "Male",
-    "occupation": "land owner"
+    "affiliations": [
+     "Wales"
+    ]
    },
-   "line": "Land owner. Appears in Henry IV, Part I."
+   "line": "A Welsh lord, father of Lady Mortimer, of the Wales. Appears in Henry IV, Part I."
   },
   "85": {
    "facts": {
@@ -1629,12 +1686,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "The king’s uncle, and Lord Protector",
     "gender": "Male",
-    "titles": [
-     "Lord Warden of the Cinque Ports"
-    ]
+    "homeworld": "London"
    },
-   "line": "Lord Warden of the Cinque Ports. Appears in four plays.",
+   "line": "The king’s uncle, and Lord Protector, of London. Appears in four plays.",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -1652,9 +1708,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Captain"
    },
-   "line": "Appears in Henry V.",
+   "line": "Captain. Appears in Henry V.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -1672,9 +1729,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Lord"
    },
-   "line": "Appears in Henry V."
+   "line": "Lord. Appears in Henry V."
   },
   "88": {
    "facts": {
@@ -1706,9 +1764,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sir"
    },
-   "line": "Appears in Henry V."
+   "line": "Sir. Appears in Henry V."
   },
   "90": {
    "facts": {
@@ -1717,9 +1776,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Lord"
    },
-   "line": "Appears in Richard III.",
+   "line": "Lord. Appears in Richard III.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -1808,9 +1868,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Lord"
    },
-   "line": "Appears in Henry IV, Part II."
+   "line": "Lord. Appears in Henry IV, Part II."
   },
   "96": {
    "facts": {
@@ -1821,9 +1882,13 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Lord"
+    "role": "Lord Chamberlain",
+    "affiliations": [
+     "United Kingdom of Great Britain and Ireland"
+    ],
+    "homeworld": "Leicestershire"
    },
-   "line": "Lord. Appears in Henry VI, Part 3 and Richard III.",
+   "line": "Lord Chamberlain, of Leicestershire, of the United Kingdom of Great Britain and Ireland. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -1843,10 +1908,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Duke of Hereford",
-    "gender": "Male"
+    "role": "King, Formerly Henry Bolingbroke",
+    "gender": "Male",
+    "homeworld": "Bolingbroke Castle"
    },
-   "line": "Duke of Hereford. Appears in three plays.",
+   "line": "King, Formerly Henry Bolingbroke, of Bolingbroke Castle. Appears in three plays.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -1865,11 +1931,13 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "monarch of England"
-    ]
+    "role": "Earl of Richmond, Henry Tudor, later King Henry VII",
+    "affiliations": [
+     "Principality of Wales"
+    ],
+    "homeworld": "Pembroke Castle"
    },
-   "line": "Monarch of England. Appears in Richard III.",
+   "line": "Earl of Richmond, Henry Tudor, later King Henry VII, of Pembroke Castle, of the Principality of Wales. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -1890,12 +1958,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "King",
     "gender": "Male",
-    "titles": [
-     "monarch of England"
-    ]
+    "homeworld": "Windsor Castle"
    },
-   "line": "Monarch of England. Appears in four plays.",
+   "line": "King, of Windsor Castle. Appears in four plays.",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -1915,10 +1982,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Prince of Wales",
-    "gender": "Male"
+    "role": "Prince of Wales and heir to the throne (alsocalled Harry and Harry Monmouth)",
+    "gender": "Male",
+    "affiliations": [
+     "Order of the Garter"
+    ],
+    "homeworld": "Monmouth Castle"
    },
-   "line": "Prince of Wales. Appears in three plays.",
+   "line": "Prince of Wales and heir to the throne (alsocalled Harry and Harry Monmouth), of Monmouth Castle, of the Order of the Garter. Appears in three plays.",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -1936,9 +2007,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sir"
    },
-   "line": "Appears in Richard III."
+   "line": "Sir. Appears in Richard III."
   },
   "102": {
    "facts": {
@@ -1967,9 +2039,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "The Duke of York’s armorer"
    },
-   "line": "Appears in Henry VI, Part 2.",
+   "line": "The Duke of York’s armorer. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -2008,12 +2081,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "(Sir Henry, or Harry, Percy)",
     "gender": "Male",
-    "titles": [
-     "High Sheriff of Flintshire"
-    ]
+    "homeworld": "North Yorkshire"
    },
-   "line": "High Sheriff of Flintshire. Appears in Henry IV, Part I and Richard II.",
+   "line": "(Sir Henry, or Harry, Percy), of North Yorkshire. Appears in Henry IV, Part I and Richard II.",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -2031,9 +2103,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sir, A Welsh parson"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "Sir, A Welsh parson. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -2051,9 +2124,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A priest"
    },
-   "line": "Appears in Henry VI, Part 2.",
+   "line": "A priest. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -2082,9 +2156,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A gentleman of Kent",
+    "homeworld": "Westwell"
    },
-   "line": "Appears in Henry VI, Part 2.",
+   "line": "A gentleman of Kent, of Westwell. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -2124,9 +2200,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Captain"
    },
-   "line": "Appears in Henry V.",
+   "line": "Captain. Appears in Henry V.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -2144,9 +2221,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sir, York’s uncle"
    },
-   "line": "Appears in Henry VI, Part 3."
+   "line": "Sir, York’s uncle. Appears in Henry VI, Part 3."
   },
   "114": {
    "facts": {
@@ -2176,9 +2254,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "occupation": "businessperson"
+    "role": "A witch",
+    "homeworld": "England"
    },
-   "line": "Businessperson. Appears in Henry VI, Part 2.",
+   "line": "A witch, of England. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 28,
     "nearest": {
@@ -2196,10 +2275,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Prince",
-    "gender": "Female"
+    "role": "Princess of France",
+    "gender": "Female",
+    "homeworld": "Hôtel Saint-Pol"
    },
-   "line": "Prince. Appears in Henry V.",
+   "line": "Princess of France, of Hôtel Saint-Pol. Appears in Henry V.",
    "signals": {
     "lookAlikes": 33,
     "nearest": {
@@ -2218,11 +2298,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "King of France"
-    ]
+    "role": "King",
+    "homeworld": "Bourges"
    },
-   "line": "King of France. Appears in Henry VI, Part 3.",
+   "line": "King, of Bourges. Appears in Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -2240,12 +2319,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "King of France",
     "gender": "Male",
-    "titles": [
-     "King of France"
-    ]
+    "homeworld": "Paris"
    },
-   "line": "King of France. Appears in Henry V.",
+   "line": "King of France, of Paris. Appears in Henry V.",
    "signals": {
     "lookAlikes": 19,
     "nearest": {
@@ -2284,9 +2362,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "occupation": "consort"
+    "role": "Lady, Widow of Edward, son to the late King Henry VI;later wife to Richard",
+    "homeworld": "Warwick Castle"
    },
-   "line": "Consort. Appears in Richard III.",
+   "line": "Lady, Widow of Edward, son to the late King Henry VI;later wife to Richard, of Warwick Castle. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -2305,11 +2384,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "titles": [
-     "duchess"
-    ]
+    "role": "Lady, His sister-in-law",
+    "homeworld": "Avigliana Castle"
    },
-   "line": "Duchess. Appears in Henry VI, Part 3.",
+   "line": "Lady, His sister-in-law, of Avigliana Castle. Appears in Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -2339,9 +2417,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "role": "Lady, (also called Kate)",
+    "gender": "Female",
+    "homeworld": "Usk"
    },
-   "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
+   "line": "Lady, (also called Kate), of Usk. Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -2359,9 +2439,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Lawyer"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Lawyer. Appears in Henry VI, Part 1."
   },
   "125": {
    "facts": {
@@ -2370,9 +2451,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Legate"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Legate. Appears in Henry VI, Part 1."
   },
   "126": {
    "facts": {
@@ -2382,9 +2464,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Captain"
+    "role": "Captain of a ship"
    },
-   "line": "Captain. Appears in Henry VI, Part 2."
+   "line": "Captain of a ship. Appears in Henry VI, Part 2."
   },
   "127": {
    "facts": {
@@ -2393,9 +2475,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Lieutenant"
    },
-   "line": "Appears in Henry VI, Part 3.",
+   "line": "Lieutenant. Appears in Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 25,
     "nearest": {
@@ -2413,9 +2496,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Lord"
    },
-   "line": "Appears in Henry IV, Part II.",
+   "line": "Lord. Appears in Henry IV, Part II.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -2432,9 +2516,10 @@
      "Richard II"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Lord"
    },
-   "line": "Appears in Richard II.",
+   "line": "Lord. Appears in Richard II.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -2453,11 +2538,12 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Lord Chamberlain"
+    "role": "Lord",
+    "affiliations": [
+     "Order of the Garter"
     ]
    },
-   "line": "Lord Chamberlain. Appears in Richard III.",
+   "line": "Lord, of the Order of the Garter. Appears in Richard III.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -2594,9 +2680,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Captain"
    },
-   "line": "Appears in Henry V.",
+   "line": "Captain. Appears in Henry V.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -2614,9 +2701,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Her husband"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "Her husband. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -2645,9 +2733,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Page, Her husband"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "Page, Her husband. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -2688,11 +2777,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Sheriff of the City of London"
-    ]
+    "role": "Lord"
    },
-   "line": "Sheriff of the City of London. Appears in Richard III.",
+   "line": "Lord. Appears in Richard III.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -2824,9 +2911,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "(also called Mistress Quickly)"
    },
-   "line": "Appears in four plays.",
+   "line": "(also called Mistress Quickly). Appears in four plays.",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -2847,9 +2935,13 @@
     "gender": "Male",
     "titles": [
      "member of the House of Lords"
-    ]
+    ],
+    "affiliations": [
+     "Order of the Garter"
+    ],
+    "homeworld": "County Durham"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "line": "Member of the House of Lords, of County Durham, of the Order of the Garter. Appears in Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -2878,9 +2970,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "French herald"
    },
-   "line": "Appears in Henry V.",
+   "line": "French herald. Appears in Henry V.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -2900,9 +2993,10 @@
     "unit": "play",
     "corpusSize": 37,
     "role": "Earl of March",
-    "gender": "Male"
+    "gender": "Male",
+    "homeworld": "Ludlow"
    },
-   "line": "Earl of March. Appears in Henry IV, Part I and Henry VI, Part 1."
+   "line": "Earl of March, of Ludlow. Appears in Henry IV, Part I and Henry VI, Part 1."
   },
   "155": {
    "facts": {
@@ -2943,9 +3037,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "aristocrat"
+    "role": "Lord"
    },
-   "line": "Aristocrat. Appears in Henry IV, Part II."
+   "line": "Lord. Appears in Henry IV, Part II."
   },
   "158": {
    "facts": {
@@ -2955,9 +3049,10 @@
     "unit": "play",
     "corpusSize": 37,
     "role": "Duke of Norfolk",
-    "gender": "Male"
+    "gender": "Male",
+    "homeworld": "Epworth"
    },
-   "line": "Duke of Norfolk. Appears in Richard II.",
+   "line": "Duke of Norfolk, of Epworth. Appears in Richard II.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -2978,9 +3073,13 @@
     "gender": "Male",
     "titles": [
      "member of the House of Lords"
-    ]
+    ],
+    "affiliations": [
+     "United Kingdom"
+    ],
+    "homeworld": "Epworth"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "line": "Member of the House of Lords, of Epworth, of the United Kingdom. Appears in Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -2999,11 +3098,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "Duke of Norfolk"
    },
-   "line": "Member of the House of Lords. Appears in Richard III.",
+   "line": "Duke of Norfolk. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -3024,9 +3121,10 @@
     "gender": "Male",
     "titles": [
      "Lord Lieutenant of Sussex"
-    ]
+    ],
+    "homeworld": "Leconfield"
    },
-   "line": "Lord Lieutenant of Sussex. Appears in Henry VI, Part 3.",
+   "line": "Lord Lieutenant of Sussex, of Leconfield. Appears in Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -3046,12 +3144,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Earl of Northumberland, Henry Percy, Hotspur’s father",
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "homeworld": "Scarborough Castle"
    },
-   "line": "Member of the House of Lords. Appears in three plays.",
+   "line": "Earl of Northumberland, Henry Percy, Hotspur’s father, of Scarborough Castle. Appears in three plays.",
    "signals": {
     "lookAlikes": 12,
     "nearest": {
@@ -3130,9 +3227,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "role": "Duke of Orl",
+    "gender": "Male",
+    "homeworld": "Paris"
    },
-   "line": "Appears in Henry V."
+   "line": "Duke of Orl, of Paris. Appears in Henry V."
   },
   "167": {
    "facts": {
@@ -3145,9 +3244,12 @@
     "gender": "Male",
     "titles": [
      "member of the House of Lords"
+    ],
+    "affiliations": [
+     "Order of the Garter"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3 and Richard III.",
+   "line": "Member of the House of Lords, of the Order of the Garter. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -3209,9 +3311,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "(also called Edward, Yedward, and Ned)"
    },
-   "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
+   "line": "(also called Edward, Yedward, and Ned). Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -3229,9 +3332,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Porter"
    },
-   "line": "Appears in Henry VI, Part 1."
+   "line": "Porter. Appears in Henry VI, Part 1."
   },
   "172": {
    "facts": {
@@ -3241,9 +3345,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Prince",
+    "homeworld": "Palace of Westminster"
    },
-   "line": "Appears in Henry VI, Part 3 and Richard III.",
+   "line": "Prince, of Palace of Westminster. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -3262,9 +3368,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "occupation": "religious leader"
+    "occupation": "military personnel",
+    "homeworld": "Domrémy-la-Pucelle"
    },
-   "line": "Religious leader. Appears in Henry VI, Part 1.",
+   "line": "Military personnel, of Domrémy-la-Pucelle. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -3295,9 +3402,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "occupation": "consort"
+    "role": "Lady, Later Queen Elizabeth",
+    "homeworld": "Grafton Regis"
    },
-   "line": "Consort. Appears in Henry VI, Part 3 and Richard III.",
+   "line": "Lady, Later Queen Elizabeth, of Grafton Regis. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -3319,9 +3427,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "occupation": "aristocrat"
+    "role": "His daughter",
+    "homeworld": "Pont-à-Mousson"
    },
-   "line": "Aristocrat. Appears in four plays.",
+   "line": "His daughter, of Pont-à-Mousson. Appears in four plays.",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -3339,12 +3448,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Queen",
     "gender": "Female",
-    "titles": [
-     "regent"
-    ]
+    "homeworld": "Munich"
    },
-   "line": "Regent. Appears in Henry V.",
+   "line": "Queen, of Munich. Appears in Henry V.",
    "signals": {
     "lookAlikes": 33,
     "nearest": {
@@ -3362,9 +3470,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "role": "Queen",
+    "gender": "Female",
+    "affiliations": [
+     "Kingdom of Bohemia"
+    ],
+    "homeworld": "Prague"
    },
-   "line": "Appears in Richard II.",
+   "line": "Queen, of Prague, of the Kingdom of Bohemia. Appears in Richard II.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -3382,9 +3495,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Lord",
     "gender": "Male"
    },
-   "line": "Appears in Henry V."
+   "line": "Lord. Appears in Henry V."
   },
   "180": {
    "facts": {
@@ -3393,9 +3507,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sir"
    },
-   "line": "Appears in Richard III.",
+   "line": "Sir. Appears in Richard III.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -3413,10 +3528,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Duke of Anjou",
-    "gender": "Male"
+    "role": "Duke of Anjou and Maine, King of Naples",
+    "gender": "Male",
+    "homeworld": "Angers"
    },
-   "line": "Duke of Anjou. Appears in Henry VI, Part 1.",
+   "line": "Duke of Anjou and Maine, King of Naples, of Angers. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -3436,10 +3552,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Duke of Gloucester",
-    "gender": "Male"
+    "role": "Later Duke of Gloucester",
+    "gender": "Male",
+    "homeworld": "Fotheringhay Castle"
    },
-   "line": "Duke of Gloucester. Appears in three plays.",
+   "line": "Later Duke of Gloucester, of Fotheringhay Castle. Appears in three plays.",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -3457,12 +3574,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "King",
     "gender": "Male",
-    "titles": [
-     "monarch of England"
-    ]
+    "homeworld": "Bordeaux"
    },
-   "line": "Monarch of England. Appears in Richard II.",
+   "line": "King, of Bordeaux. Appears in Richard II.",
    "signals": {
     "lookAlikes": 12,
     "nearest": {
@@ -3482,9 +3598,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "aristocrat"
+    "role": "Brother to the queen",
+    "homeworld": "Grafton Regis"
    },
-   "line": "Aristocrat. Appears in Henry VI, Part 3 and Richard III.",
+   "line": "Brother to the queen, of Grafton Regis. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -3522,9 +3639,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "His page"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "His page. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -3542,12 +3660,13 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Lord",
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
+    "affiliations": [
+     "Order of the Garter"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Richard II.",
+   "line": "Lord, of the Order of the Garter. Appears in Richard II.",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -3565,9 +3684,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "The doctor’s manservant"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "The doctor’s manservant. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -3586,9 +3706,13 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "judge"
+    "occupation": "judge",
+    "affiliations": [
+     "United Kingdom"
+    ],
+    "homeworld": "Rouen"
    },
-   "line": "Judge. Appears in Henry VI, Part 3."
+   "line": "Judge, of Rouen, of the United Kingdom. Appears in Henry VI, Part 3."
   },
   "190": {
    "facts": {
@@ -3688,9 +3812,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A French soldier"
    },
-   "line": "Appears in Henry V."
+   "line": "A French soldier. Appears in Henry V."
   },
   "196": {
    "facts": {
@@ -3699,9 +3824,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sergeant"
    },
-   "line": "Appears in Henry VI, Part 1.",
+   "line": "Sergeant. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -3747,9 +3873,13 @@
     "gender": "Male",
     "titles": [
      "member of the House of Lords"
-    ]
+    ],
+    "affiliations": [
+     "Order of the Garter"
+    ],
+    "homeworld": "County Durham"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 2.",
+   "line": "Member of the House of Lords, of County Durham, of the Order of the Garter. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -3767,12 +3897,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "Earl of Salisbury",
+    "gender": "Male"
    },
-   "line": "Member of the House of Lords. Appears in Henry V.",
+   "line": "Earl of Salisbury. Appears in Henry V.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -3790,9 +3918,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Earl of Salisbury",
     "gender": "Male"
    },
-   "line": "Appears in Richard II."
+   "line": "Earl of Salisbury. Appears in Richard II."
   },
   "202": {
    "facts": {
@@ -3824,12 +3953,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "Lord High Treasurer"
-    ]
+    "role": "Lord",
+    "gender": "Male"
    },
-   "line": "Lord High Treasurer. Appears in Henry V."
+   "line": "Lord. Appears in Henry V."
   },
   "204": {
    "facts": {
@@ -3838,9 +3965,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sir"
    },
-   "line": "Appears in Richard II."
+   "line": "Sir. Appears in Richard II."
   },
   "205": {
    "facts": {
@@ -3870,9 +3998,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Justice, A visiting justice of the peace"
    },
-   "line": "Appears in Henry IV, Part II and The Merry Wives of Windsor.",
+   "line": "Justice, A visiting justice of the peace. Appears in Henry IV, Part II and The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -3891,9 +4020,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "occupation": "farm operator"
+    "role": "Pucelle’s father",
+    "homeworld": "Ceffonds"
    },
-   "line": "Farm operator. Appears in Henry VI, Part 1.",
+   "line": "Pucelle’s father, of Ceffonds. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -3922,9 +4052,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Justice"
    },
-   "line": "Appears in Henry IV, Part II.",
+   "line": "Justice. Appears in Henry IV, Part II.",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -3962,9 +4093,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Supposed recipient of a miracle"
    },
-   "line": "Appears in Henry VI, Part 2.",
+   "line": "Supposed recipient of a miracle. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -3982,9 +4114,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Slender’s servant"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "Slender’s servant. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -4002,9 +4135,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Sir, A priest"
    },
-   "line": "Appears in Richard III."
+   "line": "Sir, A priest. Appears in Richard III."
   },
   "214": {
    "facts": {
@@ -4013,9 +4147,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "His nephew, a young gentleman suitor to Anne Page"
    },
-   "line": "Appears in The Merry Wives of Windsor.",
+   "line": "His nephew, a young gentleman suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -4057,9 +4192,10 @@
     "gender": "Male",
     "titles": [
      "member of the House of Lords"
-    ]
+    ],
+    "homeworld": "Middlesex"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
+   "line": "Member of the House of Lords, of Middlesex. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -4080,9 +4216,13 @@
     "gender": "Male",
     "titles": [
      "member of the House of Lords"
-    ]
+    ],
+    "affiliations": [
+     "United Kingdom"
+    ],
+    "homeworld": "London"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "line": "Member of the House of Lords, of London, of the United Kingdom. Appears in Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -4173,9 +4313,13 @@
     "gender": "Male",
     "titles": [
      "Member of the 1427-28 Parliament"
+    ],
+    "affiliations": [
+     "Order of the Garter",
+     "Stanley family"
     ]
    },
-   "line": "Member of the 1427-28 Parliament. Appears in Henry VI, Part 2."
+   "line": "Member of the 1427-28 Parliament, of the Order of the Garter. Appears in Henry VI, Part 2."
   },
   "223": {
    "facts": {
@@ -4185,9 +4329,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Earl of Derby"
+    "role": "Earl of Derby",
+    "homeworld": "Lathom"
    },
-   "line": "Earl of Derby. Appears in Richard III.",
+   "line": "Earl of Derby, of Lathom. Appears in Richard III.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -4206,10 +4351,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Earl",
-    "gender": "Male"
+    "role": "Earlier Marquess of Suffolk",
+    "gender": "Male",
+    "affiliations": [
+     "Order of the Garter"
+    ],
+    "homeworld": "Suffolk"
    },
-   "line": "Earl. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
+   "line": "Earlier Marquess of Suffolk, of Suffolk, of the Order of the Garter. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -4227,12 +4376,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Duke of Surrey",
     "gender": "Male",
-    "titles": [
-     "Earl Marshal"
-    ]
+    "homeworld": "Fotheringhay"
    },
-   "line": "Earl Marshal. Appears in Richard II.",
+   "line": "Duke of Surrey, of Fotheringhay. Appears in Richard II.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -4251,11 +4399,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Member of the Privy Council of the United Kingdom"
-    ]
+    "role": "Earl of Surrey",
+    "homeworld": "Stoke-by-Nayland"
    },
-   "line": "Member of the Privy Council of the United Kingdom. Appears in Richard III.",
+   "line": "Earl of Surrey, of Stoke-by-Nayland. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -4273,12 +4420,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Afterwards Earl of Shrewsbury",
     "gender": "Male",
-    "titles": [
-     "Lord Lieutenant of Ireland"
-    ]
+    "homeworld": "Shropshire"
    },
-   "line": "Lord Lieutenant of Ireland. Appears in Henry VI, Part 1.",
+   "line": "Afterwards Earl of Shrewsbury, of Shropshire. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -4296,9 +4442,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Horner the armorer’s man or prentice"
    },
-   "line": "Appears in Henry VI, Part 2.",
+   "line": "Horner the armorer’s man or prentice. Appears in Henry VI, Part 2.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -4360,11 +4507,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Member of Parliament in the Parliament of England"
-    ]
+    "role": "Sir"
    },
-   "line": "Member of Parliament in the Parliament of England. Appears in Richard III.",
+   "line": "Sir. Appears in Richard III.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -4402,9 +4547,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Sir, An English knight",
     "gender": "Male"
    },
-   "line": "Appears in Henry IV, Part I."
+   "line": "Sir, An English knight. Appears in Henry IV, Part I."
   },
   "235": {
    "facts": {
@@ -4413,9 +4559,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Of the White Rose or York faction"
    },
-   "line": "Appears in Henry VI, Part 1.",
+   "line": "Of the White Rose or York faction. Appears in Henry VI, Part 1.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -4433,9 +4580,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Or keeper of the tavern"
    },
-   "line": "Appears in Henry IV, Part I.",
+   "line": "Or keeper of the tavern. Appears in Henry IV, Part I.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -4535,9 +4683,13 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Earl of Warwick",
+    "affiliations": [
+     "United Kingdom"
+    ]
    },
-   "line": "Appears in three plays.",
+   "line": "Earl of Warwick, of the United Kingdom. Appears in three plays.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -4556,12 +4708,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Salisbury’s son",
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "affiliations": [
+     "Order of the Garter"
+    ],
+    "homeworld": "Norwich"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
+   "line": "Salisbury’s son, of Norwich, of the Order of the Garter. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -4581,12 +4735,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Earl of Westmoreland",
     "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "homeworld": "Raby Castle"
    },
-   "line": "Member of the House of Lords. Appears in three plays.",
+   "line": "Earl of Westmoreland, of Raby Castle. Appears in three plays.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -4607,9 +4760,10 @@
     "gender": "Male",
     "titles": [
      "member of the House of Lords"
-    ]
+    ],
+    "homeworld": "Raby Castle"
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 3.",
+   "line": "Member of the House of Lords, of Raby Castle. Appears in Henry VI, Part 3.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -4627,9 +4781,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A ship’s officer"
    },
-   "line": "Appears in Henry VI, Part 2."
+   "line": "A ship’s officer. Appears in Henry VI, Part 2."
   },
   "246": {
    "facts": {
@@ -4638,9 +4793,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Their son"
    },
-   "line": "Appears in The Merry Wives of Windsor."
+   "line": "Their son. Appears in The Merry Wives of Windsor."
   },
   "247": {
    "facts": {
@@ -4669,12 +4825,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "member of the House of Lords"
-    ]
+    "role": "Lord",
+    "gender": "Male"
    },
-   "line": "Member of the House of Lords. Appears in Richard II.",
+   "line": "Lord. Appears in Richard II.",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -4693,9 +4847,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Lieutenant"
+    "role": "Lieutenant of the Tower of London",
+    "homeworld": "Maidstone"
    },
-   "line": "Lieutenant. Appears in Henry VI, Part 1."
+   "line": "Lieutenant of the Tower of London, of Maidstone. Appears in Henry VI, Part 1."
   },
   "250": {
    "facts": {
@@ -4704,12 +4859,13 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Earl of Worcester, Thomas Percy, Hotspur’s uncle",
     "gender": "Male",
-    "titles": [
-     "Lord High Admiral"
+    "affiliations": [
+     "Order of the Garter"
     ]
    },
-   "line": "Lord High Admiral. Appears in Henry IV, Part I.",
+   "line": "Earl of Worcester, Thomas Percy, Hotspur’s uncle, of the Order of the Garter. Appears in Henry IV, Part I.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -4729,12 +4885,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "And Regent of France",
     "gender": "Male",
-    "titles": [
-     "Lord Lieutenant of Ireland"
-    ]
+    "homeworld": "Kings Langley"
    },
-   "line": "Lord Lieutenant of Ireland. Appears in three plays.",
+   "line": "And Regent of France, of Kings Langley. Appears in three plays.",
    "signals": {
     "lookAlikes": 96,
     "nearest": {
@@ -4752,12 +4907,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Duke of York",
     "gender": "Male",
-    "titles": [
-     "Duke of York"
-    ]
+    "homeworld": "Norwich"
    },
-   "line": "Duke of York. Appears in Henry V.",
+   "line": "Duke of York, of Norwich. Appears in Henry V.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -4775,12 +4929,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Duke of York",
     "gender": "Male",
-    "titles": [
-     "governor of Brittany"
-    ]
+    "affiliations": [
+     "Order of the Garter"
+    ],
+    "homeworld": "Kings Langley"
    },
-   "line": "Governor of Brittany. Appears in Richard II.",
+   "line": "Duke of York, of Kings Langley, of the Order of the Garter. Appears in Richard II.",
    "signals": {
     "lookAlikes": 20,
     "nearest": {
@@ -8188,9 +8344,12 @@
     ],
     "first": "Henry VI, Part 2",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 2."
+   "line": "They share the page only in Henry VI, Part 2. Both belong to Order of the Garter."
   },
   "28-202": {
    "facts": {
@@ -8265,9 +8424,12 @@
     ],
     "first": "Henry VI, Part 2",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 2."
+   "line": "They share the page only in Henry VI, Part 2. Both belong to Order of the Garter."
   },
   "28-228": {
    "facts": {
@@ -8287,9 +8449,12 @@
     ],
     "first": "Henry VI, Part 2",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 2."
+   "line": "They share the page only in Henry VI, Part 2. Both belong to Order of the Garter."
   },
   "28-251": {
    "facts": {
@@ -8331,9 +8496,12 @@
     ],
     "first": "Richard III",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "United Kingdom"
+    ]
    },
-   "line": "They share the page only in Richard III."
+   "line": "They share the page only in Richard III. Both belong to United Kingdom."
   },
   "29-44": {
    "facts": {
@@ -8397,9 +8565,12 @@
     ],
     "first": "Richard III",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Richard III."
+   "line": "They share the page only in Richard III. Both belong to Order of the Garter."
   },
   "29-90": {
    "facts": {
@@ -8463,9 +8634,12 @@
     ],
     "first": "Richard III",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Richard III."
+   "line": "They share the page only in Richard III. Both belong to Order of the Garter."
   },
   "29-143": {
    "facts": {
@@ -9491,9 +9665,12 @@
     ],
     "first": "Richard III",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "United Kingdom of Great Britain and Ireland"
+    ]
    },
-   "line": "They share the page only in Richard III."
+   "line": "They share the page only in Richard III. Both belong to United Kingdom of Great Britain and Ireland."
   },
   "38-143": {
    "facts": {
@@ -10041,9 +10218,12 @@
     ],
     "first": "Henry IV, Part II",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry IV, Part II."
+   "line": "They share the page only in Henry IV, Part II. Both belong to Order of the Garter."
   },
   "42-241": {
    "facts": {
@@ -10342,9 +10522,12 @@
     ],
     "first": "Henry VI, Part 3",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "United Kingdom"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 3."
+   "line": "They share the page only in Henry VI, Part 3. Both belong to United Kingdom."
   },
   "43-218": {
    "facts": {
@@ -12627,9 +12810,12 @@
     ],
     "first": "Henry V",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry V."
+   "line": "They share the page only in Henry V. Both belong to Order of the Garter."
   },
   "65-169": {
    "facts": {
@@ -12891,9 +13077,12 @@
     ],
     "first": "Henry VI, Part 1",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 1."
+   "line": "They share the page only in Henry VI, Part 1. Both belong to Order of the Garter."
   },
   "67-227": {
    "facts": {
@@ -16470,9 +16659,12 @@
     ],
     "first": "Henry IV, Part I",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry IV, Part I."
+   "line": "They share the page only in Henry IV, Part I. Both belong to Order of the Garter."
   },
   "100-252": {
    "facts": {
@@ -19215,9 +19407,12 @@
     ],
     "first": "Henry VI, Part 3",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 3."
+   "line": "They share the page only in Henry VI, Part 3. Both belong to Order of the Garter."
   },
   "151-172": {
    "facts": {
@@ -19292,9 +19487,12 @@
     ],
     "first": "Henry VI, Part 3",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 3."
+   "line": "They share the page only in Henry VI, Part 3. Both belong to Order of the Garter."
   },
   "151-244": {
    "facts": {
@@ -19997,9 +20195,12 @@
     ],
     "first": "Henry VI, Part 3",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 3."
+   "line": "They share the page only in Henry VI, Part 3. Both belong to Order of the Garter."
   },
   "168-169": {
    "facts": {
@@ -21220,9 +21421,12 @@
     ],
     "first": "Richard II",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Richard II."
+   "line": "They share the page only in Richard II. Both belong to Order of the Garter."
   },
   "188-206": {
    "facts": {
@@ -21363,9 +21567,12 @@
     ],
     "first": "Henry VI, Part 2",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 2."
+   "line": "They share the page only in Henry VI, Part 2. Both belong to Order of the Garter."
   },
   "199-228": {
    "facts": {
@@ -21396,9 +21603,12 @@
     ],
     "first": "Henry VI, Part 2",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 2."
+   "line": "They share the page only in Henry VI, Part 2. Both belong to Order of the Garter."
   },
   "199-251": {
    "facts": {
@@ -21926,9 +22136,12 @@
     ],
     "first": "Henry VI, Part 2",
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "sharedAffiliations": [
+     "Order of the Garter"
+    ]
    },
-   "line": "They share the page only in Henry VI, Part 2."
+   "line": "They share the page only in Henry VI, Part 2. Both belong to Order of the Garter."
   },
   "224-245": {
    "facts": {
@@ -22228,8 +22441,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -22239,9 +22451,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

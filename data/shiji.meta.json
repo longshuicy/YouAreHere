@@ -26,11 +26,12 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
+    "occupation": "政治家",
     "affiliations": [
      "魏國"
     ]
    },
-   "line": "屬魏國。見於5篇。"
+   "line": "政治家。屬魏國。見於5篇。"
   },
   "2": {
    "facts": {
@@ -94,9 +95,10 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "田齊"
    },
-   "line": "見於4篇。"
+   "line": "田齊出身。見於4篇。"
   },
   "6": {
    "facts": {
@@ -109,7 +111,8 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
-    "occupation": "哲學家"
+    "occupation": "哲學家",
+    "homeworld": "開封市"
    },
    "line": "哲學家。見於4篇。"
   },
@@ -135,9 +138,10 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "六安市"
    },
-   "line": "見於16篇。",
+   "line": "六安市出身。見於16篇。",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -163,9 +167,10 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "豐縣"
    },
-   "line": "見於9篇。",
+   "line": "豐縣出身。見於9篇。",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -266,7 +271,8 @@
     "occupation": "士兵",
     "affiliations": [
      "西漢"
-    ]
+    ],
+    "homeworld": "濟州 (山東)"
    },
    "line": "士兵。屬西漢。見於3篇。"
   },
@@ -387,12 +393,14 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
+    "species": "漢族",
     "affiliations": [
      "西漢",
      "秦國"
-    ]
+    ],
+    "homeworld": "豐縣"
    },
-   "line": "屬西漢。見於7篇。",
+   "line": "漢族。屬西漢。見於7篇。",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -511,9 +519,11 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治家",
+    "homeworld": "豐縣"
    },
-   "line": "見於5篇。"
+   "line": "政治家。見於5篇。"
   },
   "28": {
    "facts": {
@@ -531,7 +541,8 @@
     "affiliations": [
      "楚國",
      "秦朝"
-    ]
+    ],
+    "homeworld": "上蔡縣"
    },
    "line": "哲學家。屬楚國。見於5篇。"
   },
@@ -670,12 +681,17 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
+    "titles": [
+     "君主"
+    ],
+    "species": "楚人",
     "affiliations": [
      "楚國",
      "秦朝"
-    ]
+    ],
+    "homeworld": "宿遷市"
    },
-   "line": "屬楚國。見於26篇。",
+   "line": "君主。屬楚國。見於26篇。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -700,7 +716,8 @@
     "occupation": "哲學家",
     "affiliations": [
      "邾国"
-    ]
+    ],
+    "homeworld": "邾国"
    },
    "line": "哲學家。屬邾国。見於4篇。"
   },
@@ -723,7 +740,8 @@
     ],
     "affiliations": [
      "魏國"
-    ]
+    ],
+    "homeworld": "魏國"
    },
    "line": "宰相。屬魏國。見於7篇。"
   },
@@ -744,7 +762,8 @@
     "affiliations": [
      "齊國",
      "趙國"
-    ]
+    ],
+    "homeworld": "趙國"
    },
    "line": "哲學家。屬齊國。見於6篇。"
   },
@@ -758,7 +777,8 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
-    "occupation": "哲學家"
+    "occupation": "哲學家",
+    "homeworld": "魯國"
    },
    "line": "哲學家。見於3篇。"
   },
@@ -777,7 +797,8 @@
     "occupation": "哲學家",
     "affiliations": [
      "韩国"
-    ]
+    ],
+    "homeworld": "新鄭市"
    },
    "line": "哲學家。屬韩国。見於5篇。"
   },
@@ -815,9 +836,14 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "鉅野縣",
+    "occupation": "將軍",
+    "affiliations": [
+     "西漢"
+    ]
    },
-   "line": "見於9篇。",
+   "line": "將軍。屬西漢。見於9篇。",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -867,7 +893,8 @@
     "occupation": "商人",
     "affiliations": [
      "秦國"
-    ]
+    ],
+    "homeworld": "衛國"
    },
    "line": "商人。屬秦國。見於11篇。",
    "signals": {
@@ -890,7 +917,8 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
-    "occupation": "武將"
+    "occupation": "武將",
+    "homeworld": "堯都區"
    },
    "line": "武將。見於3篇。"
   },
@@ -938,7 +966,8 @@
     "occupation": "哲學家",
     "affiliations": [
      "魯國"
-    ]
+    ],
+    "homeworld": "曲阜市"
    },
    "line": "哲學家。屬魯國。見於18篇。"
   },
@@ -973,9 +1002,10 @@
     "affiliations": [
      "西漢",
      "秦朝"
-    ]
+    ],
+    "homeworld": "蘇州市"
    },
-   "line": "屬西漢。見於4篇。"
+   "line": "蘇州市出身。屬西漢。見於4篇。"
   },
   "48": {
    "facts": {
@@ -1004,9 +1034,10 @@
     "gender": "男",
     "affiliations": [
      "西漢"
-    ]
+    ],
+    "homeworld": "淮安市"
    },
-   "line": "屬西漢。見於18篇。",
+   "line": "淮安市出身。屬西漢。見於18篇。",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -1072,7 +1103,8 @@
     "affiliations": [
      "楚國",
      "衛國"
-    ]
+    ],
+    "homeworld": "衛國"
    },
    "line": "哲學家。屬楚國。見於6篇。"
   },
@@ -1089,9 +1121,13 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "謀士",
+    "affiliations": [
+     "西漢"
+    ]
    },
-   "line": "見於7篇。",
+   "line": "謀士。屬西漢。見於7篇。",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -1113,9 +1149,10 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "堯都區"
    },
-   "line": "見於5篇。"
+   "line": "堯都區出身。見於5篇。"
   },
   "54": {
    "facts": {
@@ -1157,7 +1194,8 @@
     "occupation": "軍事領袖",
     "affiliations": [
      "秦國"
-    ]
+    ],
+    "homeworld": "眉縣"
    },
    "line": "軍事領袖。屬秦國。見於5篇。"
   },
@@ -1173,9 +1211,10 @@
     "gender": "男",
     "affiliations": [
      "西漢"
-    ]
+    ],
+    "homeworld": "天水市"
    },
-   "line": "屬西漢。見於3篇。"
+   "line": "天水市出身。屬西漢。見於3篇。"
   },
   "57": {
    "facts": {
@@ -1210,9 +1249,10 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "蘭考縣"
    },
-   "line": "見於10篇。",
+   "line": "蘭考縣出身。見於10篇。",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -1264,9 +1304,10 @@
     "gender": "男",
     "affiliations": [
      "西漢"
-    ]
+    ],
+    "homeworld": "開封市"
    },
-   "line": "屬西漢。見於11篇。"
+   "line": "開封市出身。屬西漢。見於11篇。"
   },
   "61": {
    "facts": {
@@ -1281,9 +1322,11 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "開封市",
+    "occupation": "武將"
    },
-   "line": "見於7篇。"
+   "line": "武將。見於7篇。"
   },
   "62": {
    "facts": {
@@ -1315,7 +1358,8 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
-    "occupation": "哲學家"
+    "occupation": "哲學家",
+    "homeworld": "洛陽市"
    },
    "line": "哲學家。見於6篇。",
    "signals": {
@@ -1342,13 +1386,16 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
-    "occupation": "皇帝",
+    "titles": [
+     "王"
+    ],
     "affiliations": [
      "秦國",
      "秦朝"
-    ]
+    ],
+    "homeworld": "邯鄲市"
    },
-   "line": "皇帝。屬秦國。見於7篇。",
+   "line": "王。屬秦國。見於7篇。",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -1402,13 +1449,16 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
-    "occupation": "統治者",
+    "titles": [
+     "王"
+    ],
     "affiliations": [
      "西漢",
      "秦朝"
-    ]
+    ],
+    "homeworld": "沛縣"
    },
-   "line": "統治者。屬西漢。見於36篇。",
+   "line": "王。屬西漢。見於36篇。",
    "signals": {
     "lookAlikes": 24,
     "nearest": {
@@ -1448,12 +1498,15 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
-    "occupation": "儒學學者",
+    "titles": [
+     "王"
+    ],
     "affiliations": [
      "西漢"
-    ]
+    ],
+    "homeworld": "長安"
    },
-   "line": "儒學學者。屬西漢。見於22篇。",
+   "line": "王。屬西漢。見於22篇。",
    "signals": {
     "lookAlikes": 15,
     "nearest": {
@@ -1491,7 +1544,8 @@
     "occupation": "統治者",
     "affiliations": [
      "西漢"
-    ]
+    ],
+    "homeworld": "太原市"
    },
    "line": "統治者。屬西漢。見於17篇。",
    "signals": {
@@ -1521,9 +1575,10 @@
     "gender": "男",
     "affiliations": [
      "西漢"
-    ]
+    ],
+    "homeworld": "長安"
    },
-   "line": "屬西漢。見於8篇。"
+   "line": "長安出身。屬西漢。見於8篇。"
   },
   "69": {
    "facts": {
@@ -1640,9 +1695,10 @@
     ],
     "unit": "juan",
     "corpusSize": 126,
-    "gender": "男"
+    "gender": "男",
+    "homeworld": "商丘市"
    },
-   "line": "見於5篇。",
+   "line": "商丘市出身。見於5篇。",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -1693,7 +1749,8 @@
     "unit": "juan",
     "corpusSize": 126,
     "gender": "男",
-    "occupation": "哲學家"
+    "occupation": "哲學家",
+    "homeworld": "楚國"
    },
    "line": "哲學家。見於8篇。"
   },
@@ -1734,7 +1791,8 @@
     "occupation": "歷史學家",
     "affiliations": [
      "西漢"
-    ]
+    ],
+    "homeworld": "河津市"
    },
    "line": "歷史學家。屬西漢。見於12篇。"
   },
@@ -1751,9 +1809,10 @@
     "gender": "女",
     "affiliations": [
      "西漢"
-    ]
+    ],
+    "homeworld": "蘇州市"
    },
-   "line": "屬西漢。見於4篇。"
+   "line": "蘇州市出身。屬西漢。見於4篇。"
   }
  },
  "edges": {
@@ -2559,9 +2618,12 @@
     ],
     "first": "高祖本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "僅在高祖本紀同頁。"
+   "line": "僅在高祖本紀同頁。同屬西漢。"
   },
   "14-65": {
    "facts": {
@@ -2652,9 +2714,12 @@
     ],
     "first": "高祖本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "僅在高祖本紀同頁。"
+   "line": "僅在高祖本紀同頁。同屬西漢。"
   },
   "15-47": {
    "facts": {
@@ -2956,9 +3021,12 @@
     ],
     "first": "項羽本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "共見於3篇，始於項羽本紀。"
+   "line": "共見於3篇，始於項羽本紀。同屬西漢。"
   },
   "20-58": {
    "facts": {
@@ -3154,9 +3222,12 @@
     ],
     "first": "魏豹彭越列傳",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "僅在魏豹彭越列傳同頁。"
+   "line": "僅在魏豹彭越列傳同頁。同屬西漢。"
   },
   "24-51": {
    "facts": {
@@ -3494,9 +3565,12 @@
     ],
     "first": "項羽本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "共見於2篇，始於項羽本紀。"
+   "line": "共見於2篇，始於項羽本紀。同屬西漢。"
   },
   "31-42": {
    "facts": {
@@ -4101,9 +4175,12 @@
     ],
     "first": "項羽本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "共見於3篇，始於項羽本紀。"
+   "line": "共見於3篇，始於項羽本紀。同屬西漢。"
   },
   "40-52": {
    "facts": {
@@ -4113,9 +4190,12 @@
     ],
     "first": "高祖本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "共見於2篇，始於高祖本紀。"
+   "line": "共見於2篇，始於高祖本紀。同屬西漢。"
   },
   "40-54": {
    "facts": {
@@ -4124,9 +4204,12 @@
     ],
     "first": "高祖本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "僅在高祖本紀同頁。"
+   "line": "僅在高祖本紀同頁。同屬西漢。"
   },
   "40-58": {
    "facts": {
@@ -4172,9 +4255,12 @@
     ],
     "first": "項羽本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "共見於5篇，始於項羽本紀。"
+   "line": "共見於5篇，始於項羽本紀。同屬西漢。"
   },
   "40-72": {
    "facts": {
@@ -4185,9 +4271,12 @@
     ],
     "first": "項羽本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "共見於3篇，始於項羽本紀。"
+   "line": "共見於3篇，始於項羽本紀。同屬西漢。"
   },
   "40-78": {
    "facts": {
@@ -4196,9 +4285,12 @@
     ],
     "first": "項羽本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "僅在項羽本紀同頁。"
+   "line": "僅在項羽本紀同頁。同屬西漢。"
   },
   "41-51": {
    "facts": {
@@ -4446,9 +4538,12 @@
     ],
     "first": "高祖本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "僅在高祖本紀同頁。"
+   "line": "僅在高祖本紀同頁。同屬西漢。"
   },
   "48-60": {
    "facts": {
@@ -4748,9 +4843,12 @@
     ],
     "first": "項羽本紀",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "共見於6篇，始於項羽本紀。"
+   "line": "共見於6篇，始於項羽本紀。同屬西漢。"
   },
   "52-66": {
    "facts": {
@@ -4759,9 +4857,12 @@
     ],
     "first": "留侯世家",
     "unit": "juan",
-    "corpusSize": 126
+    "corpusSize": 126,
+    "sharedAffiliations": [
+     "西漢"
+    ]
    },
-   "line": "僅在留侯世家同頁。"
+   "line": "僅在留侯世家同頁。同屬西漢。"
   },
   "53-68": {
    "facts": {
@@ -5384,9 +5485,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

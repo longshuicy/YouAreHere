@@ -7,121 +7,121 @@
    "i": 0,
    "n": "Apothecary",
    "x": 600.0,
-   "y": -246.6
+   "y": -253.9
   },
   {
    "i": 1,
    "n": "Benvolio",
-   "x": -149.0,
-   "y": 29.2
+   "x": -150.6,
+   "y": 27.0
   },
   {
    "i": 2,
    "n": "Capulet",
-   "x": 83.6,
-   "y": -8.1
+   "x": 83.3,
+   "y": -3.7
   },
   {
    "i": 3,
    "n": "Friar Lawrence",
-   "x": 83.6,
-   "y": -282.3
+   "x": 90.4,
+   "y": -281.1
   },
   {
    "i": 4,
    "n": "Juliet",
-   "x": 10.9,
-   "y": -181.3
+   "x": 15.0,
+   "y": -181.0
   },
   {
    "i": 5,
    "n": "Lady Capulet",
-   "x": -62.3,
-   "y": -28.7
+   "x": -60.8,
+   "y": -27.0
   },
   {
    "i": 6,
    "n": "Lady Montague",
-   "x": -39.5,
-   "y": 343.2
+   "x": -45.3,
+   "y": 344.3
   },
   {
    "i": 7,
    "n": "Mercutio",
-   "x": -296.3,
-   "y": -87.3
+   "x": -295.6,
+   "y": -91.9
   },
   {
    "i": 8,
    "n": "Montague",
-   "x": 53.5,
-   "y": 104.4
+   "x": 52.0,
+   "y": 107.6
   },
   {
    "i": 9,
    "n": "Nurse",
-   "x": -124.3,
-   "y": -204.4
+   "x": -120.8,
+   "y": -205.9
   },
   {
    "i": 10,
    "n": "Paris",
-   "x": 143.1,
-   "y": -184.5
+   "x": 147.2,
+   "y": -180.5
   },
   {
    "i": 11,
    "n": "Petruchio",
-   "x": -370.5,
-   "y": 118.3
+   "x": -373.8,
+   "y": 112.3
   },
   {
    "i": 12,
    "n": "Escalus",
-   "x": -30.9,
-   "y": 99.9
+   "x": -32.6,
+   "y": 99.6
   },
   {
    "i": 13,
    "n": "Romeo",
-   "x": 17.2,
-   "y": -46.7
+   "x": 17.8,
+   "y": -47.9
   },
   {
    "i": 14,
    "n": "Gregory",
-   "x": -147.8,
-   "y": 309.3
+   "x": -153.8,
+   "y": 309.2
   },
   {
    "i": 15,
    "n": "Peter",
-   "x": -151.4,
-   "y": -350.4
+   "x": -145.2,
+   "y": -353.7
   },
   {
    "i": 16,
    "n": "Sampson",
-   "x": 68.7,
-   "y": 329.2
+   "x": 63.7,
+   "y": 332.1
   },
   {
    "i": 17,
    "n": "Abram",
-   "x": 156.6,
-   "y": 255.6
+   "x": 153.7,
+   "y": 259.9
   },
   {
    "i": 18,
    "n": "Balthasar",
-   "x": 307.3,
-   "y": -114.5
+   "x": 310.7,
+   "y": -110.0
   },
   {
    "i": 19,
    "n": "Tybalt",
-   "x": -152.5,
-   "y": 145.8
+   "x": -155.3,
+   "y": 144.5
   }
  ],
  "edges": [
@@ -1111,6 +1111,7 @@
     "Dropped group nodes (crowds, attendants) so a waking is always a person.",
     "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
     "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Applied a hand-maintained identity table covering 25 characters: display names, nicknames for the guess field, and disambiguators.",
     "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
     "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
     "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",

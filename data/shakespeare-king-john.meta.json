@@ -9,10 +9,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "Duke of Brittany",
-    "gender": "Male"
+    "role": "Duke of Brittany, her son",
+    "gender": "Male",
+    "affiliations": [
+     "Duchy of Brittany"
+    ],
+    "homeworld": "Nantes"
    },
-   "line": "Duke of Brittany.",
+   "line": "Duke of Brittany, her son, of Nantes, of the Duchy of Brittany.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -31,11 +35,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "duke"
-    ]
+    "role": "Duke of Austria Limoges, (also called Limoges)"
    },
-   "line": "Duke.",
+   "line": "Duke of Austria Limoges, (also called Limoges).",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -53,8 +55,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Philip Faulconbridge, her son by King Richard I",
     "gender": "Male"
    },
+   "line": "Philip Faulconbridge, her son by King Richard I.",
    "signals": {
     "lookAlikes": 24,
     "nearest": {
@@ -72,10 +76,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "occupation": "feudatory"
+    "role": "Lord",
+    "gender": "Male"
    },
-   "line": "Feudatory."
+   "line": "Lord."
   },
   "4": {
    "facts": {
@@ -84,12 +88,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Niece to King John",
     "gender": "Female",
-    "titles": [
-     "Queen Consort of France"
-    ]
+    "affiliations": [
+     "Kingdom of Castile"
+    ],
+    "homeworld": "Palencia"
    },
-   "line": "Queen Consort of France.",
+   "line": "Niece to King John, of Palencia, of the Kingdom of Castile.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -106,8 +112,10 @@
      "King John"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Citizen"
    },
+   "line": "Citizen.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -126,9 +134,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "Ambassador"
+    "role": "Ambassador from France to King John"
    },
-   "line": "Ambassador.",
+   "line": "Ambassador from France to King John.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -146,12 +154,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Widow of Geoffrey, King John’s elder brother",
     "gender": "Female",
-    "titles": [
-     "duke of Brittany"
-    ]
+    "homeworld": "Brittany"
    },
-   "line": "Duke of Brittany.",
+   "line": "Widow of Geoffrey, King John’s elder brother, of Brittany.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -170,11 +177,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "King of France"
-    ]
+    "role": "His son",
+    "homeworld": "Paris"
    },
-   "line": "King of France.",
+   "line": "His son, of Paris.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -192,12 +198,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male",
-    "titles": [
-     "Justiciar"
-    ]
+    "role": "Earl of Essex",
+    "gender": "Male"
    },
-   "line": "Justiciar.",
+   "line": "Earl of Essex.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -215,8 +219,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Her servant"
    },
+   "line": "Her servant.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -273,11 +279,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "chief governor of Ireland"
-    ]
+    "role": "Supporter of King John"
    },
-   "line": "Chief governor of Ireland.",
+   "line": "Supporter of King John.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -295,10 +299,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "role": "King of England",
-    "gender": "Male"
+    "role": "King of England, with dominion over assortedContinental territories",
+    "gender": "Male",
+    "homeworld": "Beaumont Palace"
    },
-   "line": "King of England.",
+   "line": "King of England, with dominion over assortedContinental territories, of Beaumont Palace.",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -316,12 +321,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "King",
     "gender": "Male",
-    "titles": [
-     "King of France"
-    ]
+    "homeworld": "Paris"
    },
-   "line": "King of France.",
+   "line": "King, of Paris.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -339,8 +343,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "Lady"
    },
+   "line": "Lady.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -358,8 +364,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "Count"
+   },
+   "line": "Count."
   },
   "18": {
    "facts": {
@@ -369,11 +377,10 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "titles": [
-     "Roman Catholic Bishop of Norwich (England)"
-    ]
+    "role": "Cardinal, Papal Legate",
+    "homeworld": "Rome"
    },
-   "line": "Roman Catholic Bishop of Norwich (England).",
+   "line": "Cardinal, Papal Legate, of Rome.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -391,12 +398,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Earl of Pembroke",
     "gender": "Male",
-    "titles": [
-     "Earl Marshal"
-    ]
+    "homeworld": "Wiltshire"
    },
-   "line": "Earl Marshal.",
+   "line": "Earl of Pembroke, of Wiltshire.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -414,8 +420,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
-   }
+    "gender": "Male",
+    "role": "A Prophet"
+   },
+   "line": "A Prophet."
   },
   "21": {
    "facts": {
@@ -424,12 +432,11 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "Prince, Son to King John",
     "gender": "Male",
-    "titles": [
-     "monarch of England"
-    ]
+    "homeworld": "Winchester Castle"
    },
-   "line": "Monarch of England."
+   "line": "Prince, Son to King John, of Winchester Castle."
   },
   "22": {
    "facts": {
@@ -438,12 +445,14 @@
     ],
     "unit": "play",
     "corpusSize": 37,
+    "role": "King John’s mother, widow of King Henry II",
     "gender": "Female",
-    "titles": [
-     "queen of Franks"
-    ]
+    "affiliations": [
+     "Duchy of Aquitaine"
+    ],
+    "homeworld": "Poitiers"
    },
-   "line": "Queen of Franks.",
+   "line": "King John’s mother, widow of King Henry II, of Poitiers, of the Duchy of Aquitaine.",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -460,8 +469,10 @@
      "King John"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Her son by Sir Robert Faulconbridge"
    },
+   "line": "Her son by Sir Robert Faulconbridge.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -479,8 +490,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Earl of Salisbury"
    },
+   "line": "Earl of Salisbury.",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -1953,8 +1966,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -1964,9 +1976,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

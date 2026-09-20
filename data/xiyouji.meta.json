@@ -117,13 +117,14 @@
     "unit": "chapter",
     "corpusSize": 100,
     "gender": "男",
-    "occupation": "比丘",
+    "occupation": "僧人",
     "affiliations": [
      "唐"
     ],
-    "homeworld": "江州"
+    "homeworld": "江州",
+    "role": "取經人"
    },
-   "line": "比丘。屬唐。見於89回。",
+   "line": "取經人。僧人。屬唐。見於89回。",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -238,9 +239,11 @@
     ],
     "unit": "chapter",
     "corpusSize": 100,
-    "gender": "男"
+    "gender": "男",
+    "species": "豬",
+    "occupation": "天蓬元帥"
    },
-   "line": "見於83回。",
+   "line": "天蓬元帥。見於83回。",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -392,9 +395,11 @@
     "unit": "chapter",
     "corpusSize": 100,
     "gender": "男",
-    "homeworld": "仙石"
+    "homeworld": "仙石",
+    "species": "石猴",
+    "occupation": "齊天大聖"
    },
-   "line": "仙石出身。見於94回。",
+   "line": "齊天大聖。見於94回。",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -488,9 +493,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 100,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "捲簾大將"
    },
-   "line": "見於77回。",
+   "line": "捲簾大將。見於77回。",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -1540,9 +1546,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 100,
-    "gender": "男"
+    "gender": "男",
+    "role": "三太子"
    },
-   "line": "見於13回。",
+   "line": "三太子。見於13回。",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -1764,9 +1771,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 100,
-    "gender": "男"
+    "gender": "男",
+    "titles": [
+     "玉皇"
+    ]
    },
-   "line": "見於36回。",
+   "line": "玉皇。見於36回。",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -1795,9 +1805,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 100,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "托塔天王"
    },
-   "line": "見於12回。",
+   "line": "托塔天王。見於12回。",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -6366,9 +6377,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

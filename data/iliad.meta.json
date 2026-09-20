@@ -126,10 +126,10 @@
     "unit": "book",
     "corpusSize": 24,
     "gender": "Male",
-    "occupation": "aristocrat",
+    "occupation": "military leader",
     "species": "Thracians"
    },
-   "line": "Aristocrat, Thracians. Appears in Book 2 and Book 4."
+   "line": "Military leader, Thracians. Appears in Book 2 and Book 4."
   },
   "8": {
    "facts": {
@@ -21161,9 +21161,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

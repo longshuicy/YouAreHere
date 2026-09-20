@@ -6,98 +6,98 @@
   {
    "i": 0,
    "n": "Angus",
-   "x": 275.9,
-   "y": -246.8
+   "x": 271.1,
+   "y": -257.3
   },
   {
    "i": 1,
    "n": "Banquo",
-   "x": -120.8,
-   "y": -211.7
+   "x": -128.7,
+   "y": -210.2
   },
   {
    "i": 2,
    "n": "Caithness",
    "x": 600.0,
-   "y": -188.3
+   "y": -208.3
   },
   {
    "i": 3,
    "n": "Donalbain",
-   "x": -300.3,
-   "y": -193.5
+   "x": -309.8,
+   "y": -186.4
   },
   {
    "i": 4,
    "n": "Duncan",
-   "x": -399.7,
-   "y": -19.3
+   "x": -403.2,
+   "y": -5.6
   },
   {
    "i": 5,
    "n": "Fleance",
-   "x": -155.7,
-   "y": -584.1
+   "x": -173.2,
+   "y": -584.3
   },
   {
    "i": 6,
    "n": "Hecate",
-   "x": 444.2,
-   "y": 305.4
+   "x": 453.7,
+   "y": 298.6
   },
   {
    "i": 7,
    "n": "Lady Macbeth",
-   "x": -248.6,
-   "y": -26.7
+   "x": -251.2,
+   "y": -19.8
   },
   {
    "i": 8,
    "n": "Lennox",
-   "x": 101.9,
-   "y": -48.6
+   "x": 102.1,
+   "y": -51.7
   },
   {
    "i": 9,
    "n": "Macbeth",
-   "x": -33.0,
-   "y": 19.8
+   "x": -32.4,
+   "y": 21.2
   },
   {
    "i": 10,
    "n": "Macduff",
-   "x": -42.8,
-   "y": 176.6
+   "x": -38.0,
+   "y": 178.8
   },
   {
    "i": 11,
    "n": "Malcolm",
-   "x": -159.4,
-   "y": 138.9
+   "x": -156.5,
+   "y": 144.9
   },
   {
    "i": 12,
    "n": "Menteith",
-   "x": 323.1,
-   "y": 91.7
+   "x": 329.9,
+   "y": 81.9
   },
   {
    "i": 13,
    "n": "Ross",
-   "x": -91.6,
-   "y": -60.1
+   "x": -93.9,
+   "y": -59.4
   },
   {
    "i": 14,
    "n": "Siward",
-   "x": 16.6,
-   "y": 346.4
+   "x": 27.4,
+   "y": 347.8
   },
   {
    "i": 15,
    "n": "Young Siward",
-   "x": -210.0,
-   "y": 500.3
+   "x": -197.3,
+   "y": 509.7
   }
  ],
  "edges": [
@@ -632,6 +632,7 @@
     "Dropped group nodes (crowds, attendants) so a waking is always a person.",
     "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
     "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Applied a hand-maintained identity table covering 25 characters: display names, nicknames for the guess field, and disambiguators.",
     "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
     "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
     "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",

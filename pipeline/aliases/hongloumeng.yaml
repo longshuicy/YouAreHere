@@ -1,0 +1,44 @@
+# Standing facts for leads Wikidata barely describes (or mislabels).
+# Keyed by display name; `facts` does not rename the node.
+
+hongloumeng:
+
+  賈寶玉:
+    facts:
+      role: 榮國府公子
+      affiliations: [賈府]
+
+  賈母:
+    facts:
+      role: 賈府太君
+      affiliations: [賈府]
+
+  王熙鳳:
+    facts:
+      role: 榮國府當家
+      affiliations: [賈府]
+
+  王夫人:
+    facts:
+      role: 榮國府夫人
+      affiliations: [賈府]
+
+  林黛玉:
+    facts:
+      role: 林家小姐
+      affiliations: [賈府]
+
+  薛寶釵:
+    facts:
+      role: 薛家小姐
+      affiliations: [賈府]
+
+  贾琏:
+    facts:
+      role: 榮國府二爺
+      affiliations: [賈府]
+
+  襲人:
+    facts:
+      occupation: 丫鬟
+      affiliations: [賈府]

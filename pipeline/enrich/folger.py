@@ -1,9 +1,8 @@
 """Folger dramatis personae — station and office from DraCor TEI.
 
 The ShakeDraCor TEI (Folger, CC BY-NC 3.0) carries <roleDesc> on the cast list.
-Those descriptions are researched here and encoded as short station attributes —
-never copied as sentences. Kinship and friendship clauses are dropped; they name
-other people and assert affection, which enrichment refuses.
+Those descriptions are researched here and encoded as short attributes — never
+copied as sentences. Kinship is kept: Facts is allowed to name other people.
 """
 
 from __future__ import annotations
@@ -27,28 +26,15 @@ ATTRIBUTION = Attribution(
     retrieved="2026-09-18",
     modifications=(
         "Read <roleDesc> from the TEI cast list as research material only.",
-        "Encoded discrete station and office attributes; kinship and friendship "
-        "clauses were discarded rather than adapted.",
-        "Composed original one-line descriptions from those attributes.",
+        "Encoded station, office, and kinship as short attributes; sentences "
+        "are composed here rather than copied from the TEI.",
     ),
 )
 
 LICENSE = CC_BY_NC_3_0
 
-# Clauses that name another person or assert a bond — not a standing fact.
-KINSHIP_OR_BOND = re.compile(
-    r"\b("
-    r"son|daughter|father|mother|brother|sister|widow|wife|husband|"
-    r"uncle|aunt|nephew|niece|cousin|kinsman|kinswoman|"
-    r"friend|confidant|companion|lover|mistress|suitor|betrothed|"
-    r"married|wedded"
-    r")\b",
-    re.IGNORECASE,
-)
-
-# Leading station / office phrases worth keeping.
-# Place names after "of" must stay capitalised: IGNORECASE would let
-# "Prince of Wales and heir" swallow the rest of the sentence.
+# Leading station / office phrases. Place names after "of" must stay
+# capitalised: IGNORECASE would let "Prince of Wales and heir" swallow the rest.
 STATION = re.compile(
     r"(?i)^(?:"
     r"(?:prince|princess|king|queen|duke|duchess|earl|count|countess|"
@@ -60,7 +46,7 @@ STATION = re.compile(
     r"fool|clown|soothsayer|prophet|witch|porter|jailer|gaoler|"
     r"herald|messenger|servant|steward|chamberlain|constable|"
     r"watchman|citizen|gentleman|gentlewoman|page|squire|"
-    r"ambassador|legate|councillor|counselor"
+    r"ambassador|legate|councillor|counselor|thane|sir|knight"
     r")"
     r"(?:\s+of\s+(?-i:[A-Z][A-Za-z'\-]+(?:\s+[A-Z][A-Za-z'\-]+){0,3}))?"
     r")"
@@ -121,21 +107,39 @@ def _roles_for_play(slug: str) -> dict[str, str]:
 
 
 def encode_station(role_desc: str) -> str | None:
-    """Turn a Folger roleDesc into one short station attribute, or None."""
+    """Turn a Folger roleDesc into a short standing line, or None.
+
+    Kinship stays. The TEI often has nothing else for the leads — Claudius is
+    only 'brother to the late King Hamlet' — and Facts is allowed to say so.
+    """
     text = " ".join(role_desc.split()).strip(" .;")
+    # Folger concatenates some names: "King Hamletand Queen Gertrude".
+    text = re.sub(r"([a-z])and ([A-Z])", r"\1 and \2", text)
     if not text:
         return None
+    return text[:1].upper() + text[1:]
 
-    for clause in re.split(r"[,;]", text):
-        clause = clause.strip()
-        if not clause or KINSHIP_OR_BOND.search(clause):
-            continue
-        match = STATION.match(clause)
-        if not match:
-            continue
-        station = match.group(0).strip()
-        return station[:1].upper() + station[1:] if station else None
-    return None
+
+def station_from_name(name: str) -> str | None:
+    """Office already written on the display name: King Claudius, Earl of Kent."""
+    text = " ".join((name or "").split()).strip()
+    if not text:
+        return None
+    match = STATION.match(text)
+    if not match:
+        return None
+    station = match.group(0).strip()
+    return station[:1].upper() + station[1:] if station else None
+
+
+def blend_role(name: str, role: str | None) -> str | None:
+    """Prefix a name-derived station when the Folger line does not already open with one."""
+    station = station_from_name(name)
+    if not role:
+        return station
+    if station and not STATION.match(role):
+        return f"{station}, {role}"
+    return role
 
 
 def _character_id(item: ET.Element) -> str | None:

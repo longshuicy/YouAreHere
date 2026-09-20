@@ -9,8 +9,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Weaver"
    },
+   "line": "Weaver.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -46,8 +48,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Father to Hermia"
    },
+   "line": "Father to Hermia.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -65,8 +69,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Female"
-   }
+    "gender": "Female",
+    "role": "In the service of Titania"
+   },
+   "line": "In the service of Titania."
   },
   "4": {
    "facts": {
@@ -150,8 +156,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Bellows-mender"
    },
+   "line": "Bellows-mender.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -208,9 +216,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "role": "Queen"
+    "role": "Queen of the Amazons"
    },
-   "line": "Queen.",
+   "line": "Queen of the Amazons.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -248,9 +256,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male",
-    "role": "King"
+    "role": "King of the Fairies"
    },
-   "line": "King.",
+   "line": "King of the Fairies.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -268,8 +276,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Master of the revels to Theseus"
    },
+   "line": "Master of the revels to Theseus.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -287,8 +297,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Carpenter"
    },
+   "line": "Carpenter.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -306,8 +318,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "A “puck,” or hobgoblin, in Oberon’s service"
    },
+   "line": "A “puck,” or hobgoblin, in Oberon’s service.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -325,8 +339,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Tinker"
    },
+   "line": "Tinker.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -344,8 +360,10 @@
     ],
     "unit": "play",
     "corpusSize": 37,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "Joiner"
    },
+   "line": "Joiner.",
    "signals": {
     "lookAlikes": 138,
     "nearest": {
@@ -362,8 +380,10 @@
      "A Midsummer Night’s Dream"
     ],
     "unit": "play",
-    "corpusSize": 37
+    "corpusSize": 37,
+    "role": "Tailor"
    },
+   "line": "Tailor.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -403,9 +423,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Female",
-    "role": "Queen"
+    "role": "Queen of the Fairies"
    },
-   "line": "Queen.",
+   "line": "Queen of the Fairies.",
    "signals": {
     "lookAlikes": 101,
     "nearest": {
@@ -2238,8 +2258,7 @@
    "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
    "modifications": [
     "Read <roleDesc> from the TEI cast list as research material only.",
-    "Encoded discrete station and office attributes; kinship and friendship clauses were discarded rather than adapted.",
-    "Composed original one-line descriptions from those attributes."
+    "Encoded station, office, and kinship as short attributes; sentences are composed here rather than copied from the TEI."
    ]
   },
   {
@@ -2249,9 +2268,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

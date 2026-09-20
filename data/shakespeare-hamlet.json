@@ -6,14 +6,14 @@
   {
    "i": 0,
    "n": "Barnardo",
-   "x": -206.7,
-   "y": -167.7
+   "x": -206.6,
+   "y": -168.2
   },
   {
    "i": 1,
    "n": "King Claudius",
-   "x": 131.9,
-   "y": 34.8
+   "x": 131.1,
+   "y": 35.2
   },
   {
    "i": 2,
@@ -24,92 +24,92 @@
   {
    "i": 3,
    "n": "Fortinbras",
-   "x": 344.3,
-   "y": 18.0
+   "x": 344.0,
+   "y": 17.6
   },
   {
    "i": 4,
    "n": "Francisco",
-   "x": -332.3,
-   "y": -467.7
+   "x": -329.4,
+   "y": -468.0
   },
   {
    "i": 5,
    "n": "Queen Gertrude",
-   "x": 62.5,
-   "y": -1.6
+   "x": 62.4,
+   "y": -1.5
   },
   {
    "i": 6,
    "n": "The Ghost",
-   "x": -314.7,
-   "y": 45.4
+   "x": -314.0,
+   "y": 45.7
   },
   {
    "i": 7,
    "n": "Guildenstern",
-   "x": 110.6,
-   "y": 237.0
+   "x": 110.4,
+   "y": 236.5
   },
   {
    "i": 8,
    "n": "Hamlet",
-   "x": 21.9,
-   "y": 57.0
+   "x": 21.2,
+   "y": 57.4
   },
   {
    "i": 9,
    "n": "Horatio",
-   "x": -9.4,
-   "y": -97.4
+   "x": -8.9,
+   "y": -96.6
   },
   {
    "i": 10,
    "n": "Laertes",
-   "x": -49.6,
+   "x": -50.5,
    "y": -26.8
   },
   {
    "i": 11,
    "n": "Marcellus",
-   "x": -119.9,
-   "y": -207.1
+   "x": -119.5,
+   "y": -206.4
   },
   {
    "i": 12,
    "n": "Ophelia",
-   "x": -31.0,
-   "y": 259.2
+   "x": -31.5,
+   "y": 259.1
   },
   {
    "i": 13,
    "n": "Osric",
-   "x": 320.3,
-   "y": -181.2
+   "x": 319.1,
+   "y": -182.0
   },
   {
    "i": 14,
    "n": "Polonius",
-   "x": -67.4,
-   "y": 125.0
+   "x": -67.0,
+   "y": 124.9
   },
   {
    "i": 15,
    "n": "Reynaldo",
-   "x": -219.9,
+   "x": -220.4,
    "y": 600.0
   },
   {
    "i": 16,
    "n": "Rosencrantz",
-   "x": 196.9,
-   "y": 171.8
+   "x": 196.1,
+   "y": 171.5
   },
   {
    "i": 17,
    "n": "Voltemand",
-   "x": 132.0,
-   "y": -121.3
+   "x": 133.0,
+   "y": -120.6
   }
  ],
  "edges": [
@@ -875,6 +875,7 @@
     "Dropped group nodes (crowds, attendants) so a waking is always a person.",
     "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
     "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Applied a hand-maintained identity table covering 25 characters: display names, nicknames for the guess field, and disambiguators.",
     "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
     "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
     "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",

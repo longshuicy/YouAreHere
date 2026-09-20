@@ -6,73 +6,73 @@
   {
    "i": 0,
    "n": "Bianca",
-   "x": 43.5,
-   "y": 119.7
+   "x": 42.0,
+   "y": 120.7
   },
   {
    "i": 1,
    "n": "Brabantio",
-   "x": -343.4,
-   "y": 322.1
+   "x": -341.0,
+   "y": 323.5
   },
   {
    "i": 2,
    "n": "Cassio",
-   "x": 168.0,
+   "x": 167.7,
    "y": -66.7
   },
   {
    "i": 3,
    "n": "Desdemona",
-   "x": -14.8,
-   "y": -50.2
+   "x": -13.3,
+   "y": -48.9
   },
   {
    "i": 4,
    "n": "Emilia",
-   "x": 40.8,
-   "y": -264.9
+   "x": 39.3,
+   "y": -264.8
   },
   {
    "i": 5,
    "n": "Gratiano",
-   "x": 368.8,
-   "y": -151.2
+   "x": 367.3,
+   "y": -153.0
   },
   {
    "i": 6,
    "n": "Iago",
-   "x": -127.6,
-   "y": 70.3
+   "x": -128.4,
+   "y": 69.2
   },
   {
    "i": 7,
    "n": "Lodovico",
-   "x": -132.7,
-   "y": -338.7
+   "x": -133.9,
+   "y": -337.4
   },
   {
    "i": 8,
    "n": "Montano",
-   "x": 208.5,
-   "y": -347.1
+   "x": 205.4,
+   "y": -348.6
   },
   {
    "i": 9,
    "n": "Othello",
-   "x": -176.8,
-   "y": -82.4
+   "x": -177.8,
+   "y": -80.8
   },
   {
    "i": 10,
    "n": "Roderigo",
-   "x": 151.0,
-   "y": 189.1
+   "x": 151.9,
+   "y": 186.9
   },
   {
    "i": 11,
    "n": "Sailors",
-   "x": -185.2,
+   "x": -179.3,
    "y": 600.0
   }
  ],
@@ -580,6 +580,7 @@
     "Dropped group nodes (crowds, attendants) so a waking is always a person.",
     "Disambiguated repeated generic names (Messenger, Soldier) with the play title.",
     "Dropped unnamed crowd roles that no play-level qualifier can tell apart.",
+    "Applied a hand-maintained identity table covering 25 characters: display names, nicknames for the guess field, and disambiguators.",
     "Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept every component of at least 8 characters (871 nodes and 4546 ties in, 830 and 4518 out).",
     "Split the corpus into one universe per connected component of at least 8 characters, shipping each of the 28 resulting worlds as its own file, since no character links one to another.",
     "Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.",

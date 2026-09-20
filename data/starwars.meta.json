@@ -10,6 +10,7 @@
     ],
     "unit": "film",
     "corpusSize": 7,
+    "role": "Admiral",
     "gender": "Male",
     "affiliations": [
      "Rebel Alliance",
@@ -18,7 +19,7 @@
     ],
     "homeworld": "Mon Calamari"
    },
-   "line": "Of Mon Calamari, of the Rebel Alliance. Appears in Return of the Jedi and The Force Awakens.",
+   "line": "Admiral, of Mon Calamari, of the Rebel Alliance. Appears in Return of the Jedi and The Force Awakens.",
    "signals": {
     "lookAlikes": 118,
     "nearest": {
@@ -35,9 +36,10 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "role": "Admiral"
    },
-   "line": "Appears in The Force Awakens.",
+   "line": "Admiral. Appears in The Force Awakens.",
    "signals": {
     "lookAlikes": 9,
     "nearest": {
@@ -321,9 +323,10 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "role": "Captain"
    },
-   "line": "Appears in Revenge of the Sith."
+   "line": "Captain. Appears in Revenge of the Sith."
   },
   "17": {
    "facts": {
@@ -331,9 +334,10 @@
      "The Phantom Menace"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "role": "Captain"
    },
-   "line": "Appears in The Phantom Menace.",
+   "line": "Captain. Appears in The Phantom Menace.",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -350,9 +354,10 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "role": "Captain"
    },
-   "line": "Appears in The Force Awakens.",
+   "line": "Captain. Appears in The Force Awakens.",
    "signals": {
     "lookAlikes": 37,
     "nearest": {
@@ -370,9 +375,10 @@
      "Revenge of the Sith"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "role": "Captain"
    },
-   "line": "Appears in Attack of the Clones and Revenge of the Sith."
+   "line": "Captain. Appears in Attack of the Clones and Revenge of the Sith."
   },
   "20": {
    "facts": {
@@ -434,8 +440,8 @@
     ],
     "unit": "film",
     "corpusSize": 7,
+    "role": "Count",
     "gender": "Male",
-    "occupation": "Sith",
     "affiliations": [
      "Sith",
      "Jedi",
@@ -443,7 +449,7 @@
     ],
     "homeworld": "Serenno"
    },
-   "line": "Sith, of Serenno. Appears in Attack of the Clones and Revenge of the Sith.",
+   "line": "Count, of Serenno, of the Sith. Appears in Attack of the Clones and Revenge of the Sith.",
    "signals": {
     "lookAlikes": 63,
     "nearest": {
@@ -558,10 +564,8 @@
     ],
     "unit": "film",
     "corpusSize": 7,
+    "role": "Emperor",
     "gender": "Male",
-    "titles": [
-     "Galactic Emperor"
-    ],
     "affiliations": [
      "Sith",
      "First Order",
@@ -569,7 +573,7 @@
     ],
     "homeworld": "Naboo"
    },
-   "line": "Galactic Emperor, of Naboo, of the Sith. Appears in five films.",
+   "line": "Emperor, of Naboo, of the Sith. Appears in five films.",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -628,9 +632,10 @@
      "The Phantom Menace"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "role": "General"
    },
-   "line": "Appears in The Phantom Menace."
+   "line": "General. Appears in The Phantom Menace."
   },
   "35": {
    "facts": {
@@ -639,6 +644,7 @@
     ],
     "unit": "film",
     "corpusSize": 7,
+    "role": "General",
     "gender": "Male",
     "affiliations": [
      "Confederacy of Independent Systems",
@@ -647,7 +653,7 @@
     ],
     "homeworld": "Kalee"
    },
-   "line": "Of Kalee, of the Confederacy of Independent Systems. Appears in Revenge of the Sith."
+   "line": "General, of Kalee, of the Confederacy of Independent Systems. Appears in Revenge of the Sith."
   },
   "36": {
    "facts": {
@@ -656,9 +662,10 @@
     ],
     "unit": "film",
     "corpusSize": 7,
+    "role": "General",
     "gender": "Male"
    },
-   "line": "Appears in The Force Awakens."
+   "line": "General. Appears in The Force Awakens."
   },
   "37": {
    "facts": {
@@ -972,9 +979,10 @@
      "The Force Awakens"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "role": "Lieutenant"
    },
-   "line": "Appears in The Force Awakens."
+   "line": "Lieutenant. Appears in The Force Awakens."
   },
   "54": {
    "facts": {
@@ -1521,9 +1529,10 @@
      "Attack of the Clones"
     ],
     "unit": "film",
-    "corpusSize": 7
+    "corpusSize": 7,
+    "role": "Senator"
    },
-   "line": "Appears in Attack of the Clones.",
+   "line": "Senator. Appears in Attack of the Clones.",
    "signals": {
     "lookAlikes": 52,
     "nearest": {
@@ -7043,9 +7052,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]

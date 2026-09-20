@@ -100,6 +100,9 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
 
         if node.id in roles:
             record["role"] = roles[node.id]
+        blended = folger.blend_role(node.name, record.get("role"))
+        if blended:
+            record["role"] = blended
 
         if source in ("iliad", "lesmiserables"):
             for key, value in knuth.from_node(source, node).items():
@@ -113,9 +116,33 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
             wikidata.apply_to_record(record, wd_by_qid[qid])
         _trim_literary(record, source)
 
+        pinned = _facts_pin(node, overrides)
+        for key, value in pinned.items():
+            if value in (None, "", [], {}):
+                continue
+            record[key] = value
+
         if record:
             facts[node.id] = record
     return facts
+
+
+def _facts_pin(node, overrides: dict[str, dict]) -> dict:
+    """Identity-table `facts:` keyed by adapter id or display name.
+
+    Before Shakespeare is split, duplicate names carry a play qualifier
+    (`Juliet (Romeo and Juliet)`). Pins are written against the name a player
+    sees, so the qualifier is stripped when looking up.
+    """
+    keys = [node.id, node.name, node.name.lower()]
+    if " (" in node.name and node.name.endswith(")"):
+        base = node.name[: node.name.rfind(" (")]
+        keys.extend([base, base.lower()])
+    for key in keys:
+        entry = overrides.get(key)
+        if entry and entry.get("facts"):
+            return entry["facts"]
+    return {}
 
 
 def _asoiaf_lookup(graph: CanonicalGraph, overrides: dict[str, dict]):
@@ -382,23 +409,12 @@ def _label(labels: dict, segment: str) -> str:
     return labels.get(segment, segment)
 
 
-# Real-world ethnicity, citizenship, and birthplace, not a standing fact in the story.
+# Species "human" is already dropped as generic. Homeworld for sitcoms is a
+# real-world city and names the wrong kind of world; keep stripping that one.
 STRIP_SPECIES_HOMEWORLD = {
-    "bible",
     "friends",
-    "shakespeare",
-    "hongloumeng",
-    "sanguoyanyi",
-    "shiji",
-    "shuihuzhuan",
-    "lesmiserables",
 }
-STRIP_AFFILIATIONS = {
-    "bible",
-    "friends",
-    "shakespeare",
-    "hongloumeng",
-}
+STRIP_AFFILIATIONS: set[str] = set()
 
 
 def _trim_literary(record: dict, source: str) -> None:

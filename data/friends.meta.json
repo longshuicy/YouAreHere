@@ -1104,9 +1104,10 @@
      "Season 8"
     ],
     "unit": "season",
-    "corpusSize": 10
+    "corpusSize": 10,
+    "role": "Clown"
    },
-   "line": "Appears in Season 8.",
+   "line": "Clown. Appears in Season 8.",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -1475,9 +1476,10 @@
      "Season 9"
     ],
     "unit": "season",
-    "corpusSize": 10
+    "corpusSize": 10,
+    "role": "Doctor"
    },
-   "line": "Appears in Season 9."
+   "line": "Doctor. Appears in Season 9."
   },
   "109": {
    "facts": {
@@ -1874,9 +1876,10 @@
      "Season 7"
     ],
     "unit": "season",
-    "corpusSize": 10
+    "corpusSize": 10,
+    "role": "Earl"
    },
-   "line": "Appears in Season 7."
+   "line": "Earl. Appears in Season 7."
   },
   "142": {
    "facts": {
@@ -1967,9 +1970,12 @@
     ],
     "unit": "season",
     "corpusSize": 10,
-    "gender": "Female"
+    "gender": "Female",
+    "affiliations": [
+     "United Kingdom"
+    ]
    },
-   "line": "Appears in Season 4 and Season 5.",
+   "line": "Of the United Kingdom. Appears in Season 4 and Season 5.",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -3442,9 +3448,10 @@
      "Season 6"
     ],
     "unit": "season",
-    "corpusSize": 10
+    "corpusSize": 10,
+    "role": "Judge"
    },
-   "line": "Appears in Season 6."
+   "line": "Judge. Appears in Season 6."
   },
   "264": {
    "facts": {
@@ -3725,9 +3732,10 @@
      "Season 10"
     ],
     "unit": "season",
-    "corpusSize": 10
+    "corpusSize": 10,
+    "role": "Lady"
    },
-   "line": "Appears in Season 10."
+   "line": "Lady. Appears in Season 10."
   },
   "285": {
    "facts": {
@@ -4728,9 +4736,10 @@
     ],
     "unit": "season",
     "corpusSize": 10,
-    "gender": "Male"
+    "gender": "Male",
+    "role": "father of Ross and Monica"
    },
-   "line": "Appears in 9 seasons.",
+   "line": "Father of Ross and Monica. Appears in 9 seasons.",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -5010,9 +5019,10 @@
     ],
     "unit": "season",
     "corpusSize": 10,
-    "gender": "Female"
+    "gender": "Female",
+    "role": "mother of Ross and Monica"
    },
-   "line": "Appears in 8 seasons.",
+   "line": "Mother of Ross and Monica. Appears in 8 seasons.",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -5227,9 +5237,10 @@
      "Season 7"
     ],
     "unit": "season",
-    "corpusSize": 10
+    "corpusSize": 10,
+    "role": "Nurse"
    },
-   "line": "Appears in Season 7."
+   "line": "Nurse. Appears in Season 7."
   },
   "394": {
    "facts": {
@@ -5237,9 +5248,10 @@
      "Season 7"
     ],
     "unit": "season",
-    "corpusSize": 10
+    "corpusSize": 10,
+    "role": "Nurse"
    },
-   "line": "Appears in Season 7."
+   "line": "Nurse. Appears in Season 7."
   },
   "395": {
    "facts": {
@@ -5711,9 +5723,9 @@
     "unit": "season",
     "corpusSize": 10,
     "gender": "Female",
-    "occupation": "executive"
+    "occupation": "waiter"
    },
-   "line": "Executive. Appears in all 10 seasons.",
+   "line": "Waiter. Appears in all 10 seasons.",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -6520,9 +6532,10 @@
      "Season 8"
     ],
     "unit": "season",
-    "corpusSize": 10
+    "corpusSize": 10,
+    "occupation": "assistant"
    },
-   "line": "Appears in Season 7 and Season 8.",
+   "line": "Assistant. Appears in Season 7 and Season 8.",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -7433,9 +7446,9 @@
     "unit": "season",
     "corpusSize": 10,
     "gender": "Female",
-    "occupation": "pornographic film actor"
+    "occupation": "waiter"
    },
-   "line": "Pornographic film actor. Appears in six seasons.",
+   "line": "Waiter. Appears in six seasons.",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -7601,9 +7614,10 @@
      "Season 8"
     ],
     "unit": "season",
-    "corpusSize": 10
+    "corpusSize": 10,
+    "role": "Witch"
    },
-   "line": "Appears in Season 8.",
+   "line": "Witch. Appears in Season 8.",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -34149,9 +34163,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes only (occupation, position, species, affiliation, homeworld, gender); no descriptions or prose.",
-    "Filtered class and meta labels that are not standing facts a player can use.",
-    "Composed original one-line descriptions from those attributes."
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
  ]
