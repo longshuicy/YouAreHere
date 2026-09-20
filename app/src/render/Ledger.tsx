@@ -1,5 +1,5 @@
 import type { Ledger as LedgerT } from '../engine/session';
-import { clueTotal } from '../engine/session';
+import { clueBonus, clueTotal } from '../engine/session';
 
 export { clueTotal };
 
@@ -22,7 +22,8 @@ export function LedgerBreakdown({ ledger }: { ledger: LedgerT }) {
   if (ledger.facts) rows.push(`${ledger.facts} ${ledger.facts === 1 ? 'reading' : 'readings'}`);
   if (ledger.names) rows.push(`${ledger.names} ${ledger.names === 1 ? 'name' : 'names'}`);
   if (ledger.stories) rows.push('the world');
-  if (rows.length === 0 && !ledger.recognitions) return null;
+  const bonus = clueBonus(ledger);
+  if (rows.length === 0 && !bonus) return null;
 
   return (
     <div className="annot ledger-breakdown" style={{ textAlign: 'right', lineHeight: 2 }}>
@@ -30,9 +31,9 @@ export function LedgerBreakdown({ ledger }: { ledger: LedgerT }) {
         <div key={r}>{r}</div>
       ))}
       {/* Set apart and signed, because it is the only line that subtracts. */}
-      {ledger.recognitions > 0 && (
+      {bonus > 0 && (
         <div style={{ color: 'var(--accent)' }}>
-          −{ledger.recognitions} recognised
+          -{bonus}
         </div>
       )}
     </div>

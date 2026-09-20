@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { StrongestTie, VisibleNode } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { applyZoom, type ZoomState } from '../graph/zoom';
-import { COST } from '../engine/session';
+import { COST, RECOGNITION_REFUND } from '../engine/session';
 import type { ActionKey, Session } from '../engine/session';
 import type { NodeIndex } from '../types';
 import { availableActionsFor, canClaim } from '../engine/session';
@@ -146,7 +146,7 @@ function ClaimRow({
             claim
           </span>
           <span style={{ fontFamily: 'var(--serif)', fontSize: 14, color: 'var(--body)' }}>
-            say who they are · free
+            say who they are · -{RECOGNITION_REFUND}
           </span>
         </button>
       ) : (
@@ -206,7 +206,9 @@ function ClaimRow({
               ))}
             </div>
           ) : (
-            <div className="annot" style={{ paddingTop: 8 }}>right gives a clue back</div>
+            <div className="annot" style={{ paddingTop: 8 }}>
+              right · -{RECOGNITION_REFUND}
+            </div>
           )}
           <div style={{ paddingTop: 11 }}>
             <button

@@ -89,13 +89,27 @@ export interface Ledger {
   recognitions: number;
 }
 
-export function clueTotal(ledger: Ledger): number {
-  const spent =
+/** What you paid, before any correct claim is taken off. */
+export function clueSpent(ledger: Ledger): number {
+  return (
     ledger.expansions * COST.expand +
     ledger.facts * COST.facts +
     ledger.names * COST.name +
-    ledger.stories * COST.story;
-  return Math.max(0, spent - ledger.recognitions * RECOGNITION_REFUND);
+    ledger.stories * COST.story
+  );
+}
+
+/** What a run of correct claims gives back. */
+export function clueBonus(ledger: Ledger): number {
+  return ledger.recognitions * RECOGNITION_REFUND;
+}
+
+export function clueTotal(ledger: Ledger): number {
+  // The score is what you spent, with the bonus canceled off it. A correct
+  // claim is advertised as -1; this is the only place that -1 lands.
+  // Floors at zero rather than driving the total below — the ledger is a
+  // record of what you spent, and you cannot spend less than nothing.
+  return Math.max(0, clueSpent(ledger) - clueBonus(ledger));
 }
 
 export interface GuessRecord {

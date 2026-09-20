@@ -1,3 +1,5 @@
+import { RECOGNITION_REFUND } from '../engine/session';
+
 interface Props {
   onClose: () => void;
 }
@@ -12,7 +14,7 @@ const ROWS: Array<{ label: string; gloss: string; cost: string }> = [
   { label: 'World', gloss: 'which world this is', cost: '2' },
   // The only row that can pay you, and the only one that can never charge you.
   // Listed last because it is not a purchase in either direction.
-  { label: 'Claim', gloss: 'say who they are · right gives one back', cost: 'free' },
+  { label: 'Claim', gloss: 'say who they are', cost: `-${RECOGNITION_REFUND}` },
 ];
 
 /** Opens over the paper without navigating away — a persistent key, not a tutorial. */

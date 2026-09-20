@@ -1,7 +1,6 @@
 import { useMemo } from 'react';
 import { BrandCluster, ChromeRight } from '../render/MarginLinks';
-import type { Session } from '../engine/session';
-import { clueTotal } from '../render/Ledger';
+import { clueBonus, clueTotal, type Session } from '../engine/session';
 import { readRound } from '../graph/reading';
 import { measureWorld } from '../gallery/metrics';
 import { ReadingPage } from './ReadingPage';
@@ -79,6 +78,7 @@ export function Reveal({
     : null;
 
   const { recognitions } = session.ledger;
+  const bonus = clueBonus(session.ledger);
   const tally = [
     `${expansions} ${expansions === 1 ? 'expansion' : 'expansions'}`,
     `${facts} ${facts === 1 ? 'reading' : 'readings'}`,
@@ -86,7 +86,7 @@ export function Reveal({
     ...(session.ledger.stories ? ['the world'] : []),
     // The only entry that came back to you. Read out last so the line ends on
     // what you knew rather than on what you bought.
-    ...(recognitions ? [`${recognitions} recognised, −${recognitions}`] : []),
+    ...(recognitions ? [`-${bonus}`] : []),
   ].join('  ·  ');
 
   return (
