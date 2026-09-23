@@ -19,8 +19,12 @@ export function FullGraph({
   universe,
   you,
   named,
+  formerSelves,
+  mapped,
+  labelled,
   tieLine,
   role = 'backdrop',
+  folded = false,
 }: {
   universe: Universe;
   you?: number;
@@ -29,10 +33,24 @@ export function FullGraph({
    * only part of the map the player had actually read. Absent in the gallery,
    * where nobody has read anything yet. */
   named?: Map<number, string>;
+  /** Nodes the player has woken as in a residence. Marked as *you were here*,
+   * not as bought names. */
+  formerSelves?: ReadonlySet<number>;
+  /** What the player drew during play. A tie they saw is coloured even where
+   * neither end is named: the map is the ties walked, the names are earned. */
+  mapped?: { visible: ReadonlySet<number>; expanded: ReadonlySet<number> };
+  /** Which of `named` are printed on the paper; the rest of them show on
+   * hover. Absent: all of them. A whole map of earned names is a wall of text. */
+  labelled?: ReadonlySet<number>;
   /** What the sidecar says about the tie between `you` and another node, shown
    * when one of your own neighbours is hovered. */
   tieLine?: (other: number) => string | null;
   role?: GraphRole;
+  /**
+   * Residence mid-run: the full mesh is visible, but unnamed nodes stay unnamed
+   * even on hover. Unfolding is an explicit door — see docs/Residence.md.
+   */
+  folded?: boolean;
 }) {
   const { ref, transform } = useZoom([0.5, 12]);
   const [hovered, setHovered] = useState<number | null>(null);
@@ -94,6 +112,19 @@ export function FullGraph({
     return { edges, neighbours };
   }, [universe, you]);
 
+  // The same rule the stage draws by: both ends on the paper, one of them opened.
+  const walked = useMemo(() => {
+    if (!mapped) return [];
+    return universe.edges.filter(
+      ([s, t]) =>
+        s !== you &&
+        t !== you &&
+        mapped.visible.has(s) &&
+        mapped.visible.has(t) &&
+        (mapped.expanded.has(s) || mapped.expanded.has(t)),
+    );
+  }, [universe, mapped, you]);
+
   // Weight, not hue. The gallery was unreadable because the network was drawn
   // at eleven percent of a grey, so what it needed was presence: darker ink,
   // heavier strokes, solid nodes. Colour was the wrong answer to that — the
@@ -150,6 +181,18 @@ export function FullGraph({
           ))}
         </g>
 
+        {/* The map walked so far, in the same accent as your ring. */}
+        {walked.length > 0 && (
+          <g stroke="var(--accent)" strokeWidth={1.1 * unit} opacity={0.5}>
+            {walked.map(([s, t]) => {
+              const a = byIndex.get(s);
+              const b = byIndex.get(t);
+              if (!a || !b) return null;
+              return <line key={`map-${s}-${t}`} x1={a.x} y1={a.y} x2={b.x} y2={b.y} />;
+            })}
+          </g>
+        )}
+
         {/* Your ring, drawn over the faint mesh. */}
         <g stroke="var(--accent)" strokeWidth={1.1 * unit} opacity={0.5}>
           {mine.edges.map(([s, t]) => {
@@ -162,7 +205,7 @@ export function FullGraph({
 
         {/* Names the player already had. Held at a size that survives the zoom. */}
         <g pointerEvents="none">
-          {[...(named ?? [])].map(([i, name]) => {
+          {[...(named ?? [])].filter(([i]) => !labelled || labelled.has(i)).map(([i, name]) => {
             const n = byIndex.get(i);
             if (!n) return null;
             return (
@@ -188,6 +231,19 @@ export function FullGraph({
 
         {yours && <circle cx={yours.x} cy={yours.y} r={6 * unit} fill="var(--accent)" />}
 
+        {/* Former selves: a thin accent ring, not a label — "you were here"
+            rather than another bought name. */}
+        {formerSelves && formerSelves.size > 0 && (
+          <g fill="none" stroke="var(--accent)" strokeWidth={1.2 * unit} opacity={0.7}>
+            {[...formerSelves].map((i) => {
+              if (i === you) return null;
+              const n = byIndex.get(i);
+              if (!n) return null;
+              return <circle key={`self-${i}`} cx={n.x} cy={n.y} r={7.5 * unit} />;
+            })}
+          </g>
+        )}
+
         {hoveredNode && (
           <g pointerEvents="none">
             <circle
@@ -199,6 +255,7 @@ export function FullGraph({
               strokeWidth={1 * unit}
               opacity={0.6}
             />
+            {(!folded || named?.has(hoveredNode.i)) && (
             <text
               x={hoveredNode.x}
               y={hoveredNode.y - 14 * unit}
@@ -212,8 +269,9 @@ export function FullGraph({
                 strokeLinejoin: 'round',
               }}
             >
-              {hoveredNode.n}
+              {named?.get(hoveredNode.i) ?? hoveredNode.n}
             </text>
+            )}
             {/* What the tie between you and them was made of. The sidecar has
                 carried a written line for every tie in the six enriched worlds
                 since the data existed, and nothing had ever read one. */}

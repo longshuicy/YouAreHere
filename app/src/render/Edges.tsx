@@ -1,6 +1,6 @@
 import { edgeKey, timesFigure, type VisibleEdge } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
-import { tieColor, tieWidth } from './scales';
+import { REMOTE_OPACITY, tieColor, tieWidth } from './scales';
 
 interface Props {
   edges: VisibleEdge[];
@@ -24,9 +24,13 @@ interface Props {
  * under a hollow circle reads as a line crossing it, not as a tie to it. */
 export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom }: Props) {
   const litAny = lit !== undefined && lit.size > 0;
+  // Carried map underneath, this start's walk over it.
+  const ordered = edges.some((e) => e.faded)
+    ? [...edges].sort((a, b) => Number(Boolean(b.faded)) - Number(Boolean(a.faded)))
+    : edges;
   return (
     <g className="edges">
-      {edges.map((e) => {
+      {ordered.map((e) => {
         const a = positions.get(e.source);
         const b = positions.get(e.target);
         if (!a || !b) return null;
@@ -58,7 +62,7 @@ export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom
               strokeWidth={e.horizon ? 0.7 : isLit ? tieWidth(e.strength) + 1 : tieWidth(e.strength)}
               // Not hidden, dimmed: the rest of the fan is still the context
               // that makes the lit tie mean anything.
-              opacity={e.horizon ? 0.18 : litAny && !isLit ? 0.3 : 1}
+              opacity={e.horizon ? 0.18 : litAny && !isLit ? 0.3 : e.faded ? REMOTE_OPACITY : 1}
               style={{
                 transition: animate
                   ? 'x1 400ms ease-out, y1 400ms ease-out, x2 400ms ease-out, y2 400ms ease-out, stroke-width 300ms ease-out, stroke 300ms ease-out, opacity 200ms ease-out'

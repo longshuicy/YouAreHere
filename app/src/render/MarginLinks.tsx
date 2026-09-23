@@ -23,8 +23,20 @@ export function BrandMark() {
   return <div className="brand">You are here.</div>;
 }
 
-/** Wordmark plus a quieter restart, so the name is not itself a hidden button. */
-export function BrandCluster({ onStartAgain }: { onStartAgain: () => void }) {
+/** The two ways to start over, offered together on every screen. */
+export interface StartLinks {
+  /** Somebody else, somewhere else. */
+  onStartAgain: () => void;
+  /** Somebody else in the world the player is in, keeping its map. */
+  onStartHere: () => void;
+  /** Null until the world is known: printing it earlier would answer half the
+   * question, so the link reads "Stay here" instead. */
+  hereTitle: string | null;
+}
+
+/** Wordmark plus the quieter restarts, so the name is not itself a hidden
+ * button. */
+export function BrandCluster(links: StartLinks) {
   return (
     <div
       style={{
@@ -32,13 +44,25 @@ export function BrandCluster({ onStartAgain }: { onStartAgain: () => void }) {
         alignItems: 'baseline',
         gap: 22,
         pointerEvents: 'auto',
+        flexWrap: 'wrap',
       }}
     >
       <BrandMark />
-      <button type="button" className="annot-link" onClick={onStartAgain}>
-        Start again
-      </button>
+      <StartLinkPair {...links} />
     </div>
+  );
+}
+
+function StartLinkPair({ onStartAgain, onStartHere, hereTitle }: StartLinks) {
+  return (
+    <>
+      <button type="button" className="annot-link" onClick={onStartAgain}>
+        Somewhere else
+      </button>
+      <button type="button" className="annot-link" onClick={onStartHere} style={{ color: 'var(--accent)' }}>
+        {hereTitle ? `Stay in ${hereTitle}` : 'Stay here'}
+      </button>
+    </>
   );
 }
 

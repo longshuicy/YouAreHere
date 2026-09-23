@@ -94,27 +94,34 @@ The ledger holds **counts**, never costs. `clueTotal()` is the single place the 
 
 ### Residence
 
-> **Parked, 2026-09-18 — not implemented.** `Session` has no `residence` field, `initSession` takes no residence, and there is no `WAKE_AGAIN` action. Every waking starts clean and nothing crosses between runs, which is why the session object is now exactly what one run needs and no more. The sketch below stands as the spec for when it comes back; see the Game design doc for why it is parked.
-
-A session would belong to a residence, which outlives it. The residence is what makes a second waking in the same book easier, and it would be the only state that crosses runs.
+A session belongs to a residence when the player chooses to stay after a reveal.
+The residence outlives each start and is the only state that crosses runs. Spec:
+[Residence](./Residence.md). Offered on every world.
 
 ```ts
 interface Residence {
   universe: UniverseId
-  wakings: number
-  learned: Map<NodeId, string>   // names bought in ANY waking here
-  clues: number                  // running total across the residence
-  bandFloor: Band                // rises as wakings accumulate
+  selves: NodeIndex[]          // nodes woken as, oldest first
+  starts: number[]             // each start's floored clueTotal
+  named: Map<NodeIndex, string>
+  recognised: Set<NodeIndex>
+  facts: Set<NodeIndex>
+  visible: Set<NodeIndex>
+  expanded: Set<NodeIndex>
+  // …initials, rejected
 }
 ```
 
-On a new waking, `known.named` is seeded from `residence.learned` at no cost, and the projection treats those as revealed from the first frame. `phase` still starts at `cold`, but the guess screen omits the story field whenever `residence.wakings > 0`.
-
-Shuffling discards the residence and starts a new one. There is no way back into a discarded residence, which keeps the state model to exactly one live object and avoids a save-slot interface the game does not want.
+On a new waking, `wakeInResidence` seeds `known` from the residence and re-roots
+`hop` / `parent` on the new node. The playable gate is lifted after the first
+start. Each world keeps its own map: leaving pauses it, and choosing that world
+again resumes it. Persistence holds every map in `localStorage`, not the
+current start.
 
 ### Persistence
 
-`localStorage` for two things only: whether topology mode is unlocked, and the last completed ledger. No accounts, no sync, no analytics beyond what you would add later and deliberately.
+`localStorage` holds: whether the player reads the Chinese classics, every
+world's residence map, and which world is being lived in. No accounts, no sync.
 
 ## Rendering
 

@@ -72,6 +72,9 @@ export interface Known {
    * layout: hop distance and discovering parent for every visible node. */
   hop: Map<NodeIndex, number>;
   parent: Map<NodeIndex, NodeIndex | null>;
+  /** Residence only: nodes already opened by earlier starts. What this start
+   * opened is `expanded` minus these, which is what the stage keeps in full ink. */
+  carried?: ReadonlySet<NodeIndex>;
 }
 
 /** Counts of actions taken, NOT clue totals. What each one costs lives in COST,
@@ -202,9 +205,9 @@ export function hopsBetween(universe: Universe, from: NodeIndex, to: NodeIndex):
   return null;
 }
 
-/** Builds the starting session for a puzzle. Every waking starts clean: the
- * residence model (staying in one world across several wakings, carrying bought
- * names forward) is parked, so nothing crosses between runs. */
+/** Builds the starting session for a puzzle. One-off play starts clean.
+ * Residence carry-over goes through `wakeInResidence` in `engine/residence.ts`
+ * — this helper is the cold open of a first (or shuffled) waking only. */
 export function initSession(
   universe: Universe,
   puzzle: PuzzleRecord,

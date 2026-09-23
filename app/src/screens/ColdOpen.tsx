@@ -21,6 +21,10 @@ interface Props {
   /** Set when the player picked the book first. The story question is settled;
    *  the stranger on the stage is still whoever the scale drew. */
   worldTitle: string | null;
+  /** Second start of a residence onward — one word added: Again. */
+  again?: boolean;
+  /** The last unnamed node: the guess is free. */
+  lastNode?: boolean;
   onBegin: () => void;
   onChooseWorld: () => void;
   targetEase: number;
@@ -49,6 +53,8 @@ export function ColdOpen({
   positions,
   session,
   worldTitle,
+  again = false,
+  lastNode = false,
   onBegin,
   onChooseWorld,
   targetEase,
@@ -158,7 +164,17 @@ export function ColdOpen({
               transition: 'opacity 400ms ease',
             }}
           >
-            {worldTitle ?? 'You don\u2019t know where here is.'}
+            {again ? (
+              <>
+                {worldTitle ?? 'Here'}
+                <span style={{ fontStyle: 'normal', color: 'var(--annotation)' }}>
+                  {' '}
+                  · Again{lastNode ? ' · the last' : ''}
+                </span>
+              </>
+            ) : (
+              (worldTitle ?? 'You don\u2019t know where here is.')
+            )}
           </div>
         </div>
 
@@ -213,12 +229,8 @@ export function ColdOpen({
         </div>
       </div>
 
-      {/* Everything here is an adjustment to the stranger you are about to be
-          handed: which scale to draw them from, whether the draw may reach the
-          Chinese classics, which world they live in. And then the one thing
-          that is not an adjustment. Choosing a world used to sit beside Begin
-          as though it were an alternative to beginning. It is not: it is the
-          last setting before it. */}
+      {/* The scale stays on a first waking. Inside a residence the stranger is
+          already chosen, so only the way to another world and Begin remain. */}
       <div
         style={{
           width: MEASURE,
@@ -230,79 +242,81 @@ export function ColdOpen({
           gap: 'clamp(9px, 1.5vh, 16px)',
         }}
       >
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 'clamp(8px, 3vw, 16px)',
-            width: '100%',
-          }}
-        >
-          <span className="mono" style={{ fontSize: 10, letterSpacing: '0.2em', color: 'var(--unknown)', whiteSpace: 'nowrap' }}>
-            OBSCURE
-          </span>
-          <input
-            className="ease"
-            type="range"
-            min={0}
-            max={100}
-            step={1}
-            value={Math.round(targetEase * 100)}
-            aria-label="How findable a stranger to wake as"
-            onChange={(e) => onChooseEase(Number(e.target.value) / 100)}
-            style={{ flex: 1, minHeight: 44 }}
-          />
-          <span className="mono" style={{ fontSize: 10, letterSpacing: '0.2em', color: 'var(--unknown)', whiteSpace: 'nowrap' }}>
-            FINDABLE
-          </span>
-        </div>
-
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'baseline',
-            gap: 'clamp(14px, 4vw, 30px)',
-            flexWrap: 'wrap',
-          }}
-        >
-          <button
-            className="action-quiet"
-            onClick={onChooseWorld}
-            disabled={walking}
-            style={{ fontSize: 10, letterSpacing: '0.18em', minHeight: 0, padding: '7px 2px' }}
-          >
-            {worldTitle ? 'Choose another world' : 'Choose a world'}
-          </button>
-
-          {/* Hidden once a world is named: this only tilts the random draw. */}
-          {!worldTitle && (
-            <button
-              className="action-quiet"
-              aria-pressed={readsChineseClassics}
-              onClick={() => onReadsChineseClassics(!readsChineseClassics)}
+        {!again && (
+            <div
               style={{
-                color: readsChineseClassics ? 'var(--ink)' : undefined,
-                fontSize: 10,
-                letterSpacing: '0.18em',
-                minHeight: 0,
-                padding: '7px 2px',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 'clamp(8px, 3vw, 16px)',
+                width: '100%',
               }}
             >
-              <span aria-hidden="true" style={{ marginRight: 8 }}>{readsChineseClassics ? '[\u00d7]' : '[ ]'}</span>
-              I read the Chinese classics
-            </button>
-          )}
-        </div>
+              <span className="mono" style={{ fontSize: 10, letterSpacing: '0.2em', color: 'var(--unknown)', whiteSpace: 'nowrap' }}>
+                OBSCURE
+              </span>
+              <input
+                className="ease"
+                type="range"
+                min={0}
+                max={100}
+                step={1}
+                value={Math.round(targetEase * 100)}
+                aria-label="How findable a stranger to wake as"
+                onChange={(e) => onChooseEase(Number(e.target.value) / 100)}
+                style={{ flex: 1, minHeight: 44 }}
+              />
+              <span className="mono" style={{ fontSize: 10, letterSpacing: '0.2em', color: 'var(--unknown)', whiteSpace: 'nowrap' }}>
+                FINDABLE
+              </span>
+            </div>
+        )}
 
-        {/* The only thing on this page that is not a setting. */}
+        {/* The way out of a resumed map stays: without it, choosing a world
+            with a map on it was a door that only opened inward. */}
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'baseline',
+                gap: 'clamp(14px, 4vw, 30px)',
+                flexWrap: 'wrap',
+              }}
+            >
+              <button
+                className="action-quiet"
+                onClick={onChooseWorld}
+                disabled={walking}
+                style={{ fontSize: 10, letterSpacing: '0.18em', minHeight: 0, padding: '7px 2px' }}
+              >
+                {worldTitle ? 'Choose another world' : 'Choose a world'}
+              </button>
+
+              {!worldTitle && (
+                <button
+                  className="action-quiet"
+                  aria-pressed={readsChineseClassics}
+                  onClick={() => onReadsChineseClassics(!readsChineseClassics)}
+                  style={{
+                    color: readsChineseClassics ? 'var(--ink)' : undefined,
+                    fontSize: 10,
+                    letterSpacing: '0.18em',
+                    minHeight: 0,
+                    padding: '7px 2px',
+                  }}
+                >
+                  <span aria-hidden="true" style={{ marginRight: 8 }}>{readsChineseClassics ? '[\u00d7]' : '[ ]'}</span>
+                  I read the Chinese classics
+                </button>
+              )}
+            </div>
+
         <button
           className="action"
           onClick={begin}
           disabled={walking}
           style={{ fontSize: 15, letterSpacing: '0.44em', borderBottomWidth: 2, padding: '14px 0 11px 6px' }}
         >
-          Begin
+          {lastNode ? 'This is the last' : 'Begin'}
         </button>
       </div>
     </div>

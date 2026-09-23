@@ -79,6 +79,8 @@ the pipeline refuses to emit a world whose attribution is incomplete.
 - [docs/Data & puzzle pipeline.md](docs/Data%20&%20puzzle%20pipeline.md) — stages and
   emitted artifacts.
 - [docs/Technical architecture.md](docs/Technical%20architecture.md) — the client.
+- [docs/Residence.md](docs/Residence.md) — staying in one world and starting again
+  until the whole cast is named. Beta.
 
 The visual design lives outside the repo, in a Claude Design canvas artifact. The
 prose docs are authoritative for rules and behaviour; the artifact is authoritative

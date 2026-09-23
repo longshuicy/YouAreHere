@@ -47,6 +47,10 @@ export interface VisibleNode {
   horizon?: boolean;
   /** Who revealed this node, when that is not in `known.parent` (horizon). */
   parent?: NodeIndex | null;
+  /** Carried from an earlier start and not yet joined to you by a drawn tie. */
+  remote?: boolean;
+  /** Residence: on the paper from an earlier start, not this one's walk. */
+  faded?: boolean;
 }
 
 export interface VisibleEdge {
@@ -87,6 +91,8 @@ export interface VisibleEdge {
   weight: number;
   /** A spoke to a horizon node — drawn faint, never as evidence. */
   horizon?: boolean;
+  /** Either end faded. */
+  faded?: boolean;
 }
 
 /** A drawn tie's identity, in the edge's own orientation: the render key, and
@@ -210,6 +216,44 @@ export function project(universe: Universe, known: Known, you: NodeIndex): Visib
     if (!sExpanded && !tExpanded) continue;
 
     edges.push({ source: s, target: t, strength: Math.log1p(weight) / tieCeiling, weight });
+  }
+
+  // In a residence, only this start's own walk is in full ink: you, your ring,
+  // and whoever this start's expansions opened onto. The map carried from
+  // earlier starts stays on the paper — the player should see that part of the
+  // world is done — but set back.
+  if (known.carried) {
+    const opened = new Set([...known.expanded].filter((i) => i === you || !known.carried!.has(i)));
+    const own = new Set<NodeIndex>(opened);
+    for (const e of edges) {
+      if (opened.has(e.source)) own.add(e.target);
+      if (opened.has(e.target)) own.add(e.source);
+    }
+    for (const n of nodes) if (!own.has(n.i)) n.faded = true;
+    // A tie is this start's only if this start drew it — out of you or out of
+    // someone opened now. Two people in your ring can be joined by a tie an
+    // earlier start drew, and in a small world that is most of the paper.
+    for (const e of edges) if (!opened.has(e.source) && !opened.has(e.target)) e.faded = true;
+  }
+
+  // Carried map that no drawn tie joins to you yet: the layout sets it on its
+  // own ring, outside everything reachable.
+  const reached = new Set<NodeIndex>([you]);
+  const drawnTies = new Map<NodeIndex, NodeIndex[]>();
+  for (const e of edges) {
+    (drawnTies.get(e.source) ?? drawnTies.set(e.source, []).get(e.source)!).push(e.target);
+    (drawnTies.get(e.target) ?? drawnTies.set(e.target, []).get(e.target)!).push(e.source);
+  }
+  const queue = [you];
+  while (queue.length > 0) {
+    for (const n of drawnTies.get(queue.shift()!) ?? []) {
+      if (reached.has(n)) continue;
+      reached.add(n);
+      queue.push(n);
+    }
+  }
+  if (reached.size < nodes.length) {
+    for (const n of nodes) if (!reached.has(n.i)) n.remote = true;
   }
 
   return { you, nodes, edges };

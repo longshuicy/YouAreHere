@@ -28,6 +28,11 @@ export function ReadingPage({
   eyebrow,
   subtitle,
   named,
+  formerSelves,
+  mapped,
+  labelled,
+  folded = false,
+  graphNote,
   tieLine,
   round = null,
   headAside,
@@ -48,6 +53,17 @@ export function ReadingPage({
   /** Names the player earned, kept on the paper. Nobody has earned any in the
    * gallery, where the network arrives fully named regardless. */
   named?: Map<number, string>;
+  /** Residence: nodes the player has woken as. */
+  formerSelves?: ReadonlySet<number>;
+  /** The player's map: people drawn and people opened, so its ties can be
+   * coloured whether or not their names were earned. */
+  mapped?: { visible: ReadonlySet<number>; expanded: ReadonlySet<number> };
+  /** Which names are printed; the rest show on hover. */
+  labelled?: ReadonlySet<number>;
+  /** Residence mid-run: withhold unnamed hover labels. */
+  folded?: boolean;
+  /** A line set over the foot of the network, saying why it is drawn as it is. */
+  graphNote?: ReactNode;
   tieLine?: (other: number) => string | null;
   round?: RoundReading | null;
   /** Sits beside the name. The reveal puts the round's tally here; the gallery
@@ -75,7 +91,35 @@ export function ReadingPage({
     >
       {/* Graph is the right half of the page, not a boxed panel. */}
       <div className="reveal-graph">
-        <FullGraph universe={universe} you={i} named={named} tieLine={tieLine} role="subject" />
+        <FullGraph
+          universe={universe}
+          you={i}
+          named={named}
+          formerSelves={formerSelves}
+          mapped={mapped}
+          labelled={labelled}
+          tieLine={tieLine}
+          role="subject"
+          folded={folded}
+        />
+        {graphNote && (
+          <div
+            className="annot"
+            style={{
+              position: 'absolute',
+              left: 24,
+              right: 24,
+              bottom: 18,
+              lineHeight: 1.6,
+              pointerEvents: 'none',
+              borderTop: '1px solid var(--rule)',
+              paddingTop: 10,
+              background: 'var(--paper)',
+            }}
+          >
+            {graphNote}
+          </div>
+        )}
       </div>
 
       {/* Paper column on the left: a head that stays, a body that scrolls. */}

@@ -1,14 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { RadioRow } from '../gallery/RadioRow';
-import { BrandCluster, CHROME_PADDING, HelpLink } from '../render/MarginLinks';
+import { BrandMark, CHROME_PADDING, HelpLink } from '../render/MarginLinks';
+import type { WorldProgress } from '../engine/residence';
 import type { IndexUniverseEntry } from '../types';
 
 interface Props {
   universes: IndexUniverseEntry[];
+  /** Worlds the player has mapped some of. Absent entries were never stayed in. */
+  progress: Map<string, WorldProgress>;
   onChoose: (entry: IndexUniverseEntry) => void;
   onCancel: () => void;
   onOpenKey: () => void;
-  onStartAgain: () => void;
   pending: string | null;
 }
 
@@ -56,9 +58,63 @@ function sizeOf(nodes: number) {
   return SIZES.find((size) => nodes <= size.upTo) ?? SIZES[SIZES.length - 1];
 }
 
-type Order = 'title' | 'size';
+type Order = 'title' | 'size' | 'progress';
 
-export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartAgain, pending }: Props) {
+/** In the order a world moves through them, so the page reads left to right as
+ * the player's own history. */
+const PROGRESS_BANDS = ['Not started', 'In progress', 'Finished'] as const;
+
+function bandOf(p: WorldProgress | undefined): (typeof PROGRESS_BANDS)[number] {
+  if (!p) return 'Not started';
+  return p.complete ? 'Finished' : 'In progress';
+}
+
+/** How much of a world's map is named, as a run of ticks filling the gap
+ * between the title and its size, like leader dots in an index. A share rather
+ * than a count, so a world's cast size stays off this screen even once the
+ * player has been in it. */
+function ProgressTicks({ p }: { p: WorldProgress }) {
+  const share = p.complete ? 100 : Math.min(100, (p.named / Math.max(1, p.cast)) * 100);
+  const ticks = (color: string) =>
+    `repeating-linear-gradient(to right, ${color} 0 1px, transparent 1px 4px)`;
+  return (
+    <span
+      aria-hidden
+      style={{
+        flex: 1,
+        minWidth: 24,
+        height: 7,
+        alignSelf: 'center',
+        marginLeft: 8,
+        background: ticks('var(--rule)'),
+      }}
+    >
+      <span style={{ display: 'block', height: '100%', width: `${share}%`, background: ticks('var(--unknown)') }} />
+    </span>
+  );
+}
+
+function GroupHeading({ label, title }: { label: string; title?: string }) {
+  return (
+    <div
+      className="mono"
+      title={title}
+      style={{
+        fontSize: 9,
+        letterSpacing: '0.28em',
+        textTransform: 'uppercase',
+        color: 'var(--unknown)',
+        borderBottom: '1px solid var(--rule)',
+        paddingBottom: 4,
+        marginBottom: 1,
+      }}
+    >
+      {label}
+    </div>
+  );
+}
+
+export function ChooseWorld({ universes, progress, onChoose, onCancel, onOpenKey, pending }: Props) {
   const [query, setQuery] = useState('');
   const [order, setOrder] = useState<Order>('title');
   const listRef = useRef<HTMLDivElement>(null);
@@ -82,6 +138,24 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
   // within a band. The band is the only thing the heading says — the raw count
   // still never appears, for the reason in the note above.
   const groups = useMemo(() => {
+    if (order === 'progress') {
+      const byBand = new Map<string, IndexUniverseEntry[]>();
+      for (const entry of filtered) {
+        const band = bandOf(progress.get(entry.id));
+        const bucket = byBand.get(band);
+        if (bucket) bucket.push(entry);
+        else byBand.set(band, [entry]);
+      }
+      // Furthest along first within "In progress"; the rest stay alphabetical.
+      const share = (e: IndexUniverseEntry) => {
+        const p = progress.get(e.id);
+        return p ? p.named / p.cast : 0;
+      };
+      byBand.get('In progress')?.sort((a, b) => share(b) - share(a));
+      // All three, always, even when one is empty: they are the columns of
+      // this filing, and a column that disappears moves the other two.
+      return PROGRESS_BANDS.map((band) => [band, byBand.get(band) ?? []] as const);
+    }
     if (order === 'size') {
       const byBand = new Map<string, IndexUniverseEntry[]>();
       for (const entry of filtered) {
@@ -104,7 +178,53 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
       else byLetter.set(letter, [entry]);
     }
     return [...byLetter.entries()].sort(([a], [b]) => a.localeCompare(b));
-  }, [filtered, order]);
+  }, [filtered, order, progress]);
+
+  const row = (entry: IndexUniverseEntry) => {
+    const p = progress.get(entry.id);
+    return (
+      <button
+        key={entry.id}
+        className="world-row"
+        onClick={() => onChoose(entry)}
+        disabled={pending !== null}
+        title={
+          p
+            ? `${p.complete ? 'Every name found' : `${p.named} of ${p.cast} named`} · ${p.starts} ${p.starts === 1 ? 'start' : 'starts'} · ${p.clues} ${p.clues === 1 ? 'clue' : 'clues'}`
+            : sizeOf(entry.nodes).title
+        }
+        style={{
+          display: 'block',
+          width: '100%',
+          boxSizing: 'border-box',
+          fontFamily: 'var(--serif)',
+          fontSize: 14,
+          lineHeight: 1.2,
+          color: pending === entry.id ? 'var(--accent)' : 'var(--body)',
+          textAlign: 'left',
+          padding: '4px 0 3px 0',
+          minHeight: 26,
+          cursor: pending === null ? 'pointer' : 'default',
+          opacity: pending !== null && pending !== entry.id ? 0.45 : 1,
+        }}
+      >
+        <span style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 6 }}>
+          <span>{entry.title}</span>
+          {p && <ProgressTicks p={p} />}
+          {/* Filed by size, the heading has already said it — repeating it on
+              every row is noise. */}
+          {order !== 'size' && (
+            <span
+              className="mono"
+              style={{ fontSize: 8, letterSpacing: '0.14em', color: 'var(--unknown)', flexShrink: 0, paddingLeft: 8 }}
+            >
+              {sizeOf(entry.nodes).label}
+            </span>
+          )}
+        </span>
+      </button>
+    );
+  };
 
   useEffect(() => {
     const el = listRef.current;
@@ -139,7 +259,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
         className="chrome-row"
         style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}
       >
-        <BrandCluster onStartAgain={onStartAgain} />
+        <BrandMark />
         <HelpLink onOpenKey={onOpenKey} />
       </div>
 
@@ -193,6 +313,7 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
           options={[
             { key: 'title', label: 'Alphabet' },
             { key: 'size', label: 'Size' },
+            { key: 'progress', label: 'Progress' },
           ]}
         />
 
@@ -235,71 +356,45 @@ export function ChooseWorld({ universes, onChoose, onCancel, onOpenKey, onStartA
                 the edge of a container that only scrolls vertically. The whole of
                 T, twelve worlds including The Bible, was sitting out there
                 unreachable. */}
-            {groups.length === 0 ? (
+            {filtered.length === 0 ? (
               <div className="annot" style={{ textAlign: 'center', paddingTop: 48 }}>
                 No world matches
+              </div>
+            ) : order === 'progress' ? (
+              // Three fixed columns rather than newspaper flow: the bands are
+              // stages, and a stage should keep its place on the page however
+              // many worlds are in it.
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                  columnGap: 36,
+                  rowGap: 16,
+                  alignItems: 'start',
+                }}
+              >
+                {groups.map(([band, entries]) => (
+                  <div key={band}>
+                    <GroupHeading label={band} />
+                    {entries.length === 0 ? (
+                      <div className="annot" style={{ padding: '6px 0' }}>
+                        {band === 'Finished' ? 'None yet' : 'None'}
+                      </div>
+                    ) : (
+                      entries.map(row)
+                    )}
+                  </div>
+                ))}
               </div>
             ) : (
               <div style={{ columnWidth: 200, columnGap: 36 }}>
                 {groups.map(([letter, entries]) => (
                   <div key={letter} style={{ breakInside: 'avoid', marginBottom: 8 }}>
-                    <div
-                      className="mono"
+                    <GroupHeading
+                      label={letter}
                       title={order === 'size' ? SIZES.find((size) => size.label === letter)?.title : undefined}
-                      style={{
-                        fontSize: 9,
-                        letterSpacing: '0.28em',
-                        color: 'var(--unknown)',
-                        borderBottom: '1px solid var(--rule)',
-                        paddingBottom: 4,
-                        marginBottom: 1,
-                      }}
-                    >
-                      {letter}
-                    </div>
-                    {entries.map((entry) => (
-                      <button
-                        key={entry.id}
-                        className="world-row"
-                        onClick={() => onChoose(entry)}
-                        disabled={pending !== null}
-                        title={sizeOf(entry.nodes).title}
-                        style={{
-                          display: 'flex',
-                          alignItems: 'baseline',
-                          justifyContent: 'space-between',
-                          gap: 6,
-                          width: '100%',
-                          fontFamily: 'var(--serif)',
-                          fontSize: 14,
-                          lineHeight: 1.2,
-                          color: pending === entry.id ? 'var(--accent)' : 'var(--body)',
-                          textAlign: 'left',
-                          padding: '4px 0 3px 0',
-                          minHeight: 26,
-                          cursor: pending === null ? 'pointer' : 'default',
-                          opacity: pending !== null && pending !== entry.id ? 0.45 : 1,
-                        }}
-                      >
-                        <span>{entry.title}</span>
-                        {/* Filed by size, the heading has already said this —
-                            repeating it on every row in the band is noise. */}
-                        {order === 'title' && (
-                          <span
-                            className="mono"
-                            style={{
-                              fontSize: 8,
-                              letterSpacing: '0.14em',
-                              color: 'var(--unknown)',
-                              flexShrink: 0,
-                              paddingLeft: 8,
-                            }}
-                          >
-                            {sizeOf(entry.nodes).label}
-                          </span>
-                        )}
-                      </button>
-                    ))}
+                    />
+                    {entries.map(row)}
                   </div>
                 ))}
               </div>

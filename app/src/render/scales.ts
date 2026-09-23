@@ -10,6 +10,10 @@ import { scaleLinear } from 'd3-scale';
  * Bible's genealogy fillers larger than Moses. */
 export const nodeRadius = scaleLinear().domain([0, 1]).range([6, 9.5]).clamp(true);
 
+/** A residence's earlier map, outside this start's own walk: present but set
+ * back. */
+export const REMOTE_OPACITY = 0.1;
+
 /** Hairline to 3.4px, per the style sheet's tie scale. */
 export const tieWidth = scaleLinear().domain([0, 1]).range([1, 3.4]).clamp(true);
 

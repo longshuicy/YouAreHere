@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Stage } from '../render/Stage';
 import { Ledger } from '../render/Ledger';
-import { BrandCluster, CHROME_PADDING, GiveUpLinks, HelpLink } from '../render/MarginLinks';
+import { BrandCluster, type StartLinks, CHROME_PADDING, GiveUpLinks, HelpLink } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -20,7 +20,7 @@ interface Props {
   onOpenKey: () => void;
   onReveal: () => void;
   onRevealStory: () => void;
-  onStartAgain: () => void;
+  startLinks: StartLinks;
 }
 
 export function Guess({
@@ -33,7 +33,7 @@ export function Guess({
   onOpenKey,
   onReveal,
   onRevealStory,
-  onStartAgain,
+  startLinks,
 }: Props) {
   // Deliberately NOT the universe being played — defaulting to the real answer
   // hands over the half of the question the dropdown exists to ask. Unless a
@@ -149,12 +149,10 @@ export function Guess({
           className="chrome-row"
           style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}
         >
-          <BrandCluster onStartAgain={onStartAgain} />
+          <BrandCluster {...startLinks} />
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 12 }}>
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: 'clamp(12px, 4vw, 28px)' }}>
-              <Ledger ledger={session.ledger} />
-              <HelpLink onOpenKey={onOpenKey} />
-            </div>
+            <HelpLink onOpenKey={onOpenKey} />
+            <Ledger ledger={session.ledger} />
             <GiveUpLinks
               onReveal={onReveal}
               onRevealStory={worldIsKnown(session) ? undefined : onRevealStory}

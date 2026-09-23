@@ -28,33 +28,9 @@ Story is answered first: it collapses the identity space, and it makes the good 
 
 No losing. A wrong guess returns the player to the graph with the ledger unchanged.
 
-## Waking again
+## Starting again
 
-> **Parked, 2026-09-18 — not built.** The reveal has one door: `START SOMEWHERE ELSE`, a new stranger in a new world, with nothing carried over. The residence model below is kept as a record of the thinking, because the argument for it still holds and it is the obvious answer to the first-round problem. It is parked rather than rejected: it wants the difficulty bands to exist first, since "starts are drawn from progressively harder bands" is most of what makes staying feel different from repeating. Everything below describes a design, not the current build.
-
-### What staying changes
-
-A **residence** is a run of wakings inside one book. Within it:
-
-- The story question disappears. The guess screen asks one thing.
-- Locate is removed — there is nothing left to locate.
-- Names already bought stay drawn wherever those characters appear.
-- The ledger runs across the whole residence: *Third waking · 11 clues so far*.
-- Starts are drawn from progressively harder bands as the residence deepens.
-
-Shuffling clears learned names and restores both questions.
-
-### Why this fixes the first round
-
-The first waking is close to unsolvable without buying a name, and that is correct rather than a flaw — a reader has no way into a book they cannot name. Round one should be expected to cost a name, not designed to avoid it.
-
-The residence is where that spend pays off. The second waking opens on a partly known map: several characters already named, a feel for the book's density, and only one question left. Clue counts fall, and the falling number is the reward.
-
-### The arc it creates
-
-Waking repeatedly in one novel is a better fantasy than shuffling. You are not solving a series of puzzles; you are learning one world by waking up in different lives inside it. Characters you bought in an earlier waking turn up as someone else's neighbours, which is the moment the network stops being a diagram.
-
-**Watch for:** a residence that outlives its interest. Once the clue count per waking stops falling, the player knows the book, and the game should nudge a shuffle rather than wait to be abandoned.
+After a reveal the player may stay in the world and start again as somebody else, keeping every name already on the paper, until the whole cast is named. That mode is a **residence**, and it has its own spec: [Residence](./Residence.md).
 
 ## Information economy
 
@@ -187,7 +163,7 @@ An expanded node keeps a **monogram** below it: its initial, in mono, and a rule
 
 > **Amended 2026-09-18.** This said *one generated structural fact*, to arrive from the pipeline. None ever did. The readings are computed in the browser at the moment the reveal fires, which is what lets a Shakespeare play with an empty sidecar end on something specific rather than on nothing. Capped at four: a reveal is a beat, and six true sentences in a column is a dashboard. It ends on three exits, weighted by size: `START AGAIN HERE`, `START SOMEWHERE ELSE`, and the share card.
 
-**5b · Waking again.** The same cold open, one word different — *You wake up here. Again.* The graph opens with previously bought names already in place, set in serif, and the running residence ledger in the margin.
+**5b · Starting again.** `SOMEWHERE ELSE` returns to the cold open in a new world. `STAY IN <WORLD>`: straight into play as somebody else, previously bought names already in place and the walking ledger in the margin. Part of the residence mode — see [Residence](./Residence.md).
 
 **6 · The key.** Reachable at any time from a thin mono link in the margin: `WHAT CAN I DO`. It opens over the paper without navigating away, and lists the four actions with their costs plus the tie legend. There is no first-run tutorial and no modal — the cold open has exactly one thing to click, which teaches the only lesson a tutorial could.
 
@@ -230,7 +206,7 @@ An old printed book, a mathematical diagram, an archival document.
 | Cross-novel confusion | Keep it. Prefer structurally similar universes over maximally different ones. |
 | Teaching the actions | A persistent key, not a tutorial. Costs are always printed beside each action in the node menu. |
 | Sharing | A spoiler-free card after the reveal, linking to the same puzzle. |
-| Continuation | After each reveal the player chooses: stay in this novel (a residence) or shuffle. Staying drops the story question, keeps names already bought, and escalates the difficulty band. |
+| Continuation | After each reveal the player chooses: stay in this world (a residence) or leave. Staying drops the story question, keeps every name already on the paper, and walks the difficulty down the ease scale until the whole cast is named. Spec: [Residence](./Residence.md). |
 
 ## The companion piece
 

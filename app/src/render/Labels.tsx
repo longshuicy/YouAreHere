@@ -1,6 +1,6 @@
 import type { VisibleNode } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
-import { nodeRadius } from './scales';
+import { nodeRadius, REMOTE_OPACITY } from './scales';
 
 interface Props {
   nodes: VisibleNode[];
@@ -43,7 +43,7 @@ export function Labels({ nodes, positions, animate = true }: Props) {
             <g
               key={`m${n.i}`}
               transform={`translate(${p.x}, ${p.y})`}
-              style={{ transition: animate ? 'transform 600ms ease-in-out' : 'none' }}
+              style={{ transition: animate ? 'transform 600ms ease-in-out' : 'none', opacity: n.faded ? REMOTE_OPACITY : 1 }}
             >
               <text
                 x={left}
@@ -84,7 +84,7 @@ export function Labels({ nodes, positions, animate = true }: Props) {
             <g
               key={n.i}
               transform={`translate(${p.x}, ${p.y})`}
-              style={{ transition: animate ? 'transform 600ms ease-in-out' : 'none' }}
+              style={{ transition: animate ? 'transform 600ms ease-in-out' : 'none', opacity: n.faded ? REMOTE_OPACITY : 1 }}
             >
               <text
                 y={-(r + 11)}

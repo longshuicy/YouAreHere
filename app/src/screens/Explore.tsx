@@ -1,15 +1,17 @@
 import { Stage } from '../render/Stage';
-import { Ledger, LedgerBreakdown } from '../render/Ledger';
-import { BrandCluster, CHROME_PADDING, GiveUpLinks, HelpLink } from '../render/MarginLinks';
+import { Ledger } from '../render/Ledger';
+import { BrandCluster, type StartLinks, CHROME_PADDING, GiveUpLinks, HelpLink } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
 import { worldIsKnown } from '../engine/session';
+import type { Residence } from '../engine/residence';
 
 interface Props {
   graph: VisibleGraph;
   positions: Map<number, LaidOutNode>;
   session: Session;
+  residence?: Residence | null;
   onExpand: (i: number) => void;
   onFacts: (i: number) => void;
   onName: (i: number) => void;
@@ -23,7 +25,7 @@ interface Props {
   onOpenKey: () => void;
   onReveal: () => void;
   onRevealStory: () => void;
-  onStartAgain: () => void;
+  startLinks: StartLinks;
   /** Shown in place of the question line once the story has been guessed right. */
   universeTitle: string;
   worldBlurb: string | null;
@@ -33,6 +35,7 @@ export function Explore({
   graph,
   positions,
   session,
+  residence = null,
   onExpand,
   onFacts,
   onName,
@@ -45,7 +48,7 @@ export function Explore({
   onOpenKey,
   onReveal,
   onRevealStory,
-  onStartAgain,
+  startLinks,
   universeTitle,
   worldBlurb,
 }: Props) {
@@ -83,10 +86,12 @@ export function Explore({
         }}
       >
         <div className="chrome-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-          <BrandCluster onStartAgain={onStartAgain} />
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 'clamp(12px, 4vw, 28px)' }}>
-            <Ledger ledger={session.ledger} />
+          <BrandCluster {...startLinks} />
+          {/* The key of what each action costs, and under it what has been
+              spent: one column on one edge, reference over readout. */}
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 14 }}>
             <HelpLink onOpenKey={onOpenKey} />
+            <Ledger ledger={session.ledger} residence={residence} itemised />
           </div>
         </div>
 
@@ -154,16 +159,6 @@ export function Explore({
         </div>
       </div>
 
-      {/* Itemised tally only — exits no longer live here. */}
-      <div
-        style={{
-          position: 'absolute',
-          right: 'var(--pad-x)',
-          top: 'calc(var(--pad-top) + 36px)',
-        }}
-      >
-        <LedgerBreakdown ledger={session.ledger} />
-      </div>
     </div>
   );
 }

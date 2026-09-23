@@ -1,8 +1,26 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { fetchIndex, fetchMeta, fetchUniverse, findByName, pickPuzzle, pickWorld } from './data/loader';
 import type { IndexFile, PuzzleRecord, Universe, UniverseMeta } from './types';
-import { initSession, makeReducer } from './engine/session';
+import { initSession, makeReducer, worldIsKnown } from './engine/session';
 import type { Session } from './engine/session';
+import {
+  absorbStart,
+  absorbUnfinished,
+  emptyResidence,
+  isComplete,
+  loadActiveWorld,
+  loadResidences,
+  nameLastNode,
+  pickNextStart,
+  progressOf,
+  saveActiveWorld,
+  saveResidences,
+  unnamedCount,
+  wakeInResidence,
+  type Residence,
+  type WorldProgress,
+} from './engine/residence';
+import type { StartLinks } from './render/MarginLinks';
 import { cardinal, project, standingOf, withHorizon } from './graph/project';
 import { suggestNames } from './engine/names';
 import { useRadialLayout } from './graph/layout';
@@ -58,6 +76,13 @@ export default function App() {
    * meta was truthy, and a bought reading looked up against the wrong index. */
   const [metas, setMetas] = useState<Map<string, UniverseMeta>>(new Map());
   const [showKey, setShowKey] = useState(false);
+  /** Every world's map, paused or live. Persisted so a map survives a refresh
+   * and a visit to another world; the current start does not. */
+  const [residences, setResidences] = useState<Map<string, Residence>>(loadResidences);
+  /** The map the player is living in right now. Null outside a residence. */
+  const [residence, setResidence] = useState<Residence | null>(null);
+  /** Residence finished: every node named, former selves marked. */
+  const [residenceClosed, setResidenceClosed] = useState(false);
   /** The gallery is a companion piece, not a mode. It is offered from the cold
    * open and from the reveal, and never as a way to avoid playing — see
    * docs/The topology gallery.md, which argued for keeping it strictly behind a
@@ -107,6 +132,26 @@ export default function App() {
     recentPuzzles.current = [puzzleId, ...recentPuzzles.current.filter((id) => id !== puzzleId)].slice(0, 12);
   };
 
+  /** Put a world's map on the shelf, replacing whatever it held for that world. */
+  const shelve = (next: Residence) => {
+    const all = new Map(residences).set(next.universe, next);
+    setResidences(all);
+    saveResidences(all);
+  };
+
+  /** Live in this map: a refresh comes back to it. */
+  const enterResidence = (next: Residence) => {
+    setResidence(next);
+    saveActiveWorld(next.universe);
+  };
+
+  /** Stop living in the current map. The map itself stays on the shelf. */
+  const leaveResidence = () => {
+    setResidence(null);
+    setResidenceClosed(false);
+    saveActiveWorld(null);
+  };
+
   useEffect(() => {
     (async () => {
       try {
@@ -115,9 +160,31 @@ export default function App() {
         if (unscored.length > 0) {
           console.warn(`No familiarity band for: ${unscored.join(', ')} — see data/worlds.ts`);
         }
-        // The stored answer rather than the state, so the one-shot boot effect
-        // does not claim a dependency on something it never re-reads. They are
-        // the same value on the first frame, which is the only frame this runs on.
+
+        // Land back in the world the player was living in before the refresh.
+        const activeId = loadActiveWorld();
+        const saved = activeId ? loadResidences().get(activeId) : undefined;
+        const activeEntry = saved ? index.universes.find((u) => u.id === saved.universe) : undefined;
+        if (saved && activeEntry) {
+          const universe = await fetchUniverse(activeEntry.file);
+          const puzzle = isComplete(universe, saved) ? null : pickNextStart(universe, saved);
+          if (puzzle) {
+            remember(puzzle.id);
+            setBoot({ status: 'ready', index, universe, puzzle });
+            setResidence(saved);
+            setSession(wakeInResidence(universe, puzzle, saved));
+            setLoaded(new Map([[universe.id, universe]]));
+            for (const other of index.universes) {
+              if (other.id === universe.id) continue;
+              fetchUniverse(other.file)
+                .then((u) => setLoaded((prev) => new Map(prev).set(u.id, u)))
+                .catch(() => {});
+            }
+            return;
+          }
+        }
+        saveActiveWorld(null);
+
         const opening = readsChineseByDefault();
         const entry = pickWorld(index.universes, 1, index.easeBuckets, (world) =>
           familiarityFor(world.id, opening),
@@ -131,9 +198,6 @@ export default function App() {
         setSession(initSession(universe, puzzle));
         setLoaded(new Map([[universe.id, universe]]));
 
-        // The rest load in the background: the type-ahead must draw from every
-        // story so the list never reveals how large one book's cast is, but the
-        // first frame should not wait on graphs the player cannot see yet.
         for (const other of index.universes) {
           if (other.id === universe.id) continue;
           fetchUniverse(other.file)
@@ -159,7 +223,14 @@ export default function App() {
     if (!universe || !session) return null;
     const visible = project(universe, session.known, session.you);
     if (session.phase !== 'cold') return visible;
-    return withHorizon(universe, session.you, visible);
+    // The cold open is the opening frame and nothing else. A residence's
+    // carried map waits for Begin; on this screen it is only a crowd of names.
+    const opening = {
+      ...visible,
+      nodes: visible.nodes.filter((n) => !n.faded),
+      edges: visible.edges.filter((e) => !e.faded),
+    };
+    return withHorizon(universe, session.you, opening);
   }, [universe, session]);
 
   // Hooks must run unconditionally; guard inside instead of early-returning above.
@@ -232,6 +303,18 @@ export default function App() {
     return out;
   }, [session, meta]);
 
+  /** Each mapped world's progress, sized against its cast from the index so it
+   * is available before that world's own file has loaded. */
+  const progress = useMemo(() => {
+    const out = new Map<string, WorldProgress>();
+    if (boot.status !== 'ready') return out;
+    for (const entry of boot.index.universes) {
+      const r = residences.get(entry.id);
+      if (r) out.set(entry.id, progressOf(r, entry.nodes));
+    }
+    return out;
+  }, [boot, residences]);
+
   if (boot.status === 'loading') {
     return <div style={{ padding: 48 }}>Loading…</div>;
   }
@@ -248,10 +331,38 @@ export default function App() {
   const revealAnswer = () => dispatch({ type: 'REVEAL' });
   const revealStory = () => dispatch({ type: 'REVEAL_STORY' });
 
+  /**
+   * This world's map with the current round folded in, or null when the round
+   * has nothing the map may keep.
+   *
+   * A round that reached its reveal adds the person found. A round left
+   * unfinished keeps what it bought — but only once the world is known, because
+   * putting an unnamed world on the shelf would show its title, and progress,
+   * in the chooser.
+   */
+  const worldKnownHere = residence !== null || session.phase === 'reveal' || worldIsKnown(session);
+
+  const roundAsMap = (): Residence | null => {
+    const base = residence ?? residences.get(universe.id) ?? null;
+    if (residenceClosed) return base;
+    if (session.phase === 'reveal') {
+      return absorbStart(base ?? emptyResidence(universe), session, nameOf(session.you));
+    }
+    if (residence || worldIsKnown(session)) {
+      return absorbUnfinished(base ?? emptyResidence(universe), session);
+    }
+    return null;
+  };
+
   /** A shuffle: a new stranger, and now genuinely a new world when more than
-   * one is loaded. Nothing carries over — no names, no ledger. */
+   * one is loaded. Nothing carries into the new round; the world being left
+   * keeps what this round earned on its map. A new world opens on the cold
+   * open, where the scale and the chooser live. */
   const wakeElsewhere = () => {
     if (boot.status !== 'ready') return;
+    const kept = roundAsMap();
+    if (kept) shelve(kept);
+    leaveResidence();
     const pool = [...loaded.values()];
     const others = pool.filter((u) => u.id !== universe.id);
     const buckets = boot.index.easeBuckets ?? 10;
@@ -271,6 +382,76 @@ export default function App() {
     setSession(initSession(next, puzzle));
   };
 
+  /**
+   * Somebody else, in this world, straight into play.
+   *
+   * Available from every screen. Whatever the current round earned goes onto
+   * this world's map first. While the world is still unnamed there is no map to
+   * keep — it would give the world away — so this only draws another stranger
+   * in the same unnamed world.
+   */
+  const startInThisWorld = () => {
+    if (boot.status !== 'ready') return;
+    setChoosing(false);
+
+    if (!worldKnownHere) {
+      const puzzle = pickPuzzle(universe, targetEase, [session.puzzleId, ...recentPuzzles.current]);
+      if (!puzzle) return;
+      remember(puzzle.id);
+      setBoot({ ...boot, puzzle });
+      setSession({ ...initSession(universe, puzzle), phase: 'explore' });
+      return;
+    }
+
+    const base = residence ?? residences.get(universe.id) ?? emptyResidence(universe);
+    const alreadyFinished = isComplete(universe, base);
+    let next = roundAsMap() ?? base;
+
+    // A finished world has nothing left to find, so starting in it again is an
+    // ordinary round with the world already settled.
+    if (alreadyFinished) {
+      leaveResidence();
+      const puzzle = pickPuzzle(universe, targetEase, recentPuzzles.current);
+      if (!puzzle) return;
+      remember(puzzle.id);
+      setBoot({ ...boot, puzzle });
+      setSession({ ...initSession(universe, puzzle, { worldChosen: true }), phase: 'explore' });
+      return;
+    }
+
+    // This round named the last of them: the closing screen, now.
+    if (isComplete(universe, next)) {
+      shelve(next);
+      setResidence(next);
+      saveActiveWorld(null);
+      setResidenceClosed(true);
+      setSession({ ...session, phase: 'reveal' });
+      return;
+    }
+
+    const puzzle = pickNextStart(universe, next);
+    if (!puzzle) return;
+
+    // One stranger left, and the player is provably them: the guess is free.
+    if (unnamedCount(universe, next.named) === 1) {
+      next = nameLastNode(universe, next);
+      shelve(next);
+      setResidence(next);
+      saveActiveWorld(null);
+      setResidenceClosed(true);
+      setBoot({ ...boot, puzzle });
+      setSession({ ...wakeInResidence(universe, puzzle, next), phase: 'reveal' });
+      return;
+    }
+
+    remember(puzzle.id);
+    shelve(next);
+    enterResidence(next);
+    setResidenceClosed(false);
+    setBoot({ ...boot, puzzle });
+    setSession({ ...wakeInResidence(universe, puzzle, next), phase: 'explore' });
+  };
+
   /** Wake in a named world. The story half of the question is settled before the
    * first frame, so the session is marked as such and the guess screen stops
    * asking it. The graph still opens on a stranger. */
@@ -284,7 +465,9 @@ export default function App() {
     if (boot.status !== 'ready') return;
     // A chosen world stays chosen: the slider only redraws the stranger
     // inside it. Familiarity is a tilt on *which book* is drawn, so it
-    // must not run once the player has named one.
+    // must not run once the player has named one. Residence owns the
+    // stranger once it has begun — the slider is not offered there.
+    if (residence) return;
     const locked = session.worldChosen ? universe : null;
     try {
       let nextUniverse = locked;
@@ -334,10 +517,27 @@ export default function App() {
     setPendingWorld(entry.id);
     try {
       const next = loaded.get(entry.id) ?? (await fetchUniverse(entry.file));
+      setLoaded((prev) => (prev.has(next.id) ? prev : new Map(prev).set(next.id, next)));
+
+      // A world with a paused map resumes it rather than starting cold.
+      const paused = residences.get(next.id);
+      if (paused && !isComplete(next, paused)) {
+        const resumed = pickNextStart(next, paused);
+        if (resumed) {
+          remember(resumed.id);
+          enterResidence(paused);
+          setResidenceClosed(false);
+          setBoot({ ...boot, universe: next, puzzle: resumed });
+          setSession(wakeInResidence(next, resumed, paused));
+          setChoosing(false);
+          return;
+        }
+      }
+
       const puzzle = pickPuzzle(next, targetEase, recentPuzzles.current);
       if (!puzzle) return;
       remember(puzzle.id);
-      setLoaded((prev) => (prev.has(next.id) ? prev : new Map(prev).set(next.id, next)));
+      leaveResidence();
       setBoot({ ...boot, universe: next, puzzle });
       // Stay on the cold open: the story is settled, the stranger is not.
       // Begin is still the commit; the scale can still redraw who you wake as.
@@ -353,10 +553,57 @@ export default function App() {
 
   /** Leave this waking for another, from wherever the player happens to be. The
    * same act the reveal has always offered, hoisted into the margin so it does
-   * not require finishing — or giving up on — the puzzle first. */
+   * not require finishing — or giving up on — the puzzle first. Pauses the
+   * current world's map. */
   const startAgain = () => {
     setChoosing(false);
     wakeElsewhere();
+  };
+
+  const startLinks: StartLinks = {
+    onStartAgain: startAgain,
+    onStartHere: startInThisWorld,
+    hereTitle: worldKnownHere ? universe.title : null,
+  };
+
+  const lastNode =
+    Boolean(residence) &&
+    universe != null &&
+    residence != null &&
+    unnamedCount(universe, residence.named) === 1 &&
+    !residence.named.has(session.you);
+
+  const beginFromCold = () => {
+    if (!session) return;
+    // The last unnamed node: the player is provably that person. Free guess.
+    if (lastNode && residence) {
+      const named = new Map(session.known.named);
+      const name = universe.nodes.find((n) => n.i === session.you)?.n ?? '';
+      named.set(session.you, name);
+      const recognised = new Set(session.known.recognised);
+      recognised.add(session.you);
+      let next = absorbStart(residence, {
+        ...session,
+        known: { ...session.known, named, recognised },
+        ledger: session.ledger,
+      });
+      // The free last start costs nothing.
+      if (next.starts.length > 0 && next.selves[next.selves.length - 1] === session.you) {
+        next = { ...next, starts: [...next.starts.slice(0, -1), 0] };
+      }
+      next = nameLastNode(universe, next);
+      shelve(next);
+      setResidence(next);
+      saveActiveWorld(null);
+      setResidenceClosed(true);
+      setSession({
+        ...session,
+        phase: 'reveal',
+        known: { ...session.known, named: next.named, recognised },
+      });
+      return;
+    }
+    setSession({ ...session, phase: 'explore' });
   };
 
   let screen: ReactNode;
@@ -365,19 +612,21 @@ export default function App() {
       screen = choosing ? (
         <ChooseWorld
           universes={boot.index.universes}
+          progress={progress}
           pending={pendingWorld}
           onChoose={chooseWorld}
           onCancel={() => setChoosing(false)}
           onOpenKey={openKey}
-          onStartAgain={startAgain}
         />
       ) : (
         <ColdOpen
           graph={graph}
           positions={positions}
           session={session}
-          worldTitle={session.worldChosen ? universe.title : null}
-          onBegin={() => setSession({ ...session, phase: 'explore' })}
+          worldTitle={session.worldChosen || residence ? universe.title : null}
+          again={Boolean(residence)}
+          lastNode={lastNode}
+          onBegin={beginFromCold}
           onChooseWorld={() => setChoosing(true)}
           targetEase={targetEase}
           onChooseEase={chooseEase}
@@ -393,6 +642,7 @@ export default function App() {
           graph={graph}
           positions={positions}
           session={session}
+          residence={residence}
           onExpand={(i) => dispatch({ type: 'EXPAND', node: i })}
           onFacts={(i) => {
             if (!hasFacts(i)) return;
@@ -408,7 +658,7 @@ export default function App() {
           onOpenKey={openKey}
           onReveal={revealAnswer}
           onRevealStory={revealStory}
-          onStartAgain={startAgain}
+          startLinks={startLinks}
           universeTitle={universe.title}
           worldBlurb={blurbFor(universe)}
         />
@@ -426,7 +676,7 @@ export default function App() {
           onOpenKey={openKey}
           onReveal={revealAnswer}
           onRevealStory={revealStory}
-          onStartAgain={startAgain}
+          startLinks={startLinks}
         />
       );
       break;
@@ -436,16 +686,14 @@ export default function App() {
           session={session}
           universe={universe}
           meta={meta}
-          onStartAgain={startAgain}
+          residence={residence ?? residences.get(universe.id) ?? null}
+          living={residence !== null}
+          closed={residenceClosed}
+          startLinks={startLinks}
           onOpenGallery={() => navigate({ screen: 'gallery' })}
           onOpenCharacter={(i) => navigate({ screen: 'gallery-character', worldId: universe.id, i })}
           onOpenWorld={() => navigate({ screen: 'gallery-world', worldId: universe.id })}
           onOpenTwin={(worldId, name) => {
-            // Only linkable once that world's own file has landed — every
-            // world loads in the background from boot, so by the time a
-            // round has actually been played this has almost always
-            // resolved; if it has not, the click is a quiet no-op rather
-            // than a broken link, because there is no index to send it to.
             const target = loaded.get(worldId);
             const i = target ? findByName(target, name) : null;
             if (i != null) navigate({ screen: 'gallery-character', worldId, i });
@@ -462,11 +710,19 @@ export default function App() {
     return (
       <Gallery
         universes={[...loaded.values()]}
+        progress={progress}
         route={route}
         navigate={navigate}
-        onStartAgain={() => {
-          navigate({ screen: 'game' });
-          startAgain();
+        startLinks={{
+          ...startLinks,
+          onStartAgain: () => {
+            navigate({ screen: 'game' });
+            startAgain();
+          },
+          onStartHere: () => {
+            navigate({ screen: 'game' });
+            startInThisWorld();
+          },
         }}
       />
     );

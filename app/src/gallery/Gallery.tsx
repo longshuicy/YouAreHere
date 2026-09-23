@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { BackLink, BrandCluster, CHROME_PADDING, ChromeRight } from '../render/MarginLinks';
+import { BackLink, BrandCluster, CHROME_PADDING, ChromeRight, type StartLinks } from '../render/MarginLinks';
 import { FullGraph } from '../render/FullGraph';
 import { fetchMeta, findByName } from '../data/loader';
 import type { Universe, UniverseMeta } from '../types';
@@ -12,6 +12,7 @@ import { noteTooltip } from './notes';
 import { RadioRow } from './RadioRow';
 import { measureWorld, type CharacterMetrics, type WorldMetrics } from './metrics';
 import type { Route } from '../engine/route';
+import { progressLine, type WorldProgress } from '../engine/residence';
 
 /**
  * The gallery: one card per loaded world, and an index of every character in
@@ -117,10 +118,12 @@ function SectionHead({ children }: { children: ReactNode }) {
 function WorldDetail({
   world,
   universe,
+  progress,
   onOpenCharacter,
 }: {
   world: WorldMetrics;
   universe: Universe | undefined;
+  progress: WorldProgress | undefined;
   onOpenCharacter: (i: number) => void;
 }) {
   const connected = world.characters.filter((c) => c.degree > 0);
@@ -155,6 +158,13 @@ function WorldDetail({
             ['Camps', String(world.communities), 'camps'],
             ['Modularity', world.modularity.toFixed(2), 'camps'],
             ['Outermost', `${world.horizonSpread.toFixed(1)}×`, 'horizon'],
+            ...(progress
+              ? ([
+                  ['Your map', progress.complete ? 'Finished' : `${progress.named}/${progress.cast}`],
+                  ['Starts', String(progress.starts)],
+                  ['Clues', String(progress.clues)],
+                ] as [string, string][])
+              : []),
           ] as [string, string, string?][]
         ).map(([label, value, note]) => (
           <div
@@ -286,7 +296,9 @@ function WorldDetail({
 
 interface Props {
   universes: Universe[];
-  onStartAgain: () => void;
+  /** How much of each world the player has mapped, where they have stayed. */
+  progress: Map<string, WorldProgress>;
+  startLinks: StartLinks;
   /** The address bar's idea of where in the gallery this is — `gallery`,
    * `gallery-world` or `gallery-character`. Which world card is open and
    * which character page is open both live here now, not in local state, so
@@ -296,7 +308,7 @@ interface Props {
   navigate: (route: Route, opts?: { replace?: boolean }) => void;
 }
 
-export function Gallery({ universes, onStartAgain, route, navigate }: Props) {
+export function Gallery({ universes, progress, startLinks, route, navigate }: Props) {
   const open = route.screen === 'gallery-world' ? route.worldId : null;
   /** A character page, which replaces the gallery the same way a world's does. */
   const character = route.screen === 'gallery-character' ? { worldId: route.worldId, i: route.i } : null;
@@ -419,7 +431,7 @@ export function Gallery({ universes, onStartAgain, route, navigate }: Props) {
           if (i != null) goToCharacter(twinWorld, i);
         }}
         onOpenWorld={() => openWorld(worldId)}
-        chromeLeft={<BrandCluster onStartAgain={onStartAgain} />}
+        chromeLeft={<BrandCluster {...startLinks} />}
         chromeRight={
           <ChromeRight>
             <BackLink label="All characters" onBack={closeCharacter} />
@@ -442,7 +454,7 @@ export function Gallery({ universes, onStartAgain, route, navigate }: Props) {
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-        <BrandCluster onStartAgain={onStartAgain} />
+        <BrandCluster {...startLinks} />
         {detail && (
           <ChromeRight>
             <BackLink label="All worlds" onBack={closeWorld} />
@@ -454,6 +466,7 @@ export function Gallery({ universes, onStartAgain, route, navigate }: Props) {
         <WorldDetail
           world={detail}
           universe={byId.get(detail.id)}
+          progress={progress.get(detail.id)}
           onOpenCharacter={(i) => goToCharacter(detail.id, i)}
         />
       ) : (
@@ -527,9 +540,19 @@ export function Gallery({ universes, onStartAgain, route, navigate }: Props) {
                 paddingTop: 30,
               }}
             >
-              {ordered.map((world) => (
-                <Fingerprint key={world.id} world={world} onOpen={openWorld} />
-              ))}
+              {ordered.map((world) => {
+                const p = progress.get(world.id);
+                return (
+                  <div key={world.id}>
+                    <Fingerprint world={world} onOpen={openWorld} />
+                    {p && (
+                      <div className="annot" style={{ fontSize: 9, paddingTop: 6, color: 'var(--accent)' }}>
+                        Your map · {progressLine(p)} · {p.clues} {p.clues === 1 ? 'clue' : 'clues'}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           ) : (
             <CharacterIndex

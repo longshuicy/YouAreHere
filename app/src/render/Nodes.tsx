@@ -1,6 +1,6 @@
 import type { VisibleNode } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
-import { nodeRadius } from './scales';
+import { nodeRadius, REMOTE_OPACITY } from './scales';
 
 interface Props {
   nodes: VisibleNode[];
@@ -36,9 +36,14 @@ export function Nodes({
   animate = true,
   lit,
 }: Props) {
+  // In a residence the carried map is what is set back; this start's own walk
+  // is drawn in full, frontier included, so the two never compete in grey.
+  const residence = nodes.some((n) => n.faded);
+  // Carried map underneath, this start's walk over it.
+  const ordered = residence ? [...nodes].sort((a, b) => Number(Boolean(b.faded)) - Number(Boolean(a.faded))) : nodes;
   return (
     <g className="nodes">
-      {nodes.map((n) => {
+      {ordered.map((n) => {
         const p = positions.get(n.i);
         if (!p) return null;
         const r = n.isYou ? 8.5 : nodeRadius(n.presence);
@@ -59,15 +64,16 @@ export function Nodes({
             </g>
           );
         }
-        const isFrontier = !n.isYou && !n.expanded && n.hop === maxHop;
+        const isFrontier = !residence && !n.isYou && !n.expanded && n.hop === maxHop;
         return (
           <g
             key={n.i}
             data-node={interactive ? n.i : undefined}
             transform={`translate(${p.x}, ${p.y})`}
             style={{
-              transition: animate ? 'transform 600ms ease-in-out' : 'none',
+              transition: animate ? 'transform 600ms ease-in-out, opacity 300ms ease-out' : 'none',
               cursor: interactive ? 'grab' : 'default',
+              opacity: n.faded && hovered !== n.i ? REMOTE_OPACITY : 1,
             }}
             onMouseEnter={interactive ? () => onHover(n.i) : undefined}
             onMouseLeave={interactive ? () => onHover(null) : undefined}

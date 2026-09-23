@@ -146,7 +146,7 @@ export function Stage({
   };
   const maxHop = Math.max(
     0,
-    ...graph.nodes.filter((n) => !n.horizon).map((n) => n.hop).filter((h) => Number.isFinite(h)),
+    ...graph.nodes.filter((n) => !n.horizon && !n.faded).map((n) => n.hop).filter((h) => Number.isFinite(h)),
   );
 
   const radiusOf = useMemo(() => {

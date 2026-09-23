@@ -105,6 +105,70 @@ function bandShares(count: number): number[] {
   return shares;
 }
 
+/** How far a stranded piece of map grows outward per expansion from it. */
+const STRANDED_STEP = 45;
+
+/**
+ * Earlier map in a residence that no drawn tie joins to the new `you`.
+ *
+ * One ring outside everything you can reach, so it reads as elsewhere rather
+ * than as part of your neighbourhood. Walked in the order its own ties connect
+ * it, so a piece of map stays in one arc instead of being dealt around the
+ * circle, and the ring widens rather than crowd more than one person per
+ * NEIGHBOUR_GAP.
+ */
+function placeStranded(
+  ids: number[],
+  graph: VisibleGraph,
+  known: Known,
+  reg: Map<number, Placed>,
+  bandWidth: number,
+) {
+  if (ids.length === 0) return;
+  const pending = new Set(ids);
+  const ties = new Map<number, number[]>();
+  for (const e of graph.edges) {
+    if (!pending.has(e.source) || !pending.has(e.target)) continue;
+    (ties.get(e.source) ?? ties.set(e.source, []).get(e.source)!).push(e.target);
+    (ties.get(e.target) ?? ties.set(e.target, []).get(e.target)!).push(e.source);
+  }
+  const order: number[] = [];
+  for (const seed of ids) {
+    if (!pending.has(seed)) continue;
+    pending.delete(seed);
+    const queue = [seed];
+    while (queue.length > 0) {
+      const cur = queue.shift()!;
+      order.push(cur);
+      for (const n of ties.get(cur) ?? []) {
+        if (!pending.has(n)) continue;
+        pending.delete(n);
+        queue.push(n);
+      }
+    }
+  }
+
+  const deepest = Math.max(
+    1,
+    ...graph.nodes.filter((n) => !n.remote && !n.horizon).map((n) => known.hop.get(n.i) ?? 1),
+  );
+  const radius = Math.max(
+    ringRadius(deepest + 1) + bandWidth + STRANDED_STEP,
+    (order.length * NEIGHBOUR_GAP) / (Math.PI * 2),
+  );
+  order.forEach((id, k) => {
+    const angle = (Math.PI * 2 * k) / order.length - Math.PI / 2;
+    reg.set(id, {
+      i: id,
+      ring: known.hop.get(id) ?? deepest + 1,
+      angle,
+      radius,
+      x: Math.cos(angle) * radius,
+      y: Math.sin(angle) * radius,
+    });
+  });
+}
+
 /**
  * Radial ego layout, implementing the stability rules from
  * docs/Technical architecture.md:
@@ -135,6 +199,11 @@ export function useRadialLayout(graph: VisibleGraph, known: Known, run: string):
     // worst of them is the previous `you`, whose entry is ring 0 at radius 0 —
     // inherited by a neighbour, it draws them sitting on top of your own node,
     // which is how this was found.
+    //
+    // Residence re-roots on a new node inside the *same* world: the run key is
+    // `${universe}:${puzzleId}`, so a new start clears the registry too. Keeping
+    // absolute positions across a re-root would pin the old `you` at the origin
+    // while the new one claimed it — the rule was not written for that case.
     if (lastRun.current !== run) {
       reg.clear();
       lastRun.current = run;
@@ -172,12 +241,20 @@ export function useRadialLayout(graph: VisibleGraph, known: Known, run: string):
       newBySameParent.set(parent, list);
     }
 
+    const remote = new Set(graph.nodes.filter((n) => n.remote).map((n) => n.i));
+
     for (const [parentId, children] of newBySameParent) {
       if (parentId === null) {
-        // `you`, or a node with no known parent — place at origin.
-        children.forEach((id) => {
-          reg.set(id, { i: id, ring: 0, angle: 0, radius: 0, x: 0, y: 0 });
-        });
+        if (children.includes(graph.you)) {
+          reg.set(graph.you, { i: graph.you, ring: 0, angle: 0, radius: 0, x: 0, y: 0 });
+        }
+        placeStranded(
+          children.filter((id) => id !== graph.you),
+          graph,
+          known,
+          reg,
+          bandWidth,
+        );
         continue;
       }
       const parentPlaced = reg.get(parentId);
@@ -237,10 +314,15 @@ export function useRadialLayout(graph: VisibleGraph, known: Known, run: string):
       const wedge = Math.min(Math.PI * 0.9, Math.max(Math.PI / 2, children.length * 0.13));
       const start = parentAngle - wedge / 2;
       const step = children.length === 1 ? 0 : wedge / (children.length - 1);
+      // Opened from a stranded piece of map: grow outward from where that piece
+      // stands, not from the ring its hop number would put it on.
+      const radius = remote.has(parentId)
+        ? (parentPlaced?.radius ?? 0) + STRANDED_STEP
+        : ringRadius(hop) + bandWidth;
       children.forEach((id, idx) => {
         const angle = children.length === 1 ? parentAngle : start + step * idx;
         // Born at parent's position; simulation below relaxes it outward.
-        reg.set(id, { i: id, ring: hop, angle, radius: ringRadius(hop) + bandWidth, x: parentX, y: parentY });
+        reg.set(id, { i: id, ring: hop, angle, radius, x: parentX, y: parentY });
       });
     }
 
