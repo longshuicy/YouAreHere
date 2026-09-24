@@ -33,7 +33,7 @@
    },
    "line": "Commander, with Macbeth, of Duncan’s army.",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -128,7 +128,7 @@
    },
    "line": "Wife of Macbeth.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 46,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -147,7 +147,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -192,7 +192,7 @@
    },
    "line": "A Scottish noble.",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -251,7 +251,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",

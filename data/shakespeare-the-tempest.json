@@ -711,19 +711,19 @@
    "id": "shakespeare-the-tempest-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.607
+   "ease": 0.605
   },
   {
    "id": "shakespeare-the-tempest-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.607
+   "ease": 0.605
   },
   {
    "id": "shakespeare-the-tempest-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.676
+   "ease": 0.673
   },
   {
    "id": "shakespeare-the-tempest-p0004",
@@ -735,7 +735,7 @@
    "id": "shakespeare-the-tempest-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.618
+   "ease": 0.617
   },
   {
    "id": "shakespeare-the-tempest-p0006",
@@ -753,7 +753,7 @@
    "id": "shakespeare-the-tempest-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.607
+   "ease": 0.605
   },
   {
    "id": "shakespeare-the-tempest-p0009",
@@ -765,25 +765,25 @@
    "id": "shakespeare-the-tempest-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.628
+   "ease": 0.626
   },
   {
    "id": "shakespeare-the-tempest-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.607
+   "ease": 0.605
   },
   {
    "id": "shakespeare-the-tempest-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.581
+   "ease": 0.58
   },
   {
    "id": "shakespeare-the-tempest-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.581
+   "ease": 0.58
   }
  ],
  "provenance": {

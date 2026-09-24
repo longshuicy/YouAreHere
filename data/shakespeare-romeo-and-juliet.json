@@ -964,13 +964,13 @@
    "id": "shakespeare-romeo-and-juliet-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.579
+   "ease": 0.577
   },
   {
    "id": "shakespeare-romeo-and-juliet-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.657
+   "ease": 0.655
   },
   {
    "id": "shakespeare-romeo-and-juliet-p0003",
@@ -1000,13 +1000,13 @@
    "id": "shakespeare-romeo-and-juliet-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.54
+   "ease": 0.538
   },
   {
    "id": "shakespeare-romeo-and-juliet-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.538
+   "ease": 0.535
   },
   {
    "id": "shakespeare-romeo-and-juliet-p0009",
@@ -1030,7 +1030,7 @@
    "id": "shakespeare-romeo-and-juliet-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.538
+   "ease": 0.535
   },
   {
    "id": "shakespeare-romeo-and-juliet-p0013",
@@ -1048,7 +1048,7 @@
    "id": "shakespeare-romeo-and-juliet-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.475
+   "ease": 0.473
   },
   {
    "id": "shakespeare-romeo-and-juliet-p0016",
@@ -1066,13 +1066,13 @@
    "id": "shakespeare-romeo-and-juliet-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.469
+   "ease": 0.468
   },
   {
    "id": "shakespeare-romeo-and-juliet-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.525
+   "ease": 0.523
   }
  ],
  "provenance": {

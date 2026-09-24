@@ -14,7 +14,7 @@
    },
    "line": "Count of Rossillion.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -35,7 +35,7 @@
    },
    "line": "Count, Bertram’s mother.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -56,7 +56,7 @@
    },
    "line": "The Widow’s daughter.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -130,7 +130,7 @@
    },
    "line": "Gentleman, A “gentle Astringer”.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -151,7 +151,7 @@
    },
    "line": "A gentlewoman of Rossillion.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -172,7 +172,7 @@
    },
    "line": "King.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -191,7 +191,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -210,7 +210,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -231,7 +231,7 @@
    },
    "line": "A French lord.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -276,7 +276,7 @@
    },
    "line": "Companion to Bertram.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -319,7 +319,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",

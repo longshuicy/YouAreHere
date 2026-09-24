@@ -34,7 +34,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -55,7 +55,7 @@
    },
    "line": "A merchant of Venice.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -86,7 +86,7 @@
    },
    "line": "A Venetian gentleman, suitor to Portia.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -105,7 +105,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -126,7 +126,7 @@
    },
    "line": "His daughter.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -147,7 +147,7 @@
    },
    "line": "Servant to Shylock and later to Bassanio.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-the-comedy-of-errors",
      "story": "The Comedy of Errors",
@@ -166,7 +166,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -199,7 +199,7 @@
    },
    "line": "Her waiting-gentlewoman.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -232,7 +232,7 @@
    },
    "line": "Heiress of Belmont.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -251,7 +251,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -272,7 +272,7 @@
    },
    "line": "A messenger from Venice.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -294,7 +294,7 @@
    },
    "line": "A Jewish moneylender in Venice.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -313,7 +313,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",

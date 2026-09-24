@@ -35,7 +35,7 @@
    },
    "line": "Former servant to Florizell, now a rogue.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -56,7 +56,7 @@
    },
    "line": "A courtier, friend to Leontes and then to Polixenes.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -113,7 +113,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -134,7 +134,7 @@
    },
    "line": "His son.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-the-comedy-of-errors",
      "story": "The Comedy of Errors",
@@ -200,7 +200,7 @@
    },
    "line": "King of Sicilia.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -231,7 +231,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -261,7 +261,7 @@
    },
    "line": "His wife and lady-in-waiting to Hermione.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -282,7 +282,7 @@
    },
    "line": "Their daughter.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -303,7 +303,7 @@
    },
    "line": "King of Bohemia.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -324,7 +324,7 @@
    },
    "line": "Servant.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -354,7 +354,7 @@
    },
    "line": "Foster father to Perdita.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -373,7 +373,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",

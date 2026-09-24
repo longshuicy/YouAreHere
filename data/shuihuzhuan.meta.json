@@ -800,7 +800,7 @@
    },
    "line": "留守。見於16回。",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1106,7 +1106,7 @@
    },
    "line": "見於21回。",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1202,7 +1202,7 @@
    },
    "line": "知府。見於5回。",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 46,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1314,7 +1314,7 @@
    },
    "line": "見於14回。",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1361,7 +1361,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1396,7 +1396,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1553,7 +1553,7 @@
    },
    "line": "官員。見於7回。",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 46,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -2027,7 +2027,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 46,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -2156,7 +2156,7 @@
    },
    "line": "知府。見於3回。",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2513,7 +2513,7 @@
    },
    "line": "軍官。見於7回。",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3246,7 +3246,7 @@
    },
    "line": "教師。見於3回。",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3447,7 +3447,7 @@
    },
    "line": "孔目。屬七十二地煞星。見於9回。",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -4448,7 +4448,7 @@
    },
    "line": "團練使。屬七十二地煞星。見於4回。",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",

@@ -316,6 +316,44 @@ Used as follows:
 1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
+## The Lord of the Rings
+
+*Shipped as `lotr.json` — 40 characters, 371 ties.*
+
+"Lord of the Rings Networks" by **José Calvo Tello** (<https://github.com/morethanbooks>)
+
+- Source: <https://github.com/morethanbooks/projects/tree/master/LotR>
+- Project: <http://www.morethanbooks.eu/graph-network-of-the-lord-of-the-rings/>
+- Licence: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (`CC-BY-4.0`)
+- Retrieved: 2026-09-24
+- Cite as: J. Calvo Tello, “Lord of the Rings Networks,” morethanbooks/projects, https://github.com/morethanbooks/projects/tree/master/LotR.
+
+Changes made to the original data:
+
+1. Merged the three per-volume edge lists into one graph, summing tie weights across volumes.
+2. Kept only ontology type=per nodes; dropped places, groups, the Ring, and subtype=animal (Bill, Shadowfax, Shelob).
+3. Applied pre-ontology aliases (Mithrandir → Gandalf, Strider → Aragorn, …).
+4. Normalised gender labels to Male/Female; mapped race subtypes to species.
+5. Applied a hand-maintained identity table covering 8 characters: display names, nicknames for the guess field, and disambiguators.
+6. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (40 nodes and 371 ties in, 40 and 371 out).
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `lotr.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
+
 ## The Odyssey
 
 *Shipped as `odyssey.json` — 32 characters, 124 ties.*

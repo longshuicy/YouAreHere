@@ -112,6 +112,15 @@ SPECIES_HINTS = (
     "demon",
     "immortal",
     "spirit",
+    "hobbit",
+    "elf",
+    "dwarf",
+    "orc",
+    "ent",
+    "maia",
+    "maiar",
+    "ainur",
+    "wizard",
     "希臘神明",
     "希腊神明",
     "神明",
@@ -197,10 +206,17 @@ WEAK_OCCUPATIONS = {
     "vedette",
     "director",
     "主管",
+    "swordfighter",
+    "swordsman",
 }
 
 # Prefer these occupations when several are listed (Star Wars and similar).
 OCCUPATION_PRIORITY = (
+    "ring-bearer",
+    "ring bearer",
+    "necromancer",
+    "wizard",
+    "ranger",
     "jedi master",
     "jedi knight",
     "protocol droid",
@@ -443,6 +459,74 @@ def _search_starwars(name: str) -> str | None:
         for hit in payload.get("search") or []:
             description = (hit.get("description") or "").lower()
             if "star wars" in description:
+                return hit["id"]
+    return None
+
+
+_LOTR_DESC = (
+    "tolkien",
+    "middle-earth",
+    "middle earth",
+    "lord of the rings",
+    "legendarium",
+    "the hobbit",
+)
+
+
+def resolve_lotr_names(names: list[str]) -> dict[str, str]:
+    """Map display names → Wikidata QIDs via search, cached under raw/lotr.
+
+    Only accepts hits whose description points at Tolkien's legendarium.
+    """
+    path = RAW / "lotr" / "wikidata-name-map.json"
+    cached: dict[str, str | None] = {}
+    if path.exists():
+        cached = json.loads(path.read_text(encoding="utf-8"))
+
+    resolved: dict[str, str] = {}
+    pending = []
+    for name in names:
+        key = name.strip()
+        if not key:
+            continue
+        if key in cached:
+            if cached[key]:
+                resolved[key] = cached[key]
+            continue
+        pending.append(key)
+
+    if pending:
+        print(f"  resolving {len(pending)} LotR names on Wikidata ...", flush=True)
+        for i, name in enumerate(pending, 1):
+            qid = _search_lotr(name)
+            cached[name] = qid
+            if qid:
+                resolved[name] = qid
+            if i % 10 == 0:
+                print(f"    {i}/{len(pending)}", flush=True)
+            time.sleep(2.0)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(cached, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+
+    return resolved
+
+
+def _search_lotr(name: str) -> str | None:
+    for search in (name, f"{name} Tolkien", f"{name} Middle-earth"):
+        payload = _api(
+            {
+                "action": "wbsearchentities",
+                "search": search,
+                "language": "en",
+                "type": "item",
+                "limit": 8,
+                "format": "json",
+            },
+            soft=True,
+        )
+        for hit in payload.get("search") or []:
+            description = (hit.get("description") or "").lower()
+            if any(token in description for token in _LOTR_DESC):
                 return hit["id"]
     return None
 

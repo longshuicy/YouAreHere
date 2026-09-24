@@ -39,7 +39,7 @@
    },
    "line": "Duke of Austria Limoges, (also called Limoges).",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -97,7 +97,7 @@
    },
    "line": "Niece to King John, of Palencia, of the Kingdom of Castile.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -117,7 +117,7 @@
    },
    "line": "Citizen.",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -138,7 +138,7 @@
    },
    "line": "Ambassador from France to King John.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -160,7 +160,7 @@
    },
    "line": "Widow of Geoffrey, King John’s elder brother, of Brittany.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -182,7 +182,7 @@
    },
    "line": "His son, of Paris.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -243,7 +243,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -262,7 +262,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -283,7 +283,7 @@
    },
    "line": "Supporter of King John.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 46,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -327,7 +327,7 @@
    },
    "line": "King, of Paris.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -382,7 +382,7 @@
    },
    "line": "Cardinal, Papal Legate, of Rome.",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -404,7 +404,7 @@
    },
    "line": "Earl of Pembroke, of Wiltshire.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 46,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -495,7 +495,7 @@
    },
    "line": "Earl of Salisbury.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",

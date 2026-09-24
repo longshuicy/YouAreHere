@@ -16,7 +16,7 @@
    },
    "line": "King of Myrmidons.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -37,7 +37,7 @@
    },
    "line": "Military leader.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -58,7 +58,7 @@
    },
    "line": "The general.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -81,7 +81,7 @@
    },
    "line": "Mythical king of Salamis.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -147,7 +147,7 @@
    },
    "line": "Her father.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -188,7 +188,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -235,7 +235,7 @@
    },
    "line": "King of Argos.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -258,7 +258,7 @@
    },
    "line": "Of the Troy.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -303,7 +303,7 @@
    },
    "line": "Brother to Agamemnon.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -326,7 +326,7 @@
    },
    "line": "King of Pylos.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -347,7 +347,7 @@
    },
    "line": "Her uncle.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -368,7 +368,7 @@
    },
    "line": "Herder.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -389,7 +389,7 @@
    },
    "line": "Achilles’ favorite companion.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -473,7 +473,7 @@
    },
    "line": "Cynical critic.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -492,7 +492,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -515,7 +515,7 @@
    },
    "line": "King.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",

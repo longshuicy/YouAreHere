@@ -1,0 +1,5530 @@
+{
+ "id": "lotr",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "titles": [
+     "King of the Reunited Kingdom"
+    ],
+    "affiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "King of the Reunited Kingdom, of the Men, of the Fellowship of the Ring. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 99,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Gandalf",
+     "tied": 0
+    }
+   }
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men"
+   },
+   "line": "Of the Men. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 145,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Menestheus",
+     "tied": 0
+    }
+   }
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Female",
+    "species": "Elf",
+    "homeworld": "Rivendell"
+   },
+   "line": "Elf, of Rivendell. Appears in The Fellowship of the Ring and The Return of the King.",
+   "signals": {
+    "lookAlikes": 64,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "今上",
+     "tied": 0
+    }
+   }
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Dwarf",
+    "occupation": "diarist",
+    "affiliations": [
+     "Thorin and Company"
+    ]
+   },
+   "line": "Diarist, Dwarf, of the Thorin and Company. Appears in The Fellowship of the Ring.",
+   "signals": {
+    "lookAlikes": 145,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Celeborn",
+     "tied": 0
+    }
+   }
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "occupation": "guard",
+    "affiliations": [
+     "White Company",
+     "Gondor"
+    ]
+   },
+   "line": "Guard, of the Men, of the White Company. Appears in The Return of the King.",
+   "signals": {
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Nan",
+     "tied": 0
+    }
+   }
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Hobbit",
+    "occupation": "burglar",
+    "affiliations": [
+     "Thorin and Company",
+     "The Shire"
+    ]
+   },
+   "line": "Burglar, Hobbit, of the Thorin and Company. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 109,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Faramir",
+     "tied": 0
+    }
+   }
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men"
+   },
+   "line": "Of the Men. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Saruman",
+     "tied": 0
+    }
+   }
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Elf"
+   },
+   "line": "Elf. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 145,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "豐兒",
+     "tied": 0
+    }
+   }
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "titles": [
+     "Ruling Steward of Gondor"
+    ],
+    "affiliations": [
+     "Gondor"
+    ]
+   },
+   "line": "Ruling Steward of Gondor, of the Men. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 109,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "雪雁",
+     "tied": 0
+    }
+   }
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Dwarf"
+   },
+   "line": "Dwarf. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Eddie Johnson",
+     "tied": 0
+    }
+   }
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "titles": [
+     "High-Kings of Arnor and Gondor"
+    ]
+   },
+   "line": "High-Kings of Arnor and Gondor, of the Men. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 109,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "贾兰",
+     "tied": 0
+    }
+   }
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Elf",
+    "affiliations": [
+     "White Council"
+    ]
+   },
+   "line": "Elf, of the White Council. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Margaery Tyrell",
+     "tied": 0
+    }
+   }
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "titles": [
+     "king of Rohan"
+    ],
+    "affiliations": [
+     "Rohan"
+    ],
+    "homeworld": "Aldburg"
+   },
+   "line": "King of Rohan, of the Men, of Aldburg. Appears in The Two Towers and The Return of the King.",
+   "signals": {
+    "lookAlikes": 109,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Melisandre",
+     "tied": 0
+    }
+   }
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "titles": [
+     "king of Rohan"
+    ],
+    "affiliations": [
+     "Rohan"
+    ]
+   },
+   "line": "King of Rohan, of the Men. Appears in The Two Towers and The Return of the King.",
+   "signals": {
+    "lookAlikes": 67,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Matthew McHugh",
+     "tied": 0
+    }
+   }
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Female",
+    "culture": "Men",
+    "affiliations": [
+     "Rohan"
+    ]
+   },
+   "line": "Of the Men, of the Rohan. Appears in The Two Towers and The Return of the King.",
+   "signals": {
+    "lookAlikes": 67,
+    "nearest": {
+     "world": "iliad",
+     "story": "The Iliad",
+     "name": "Thetis",
+     "tied": 0
+    }
+   }
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "titles": [
+     "Prince of Ithilien"
+    ],
+    "affiliations": [
+     "Gondor"
+    ]
+   },
+   "line": "Prince of Ithilien, of the Men, of the Gondor. Appears in The Two Towers and The Return of the King.",
+   "signals": {
+    "lookAlikes": 109,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Bilbo",
+     "tied": 0
+    }
+   }
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Hobbit",
+    "affiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ],
+    "homeworld": "The Shire"
+   },
+   "line": "Hobbit, of The Shire, of the Fellowship of the Ring. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 99,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Gandalf",
+     "tied": 0
+    }
+   }
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Female",
+    "species": "Elf"
+   },
+   "line": "Elf. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Mace Tyrell",
+     "tied": 0
+    }
+   }
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Ainur",
+    "occupation": "magician",
+    "affiliations": [
+     "White Council",
+     "Fellowship of the Ring",
+     "Istari"
+    ]
+   },
+   "line": "Magician, Ainur, of the White Council. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 99,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Aragorn",
+     "tied": 0
+    }
+   }
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Female",
+    "species": "Ainur"
+   },
+   "line": "Ainur. Appears in The Fellowship of the Ring."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Elf"
+   },
+   "line": "Elf. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 57,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Kitster",
+     "tied": 0
+    }
+   }
+  },
+  "21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Dwarf",
+    "affiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "Dwarf, of the Fellowship of the Ring. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Legolas",
+     "tied": 0
+    }
+   }
+  },
+  "22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Dwarf",
+    "affiliations": [
+     "Thorin and Company"
+    ]
+   },
+   "line": "Dwarf, of the Thorin and Company. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 109,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "贾蔷",
+     "tied": 0
+    }
+   }
+  },
+  "23": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Elf"
+   },
+   "line": "Elf. Appears in The Fellowship of the Ring and The Return of the King.",
+   "signals": {
+    "lookAlikes": 145,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Ben Campbell",
+     "tied": 0
+    }
+   }
+  },
+  "24": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Hobbit"
+   },
+   "line": "Hobbit. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 145,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Yoda",
+     "tied": 0
+    }
+   }
+  },
+  "25": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Orc"
+   },
+   "line": "Orc. Appears in The Two Towers and The Return of the King."
+  },
+  "26": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "occupation": "adviser"
+   },
+   "line": "Adviser, of the Men. Appears in The Two Towers and The Return of the King.",
+   "signals": {
+    "lookAlikes": 145,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "小红",
+     "tied": 0
+    }
+   }
+  },
+  "27": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Elf",
+    "affiliations": [
+     "Lothlórien"
+    ]
+   },
+   "line": "Elf, of the Lothlórien. Appears in The Fellowship of the Ring and The Two Towers.",
+   "signals": {
+    "lookAlikes": 119,
+    "nearest": {
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Peter Fitzgerald",
+     "tied": 0
+    }
+   }
+  },
+  "28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "titles": [
+     "King of Arnor"
+    ],
+    "homeworld": "Númenor"
+   },
+   "line": "King of Arnor, of the Men, of Númenor. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 109,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Brynden Tully",
+     "tied": 0
+    }
+   }
+  },
+  "29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Elf",
+    "occupation": "archer",
+    "affiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "Archer, Elf, of the Fellowship of the Ring. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Gimli",
+     "tied": 0
+    }
+   }
+  },
+  "30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Hobbit",
+    "affiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ]
+   },
+   "line": "Hobbit, of the Fellowship of the Ring. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Qui-Gon",
+     "tied": 0
+    }
+   }
+  },
+  "31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Hobbit",
+    "titles": [
+     "Thain"
+    ],
+    "affiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ]
+   },
+   "line": "Thain, Hobbit, of the Fellowship of the Ring. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Qui-Gon",
+     "tied": 0
+    }
+   }
+  },
+  "32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Hobbit",
+    "titles": [
+     "Mayor of the Shire"
+    ],
+    "affiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ]
+   },
+   "line": "Mayor of the Shire, Hobbit, of the Fellowship of the Ring. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Luke",
+     "tied": 0
+    }
+   }
+  },
+  "33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Ainur",
+    "affiliations": [
+     "White Council"
+    ]
+   },
+   "line": "Ainur, of the White Council. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Pycelle",
+     "tied": 0
+    }
+   }
+  },
+  "34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Ainur",
+    "occupation": "necromancer"
+   },
+   "line": "Necromancer, Ainur. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "薛宝琴",
+     "tied": 0
+    }
+   }
+  },
+  "35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "culture": "Men",
+    "titles": [
+     "king of Rohan"
+    ],
+    "affiliations": [
+     "Rohan"
+    ]
+   },
+   "line": "King of Rohan, of the Men. Appears in The Two Towers and The Return of the King.",
+   "signals": {
+    "lookAlikes": 84,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Lysa Arryn",
+     "tied": 0
+    }
+   }
+  },
+  "36": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Dwarf",
+    "titles": [
+     "King under the Mountain"
+    ],
+    "affiliations": [
+     "Thorin and Company"
+    ]
+   },
+   "line": "King under the Mountain, Dwarf, of the Thorin and Company. Appears in The Fellowship of the Ring.",
+   "signals": {
+    "lookAlikes": 46,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "王子腾",
+     "tied": 0
+    }
+   }
+  },
+  "37": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Dwarf"
+   },
+   "line": "Dwarf. Appears in The Fellowship of the Ring."
+  },
+  "38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Ainur"
+   },
+   "line": "Ainur. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 145,
+    "nearest": {
+     "world": "hongloumeng",
+     "story": "紅樓夢",
+     "name": "賈元春",
+     "tied": 0
+    }
+   }
+  },
+  "39": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "unit": "volume",
+    "corpusSize": 3,
+    "gender": "Male",
+    "species": "Ent"
+   },
+   "line": "Ent. Appears in all three volumes.",
+   "signals": {
+    "lookAlikes": 109,
+    "nearest": {
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Denethor",
+     "tied": 0
+    }
+   }
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-2": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "0-3": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "0-4": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "0-5": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-7": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-8": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "0-10": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-11": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-12": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "0-13": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "0-14": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "0-15": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "0-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "0-17": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "0-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "0-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-23": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "0-24": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "0-26": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "0-27": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "0-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "0-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "0-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "0-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "0-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "0-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "0-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "0-39": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "1-10": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "1-11": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "1-12": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "1-15": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "1-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "1-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "1-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "1-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "1-27": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "1-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "1-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "1-35": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "2-5": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "2-7": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "2-11": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "2-15": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "2-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "2-17": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "2-23": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "2-35": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "3-5": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Thorin and Company"
+    ]
+   },
+   "line": "They share the page only in The Fellowship of the Ring. Both belong to Thorin and Company."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "3-9": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "3-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "3-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "3-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "3-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Thorin and Company"
+    ]
+   },
+   "line": "They share the page only in The Fellowship of the Ring. Both belong to Thorin and Company."
+  },
+  "3-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "3-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "3-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "3-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "3-36": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Thorin and Company"
+    ]
+   },
+   "line": "They share the page only in The Fellowship of the Ring. Both belong to Thorin and Company."
+  },
+  "3-37": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "4-8": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Gondor"
+    ]
+   },
+   "line": "They share the page only in The Return of the King. Both belong to Gondor."
+  },
+  "4-12": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "4-15": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Gondor"
+    ]
+   },
+   "line": "They share the page only in The Return of the King. Both belong to Gondor."
+  },
+  "4-16": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "4-18": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "4-31": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "5-11": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "5-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to The Shire."
+  },
+  "5-17": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "5-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "5-20": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "5-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "5-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Thorin and Company"
+    ]
+   },
+   "line": "They share the page only in The Fellowship of the Ring. Both belong to Thorin and Company."
+  },
+  "5-24": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "5-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "5-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "5-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring. Both belong to The Shire."
+  },
+  "5-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring. Both belong to The Shire."
+  },
+  "5-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to The Shire."
+  },
+  "5-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "5-36": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Thorin and Company"
+    ]
+   },
+   "line": "They share the page only in The Fellowship of the Ring. Both belong to Thorin and Company."
+  },
+  "5-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "6-17": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "6-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "6-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "6-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "6-24": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "6-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "6-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "6-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "6-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "6-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "6-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "6-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "6-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "6-39": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "7-11": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "7-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "7-17": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "7-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "7-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "7-23": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "7-27": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "7-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "7-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "7-35": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "7-39": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "8-10": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "8-11": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "8-12": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "8-13": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "8-15": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Gondor"
+    ]
+   },
+   "line": "They share the page in two volumes, first in The Two Towers. Both belong to Gondor."
+  },
+  "8-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "8-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "8-24": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "8-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "8-30": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "8-31": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "8-32": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "8-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "8-34": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "8-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "8-39": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "9-17": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "9-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "9-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "9-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "9-29": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "9-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "10-11": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "10-12": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "10-13": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "10-14": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "10-15": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "10-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "10-17": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "10-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "10-21": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "10-26": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "10-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "10-29": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "10-31": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "10-33": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "10-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "10-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "11-12": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "11-14": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "11-15": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "11-16": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "11-17": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "11-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "White Council"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to White Council."
+  },
+  "11-20": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "11-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "11-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "11-23": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "11-24": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "11-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "11-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "11-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "11-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "11-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "11-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "White Council"
+    ]
+   },
+   "line": "They share the page only in The Fellowship of the Ring. Both belong to White Council."
+  },
+  "11-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "11-35": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "11-38": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "11-39": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "12-13": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Rohan"
+    ]
+   },
+   "line": "They share the page in two volumes, first in The Two Towers. Both belong to Rohan."
+  },
+  "12-14": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Rohan"
+    ]
+   },
+   "line": "They share the page in two volumes, first in The Two Towers. Both belong to Rohan."
+  },
+  "12-15": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "12-16": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "12-18": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "12-21": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "12-22": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "12-26": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "12-29": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "12-30": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "12-31": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "12-33": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "12-34": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "12-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Rohan"
+    ]
+   },
+   "line": "They share the page in two volumes, first in The Two Towers. Both belong to Rohan."
+  },
+  "12-39": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "13-14": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Rohan"
+    ]
+   },
+   "line": "They share the page only in The Return of the King. Both belong to Rohan."
+  },
+  "13-18": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "13-21": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "13-26": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "13-29": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "13-33": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "13-34": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "13-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Rohan"
+    ]
+   },
+   "line": "They share the page in two volumes, first in The Two Towers. Both belong to Rohan."
+  },
+  "13-39": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "14-15": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "14-18": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "14-21": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "14-26": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "14-29": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "14-30": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "14-33": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "14-34": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "14-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Rohan"
+    ]
+   },
+   "line": "They share the page in two volumes, first in The Two Towers. Both belong to Rohan."
+  },
+  "15-16": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "15-17": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "15-18": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "15-24": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "15-28": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "15-30": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "15-31": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "15-32": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "15-34": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "15-35": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "16-17": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "16-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "16-19": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "16-20": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "16-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "16-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "16-23": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "16-24": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "16-25": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "16-26": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "16-27": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "16-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "16-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "16-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "16-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "16-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "16-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "16-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "16-35": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "16-36": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "16-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "17-18": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "17-20": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "17-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "17-23": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "17-27": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "17-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "17-30": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "17-31": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "17-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "17-33": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "17-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "17-35": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "17-38": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "17-39": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "18-20": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "18-21": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "18-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "18-23": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "18-24": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "18-26": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "18-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "18-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "18-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "18-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "18-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "18-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "White Council"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to White Council."
+  },
+  "18-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "18-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "18-36": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "18-37": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "18-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "18-39": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "19-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "20-30": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "20-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "20-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "20-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "21-22": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "21-23": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "21-26": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "21-27": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "21-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "21-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "21-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "21-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "21-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "21-33": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "21-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "21-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "21-36": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "21-37": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "21-39": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "22-23": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "22-24": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "22-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "22-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "22-33": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "22-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "22-36": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Thorin and Company"
+    ]
+   },
+   "line": "They share the page only in The Fellowship of the Ring. Both belong to Thorin and Company."
+  },
+  "22-39": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "23-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "23-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "23-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "23-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "23-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "23-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "23-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "24-28": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "24-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "24-31": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "24-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "24-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "24-34": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "25-32": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "26-30": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "26-31": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "26-32": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "26-33": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "26-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "26-39": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "27-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "27-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "27-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "27-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "27-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "28-29": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "28-31": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "28-32": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "28-33": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "28-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "28-35": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "29-30": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "29-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "29-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "29-33": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "29-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "29-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "29-36": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "29-39": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "30-31": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "30-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "30-33": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "30-34": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "30-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "30-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "30-39": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "31-32": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3,
+    "sharedAffiliations": [
+     "Fellowship of the Ring",
+     "The Shire"
+    ]
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring. Both belong to Fellowship of the Ring."
+  },
+  "31-33": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "31-34": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "31-35": {
+   "facts": {
+    "books": [
+     "The Return of the King"
+    ],
+    "first": "The Return of the King",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Return of the King."
+  },
+  "31-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Fellowship of the Ring."
+  },
+  "31-39": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "32-33": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "32-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "32-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "32-39": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "33-34": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring",
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in every volume, first in The Fellowship of the Ring."
+  },
+  "33-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "33-39": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "34-35": {
+   "facts": {
+    "books": [
+     "The Two Towers",
+     "The Return of the King"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page in two volumes, first in The Two Towers."
+  },
+  "34-38": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  },
+  "34-39": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "35-39": {
+   "facts": {
+    "books": [
+     "The Two Towers"
+    ],
+    "first": "The Two Towers",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Two Towers."
+  },
+  "36-37": {
+   "facts": {
+    "books": [
+     "The Fellowship of the Ring"
+    ],
+    "first": "The Fellowship of the Ring",
+    "unit": "volume",
+    "corpusSize": 3
+   },
+   "line": "They share the page only in The Fellowship of the Ring."
+  }
+ },
+ "sources": [
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
+   ]
+  }
+ ]
+}

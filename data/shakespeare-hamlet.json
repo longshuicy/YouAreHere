@@ -752,19 +752,19 @@
    "id": "shakespeare-hamlet-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.451
+   "ease": 0.45
   },
   {
    "id": "shakespeare-hamlet-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.644
+   "ease": 0.642
   },
   {
    "id": "shakespeare-hamlet-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.47
+   "ease": 0.468
   },
   {
    "id": "shakespeare-hamlet-p0003",
@@ -776,31 +776,31 @@
    "id": "shakespeare-hamlet-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.629
+   "ease": 0.627
   },
   {
    "id": "shakespeare-hamlet-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.628
+   "ease": 0.626
   },
   {
    "id": "shakespeare-hamlet-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.651
+   "ease": 0.649
   },
   {
    "id": "shakespeare-hamlet-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.587
+   "ease": 0.584
   },
   {
    "id": "shakespeare-hamlet-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.559
+   "ease": 0.558
   },
   {
    "id": "shakespeare-hamlet-p0011",
@@ -812,7 +812,7 @@
    "id": "shakespeare-hamlet-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.586
+   "ease": 0.584
   },
   {
    "id": "shakespeare-hamlet-p0013",
@@ -824,19 +824,19 @@
    "id": "shakespeare-hamlet-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.599
+   "ease": 0.597
   },
   {
    "id": "shakespeare-hamlet-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.635
+   "ease": 0.633
   },
   {
    "id": "shakespeare-hamlet-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.497
+   "ease": 0.496
   }
  ],
  "provenance": {

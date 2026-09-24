@@ -57,6 +57,7 @@ def meta_sources_for(name: str) -> list[tuple]:
         "bible",
         "friends",
         "hongloumeng",
+        "lotr",
         "odyssey",
         "sanguoyanyi",
         "shiji",
@@ -118,6 +119,9 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
 
         if source == "civilwar":
             _apply_civilwar(record, node)
+
+        if source == "lotr":
+            _apply_lotr(record, node)
 
         qid = qid_by_node.get(node.id)
         if qid and qid in wd_by_qid:
@@ -217,6 +221,88 @@ def _apply_civilwar(record: dict, node) -> None:
         record["titles"] = [rank]
 
 
+def _apply_lotr(record: dict, node) -> None:
+    """Race travels on the node from Calvo Tello's ontology."""
+    species = node.metadata.get("species")
+    if species and "species" not in record and "culture" not in record:
+        record["species"] = species
+    culture = node.metadata.get("culture")
+    if culture and "culture" not in record and "species" not in record:
+        record["culture"] = culture
+
+
+def _match_lotr(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, str]:
+    """Map Calvo Tello ids to Wikidata QIDs. Pins win; names search when unique."""
+    matched: dict[str, str] = {}
+    for node_id, override in overrides.items():
+        qid = override.get("wikidata")
+        if qid:
+            matched[node_id] = qid
+
+    search_names: dict[str, str] = {}
+    for node in graph.nodes:
+        if node.id in matched:
+            continue
+        search_names[node.id] = _lotr_search_name(node)
+
+    name_counts = Counter(search_names.values())
+    unique_names = [name for _, name in search_names.items() if name_counts[name] == 1]
+    resolved = wikidata.resolve_lotr_names(sorted(set(unique_names)))
+
+    for node_id, name in search_names.items():
+        if node_id in matched:
+            continue
+        if name_counts[name] != 1:
+            continue
+        qid = resolved.get(name)
+        if qid:
+            matched[node_id] = qid
+
+    return matched
+
+
+# Short ontology labels → a form Wikidata's search is likely to hit first.
+LOTR_SEARCH_EXPAND = {
+    "frodo": "Frodo Baggins",
+    "sam": "Samwise Gamgee",
+    "merry": "Meriadoc Brandybuck",
+    "pippin": "Peregrin Took",
+    "aragorn": "Aragorn",
+    "gandalf": "Gandalf",
+    "gimli": "Gimli",
+    "legolas": "Legolas",
+    "boromir": "Boromir",
+    "faramir": "Faramir",
+    "denethor": "Denethor",
+    "théoden": "Théoden",
+    "theoden": "Théoden",
+    "éowyn": "Éowyn",
+    "eowyn": "Éowyn",
+    "éomer": "Éomer",
+    "eomer": "Éomer",
+    "gollum": "Gollum",
+    "sauron": "Sauron",
+    "saruman": "Saruman",
+    "elrond": "Elrond",
+    "galadriel": "Galadriel",
+    "treebeard": "Treebeard",
+    "bilbo": "Bilbo Baggins",
+    "wormtongue": "Gríma Wormtongue",
+    "gildor": "Gildor Inglorion",
+}
+
+
+def _lotr_search_name(node) -> str:
+    expanded = LOTR_SEARCH_EXPAND.get(node.name.lower())
+    if expanded:
+        return expanded
+    if " " not in node.name.strip():
+        for alias in node.aliases:
+            if " " in alias.strip() and len(alias) > len(node.name):
+                return alias
+    return node.name
+
+
 def _shakespeare_roles(graph: CanonicalGraph) -> dict[str, str]:
     slugs = sorted(graph.segment_labels) if graph.segment_labels else []
     if not slugs:
@@ -242,6 +328,10 @@ def _wikidata_for(
 
     if source == "starwars":
         for node_id, qid in _match_starwars(graph, overrides).items():
+            qid_by_node.setdefault(node_id, qid)
+
+    if source == "lotr":
+        for node_id, qid in _match_lotr(graph, overrides).items():
             qid_by_node.setdefault(node_id, qid)
 
     work_qid = wikidata.WORK_CAST.get(source)

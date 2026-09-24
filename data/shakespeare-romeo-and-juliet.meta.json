@@ -26,7 +26,7 @@
    },
    "line": "Their kinsman.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -47,7 +47,7 @@
    },
    "line": "Her father.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -68,7 +68,7 @@
    },
    "line": "Friar.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -90,7 +90,7 @@
    },
    "line": "Daughter of Capulet, of Verona.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -132,7 +132,7 @@
    },
    "line": "Lady, His mother.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -153,7 +153,7 @@
    },
    "line": "The Prince’s kinsman and Romeo’s friend.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 46,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -174,7 +174,7 @@
    },
    "line": "His father.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -195,7 +195,7 @@
    },
    "line": "Nurse.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -216,7 +216,7 @@
    },
    "line": "The Prince’s kinsman and Juliet’s suitor.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -258,7 +258,7 @@
    },
    "line": "Prince of Verona.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -298,7 +298,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -317,7 +317,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -336,7 +336,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -357,7 +357,7 @@
    },
    "line": "A Montague servingman.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -378,7 +378,7 @@
    },
    "line": "Romeo’s servingman.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -399,7 +399,7 @@
    },
    "line": "Kinsman to the Capulets.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",

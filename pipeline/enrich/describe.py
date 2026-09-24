@@ -22,7 +22,7 @@ PEOPLES = {
     "northmen", "ironborn", "free folk", "dothraki", "crannogmen",
     "sistermen", "rivermen", "valemen", "mountain clans", "andals", "first men",
     "greeks", "trojans", "achaeans", "myrmidons", "dardanians", "olympians",
-    "union", "confederacy",
+    "union", "confederacy", "men",
 }
 
 

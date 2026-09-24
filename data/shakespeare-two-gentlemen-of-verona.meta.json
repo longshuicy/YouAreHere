@@ -26,7 +26,7 @@
    },
    "line": "Duke, Sylvia’s father.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -59,7 +59,7 @@
    },
    "line": "A lady of Verona.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -99,7 +99,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -118,7 +118,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -137,7 +137,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -170,7 +170,7 @@
    },
    "line": "A gentleman of Verona.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -212,7 +212,7 @@
    },
    "line": "His servant.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -233,7 +233,7 @@
    },
    "line": "A lady of Milan.",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -254,7 +254,7 @@
    },
    "line": "A gentleman.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -275,7 +275,7 @@
    },
    "line": "A gentleman of Verona.",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",

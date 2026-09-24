@@ -1,0 +1,34 @@
+# Hand-maintained identity table for The Lord of the Rings.
+#
+# Keys are Calvo Tello ontology ids. Wikidata pins cover names the automatic
+# search misses (empty descriptions, accented forms, or rate-limit cache holes).
+
+lotr:
+
+  frod:
+    wikidata: Q177329
+
+  goll:
+    wikidata: Q15007
+
+  theod:
+    wikidata: Q308813
+
+  fara:
+    wikidata: Q223468
+
+  treeb:
+    wikidata: Q754477
+
+  grim:
+    wikidata: Q748450
+    aliases:
+      - Gríma
+      - Gríma Wormtongue
+      - Grima Wormtongue
+
+  gild:
+    wikidata: Q2610060
+
+  gorb:
+    wikidata: Q739594

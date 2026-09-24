@@ -2309,7 +2309,7 @@
    },
    "line": "Commander. Appears in three books.",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2492,7 +2492,7 @@
    },
    "line": "King of Pherae. Appears in Book 2 and Book 23.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2557,7 +2557,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2854,7 +2854,7 @@
    },
    "line": "Military leader, of the Trojans. Appears in 12 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2887,7 +2887,7 @@
    },
    "line": "Deity, of the Trojans. Appears in 10 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3032,7 +3032,7 @@
    },
    "line": "Appears in 11 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3151,7 +3151,7 @@
    },
    "line": "Of the Trojans. Appears in 19 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3181,7 +3181,7 @@
    },
    "line": "Greek deity, of the Trojans. Appears in seven books.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 84,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3233,7 +3233,7 @@
    },
    "line": "Goddess, of Olympus, of the Greeks. Appears in 18 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3269,7 +3269,7 @@
    },
    "line": "King of Locris. Appears in 14 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -3290,7 +3290,7 @@
    },
    "line": "Giant. Appears in Book 1 and Book 8.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -3366,7 +3366,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3504,7 +3504,7 @@
    },
    "line": "King of middle Argos. Appears in 13 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3666,7 +3666,7 @@
    },
    "line": "Appears in 8 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -3758,7 +3758,7 @@
    },
    "line": "Appears in seven books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3885,7 +3885,7 @@
    },
    "line": "Greek deity, of the Greeks. Appears in 14 books.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 84,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -3908,7 +3908,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3938,7 +3938,7 @@
    },
    "line": "Courier, Olympian god, of the Greeks. Appears in six books.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -4134,7 +4134,7 @@
    },
    "line": "King of Crete. Appears in 15 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4163,7 +4163,7 @@
    },
    "line": "Greek deity. Appears in 9 books.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -4455,7 +4455,7 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -4496,7 +4496,7 @@
    },
    "line": "Appears in 12 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -4571,7 +4571,7 @@
    },
    "line": "King of Pylus and Dorium. Appears in 11 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4662,7 +4662,7 @@
    },
    "line": "King of Ithaca. Appears in 14 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4737,7 +4737,7 @@
    },
    "line": "Appears in 11 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4804,7 +4804,7 @@
    },
    "line": "Of the Trojans. Appears in 8 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4830,7 +4830,7 @@
    },
    "line": "Appears in 8 books.",
    "signals": {
-    "lookAlikes": 63,
+    "lookAlikes": 64,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4913,11 +4913,11 @@
    },
    "line": "King of the sea, Water deity, of the Greeks. Appears in 12 books.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 84,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Earl of Warwick",
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Elrond",
      "tied": 0
     }
    }
@@ -4999,7 +4999,7 @@
    },
    "line": "Herder. Appears in 10 books.",
    "signals": {
-    "lookAlikes": 96,
+    "lookAlikes": 99,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5033,7 +5033,7 @@
    },
    "line": "King of Dolopians. Appears in three books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5186,7 +5186,7 @@
    },
    "line": "King of Lycia, of the Trojans. Appears in six books.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5336,7 +5336,7 @@
    },
    "line": "Nymph. Appears in seven books.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5371,7 +5371,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 109,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5418,7 +5418,7 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 84,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",

@@ -16,7 +16,7 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -37,7 +37,7 @@
    },
    "line": "An exiled nobleman.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -58,7 +58,7 @@
    },
    "line": "Son to the present queen by a former husband.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -79,7 +79,7 @@
    },
    "line": "A physician in Cymbeline’s court.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -100,7 +100,7 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -157,7 +157,7 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -178,7 +178,7 @@
    },
    "line": "Friend to Philario.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -199,7 +199,7 @@
    },
    "line": "Daughter of Cymbeline.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -230,7 +230,7 @@
    },
    "line": "A Roman general.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -263,7 +263,7 @@
    },
    "line": "Posthumus’s servant.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -284,7 +284,7 @@
    },
    "line": "Husband to Imogen.",
    "signals": {
-    "lookAlikes": 138,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -326,7 +326,7 @@
    },
    "line": "Soothsayer.",
    "signals": {
-    "lookAlikes": 118,
+    "lookAlikes": 119,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",

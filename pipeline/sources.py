@@ -24,6 +24,7 @@ from .ingest import (
     hongloumeng,
     iliad,
     lesmiserables,
+    lotr,
     odyssey,
     sanguoyanyi,
     shakespeare,
@@ -113,6 +114,14 @@ SOURCES: dict[str, Source] = {
     "lesmiserables": Source(
         name="lesmiserables",
         load=lesmiserables.load,
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "lotr": Source(
+        name="lotr",
+        load=lotr.load,
+        # Paragraph co-occurrence is already a deliberate unit of the text;
+        # one shared paragraph is enough, same floor as ASOIAF's word window.
         min_edge_weight=1,
         min_degree=2,
     ),
