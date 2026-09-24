@@ -1,0 +1,984 @@
+{
+ "id": "indiana-jones",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Temple of Doom."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Temple of Doom."
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2,
+    "gender": "Male",
+    "occupation": "businessperson"
+   },
+   "line": "Businessperson. Appears in Indiana Jones and the Last Crusade.",
+   "signals": {
+    "lookAlikes": 29,
+    "nearest": {
+     "world": "indiana-jones",
+     "story": "Indiana Jones",
+     "name": "Colonel Vogel",
+     "tied": 0
+    }
+   }
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2,
+    "gender": "Female",
+    "occupation": "art historian",
+    "affiliations": [
+     "Austria"
+    ]
+   },
+   "line": "Art historian, of the Austria. Appears in Indiana Jones and the Last Crusade.",
+   "wiki": "Elsa Schneider",
+   "wikiLang": "en",
+   "signals": {
+    "lookAlikes": 29,
+    "nearest": {
+     "world": "indiana-jones",
+     "story": "Indiana Jones",
+     "name": "Colonel Vogel",
+     "tied": 0
+    }
+   }
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2,
+    "gender": "Male",
+    "occupation": "archaeologist"
+   },
+   "line": "Archaeologist. Appears in Indiana Jones and the Last Crusade.",
+   "wiki": "Henry Jones Sr.",
+   "wikiLang": "en",
+   "signals": {
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "indiana-jones",
+     "story": "Indiana Jones",
+     "name": "Elsa Schneider",
+     "tied": 0
+    }
+   }
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Last Crusade."
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom",
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2,
+    "gender": "Male",
+    "occupation": "archaeologist",
+    "homeworld": "Princeton"
+   },
+   "line": "Archaeologist, of Princeton. Appears in all two films.",
+   "wiki": "Indiana Jones (character)",
+   "wikiLang": "en",
+   "signals": {
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "項羽",
+     "tied": 0
+    }
+   }
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Last Crusade."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Temple of Doom."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Temple of Doom.",
+   "signals": {
+    "lookAlikes": 33,
+    "nearest": {
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Senator Geary",
+     "tied": 0
+    }
+   }
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2,
+    "gender": "Male",
+    "occupation": "historian",
+    "affiliations": [
+     "United Kingdom"
+    ]
+   },
+   "line": "Historian, of the United Kingdom. Appears in Indiana Jones and the Last Crusade.",
+   "wiki": "Marcus Brody",
+   "wikiLang": "en",
+   "signals": {
+    "lookAlikes": 59,
+    "nearest": {
+     "world": "indiana-jones",
+     "story": "Indiana Jones",
+     "name": "Sallah",
+     "tied": 0
+    }
+   }
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "unit": "film",
+    "corpusSize": 2,
+    "gender": "Male",
+    "occupation": "high priest",
+    "affiliations": [
+     "British Raj"
+    ]
+   },
+   "line": "High priest, of the British Raj. Appears in Indiana Jones and the Temple of Doom."
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Last Crusade."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Temple of Doom."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Last Crusade."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2,
+    "gender": "Male",
+    "occupation": "digger"
+   },
+   "line": "Digger. Appears in Indiana Jones and the Last Crusade.",
+   "wiki": "Sallah",
+   "wikiLang": "en",
+   "signals": {
+    "lookAlikes": 59,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "陳豨",
+     "tied": 0
+    }
+   }
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "unit": "film",
+    "corpusSize": 2,
+    "gender": "Male",
+    "occupation": "pickpocket",
+    "affiliations": [
+     "Republic of China"
+    ]
+   },
+   "line": "Pickpocket, of the Republic of China. Appears in Indiana Jones and the Temple of Doom.",
+   "signals": {
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "indiana-jones",
+     "story": "Indiana Jones",
+     "name": "Willie Scott",
+     "tied": 0
+    }
+   }
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Last Crusade."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "Appears in Indiana Jones and the Last Crusade.",
+   "signals": {
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "indiana-jones",
+     "story": "Indiana Jones",
+     "name": "Elsa Schneider",
+     "tied": 0
+    }
+   }
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "unit": "film",
+    "corpusSize": 2,
+    "gender": "Female",
+    "occupation": "singer"
+   },
+   "line": "Singer. Appears in Indiana Jones and the Temple of Doom.",
+   "wiki": "Willie Scott (Indiana Jones character)",
+   "wikiLang": "en",
+   "signals": {
+    "lookAlikes": 39,
+    "nearest": {
+     "world": "indiana-jones",
+     "story": "Indiana Jones",
+     "name": "Short Round",
+     "tied": 0
+    }
+   }
+  }
+ },
+ "edges": {
+  "0-1": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "0-6": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "0-9": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "0-16": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "0-19": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "1-6": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "1-9": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "1-16": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "1-19": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "2-3": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "2-6": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "2-7": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "2-10": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "2-12": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "2-15": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "2-17": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "2-18": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "3-4": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "3-6": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "3-7": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "3-10": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "3-15": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "3-17": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "3-18": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "4-6": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "4-7": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "4-10": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "4-15": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "4-18": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "5-6": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "5-14": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "6-7": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "6-8": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "6-9": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "6-10": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "6-12": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "6-13": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "6-14": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "6-15": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "6-16": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "6-18": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "6-19": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "7-18": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "8-19": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "9-11": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "9-16": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "9-19": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "10-15": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "10-18": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "11-16": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "11-19": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "13-16": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "15-18": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  },
+  "16-19": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Temple of Doom"
+    ],
+    "first": "Indiana Jones and the Temple of Doom",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Temple of Doom."
+  },
+  "17-18": {
+   "facts": {
+    "books": [
+     "Indiana Jones and the Last Crusade"
+    ],
+    "first": "Indiana Jones and the Last Crusade",
+    "unit": "film",
+    "corpusSize": 2
+   },
+   "line": "They share the page only in Indiana Jones and the Last Crusade."
+  }
+ },
+ "sources": [
+  {
+   "title": "Wikidata",
+   "creator": "Wikidata contributors",
+   "url": "https://www.wikidata.org/",
+   "license": "CC0-1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "modifications": [
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
+    "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
+   ]
+  }
+ ],
+ "workWiki": "Indiana Jones",
+ "workWikiLang": "en"
+}

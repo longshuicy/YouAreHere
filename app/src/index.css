@@ -139,6 +139,34 @@ button {
   outline: none;
 }
 
+/* Wikipedia: a small pill rather than a ruled chrome link, so it reads as an
+   outbound hop and not as another in-app control in the margin. */
+.wiki-pill {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-style: normal;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--annotation);
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 3px 9px 2px;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: color 90ms ease, border-color 90ms ease, background 90ms ease;
+}
+
+.wiki-pill:hover,
+.wiki-pill:focus-visible {
+  color: var(--accent);
+  border-color: var(--accent);
+  outline: none;
+}
+
 /* A name inside a reading that leads somewhere else. Inherits its type from
    wherever it sits — a tie row, a camp list, a sentence of prose — so the same
    rule works at 14px in a list and at 19px in a paragraph, and the reading

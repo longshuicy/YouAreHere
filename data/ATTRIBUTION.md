@@ -76,7 +76,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## American Civil War
@@ -173,7 +173,45 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
+
+## The Godfather
+
+*Shipped as `godfather.json` — 59 characters, 204 ties.*
+
+"Moviegalaxies — film character interaction networks" by **Moviegalaxies / Skarnitzlová, Holý, et al.** (<https://moviegalaxies.com/>)
+
+- Source: <https://doi.org/10.7910/DVN/T4HBA3>
+- Project: <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T4HBA3>
+- Licence: [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (`CC0-1.0`)
+- Retrieved: 2026-09-24
+- Cite as: Moviegalaxies, “Moviegalaxies film character networks”, Harvard Dataverse, doi:10.7910/DVN/T4HBA3. DOI: [10.7910/DVN/T4HBA3](https://doi.org/10.7910/DVN/T4HBA3)
+
+Changes made to the original data:
+
+1. Selected the The Godfather films listed in provenance segments.
+2. Merged Parts I–II; THE GODFATHER collapsed into Don Corleone.
+3. Dropped generic extras (MAN, DRIVER, AGENT #1, …).
+4. Title-cased script names; applied franchise display-name map.
+5. Applied a hand-maintained identity table covering 24 characters: display names, nicknames for the guess field, and disambiguators.
+6. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (66 nodes and 211 ties in, 59 and 204 out).
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `godfather.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 紅樓夢
@@ -212,7 +250,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## The Iliad
@@ -262,7 +300,45 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
+
+## Indiana Jones
+
+*Shipped as `indiana-jones.json` — 20 characters, 57 ties.*
+
+"Moviegalaxies — film character interaction networks" by **Moviegalaxies / Skarnitzlová, Holý, et al.** (<https://moviegalaxies.com/>)
+
+- Source: <https://doi.org/10.7910/DVN/T4HBA3>
+- Project: <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T4HBA3>
+- Licence: [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (`CC0-1.0`)
+- Retrieved: 2026-09-24
+- Cite as: Moviegalaxies, “Moviegalaxies film character networks”, Harvard Dataverse, doi:10.7910/DVN/T4HBA3. DOI: [10.7910/DVN/T4HBA3](https://doi.org/10.7910/DVN/T4HBA3)
+
+Changes made to the original data:
+
+1. Selected the Indiana Jones films listed in provenance segments.
+2. Temple of Doom + Last Crusade only. Moviegalaxies GEXFs labeled Raiders of the Lost Ark and Kingdom of the Crystal Skull contain unrelated casts and are excluded.
+3. Dropped generic extras (MAN, DRIVER, AGENT #1, …).
+4. Title-cased script names; applied franchise display-name map.
+5. Applied a hand-maintained identity table covering 12 characters: display names, nicknames for the guess field, and disambiguators.
+6. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (22 nodes and 59 ties in, 20 and 57 out).
+7. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+8. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `indiana-jones.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## Les Misérables
@@ -313,7 +389,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## The Lord of the Rings
@@ -351,7 +427,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## The Odyssey
@@ -389,7 +465,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## Pride and Prejudice
@@ -425,7 +501,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 三國演義
@@ -464,7 +540,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## Shakespeare Drama Corpus (DraCor)
@@ -518,7 +594,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 史記
@@ -557,7 +633,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 水滸傳
@@ -595,7 +671,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## Star Wars
@@ -632,7 +708,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## 西遊記
@@ -671,7 +747,7 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 Used as follows:
 
-1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
 ## What these terms require of this project

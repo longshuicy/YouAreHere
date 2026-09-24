@@ -24,8 +24,10 @@
     "gender": "女"
    },
    "line": "見於13回。",
+   "wiki": "尤三姐",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -63,6 +65,8 @@
     "gender": "女"
    },
    "line": "見於20回。",
+   "wiki": "尤二姐",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -96,6 +100,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於13回。",
+   "wiki": "柳五儿",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -128,8 +134,10 @@
     ]
    },
    "line": "管理者。見於10回。",
+   "wiki": "柳家的",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -151,7 +159,9 @@
     "gender": "男",
     "occupation": "票友"
    },
-   "line": "票友。見於4回。"
+   "line": "票友。見於4回。",
+   "wiki": "柳湘莲",
+   "wikiLang": "zh"
   },
   "5": {
    "facts": {
@@ -183,7 +193,9 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "wiki": "甄宝玉",
+   "wikiLang": "zh"
   },
   "7": {
    "facts": {
@@ -200,7 +212,9 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於6回。"
+   "line": "丫鬟。見於6回。",
+   "wiki": "碧痕",
+   "wikiLang": "zh"
   },
   "8": {
    "facts": {
@@ -218,6 +232,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於6回。",
+   "wiki": "秋桐",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -239,7 +255,9 @@
     "gender": "女",
     "occupation": "演員"
    },
-   "line": "演員。見於第58回、第60回。"
+   "line": "演員。見於第58回、第60回。",
+   "wiki": "艾官",
+   "wikiLang": "zh"
   },
   "10": {
    "facts": {
@@ -266,6 +284,8 @@
     "occupation": "比丘尼"
    },
    "line": "比丘尼。見於15回。",
+   "wiki": "芳官",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -289,7 +309,9 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於4回。"
+   "line": "丫鬟。見於4回。",
+   "wiki": "茜雪",
+   "wikiLang": "zh"
   },
   "12": {
    "facts": {
@@ -304,8 +326,10 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於3回。",
+   "wiki": "葵官",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -329,6 +353,8 @@
     "occupation": "比丘尼"
    },
    "line": "比丘尼。見於5回。",
+   "wiki": "藕官",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -359,8 +385,10 @@
     "occupation": "教師"
    },
    "line": "教師。見於10回。",
+   "wiki": "贾代儒",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -402,6 +430,8 @@
     "gender": "男"
    },
    "line": "見於24回。",
+   "wiki": "贾兰",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -427,6 +457,8 @@
     "gender": "男"
    },
    "line": "見於6回。",
+   "wiki": "贾敬",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 8,
     "nearest": {
@@ -501,7 +533,9 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "wiki": "贾菌",
+   "wikiLang": "zh"
   },
   "20": {
    "facts": {
@@ -542,6 +576,8 @@
     "gender": "男"
    },
    "line": "見於30回。",
+   "wiki": "贾蓉",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -574,6 +610,8 @@
     "gender": "男"
    },
    "line": "見於13回。",
+   "wiki": "贾蔷",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -620,6 +658,8 @@
     "gender": "女"
    },
    "line": "見於27回。",
+   "wiki": "赵姨娘",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -679,7 +719,9 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於7回。"
+   "line": "見於7回。",
+   "wiki": "马道婆",
+   "wikiLang": "zh"
   },
   "26": {
    "facts": {
@@ -692,7 +734,9 @@
     "gender": "女",
     "occupation": "演員"
    },
-   "line": "演員。見於第18回、第36回。"
+   "line": "演員。見於第18回、第36回。",
+   "wiki": "龄官",
+   "wikiLang": "zh"
   },
   "27": {
    "facts": {
@@ -755,6 +799,8 @@
     ]
    },
    "line": "屬海棠詩社。見於49回。",
+   "wiki": "賈迎春",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -797,6 +843,8 @@
     ]
    },
    "line": "鳳藻宮尚書。見於20回。",
+   "wiki": "賈元春",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -871,6 +919,8 @@
     ]
    },
    "line": "畫家。屬海棠詩社。見於51回。",
+   "wiki": "賈惜春",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -908,6 +958,8 @@
     "gender": "女"
    },
    "line": "見於18回。",
+   "wiki": "賈巧姐",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -989,6 +1041,8 @@
     ]
    },
    "line": "屬海棠詩社。見於59回。",
+   "wiki": "李紈",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -1205,7 +1259,7 @@
    },
    "line": "國朝皇帝。見於14回。",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -1301,7 +1355,7 @@
    },
    "line": "比丘尼。見於3回。",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -1449,7 +1503,7 @@
    },
    "line": "家務工。見於6回。",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -1524,7 +1578,7 @@
    },
    "line": "北靜郡王。見於13回。",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1671,7 +1725,7 @@
    },
    "line": "見於9回。",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1758,7 +1812,7 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1902,8 +1956,10 @@
     "gender": "女"
    },
    "line": "見於9回。",
+   "wiki": "夏金桂",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1931,7 +1987,7 @@
    },
    "line": "丫鬟。見於8回。",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2271,8 +2327,10 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於9回。",
+   "wiki": "入画",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2544,9 +2602,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍人"
    },
-   "line": "見於第79回、第80回。"
+   "line": "軍人。見於第79回、第80回。",
+   "wiki": "孙绍祖",
+   "wikiLang": "zh"
   },
   "109": {
    "facts": {
@@ -2607,7 +2668,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2658,6 +2719,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於16回。",
+   "wiki": "小红",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -2815,7 +2878,7 @@
    },
    "line": "丫鬟。見於6回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2948,7 +3011,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -2974,7 +3037,7 @@
    },
    "line": "家務工。見於6回。",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -2990,9 +3053,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "titles": [
+     "伯爵"
+    ]
    },
-   "line": "見於第93回。"
+   "line": "伯爵。見於第93回。"
   },
   "132": {
    "facts": {
@@ -3006,9 +3072,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "titles": [
+     "郡王"
+    ]
    },
-   "line": "見於6回。"
+   "line": "郡王。見於6回。"
   },
   "133": {
    "facts": {
@@ -3018,9 +3087,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "titles": [
+     "郡王"
+    ]
    },
-   "line": "見於第11回、第14回。"
+   "line": "郡王。見於第11回、第14回。"
   },
   "134": {
    "facts": {
@@ -3199,7 +3271,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3228,9 +3300,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "titles": [
+     "郡王"
+    ]
    },
-   "line": "見於第105回、第106回。"
+   "line": "郡王。見於第105回、第106回。"
   },
   "141": {
    "facts": {
@@ -3316,6 +3391,8 @@
     "gender": "女"
    },
    "line": "見於44回。",
+   "wiki": "尤氏 (红楼梦)",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -3385,9 +3462,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於3回。"
+   "line": "政治人物。見於3回。"
   },
   "148": {
    "facts": {
@@ -3405,7 +3483,9 @@
      "蘭臺寺大夫"
     ]
    },
-   "line": "蘭臺寺大夫。見於5回。"
+   "line": "蘭臺寺大夫。見於5回。",
+   "wiki": "林如海",
+   "wikiLang": "zh"
   },
   "149": {
    "facts": {
@@ -3463,6 +3543,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於46回。",
+   "wiki": "鸳鸯 (红楼梦)",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -3527,6 +3609,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於44回。",
+   "wiki": "麝月",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -3556,6 +3640,8 @@
     "gender": "男"
    },
    "line": "見於10回。",
+   "wiki": "秦鐘",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 11,
     "nearest": {
@@ -3586,6 +3672,8 @@
     "occupation": "管家"
    },
    "line": "管家。見於10回。",
+   "wiki": "周瑞 (紅樓夢)",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -3618,6 +3706,8 @@
     "gender": "女"
    },
    "line": "見於13回。",
+   "wiki": "秦可卿",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -3714,6 +3804,8 @@
     ]
    },
    "line": "榮國府二爺。屬賈府。見於73回。",
+   "wiki": "贾琏",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -3817,6 +3909,8 @@
     ]
    },
    "line": "丫鬟。屬賈府。見於80回。",
+   "wiki": "襲人",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -3849,6 +3943,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於12回。",
+   "wiki": "金钏",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -3872,8 +3968,10 @@
     "gender": "男"
    },
    "line": "見於4回。",
+   "wiki": "贾瑞 (红楼梦)",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3910,6 +4008,8 @@
     ]
    },
    "line": "知府。見於16回。",
+   "wiki": "贾雨村",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -3978,6 +4078,8 @@
     "gender": "女"
    },
    "line": "見於49回。",
+   "wiki": "邢夫人 (红楼梦)",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4019,6 +4121,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於21回。",
+   "wiki": "彩云 (红楼梦人物)",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -4083,6 +4187,8 @@
     "occupation": "侍女"
    },
    "line": "侍女。見於44回。",
+   "wiki": "紫鵑",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4139,6 +4245,8 @@
     "gender": "男"
    },
    "line": "見於37回。",
+   "wiki": "贾赦",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4173,6 +4281,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於14回。",
+   "wiki": "司棋",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -4204,8 +4314,10 @@
     "occupation": "家務工"
    },
    "line": "家務工。見於11回。",
+   "wiki": "来旺",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4240,6 +4352,8 @@
     ]
    },
    "line": "京營節度使。見於14回。",
+   "wiki": "王子腾",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -4290,6 +4404,8 @@
     "occupation": "家務工"
    },
    "line": "家務工。見於30回。",
+   "wiki": "茗烟",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -4312,8 +4428,10 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於第58回、第60回。",
+   "wiki": "荳官",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4338,7 +4456,9 @@
     "gender": "男",
     "occupation": "演員"
    },
-   "line": "演員。見於7回。"
+   "line": "演員。見於7回。",
+   "wiki": "蒋玉菡",
+   "wikiLang": "zh"
   },
   "169": {
    "facts": {
@@ -4355,8 +4475,10 @@
     "occupation": "比丘尼"
    },
    "line": "比丘尼。見於5回。",
+   "wiki": "蕊官",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4433,6 +4555,8 @@
     "gender": "女"
    },
    "line": "見於59回。",
+   "wiki": "薛姨妈",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4478,6 +4602,8 @@
     ]
    },
    "line": "屬海棠詩社。見於23回。",
+   "wiki": "薛宝琴",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -4512,8 +4638,10 @@
     "gender": "男"
    },
    "line": "見於15回。",
+   "wiki": "薛虬",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4534,7 +4662,9 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "wiki": "鲍二家的",
+   "wikiLang": "zh"
   },
   "174": {
    "facts": {
@@ -4591,6 +4721,8 @@
     "gender": "男"
    },
    "line": "見於46回。",
+   "wiki": "賈珍",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4671,9 +4803,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於64回。",
+   "line": "政治人物。見於64回。",
+   "wiki": "贾政",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -4725,6 +4860,8 @@
     "gender": "男"
    },
    "line": "見於32回。",
+   "wiki": "贾环",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -4755,7 +4892,9 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於12回。"
+   "line": "見於12回。",
+   "wiki": "贾珠",
+   "wikiLang": "zh"
   },
   "178": {
    "facts": {
@@ -4783,6 +4922,8 @@
     "occupation": "承包人"
    },
    "line": "承包人。見於16回。",
+   "wiki": "贾芸",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -4821,6 +4962,8 @@
     "occupation": "管家"
    },
    "line": "管家。見於18回。",
+   "wiki": "赖大",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -4860,6 +5003,8 @@
     ]
    },
    "line": "屬海棠詩社。見於17回。",
+   "wiki": "邢岫烟",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -4879,7 +5024,9 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於第2回。"
+   "line": "見於第2回。",
+   "wiki": "贾代善",
+   "wikiLang": "zh"
   },
   "182": {
    "facts": {
@@ -4976,12 +5123,15 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "女",
+    "occupation": "詩人",
     "affiliations": [
      "賈府"
     ],
     "role": "林家小姐"
    },
-   "line": "林家小姐。屬賈府。見於88回。",
+   "line": "林家小姐。詩人。屬賈府。見於88回。",
+   "wiki": "林黛玉",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -5107,6 +5257,8 @@
     "role": "榮國府當家"
    },
    "line": "榮國府當家。屬賈府。見於102回。",
+   "wiki": "王熙鳳",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 163,
     "nearest": {
@@ -5236,6 +5388,8 @@
     ]
    },
    "line": "榮國府夫人。屬賈府。見於106回。",
+   "wiki": "王夫人 (紅樓夢)",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -5368,6 +5522,8 @@
     ]
    },
    "line": "賈府太君。見於109回。",
+   "wiki": "賈母",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 163,
     "nearest": {
@@ -5397,6 +5553,8 @@
     "gender": "女"
    },
    "line": "見於10回。",
+   "wiki": "刘姥姥",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -5480,6 +5638,8 @@
     ]
    },
    "line": "屬海棠詩社。見於61回。",
+   "wiki": "賈探春",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -5533,6 +5693,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於33回。",
+   "wiki": "秋紋",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -5566,6 +5728,8 @@
     "occupation": "比丘尼"
    },
    "line": "比丘尼。見於13回。",
+   "wiki": "妙玉",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -5650,6 +5814,8 @@
     "gender": "女"
    },
    "line": "見於65回。",
+   "wiki": "平儿",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -5709,6 +5875,8 @@
     "occupation": "丫鬟"
    },
    "line": "丫鬟。見於39回。",
+   "wiki": "晴雯",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -5776,6 +5944,8 @@
     ]
    },
    "line": "屬海棠詩社。見於45回。",
+   "wiki": "史湘雲",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -5828,6 +5998,8 @@
     ]
    },
    "line": "屬海棠詩社。見於30回。",
+   "wiki": "香菱",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -5951,6 +6123,8 @@
     "role": "薛家小姐"
    },
    "line": "薛家小姐。屬賈府。見於100回。",
+   "wiki": "薛寶釵",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -5998,6 +6172,8 @@
     "gender": "男"
    },
    "line": "見於28回。",
+   "wiki": "薛蟠",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -6128,12 +6304,15 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "詩人",
     "affiliations": [
      "賈府"
     ],
     "role": "榮國府公子"
    },
-   "line": "榮國府公子。屬賈府。見於113回。",
+   "line": "榮國府公子。詩人。屬賈府。見於113回。",
+   "wiki": "賈寶玉",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 36,
     "nearest": {
@@ -6185,6 +6364,8 @@
     "occupation": "家務工"
    },
    "line": "家務工。見於15回。",
+   "wiki": "周瑞家的",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -6209,7 +6390,9 @@
     "gender": "女",
     "occupation": "丫鬟"
    },
-   "line": "丫鬟。見於5回。"
+   "line": "丫鬟。見於5回。",
+   "wiki": "四儿",
+   "wikiLang": "zh"
   }
  },
  "edges": {
@@ -38477,9 +38660,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "红楼梦",
+ "workWikiLang": "zh"
 }

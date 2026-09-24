@@ -318,6 +318,8 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | American Civil War | Battle commanders projected graph | Shipped | Arnold / NPS, ODC-By 1.0. Years 1861–1865. See `pipeline/raw/civilwar/SOURCE.md`. |
 | The Lord of the Rings | Paragraph co-occurrence edge lists | Shipped | Calvo Tello, CC BY. Three volumes; places/groups/animals dropped. See `pipeline/raw/lotr/SOURCE.md`. |
 | Pride and Prejudice | Chapter co-occurrence GEXF | Shipped | NGG / UCD, CC BY-NC 4.0. 61 chapters. See `pipeline/raw/pride/SOURCE.md`. |
+| The Godfather | Film dialogue GEXF (Moviegalaxies) | Shipped | CC0. Parts I–II. See `pipeline/raw/moviegalaxies/SOURCE.md`. |
+| Indiana Jones | Film dialogue GEXF (Moviegalaxies) | Shipped | CC0. Temple of Doom + Last Crusade (Raiders/Skull GEXFs misattributed upstream). See `pipeline/raw/moviegalaxies/SOURCE.md`. |
 | 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
 

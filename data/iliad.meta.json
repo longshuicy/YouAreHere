@@ -129,7 +129,9 @@
     "occupation": "military leader",
     "species": "Thracians"
    },
-   "line": "Military leader, Thracians. Appears in Book 2 and Book 4."
+   "line": "Military leader, Thracians. Appears in Book 2 and Book 4.",
+   "wiki": "Peirous",
+   "wikiLang": "en"
   },
   "8": {
    "facts": {
@@ -226,6 +228,8 @@
     ]
    },
    "line": "Prince. Appears in Book 2 and Book 17.",
+   "wiki": "Mesthles",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -250,8 +254,10 @@
     "gender": "Male"
    },
    "line": "Priest, of the Trojans. Appears in Book 3.",
+   "wiki": "Panthous",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -273,7 +279,7 @@
    },
    "line": "Of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -293,7 +299,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -314,7 +320,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -334,7 +340,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -357,14 +363,16 @@
    },
    "line": "Of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
      "name": "Panthous",
      "tied": 1
     }
-   }
+   },
+   "wiki": "Ucalegon",
+   "wikiLang": "en"
   },
   "20": {
    "facts": {
@@ -449,7 +457,9 @@
     "occupation": "archer",
     "gender": "Male"
    },
-   "line": "Archer, of the Trojans. Appears in Book 5."
+   "line": "Archer, of the Trojans. Appears in Book 5.",
+   "wiki": "Scamandrius (Trojan War)",
+   "wikiLang": "en"
   },
   "27": {
    "facts": {
@@ -464,7 +474,9 @@
     "occupation": "shipbuilder",
     "gender": "Male"
    },
-   "line": "Shipbuilder, of the Trojans. Appears in Book 5."
+   "line": "Shipbuilder, of the Trojans. Appears in Book 5.",
+   "wiki": "Phereclus",
+   "wikiLang": "en"
   },
   "28": {
    "facts": {
@@ -612,7 +624,7 @@
    },
    "line": "King of Troy, of the Trojans. Appears in five books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -631,7 +643,9 @@
     "gender": "Male",
     "occupation": "aristocrat"
    },
-   "line": "Aristocrat. Appears in Book 6."
+   "line": "Aristocrat. Appears in Book 6.",
+   "wiki": "Axylus",
+   "wikiLang": "en"
   },
   "41": {
    "facts": {
@@ -673,7 +687,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 6."
+   "line": "Appears in Book 6.",
+   "wiki": "Bucolion",
+   "wikiLang": "en"
   },
   "45": {
    "facts": {
@@ -736,7 +752,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 6."
+   "line": "Appears in Book 6.",
+   "wiki": "Hippolochus (son of Bellerophon)",
+   "wikiLang": "en"
   },
   "50": {
    "facts": {
@@ -805,7 +823,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 6 and Book 22."
+   "line": "Appears in Book 6 and Book 22.",
+   "wiki": "Scamandrius (Trojan War)",
+   "wikiLang": "en"
   },
   "55": {
    "facts": {
@@ -833,7 +853,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -854,7 +874,9 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Trojans. Appears in Book 10."
+   "line": "Of the Trojans. Appears in Book 10.",
+   "wiki": "Dolon (mythology)",
+   "wikiLang": "en"
   },
   "58": {
    "facts": {
@@ -897,7 +919,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 11."
+   "line": "Appears in Book 11.",
+   "wiki": "Isus (mythology)",
+   "wikiLang": "en"
   },
   "62": {
    "facts": {
@@ -918,7 +942,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 11."
+   "line": "Appears in Book 11.",
+   "wiki": "Hippolochus (son of Bellerophon)",
+   "wikiLang": "en"
   },
   "64": {
    "facts": {
@@ -1028,7 +1054,9 @@
      "name": "秦鐘",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Asteropaios",
+   "wikiLang": "en"
   },
   "72": {
    "facts": {
@@ -1060,6 +1088,8 @@
     "gender": "Male"
    },
    "line": "Appears in Book 12.",
+   "wiki": "Iamenus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -1141,7 +1171,9 @@
     "gender": "Male",
     "homeworld": "Pedaeum"
    },
-   "line": "Of Pedaeum. Appears in Book 13."
+   "line": "Of Pedaeum. Appears in Book 13.",
+   "wiki": "Imbrius",
+   "wikiLang": "en"
   },
   "78": {
    "facts": {
@@ -1155,8 +1187,10 @@
     "gender": "Female"
    },
    "line": "Prophet. Appears in Book 13 and Book 24.",
+   "wiki": "Cassandra",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1174,7 +1208,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 13."
+   "line": "Appears in Book 13.",
+   "wiki": "Othryoneus",
+   "wikiLang": "en"
   },
   "80": {
    "facts": {
@@ -1185,7 +1221,9 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in Book 13."
+   "line": "Appears in Book 13.",
+   "wiki": "Briseis",
+   "wikiLang": "en"
   },
   "81": {
    "facts": {
@@ -1213,7 +1251,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13 and Book 14.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1236,7 +1274,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1259,7 +1297,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1281,7 +1319,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1303,7 +1341,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1379,7 +1417,9 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Greeks. Appears in Book 16."
+   "line": "Of the Greeks. Appears in Book 16.",
+   "wiki": "Epigeus",
+   "wikiLang": "en"
   },
   "93": {
    "facts": {
@@ -1395,6 +1435,8 @@
     "gender": "Male"
    },
    "line": "Of the Greeks. Appears in Book 16 and Book 17.",
+   "wiki": "Alcimedonte",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 33,
     "nearest": {
@@ -1461,6 +1503,8 @@
     "gender": "Male"
    },
    "line": "Of the Greeks. Appears in Book 16.",
+   "wiki": "Eudoros",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -1545,7 +1589,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 15."
+   "line": "Appears in Book 15.",
+   "wiki": "Lycophron (mythology)",
+   "wikiLang": "en"
   },
   "105": {
    "facts": {
@@ -1677,7 +1723,9 @@
     "occupation": "lieutenant",
     "gender": "Male"
    },
-   "line": "Lieutenant. Appears in Book 13."
+   "line": "Lieutenant. Appears in Book 13.",
+   "wiki": "Dracius",
+   "wikiLang": "en"
   },
   "117": {
    "facts": {
@@ -1714,7 +1762,9 @@
      "Classical Athens"
     ]
    },
-   "line": "Lieutenant, of the Classical Athens. Appears in Book 13."
+   "line": "Lieutenant, of the Classical Athens. Appears in Book 13.",
+   "wiki": "Pheidas (mythology)",
+   "wikiLang": "en"
   },
   "120": {
    "facts": {
@@ -1729,7 +1779,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1767,7 +1817,9 @@
      "Classical Athens"
     ]
    },
-   "line": "Lieutenant, of the Classical Athens. Appears in Book 13 and Book 15."
+   "line": "Lieutenant, of the Classical Athens. Appears in Book 13 and Book 15.",
+   "wiki": "Stichius (mythology)",
+   "wikiLang": "en"
   },
   "123": {
    "facts": {
@@ -1828,7 +1880,9 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in Book 11."
+   "line": "Appears in Book 11.",
+   "wiki": "Hecamede",
+   "wikiLang": "en"
   },
   "128": {
    "facts": {
@@ -1964,8 +2018,10 @@
     "gender": "Male"
    },
    "line": "Of the Greeks. Appears in Book 9 and Book 13.",
+   "wiki": "Deipyrus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -2109,7 +2165,9 @@
     ],
     "gender": "Male"
    },
-   "line": "Of the Greeks. Appears in Book 5."
+   "line": "Of the Greeks. Appears in Book 5.",
+   "wiki": "Menesthes",
+   "wikiLang": "en"
   },
   "147": {
    "facts": {
@@ -2170,7 +2228,7 @@
    },
    "line": "Of the Greeks. Appears in Book 19.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2246,7 +2304,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2266,7 +2324,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2286,7 +2344,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2309,7 +2367,7 @@
    },
    "line": "Commander. Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2329,7 +2387,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2434,7 +2492,9 @@
      "name": "Amram",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Machaon (mythology)",
+   "wikiLang": "en"
   },
   "167": {
    "facts": {
@@ -2802,7 +2862,9 @@
      "name": "Eddard Stark",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Achilles",
+   "wikiLang": "en"
   },
   "190": {
    "facts": {
@@ -2819,7 +2881,7 @@
    },
    "line": "Charioteer. Appears in five books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -2861,7 +2923,9 @@
      "name": "Renly Baratheon",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Aeneas",
+   "wikiLang": "en"
   },
   "192": {
    "facts": {
@@ -2927,6 +2991,8 @@
     "gender": "Male"
    },
    "line": "King of Argos and Mycenae, of the Greeks. Appears in 16 books.",
+   "wiki": "Agamemnon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -2950,8 +3016,10 @@
     "homeworld": "Thebe"
    },
    "line": "Of Thebe. Appears in three books.",
+   "wiki": "Andromache",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -3002,6 +3070,8 @@
     "gender": "Male"
    },
    "line": "King of Salamis. Appears in 17 books.",
+   "wiki": "Ajax the Great",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -3111,7 +3181,7 @@
    },
    "line": "Appears in seven books.",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -3188,7 +3258,9 @@
      "name": "Melisandre",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Ares",
+   "wikiLang": "en"
   },
   "203": {
    "facts": {
@@ -3232,6 +3304,8 @@
     "homeworld": "Olympus"
    },
    "line": "Goddess, of Olympus, of the Greeks. Appears in 18 books.",
+   "wiki": "Athena",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -3268,6 +3342,8 @@
     "gender": "Male"
    },
    "line": "King of Locris. Appears in 14 books.",
+   "wiki": "Ajax the Lesser",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -3342,7 +3418,7 @@
    },
    "line": "Appears in Book 20 and Book 23.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3365,6 +3441,8 @@
     "gender": "Female"
    },
    "line": "Appears in five books.",
+   "wiki": "Briseis",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -3385,7 +3463,9 @@
     "occupation": "prophet",
     "gender": "Male"
    },
-   "line": "Prophet. Appears in Book 1."
+   "line": "Prophet. Appears in Book 1.",
+   "wiki": "Calchas",
+   "wikiLang": "en"
   },
   "212": {
    "facts": {
@@ -3397,7 +3477,9 @@
     "occupation": "priest",
     "gender": "Male"
    },
-   "line": "Priest. Appears in Book 1."
+   "line": "Priest. Appears in Book 1.",
+   "wiki": "Chryses (priest of Apollo)",
+   "wikiLang": "en"
   },
   "213": {
    "facts": {
@@ -3466,7 +3548,9 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in Book 1 and Book 22."
+   "line": "Appears in Book 1 and Book 22.",
+   "wiki": "Chryseis",
+   "wikiLang": "en"
   },
   "218": {
    "facts": {
@@ -3503,6 +3587,8 @@
     "gender": "Male"
    },
    "line": "King of middle Argos. Appears in 13 books.",
+   "wiki": "Diomedes",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -3540,14 +3626,16 @@
    },
    "line": "Of the Trojans. Appears in three books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
      "name": "潘璋",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Deiphobus",
+   "wikiLang": "en"
   },
   "222": {
    "facts": {
@@ -3646,7 +3734,9 @@
     "species": "goddess",
     "gender": "Female"
    },
-   "line": "Goddess. Appears in three books."
+   "line": "Goddess. Appears in three books.",
+   "wiki": "Eos",
+   "wikiLang": "en"
   },
   "229": {
    "facts": {
@@ -3665,6 +3755,8 @@
     "gender": "Male"
    },
    "line": "Appears in 8 books.",
+   "wiki": "Eurypylus (son of Euaemon)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -3699,7 +3791,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -3757,6 +3849,8 @@
     "gender": "Male"
    },
    "line": "Appears in seven books.",
+   "wiki": "Glaucus (son of Hippolochus)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -3800,7 +3894,9 @@
     "species": "goddess",
     "gender": "Female"
    },
-   "line": "Goddess. Appears in Book 5."
+   "line": "Goddess. Appears in Book 5.",
+   "wiki": "Hebe (mythology)",
+   "wikiLang": "en"
   },
   "239": {
    "facts": {
@@ -3820,8 +3916,10 @@
     "gender": "Female"
    },
    "line": "Queen of Troy, of the Trojans. Appears in three books.",
+   "wiki": "Hecuba",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3884,6 +3982,8 @@
     "species": "Greek deity"
    },
    "line": "Greek deity, of the Greeks. Appears in 14 books.",
+   "wiki": "Hera",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -3907,8 +4007,10 @@
     "gender": "Female"
    },
    "line": "Appears in four books.",
+   "wiki": "Helen of Troy",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3938,14 +4040,16 @@
    },
    "line": "Courier, Olympian god, of the Greeks. Appears in six books.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
      "name": "Lady Lucas",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Hermes",
+   "wikiLang": "en"
   },
   "244": {
    "facts": {
@@ -3962,7 +4066,7 @@
    },
    "line": "Soothsayer. Appears in five books.",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4000,7 +4104,9 @@
      "name": "Eponine",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Hephaestus",
+   "wikiLang": "en"
   },
   "246": {
    "facts": {
@@ -4019,7 +4125,7 @@
    },
    "line": "Appears in 8 books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -4060,6 +4166,8 @@
     "gender": "Male"
    },
    "line": "Commander, of the Trojans. Appears in 19 books.",
+   "wiki": "Hector",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 163,
     "nearest": {
@@ -4162,6 +4270,8 @@
     "species": "Greek deity"
    },
    "line": "Greek deity. Appears in 9 books.",
+   "wiki": "Iris (mythology)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -4294,8 +4404,10 @@
     "species": "titan"
    },
    "line": "Titan. Appears in four books.",
+   "wiki": "Leto",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4339,7 +4451,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -4430,6 +4542,8 @@
     "gender": "Male"
    },
    "line": "King of Sparta. Appears in 17 books.",
+   "wiki": "Menelaus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -4570,6 +4684,8 @@
     "gender": "Male"
    },
    "line": "King of Pylus and Dorium. Appears in 11 books.",
+   "wiki": "Nestor (mythology)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4669,7 +4785,9 @@
      "name": "Athene",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Odysseus",
+   "wikiLang": "en"
   },
   "277": {
    "facts": {
@@ -4681,7 +4799,9 @@
     "species": "giant",
     "gender": "Male"
    },
-   "line": "Giant. Appears in Book 5."
+   "line": "Giant. Appears in Book 5.",
+   "wiki": "Otus of Cyllene",
+   "wikiLang": "en"
   },
   "278": {
    "facts": {
@@ -4693,7 +4813,9 @@
     "gender": "Male",
     "homeworld": "Thebe"
    },
-   "line": "Of Thebe. Appears in Book 17."
+   "line": "Of Thebe. Appears in Book 17.",
+   "wiki": "Podes",
+   "wikiLang": "en"
   },
   "279": {
    "facts": {
@@ -4736,6 +4858,8 @@
     "gender": "Male"
    },
    "line": "Appears in 11 books.",
+   "wiki": "Patroclus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4763,6 +4887,8 @@
     ]
    },
    "line": "King of Thebe (Troade). Appears in five books.",
+   "wiki": "Peneleos",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -4830,7 +4956,7 @@
    },
    "line": "Appears in 8 books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4859,7 +4985,9 @@
      "name": "Agathon",
      "tied": 4
     }
-   }
+   },
+   "wiki": "Polites (son of Priam)",
+   "wikiLang": "en"
   },
   "286": {
    "facts": {
@@ -4874,8 +5002,10 @@
     "gender": "Male"
    },
    "line": "Archer. Appears in three books.",
+   "wiki": "Pandarus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -4920,7 +5050,9 @@
      "name": "Elrond",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Poseidon",
+   "wikiLang": "en"
   },
   "288": {
    "facts": {
@@ -4968,6 +5100,8 @@
     "gender": "Male"
    },
    "line": "King of Troy, of the Trojans. Appears in 8 books.",
+   "wiki": "Priam",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -4998,6 +5132,8 @@
     "occupation": "herder"
    },
    "line": "Herder. Appears in 10 books.",
+   "wiki": "Paris (mythology)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -5069,6 +5205,8 @@
     "gender": "Male"
    },
    "line": "Charioteer. Appears in Book 21.",
+   "wiki": "Aenius",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 33,
     "nearest": {
@@ -5132,7 +5270,7 @@
    },
    "line": "Appears in Book 14 and Book 15.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5193,7 +5331,9 @@
      "name": "Marquess of Dorset",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Sarpedon (Trojan War hero)",
+   "wikiLang": "en"
   },
   "302": {
    "facts": {
@@ -5215,7 +5355,9 @@
     "gender": "Female",
     "species": "Greek deity"
    },
-   "line": "Greek deity. Appears in Book 5."
+   "line": "Greek deity. Appears in Book 5.",
+   "wiki": "Eris (mythology)",
+   "wikiLang": "en"
   },
   "304": {
    "facts": {
@@ -5228,7 +5370,7 @@
    },
    "line": "Appears in Book 14 and Book 16.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5264,7 +5406,7 @@
    },
    "line": "Lieutenant. Appears in six books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -5308,6 +5450,8 @@
     "gender": "Male"
    },
    "line": "Herald. Appears in six books.",
+   "wiki": "Talthybius",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -5335,8 +5479,10 @@
     "gender": "Female"
    },
    "line": "Nymph. Appears in seven books.",
+   "wiki": "Thetis",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5446,7 +5592,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 20."
+   "line": "Appears in Book 20.",
+   "wiki": "Demoleon",
+   "wikiLang": "en"
   },
   "317": {
    "facts": {
@@ -5561,7 +5709,7 @@
    },
    "line": "God. Appears in Book 20 and Book 21.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5614,6 +5762,8 @@
     "species": "thunder deity"
    },
    "line": "King of the gods, Thunder deity. Appears in 18 books.",
+   "wiki": "Zeus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -5636,7 +5786,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -21161,9 +21311,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Iliad",
+ "workWikiLang": "en"
 }

@@ -108,7 +108,7 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -258,8 +258,10 @@
     "role": "lady of the Rue Plumet"
    },
    "line": "Lady of the Rue Plumet. Appears in four volumes.",
+   "wiki": "Cosette",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -283,7 +285,7 @@
    },
    "line": "Of the Friends of the ABC. Appears in three volumes.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -327,6 +329,8 @@
     "occupation": "revolutionary"
    },
    "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes.",
+   "wiki": "Enjolras",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -349,8 +353,10 @@
     "gender": "Female"
    },
    "line": "Appears in three volumes.",
+   "wiki": "Éponine",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -425,6 +431,8 @@
     "occupation": "factory worker"
    },
    "line": "Factory worker. Appears in Volume 1.",
+   "wiki": "Fantine",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -447,7 +455,7 @@
    },
    "line": "Student. Appears in Volume 1 and Volume 3.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -488,6 +496,8 @@
     "gender": "Male"
    },
    "line": "Urchin. Appears in three volumes.",
+   "wiki": "Gavroche",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -510,7 +520,7 @@
    },
    "line": "Appears in three volumes.",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -545,8 +555,10 @@
     "occupation": "revolutionary"
    },
    "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes.",
+   "wiki": "Grantaire",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -587,7 +599,7 @@
    },
    "line": "Innkeeper. Appears in Volume 4.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -611,8 +623,10 @@
     "gender": "Male"
    },
    "line": "Inspector. Appears in all five volumes.",
+   "wiki": "Javert",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -658,7 +672,7 @@
    },
    "line": "Of the Friends of the ABC. Appears in Volume 4.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -702,8 +716,10 @@
     "gender": "Male"
    },
    "line": "Former convict. Appears in all five volumes.",
+   "wiki": "Jean Valjean",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -745,6 +761,8 @@
     "occupation": "revolutionary"
    },
    "line": "Revolutionary. Appears in three volumes.",
+   "wiki": "Marius Pontmercy",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -788,7 +806,7 @@
    },
    "line": "Appears in three volumes.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -854,7 +872,7 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -895,7 +913,9 @@
     ],
     "gender": "Male"
    },
-   "line": "Bishop. Appears in Volume 1."
+   "line": "Bishop. Appears in Volume 1.",
+   "wiki": "Bishop Myriel",
+   "wikiLang": "en"
   },
   "46": {
    "facts": {
@@ -909,7 +929,7 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -967,7 +987,7 @@
    },
    "line": "Innkeeper. Appears in all five volumes.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -989,6 +1009,8 @@
     "gender": "Female"
    },
    "line": "Appears in four volumes.",
+   "wiki": "Madame Thénardier",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -3718,9 +3740,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Les Misérables",
+ "workWikiLang": "en"
 }

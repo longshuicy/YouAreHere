@@ -16,7 +16,9 @@
     ],
     "homeworld": "Abergavenny"
    },
-   "line": "Lord, Buckingham’s son-in-law, of Abergavenny, of the Wales."
+   "line": "Lord, Buckingham’s son-in-law, of Abergavenny, of the Wales.",
+   "wiki": "George Nevill, 5th Baron Bergavenny",
+   "wikiLang": "en"
   },
   "1": {
    "facts": {
@@ -38,7 +40,9 @@
      "name": "Clydas",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Anne Boleyn",
+   "wikiLang": "en"
   },
   "2": {
    "facts": {
@@ -51,8 +55,10 @@
     "role": "Bishop of Lincoln"
    },
    "line": "Bishop of Lincoln.",
+   "wiki": "John Longland",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -87,8 +93,10 @@
     "homeworld": "Brecon"
    },
    "line": "Duke of Buckingham, of Brecon, of the United Kingdom.",
+   "wiki": "Edward Stafford, 3rd Duke of Buckingham",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -110,14 +118,16 @@
    },
    "line": "Doctor, of Fulham.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
      "name": "Keeper",
      "tied": 1
     }
-   }
+   },
+   "wiki": "William Butts",
+   "wikiLang": "en"
   },
   "6": {
    "facts": {
@@ -131,6 +141,8 @@
     "homeworld": "Milan"
    },
    "line": "Cardinal, Papal Legate, of Milan.",
+   "wiki": "Lorenzo Campeggio",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -155,7 +167,9 @@
     ],
     "homeworld": "Annecy"
    },
-   "line": "Ambassador from the Emperor Charles, of Annecy, of the Duchy of Savoy."
+   "line": "Ambassador from the Emperor Charles, of Annecy, of the Duchy of Savoy.",
+   "wiki": "Eustace Chapuys",
+   "wikiLang": "en"
   },
   "8": {
    "facts": {
@@ -171,8 +185,10 @@
     ]
    },
    "line": "Lord, of the Order of the Garter.",
+   "wiki": "Charles Somerset, 1st Earl of Worcester",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -193,8 +209,10 @@
     "homeworld": "London"
    },
    "line": "Lord, of London.",
+   "wiki": "Thomas More",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -218,8 +236,10 @@
     "homeworld": "Aslockton"
    },
    "line": "Later Archbishop of Canterbury, of Aslockton, of the United Kingdom.",
+   "wiki": "Thomas Cranmer",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -238,7 +258,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -264,6 +284,8 @@
     "homeworld": "Huntingdon"
    },
    "line": "Servant to Wolsey, later secretary to the Privy Council, of Huntingdon, of the Short Parliament.",
+   "wiki": "Oliver Cromwell",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -286,8 +308,10 @@
     "homeworld": "Cheshunt"
    },
    "line": "Sir, of Cheshunt.",
+   "wiki": "Anthony Denny",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -339,6 +363,8 @@
     "homeworld": "Bury St Edmunds"
    },
    "line": "Secretary to the king, later Bishop of Winchester, English people, of Bury St Edmunds.",
+   "wiki": "Stephen Gardiner",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -385,6 +411,8 @@
     ]
    },
    "line": "Sir, of the English Reformation Parliament.",
+   "wiki": "Henry Guildford",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -407,8 +435,10 @@
     "homeworld": "Palace of Placentia"
    },
    "line": "King, of Palace of Placentia.",
+   "wiki": "Henry VIII",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -429,6 +459,8 @@
     "homeworld": "Alcalá de Henares"
    },
    "line": "Queen, Henry’s first wife, later Princess Dowager, of Alcalá de Henares.",
+   "wiki": "Catherine of Aragon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -449,7 +481,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -481,6 +513,8 @@
     "role": "Sir"
    },
    "line": "Sir.",
+   "wiki": "Thomas Lovell",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -503,6 +537,8 @@
     "homeworld": "Stoke-by-Nayland"
    },
    "line": "Duke of Norfolk, of Stoke-by-Nayland.",
+   "wiki": "Thomas Howard, 2nd Duke of Norfolk",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -525,7 +561,7 @@
    },
    "line": "With Anne Bullen.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -546,7 +582,7 @@
    },
    "line": "Page.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -569,12 +605,14 @@
    "signals": {
     "lookAlikes": 26,
     "nearest": {
-     "world": "shakespeare-henry-viii",
-     "story": "Henry VIII",
-     "name": "Sir Henry Guilford",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Rocco",
      "tied": 0
     }
-   }
+   },
+   "wiki": "William Sandys, 1st Baron Sandys",
+   "wikiLang": "en"
   },
   "30": {
    "facts": {
@@ -586,7 +624,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -618,6 +656,8 @@
     "role": "Duke of Suffolk"
    },
    "line": "Duke of Suffolk.",
+   "wiki": "Charles Brandon, 1st Duke of Suffolk",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -643,6 +683,8 @@
     ]
    },
    "line": "Earl of Surrey, Buckingham’s son-in-law, of the Order of the Garter.",
+   "wiki": "Thomas Howard, 3rd Duke of Norfolk",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -665,7 +707,7 @@
    },
    "line": "Queen.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -684,7 +726,9 @@
     "gender": "Male",
     "role": "Sir"
    },
-   "line": "Sir."
+   "line": "Sir.",
+   "wiki": "Nicholas Vaux, 1st Baron Vaux of Harrowden",
+   "wikiLang": "en"
   },
   "36": {
    "facts": {
@@ -698,8 +742,10 @@
     "homeworld": "Ipswich"
    },
    "line": "Cardinal, Archbishop of Canterbury, of Ipswich.",
+   "wiki": "Thomas Wolsey",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -2428,7 +2474,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

@@ -1,0 +1,89 @@
+# Hand-maintained identity table for The Godfather (Moviegalaxies).
+#
+# Script names are short; pins lock reveal facts onto the film characters.
+
+godfather:
+
+  michael:
+    wikidata: Q835154
+    aliases: ["Michael", "Mike"]
+
+  don_corleone:
+    wikidata: Q745077
+    aliases: ["Vito", "The Godfather", "Don Vito Corleone"]
+
+  vito:
+    # Young Vito in Part II flashbacks — same person as Don Corleone.
+    wikidata: Q745077
+    aliases: ["Young Vito", "Vito Andolini"]
+
+  sonny:
+    aliases: ["Santino", "Sonny Corleone"]
+
+  fredo:
+    aliases: ["Fredo Corleone"]
+
+  connie:
+    aliases: ["Constanzia", "Connie Corleone"]
+
+  hagen:
+    aliases: ["Tom", "Tom Hagen"]
+
+  kay:
+    aliases: ["Kay", "Kay Adams"]
+
+  clemenza:
+    wikidata: Q1358761
+    aliases: ["Pete Clemenza", "Clemenza"]
+
+  tessio:
+    wikidata: Q1342302
+    aliases: ["Sal Tessio"]
+
+  pentangeli:
+    wikidata: Q948009
+    aliases: ["Frankie Five Angels"]
+
+  hyman:
+    wikidata: Q2278431
+    aliases: ["Hyman", "Roth"]
+
+  mama:
+    wikidata: Q2609353
+    aliases: ["Carmela", "Mama Corleone"]
+
+  luca:
+    wikidata: Q1159541
+    aliases: ["Luca Brasi"]
+
+  sollozzo:
+    wikidata: Q1994983
+    aliases: ["Virgil Sollozzo"]
+
+  mccluskey:
+    wikidata: Q3849519
+    aliases: ["Mark McCluskey", "Captain McCluskey"]
+
+  woltz:
+    wikidata: Q589050
+
+  neri:
+    wikidata: Q558508
+
+  fanucci:
+    aliases: ["Don Fanucci"]
+
+  ola:
+    aliases: ["Johnny Ola"]
+
+  geary:
+    aliases: ["Pat Geary", "Senator Geary"]
+
+  appolonia:
+    aliases: ["Apollonia"]
+
+  carlo:
+    aliases: ["Carlo Rizzi"]
+
+  johnny:
+    aliases: ["Johnny Fontane"]

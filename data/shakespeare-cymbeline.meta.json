@@ -15,6 +15,8 @@
     ]
    },
    "line": "King of Britain.",
+   "wiki": "Arvirargus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -99,6 +101,8 @@
     "role": "King of Britain"
    },
    "line": "King of Britain.",
+   "wiki": "Cunobelinus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -156,6 +160,8 @@
     ]
    },
    "line": "King of Britain.",
+   "wiki": "Guiderius",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -198,6 +204,8 @@
     "role": "daughter of Cymbeline"
    },
    "line": "Daughter of Cymbeline.",
+   "wiki": "Imogen (Cymbeline)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -216,7 +224,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   }
+   },
+   "wiki": "Jupiter (god)",
+   "wikiLang": "en"
   },
   "12": {
    "facts": {
@@ -1167,7 +1177,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

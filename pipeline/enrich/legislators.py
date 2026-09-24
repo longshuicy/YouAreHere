@@ -30,8 +30,9 @@ ATTRIBUTION = Attribution(
     source_url="https://github.com/unitedstates/congress-legislators",
     retrieved="2026-09-18",
     modifications=(
-        "Extracted discrete attributes only (party, chamber, state, gender) for "
-        "legislators matched by unique name; no biographical prose.",
+        "Extracted discrete attributes only (party, chamber, state, gender) and "
+        "Wikipedia page titles for legislators matched by unique name; no "
+        "biographical prose.",
     ),
 )
 
@@ -140,6 +141,9 @@ def apply_to_record(record: dict, attrs: dict) -> None:
         record["affiliations"] = list(attrs["affiliations"])
     if attrs.get("homeworld") and "homeworld" not in record:
         record["homeworld"] = attrs["homeworld"]
+    if attrs.get("wiki") and "wiki" not in record:
+        record["wiki"] = attrs["wiki"]
+        record["wikiLang"] = attrs.get("wikiLang") or "en"
 
 
 def _roster() -> list[dict]:
@@ -168,14 +172,17 @@ def _roster() -> list[dict]:
             continue
         bio = person.get("bio") or {}
         gender = {"M": "Male", "F": "Female"}.get(bio.get("gender") or "")
+        ids = person.get("id") or {}
+        wiki = (ids.get("wikipedia") or "").strip() or None
         out.append(
             {
-                "id": (person.get("id") or {}).get("bioguide")
-                or (person.get("id") or {}).get("govtrack")
+                "id": ids.get("bioguide")
+                or ids.get("govtrack")
                 or forms[0],
                 "forms": forms,
                 "gender": gender,
                 "terms": terms,
+                "wiki": wiki,
             }
         )
     return out
@@ -206,6 +213,9 @@ def _attrs(person: dict) -> dict:
             record["affiliations"] = [party]
     if state:
         record["homeworld"] = state
+    if person.get("wiki"):
+        record["wiki"] = person["wiki"]
+        record["wikiLang"] = "en"
     return record
 
 

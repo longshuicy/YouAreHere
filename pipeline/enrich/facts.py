@@ -64,6 +64,8 @@ def meta_sources_for(name: str) -> list[tuple]:
         "shiji",
         "shuihuzhuan",
         "xiyouji",
+        "godfather",
+        "indiana-jones",
     ):
         return [(wikidata.ATTRIBUTION, wikidata.LICENSE)]
     if name == "shakespeare":

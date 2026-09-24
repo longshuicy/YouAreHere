@@ -12,11 +12,11 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "Scarus",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Rocco",
      "tied": 0
     }
    }
@@ -33,14 +33,16 @@
    },
    "line": "Commander, with Macbeth, of Duncan’s army.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
      "name": "Speed",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Banquo",
+   "wikiLang": "en"
   },
   "2": {
    "facts": {
@@ -63,8 +65,10 @@
     "gender": "Male"
    },
    "line": "Duncan’s younger son.",
+   "wiki": "Donalbain (Macbeth)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -84,8 +88,10 @@
     "gender": "Male"
    },
    "line": "King of Scotland.",
+   "wiki": "King Duncan",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -104,7 +110,9 @@
     "gender": "Male",
     "role": "His son"
    },
-   "line": "His son."
+   "line": "His son.",
+   "wiki": "Fleance",
+   "wikiLang": "en"
   },
   "6": {
    "facts": {
@@ -127,8 +135,10 @@
     "gender": "Female"
    },
    "line": "Wife of Macbeth.",
+   "wiki": "Lady Macbeth",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -147,7 +157,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -170,6 +180,8 @@
     ]
    },
    "line": "Thane of Glamis.",
+   "wiki": "Macbeth (character)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -191,8 +203,10 @@
     "role": "A Scottish noble"
    },
    "line": "A Scottish noble.",
+   "wiki": "Macduff (Macbeth)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -212,6 +226,8 @@
     "gender": "Male"
    },
    "line": "His elder son.",
+   "wiki": "Malcolm (Macbeth)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -232,7 +248,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -251,7 +267,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -272,8 +288,10 @@
     "homeworld": "Scandinavia"
    },
    "line": "Commander of the English forces, of Scandinavia.",
+   "wiki": "Siward, Earl of Northumbria",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -292,7 +310,9 @@
     "gender": "Male",
     "role": "Siward’s son"
    },
-   "line": "Siward’s son."
+   "line": "Siward’s son.",
+   "wiki": "Young Siward",
+   "wikiLang": "en"
   }
  },
  "edges": {
@@ -896,7 +916,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

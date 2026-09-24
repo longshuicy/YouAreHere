@@ -21,6 +21,8 @@
     "homeworld": "Judea"
    },
    "line": "Governor, Jewish people, of Judea, of the Achaemenid Empire. Appears in Ezra and Nehemiah.",
+   "wiki": "Nehemiah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -49,8 +51,10 @@
     ]
    },
    "line": "Leader. Appears in six books.",
+   "wiki": "Elishama ben Ammihud",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -68,7 +72,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Judges."
+   "line": "Appears in Judges.",
+   "wiki": "Gaal (biblical figure)",
+   "wikiLang": "en"
   },
   "3": {
    "facts": {
@@ -81,6 +87,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Gatam",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -128,6 +136,8 @@
     "homeworld": "Mesopotamia"
    },
    "line": "Of Mesopotamia. Appears in three books.",
+   "wiki": "Mahalalel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -149,6 +159,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Jeush",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -169,6 +181,8 @@
     "gender": "Male"
    },
    "line": "Appears in Esther.",
+   "wiki": "Memucan",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -188,7 +202,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "wiki": "Methusael",
+   "wikiLang": "en"
   },
   "9": {
    "facts": {
@@ -246,7 +262,9 @@
      "Kingdom of Israel"
     ]
    },
-   "line": "Of the Kingdom of Israel. Appears in I Samuel."
+   "line": "Of the Kingdom of Israel. Appears in I Samuel.",
+   "wiki": "Merab",
+   "wikiLang": "en"
   },
   "14": {
    "facts": {
@@ -259,7 +277,7 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -351,7 +369,9 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in Genesis and Luke."
+   "line": "Prophet. Appears in Genesis and Luke.",
+   "wiki": "Seth",
+   "wikiLang": "en"
   },
   "22": {
    "facts": {
@@ -426,7 +446,9 @@
      "apostle"
     ]
    },
-   "line": "Apostle. Appears in I Corinthians."
+   "line": "Apostle. Appears in I Corinthians.",
+   "wiki": "Sosthenes",
+   "wikiLang": "en"
   },
   "26": {
    "facts": {
@@ -449,6 +471,8 @@
     ]
    },
    "line": "King of Judah, of the Kingdom of Judah. Appears in six books.",
+   "wiki": "Jotham",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -497,8 +521,10 @@
     "occupation": "military officer"
    },
    "line": "Military officer. Appears in four books.",
+   "wiki": "Abner",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -519,6 +545,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Meshach",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -539,7 +567,9 @@
     "gender": "Female",
     "occupation": "prostitute"
    },
-   "line": "Prostitute. Appears in Joshua."
+   "line": "Prostitute. Appears in Joshua.",
+   "wiki": "Rahab",
+   "wikiLang": "en"
   },
   "32": {
    "facts": {
@@ -556,8 +586,10 @@
     "gender": "Male"
    },
    "line": "Appears in six books.",
+   "wiki": "Obed (biblical figure)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -579,6 +611,8 @@
     "species": "Jewish people"
    },
    "line": "Jewish people. Appears in three books.",
+   "wiki": "Mordecai",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -632,6 +666,8 @@
     ]
    },
    "line": "Military leader, Israelites, of the United Kingdom of Israel. Appears in seven books.",
+   "wiki": "Joab",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -657,6 +693,8 @@
     "homeworld": "Gilead"
    },
    "line": "Biblical judge, of Gilead. Appears in four books.",
+   "wiki": "Jair (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -749,7 +787,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -857,8 +895,10 @@
     "occupation": "military leader"
    },
    "line": "Military leader. Appears in three books.",
+   "wiki": "Abishai (biblical figure)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -988,7 +1028,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1161,7 +1201,7 @@
    },
    "line": "Appears in I Chronicles and Ezra.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1276,7 +1316,9 @@
     "gender": "Male",
     "homeworld": "Ur Kaśdim"
    },
-   "line": "Of Ur Kaśdim. Appears in Genesis and I Chronicles."
+   "line": "Of Ur Kaśdim. Appears in Genesis and I Chronicles.",
+   "wiki": "Serug",
+   "wikiLang": "en"
   },
   "76": {
    "facts": {
@@ -1291,7 +1333,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1308,9 +1350,10 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "poet"
    },
-   "line": "Appears in Exodus and I Chronicles."
+   "line": "Poet. Appears in Exodus and I Chronicles."
   },
   "78": {
    "facts": {
@@ -1378,7 +1421,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1424,7 +1467,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1446,7 +1489,7 @@
    },
    "line": "Soldier, Philistines. Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1470,7 +1513,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1510,11 +1553,14 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Female"
+    "gender": "Female",
+    "titles": [
+     "princess"
+    ]
    },
-   "line": "Appears in II Samuel.",
+   "line": "Princess. Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1542,9 +1588,12 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "writer"
    },
-   "line": "Appears in Colossians and II Timothy."
+   "line": "Writer. Appears in Colossians and II Timothy.",
+   "wiki": "Demas",
+   "wikiLang": "en"
   },
   "91": {
    "facts": {
@@ -1589,7 +1638,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Matthew."
+   "line": "Appears in Matthew.",
+   "wiki": "Azor (biblical figure)",
+   "wikiLang": "en"
   },
   "94": {
    "facts": {
@@ -1605,7 +1656,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1686,8 +1737,10 @@
     "homeworld": "Ur Kaśdim"
    },
    "line": "Of Ur Kaśdim. Appears in five books.",
+   "wiki": "Haran",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1707,6 +1760,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Medan, son of Abraham",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -1727,7 +1782,9 @@
     "gender": "Female",
     "species": "Hebrews"
    },
-   "line": "Hebrews. Appears in Genesis."
+   "line": "Hebrews. Appears in Genesis.",
+   "wiki": "Dinah",
+   "wikiLang": "en"
   },
   "103": {
    "facts": {
@@ -1764,7 +1821,7 @@
    },
    "line": "Appears in I Kings and Nehemiah.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1839,8 +1896,10 @@
     "gender": "Male"
    },
    "line": "Appears in I Samuel and Psalms.",
+   "wiki": "Doeg the Edomite",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -1857,7 +1916,9 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "wiki": "Carshena",
+   "wikiLang": "en"
   },
   "111": {
    "facts": {
@@ -1867,7 +1928,9 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "wiki": "Admatha",
+   "wikiLang": "en"
   },
   "112": {
    "facts": {
@@ -1943,7 +2006,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1977,7 +2040,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2041,7 +2104,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2210,7 +2273,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2337,7 +2400,9 @@
     "gender": "Male",
     "occupation": "spy"
    },
-   "line": "Spy. Appears in Numbers."
+   "line": "Spy. Appears in Numbers.",
+   "wiki": "Gaddi (biblical figure)",
+   "wikiLang": "en"
   },
   "141": {
    "facts": {
@@ -2362,8 +2427,10 @@
     "homeworld": "Uruk"
    },
    "line": "King of Babylon, of Uruk, of the Neo-Babylonian Empire. Appears in seven books.",
+   "wiki": "Nebuchadnezzar II",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2403,7 +2470,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Numbers."
+   "line": "Appears in Numbers.",
+   "wiki": "Pedahzur",
+   "wikiLang": "en"
   },
   "144": {
    "facts": {
@@ -2535,7 +2604,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2566,8 +2635,10 @@
     ]
    },
    "line": "King of Judah, Israelites, of the Kingdom of Judah. Appears in six books.",
+   "wiki": "Jehoshaphat",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2594,6 +2665,8 @@
     ]
    },
    "line": "Military personnel, of the Aram-Damascus. Appears in five books.",
+   "wiki": "Naaman",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 19,
     "nearest": {
@@ -2623,6 +2696,8 @@
     ]
    },
    "line": "King, of the Aram-Damascus. Appears in four books.",
+   "wiki": "Hazael",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -2652,8 +2727,10 @@
     ]
    },
    "line": "High Priest of Israel. Appears in seven books.",
+   "wiki": "Phinehas",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2679,7 +2756,9 @@
     ],
     "homeworld": "Antioch"
    },
-   "line": "Apostle, of Antioch, of the seventy disciples. Appears in Colossians and II Timothy."
+   "line": "Apostle, of Antioch, of the seventy disciples. Appears in Colossians and II Timothy.",
+   "wiki": "Luke the Evangelist",
+   "wikiLang": "en"
   },
   "157": {
    "facts": {
@@ -2698,8 +2777,10 @@
     "homeworld": "Cana"
    },
    "line": "Apostle, of Cana, of the Zealotry. Appears in Acts.",
+   "wiki": "Simon the Zealot",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2724,6 +2805,8 @@
     "homeworld": "Paddan Aram"
    },
    "line": "Prophet, Hebrews, of Paddan Aram. Appears in Genesis and Ruth.",
+   "wiki": "Leah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 29,
     "nearest": {
@@ -2746,6 +2829,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Shelah (son of Judah)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -2774,6 +2859,8 @@
     "homeworld": "Canaan"
    },
    "line": "Military leader, Israelites, of Canaan, of the Tribe of Benjamin. Appears in Judges and I Chronicles.",
+   "wiki": "Ehud",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -2865,7 +2952,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2919,7 +3006,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "wiki": "Elishah",
+   "wikiLang": "en"
   },
   "170": {
    "facts": {
@@ -2994,7 +3083,9 @@
     "gender": "Male",
     "occupation": "biblical judge"
    },
-   "line": "Biblical judge. Appears in Genesis and Numbers."
+   "line": "Biblical judge. Appears in Genesis and Numbers.",
+   "wiki": "Elon (Judges)",
+   "wikiLang": "en"
   },
   "176": {
    "facts": {
@@ -3019,7 +3110,7 @@
    },
    "line": "Appears in I Kings.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -3072,6 +3163,8 @@
     "homeworld": "Tishbe"
    },
    "line": "Prophet, Israelites, of Tishbe, of the Kingdom of Israel. Appears in four books.",
+   "wiki": "Elijah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -3103,7 +3196,9 @@
     "gender": "Male",
     "species": "Kenite"
    },
-   "line": "Kenite. Appears in Judges."
+   "line": "Kenite. Appears in Judges.",
+   "wiki": "Heber the Kenite",
+   "wikiLang": "en"
   },
   "183": {
    "facts": {
@@ -3119,6 +3214,8 @@
     "gender": "Male"
    },
    "line": "Appears in five books.",
+   "wiki": "Korah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -3142,7 +3239,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3198,6 +3295,8 @@
     "gender": "Female"
    },
    "line": "Appears in three books.",
+   "wiki": "Michal",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -3289,8 +3388,10 @@
     "homeworld": "Cana"
    },
    "line": "Of Cana. Appears in John.",
+   "wiki": "Nathanael (follower of Jesus)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3308,9 +3409,14 @@
     "unit": "book",
     "corpusSize": 66,
     "gender": "Male",
+    "titles": [
+     "king"
+    ],
     "homeworld": "Achaemenid Empire"
    },
-   "line": "Of Achaemenid Empire. Appears in Esther and Daniel.",
+   "line": "King, of Achaemenid Empire. Appears in Esther and Daniel.",
+   "wiki": "Ahasuerus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -3329,9 +3435,12 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "poet"
    },
-   "line": "Appears in I Kings and I Chronicles.",
+   "line": "Poet. Appears in I Kings and I Chronicles.",
+   "wiki": "Ethan (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -3383,7 +3492,9 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "wiki": "Teresh (Biblical figure)",
+   "wikiLang": "en"
   },
   "200": {
    "facts": {
@@ -3448,7 +3559,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Numbers."
+   "line": "Appears in Numbers.",
+   "wiki": "Gamaliel, son of Pedahzur",
+   "wikiLang": "en"
   },
   "205": {
    "facts": {
@@ -3795,7 +3908,7 @@
    },
    "line": "Of the Tribe of Levi. Appears in Nehemiah.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3858,8 +3971,10 @@
     "homeworld": "Ephesus"
    },
    "line": "Apostle, of Ephesus. Appears in three books.",
+   "wiki": "Tychicus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3918,7 +4033,9 @@
      "bishop"
     ]
    },
-   "line": "Bishop. Appears in Acts."
+   "line": "Bishop. Appears in Acts.",
+   "wiki": "Lucius of Cyrene",
+   "wikiLang": "en"
   },
   "241": {
    "facts": {
@@ -3987,7 +4104,7 @@
    },
    "line": "Appears in II Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4093,8 +4210,10 @@
     "homeworld": "Land of Israel"
    },
    "line": "High Priest of Israel, of Land of Israel, of the United Kingdom of Israel. Appears in seven books.",
+   "wiki": "Zadok",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4373,7 +4492,9 @@
     ],
     "homeworld": "Rome"
    },
-   "line": "Roman emperor, of Rome. Appears in Acts."
+   "line": "Roman emperor, of Rome. Appears in Acts.",
+   "wiki": "Augustus",
+   "wikiLang": "en"
   },
   "274": {
    "facts": {
@@ -4388,7 +4509,9 @@
     ],
     "homeworld": "Rome"
    },
-   "line": "Roman emperor, of Rome. Appears in Luke."
+   "line": "Roman emperor, of Rome. Appears in Luke.",
+   "wiki": "Tiberius",
+   "wikiLang": "en"
   },
   "275": {
    "facts": {
@@ -4405,7 +4528,9 @@
      "king"
     ]
    },
-   "line": "King. Appears in four books."
+   "line": "King. Appears in four books.",
+   "wiki": "Balak",
+   "wikiLang": "en"
   },
   "276": {
    "facts": {
@@ -4505,6 +4630,8 @@
     "homeworld": "Carrhae"
    },
    "line": "Prophet, Israelites, of Carrhae. Appears in 12 books.",
+   "wiki": "Joseph (Genesis)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -4566,7 +4693,7 @@
    },
    "line": "Biblical judge. Appears in seven books.",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4585,7 +4712,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Numbers and Judges."
+   "line": "Appears in Numbers and Judges.",
+   "wiki": "Hobab (biblical figure)",
+   "wikiLang": "en"
   },
   "286": {
    "facts": {
@@ -4599,12 +4728,15 @@
     "unit": "book",
     "corpusSize": 66,
     "gender": "Male",
+    "occupation": "politician",
     "species": "Hebrews",
     "affiliations": [
      "Neo-Babylonian Empire"
     ]
    },
-   "line": "Hebrews, of the Neo-Babylonian Empire. Appears in five books.",
+   "line": "Politician, Hebrews, of the Neo-Babylonian Empire. Appears in five books.",
+   "wiki": "Gedaliah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -4627,6 +4759,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Gershom",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -4650,6 +4784,8 @@
     "occupation": "biblical judge"
    },
    "line": "Biblical judge. Appears in three books.",
+   "wiki": "Tola (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -4672,6 +4808,8 @@
     "occupation": "prophet"
    },
    "line": "Prophet. Appears in I Kings and II Chronicles.",
+   "wiki": "Micaiah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -4693,7 +4831,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "wiki": "Naamah (Genesis)",
+   "wikiLang": "en"
   },
   "291": {
    "facts": {
@@ -4706,7 +4846,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "wiki": "Teman (Edom)",
+   "wikiLang": "en"
   },
   "292": {
    "facts": {
@@ -4719,6 +4861,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Joktan",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -4739,7 +4883,9 @@
     "gender": "Male",
     "occupation": "kohen"
    },
-   "line": "Kohen. Appears in I Samuel."
+   "line": "Kohen. Appears in I Samuel.",
+   "wiki": "Hophni",
+   "wikiLang": "en"
   },
   "294": {
    "facts": {
@@ -4777,6 +4923,8 @@
     "homeworld": "Paddan Aram"
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
+   "wiki": "Bethuel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 15,
     "nearest": {
@@ -4810,6 +4958,8 @@
     "homeworld": "Anathoth"
    },
    "line": "Prophet, Israelites, of Anathoth, of the Kingdom of Judah. Appears in six books.",
+   "wiki": "Jeremiah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -4844,6 +4994,8 @@
     ]
    },
    "line": "High Priest of Israel. Appears in 12 books.",
+   "wiki": "Eleazar",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -4889,6 +5041,8 @@
     "occupation": "prophet"
    },
    "line": "Prophet. Appears in Ezra and Haggai.",
+   "wiki": "Haggai",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -4908,7 +5062,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Chronicles."
+   "line": "Appears in II Chronicles.",
+   "wiki": "Oded (prophet)",
+   "wikiLang": "en"
   },
   "302": {
    "facts": {
@@ -4921,7 +5077,9 @@
     "gender": "Male",
     "homeworld": "Ur"
    },
-   "line": "Of Ur. Appears in Genesis and I Chronicles."
+   "line": "Of Ur. Appears in Genesis and I Chronicles.",
+   "wiki": "Peleg",
+   "wikiLang": "en"
   },
   "303": {
    "facts": {
@@ -4950,8 +5108,10 @@
     ]
    },
    "line": "Sovereign, of the Philistia. Appears in I Samuel and I Kings.",
+   "wiki": "Achish",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -4976,8 +5136,10 @@
     "species": "Hebrews"
    },
    "line": "Kohen, Hebrews. Appears in five books.",
+   "wiki": "Ithamar",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5021,6 +5183,8 @@
     "occupation": "fisher"
    },
    "line": "Fisher. Appears in four books.",
+   "wiki": "Zebedee",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -5043,7 +5207,9 @@
      "Tribe of Judah"
     ]
    },
-   "line": "Of the Tribe of Judah. Appears in I Chronicles."
+   "line": "Of the Tribe of Judah. Appears in I Chronicles.",
+   "wiki": "Caleb, son of Hezron",
+   "wikiLang": "en"
   },
   "309": {
    "facts": {
@@ -5054,7 +5220,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Judges."
+   "line": "Appears in Judges.",
+   "wiki": "Zebul (biblical figure)",
+   "wikiLang": "en"
   },
   "310": {
    "facts": {
@@ -5069,6 +5237,8 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Jabesh",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 8,
     "nearest": {
@@ -5091,8 +5261,10 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Nimshi",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5112,8 +5284,10 @@
     "gender": "Male"
    },
    "line": "Appears in I Samuel and II Samuel.",
+   "wiki": "Nabal",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -5141,6 +5315,8 @@
     "homeworld": "Abruzzo"
    },
    "line": "Prefect of Judea, of Abruzzo. Appears in six books.",
+   "wiki": "Pontius Pilate",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -5171,6 +5347,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "Prophet, of Jerusalem, of the Kingdom of Judah. Appears in four books.",
+   "wiki": "Daniel (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -5192,7 +5370,9 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in four books."
+   "line": "Appears in four books.",
+   "wiki": "Kittim",
+   "wikiLang": "en"
   },
   "316": {
    "facts": {
@@ -5207,6 +5387,8 @@
     "homeworld": "Mesopotamia"
    },
    "line": "Of Mesopotamia. Appears in three books.",
+   "wiki": "Milcah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -5236,8 +5418,10 @@
     "homeworld": "Ofra avi ha-ezri"
    },
    "line": "Prophet, Israelites, of Ofra avi ha-ezri. Appears in Judges and Hebrews.",
+   "wiki": "Gideon",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5268,6 +5452,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "Prophet, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in five books.",
+   "wiki": "Zephaniah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 29,
     "nearest": {
@@ -5290,6 +5476,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Salmon (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -5309,7 +5497,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "wiki": "Naphtali",
+   "wikiLang": "en"
   },
   "321": {
    "facts": {
@@ -5327,6 +5517,8 @@
     "homeworld": "Moab"
    },
    "line": "Moab, of Moab. Appears in Ruth and Matthew.",
+   "wiki": "Ruth (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -5348,6 +5540,8 @@
     "homeworld": "Paddan Aram"
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
+   "wiki": "Asher",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -5370,7 +5564,9 @@
     "gender": "Male",
     "homeworld": "Ancient Egypt"
    },
-   "line": "Of Ancient Egypt. Appears in three books."
+   "line": "Of Ancient Egypt. Appears in three books.",
+   "wiki": "Nahshon",
+   "wikiLang": "en"
   },
   "324": {
    "facts": {
@@ -5385,6 +5581,8 @@
     "species": "UZ"
    },
    "line": "UZ. Appears in three books.",
+   "wiki": "Job (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 19,
     "nearest": {
@@ -5430,6 +5628,8 @@
     "gender": "Male"
    },
    "line": "Appears in six books.",
+   "wiki": "Perez (son of Judah)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 1,
     "nearest": {
@@ -5494,6 +5694,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Ram (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -5515,7 +5717,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "wiki": "Selah (biblical figure)",
+   "wikiLang": "en"
   },
   "331": {
    "facts": {
@@ -5533,6 +5737,8 @@
     "homeworld": "Canaan"
    },
    "line": "Of Canaan. Appears in six books.",
+   "wiki": "Ishmael",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -5567,6 +5773,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in seven books.",
+   "wiki": "Zedekiah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 1,
     "nearest": {
@@ -5596,6 +5804,8 @@
     "homeworld": "Salamis"
    },
    "line": "Bishop, of Salamis, of the seventy disciples. Appears in Acts and Galatians.",
+   "wiki": "Barnabas",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -5626,7 +5836,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Matthew."
+   "line": "Appears in Matthew.",
+   "wiki": "Eliud (biblical figure)",
+   "wikiLang": "en"
   },
   "336": {
    "facts": {
@@ -5636,9 +5848,14 @@
     "unit": "book",
     "corpusSize": 66,
     "gender": "Female",
+    "titles": [
+     "princess"
+    ],
     "homeworld": "Ancient Egypt"
    },
-   "line": "Of Ancient Egypt. Appears in I Chronicles."
+   "line": "Princess, of Ancient Egypt. Appears in I Chronicles.",
+   "wiki": "Pharaoh's daughter (Exodus)",
+   "wikiLang": "en"
   },
   "337": {
    "facts": {
@@ -5660,6 +5877,8 @@
     "homeworld": "Kingdom of Judah"
    },
    "line": "Prophet, Israelites, of Kingdom of Judah. Appears in three books.",
+   "wiki": "Isaiah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -5679,7 +5898,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "wiki": "Vashti",
+   "wikiLang": "en"
   },
   "339": {
    "facts": {
@@ -5691,7 +5912,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Joshua and I Chronicles."
+   "line": "Appears in Joshua and I Chronicles.",
+   "wiki": "Achan (biblical figure)",
+   "wikiLang": "en"
   },
   "340": {
    "facts": {
@@ -5704,6 +5927,8 @@
     "occupation": "courtier"
    },
    "line": "Courtier. Appears in Esther.",
+   "wiki": "Mehuman",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -5731,8 +5956,10 @@
     "homeworld": "Babylon"
    },
    "line": "Kohen, Jewish people, of Babylon. Appears in three books.",
+   "wiki": "Ezra",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5756,7 +5983,9 @@
     ],
     "homeworld": "Gath"
    },
-   "line": "Philistines, of Gath, of the Philistia. Appears in I Samuel and I Chronicles."
+   "line": "Philistines, of Gath, of the Philistia. Appears in I Samuel and I Chronicles.",
+   "wiki": "Goliath",
+   "wikiLang": "en"
   },
   "343": {
    "facts": {
@@ -5773,6 +6002,8 @@
     "homeworld": "Ancient Egypt"
    },
    "line": "Prophet, of Ancient Egypt. Appears in four books.",
+   "wiki": "Miriam",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -5819,6 +6050,8 @@
     ]
    },
    "line": "Hebrews, of the Matriarchs. Appears in Genesis and Isaiah.",
+   "wiki": "Sarah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -5842,6 +6075,8 @@
     "occupation": "prophet"
    },
    "line": "Prophet. Appears in three books.",
+   "wiki": "Jahaziel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -5865,8 +6100,10 @@
     "gender": "Female"
    },
    "line": "Appears in four books.",
+   "wiki": "Zeruiah",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5896,7 +6133,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Japheth",
+   "wikiLang": "en"
   },
   "350": {
    "facts": {
@@ -5910,6 +6149,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Shem",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -5953,6 +6194,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Tema (son of Ishmael)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -5983,7 +6226,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "wiki": "Ephraim",
+   "wikiLang": "en"
   },
   "355": {
    "facts": {
@@ -5998,6 +6243,8 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Amminadab",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -6020,7 +6267,9 @@
     "gender": "Male",
     "homeworld": "Ur"
    },
-   "line": "Of Ur. Appears in three books."
+   "line": "Of Ur. Appears in three books.",
+   "wiki": "Reu",
+   "wikiLang": "en"
   },
   "357": {
    "facts": {
@@ -6049,6 +6298,8 @@
     "occupation": "farmer"
    },
    "line": "Farmer. Appears in three books.",
+   "wiki": "Cain",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -6081,8 +6332,10 @@
     "homeworld": "Hebron"
    },
    "line": "King, Israelites, of Hebron, of the United Kingdom of Israel. Appears in five books.",
+   "wiki": "Absalom",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6101,7 +6354,9 @@
     "gender": "Female",
     "occupation": "herder"
    },
-   "line": "Herder. Appears in Exodus."
+   "line": "Herder. Appears in Exodus.",
+   "wiki": "Zipporah",
+   "wikiLang": "en"
   },
   "361": {
    "facts": {
@@ -6122,8 +6377,10 @@
     "homeworld": "Abel-meholah"
    },
    "line": "Prophet, Israelites, of Abel-meholah, of the Kingdom of Israel. Appears in I Kings and II Kings.",
+   "wiki": "Elisha",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6141,7 +6398,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in I Samuel."
+   "line": "Appears in I Samuel.",
+   "wiki": "Peninnah",
+   "wikiLang": "en"
   },
   "363": {
    "facts": {
@@ -6154,7 +6413,7 @@
     "corpusSize": 66,
     "gender": "Male",
     "titles": [
-     "King of Assyria"
+     "emperor"
     ],
     "affiliations": [
      "Assyrian Empire",
@@ -6162,7 +6421,9 @@
     ],
     "homeworld": "Nimrud"
    },
-   "line": "King of Assyria, of Nimrud, of the Assyrian Empire. Appears in three books."
+   "line": "Emperor, of Nimrud, of the Assyrian Empire. Appears in three books.",
+   "wiki": "Sennacherib",
+   "wikiLang": "en"
   },
   "364": {
    "facts": {
@@ -6179,6 +6440,8 @@
     "species": "Hebrews"
    },
    "line": "Prophet, Hebrews. Appears in Genesis and Ruth.",
+   "wiki": "Rachel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -6229,7 +6492,7 @@
    },
    "line": "Judge. Appears in five books.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6254,6 +6517,8 @@
     "homeworld": "Shiloh"
    },
    "line": "Prophet, of Shiloh. Appears in five books.",
+   "wiki": "Shemaiah (prophet)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -6295,6 +6560,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Judah, of Jerusalem, of the Kingdom of Judah. Appears in three books.",
+   "wiki": "Rehoboam",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -6314,10 +6581,12 @@
     "corpusSize": 66,
     "gender": "Male",
     "titles": [
-     "ruler of Elam"
+     "king"
     ]
    },
-   "line": "Ruler of Elam. Appears in Genesis."
+   "line": "King. Appears in Genesis.",
+   "wiki": "Chedorlaomer",
+   "wikiLang": "en"
   },
   "371": {
    "facts": {
@@ -6332,8 +6601,10 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Boaz",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6361,7 +6632,9 @@
     ],
     "homeworld": "Lystra"
    },
-   "line": "Bishop, of Lystra, of the Timothy and Apollinaris. Appears in four books."
+   "line": "Bishop, of Lystra, of the Timothy and Apollinaris. Appears in four books.",
+   "wiki": "Saint Timothy",
+   "wikiLang": "en"
   },
   "373": {
    "facts": {
@@ -6386,6 +6659,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Enoch",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -6422,7 +6697,9 @@
     "species": "Israelites",
     "homeworld": "Ramah in Benjamin"
    },
-   "line": "Prophet, Israelites, of Ramah in Benjamin. Appears in Genesis and Judges."
+   "line": "Prophet, Israelites, of Ramah in Benjamin. Appears in Genesis and Judges.",
+   "wiki": "Deborah",
+   "wikiLang": "en"
   },
   "377": {
    "facts": {
@@ -6440,6 +6717,8 @@
     "homeworld": "Teqoa"
    },
    "line": "Prophet, of Teqoa, of the Kingdom of Judah. Appears in Amos and Luke.",
+   "wiki": "Amos (prophet)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -6466,7 +6745,9 @@
     ],
     "homeworld": "Ancient Egypt"
    },
-   "line": "Consort, of Ancient Egypt. Appears in Genesis."
+   "line": "Consort, of Ancient Egypt. Appears in Genesis.",
+   "wiki": "Hagar",
+   "wikiLang": "en"
   },
   "379": {
    "facts": {
@@ -6480,7 +6761,9 @@
     "occupation": "warrior",
     "homeworld": "Zorah"
    },
-   "line": "Warrior, of Zorah. Appears in Judges and Hebrews."
+   "line": "Warrior, of Zorah. Appears in Judges and Hebrews.",
+   "wiki": "Samson",
+   "wikiLang": "en"
   },
   "380": {
    "facts": {
@@ -6493,6 +6776,8 @@
     "homeworld": "Paddan Aram"
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
+   "wiki": "Levi",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -6540,7 +6825,9 @@
      "Salem"
     ]
    },
-   "line": "King, of the Salem. Appears in Hebrews."
+   "line": "King, of the Salem. Appears in Hebrews.",
+   "wiki": "Melchizedek",
+   "wikiLang": "en"
   },
   "384": {
    "facts": {
@@ -6562,8 +6849,10 @@
     ]
    },
    "line": "High Priest of Israel, Hebrews, of the Kingdom of Judah. Appears in four books.",
+   "wiki": "Jehoiada",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6586,6 +6875,8 @@
     "homeworld": "Ancient Egypt"
    },
    "line": "Jewish people, of Ancient Egypt. Appears in three books.",
+   "wiki": "Izhar",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -6608,8 +6899,10 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Dathan",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6634,7 +6927,9 @@
      "Neo-Babylonian Empire"
     ]
    },
-   "line": "Crown prince, Arameans, of the Neo-Babylonian Empire. Appears in Daniel."
+   "line": "Crown prince, Arameans, of the Neo-Babylonian Empire. Appears in Daniel.",
+   "wiki": "Belshazzar",
+   "wikiLang": "en"
   },
   "388": {
    "facts": {
@@ -6651,6 +6946,8 @@
     "gender": "Male"
    },
    "line": "Appears in six books.",
+   "wiki": "Shealtiel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -6691,7 +6988,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Ham (Genesis)",
+   "wikiLang": "en"
   },
   "391": {
    "facts": {
@@ -6708,7 +7007,9 @@
     ],
     "homeworld": "Bethany"
    },
-   "line": "Seigneur, of Bethany, of the Herodian Kingdom of Judea. Appears in Luke and John."
+   "line": "Seigneur, of Bethany, of the Herodian Kingdom of Judea. Appears in Luke and John.",
+   "wiki": "Martha",
+   "wikiLang": "en"
   },
   "392": {
    "facts": {
@@ -6723,7 +7024,9 @@
      "High Priest of Israel"
     ]
    },
-   "line": "High Priest of Israel. Appears in I Chronicles and Ezra."
+   "line": "High Priest of Israel. Appears in I Chronicles and Ezra.",
+   "wiki": "Abishua",
+   "wikiLang": "en"
   },
   "393": {
    "facts": {
@@ -6736,6 +7039,8 @@
     "gender": "Female"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Aholibamah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -6762,7 +7067,9 @@
      "Israelites"
     ]
    },
-   "line": "Prophet, Israelites. Appears in I Samuel."
+   "line": "Prophet, Israelites. Appears in I Samuel.",
+   "wiki": "Hannah (biblical figure)",
+   "wikiLang": "en"
   },
   "395": {
    "facts": {
@@ -6774,7 +7081,9 @@
     "gender": "Female",
     "homeworld": "Hebron"
    },
-   "line": "Of Hebron. Appears in Luke."
+   "line": "Of Hebron. Appears in Luke.",
+   "wiki": "Elizabeth, mother of John the Baptist",
+   "wikiLang": "en"
   },
   "396": {
    "facts": {
@@ -6796,8 +7105,10 @@
     ]
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in five books.",
+   "wiki": "Ahab",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6831,7 +7142,9 @@
     ],
     "homeworld": "Hebron"
    },
-   "line": "Hebrews, of Hebron, of the United Kingdom of Israel. Appears in II Samuel."
+   "line": "Hebrews, of Hebron, of the United Kingdom of Israel. Appears in II Samuel.",
+   "wiki": "Chileab",
+   "wikiLang": "en"
   },
   "399": {
    "facts": {
@@ -6857,6 +7170,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Elkanah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -6892,8 +7207,10 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in 8 books.",
+   "wiki": "Hezekiah",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6916,8 +7233,10 @@
     "gender": "Male"
    },
    "line": "Appears in five books.",
+   "wiki": "Jude, brother of Jesus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6945,7 +7264,9 @@
     ],
     "homeworld": "Gath-hepher"
    },
-   "line": "Prophet, Israelites, of Gath-hepher, of the Kingdom of Israel. Appears in three books."
+   "line": "Prophet, Israelites, of Gath-hepher, of the Kingdom of Israel. Appears in three books.",
+   "wiki": "Jonah",
+   "wikiLang": "en"
   },
   "404": {
    "facts": {
@@ -6956,7 +7277,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Luke."
+   "line": "Appears in Luke.",
+   "wiki": "Heli (biblical figure)",
+   "wikiLang": "en"
   },
   "405": {
    "facts": {
@@ -6972,7 +7295,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6989,9 +7312,13 @@
     "unit": "book",
     "corpusSize": 66,
     "gender": "Female",
-    "occupation": "aristocrat"
+    "titles": [
+     "princess"
+    ]
    },
-   "line": "Aristocrat. Appears in Acts."
+   "line": "Princess. Appears in Acts.",
+   "wiki": "Drusilla (daughter of Herod Agrippa)",
+   "wikiLang": "en"
   },
   "407": {
    "facts": {
@@ -7005,7 +7332,9 @@
      "Roman consul"
     ]
    },
-   "line": "Roman consul. Appears in Acts."
+   "line": "Roman consul. Appears in Acts.",
+   "wiki": "Sergius Paulus",
+   "wikiLang": "en"
   },
   "408": {
    "facts": {
@@ -7127,7 +7456,9 @@
     "gender": "Male",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in I Kings and II Chronicles."
+   "line": "Prophet. Appears in I Kings and II Chronicles.",
+   "wiki": "Ahijah the Shilonite",
+   "wikiLang": "en"
   },
   "418": {
    "facts": {
@@ -7139,8 +7470,10 @@
     "gender": "Female"
    },
    "line": "Appears in Ruth.",
+   "wiki": "Naomi (biblical figure)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7169,7 +7502,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "wiki": "Judith",
+   "wikiLang": "en"
   },
   "421": {
    "facts": {
@@ -7184,6 +7519,8 @@
     "occupation": "spy"
    },
    "line": "Spy. Appears in three books.",
+   "wiki": "Shammua",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -7207,7 +7544,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7226,7 +7563,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Joshua and Judges."
+   "line": "Appears in Joshua and Judges.",
+   "wiki": "Eglon (king)",
+   "wikiLang": "en"
   },
   "424": {
    "facts": {
@@ -7240,8 +7579,10 @@
     "gender": "Female"
    },
    "line": "Appears in three books.",
+   "wiki": "Mahalath",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -7264,8 +7605,10 @@
     "gender": "Male"
    },
    "line": "Appears in five books.",
+   "wiki": "Merari",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7314,6 +7657,8 @@
     "homeworld": "United Kingdom of Israel"
    },
    "line": "Military leader, of United Kingdom of Israel. Appears in four books.",
+   "wiki": "Amasa",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -7335,6 +7680,8 @@
     "species": "Hebrews"
    },
    "line": "Hebrews. Appears in Luke.",
+   "wiki": "Joanna, wife of Chuza",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -7355,7 +7702,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and Daniel."
+   "line": "Appears in Genesis and Daniel.",
+   "wiki": "Arioch",
+   "wikiLang": "en"
   },
   "430": {
    "facts": {
@@ -7375,7 +7724,9 @@
     ],
     "homeworld": "Arimathea"
    },
-   "line": "Elder, Jewish people, of Arimathea, of the Sanhedrin. Appears in Mark and John."
+   "line": "Elder, Jewish people, of Arimathea, of the Sanhedrin. Appears in Mark and John.",
+   "wiki": "Joseph of Arimathea",
+   "wikiLang": "en"
   },
   "431": {
    "facts": {
@@ -7389,6 +7740,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Joses",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -7414,7 +7767,9 @@
      "Achaemenid Empire"
     ]
    },
-   "line": "High Priest of Israel, of the Achaemenid Empire. Appears in Nehemiah."
+   "line": "High Priest of Israel, of the Achaemenid Empire. Appears in Nehemiah.",
+   "wiki": "Jaddua",
+   "wikiLang": "en"
   },
   "433": {
    "facts": {
@@ -7435,8 +7790,10 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in I Kings and II Chronicles.",
+   "wiki": "Abijah of Judah",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -7455,7 +7812,9 @@
     "gender": "Male",
     "species": "Hebrews"
    },
-   "line": "Hebrews. Appears in Job."
+   "line": "Hebrews. Appears in Job.",
+   "wiki": "Bildad",
+   "wikiLang": "en"
   },
   "435": {
    "facts": {
@@ -7466,7 +7825,9 @@
     "corpusSize": 66,
     "occupation": "eunuch"
    },
-   "line": "Eunuch. Appears in Esther."
+   "line": "Eunuch. Appears in Esther.",
+   "wiki": "Bigthan",
+   "wikiLang": "en"
   },
   "436": {
    "facts": {
@@ -7483,6 +7844,8 @@
     "occupation": "prophet"
    },
    "line": "Prophet. Appears in five books.",
+   "wiki": "Micah (prophet)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 29,
     "nearest": {
@@ -7502,7 +7865,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Joshua."
+   "line": "Appears in Joshua.",
+   "wiki": "Asriel",
+   "wikiLang": "en"
   },
   "438": {
    "facts": {
@@ -7515,6 +7880,8 @@
     "homeworld": "Paddan Aram"
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
+   "wiki": "Judah (son of Jacob)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -7536,6 +7903,8 @@
     "gender": "Male"
    },
    "line": "Appears in I Samuel and II Samuel.",
+   "wiki": "Adriel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -7557,7 +7926,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "wiki": "Achsah",
+   "wikiLang": "en"
   },
   "441": {
    "facts": {
@@ -7573,7 +7944,9 @@
     ],
     "homeworld": "Shinar"
    },
-   "line": "King, of Shinar. Appears in Genesis."
+   "line": "King, of Shinar. Appears in Genesis.",
+   "wiki": "Amraphel",
+   "wikiLang": "en"
   },
   "442": {
    "facts": {
@@ -7608,6 +7981,8 @@
     "homeworld": "Gibeah"
    },
    "line": "King of Israel, Israelites, of Gibeah, of the United Kingdom of Israel. Appears in five books.",
+   "wiki": "Saul",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -7628,7 +8003,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Hul (biblical figure)",
+   "wikiLang": "en"
   },
   "445": {
    "facts": {
@@ -7641,6 +8018,8 @@
     "gender": "Female"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Serah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -7661,6 +8040,8 @@
     "gender": "Female"
    },
    "line": "Appears in II Samuel.",
+   "wiki": "Rizpah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 8,
     "nearest": {
@@ -7680,7 +8061,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "wiki": "Jashobeam",
+   "wikiLang": "en"
   },
   "448": {
    "facts": {
@@ -7702,8 +8085,10 @@
     "homeworld": "Land of Israel"
    },
    "line": "High Priest of Israel, of Land of Israel, of the Kingdom of Judah. Appears in four books.",
+   "wiki": "Ahimaaz",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7722,9 +8107,12 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "writer"
    },
-   "line": "Appears in four books.",
+   "line": "Writer. Appears in four books.",
+   "wiki": "Shaphan",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -7745,7 +8133,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Hazarmaveth",
+   "wikiLang": "en"
   },
   "451": {
    "facts": {
@@ -7757,7 +8147,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Almodad",
+   "wikiLang": "en"
   },
   "452": {
    "facts": {
@@ -7769,7 +8161,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Gether",
+   "wikiLang": "en"
   },
   "453": {
    "facts": {
@@ -7782,7 +8176,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "wiki": "Araunah",
+   "wikiLang": "en"
   },
   "454": {
    "facts": {
@@ -7797,6 +8193,8 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Kehath",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -7820,8 +8218,10 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Gershon",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -7844,8 +8244,10 @@
     "gender": "Male"
    },
    "line": "Appears in five books.",
+   "wiki": "Kish (Bible)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7864,6 +8266,8 @@
     "gender": "Female"
    },
    "line": "Appears in Exodus.",
+   "wiki": "Elisheba",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -7884,7 +8288,9 @@
     "gender": "Male",
     "occupation": "official"
    },
-   "line": "Official. Appears in Isaiah."
+   "line": "Official. Appears in Isaiah.",
+   "wiki": "Rabshakeh",
+   "wikiLang": "en"
   },
   "459": {
    "facts": {
@@ -7928,6 +8334,8 @@
     "homeworld": "Bethlehem"
    },
    "line": "Prophet, Jewish people, of Bethlehem, of the Holy Trinity. Appears in 24 books.",
+   "wiki": "Jesus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -7959,6 +8367,8 @@
     "gender": "Male"
    },
    "line": "Appears in Esther.",
+   "wiki": "Abagtha",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -7982,6 +8392,8 @@
     "homeworld": "Pirathon"
    },
    "line": "Biblical judge, of Pirathon. Appears in I Chronicles and II Chronicles.",
+   "wiki": "Abdon (Judges)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -8013,6 +8425,8 @@
     ]
    },
    "line": "King of Judah, of the Kingdom of Judah. Appears in six books.",
+   "wiki": "Ahaz",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -8038,7 +8452,9 @@
      "Kingdom of Israel"
     ]
    },
-   "line": "King of Israel, of the Kingdom of Israel. Appears in II Kings."
+   "line": "King of Israel, of the Kingdom of Israel. Appears in II Kings.",
+   "wiki": "Menahem",
+   "wikiLang": "en"
   },
   "465": {
    "facts": {
@@ -8064,6 +8480,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in seven books.",
+   "wiki": "Uzziah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -8094,6 +8512,8 @@
     ]
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in five books.",
+   "wiki": "Omri",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -8124,6 +8544,8 @@
     ]
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in five books.",
+   "wiki": "Nadab of Israel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -8153,6 +8575,8 @@
     ]
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in four books.",
+   "wiki": "Baasha of Israel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -8183,6 +8607,8 @@
     "homeworld": "Samaria"
    },
    "line": "King of Israel, of Samaria, of the Kingdom of Israel. Appears in four books.",
+   "wiki": "Jehu",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -8218,6 +8644,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in 8 books.",
+   "wiki": "Josiah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -8247,6 +8675,8 @@
     ]
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in four books.",
+   "wiki": "Zimri (king)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -8277,6 +8707,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Judah, of Jerusalem, of the Kingdom of Judah. Appears in four books.",
+   "wiki": "Amaziah of Judah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -8307,8 +8739,10 @@
     ]
    },
    "line": "King of Judah, of the Kingdom of Judah. Appears in five books.",
+   "wiki": "Asa of Judah",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8328,7 +8762,9 @@
     "gender": "Male",
     "occupation": "criminal"
    },
-   "line": "Criminal. Appears in Matthew and Mark."
+   "line": "Criminal. Appears in Matthew and Mark.",
+   "wiki": "Barabbas",
+   "wikiLang": "en"
   },
   "475": {
    "facts": {
@@ -8347,6 +8783,8 @@
     "occupation": "shepherd"
    },
    "line": "Shepherd. Appears in seven books.",
+   "wiki": "Abel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -8381,6 +8819,8 @@
     "homeworld": "Kingdom of Judah"
    },
    "line": "King of Judah, of Kingdom of Judah. Appears in 8 books.",
+   "wiki": "Amon of Judah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -8404,7 +8844,9 @@
     ],
     "homeworld": "Naples"
    },
-   "line": "Procurator of Judea, of Naples. Appears in Acts."
+   "line": "Procurator of Judea, of Naples. Appears in Acts.",
+   "wiki": "Antonius Felix",
+   "wikiLang": "en"
   },
   "478": {
    "facts": {
@@ -8426,6 +8868,8 @@
     ]
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in five books.",
+   "wiki": "Elah (king)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -8458,6 +8902,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in five books.",
+   "wiki": "Jehoiakim",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 17,
     "nearest": {
@@ -8486,6 +8932,8 @@
     ]
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in three books.",
+   "wiki": "Hoshea",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 8,
     "nearest": {
@@ -8518,6 +8966,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in five books.",
+   "wiki": "Jeconiah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -8546,8 +8996,10 @@
     "occupation": "prophet"
    },
    "line": "Prophet. Appears in 8 books.",
+   "wiki": "Nathan (prophet)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8570,7 +9022,9 @@
     ],
     "homeworld": "Colossae"
    },
-   "line": "Ecumenical Patriarch of Constantinople, of Colossae. Appears in Colossians and Philemon."
+   "line": "Ecumenical Patriarch of Constantinople, of Colossae. Appears in Colossians and Philemon.",
+   "wiki": "Onesimus",
+   "wikiLang": "en"
   },
   "484": {
    "facts": {
@@ -8588,7 +9042,9 @@
     ],
     "homeworld": "Crete"
    },
-   "line": "Bishop, of Crete. Appears in four books."
+   "line": "Bishop, of Crete. Appears in four books.",
+   "wiki": "Saint Titus",
+   "wikiLang": "en"
   },
   "485": {
    "facts": {
@@ -8613,8 +9069,10 @@
     "homeworld": "Babylon"
    },
    "line": "Governor, Jewish people, of Babylon, of the Achaemenid Empire. Appears in six books.",
+   "wiki": "Zerubbabel",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8637,6 +9095,8 @@
     "homeworld": "Kiriath-Jearim"
    },
    "line": "Prophet, of Kiriath-Jearim. Appears in three books.",
+   "wiki": "Uriah (prophet)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -8661,8 +9121,10 @@
     "occupation": "kohen"
    },
    "line": "Kohen. Appears in four books.",
+   "wiki": "Abihu",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -8680,7 +9142,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Matthew."
+   "line": "Appears in Matthew.",
+   "wiki": "Abihud",
+   "wikiLang": "en"
   },
   "489": {
    "facts": {
@@ -8692,7 +9156,9 @@
     "gender": "Female",
     "homeworld": "Shunem"
    },
-   "line": "Of Shunem. Appears in I Kings."
+   "line": "Of Shunem. Appears in I Kings.",
+   "wiki": "Abishag",
+   "wikiLang": "en"
   },
   "490": {
    "facts": {
@@ -8714,8 +9180,10 @@
     ]
    },
    "line": "High Priest of Israel, Israelites, of the United Kingdom of Israel. Appears in four books.",
+   "wiki": "Abiathar",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8737,6 +9205,8 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Zerah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -8769,8 +9239,10 @@
     ]
    },
    "line": "High Priest of Israel, of the Kingdom of Judah. Appears in seven books.",
+   "wiki": "Hilkiah",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8788,7 +9260,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Joshua."
+   "line": "Appears in Joshua.",
+   "wiki": "Arba (biblical figure)",
+   "wikiLang": "en"
   },
   "494": {
    "facts": {
@@ -8855,9 +9329,12 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "poet"
    },
-   "line": "Appears in Psalms."
+   "line": "Poet. Appears in Psalms.",
+   "wiki": "Heman the Ezrahite",
+   "wikiLang": "en"
   },
   "498": {
    "facts": {
@@ -8869,7 +9346,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Abida (biblical figure)",
+   "wikiLang": "en"
   },
   "499": {
    "facts": {
@@ -8885,6 +9364,8 @@
     ]
    },
    "line": "Of the Edom. Appears in Genesis and I Kings.",
+   "wiki": "Basemath",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -8909,7 +9390,9 @@
      "King of Ammon"
     ]
    },
-   "line": "King of Ammon. Appears in three books."
+   "line": "King of Ammon. Appears in three books.",
+   "wiki": "Hanun",
+   "wikiLang": "en"
   },
   "501": {
    "facts": {
@@ -8927,6 +9410,8 @@
     "gender": "Male"
    },
    "line": "Appears in seven books.",
+   "wiki": "Nun (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 17,
     "nearest": {
@@ -8955,8 +9440,10 @@
     ]
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in three books.",
+   "wiki": "Pekah",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8986,6 +9473,8 @@
     ]
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in six books.",
+   "wiki": "Shallum of Israel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -9011,7 +9500,9 @@
      "Kingdom of Israel"
     ]
    },
-   "line": "King of Israel, of the Kingdom of Israel. Appears in II Kings."
+   "line": "King of Israel, of the Kingdom of Israel. Appears in II Kings.",
+   "wiki": "Pekahiah",
+   "wikiLang": "en"
   },
   "505": {
    "facts": {
@@ -9027,7 +9518,9 @@
     ],
     "homeworld": "Alexandria"
    },
-   "line": "Apostle, of Alexandria. Appears in Acts and I Corinthians."
+   "line": "Apostle, of Alexandria. Appears in Acts and I Corinthians.",
+   "wiki": "Apollos",
+   "wikiLang": "en"
   },
   "506": {
    "facts": {
@@ -9038,7 +9531,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "wiki": "Irad, Son of Enoch",
+   "wikiLang": "en"
   },
   "507": {
    "facts": {
@@ -9062,6 +9557,8 @@
     "homeworld": "Bethsaida"
    },
    "line": "Pope, of Bethsaida. Appears in 9 books.",
+   "wiki": "Saint Peter",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -9084,10 +9581,13 @@
     "unit": "book",
     "corpusSize": 66,
     "gender": "Female",
+    "occupation": "seamster",
     "species": "Jewish people",
     "homeworld": "Herodian Kingdom of Judea"
    },
-   "line": "Jewish people, of Herodian Kingdom of Judea. Appears in five books.",
+   "line": "Seamster, Jewish people, of Herodian Kingdom of Judea. Appears in five books.",
+   "wiki": "Mary, mother of Jesus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -9110,7 +9610,9 @@
      "king"
     ]
    },
-   "line": "King. Appears in I Chronicles."
+   "line": "King. Appears in I Chronicles.",
+   "wiki": "Mesha",
+   "wikiLang": "en"
   },
   "510": {
    "facts": {
@@ -9121,7 +9623,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Acts."
+   "line": "Appears in Acts.",
+   "wiki": "Tertullus",
+   "wikiLang": "en"
   },
   "511": {
    "facts": {
@@ -9182,9 +9686,14 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Female"
+    "gender": "Female",
+    "titles": [
+     "queen"
+    ]
    },
-   "line": "Appears in Judges and II Samuel."
+   "line": "Queen. Appears in Judges and II Samuel.",
+   "wiki": "Abijah (queen)",
+   "wikiLang": "en"
   },
   "515": {
    "facts": {
@@ -9204,6 +9713,8 @@
     "homeworld": "Hebron"
    },
    "line": "Hebrews, of Hebron, of the United Kingdom of Israel. Appears in four books.",
+   "wiki": "Adonijah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -9227,6 +9738,8 @@
     "homeworld": "Hebron"
    },
    "line": "Hebrews, of Hebron. Appears in II Samuel and I Chronicles.",
+   "wiki": "Amnon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 8,
     "nearest": {
@@ -9252,6 +9765,8 @@
     ]
    },
    "line": "High Priest of Israel. Appears in three books.",
+   "wiki": "Eli (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -9271,7 +9786,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Ruth."
+   "line": "Appears in Ruth.",
+   "wiki": "Elimelech",
+   "wikiLang": "en"
   },
   "519": {
    "facts": {
@@ -9322,6 +9839,8 @@
     "homeworld": "Jerusalem"
    },
    "line": "King of Israel, Israelites, of Jerusalem, of the United Kingdom of Israel. Appears in 11 books.",
+   "wiki": "Solomon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -9345,7 +9864,9 @@
      "Edom"
     ]
    },
-   "line": "Yemenite Jews, of the Edom. Appears in Job."
+   "line": "Yemenite Jews, of the Edom. Appears in Job.",
+   "wiki": "Eliphaz (Job)",
+   "wikiLang": "en"
   },
   "522": {
    "facts": {
@@ -9367,7 +9888,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Job."
+   "line": "Appears in Job.",
+   "wiki": "Zophar",
+   "wikiLang": "en"
   },
   "524": {
    "facts": {
@@ -9379,7 +9902,9 @@
     "gender": "Male",
     "occupation": "monarch"
    },
-   "line": "Monarch. Appears in I Samuel."
+   "line": "Monarch. Appears in I Samuel.",
+   "wiki": "Agag",
+   "wikiLang": "en"
   },
   "525": {
    "facts": {
@@ -9400,8 +9925,10 @@
     ]
    },
    "line": "High Priest of Israel, of the United Kingdom of Israel. Appears in four books.",
+   "wiki": "Ahimelech",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -9464,6 +9991,8 @@
     "homeworld": "Aram-Naharaim"
    },
    "line": "Of Aram-Naharaim. Appears in Genesis and Romans.",
+   "wiki": "Rebecca (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -9484,7 +10013,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and Psalms."
+   "line": "Appears in Genesis and Psalms.",
+   "wiki": "Lot (biblical person)",
+   "wikiLang": "en"
   },
   "530": {
    "facts": {
@@ -9498,7 +10029,9 @@
      "minister"
     ]
    },
-   "line": "Minister. Appears in I Kings."
+   "line": "Minister. Appears in I Kings.",
+   "wiki": "Adoniram",
+   "wikiLang": "en"
   },
   "531": {
    "facts": {
@@ -9540,6 +10073,8 @@
     "homeworld": "Bethlehem"
    },
    "line": "King of Israel, Jewish people, of Bethlehem, of the United Kingdom of Israel. Appears in 23 books.",
+   "wiki": "David",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -9585,7 +10120,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in II Kings and II Chronicles."
+   "line": "Appears in II Kings and II Chronicles.",
+   "wiki": "Jehosheba",
+   "wikiLang": "en"
   },
   "534": {
    "facts": {
@@ -9595,9 +10132,12 @@
     "unit": "book",
     "corpusSize": 66,
     "gender": "Male",
+    "occupation": "writer",
     "homeworld": "Ephesus"
    },
-   "line": "Of Ephesus. Appears in Acts."
+   "line": "Writer, of Ephesus. Appears in Acts.",
+   "wiki": "Trophimus",
+   "wikiLang": "en"
   },
   "535": {
    "facts": {
@@ -9610,6 +10150,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and Luke.",
+   "wiki": "Cainan",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -9631,6 +10173,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Zibeon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -9692,7 +10236,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Nehemiah."
+   "line": "Appears in Nehemiah.",
+   "wiki": "Geshem the Arabian",
+   "wikiLang": "en"
   },
   "540": {
    "facts": {
@@ -9712,7 +10258,7 @@
    },
    "line": "Prophet. Appears in seven books.",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9730,7 +10276,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel."
+   "line": "Appears in II Samuel.",
+   "wiki": "Uzzah",
+   "wikiLang": "en"
   },
   "542": {
    "facts": {
@@ -9751,6 +10299,8 @@
     "homeworld": "Bethsaida"
    },
    "line": "Ecumenical Patriarch of Constantinople, Jewish people, of Bethsaida. Appears in five books.",
+   "wiki": "Andrew the Apostle",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -9778,6 +10328,8 @@
     "homeworld": "Galilee"
    },
    "line": "Apostle, of Galilee. Appears in four books.",
+   "wiki": "Matthew the Apostle",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -9801,7 +10353,9 @@
     ],
     "homeworld": "Galilee"
    },
-   "line": "Apostle, of Galilee. Appears in John."
+   "line": "Apostle, of Galilee. Appears in John.",
+   "wiki": "Thomas the Apostle",
+   "wikiLang": "en"
   },
   "545": {
    "facts": {
@@ -9820,8 +10374,10 @@
     "homeworld": "Cana"
    },
    "line": "Apostle, of Cana. Appears in four books.",
+   "wiki": "Bartholomew the Apostle",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9854,6 +10410,8 @@
     "homeworld": "Bethsaida"
    },
    "line": "Apostle, Jewish people, of Bethsaida, of the Boanerges. Appears in seven books.",
+   "wiki": "James the Great",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 29,
     "nearest": {
@@ -9917,6 +10475,8 @@
     ]
    },
    "line": "Queen consort, of the United Kingdom of Israel. Appears in three books.",
+   "wiki": "Abigail",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -9938,7 +10498,9 @@
     "gender": "Male",
     "occupation": "farmer"
    },
-   "line": "Farmer. Appears in I Kings and II Kings."
+   "line": "Farmer. Appears in I Kings and II Kings.",
+   "wiki": "Naboth",
+   "wikiLang": "en"
   },
   "552": {
    "facts": {
@@ -9984,8 +10546,10 @@
     ]
    },
    "line": "Jewish people, of the United Kingdom of Israel. Appears in 10 books.",
+   "wiki": "Jesse (biblical figure)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10007,6 +10571,8 @@
     "homeworld": "Ur"
    },
    "line": "Of Ur. Appears in three books.",
+   "wiki": "Arpachshad",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -10029,8 +10595,10 @@
     "homeworld": "Canaan"
    },
    "line": "Religious leader, of Canaan. Appears in Genesis.",
+   "wiki": "Benjamin",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10059,6 +10627,8 @@
     "homeworld": "Samaria"
    },
    "line": "King of Judah, Israelites, of Samaria, of the Kingdom of Judah. Appears in three books.",
+   "wiki": "Athaliah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -10081,7 +10651,9 @@
      "procurator of Judea"
     ]
    },
-   "line": "Procurator of Judea. Appears in Acts."
+   "line": "Procurator of Judea. Appears in Acts.",
+   "wiki": "Porcius Festus",
+   "wikiLang": "en"
   },
   "558": {
    "facts": {
@@ -10110,7 +10682,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Judges."
+   "line": "Appears in Judges.",
+   "wiki": "Abinoam",
+   "wikiLang": "en"
   },
   "560": {
    "facts": {
@@ -10121,7 +10695,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "wiki": "Abishur",
+   "wikiLang": "en"
   },
   "561": {
    "facts": {
@@ -10133,7 +10709,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Numbers and I Chronicles."
+   "line": "Appears in Numbers and I Chronicles.",
+   "wiki": "Ahiezer (biblical figure)",
+   "wikiLang": "en"
   },
   "562": {
    "facts": {
@@ -10147,6 +10725,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Ahikam",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 29,
     "nearest": {
@@ -10174,8 +10754,10 @@
     ]
    },
    "line": "High Priest of Israel. Appears in five books.",
+   "wiki": "Ahitub (High Priest)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10197,6 +10779,8 @@
     "species": "Hebrews"
    },
    "line": "Hebrews. Appears in three books.",
+   "wiki": "Elihu (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -10219,6 +10803,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Amoz",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -10242,6 +10828,8 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Amram",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -10267,6 +10855,8 @@
     "occupation": "prophet"
    },
    "line": "Prophet. Appears in five books.",
+   "wiki": "Obadiah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -10298,6 +10888,8 @@
     ]
    },
    "line": "Prophet, of the Kingdom of Judah. Appears in 8 books.",
+   "wiki": "Azariah (prophet)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -10323,6 +10915,8 @@
     ]
    },
    "line": "Of the Kingdom of Judah. Appears in three books.",
+   "wiki": "Azubah (mother of Jehoshaphat)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -10347,6 +10941,8 @@
     "gender": "Male"
    },
    "line": "Appears in five books.",
+   "wiki": "Beor (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -10372,6 +10968,8 @@
     "gender": "Male"
    },
    "line": "Appears in six books.",
+   "wiki": "Hur (Bible)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -10391,7 +10989,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "wiki": "Bunah",
+   "wikiLang": "en"
   },
   "573": {
    "facts": {
@@ -10407,6 +11007,8 @@
     "homeworld": "Ur"
    },
    "line": "Of Ur. Appears in four books.",
+   "wiki": "Eber",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 19,
     "nearest": {
@@ -10447,6 +11049,8 @@
     "homeworld": "Ancient Egypt"
    },
    "line": "High Priest of Israel, Israelites, of Ancient Egypt. Appears in 16 books.",
+   "wiki": "Aaron",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -10467,7 +11071,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Dumah (son of Ishmael)",
+   "wikiLang": "en"
   },
   "576": {
    "facts": {
@@ -10481,7 +11087,9 @@
     "gender": "Male",
     "occupation": "biblical judge"
    },
-   "line": "Biblical judge. Appears in three books."
+   "line": "Biblical judge. Appears in three books.",
+   "wiki": "Othniel",
+   "wikiLang": "en"
   },
   "577": {
    "facts": {
@@ -10494,6 +11102,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Ephah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -10515,8 +11125,10 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Epher",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10540,7 +11152,9 @@
     "species": "Jewish people",
     "homeworld": "Bethany"
    },
-   "line": "Bishop, Jewish people, of Bethany. Appears in Luke and John."
+   "line": "Bishop, Jewish people, of Bethany. Appears in Luke and John.",
+   "wiki": "Lazarus of Bethany",
+   "wikiLang": "en"
   },
   "580": {
    "facts": {
@@ -10551,7 +11165,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "wiki": "Ethni",
+   "wikiLang": "en"
   },
   "581": {
    "facts": {
@@ -10563,7 +11179,9 @@
     "gender": "Male",
     "homeworld": "Carrhae"
    },
-   "line": "Of Carrhae. Appears in Genesis."
+   "line": "Of Carrhae. Appears in Genesis.",
+   "wiki": "Dan (son of Jacob)",
+   "wikiLang": "en"
   },
   "582": {
    "facts": {
@@ -10588,7 +11206,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "wiki": "Hadoram",
+   "wikiLang": "en"
   },
   "584": {
    "facts": {
@@ -10605,8 +11225,10 @@
     ]
    },
    "line": "Of the United Kingdom of Israel. Appears in three books.",
+   "wiki": "Haggith",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -10656,6 +11278,8 @@
     ]
    },
    "line": "Prophet, of the Moab. Appears in six books.",
+   "wiki": "Balaam",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -10677,7 +11301,9 @@
     "gender": "Female",
     "occupation": "prophet"
    },
-   "line": "Prophet. Appears in II Kings and II Chronicles."
+   "line": "Prophet. Appears in II Kings and II Chronicles.",
+   "wiki": "Huldah",
+   "wikiLang": "en"
   },
   "589": {
    "facts": {
@@ -10691,8 +11317,10 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Terah",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -10721,7 +11349,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Daniel."
+   "line": "Appears in Daniel.",
+   "wiki": "Shadrach (person)",
+   "wikiLang": "en"
   },
   "592": {
    "facts": {
@@ -10733,7 +11363,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Exodus and Numbers."
+   "line": "Appears in Exodus and Numbers.",
+   "wiki": "Jochebed",
+   "wikiLang": "en"
   },
   "593": {
    "facts": {
@@ -10746,6 +11378,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Ishbak",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -10766,7 +11400,9 @@
     "gender": "Male",
     "occupation": "spy"
    },
-   "line": "Spy. Appears in II Samuel."
+   "line": "Spy. Appears in II Samuel.",
+   "wiki": "Hushai",
+   "wikiLang": "en"
   },
   "595": {
    "facts": {
@@ -10790,6 +11426,8 @@
     "homeworld": "Media"
    },
    "line": "King, Medes, of Media, of the Babylonia. Appears in four books.",
+   "wiki": "Darius the Mede",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -10810,7 +11448,9 @@
     "gender": "Female",
     "homeworld": "Mesopotamia"
    },
-   "line": "Of Mesopotamia. Appears in Genesis."
+   "line": "Of Mesopotamia. Appears in Genesis.",
+   "wiki": "Iscah",
+   "wikiLang": "en"
   },
   "597": {
    "facts": {
@@ -10821,7 +11461,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "wiki": "Jada (biblical figure)",
+   "wikiLang": "en"
   },
   "598": {
    "facts": {
@@ -10834,6 +11476,8 @@
     "homeworld": "Paddan Aram"
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
+   "wiki": "Zebulun",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -10856,7 +11500,9 @@
      "Kingdom of Israel"
     ]
    },
-   "line": "Of the Kingdom of Israel. Appears in II Kings."
+   "line": "Of the Kingdom of Israel. Appears in II Kings.",
+   "wiki": "Jehonadab",
+   "wikiLang": "en"
   },
   "600": {
    "facts": {
@@ -10873,6 +11519,8 @@
     "occupation": "priest"
    },
    "line": "Priest. Appears in five books.",
+   "wiki": "Jehozadak",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -10896,6 +11544,8 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Jeroham",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 29,
     "nearest": {
@@ -10932,6 +11582,8 @@
     "homeworld": "Paddan Aram"
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
+   "wiki": "Reuben (son of Jacob)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -10958,6 +11610,8 @@
     ]
    },
    "line": "High Priest of Israel, of the Achaemenid Empire. Appears in Nehemiah.",
+   "wiki": "Joiada",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -10979,8 +11633,10 @@
     "gender": "Male"
    },
    "line": "Appears in II Samuel and Jeremiah.",
+   "wiki": "Jonadab",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -11002,7 +11658,9 @@
     ],
     "species": "Midianites"
    },
-   "line": "Prophet, Midianites. Appears in Exodus."
+   "line": "Prophet, Midianites. Appears in Exodus.",
+   "wiki": "Jethro (biblical figure)",
+   "wikiLang": "en"
   },
   "607": {
    "facts": {
@@ -11019,8 +11677,10 @@
     "homeworld": "Magdala"
    },
    "line": "Caregiver, of Magdala. Appears in four books.",
+   "wiki": "Mary Magdalene",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -11064,6 +11724,8 @@
     ]
    },
    "line": "Agagite, of the Persis. Appears in Esther.",
+   "wiki": "Haman",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -11097,6 +11759,8 @@
     "homeworld": "Paddan Aram"
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
+   "wiki": "Issachar",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -11229,7 +11893,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "wiki": "Hatach",
+   "wikiLang": "en"
   },
   "621": {
    "facts": {
@@ -11251,6 +11917,8 @@
     "homeworld": "Ramathaim-Zophim"
    },
    "line": "Prophet, Israelites, of Ramathaim-Zophim. Appears in six books.",
+   "wiki": "Samuel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -11292,6 +11960,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Onan",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -11313,7 +11983,9 @@
     "occupation": "prophet",
     "homeworld": "United Kingdom of Israel"
    },
-   "line": "Prophet, of United Kingdom of Israel. Appears in Hosea."
+   "line": "Prophet, of United Kingdom of Israel. Appears in Hosea.",
+   "wiki": "Hosea",
+   "wikiLang": "en"
   },
   "625": {
    "facts": {
@@ -11342,9 +12014,10 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "writer"
    },
-   "line": "Appears in Jeremiah.",
+   "line": "Writer. Appears in Jeremiah.",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -11365,7 +12038,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Lotan, son of Seir",
+   "wikiLang": "en"
   },
   "628": {
    "facts": {
@@ -11402,8 +12077,10 @@
     "homeworld": "Canaan"
    },
    "line": "Prophet, of Canaan, of the Patriarchs. Appears in 19 books.",
+   "wiki": "Isaac",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -11463,6 +12140,8 @@
     "gender": "Male"
    },
    "line": "Appears in I Chronicles.",
+   "wiki": "Mered",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -11485,7 +12164,9 @@
     "gender": "Male",
     "homeworld": "Mesopotamia"
    },
-   "line": "Of Mesopotamia. Appears in three books."
+   "line": "Of Mesopotamia. Appears in three books.",
+   "wiki": "Enos (biblical figure)",
+   "wikiLang": "en"
   },
   "633": {
    "facts": {
@@ -11497,8 +12178,10 @@
     "corpusSize": 66
    },
    "line": "Appears in Ezra and Nehemiah.",
+   "wiki": "Mizpar",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11520,7 +12203,9 @@
      "Edom"
     ]
    },
-   "line": "Of the Edom. Appears in Genesis and I Chronicles."
+   "line": "Of the Edom. Appears in Genesis and I Chronicles.",
+   "wiki": "Mizzah",
+   "wikiLang": "en"
   },
   "635": {
    "facts": {
@@ -11537,6 +12222,8 @@
     ]
    },
    "line": "King of Ammon. Appears in three books.",
+   "wiki": "Nahash of Ammon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -11564,6 +12251,8 @@
     "occupation": "rabbi"
    },
    "line": "Rabbi. Appears in seven books.",
+   "wiki": "Shimei ben Gera",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -11584,6 +12273,8 @@
     "gender": "Male"
    },
    "line": "Appears in Jeremiah.",
+   "wiki": "Neriah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -11604,7 +12295,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Omar (biblical figure)",
+   "wikiLang": "en"
   },
   "639": {
    "facts": {
@@ -11623,8 +12316,10 @@
     "occupation": "prophet of Islam"
    },
    "line": "Prophet of Islam. Appears in seven books.",
+   "wiki": "Adam",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -11646,7 +12341,9 @@
     ],
     "homeworld": "Colossae"
    },
-   "line": "Apostle, of Colossae. Appears in Philemon."
+   "line": "Apostle, of Colossae. Appears in Philemon.",
+   "wiki": "Philemon (biblical figure)",
+   "wikiLang": "en"
   },
   "641": {
    "facts": {
@@ -11657,7 +12354,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in John."
+   "line": "Appears in John.",
+   "wiki": "Cleopas",
+   "wikiLang": "en"
   },
   "642": {
    "facts": {
@@ -11674,7 +12373,9 @@
      "Hatti"
     ]
    },
-   "line": "Biblical Hittites, of the David's Mighty Warriors. Appears in II Samuel and I Kings."
+   "line": "Biblical Hittites, of the David's Mighty Warriors. Appears in II Samuel and I Kings.",
+   "wiki": "Uriah the Hittite",
+   "wikiLang": "en"
   },
   "643": {
    "facts": {
@@ -11689,6 +12390,8 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Pashhur",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 29,
     "nearest": {
@@ -11714,7 +12417,9 @@
      "Aram-Damascus"
     ]
    },
-   "line": "King, of the Aram-Damascus. Appears in II Samuel."
+   "line": "King, of the Aram-Damascus. Appears in II Samuel.",
+   "wiki": "Hadadezer",
+   "wikiLang": "en"
   },
   "645": {
    "facts": {
@@ -11734,8 +12439,10 @@
     "homeworld": "Sidon"
    },
    "line": "Queen consort, of Sidon, of the Kingdom of Israel. Appears in I Kings and II Kings.",
+   "wiki": "Jezebel",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11753,7 +12460,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "wiki": "Asenath",
+   "wikiLang": "en"
   },
   "647": {
    "facts": {
@@ -11763,7 +12472,9 @@
     "unit": "book",
     "corpusSize": 66
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "wiki": "Ramathite",
+   "wikiLang": "en"
   },
   "648": {
    "facts": {
@@ -11773,9 +12484,14 @@
     "unit": "book",
     "corpusSize": 66,
     "gender": "Female",
+    "titles": [
+     "princess"
+    ],
     "homeworld": "Achaemenid Empire"
    },
-   "line": "Of Achaemenid Empire. Appears in Esther."
+   "line": "Princess, of Achaemenid Empire. Appears in Esther.",
+   "wiki": "Esther",
+   "wikiLang": "en"
   },
   "649": {
    "facts": {
@@ -11788,6 +12504,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Jokshan",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -11821,6 +12539,8 @@
     "homeworld": "Gibeah"
    },
    "line": "Prince, of Gibeah, of the United Kingdom of Israel. Appears in seven books.",
+   "wiki": "Jonathan (1 Samuel)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -11843,6 +12563,8 @@
     "occupation": "comptroller"
    },
    "line": "Comptroller. Appears in II Kings and Isaiah.",
+   "wiki": "Shebna",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -11863,7 +12585,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis and I Chronicles."
+   "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Sheleph",
+   "wikiLang": "en"
   },
   "653": {
    "facts": {
@@ -11878,7 +12602,9 @@
      "pharaoh"
     ]
    },
-   "line": "Pharaoh. Appears in I Kings and II Chronicles."
+   "line": "Pharaoh. Appears in I Kings and II Chronicles.",
+   "wiki": "Shishak",
+   "wikiLang": "en"
   },
   "654": {
    "facts": {
@@ -11892,7 +12618,9 @@
      "stadtholder"
     ]
    },
-   "line": "Stadtholder. Appears in Nehemiah."
+   "line": "Stadtholder. Appears in Nehemiah.",
+   "wiki": "Sanballat the Horonite",
+   "wikiLang": "en"
   },
   "655": {
    "facts": {
@@ -11901,9 +12629,12 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "gender": "Male"
+    "gender": "Male",
+    "occupation": "writer"
    },
-   "line": "Appears in I Corinthians."
+   "line": "Writer. Appears in I Corinthians.",
+   "wiki": "Stephanas",
+   "wikiLang": "en"
   },
   "656": {
    "facts": {
@@ -11928,8 +12659,10 @@
     "homeworld": "Land of Goshen"
    },
    "line": "Prophet, Tribe of Ephraim, of Land of Goshen. Appears in 9 books.",
+   "wiki": "Joshua",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -11947,7 +12680,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Genesis."
+   "line": "Appears in Genesis.",
+   "wiki": "Tidal (king)",
+   "wikiLang": "en"
   },
   "658": {
    "facts": {
@@ -11966,7 +12701,9 @@
     ],
     "homeworld": "Earth"
    },
-   "line": "King, of Earth, of the Hamath. Appears in II Samuel and I Chronicles."
+   "line": "King, of Earth, of the Hamath. Appears in II Samuel and I Chronicles.",
+   "wiki": "Tou (biblical figure)",
+   "wikiLang": "en"
   },
   "659": {
    "facts": {
@@ -11987,6 +12724,8 @@
     "homeworld": "Land of Israel"
    },
    "line": "High Priest of Israel, of Land of Israel, of the Achaemenid Empire. Appears in three books.",
+   "wiki": "Joshua the High Priest",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -12008,6 +12747,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Zimran",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -12030,6 +12771,8 @@
     "occupation": "domestic worker"
    },
    "line": "Domestic worker. Appears in Genesis and I Chronicles.",
+   "wiki": "Bilhah",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -12071,7 +12814,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in I Kings."
+   "line": "Appears in I Kings.",
+   "wiki": "Zeruah",
+   "wikiLang": "en"
   },
   "664": {
    "facts": {
@@ -12082,7 +12827,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in II Samuel."
+   "line": "Appears in II Samuel.",
+   "wiki": "Ziba (biblical figure)",
+   "wikiLang": "en"
   },
   "665": {
    "facts": {
@@ -12097,7 +12844,9 @@
      "Kingdom of Judah"
     ]
    },
-   "line": "Of the Kingdom of Judah. Appears in II Kings and II Chronicles."
+   "line": "Of the Kingdom of Judah. Appears in II Kings and II Chronicles.",
+   "wiki": "Zibiah",
+   "wikiLang": "en"
   },
   "666": {
    "facts": {
@@ -12111,8 +12860,10 @@
     "occupation": "biblical judge"
    },
    "line": "Biblical judge. Appears in Judges and Hebrews.",
+   "wiki": "Barak",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -12130,7 +12881,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "wiki": "Zophah",
+   "wikiLang": "en"
   },
   "668": {
    "facts": {
@@ -12150,7 +12903,9 @@
     ],
     "homeworld": "Judaea"
    },
-   "line": "Apostle, Jewish people, of Judaea. Appears in Luke and John."
+   "line": "Apostle, Jewish people, of Judaea. Appears in Luke and John.",
+   "wiki": "Judas Iscariot",
+   "wikiLang": "en"
   },
   "669": {
    "facts": {
@@ -12168,8 +12923,10 @@
     "homeworld": "Mesopotamia"
    },
    "line": "Prophet, of Mesopotamia. Appears in five books.",
+   "wiki": "Noah",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12194,7 +12951,7 @@
    },
    "line": "Military leader. Appears in five books.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12216,7 +12973,9 @@
     "occupation": "assistant",
     "homeworld": "Garden of Eden"
    },
-   "line": "Assistant, of Garden of Eden. Appears in three books."
+   "line": "Assistant, of Garden of Eden. Appears in three books.",
+   "wiki": "Eve",
+   "wikiLang": "en"
   },
   "672": {
    "facts": {
@@ -12229,8 +12988,10 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis and Deuteronomy.",
+   "wiki": "Laban (Bible)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -12259,8 +13020,10 @@
     "homeworld": "Anshan Persia"
    },
    "line": "Great King, of Anshan Persia, of the Achaemenid Empire. Appears in three books.",
+   "wiki": "Cyrus the Great",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12278,7 +13041,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in I Chronicles."
+   "line": "Appears in I Chronicles.",
+   "wiki": "Kenan",
+   "wikiLang": "en"
   },
   "675": {
    "facts": {
@@ -12290,6 +13055,8 @@
     "gender": "Male"
    },
    "line": "Appears in II Samuel.",
+   "wiki": "Mephibosheth",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -12310,6 +13077,8 @@
     "gender": "Male"
    },
    "line": "Appears in Genesis.",
+   "wiki": "Gad (son of Jacob)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -12583,7 +13352,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12617,6 +13386,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Libni",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -12826,7 +13597,9 @@
     ],
     "homeworld": "Damascus"
    },
-   "line": "King, of Damascus. Appears in II Kings and Isaiah."
+   "line": "King, of Damascus. Appears in II Kings and Isaiah.",
+   "wiki": "Rezin",
+   "wikiLang": "en"
   },
   "703": {
    "facts": {
@@ -12844,8 +13617,10 @@
     ]
    },
    "line": "King. Appears in four books.",
+   "wiki": "Sihon",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -12869,7 +13644,9 @@
      "Kingdom of Israel"
     ]
    },
-   "line": "King of Israel, of the Kingdom of Israel. Appears in I Kings."
+   "line": "King of Israel, of the Kingdom of Israel. Appears in I Kings.",
+   "wiki": "Tibni",
+   "wikiLang": "en"
   },
   "705": {
    "facts": {
@@ -12882,7 +13659,9 @@
     "gender": "Male",
     "homeworld": "Ur Kaśdim"
    },
-   "line": "Of Ur Kaśdim. Appears in Joshua and Luke."
+   "line": "Of Ur Kaśdim. Appears in Joshua and Luke.",
+   "wiki": "Nahor, son of Serug",
+   "wikiLang": "en"
   },
   "706": {
    "facts": {
@@ -12930,6 +13709,8 @@
     "homeworld": "Helwan"
    },
    "line": "Prophet, Israelites, of Helwan. Appears in 21 books.",
+   "wiki": "Moses",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -12951,8 +13732,10 @@
     "gender": "Female"
    },
    "line": "Appears in Genesis and I Chronicles.",
+   "wiki": "Keturah",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -12996,6 +13779,8 @@
     ]
    },
    "line": "Prophet. Appears in 23 books.",
+   "wiki": "Abraham",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -13033,6 +13818,8 @@
     "homeworld": "Tarsus"
    },
    "line": "Apostle, of Tarsus. Appears in 14 books.",
+   "wiki": "Paul the Apostle",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -13060,6 +13847,8 @@
     "species": "Israelites"
    },
    "line": "Spy, Israelites. Appears in six books.",
+   "wiki": "Caleb",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -13095,6 +13884,8 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Jared (biblical figure)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -13125,7 +13916,7 @@
    },
    "line": "Of Hebron, of the United Kingdom of Israel. Appears in six books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13143,7 +13934,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Esther."
+   "line": "Appears in Esther.",
+   "wiki": "Zeresh",
+   "wikiLang": "en"
   },
   "716": {
    "facts": {
@@ -13154,7 +13947,9 @@
     "corpusSize": 66,
     "gender": "Male"
    },
-   "line": "Appears in Ezra."
+   "line": "Appears in Ezra.",
+   "wiki": "Sheshbazzar",
+   "wikiLang": "en"
   },
   "717": {
    "facts": {
@@ -13165,7 +13960,9 @@
     "corpusSize": 66,
     "gender": "Female"
    },
-   "line": "Appears in Judges."
+   "line": "Appears in Judges.",
+   "wiki": "Jael",
+   "wikiLang": "en"
   },
   "718": {
    "facts": {
@@ -13251,7 +14048,9 @@
     "gender": "Male",
     "occupation": "military leader"
    },
-   "line": "Military leader. Appears in three books."
+   "line": "Military leader. Appears in three books.",
+   "wiki": "Sisera",
+   "wikiLang": "en"
   },
   "723": {
    "facts": {
@@ -13263,7 +14062,9 @@
     "gender": "Male",
     "occupation": "valet"
    },
-   "line": "Valet. Appears in II Kings."
+   "line": "Valet. Appears in II Kings.",
+   "wiki": "Gehazi",
+   "wikiLang": "en"
   },
   "724": {
    "facts": {
@@ -13277,7 +14078,9 @@
      "apostle"
     ]
    },
-   "line": "Apostle. Appears in II Timothy."
+   "line": "Apostle. Appears in II Timothy.",
+   "wiki": "Crescens",
+   "wikiLang": "en"
   },
   "725": {
    "facts": {
@@ -13295,7 +14098,9 @@
     ],
     "homeworld": "Achaea Regional Unit"
    },
-   "line": "Apostle, of Achaea Regional Unit, of the seventy disciples. Appears in I Corinthians."
+   "line": "Apostle, of Achaea Regional Unit, of the seventy disciples. Appears in I Corinthians.",
+   "wiki": "Achaicus of Corinth",
+   "wikiLang": "en"
   }
  },
  "edges": {
@@ -47599,9 +48404,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Bible",
+ "workWikiLang": "en"
 }

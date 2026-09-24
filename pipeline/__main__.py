@@ -18,6 +18,7 @@ from .canon.normalise import (
 from .analyse import difficulty, starts
 from .emit import writer
 from .enrich import facts as enrich_facts
+from .enrich import wikidata
 from .sources import SOURCES
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -105,6 +106,7 @@ def build(names: list[str], out: Path) -> int:
                 meta_sources,
                 out,
                 scores=difficulty.score(world, playable, corpus_index, shape_index),
+                work_wiki=wikidata.work_sitelink(name),
             )
 
             summary["metaFile"] = meta["file"]

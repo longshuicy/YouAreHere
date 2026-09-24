@@ -12,7 +12,9 @@
     "role": "General of the Volscians",
     "gender": "Male"
    },
-   "line": "General of the Volscians."
+   "line": "General of the Volscians.",
+   "wiki": "Attius Tullius",
+   "wikiLang": "en"
   },
   "1": {
    "facts": {
@@ -25,6 +27,8 @@
     "gender": "Male"
    },
    "line": "Patrician and general.",
+   "wiki": "Postumus Cominius Auruncus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -47,6 +51,8 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Later Caius Martius Coriolanus, of Ancient Rome.",
+   "wiki": "Gnaeus Marcius Coriolanus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -100,7 +106,9 @@
     "role": "Patrician and military officer",
     "gender": "Male"
    },
-   "line": "Patrician and military officer."
+   "line": "Patrician and military officer.",
+   "wiki": "Titus Larcius",
+   "wikiLang": "en"
   },
   "6": {
    "facts": {
@@ -114,6 +122,8 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Patrician, of Ancient Rome.",
+   "wiki": "Agrippa Menenius Lanatus (consul 503 BC)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 27,
     "nearest": {
@@ -135,6 +145,8 @@
     "gender": "Male"
    },
    "line": "Tribune.",
+   "wiki": "Lucius Junius Brutus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -157,6 +169,8 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Tribune, of Ancient Rome.",
+   "wiki": "Lucius Sicinius Vellutus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -199,6 +213,8 @@
     "gender": "Female"
    },
    "line": "His wife.",
+   "wiki": "Virgilia",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -228,7 +244,9 @@
      "name": "Roderigo",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Volumnia",
+   "wikiLang": "en"
   },
   "12": {
    "facts": {
@@ -784,7 +802,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

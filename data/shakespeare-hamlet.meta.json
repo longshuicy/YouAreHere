@@ -32,6 +32,8 @@
     "role": "King, Brother to the late King Hamlet"
    },
    "line": "King, Brother to the late King Hamlet.",
+   "wiki": "King Claudius",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -72,6 +74,8 @@
     "role": "Prince of Norway"
    },
    "line": "Prince of Norway.",
+   "wiki": "Fortinbras",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 9,
     "nearest": {
@@ -103,6 +107,8 @@
     "gender": "Female"
    },
    "line": "Queen, Widow of King Hamlet, now married to Claudius.",
+   "wiki": "Gertrude (Hamlet)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -125,7 +131,9 @@
      "king"
     ]
    },
-   "line": "King."
+   "line": "King.",
+   "wiki": "Ghost (Hamlet)",
+   "wikiLang": "en"
   },
   "7": {
    "facts": {
@@ -157,6 +165,8 @@
     "gender": "Male"
    },
    "line": "Prince of Denmark, son of the late King Hamlet and Queen Gertrude.",
+   "wiki": "Prince Hamlet",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -178,6 +188,8 @@
     "role": "Hamlet’s friend and confidant"
    },
    "line": "Hamlet’s friend and confidant.",
+   "wiki": "Horatio (Hamlet)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -199,6 +211,8 @@
     "role": "Her brother"
    },
    "line": "Her brother.",
+   "wiki": "Laertes (Hamlet)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -239,6 +253,8 @@
     "role": "daughter of Polonius"
    },
    "line": "Daughter of Polonius.",
+   "wiki": "Ophelia",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -287,7 +303,9 @@
      "name": "Antipholus of Syracuse",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Polonius",
+   "wikiLang": "en"
   },
   "15": {
    "facts": {
@@ -1241,7 +1259,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

@@ -17,8 +17,10 @@
     "homeworld": "Nantes"
    },
    "line": "Duke of Brittany, her son, of Nantes, of the Duchy of Brittany.",
+   "wiki": "Arthur I of Brittany",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -38,8 +40,10 @@
     "role": "Duke of Austria Limoges, (also called Limoges)"
    },
    "line": "Duke of Austria Limoges, (also called Limoges).",
+   "wiki": "Leopold V, Duke of Austria",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -59,8 +63,10 @@
     "gender": "Male"
    },
    "line": "Philip Faulconbridge, her son by King Richard I.",
+   "wiki": "Philip of Cognac",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -79,7 +85,9 @@
     "role": "Lord",
     "gender": "Male"
    },
-   "line": "Lord."
+   "line": "Lord.",
+   "wiki": "Roger Bigod, 2nd Earl of Norfolk",
+   "wikiLang": "en"
   },
   "4": {
    "facts": {
@@ -96,8 +104,10 @@
     "homeworld": "Palencia"
    },
    "line": "Niece to King John, of Palencia, of the Kingdom of Castile.",
+   "wiki": "Blanche of Castile",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -117,7 +127,7 @@
    },
    "line": "Citizen.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -137,8 +147,10 @@
     "role": "Ambassador from France to King John"
    },
    "line": "Ambassador from France to King John.",
+   "wiki": "Walter III of Châtillon",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -159,8 +171,10 @@
     "homeworld": "Brittany"
    },
    "line": "Widow of Geoffrey, King John’s elder brother, of Brittany.",
+   "wiki": "Constance of Brittany",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -181,8 +195,10 @@
     "homeworld": "Paris"
    },
    "line": "His son, of Paris.",
+   "wiki": "Louis VIII of France",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -202,8 +218,10 @@
     "gender": "Male"
    },
    "line": "Earl of Essex.",
+   "wiki": "Geoffrey Fitz Peter, 1st Earl of Essex",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -224,7 +242,7 @@
    },
    "line": "Her servant.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -243,7 +261,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -262,7 +280,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -282,8 +300,10 @@
     "role": "Supporter of King John"
    },
    "line": "Supporter of King John.",
+   "wiki": "Hubert de Burgh, Earl of Kent",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -304,6 +324,8 @@
     "homeworld": "Beaumont Palace"
    },
    "line": "King of England, with dominion over assortedContinental territories, of Beaumont Palace.",
+   "wiki": "John, King of England",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -326,8 +348,10 @@
     "homeworld": "Paris"
    },
    "line": "King, of Paris.",
+   "wiki": "Philip II of France",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -348,7 +372,7 @@
    },
    "line": "Lady.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -381,8 +405,10 @@
     "homeworld": "Rome"
    },
    "line": "Cardinal, Papal Legate, of Rome.",
+   "wiki": "Pandulf Verraccio",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -403,8 +429,10 @@
     "homeworld": "Wiltshire"
    },
    "line": "Earl of Pembroke, of Wiltshire.",
+   "wiki": "William Marshal, 1st Earl of Pembroke",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -423,7 +451,9 @@
     "gender": "Male",
     "role": "A Prophet"
    },
-   "line": "A Prophet."
+   "line": "A Prophet.",
+   "wiki": "Peter of Wakefield",
+   "wikiLang": "en"
   },
   "21": {
    "facts": {
@@ -436,7 +466,9 @@
     "gender": "Male",
     "homeworld": "Winchester Castle"
    },
-   "line": "Prince, Son to King John, of Winchester Castle."
+   "line": "Prince, Son to King John, of Winchester Castle.",
+   "wiki": "Henry III of England",
+   "wikiLang": "en"
   },
   "22": {
    "facts": {
@@ -453,8 +485,10 @@
     "homeworld": "Poitiers"
    },
    "line": "King John’s mother, widow of King Henry II, of Poitiers, of the Duchy of Aquitaine.",
+   "wiki": "Eleanor of Aquitaine",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -474,7 +508,7 @@
    },
    "line": "Her son by Sir Robert Faulconbridge.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -494,8 +528,10 @@
     "role": "Earl of Salisbury"
    },
    "line": "Earl of Salisbury.",
+   "wiki": "William Longespée, 3rd Earl of Salisbury",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -1976,7 +2012,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

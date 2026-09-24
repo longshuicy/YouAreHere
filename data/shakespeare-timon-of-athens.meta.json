@@ -17,6 +17,8 @@
     "homeworld": "Classical Athens"
    },
    "line": "An Athenian Captain, of Classical Athens.",
+   "wiki": "Alcibiades",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -38,6 +40,8 @@
     "role": "A Cynic philosopher"
    },
    "line": "A Cynic philosopher.",
+   "wiki": "Apemantus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -58,7 +62,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -110,7 +114,7 @@
    },
    "line": "Fool.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -129,7 +133,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -148,7 +152,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -167,7 +171,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -186,7 +190,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -215,7 +219,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -236,7 +240,7 @@
    },
    "line": "Servant to a Senator.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -255,7 +259,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -274,7 +278,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -293,7 +297,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -314,7 +318,7 @@
    },
    "line": "Page.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -333,7 +337,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -371,7 +375,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -409,7 +413,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -443,8 +447,10 @@
     "homeworld": "history of Athens"
    },
    "line": "A noble Athenian, of history of Athens, of the Classical Athens.",
+   "wiki": "Timon of Athens (person)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1629,7 +1635,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

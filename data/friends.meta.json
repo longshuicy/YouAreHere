@@ -241,6 +241,8 @@
     "gender": "Female"
    },
    "line": "Appears in Season 9 and Season 10.",
+   "wiki": "Amy Green",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -573,6 +575,8 @@
     "gender": "Male"
    },
    "line": "Appears in seven seasons.",
+   "wiki": "Ben Geller",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -868,6 +872,8 @@
     "gender": "Female"
    },
    "line": "Appears in seven seasons.",
+   "wiki": "Carol Willick",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -987,6 +993,8 @@
     "occupation": "analyst"
    },
    "line": "Analyst. Appears in all 10 seasons.",
+   "wiki": "Chandler Bing",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -1993,6 +2001,8 @@
     "gender": "Female"
    },
    "line": "Appears in Season 10.",
+   "wiki": "Emma Geller-Green",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -2668,6 +2678,8 @@
     "occupation": "manager"
    },
    "line": "Manager. Appears in 9 seasons.",
+   "wiki": "Gunther (Friends)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -3251,6 +3263,8 @@
     "gender": "Female"
    },
    "line": "Appears in three seasons.",
+   "wiki": "Jill Green (Friends)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -3320,6 +3334,8 @@
     "occupation": "actor"
    },
    "line": "Actor. Appears in all 10 seasons.",
+   "wiki": "Joey Tribbiani",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -4372,6 +4388,8 @@
     "gender": "Male"
    },
    "line": "Appears in five seasons.",
+   "wiki": "Mike Hannigan",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -4549,6 +4567,8 @@
     "occupation": "executive chef"
    },
    "line": "Executive chef. Appears in all 10 seasons.",
+   "wiki": "Monica Geller",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -5559,6 +5579,8 @@
     "occupation": "massage therapist"
    },
    "line": "Massage therapist. Appears in all 10 seasons.",
+   "wiki": "Phoebe Buffay",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -5719,6 +5741,8 @@
     "occupation": "waiter"
    },
    "line": "Waiter. Appears in all 10 seasons.",
+   "wiki": "Rachel Green",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -5822,6 +5846,8 @@
     "occupation": "ophthalmologist"
    },
    "line": "Ophthalmologist. Appears in four seasons.",
+   "wiki": "Richard Burke (Friends)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -5971,6 +5997,8 @@
     "occupation": "paleontologist"
    },
    "line": "Paleontologist. Appears in all 10 seasons.",
+   "wiki": "Ross Geller",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -6489,6 +6517,8 @@
     "gender": "Female"
    },
    "line": "Appears in five seasons.",
+   "wiki": "Susan Bunch",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -6622,7 +6652,7 @@
    },
    "line": "Appears in Season 5 and Season 7.",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7442,6 +7472,8 @@
     "occupation": "waiter"
    },
    "line": "Waiter. Appears in six seasons.",
+   "wiki": "Ursula Buffay",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -34155,9 +34187,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Friends",
+ "workWikiLang": "en"
 }

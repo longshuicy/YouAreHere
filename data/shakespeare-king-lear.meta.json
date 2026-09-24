@@ -55,6 +55,8 @@
     "role": "youngest daughter of Lear"
    },
    "line": "Youngest daughter of Lear.",
+   "wiki": "Cordelia (King Lear)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 11,
     "nearest": {
@@ -142,6 +144,8 @@
     "role": "illegitimate son of Gloucester"
    },
    "line": "Illegitimate son of Gloucester.",
+   "wiki": "Edmund (King Lear)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -226,6 +230,8 @@
     "role": "Duchess of Albany"
    },
    "line": "Duchess of Albany.",
+   "wiki": "Goneril",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -343,6 +349,8 @@
     "role": "Duchess of Cornwall"
    },
    "line": "Duchess of Cornwall.",
+   "wiki": "Regan (King Lear)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -1375,7 +1383,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

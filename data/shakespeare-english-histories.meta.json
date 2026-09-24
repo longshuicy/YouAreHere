@@ -57,6 +57,8 @@
     "homeworld": "Argentan"
    },
    "line": "Military personnel, of Argentan. Appears in Henry VI, Part 1.",
+   "wiki": "John II, Duke of Alençon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -79,7 +81,7 @@
    },
    "line": "A gentlewoman attending on Katherine. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -120,7 +122,9 @@
     "role": "(Richard Scroop, archbishop of York)",
     "gender": "Male"
    },
-   "line": "(Richard Scroop, archbishop of York). Appears in Henry IV, Part I and Henry IV, Part II."
+   "line": "(Richard Scroop, archbishop of York). Appears in Henry IV, Part I and Henry IV, Part II.",
+   "wiki": "Richard Scrope (bishop)",
+   "wikiLang": "en"
   },
   "7": {
    "facts": {
@@ -135,7 +139,9 @@
     ],
     "homeworld": "Rotherham"
    },
-   "line": "Roman Catholic archbishop of York, of Rotherham. Appears in Richard III."
+   "line": "Roman Catholic archbishop of York, of Rotherham. Appears in Richard III.",
+   "wiki": "Thomas Rotherham",
+   "wikiLang": "en"
   },
   "8": {
    "facts": {
@@ -149,8 +155,10 @@
     "homeworld": "Norwich"
    },
    "line": "Earl of Rutland, son to Duke and Duchess of York, of Norwich. Appears in Richard II.",
+   "wiki": "Edward, 2nd Duke of York",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -180,7 +188,9 @@
      "name": "程普",
      "tied": 0
     }
-   }
+   },
+   "wiki": "William Bagot (politician)",
+   "wikiLang": "en"
   },
   "10": {
    "facts": {
@@ -195,6 +205,8 @@
     "gender": "Male"
    },
    "line": "Appears in four plays.",
+   "wiki": "Bardolph (Shakespeare character)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -240,6 +252,8 @@
     "homeworld": "Kingdom of France"
    },
    "line": "Grand Chamberlain of France, of Kingdom of France. Appears in Henry VI, Part 1.",
+   "wiki": "Jean de Dunois",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -285,6 +299,8 @@
     "homeworld": "England"
    },
    "line": "Lord, Younger son of King Henry, of England. Appears in four plays.",
+   "wiki": "John of Lancaster, Duke of Bedford",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -315,7 +331,9 @@
      "name": "Nathanael",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Thomas de Berkeley, 5th Baron Berkeley",
+   "wikiLang": "en"
   },
   "16": {
    "facts": {
@@ -348,7 +366,9 @@
     "gender": "Male",
     "homeworld": "Higham Ferrers"
    },
-   "line": "Bishop of Canterbury, of Higham Ferrers. Appears in Henry V."
+   "line": "Bishop of Canterbury, of Higham Ferrers. Appears in Henry V.",
+   "wiki": "Henry Chichele",
+   "wikiLang": "en"
   },
   "18": {
    "facts": {
@@ -361,6 +381,8 @@
     "gender": "Male"
    },
    "line": "Bishop of Carlisle. Appears in Richard II.",
+   "wiki": "Thomas Merke",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 29,
     "nearest": {
@@ -381,7 +403,9 @@
     "role": "Bishop of Ely",
     "gender": "Male"
    },
-   "line": "Bishop of Ely. Appears in Henry V."
+   "line": "Bishop of Ely. Appears in Henry V.",
+   "wiki": "John Fordham (bishop)",
+   "wikiLang": "en"
   },
   "20": {
    "facts": {
@@ -395,14 +419,16 @@
    },
    "line": "Sir. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
      "name": "Thomas of Clarence",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Walter Blount (soldier)",
+   "wikiLang": "en"
   },
   "21": {
    "facts": {
@@ -415,8 +441,10 @@
     "role": "Sir"
    },
    "line": "Sir. Appears in Richard III.",
+   "wiki": "James Blount (English soldier)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -436,8 +464,10 @@
     "role": "A conjurer"
    },
    "line": "A conjurer. Appears in Henry VI, Part 2.",
+   "wiki": "Roger Bolingbroke",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -456,7 +486,9 @@
     "role": "Duke of Bourbon",
     "gender": "Male"
    },
-   "line": "Duke of Bourbon. Appears in Henry V."
+   "line": "Duke of Bourbon. Appears in Henry V.",
+   "wiki": "John I, Duke of Bourbon",
+   "wikiLang": "en"
   },
   "24": {
    "facts": {
@@ -502,8 +534,10 @@
     "gender": "Male"
    },
    "line": "Lieutenant of the Tower in London. Appears in Richard III.",
+   "wiki": "Robert Brackenbury",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -523,7 +557,9 @@
     "gender": "Male",
     "homeworld": "Vannes"
    },
-   "line": "Duke of Brittany, of Vannes. Appears in Henry V."
+   "line": "Duke of Brittany, of Vannes. Appears in Henry V.",
+   "wiki": "John V of Brittany",
+   "wikiLang": "en"
   },
   "28": {
    "facts": {
@@ -542,6 +578,8 @@
     "homeworld": "Stafford"
    },
    "line": "Ambassador to the Kingdom of France, of Stafford, of the Order of the Garter. Appears in Henry VI, Part 2.",
+   "wiki": "Humphrey Stafford, 1st Duke of Buckingham",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -569,6 +607,8 @@
     "homeworld": "Abergavenny"
    },
    "line": "Duke of Buckingham, of Abergavenny, of the Order of the Garter. Appears in Richard III.",
+   "wiki": "Henry Stafford, 2nd Duke of Buckingham",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -590,7 +630,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -613,6 +653,8 @@
     "homeworld": "Dijon"
    },
    "line": "Monarch, of Dijon. Appears in Henry VI, Part 1.",
+   "wiki": "Philip the Good",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -635,8 +677,10 @@
     "homeworld": "Dijon"
    },
    "line": "Duke of Burgundy, of Dijon. Appears in Henry V.",
+   "wiki": "John the Fearless",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -658,6 +702,8 @@
     ]
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
+   "wiki": "John Bussy",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -702,6 +748,8 @@
     ]
    },
    "line": "Leader of the Kentish rebellion, of the United Kingdom. Appears in Henry VI, Part 2.",
+   "wiki": "Jack Cade",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -723,7 +771,9 @@
     "gender": "Male",
     "homeworld": "Conisbrough Castle"
    },
-   "line": "Earl of Cambridge, of Conisbrough Castle. Appears in Henry V."
+   "line": "Earl of Cambridge, of Conisbrough Castle. Appears in Henry V.",
+   "wiki": "Richard of Conisburgh, 3rd Earl of Cambridge",
+   "wikiLang": "en"
   },
   "37": {
    "facts": {
@@ -746,7 +796,9 @@
      "name": "Patroclus",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Henry Beaufort",
+   "wikiLang": "en"
   },
   "38": {
    "facts": {
@@ -763,8 +815,10 @@
     "homeworld": "Essex"
    },
    "line": "Cardinal, of Essex, of the United Kingdom of Great Britain and Ireland. Appears in Richard III.",
+   "wiki": "Thomas Bourchier (cardinal)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -784,6 +838,8 @@
     "gender": "Male"
    },
    "line": "Sir. Appears in Richard III.",
+   "wiki": "William Catesby",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -808,6 +864,8 @@
     "homeworld": "Paris"
    },
    "line": "King of France, of Paris. Appears in Henry VI, Part 1.",
+   "wiki": "Charles VII of France",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -856,8 +914,10 @@
     "homeworld": "Kenilworth Castle"
    },
    "line": "Lord Lieutenant of Ireland, of Kenilworth Castle, of the Order of the Garter. Appears in Henry IV, Part II.",
+   "wiki": "Thomas of Lancaster, Duke of Clarence",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -882,6 +942,8 @@
     "homeworld": "Dublin Castle"
    },
    "line": "Later Duke of Clarence, of Dublin Castle, of the United Kingdom. Appears in Henry VI, Part 3 and Richard III.",
+   "wiki": "George Plantagenet, Duke of Clarence",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -904,8 +966,10 @@
     "homeworld": "Warwick Castle"
    },
    "line": "Aristocrat, of Warwick Castle. Appears in Richard III.",
+   "wiki": "Edward Plantagenet, 17th Earl of Warwick",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -926,8 +990,10 @@
     "homeworld": "Bath"
    },
    "line": "Lady-in-waiting, of Bath. Appears in Richard III.",
+   "wiki": "Margaret Pole, Countess of Salisbury",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -967,6 +1033,8 @@
     "occupation": "military personnel"
    },
    "line": "Military personnel. Appears in Henry VI, Part 2.",
+   "wiki": "Thomas Clifford, 8th Baron Clifford",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -989,6 +1057,8 @@
     "role": "His son"
    },
    "line": "His son. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
+   "wiki": "John Clifford, 9th Baron Clifford",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -1022,6 +1092,8 @@
     "gender": "Male"
    },
    "line": "Constable of France. Appears in Henry V.",
+   "wiki": "Charles I d'Albret",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -1043,7 +1115,9 @@
     "role": "Count",
     "homeworld": "France"
    },
-   "line": "Count, of France. Appears in Henry VI, Part 1."
+   "line": "Count, of France. Appears in Henry VI, Part 1.",
+   "wiki": "Marie I of Auvergne",
+   "wikiLang": "en"
   },
   "52": {
    "facts": {
@@ -1058,7 +1132,7 @@
    },
    "line": "An apprentice tapster. Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1079,6 +1153,8 @@
     "homeworld": "Paris"
    },
    "line": "Aristocrat, of Paris. Appears in Henry V.",
+   "wiki": "Louis, Duke of Guyenne",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -1153,8 +1229,10 @@
     "occupation": "prostitute"
    },
    "line": "Prostitute. Appears in Henry IV, Part II.",
+   "wiki": "Doll Tearsheet",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1175,6 +1253,8 @@
     "homeworld": "Groby Old Hall"
    },
    "line": "Marquess of Dorset, of Groby Old Hall. Appears in Richard III.",
+   "wiki": "Thomas Grey, 1st Marquess of Dorset",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -1197,8 +1277,10 @@
     "homeworld": "Scotland"
    },
    "line": "(Archibald, earl of Douglas), of Scotland. Appears in Henry IV, Part I.",
+   "wiki": "Archibald Douglas, 4th Earl of Douglas",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1219,6 +1301,8 @@
     "homeworld": "Starborough Castle"
    },
    "line": "Duchess, of Starborough Castle. Appears in Henry VI, Part 2.",
+   "wiki": "Eleanor Cobham",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -1243,7 +1327,9 @@
     ],
     "homeworld": "Tordesillas"
    },
-   "line": "Duchess of York, of Tordesillas, of the Kingdom of Castile. Appears in Richard II."
+   "line": "Duchess of York, of Tordesillas, of the Kingdom of Castile. Appears in Richard II.",
+   "wiki": "Isabella of Castile, Duchess of York",
+   "wikiLang": "en"
   },
   "62": {
    "facts": {
@@ -1257,8 +1343,10 @@
     "homeworld": "Raby Castle"
    },
    "line": "Duchess of York, Mother of Richard, Edward, and Clarence, of Raby Castle. Appears in Richard III.",
+   "wiki": "Cecily Neville, Duchess of York",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1281,6 +1369,8 @@
     "homeworld": "Rouen"
    },
    "line": "Earl of March, of Rouen. Appears in three plays.",
+   "wiki": "Edward IV",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -1307,8 +1397,10 @@
     "homeworld": "Westminster"
    },
    "line": "Prince, of Westminster, of the Order of the Garter. Appears in Richard III.",
+   "wiki": "Edward V",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1332,8 +1424,10 @@
     "homeworld": "Norfolk"
    },
    "line": "Sir, of Norfolk, of the Order of the Garter. Appears in Henry V.",
+   "wiki": "Thomas Erpingham",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1356,6 +1450,8 @@
     "homeworld": "London"
    },
    "line": "Member of the House of Lords, of London. Appears in Henry VI, Part 3.",
+   "wiki": "Henry Holland, 3rd Duke of Exeter",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -1380,6 +1476,8 @@
     ]
    },
    "line": "Uncle to the King, of the Order of the Garter. Appears in Henry VI, Part 1.",
+   "wiki": "Thomas Beaufort, Duke of Exeter",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -1424,6 +1522,8 @@
     "gender": "Male"
    },
    "line": "Sir, An impoverished knight. Appears in three plays.",
+   "wiki": "John Falstaff",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -1446,6 +1546,8 @@
     "homeworld": "Caister Hall"
    },
    "line": "Military personnel, of Caister Hall. Appears in Henry VI, Part 1.",
+   "wiki": "John Fastolf",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -1478,7 +1580,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1519,6 +1621,8 @@
     "gender": "Male"
    },
    "line": "Lord. Appears in Richard II.",
+   "wiki": "Walter FitzWalter, 4th Baron FitzWalter",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -1541,7 +1645,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1606,7 +1710,9 @@
     "gender": "Male",
     "occupation": "military personnel"
    },
-   "line": "Military personnel. Appears in Henry VI, Part 1."
+   "line": "Military personnel. Appears in Henry VI, Part 1.",
+   "wiki": "Thomas Gargrave (soldier)",
+   "wikiLang": "en"
   },
   "81": {
    "facts": {
@@ -1620,6 +1726,8 @@
     "homeworld": "Ghent"
    },
    "line": "Duke of Lancaster, of Ghent. Appears in Richard II.",
+   "wiki": "John of Gaunt",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -1674,7 +1782,9 @@
      "Wales"
     ]
    },
-   "line": "A Welsh lord, father of Lady Mortimer, of the Wales. Appears in Henry IV, Part I."
+   "line": "A Welsh lord, father of Lady Mortimer, of the Wales. Appears in Henry IV, Part I.",
+   "wiki": "Owain Glyndŵr",
+   "wikiLang": "en"
   },
   "85": {
    "facts": {
@@ -1691,6 +1801,8 @@
     "homeworld": "London"
    },
    "line": "The king’s uncle, and Lord Protector, of London. Appears in four plays.",
+   "wiki": "Humphrey, Duke of Gloucester",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -1713,7 +1825,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1747,6 +1859,8 @@
     ]
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
+   "wiki": "Henry Green (courtier)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -1780,6 +1894,8 @@
     "role": "Lord"
    },
    "line": "Lord. Appears in Richard III.",
+   "wiki": "Richard Grey",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -1852,7 +1968,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1889,6 +2005,8 @@
     "homeworld": "Leicestershire"
    },
    "line": "Lord Chamberlain, of Leicestershire, of the United Kingdom of Great Britain and Ireland. Appears in Henry VI, Part 3 and Richard III.",
+   "wiki": "William Hastings, 1st Baron Hastings",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -1913,6 +2031,8 @@
     "homeworld": "Bolingbroke Castle"
    },
    "line": "King, Formerly Henry Bolingbroke, of Bolingbroke Castle. Appears in three plays.",
+   "wiki": "Henry IV of England",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -1938,8 +2058,10 @@
     "homeworld": "Pembroke Castle"
    },
    "line": "Earl of Richmond, Henry Tudor, later King Henry VII, of Pembroke Castle, of the Principality of Wales. Appears in Richard III.",
+   "wiki": "Henry VII of England",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1963,6 +2085,8 @@
     "homeworld": "Windsor Castle"
    },
    "line": "King, of Windsor Castle. Appears in four plays.",
+   "wiki": "Henry VI of England",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -1990,6 +2114,8 @@
     "homeworld": "Monmouth Castle"
    },
    "line": "Prince of Wales and heir to the throne (alsocalled Harry and Harry Monmouth), of Monmouth Castle, of the Order of the Garter. Appears in three plays.",
+   "wiki": "Henry V of England",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -2086,8 +2212,10 @@
     "homeworld": "North Yorkshire"
    },
    "line": "(Sir Henry, or Harry, Percy), of North Yorkshire. Appears in Henry IV, Part I and Richard II.",
+   "wiki": "Henry Percy (Hotspur)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2129,7 +2257,7 @@
    },
    "line": "A priest. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2161,6 +2289,8 @@
     "homeworld": "Westwell"
    },
    "line": "A gentleman of Kent, of Westwell. Appears in Henry VI, Part 2.",
+   "wiki": "Alexander Iden",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -2258,8 +2388,10 @@
     "homeworld": "England"
    },
    "line": "A witch, of England. Appears in Henry VI, Part 2.",
+   "wiki": "Margery Jourdemayne",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2280,8 +2412,10 @@
     "homeworld": "Hôtel Saint-Pol"
    },
    "line": "Princess of France, of Hôtel Saint-Pol. Appears in Henry V.",
+   "wiki": "Catherine of Valois",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2303,14 +2437,16 @@
    },
    "line": "King, of Bourges. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
      "name": "Lady Bona",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Louis XI",
+   "wikiLang": "en"
   },
   "118": {
    "facts": {
@@ -2324,8 +2460,10 @@
     "homeworld": "Paris"
    },
    "line": "King of France, of Paris. Appears in Henry V.",
+   "wiki": "Charles VI of France",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2366,8 +2504,10 @@
     "homeworld": "Warwick Castle"
    },
    "line": "Lady, Widow of Edward, son to the late King Henry VI;later wife to Richard, of Warwick Castle. Appears in Richard III.",
+   "wiki": "Anne Neville",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2388,8 +2528,10 @@
     "homeworld": "Avigliana Castle"
    },
    "line": "Lady, His sister-in-law, of Avigliana Castle. Appears in Henry VI, Part 3.",
+   "wiki": "Bona of Savoy",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2422,8 +2564,10 @@
     "homeworld": "Usk"
    },
    "line": "Lady, (also called Kate), of Usk. Appears in Henry IV, Part I and Henry IV, Part II.",
+   "wiki": "Elizabeth Mortimer",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2480,7 +2624,7 @@
    },
    "line": "Lieutenant. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -2500,6 +2644,8 @@
     "role": "Lord"
    },
    "line": "Lord. Appears in Henry IV, Part II.",
+   "wiki": "Thomas Bardolf, 5th Baron Bardolf",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -2544,8 +2690,10 @@
     ]
    },
    "line": "Lord, of the Order of the Garter. Appears in Richard III.",
+   "wiki": "Francis Lovell, 1st Viscount Lovell",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2565,7 +2713,7 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2625,7 +2773,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2780,8 +2928,10 @@
     "role": "Lord"
    },
    "line": "Lord. Appears in Richard III.",
+   "wiki": "Edmund Shaa",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2915,6 +3065,8 @@
     "role": "(also called Mistress Quickly)"
    },
    "line": "(also called Mistress Quickly). Appears in four plays.",
+   "wiki": "Mistress Quickly",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -2942,6 +3094,8 @@
     "homeworld": "County Durham"
    },
    "line": "Member of the House of Lords, of County Durham, of the Order of the Garter. Appears in Henry VI, Part 3.",
+   "wiki": "Richard Neville, 5th Earl of Salisbury",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -2975,7 +3129,7 @@
    },
    "line": "French herald. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -2996,7 +3150,9 @@
     "gender": "Male",
     "homeworld": "Ludlow"
    },
-   "line": "Earl of March, of Ludlow. Appears in Henry IV, Part I and Henry VI, Part 1."
+   "line": "Earl of March, of Ludlow. Appears in Henry IV, Part I and Henry VI, Part 1.",
+   "wiki": "Edmund Mortimer (rebel)",
+   "wikiLang": "en"
   },
   "155": {
    "facts": {
@@ -3020,7 +3176,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3039,7 +3195,9 @@
     "gender": "Male",
     "role": "Lord"
    },
-   "line": "Lord. Appears in Henry IV, Part II."
+   "line": "Lord. Appears in Henry IV, Part II.",
+   "wiki": "Thomas de Mowbray, 4th Earl of Norfolk",
+   "wikiLang": "en"
   },
   "158": {
    "facts": {
@@ -3053,6 +3211,8 @@
     "homeworld": "Epworth"
    },
    "line": "Duke of Norfolk, of Epworth. Appears in Richard II.",
+   "wiki": "Thomas Mowbray, 1st Duke of Norfolk",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -3080,6 +3240,8 @@
     "homeworld": "Epworth"
    },
    "line": "Member of the House of Lords, of Epworth, of the United Kingdom. Appears in Henry VI, Part 3.",
+   "wiki": "John Mowbray, 3rd Duke of Norfolk",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -3102,14 +3264,16 @@
    },
    "line": "Duke of Norfolk. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
      "name": "Earl of Surrey",
      "tied": 0
     }
-   }
+   },
+   "wiki": "John Howard, 1st Duke of Norfolk",
+   "wikiLang": "en"
   },
   "161": {
    "facts": {
@@ -3125,6 +3289,8 @@
     "homeworld": "Leconfield"
    },
    "line": "Lord Lieutenant of Sussex, of Leconfield. Appears in Henry VI, Part 3.",
+   "wiki": "Henry Percy, 3rd Earl of Northumberland",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -3149,6 +3315,8 @@
     "homeworld": "Scarborough Castle"
    },
    "line": "Earl of Northumberland, Henry Percy, Hotspur’s father, of Scarborough Castle. Appears in three plays.",
+   "wiki": "Henry Percy, 1st Earl of Northumberland",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 13,
     "nearest": {
@@ -3191,7 +3359,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3211,7 +3379,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3231,7 +3399,9 @@
     "gender": "Male",
     "homeworld": "Paris"
    },
-   "line": "Duke of Orl, of Paris. Appears in Henry V."
+   "line": "Duke of Orl, of Paris. Appears in Henry V.",
+   "wiki": "Charles I, Duke of Orléans",
+   "wikiLang": "en"
   },
   "167": {
    "facts": {
@@ -3250,6 +3420,8 @@
     ]
    },
    "line": "Member of the House of Lords, of the Order of the Garter. Appears in Henry VI, Part 3 and Richard III.",
+   "wiki": "John de Vere, 13th Earl of Oxford",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -3272,7 +3444,7 @@
    },
    "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3293,6 +3465,8 @@
     "gender": "Male"
    },
    "line": "Appears in three plays.",
+   "wiki": "Ancient Pistol",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -3315,8 +3489,10 @@
     "role": "(also called Edward, Yedward, and Ned)"
    },
    "line": "(also called Edward, Yedward, and Ned). Appears in Henry IV, Part I and Henry IV, Part II.",
+   "wiki": "Ned Poins",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3350,6 +3526,8 @@
     "homeworld": "Palace of Westminster"
    },
    "line": "Prince, of Palace of Westminster. Appears in Henry VI, Part 3 and Richard III.",
+   "wiki": "Edward of Westminster, Prince of Wales",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -3372,8 +3550,10 @@
     "homeworld": "Domrémy-la-Pucelle"
    },
    "line": "Military personnel, of Domrémy-la-Pucelle. Appears in Henry VI, Part 1.",
+   "wiki": "Joan of Arc",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -3406,6 +3586,8 @@
     "homeworld": "Grafton Regis"
    },
    "line": "Lady, Later Queen Elizabeth, of Grafton Regis. Appears in Henry VI, Part 3 and Richard III.",
+   "wiki": "Elizabeth Woodville",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -3431,6 +3613,8 @@
     "homeworld": "Pont-à-Mousson"
    },
    "line": "His daughter, of Pont-à-Mousson. Appears in four plays.",
+   "wiki": "Margaret of Anjou",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -3453,8 +3637,10 @@
     "homeworld": "Munich"
    },
    "line": "Queen, of Munich. Appears in Henry V.",
+   "wiki": "Isabeau of Bavaria",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3478,6 +3664,8 @@
     "homeworld": "Prague"
    },
    "line": "Queen, of Prague, of the Kingdom of Bohemia. Appears in Richard II.",
+   "wiki": "Anne of Bohemia",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -3498,7 +3686,9 @@
     "role": "Lord",
     "gender": "Male"
    },
-   "line": "Lord. Appears in Henry V."
+   "line": "Lord. Appears in Henry V.",
+   "wiki": "David de Rambures",
+   "wikiLang": "en"
   },
   "180": {
    "facts": {
@@ -3511,6 +3701,8 @@
     "role": "Sir"
    },
    "line": "Sir. Appears in Richard III.",
+   "wiki": "Richard Ratcliffe",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -3533,8 +3725,10 @@
     "homeworld": "Angers"
    },
    "line": "Duke of Anjou and Maine, King of Naples, of Angers. Appears in Henry VI, Part 1.",
+   "wiki": "René of Anjou",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3557,6 +3751,8 @@
     "homeworld": "Fotheringhay Castle"
    },
    "line": "Later Duke of Gloucester, of Fotheringhay Castle. Appears in three plays.",
+   "wiki": "Richard III of England",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -3587,7 +3783,9 @@
      "name": "Earl of Northumberland",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Richard II of England",
+   "wikiLang": "en"
   },
   "184": {
    "facts": {
@@ -3602,6 +3800,8 @@
     "homeworld": "Grafton Regis"
    },
    "line": "Brother to the queen, of Grafton Regis. Appears in Henry VI, Part 3 and Richard III.",
+   "wiki": "Anthony Woodville, 2nd Earl Rivers",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -3675,7 +3875,9 @@
      "name": "Lord Willoughby",
      "tied": 0
     }
-   }
+   },
+   "wiki": "William de Ros, 6th Baron Ros",
+   "wikiLang": "en"
   },
   "188": {
    "facts": {
@@ -3712,7 +3914,9 @@
     ],
     "homeworld": "Rouen"
    },
-   "line": "Judge, of Rouen, of the United Kingdom. Appears in Henry VI, Part 3."
+   "line": "Judge, of Rouen, of the United Kingdom. Appears in Henry VI, Part 3.",
+   "wiki": "Edmund, Earl of Rutland",
+   "wikiLang": "en"
   },
   "190": {
    "facts": {
@@ -3725,7 +3929,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3756,7 +3960,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3776,7 +3980,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3796,7 +4000,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3861,7 +4065,9 @@
      "member of the House of Lords"
     ]
    },
-   "line": "Member of the House of Lords. Appears in Henry VI, Part 1."
+   "line": "Member of the House of Lords. Appears in Henry VI, Part 1.",
+   "wiki": "Thomas Montagu, 4th Earl of Salisbury",
+   "wikiLang": "en"
   },
   "199": {
    "facts": {
@@ -3880,6 +4086,8 @@
     "homeworld": "County Durham"
    },
    "line": "Member of the House of Lords, of County Durham, of the Order of the Garter. Appears in Henry VI, Part 2.",
+   "wiki": "Richard Neville, 5th Earl of Salisbury",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -3901,8 +4109,10 @@
     "gender": "Male"
    },
    "line": "Earl of Salisbury. Appears in Henry V.",
+   "wiki": "Thomas Montagu, 4th Earl of Salisbury",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3921,7 +4131,9 @@
     "role": "Earl of Salisbury",
     "gender": "Male"
    },
-   "line": "Earl of Salisbury. Appears in Richard II."
+   "line": "Earl of Salisbury. Appears in Richard II.",
+   "wiki": "John Montagu, 3rd Earl of Salisbury",
+   "wikiLang": "en"
   },
   "202": {
    "facts": {
@@ -3936,6 +4148,8 @@
     ]
    },
    "line": "Member of the 1447 Parliament. Appears in Henry VI, Part 2.",
+   "wiki": "James Fiennes, 1st Baron Saye and Sele",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 4,
     "nearest": {
@@ -3956,7 +4170,9 @@
     "role": "Lord",
     "gender": "Male"
    },
-   "line": "Lord. Appears in Henry V."
+   "line": "Lord. Appears in Henry V.",
+   "wiki": "Henry Scrope, 3rd Baron Scrope of Masham",
+   "wikiLang": "en"
   },
   "204": {
    "facts": {
@@ -3968,7 +4184,9 @@
     "gender": "Male",
     "role": "Sir"
    },
-   "line": "Sir. Appears in Richard II."
+   "line": "Sir. Appears in Richard II.",
+   "wiki": "Stephen Scrope, 2nd Baron Scrope of Masham",
+   "wikiLang": "en"
   },
   "205": {
    "facts": {
@@ -3981,7 +4199,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4002,8 +4220,10 @@
     "role": "Justice, A visiting justice of the peace"
    },
    "line": "Justice, A visiting justice of the peace. Appears in Henry IV, Part II and The Merry Wives of Windsor.",
+   "wiki": "Robert Shallow",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4024,8 +4244,10 @@
     "homeworld": "Ceffonds"
    },
    "line": "Pucelle’s father, of Ceffonds. Appears in Henry VI, Part 1.",
+   "wiki": "Jacques d'Arc",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4204,7 +4426,9 @@
      "name": "Legolas",
      "tied": 0
     }
-   }
+   },
+   "wiki": "John Beaufort, 1st Duke of Somerset",
+   "wikiLang": "en"
   },
   "217": {
    "facts": {
@@ -4223,6 +4447,8 @@
     "homeworld": "London"
    },
    "line": "Member of the House of Lords, of London, of the United Kingdom. Appears in Henry VI, Part 3.",
+   "wiki": "Henry Beaufort, 3rd Duke of Somerset",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -4274,7 +4500,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4293,6 +4519,8 @@
     "gender": "Male"
    },
    "line": "Appears in Henry VI, Part 2.",
+   "wiki": "Humphrey Stafford (died 1450)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -4319,7 +4547,9 @@
      "Stanley family"
     ]
    },
-   "line": "Member of the 1427-28 Parliament, of the Order of the Garter. Appears in Henry VI, Part 2."
+   "line": "Member of the 1427-28 Parliament, of the Order of the Garter. Appears in Henry VI, Part 2.",
+   "wiki": "Thomas Stanley, 1st Baron Stanley",
+   "wikiLang": "en"
   },
   "223": {
    "facts": {
@@ -4333,6 +4563,8 @@
     "homeworld": "Lathom"
    },
    "line": "Earl of Derby, of Lathom. Appears in Richard III.",
+   "wiki": "Thomas Stanley, 1st Earl of Derby",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -4359,6 +4591,8 @@
     "homeworld": "Suffolk"
    },
    "line": "Earlier Marquess of Suffolk, of Suffolk, of the Order of the Garter. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
+   "wiki": "William de la Pole, 1st Duke of Suffolk",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -4381,6 +4615,8 @@
     "homeworld": "Fotheringhay"
    },
    "line": "Duke of Surrey, of Fotheringhay. Appears in Richard II.",
+   "wiki": "Thomas Holland, Duke of Surrey",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -4403,8 +4639,10 @@
     "homeworld": "Stoke-by-Nayland"
    },
    "line": "Earl of Surrey, of Stoke-by-Nayland. Appears in Richard III.",
+   "wiki": "Thomas Howard, 2nd Duke of Norfolk",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4425,6 +4663,8 @@
     "homeworld": "Shropshire"
    },
    "line": "Afterwards Earl of Shrewsbury, of Shropshire. Appears in Henry VI, Part 1.",
+   "wiki": "John Talbot, 1st Earl of Shrewsbury",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -4489,8 +4729,10 @@
     "role": "Gentleman"
    },
    "line": "Gentleman. Appears in Richard III.",
+   "wiki": "James Tyrrell",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4510,8 +4752,10 @@
     "role": "Sir"
    },
    "line": "Sir. Appears in Richard III.",
+   "wiki": "Thomas Vaughan (died 1483)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4585,7 +4829,7 @@
    },
    "line": "Or keeper of the tavern. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4605,7 +4849,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4625,7 +4869,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4645,7 +4889,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4665,7 +4909,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4690,6 +4934,8 @@
     ]
    },
    "line": "Earl of Warwick, of the United Kingdom. Appears in three plays.",
+   "wiki": "Richard Beauchamp, 13th Earl of Warwick",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -4716,6 +4962,8 @@
     "homeworld": "Norwich"
    },
    "line": "Salisbury’s son, of Norwich, of the Order of the Garter. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
+   "wiki": "Richard Neville, 16th Earl of Warwick",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4740,6 +4988,8 @@
     "homeworld": "Raby Castle"
    },
    "line": "Earl of Westmoreland, of Raby Castle. Appears in three plays.",
+   "wiki": "Ralph Neville, 1st Earl of Westmorland",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -4764,6 +5014,8 @@
     "homeworld": "Raby Castle"
    },
    "line": "Member of the House of Lords, of Raby Castle. Appears in Henry VI, Part 3.",
+   "wiki": "Ralph Neville, 1st Earl of Westmorland",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -4816,7 +5068,9 @@
      "name": "Clerk",
      "tied": 1
     }
-   }
+   },
+   "wiki": "William Stafford (died 1450)",
+   "wikiLang": "en"
   },
   "248": {
    "facts": {
@@ -4829,6 +5083,8 @@
     "gender": "Male"
    },
    "line": "Lord. Appears in Richard II.",
+   "wiki": "William Willoughby, 5th Baron Willoughby de Eresby",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -4850,7 +5106,9 @@
     "role": "Lieutenant of the Tower of London",
     "homeworld": "Maidstone"
    },
-   "line": "Lieutenant of the Tower of London, of Maidstone. Appears in Henry VI, Part 1."
+   "line": "Lieutenant of the Tower of London, of Maidstone. Appears in Henry VI, Part 1.",
+   "wiki": "Richard Woodville, 1st Earl Rivers",
+   "wikiLang": "en"
   },
   "250": {
    "facts": {
@@ -4866,8 +5124,10 @@
     ]
    },
    "line": "Earl of Worcester, Thomas Percy, Hotspur’s uncle, of the Order of the Garter. Appears in Henry IV, Part I.",
+   "wiki": "Thomas Percy, 1st Earl of Worcester",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4890,6 +5150,8 @@
     "homeworld": "Kings Langley"
    },
    "line": "And Regent of France, of Kings Langley. Appears in three plays.",
+   "wiki": "Richard of York, 3rd Duke of York",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4912,8 +5174,10 @@
     "homeworld": "Norwich"
    },
    "line": "Duke of York, of Norwich. Appears in Henry V.",
+   "wiki": "Edward, 2nd Duke of York",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4937,8 +5201,10 @@
     "homeworld": "Kings Langley"
    },
    "line": "Duke of York, of Kings Langley, of the Order of the Garter. Appears in Richard II.",
+   "wiki": "Edmund of Langley, 1st Duke of York",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -22451,7 +22717,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

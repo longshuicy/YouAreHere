@@ -33,7 +33,9 @@
      "name": "Chiron",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Benvolio",
+   "wikiLang": "en"
   },
   "2": {
    "facts": {
@@ -47,7 +49,7 @@
    },
    "line": "Her father.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -67,6 +69,8 @@
     "role": "Friar"
    },
    "line": "Friar.",
+   "wiki": "Friar Laurence",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -89,6 +93,8 @@
     "role": "daughter of Capulet"
    },
    "line": "Daughter of Capulet, of Verona.",
+   "wiki": "Juliet",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -111,7 +117,7 @@
    },
    "line": "Lady, Her mother.",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -152,8 +158,10 @@
     "role": "The Prince’s kinsman and Romeo’s friend"
    },
    "line": "The Prince’s kinsman and Romeo’s friend.",
+   "wiki": "Mercutio",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -194,6 +202,8 @@
     "role": "Nurse"
    },
    "line": "Nurse.",
+   "wiki": "Nurse (Romeo and Juliet)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -215,6 +225,8 @@
     "role": "The Prince’s kinsman and Juliet’s suitor"
    },
    "line": "The Prince’s kinsman and Juliet’s suitor.",
+   "wiki": "Count Paris",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -237,11 +249,11 @@
    },
    "line": "Tybalt’s companion.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
-     "world": "shuihuzhuan",
-     "story": "水滸傳",
-     "name": "黃文炳",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Johnny",
      "tied": 0
     }
    }
@@ -279,7 +291,7 @@
    },
    "line": "Son of Montague.",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -398,6 +410,8 @@
     "role": "Kinsman to the Capulets"
    },
    "line": "Kinsman to the Capulets.",
+   "wiki": "Tybalt",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -1590,7 +1604,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

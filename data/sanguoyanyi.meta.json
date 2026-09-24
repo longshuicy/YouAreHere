@@ -12,7 +12,9 @@
     "gender": "男",
     "occupation": "武將"
    },
-   "line": "武將。見於第87回。"
+   "line": "武將。見於第87回。",
+   "wiki": "金環三結",
+   "wikiLang": "zh"
   },
   "1": {
    "facts": {
@@ -24,7 +26,9 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於第27回、第73回。"
+   "line": "見於第27回、第73回。",
+   "wiki": "胡班",
+   "wikiLang": "zh"
   },
   "2": {
    "facts": {
@@ -36,7 +40,9 @@
     "gender": "男",
     "occupation": "軍官"
    },
-   "line": "軍官。見於第52回。"
+   "line": "軍官。見於第52回。",
+   "wiki": "邢道榮",
+   "wikiLang": "zh"
   },
   "3": {
    "facts": {
@@ -50,7 +56,9 @@
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第90回。"
+   "line": "屬蜀漢。見於第90回。",
+   "wiki": "帶來洞主",
+   "wikiLang": "zh"
   },
   "4": {
    "facts": {
@@ -63,7 +71,9 @@
     "gender": "男",
     "occupation": "武將"
    },
-   "line": "武將。見於第53回、第54回。"
+   "line": "武將。見於第53回、第54回。",
+   "wiki": "贾华 (三国演义)",
+   "wikiLang": "zh"
   },
   "5": {
    "facts": {
@@ -75,7 +85,9 @@
     "gender": "男",
     "occupation": "軍官"
    },
-   "line": "軍官。見於第61回。"
+   "line": "軍官。見於第61回。",
+   "wiki": "周善",
+   "wikiLang": "zh"
   },
   "6": {
    "facts": {
@@ -99,9 +111,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於3回。"
+   "line": "政治人物。見於3回。"
   },
   "8": {
    "facts": {
@@ -116,7 +129,9 @@
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第89回、第90回。"
+   "line": "屬蜀漢。見於第89回、第90回。",
+   "wiki": "楊鋒",
+   "wikiLang": "zh"
   },
   "9": {
    "facts": {
@@ -156,7 +171,9 @@
      "太守"
     ]
    },
-   "line": "太守。見於第27回。"
+   "line": "太守。見於第27回。",
+   "wiki": "王植 (三國演義)",
+   "wikiLang": "zh"
   },
   "12": {
    "facts": {
@@ -168,7 +185,9 @@
     "gender": "男",
     "occupation": "軍官"
    },
-   "line": "軍官。見於第52回。"
+   "line": "軍官。見於第52回。",
+   "wiki": "陳應",
+   "wikiLang": "zh"
   },
   "13": {
    "facts": {
@@ -185,8 +204,10 @@
     ]
    },
    "line": "軍官。屬蜀漢。見於第87回、第88回。",
+   "wiki": "董荼那",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -210,7 +231,9 @@
      "烏戈國"
     ]
    },
-   "line": "王。屬烏戈國。見於第90回。"
+   "line": "王。屬烏戈國。見於第90回。",
+   "wiki": "兀突骨",
+   "wikiLang": "zh"
   },
   "15": {
    "facts": {
@@ -224,7 +247,9 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "wiki": "貂蝉",
+   "wikiLang": "zh"
   },
   "16": {
    "facts": {
@@ -239,7 +264,9 @@
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第89回、第90回。"
+   "line": "屬蜀漢。見於第89回、第90回。",
+   "wiki": "朵思大王",
+   "wikiLang": "zh"
   },
   "17": {
    "facts": {
@@ -254,7 +281,9 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於5回。"
+   "line": "見於5回。",
+   "wiki": "蔡中",
+   "wikiLang": "zh"
   },
   "18": {
    "facts": {
@@ -269,7 +298,9 @@
     "gender": "男",
     "occupation": "軍官"
    },
-   "line": "軍官。見於4回。"
+   "line": "軍官。見於4回。",
+   "wiki": "蔡和",
+   "wikiLang": "zh"
   },
   "19": {
    "facts": {
@@ -282,7 +313,9 @@
     "gender": "男",
     "occupation": "軍官"
    },
-   "line": "軍官。見於第27回、第28回。"
+   "line": "軍官。見於第27回、第28回。",
+   "wiki": "秦琪",
+   "wikiLang": "zh"
   },
   "20": {
    "facts": {
@@ -294,7 +327,9 @@
     "gender": "男",
     "occupation": "家務工"
    },
-   "line": "家務工。見於第23回。"
+   "line": "家務工。見於第23回。",
+   "wiki": "秦慶童",
+   "wikiLang": "zh"
   },
   "21": {
    "facts": {
@@ -306,7 +341,9 @@
     "gender": "男",
     "occupation": "軍官"
    },
-   "line": "軍官。見於第94回。"
+   "line": "軍官。見於第94回。",
+   "wiki": "越吉",
+   "wikiLang": "zh"
   },
   "22": {
    "facts": {
@@ -315,9 +352,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第57回。"
+   "line": "政治人物。見於第57回。",
+   "wiki": "黃奎",
+   "wikiLang": "zh"
   },
   "23": {
    "facts": {
@@ -334,6 +374,8 @@
     ]
    },
    "line": "屬蜀漢。見於3回。",
+   "wiki": "孟優",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -356,7 +398,9 @@
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第90回。"
+   "line": "屬蜀漢。見於第90回。",
+   "wiki": "祝融夫人",
+   "wikiLang": "zh"
   },
   "25": {
    "facts": {
@@ -395,9 +439,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於4回。"
+   "line": "政治人物。見於4回。"
   },
   "27": {
    "facts": {
@@ -543,9 +588,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於5回。",
+   "line": "政治人物。見於5回。",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -565,9 +611,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於3回。"
+   "line": "政治人物。見於3回。"
   },
   "39": {
    "facts": {
@@ -724,10 +771,10 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "武將",
     "affiliations": [
      "蜀漢"
-    ],
-    "occupation": "武將"
+    ]
    },
    "line": "武將。屬蜀漢。見於42回。",
    "signals": {
@@ -888,10 +935,10 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "丞相",
     "titles": [
      "魏王"
     ],
-    "occupation": "丞相",
     "affiliations": [
      "魏"
     ]
@@ -943,9 +990,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於17回。",
+   "line": "政治人物。見於17回。",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -1099,7 +1147,7 @@
    },
    "line": "軍閥。見於38回。",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1285,11 +1333,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於21回。",
+   "line": "政治人物。見於21回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1309,9 +1358,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於5回。"
+   "line": "政治人物。見於5回。"
   },
   "60": {
    "facts": {
@@ -1407,9 +1457,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第4回、第6回。"
+   "line": "政治人物。見於第4回、第6回。"
   },
   "65": {
    "facts": {
@@ -1468,11 +1519,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍人"
    },
-   "line": "見於19回。",
+   "line": "軍人。見於19回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1511,11 +1563,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍人"
    },
-   "line": "見於24回。",
+   "line": "軍人。見於24回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1562,11 +1615,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍人"
    },
-   "line": "見於32回。",
+   "line": "軍人。見於32回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1602,11 +1656,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍人"
    },
-   "line": "見於21回。",
+   "line": "軍人。見於21回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1651,11 +1706,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍人"
    },
-   "line": "見於30回。",
+   "line": "軍人。見於30回。",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1694,11 +1750,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "軍人"
    },
-   "line": "見於24回。",
+   "line": "軍人。見於24回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1769,9 +1826,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於5回。"
+   "line": "政治人物。見於5回。"
   },
   "77": {
    "facts": {
@@ -1785,11 +1843,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於6回。",
+   "line": "政治人物。見於6回。",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1815,9 +1874,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於11回。",
+   "line": "政治人物。見於11回。",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -1926,7 +1986,7 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2031,9 +2091,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於24回。",
+   "line": "政治人物。見於24回。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -2104,7 +2165,7 @@
    },
    "line": "謀士。見於5回。",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 22,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2398,6 +2459,7 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "titles": [
      "吳王"
     ],
@@ -2405,7 +2467,7 @@
      "吳"
     ]
    },
-   "line": "吳王。見於45回。",
+   "line": "吳王。政治人物。見於45回。",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -2498,7 +2560,7 @@
    },
    "line": "丞相。屬蜀漢。見於42回。",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2808,9 +2870,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於11回。",
+   "line": "政治人物。見於11回。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -2841,7 +2904,7 @@
    },
    "line": "軍官。見於9回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2868,7 +2931,7 @@
    },
    "line": "謀士。見於7回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2915,7 +2978,7 @@
    },
    "line": "軍官。見於27回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3004,9 +3067,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於22回。",
+   "line": "政治人物。見於22回。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -3031,9 +3095,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於8回。"
+   "line": "政治人物。見於8回。"
   },
   "119": {
    "facts": {
@@ -3080,9 +3145,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第15回、第97回。"
+   "line": "政治人物。見於第15回、第97回。"
   },
   "122": {
    "facts": {
@@ -3167,7 +3233,7 @@
    },
    "line": "軍官。屬大魏。見於29回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3340,7 +3406,7 @@
    },
    "line": "軍官。見於8回。",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -3374,9 +3440,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於19回。",
+   "line": "政治人物。見於19回。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -3428,7 +3495,7 @@
    },
    "line": "軍官。見於30回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3552,7 +3619,7 @@
    },
    "line": "軍官。屬大魏。見於27回。",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3575,11 +3642,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於8回。",
+   "line": "政治人物。見於8回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3602,7 +3670,7 @@
    },
    "line": "軍官。見於3回。",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 29,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3701,9 +3769,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於4回。",
+   "line": "政治人物。見於4回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -3744,7 +3813,7 @@
    },
    "line": "軍官。見於19回。",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3777,13 +3846,14 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於17回。",
+   "line": "政治人物。屬吳國。見於17回。",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -3865,7 +3935,7 @@
    },
    "line": "軍官。見於16回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3965,11 +4035,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於7回。",
+   "line": "政治人物。屬大魏。見於7回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -4225,9 +4296,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於5回。"
+   "line": "政治人物。見於5回。"
   },
   "168": {
    "facts": {
@@ -4243,11 +4315,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於8回。",
+   "line": "政治人物。見於8回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -4301,11 +4374,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於11回。",
+   "line": "政治人物。見於11回。",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4331,9 +4405,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於11回。",
+   "line": "政治人物。見於11回。",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -4440,9 +4515,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於13回。",
+   "line": "政治人物。見於13回。",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -4548,9 +4624,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於3回。",
+   "line": "政治人物。見於3回。",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -4742,9 +4819,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於3回。"
+   "line": "政治人物。見於3回。"
   },
   "194": {
    "facts": {
@@ -4769,11 +4847,12 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於5回。",
+   "line": "政治人物。見於5回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -4881,7 +4960,7 @@
    },
    "line": "軍官。屬蜀漢。見於24回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -4927,7 +5006,7 @@
    },
    "line": "軍官。見於15回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -4952,11 +5031,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於9回。",
+   "line": "政治人物。屬大魏。見於9回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -5023,11 +5103,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於15回。",
+   "line": "政治人物。屬吳國。見於15回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -5058,7 +5139,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -5105,7 +5186,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -5128,7 +5209,7 @@
    },
    "line": "軍官。見於3回。",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -5233,13 +5314,14 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於13回。",
+   "line": "政治人物。屬大魏。見於13回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -5447,7 +5529,7 @@
    },
    "line": "謀士。見於6回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5508,7 +5590,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5604,7 +5686,7 @@
    },
    "line": "軍官。屬吳國。見於20回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5668,7 +5750,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5824,13 +5906,14 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於22回。",
+   "line": "政治人物。屬大魏。見於22回。",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5999,9 +6082,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於13回。",
+   "line": "政治人物。見於13回。",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -6039,7 +6123,7 @@
    },
    "line": "軍官。見於16回。",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6104,9 +6188,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於5回。"
+   "line": "政治人物。見於5回。"
   },
   "249": {
    "facts": {
@@ -6140,7 +6225,7 @@
    },
    "line": "軍官。見於21回。",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6192,9 +6277,9 @@
    "signals": {
     "lookAlikes": 57,
     "nearest": {
-     "world": "lesmiserables",
-     "story": "Les Misérables",
-     "name": "Madame Thénardier",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Connie Corleone",
      "tied": 0
     }
    }
@@ -6275,11 +6360,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於4回。"
+   "line": "政治人物。屬大魏。見於4回。"
   },
   "259": {
    "facts": {
@@ -6289,9 +6375,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第59回、第64回。"
+   "line": "政治人物。見於第59回、第64回。"
   },
   "260": {
    "facts": {
@@ -6303,9 +6390,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於4回。"
+   "line": "政治人物。見於4回。"
   },
   "261": {
    "facts": {
@@ -6328,9 +6416,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第60回、第62回。"
+   "line": "政治人物。見於第60回、第62回。"
   },
   "263": {
    "facts": {
@@ -6349,9 +6438,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於11回。",
+   "line": "政治人物。見於11回。",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -6413,9 +6503,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於6回。"
+   "line": "政治人物。見於6回。"
   },
   "266": {
    "facts": {
@@ -6428,13 +6519,14 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於4回。",
+   "line": "政治人物。屬蜀漢。見於4回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -6459,7 +6551,7 @@
    },
    "line": "軍官。見於5回。",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -6503,11 +6595,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於3回。"
+   "line": "政治人物。屬蜀漢。見於3回。"
   },
   "270": {
    "facts": {
@@ -6532,7 +6625,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6558,7 +6651,7 @@
    },
    "line": "軍官。見於6回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6584,7 +6677,7 @@
    },
    "line": "軍官。見於6回。",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6611,11 +6704,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於11回。",
+   "line": "政治人物。屬蜀漢。見於11回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -6645,7 +6739,7 @@
    },
    "line": "太守。見於6回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6705,7 +6799,7 @@
    },
    "line": "屬蜀漢。見於25回。",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6788,7 +6882,9 @@
     "gender": "男",
     "occupation": "軍官"
    },
-   "line": "軍官。見於第64回、第65回。"
+   "line": "軍官。見於第64回、第65回。",
+   "wiki": "楊柏 (三國演義)",
+   "wikiLang": "zh"
   },
   "283": {
    "facts": {
@@ -6825,9 +6921,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於4回。"
+   "line": "政治人物。見於4回。"
   },
   "285": {
    "facts": {
@@ -6867,11 +6964,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於7回。",
+   "line": "政治人物。屬蜀漢。見於7回。",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -6915,7 +7013,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -7118,7 +7216,7 @@
    },
    "line": "軍官。屬蜀漢。見於3回。",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -7169,7 +7267,7 @@
    },
    "line": "軍官。見於19回。",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -7270,9 +7368,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第86回、第107回。"
+   "line": "政治人物。見於第86回、第107回。"
   },
   "310": {
    "facts": {
@@ -7305,11 +7404,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於10回。",
+   "line": "政治人物。屬大魏。見於10回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -7342,9 +7442,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第80回、第91回。"
+   "line": "政治人物。見於第80回、第91回。"
   },
   "314": {
    "facts": {
@@ -7354,9 +7455,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第80回、第91回。"
+   "line": "政治人物。見於第80回、第91回。"
   },
   "315": {
    "facts": {
@@ -7367,11 +7469,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第81回、第85回。"
+   "line": "政治人物。屬蜀漢。見於第81回、第85回。"
   },
   "316": {
    "facts": {
@@ -7544,7 +7647,7 @@
    },
    "line": "屬吳國。見於3回。",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -7686,11 +7789,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於3回。"
+   "line": "政治人物。屬蜀漢。見於3回。"
   },
   "331": {
    "facts": {
@@ -7700,9 +7804,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第86回、第87回。"
+   "line": "政治人物。見於第86回、第87回。"
   },
   "332": {
    "facts": {
@@ -7712,11 +7817,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第87回。"
+   "line": "政治人物。屬蜀漢。見於第87回。"
   },
   "333": {
    "facts": {
@@ -7726,11 +7832,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第87回。"
+   "line": "政治人物。屬蜀漢。見於第87回。"
   },
   "334": {
    "facts": {
@@ -7742,11 +7849,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於3回。"
+   "line": "政治人物。屬蜀漢。見於3回。"
   },
   "335": {
    "facts": {
@@ -7762,13 +7870,14 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於7回。",
+   "line": "政治人物。屬蜀漢。見於7回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -7788,13 +7897,14 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於4回。",
+   "line": "政治人物。屬蜀漢。見於4回。",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7858,11 +7968,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於11回。",
+   "line": "政治人物。屬大魏。見於11回。",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -7881,11 +7992,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於第91回。"
+   "line": "政治人物。屬蜀漢。見於第91回。"
   },
   "340": {
    "facts": {
@@ -7935,11 +8047,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "蜀漢"
     ]
    },
-   "line": "屬蜀漢。見於5回。",
+   "line": "政治人物。屬蜀漢。見於5回。",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -8121,7 +8234,7 @@
    },
    "line": "軍官。屬蜀漢。見於26回。",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -8155,11 +8268,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於18回。",
+   "line": "政治人物。屬大魏。見於18回。",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -8216,11 +8330,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第106回。"
+   "line": "政治人物。屬大魏。見於第106回。"
   },
   "355": {
    "facts": {
@@ -8343,11 +8458,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於3回。"
+   "line": "政治人物。屬吳國。見於3回。"
   },
   "363": {
    "facts": {
@@ -8429,11 +8545,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "政治人物。屬大魏。見於3回。"
   },
   "368": {
    "facts": {
@@ -8460,11 +8577,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第106回。"
+   "line": "政治人物。屬大魏。見於第106回。"
   },
   "370": {
    "facts": {
@@ -8503,11 +8621,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。",
+   "line": "政治人物。屬大魏。見於3回。",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -8671,11 +8790,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第106回、第107回。",
+   "line": "政治人物。屬大魏。見於第106回、第107回。",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -8695,11 +8815,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第106回、第107回。",
+   "line": "政治人物。屬大魏。見於第106回、第107回。",
    "signals": {
     "lookAlikes": 34,
     "nearest": {
@@ -8733,11 +8854,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第107回。"
+   "line": "政治人物。屬大魏。見於第107回。"
   },
   "382": {
    "facts": {
@@ -8845,11 +8967,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第108回。"
+   "line": "政治人物。屬大魏。見於第108回。"
   },
   "387": {
    "facts": {
@@ -8893,11 +9016,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第108回、第111回。"
+   "line": "政治人物。屬吳國。見於第108回、第111回。"
   },
   "390": {
    "facts": {
@@ -8908,11 +9032,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "吳國"
     ]
    },
-   "line": "屬吳國。見於第108回、第113回。"
+   "line": "政治人物。屬吳國。見於第108回、第113回。"
   },
   "391": {
    "facts": {
@@ -8925,11 +9050,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於4回。",
+   "line": "政治人物。屬大魏。見於4回。",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -8967,13 +9093,14 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。",
+   "line": "政治人物。屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8992,11 +9119,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "政治人物。屬大魏。見於3回。"
   },
   "395": {
    "facts": {
@@ -9048,11 +9176,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於6回。"
+   "line": "政治人物。屬大魏。見於6回。"
   },
   "398": {
    "facts": {
@@ -9206,11 +9335,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於11回。"
+   "line": "政治人物。屬大魏。見於11回。"
   },
   "406": {
    "facts": {
@@ -9258,11 +9388,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "政治人物。屬大魏。見於3回。"
   },
   "409": {
    "facts": {
@@ -9275,11 +9406,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於4回。"
+   "line": "政治人物。屬大魏。見於4回。"
   },
   "410": {
    "facts": {
@@ -9393,11 +9525,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於3回。"
+   "line": "政治人物。屬大魏。見於3回。"
   },
   "417": {
    "facts": {
@@ -9407,11 +9540,12 @@
     "unit": "chapter",
     "corpusSize": 120,
     "gender": "男",
+    "occupation": "政治人物",
     "affiliations": [
      "大魏"
     ]
    },
-   "line": "屬大魏。見於第116回。"
+   "line": "政治人物。屬大魏。見於第116回。"
   },
   "418": {
    "facts": {
@@ -9483,6 +9617,8 @@
     "occupation": "軍官"
    },
    "line": "軍官。見於第87回、第88回。",
+   "wiki": "阿會喃",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -9507,7 +9643,9 @@
      "蜀漢"
     ]
    },
-   "line": "軍官。屬蜀漢。見於第87回、第88回。"
+   "line": "軍官。屬蜀漢。見於第87回、第88回。",
+   "wiki": "关索",
+   "wikiLang": "zh"
   },
   "424": {
    "facts": {
@@ -9516,9 +9654,10 @@
     ],
     "unit": "chapter",
     "corpusSize": 120,
-    "gender": "男"
+    "gender": "男",
+    "occupation": "政治人物"
    },
-   "line": "見於第94回。"
+   "line": "政治人物。見於第94回。"
   },
   "425": {
    "facts": {
@@ -9532,7 +9671,9 @@
      "王"
     ]
    },
-   "line": "王。見於第94回。"
+   "line": "王。見於第94回。",
+   "wiki": "徹里吉",
+   "wikiLang": "zh"
   },
   "426": {
    "facts": {
@@ -9561,7 +9702,9 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於第44回、第54回。"
+   "line": "見於第44回、第54回。",
+   "wiki": "喬國老",
+   "wikiLang": "zh"
   },
   "428": {
    "facts": {
@@ -9603,6 +9746,8 @@
     "occupation": "戰士"
    },
    "line": "戰士。見於7回。",
+   "wiki": "周倉",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -9640,7 +9785,9 @@
     "corpusSize": 120,
     "gender": "女"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "wiki": "吳國太",
+   "wikiLang": "zh"
   },
   "433": {
    "facts": {
@@ -9655,7 +9802,9 @@
      "大魏"
     ]
    },
-   "line": "軍官。屬大魏。見於第92回。"
+   "line": "軍官。屬大魏。見於第92回。",
+   "wiki": "韓德",
+   "wikiLang": "zh"
   },
   "434": {
    "facts": {
@@ -9668,7 +9817,9 @@
     "corpusSize": 120,
     "gender": "男"
    },
-   "line": "見於3回。"
+   "line": "見於3回。",
+   "wiki": "楊松 (三國演義)",
+   "wikiLang": "zh"
   },
   "435": {
    "facts": {
@@ -9683,7 +9834,9 @@
      "蜀漢"
     ]
    },
-   "line": "軍官。屬蜀漢。見於第87回。"
+   "line": "軍官。屬蜀漢。見於第87回。",
+   "wiki": "鄂煥",
+   "wikiLang": "zh"
   }
  },
  "edges": {
@@ -54571,9 +54724,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "三国演义",
+ "workWikiLang": "zh"
 }

@@ -23,10 +23,14 @@ const FALLBACK: Record<string, string> = {
     'The House and Senate across sixteen Congresses (~1973–2004), tied by the bills they put their names on.',
   friends:
     'Six people in a Manhattan orbit, ten seasons of apartments, coffee shop and guest stars.',
+  godfather:
+    'A New York family business, told across two films, where blood and loyalty keep changing hands.',
   hongloumeng:
     '一個繁华家族走向衰败，一场青春与爱情终成大梦。',
   iliad:
     'A ten-year siege in its last weeks, two camps on a plain, and a quarrel in one of them.',
+  'indiana-jones':
+    'A whip, a fedora, and two treasure hunts — one in India, one across Europe.',
   lesmiserables:
     'Paris after the Restoration, a hunt that lasts twenty years, and a barricade that lasts one night.',
   lotr:
@@ -114,6 +118,8 @@ const FAMILIARITY: Record<string, 0 | 1 | 2> = {
   civilwar: 2,
   lotr: 2,
   pride: 2,
+  godfather: 2,
+  'indiana-jones': 2,
   iliad: 1,
   odyssey: 1,
   // Nameable, but only to Americans — the same kind of accident as the five

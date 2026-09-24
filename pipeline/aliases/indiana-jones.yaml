@@ -1,0 +1,49 @@
+# Hand-maintained identity table for Indiana Jones (Moviegalaxies).
+#
+# Only Temple of Doom + Last Crusade ship; Raiders / Crystal Skull GEXFs upstream
+# are misattributed.
+
+indiana-jones:
+
+  indiana:
+    wikidata: Q148659
+    aliases: ["Indy", "Dr. Jones", "Dr. Indiana Jones"]
+
+  henry:
+    wikidata: Q2552714
+    aliases: ["Henry Jones", "Professor Jones", "Senior"]
+
+  marcus:
+    wikidata: Q11767962
+    aliases: ["Brody", "Marcus Brody"]
+
+  sallah:
+    wikidata: Q304552
+
+  short_round:
+    wikidata: Q60255577
+    aliases: ["Short Round", "Wan Li"]
+
+  willie:
+    wikidata: Q9374895
+    aliases: ["Willie Scott"]
+
+  mola_ram:
+    wikidata: Q60254963
+
+  donovan:
+    wikidata: Q113080543
+    aliases: ["Walter Donovan"]
+
+  elsa:
+    wikidata: Q131917201
+    aliases: ["Dr. Elsa Schneider"]
+
+  vogel:
+    aliases: ["Colonel Vogel"]
+
+  chattar_lal:
+    aliases: ["Chattar Lal"]
+
+  capt_blumburtt:
+    aliases: ["Captain Blumburtt"]

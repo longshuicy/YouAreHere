@@ -33,7 +33,8 @@ ATTRIBUTION = Attribution(
     retrieved="2026-09-18",
     modifications=(
         "Extracted discrete character attributes (occupation, position, noble "
-        "title, species, affiliation, homeworld, gender); no wiki descriptions.",
+        "title, species, affiliation, homeworld, gender) and Wikipedia sitelink "
+        "titles; no wiki descriptions.",
         "Generic stations are kept; only junk labels (classes, misread offices) "
         "are dropped. Sentences are composed here from those attributes.",
     ),
@@ -378,7 +379,7 @@ PROPS = {
 def attributes_for(
     qids: list[str], *, cache_name: str, cache_dir: Path, languages: tuple[str, ...] = ("en",)
 ) -> dict[str, dict]:
-    """Return {qid: {gender, occupations, titles, species, affiliations, homeworld}}."""
+    """Return {qid: {gender, occupations, titles, species, affiliations, homeworld, wiki}}."""
     wanted = sorted({qid for qid in qids if re.fullmatch(r"Q\d+", qid)})
     if not wanted:
         return {}
@@ -387,10 +388,14 @@ def attributes_for(
     cached: dict[str, dict] = {}
     if path.exists():
         cached = json.loads(path.read_text(encoding="utf-8"))
-        missing = [qid for qid in wanted if qid not in cached]
+        # Re-fetch when the sitelink field is absent (older caches predate wiki links).
+        missing = [
+            qid
+            for qid in wanted
+            if qid not in cached or "wiki" not in cached[qid]
+        ]
         if not missing:
             return {qid: cached[qid] for qid in wanted}
-        # Incremental fill when the cast grows.
         to_fetch = missing
     else:
         to_fetch = wanted
@@ -402,6 +407,131 @@ def attributes_for(
     path.write_text(json.dumps(cached, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     print(f"  cached {len(cached)} Wikidata records → {path.name}")
     return {qid: cached[qid] for qid in wanted if qid in cached}
+
+
+def backfill_sitelinks(
+    *, cache_name: str, cache_dir: Path, languages: tuple[str, ...] = ("en",)
+) -> int:
+    """Add wiki/wikiLang to an existing attributes cache without re-fetching claims.
+
+    Returns how many records were updated.
+    """
+    path = cache_dir / cache_name
+    if not path.exists():
+        return 0
+    cached: dict[str, dict] = json.loads(path.read_text(encoding="utf-8"))
+    missing = [qid for qid, rec in cached.items() if "wiki" not in rec]
+    if not missing:
+        return 0
+
+    sites = _wiki_sites(languages=languages)
+    print(f"  backfilling Wikipedia sitelinks for {len(missing)} records in {path.name} ...")
+    updated = 0
+    for start in range(0, len(missing), 50):
+        batch = missing[start : start + 50]
+        payload = _api(
+            {
+                "action": "wbgetentities",
+                "ids": "|".join(batch),
+                "props": "sitelinks",
+                "sitefilter": "|".join(sites),
+                "format": "json",
+            },
+            soft=True,
+        )
+        if not payload.get("entities"):
+            print(f"    rate-limited at {start}/{len(missing)}; pausing 60s ...", flush=True)
+            time.sleep(60)
+            payload = _api(
+                {
+                    "action": "wbgetentities",
+                    "ids": "|".join(batch),
+                    "props": "sitelinks",
+                    "sitefilter": "|".join(sites),
+                    "format": "json",
+                },
+                soft=True,
+            )
+        if not payload.get("entities"):
+            print(f"    still empty at {start}/{len(missing)}; leaving for a later run", flush=True)
+            continue
+        for qid, entity in (payload.get("entities") or {}).items():
+            if qid not in cached:
+                continue
+            title, lang = _sitelink_from_entity(entity, sites)
+            cached[qid]["wiki"] = title
+            cached[qid]["wikiLang"] = lang
+            updated += 1
+        # Persist incrementally so a mid-run abort keeps progress.
+        path.write_text(
+            json.dumps(cached, ensure_ascii=False, indent=1, sort_keys=True),
+            encoding="utf-8",
+        )
+        if start + 50 < len(missing):
+            time.sleep(1.5)
+
+    path.write_text(json.dumps(cached, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    return updated
+
+
+def work_sitelink(source: str) -> dict[str, str] | None:
+    """Wikipedia page for a world's work, if known. Cached under raw/<source>/."""
+    qid = WORK_PAGES.get(source)
+    if not qid:
+        return None
+
+    cache_dir = RAW / source
+    path = cache_dir / "work-sitelink.json"
+    if path.exists():
+        cached = json.loads(path.read_text(encoding="utf-8"))
+        if cached.get("title"):
+            return cached
+
+    sites = _wiki_sites(source)
+    print(f"  fetching Wikipedia sitelink for work {qid} ({source}) ...", flush=True)
+    payload = _api(
+        {
+            "action": "wbgetentities",
+            "ids": qid,
+            "props": "sitelinks",
+            "sitefilter": "|".join(sites),
+            "format": "json",
+        }
+    )
+    entity = (payload.get("entities") or {}).get(qid) or {}
+    title, lang = _sitelink_from_entity(entity, sites)
+    if not title or not lang:
+        return None
+
+    record = {"title": title, "lang": lang, "qid": qid}
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(record, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    return record
+
+
+def _wiki_sites(source: str | None = None, *, languages: tuple[str, ...] | None = None) -> tuple[str, ...]:
+    """Preferred Wikipedia project(s).
+
+    English-primary worlds stay on enwiki only — falling back to zhwiki would
+    hand an English player a Chinese article for minor characters that lack an
+    English page. Chinese classics prefer zhwiki, then enwiki.
+    """
+    if source in ZH_SOURCES or (
+        languages and any(lang.startswith("zh") for lang in languages)
+    ):
+        return ("zhwiki", "enwiki")
+    return ("enwiki",)
+
+
+def _sitelink_from_entity(entity: dict, sites: tuple[str, ...]) -> tuple[str | None, str | None]:
+    sitelinks = entity.get("sitelinks") or {}
+    for site in sites:
+        title = (sitelinks.get(site) or {}).get("title")
+        if title:
+            # enwiki → en, zhwiki → zh
+            lang = site[:-4] if site.endswith("wiki") else site
+            return title, lang
+    return None, None
 
 
 def resolve_starwars_names(names: list[str]) -> dict[str, str]:
@@ -536,7 +666,36 @@ WORK_CAST = {
     "iliad": "Q8275",
     "lesmiserables": "Q180736",
     "pride": "Q170583",
+    # Film-series cast: short script names match via given-name forms.
+    "godfather": "Q3225260",  # The Godfather (film series)
+    # Indiana Jones: franchise cast SPARQL times out; pins in aliases cover the leads.
 }
+
+# Work / franchise QIDs for a world-level Wikipedia link on the gallery card.
+# Broader than WORK_CAST: cast matching is optional; the story link is not.
+WORK_PAGES = {
+    "asoiaf": "Q45875",  # A Song of Ice and Fire
+    "bible": "Q1845",  # Bible
+    "congress": "Q11268",  # United States Congress
+    "friends": "Q79784",
+    "godfather": "Q3225260",
+    "hongloumeng": "Q8265",
+    "iliad": "Q8275",
+    "indiana-jones": "Q2562640",
+    "lesmiserables": "Q180736",
+    "lotr": "Q15228",  # The Lord of the Rings
+    "odyssey": "Q35160",
+    "pride": "Q170583",
+    "sanguoyanyi": "Q70806",
+    "shiji": "Q272530",
+    "shuihuzhuan": "Q70827",
+    "starwars": "Q462",  # Star Wars
+    "xiyouji": "Q70784",
+}
+
+ZH_SOURCES = frozenset(
+    {"hongloumeng", "sanguoyanyi", "shiji", "shuihuzhuan", "xiyouji"}
+)
 
 # Honorifics are not given names; indexing them as first tokens would collide.
 _GIVEN_NAME_SKIP = frozenset(
@@ -755,6 +914,12 @@ def apply_to_record(record: dict, attrs: dict) -> None:
     if attrs.get("homeworld") and "homeworld" not in record:
         record["homeworld"] = attrs["homeworld"]
 
+    # Sitelink title + lang ride on the record until emit lifts them off facts.
+    if attrs.get("wiki") and "wiki" not in record:
+        record["wiki"] = attrs["wiki"]
+        if attrs.get("wikiLang"):
+            record["wikiLang"] = attrs["wikiLang"]
+
 
 def _clean_species(label: str | None) -> str | None:
     if not label:
@@ -873,7 +1038,8 @@ def _prefer_affiliations(affiliations: list[str]) -> list[str]:
 
 
 def _fetch_attributes(qids: list[str], *, languages: tuple[str, ...]) -> dict[str, dict]:
-    entities = _get_entities(qids)
+    sites = _wiki_sites(languages=languages)
+    entities = _get_entities(qids, sites=sites)
     # Collect referenced entity ids so we can resolve labels in one pass.
     refs: set[str] = set()
     for entity in entities.values():
@@ -889,11 +1055,17 @@ def _fetch_attributes(qids: list[str], *, languages: tuple[str, ...]) -> dict[st
         if not entity:
             out[qid] = _empty()
             continue
-        out[qid] = _attributes_from_entity(entity, labels, gender=gender)
+        out[qid] = _attributes_from_entity(entity, labels, gender=gender, sites=sites)
     return out
 
 
-def _attributes_from_entity(entity: dict, labels: dict[str, str], *, gender: dict[str, str]) -> dict:
+def _attributes_from_entity(
+    entity: dict,
+    labels: dict[str, str],
+    *,
+    gender: dict[str, str],
+    sites: tuple[str, ...] = ("enwiki", "zhwiki"),
+) -> dict:
     rec = _empty()
 
     for value_id in _claim_ids(entity, "P21"):
@@ -958,6 +1130,10 @@ def _attributes_from_entity(entity: dict, labels: dict[str, str], *, gender: dic
         if rec["homeworld"]:
             break
 
+    title, lang = _sitelink_from_entity(entity, sites)
+    rec["wiki"] = title
+    rec["wikiLang"] = lang
+
     # Preserve Wikidata's preferred-then-normal order; do not alphabetise.
     return rec
 
@@ -986,7 +1162,7 @@ def _claim_ids(entity: dict, prop: str) -> list[str]:
     return preferred + normal
 
 
-def _get_entities(qids: list[str]) -> dict[str, dict]:
+def _get_entities(qids: list[str], *, sites: tuple[str, ...] = ("enwiki", "zhwiki")) -> dict[str, dict]:
     entities: dict[str, dict] = {}
     for start in range(0, len(qids), 50):
         batch = qids[start : start + 50]
@@ -994,7 +1170,8 @@ def _get_entities(qids: list[str]) -> dict[str, dict]:
             {
                 "action": "wbgetentities",
                 "ids": "|".join(batch),
-                "props": "claims",
+                "props": "claims|sitelinks",
+                "sitefilter": "|".join(sites),
                 "format": "json",
             }
         )
@@ -1041,6 +1218,8 @@ def _empty() -> dict:
         "species": None,
         "affiliations": [],
         "homeworld": None,
+        "wiki": None,
+        "wikiLang": None,
     }
 
 

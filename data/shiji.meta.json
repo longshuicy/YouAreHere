@@ -12,7 +12,9 @@
     "unit": "juan",
     "corpusSize": 126
    },
-   "line": "見於3篇。"
+   "line": "見於3篇。",
+   "wiki": "李息",
+   "wikiLang": "zh"
   },
   "1": {
    "facts": {
@@ -31,7 +33,9 @@
      "魏國"
     ]
    },
-   "line": "政治家。屬魏國。見於5篇。"
+   "line": "政治家。屬魏國。見於5篇。",
+   "wiki": "信陵君",
+   "wikiLang": "zh"
   },
   "2": {
    "facts": {
@@ -51,7 +55,9 @@
      "西魏国"
     ]
    },
-   "line": "屬西魏国。見於7篇。"
+   "line": "屬西魏国。見於7篇。",
+   "wiki": "魏豹",
+   "wikiLang": "zh"
   },
   "3": {
    "facts": {
@@ -66,7 +72,9 @@
      "魯國"
     ]
    },
-   "line": "商人。屬魯國。見於秦始皇本紀、陳涉世家。"
+   "line": "商人。屬魯國。見於秦始皇本紀、陳涉世家。",
+   "wiki": "猗頓",
+   "wikiLang": "zh"
   },
   "4": {
    "facts": {
@@ -83,7 +91,9 @@
      "趙國"
     ]
    },
-   "line": "歷史學家。屬趙國。見於3篇。"
+   "line": "歷史學家。屬趙國。見於3篇。",
+   "wiki": "虞卿",
+   "wikiLang": "zh"
   },
   "5": {
    "facts": {
@@ -98,7 +108,9 @@
     "gender": "男",
     "homeworld": "田齊"
    },
-   "line": "田齊出身。見於4篇。"
+   "line": "田齊出身。見於4篇。",
+   "wiki": "孟尝君",
+   "wikiLang": "zh"
   },
   "6": {
    "facts": {
@@ -114,7 +126,9 @@
     "occupation": "哲學家",
     "homeworld": "開封市"
    },
-   "line": "哲學家。見於4篇。"
+   "line": "哲學家。見於4篇。",
+   "wiki": "酈食其",
+   "wikiLang": "zh"
   },
   "7": {
    "facts": {
@@ -142,8 +156,10 @@
     "homeworld": "六安市"
    },
    "line": "六安市出身。見於16篇。",
+   "wiki": "英布",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -171,8 +187,10 @@
     "homeworld": "豐縣"
    },
    "line": "豐縣出身。見於9篇。",
+   "wiki": "卢绾",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -191,7 +209,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於項羽本紀、田儋列傳。"
+   "line": "見於項羽本紀、田儋列傳。",
+   "wiki": "田横",
+   "wikiLang": "zh"
   },
   "10": {
    "facts": {
@@ -213,7 +233,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於12篇。"
+   "line": "見於12篇。",
+   "wiki": "平原君",
+   "wikiLang": "zh"
   },
   "11": {
    "facts": {
@@ -226,7 +248,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於3篇。"
+   "line": "見於3篇。",
+   "wiki": "酈商",
+   "wikiLang": "zh"
   },
   "12": {
    "facts": {
@@ -243,7 +267,9 @@
      "楚國"
     ]
    },
-   "line": "屬楚國。見於4篇。"
+   "line": "屬楚國。見於4篇。",
+   "wiki": "春申君",
+   "wikiLang": "zh"
   },
   "13": {
    "facts": {
@@ -256,7 +282,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於3篇。"
+   "line": "見於3篇。",
+   "wiki": "刘不识",
+   "wikiLang": "zh"
   },
   "14": {
    "facts": {
@@ -274,7 +302,9 @@
     ],
     "homeworld": "濟州 (山東)"
    },
-   "line": "士兵。屬西漢。見於3篇。"
+   "line": "士兵。屬西漢。見於3篇。",
+   "wiki": "劉敬 (西漢)",
+   "wikiLang": "zh"
   },
   "15": {
    "facts": {
@@ -306,6 +336,8 @@
     ]
    },
    "line": "屬西漢。見於18篇。",
+   "wiki": "劉旦",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -326,7 +358,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於趙世家、樂毅列傳。"
+   "line": "見於趙世家、樂毅列傳。",
+   "wiki": "樂間",
+   "wikiLang": "zh"
   },
   "17": {
    "facts": {
@@ -342,7 +376,9 @@
      "燕國"
     ]
    },
-   "line": "屬燕國。見於4篇。"
+   "line": "屬燕國。見於4篇。",
+   "wiki": "樂乘",
+   "wikiLang": "zh"
   },
   "18": {
    "facts": {
@@ -357,7 +393,9 @@
      "西漢"
     ]
    },
-   "line": "屬西漢。見於韓長孺列傳、衛將軍驃騎列傳。"
+   "line": "屬西漢。見於韓長孺列傳、衛將軍驃騎列傳。",
+   "wiki": "公孫賀",
+   "wikiLang": "zh"
   },
   "19": {
    "facts": {
@@ -377,7 +415,9 @@
      "西漢"
     ]
    },
-   "line": "廷尉。屬西漢。見於4篇。"
+   "line": "廷尉。屬西漢。見於4篇。",
+   "wiki": "张释之",
+   "wikiLang": "zh"
   },
   "20": {
    "facts": {
@@ -401,12 +441,14 @@
     "homeworld": "豐縣"
    },
    "line": "漢族。屬西漢。見於7篇。",
+   "wiki": "樊噲",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
-     "world": "shiji",
-     "story": "史記",
-     "name": "英布",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Al Neri",
      "tied": 0
     }
    }
@@ -420,7 +462,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於樗裡子甘茂列傳。"
+   "line": "見於樗裡子甘茂列傳。",
+   "wiki": "甘茂",
+   "wikiLang": "zh"
   },
   "22": {
    "facts": {
@@ -437,7 +481,9 @@
      "西漢"
     ]
    },
-   "line": "屬西漢。見於4篇。"
+   "line": "屬西漢。見於4篇。",
+   "wiki": "田蚡",
+   "wikiLang": "zh"
   },
   "23": {
    "facts": {
@@ -454,7 +500,9 @@
      "西漢"
     ]
    },
-   "line": "屬西漢。見於4篇。"
+   "line": "屬西漢。見於4篇。",
+   "wiki": "窦婴",
+   "wikiLang": "zh"
   },
   "24": {
    "facts": {
@@ -472,7 +520,9 @@
      "西漢"
     ]
    },
-   "line": "屬西漢。見於6篇。"
+   "line": "屬西漢。見於6篇。",
+   "wiki": "魏相 (汉朝)",
+   "wikiLang": "zh"
   },
   "25": {
    "facts": {
@@ -488,7 +538,9 @@
     "gender": "男",
     "occupation": "哲學家"
    },
-   "line": "哲學家。見於5篇。"
+   "line": "哲學家。見於5篇。",
+   "wiki": "晁错",
+   "wikiLang": "zh"
   },
   "26": {
    "facts": {
@@ -506,7 +558,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於8篇。"
+   "line": "見於8篇。",
+   "wiki": "袁盎",
+   "wikiLang": "zh"
   },
   "27": {
    "facts": {
@@ -523,7 +577,9 @@
     "occupation": "政治家",
     "homeworld": "豐縣"
    },
-   "line": "政治家。見於5篇。"
+   "line": "政治家。見於5篇。",
+   "wiki": "萧何",
+   "wikiLang": "zh"
   },
   "28": {
    "facts": {
@@ -544,7 +600,9 @@
     ],
     "homeworld": "上蔡縣"
    },
-   "line": "哲學家。屬楚國。見於5篇。"
+   "line": "哲學家。屬楚國。見於5篇。",
+   "wiki": "李斯",
+   "wikiLang": "zh"
   },
   "29": {
    "facts": {
@@ -567,8 +625,10 @@
     ]
    },
    "line": "屬西漢。見於9篇。",
+   "wiki": "陳豨",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -589,7 +649,9 @@
      "秦國"
     ]
    },
-   "line": "屬秦國。見於樗裡子甘茂列傳。"
+   "line": "屬秦國。見於樗裡子甘茂列傳。",
+   "wiki": "甘罗",
+   "wikiLang": "zh"
   },
   "31": {
    "facts": {
@@ -624,8 +686,10 @@
     ]
    },
    "line": "屬西漢。見於22篇。",
+   "wiki": "郭舍人",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 20,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -646,7 +710,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於4篇。"
+   "line": "見於4篇。",
+   "wiki": "蘇厲",
+   "wikiLang": "zh"
   },
   "33": {
    "facts": {
@@ -692,6 +758,8 @@
     "homeworld": "宿遷市"
    },
    "line": "君主。屬楚國。見於26篇。",
+   "wiki": "项羽",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -719,7 +787,9 @@
     ],
     "homeworld": "邾国"
    },
-   "line": "哲學家。屬邾国。見於4篇。"
+   "line": "哲學家。屬邾国。見於4篇。",
+   "wiki": "孟子",
+   "wikiLang": "zh"
   },
   "35": {
    "facts": {
@@ -743,7 +813,9 @@
     ],
     "homeworld": "魏國"
    },
-   "line": "宰相。屬魏國。見於7篇。"
+   "line": "宰相。屬魏國。見於7篇。",
+   "wiki": "张仪",
+   "wikiLang": "zh"
   },
   "36": {
    "facts": {
@@ -765,7 +837,9 @@
     ],
     "homeworld": "趙國"
    },
-   "line": "哲學家。屬齊國。見於6篇。"
+   "line": "哲學家。屬齊國。見於6篇。",
+   "wiki": "荀子",
+   "wikiLang": "zh"
   },
   "37": {
    "facts": {
@@ -780,7 +854,9 @@
     "occupation": "哲學家",
     "homeworld": "魯國"
    },
-   "line": "哲學家。見於3篇。"
+   "line": "哲學家。見於3篇。",
+   "wiki": "墨子",
+   "wikiLang": "zh"
   },
   "38": {
    "facts": {
@@ -800,7 +876,9 @@
     ],
     "homeworld": "新鄭市"
    },
-   "line": "哲學家。屬韩国。見於5篇。"
+   "line": "哲學家。屬韩国。見於5篇。",
+   "wiki": "韩非",
+   "wikiLang": "zh"
   },
   "39": {
    "facts": {
@@ -819,7 +897,9 @@
      "趙國"
     ]
    },
-   "line": "屬趙國。見於6篇。"
+   "line": "屬趙國。見於6篇。",
+   "wiki": "藺相如",
+   "wikiLang": "zh"
   },
   "40": {
    "facts": {
@@ -844,12 +924,14 @@
     ]
    },
    "line": "將軍。屬西漢。見於9篇。",
+   "wiki": "彭越",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "Agrippa",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Kay Adams",
      "tied": 0
     }
    }
@@ -870,7 +952,9 @@
      "齊國"
     ]
    },
-   "line": "哲學家。屬魏國。見於3篇。"
+   "line": "哲學家。屬魏國。見於3篇。",
+   "wiki": "孙膑",
+   "wikiLang": "zh"
   },
   "42": {
    "facts": {
@@ -897,8 +981,10 @@
     "homeworld": "衛國"
    },
    "line": "商人。屬秦國。見於11篇。",
+   "wiki": "吕不韦",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 32,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -920,7 +1006,9 @@
     "occupation": "武將",
     "homeworld": "堯都區"
    },
-   "line": "武將。見於3篇。"
+   "line": "武將。見於3篇。",
+   "wiki": "霍去病",
+   "wikiLang": "zh"
   },
   "44": {
    "facts": {
@@ -936,7 +1024,9 @@
      "帝制中國"
     ]
    },
-   "line": "連環殺手。屬帝制中國。見於孝景本紀、梁孝王世家。"
+   "line": "連環殺手。屬帝制中國。見於孝景本紀、梁孝王世家。",
+   "wiki": "刘彭离",
+   "wikiLang": "zh"
   },
   "45": {
    "facts": {
@@ -969,7 +1059,9 @@
     ],
     "homeworld": "曲阜市"
    },
-   "line": "哲學家。屬魯國。見於18篇。"
+   "line": "哲學家。屬魯國。見於18篇。",
+   "wiki": "孔子",
+   "wikiLang": "zh"
   },
   "46": {
    "facts": {
@@ -986,7 +1078,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於7篇。"
+   "line": "見於7篇。",
+   "wiki": "田榮",
+   "wikiLang": "zh"
   },
   "47": {
    "facts": {
@@ -1005,7 +1099,9 @@
     ],
     "homeworld": "蘇州市"
    },
-   "line": "蘇州市出身。屬西漢。見於4篇。"
+   "line": "蘇州市出身。屬西漢。見於4篇。",
+   "wiki": "周勃",
+   "wikiLang": "zh"
   },
   "48": {
    "facts": {
@@ -1038,12 +1134,14 @@
     "homeworld": "淮安市"
    },
    "line": "淮安市出身。屬西漢。見於18篇。",
+   "wiki": "韩信",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Hodor",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Sonny Corleone",
      "tied": 0
     }
    }
@@ -1068,7 +1166,9 @@
      "西漢"
     ]
    },
-   "line": "屬西漢。見於9篇。"
+   "line": "屬西漢。見於9篇。",
+   "wiki": "韩安国",
+   "wikiLang": "zh"
   },
   "50": {
    "facts": {
@@ -1084,7 +1184,9 @@
      "西漢"
     ]
    },
-   "line": "屬西漢。見於3篇。"
+   "line": "屬西漢。見於3篇。",
+   "wiki": "王陵 (西汉)",
+   "wikiLang": "zh"
   },
   "51": {
    "facts": {
@@ -1106,7 +1208,9 @@
     ],
     "homeworld": "衛國"
    },
-   "line": "哲學家。屬楚國。見於6篇。"
+   "line": "哲學家。屬楚國。見於6篇。",
+   "wiki": "吴起",
+   "wikiLang": "zh"
   },
   "52": {
    "facts": {
@@ -1128,8 +1232,10 @@
     ]
    },
    "line": "謀士。屬西漢。見於7篇。",
+   "wiki": "张良",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1152,7 +1258,9 @@
     "gender": "男",
     "homeworld": "堯都區"
    },
-   "line": "堯都區出身。見於5篇。"
+   "line": "堯都區出身。見於5篇。",
+   "wiki": "卫青",
+   "wikiLang": "zh"
   },
   "54": {
    "facts": {
@@ -1169,6 +1277,8 @@
     ]
    },
    "line": "貴族。屬西漢。見於高祖本紀、楚元王世家。",
+   "wiki": "劉交",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -1197,7 +1307,9 @@
     ],
     "homeworld": "眉縣"
    },
-   "line": "軍事領袖。屬秦國。見於5篇。"
+   "line": "軍事領袖。屬秦國。見於5篇。",
+   "wiki": "白起",
+   "wikiLang": "zh"
   },
   "56": {
    "facts": {
@@ -1214,7 +1326,9 @@
     ],
     "homeworld": "天水市"
    },
-   "line": "天水市出身。屬西漢。見於3篇。"
+   "line": "天水市出身。屬西漢。見於3篇。",
+   "wiki": "李广",
+   "wikiLang": "zh"
   },
   "57": {
    "facts": {
@@ -1231,7 +1345,9 @@
      "秦國"
     ]
    },
-   "line": "屬秦國。見於4篇。"
+   "line": "屬秦國。見於4篇。",
+   "wiki": "王翦",
+   "wikiLang": "zh"
   },
   "58": {
    "facts": {
@@ -1253,8 +1369,10 @@
     "homeworld": "蘭考縣"
    },
    "line": "蘭考縣出身。見於10篇。",
+   "wiki": "陈平 (汉朝)",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -1274,8 +1392,10 @@
     "gender": "男"
    },
    "line": "見於高祖本紀、齊悼惠王世家。",
+   "wiki": "劉肥",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1307,7 +1427,9 @@
     ],
     "homeworld": "開封市"
    },
-   "line": "開封市出身。屬西漢。見於11篇。"
+   "line": "開封市出身。屬西漢。見於11篇。",
+   "wiki": "張耳",
+   "wikiLang": "zh"
   },
   "61": {
    "facts": {
@@ -1326,7 +1448,9 @@
     "homeworld": "開封市",
     "occupation": "武將"
    },
-   "line": "武將。見於7篇。"
+   "line": "武將。見於7篇。",
+   "wiki": "陳餘",
+   "wikiLang": "zh"
   },
   "62": {
    "facts": {
@@ -1343,7 +1467,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於7篇。"
+   "line": "見於7篇。",
+   "wiki": "韓王信",
+   "wikiLang": "zh"
   },
   "63": {
    "facts": {
@@ -1362,6 +1488,8 @@
     "homeworld": "洛陽市"
    },
    "line": "哲學家。見於6篇。",
+   "wiki": "苏秦",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -1396,8 +1524,10 @@
     "homeworld": "邯鄲市"
    },
    "line": "王。屬秦國。見於7篇。",
+   "wiki": "秦始皇",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1459,8 +1589,10 @@
     "homeworld": "沛縣"
    },
    "line": "王。屬西漢。見於36篇。",
+   "wiki": "刘邦",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1507,6 +1639,8 @@
     "homeworld": "長安"
    },
    "line": "王。屬西漢。見於22篇。",
+   "wiki": "汉文帝",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 17,
     "nearest": {
@@ -1548,6 +1682,8 @@
     "homeworld": "太原市"
    },
    "line": "統治者。屬西漢。見於17篇。",
+   "wiki": "汉景帝",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -1578,7 +1714,9 @@
     ],
     "homeworld": "長安"
    },
-   "line": "長安出身。屬西漢。見於8篇。"
+   "line": "長安出身。屬西漢。見於8篇。",
+   "wiki": "汉武帝",
+   "wikiLang": "zh"
   },
   "69": {
    "facts": {
@@ -1600,6 +1738,8 @@
     ]
    },
    "line": "屬趙國。見於8篇。",
+   "wiki": "廉颇",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 70,
     "nearest": {
@@ -1623,7 +1763,9 @@
     "corpusSize": 126,
     "gender": "男"
    },
-   "line": "見於5篇。"
+   "line": "見於5篇。",
+   "wiki": "劉武 (梁王)",
+   "wikiLang": "zh"
   },
   "71": {
    "facts": {
@@ -1639,7 +1781,9 @@
      "秦國"
     ]
    },
-   "line": "屬秦國。見於3篇。"
+   "line": "屬秦國。見於3篇。",
+   "wiki": "魏冉",
+   "wikiLang": "zh"
   },
   "72": {
    "facts": {
@@ -1659,8 +1803,10 @@
     ]
    },
    "line": "武將。屬西漢。見於5篇。",
+   "wiki": "劉賈",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -1682,7 +1828,9 @@
     "corpusSize": 126,
     "gender": "女"
    },
-   "line": "見於5篇。"
+   "line": "見於5篇。",
+   "wiki": "王夫人 (汉武帝)",
+   "wikiLang": "zh"
   },
   "74": {
    "facts": {
@@ -1699,8 +1847,10 @@
     "homeworld": "商丘市"
    },
    "line": "商丘市出身。見於5篇。",
+   "wiki": "灌嬰",
+   "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1724,6 +1874,8 @@
     "occupation": "戰略家"
    },
    "line": "戰略家。見於5篇。",
+   "wiki": "乐毅",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -1752,7 +1904,9 @@
     "occupation": "哲學家",
     "homeworld": "楚國"
    },
-   "line": "哲學家。見於8篇。"
+   "line": "哲學家。見於8篇。",
+   "wiki": "老子",
+   "wikiLang": "zh"
   },
   "77": {
    "facts": {
@@ -1767,7 +1921,9 @@
      "秦朝"
     ]
    },
-   "line": "武將。屬秦朝。見於季布欒布列傳。"
+   "line": "武將。屬秦朝。見於季布欒布列傳。",
+   "wiki": "丁公 (秦末)",
+   "wikiLang": "zh"
   },
   "78": {
    "facts": {
@@ -1794,7 +1950,9 @@
     ],
     "homeworld": "河津市"
    },
-   "line": "歷史學家。屬西漢。見於12篇。"
+   "line": "歷史學家。屬西漢。見於12篇。",
+   "wiki": "司馬遷",
+   "wikiLang": "zh"
   },
   "79": {
    "facts": {
@@ -1812,7 +1970,9 @@
     ],
     "homeworld": "蘇州市"
    },
-   "line": "蘇州市出身。屬西漢。見於4篇。"
+   "line": "蘇州市出身。屬西漢。見於4篇。",
+   "wiki": "薄姬",
+   "wikiLang": "zh"
   }
  },
  "edges": {
@@ -5485,9 +5645,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "史记",
+ "workWikiLang": "zh"
 }

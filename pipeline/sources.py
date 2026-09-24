@@ -25,6 +25,7 @@ from .ingest import (
     iliad,
     lesmiserables,
     lotr,
+    moviegalaxies,
     odyssey,
     pride,
     sanguoyanyi,
@@ -139,6 +140,19 @@ SOURCES: dict[str, Source] = {
         name="pride",
         load=pride.load,
         # Chapter co-occurrence is already a deliberate annotation unit.
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "godfather": Source(
+        name="godfather",
+        load=moviegalaxies.load_godfather,
+        # Script dialogue is already a deliberate beat; same floor as Star Wars.
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "indiana-jones": Source(
+        name="indiana-jones",
+        load=moviegalaxies.load_indiana,
         min_edge_weight=1,
         min_degree=2,
     ),

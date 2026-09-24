@@ -7,6 +7,7 @@ import { CARD_STRIP, DegreeBars, Fingerprint, HorizonStrip, StripLabel } from '.
 import { CharacterIndex } from './CharacterIndex';
 import { ReadingPage } from '../screens/ReadingPage';
 import { NameLink } from '../render/NameLink';
+import { WikiLink } from '../render/WikiLink';
 import { Explain } from './Explain';
 import { noteTooltip } from './notes';
 import { RadioRow } from './RadioRow';
@@ -118,11 +119,13 @@ function SectionHead({ children }: { children: ReactNode }) {
 function WorldDetail({
   world,
   universe,
+  meta,
   progress,
   onOpenCharacter,
 }: {
   world: WorldMetrics;
   universe: Universe | undefined;
+  meta: UniverseMeta | null;
   progress: WorldProgress | undefined;
   onOpenCharacter: (i: number) => void;
 }) {
@@ -145,8 +148,20 @@ function WorldDetail({
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 30, paddingTop: 10 }}>
-      <div style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(24px, 6.4vw, 34px)', lineHeight: 1.1 }}>
-        {world.title}
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          alignItems: 'baseline',
+          gap: '12px 18px',
+        }}
+      >
+        <div style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(24px, 6.4vw, 34px)', lineHeight: 1.1 }}>
+          {world.title}
+        </div>
+        {meta?.workWiki && (
+          <WikiLink title={meta.workWiki} lang={meta.workWikiLang ?? 'en'} />
+        )}
       </div>
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 40, borderTop: '1px solid var(--rule)', paddingTop: 18 }}>
@@ -358,11 +373,19 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
    * mostly quoted lines it has no use for, and nobody should pay for them to
    * read a card. */
   useEffect(() => {
-    if (view !== 'characters') return;
+    if (view !== 'characters' && !open && !character) return;
     // Tracked in a ref rather than against `metas`, so a world whose sidecar
     // fails to load is not re-requested on every render for the rest of the
-    // session.
-    const missing = universes.filter((u) => !requested.current.has(u.id));
+    // session. World detail also needs the sidecar for the story Wikipedia link.
+    const needed =
+      view === 'characters'
+        ? universes
+        : open
+          ? universes.filter((u) => u.id === open)
+          : character
+            ? universes.filter((u) => u.id === character.worldId)
+            : [];
+    const missing = needed.filter((u) => !requested.current.has(u.id));
     if (missing.length === 0) return;
     for (const u of missing) requested.current.add(u.id);
     Promise.all(
@@ -378,7 +401,7 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
         return next;
       });
     });
-  }, [view, universes]);
+  }, [view, universes, open, character]);
 
   const ordered = useMemo(() => {
     const by = SORTS.find((s) => s.key === sort)!;
@@ -466,6 +489,7 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
         <WorldDetail
           world={detail}
           universe={byId.get(detail.id)}
+          meta={metas.get(detail.id) ?? null}
           progress={progress.get(detail.id)}
           onOpenCharacter={(i) => goToCharacter(detail.id, i)}
         />

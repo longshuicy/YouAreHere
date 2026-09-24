@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { FullGraph } from '../render/FullGraph';
 import { CHROME_PADDING } from '../render/MarginLinks';
 import { NameLink } from '../render/NameLink';
+import { WikiLink } from '../render/WikiLink';
 import { CharacterReading } from './CharacterReading';
 import type { RoundReading } from '../graph/reading';
 import type { WorldMetrics } from '../gallery/metrics';
@@ -84,6 +85,7 @@ export function ReadingPage({
   onOpenWorld?: () => void;
 }) {
   const character = universe.nodes.find((n) => n.i === i);
+  const record = meta?.nodes[String(i)];
   return (
     <div
       className="reveal-root"
@@ -140,9 +142,16 @@ export function ReadingPage({
                 letterSpacing: '0.015em',
                 marginTop: 14,
                 lineHeight: 1.1,
+                display: 'flex',
+                flexWrap: 'wrap',
+                alignItems: 'baseline',
+                gap: '8px 12px',
               }}
             >
-              {character?.n ?? 'Unknown'}
+              <span>{character?.n ?? 'Unknown'}</span>
+              {record?.wiki && (
+                <WikiLink title={record.wiki} lang={record.wikiLang ?? 'en'} />
+              )}
             </div>
 
             <div

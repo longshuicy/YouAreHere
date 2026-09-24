@@ -192,6 +192,7 @@ def write_metadata(
     sources: list[tuple],
     out: Path,
     scores: dict[str, dict] | None = None,
+    work_wiki: dict[str, str] | None = None,
 ) -> dict:
     """Reveal-only enrichment, written to its own file.
 
@@ -223,11 +224,18 @@ def write_metadata(
         if node_id not in index_of:
             continue  # dropped by filtering
         view = _world_view(record, world_size, allowed_labels)
+        # Wikipedia sitelinks are not facts for the composed line; lift them off.
+        wiki = view.pop("wiki", None)
+        wiki_lang = view.pop("wikiLang", None)
         line = describe.node_line(view)
         shipped = {k: v for k, v in view.items() if k != "worldSize"}
         entry = {"facts": shipped}
         if line:
             entry["line"] = line
+        if wiki:
+            entry["wiki"] = wiki
+            if wiki_lang:
+                entry["wikiLang"] = wiki_lang
         # The signals behind the difficulty score. They are withheld from the
         # universe file, where they would be a far sharper hint than `ease` --
         # "you have no look-alikes anywhere" narrows the field enormously -- but
@@ -286,6 +294,10 @@ def write_metadata(
             for attribution, license in sources
         ],
     }
+    if work_wiki and work_wiki.get("title"):
+        metadata["workWiki"] = work_wiki["title"]
+        if work_wiki.get("lang"):
+            metadata["workWikiLang"] = work_wiki["lang"]
 
     out.mkdir(parents=True, exist_ok=True)
     _write_json(out / f"{uid}.meta.json", metadata)

@@ -840,13 +840,13 @@
    "id": "shakespeare-as-you-like-it-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.438
+   "ease": 0.432
   },
   {
    "id": "shakespeare-as-you-like-it-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.379
+   "ease": 0.375
   },
   {
    "id": "shakespeare-as-you-like-it-p0002",
@@ -900,13 +900,13 @@
    "id": "shakespeare-as-you-like-it-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.475
+   "ease": 0.473
   },
   {
    "id": "shakespeare-as-you-like-it-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.672
+   "ease": 0.671
   },
   {
    "id": "shakespeare-as-you-like-it-p0015",
@@ -918,7 +918,7 @@
    "id": "shakespeare-as-you-like-it-p0016",
    "you": 16,
    "startRadius": 1,
-   "ease": 0.674
+   "ease": 0.671
   },
   {
    "id": "shakespeare-as-you-like-it-p0019",
@@ -936,7 +936,7 @@
    "id": "shakespeare-as-you-like-it-p0021",
    "you": 21,
    "startRadius": 1,
-   "ease": 0.631
+   "ease": 0.63
   }
  ],
  "provenance": {

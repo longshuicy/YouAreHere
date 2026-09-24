@@ -82,6 +82,10 @@ export interface Universe {
 export interface MetaRecord {
   facts: Record<string, unknown>;
   line?: string;
+  /** Wikipedia page title from Wikidata sitelinks, when the character has one. */
+  wiki?: string;
+  /** Wikipedia language code for `wiki` (e.g. en, zh). Defaults to en. */
+  wikiLang?: string;
   /** The signals behind the difficulty score, carried for playable starts only.
    * Withheld from the universe file, where they would be a far sharper hint
    * than `ease`; shipped here because this file is the reveal's. */
@@ -142,4 +146,8 @@ export interface UniverseMeta {
   /** keys are "i-j" strings matching edge source/target order as emitted */
   edges: Record<string, MetaRecord>;
   sources: unknown[];
+  /** Wikipedia page title for the work / franchise this world is drawn from. */
+  workWiki?: string;
+  /** Wikipedia language code for `workWiki` (e.g. en, zh). Defaults to en. */
+  workWikiLang?: string;
 }

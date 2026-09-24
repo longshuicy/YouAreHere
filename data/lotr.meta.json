@@ -21,6 +21,8 @@
     ]
    },
    "line": "King of the Reunited Kingdom, of the Men, of the Fellowship of the Ring. Appears in all three volumes.",
+   "wiki": "Aragorn",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -67,8 +69,10 @@
     "homeworld": "Rivendell"
    },
    "line": "Elf, of Rivendell. Appears in The Fellowship of the Ring and The Return of the King.",
+   "wiki": "Arwen",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -92,6 +96,8 @@
     ]
    },
    "line": "Diarist, Dwarf, of the Thorin and Company. Appears in The Fellowship of the Ring.",
+   "wiki": "Balin (Middle-earth)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -146,6 +152,8 @@
     ]
    },
    "line": "Burglar, Hobbit, of the Thorin and Company. Appears in all three volumes.",
+   "wiki": "Bilbo Baggins",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -192,6 +200,8 @@
     "species": "Elf"
    },
    "line": "Elf. Appears in all three volumes.",
+   "wiki": "Celeborn",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -221,6 +231,8 @@
     ]
    },
    "line": "Ruling Steward of Gondor, of the Men. Appears in all three volumes.",
+   "wiki": "Denethor",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -244,8 +256,10 @@
     "species": "Dwarf"
    },
    "line": "Dwarf. Appears in all three volumes.",
+   "wiki": "Durin",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -270,6 +284,8 @@
     ]
    },
    "line": "High-Kings of Arnor and Gondor, of the Men. Appears in all three volumes.",
+   "wiki": "Elendil",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -296,6 +312,8 @@
     ]
    },
    "line": "Elf, of the White Council. Appears in all three volumes.",
+   "wiki": "Elrond",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -325,6 +343,8 @@
     "homeworld": "Aldburg"
    },
    "line": "King of Rohan, of the Men, of Aldburg. Appears in The Two Towers and The Return of the King.",
+   "wiki": "Éomer",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -354,7 +374,7 @@
    },
    "line": "King of Rohan, of the Men. Appears in The Two Towers and The Return of the King.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -378,8 +398,10 @@
     ]
    },
    "line": "Of the Men, of the Rohan. Appears in The Two Towers and The Return of the King.",
+   "wiki": "Éowyn",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -406,6 +428,8 @@
     ]
    },
    "line": "Prince of Ithilien, of the Men, of the Gondor. Appears in The Two Towers and The Return of the King.",
+   "wiki": "Faramir",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -434,6 +458,8 @@
     "homeworld": "The Shire"
    },
    "line": "Hobbit, of The Shire, of the Fellowship of the Ring. Appears in all three volumes.",
+   "wiki": "Frodo Baggins",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -457,6 +483,8 @@
     "species": "Elf"
    },
    "line": "Elf. Appears in all three volumes.",
+   "wiki": "Galadriel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -486,6 +514,8 @@
     ]
    },
    "line": "Magician, Ainur, of the White Council. Appears in all three volumes.",
+   "wiki": "Gandalf",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -506,7 +536,9 @@
     "gender": "Female",
     "species": "Ainur"
    },
-   "line": "Ainur. Appears in The Fellowship of the Ring."
+   "line": "Ainur. Appears in The Fellowship of the Ring.",
+   "wiki": "Goldberry",
+   "wikiLang": "en"
   },
   "20": {
    "facts": {
@@ -521,6 +553,8 @@
     "species": "Elf"
    },
    "line": "Elf. Appears in all three volumes.",
+   "wiki": "Gildor Inglorion",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -547,6 +581,8 @@
     ]
    },
    "line": "Dwarf, of the Fellowship of the Ring. Appears in all three volumes.",
+   "wiki": "Gimli (Middle-earth)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -573,6 +609,8 @@
     ]
    },
    "line": "Dwarf, of the Thorin and Company. Appears in all three volumes.",
+   "wiki": "Glóin",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -595,6 +633,8 @@
     "species": "Elf"
    },
    "line": "Elf. Appears in The Fellowship of the Ring and The Return of the King.",
+   "wiki": "Glorfindel",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -618,6 +658,8 @@
     "species": "Hobbit"
    },
    "line": "Hobbit. Appears in all three volumes.",
+   "wiki": "Gollum",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -654,6 +696,8 @@
     "occupation": "adviser"
    },
    "line": "Adviser, of the Men. Appears in The Two Towers and The Return of the King.",
+   "wiki": "Gríma Wormtongue",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -706,6 +750,8 @@
     "homeworld": "Númenor"
    },
    "line": "King of Arnor, of the Men, of Númenor. Appears in all three volumes.",
+   "wiki": "Isildur",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -733,6 +779,8 @@
     ]
    },
    "line": "Archer, Elf, of the Fellowship of the Ring. Appears in all three volumes.",
+   "wiki": "Legolas",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -760,6 +808,8 @@
     ]
    },
    "line": "Hobbit, of the Fellowship of the Ring. Appears in all three volumes.",
+   "wiki": "Merry Brandybuck",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -790,6 +840,8 @@
     ]
    },
    "line": "Thain, Hobbit, of the Fellowship of the Ring. Appears in all three volumes.",
+   "wiki": "Pippin Took",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -820,6 +872,8 @@
     ]
    },
    "line": "Mayor of the Shire, Hobbit, of the Fellowship of the Ring. Appears in all three volumes.",
+   "wiki": "Samwise Gamgee",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -846,6 +900,8 @@
     ]
    },
    "line": "Ainur, of the White Council. Appears in all three volumes.",
+   "wiki": "Saruman",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -870,6 +926,8 @@
     "occupation": "necromancer"
    },
    "line": "Necromancer, Ainur. Appears in all three volumes.",
+   "wiki": "Sauron",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -898,6 +956,8 @@
     ]
    },
    "line": "King of Rohan, of the Men. Appears in The Two Towers and The Return of the King.",
+   "wiki": "Théoden",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -925,8 +985,10 @@
     ]
    },
    "line": "King under the Mountain, Dwarf, of the Thorin and Company. Appears in The Fellowship of the Ring.",
+   "wiki": "Thorin Oakenshield",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -945,7 +1007,9 @@
     "gender": "Male",
     "species": "Dwarf"
    },
-   "line": "Dwarf. Appears in The Fellowship of the Ring."
+   "line": "Dwarf. Appears in The Fellowship of the Ring.",
+   "wiki": "Thráin II",
+   "wikiLang": "en"
   },
   "38": {
    "facts": {
@@ -960,6 +1024,8 @@
     "species": "Ainur"
    },
    "line": "Ainur. Appears in all three volumes.",
+   "wiki": "The Adventures of Tom Bombadil",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -983,6 +1049,8 @@
     "species": "Ent"
    },
    "line": "Ent. Appears in all three volumes.",
+   "wiki": "Treebeard",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -5522,9 +5590,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "The Lord of the Rings",
+ "workWikiLang": "en"
 }

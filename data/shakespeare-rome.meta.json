@@ -16,8 +16,10 @@
     "homeworld": "Istria"
    },
    "line": "Roman governor, of Istria. Appears in Antony and Cleopatra.",
+   "wiki": "Marcus Vipsanius Agrippa",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -37,7 +39,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -58,7 +60,7 @@
    },
    "line": "Antony’sAmbassador to Caesar. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -83,8 +85,10 @@
     "homeworld": "Rome"
    },
    "line": "A triumvir of Rome, of Rome, of the Antony and Cleopatra. Appears in all two plays.",
+   "wiki": "Mark Antony",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 14,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -104,6 +108,8 @@
     "homeworld": "Knidos"
    },
    "line": "Of Knidos. Appears in Julius Caesar.",
+   "wiki": "Artemidorus of Knidos",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -125,7 +131,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -147,12 +153,14 @@
     ]
    },
    "line": "Praetor. Appears in Julius Caesar.",
+   "wiki": "Marcus Junius Brutus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
-     "world": "xiyouji",
-     "story": "西遊記",
-     "name": "唐三藏",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Tom Hagen",
      "tied": 0
     }
    }
@@ -185,6 +193,8 @@
     "homeworld": "Rome"
    },
    "line": "Roman dictator, of Rome, of the First Triumvirate. Appears in Julius Caesar.",
+   "wiki": "Julius Caesar",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -207,8 +217,10 @@
     "homeworld": "Rome"
    },
    "line": "His wife, of Rome. Appears in Julius Caesar.",
+   "wiki": "Calpurnia (wife of Caesar)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -230,7 +242,9 @@
     ],
     "homeworld": "Ancient Rome"
    },
-   "line": "Consul suffectus, of Ancient Rome. Appears in Antony and Cleopatra."
+   "line": "Consul suffectus, of Ancient Rome. Appears in Antony and Cleopatra.",
+   "wiki": "Publius Canidius Crassus",
+   "wikiLang": "en"
   },
   "11": {
    "facts": {
@@ -246,6 +260,8 @@
     "homeworld": "Rome"
    },
    "line": "Ancient Roman senator, of Rome. Appears in Julius Caesar.",
+   "wiki": "Publius Servilius Casca",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -270,12 +286,14 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Tribune of the plebs, of Ancient Rome. Appears in Julius Caesar.",
+   "wiki": "Gaius Cassius Longinus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "Cleopatra",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Fredo Corleone",
      "tied": 0
     }
    }
@@ -294,12 +312,14 @@
     ]
    },
    "line": "Lady's maid, of the Ptolemaic Kingdom. Appears in Antony and Cleopatra.",
+   "wiki": "Charmion (servant to Cleopatra)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Mistress Page",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Don Corleone",
      "tied": 0
     }
    }
@@ -317,7 +337,9 @@
     ],
     "homeworld": "Arpino"
    },
-   "line": "Quaestor, of Arpino. Appears in Julius Caesar."
+   "line": "Quaestor, of Arpino. Appears in Julius Caesar.",
+   "wiki": "Cicero",
+   "wikiLang": "en"
   },
   "15": {
    "facts": {
@@ -337,12 +359,14 @@
     "homeworld": "Alexandria"
    },
    "line": "Queen of Egypt, Greeks in Egypt, of Alexandria, of the Three Beauties of the World. Appears in Antony and Cleopatra.",
+   "wiki": "Cleopatra",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "Caius Cassius",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Fredo Corleone",
      "tied": 0
     }
    }
@@ -358,7 +382,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -381,6 +405,8 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Roman governor, of Ancient Rome. Appears in Julius Caesar.",
+   "wiki": "Decimus Junius Brutus Albinus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -413,7 +439,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -436,6 +462,8 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Ancient Roman senator, of Ancient Rome. Appears in Antony and Cleopatra.",
+   "wiki": "Publius Cornelius Dolabella (consul 44 BC)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -457,7 +485,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -478,8 +506,10 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Also called Domitius, of Ancient Rome. Appears in Antony and Cleopatra.",
+   "wiki": "Gnaeus Domitius Ahenobarbus (consul 32 BC)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -521,10 +551,10 @@
    "signals": {
     "lookAlikes": 6,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "Artemidorus",
-     "tied": 1
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Merle",
+     "tied": 0
     }
    }
   },
@@ -543,14 +573,16 @@
    },
    "line": "Praefectus Aegypti, of Roman Empire. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
      "name": "A Countryman",
      "tied": 1
     }
-   }
+   },
+   "wiki": "Cornelius Gallus",
+   "wikiLang": "en"
   },
   "26": {
    "facts": {
@@ -563,7 +595,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -585,12 +617,14 @@
     "homeworld": "Ancient Rome"
    },
    "line": "A triumvir of Rome, of Ancient Rome. Appears in all two plays.",
+   "wiki": "Lepidus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
-     "world": "civilwar",
-     "story": "American Civil War",
-     "name": "Pierre G. T. Beauregard",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Sal Tessio",
      "tied": 0
     }
    }
@@ -609,6 +643,8 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Ancient Roman senator, of Ancient Rome. Appears in Julius Caesar.",
+   "wiki": "Quintus Ligarius",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -653,14 +689,16 @@
    },
    "line": "Patron of the arts, of Arezzo. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
      "name": "Enobarbus Domitius",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Gaius Maecenas",
+   "wikiLang": "en"
   },
   "31": {
    "facts": {
@@ -674,7 +712,7 @@
    },
    "line": "A Eunuch. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -695,8 +733,10 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Military personnel, of Ancient Rome. Appears in Antony and Cleopatra.",
+   "wiki": "Menas (freedman)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -719,6 +759,8 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Ancient Roman senator, of Ancient Rome. Appears in Julius Caesar.",
+   "wiki": "Lucius Tillius Cimber",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -741,13 +783,15 @@
     "homeworld": "Nola"
    },
    "line": "Sister to Caesar, later wife to Antony, of Nola. Appears in Antony and Cleopatra.",
+   "wiki": "Octavia the Younger",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
-     "world": "shakespeare-henry-viii",
-     "story": "Henry VIII",
-     "name": "Page to Gardiner",
-     "tied": 1
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Johnny",
+     "tied": 0
     }
    }
   },
@@ -764,8 +808,10 @@
     "homeworld": "Rome"
    },
    "line": "A triumvir of Rome, of Rome. Appears in all two plays.",
+   "wiki": "Augustus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 24,
+    "lookAlikes": 25,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -818,8 +864,10 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Also called Pompey, of Ancient Rome. Appears in Antony and Cleopatra.",
+   "wiki": "Sextus Pompey",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -841,6 +889,8 @@
     ]
    },
    "line": "Legatus. Appears in Julius Caesar.",
+   "wiki": "Gaius Popillius Laenas",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -863,6 +913,8 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Heiress of Belmont, of Ancient Rome. Appears in Julius Caesar.",
+   "wiki": "Porcia (wife of Brutus)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -924,8 +976,10 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Of Ancient Rome. Appears in Julius Caesar.",
+   "wiki": "Marcus Porcius Cato (son of Cato the Younger)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -964,7 +1018,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -984,7 +1038,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1004,7 +1058,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1027,8 +1081,10 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Ancient Roman senator, of Ancient Rome. Appears in Julius Caesar.",
+   "wiki": "Marcus Valerius Messalla Corvinus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1048,7 +1104,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1068,6 +1124,8 @@
     "occupation": "centurion"
    },
    "line": "Centurion. Appears in Julius Caesar.",
+   "wiki": "Titinius (centurion)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 38,
     "nearest": {
@@ -1092,6 +1150,8 @@
     "homeworld": "Cremona"
    },
    "line": "Ancient Roman senator, of Cremona. Appears in Julius Caesar.",
+   "wiki": "Publius Quinctilius Varus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 43,
     "nearest": {
@@ -1113,8 +1173,10 @@
     "occupation": "philosopher"
    },
    "line": "Philosopher. Appears in Julius Caesar.",
+   "wiki": "Publius Volumnius",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1134,8 +1196,10 @@
     "occupation": "military personnel"
    },
    "line": "Military personnel. Appears in Antony and Cleopatra.",
+   "wiki": "Marcus Aemilius Scaurus (son of Mucia)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -1155,8 +1219,10 @@
     "gender": "Male"
    },
    "line": "Cleopatra’s treasurer. Appears in Antony and Cleopatra.",
+   "wiki": "Seleucus (commandant)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1176,7 +1242,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1196,7 +1262,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1219,6 +1285,8 @@
     "homeworld": "Ancient Rome"
    },
    "line": "Tribune of the plebs, of Ancient Rome. Appears in Julius Caesar.",
+   "wiki": "Gaius Trebonius",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 54,
     "nearest": {
@@ -4923,7 +4991,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

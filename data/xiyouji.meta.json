@@ -19,7 +19,9 @@
     "corpusSize": 100,
     "gender": "女"
    },
-   "line": "見於9回。"
+   "line": "見於9回。",
+   "wiki": "西王母",
+   "wikiLang": "zh"
   },
   "1": {
    "facts": {
@@ -133,7 +135,9 @@
      "name": "Marcus Brutus",
      "tied": 0
     }
-   }
+   },
+   "wiki": "唐三藏",
+   "wikiLang": "zh"
   },
   "2": {
    "facts": {
@@ -148,7 +152,9 @@
     "unit": "chapter",
     "corpusSize": 100
    },
-   "line": "見於6回。"
+   "line": "見於6回。",
+   "wiki": "十殿閻羅",
+   "wikiLang": "zh"
   },
   "3": {
    "facts": {
@@ -252,7 +258,9 @@
      "name": "Zeus",
      "tied": 0
     }
-   }
+   },
+   "wiki": "猪八戒",
+   "wikiLang": "zh"
   },
   "4": {
    "facts": {
@@ -292,7 +300,9 @@
      "name": "Earl of Essex",
      "tied": 3
     }
-   }
+   },
+   "wiki": "太上老君",
+   "wikiLang": "zh"
   },
   "5": {
    "facts": {
@@ -408,7 +418,9 @@
      "name": "Antony",
      "tied": 0
     }
-   }
+   },
+   "wiki": "孙悟空",
+   "wikiLang": "zh"
   },
   "6": {
    "facts": {
@@ -505,7 +517,9 @@
      "name": "Bertram",
      "tied": 0
     }
-   }
+   },
+   "wiki": "沙僧",
+   "wikiLang": "zh"
   },
   "7": {
    "facts": {
@@ -1303,7 +1317,9 @@
     "corpusSize": 100,
     "gender": "女"
    },
-   "line": "見於3回。"
+   "line": "見於3回。",
+   "wiki": "電母",
+   "wikiLang": "zh"
   },
   "48": {
    "facts": {
@@ -1320,7 +1336,9 @@
     "unit": "chapter",
     "corpusSize": 100
    },
-   "line": "見於8回。"
+   "line": "見於8回。",
+   "wiki": "判官 (神祇)",
+   "wikiLang": "zh"
   },
   "49": {
    "facts": {
@@ -1339,7 +1357,9 @@
     "gender": "男",
     "species": "神仙"
    },
-   "line": "神仙。見於8回。"
+   "line": "神仙。見於8回。",
+   "wiki": "太白星君",
+   "wikiLang": "zh"
   },
   "50": {
    "facts": {
@@ -1351,7 +1371,9 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於第51回、第52回。"
+   "line": "見於第51回、第52回。",
+   "wiki": "火德星君",
+   "wikiLang": "zh"
   },
   "51": {
    "facts": {
@@ -1378,6 +1400,8 @@
     "gender": "男"
    },
    "line": "見於16回。",
+   "wiki": "雷公",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -1402,7 +1426,9 @@
     "gender": "男",
     "occupation": "沙門"
    },
-   "line": "沙門。見於5回。"
+   "line": "沙門。見於5回。",
+   "wiki": "善財童子",
+   "wikiLang": "zh"
   },
   "53": {
    "facts": {
@@ -1414,7 +1440,9 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於第6回、第7回。"
+   "line": "見於第6回、第7回。",
+   "wiki": "二郎神",
+   "wikiLang": "zh"
   },
   "54": {
    "facts": {
@@ -1436,6 +1464,8 @@
     "gender": "男"
    },
    "line": "見於11回。",
+   "wiki": "白龙马",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -1458,7 +1488,9 @@
     "corpusSize": 100,
     "gender": "女"
    },
-   "line": "見於4回。"
+   "line": "見於4回。",
+   "wiki": "鐵扇公主",
+   "wikiLang": "zh"
   },
   "56": {
    "facts": {
@@ -1492,6 +1524,8 @@
     "species": "妖怪"
    },
    "line": "妖怪。見於22回。",
+   "wiki": "紅孩兒",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -1511,7 +1545,9 @@
     "unit": "chapter",
     "corpusSize": 100
    },
-   "line": "見於第10回、第41回。"
+   "line": "見於第10回、第41回。",
+   "wiki": "风伯",
+   "wikiLang": "zh"
   },
   "58": {
    "facts": {
@@ -1525,7 +1561,9 @@
     "unit": "chapter",
     "corpusSize": 100
    },
-   "line": "見於5回。"
+   "line": "見於5回。",
+   "wiki": "文殊菩萨",
+   "wikiLang": "zh"
   },
   "59": {
    "facts": {
@@ -1550,6 +1588,8 @@
     "role": "三太子"
    },
    "line": "三太子。見於13回。",
+   "wiki": "哪吒",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -1571,7 +1611,9 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於3回。"
+   "line": "見於3回。",
+   "wiki": "巨灵神",
+   "wikiLang": "zh"
   },
   "61": {
    "facts": {
@@ -1585,7 +1627,9 @@
     "gender": "男",
     "species": "神仙"
    },
-   "line": "神仙。見於3回。"
+   "line": "神仙。見於3回。",
+   "wiki": "鎮元大仙",
+   "wikiLang": "zh"
   },
   "62": {
    "facts": {
@@ -1598,7 +1642,9 @@
     "corpusSize": 100,
     "gender": "男"
    },
-   "line": "見於3回。"
+   "line": "見於3回。",
+   "wiki": "赤脚大仙",
+   "wikiLang": "zh"
   },
   "63": {
    "facts": {
@@ -1614,7 +1660,9 @@
     "gender": "女",
     "species": "妖怪"
    },
-   "line": "妖怪。見於5回。"
+   "line": "妖怪。見於5回。",
+   "wiki": "蝎子精",
+   "wikiLang": "zh"
   },
   "64": {
    "facts": {
@@ -1634,6 +1682,8 @@
     "gender": "男"
    },
    "line": "見於9回。",
+   "wiki": "木吒",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -1681,6 +1731,8 @@
     "gender": "女"
    },
    "line": "見於28回。",
+   "wiki": "觀音在東亞的形象",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -1719,6 +1771,8 @@
     "species": "妖怪"
    },
    "line": "妖怪。見於18回。",
+   "wiki": "牛魔王",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 46,
     "nearest": {
@@ -1777,6 +1831,8 @@
     ]
    },
    "line": "玉皇。見於36回。",
+   "wiki": "玉皇上帝",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -1809,6 +1865,8 @@
     "occupation": "托塔天王"
    },
    "line": "托塔天王。見於12回。",
+   "wiki": "李靖 (神话人物)",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 5,
     "nearest": {
@@ -6377,9 +6435,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "西游记",
+ "workWikiLang": "zh"
 }

@@ -15,6 +15,8 @@
     ]
    },
    "line": "King of Myrmidons.",
+   "wiki": "Achilles",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -44,7 +46,9 @@
      "name": "Aaron",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Aeneas",
+   "wikiLang": "en"
   },
   "2": {
    "facts": {
@@ -57,6 +61,8 @@
     "gender": "Male"
    },
    "line": "The general.",
+   "wiki": "Agamemnon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -80,6 +86,8 @@
     ]
    },
    "line": "Mythical king of Salamis.",
+   "wiki": "Ajax the Great",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -113,7 +121,9 @@
     "gender": "Female",
     "homeworld": "Thebe"
    },
-   "line": "Hector’s wife, of Thebe."
+   "line": "Hector’s wife, of Thebe.",
+   "wiki": "Andromache",
+   "wikiLang": "en"
   },
   "6": {
    "facts": {
@@ -123,7 +133,9 @@
     "unit": "play",
     "corpusSize": 37,
     "gender": "Male"
-   }
+   },
+   "wiki": "Antenor (Trojan)",
+   "wikiLang": "en"
   },
   "7": {
    "facts": {
@@ -146,6 +158,8 @@
     "gender": "Male"
    },
    "line": "Her father.",
+   "wiki": "Calchas",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -168,8 +182,10 @@
     "homeworld": "Troy"
    },
    "line": "Priam’s daughter, a soothsayer, of Troy.",
+   "wiki": "Cassandra",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -187,6 +203,8 @@
     "corpusSize": 37,
     "gender": "Female"
    },
+   "wiki": "Cressida",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -211,8 +229,10 @@
     ]
    },
    "line": "Military personnel, of the Troy.",
+   "wiki": "Deiphobus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -234,6 +254,8 @@
     ]
    },
    "line": "King of Argos.",
+   "wiki": "Diomedes",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -257,6 +279,8 @@
     ]
    },
    "line": "Of the Troy.",
+   "wiki": "Hector",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -277,7 +301,9 @@
     "role": "Menelaus’s wife and queen",
     "gender": "Female"
    },
-   "line": "Menelaus’s wife and queen."
+   "line": "Menelaus’s wife and queen.",
+   "wiki": "Helen of Troy",
+   "wikiLang": "en"
   },
   "15": {
    "facts": {
@@ -289,7 +315,9 @@
     "gender": "Male",
     "occupation": "seer"
    },
-   "line": "Seer."
+   "line": "Seer.",
+   "wiki": "Helenus (son of Priam)",
+   "wikiLang": "en"
   },
   "16": {
    "facts": {
@@ -302,6 +330,8 @@
     "gender": "Male"
    },
    "line": "Brother to Agamemnon.",
+   "wiki": "Menelaus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -325,6 +355,8 @@
     ]
    },
    "line": "King of Pylos.",
+   "wiki": "Nestor (mythology)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -346,8 +378,10 @@
     "gender": "Male"
    },
    "line": "Her uncle.",
+   "wiki": "Pandarus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -367,8 +401,10 @@
     "occupation": "herder"
    },
    "line": "Herder.",
+   "wiki": "Paris (mythology)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -388,6 +424,8 @@
     "gender": "Male"
    },
    "line": "Achilles’ favorite companion.",
+   "wiki": "Patroclus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -412,8 +450,10 @@
     ]
    },
    "line": "King of Troy.",
+   "wiki": "Priam",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -472,6 +512,8 @@
     "gender": "Male"
    },
    "line": "Cynical critic.",
+   "wiki": "Thersites",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -499,7 +541,9 @@
      "name": "Titania",
      "tied": 0
     }
-   }
+   },
+   "wiki": "Troilus",
+   "wikiLang": "en"
   },
   "27": {
    "facts": {
@@ -514,6 +558,8 @@
     ]
    },
    "line": "King.",
+   "wiki": "Odysseus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -2050,7 +2096,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }

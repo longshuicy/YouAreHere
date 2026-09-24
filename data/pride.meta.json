@@ -54,7 +54,7 @@
    },
    "line": "Soldier, of the Kingdom of Great Britain. Appears in Chapter 7 and Chapter 9.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -296,7 +296,7 @@
    },
    "line": "Landowner. Appears in 9 chapters.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -380,6 +380,8 @@
     ]
    },
    "line": "Gentlewoman, of the Kingdom of Great Britain. Appears in all 61 chapters.",
+   "wiki": "Elizabeth Bennet",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -533,7 +535,7 @@
    },
    "line": "Servant. Appears in Chapter 37 and Chapter 46.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 28,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -661,6 +663,8 @@
     ]
    },
    "line": "Aristocrat, of the Kingdom of Great Britain. Appears in 28 chapters.",
+   "wiki": "Lady Catherine de Bourgh",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -943,7 +947,7 @@
    },
    "line": "Granddaughter, of the Kingdom of Great Britain. Appears in five chapters.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1207,6 +1211,8 @@
     ]
    },
    "line": "Gentleman, of the Kingdom of Great Britain. Appears in 42 chapters.",
+   "wiki": "Mr Bennet",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -1273,6 +1279,8 @@
     ]
    },
    "line": "Gentleman, of the Kingdom of Great Britain. Appears in 42 chapters.",
+   "wiki": "Charles Bingley",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -1329,6 +1337,8 @@
     ]
    },
    "line": "Clergyman, of the Kingdom of Great Britain. Appears in 32 chapters.",
+   "wiki": "Mr William Collins",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -1400,6 +1410,8 @@
     "role": "landowner"
    },
    "line": "Landowner. Appears in 51 chapters.",
+   "wiki": "Mr. Darcy",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 18,
     "nearest": {
@@ -1432,7 +1444,7 @@
    },
    "line": "Soldier, of the Kingdom of Great Britain. Appears in seven chapters.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1577,7 +1589,7 @@
    },
    "line": "Attorney, of the Kingdom of Great Britain. Appears in 11 chapters.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 73,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1635,6 +1647,8 @@
     ]
    },
    "line": "Soldier, of the Kingdom of Great Britain. Appears in 35 chapters.",
+   "wiki": "George Wickham",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -1763,7 +1777,7 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in six chapters.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 69,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -1834,7 +1848,7 @@
    },
    "line": "Housekeeper, of the Kingdom of Great Britain. Appears in three chapters.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1921,7 +1935,7 @@
    },
    "line": "Appears in five chapters.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1944,7 +1958,7 @@
    },
    "line": "Housekeeper. Appears in three chapters.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 59,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1984,7 +1998,7 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in 17 chapters.",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -2011,7 +2025,7 @@
    },
    "line": "Housekeeper, of the Kingdom of Great Britain. Appears in three chapters.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -2275,7 +2289,7 @@
    },
    "line": "Steward. Appears in six chapters.",
    "signals": {
-    "lookAlikes": 51,
+    "lookAlikes": 53,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -9411,9 +9425,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Pride and Prejudice",
+ "workWikiLang": "en"
 }

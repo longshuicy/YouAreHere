@@ -12,7 +12,9 @@
     "gender": "Male",
     "occupation": "bard"
    },
-   "line": "Bard. Appears in Book 17."
+   "line": "Bard. Appears in Book 17.",
+   "wiki": "Phemius",
+   "wikiLang": "en"
   },
   "1": {
    "facts": {
@@ -23,7 +25,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in Book 8."
+   "line": "Appears in Book 8.",
+   "wiki": "Euryalus (Phaeacian)",
+   "wikiLang": "en"
   },
   "2": {
    "facts": {
@@ -37,8 +41,10 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Melanthius (Odyssey)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -64,6 +70,8 @@
     "occupation": "swineherd"
    },
    "line": "Swineherd. Appears in seven books.",
+   "wiki": "Eumaeus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -84,7 +92,9 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in Book 6 and Book 8."
+   "line": "Appears in Book 6 and Book 8.",
+   "wiki": "Nausicaa",
+   "wikiLang": "en"
   },
   "5": {
    "facts": {
@@ -99,6 +109,8 @@
     "gender": "Female"
    },
    "line": "Appears in four books.",
+   "wiki": "Helen of Troy",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 8,
     "nearest": {
@@ -134,6 +146,8 @@
     ]
    },
    "line": "Queen of Ithaca. Appears in 13 books.",
+   "wiki": "Penelope",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -165,6 +179,8 @@
     ]
    },
    "line": "King of Sparta. Appears in 9 books.",
+   "wiki": "Menelaus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -186,7 +202,9 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in three books."
+   "line": "Appears in three books.",
+   "wiki": "Peisistratus (son of Nestor)",
+   "wikiLang": "en"
   },
   "9": {
    "facts": {
@@ -198,7 +216,9 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in Book 18 and Book 19."
+   "line": "Appears in Book 18 and Book 19.",
+   "wiki": "Melantho (Odyssey)",
+   "wikiLang": "en"
   },
   "10": {
    "facts": {
@@ -216,12 +236,14 @@
     "species": "goddess"
    },
    "line": "Goddess. Appears in six books.",
+   "wiki": "Circe",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Zephyr",
+     "world": "godfather",
+     "story": "The Godfather",
+     "name": "Questadt",
      "tied": 0
     }
    }
@@ -255,8 +277,10 @@
     ]
    },
    "line": "Prince of Ithaca. Appears in 17 books.",
+   "wiki": "Telemachus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -281,6 +305,8 @@
     ]
    },
    "line": "King of Pylos. Appears in four books.",
+   "wiki": "Nestor (mythology)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 9,
     "nearest": {
@@ -302,7 +328,9 @@
     "gender": "Male",
     "species": "cyclops"
    },
-   "line": "Cyclops. Appears in Book 1 and Book 9."
+   "line": "Cyclops. Appears in Book 1 and Book 9.",
+   "wiki": "Polyphemus",
+   "wikiLang": "en"
   },
   "14": {
    "facts": {
@@ -318,7 +346,9 @@
     "gender": "Male",
     "occupation": "counsellor"
    },
-   "line": "Counsellor. Appears in five books."
+   "line": "Counsellor. Appears in five books.",
+   "wiki": "Mentor (Odyssey)",
+   "wikiLang": "en"
   },
   "15": {
    "facts": {
@@ -347,7 +377,7 @@
    },
    "line": "Of Dulichium. Appears in four books.",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -373,8 +403,10 @@
     "gender": "Male"
    },
    "line": "Appears in 8 books.",
+   "wiki": "Eurymachus (Odyssey)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -417,8 +449,10 @@
     "species": "thunder deity"
    },
    "line": "Thunder deity. Appears in all 24 books.",
+   "wiki": "Zeus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 41,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -458,6 +492,8 @@
     "homeworld": "Olympus"
    },
    "line": "Goddess, of Olympus. Appears in 20 books.",
+   "wiki": "Athena",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -485,6 +521,8 @@
     "species": "water deity"
    },
    "line": "Water deity. Appears in seven books.",
+   "wiki": "Poseidon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -513,6 +551,8 @@
     "species": "Olympian god"
    },
    "line": "Courier, Olympian god. Appears in seven books.",
+   "wiki": "Hermes",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -559,8 +599,10 @@
     ]
    },
    "line": "King of Ithaca. Appears in all 24 books.",
+   "wiki": "Odysseus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 19,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -580,6 +622,8 @@
     "occupation": "beggar"
    },
    "line": "Beggar. Appears in Book 18.",
+   "wiki": "Arnaeus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -606,6 +650,8 @@
     "species": "nymph"
    },
    "line": "Nymph. Appears in six books.",
+   "wiki": "Calypso (mythology)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 23,
     "nearest": {
@@ -631,8 +677,10 @@
     "gender": "Male"
    },
    "line": "Appears in six books.",
+   "wiki": "Alcinous",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 39,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -659,6 +707,8 @@
     "gender": "Male"
    },
    "line": "Appears in 9 books.",
+   "wiki": "Antinous of Ithaca",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 16,
     "nearest": {
@@ -700,7 +750,9 @@
     "gender": "Female",
     "occupation": "wet nurse"
    },
-   "line": "Wet nurse. Appears in seven books."
+   "line": "Wet nurse. Appears in seven books.",
+   "wiki": "Eurycleia (nurse of Odysseus)",
+   "wikiLang": "en"
   },
   "29": {
    "facts": {
@@ -715,7 +767,9 @@
     "gender": "Male",
     "occupation": "seer"
    },
-   "line": "Seer. Appears in four books."
+   "line": "Seer. Appears in four books.",
+   "wiki": "Tiresias",
+   "wikiLang": "en"
   },
   "30": {
    "facts": {
@@ -746,6 +800,8 @@
     "role": "former king of Ithaca"
    },
    "line": "Former king of Ithaca. Appears in 19 books.",
+   "wiki": "Laertes (father of Odysseus)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -769,7 +825,9 @@
      "Samos"
     ]
    },
-   "line": "Of the Samos. Appears in Book 10 and Book 12."
+   "line": "Of the Samos. Appears in Book 10 and Book 12.",
+   "wiki": "Eurylochus",
+   "wikiLang": "en"
   }
  },
  "edges": {
@@ -2388,9 +2446,11 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Odyssey",
+ "workWikiLang": "en"
 }

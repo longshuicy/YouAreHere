@@ -13,6 +13,8 @@
     "role": "A woman in Cyprus in love with Cassio"
    },
    "line": "A woman in Cyprus in love with Cassio.",
+   "wiki": "Emilia (Othello)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -34,6 +36,8 @@
     "role": "A Venetian senator, father to Desdemona"
    },
    "line": "A Venetian senator, father to Desdemona.",
+   "wiki": "Brabantio",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -55,6 +59,8 @@
     "role": "Othello’s second-in-command, or lieutenant"
    },
    "line": "Othello’s second-in-command, or lieutenant.",
+   "wiki": "Michael Cassio",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -76,6 +82,8 @@
     "role": "daughter of Brabantio"
    },
    "line": "Daughter of Brabantio.",
+   "wiki": "Desdemona",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -97,6 +105,8 @@
     "role": "Iago’s wife and Desdemona’s attendant"
    },
    "line": "Iago’s wife and Desdemona’s attendant.",
+   "wiki": "Emilia (Othello)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -138,6 +148,8 @@
     "occupation": "ensign"
    },
    "line": "Othello’s standard-bearer, or “ancient”, ensign.",
+   "wiki": "Iago",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -199,6 +211,8 @@
     "role": "general of Venice"
    },
    "line": "General of Venice.",
+   "wiki": "Othello (character)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -220,6 +234,8 @@
     "role": "A Venetian gentleman"
    },
    "line": "A Venetian gentleman.",
+   "wiki": "Roderigo",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 121,
     "nearest": {
@@ -812,7 +828,7 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.",
+    "Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.",
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
