@@ -5,7 +5,8 @@ import { BrandCluster, type StartLinks, CHROME_PADDING, GiveUpLinks, HelpLink } 
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
-import { worldIsKnown } from '../engine/session';
+import type { Residence } from '../engine/residence';
+import { COST, worldIsKnown } from '../engine/session';
 import { resolveName, suggestNames } from '../engine/names';
 import type { Universe } from '../types';
 
@@ -21,6 +22,9 @@ interface Props {
   onReveal: () => void;
   onRevealStory: () => void;
   startLinks: StartLinks;
+  /** The map this start belongs to, so the walking ledger does not vanish
+   * behind the guess panel — it is the number a guess is weighed against. */
+  residence?: Residence | null;
 }
 
 export function Guess({
@@ -34,6 +38,7 @@ export function Guess({
   onReveal,
   onRevealStory,
   startLinks,
+  residence = null,
 }: Props) {
   // Deliberately NOT the universe being played — defaulting to the real answer
   // hands over the half of the question the dropdown exists to ask. Unless a
@@ -152,8 +157,9 @@ export function Guess({
           <BrandCluster {...startLinks} />
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 12 }}>
             <HelpLink onOpenKey={onOpenKey} />
-            <Ledger ledger={session.ledger} />
+            <Ledger ledger={session.ledger} residence={residence} />
             <GiveUpLinks
+              answerCost={COST.answer}
               onReveal={onReveal}
               onRevealStory={worldIsKnown(session) ? undefined : onRevealStory}
             />

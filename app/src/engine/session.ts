@@ -43,8 +43,21 @@ export type Phase = 'cold' | 'explore' | 'guess' | 'reveal';
  * it looks — the claim field has no type-ahead, so names come from the
  * player's own memory of the book, and a player who can list the cast has
  * already answered the half of the question that was hard.
+ *
+ * `answer` is giving up, and it costs the same everywhere. It was briefly
+ * charged only inside a residence, on the reasoning that a one-off reveal ends
+ * everything the count was counting. That was a rule with an exception, and
+ * the governing rule has no exceptions: information costs. The answer is the
+ * most information there is, so it is the dearest thing on the table by a wide
+ * margin, and a round that ends by buying it says so in the only number the
+ * game keeps.
+ *
+ * Priced far above `name` rather than a little above it. Three buys somebody
+ * else; this buys you, which is the whole question, and it is the one name no
+ * other action sells at any price. At ten a head there is no version of
+ * working a world by giving up that is not worse than playing it.
  */
-export const COST = { expand: 1, facts: 2, name: 3, story: 2 } as const;
+export const COST = { expand: 1, facts: 2, name: 3, story: 2, answer: 10 } as const;
 
 /** What a correct claim gives back. Held apart from COST because it is a
  * refund, not a price, and floors the total at zero rather than driving it
@@ -85,6 +98,8 @@ export interface Ledger {
   names: number;
   /** 0 or 1 — the world can only be given away once. */
   stories: number;
+  /** 0 or 1 — giving up, charged only where the round outlives itself. */
+  answers: number;
   /** Right claims: the only entry that is a credit. Wrong ones are not counted
    * at all — they cost nothing, so a tally of them would be a scoreboard of
    * the player's mistakes and nothing else. The struck-through names on the
@@ -98,7 +113,8 @@ export function clueSpent(ledger: Ledger): number {
     ledger.expansions * COST.expand +
     ledger.facts * COST.facts +
     ledger.names * COST.name +
-    ledger.stories * COST.story
+    ledger.stories * COST.story +
+    ledger.answers * COST.answer
   );
 }
 
@@ -244,7 +260,7 @@ export function initSession(
       hop,
       parent,
     },
-    ledger: { expansions: 0, facts: 0, names: 0, stories: 0, recognitions: 0 },
+    ledger: { expansions: 0, facts: 0, names: 0, stories: 0, answers: 0, recognitions: 0 },
     guesses: [],
     lastGuess: null,
     lastClaim: null,
@@ -455,8 +471,18 @@ export function makeReducer(universe: Universe) {
 
         return { ...session, phase: 'guess', known, guesses, lastGuess: record };
       }
-      case 'REVEAL':
-        return { ...session, phase: 'reveal' };
+      case 'REVEAL': {
+        // Charged once. Reaching the reveal by guessing right never comes
+        // through here, so nobody is charged for an answer they worked out.
+        if (session.ledger.answers > 0) {
+          return { ...session, phase: 'reveal' };
+        }
+        return {
+          ...session,
+          phase: 'reveal',
+          ledger: { ...session.ledger, answers: session.ledger.answers + 1 },
+        };
+      }
       default:
         return session;
     }

@@ -26,11 +26,52 @@ export interface Residence {
   initials: Map<NodeIndex, { initial: string; length: number }>;
   /** Wrong claims, so a struck name stays struck across starts. */
   rejected: Map<NodeIndex, string[]>;
+  /**
+   * Strangers the player walked away from without finding out who they were,
+   * most recent first. They are still unnamed, so they are still candidates —
+   * but handing one straight back reads as the game ignoring the player, who
+   * had just said "not this one".
+   */
+  left: NodeIndex[];
 }
+
+/**
+ * How far toward the obscure end of the scale this map may be asked to go.
+ *
+ * A hard start is only tractable because of the map already drawn around it. A
+ * degree-two walk-on is a fine puzzle on the ninth start, with two thirds of
+ * the book on the paper, and close to unsolvable on the second, with almost
+ * nothing. So the dial is bounded by how much of the world the player knows:
+ * at the beginning it moves only near the findable end, and it reaches the far
+ * end once the map does.
+ *
+ * Without the bound, a player who set the dial to OBSCURE at the door would be
+ * dealt exactly the people they have no means to identify, give up or walk
+ * away, and be dealt another — and walking away names nobody, so the pool
+ * would never shrink. The residence would not merely invert its arc, it would
+ * stall without advancing.
+ *
+ * Returns the lowest value the dial may take, on the same 0 (obscure) to 1
+ * (findable) scale the cold open's slider uses.
+ */
+export function easeFloor(residence: Residence, cast: number): number {
+  if (cast <= 0) return 0;
+  const share = Math.min(1, residence.named.size / cast);
+  return Math.max(0, 1 - share);
+}
+
+/** How far back the picker remembers a stranger the player walked away from. */
+const LEFT_MEMORY = 6;
+
+/** How hard one of them is suppressed. A penalty rather than an exclusion, the
+ * same way `loader.ts` treats a recent puzzle: a small world late in a
+ * residence cannot run out of people to be. */
+const LEFT_PENALTY = 0.02;
 
 const STORAGE_KEY = 'you-are-here-residences';
 const LEGACY_KEY = 'you-are-here-residence';
 const ACTIVE_KEY = 'you-are-here-active-world';
+const START_KEY = 'you-are-here-start';
 
 export function residenceTotal(residence: Residence): number {
   return residence.starts.reduce((sum, n) => sum + n, 0) + residence.spent;
@@ -58,6 +99,7 @@ export function emptyResidence(universe: Universe): Residence {
     expanded: new Set(),
     initials: new Map(),
     rejected: new Map(),
+    left: [],
   };
 }
 
@@ -78,9 +120,11 @@ export function beginResidence(
  * are not added to their former selves: they never found out who they were.
  */
 export function absorbUnfinished(residence: Residence, session: Session): Residence {
+  const merged = mergeKnowledge(residence, session, '');
   return {
-    ...mergeKnowledge(residence, session, ''),
+    ...merged,
     spent: residence.spent + clueTotal(session.ledger),
+    left: [session.you, ...merged.left.filter((i) => i !== session.you)].slice(0, LEFT_MEMORY),
   };
 }
 
@@ -139,6 +183,9 @@ function mergeKnowledge(residence: Residence, session: Session, yourName: string
     expanded,
     initials,
     rejected,
+    // A named stranger is out of the candidate pool anyway; keeping them here
+    // would only crowd out somebody who still needs suppressing.
+    left: residence.left.filter((i) => !named.has(i)),
   };
 }
 
@@ -199,56 +246,110 @@ function hopsFromKnown(
   return depth;
 }
 
+/** How many of the easiest remaining candidates the next start is drawn from.
+ *
+ * Not one: taking the top of the list every time makes every residence in a
+ * world the same run in the same order. Not many: a wide window is the old
+ * absolute-target picker again, reaching past people the player could actually
+ * place. Four is enough that two runs diverge in the first few starts and stay
+ * diverged, because each draw changes what is left. */
+const START_WINDOW = 4;
+
 /**
  * Next stranger to wake as inside a residence.
  *
  * Candidates are every unnamed node. The playable gate (degree ≥ 6, no hubs)
- * is lifted after the first start — see Residence.md. Ease walks down the
- * scale as the residence deepens, sampled within a band rather than argmax.
- * Nodes two or three hops from known territory are preferred.
+ * is lifted after the first start — see Residence.md.
+ *
+ * Difficulty is the *rank* of who is left, never an absolute score. The
+ * candidates are ordered by ease and the next start is drawn from the easiest
+ * few; the residence gets harder only because the findable people get used up,
+ * which is the arc the mode is for. An earlier version walked an absolute
+ * target down by a fixed step per start — `1 - starts * 0.18` — which reached
+ * the obscure end of the scale on the sixth start and stayed there while a
+ * dozen findable people were still unnamed, and which favoured the unplayable
+ * leaves once it did, because an unscored node reads as ease 0. Rank has no
+ * such end to hit: it is always relative to who is actually left.
+ *
+ * Unscored nodes — the leaves the playable gate excluded, which carry no
+ * `ease` — sort below every scored start and so come last, which is where
+ * they belong.
+ *
+ * Nodes two or three hops from known territory are preferred: one expansion
+ * should touch a face the player recognises without handing over the answer.
+ *
+ * `dial` is the player's own request on the cold open's scale, 0 obscure to 1
+ * findable, and it moves the window *down* the ranking rather than picking an
+ * absolute score: at 1 the window sits at the top of whoever is left, which is
+ * the default and what the residence did before the dial existed. How far it
+ * may travel is bounded by `easeFloor` — see the note there for why an
+ * unbounded dial stalls the mode rather than merely inverting it.
  */
 export function pickNextStart(
   universe: Universe,
   residence: Residence,
+  dial = 1,
 ): PuzzleRecord | null {
-  const candidates = universe.nodes
+  const unnamed = universe.nodes
     .map((n) => n.i)
     .filter((i) => !residence.named.has(i));
-  if (candidates.length === 0) return null;
+  if (unnamed.length === 0) return null;
 
-  // First start of a residence is an ordinary cold open and keeps the gate —
-  // but by the time we pick *next*, selves already holds the first. So the
-  // gate stays lifted here always. (Entering residence happens at reveal; the
-  // first waking was chosen by the ordinary picker.)
-  const targetEase = Math.max(0, 1 - residence.selves.length * 0.18);
+  // The stranger just walked away from is never the next one, so long as there
+  // is anyone else to be. The player said "not this one"; a weighting that
+  // merely made it unlikely still read as the game ignoring them. Older ones
+  // are only suppressed — see LEFT_PENALTY below.
+  const justLeft = residence.left[0];
+  const candidates =
+    unnamed.length > 1 && justLeft !== undefined
+      ? unnamed.filter((i) => i !== justLeft)
+      : unnamed;
+
   const distance = hopsFromKnown(universe, residence.named, residence.visible);
   const easeByNode = new Map(universe.puzzles.map((p) => [p.you, p.ease ?? 0]));
+  // Below every scored start, rather than level with the most obscure of them:
+  // having no score is not the same as scoring zero.
+  const easeOf = (i: NodeIndex) => easeByNode.get(i) ?? -1;
 
-  const weights = candidates.map((i) => {
-    // Unplayable nodes have no puzzle score: bottom of the band.
-    const ease = easeByNode.get(i) ?? 0;
-    // Soft band around the falling target — same temperature idea as pickPuzzle.
-    let w = Math.exp(-Math.abs(ease - targetEase) / 0.12);
+  const ranked = [...candidates].sort((a, b) => easeOf(b) - easeOf(a));
+  // How far down the ranking the dial has been pushed, as a share of the list,
+  // and never further than the map has earned. `1 - dial` is the ask; the floor
+  // is the bound. They meet exactly at the dial's own lowest position, so a
+  // player holding it at the obscure end is always reading the true depth.
+  const depth = Math.min(
+    Math.max(0, 1 - dial),
+    1 - easeFloor(residence, universe.nodes.length),
+  );
+  const span = Math.max(0, ranked.length - START_WINDOW);
+  const offset = Math.round(depth * span);
+  const window = ranked.slice(offset, offset + START_WINDOW);
+
+  // Inside the window, nearness to the known map is the only tilt — every one
+  // of them is already among the most findable people left.
+  const weights = window.map((i) => {
     const hops = distance.get(i);
-    if (hops === 2 || hops === 3) w *= 3;
-    else if (hops === 1) w *= 1.4;
-    else if (hops !== undefined && hops >= 5) w *= 0.5;
+    let w = 1;
+    if (hops === 2 || hops === 3) w = 3;
+    else if (hops === 1) w = 1.4;
+    else if (hops !== undefined && hops >= 5) w = 0.5;
+    // Walking away from somebody leaves them the easiest person left, and the
+    // walk just taken puts named faces beside them — so without this they come
+    // back at the top of the window with the nearness bonus on top.
+    if (residence.left.includes(i)) w *= LEFT_PENALTY;
     return w;
   });
 
-  const total = weights.reduce((s, w) => s + w, 0);
-  let ticket = Math.random() * (total > 0 ? total : candidates.length);
-  let chosen = candidates[candidates.length - 1];
+  const total = weights.reduce((sum, w) => sum + w, 0);
+  let chosen = window[window.length - 1];
   if (total > 0) {
-    for (let k = 0; k < candidates.length; k++) {
+    let ticket = Math.random() * total;
+    for (let k = 0; k < window.length; k++) {
       ticket -= weights[k];
       if (ticket < 0) {
-        chosen = candidates[k];
+        chosen = window[k];
         break;
       }
     }
-  } else {
-    chosen = candidates[Math.floor(Math.random() * candidates.length)];
   }
   return puzzleFor(universe, chosen);
 }
@@ -329,6 +430,12 @@ export function wakeInResidence(
   const recognised = new Set(residence.recognised);
   recognised.delete(you);
 
+  // A biography bought in an earlier start is not readable about yourself. The
+  // purchase stays on the map for every other node; it is withheld here for the
+  // same reason `availableActionsFor` refuses to sell it — it is the answer.
+  const facts = new Set(residence.facts);
+  facts.delete(you);
+
   const initials = new Map(residence.initials);
   initials.delete(you);
   // Ensure expanded-but-unnamed nodes still carry a monogram when we have the name.
@@ -341,7 +448,7 @@ export function wakeInResidence(
   const known: Known = {
     visible,
     expanded,
-    facts: new Set(residence.facts),
+    facts,
     named,
     initials,
     rejected: new Map(
@@ -363,7 +470,7 @@ export function wakeInResidence(
     // The world is known for the rest of the residence.
     worldChosen: true,
     known,
-    ledger: { expansions: 0, facts: 0, names: 0, stories: 0, recognitions: 0 },
+    ledger: { expansions: 0, facts: 0, names: 0, stories: 0, answers: 0, recognitions: 0 },
     guesses: [],
     lastGuess: null,
     lastClaim: null,
@@ -436,6 +543,8 @@ interface StoredResidence {
   expanded: NodeIndex[];
   initials: [NodeIndex, { initial: string; length: number }][];
   rejected: [NodeIndex, string[]][];
+  /** Absent in maps saved before abandoned strangers were remembered. */
+  left?: NodeIndex[];
 }
 
 function toStored(r: Residence): StoredResidence {
@@ -451,6 +560,7 @@ function toStored(r: Residence): StoredResidence {
     expanded: [...r.expanded],
     initials: [...r.initials.entries()],
     rejected: [...r.rejected.entries()],
+    left: r.left,
   };
 }
 
@@ -467,6 +577,7 @@ function fromStored(s: StoredResidence): Residence {
     expanded: new Set(s.expanded),
     initials: new Map(s.initials),
     rejected: new Map(s.rejected),
+    left: s.left ?? [],
   };
 }
 
@@ -518,6 +629,123 @@ export function saveActiveWorld(id: UniverseId | null): void {
     else localStorage.removeItem(ACTIVE_KEY);
   } catch {
     // As above.
+  }
+}
+
+/**
+ * The start currently being played, so a refresh is a no-op rather than a deal.
+ *
+ * Saved only inside a residence. A one-off round dying on a reload is
+ * acceptable — nothing outlives it. A residence start is not: its clues are on
+ * a total that is still running and its names are bound for a map, so a reload
+ * that dealt a new stranger both lost the spend and handed the player a free
+ * undo of a start going badly.
+ *
+ * `route.ts` still refuses to put any of this in the URL. This is the same
+ * doctrine, not an exception to it: the address bar is shareable and a
+ * bookmark of a running puzzle hands over the answer; local storage is this
+ * browser's own memory of what it was in the middle of.
+ */
+interface StoredStart {
+  universe: UniverseId;
+  you: NodeIndex;
+  puzzleId: string;
+  phase: Session['phase'];
+  ease: number | null;
+  storyRevealed: boolean;
+  worldChosen: boolean;
+  ledger: Ledger;
+  guesses: Session['guesses'];
+  known: {
+    visible: NodeIndex[];
+    expanded: NodeIndex[];
+    facts: NodeIndex[];
+    named: [NodeIndex, string][];
+    initials: [NodeIndex, { initial: string; length: number }][];
+    rejected: [NodeIndex, string[]][];
+    recognised: NodeIndex[];
+    hop: [NodeIndex, number][];
+    parent: [NodeIndex, NodeIndex | null][];
+    carried: NodeIndex[] | null;
+  };
+}
+
+export function saveStart(session: Session | null): void {
+  try {
+    if (!session) {
+      localStorage.removeItem(START_KEY);
+      return;
+    }
+    const k = session.known;
+    const stored: StoredStart = {
+      universe: session.universe,
+      you: session.you,
+      puzzleId: session.puzzleId,
+      phase: session.phase,
+      ease: session.ease,
+      storyRevealed: session.storyRevealed,
+      worldChosen: session.worldChosen,
+      ledger: session.ledger,
+      guesses: session.guesses,
+      known: {
+        visible: [...k.visible],
+        expanded: [...k.expanded],
+        facts: [...k.facts],
+        named: [...k.named.entries()],
+        initials: [...k.initials.entries()],
+        rejected: [...k.rejected.entries()],
+        recognised: [...k.recognised],
+        hop: [...k.hop.entries()],
+        parent: [...k.parent.entries()],
+        carried: k.carried ? [...k.carried] : null,
+      },
+    };
+    localStorage.setItem(START_KEY, JSON.stringify(stored));
+  } catch {
+    // Blocked storage: the start holds for this sitting only, as before.
+  }
+}
+
+export function clearStart(): void {
+  saveStart(null);
+}
+
+/** The start in progress, if it belongs to this world. Null otherwise, which
+ * includes a stored start left behind by a world the player has since left. */
+export function loadStart(universe: UniverseId): Session | null {
+  try {
+    const raw = localStorage.getItem(START_KEY);
+    if (!raw) return null;
+    const s = JSON.parse(raw) as StoredStart;
+    if (s.universe !== universe) return null;
+    return {
+      phase: s.phase,
+      ease: s.ease,
+      universe: s.universe,
+      you: s.you,
+      puzzleId: s.puzzleId,
+      storyRevealed: s.storyRevealed,
+      worldChosen: s.worldChosen,
+      known: {
+        visible: new Set(s.known.visible),
+        expanded: new Set(s.known.expanded),
+        facts: new Set(s.known.facts),
+        named: new Map(s.known.named),
+        initials: new Map(s.known.initials),
+        rejected: new Map(s.known.rejected),
+        recognised: new Set(s.known.recognised),
+        hop: new Map(s.known.hop),
+        parent: new Map(s.known.parent),
+        carried: s.known.carried ? new Set(s.known.carried) : undefined,
+      },
+      ledger: s.ledger,
+      guesses: s.guesses,
+      // Both are about the move just made, and the move just made is over.
+      lastGuess: null,
+      lastClaim: null,
+    };
+  } catch {
+    return null;
   }
 }
 

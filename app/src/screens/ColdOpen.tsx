@@ -1,6 +1,8 @@
 import { useRef, useState } from 'react';
 import { Stage } from '../render/Stage';
-import { CHROME_PADDING, ChromeRight } from '../render/MarginLinks';
+import { CHROME_PADDING, ChromeRight, hereLabel, type StartLinks } from '../render/MarginLinks';
+import { EaseDial } from '../render/EaseDial';
+import type { Residence } from '../engine/residence';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -25,12 +27,32 @@ interface Props {
   again?: boolean;
   /** The last unnamed node: the guess is free. */
   lastNode?: boolean;
+  /** The map being resumed, when this cold open is a residence's. The scale is
+   * then drawn bounded by it rather than running the full catalogue. */
+  residence?: Residence | null;
+  /** This world's cast, for the bound on that scale. */
+  cast: number;
+  /** The same two exits every other screen carries. The cold open used to be
+   * the one screen without them, on the reasoning that it was already a way
+   * in — true when it only ever followed a shuffle, and not true once a
+   * residence resumes here, where there was no way to say "not this stranger"
+   * without first beginning as them. */
+  startLinks: StartLinks;
   onBegin: () => void;
   onChooseWorld: () => void;
   targetEase: number;
   onChooseEase: (ease: number) => void;
-  readsChineseClassics: boolean;
-  onReadsChineseClassics: (next: boolean) => void;
+  /* "I read the Chinese classics" used to be a fourth control in the row below,
+   * and is now on the world chooser. The game design doc asks this screen for
+   * exactly one thing to click, and of everything that had collected here that
+   * tick was the one with no claim to the space: what it does is raise the
+   * familiarity band of five titles, which only tilts *which world* the random
+   * draw picks up, and only at the findable end of the scale. That is a filter
+   * on the catalogue rather than a declaration about the player, and it was
+   * barely even a question — the default is read off the browser's languages and
+   * remembered, so ticking it is a correction. It now sits on the screen that is
+   * entirely about which worlds you get, a foot from the ANY WORLD button whose
+   * draw it actually changes. */
   onOpenGallery: () => void;
 }
 
@@ -55,12 +77,13 @@ export function ColdOpen({
   worldTitle,
   again = false,
   lastNode = false,
+  residence = null,
+  cast,
+  startLinks,
   onBegin,
   onChooseWorld,
   targetEase,
   onChooseEase,
-  readsChineseClassics,
-  onReadsChineseClassics,
   onOpenGallery,
 }: Props) {
   const titleRef = useRef<HTMLDivElement>(null);
@@ -242,7 +265,24 @@ export function ColdOpen({
           gap: 'clamp(9px, 1.5vh, 16px)',
         }}
       >
-        {!again && (
+        {/* The scale is on this screen whether or not a map is being resumed.
+            It was briefly hidden inside a residence, on the reasoning that the
+            stranger had already been dealt and a dial that did not redraw would
+            look broken. The premise was wrong: nothing is for sale before
+            Begin, so a cold open's ledger is always empty and the scale may
+            trade the stranger in here exactly as it does anywhere else. What
+            changes inside a residence is only how far it reaches — see
+            EaseDial. */}
+        {again && residence ? (
+          <div style={{ width: '100%' }}>
+            <EaseDial
+              residence={residence}
+              cast={cast}
+              value={targetEase}
+              onChange={onChooseEase}
+            />
+          </div>
+        ) : (
             <div
               style={{
                 display: 'flex',
@@ -280,34 +320,50 @@ export function ColdOpen({
                 alignItems: 'baseline',
                 gap: 'clamp(14px, 4vw, 30px)',
                 flexWrap: 'wrap',
+                // The three ways on are one line. They are alternatives to each
+                // other, and a wrapped third read as a step below the first two
+                // rather than a peer of them — so the row is allowed past the
+                // measure the prose is set to, and only wraps on a phone.
+                width: 'max-content',
+                maxWidth: '92vw',
+                flexShrink: 0,
               }}
             >
+              {/* One vocabulary for the three things a player can want, the
+                  same on every screen: begin as this stranger, be somebody
+                  else here, or go somewhere else. Choosing *which* world is a
+                  refinement of the third, not a fourth thing. */}
+              <button
+                className="action-quiet"
+                onClick={startLinks.onStartHere}
+                disabled={walking}
+                style={{ fontSize: 10, letterSpacing: '0.18em', minHeight: 0, padding: '7px 2px' }}
+              >
+                {/* Without the title, unlike the top bar: the cold open
+                    prints the world two inches above this row, so repeating it
+                    only makes the longest label in the row as long as the
+                    longest title in the catalogue — and pushes the three onto
+                    two lines. */}
+                {hereLabel(null)}
+              </button>
+
+              <button
+                className="action-quiet"
+                onClick={startLinks.onStartAgain}
+                disabled={walking}
+                style={{ fontSize: 10, letterSpacing: '0.18em', minHeight: 0, padding: '7px 2px' }}
+              >
+                Any world
+              </button>
+
               <button
                 className="action-quiet"
                 onClick={onChooseWorld}
                 disabled={walking}
                 style={{ fontSize: 10, letterSpacing: '0.18em', minHeight: 0, padding: '7px 2px' }}
               >
-                {worldTitle ? 'Choose another world' : 'Choose a world'}
+                Choose a world
               </button>
-
-              {!worldTitle && (
-                <button
-                  className="action-quiet"
-                  aria-pressed={readsChineseClassics}
-                  onClick={() => onReadsChineseClassics(!readsChineseClassics)}
-                  style={{
-                    color: readsChineseClassics ? 'var(--ink)' : undefined,
-                    fontSize: 10,
-                    letterSpacing: '0.18em',
-                    minHeight: 0,
-                    padding: '7px 2px',
-                  }}
-                >
-                  <span aria-hidden="true" style={{ marginRight: 8 }}>{readsChineseClassics ? '[\u00d7]' : '[ ]'}</span>
-                  I read the Chinese classics
-                </button>
-              )}
             </div>
 
         <button

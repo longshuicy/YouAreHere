@@ -9,7 +9,28 @@ interface Props {
   /** Worlds the player has mapped some of. Absent entries were never stayed in. */
   progress: Map<string, WorldProgress>;
   onChoose: (entry: IndexUniverseEntry) => void;
+  /** Close the list and leave everything as it was. */
   onCancel: () => void;
+  /** Give up on choosing and be handed a stranger in a world nobody named.
+   * Held apart from `onCancel`, which used to do duty for both: back when the
+   * cold open only ever followed a shuffle the two landed in the same place,
+   * so one button could wear either label. A residence's cold open is a world
+   * the player lives in, and "start anywhere" that returned them to it was
+   * simply untrue. */
+  onStartAnywhere: () => void;
+  /** Whether the Chinese classics count as books this player can name.
+   *
+   * It lives here rather than on the cold open because this is the screen about
+   * which worlds you get. All it does is raise the familiarity band of five
+   * titles in `familiarityFor`, and that band only tilts which world the random
+   * draw picks, and only towards the findable end of the scale — a filter on the
+   * catalogue, not a declaration about the player, and the one it filters for is
+   * `onStartAnywhere`, a button at the bottom of this very list. On the cold
+   * open it was a fourth control on a screen the design doc asks to have exactly
+   * one thing to click. */
+  readsChineseClassics: boolean;
+  /** Records the answer and redraws nothing. See the note at the control. */
+  onReadsChineseClassics: (next: boolean) => void;
   onOpenKey: () => void;
   pending: string | null;
 }
@@ -114,7 +135,17 @@ function GroupHeading({ label, title }: { label: string; title?: string }) {
   );
 }
 
-export function ChooseWorld({ universes, progress, onChoose, onCancel, onOpenKey, pending }: Props) {
+export function ChooseWorld({
+  universes,
+  progress,
+  onChoose,
+  onCancel,
+  onStartAnywhere,
+  readsChineseClassics,
+  onReadsChineseClassics,
+  onOpenKey,
+  pending,
+}: Props) {
   const [query, setQuery] = useState('');
   const [order, setOrder] = useState<Order>('title');
   const listRef = useRef<HTMLDivElement>(null);
@@ -317,6 +348,55 @@ export function ChooseWorld({ universes, progress, onChoose, onCancel, onOpenKey
           ]}
         />
 
+        {/* The one preference this screen carries, set with the search field and
+            the filing row rather than down beside ANY WORLD and BACK, because it
+            belongs to the same act as they do: it is something you say about the
+            list, and the bottom of the page is where you leave the list.
+
+            Its own line, not a fourth word on the filing row: those three are
+            one-of-these and this is a yes-or-no, and a fourth pressable label
+            sharing their line would be read as a fourth way to file however it
+            were marked. The box keeps the idiom it had on the cold open — [×] is
+            a tick in a square where a filled dot is one of a set — and the rest
+            of the type matches the radio options beside it, because it is a
+            control of the same weight on the same page.
+
+            Toggling records the answer and draws nothing. On the cold open it
+            re-drew the world and the stranger on the spot, which was right
+            there: the stage was showing a start that had already been picked, so
+            a change that only landed on the next one looked like it had done
+            nothing at all. Here the screen behind the list is a start the player
+            may be going back to, and BACK promises to leave it exactly as it
+            was; quietly swapping the stranger under the overlay would make that
+            promise false. So the preference is written now and spends itself on
+            the next random draw — ANY WORLD below, or the same shuffle offered
+            in the margins of every other screen. Choosing a title from the list
+            is unaffected either way: a named world skips the draw this tilts. */}
+        <button
+          className="mono"
+          aria-pressed={readsChineseClassics}
+          onClick={() => onReadsChineseClassics(!readsChineseClassics)}
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 6,
+            fontSize: 10,
+            letterSpacing: '0.16em',
+            textTransform: 'uppercase',
+            color: readsChineseClassics ? 'var(--accent)' : 'var(--annotation)',
+            background: 'transparent',
+            border: 'none',
+            padding: '6px 2px 4px 2px',
+            cursor: 'pointer',
+          }}
+        >
+          <span aria-hidden style={{ color: readsChineseClassics ? 'var(--accent)' : 'var(--leader)' }}>
+            {readsChineseClassics ? '[×]' : '[ ]'}
+          </span>
+          I read the Chinese classics
+        </button>
+
+
         {/* Newspaper columns rather than a grid, so the alphabet reads *down*
             one column and continues at the top of the next — which is how an
             index is read. A grid would run it left-to-right across the letters
@@ -387,7 +467,7 @@ export function ChooseWorld({ universes, progress, onChoose, onCancel, onOpenKey
                 ))}
               </div>
             ) : (
-              <div style={{ columnWidth: 200, columnGap: 36 }}>
+              <div className="world-columns">
                 {groups.map(([letter, entries]) => (
                   <div key={letter} style={{ breakInside: 'avoid', marginBottom: 8 }}>
                     <GroupHeading
@@ -435,9 +515,25 @@ export function ChooseWorld({ universes, progress, onChoose, onCancel, onOpenKey
           <div className="annot" style={{ textAlign: 'center' }}>
             Choosing settles the world. You will still have to work out who you are.
           </div>
-          <button className="action-quiet ruled" onClick={onCancel}>
-            Start anywhere instead
-          </button>
+          {/* One line, not a stack: they are two exits from the same screen,
+              and stacking them made the lesser of the two read as a step after
+              the greater rather than an alternative to it. */}
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'baseline',
+              justifyContent: 'center',
+              gap: 'clamp(18px, 5vw, 36px)',
+              flexWrap: 'wrap',
+            }}
+          >
+            <button className="action-quiet ruled" onClick={onStartAnywhere}>
+              Any world
+            </button>
+            <button className="action-quiet ruled" onClick={onCancel}>
+              Back
+            </button>
+          </div>
         </div>
       </div>
     </div>

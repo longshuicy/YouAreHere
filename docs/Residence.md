@@ -13,15 +13,15 @@ One-off play is unchanged and remains the default. A residence is what you choos
 ## The loop
 
 1. Solve a start as normal. **The reveal fires in full** — the answer, the ledger, the readings, what a tie meant. Nothing is withheld to protect the mode.
-2. Both ways on live in the top bar, beside the wordmark, on every screen but the cold open and CHOOSE A WORLD: `SOMEWHERE ELSE` (a new stranger, anywhere) and `STAY IN <WORLD>` (somebody else here, keeping the map). Until the world is known the second reads `STAY HERE` — printing the title would answer half the question — and only draws another stranger in the same unnamed world; there is no map yet to keep.
-3. Starting in the world re-roots the graph on a new node in it, with everything learned already on the paper, and **goes straight into play** — the world is settled, so the cold open has nothing left to ask. `SOMEWHERE ELSE` still opens on the cold open: a new world is a new first waking, with its scale and chooser.
+2. Both ways on live in the top bar, beside the wordmark, and on the cold open in its own control row: `ANY WORLD` (a new stranger in a book nobody picked) and `ANOTHER LIFE IN <WORLD>` (somebody else here, keeping the map). Until the world is known the second reads `ANOTHER LIFE HERE` — printing the title would answer half the question — and only draws another stranger in the same unnamed world; there is no map yet to keep.
+3. Starting in the world re-roots the graph on a new node in it, with everything learned already on the paper, and opens on **the cold open** — the stranger on the stage, the scale under them, `BEGIN`. `ANY WORLD` still opens on the cold open: a new world is a new first waking, with its scale and chooser.
 4. Repeat until no unnamed node is left.
 
-You may leave at any time, from any screen. **Leaving pauses the map; it does not end it.** Each world keeps its own map, and choosing that world again — from `CHOOSE A WORLD`, or `STAY IN <WORLD>` after a one-off round there — resumes where you left off. A refresh lands back in the world you were living in.
+You may leave at any time, from any screen. **Leaving pauses the map; it does not end it.** Each world keeps its own map, and choosing that world again — from `CHOOSE A WORLD`, or `ANOTHER LIFE IN <WORLD>` after a one-off round there — resumes where you left off. A refresh lands back in the world you were living in.
 
 Leaving mid-start keeps what that start bought: its names go on the map and its clues onto the residence ledger, but it is not counted as a start and the person is not added to your former selves — you never found out who you were. A start only counts toward a world's map once the world is known; an unnamed world never appears on the shelf, because the shelf prints its title.
 
-> **Amended 2026-09-23.** `AGAIN IN <WORLD>` was shown on reveals only, and staying returned to the cold open. Both links are now on every screen except the cold open and the chooser, and staying skips the cold open.
+> **Amended 2026-09-23, twice.** `AGAIN IN <WORLD>` was first shown on reveals only, and staying returned to the cold open. The links then moved to every screen and staying skipped the cold open, on the reasoning that a settled world leaves that screen nothing to ask. It has something to ask again — the scale, bounded by the map — so staying lands there once more. A dial needs a stranger on the stage to trade in, which is what that screen is for.
 
 > **Amended 2026-09-23.** This said leaving ends the residence and that a shelf of half-mapped worlds was a different game. Once progress was shown per world — on the chooser, the gallery and the reveal — a map that vanished on leaving made those figures a record of nothing. The shelf is kept.
 
@@ -71,7 +71,27 @@ This is not about scarcity — small worlds have plenty of playable starts (Othe
 
 One consequence for implementation: `universe.puzzles` only carries the playable starts, so an unplayable node has no `ease` score. Either score it at pick time or treat it as bottom-of-band.
 
-Walk `ease` descending as the residence deepens, but **sample within the band rather than taking the argmax** — a strict sort makes every residence in a world identical. Prefer nodes two or three hops from known territory: one expansion should touch a face you recognise without handing over the answer.
+**Difficulty is the rank of who is left, never an absolute score.** Order the unnamed candidates by `ease` and draw the next start from the easiest four, tilted toward nodes two or three hops from known territory — one expansion should touch a face you recognise without handing over the answer. The residence gets harder only because the findable people get used up, which is the arc the mode is for. Four rather than one so two runs in a world diverge in the first few starts and stay diverged; each draw changes what is left.
+
+**The stranger just left is never the next one.** Walking away mid-start — `ANOTHER LIFE IN <WORLD>` or `ANY WORLD`, rather than revealing — never names that person, so they stay a candidate. Left alone they would come straight back: they are still the easiest person remaining, and the walk just taken has put named faces beside them, so the nearness tilt favours them too. The most recently abandoned node is excluded outright whenever anyone else is left; the few before it are suppressed rather than barred, so a small world late in a residence cannot run out of people to be.
+
+> **Amended 2026-09-23.** The first build walked an absolute target down by a fixed step per start — `1 - starts * 0.18` — inside a tight band. It reached the obscure end of the scale on the sixth start and stayed there while a dozen findable people were still unnamed, and once there it favoured the unplayable leaves, because a node with no `ease` was read as ease 0 rather than as unscored. A rank has no end to hit: it is always relative to who is actually left. Unscored nodes now sort below every scored start, so the leaves come last, which is where they belong.
+
+### The scale, bounded by the map
+
+The cold open's OBSCURE↔FINDABLE dial keeps its meaning inside a residence and changes only the pool it draws from: outside, the whole catalogue; here, whoever is left in this book. At FINDABLE the window sits at the top of the ranking, which is the default and what the residence did before the dial existed. Turning it toward OBSCURE moves the window down the list.
+
+**How far it may travel is bounded by `named / cast`.** A hard start is only tractable because of the map already drawn around it — a degree-two walk-on is a fine puzzle on the ninth start and close to unsolvable on the second. Unbounded, a player who set the dial to OBSCURE at the door would be dealt exactly the people they have no means to identify, give up or walk away, and be dealt another; walking away names nobody, so the pool would never shrink. That does not invert the arc, it stalls the mode.
+
+Measured on Hamlet: at 1 of 18 named the dial reaches 0.94 and its far end still offers Guildenstern and Polonius; at 7 of 18 it reaches 0.61 and Voltemand, Osric and Cornelius come into range; at 13 of 18 it reaches 0.28 and Reynaldo does.
+
+It lives on the cold open and nowhere else, which is every screen a residence start is chosen on: `ANOTHER LIFE IN <WORLD>` lands there, and so does resuming a paused map from the chooser or a refresh. There it trades the stranger in at once, exactly as it does outside a residence. Nothing is for sale before `BEGIN`, so a cold open's ledger is always empty and there is nothing a redraw could cost.
+
+> **Amended 2026-09-23.** The dial was briefly kept off the residence's cold open and put on the reveal instead, where it was recorded rather than applied. That gave one control two meanings depending on which screen it was touched, and it took the scale away from the screen a reader most expects it on — picking a world you have a map in. Moving it back required staying to land on the cold open at all, which is the amendment in *The loop* above.
+
+A line under the dial says what the bound is, and goes away once the scale reaches the whole of itself. Resistance alone does not distinguish *this opens up as you learn the world* from *this is broken*, and the widening happens between starts, slowly, so the part of it that is a reward is invisible to anyone not already expecting it. Not a tooltip: this app does not use them, the key exists for this kind of telling, and hover is not available to a reader on a phone.
+
+The reachable stretch of the rule is drawn solid and the rest in the chooser's own tick pattern, because `named / cast` is also the number those ticks report against a world's title: one measurement, shown twice. The thumb stops at the limit rather than springing back, so the bound is met as resistance rather than explained in a sentence. `OBSCURE` is set in unknown grey until the range reaches it and comes to full ink when it does, which happens once in a world.
 
 Two pressures work against each other here — falling `ease` makes starts harder, the carried map makes everything easier. That is the arc, and it is safe now in a way it was not when this idea was parked, because the residence has an end and cannot outlive its interest.
 
@@ -89,13 +109,17 @@ When one unnamed node remains, the player is provably that person. Write it as a
 
 The ledger walks the starts: *Fourth start · 19 clues*. The residence total is the sum of each start's `clueTotal` (each already floors at zero; sum the floored values, do not floor the sum), plus whatever was spent in starts left unfinished.
 
+**Giving up costs 10, everywhere.** Free, it was the cheapest route to a named cast: expand once, give up, repeat, and the whole world was named without a start ever being solved. It was briefly charged only inside a residence, on the reasoning that a one-off reveal ends everything the count was counting. That was a rule with an exception, and the governing rule has none: information costs. The answer is the most information there is, so it is the dearest thing on the table by a wide margin. Three buys somebody else; ten buys you, which is the whole question, and is the one name no other action sells at any price. At ten a head there is no version of working a world by giving up that is not worse than playing it. The price is printed beside the link and listed in the key, like every other price.
+
 The number this produces — **clues to map a whole world** — is a different thing to compare than a single round's count, and is the mode's reason to exist as a score.
 
 ## Persistence
 
 A one-off round dying on a refresh is acceptable; a residence of four to eight starts, plausibly across sittings, is not.
 
-`localStorage` holds one map per world — `named`, `recognised`, `facts`, `visible`, `expanded`, former selves, the walking ledger — under `you-are-here-residences`, and the world currently being lived in under `you-are-here-active-world`. Do **not** address the current start in the URL: `engine/route.ts` refuses that deliberately, and the residence is what you have learned, not where you are standing.
+`localStorage` holds the start in progress under `you-are-here-start`, saved on every move inside a live residence and cleared when the start is absorbed or the world is left. A reload then lands on the same stranger with the same ledger. Without it a refresh dealt a new stranger: the clues spent vanished, which both lost the player their spend and handed them a free undo of a start going badly. A stored start whose node has since been named belongs to a run that already ended and is discarded.
+
+`localStorage` also holds one map per world — `named`, `recognised`, `facts`, `visible`, `expanded`, former selves, the walking ledger — under `you-are-here-residences`, and the world currently being lived in under `you-are-here-active-world`. Do **not** address the current start in the URL: `engine/route.ts` refuses that deliberately, and the residence is what you have learned, not where you are standing.
 
 ## Progress
 
@@ -111,11 +135,31 @@ Offered on every world, so a world reached from `CHOOSE A WORLD` behaves exactly
 
 > **Amended 2026-09-23.** The beta first limited the mode to worlds of thirty characters or fewer, on the reasoning that a goal nobody reaches is worse than no mode. In play that read as the mode being broken on any larger world. The limit is lifted; a territory goal — one community fully named — remains the likely answer if large worlds prove unfinishable.
 
+## Three ways out, named the same everywhere
+
+There are only three things a player can want, and each has one name on every screen:
+
+| | |
+| --- | --- |
+| `BEGIN` | be this person, in this book |
+| `ANOTHER LIFE IN <WORLD>` | somebody else, same book, everything you have learned kept |
+| `ANY WORLD` | somebody else, a book nobody picked |
+
+*Life* and *world*, because the two choices are on different axes — who you are, and which book you are in. An earlier pass called them `SOMEONE ELSE IN <WORLD>` and `SOMEWHERE ELSE`, which both opened on "some…else" and so read as two shades of one act rather than two questions. Each label now opens on the word that distinguishes it.
+
+Choosing *which* world is a refinement of the third, not a fourth thing: `CHOOSE A WORLD` opens the list, whose own exits are `ANY WORLD` — the same act, named the same — and `BACK`, which changes nothing. Those two were one button before, labelled for the first and wired to the second, and they now sit on one line rather than stacked, because they are alternatives rather than steps.
+
+*Any* against *choose* is the whole distinction, which is why the undirected one is not called `ANOTHER WORLD`: beside `CHOOSE A WORLD` that was almost the same words for the opposite thing, and it gave one act two names on two screens.
+
+On the cold open the first of the three drops the title — `ANOTHER LIFE HERE` — because that screen prints the world just above the diagram. Carrying it would make the row's longest label as long as the longest title in the catalogue, which pushed the three onto two lines; a wrapped third read as a step below the other two rather than a peer of them.
+
 ## Screens
 
-**Second start onward.** Straight into the explore screen, carried names already in place, the walking ledger in the margin. The cold open's *Again* variant is only seen when a refresh or the chooser resumes a paused map.
+**Second start onward.** The cold open, one word added — *Again* — with the carried names held back until `BEGIN`: on that screen they are only a crowd. The scale sits under the stranger, bounded by the map. Play opens from there with the walking ledger in the margin.
 
-**Every screen but the cold open and the chooser.** `SOMEWHERE ELSE` and `STAY IN <WORLD>` beside the wordmark. Both of those are already a way in, and a second pair of exits there is noise.
+**Every screen.** `ANY WORLD` and `ANOTHER LIFE IN <WORLD>` — in the top bar beside the wordmark, and on the cold open among its own controls, where `CHOOSE A WORLD` already sat. The chooser is the one screen without them, because it *is* the second of them opened out.
+
+> **Amended 2026-09-23.** The pair was kept off the cold open on the reasoning that it was already a way in. That held while the cold open only ever followed a shuffle. Once a residence resumes there, it was the one screen with no way to say *not this stranger* without first beginning as them — and its `Start anywhere instead` button was wired to the chooser's cancel, so it closed the list and returned the player to the same world, having started nothing anywhere. Asked from the cold open, `ANOTHER LIFE IN <WORLD>` returns another cold open rather than opening in play: the player is still deciding who to be and should be able to ask again.
 
 **Reveal.** Unchanged, plus the folded network and its note, and the map's progress in the tally.
 

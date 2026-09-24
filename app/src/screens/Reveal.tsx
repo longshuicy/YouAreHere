@@ -88,6 +88,7 @@ export function Reveal({
     `${facts} ${facts === 1 ? 'reading' : 'readings'}`,
     `${names} ${names === 1 ? 'name' : 'names'}`,
     ...(session.ledger.stories ? ['the world'] : []),
+    ...(session.ledger.answers ? ['the answer'] : []),
     ...(recognitions ? [`-${bonus}`] : []),
   ].join('  ·  ');
 
@@ -212,7 +213,7 @@ export function Reveal({
                   {/* A finished map's total is final — the clues it took to
                       name the whole world. Rounds played there afterwards are
                       one-offs and do not add to it. */}
-                  {residence.starts.length > 0 &&
+                  {residenceTotal(residence) > 0 &&
                     ` · ${residenceTotal(residence) + (living ? clues : 0)} clues ${
                       finished ? 'in total' : 'so far'
                     }`}

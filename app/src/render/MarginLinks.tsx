@@ -53,14 +53,41 @@ export function BrandCluster(links: StartLinks) {
   );
 }
 
+/**
+ * What "somebody else in this world" is called, in the one place that decides.
+ *
+ * The other half of the pair is `Any world`, named the same here as on the
+ * chooser's own way out, because it is the same act: a stranger in a book
+ * nobody picked. It was briefly `Another world`, which sat beside `Choose a
+ * world` saying almost the same words for the opposite thing. *Any* against
+ * *choose* is the distinction, so those are the words.
+ *
+ * *Life* and *world* rather than two kinds of "somewhere else": the two choices
+ * are on different axes — who you are, and which book you are in — and a pair
+ * that both began "Someone else…/Somewhere else…" read as two shades of the
+ * same act. They also state the wrong thing first. What a player is choosing
+ * between is another life or another world, so that is the word each one opens
+ * on.
+ *
+ * The same act used to be `Stay in <world>` in the top bar, `Choose another
+ * world` on the cold open and `Start anywhere instead` in the chooser — three
+ * vocabularies for two actions, which is how one button ended up wearing a
+ * label belonging to another. There are only three things a player can want —
+ * begin as this stranger, be somebody else here, or go somewhere else — and
+ * they are named the same on every screen.
+ */
+export function hereLabel(hereTitle: string | null): string {
+  return hereTitle ? `Another life in ${hereTitle}` : 'Another life here';
+}
+
 function StartLinkPair({ onStartAgain, onStartHere, hereTitle }: StartLinks) {
   return (
     <>
       <button type="button" className="annot-link" onClick={onStartAgain}>
-        Somewhere else
+        Any world
       </button>
       <button type="button" className="annot-link" onClick={onStartHere} style={{ color: 'var(--accent)' }}>
-        {hereTitle ? `Stay in ${hereTitle}` : 'Stay here'}
+        {hereLabel(hereTitle)}
       </button>
     </>
   );
@@ -102,9 +129,14 @@ export function HelpLink({ onOpenKey }: { onOpenKey: () => void }) {
 export function GiveUpLinks({
   onReveal,
   onRevealStory,
+  answerCost = 0,
 }: {
   onReveal?: () => void;
   onRevealStory?: () => void;
+  /** What giving up costs, when it costs anything. Printed beside the link for
+   * the same reason every other price is printed beside its action: a charge
+   * the player meets only after paying it is a trap, not a price. */
+  answerCost?: number;
 }) {
   if (!onReveal && !onRevealStory) return null;
 
@@ -124,7 +156,7 @@ export function GiveUpLinks({
       )}
       {onReveal && (
         <button type="button" className="annot-link" onClick={onReveal}>
-          Reveal answer
+          Reveal answer{answerCost > 0 ? ` · ${answerCost}` : ''}
         </button>
       )}
     </div>

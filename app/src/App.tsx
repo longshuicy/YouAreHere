@@ -13,8 +13,11 @@ import {
   nameLastNode,
   pickNextStart,
   progressOf,
+  clearStart,
+  loadStart,
   saveActiveWorld,
   saveResidences,
+  saveStart,
   unnamedCount,
   wakeInResidence,
   type Residence,
@@ -132,6 +135,16 @@ export default function App() {
     recentPuzzles.current = [puzzleId, ...recentPuzzles.current.filter((id) => id !== puzzleId)].slice(0, 12);
   };
 
+  /**
+   * Hold the start in progress, so a refresh lands back on the same stranger
+   * with the same ledger. Only inside a live residence: a one-off round ends
+   * where it is and nothing outlives it, and a finished map has no start.
+   */
+  useEffect(() => {
+    if (residence && !residenceClosed && session) saveStart(session);
+    else if (!residence) clearStart();
+  }, [session, residence, residenceClosed]);
+
   /** Put a world's map on the shelf, replacing whatever it held for that world. */
   const shelve = (next: Residence) => {
     const all = new Map(residences).set(next.universe, next);
@@ -150,6 +163,7 @@ export default function App() {
     setResidence(null);
     setResidenceClosed(false);
     saveActiveWorld(null);
+    clearStart();
   };
 
   useEffect(() => {
@@ -167,12 +181,22 @@ export default function App() {
         const activeEntry = saved ? index.universes.find((u) => u.id === saved.universe) : undefined;
         if (saved && activeEntry) {
           const universe = await fetchUniverse(activeEntry.file);
-          const puzzle = isComplete(universe, saved) ? null : pickNextStart(universe, saved);
+          // The start in progress, if there is one, before any new stranger is
+          // dealt: a reload is not a decision the player made, so it must not
+          // cost them a start or hand them a free one. A stored start whose
+          // node has since been named belongs to a run that already ended.
+          const inFlight = isComplete(universe, saved) ? null : loadStart(universe.id);
+          const resumed = inFlight && !saved.named.has(inFlight.you) ? inFlight : null;
+          const puzzle = resumed
+            ? { id: resumed.puzzleId, you: resumed.you, startRadius: 1, ease: resumed.ease ?? 0 }
+            : isComplete(universe, saved)
+              ? null
+              : pickNextStart(universe, saved, targetEase);
           if (puzzle) {
             remember(puzzle.id);
             setBoot({ status: 'ready', index, universe, puzzle });
             setResidence(saved);
-            setSession(wakeInResidence(universe, puzzle, saved));
+            setSession(resumed ?? wakeInResidence(universe, puzzle, saved));
             setLoaded(new Map([[universe.id, universe]]));
             for (const other of index.universes) {
               if (other.id === universe.id) continue;
@@ -383,12 +407,20 @@ export default function App() {
   };
 
   /**
-   * Somebody else, in this world, straight into play.
+   * Somebody else, in this world, by way of the cold open.
    *
    * Available from every screen. Whatever the current round earned goes onto
    * this world's map first. While the world is still unnamed there is no map to
    * keep — it would give the world away — so this only draws another stranger
    * in the same unnamed world.
+   *
+   * It lands on the cold open rather than opening in play. That screen was
+   * skipped for a while, on the reasoning that a settled world leaves it with
+   * nothing to ask. It has something to ask again: the scale, bounded by the
+   * map, which needs a stranger on the stage to trade in and is the only place
+   * a dial can both be set and take effect at once. The cold open is also the
+   * screen whose job has always been to introduce a stranger, which is exactly
+   * what is happening.
    */
   const startInThisWorld = () => {
     if (boot.status !== 'ready') return;
@@ -399,7 +431,7 @@ export default function App() {
       if (!puzzle) return;
       remember(puzzle.id);
       setBoot({ ...boot, puzzle });
-      setSession({ ...initSession(universe, puzzle), phase: 'explore' });
+      setSession(initSession(universe, puzzle));
       return;
     }
 
@@ -415,7 +447,7 @@ export default function App() {
       if (!puzzle) return;
       remember(puzzle.id);
       setBoot({ ...boot, puzzle });
-      setSession({ ...initSession(universe, puzzle, { worldChosen: true }), phase: 'explore' });
+      setSession(initSession(universe, puzzle, { worldChosen: true }));
       return;
     }
 
@@ -429,7 +461,7 @@ export default function App() {
       return;
     }
 
-    const puzzle = pickNextStart(universe, next);
+    const puzzle = pickNextStart(universe, next, targetEase);
     if (!puzzle) return;
 
     // One stranger left, and the player is provably them: the guess is free.
@@ -449,7 +481,7 @@ export default function App() {
     enterResidence(next);
     setResidenceClosed(false);
     setBoot({ ...boot, puzzle });
-    setSession({ ...wakeInResidence(universe, puzzle, next), phase: 'explore' });
+    setSession(wakeInResidence(universe, puzzle, next));
   };
 
   /** Wake in a named world. The story half of the question is settled before the
@@ -491,6 +523,25 @@ export default function App() {
 
   const chooseEase = async (next: number) => {
     setTargetEase(next);
+    if (boot.status !== 'ready') return;
+
+    if (residence) {
+      // The dial is only ever drawn on the cold open, where the stranger has
+      // been dealt but not begun: nothing is for sale before Begin, so the
+      // ledger is empty and the scale may trade them in — the same act it
+      // performs outside a residence, drawing from who is left in this book
+      // instead of from the catalogue. The guard stands in case it is ever put
+      // on a screen where a round is under way, with clues spent on it, which
+      // a redraw would throw away.
+      if (session.phase !== 'cold') return;
+      const puzzle = pickNextStart(universe, residence, next);
+      if (!puzzle) return;
+      remember(puzzle.id);
+      setBoot({ ...boot, puzzle });
+      setSession(wakeInResidence(universe, puzzle, residence));
+      return;
+    }
+
     await redraw(next, readsChineseClassics);
   };
 
@@ -498,18 +549,22 @@ export default function App() {
    * setting for this waking — and because the browser's language list is a guess
    * that should stop being made as soon as they have answered it themselves.
    *
-   * Redraws for the same reason the scale does: the stranger on the stage has
-   * already been drawn, so a change that only took effect on the *next* waking
-   * would look like it did nothing. */
-  const chooseReadsChineseClassics = async (next: boolean) => {
+   * It used to redraw, for the same reason the scale does: on the cold open the
+   * stranger was already on the stage, so a change that only took effect on the
+   * *next* waking looked like it had done nothing. The tick now lives on the
+   * world chooser, which is an overlay in front of that stage, and there the
+   * argument runs the other way — Back promises the screen underneath is
+   * untouched, and a stranger silently swapped behind the list would break that
+   * promise the moment the player used it. So this writes the answer and stops.
+   * It is spent on the next draw: Any world, or the shuffle in the margins.
+   * `familiarityOf` reads the state, so every later draw honours it. */
+  const chooseReadsChineseClassics = (next: boolean) => {
     setReadsChineseClassics(next);
     try {
       localStorage.setItem('reads-chinese-classics', String(next));
     } catch {
       // Blocked site data: the answer holds for this session and is asked again.
     }
-    if (session.worldChosen) return;
-    await redraw(targetEase, next);
   };
 
   const chooseWorld = async (entry: { id: string; file: string }) => {
@@ -522,7 +577,7 @@ export default function App() {
       // A world with a paused map resumes it rather than starting cold.
       const paused = residences.get(next.id);
       if (paused && !isComplete(next, paused)) {
-        const resumed = pickNextStart(next, paused);
+        const resumed = pickNextStart(next, paused, targetEase);
         if (resumed) {
           remember(resumed.id);
           enterResidence(paused);
@@ -616,6 +671,9 @@ export default function App() {
           pending={pendingWorld}
           onChoose={chooseWorld}
           onCancel={() => setChoosing(false)}
+          onStartAnywhere={startAgain}
+          readsChineseClassics={readsChineseClassics}
+          onReadsChineseClassics={chooseReadsChineseClassics}
           onOpenKey={openKey}
         />
       ) : (
@@ -626,12 +684,13 @@ export default function App() {
           worldTitle={session.worldChosen || residence ? universe.title : null}
           again={Boolean(residence)}
           lastNode={lastNode}
+          residence={residence}
+          cast={universe.nodes.length}
+          startLinks={startLinks}
           onBegin={beginFromCold}
           onChooseWorld={() => setChoosing(true)}
           targetEase={targetEase}
           onChooseEase={chooseEase}
-          readsChineseClassics={readsChineseClassics}
-          onReadsChineseClassics={chooseReadsChineseClassics}
           onOpenGallery={() => navigate({ screen: 'gallery' })}
         />
       );
@@ -677,6 +736,7 @@ export default function App() {
           onReveal={revealAnswer}
           onRevealStory={revealStory}
           startLinks={startLinks}
+          residence={residence}
         />
       );
       break;

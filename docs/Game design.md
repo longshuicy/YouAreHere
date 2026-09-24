@@ -145,7 +145,9 @@ The player never sees the word *weight*. It is a code word and it promises a pre
 
 ## Screen states
 
-**1 · Cold open.** Your node, its neighbours at true tie thickness, two lines of copy, `BEGIN`. No book list, no mode selector, no settings, no how-to-play — and no rules. The legend used to sit here; it moved into the key, which is reachable from every screen, because a rule printed once on a screen you pass through in four seconds is not available when it is wanted.
+**1 · Cold open.** Your node, its neighbours at true tie thickness, two lines of copy, the obscure-to-findable scale, the three ways on, `BEGIN`. No book list, no mode selector, no settings, no how-to-play — and no rules. The legend used to sit here; it moved into the key, which is reachable from every screen, because a rule printed once on a screen you pass through in four seconds is not available when it is wanted.
+
+> **Amended 2026-09-23.** *I read the Chinese classics* moved off this screen and onto the world chooser. It was never a settings question about the player: it raises the familiarity band of five titles, which only tilts which world the random draw hands you, so it is a filter on the catalogue and it now sits a foot from `ANY WORLD`, the draw it changes. Toggling it there records the preference and redraws nothing, because `BACK` promises the start behind the list is the one you left.
 
 **2 · Exploring.** Your node centred, hollow neighbours, the ledger, the question line. Actions attach to a node on hover, never to a toolbar. Withheld: names, and the size of the graph. Tie strength is not withheld anywhere.
 

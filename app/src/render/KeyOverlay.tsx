@@ -1,4 +1,4 @@
-import { RECOGNITION_REFUND } from '../engine/session';
+import { COST, RECOGNITION_REFUND } from '../engine/session';
 
 interface Props {
   onClose: () => void;
@@ -12,6 +12,9 @@ const ROWS: Array<{ label: string; gloss: string; cost: string }> = [
   // in the margin. Listed here all the same, because a price that is only
   // discoverable by paying it is not a price.
   { label: 'Reveal world', gloss: 'which world this is', cost: '2' },
+  // The dearest thing on the table, and listed like everything else, because a
+  // price that is only discoverable by paying it is not a price.
+  { label: 'Reveal answer', gloss: 'who you are, told to you', cost: `${COST.answer}` },
   // The only row that can pay you, and the only one that can never charge you.
   // Listed last because it is not a purchase in either direction.
   { label: 'Claim', gloss: 'say who they are', cost: `-${RECOGNITION_REFUND}` },

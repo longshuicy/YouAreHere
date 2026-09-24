@@ -356,6 +356,18 @@ button {
   outline: none;
 }
 
+/* The residence's bounded dial draws its own rule in two parts — reachable and
+   not yet — so the input's own track would lay a third line over both. The mark
+   on it is still the thumb, unchanged: only the surface it is made on is drawn
+   by something else. */
+.ease-bounded::-webkit-slider-runnable-track {
+  background: transparent;
+}
+
+.ease-bounded::-moz-range-track {
+  background: transparent;
+}
+
 .ease::-webkit-slider-runnable-track {
   height: 1px;
   background: var(--rule);
@@ -681,5 +693,31 @@ button {
     flex-direction: column;
     align-items: flex-start !important;
     gap: 4px;
+  }
+}
+
+/* The chooser's world list.
+ *
+ * Newspaper columns, so the alphabet reads down one and continues at the top of
+ * the next. The count was left to the browser — `column-width: 200px` in an
+ * 880px box, which works out at three — and three columns of a forty-world
+ * catalogue is a long scroll for a list whose whole job is to be looked over at
+ * once. Four is stated outright above the width where four will fit: 880 less
+ * three 28px gaps is 199px a column, which is the width the list was already
+ * being set at, so nothing about a row changes except how many of them are
+ * beside each other.
+ *
+ * Below that width the count goes back to the browser, because a fourth column
+ * on a narrow screen is four columns of nothing. */
+.world-columns {
+  column-width: 200px;
+  column-gap: 36px;
+}
+
+@media (min-width: 980px) {
+  .world-columns {
+    column-count: 4;
+    column-width: auto;
+    column-gap: 28px;
   }
 }

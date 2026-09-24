@@ -4,7 +4,7 @@ import { BrandCluster, type StartLinks, CHROME_PADDING, GiveUpLinks, HelpLink } 
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
-import { worldIsKnown } from '../engine/session';
+import { COST, worldIsKnown } from '../engine/session';
 import type { Residence } from '../engine/residence';
 
 interface Props {
@@ -152,6 +152,7 @@ export function Explore({
               I've found myself
             </button>
             <GiveUpLinks
+              answerCost={COST.answer}
               onReveal={onReveal}
               onRevealStory={worldKnown ? undefined : onRevealStory}
             />

@@ -52,15 +52,24 @@ export function Ledger({
         <div
           className="annot"
           style={{
-            marginTop: 10,
-            paddingTop: 8,
-            borderTop: '1px solid var(--rule)',
-            display: 'inline-block',
-            color: 'var(--annotation)',
+            // No rule above it. A hairline under tracked uppercase mono is how
+            // this app draws an *action*, so one sitting over the map's total
+            // made a readout look like a button — and, being inline-block, it
+            // hugged its own text rather than the column, landing as a ragged
+            // underline aligned with nothing and laddering against the help
+            // link's rule just above. Distance separates it instead: the line
+            // is already smaller and greyer than the count it follows, which
+            // is the whole of the hierarchy it needs.
+            marginTop: 16,
+            color: 'var(--unknown)',
           }}
         >
           {startOrdinal(residence.selves.length + 1)}
-          {residence.starts.length > 0 && (
+          {/* The total, not the count of finished starts: clues spent in a
+              start the player walked away from are on the map too, and a
+              second start that opened with six of them already spent must not
+              print an ordinal with no number after it. */}
+          {residenceTotal(residence) > 0 && (
             <>
               {' '}
               · {mapTotal} {mapTotal === 1 ? 'clue' : 'clues'} in all
@@ -78,5 +87,6 @@ function breakdownOf(ledger: LedgerT): string[] {
   if (ledger.facts) rows.push(`${ledger.facts} ${ledger.facts === 1 ? 'reading' : 'readings'}`);
   if (ledger.names) rows.push(`${ledger.names} ${ledger.names === 1 ? 'name' : 'names'}`);
   if (ledger.stories) rows.push('the world');
+  if (ledger.answers) rows.push('the answer');
   return rows;
 }
