@@ -34,7 +34,7 @@
    },
    "line": "Sir Toby’s companion.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -55,7 +55,7 @@
    },
    "line": "Friend to Sebastian.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -76,7 +76,7 @@
    },
    "line": "A gentleman in Olivia’s household.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -97,7 +97,7 @@
    },
    "line": "Fool, Olivia’s jester, named Feste.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -118,7 +118,7 @@
    },
    "line": "Steward in Olivia’s household.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -160,7 +160,7 @@
    },
    "line": "Countess.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -181,7 +181,7 @@
    },
    "line": "Duke (or count) of Illyria.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -202,7 +202,7 @@
    },
    "line": "Priest.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -223,7 +223,7 @@
    },
    "line": "Viola’s brother.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -244,7 +244,7 @@
    },
    "line": "Sir, Olivia’s kinsman.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -265,7 +265,7 @@
    },
    "line": "Sister of Sebastian.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-the-comedy-of-errors",
      "story": "The Comedy of Errors",

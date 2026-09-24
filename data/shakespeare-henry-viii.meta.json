@@ -110,7 +110,7 @@
    },
    "line": "Doctor, of Fulham.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -132,7 +132,7 @@
    },
    "line": "Cardinal, Papal Legate, of Milan.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -172,7 +172,7 @@
    },
    "line": "Lord, of the Order of the Garter.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -194,7 +194,7 @@
    },
    "line": "Lord, of London.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -219,7 +219,7 @@
    },
    "line": "Later Archbishop of Canterbury, of Aslockton, of the United Kingdom.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -265,7 +265,7 @@
    },
    "line": "Servant to Wolsey, later secretary to the Privy Council, of Huntingdon, of the Short Parliament.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -287,7 +287,7 @@
    },
    "line": "Sir, of Cheshunt.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -340,7 +340,7 @@
    },
    "line": "Secretary to the king, later Bishop of Winchester, English people, of Bury St Edmunds.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -449,7 +449,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -482,7 +482,7 @@
    },
    "line": "Sir.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -504,7 +504,7 @@
    },
    "line": "Duke of Norfolk, of Stoke-by-Nayland.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -525,7 +525,7 @@
    },
    "line": "With Anne Bullen.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -546,7 +546,7 @@
    },
    "line": "Page.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -619,7 +619,7 @@
    },
    "line": "Duke of Suffolk.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -644,7 +644,7 @@
    },
    "line": "Earl of Surrey, Buckingham’s son-in-law, of the Order of the Garter.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -699,7 +699,7 @@
    },
    "line": "Cardinal, Archbishop of Canterbury, of Ipswich.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",

@@ -535,6 +535,7 @@ WORK_CAST = {
     "friends": "Q79784",
     "iliad": "Q8275",
     "lesmiserables": "Q180736",
+    "pride": "Q170583",
 }
 
 # Honorifics are not given names; indexing them as first tokens would collide.

@@ -33,7 +33,7 @@
    },
    "line": "King of Naples.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -54,7 +54,7 @@
    },
    "line": "Duke of Milan and Prospero’s brother.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -74,7 +74,7 @@
    },
    "line": "A spirit, servant to Prospero.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -93,7 +93,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -114,7 +114,7 @@
    },
    "line": "An inhabitant of the island, servant to Prospero.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -135,7 +135,7 @@
    },
    "line": "Prince of Naples.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -175,7 +175,7 @@
    },
    "line": "Councillor to Alonso and friend to Prospero.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -196,7 +196,7 @@
    },
    "line": "Prospero’s daughter.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -217,7 +217,7 @@
    },
    "line": "Rightful Duke of Milan.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -238,7 +238,7 @@
    },
    "line": "Alonso’s brother.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -269,7 +269,7 @@
    },
    "line": "Alonso’s butler.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -290,7 +290,7 @@
    },
    "line": "Servant to Alonso.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",

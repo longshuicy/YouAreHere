@@ -14,7 +14,7 @@
    },
    "line": "Weaver.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -32,7 +32,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -53,7 +53,7 @@
    },
    "line": "Father to Hermia.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -84,7 +84,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -102,7 +102,7 @@
     "corpusSize": 37
    },
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -121,7 +121,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -140,7 +140,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -161,7 +161,7 @@
    },
    "line": "Bellows-mender.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -180,7 +180,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -199,7 +199,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -220,7 +220,7 @@
    },
    "line": "Queen of the Amazons.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -239,7 +239,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -260,7 +260,7 @@
    },
    "line": "King of the Fairies.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -281,7 +281,7 @@
    },
    "line": "Master of the revels to Theseus.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -302,7 +302,7 @@
    },
    "line": "Carpenter.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -323,7 +323,7 @@
    },
    "line": "A “puck,” or hobgoblin, in Oberon’s service.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -344,7 +344,7 @@
    },
    "line": "Tinker.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -365,7 +365,7 @@
    },
    "line": "Joiner.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-the-comedy-of-errors",
      "story": "The Comedy of Errors",
@@ -385,7 +385,7 @@
    },
    "line": "Tailor.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -406,7 +406,7 @@
    },
    "line": "Duke of Athens.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -427,7 +427,7 @@
    },
    "line": "Queen of the Fairies.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",

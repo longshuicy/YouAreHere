@@ -26,6 +26,7 @@ from .ingest import (
     lesmiserables,
     lotr,
     odyssey,
+    pride,
     sanguoyanyi,
     shakespeare,
     shiji,
@@ -131,6 +132,13 @@ SOURCES: dict[str, Source] = {
         # A sentence naming two people in this translation is already a
         # deliberate act of the verse, closer to a biblical verse than to a
         # banquet sentence in a novel.
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "pride": Source(
+        name="pride",
+        load=pride.load,
+        # Chapter co-occurrence is already a deliberate annotation unit.
         min_edge_weight=1,
         min_degree=2,
     ),

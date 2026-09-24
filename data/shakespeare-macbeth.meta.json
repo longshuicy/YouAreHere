@@ -12,7 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -33,7 +33,7 @@
    },
    "line": "Commander, with Macbeth, of Duncan’s army.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -64,7 +64,7 @@
    },
    "line": "Duncan’s younger son.",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -85,7 +85,7 @@
    },
    "line": "King of Scotland.",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -128,7 +128,7 @@
    },
    "line": "Wife of Macbeth.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -147,7 +147,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -192,7 +192,7 @@
    },
    "line": "A Scottish noble.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -232,7 +232,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -251,7 +251,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",

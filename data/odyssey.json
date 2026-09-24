@@ -1156,7 +1156,7 @@
    "id": "odyssey-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.511
+   "ease": 0.504
   },
   {
    "id": "odyssey-p0006",
@@ -1180,7 +1180,7 @@
    "id": "odyssey-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.616
+   "ease": 0.615
   },
   {
    "id": "odyssey-p0012",
@@ -1204,13 +1204,13 @@
    "id": "odyssey-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.616
+   "ease": 0.615
   },
   {
    "id": "odyssey-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.539
+   "ease": 0.537
   },
   {
    "id": "odyssey-p0020",
@@ -1258,7 +1258,7 @@
    "id": "odyssey-p0030",
    "you": 30,
    "startRadius": 1,
-   "ease": 0.522
+   "ease": 0.521
   }
  ],
  "provenance": {

@@ -16,7 +16,7 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -37,7 +37,7 @@
    },
    "line": "An exiled nobleman.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -79,7 +79,7 @@
    },
    "line": "A physician in Cymbeline’s court.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -100,7 +100,7 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -157,7 +157,7 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -178,7 +178,7 @@
    },
    "line": "Friend to Philario.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -199,7 +199,7 @@
    },
    "line": "Daughter of Cymbeline.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -230,7 +230,7 @@
    },
    "line": "A Roman general.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -263,7 +263,7 @@
    },
    "line": "Posthumus’s servant.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -284,7 +284,7 @@
    },
    "line": "Husband to Imogen.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -305,7 +305,7 @@
    },
    "line": "Queen.",
    "signals": {
-    "lookAlikes": 7,
+    "lookAlikes": 8,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -326,7 +326,7 @@
    },
    "line": "Soothsayer.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",

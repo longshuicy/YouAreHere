@@ -38,6 +38,18 @@ CC_BY_NC_3_0 = License(
     ),
 )
 
+CC_BY_NC_4_0 = License(
+    name="Creative Commons Attribution-NonCommercial 4.0 International",
+    spdx="CC-BY-NC-4.0",
+    url="https://creativecommons.org/licenses/by-nc/4.0/",
+    allows_commercial_use=False,
+    share_alike=False,
+    deed_summary=(
+        "Credit the creator, link the licence, and state that changes were made. "
+        "No commercial use."
+    ),
+)
+
 CC_BY_4_0 = License(
     name="Creative Commons Attribution 4.0 International",
     spdx="CC-BY-4.0",

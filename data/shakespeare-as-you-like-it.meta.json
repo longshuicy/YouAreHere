@@ -56,7 +56,7 @@
    },
    "line": "Rosalind’s cousin, daughter to Duke Frederick.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -152,7 +152,7 @@
    },
    "line": "Duke, The exiled duke, brother to Duke Frederick.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -192,7 +192,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -256,7 +256,7 @@
    },
    "line": "His elder brother.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -277,7 +277,7 @@
    },
    "line": "Youngest son of Sir Rowland de Boys.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -319,7 +319,7 @@
    },
    "line": "Daughter of the banished duke.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -379,7 +379,7 @@
    },
    "line": "A young shepherd in love.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",
@@ -400,7 +400,7 @@
    },
    "line": "A court Fool.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",

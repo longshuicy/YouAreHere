@@ -22,7 +22,7 @@
    },
    "line": "King of the Reunited Kingdom, of the Men, of the Fellowship of the Ring. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -45,7 +45,7 @@
    },
    "line": "Of the Men. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -68,7 +68,7 @@
    },
    "line": "Elf, of Rivendell. Appears in The Fellowship of the Ring and The Return of the King.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -93,7 +93,7 @@
    },
    "line": "Diarist, Dwarf, of the Thorin and Company. Appears in The Fellowship of the Ring.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -147,7 +147,7 @@
    },
    "line": "Burglar, Hobbit, of the Thorin and Company. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -170,7 +170,7 @@
    },
    "line": "Of the Men. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -193,7 +193,7 @@
    },
    "line": "Elf. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -222,7 +222,7 @@
    },
    "line": "Ruling Steward of Gondor, of the Men. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -245,7 +245,7 @@
    },
    "line": "Dwarf. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -271,7 +271,7 @@
    },
    "line": "High-Kings of Arnor and Gondor, of the Men. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -297,7 +297,7 @@
    },
    "line": "Elf, of the White Council. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -326,7 +326,7 @@
    },
    "line": "King of Rohan, of the Men, of Aldburg. Appears in The Two Towers and The Return of the King.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -354,7 +354,7 @@
    },
    "line": "King of Rohan, of the Men. Appears in The Two Towers and The Return of the King.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -379,7 +379,7 @@
    },
    "line": "Of the Men, of the Rohan. Appears in The Two Towers and The Return of the King.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -407,7 +407,7 @@
    },
    "line": "Prince of Ithilien, of the Men, of the Gondor. Appears in The Two Towers and The Return of the King.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -435,7 +435,7 @@
    },
    "line": "Hobbit, of The Shire, of the Fellowship of the Ring. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -458,7 +458,7 @@
    },
    "line": "Elf. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -487,7 +487,7 @@
    },
    "line": "Magician, Ainur, of the White Council. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -548,7 +548,7 @@
    },
    "line": "Dwarf, of the Fellowship of the Ring. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -574,11 +574,11 @@
    },
    "line": "Dwarf, of the Thorin and Company. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "贾蔷",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Colonel Forster",
      "tied": 0
     }
    }
@@ -596,7 +596,7 @@
    },
    "line": "Elf. Appears in The Fellowship of the Ring and The Return of the King.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -619,7 +619,7 @@
    },
    "line": "Hobbit. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -655,7 +655,7 @@
    },
    "line": "Adviser, of the Men. Appears in The Two Towers and The Return of the King.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -680,7 +680,7 @@
    },
    "line": "Elf, of the Lothlórien. Appears in The Fellowship of the Ring and The Two Towers.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -707,7 +707,7 @@
    },
    "line": "King of Arnor, of the Men, of Númenor. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -734,7 +734,7 @@
    },
    "line": "Archer, Elf, of the Fellowship of the Ring. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -761,7 +761,7 @@
    },
    "line": "Hobbit, of the Fellowship of the Ring. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -791,7 +791,7 @@
    },
    "line": "Thain, Hobbit, of the Fellowship of the Ring. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -821,7 +821,7 @@
    },
    "line": "Mayor of the Shire, Hobbit, of the Fellowship of the Ring. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -847,7 +847,7 @@
    },
    "line": "Ainur, of the White Council. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -871,7 +871,7 @@
    },
    "line": "Necromancer, Ainur. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -899,7 +899,7 @@
    },
    "line": "King of Rohan, of the Men. Appears in The Two Towers and The Return of the King.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -926,7 +926,7 @@
    },
    "line": "King under the Mountain, Dwarf, of the Thorin and Company. Appears in The Fellowship of the Ring.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -961,7 +961,7 @@
    },
    "line": "Ainur. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -984,7 +984,7 @@
    },
    "line": "Ent. Appears in all three volumes.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",

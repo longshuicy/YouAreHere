@@ -33,6 +33,8 @@ const FALLBACK: Record<string, string> = {
     'One long war across three volumes, a fellowship that scatters, and a ring that wants to be found.',
   odyssey:
     'A ten-year voyage home, a household of suitors waiting at the other end of it.',
+  pride:
+    'Three or four families in a country neighbourhood, and a season of assemblies that rearranges them.',
   sanguoyanyi:
     '一個帝國分裂為三，一場連續百年的戰爭與計謀。',
   shiji:
@@ -111,6 +113,7 @@ const FAMILIARITY: Record<string, 0 | 1 | 2> = {
   lesmiserables: 2,
   civilwar: 2,
   lotr: 2,
+  pride: 2,
   iliad: 1,
   odyssey: 1,
   // Nameable, but only to Americans — the same kind of accident as the five

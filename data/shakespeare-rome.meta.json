@@ -17,7 +17,7 @@
    },
    "line": "Roman governor, of Istria. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -37,7 +37,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -125,11 +125,11 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "A Soothsayer",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Mary King",
      "tied": 0
     }
    }
@@ -295,7 +295,7 @@
    },
    "line": "Lady's maid, of the Ptolemaic Kingdom. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -413,7 +413,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -479,7 +479,7 @@
    },
    "line": "Also called Domitius, of Ancient Rome. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -563,7 +563,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -586,7 +586,7 @@
    },
    "line": "A triumvir of Rome, of Ancient Rome. Appears in all two plays.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -653,7 +653,7 @@
    },
    "line": "Patron of the arts, of Arezzo. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -696,7 +696,7 @@
    },
    "line": "Military personnel, of Ancient Rome. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -742,7 +742,7 @@
    },
    "line": "Sister to Caesar, later wife to Antony, of Nola. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -819,7 +819,7 @@
    },
    "line": "Also called Pompey, of Ancient Rome. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -925,7 +925,7 @@
    },
    "line": "Of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -964,7 +964,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -984,7 +984,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1004,7 +1004,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1028,7 +1028,7 @@
    },
    "line": "Ancient Roman senator, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1048,7 +1048,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1114,7 +1114,7 @@
    },
    "line": "Philosopher. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1135,7 +1135,7 @@
    },
    "line": "Military personnel. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -1176,7 +1176,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",

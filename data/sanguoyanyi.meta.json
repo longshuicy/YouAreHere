@@ -186,7 +186,7 @@
    },
    "line": "軍官。屬蜀漢。見於第87回、第88回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -647,7 +647,7 @@
    },
    "line": "昭烈帝。屬蜀漢。見於62回。",
    "signals": {
-    "lookAlikes": 1,
+    "lookAlikes": 2,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -731,7 +731,7 @@
    },
    "line": "武將。屬蜀漢。見於42回。",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 18,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -791,7 +791,7 @@
    },
    "line": "武將。屬蜀漢。見於37回。",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 18,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1019,9 +1019,9 @@
    "signals": {
     "lookAlikes": 57,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "簡雍",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Elder Mr. Darcy",
      "tied": 0
     }
    }
@@ -2263,7 +2263,7 @@
    },
    "line": "武將。屬蜀漢。見於42回。",
    "signals": {
-    "lookAlikes": 1,
+    "lookAlikes": 2,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2648,7 +2648,7 @@
    },
    "line": "軍官。見於18回。",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 18,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2868,7 +2868,7 @@
    },
    "line": "謀士。見於7回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3642,9 +3642,9 @@
    "signals": {
     "lookAlikes": 43,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "John Rugby",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Mr. Denny",
      "tied": 0
     }
    }
@@ -4247,7 +4247,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -4305,7 +4305,7 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4711,7 +4711,7 @@
    },
    "line": "軍官。屬大魏。見於19回。",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 18,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5447,7 +5447,7 @@
    },
    "line": "謀士。見於6回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -6434,7 +6434,7 @@
    },
    "line": "屬蜀漢。見於4回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -6558,7 +6558,7 @@
    },
    "line": "軍官。見於6回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6645,7 +6645,7 @@
    },
    "line": "太守。見於6回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -7768,7 +7768,7 @@
    },
    "line": "屬蜀漢。見於7回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -7794,7 +7794,7 @@
    },
    "line": "屬蜀漢。見於4回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "bible",
      "story": "The Bible",

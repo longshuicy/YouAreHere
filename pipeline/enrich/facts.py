@@ -59,6 +59,7 @@ def meta_sources_for(name: str) -> list[tuple]:
         "hongloumeng",
         "lotr",
         "odyssey",
+        "pride",
         "sanguoyanyi",
         "shiji",
         "shuihuzhuan",
@@ -122,6 +123,9 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
 
         if source == "lotr":
             _apply_lotr(record, node)
+
+        if source == "pride":
+            _apply_pride(record, node)
 
         qid = qid_by_node.get(node.id)
         if qid and qid in wd_by_qid:
@@ -229,6 +233,13 @@ def _apply_lotr(record: dict, node) -> None:
     culture = node.metadata.get("culture")
     if culture and "culture" not in record and "species" not in record:
         record["culture"] = culture
+
+
+def _apply_pride(record: dict, node) -> None:
+    """Standing role from the NGG attributes table when Wikidata has nothing better."""
+    role = node.metadata.get("role")
+    if role and "role" not in record and "occupation" not in record and "titles" not in record:
+        record["role"] = role
 
 
 def _match_lotr(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, str]:

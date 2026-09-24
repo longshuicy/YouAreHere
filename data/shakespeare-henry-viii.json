@@ -1462,25 +1462,25 @@
    "id": "shakespeare-henry-viii-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.47
+   "ease": 0.469
   },
   {
    "id": "shakespeare-henry-viii-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.484
+   "ease": 0.483
   },
   {
    "id": "shakespeare-henry-viii-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.649
+   "ease": 0.648
   },
   {
    "id": "shakespeare-henry-viii-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.47
+   "ease": 0.469
   },
   {
    "id": "shakespeare-henry-viii-p0010",
@@ -1504,13 +1504,13 @@
    "id": "shakespeare-henry-viii-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.418
+   "ease": 0.415
   },
   {
    "id": "shakespeare-henry-viii-p0017",
    "you": 17,
    "startRadius": 1,
-   "ease": 0.535
+   "ease": 0.533
   },
   {
    "id": "shakespeare-henry-viii-p0020",
@@ -1534,31 +1534,31 @@
    "id": "shakespeare-henry-viii-p0023",
    "you": 23,
    "startRadius": 1,
-   "ease": 0.47
+   "ease": 0.469
   },
   {
    "id": "shakespeare-henry-viii-p0025",
    "you": 25,
    "startRadius": 1,
-   "ease": 0.479
+   "ease": 0.477
   },
   {
    "id": "shakespeare-henry-viii-p0026",
    "you": 26,
    "startRadius": 1,
-   "ease": 0.58
+   "ease": 0.578
   },
   {
    "id": "shakespeare-henry-viii-p0027",
    "you": 27,
    "startRadius": 1,
-   "ease": 0.457
+   "ease": 0.452
   },
   {
    "id": "shakespeare-henry-viii-p0028",
    "you": 28,
    "startRadius": 1,
-   "ease": 0.418
+   "ease": 0.415
   },
   {
    "id": "shakespeare-henry-viii-p0029",
@@ -1576,7 +1576,7 @@
    "id": "shakespeare-henry-viii-p0032",
    "you": 32,
    "startRadius": 1,
-   "ease": 0.57
+   "ease": 0.568
   },
   {
    "id": "shakespeare-henry-viii-p0033",
@@ -1594,7 +1594,7 @@
    "id": "shakespeare-henry-viii-p0036",
    "you": 36,
    "startRadius": 1,
-   "ease": 0.642
+   "ease": 0.641
   }
  ],
  "provenance": {

@@ -493,13 +493,13 @@
    "id": "shakespeare-othello-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.628
+   "ease": 0.627
   },
   {
    "id": "shakespeare-othello-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.608
+   "ease": 0.607
   },
   {
    "id": "shakespeare-othello-p0004",
@@ -517,7 +517,7 @@
    "id": "shakespeare-othello-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.655
+   "ease": 0.654
   },
   {
    "id": "shakespeare-othello-p0007",
@@ -535,13 +535,13 @@
    "id": "shakespeare-othello-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.652
+   "ease": 0.651
   },
   {
    "id": "shakespeare-othello-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.552
+   "ease": 0.551
   }
  ],
  "provenance": {

@@ -392,6 +392,42 @@ Used as follows:
 1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
+## Pride and Prejudice
+
+*Shipped as `pride.json` — 87 characters, 423 ties.*
+
+"Pride and Prejudice character networks (Nation, Genre & Gender)" by **Gerardine Meaney, Derek Greene, Karen Wade, Maria Mulvany, Siobhan Grayson, Jennie Rothwell** (<http://www.nggprojectucd.ie/>)
+
+- Source: <http://www.nggprojectucd.ie/data/index.html>
+- Project: <http://www.nggprojectucd.ie/>
+- Licence: [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) (`CC-BY-NC-4.0`)
+- Retrieved: 2026-09-24
+- Cite as: G. Meaney, D. Greene, K. Wade, et al., Nation, Genre & Gender project, University College Dublin. Pride and Prejudice annotated character networks.
+
+Changes made to the original data:
+
+1. Merged 61 per-chapter GEXF networks into one graph, summing tie weights and recording chapter segments.
+2. Dropped collective nodes and annotation stubs (General 1, all the servants, …).
+3. Applied dictionary aliases; normalised gender from the attributes table.
+4. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (97 nodes and 433 ties in, 87 and 423 out).
+5. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+6. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `pride.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
+
 ## 三國演義
 
 *Shipped as `sanguoyanyi.json` — 436 characters, 1796 ties.*
@@ -644,5 +680,5 @@ Used as follows:
 ShareAlike-licensed data and are distributed under the same terms — see `LICENSE` here,
 which governs `/data` specifically and not the application source code.
 
-**NonCommercial** (CC-BY-NC-3.0, CC-BY-NC-SA-4.0). While these datasets ship, the game may not
+**NonCommercial** (CC-BY-NC-3.0, CC-BY-NC-4.0, CC-BY-NC-SA-4.0). While these datasets ship, the game may not
 be put to commercial use. Removing or replacing them is what lifts that restriction.

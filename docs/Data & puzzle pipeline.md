@@ -317,6 +317,7 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | Friends | Scene co-occurrence edge lists | Shipped | Michelle Edwards, CC BY 4.0. Ten seasons. See `pipeline/raw/friends/SOURCE.md`. |
 | American Civil War | Battle commanders projected graph | Shipped | Arnold / NPS, ODC-By 1.0. Years 1861–1865. See `pipeline/raw/civilwar/SOURCE.md`. |
 | The Lord of the Rings | Paragraph co-occurrence edge lists | Shipped | Calvo Tello, CC BY. Three volumes; places/groups/animals dropped. See `pipeline/raw/lotr/SOURCE.md`. |
+| Pride and Prejudice | Chapter co-occurrence GEXF | Shipped | NGG / UCD, CC BY-NC 4.0. 61 chapters. See `pipeline/raw/pride/SOURCE.md`. |
 | 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
 

@@ -100,7 +100,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 7,
+    "lookAlikes": 8,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -256,7 +256,7 @@
    },
    "line": "Prince of Ithaca. Appears in 17 books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -418,7 +418,7 @@
    },
    "line": "Thunder deity. Appears in all 24 books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -459,7 +459,7 @@
    },
    "line": "Goddess, of Olympus. Appears in 20 books.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -747,7 +747,7 @@
    },
    "line": "Former king of Ithaca. Appears in 19 books.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",

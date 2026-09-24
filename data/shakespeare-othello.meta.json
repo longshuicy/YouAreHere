@@ -56,7 +56,7 @@
    },
    "line": "Othello’s second-in-command, or lieutenant.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -77,7 +77,7 @@
    },
    "line": "Daughter of Brabantio.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -139,7 +139,7 @@
    },
    "line": "Othello’s standard-bearer, or “ancient”, ensign.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",
@@ -200,7 +200,7 @@
    },
    "line": "General of Venice.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",
@@ -221,7 +221,7 @@
    },
    "line": "A Venetian gentleman.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-coriolanus",
      "story": "Coriolanus",

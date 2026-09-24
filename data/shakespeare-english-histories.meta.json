@@ -196,7 +196,7 @@
    },
    "line": "Appears in four plays.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 18,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -217,11 +217,11 @@
    },
    "line": "Of the Red Rose or Lancaster faction. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
-     "world": "shakespeare-twelfth-night",
-     "story": "Twelfth Night",
-     "name": "Priest",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Mrs. Forster",
      "tied": 0
     }
    }
@@ -261,7 +261,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -286,7 +286,7 @@
    },
    "line": "Lord, Younger son of King Henry, of England. Appears in four plays.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -395,7 +395,7 @@
    },
    "line": "Sir. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -416,7 +416,7 @@
    },
    "line": "Sir. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -543,7 +543,7 @@
    },
    "line": "Ambassador to the Kingdom of France, of Stafford, of the Order of the Garter. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -570,7 +570,7 @@
    },
    "line": "Duke of Buckingham, of Abergavenny, of the Order of the Garter. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -679,7 +679,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -739,7 +739,7 @@
    },
    "line": "The king’s great-uncle, of Beaufort-en-Vallée. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -764,7 +764,7 @@
    },
    "line": "Cardinal, of Essex, of the United Kingdom of Great Britain and Ireland. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -785,7 +785,7 @@
    },
    "line": "Sir. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -830,7 +830,7 @@
    },
    "line": "Lord. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -857,7 +857,7 @@
    },
    "line": "Lord Lieutenant of Ireland, of Kenilworth Castle, of the Order of the Garter. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -883,7 +883,7 @@
    },
    "line": "Later Duke of Clarence, of Dublin Castle, of the United Kingdom. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -968,7 +968,7 @@
    },
    "line": "Military personnel. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -990,7 +990,7 @@
    },
    "line": "His son. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -1058,7 +1058,7 @@
    },
    "line": "An apprentice tapster. Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1154,7 +1154,7 @@
    },
    "line": "Prostitute. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1176,11 +1176,11 @@
    },
    "line": "Marquess of Dorset, of Groby Old Hall. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Jon Connington",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Mary Bennet",
      "tied": 0
     }
    }
@@ -1198,7 +1198,7 @@
    },
    "line": "(Archibald, earl of Douglas), of Scotland. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1220,7 +1220,7 @@
    },
    "line": "Duchess, of Starborough Castle. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1258,7 +1258,7 @@
    },
    "line": "Duchess of York, Mother of Richard, Edward, and Clarence, of Raby Castle. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1282,7 +1282,7 @@
    },
    "line": "Earl of March, of Rouen. Appears in three plays.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1308,7 +1308,7 @@
    },
    "line": "Prince, of Westminster, of the Order of the Garter. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1333,7 +1333,7 @@
    },
    "line": "Sir, of Norfolk, of the Order of the Garter. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1357,7 +1357,7 @@
    },
    "line": "Member of the House of Lords, of London. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1381,7 +1381,7 @@
    },
    "line": "Uncle to the King, of the Order of the Garter. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1447,7 +1447,7 @@
    },
    "line": "Military personnel, of Caister Hall. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1541,7 +1541,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1713,7 +1713,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1781,7 +1781,7 @@
    },
    "line": "Lord. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1852,7 +1852,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1890,7 +1890,7 @@
    },
    "line": "Lord Chamberlain, of Leicestershire, of the United Kingdom of Great Britain and Ireland. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1914,7 +1914,7 @@
    },
    "line": "King, Formerly Henry Bolingbroke, of Bolingbroke Castle. Appears in three plays.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1939,7 +1939,7 @@
    },
    "line": "Earl of Richmond, Henry Tudor, later King Henry VII, of Pembroke Castle, of the Principality of Wales. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1991,7 +1991,7 @@
    },
    "line": "Prince of Wales and heir to the throne (alsocalled Harry and Harry Monmouth), of Monmouth Castle, of the Order of the Garter. Appears in three plays.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 18,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -2044,7 +2044,7 @@
    },
    "line": "The Duke of York’s armorer. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2162,7 +2162,7 @@
    },
    "line": "A gentleman of Kent, of Westwell. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2367,7 +2367,7 @@
    },
    "line": "Lady, Widow of Edward, son to the late King Henry VI;later wife to Richard, of Warwick Castle. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2480,11 +2480,11 @@
    },
    "line": "Lieutenant. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "賈蓉續娶之妻",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "John the Gardiner Servant",
      "tied": 0
     }
    }
@@ -2545,7 +2545,7 @@
    },
    "line": "Lord, of the Order of the Garter. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2565,7 +2565,7 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2664,7 +2664,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2781,7 +2781,7 @@
    },
    "line": "Lord. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2801,7 +2801,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2916,7 +2916,7 @@
    },
    "line": "(also called Mistress Quickly). Appears in four plays.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 18,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2943,7 +2943,7 @@
    },
    "line": "Member of the House of Lords, of County Durham, of the Order of the Garter. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2975,7 +2975,7 @@
    },
    "line": "French herald. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -3081,7 +3081,7 @@
    },
    "line": "Member of the House of Lords, of Epworth, of the United Kingdom. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3102,7 +3102,7 @@
    },
    "line": "Duke of Norfolk. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3126,7 +3126,7 @@
    },
    "line": "Lord Lieutenant of Sussex, of Leconfield. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3251,7 +3251,7 @@
    },
    "line": "Member of the House of Lords, of the Order of the Garter. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -3272,7 +3272,7 @@
    },
    "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3294,7 +3294,7 @@
    },
    "line": "Appears in three plays.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3316,7 +3316,7 @@
    },
    "line": "(also called Edward, Yedward, and Ned). Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3351,7 +3351,7 @@
    },
    "line": "Prince, of Palace of Westminster. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3373,7 +3373,7 @@
    },
    "line": "Military personnel, of Domrémy-la-Pucelle. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -3407,11 +3407,11 @@
    },
    "line": "Lady, Later Queen Elizabeth, of Grafton Regis. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
-     "world": "lotr",
-     "story": "The Lord of the Rings",
-     "name": "Éomer",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Kitty Bennet",
      "tied": 0
     }
    }
@@ -3512,7 +3512,7 @@
    },
    "line": "Sir. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3534,7 +3534,7 @@
    },
    "line": "Duke of Anjou and Maine, King of Naples, of Angers. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3603,7 +3603,7 @@
    },
    "line": "Brother to the queen, of Grafton Regis. Appears in Henry VI, Part 3 and Richard III.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -3725,7 +3725,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3756,7 +3756,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3776,7 +3776,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3796,7 +3796,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3881,7 +3881,7 @@
    },
    "line": "Member of the House of Lords, of County Durham, of the Order of the Garter. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -4025,7 +4025,7 @@
    },
    "line": "Pucelle’s father, of Ceffonds. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4077,7 +4077,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4098,7 +4098,7 @@
    },
    "line": "Supposed recipient of a miracle. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4197,7 +4197,7 @@
    },
    "line": "Member of the House of Lords, of Middlesex. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4224,7 +4224,7 @@
    },
    "line": "Member of the House of Lords, of London, of the United Kingdom. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -4334,7 +4334,7 @@
    },
    "line": "Earl of Derby, of Lathom. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4360,7 +4360,7 @@
    },
    "line": "Earlier Marquess of Suffolk, of Suffolk, of the Order of the Garter. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4404,7 +4404,7 @@
    },
    "line": "Earl of Surrey, of Stoke-by-Nayland. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4426,11 +4426,11 @@
    },
    "line": "Afterwards Earl of Shrewsbury, of Shropshire. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Jorah Mormont",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Mrs. Gardiner",
      "tied": 0
     }
    }
@@ -4447,7 +4447,7 @@
    },
    "line": "Horner the armorer’s man or prentice. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4490,7 +4490,7 @@
    },
    "line": "Gentleman. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4511,7 +4511,7 @@
    },
    "line": "Sir. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4531,7 +4531,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 7,
+    "lookAlikes": 8,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4564,7 +4564,7 @@
    },
    "line": "Of the White Rose or York faction. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -4691,7 +4691,7 @@
    },
    "line": "Earl of Warwick, of the United Kingdom. Appears in three plays.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4717,7 +4717,7 @@
    },
    "line": "Salisbury’s son, of Norwich, of the Order of the Garter. Appears in Henry VI, Part 2 and Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -4741,7 +4741,7 @@
    },
    "line": "Earl of Westmoreland, of Raby Castle. Appears in three plays.",
    "signals": {
-    "lookAlikes": 84,
+    "lookAlikes": 90,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4765,7 +4765,7 @@
    },
    "line": "Member of the House of Lords, of Raby Castle. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4867,7 +4867,7 @@
    },
    "line": "Earl of Worcester, Thomas Percy, Hotspur’s uncle, of the Order of the Garter. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4891,7 +4891,7 @@
    },
    "line": "And Regent of France, of Kings Langley. Appears in three plays.",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",

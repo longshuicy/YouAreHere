@@ -12,7 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -33,7 +33,7 @@
    },
    "line": "King, Brother to the late King Hamlet.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -104,7 +104,7 @@
    },
    "line": "Queen, Widow of King Hamlet, now married to Claudius.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -158,7 +158,7 @@
    },
    "line": "Prince of Denmark, son of the late King Hamlet and Queen Gertrude.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -179,7 +179,7 @@
    },
    "line": "Hamlet’s friend and confidant.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -200,7 +200,7 @@
    },
    "line": "Her brother.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -280,7 +280,7 @@
    },
    "line": "Father of Ophelia and Laertes, councillor to King Claudius.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-the-comedy-of-errors",
      "story": "The Comedy of Errors",
@@ -330,7 +330,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",

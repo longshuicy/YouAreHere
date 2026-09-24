@@ -800,11 +800,11 @@
    },
    "line": "留守。見於16回。",
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "劉璋",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Miss Darcy",
      "tied": 0
     }
    }
@@ -834,7 +834,7 @@
    },
    "line": "太師。見於12回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -898,7 +898,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -985,7 +985,7 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1053,11 +1053,11 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Walder Frey",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Mrs. Philips",
      "tied": 0
     }
    }
@@ -1106,7 +1106,7 @@
    },
    "line": "見於21回。",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1202,7 +1202,7 @@
    },
    "line": "知府。見於5回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1314,7 +1314,7 @@
    },
    "line": "見於14回。",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1361,7 +1361,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1396,7 +1396,7 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1503,7 +1503,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -1553,11 +1553,11 @@
    },
    "line": "官員。見於7回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
-     "world": "shuihuzhuan",
-     "story": "水滸傳",
-     "name": "慕容彥達",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Mrs. Long",
      "tied": 0
     }
    }
@@ -1710,7 +1710,7 @@
    },
    "line": "管家。見於4回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1863,7 +1863,7 @@
    },
    "line": "通判。見於3回。",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -2027,7 +2027,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 51,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -2156,11 +2156,11 @@
    },
    "line": "知府。見於3回。",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "李紋",
+     "world": "pride",
+     "story": "Pride and Prejudice",
+     "name": "Lady Lucas",
      "tied": 0
     }
    }
@@ -2513,7 +2513,7 @@
    },
    "line": "軍官。見於7回。",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3246,7 +3246,7 @@
    },
    "line": "教師。見於3回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 66,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3447,7 +3447,7 @@
    },
    "line": "孔目。屬七十二地煞星。見於9回。",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -4448,7 +4448,7 @@
    },
    "line": "團練使。屬七十二地煞星。見於4回。",
    "signals": {
-    "lookAlikes": 99,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -4522,7 +4522,7 @@
    },
    "line": "團練使。屬七十二地煞星。見於4回。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 40,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",

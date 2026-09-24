@@ -129,7 +129,7 @@
    },
    "line": "Duke, Later called Friar Lodowick.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -213,7 +213,7 @@
    },
    "line": "Pompey’s customer.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -234,7 +234,7 @@
    },
    "line": "A novice in the Order of Saint Clare.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -268,7 +268,7 @@
    },
    "line": "Justice.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -289,7 +289,7 @@
    },
    "line": "Friend to Claudio.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -374,7 +374,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 109,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",

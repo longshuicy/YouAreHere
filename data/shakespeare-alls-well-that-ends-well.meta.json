@@ -14,7 +14,7 @@
    },
    "line": "Count of Rossillion.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -35,7 +35,7 @@
    },
    "line": "Count, Bertram’s mother.",
    "signals": {
-    "lookAlikes": 145,
+    "lookAlikes": 150,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -151,7 +151,7 @@
    },
    "line": "A gentlewoman of Rossillion.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -172,7 +172,7 @@
    },
    "line": "King.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -231,7 +231,7 @@
    },
    "line": "A French lord.",
    "signals": {
-    "lookAlikes": 119,
+    "lookAlikes": 121,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -276,7 +276,7 @@
    },
    "line": "Companion to Bertram.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
