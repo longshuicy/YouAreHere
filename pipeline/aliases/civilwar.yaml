@@ -1,0 +1,36 @@
+# Hand-maintained identity table for the American Civil War.
+#
+# Keys are NPS commander UUIDs (stable across battles). Most names arrive clean
+# from the tables; pins cover nicknames a player is likely to type.
+
+civilwar:
+
+  "21d06a25-9c4f-4dea-a766-f60d20632999":  # Thomas J. Jackson
+    aliases:
+      - Stonewall Jackson
+      - Stonewall
+
+  "183d0a7d-f06a-4c7b-a575-7616e491618b":  # Pierre G. T. Beauregard
+    aliases:
+      - P.G.T. Beauregard
+      - PGT Beauregard
+
+  "f4036249-0d0f-4c0f-aa2e-557890e1e475":  # Ulysses S. Grant
+    aliases:
+      - U.S. Grant
+      - US Grant
+
+  "d428cfef-5c7a-4230-b394-b195481d9a9f":  # Robert E. Lee
+    aliases:
+      - R.E. Lee
+      - RE Lee
+
+  "033ec012-d845-474f-bf9c-28366e02d1a4":  # William T. Sherman
+    aliases:
+      - Tecumseh Sherman
+      - Cump Sherman
+
+  "02b4fa9a-541a-45c7-9097-ab1aee538c6c":  # Nathan B. Forrest
+    aliases:
+      - Nathan Bedford Forrest
+      - Bedford Forrest

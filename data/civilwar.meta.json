@@ -1,0 +1,7992 @@
+{
+ "id": "civilwar",
+ "revealOnly": true,
+ "nodes": {
+  "0": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1862."
+  },
+  "1": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in four years.",
+   "signals": {
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Sterling Price",
+     "tied": 0
+    }
+   }
+  },
+  "2": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in four years.",
+   "signals": {
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Haman",
+     "tied": 0
+    }
+   }
+  },
+  "3": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Captain"
+    ]
+   },
+   "line": "Captain, of the Union. Appears in 1862."
+  },
+  "4": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in 1862 and 1863."
+  },
+  "5": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in four years.",
+   "signals": {
+    "lookAlikes": 31,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shebna",
+     "tied": 0
+    }
+   }
+  },
+  "6": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1862 and 1863."
+  },
+  "7": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1865."
+  },
+  "8": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1864."
+  },
+  "9": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1864."
+  },
+  "10": {
+   "facts": {
+    "books": [
+     "1861",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in 1861 and 1863."
+  },
+  "11": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 29,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "St. James the Elder",
+     "tied": 0
+    }
+   }
+  },
+  "12": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1864 and 1865."
+  },
+  "13": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1861."
+  },
+  "14": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864."
+  },
+  "15": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1861 and 1862.",
+   "signals": {
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "漢文帝",
+     "tied": 0
+    }
+   }
+  },
+  "16": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Commander"
+    ]
+   },
+   "line": "Commander, of the Confederacy. Appears in 1862."
+  },
+  "17": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1863."
+  },
+  "18": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Captain"
+    ]
+   },
+   "line": "Captain, of the Confederacy. Appears in 1862 and 1864."
+  },
+  "19": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant"
+    ]
+   },
+   "line": "Lieutenant, of the Confederacy. Appears in 1862."
+  },
+  "20": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Lieutenant"
+    ]
+   },
+   "line": "Lieutenant, of the Union. Appears in 1863."
+  },
+  "21": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "General"
+    ]
+   },
+   "line": "General, of the Confederacy. Appears in 1862."
+  },
+  "22": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1863 and 1864.",
+   "signals": {
+    "lookAlikes": 54,
+    "nearest": {
+     "world": "shakespeare-pericles",
+     "story": "Pericles",
+     "name": "Thaisa",
+     "tied": 0
+    }
+   }
+  },
+  "23": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "General"
+    ]
+   },
+   "line": "General, of the Confederacy. Appears in four years.",
+   "signals": {
+    "lookAlikes": 41,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "張良",
+     "tied": 0
+    }
+   }
+  },
+  "24": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1863."
+  },
+  "25": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1861 and 1862."
+  },
+  "26": {
+   "facts": {
+    "books": [
+     "1861",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years."
+  },
+  "27": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864."
+  },
+  "28": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 70,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Thomas C. Hindman",
+     "tied": 0
+    }
+   }
+  },
+  "29": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1865."
+  },
+  "30": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1863 and 1864."
+  },
+  "31": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1864."
+  },
+  "32": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 41,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "劉肥",
+     "tied": 0
+    }
+   }
+  },
+  "33": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 8,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Benjamin F. Butler",
+     "tied": 0
+    }
+   }
+  },
+  "34": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years."
+  },
+  "35": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 31,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Sour Alyn",
+     "tied": 0
+    }
+   }
+  },
+  "36": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862."
+  },
+  "37": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1862."
+  },
+  "38": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years."
+  },
+  "39": {
+   "facts": {
+    "books": [
+     "1861",
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in four years."
+  },
+  "40": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862 and 1863."
+  },
+  "41": {
+   "facts": {
+    "books": [
+     "1862",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862 and 1865."
+  },
+  "42": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Confederacy. Appears in 1862."
+  },
+  "43": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1862."
+  },
+  "44": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1861."
+  },
+  "45": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1861."
+  },
+  "46": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "General"
+    ]
+   },
+   "line": "General, of the Confederacy. Appears in 1862 and 1864."
+  },
+  "47": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1862."
+  },
+  "48": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Lieutenant Commander"
+    ]
+   },
+   "line": "Lieutenant Commander, of the Union. Appears in 1864."
+  },
+  "49": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862."
+  },
+  "50": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1864."
+  },
+  "51": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1861 and 1862."
+  },
+  "52": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864 and 1865.",
+   "signals": {
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Alfred Pleasonton",
+     "tied": 0
+    }
+   }
+  },
+  "53": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1862."
+  },
+  "54": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864 and 1865.",
+   "signals": {
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Hoglah",
+     "tied": 1
+    }
+   }
+  },
+  "55": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Confederacy. Appears in 1862."
+  },
+  "56": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Captain"
+    ]
+   },
+   "line": "Captain, of the Confederacy. Appears in 1862."
+  },
+  "57": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant Colonel"
+    ]
+   },
+   "line": "Lieutenant Colonel, of the Confederacy. Appears in 1861."
+  },
+  "58": {
+   "facts": {
+    "books": [
+     "1861",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years.",
+   "signals": {
+    "lookAlikes": 70,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Beor",
+     "tied": 0
+    }
+   }
+  },
+  "59": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1861."
+  },
+  "60": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "General"
+    ]
+   },
+   "line": "General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 5,
+    "nearest": {
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Cade",
+     "tied": 0
+    }
+   }
+  },
+  "61": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1862."
+  },
+  "62": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years.",
+   "signals": {
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Azel",
+     "tied": 0
+    }
+   }
+  },
+  "63": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant"
+    ]
+   },
+   "line": "Lieutenant, of the Confederacy. Appears in 1863."
+  },
+  "64": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Confederacy. Appears in 1862."
+  },
+  "65": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1861."
+  },
+  "66": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1861."
+  },
+  "67": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1863."
+  },
+  "68": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862."
+  },
+  "69": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Flag Officer"
+    ]
+   },
+   "line": "Flag Officer, of the Union. Appears in 1862.",
+   "signals": {
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Shuah",
+     "tied": 0
+    }
+   }
+  },
+  "70": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major"
+    ]
+   },
+   "line": "Major, of the Union. Appears in 1864."
+  },
+  "71": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862 and 1864."
+  },
+  "72": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1862 and 1863."
+  },
+  "73": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862."
+  },
+  "74": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Lieutenant Commander"
+    ]
+   },
+   "line": "Lieutenant Commander, of the Union. Appears in 1864."
+  },
+  "75": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Commander"
+    ]
+   },
+   "line": "Commander, of the Confederacy. Appears in 1862."
+  },
+  "76": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Confederacy. Appears in 1862 and 1863."
+  },
+  "77": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Commander"
+    ]
+   },
+   "line": "Commander, of the Union. Appears in 1862 and 1863."
+  },
+  "78": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1864 and 1865."
+  },
+  "79": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1864."
+  },
+  "80": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 16,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Remaliah",
+     "tied": 0
+    }
+   }
+  },
+  "81": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years."
+  },
+  "82": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1863 and 1864."
+  },
+  "83": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1861."
+  },
+  "84": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Commander"
+    ]
+   },
+   "line": "Commander, of the Union. Appears in 1862."
+  },
+  "85": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1861 and 1862."
+  },
+  "86": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1862."
+  },
+  "87": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1864."
+  },
+  "88": {
+   "facts": {
+    "books": [
+     "1861",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 31,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "James Longstreet",
+     "tied": 0
+    }
+   }
+  },
+  "89": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1864."
+  },
+  "90": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Captain"
+    ]
+   },
+   "line": "Captain, of the Union. Appears in 1862 and 1863."
+  },
+  "91": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1864."
+  },
+  "92": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1864."
+  },
+  "93": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1862."
+  },
+  "94": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "漢景帝",
+     "tied": 0
+    }
+   }
+  },
+  "95": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years."
+  },
+  "96": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Rear Admiral"
+    ]
+   },
+   "line": "Rear Admiral, of the Union. Appears in 1862 and 1864.",
+   "signals": {
+    "lookAlikes": 70,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Thomas C. Hindman",
+     "tied": 0
+    }
+   }
+  },
+  "97": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Confederacy. Appears in 1862."
+  },
+  "98": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in four years.",
+   "signals": {
+    "lookAlikes": 34,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Balaam",
+     "tied": 0
+    }
+   }
+  },
+  "99": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years.",
+   "signals": {
+    "lookAlikes": 15,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Rachel",
+     "tied": 0
+    }
+   }
+  },
+  "100": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1862."
+  },
+  "101": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 70,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "David G. Farragut",
+     "tied": 0
+    }
+   }
+  },
+  "102": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "General"
+    ]
+   },
+   "line": "General, of the Confederacy. Appears in 1864."
+  },
+  "103": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864."
+  },
+  "104": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864."
+  },
+  "105": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1864."
+  },
+  "106": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years.",
+   "signals": {
+    "lookAlikes": 54,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Bichri",
+     "tied": 0
+    }
+   }
+  },
+  "107": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in four years."
+  },
+  "108": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years.",
+   "signals": {
+    "lookAlikes": 17,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Rattleshirt",
+     "tied": 0
+    }
+   }
+  },
+  "109": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864."
+  },
+  "110": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Rear Admiral"
+    ]
+   },
+   "line": "Rear Admiral, of the Union. Appears in three years.",
+   "signals": {
+    "lookAlikes": 21,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Boaz",
+     "tied": 0
+    }
+   }
+  },
+  "111": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in three years."
+  },
+  "112": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 19,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "John S. Marmaduke",
+     "tied": 0
+    }
+   }
+  },
+  "113": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in 1864."
+  },
+  "114": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1863 and 1864.",
+   "signals": {
+    "lookAlikes": 31,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Isaiah",
+     "tied": 0
+    }
+   }
+  },
+  "115": {
+   "facts": {
+    "books": [
+     "1861",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1861 and 1863."
+  },
+  "116": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1864."
+  },
+  "117": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1861."
+  },
+  "118": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1862."
+  },
+  "119": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Confederacy. Appears in 1865."
+  },
+  "120": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Confederacy. Appears in 1861."
+  },
+  "121": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1862 and 1863."
+  },
+  "122": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1861 and 1862."
+  },
+  "123": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1862 and 1863."
+  },
+  "124": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years.",
+   "signals": {
+    "lookAlikes": 8,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Haldon",
+     "tied": 0
+    }
+   }
+  },
+  "125": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant Colonel"
+    ]
+   },
+   "line": "Lieutenant Colonel, of the Confederacy. Appears in 1864."
+  },
+  "126": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1861 and 1862.",
+   "signals": {
+    "lookAlikes": 44,
+    "nearest": {
+     "world": "shuihuzhuan",
+     "story": "水滸傳",
+     "name": "陆谦",
+     "tied": 0
+    }
+   }
+  },
+  "127": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years.",
+   "signals": {
+    "lookAlikes": 23,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "蘇秦",
+     "tied": 0
+    }
+   }
+  },
+  "128": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1865."
+  },
+  "129": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1861."
+  },
+  "130": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1862 and 1863."
+  },
+  "131": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862 and 1863.",
+   "signals": {
+    "lookAlikes": 31,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "John B. Gordon",
+     "tied": 0
+    }
+   }
+  },
+  "132": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in four years."
+  },
+  "133": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1863 and 1864."
+  },
+  "134": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1863."
+  },
+  "135": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1861."
+  },
+  "136": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862."
+  },
+  "137": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Confederacy. Appears in 1864 and 1865."
+  },
+  "138": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "General"
+    ]
+   },
+   "line": "General, of the Confederacy. Appears in all five years.",
+   "signals": {
+    "lookAlikes": 38,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Hot Pie",
+     "tied": 0
+    }
+   }
+  },
+  "139": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1862."
+  },
+  "140": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1863 and 1864."
+  },
+  "141": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1864."
+  },
+  "142": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1865.",
+   "signals": {
+    "lookAlikes": 31,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Jonadab",
+     "tied": 0
+    }
+   }
+  },
+  "143": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1864."
+  },
+  "144": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1862."
+  },
+  "145": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years."
+  },
+  "146": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1863 and 1864."
+  },
+  "147": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1864."
+  },
+  "148": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years.",
+   "signals": {
+    "lookAlikes": 8,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "漢文帝",
+     "tied": 0
+    }
+   }
+  },
+  "149": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1861 and 1862."
+  },
+  "150": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1864."
+  },
+  "151": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1863 and 1864."
+  },
+  "152": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1864.",
+   "signals": {
+    "lookAlikes": 35,
+    "nearest": {
+     "world": "asoiaf",
+     "story": "A Song of Ice and Fire",
+     "name": "Yandry",
+     "tied": 0
+    }
+   }
+  },
+  "153": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major"
+    ]
+   },
+   "line": "Major, of the Union. Appears in 1864."
+  },
+  "154": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1863 and 1864.",
+   "signals": {
+    "lookAlikes": 31,
+    "nearest": {
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Abijah",
+     "tied": 0
+    }
+   }
+  },
+  "155": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Confederacy. Appears in 1862 and 1864."
+  },
+  "156": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1863."
+  },
+  "157": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Lieutenant Colonel"
+    ]
+   },
+   "line": "Lieutenant Colonel, of the Confederacy. Appears in 1863."
+  },
+  "158": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864 and 1865."
+  },
+  "159": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "General"
+    ]
+   },
+   "line": "General, of the Confederacy. Appears in all five years.",
+   "signals": {
+    "lookAlikes": 13,
+    "nearest": {
+     "world": "shiji",
+     "story": "史記",
+     "name": "劉邦",
+     "tied": 0
+    }
+   }
+  },
+  "160": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864."
+  },
+  "161": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1864 and 1865.",
+   "signals": {
+    "lookAlikes": 35,
+    "nearest": {
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "August V. Kautz",
+     "tied": 0
+    }
+   }
+  },
+  "162": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1862."
+  },
+  "163": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1863 and 1864."
+  },
+  "164": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862 and 1864."
+  },
+  "165": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864."
+  },
+  "166": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1865."
+  },
+  "167": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864 and 1865."
+  },
+  "168": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Lieutenant"
+    ]
+   },
+   "line": "Lieutenant, of the Union. Appears in 1862."
+  },
+  "169": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in 1862."
+  },
+  "170": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1861."
+  },
+  "171": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1865."
+  },
+  "172": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in three years."
+  },
+  "173": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862",
+     "1863",
+     "1864",
+     "1865"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Lieutenant General"
+    ]
+   },
+   "line": "Lieutenant General, of the Union. Appears in all five years.",
+   "signals": {
+    "lookAlikes": 54,
+    "nearest": {
+     "world": "lesmiserables",
+     "story": "Les Misérables",
+     "name": "Fantine",
+     "tied": 0
+    }
+   }
+  },
+  "174": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863",
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Confederacy. Appears in three years."
+  },
+  "175": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1863."
+  },
+  "176": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Union. Appears in 1862 and 1863."
+  },
+  "177": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1863."
+  },
+  "178": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1862."
+  },
+  "179": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1864."
+  },
+  "180": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1862 and 1863."
+  },
+  "181": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Colonel"
+    ]
+   },
+   "line": "Colonel, of the Union. Appears in 1864."
+  },
+  "182": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1864."
+  },
+  "183": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Confederacy"
+    ],
+    "titles": [
+     "Brigadier General"
+    ]
+   },
+   "line": "Brigadier General, of the Confederacy. Appears in 1864."
+  },
+  "184": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "unit": "year",
+    "corpusSize": 5,
+    "affiliations": [
+     "Union"
+    ],
+    "titles": [
+     "Major General"
+    ]
+   },
+   "line": "Major General, of the Union. Appears in 1863."
+  }
+ },
+ "edges": {
+  "0-33": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "0-107": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "1-48": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "1-54": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "1-58": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "1-70": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "1-74": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "1-87": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "1-91": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "1-103": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "1-104": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "1-107": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "1-113": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "1-153": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "2-4": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "2-102": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "2-137": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "2-138": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1864."
+  },
+  "2-154": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "2-171": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Union."
+  },
+  "3-97": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "3-155": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "4-173": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "5-15": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "5-58": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "5-60": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Confederacy."
+  },
+  "5-81": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "5-99": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "5-145": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "5-148": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "6-11": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Confederacy."
+  },
+  "6-114": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "6-176": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "7-12": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "7-108": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Union."
+  },
+  "7-124": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "7-142": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "7-159": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "8-30": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "8-71": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "9-18": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "9-96": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "9-146": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "10-35": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Confederacy."
+  },
+  "10-117": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "10-123": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "10-176": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "11-22": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "11-32": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "11-34": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "11-52": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "11-54": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "11-80": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "11-95": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1864."
+  },
+  "11-106": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "11-108": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "11-114": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "11-140": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "11-152": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "11-179": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "12-80": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "12-124": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "12-167": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "13-23": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "13-138": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "14-52": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "14-94": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "14-165": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "15-33": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "15-35": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "15-45": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "15-57": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "15-99": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Union."
+  },
+  "15-100": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "15-131": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "15-138": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "15-159": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "16-93": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "16-96": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "17-110": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "17-173": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "17-184": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "18-19": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "18-96": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "18-146": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "18-168": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "19-168": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "20-127": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Union."
+  },
+  "20-157": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "21-23": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "21-136": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "21-173": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "22-23": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "22-32": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "22-106": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "22-108": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "22-159": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1863."
+  },
+  "22-173": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "23-38": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1863."
+  },
+  "23-136": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "23-138": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Confederacy."
+  },
+  "23-148": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "23-159": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "23-173": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1862."
+  },
+  "24-110": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "24-184": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "25-33": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "25-126": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "26-58": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1863."
+  },
+  "26-148": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "26-181": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "27-152": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "27-159": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "28-41": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "28-72": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "28-110": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "28-121": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "28-150": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "28-156": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "29-128": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "29-161": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "30-80": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "31-104": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "31-125": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "31-155": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "31-163": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "32-49": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "32-86": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "32-106": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "32-108": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1863."
+  },
+  "32-124": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "32-159": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "32-161": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "33-36": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "33-68": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "33-73": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "33-107": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "33-131": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "33-154": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "33-159": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page in two years, first in 1862. Both belong to the Confederacy."
+  },
+  "33-172": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "34-95": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1864."
+  },
+  "34-116": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "34-183": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "35-77": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "35-117": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "35-138": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "35-177": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "36-68": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "37-76": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "37-101": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "37-144": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "38-64": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "38-71": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "39-62": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "39-92": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "39-108": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "39-159": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "39-175": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "40-46": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "40-101": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "40-174": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "41-121": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "42-55": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "42-77": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "43-49": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "43-145": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "44-115": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "44-122": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Union."
+  },
+  "45-57": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Confederacy."
+  },
+  "45-99": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "46-122": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "46-160": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "47-69": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "47-73": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "47-118": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "48-91": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "49-86": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "49-159": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "50-98": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "50-151": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "51-88": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "51-130": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "51-178": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "52-80": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "52-88": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "52-94": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1864."
+  },
+  "52-132": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "52-142": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "52-166": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "53-101": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "53-127": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "54-80": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "54-89": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "54-124": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "54-152": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "55-77": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "56-75": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "56-84": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "56-124": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "57-99": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "58-65": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "58-112": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "58-129": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Union."
+  },
+  "58-181": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "59-85": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "59-170": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Union."
+  },
+  "60-61": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "60-62": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "60-78": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "60-81": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "60-99": {
+   "facts": {
+    "books": [
+     "1862",
+     "1863"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1862."
+  },
+  "60-110": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "60-119": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "60-123": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "60-136": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "60-158": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "60-173": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "60-180": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "61-123": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "61-180": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "62-78": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "62-110": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Union."
+  },
+  "62-119": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "62-133": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "63-90": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "63-131": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "64-71": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "65-112": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Confederacy."
+  },
+  "65-129": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "66-112": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Confederacy."
+  },
+  "66-135": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "67-138": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Confederacy."
+  },
+  "67-173": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "69-73": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "69-118": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "69-126": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "69-139": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "69-149": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "69-162": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "69-173": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "70-153": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "71-94": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "72-156": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Union."
+  },
+  "73-118": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "73-159": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "74-87": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "75-84": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "75-124": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "76-101": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "76-144": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "77-177": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Union."
+  },
+  "78-110": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1864."
+  },
+  "78-119": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "78-148": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "79-98": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "79-114": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "80-124": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "80-140": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "80-152": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "80-166": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "80-167": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "81-99": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Union."
+  },
+  "81-102": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "81-138": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "82-154": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "82-182": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "83-120": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "83-159": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "84-124": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "85-170": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "85-176": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "88-95": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "88-108": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "88-114": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "88-140": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "88-175": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "89-152": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "90-131": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Union."
+  },
+  "92-94": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "93-96": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "94-134": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "94-165": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "94-167": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "95-179": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "96-146": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "96-148": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "96-169": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "97-155": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "98-105": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "98-111": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "98-114": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "98-127": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1862."
+  },
+  "98-129": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "98-151": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "98-160": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "99-112": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "99-126": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "99-130": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "100-131": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "100-138": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "101-127": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "101-144": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "101-174": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Confederacy."
+  },
+  "102-154": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "102-158": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "102-182": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "103-107": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "104-113": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "104-125": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "105-114": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "105-127": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "105-143": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "105-147": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "106-108": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "106-142": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "106-159": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "107-132": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "108-124": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "108-142": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "108-159": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1864."
+  },
+  "108-161": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "109-141": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "109-159": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "109-161": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "110-119": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "110-148": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "110-150": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "110-184": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1863. Both belong to the Union."
+  },
+  "111-112": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "112-127": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "112-129": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "112-135": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "112-160": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "112-164": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "114-127": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "115-122": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1861."
+  },
+  "115-145": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "116-183": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "120-159": {
+   "facts": {
+    "books": [
+     "1861"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1861. Both belong to the Confederacy."
+  },
+  "123-180": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "124-152": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "124-159": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "124-161": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "126-139": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "126-149": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "126-173": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "127-157": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "128-161": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "130-146": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "130-164": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "130-178": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "131-159": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "132-142": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "132-148": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "132-159": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "133-148": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "134-159": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "136-173": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Union."
+  },
+  "137-171": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "138-154": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "138-171": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1865."
+  },
+  "138-173": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "139-149": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1862. Both belong to the Confederacy."
+  },
+  "139-173": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "141-159": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "142-159": {
+   "facts": {
+    "books": [
+     "1865"
+    ],
+    "first": "1865",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1865. Both belong to the Confederacy."
+  },
+  "143-147": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "145-159": {
+   "facts": {
+    "books": [
+     "1862",
+     "1864"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1862."
+  },
+  "148-159": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "148-169": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "149-173": {
+   "facts": {
+    "books": [
+     "1861",
+     "1862"
+    ],
+    "first": "1861",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1861."
+  },
+  "152-159": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1864."
+  },
+  "154-158": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Union"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Union."
+  },
+  "154-159": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "156-163": {
+   "facts": {
+    "books": [
+     "1863"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1863."
+  },
+  "159-161": {
+   "facts": {
+    "books": [
+     "1864"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5,
+    "sharedAffiliations": [
+     "Confederacy"
+    ]
+   },
+   "line": "They share the page only in 1864. Both belong to the Confederacy."
+  },
+  "159-173": {
+   "facts": {
+    "books": [
+     "1864",
+     "1865"
+    ],
+    "first": "1864",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1864."
+  },
+  "162-173": {
+   "facts": {
+    "books": [
+     "1862"
+    ],
+    "first": "1862",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page only in 1862."
+  },
+  "163-172": {
+   "facts": {
+    "books": [
+     "1863",
+     "1864"
+    ],
+    "first": "1863",
+    "unit": "year",
+    "corpusSize": 5
+   },
+   "line": "They share the page in two years, first in 1863."
+  }
+ },
+ "sources": []
+}

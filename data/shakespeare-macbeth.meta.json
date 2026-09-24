@@ -12,7 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -171,7 +171,7 @@
    },
    "line": "Thane of Glamis.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -232,7 +232,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",

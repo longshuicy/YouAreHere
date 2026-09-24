@@ -129,7 +129,7 @@
    },
    "line": "管理者。見於10回。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -305,7 +305,7 @@
    },
    "line": "丫鬟。見於3回。",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -480,7 +480,7 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1412,7 +1412,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1449,7 +1449,7 @@
    },
    "line": "家務工。見於6回。",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -1582,7 +1582,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1605,7 +1605,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1903,7 +1903,7 @@
    },
    "line": "見於9回。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2183,7 +2183,7 @@
    },
    "line": "丫鬟。見於8回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2272,7 +2272,7 @@
    },
    "line": "丫鬟。見於9回。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2607,7 +2607,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2815,7 +2815,7 @@
    },
    "line": "丫鬟。見於6回。",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3199,7 +3199,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4205,7 +4205,7 @@
    },
    "line": "家務工。見於11回。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4313,7 +4313,7 @@
    },
    "line": "丫鬟。見於第58回、第60回。",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",

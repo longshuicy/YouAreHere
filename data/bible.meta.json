@@ -82,7 +82,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -129,7 +129,7 @@
    },
    "line": "Of Mesopotamia. Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -170,7 +170,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -259,11 +259,11 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Ittai",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "John G. Parke",
      "tied": 0
     }
    }
@@ -383,7 +383,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -405,7 +405,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -658,7 +658,7 @@
    },
    "line": "Biblical judge, of Gilead. Appears in four books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -681,7 +681,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -705,7 +705,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -749,11 +749,11 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Elisha",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Fitzhugh Lee",
      "tied": 0
     }
    }
@@ -835,7 +835,7 @@
    },
    "line": "Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -880,7 +880,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -935,7 +935,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -988,7 +988,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1098,7 +1098,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1140,7 +1140,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1215,7 +1215,7 @@
    },
    "line": "Appears in I Chronicles and Nehemiah.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1256,7 +1256,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1334,7 +1334,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1355,7 +1355,7 @@
    },
    "line": "Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1446,7 +1446,7 @@
    },
    "line": "Soldier, Philistines. Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1470,7 +1470,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1514,7 +1514,7 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1605,7 +1605,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1687,7 +1687,7 @@
    },
    "line": "Of Ur Kaśdim. Appears in five books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1708,7 +1708,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1743,7 +1743,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1764,7 +1764,7 @@
    },
    "line": "Appears in I Kings and Nehemiah.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1808,7 +1808,7 @@
    },
    "line": "Appears in I Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1880,7 +1880,7 @@
    },
    "line": "Appears in Ezra and Esther.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1977,7 +1977,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1998,7 +1998,7 @@
    },
    "line": "Appears in Ezra and Jeremiah.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2107,7 +2107,7 @@
    },
    "line": "Horites. Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2164,7 +2164,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2253,7 +2253,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2296,7 +2296,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2417,7 +2417,7 @@
    },
    "line": "Appears in Numbers and I Chronicles.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2535,7 +2535,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2595,7 +2595,7 @@
    },
    "line": "Military personnel, of the Aram-Damascus. Appears in five books.",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 19,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -2699,7 +2699,7 @@
    },
    "line": "Apostle, of Cana, of the Zealotry. Appears in Acts.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2725,7 +2725,7 @@
    },
    "line": "Prophet, Hebrews, of Paddan Aram. Appears in Genesis and Ruth.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2747,7 +2747,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2775,7 +2775,7 @@
    },
    "line": "Military leader, Israelites, of Canaan, of the Tribe of Benjamin. Appears in Judges and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2807,7 +2807,7 @@
    },
    "line": "Appears in Ezra and Nehemiah.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3019,7 +3019,7 @@
    },
    "line": "Appears in I Kings.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -3165,7 +3165,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3259,7 +3259,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3290,7 +3290,7 @@
    },
    "line": "Of Cana. Appears in John.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3333,7 +3333,7 @@
    },
    "line": "Appears in I Kings and I Chronicles.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3419,7 +3419,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3729,7 +3729,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3795,7 +3795,7 @@
    },
    "line": "Of the Tribe of Levi. Appears in Nehemiah.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3859,7 +3859,7 @@
    },
    "line": "Apostle, of Ephesus. Appears in three books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3987,7 +3987,7 @@
    },
    "line": "Appears in II Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4296,7 +4296,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4417,7 +4417,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4437,7 +4437,7 @@
    },
    "line": "Appears in I Chronicles and Zechariah.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4459,7 +4459,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4606,7 +4606,7 @@
    },
    "line": "Hebrews, of the Neo-Babylonian Empire. Appears in five books.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4673,7 +4673,7 @@
    },
    "line": "Prophet. Appears in I Kings and II Chronicles.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4720,7 +4720,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4778,7 +4778,7 @@
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4890,7 +4890,7 @@
    },
    "line": "Prophet. Appears in Ezra and Haggai.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5092,7 +5092,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5208,7 +5208,7 @@
    },
    "line": "Of Mesopotamia. Appears in three books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5269,7 +5269,7 @@
    },
    "line": "Prophet, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in five books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5291,7 +5291,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5328,7 +5328,7 @@
    },
    "line": "Moab, of Moab. Appears in Ruth and Matthew.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5349,7 +5349,7 @@
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5386,7 +5386,7 @@
    },
    "line": "UZ. Appears in three books.",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5406,7 +5406,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5597,7 +5597,7 @@
    },
    "line": "Bishop, of Salamis, of the seventy disciples. Appears in Acts and Galatians.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5661,7 +5661,7 @@
    },
    "line": "Prophet, Israelites, of Kingdom of Judah. Appears in three books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5705,7 +5705,7 @@
    },
    "line": "Courtier. Appears in Esther.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5911,7 +5911,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5932,7 +5932,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5954,7 +5954,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6050,7 +6050,7 @@
    },
    "line": "Farmer. Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6123,7 +6123,7 @@
    },
    "line": "Prophet, Israelites, of Abel-meholah, of the Kingdom of Israel. Appears in I Kings and II Kings.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6180,11 +6180,11 @@
    },
    "line": "Prophet, Hebrews. Appears in Genesis and Ruth.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Garin",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "William S. Rosecrans",
      "tied": 0
     }
    }
@@ -6204,7 +6204,7 @@
    },
    "line": "Of Harran. Appears in four books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6296,7 +6296,7 @@
    },
    "line": "King of Judah, of Jerusalem, of the Kingdom of Judah. Appears in three books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6333,7 +6333,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6387,7 +6387,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6441,7 +6441,7 @@
    },
    "line": "Prophet, of Teqoa, of the Kingdom of Judah. Appears in Amos and Luke.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6494,7 +6494,7 @@
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6587,7 +6587,7 @@
    },
    "line": "Jewish people, of Ancient Egypt. Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6672,7 +6672,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6737,7 +6737,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7241,7 +7241,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -7315,7 +7315,7 @@
    },
    "line": "Military leader, of United Kingdom of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7336,7 +7336,7 @@
    },
    "line": "Hebrews. Appears in Luke.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7390,7 +7390,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7436,11 +7436,11 @@
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in I Kings and II Chronicles.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Kegs",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Joseph Hooker",
      "tied": 0
     }
    }
@@ -7484,7 +7484,7 @@
    },
    "line": "Prophet. Appears in five books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7516,7 +7516,7 @@
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -7642,7 +7642,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7726,7 +7726,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7960,7 +7960,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7983,7 +7983,7 @@
    },
    "line": "Biblical judge, of Pirathon. Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8065,7 +8065,7 @@
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in seven books.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8154,7 +8154,7 @@
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8248,7 +8248,7 @@
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in four books.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8348,7 +8348,7 @@
    },
    "line": "Shepherd. Appears in seven books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -8382,7 +8382,7 @@
    },
    "line": "King of Judah, of Kingdom of Judah. Appears in 8 books.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -8459,7 +8459,7 @@
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in five books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -8487,7 +8487,7 @@
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in three books.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -8519,7 +8519,7 @@
    },
    "line": "King of Judah, Israelites, of Jerusalem, of the Kingdom of Judah. Appears in five books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8638,7 +8638,7 @@
    },
    "line": "Prophet, of Kiriath-Jearim. Appears in three books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8662,7 +8662,7 @@
    },
    "line": "Kohen. Appears in four books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -8802,7 +8802,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8824,7 +8824,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8886,7 +8886,7 @@
    },
    "line": "Of the Edom. Appears in Genesis and I Kings.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -8924,12 +8924,11 @@
     ],
     "unit": "book",
     "corpusSize": 66,
-    "role": "Nun",
     "gender": "Male"
    },
-   "line": "Nun. Appears in seven books.",
+   "line": "Appears in seven books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -8957,7 +8956,7 @@
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in three books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8988,7 +8987,7 @@
    },
    "line": "King of Israel, of the Kingdom of Israel. Appears in six books.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9090,7 +9089,7 @@
    },
    "line": "Jewish people, of Herodian Kingdom of Judea. Appears in five books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9166,7 +9165,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9229,11 +9228,11 @@
    },
    "line": "Hebrews, of Hebron. Appears in II Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Omri",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "William Mahone",
      "tied": 0
     }
    }
@@ -9254,7 +9253,7 @@
    },
    "line": "High Priest of Israel. Appears in three books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -9286,7 +9285,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9466,7 +9465,7 @@
    },
    "line": "Of Aram-Naharaim. Appears in Genesis and Romans.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -9612,7 +9611,7 @@
    },
    "line": "Appears in Genesis and Luke.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9675,7 +9674,7 @@
    },
    "line": "Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9822,7 +9821,7 @@
    },
    "line": "Apostle, of Cana. Appears in four books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9856,7 +9855,7 @@
    },
    "line": "Apostle, Jewish people, of Bethsaida, of the Boanerges. Appears in seven books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9919,7 +9918,7 @@
    },
    "line": "Queen consort, of the United Kingdom of Israel. Appears in three books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -9953,7 +9952,7 @@
    },
    "line": "Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10009,7 +10008,7 @@
    },
    "line": "Of Ur. Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -10031,7 +10030,7 @@
    },
    "line": "Religious leader, of Canaan. Appears in Genesis.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10061,7 +10060,7 @@
    },
    "line": "King of Judah, Israelites, of Samaria, of the Kingdom of Judah. Appears in three books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10149,7 +10148,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -10221,7 +10220,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10244,7 +10243,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -10269,7 +10268,7 @@
    },
    "line": "Prophet. Appears in five books.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10325,7 +10324,7 @@
    },
    "line": "Of the Kingdom of Judah. Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10349,7 +10348,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -10374,7 +10373,7 @@
    },
    "line": "Appears in six books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -10409,7 +10408,7 @@
    },
    "line": "Of Ur. Appears in four books.",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 19,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -10496,7 +10495,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -10517,7 +10516,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10607,7 +10606,7 @@
    },
    "line": "Of the United Kingdom of Israel. Appears in three books.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -10658,7 +10657,7 @@
    },
    "line": "Prophet, of the Moab. Appears in six books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -10693,7 +10692,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -10748,7 +10747,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10792,7 +10791,7 @@
    },
    "line": "King, Medes, of Media, of the Babylonia. Appears in four books.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10836,7 +10835,7 @@
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10875,7 +10874,7 @@
    },
    "line": "Priest. Appears in five books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10898,7 +10897,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10934,7 +10933,7 @@
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10960,7 +10959,7 @@
    },
    "line": "High Priest of Israel, of the Achaemenid Empire. Appears in Nehemiah.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -10981,11 +10980,11 @@
    },
    "line": "Appears in II Samuel and Jeremiah.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "闞澤",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "John B. Gordon",
      "tied": 0
     }
    }
@@ -11021,7 +11020,7 @@
    },
    "line": "Caregiver, of Magdala. Appears in four books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -11042,7 +11041,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11066,11 +11065,11 @@
    },
    "line": "Agagite, of the Persis. Appears in Esther.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Esther",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "William T. Sherman",
      "tied": 0
     }
    }
@@ -11099,7 +11098,7 @@
    },
    "line": "Of Paddan Aram. Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11135,7 +11134,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11176,7 +11175,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11273,7 +11272,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11294,7 +11293,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11347,7 +11346,7 @@
    },
    "line": "Appears in Jeremiah.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11425,7 +11424,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11445,7 +11444,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11465,7 +11464,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11499,7 +11498,7 @@
    },
    "line": "Appears in Ezra and Nehemiah.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11586,7 +11585,7 @@
    },
    "line": "Appears in Jeremiah.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11691,7 +11690,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11736,7 +11735,7 @@
    },
    "line": "Queen consort, of Sidon, of the Kingdom of Israel. Appears in I Kings and II Kings.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11790,7 +11789,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11847,9 +11846,9 @@
    "signals": {
     "lookAlikes": 53,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Jeconiah",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "James Longstreet",
      "tied": 0
     }
    }
@@ -12010,7 +12009,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12032,7 +12031,7 @@
    },
    "line": "Domestic worker. Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12054,7 +12053,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -12170,7 +12169,7 @@
    },
    "line": "Prophet, of Mesopotamia. Appears in five books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12261,7 +12260,7 @@
    },
    "line": "Great King, of Anshan Persia, of the Achaemenid Empire. Appears in three books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12312,7 +12311,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12332,7 +12331,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12352,7 +12351,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12374,7 +12373,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12396,7 +12395,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12420,7 +12419,7 @@
    },
    "line": "Of the Tribe of Ephraim. Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 19,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12442,7 +12441,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12463,7 +12462,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12484,7 +12483,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12505,7 +12504,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12526,7 +12525,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12584,7 +12583,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12619,7 +12618,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12641,7 +12640,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12663,7 +12662,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12683,7 +12682,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12716,7 +12715,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12764,7 +12763,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12784,7 +12783,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12804,7 +12803,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12846,7 +12845,7 @@
    },
    "line": "King. Appears in four books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -12953,7 +12952,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -13097,7 +13096,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13182,7 +13181,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",

@@ -568,7 +568,7 @@
    },
    "line": "屬西漢。見於9篇。",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -898,7 +898,7 @@
    },
    "line": "商人。屬秦國。見於11篇。",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1131,9 +1131,9 @@
    "signals": {
     "lookAlikes": 44,
     "nearest": {
-     "world": "shakespeare-king-john",
-     "story": "King John",
-     "name": "Earl of Pembroke",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Pierre G. T. Beauregard",
      "tied": 0
     }
    }
@@ -1275,11 +1275,11 @@
    },
    "line": "見於高祖本紀、齊悼惠王世家。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Nabal",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Ambrose P. Hill",
      "tied": 0
     }
    }
@@ -1363,11 +1363,11 @@
    },
    "line": "哲學家。見於6篇。",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
-     "world": "shiji",
-     "story": "史記",
-     "name": "漢景帝",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "James G. Blunt",
      "tied": 0
     }
    }
@@ -1462,9 +1462,9 @@
    "signals": {
     "lookAlikes": 24,
     "nearest": {
-     "world": "lesmiserables",
-     "story": "Les Misérables",
-     "name": "Jean Valjean",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Robert E. Lee",
      "tied": 0
     }
    }
@@ -1508,11 +1508,11 @@
    },
    "line": "王。屬西漢。見於22篇。",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Jehoiakim",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "George B. McClellan",
      "tied": 0
     }
    }
@@ -1549,7 +1549,7 @@
    },
    "line": "統治者。屬西漢。見於17篇。",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1601,7 +1601,7 @@
    },
    "line": "屬趙國。見於8篇。",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1700,7 +1700,7 @@
    },
    "line": "商丘市出身。見於5篇。",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1725,7 +1725,7 @@
    },
    "line": "戰略家。見於5篇。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",

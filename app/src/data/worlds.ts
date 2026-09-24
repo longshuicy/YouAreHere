@@ -17,6 +17,8 @@ const FALLBACK: Record<string, string> = {
     'Seven kingdoms and a dozen great houses, told across five volumes and a great many rival points of view.',
   bible:
     'Sixty-six books of genealogy, exile and prophecy, where a tie means two people share a single verse.',
+  civilwar:
+    'Four years of armies on the same ground, where a tie means two men commanded at the same battle.',
   congress:
     'The House and Senate across sixteen Congresses (~1973–2004), tied by the bills they put their names on.',
   friends:
@@ -105,6 +107,7 @@ const FAMILIARITY: Record<string, 0 | 1 | 2> = {
   friends: 2,
   starwars: 2,
   lesmiserables: 2,
+  civilwar: 2,
   iliad: 1,
   odyssey: 1,
   // Nameable, but only to Americans — the same kind of accident as the five

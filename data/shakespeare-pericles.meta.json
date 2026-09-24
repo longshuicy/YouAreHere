@@ -188,9 +188,9 @@
    "signals": {
     "lookAlikes": 57,
     "nearest": {
-     "world": "shakespeare-macbeth",
-     "story": "Macbeth",
-     "name": "Malcolm",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Ulysses S. Grant",
      "tied": 0
     }
    }
@@ -229,11 +229,11 @@
    },
    "line": "Prince of Tyre.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
-     "world": "shakespeare-alls-well-that-ends-well",
-     "story": "All’s Well That Ends Well",
-     "name": "Helen",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Ulysses S. Grant",
      "tied": 0
     }
    }
@@ -276,9 +276,9 @@
    "signals": {
     "lookAlikes": 18,
     "nearest": {
-     "world": "shakespeare-pericles",
-     "story": "Pericles",
-     "name": "Helicanus",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "George G. Meade",
      "tied": 0
     }
    }

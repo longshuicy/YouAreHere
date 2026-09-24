@@ -87,7 +87,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -251,7 +251,7 @@
    },
    "line": "Priest, of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -273,7 +273,7 @@
    },
    "line": "Of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -293,7 +293,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -314,7 +314,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -334,7 +334,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -357,7 +357,7 @@
    },
    "line": "Of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 21,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -718,7 +718,7 @@
    },
    "line": "Appears in Book 6.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -833,7 +833,7 @@
    },
    "line": "Appears in five books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1041,7 +1041,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1061,7 +1061,7 @@
    },
    "line": "Appears in Book 12.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1081,7 +1081,7 @@
    },
    "line": "Appears in Book 12.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1102,7 +1102,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1122,7 +1122,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1156,7 +1156,7 @@
    },
    "line": "Prophet. Appears in Book 13 and Book 24.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1213,7 +1213,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13 and Book 14.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1729,7 +1729,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1941,7 +1941,7 @@
    },
    "line": "Of the Greeks. Appears in three books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1989,7 +1989,7 @@
    },
    "line": "Of the Greeks. Appears in Book 9 and Book 13.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2061,7 +2061,7 @@
    },
    "line": "King of Calydon. Appears in three books.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2246,7 +2246,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2266,7 +2266,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2286,7 +2286,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2329,7 +2329,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2361,7 +2361,7 @@
    },
    "line": "King of Cyphus. Appears in Book 2.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2381,7 +2381,7 @@
    },
    "line": "Appears in Book 2 and Book 12.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2403,7 +2403,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2427,7 +2427,7 @@
    },
    "line": "Physician. Appears in four books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2446,7 +2446,7 @@
    },
    "line": "Appears in Book 2.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2468,7 +2468,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2512,7 +2512,7 @@
    },
    "line": "Appears in Book 2 and Book 13.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2651,7 +2651,7 @@
    },
    "line": "Appears in Book 2 and Book 9.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2672,7 +2672,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -2742,7 +2742,7 @@
    },
    "line": "Lady in waiting, of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3064,7 +3064,7 @@
    },
    "line": "Deity, of the Trojans. Appears in 9 books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3342,7 +3342,7 @@
    },
    "line": "Appears in Book 20 and Book 23.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3423,7 +3423,7 @@
    },
    "line": "Lady in waiting, of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4295,7 +4295,7 @@
    },
    "line": "Titan. Appears in four books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4339,7 +4339,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -4764,7 +4764,7 @@
    },
    "line": "King of Thebe (Troade). Appears in five books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5132,7 +5132,7 @@
    },
    "line": "Appears in Book 14 and Book 15.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5228,7 +5228,7 @@
    },
    "line": "Appears in Book 14 and Book 16.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5561,7 +5561,7 @@
    },
    "line": "God. Appears in Book 20 and Book 21.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5636,7 +5636,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",

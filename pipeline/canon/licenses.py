@@ -47,6 +47,18 @@ CC_BY_4_0 = License(
     deed_summary="Credit the creator, link the licence, and state that changes were made.",
 )
 
+ODC_BY_1_0 = License(
+    name="Open Data Commons Attribution License (ODC-By) v1.0",
+    spdx="ODC-By-1.0",
+    url="https://opendatacommons.org/licenses/by/1-0/",
+    allows_commercial_use=True,
+    share_alike=False,
+    deed_summary=(
+        "Credit the creator and keep a notice of this licence with the database. "
+        "No ShareAlike clause — adaptations may carry stricter terms."
+    ),
+)
+
 CC_BY_SA_4_0 = License(
     name="Creative Commons Attribution-ShareAlike 4.0 International",
     spdx="CC-BY-SA-4.0",

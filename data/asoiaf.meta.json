@@ -150,7 +150,7 @@
    },
    "line": "Priest of the Drowned God, of the Ironborn, sworn to House Greyjoy of Pyke. Born in or between 269 AC and 273 AC, at Pyke. Appears in three books, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -307,7 +307,7 @@
    },
    "line": "Lord of Brightwater, sworn to House Florent of Brightwater Keep. Born at Brightwater Keep, died in 300 AC, at Dragonstone. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -372,7 +372,7 @@
    },
    "line": "Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -603,7 +603,7 @@
    },
    "line": "Lady of Ironoaks, sworn to House Waynwood of Ironoaks. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -700,7 +700,7 @@
    },
    "line": "Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1101,7 +1101,7 @@
    },
    "line": "Lady of Barrowton, of the Northmen, sworn to House Dustin of Barrowton. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1185,7 +1185,7 @@
    },
    "line": "Meereenese, sworn to House Targaryen of King's Landing. Appears in three books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1887,7 +1887,7 @@
    },
    "line": "Born at Hag's Mire, died in 299 AC, at Fist of the First Men. Appears in three books, one of them through his eyes.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2135,7 +2135,7 @@
    },
    "line": "Maester, sworn to House Arryn of the Eyrie. Appears in A Game of Thrones and A Feast for Crows.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -2240,7 +2240,7 @@
    },
    "line": "Of the Free Folk. Died in 299 AC, at Craster's Keep. Appears in three books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2602,7 +2602,7 @@
    },
    "line": "Ser, sworn to House Mallister of Seagard. Born in 245 AC or before, at Seagard. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2759,7 +2759,7 @@
    },
    "line": "Lady of Hornwood, of the Northmen, sworn to House Hornwood of Hornwood. Born in or before 249 AC, died in 299 AC, at Hornwood. Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2843,7 +2843,7 @@
    },
    "line": "Sworn to House Lannister of Casterly Rock. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2870,7 +2870,7 @@
    },
    "line": "Lysene, sworn to House Targaryen of King's Landing. Born in 278 or 279 AC, died in 299 AC, at Red waste. Appears in A Game of Thrones and A Clash of Kings.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -2983,7 +2983,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -3372,7 +3372,7 @@
    },
    "line": "Iron King, of the Ironborn. Born or before 267 AC. Appears in three books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3464,7 +3464,7 @@
    },
    "line": "Green Grace, Ghiscari. Born in 217 AC (roughly), at Meereen. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3526,7 +3526,7 @@
    },
    "line": "Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3735,7 +3735,7 @@
    },
    "line": "Ser, Dornish, sworn to House Drinkwater. Born in 275 AC. Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3775,7 +3775,7 @@
    },
    "line": "Of the Free Folk. Born in either 282 AC, 283 AC or 284 AC, at Craster's Keep. Appears in three books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3893,7 +3893,7 @@
    },
    "line": "Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3953,7 +3953,7 @@
    },
    "line": "Westeros. Born in 281 AC or 282 AC. Appears in all five books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -3991,7 +3991,7 @@
    },
    "line": "Sworn to House Targaryen of King's Landing. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4043,7 +4043,7 @@
    },
    "line": "Captain, Pentoshi, sworn to House Targaryen of King's Landing. Died in 300 AC, at Meereen. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -4175,7 +4175,7 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4200,7 +4200,7 @@
    },
    "line": "Bloodrider of Khal Drogo, of the Dothraki. Died in 298 AC, at Dothraki sea. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4234,7 +4234,7 @@
    },
    "line": "Born in 281 AC or 282 AC. Appears in A Game of Thrones and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4259,9 +4259,9 @@
    "signals": {
     "lookAlikes": 4,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Amnon",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "William Mahone",
      "tied": 0
     }
    }
@@ -4579,7 +4579,7 @@
    },
    "line": "Appears in A Feast for Crows and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -4769,7 +4769,7 @@
    },
    "line": "Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -5012,7 +5012,7 @@
    },
    "line": "Of the Dothraki, sworn to House Targaryen of King's Landing. Born in 283 AC or 284 AC. Appears in four books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5159,7 +5159,7 @@
    },
    "line": "Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5846,7 +5846,7 @@
    },
    "line": "Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6194,11 +6194,11 @@
    },
    "line": "Lady of Stokeworth, sworn to House Stokeworth of Stokeworth. Born in 265 AC. Appears in three books.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Haggith",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Joseph Hooker",
      "tied": 0
     }
    }
@@ -6213,7 +6213,7 @@
    },
    "line": "Appears in A Clash of Kings.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6267,7 +6267,7 @@
    },
    "line": "Died in 299 AC, at Winterfell. Appears in A Clash of Kings and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -7106,7 +7106,7 @@
    },
    "line": "Godswife, Lhazareen. Born in 257 AC, 258 AC or 259 AC, at Essos. Either in Lhazar, or in an unnamed Lhazareen settlement of the Dothraki sea., died in 299 AC, at the red waste. Appears in A Game of Thrones and A Clash of Kings.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -7132,7 +7132,7 @@
    },
    "line": "Naathi, sworn to House Targaryen of King's Landing. Born in 288 AC or 289 AC, at Naath. Appears in A Storm of Swords and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -7467,7 +7467,7 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -7510,10 +7510,9 @@
      "A Dance with Dragons"
     ],
     "unit": "book",
-    "corpusSize": 5,
-    "role": "Nurse"
+    "corpusSize": 5
    },
-   "line": "Nurse. Appears in A Dance with Dragons."
+   "line": "Appears in A Dance with Dragons."
   },
   "373": {
    "facts": {
@@ -7567,7 +7566,7 @@
    },
    "line": "Dornish, sworn to House Nymeros Martell of Sunspear. Born in 271 AC or 272 AC, at Oldtown. Appears in A Feast for Crows and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -8296,7 +8295,7 @@
    },
    "line": "Maester. Born in 273 AC or 274 AC. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -8319,7 +8318,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -8377,7 +8376,7 @@
    },
    "line": "Appears in four books.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -8402,7 +8401,7 @@
    },
    "line": "Bloodrider of Khal Drogo, of the Dothraki. Died in 298 AC, at Dothraki sea. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8669,7 +8668,7 @@
    },
    "line": "Died in +/- 299 AC, at Castle Black. Appears in A Game of Thrones.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -8690,11 +8689,11 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Ygritte",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Gouverneur K. Warren",
      "tied": 0
     }
    }
@@ -9122,7 +9121,7 @@
    },
    "line": "Of the Northmen, sworn to House Glover of Deepwood Motte. Born at Deepwood Motte. Appears in three books.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9225,7 +9224,7 @@
    },
    "line": "Lord of Harlaw, of the Ironborn, sworn to House Harlaw of Harlaw. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9752,7 +9751,7 @@
    },
    "line": "Died in 300 AC, at near the Whispers. Appears in A Storm of Swords and A Feast for Crows.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -9908,7 +9907,7 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -10341,7 +10340,7 @@
    },
    "line": "Ser, sworn to House Baratheon of King's Landing. Appears in A Feast for Crows.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -10390,7 +10389,7 @@
    },
    "line": "Appears in A Storm of Swords.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -10409,7 +10408,7 @@
    },
    "line": "Appears in A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10508,7 +10507,7 @@
    },
    "line": "First Ranger (self-styled). Died in 299 AC, at Fist of the First Men. Appears in A Clash of Kings and A Storm of Swords.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -10834,7 +10833,7 @@
    },
    "line": "Dornish, sworn to House Nymeros Martell of Sunspear. Born in 276 AC or 277 AC. Appears in A Feast for Crows and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11320,7 +11319,7 @@
    },
    "line": "Appears in A Clash of Kings and A Dance with Dragons.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -11781,7 +11780,7 @@
    },
    "line": "Of the Free Folk. Born in 280 AC, died in 299 AC, at Castle Black. Appears in three books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",

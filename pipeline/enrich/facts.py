@@ -49,6 +49,10 @@ def meta_sources_for(name: str) -> list[tuple]:
         ]
     if name == "congress":
         return [(legislators.ATTRIBUTION, legislators.LICENSE)]
+    if name == "civilwar":
+        # Side and rank travel on the node from the NPS tables; no extra
+        # enrichment source to credit beyond the graph attribution.
+        return []
     if name in (
         "bible",
         "friends",
@@ -100,9 +104,10 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
 
         if node.id in roles:
             record["role"] = roles[node.id]
-        blended = folger.blend_role(node.name, record.get("role"))
-        if blended:
-            record["role"] = blended
+        if source == "shakespeare":
+            blended = folger.blend_role(node.name, record.get("role"))
+            if blended:
+                record["role"] = blended
 
         if source in ("iliad", "lesmiserables"):
             for key, value in knuth.from_node(source, node).items():
@@ -110,6 +115,9 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
 
         if node.id in congress_attrs:
             legislators.apply_to_record(record, congress_attrs[node.id])
+
+        if source == "civilwar":
+            _apply_civilwar(record, node)
 
         qid = qid_by_node.get(node.id)
         if qid and qid in wd_by_qid:
@@ -194,6 +202,19 @@ def _apply_asoiaf(record: dict, node, asoiaf: dict) -> None:
         record["died"] = character["died"]
     if character.get("povBooks"):
         record["pov"] = len(character["povBooks"])
+
+
+def _apply_civilwar(record: dict, node) -> None:
+    """Side and rank travel on the node from the NPS commander table."""
+    side = node.metadata.get("side")
+    if side and "affiliations" not in record and "houses" not in record:
+        record["affiliations"] = [side]
+
+    rank = node.metadata.get("rank")
+    if rank and "role" not in record and "titles" not in record:
+        # Navy captains and army captains share a word; prefer the table's rank
+        # as a title so describe.py can say "Major General, of the Union".
+        record["titles"] = [rank]
 
 
 def _shakespeare_roles(graph: CanonicalGraph) -> dict[str, str]:

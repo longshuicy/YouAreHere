@@ -37,7 +37,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -208,7 +208,7 @@
    },
    "line": "His wife, of Rome. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -247,7 +247,7 @@
    },
    "line": "Ancient Roman senator, of Rome. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -358,7 +358,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -382,7 +382,7 @@
    },
    "line": "Roman governor, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -413,7 +413,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -437,7 +437,7 @@
    },
    "line": "Ancient Roman senator, of Ancient Rome. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -457,7 +457,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -543,7 +543,7 @@
    },
    "line": "Praefectus Aegypti, of Roman Empire. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -588,9 +588,9 @@
    "signals": {
     "lookAlikes": 44,
     "nearest": {
-     "world": "shakespeare-king-john",
-     "story": "King John",
-     "name": "Earl of Pembroke",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "Pierre G. T. Beauregard",
      "tied": 0
     }
    }
@@ -631,7 +631,7 @@
    },
    "line": "Their servant. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -674,7 +674,7 @@
    },
    "line": "A Eunuch. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -720,7 +720,7 @@
    },
    "line": "Ancient Roman senator, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -925,7 +925,7 @@
    },
    "line": "Of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1069,7 +1069,7 @@
    },
    "line": "Centurion. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1135,7 +1135,7 @@
    },
    "line": "Military personnel. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -1156,7 +1156,7 @@
    },
    "line": "Cleopatra’s treasurer. Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1220,7 +1220,7 @@
    },
    "line": "Tribune of the plebs, of Ancient Rome. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",

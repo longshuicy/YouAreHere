@@ -725,7 +725,7 @@
    },
    "line": "开封府尹。見於10回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -834,7 +834,7 @@
    },
    "line": "太師。見於12回。",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -898,7 +898,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -949,7 +949,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -1023,7 +1023,7 @@
    },
    "line": "軍官。見於6回。",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1601,7 +1601,7 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1622,7 +1622,7 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1643,7 +1643,7 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1665,7 +1665,7 @@
    },
    "line": "教師。見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1686,7 +1686,7 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1811,7 +1811,7 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1863,7 +1863,7 @@
    },
    "line": "通判。見於3回。",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -2363,9 +2363,9 @@
    "signals": {
     "lookAlikes": 33,
     "nearest": {
-     "world": "shuihuzhuan",
-     "story": "水滸傳",
-     "name": "武大郎",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "John B.A. Floyd",
      "tied": 0
     }
    }
@@ -3339,7 +3339,7 @@
    },
    "line": "屬七十二地煞星。見於第58回、第70回。",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3379,11 +3379,11 @@
    },
    "line": "清河縣出身。見於5回。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Alcimedon",
+     "world": "civilwar",
+     "story": "American Civil War",
+     "name": "John B.A. Floyd",
      "tied": 0
     }
    }

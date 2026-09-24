@@ -18,6 +18,7 @@ from .canon.types import CanonicalGraph
 from .ingest import (
     asoiaf,
     bible,
+    civilwar,
     congress,
     friends,
     hongloumeng,
@@ -65,6 +66,14 @@ SOURCES: dict[str, Source] = {
         # A verse naming two people together is already a deliberate act of the
         # text, so a single co-occurrence means something here in a way one
         # sentence-window hit in a novel does not.
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "civilwar": Source(
+        name="civilwar",
+        load=civilwar.load,
+        # A shared battle as principal commanders is already a deliberate
+        # listing in the NPS tables — one co-command means something.
         min_edge_weight=1,
         min_degree=2,
     ),

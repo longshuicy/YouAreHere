@@ -1104,10 +1104,9 @@
      "Season 8"
     ],
     "unit": "season",
-    "corpusSize": 10,
-    "role": "Clown"
+    "corpusSize": 10
    },
-   "line": "Clown. Appears in Season 8.",
+   "line": "Appears in Season 8.",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -1476,10 +1475,9 @@
      "Season 9"
     ],
     "unit": "season",
-    "corpusSize": 10,
-    "role": "Doctor"
+    "corpusSize": 10
    },
-   "line": "Doctor. Appears in Season 9."
+   "line": "Appears in Season 9."
   },
   "109": {
    "facts": {
@@ -1876,10 +1874,9 @@
      "Season 7"
     ],
     "unit": "season",
-    "corpusSize": 10,
-    "role": "Earl"
+    "corpusSize": 10
    },
-   "line": "Earl. Appears in Season 7."
+   "line": "Appears in Season 7."
   },
   "142": {
    "facts": {
@@ -3448,10 +3445,9 @@
      "Season 6"
     ],
     "unit": "season",
-    "corpusSize": 10,
-    "role": "Judge"
+    "corpusSize": 10
    },
-   "line": "Judge. Appears in Season 6."
+   "line": "Appears in Season 6."
   },
   "264": {
    "facts": {
@@ -3732,10 +3728,9 @@
      "Season 10"
     ],
     "unit": "season",
-    "corpusSize": 10,
-    "role": "Lady"
+    "corpusSize": 10
    },
-   "line": "Lady. Appears in Season 10."
+   "line": "Appears in Season 10."
   },
   "285": {
    "facts": {
@@ -5237,10 +5232,9 @@
      "Season 7"
     ],
     "unit": "season",
-    "corpusSize": 10,
-    "role": "Nurse"
+    "corpusSize": 10
    },
-   "line": "Nurse. Appears in Season 7."
+   "line": "Appears in Season 7."
   },
   "394": {
    "facts": {
@@ -5248,10 +5242,9 @@
      "Season 7"
     ],
     "unit": "season",
-    "corpusSize": 10,
-    "role": "Nurse"
+    "corpusSize": 10
    },
-   "line": "Nurse. Appears in Season 7."
+   "line": "Appears in Season 7."
   },
   "395": {
    "facts": {
@@ -7614,10 +7607,9 @@
      "Season 8"
     ],
     "unit": "season",
-    "corpusSize": 10,
-    "role": "Witch"
+    "corpusSize": 10
    },
-   "line": "Witch. Appears in Season 8.",
+   "line": "Appears in Season 8.",
    "signals": {
     "lookAlikes": 21,
     "nearest": {

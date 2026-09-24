@@ -315,6 +315,7 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | 史記 | Sentence co-occurrence from the PD text | Shipped | Gutenberg #24226 + Wikidata humans described by the work (P1343). See `pipeline/raw/shiji/SOURCE.md`. |
 | U.S. Congress | Cosponsorship projected graph | Shipped | Fowler via Benson et al., CC BY 4.0. Segments are Congresses. See `pipeline/raw/congress/SOURCE.md`. |
 | Friends | Scene co-occurrence edge lists | Shipped | Michelle Edwards, CC BY 4.0. Ten seasons. See `pipeline/raw/friends/SOURCE.md`. |
+| American Civil War | Battle commanders projected graph | Shipped | Arnold / NPS, ODC-By 1.0. Years 1861–1865. See `pipeline/raw/civilwar/SOURCE.md`. |
 | 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
 

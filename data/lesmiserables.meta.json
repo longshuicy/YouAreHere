@@ -426,7 +426,7 @@
    },
    "line": "Factory worker. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -447,7 +447,7 @@
    },
    "line": "Student. Appears in Volume 1 and Volume 3.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -674,10 +674,9 @@
     ],
     "unit": "volume",
     "corpusSize": 5,
-    "role": "Judge of Douai",
     "occupation": "judge"
    },
-   "line": "Judge of Douai. Appears in Volume 1.",
+   "line": "Judge. Appears in Volume 1.",
    "signals": {
     "lookAlikes": 33,
     "nearest": {
@@ -855,7 +854,7 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -949,10 +948,9 @@
     ],
     "unit": "volume",
     "corpusSize": 5,
-    "role": "Lieutenant",
     "occupation": "soldier"
    },
-   "line": "Lieutenant, soldier. Appears in Volume 3 and Volume 4."
+   "line": "Soldier. Appears in Volume 3 and Volume 4."
   },
   "50": {
    "facts": {

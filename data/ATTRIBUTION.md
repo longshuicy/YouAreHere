@@ -79,6 +79,30 @@ Used as follows:
 1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender); no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
+## American Civil War
+
+*Shipped as `civilwar.json` — 185 characters, 380 ties.*
+
+"American Civil War Battle Data (NPS commanders)" by **Jeffrey B. Arnold; National Park Service Civil War Soldiers and Sailors** (<https://jrnold.me/>)
+
+- Source: <https://doi.org/10.6084/m9.figshare.1515995>
+- Project: <https://github.com/jrnold/acw_battle_data>
+- Licence: [Open Data Commons Attribution License (ODC-By) v1.0](https://opendatacommons.org/licenses/by/1-0/) (`ODC-By-1.0`)
+- Retrieved: 2026-09-23
+- Cite as: J. B. Arnold, “American Civil War Battle Data,” Figshare, https://doi.org/10.6084/m9.figshare.1515995. Compiled from National Park Service Civil War Soldiers and Sailors and CWSAC battle summaries. DOI: [10.6084/m9.figshare.1515995](https://doi.org/10.6084/m9.figshare.1515995)
+
+Changes made to the original data:
+
+1. Projected each battle's principal-commander set into pairwise ties, summing shared battles across 1861–1865.
+2. Kept the highest recorded rank per commander for enrichment.
+3. Mapped belligerent labels US/Confederate/Native American to Union/Confederacy/Native American.
+4. Built display names from given name, middle initial, and surname.
+5. Merged duplicate NPS UUIDs for William T. Sherman and Sterling Price.
+6. Applied a hand-maintained identity table covering 6 characters: display names, nicknames for the guess field, and disambiguators.
+7. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (374 nodes and 547 ties in, 185 and 380 out).
+8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+9. Computed a force-directed layout for the full graph, used by the reveal animation.
+
 ## U.S. Congress
 
 *Shipped as `congress.json` — 580 characters, 9156 ties.*

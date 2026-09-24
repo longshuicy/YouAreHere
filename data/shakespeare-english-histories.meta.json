@@ -36,7 +36,7 @@
    },
    "line": "Abbot of Westminster. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -58,7 +58,7 @@
    },
    "line": "Military personnel, of Argentan. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -79,7 +79,7 @@
    },
    "line": "A gentlewoman attending on Katherine. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -100,7 +100,7 @@
    },
    "line": "Their daughter. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -173,7 +173,7 @@
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -241,7 +241,7 @@
    },
    "line": "Grand Chamberlain of France, of Kingdom of France. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -328,7 +328,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -362,7 +362,7 @@
    },
    "line": "Bishop of Carlisle. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -437,7 +437,7 @@
    },
    "line": "A conjurer. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -503,7 +503,7 @@
    },
    "line": "Lieutenant of the Tower in London. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -614,7 +614,7 @@
    },
    "line": "Monarch, of Dijon. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -636,7 +636,7 @@
    },
    "line": "Duke of Burgundy, of Dijon. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -764,7 +764,7 @@
    },
    "line": "Cardinal, of Essex, of the United Kingdom of Great Britain and Ireland. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -809,7 +809,7 @@
    },
    "line": "King of France, of Paris. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -905,7 +905,7 @@
    },
    "line": "Aristocrat, of Warwick Castle. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -927,7 +927,7 @@
    },
    "line": "Lady-in-waiting, of Bath. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -947,7 +947,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1023,7 +1023,7 @@
    },
    "line": "Constable of France. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1080,7 +1080,7 @@
    },
    "line": "Aristocrat, of Paris. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 66,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1112,7 +1112,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1499,7 +1499,7 @@
    },
    "line": "A gentleman, suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1520,7 +1520,7 @@
    },
    "line": "Lord. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1621,7 +1621,7 @@
    },
    "line": "Duke of Lancaster, of Ghent. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1641,7 +1641,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2023,7 +2023,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2259,7 +2259,7 @@
    },
    "line": "A witch, of England. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2281,7 +2281,7 @@
    },
    "line": "Princess of France, of Hôtel Saint-Pol. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2345,7 +2345,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2423,7 +2423,7 @@
    },
    "line": "Lady, (also called Kate), of Usk. Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 31,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2501,7 +2501,7 @@
    },
    "line": "Lord. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 44,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2545,7 +2545,7 @@
    },
    "line": "Lord, of the Order of the Garter. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2565,7 +2565,7 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2625,7 +2625,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2781,7 +2781,7 @@
    },
    "line": "Lord. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2852,7 +2852,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3150,7 +3150,7 @@
    },
    "line": "Earl of Northumberland, Henry Percy, Hotspur’s father, of Scarborough Castle. Appears in three plays.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3191,7 +3191,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3211,7 +3211,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3454,7 +3454,7 @@
    },
    "line": "Queen, of Munich. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3479,7 +3479,7 @@
    },
    "line": "Queen, of Prague, of the Kingdom of Bohemia. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3580,7 +3580,7 @@
    },
    "line": "King, of Bordeaux. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 12,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3644,7 +3644,7 @@
    },
    "line": "His page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4025,7 +4025,7 @@
    },
    "line": "Pucelle’s father, of Ceffonds. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4119,7 +4119,7 @@
    },
    "line": "Slender’s servant. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 54,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4172,7 +4172,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 16,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4274,7 +4274,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 31,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4294,7 +4294,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4382,7 +4382,7 @@
    },
    "line": "Duke of Surrey, of Fotheringhay. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 38,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4490,7 +4490,7 @@
    },
    "line": "Gentleman. Appears in Richard III.",
    "signals": {
-    "lookAlikes": 52,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4809,7 +4809,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
