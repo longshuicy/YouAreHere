@@ -196,7 +196,7 @@
    "wiki": "Julius Caesar",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -485,7 +485,7 @@
    },
    "line": "Appears in Antony and Cleopatra.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -572,6 +572,8 @@
     "homeworld": "Roman Empire"
    },
    "line": "Praefectus Aegypti, of Roman Empire. Appears in Antony and Cleopatra.",
+   "wiki": "Cornelius Gallus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 44,
     "nearest": {
@@ -580,9 +582,7 @@
      "name": "A Countryman",
      "tied": 1
     }
-   },
-   "wiki": "Cornelius Gallus",
-   "wikiLang": "en"
+   }
   },
   "26": {
    "facts": {
@@ -646,7 +646,7 @@
    "wiki": "Quintus Ligarius",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -667,11 +667,11 @@
    },
    "line": "Their servant. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "糜芳",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Ringo Starr",
      "tied": 0
     }
    }
@@ -688,6 +688,8 @@
     "homeworld": "Arezzo"
    },
    "line": "Patron of the arts, of Arezzo. Appears in Antony and Cleopatra.",
+   "wiki": "Gaius Maecenas",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 41,
     "nearest": {
@@ -696,9 +698,7 @@
      "name": "Enobarbus Domitius",
      "tied": 0
     }
-   },
-   "wiki": "Gaius Maecenas",
-   "wikiLang": "en"
+   }
   },
   "31": {
    "facts": {
@@ -811,7 +811,7 @@
    "wiki": "Augustus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -843,7 +843,7 @@
    },
    "line": "Slave to Cassius, freed upon Cassius’s death. Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -916,7 +916,7 @@
    "wiki": "Porcia (wife of Brutus)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -998,7 +998,7 @@
    },
    "line": "Appears in Julius Caesar.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1127,7 +1127,7 @@
    "wiki": "Titinius (centurion)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1153,7 +1153,7 @@
    "wiki": "Publius Quinctilius Varus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -4995,5 +4995,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Julius Caesar (play)",
+ "workWikiLang": "en"
 }

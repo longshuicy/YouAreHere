@@ -169,7 +169,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -346,7 +346,7 @@
    },
    "line": "Consigliere. Appears in all two films.",
    "signals": {
-    "lookAlikes": 32,
+    "lookAlikes": 34,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -370,7 +370,7 @@
    "wiki": "Tom Hagen",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -403,7 +403,7 @@
    "wiki": "Hyman Roth",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 26,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -706,7 +706,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -801,9 +801,9 @@
    "signals": {
     "lookAlikes": 4,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Rechab",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Gil Evans",
      "tied": 0
     }
    }
@@ -952,7 +952,7 @@
    "wiki": "Vito Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 30,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",

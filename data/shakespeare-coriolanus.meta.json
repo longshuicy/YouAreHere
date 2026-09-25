@@ -236,6 +236,8 @@
     "role": "His mother"
    },
    "line": "His mother.",
+   "wiki": "Volumnia",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 21,
     "nearest": {
@@ -244,9 +246,7 @@
      "name": "Roderigo",
      "tied": 0
     }
-   },
-   "wiki": "Volumnia",
-   "wikiLang": "en"
+   }
   },
   "12": {
    "facts": {
@@ -806,5 +806,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Coriolanus",
+ "workWikiLang": "en"
 }

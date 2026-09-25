@@ -36,7 +36,7 @@
    },
    "line": "Abbot of Westminster. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -81,7 +81,7 @@
    },
    "line": "A gentlewoman attending on Katherine. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -158,7 +158,7 @@
    "wiki": "Edward, 2nd Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -180,17 +180,17 @@
     ]
    },
    "line": "Member of Parliament in the Parliament of England. Appears in Richard II.",
+   "wiki": "William Bagot (politician)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "程普",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Muddy Waters",
      "tied": 0
     }
-   },
-   "wiki": "William Bagot (politician)",
-   "wikiLang": "en"
+   }
   },
   "10": {
    "facts": {
@@ -255,7 +255,7 @@
    "wiki": "Jean de Dunois",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -323,17 +323,17 @@
     "homeworld": "Berkeley Castle"
    },
    "line": "Lord, of Berkeley Castle. Appears in Richard II.",
+   "wiki": "Thomas de Berkeley, 5th Baron Berkeley",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
      "name": "Nathanael",
      "tied": 0
     }
-   },
-   "wiki": "Thomas de Berkeley, 5th Baron Berkeley",
-   "wikiLang": "en"
+   }
   },
   "16": {
    "facts": {
@@ -346,7 +346,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -384,7 +384,7 @@
    "wiki": "Thomas Merke",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -418,6 +418,8 @@
     "gender": "Male"
    },
    "line": "Sir. Appears in Henry IV, Part I.",
+   "wiki": "Walter Blount (soldier)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 53,
     "nearest": {
@@ -426,9 +428,7 @@
      "name": "Thomas of Clarence",
      "tied": 0
     }
-   },
-   "wiki": "Walter Blount (soldier)",
-   "wikiLang": "en"
+   }
   },
   "21": {
    "facts": {
@@ -467,7 +467,7 @@
    "wiki": "Roger Bolingbroke",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -514,7 +514,7 @@
    },
    "line": "Their servant. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -656,7 +656,7 @@
    "wiki": "Philip the Good",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -680,7 +680,7 @@
    "wiki": "John the Fearless",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -705,7 +705,7 @@
    "wiki": "John Bussy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -751,7 +751,7 @@
    "wiki": "Jack Cade",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 2,
+    "lookAlikes": 9,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -788,6 +788,8 @@
     "homeworld": "Beaufort-en-Vallée"
    },
    "line": "The king’s great-uncle, of Beaufort-en-Vallée. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
+   "wiki": "Henry Beaufort",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -796,9 +798,7 @@
      "name": "Patroclus",
      "tied": 0
     }
-   },
-   "wiki": "Henry Beaufort",
-   "wikiLang": "en"
+   }
   },
   "38": {
    "facts": {
@@ -1013,7 +1013,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1095,7 +1095,7 @@
    "wiki": "Charles I d'Albret",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1156,7 +1156,7 @@
    "wiki": "Louis, Duke of Guyenne",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1188,7 +1188,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1209,7 +1209,7 @@
    },
    "line": "Doctor, A French doctor, suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1500,7 +1500,7 @@
    },
    "line": "Sir. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1525,7 +1525,7 @@
    "wiki": "John Falstaff",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 6,
+    "lookAlikes": 7,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1624,7 +1624,7 @@
    "wiki": "Walter FitzWalter, 4th Baron FitzWalter",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1729,7 +1729,7 @@
    "wiki": "John of Gaunt",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1749,7 +1749,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1862,7 +1862,7 @@
    "wiki": "Henry Green (courtier)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1928,7 +1928,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1948,7 +1948,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2149,7 +2149,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2190,7 +2190,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2236,7 +2236,7 @@
    },
    "line": "Sir, A Welsh parson. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2335,7 +2335,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2391,7 +2391,7 @@
    "wiki": "Margery Jourdemayne",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2415,7 +2415,7 @@
    "wiki": "Catherine of Valois",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2436,6 +2436,8 @@
     "homeworld": "Bourges"
    },
    "line": "King, of Bourges. Appears in Henry VI, Part 3.",
+   "wiki": "Louis XI",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 39,
     "nearest": {
@@ -2444,9 +2446,7 @@
      "name": "Lady Bona",
      "tied": 0
     }
-   },
-   "wiki": "Louis XI",
-   "wikiLang": "en"
+   }
   },
   "118": {
    "facts": {
@@ -2463,7 +2463,7 @@
    "wiki": "Charles VI of France",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 26,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2483,7 +2483,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2567,7 +2567,7 @@
    "wiki": "Elizabeth Mortimer",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 32,
+    "lookAlikes": 34,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2647,7 +2647,7 @@
    "wiki": "Thomas Bardolf, 5th Baron Bardolf",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 81,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2667,7 +2667,7 @@
    },
    "line": "Lord. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2773,7 +2773,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2833,7 +2833,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2854,7 +2854,7 @@
    },
    "line": "Her husband. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2886,7 +2886,7 @@
    },
    "line": "Page, Her husband. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3002,7 +3002,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3022,7 +3022,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3042,7 +3042,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3214,7 +3214,7 @@
    "wiki": "Thomas Mowbray, 1st Duke of Norfolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3263,6 +3263,8 @@
     "role": "Duke of Norfolk"
    },
    "line": "Duke of Norfolk. Appears in Richard III.",
+   "wiki": "John Howard, 1st Duke of Norfolk",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 41,
     "nearest": {
@@ -3271,9 +3273,7 @@
      "name": "Earl of Surrey",
      "tied": 0
     }
-   },
-   "wiki": "John Howard, 1st Duke of Norfolk",
-   "wikiLang": "en"
+   }
   },
   "161": {
    "facts": {
@@ -3318,7 +3318,7 @@
    "wiki": "Henry Percy, 1st Earl of Northumberland",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3339,7 +3339,7 @@
    },
    "line": "Appears in Henry V and The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3359,7 +3359,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3379,7 +3379,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3640,7 +3640,7 @@
    "wiki": "Isabeau of Bavaria",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3667,7 +3667,7 @@
    "wiki": "Anne of Bohemia",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3775,17 +3775,17 @@
     "homeworld": "Bordeaux"
    },
    "line": "King, of Bordeaux. Appears in Richard II.",
+   "wiki": "Richard II of England",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
      "name": "Earl of Northumberland",
      "tied": 0
     }
-   },
-   "wiki": "Richard II of England",
-   "wikiLang": "en"
+   }
   },
   "184": {
    "facts": {
@@ -3867,17 +3867,17 @@
     ]
    },
    "line": "Lord, of the Order of the Garter. Appears in Richard II.",
+   "wiki": "William de Ros, 6th Baron Ros",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
      "name": "Lord Willoughby",
      "tied": 0
     }
-   },
-   "wiki": "William de Ros, 6th Baron Ros",
-   "wikiLang": "en"
+   }
   },
   "188": {
    "facts": {
@@ -3891,7 +3891,7 @@
    },
    "line": "The doctor’s manservant. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4033,7 +4033,7 @@
    },
    "line": "Sergeant. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -4374,7 +4374,7 @@
    },
    "line": "His nephew, a young gentleman suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4394,7 +4394,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4418,6 +4418,8 @@
     "homeworld": "Middlesex"
    },
    "line": "Member of the House of Lords, of Middlesex. Appears in Henry VI, Part 1 and Henry VI, Part 2.",
+   "wiki": "John Beaufort, 1st Duke of Somerset",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -4426,9 +4428,7 @@
      "name": "Legolas",
      "tied": 0
     }
-   },
-   "wiki": "John Beaufort, 1st Duke of Somerset",
-   "wikiLang": "en"
+   }
   },
   "217": {
    "facts": {
@@ -4500,7 +4500,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4522,7 +4522,7 @@
    "wiki": "Humphrey Stafford (died 1450)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4618,7 +4618,7 @@
    "wiki": "Thomas Holland, Duke of Surrey",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5060,17 +5060,17 @@
     "gender": "Male"
    },
    "line": "Appears in Henry VI, Part 2.",
+   "wiki": "William Stafford (died 1450)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
      "name": "Clerk",
      "tied": 1
     }
-   },
-   "wiki": "William Stafford (died 1450)",
-   "wikiLang": "en"
+   }
   },
   "248": {
    "facts": {
@@ -5086,7 +5086,7 @@
    "wiki": "William Willoughby, 5th Baron Willoughby de Eresby",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5204,7 +5204,7 @@
    "wiki": "Edmund of Langley, 1st Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -22721,5 +22721,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Shakespearean history",
+ "workWikiLang": "en"
 }

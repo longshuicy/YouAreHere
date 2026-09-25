@@ -388,7 +388,8 @@ def attributes_for(
     cached: dict[str, dict] = {}
     if path.exists():
         cached = json.loads(path.read_text(encoding="utf-8"))
-        # Re-fetch when the sitelink field is absent (older caches predate wiki links).
+        # Absent wiki key = never fetched (or rate-limit aborted). Explicit null =
+        # confirmed no preferred sitelink — do not retry every build.
         missing = [
             qid
             for qid in wanted
@@ -420,6 +421,7 @@ def backfill_sitelinks(
     if not path.exists():
         return 0
     cached: dict[str, dict] = json.loads(path.read_text(encoding="utf-8"))
+    # Absent key = never fetched. Explicit null = confirmed miss — leave alone.
     missing = [qid for qid, rec in cached.items() if "wiki" not in rec]
     if not missing:
         return 0
@@ -474,21 +476,30 @@ def backfill_sitelinks(
     return updated
 
 
-def work_sitelink(source: str) -> dict[str, str] | None:
-    """Wikipedia page for a world's work, if known. Cached under raw/<source>/."""
-    qid = WORK_PAGES.get(source)
+def work_sitelink(source: str, *, universe_id: str | None = None) -> dict[str, str] | None:
+    """Wikipedia page for a world's work, if known. Cached under raw/<source>/.
+
+    `universe_id` matters for split corpora (Shakespeare): each play world gets
+    its own DraCor Wikidata id rather than one franchise page.
+    """
+    if source == "shakespeare" and universe_id:
+        qid = _shakespeare_work_qid(universe_id)
+        cache_name = f"work-sitelink-{universe_id.removeprefix('shakespeare-')}.json"
+    else:
+        qid = WORK_PAGES.get(source)
+        cache_name = "work-sitelink.json"
     if not qid:
         return None
 
     cache_dir = RAW / source
-    path = cache_dir / "work-sitelink.json"
+    path = cache_dir / cache_name
     if path.exists():
         cached = json.loads(path.read_text(encoding="utf-8"))
         if cached.get("title"):
             return cached
 
     sites = _wiki_sites(source)
-    print(f"  fetching Wikipedia sitelink for work {qid} ({source}) ...", flush=True)
+    print(f"  fetching Wikipedia sitelink for work {qid} ({source}/{universe_id or source}) ...", flush=True)
     payload = _api(
         {
             "action": "wbgetentities",
@@ -507,6 +518,30 @@ def work_sitelink(source: str) -> dict[str, str] | None:
     cache_dir.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(record, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     return record
+
+
+# Multi-play Shakespeare components that are not one DraCor drama.
+SHAKESPEARE_CYCLE_QIDS = {
+    "english-histories": "Q2284425",  # Shakespearean history
+    # No single Wikidata item for "Shakespeare's Rome"; Julius Caesar anchors
+    # the cycle (DraCor Q215750), with Antony and Cleopatra as its pair.
+    "rome": "Q215750",  # Julius Caesar (play)
+}
+
+
+def _shakespeare_work_qid(universe_id: str) -> str | None:
+    """DraCor play Wikidata id for a shakespeare-* universe, or a cycle pin."""
+    slug = universe_id.removeprefix("shakespeare-")
+    if slug in SHAKESPEARE_CYCLE_QIDS:
+        return SHAKESPEARE_CYCLE_QIDS[slug]
+    corpus_path = RAW / "shakespeare" / "corpus.json"
+    if not corpus_path.exists():
+        return None
+    corpus = json.loads(corpus_path.read_text(encoding="utf-8"))
+    for play in corpus.get("dramas") or []:
+        if play.get("name") == slug and play.get("wikidataId"):
+            return play["wikidataId"]
+    return None
 
 
 def _wiki_sites(source: str | None = None, *, languages: tuple[str, ...] | None = None) -> tuple[str, ...]:
@@ -661,6 +696,197 @@ def _search_lotr(name: str) -> str | None:
     return None
 
 
+_ASOIAF_DESC = (
+    "song of ice and fire",
+    "game of thrones",
+    "westeros",
+    "a song of ice",
+    "george r. r. martin",
+    "george rr martin",
+)
+
+
+def resolve_asoiaf_names(names: list[str]) -> dict[str, str]:
+    """Map display names → Wikidata QIDs via search, cached under raw/asoiaf.
+
+    Only accepts hits whose description points at Martin's saga.
+    """
+    return _resolve_names(
+        names,
+        cache_path=RAW / "asoiaf" / "wikidata-name-map.json",
+        label="A Song of Ice and Fire",
+        search=_search_asoiaf,
+        sleep=1.5,
+    )
+
+
+# Soft API returned nothing usable (rate-limit / empty body). Do not cache as null.
+_UNRESOLVED = object()
+
+
+def _search_asoiaf(name: str) -> str | None | object:
+    saw_response = False
+    for search in (name, f"{name} Game of Thrones", f"{name} A Song of Ice and Fire"):
+        payload = _api(
+            {
+                "action": "wbsearchentities",
+                "search": search,
+                "language": "en",
+                "type": "item",
+                "limit": 8,
+                "format": "json",
+            },
+            soft=True,
+        )
+        if not payload:
+            continue
+        saw_response = True
+        for hit in payload.get("search") or []:
+            description = (hit.get("description") or "").lower()
+            if any(token in description for token in _ASOIAF_DESC):
+                return hit["id"]
+    return None if saw_response else _UNRESOLVED
+
+
+_CIVILWAR_DESC = (
+    "american civil war",
+    "civil war",
+    "union army",
+    "confederate",
+    "confederacy",
+    "union general",
+    "confederate general",
+    "union officer",
+    "confederate officer",
+    "confederate states army",
+    "confederate states of america",
+)
+
+
+def resolve_civilwar_names(names: list[str]) -> dict[str, str]:
+    """Map commander names → Wikidata QIDs via search, cached under raw/civilwar.
+
+    Only accepts hits whose description points at the American Civil War, or an
+    era army-general description with lifespan covering 1861–65.
+    """
+    return _resolve_names(
+        names,
+        cache_path=RAW / "civilwar" / "wikidata-name-map.json",
+        label="Civil War",
+        search=_search_civilwar,
+        sleep=1.5,
+    )
+
+
+def _search_civilwar(name: str) -> str | None | object:
+    saw_response = False
+    for search in (
+        name,
+        f"{name} Civil War",
+        f"{name} Union",
+        f"{name} Confederate",
+    ):
+        payload = _api(
+            {
+                "action": "wbsearchentities",
+                "search": search,
+                "language": "en",
+                "type": "item",
+                "limit": 8,
+                "format": "json",
+            },
+            soft=True,
+        )
+        if not payload:
+            continue
+        saw_response = True
+        for hit in payload.get("search") or []:
+            if _civilwar_hit_ok(hit):
+                return hit["id"]
+    return None if saw_response else _UNRESOLVED
+
+
+def _civilwar_hit_ok(hit: dict) -> bool:
+    description = (hit.get("description") or "").lower()
+    if any(token in description for token in _CIVILWAR_DESC):
+        return True
+    # Many generals are described only as "United States Army general (1820–1891)"
+    # with no "Civil War" token — accept era lifespans on army/officer hits.
+    if not any(
+        token in description
+        for token in (
+            "army general",
+            "army officer",
+            "naval officer",
+            "navy officer",
+            "military officer",
+        )
+    ):
+        return False
+    match = re.search(r"\((\d{4})\s*[–-]\s*(\d{4})\)", description)
+    if not match:
+        return False
+    born, died = int(match.group(1)), int(match.group(2))
+    return born <= 1845 and died >= 1861
+
+
+def _resolve_names(
+    names: list[str],
+    *,
+    cache_path: Path,
+    label: str,
+    search,
+    sleep: float = 1.5,
+) -> dict[str, str]:
+    """Shared cached name→QID search used by ASOIAF / Civil War matchers."""
+    cached: dict[str, str | None] = {}
+    if cache_path.exists():
+        cached = json.loads(cache_path.read_text(encoding="utf-8"))
+
+    resolved: dict[str, str] = {}
+    pending = []
+    for name in names:
+        key = name.strip()
+        if not key:
+            continue
+        if key in cached:
+            if cached[key]:
+                resolved[key] = cached[key]
+            continue
+        pending.append(key)
+
+    if pending:
+        print(f"  resolving {len(pending)} {label} names on Wikidata ...", flush=True)
+        for i, name in enumerate(pending, 1):
+            qid = search(name)
+            if qid is _UNRESOLVED:
+                # Soft 429 / empty body — leave uncached so a later run retries.
+                if i % 10 == 0:
+                    print(f"    {i}/{len(pending)} (rate-limited; will retry later)", flush=True)
+                time.sleep(sleep * 2)
+                continue
+            cached[name] = qid
+            if qid:
+                resolved[name] = qid
+            if i % 10 == 0:
+                print(f"    {i}/{len(pending)}", flush=True)
+            # Persist every 25 so a mid-run abort keeps progress.
+            if i % 25 == 0:
+                cache_path.parent.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(
+                    json.dumps(cached, ensure_ascii=False, indent=1, sort_keys=True),
+                    encoding="utf-8",
+                )
+            time.sleep(sleep)
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text(
+            json.dumps(cached, ensure_ascii=False, indent=1, sort_keys=True),
+            encoding="utf-8",
+        )
+
+    return resolved
+
+
 WORK_CAST = {
     "friends": "Q79784",
     "iliad": "Q8275",
@@ -676,6 +902,7 @@ WORK_CAST = {
 WORK_PAGES = {
     "asoiaf": "Q45875",  # A Song of Ice and Fire
     "bible": "Q1845",  # Bible
+    "civilwar": "Q8676",  # American Civil War
     "congress": "Q11268",  # United States Congress
     "friends": "Q79784",
     "godfather": "Q3225260",
@@ -684,6 +911,7 @@ WORK_PAGES = {
     "indiana-jones": "Q2562640",
     "lesmiserables": "Q180736",
     "lotr": "Q15228",  # The Lord of the Rings
+    "mmkg": "Q9730",  # History of music
     "odyssey": "Q35160",
     "pride": "Q170583",
     "sanguoyanyi": "Q70806",
@@ -1052,8 +1280,9 @@ def _fetch_attributes(qids: list[str], *, languages: tuple[str, ...]) -> dict[st
     out: dict[str, dict] = {}
     for qid in qids:
         entity = entities.get(qid)
-        if not entity:
-            out[qid] = _empty()
+        # Missing entity usually means a rate-limit/empty batch — skip so we don't
+        # poison the cache with a permanent wiki:null.
+        if not entity or entity.get("missing") is not None:
             continue
         out[qid] = _attributes_from_entity(entity, labels, gender=gender, sites=sites)
     return out

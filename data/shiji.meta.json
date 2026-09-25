@@ -339,7 +339,7 @@
    "wiki": "劉旦",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -689,7 +689,7 @@
    "wiki": "郭舍人",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -761,7 +761,7 @@
    "wiki": "项羽",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -984,7 +984,7 @@
    "wiki": "吕不韦",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 32,
+    "lookAlikes": 34,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1280,7 +1280,7 @@
    "wiki": "劉交",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1491,7 +1491,7 @@
    "wiki": "苏秦",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 35,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1592,7 +1592,7 @@
    "wiki": "刘邦",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1685,7 +1685,7 @@
    "wiki": "汉景帝",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 35,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1741,7 +1741,7 @@
    "wiki": "廉颇",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1877,11 +1877,11 @@
    "wiki": "乐毅",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 81,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Steve Gunderson",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Jerry Lee Lewis",
      "tied": 0
     }
    }

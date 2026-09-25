@@ -32,6 +32,8 @@
     "role": "Commander, with Macbeth, of Duncan’s army"
    },
    "line": "Commander, with Macbeth, of Duncan’s army.",
+   "wiki": "Banquo",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 69,
     "nearest": {
@@ -40,9 +42,7 @@
      "name": "Speed",
      "tied": 0
     }
-   },
-   "wiki": "Banquo",
-   "wikiLang": "en"
+   }
   },
   "2": {
    "facts": {
@@ -920,5 +920,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Macbeth",
+ "workWikiLang": "en"
 }

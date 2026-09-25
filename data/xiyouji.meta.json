@@ -127,6 +127,8 @@
     "role": "取經人"
    },
    "line": "取經人。僧人。屬唐。見於89回。",
+   "wiki": "唐三藏",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -135,9 +137,7 @@
      "name": "Marcus Brutus",
      "tied": 0
     }
-   },
-   "wiki": "唐三藏",
-   "wikiLang": "zh"
+   }
   },
   "2": {
    "facts": {
@@ -250,6 +250,8 @@
     "occupation": "天蓬元帥"
    },
    "line": "天蓬元帥。見於83回。",
+   "wiki": "猪八戒",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 2,
     "nearest": {
@@ -258,9 +260,7 @@
      "name": "Zeus",
      "tied": 0
     }
-   },
-   "wiki": "猪八戒",
-   "wikiLang": "zh"
+   }
   },
   "4": {
    "facts": {
@@ -292,6 +292,8 @@
     "species": "神仙"
    },
    "line": "神仙。見於20回。",
+   "wiki": "太上老君",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 65,
     "nearest": {
@@ -300,9 +302,7 @@
      "name": "Earl of Essex",
      "tied": 3
     }
-   },
-   "wiki": "太上老君",
-   "wikiLang": "zh"
+   }
   },
   "5": {
    "facts": {
@@ -410,6 +410,8 @@
     "occupation": "齊天大聖"
    },
    "line": "齊天大聖。見於94回。",
+   "wiki": "孙悟空",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 0,
     "nearest": {
@@ -418,9 +420,7 @@
      "name": "Antony",
      "tied": 0
     }
-   },
-   "wiki": "孙悟空",
-   "wikiLang": "zh"
+   }
   },
   "6": {
    "facts": {
@@ -509,6 +509,8 @@
     "occupation": "捲簾大將"
    },
    "line": "捲簾大將。見於77回。",
+   "wiki": "沙僧",
+   "wikiLang": "zh",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -517,9 +519,7 @@
      "name": "Bertram",
      "tied": 0
     }
-   },
-   "wiki": "沙僧",
-   "wikiLang": "zh"
+   }
   },
   "7": {
    "facts": {
@@ -647,7 +647,7 @@
    },
    "line": "屬唐。見於5回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 64,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -691,7 +691,7 @@
    },
    "line": "屬唐。見於6回。",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 11,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -716,11 +716,11 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 1,
+    "lookAlikes": 2,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Tim Holden",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Robert E. Lee",
      "tied": 0
     }
    }
@@ -755,7 +755,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 64,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -779,7 +779,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 64,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -803,7 +803,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 64,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -827,7 +827,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 64,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -853,7 +853,7 @@
    },
    "line": "屬唐。見於4回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 64,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -877,7 +877,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 64,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -902,7 +902,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 64,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -926,7 +926,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 64,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -1868,7 +1868,7 @@
    "wiki": "李靖 (神话人物)",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 18,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",

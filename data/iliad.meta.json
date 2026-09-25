@@ -87,7 +87,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -257,7 +257,7 @@
    "wiki": "Panthous",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 30,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -279,7 +279,7 @@
    },
    "line": "Of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 30,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -299,7 +299,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 30,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -320,7 +320,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 30,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -340,7 +340,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 30,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -362,17 +362,17 @@
     "gender": "Male"
    },
    "line": "Of the Trojans. Appears in Book 3.",
+   "wiki": "Ucalegon",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 30,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
      "name": "Panthous",
      "tied": 1
     }
-   },
-   "wiki": "Ucalegon",
-   "wikiLang": "en"
+   }
   },
   "20": {
    "facts": {
@@ -734,7 +734,7 @@
    },
    "line": "Appears in Book 6.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 81,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -766,7 +766,7 @@
    },
    "line": "Appears in Book 6.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1014,7 +1014,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1046,6 +1046,8 @@
     "gender": "Male"
    },
    "line": "Appears in four books.",
+   "wiki": "Asteropaios",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
@@ -1054,9 +1056,7 @@
      "name": "秦鐘",
      "tied": 0
     }
-   },
-   "wiki": "Asteropaios",
-   "wikiLang": "en"
+   }
   },
   "72": {
    "facts": {
@@ -1069,7 +1069,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1091,7 +1091,7 @@
    "wiki": "Iamenus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1111,7 +1111,7 @@
    },
    "line": "Appears in Book 12.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1132,7 +1132,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1152,7 +1152,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1190,7 +1190,7 @@
    "wiki": "Cassandra",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1438,12 +1438,12 @@
    "wiki": "Alcimedonte",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Spare Boot",
-     "tied": 0
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Choker Campbell",
+     "tied": 2
     }
    }
   },
@@ -1506,12 +1506,12 @@
    "wiki": "Eudoros",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 18,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Oenomaus",
-     "tied": 0
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Amiri Baraka",
+     "tied": 5
     }
    }
   },
@@ -1560,11 +1560,11 @@
    },
    "line": "Of the Greeks. Appears in Book 16.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "何進",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Big Maybelle",
      "tied": 0
     }
    }
@@ -2021,12 +2021,12 @@
    "wiki": "Deipyrus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
-     "world": "shuihuzhuan",
-     "story": "水滸傳",
-     "name": "高俅",
-     "tied": 0
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Andrea Bocelli",
+     "tied": 9
     }
    }
   },
@@ -2045,7 +2045,7 @@
    },
    "line": "Of the Greeks. Appears in Book 9 and Book 13.",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2117,7 +2117,7 @@
    },
    "line": "King of Calydon. Appears in three books.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2304,7 +2304,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2324,7 +2324,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2344,7 +2344,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2387,7 +2387,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2419,7 +2419,7 @@
    },
    "line": "King of Cyphus. Appears in Book 2.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2439,7 +2439,7 @@
    },
    "line": "Appears in Book 2 and Book 12.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 7,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2461,7 +2461,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 7,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2484,17 +2484,17 @@
     "occupation": "physician"
    },
    "line": "Physician. Appears in four books.",
+   "wiki": "Machaon (mythology)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Amram",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Ringo Starr",
      "tied": 0
     }
-   },
-   "wiki": "Machaon (mythology)",
-   "wikiLang": "en"
+   }
   },
   "167": {
    "facts": {
@@ -2506,7 +2506,7 @@
    },
    "line": "Appears in Book 2.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 35,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2528,7 +2528,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2711,7 +2711,7 @@
    },
    "line": "Appears in Book 2 and Book 9.",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2732,7 +2732,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -2802,7 +2802,7 @@
    },
    "line": "Lady in waiting, of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 33,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2854,6 +2854,8 @@
     ]
    },
    "line": "King of Myrmidons, of the Greeks. Appears in 14 books.",
+   "wiki": "Achilles",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 103,
     "nearest": {
@@ -2862,9 +2864,7 @@
      "name": "Eddard Stark",
      "tied": 0
     }
-   },
-   "wiki": "Achilles",
-   "wikiLang": "en"
+   }
   },
   "190": {
    "facts": {
@@ -2915,6 +2915,8 @@
     "occupation": "military leader"
    },
    "line": "Military leader, of the Trojans. Appears in 12 books.",
+   "wiki": "Aeneas",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -2923,9 +2925,7 @@
      "name": "Renly Baratheon",
      "tied": 0
     }
-   },
-   "wiki": "Aeneas",
-   "wikiLang": "en"
+   }
   },
   "192": {
    "facts": {
@@ -3250,6 +3250,8 @@
     "species": "Greek deity"
    },
    "line": "Greek deity, of the Trojans. Appears in seven books.",
+   "wiki": "Ares",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -3258,9 +3260,7 @@
      "name": "Melisandre",
      "tied": 0
     }
-   },
-   "wiki": "Ares",
-   "wikiLang": "en"
+   }
   },
   "203": {
    "facts": {
@@ -3398,11 +3398,11 @@
    },
    "line": "King of Lycia after killing CM. Appears in Book 6.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 11,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Keturah",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Rick Danko",
      "tied": 0
     }
    }
@@ -3418,7 +3418,7 @@
    },
    "line": "Appears in Book 20 and Book 23.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3505,7 +3505,7 @@
    },
    "line": "Lady in waiting, of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 33,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3625,17 +3625,17 @@
     ]
    },
    "line": "Of the Trojans. Appears in three books.",
+   "wiki": "Deiphobus",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "潘璋",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Madonna",
      "tied": 0
     }
-   },
-   "wiki": "Deiphobus",
-   "wikiLang": "en"
+   }
   },
   "222": {
    "facts": {
@@ -4039,6 +4039,8 @@
     "species": "Olympian god"
    },
    "line": "Courier, Olympian god, of the Greeks. Appears in six books.",
+   "wiki": "Hermes",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 73,
     "nearest": {
@@ -4047,9 +4049,7 @@
      "name": "Lady Lucas",
      "tied": 0
     }
-   },
-   "wiki": "Hermes",
-   "wikiLang": "en"
+   }
   },
   "244": {
    "facts": {
@@ -4096,6 +4096,8 @@
     "species": "Greek deity"
    },
    "line": "Blacksmith, Greek deity, of the Greeks. Appears in seven books.",
+   "wiki": "Hephaestus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 57,
     "nearest": {
@@ -4104,9 +4106,7 @@
      "name": "Eponine",
      "tied": 0
     }
-   },
-   "wiki": "Hephaestus",
-   "wikiLang": "en"
+   }
   },
   "246": {
    "facts": {
@@ -4371,7 +4371,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4493,7 +4493,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4652,7 +4652,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4730,7 +4730,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4777,6 +4777,8 @@
     "gender": "Male"
    },
    "line": "King of Ithaca. Appears in 14 books.",
+   "wiki": "Odysseus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 102,
     "nearest": {
@@ -4785,9 +4787,7 @@
      "name": "Athene",
      "tied": 0
     }
-   },
-   "wiki": "Odysseus",
-   "wikiLang": "en"
+   }
   },
   "277": {
    "facts": {
@@ -4829,7 +4829,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4890,7 +4890,7 @@
    "wiki": "Peneleos",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -4977,17 +4977,17 @@
     "gender": "Male"
    },
    "line": "Appears in three books.",
+   "wiki": "Polites (son of Priam)",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
      "name": "Agathon",
      "tied": 4
     }
-   },
-   "wiki": "Polites (son of Priam)",
-   "wikiLang": "en"
+   }
   },
   "286": {
    "facts": {
@@ -5042,6 +5042,8 @@
     "species": "water deity"
    },
    "line": "King of the sea, Water deity, of the Greeks. Appears in 12 books.",
+   "wiki": "Poseidon",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 90,
     "nearest": {
@@ -5050,9 +5052,7 @@
      "name": "Elrond",
      "tied": 0
     }
-   },
-   "wiki": "Poseidon",
-   "wikiLang": "en"
+   }
   },
   "288": {
    "facts": {
@@ -5068,7 +5068,7 @@
    },
    "line": "Queen of nether world. Appears in Book 9 and Book 14.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5208,7 +5208,7 @@
    "wiki": "Aenius",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5239,7 +5239,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5270,7 +5270,7 @@
    },
    "line": "Appears in Book 14 and Book 15.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5323,6 +5323,8 @@
     ]
    },
    "line": "King of Lycia, of the Trojans. Appears in six books.",
+   "wiki": "Sarpedon (Trojan War hero)",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -5331,9 +5333,7 @@
      "name": "Marquess of Dorset",
      "tied": 0
     }
-   },
-   "wiki": "Sarpedon (Trojan War hero)",
-   "wikiLang": "en"
+   }
   },
   "302": {
    "facts": {
@@ -5370,7 +5370,7 @@
    },
    "line": "Appears in Book 14 and Book 16.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5425,7 +5425,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5606,7 +5606,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5636,7 +5636,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5668,7 +5668,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5688,7 +5688,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5786,7 +5786,7 @@
    },
    "line": "Appears in three books.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",

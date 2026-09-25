@@ -329,7 +329,7 @@
    "wiki": "葵官",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -512,7 +512,7 @@
    },
    "line": "見於7回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -695,7 +695,7 @@
    },
    "line": "見於第9回、第10回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1503,7 +1503,7 @@
    },
    "line": "家務工。見於6回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -1636,7 +1636,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1659,7 +1659,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2458,7 +2458,7 @@
    },
    "line": "見於第52回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2478,7 +2478,7 @@
    },
    "line": "見於第52回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2498,7 +2498,7 @@
    },
    "line": "見於第52回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2518,7 +2518,7 @@
    },
    "line": "見於第52回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -3431,7 +3431,7 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4431,7 +4431,7 @@
    "wiki": "荳官",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 32,
+    "lookAlikes": 34,
     "nearest": {
      "world": "bible",
      "story": "The Bible",

@@ -25,6 +25,8 @@
     "role": "Their kinsman"
    },
    "line": "Their kinsman.",
+   "wiki": "Benvolio",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -33,9 +35,7 @@
      "name": "Chiron",
      "tied": 0
     }
-   },
-   "wiki": "Benvolio",
-   "wikiLang": "en"
+   }
   },
   "2": {
    "facts": {
@@ -1608,5 +1608,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Romeo and Juliet",
+ "workWikiLang": "en"
 }

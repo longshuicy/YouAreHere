@@ -57,7 +57,7 @@ def main() -> int:
         else:
             worlds = [graph]
 
-        work = wikidata.work_sitelink(name)
+        work = wikidata.work_sitelink(name, universe_id=world.id)
         for world in worlds:
             path = DATA / f"{world.id}.meta.json"
             if not path.exists():

@@ -377,7 +377,7 @@
    "wiki": "孟優",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -469,11 +469,11 @@
    },
    "line": "見於3回。",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Jared",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Charlie Haden",
      "tied": 0
     }
    }
@@ -593,7 +593,7 @@
    },
    "line": "政治人物。見於5回。",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 81,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -945,7 +945,7 @@
    },
    "line": "魏王。丞相。見於81回。",
    "signals": {
-    "lookAlikes": 0,
+    "lookAlikes": 1,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1022,7 +1022,7 @@
    },
    "line": "見於8回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1178,7 +1178,7 @@
    },
    "line": "謀士。見於11回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1250,7 +1250,7 @@
    },
    "line": "軍官。見於10回。",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1338,7 +1338,7 @@
    },
    "line": "政治人物。見於21回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1415,7 +1415,7 @@
    },
    "line": "武將。見於27回。",
    "signals": {
-    "lookAlikes": 6,
+    "lookAlikes": 7,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1524,7 +1524,7 @@
    },
    "line": "軍人。見於19回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1568,7 +1568,7 @@
    },
    "line": "軍人。見於24回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1620,7 +1620,7 @@
    },
    "line": "軍人。見於32回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1661,7 +1661,7 @@
    },
    "line": "軍人。見於21回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1755,7 +1755,7 @@
    },
    "line": "軍人。見於24回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1915,7 +1915,7 @@
    },
    "line": "軍官。見於16回。",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1986,7 +1986,7 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2096,7 +2096,7 @@
    },
    "line": "政治人物。見於24回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2165,7 +2165,7 @@
    },
    "line": "謀士。見於5回。",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 30,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2205,7 +2205,7 @@
    },
    "line": "謀士。見於6回。",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 35,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2233,7 +2233,7 @@
    },
    "line": "謀士。見於8回。",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 81,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2351,7 +2351,7 @@
    },
    "line": "軍官。見於7回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2398,7 +2398,7 @@
    },
    "line": "軍官。見於13回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2469,7 +2469,7 @@
    },
    "line": "吳王。政治人物。見於45回。",
    "signals": {
-    "lookAlikes": 6,
+    "lookAlikes": 7,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2631,7 +2631,7 @@
    },
    "line": "軍官。見於第9回、第10回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -2747,7 +2747,7 @@
    },
    "line": "謀士。見於17回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2844,7 +2844,7 @@
    },
    "line": "謀士。見於10回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2875,7 +2875,7 @@
    },
    "line": "政治人物。見於11回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2904,11 +2904,11 @@
    },
    "line": "軍官。見於9回。",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Deiphobus",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Madonna",
      "tied": 0
     }
    }
@@ -2978,7 +2978,7 @@
    },
    "line": "軍官。見於27回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3072,7 +3072,7 @@
    },
    "line": "政治人物。見於22回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3128,11 +3128,11 @@
    },
    "line": "軍官。見於6回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "陳蘭",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Neil Diamond",
      "tied": 0
     }
    }
@@ -3233,7 +3233,7 @@
    },
    "line": "軍官。屬大魏。見於29回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3261,7 +3261,7 @@
    },
    "line": "軍官。見於8回。",
    "signals": {
-    "lookAlikes": 15,
+    "lookAlikes": 17,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3285,7 +3285,7 @@
    },
    "line": "軍官。見於4回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3354,7 +3354,7 @@
    },
    "line": "軍官。見於6回。",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 81,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3378,7 +3378,7 @@
    },
    "line": "軍官。見於4回。",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 81,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -3406,7 +3406,7 @@
    },
    "line": "軍官。見於8回。",
    "signals": {
-    "lookAlikes": 32,
+    "lookAlikes": 34,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -3445,7 +3445,7 @@
    },
    "line": "政治人物。見於19回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3495,7 +3495,7 @@
    },
    "line": "軍官。見於30回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3546,12 +3546,12 @@
    },
    "line": "見於5回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Solomon Ortiz",
-     "tied": 0
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Harold Arlen",
+     "tied": 3
     }
    }
   },
@@ -3647,7 +3647,7 @@
    },
    "line": "政治人物。見於8回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3708,7 +3708,7 @@
    },
    "line": "軍官。見於5回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -3774,7 +3774,7 @@
    },
    "line": "政治人物。見於4回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3899,7 +3899,7 @@
    },
    "line": "軍官。見於12回。",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3935,7 +3935,7 @@
    },
    "line": "軍官。見於16回。",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3986,7 +3986,7 @@
    },
    "line": "軍官。見於8回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4042,7 +4042,7 @@
    },
    "line": "政治人物。屬大魏。見於7回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -4082,7 +4082,7 @@
    },
    "line": "軍官。見於8回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4198,7 +4198,7 @@
    },
    "line": "軍官。見於第15回、第17回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -4221,7 +4221,7 @@
    },
    "line": "軍官。見於3回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -4245,11 +4245,11 @@
    },
    "line": "軍官。見於4回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "太史慈",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Neil Diamond",
      "tied": 0
     }
    }
@@ -4431,7 +4431,7 @@
    },
    "line": "軍官。見於第17回。",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 81,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4554,7 +4554,7 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -4629,7 +4629,7 @@
    },
    "line": "政治人物。見於3回。",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4746,7 +4746,7 @@
    },
    "line": "軍官。見於3回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -4852,7 +4852,7 @@
    },
    "line": "政治人物。見於5回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -4960,7 +4960,7 @@
    },
    "line": "軍官。屬蜀漢。見於24回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5006,7 +5006,7 @@
    },
    "line": "軍官。見於15回。",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5038,7 +5038,7 @@
    },
    "line": "政治人物。屬大魏。見於9回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5110,7 +5110,7 @@
    },
    "line": "政治人物。屬吳國。見於15回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5139,7 +5139,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -5186,7 +5186,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -5209,7 +5209,7 @@
    },
    "line": "軍官。見於3回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -5321,7 +5321,7 @@
    },
    "line": "政治人物。屬大魏。見於13回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -5392,7 +5392,7 @@
    },
    "line": "見於10回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5458,7 +5458,7 @@
    },
    "line": "軍官。見於7回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5567,7 +5567,7 @@
    },
    "line": "見於19回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5590,7 +5590,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5643,7 +5643,7 @@
    },
    "line": "見於17回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5686,7 +5686,7 @@
    },
    "line": "軍官。屬吳國。見於20回。",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5718,7 +5718,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5750,11 +5750,11 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 68,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "陸遜",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Sheryl Crow",
      "tied": 0
     }
    }
@@ -5789,7 +5789,7 @@
    },
    "line": "軍官。屬吳國。見於16回。",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5825,7 +5825,7 @@
    },
    "line": "軍官。見於16回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5855,7 +5855,7 @@
    },
    "line": "見於11回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5985,7 +5985,7 @@
    },
    "line": "軍官。屬蜀漢。見於35回。",
    "signals": {
-    "lookAlikes": 1,
+    "lookAlikes": 2,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -6087,7 +6087,7 @@
    },
    "line": "政治人物。見於13回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -6482,7 +6482,7 @@
    },
    "line": "太守。屬大魏。見於14回。",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6551,7 +6551,7 @@
    },
    "line": "軍官。見於5回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -6625,7 +6625,7 @@
    },
    "line": "見於13回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6711,7 +6711,7 @@
    },
    "line": "政治人物。屬蜀漢。見於11回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6902,11 +6902,11 @@
    },
    "line": "見於6回。",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Bilhan",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Antonio Paoli",
      "tied": 0
     }
    }
@@ -7173,7 +7173,7 @@
    },
    "line": "軍官。見於13回。",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -7267,7 +7267,7 @@
    },
    "line": "軍官。見於19回。",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -7351,7 +7351,7 @@
    },
    "line": "軍官。屬蜀漢。見於17回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -7411,7 +7411,7 @@
    },
    "line": "政治人物。屬大魏。見於10回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -7647,7 +7647,7 @@
    },
    "line": "屬吳國。見於3回。",
    "signals": {
-    "lookAlikes": 32,
+    "lookAlikes": 34,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -7712,7 +7712,7 @@
    },
    "line": "軍官。屬大魏。見於12回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -7770,7 +7770,7 @@
    },
    "line": "屬蜀漢。見於7回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -7975,7 +7975,7 @@
    },
    "line": "政治人物。屬大魏。見於11回。",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -8096,7 +8096,7 @@
    },
    "line": "軍官。屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -8275,7 +8275,7 @@
    },
    "line": "政治人物。屬大魏。見於18回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8602,7 +8602,7 @@
    },
    "line": "屬大魏。見於5回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8628,11 +8628,11 @@
    },
    "line": "政治人物。屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 2,
+    "lookAlikes": 9,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Leah",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Wallington, London",
      "tied": 0
     }
    }
@@ -8652,7 +8652,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8676,7 +8676,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8700,7 +8700,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 35,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -8724,7 +8724,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8748,7 +8748,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8772,7 +8772,7 @@
    },
    "line": "屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8797,7 +8797,7 @@
    },
    "line": "政治人物。屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8822,7 +8822,7 @@
    },
    "line": "政治人物。屬大魏。見於第106回、第107回。",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 68,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8901,7 +8901,7 @@
    },
    "line": "軍官。屬大魏。見於8回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -8935,7 +8935,7 @@
    },
    "line": "軍官。屬大魏。見於11回。",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -9057,11 +9057,11 @@
    },
    "line": "政治人物。屬大魏。見於4回。",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Peter Hoekstra",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "John Coltrane",
      "tied": 0
     }
    }
@@ -9100,7 +9100,7 @@
    },
    "line": "政治人物。屬大魏。見於3回。",
    "signals": {
-    "lookAlikes": 32,
+    "lookAlikes": 34,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9270,7 +9270,7 @@
    },
    "line": "軍官。屬蜀漢。見於5回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9620,7 +9620,7 @@
    "wiki": "阿會喃",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -9749,11 +9749,11 @@
    "wiki": "周倉",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 38,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "Titinius",
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Neil Diamond",
      "tied": 0
     }
    }

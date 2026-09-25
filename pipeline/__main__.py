@@ -106,7 +106,7 @@ def build(names: list[str], out: Path) -> int:
                 meta_sources,
                 out,
                 scores=difficulty.score(world, playable, corpus_index, shape_index),
-                work_wiki=wikidata.work_sitelink(name),
+                work_wiki=wikidata.work_sitelink(name, universe_id=world.id),
             )
 
             summary["metaFile"] = meta["file"]

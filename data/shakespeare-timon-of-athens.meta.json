@@ -93,7 +93,7 @@
    },
    "line": "His steward.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -450,7 +450,7 @@
    "wiki": "Timon of Athens (person)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1639,5 +1639,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Timon of Athens",
+ "workWikiLang": "en"
 }

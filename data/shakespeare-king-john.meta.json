@@ -66,7 +66,7 @@
    "wiki": "Philip of Cognac",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 25,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -327,7 +327,7 @@
    "wiki": "John, King of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -2016,5 +2016,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "King John (play)",
+ "workWikiLang": "en"
 }

@@ -525,12 +525,12 @@
    },
    "line": "見於15回。",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Deipyrus",
-     "tied": 0
+     "world": "mmkg",
+     "story": "Musical Meetups",
+     "name": "Andrea Bocelli",
+     "tied": 9
     }
    }
   },
@@ -576,7 +576,7 @@
    },
    "line": "屠户。見於5回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -747,7 +747,7 @@
    },
    "line": "开封府尹。見於10回。",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 41,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -973,7 +973,7 @@
    },
    "line": "見於4回。",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 34,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -1047,7 +1047,7 @@
    },
    "line": "軍官。見於6回。",
    "signals": {
-    "lookAlikes": 32,
+    "lookAlikes": 34,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1625,7 +1625,7 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1646,7 +1646,7 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1689,7 +1689,7 @@
    },
    "line": "教師。見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1835,7 +1835,7 @@
    },
    "line": "見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 106,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -2028,7 +2028,7 @@
    },
    "line": "屬大金。見於第59回、第67回。",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 26,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2078,7 +2078,7 @@
    },
    "line": "見於第46回、第49回。",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2325,7 +2325,7 @@
    "wiki": "蔣忠 (水滸傳)",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 55,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2411,7 +2411,7 @@
    "wiki": "陆谦",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 43,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -3449,7 +3449,7 @@
    "wiki": "李衮",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 39,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3493,7 +3493,7 @@
    "wiki": "武大郎",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 81,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",

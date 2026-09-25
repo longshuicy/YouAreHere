@@ -35,6 +35,8 @@ const FALLBACK: Record<string, string> = {
     'Paris after the Restoration, a hunt that lasts twenty years, and a barricade that lasts one night.',
   lotr:
     'One long war across three volumes, a fellowship that scatters, and a ring that wants to be found.',
+  mmkg:
+    'European musical life across two centuries, where a tie means two people share a biography meetup.',
   odyssey:
     'A ten-year voyage home, a household of suitors waiting at the other end of it.',
   pride:
@@ -120,6 +122,7 @@ const FAMILIARITY: Record<string, 0 | 1 | 2> = {
   pride: 2,
   godfather: 2,
   'indiana-jones': 2,
+  mmkg: 1,
   iliad: 1,
   odyssey: 1,
   // Nameable, but only to Americans — the same kind of accident as the five

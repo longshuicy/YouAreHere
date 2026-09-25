@@ -96,7 +96,7 @@
    },
    "line": "The Clown or Swain.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 47,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -1673,5 +1673,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Love's Labour's Lost",
+ "workWikiLang": "en"
 }

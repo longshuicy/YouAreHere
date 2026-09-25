@@ -41,7 +41,10 @@ def extract(
 def meta_sources_for(name: str) -> list[tuple]:
     """Attribution pairs to credit on the enrichment sidecar."""
     if name == "asoiaf":
-        return [(anapi.ATTRIBUTION, anapi.LICENSE)]
+        return [
+            (anapi.ATTRIBUTION, anapi.LICENSE),
+            (wikidata.ATTRIBUTION, wikidata.LICENSE),
+        ]
     if name in ("iliad", "lesmiserables"):
         return [
             (knuth.ATTRIBUTION, knuth.LICENSE),
@@ -50,9 +53,7 @@ def meta_sources_for(name: str) -> list[tuple]:
     if name == "congress":
         return [(legislators.ATTRIBUTION, legislators.LICENSE)]
     if name == "civilwar":
-        # Side and rank travel on the node from the NPS tables; no extra
-        # enrichment source to credit beyond the graph attribution.
-        return []
+        return [(wikidata.ATTRIBUTION, wikidata.LICENSE)]
     if name in (
         "bible",
         "friends",
@@ -66,6 +67,7 @@ def meta_sources_for(name: str) -> list[tuple]:
         "xiyouji",
         "godfather",
         "indiana-jones",
+        "mmkg",
     ):
         return [(wikidata.ATTRIBUTION, wikidata.LICENSE)]
     if name == "shakespeare":
@@ -274,6 +276,66 @@ def _match_lotr(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
     return matched
 
 
+def _match_asoiaf(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, str]:
+    """Map Beveridge ids to Wikidata QIDs. Pins win; unique display names search."""
+    matched: dict[str, str] = {}
+    for node_id, override in overrides.items():
+        qid = override.get("wikidata")
+        if qid:
+            matched[node_id] = qid
+
+    search_names: dict[str, str] = {}
+    for node in graph.nodes:
+        if node.id in matched:
+            continue
+        search_names[node.id] = node.name.strip()
+
+    name_counts = Counter(search_names.values())
+    unique_names = [name for name in search_names.values() if name_counts[name] == 1]
+    resolved = wikidata.resolve_asoiaf_names(sorted(set(unique_names)))
+
+    for node_id, name in search_names.items():
+        if node_id in matched or name_counts[name] != 1:
+            continue
+        qid = resolved.get(name)
+        if qid:
+            matched[node_id] = qid
+    return matched
+
+
+def _match_civilwar(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, str]:
+    """Map NPS commander ids to Wikidata QIDs. Pins win; unique names search."""
+    matched: dict[str, str] = {}
+    for node_id, override in overrides.items():
+        qid = override.get("wikidata")
+        if qid:
+            matched[node_id] = qid
+
+    search_names: dict[str, str] = {}
+    for node in graph.nodes:
+        if node.id in matched:
+            continue
+        # Prefer a fuller alias when the display name is abbreviated initials.
+        search = node.name.strip()
+        for alias in node.aliases:
+            if len(alias) > len(search) and " " in alias:
+                search = alias.strip()
+                break
+        search_names[node.id] = search
+
+    name_counts = Counter(search_names.values())
+    unique_names = [name for name in search_names.values() if name_counts[name] == 1]
+    resolved = wikidata.resolve_civilwar_names(sorted(set(unique_names)))
+
+    for node_id, name in search_names.items():
+        if node_id in matched or name_counts[name] != 1:
+            continue
+        qid = resolved.get(name)
+        if qid:
+            matched[node_id] = qid
+    return matched
+
+
 # Short ontology labels → a form Wikidata's search is likely to hit first.
 LOTR_SEARCH_EXPAND = {
     "frodo": "Frodo Baggins",
@@ -345,6 +407,14 @@ def _wikidata_for(
 
     if source == "lotr":
         for node_id, qid in _match_lotr(graph, overrides).items():
+            qid_by_node.setdefault(node_id, qid)
+
+    if source == "asoiaf":
+        for node_id, qid in _match_asoiaf(graph, overrides).items():
+            qid_by_node.setdefault(node_id, qid)
+
+    if source == "civilwar":
+        for node_id, qid in _match_civilwar(graph, overrides).items():
             qid_by_node.setdefault(node_id, qid)
 
     work_qid = wikidata.WORK_CAST.get(source)

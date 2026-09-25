@@ -32,6 +32,8 @@
     "homeworld": "Blickling Hall"
    },
    "line": "Katherine’s lady-in-waiting, later Henry’s second wife and queen, of Blickling Hall.",
+   "wiki": "Anne Boleyn",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -40,9 +42,7 @@
      "name": "Clydas",
      "tied": 0
     }
-   },
-   "wiki": "Anne Boleyn",
-   "wikiLang": "en"
+   }
   },
   "2": {
    "facts": {
@@ -117,6 +117,8 @@
     "homeworld": "Fulham"
    },
    "line": "Doctor, of Fulham.",
+   "wiki": "William Butts",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 69,
     "nearest": {
@@ -125,9 +127,7 @@
      "name": "Keeper",
      "tied": 1
     }
-   },
-   "wiki": "William Butts",
-   "wikiLang": "en"
+   }
   },
   "6": {
    "facts": {
@@ -602,6 +602,8 @@
     "role": "Lord"
    },
    "line": "Lord.",
+   "wiki": "William Sandys, 1st Baron Sandys",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 26,
     "nearest": {
@@ -610,9 +612,7 @@
      "name": "Rocco",
      "tied": 0
     }
-   },
-   "wiki": "William Sandys, 1st Baron Sandys",
-   "wikiLang": "en"
+   }
   },
   "30": {
    "facts": {
@@ -2478,5 +2478,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Henry VIII (play)",
+ "workWikiLang": "en"
 }

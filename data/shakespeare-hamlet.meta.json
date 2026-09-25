@@ -295,6 +295,8 @@
     "role": "Father of Ophelia and Laertes, councillor to King Claudius"
    },
    "line": "Father of Ophelia and Laertes, councillor to King Claudius.",
+   "wiki": "Polonius",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 150,
     "nearest": {
@@ -303,9 +305,7 @@
      "name": "Antipholus of Syracuse",
      "tied": 0
     }
-   },
-   "wiki": "Polonius",
-   "wikiLang": "en"
+   }
   },
   "15": {
    "facts": {
@@ -1263,5 +1263,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Hamlet",
+ "workWikiLang": "en"
 }

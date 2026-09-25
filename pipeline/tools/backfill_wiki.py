@@ -25,6 +25,8 @@ CACHES: list[tuple[str, str, tuple[str, ...]]] = [
     ("odyssey", "wikidata-attributes.json", ("en",)),
     ("lotr", "wikidata-attributes.json", ("en",)),
     ("starwars", "wikidata-attributes.json", ("en",)),
+    ("civilwar", "wikidata-attributes.json", ("en",)),
+    ("asoiaf", "wikidata-attributes.json", ("en",)),
     ("iliad", "wikidata-attributes.json", ("en",)),
     ("xiyouji", "wikidata-attributes-zh.json", ("zh-hant", "zh", "zh-hans")),
     ("shiji", "wikidata-attributes-zh.json", ("zh-hant", "zh", "zh-hans")),

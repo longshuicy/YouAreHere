@@ -42,6 +42,21 @@ Used as follows:
 2. Resolved house allegiance URLs to house names.
 3. Composed original one-line descriptions from those attributes.
 
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `asoiaf.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
+
 ## The Bible
 
 *Shipped as `bible.json` — 726 characters, 2987 ties.*
@@ -103,6 +118,21 @@ Changes made to the original data:
 8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
 9. Computed a force-directed layout for the full graph, used by the reveal animation.
 
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `civilwar.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
+
 ## U.S. Congress
 
 *Shipped as `congress.json` — 580 characters, 9156 ties.*
@@ -137,7 +167,7 @@ by **the @unitedstates project** (<https://github.com/unitedstates/congress-legi
 
 Used as follows:
 
-1. Extracted discrete attributes only (party, chamber, state, gender) for legislators matched by unique name; no biographical prose.
+1. Extracted discrete attributes only (party, chamber, state, gender) and Wikipedia page titles for legislators matched by unique name; no biographical prose.
 
 ## Friends
 
@@ -418,6 +448,43 @@ Changes made to the original data:
 ### Reveal-screen enrichment — Wikidata
 
 *Shipped separately as `lotr.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-18
+
+Used as follows:
+
+1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
+2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
+
+## Musical Meetups
+
+*Shipped as `mmkg.json` — 974 characters, 3423 ties.*
+
+"Musical Meetups Knowledge Graph (MMKG)" by **Alba Morales Tirado, Enrico Daga, Jason Carvalho, Paul Mulholland (Polifonia / The Open University)** (<https://github.com/polifonia-project/meetups-knowledge-graph>)
+
+- Source: <https://doi.org/10.5281/zenodo.7924618>
+- Project: <https://github.com/polifonia-project/meetups-knowledge-graph>
+- Licence: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (`CC-BY-4.0`)
+- Retrieved: 2026-09-25
+- Cite as: A. Morales Tirado, J. Carvalho, P. Mulholland, E. Daga, “Musical Meetups: a Knowledge Graph approach for Historical Social Network Analysis,” Polifonia MEETUPS Knowledge Graph, doi:10.5281/zenodo.7924618. DOI: [10.5281/zenodo.7924618](https://doi.org/10.5281/zenodo.7924618)
+
+Changes made to the original data:
+
+1. Parsed sample_1k_meetups_triples TTLs (the only release slice with mtp:hasParticipant co-casts; bulk meetups_triples are subject/time stubs).
+2. Kept meetups with confidence ≥ 0.95, ≥2 Person-typed participants, and at least one biography-list musician.
+3. Dropped places and denylisted false persons; kept the giant component with degree ≥ 2; decades 1750–1950 as segments.
+4. Resolved DBpedia resource titles to Wikidata QIDs via Wikipedia pageprops.
+5. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (982 nodes and 3431 ties in, 974 and 3423 out).
+6. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+7. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `mmkg.meta.json`, loaded only at the reveal.*
 
 by **Wikidata contributors** (<https://www.wikidata.org/>)
 

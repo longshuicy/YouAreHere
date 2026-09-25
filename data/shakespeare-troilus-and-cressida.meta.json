@@ -38,6 +38,8 @@
     "occupation": "military leader"
    },
    "line": "Military leader.",
+   "wiki": "Aeneas",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -46,9 +48,7 @@
      "name": "Aaron",
      "tied": 0
     }
-   },
-   "wiki": "Aeneas",
-   "wikiLang": "en"
+   }
   },
   "2": {
    "facts": {
@@ -533,6 +533,8 @@
     "corpusSize": 37,
     "gender": "Male"
    },
+   "wiki": "Troilus",
+   "wikiLang": "en",
    "signals": {
     "lookAlikes": 114,
     "nearest": {
@@ -541,9 +543,7 @@
      "name": "Titania",
      "tied": 0
     }
-   },
-   "wiki": "Troilus",
-   "wikiLang": "en"
+   }
   },
   "27": {
    "facts": {
@@ -2100,5 +2100,7 @@
     "Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes."
    ]
   }
- ]
+ ],
+ "workWiki": "Troilus and Cressida",
+ "workWikiLang": "en"
 }

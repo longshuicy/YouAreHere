@@ -25,6 +25,7 @@ from .ingest import (
     iliad,
     lesmiserables,
     lotr,
+    mmkg,
     moviegalaxies,
     odyssey,
     pride,
@@ -124,6 +125,13 @@ SOURCES: dict[str, Source] = {
         load=lotr.load,
         # Paragraph co-occurrence is already a deliberate unit of the text;
         # one shared paragraph is enough, same floor as ASOIAF's word window.
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "mmkg": Source(
+        name="mmkg",
+        load=mmkg.load,
+        # A meetup naming two people is already a deliberate extraction unit.
         min_edge_weight=1,
         min_degree=2,
     ),
