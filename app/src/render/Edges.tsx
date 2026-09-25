@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { edgeKey, timesFigure, type VisibleEdge } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { REMOTE_OPACITY, tieColor, tieWidth } from './scales';
@@ -18,11 +19,22 @@ interface Props {
   /** The node the lit ties run out from, so the figure can be set at the far
    * end of them, clear of that node's open menu. */
   litFrom?: number | null;
+  /** Prose for a visible tie from the enrichment sidecar — free clue on hover. */
+  edgeLine?: (a: number, b: number) => string | null;
 }
 
 /** Ties meet the circumference of a node, never its centre — a line running
  * under a hollow circle reads as a line crossing it, not as a tie to it. */
-export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom }: Props) {
+export function Edges({
+  edges,
+  positions,
+  radiusOf,
+  animate = true,
+  lit,
+  litFrom,
+  edgeLine,
+}: Props) {
+  const [hovered, setHovered] = useState<string | null>(null);
   const litAny = lit !== undefined && lit.size > 0;
   // Carried map underneath, this start's walk over it.
   const ordered = edges.some((e) => e.faded)
@@ -45,14 +57,20 @@ export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom
         const ux = dx / len;
         const uy = dy / len;
 
-        const isLit = !e.horizon && litAny && lit!.has(edgeKey(e));
+        const key = edgeKey(e);
+        const isLit = !e.horizon && litAny && lit!.has(key);
+        const isHovered = hovered === key;
+        const line =
+          !e.horizon && edgeLine ? edgeLine(e.source, e.target) : null;
         const x1 = a.x + ux * gapA;
         const y1 = a.y + uy * gapA;
         const x2 = b.x - ux * gapB;
         const y2 = b.y - uy * gapB;
+        const midX = (x1 + x2) / 2;
+        const midY = (y1 + y2) / 2;
 
         return (
-          <g key={edgeKey(e)}>
+          <g key={key}>
             <line
               x1={x1}
               y1={y1}
@@ -67,15 +85,30 @@ export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom
                 transition: animate
                   ? 'x1 400ms ease-out, y1 400ms ease-out, x2 400ms ease-out, y2 400ms ease-out, stroke-width 300ms ease-out, stroke 300ms ease-out, opacity 200ms ease-out'
                   : 'none',
+                pointerEvents: 'none',
               }}
             />
+            {/* Fat invisible hit target — drawn ties are often a pixel or two. */}
+            {line && (
+              <line
+                x1={x1}
+                y1={y1}
+                x2={x2}
+                y2={y2}
+                stroke="transparent"
+                strokeWidth={14}
+                style={{ cursor: 'default' }}
+                onPointerEnter={() => setHovered(key)}
+                onPointerLeave={() => setHovered((prev) => (prev === key ? null : prev))}
+              />
+            )}
             {/* The figure the thickness stands for, set in the analytical voice
                 and only while the tie is lit. Two of them side by side is the
                 whole reason it is here: 47× against 12× settles in a
                 glance what two strokes a pixel apart never will. The sign is
                 *times* in every world, because the real unit — verses, scenes,
                 bills — would say which world this is. */}
-            {isLit && !e.horizon && (
+            {isLit && !e.horizon && !isHovered && (
               <text
                 // Two thirds of the way along rather than halfway: the tie is
                 // lit from a node whose menu is open over the near end, and a
@@ -95,6 +128,25 @@ export function Edges({ edges, positions, radiusOf, animate = true, lit, litFrom
                 }}
               >
                 {timesFigure(e.weight)}
+              </text>
+            )}
+            {isHovered && line && (
+              <text
+                x={midX}
+                y={midY - 6}
+                textAnchor="middle"
+                style={{
+                  font: '12px var(--serif)',
+                  fontStyle: 'italic',
+                  fill: 'var(--body)',
+                  paintOrder: 'stroke',
+                  stroke: 'var(--paper)',
+                  strokeWidth: 4,
+                  strokeLinejoin: 'round',
+                  pointerEvents: 'none',
+                }}
+              >
+                {line}
               </text>
             )}
           </g>

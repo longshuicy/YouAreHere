@@ -82,6 +82,7 @@ export function KeyOverlay({ onClose }: Props) {
           <div style={{ color: 'var(--ink)' }}>Read the graph.</div>
           <div style={{ marginTop: 18 }}>Larger nodes are in more of the world.</div>
           <div>Thicker lines mean stronger ties.</div>
+          <div>Hover a tie to read what the two share.</div>
           <div>An expanded node keeps its initial, and a rule as long as its name.</div>
           <div style={{ marginTop: 18, color: 'var(--ink)' }}>Guessing is free, and it answers back.</div>
           <div>Name anyone and you are told how far from you they stand.</div>

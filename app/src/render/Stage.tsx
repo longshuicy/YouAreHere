@@ -25,6 +25,8 @@ interface Props {
   onOpenGuess?: () => void;
   /** Fact lines for nodes whose facts have been bought, keyed by node index. */
   factLines?: Map<number, string>;
+  /** Free clue text for a visible tie, from the enrichment sidecar. */
+  edgeLine?: (a: number, b: number) => string | null;
   dimmed?: boolean;
   interactive?: boolean;
   showYouCaption?: boolean;
@@ -51,6 +53,7 @@ export function Stage({
   hasFacts,
   onOpenGuess,
   factLines,
+  edgeLine,
   dimmed,
   interactive = true,
   showYouCaption = false,
@@ -317,6 +320,7 @@ export function Stage({
             animate={!dragging}
             lit={litEdges}
             litFrom={lit?.from ?? null}
+            edgeLine={interactive && !dimmed ? edgeLine : undefined}
           />
           <Nodes
             nodes={graph.nodes}

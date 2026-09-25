@@ -19,6 +19,8 @@ interface Props {
   suggest: (query: string) => string[];
   hasFacts: (i: number) => boolean;
   factLines: Map<number, string>;
+  /** Free clue for a visible tie when the player hovers it. */
+  edgeLine?: (a: number, b: number) => string | null;
   /** Your place in this world by number of ties, said in words. Free. */
   standing: string;
   onOpenGuess: () => void;
@@ -43,6 +45,7 @@ export function Explore({
   suggest,
   hasFacts,
   factLines,
+  edgeLine,
   standing,
   onOpenGuess,
   onOpenKey,
@@ -70,6 +73,7 @@ export function Explore({
           hasFacts={hasFacts}
           onOpenGuess={onOpenGuess}
           factLines={factLines}
+          edgeLine={edgeLine}
         />
       </div>
 

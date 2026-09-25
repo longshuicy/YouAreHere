@@ -272,9 +272,7 @@ export function FullGraph({
               {named?.get(hoveredNode.i) ?? hoveredNode.n}
             </text>
             )}
-            {/* What the tie between you and them was made of. The sidecar has
-                carried a written line for every tie in the six enriched worlds
-                since the data existed, and nothing had ever read one. */}
+            {/* What the tie between you and them was made of. */}
             {mine.neighbours.has(hoveredNode.i) && tieLine?.(hoveredNode.i) && (
               <text
                 x={hoveredNode.x}

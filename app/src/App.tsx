@@ -327,6 +327,13 @@ export default function App() {
     return out;
   }, [session, meta]);
 
+  /** Free clue text for a visible tie. Same sidecar as character readings. */
+  const edgeLine = useMemo(() => {
+    const edges = meta?.edges ?? {};
+    return (a: number, b: number) =>
+      edges[`${a}-${b}`]?.line ?? edges[`${b}-${a}`]?.line ?? null;
+  }, [meta]);
+
   /** Each mapped world's progress, sized against its cast from the index so it
    * is available before that world's own file has loaded. */
   const progress = useMemo(() => {
@@ -712,6 +719,7 @@ export default function App() {
           suggest={suggest}
           hasFacts={hasFacts}
           factLines={factLines}
+          edgeLine={edgeLine}
           standing={standing}
           onOpenGuess={() => dispatch({ type: 'OPEN_GUESS' })}
           onOpenKey={openKey}
