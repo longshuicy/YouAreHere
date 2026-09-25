@@ -113,6 +113,18 @@ export function beginResidence(
 }
 
 /**
+ * Copy this start's learning onto the map without ending the start.
+ *
+ * A correct claim, a struck name, an expansion — anything that should already
+ * be on the shelf and in the chooser's progress before the player leaves.
+ * Ending the start still goes through absorbStart / absorbUnfinished, which
+ * record the ledger and, on a walk-away, the stranger left behind.
+ */
+export function syncKnowledge(residence: Residence, session: Session): Residence {
+  return mergeKnowledge(residence, session, '');
+}
+
+/**
  * Fold a start the player left before finding themselves.
  *
  * What they bought stays on the map, and what it cost stays on the ledger —

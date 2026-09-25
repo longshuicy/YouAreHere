@@ -18,6 +18,7 @@ import {
   saveActiveWorld,
   saveResidences,
   saveStart,
+  syncKnowledge,
   unnamedCount,
   wakeInResidence,
   type Residence,
@@ -147,9 +148,11 @@ export default function App() {
 
   /** Put a world's map on the shelf, replacing whatever it held for that world. */
   const shelve = (next: Residence) => {
-    const all = new Map(residences).set(next.universe, next);
-    setResidences(all);
-    saveResidences(all);
+    setResidences((prev) => {
+      const all = new Map(prev).set(next.universe, next);
+      saveResidences(all);
+      return all;
+    });
   };
 
   /** Live in this map: a refresh comes back to it. */
@@ -164,6 +167,43 @@ export default function App() {
     setResidenceClosed(false);
     saveActiveWorld(null);
     clearStart();
+  };
+
+  /**
+   * Write this round onto the world's map as soon as the world is known.
+   *
+   * Without this, a correct claim, a struck name, or a reveal only landed on
+   * the shelf when the player left for somebody else — so the chooser and the
+   * gallery kept saying the world was untouched, and a refresh mid-reveal
+   * threw the start away. Reveal commits the start; anything earlier only
+   * syncs what has been learned, so walking away can still record the ledger
+   * and the stranger left behind.
+   */
+  const commitRound = (next: Session, u: Universe) => {
+    if (residenceClosed) return;
+    const known = residence !== null || next.phase === 'reveal' || worldIsKnown(next);
+    if (!known) return;
+    if (next.phase === 'cold') return;
+
+    const shelf = residences.get(u.id);
+    const yourName = u.nodes.find((n) => n.i === next.you)?.n ?? '';
+
+    if (next.phase === 'reveal') {
+      // Already folded in: a re-dispatch must not push the same start twice.
+      if (residence?.selves.includes(next.you) || shelf?.selves.includes(next.you)) {
+        const done = residence?.selves.includes(next.you) ? residence! : shelf!;
+        if (residence !== done) enterResidence(done);
+        return;
+      }
+      const map = absorbStart(residence ?? shelf ?? emptyResidence(u), next, yourName);
+      shelve(map);
+      enterResidence(map);
+      return;
+    }
+
+    const map = syncKnowledge(residence ?? shelf ?? emptyResidence(u), next);
+    shelve(map);
+    enterResidence(map);
   };
 
   useEffect(() => {
@@ -239,8 +279,10 @@ export default function App() {
   const reduce = useMemo(() => (universe ? makeReducer(universe) : null), [universe]);
 
   const dispatch = (action: Parameters<NonNullable<typeof reduce>>[1]) => {
-    if (!reduce || !session) return;
-    setSession(reduce(session, action));
+    if (!reduce || !session || !universe) return;
+    const next = reduce(session, action);
+    setSession(next);
+    commitRound(next, universe);
   };
 
   const graph = useMemo(() => {
@@ -578,11 +620,21 @@ export default function App() {
     if (boot.status !== 'ready' || pendingWorld) return;
     setPendingWorld(entry.id);
     try {
+      // Park this round first. Choosing another world used to drop whatever the
+      // current start had earned — claims, expansions, a reveal not yet folded
+      // in — because only Another life / Any world went through roundAsMap.
+      const kept = roundAsMap();
+      const shelf = kept ? new Map(residences).set(kept.universe, kept) : residences;
+      if (kept) {
+        setResidences(shelf);
+        saveResidences(shelf);
+      }
+
       const next = loaded.get(entry.id) ?? (await fetchUniverse(entry.file));
       setLoaded((prev) => (prev.has(next.id) ? prev : new Map(prev).set(next.id, next)));
 
       // A world with a paused map resumes it rather than starting cold.
-      const paused = residences.get(next.id);
+      const paused = shelf.get(next.id);
       if (paused && !isComplete(next, paused)) {
         const resumed = pickNextStart(next, paused, targetEase);
         if (resumed) {
