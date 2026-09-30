@@ -55,6 +55,9 @@ partial index.
   where plays genuinely interlock: the English histories are one world, and so are
   the two Roman plays.
 - **Star Wars** — 103 characters, tied when they speak in the same scene.
+- **The Stormlight Archive** — 579 characters, tied when the same paragraph of a
+  fan-wiki character article links to both. The first Cosmere world, and the first
+  CC BY-SA one; see `pipeline/raw/stormlight/SOURCE.md`.
 ## Licensing
 
 The code and the data are licensed separately, and the data is the restrictive half.

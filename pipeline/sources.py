@@ -34,6 +34,7 @@ from .ingest import (
     shiji,
     shuihuzhuan,
     starwars,
+    stormlight,
     xiyouji,
 )
 
@@ -193,6 +194,12 @@ SOURCES: dict[str, Source] = {
     "starwars": Source(
         name="starwars",
         load=starwars.load,
+        min_edge_weight=1,
+        min_degree=2,
+    ),
+    "stormlight": Source(
+        name="stormlight",
+        load=stormlight.load,
         min_edge_weight=1,
         min_degree=2,
     ),

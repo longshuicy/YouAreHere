@@ -1015,6 +1015,28 @@
    }
   },
   {
+   "id": "stormlight",
+   "file": "stormlight.json",
+   "title": "The Stormlight Archive",
+   "nodes": 579,
+   "edges": 2475,
+   "playable": {
+    "total": 227,
+    "histogram": [
+     0,
+     0,
+     11,
+     101,
+     91,
+     16,
+     7,
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  {
    "id": "xiyouji",
    "file": "xiyouji.json",
    "title": "西遊記",

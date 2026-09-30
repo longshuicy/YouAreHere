@@ -320,7 +320,8 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | Pride and Prejudice | Chapter co-occurrence GEXF | Shipped | NGG / UCD, CC BY-NC 4.0. 61 chapters. See `pipeline/raw/pride/SOURCE.md`. |
 | The Godfather | Film dialogue GEXF (Moviegalaxies) | Shipped | CC0. Parts I–II. See `pipeline/raw/moviegalaxies/SOURCE.md`. |
 | Indiana Jones | Film dialogue GEXF (Moviegalaxies) | Shipped | CC0. Temple of Doom + Last Crusade (Raiders/Skull GEXFs misattributed upstream). See `pipeline/raw/moviegalaxies/SOURCE.md`. |
-| Musical Meetups (MMKG) | Biography meetup co-participation | Shipped | Polifonia, CC BY 4.0. sample_1k only (bulk triples lack participants). See `pipeline/raw/mmkg/SOURCE.md`. || 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
+| Musical Meetups (MMKG) | Biography meetup co-participation | Shipped | Polifonia, CC BY 4.0. sample_1k only (bulk triples lack participants). See `pipeline/raw/mmkg/SOURCE.md`. |
+| The Stormlight Archive | Paragraph co-linking in fan-wiki character articles | Shipped | Stormlight Archive Wiki (Fandom), CC BY-SA 3.0. First Cosmere world; licensed per world. See `pipeline/raw/stormlight/SOURCE.md`. || 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
 
 ### Licensing

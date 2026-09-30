@@ -918,6 +918,7 @@ WORK_PAGES = {
     "shiji": "Q272530",
     "shuihuzhuan": "Q70827",
     "starwars": "Q462",  # Star Wars
+    "stormlight": "Q7766706",  # The Stormlight Archive
     "xiyouji": "Q70784",
 }
 

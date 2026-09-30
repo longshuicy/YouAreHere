@@ -778,6 +778,43 @@ Used as follows:
 1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
+## The Stormlight Archive
+
+*Shipped as `stormlight.json` — 579 characters, 2475 ties.*
+
+"Stormlight Archive Wiki — character articles" by **Stormlight Archive Wiki contributors** (<https://stormlightarchive.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://stormlightarchive.fandom.com/wiki/Category:Characters>
+- Project: <https://stormlightarchive.fandom.com/wiki/Cosmere>
+- Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
+- Retrieved: 2026-09-30
+
+Changes made to the original data:
+
+1. Read the wikitext of every article in Category:Characters through the MediaWiki API; no article text is reproduced.
+2. Tied two characters when one paragraph of a character article links to both, counting an article's subject as present throughout their own article; weight is the number of such paragraphs.
+3. Dropped non-narrative sections (gallery, references, notes, trivia, quotes).
+4. Took each tie's books from the {{Ref}} chapter citations in the paragraphs behind it.
+5. Resolved wiki redirects to characters and used them, with the infobox aliases, as aliases.
+6. Took gender and nationality from the article infobox as discrete facts.
+7. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (701 nodes and 2591 ties in, 579 and 2475 out).
+8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+9. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Stormlight Archive Wiki — character infoboxes
+
+*Shipped separately as `stormlight.meta.json`, loaded only at the reveal.*
+
+by **Stormlight Archive Wiki contributors** (<https://stormlightarchive.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://stormlightarchive.fandom.com/wiki/Category:Characters>
+- Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took gender and nationality as discrete facts; the reveal line is composed here, not copied or paraphrased from the article.
+
 ## 西遊記
 
 *Shipped as `xiyouji.json` — 69 characters, 221 ties.*
@@ -819,7 +856,7 @@ Used as follows:
 
 ## What these terms require of this project
 
-**ShareAlike** (CC-BY-NC-SA-4.0). A world built from ShareAlike data is an
+**ShareAlike** (CC-BY-NC-SA-4.0, CC-BY-SA-3.0). A world built from ShareAlike data is an
 adaptation and is distributed under its source's terms — each world under its own, as
 listed in `LICENSE` here, which governs `/data` specifically and not the application
 source code. ShareAlike material is never combined with data under different terms.

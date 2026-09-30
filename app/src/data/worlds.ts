@@ -48,6 +48,8 @@ const FALLBACK: Record<string, string> = {
   shuihuzhuan:
     '一百零八個好漢被逼上梁山，一座水泊裡的義軍朝廷。',
   starwars: 'A galaxy of pilots, senators and smugglers, across seven films.',
+  stormlight:
+    'A storm-scoured continent, a war on shattered plains, and ancient oaths being sworn again.',
   xiyouji:
     '取經的路上，一僧三徒，一路上的神佛與妖魔。',
 
@@ -125,6 +127,7 @@ const FAMILIARITY: Record<string, 0 | 1 | 2> = {
   mmkg: 1,
   iliad: 1,
   odyssey: 1,
+  stormlight: 1,
   // Nameable, but only to Americans — the same kind of accident as the five
   // below, and it sits a band down for the same reason.
   congress: 1,

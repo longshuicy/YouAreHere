@@ -11,7 +11,9 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from ..canon.licenses import FACTUAL
 from ..canon.types import CanonicalGraph
+from ..ingest import stormlight
 from . import anapi, folger, knuth, legislators, wikidata
 
 RAW = Path(__file__).resolve().parent.parent / "raw"
@@ -77,6 +79,8 @@ def meta_sources_for(name: str) -> list[tuple]:
         ]
     if name == "starwars":
         return [(wikidata.ATTRIBUTION, wikidata.LICENSE)]
+    if name == "stormlight":
+        return [(stormlight.INFOBOX_ATTRIBUTION, FACTUAL)]
     return []
 
 
@@ -130,6 +134,9 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
 
         if source == "pride":
             _apply_pride(record, node)
+
+        if source == "stormlight":
+            _apply_stormlight(record, node)
 
         qid = qid_by_node.get(node.id)
         if qid and qid in wd_by_qid:
@@ -236,6 +243,13 @@ def _apply_lotr(record: dict, node) -> None:
         record["species"] = species
     culture = node.metadata.get("culture")
     if culture and "culture" not in record and "species" not in record:
+        record["culture"] = culture
+
+
+def _apply_stormlight(record: dict, node) -> None:
+    """Nationality travels on the node from the wiki infobox."""
+    culture = node.metadata.get("culture")
+    if culture and "culture" not in record:
         record["culture"] = culture
 
 

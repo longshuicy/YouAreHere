@@ -83,6 +83,18 @@ CC_BY_SA_4_0 = License(
     ),
 )
 
+CC_BY_SA_3_0 = License(
+    name="Creative Commons Attribution-ShareAlike 3.0 Unported",
+    spdx="CC-BY-SA-3.0",
+    url="https://creativecommons.org/licenses/by-sa/3.0/",
+    allows_commercial_use=True,
+    share_alike=True,
+    deed_summary=(
+        "Credit the creator, link the licence, and state that changes were made. "
+        "Adaptations must carry the same licence."
+    ),
+)
+
 MIT = License(
     name="MIT License",
     spdx="MIT",
