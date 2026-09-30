@@ -363,6 +363,15 @@ button {
   background: transparent;
 }
 
+/* The credit line in the ledger breakdown: the only entry that subtracts, and
+   so the only one already set in accent. It is a class rather than an inline
+   style because lighting a line writes an inline colour and then clears it —
+   inline, clearing would drop this line to the grey of its siblings instead of
+   returning it to accent. */
+.ledger-credit {
+  color: var(--accent);
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition-duration: 0.01ms !important;

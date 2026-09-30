@@ -661,6 +661,15 @@ export function saveActiveWorld(id: UniverseId | null): void {
  * bookmark of a running puzzle hands over the answer; local storage is this
  * browser's own memory of what it was in the middle of.
  */
+/**
+ * The ledger as it comes back off the disk, which is not the ledger as it is
+ * written today: a start saved before the carried-paper toggle existed has no
+ * `declutters` in it at all. Saying so in the type is what lets the default on
+ * read mean something — typed as a whole `Ledger`, the compiler rightly points
+ * out that a spread of it can never leave the default standing.
+ */
+type StoredLedger = Omit<Ledger, 'declutters'> & Partial<Pick<Ledger, 'declutters'>>;
+
 interface StoredStart {
   universe: UniverseId;
   you: NodeIndex;
@@ -669,7 +678,7 @@ interface StoredStart {
   ease: number | null;
   storyRevealed: boolean;
   worldChosen: boolean;
-  ledger: Ledger;
+  ledger: StoredLedger;
   guesses: Session['guesses'];
   known: {
     visible: NodeIndex[];
@@ -761,7 +770,7 @@ export function loadStart(universe: UniverseId): Session | null {
       lastClaim: null,
       // A start that already bought the carried paper resumes with it out.
       // One that never did resumes where every round begins: without it.
-      hideBackground: !(s.ledger?.declutters > 0),
+      hideBackground: !((s.ledger?.declutters ?? 0) > 0),
     };
   } catch {
     return null;

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import type { StrongestTie, VisibleNode } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { applyZoom, type ZoomState } from '../graph/zoom';
@@ -8,6 +8,7 @@ import type { NodeIndex } from '../types';
 import { availableActionsFor, canClaim } from '../engine/session';
 import { nodeRadius } from './scales';
 import { cardinal, timesFigure } from '../graph/project';
+import { markSpendOrigin } from './spendFlight';
 
 interface Props {
   node: VisibleNode | null;
@@ -84,6 +85,7 @@ function ClaimRow({
 }) {
   const [open, setOpen] = useState(false);
   const [text, setText] = useState('');
+  const rowRef = useRef<HTMLDivElement>(null);
 
   // A free move that demands you spell a half-remembered name from cold is not
   // free, it is a spelling test. The guess screen has always suggested; there
@@ -93,12 +95,16 @@ function ClaimRow({
 
   const submit = (value = text) => {
     if (!value.trim()) return;
+    // A claim is free when it is wrong and a credit when it is right, and this
+    // row cannot tell which. It leaves the place; the ledger decides whether
+    // anything flies from it.
+    markSpendOrigin(rowRef.current);
     onClaim(node.i, value);
     setText('');
   };
 
   return (
-    <div style={{ borderBottom: ruled ? '1px solid var(--rule)' : 'none' }}>
+    <div ref={rowRef} style={{ borderBottom: ruled ? '1px solid var(--rule)' : 'none' }}>
       {/* Names already refused here stay on the page, struck through, so the
           same wrong answer is never paid for twice by accident. */}
       {node.rejected.length > 0 && (
@@ -480,6 +486,8 @@ export function NodeMenu({
               key={a}
               onClick={(e) => {
                 e.stopPropagation();
+                // The row the price is printed on is where the mark lifts from.
+                markSpendOrigin(e.currentTarget);
                 handlers[a](node.i);
               }}
               style={{
