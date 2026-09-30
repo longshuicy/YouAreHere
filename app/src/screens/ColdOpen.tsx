@@ -292,21 +292,28 @@ export function ColdOpen({
               }}
             >
               <span className="mono" style={{ fontSize: 10, letterSpacing: '0.2em', color: 'var(--unknown)', whiteSpace: 'nowrap' }}>
-                OBSCURE
+                EASY
               </span>
+              {/* Stored as ease — 1 is findable — and read out as difficulty,
+                  which runs the other way: easy on the left, hard on the
+                  right, because that is the direction every difficulty scale
+                  a player has ever met increases in. The two words the scale
+                  used to carry named the *start* rather than the ask, and a
+                  reader had to work out for themselves which end was the
+                  hard one. */}
               <input
                 className="ease"
                 type="range"
                 min={0}
                 max={100}
                 step={1}
-                value={Math.round(targetEase * 100)}
-                aria-label="How findable a stranger to wake as"
-                onChange={(e) => onChooseEase(Number(e.target.value) / 100)}
+                value={100 - Math.round(targetEase * 100)}
+                aria-label="How hard a stranger to wake as"
+                onChange={(e) => onChooseEase((100 - Number(e.target.value)) / 100)}
                 style={{ flex: 1, minHeight: 44 }}
               />
               <span className="mono" style={{ fontSize: 10, letterSpacing: '0.2em', color: 'var(--unknown)', whiteSpace: 'nowrap' }}>
-                FINDABLE
+                HARD
               </span>
             </div>
         )}

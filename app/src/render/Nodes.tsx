@@ -20,6 +20,10 @@ interface Props {
   /** Suppressed mid-drag: a node that eases while its ties track the pointer
    * exactly reads as the edge dragging the node along behind it. */
   animate?: boolean;
+  /** When set — the state a round begins in — carried-over paper and horizon
+   * markers are omitted entirely rather than drawn at reduced opacity. The
+   * frontier ring is unaffected: it dims, as always, being live ground. */
+  hideBackground?: boolean;
 }
 
 export function Nodes({
@@ -35,6 +39,7 @@ export function Nodes({
   showYouCaption = false,
   animate = true,
   lit,
+  hideBackground = false,
 }: Props) {
   // In a residence the carried map is what is set back; this start's own walk
   // is drawn in full, frontier included, so the two never compete in grey.
@@ -46,8 +51,10 @@ export function Nodes({
       {ordered.map((n) => {
         const p = positions.get(n.i);
         if (!p) return null;
+        if (hideBackground && n.faded) return null;
         const r = n.isYou ? 8.5 : nodeRadius(n.presence);
         if (n.horizon) {
+          if (hideBackground) return null;
           return (
             <g
               key={n.i}
@@ -64,6 +71,8 @@ export function Nodes({
             </g>
           );
         }
+        // The frontier ring is live ground, not background — it stays even
+        // with the toggle on, same as it always dims rather than vanishes.
         const isFrontier = !residence && !n.isYou && !n.expanded && n.hop === maxHop;
         return (
           <g

@@ -1,6 +1,6 @@
 import { Stage } from '../render/Stage';
 import { Ledger } from '../render/Ledger';
-import { BrandCluster, type StartLinks, CHROME_PADDING, GiveUpLinks, HelpLink } from '../render/MarginLinks';
+import { BrandCluster, type StartLinks, CHROME_PADDING, GiveUpLinks, HelpLink, BackgroundToggle } from '../render/MarginLinks';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -27,6 +27,7 @@ interface Props {
   onOpenKey: () => void;
   onReveal: () => void;
   onRevealStory: () => void;
+  onToggleBackground: () => void;
   startLinks: StartLinks;
   /** Shown in place of the question line once the story has been guessed right. */
   universeTitle: string;
@@ -51,11 +52,16 @@ export function Explore({
   onOpenKey,
   onReveal,
   onRevealStory,
+  onToggleBackground,
   startLinks,
   universeTitle,
   worldBlurb,
 }: Props) {
   const worldKnown = worldIsKnown(session);
+  // Nothing to hide on a first walk with no residence behind it: the toggle
+  // is a control over paper that is not on the stage yet, so it does not
+  // show until there is carried-over paper or a horizon count to act on.
+  const hasBackground = graph.nodes.some((n) => n.faded || n.horizon) || graph.edges.some((e) => e.faded || e.horizon);
 
   return (
     <div style={{ position: 'relative', height: '100dvh', overflow: 'hidden' }}>
@@ -74,6 +80,7 @@ export function Explore({
           onOpenGuess={onOpenGuess}
           factLines={factLines}
           edgeLine={edgeLine}
+          hideBackground={session.hideBackground}
         />
       </div>
 
@@ -155,11 +162,22 @@ export function Explore({
             >
               I've found myself
             </button>
-            <GiveUpLinks
-              answerCost={COST.answer}
-              onReveal={onReveal}
-              onRevealStory={worldKnown ? undefined : onRevealStory}
-            />
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 22, flexWrap: 'wrap', justifyContent: 'flex-end', pointerEvents: 'auto' }}>
+              {hasBackground && (
+                <BackgroundToggle
+                  hidden={session.hideBackground}
+                  unlocked={session.ledger.declutters > 0}
+                  cost={COST.declutter}
+                  onToggle={onToggleBackground}
+                />
+              )}
+              <GiveUpLinks
+                answerCost={COST.answer}
+                storyCost={COST.story}
+                onReveal={onReveal}
+                onRevealStory={worldKnown ? undefined : onRevealStory}
+              />
+            </div>
           </div>
         </div>
       </div>

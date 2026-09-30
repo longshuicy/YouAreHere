@@ -54,10 +54,21 @@ export type Phase = 'cold' | 'explore' | 'guess' | 'reveal';
  *
  * Priced far above `name` rather than a little above it. Three buys somebody
  * else; this buys you, which is the whole question, and it is the one name no
- * other action sells at any price. At ten a head there is no version of
+ * other action sells at any price. At twenty a head there is no version of
  * working a world by giving up that is not worse than playing it.
+ *
+ * `declutter` buys back the carried-over paper — what earlier starts in this
+ * residence opened, which a round begins without. It is priced because it is
+ * information: another self's walk names strangers this self has not met and
+ * says where the world is already known to run out. A round that works from
+ * its own ring alone is the honest one, so that is the round you are given,
+ * and the older paper is a purchase like any other.
+ *
+ * Charged once a round, like `story` and `answer`. After the round has paid,
+ * putting the paper away and taking it back out again is free: the leak is in
+ * having seen it, and that cannot be un-seen by hiding it.
  */
-export const COST = { expand: 1, facts: 2, name: 3, story: 2, answer: 10 } as const;
+export const COST = { expand: 1, facts: 2, name: 3, story: 2, answer: 20, declutter: 3 } as const;
 
 /** What a correct claim gives back. Held apart from COST because it is a
  * refund, not a price, and floors the total at zero rather than driving it
@@ -105,6 +116,8 @@ export interface Ledger {
    * the player's mistakes and nothing else. The struck-through names on the
    * node they were offered to are the record that matters. */
   recognitions: number;
+  /** 0 or 1 — the carried-over paper is bought back once a round. */
+  declutters: number;
 }
 
 /** What you paid, before any correct claim is taken off. */
@@ -114,7 +127,8 @@ export function clueSpent(ledger: Ledger): number {
     ledger.facts * COST.facts +
     ledger.names * COST.name +
     ledger.stories * COST.story +
-    ledger.answers * COST.answer
+    ledger.answers * COST.answer +
+    ledger.declutters * COST.declutter
   );
 }
 
@@ -174,6 +188,11 @@ export interface Session {
   lastGuess: GuessRecord | null;
   /** The last claim resolved, for the menu to report on. */
   lastClaim: { node: NodeIndex; query: string; correct: boolean } | null;
+  /** Whether the carried-over paper and horizon count are being withheld.
+   * True at the start of every round: a round opens on its own ring and buys
+   * the older paper back with `COST.declutter` if it wants it. The current
+   * ring is never affected either way. See `ledger.declutters`. */
+  hideBackground: boolean;
 }
 
 export type Action =
@@ -185,7 +204,8 @@ export type Action =
   | { type: 'OPEN_GUESS' }
   | { type: 'CLOSE_GUESS' }
   | { type: 'GUESS'; universe: UniverseId; characterQuery: string; characterIndex: NodeIndex | null }
-  | { type: 'REVEAL' };
+  | { type: 'REVEAL' }
+  | { type: 'TOGGLE_BACKGROUND' };
 
 function neighborsOf(universe: Universe, node: NodeIndex): NodeIndex[] {
   const out: NodeIndex[] = [];
@@ -260,10 +280,12 @@ export function initSession(
       hop,
       parent,
     },
-    ledger: { expansions: 0, facts: 0, names: 0, stories: 0, answers: 0, recognitions: 0 },
+    ledger: { expansions: 0, facts: 0, names: 0, stories: 0, answers: 0, recognitions: 0, declutters: 0 },
     guesses: [],
     lastGuess: null,
     lastClaim: null,
+    // A round opens on its own ring. Older paper is bought, not given.
+    hideBackground: true,
   };
 }
 
@@ -450,26 +472,25 @@ export function makeReducer(universe: Universe) {
           return { ...session, phase: 'reveal', guesses, lastGuess: record };
         }
 
-        // Right piece, wrong place: you produced a real name from this book and
-        // put it on yourself. The person is there on the paper — so they are
-        // labelled, free, and you have one fewer stranger to account for.
-        let known = session.known;
-        if (
-          storyCorrect &&
-          action.characterIndex !== null &&
-          session.known.visible.has(action.characterIndex) &&
-          !session.known.named.has(action.characterIndex)
-        ) {
-          const named = new Map(known.named);
-          named.set(action.characterIndex, universe.nodes.find((n) => n.i === action.characterIndex)?.n ?? '');
-          const recognised = new Set(known.recognised);
-          recognised.add(action.characterIndex);
-          const initials = new Map(known.initials);
-          initials.delete(action.characterIndex);
-          known = { ...known, named, recognised, initials };
+        // Wrong guess: nothing on the graph changes. A guess only marks a node
+        // when it lands on the intended goal — matching some other real name in
+        // this book is not that, and labelling the node anyway was a leak of
+        // information a wrong guess should not pay out.
+        return { ...session, phase: 'guess', guesses, lastGuess: record };
+      }
+      case 'TOGGLE_BACKGROUND': {
+        // The round starts hidden, so the first flip is always the reveal,
+        // and the reveal is what the charge is for. Afterwards the paper can
+        // be put away and taken back out for nothing: what was bought was
+        // seeing it, and hiding it again does not return that.
+        if (session.ledger.declutters === 0) {
+          return {
+            ...session,
+            hideBackground: !session.hideBackground,
+            ledger: { ...session.ledger, declutters: 1 },
+          };
         }
-
-        return { ...session, phase: 'guess', known, guesses, lastGuess: record };
+        return { ...session, hideBackground: !session.hideBackground };
       }
       case 'REVEAL': {
         // Charged once. Reaching the reveal by guessing right never comes

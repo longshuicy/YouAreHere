@@ -42,8 +42,16 @@ interface Props {
  * far end, never the full span, so a stop drawn at a flat percentage would sit
  * a few pixels off the mark it is supposed to stop.
  *
- * OBSCURE is set in unknown grey until the range actually reaches it, and comes
+ * HARD is set in unknown grey until the range actually reaches it, and comes
  * to full ink when it does. That happens once in a world.
+ *
+ * The stop is drawn ABOVE the bar, not on it. On it is where the thumb is, and
+ * at the start of a residence those are the same place: the reach is a sliver
+ * at the easy end, the dial opens parked against it, and a hairline on the
+ * track went under the 9px circle sitting on the same few pixels. A bound the
+ * player cannot see is a bound that reads as a broken control. Above the bar it
+ * is never occluded, at any reach, at any value — and it carries its own short
+ * label, so the mark does not have to be decoded from position alone.
  *
  * A line under it says what the bound is, and goes away once the scale reaches
  * the whole of itself. Resistance alone does not distinguish "this opens up as
@@ -58,11 +66,101 @@ export function EaseDial({ residence, cast, value, onChange }: Props) {
   const reach = 1 - floor;
   const at = Math.max(floor, Math.min(1, value));
   const reached = reach >= 0.98;
-  /** Where a value sits on the bar, in the thumb's own coordinates. */
+  /** Where a value sits on the bar, in the thumb's own coordinates. Ease runs
+   * 0 obscure to 1 findable; the bar runs easy to hard, so a value's position
+   * is its complement. The stop therefore sits at `reach`, and everything
+   * beyond it — the hard end — is what the map has not earned yet. */
   const mark = (v: number) => `calc(${THUMB / 2}px + ${v} * (100% - ${THUMB}px))`;
 
   const row = (
     <div style={{ display: 'flex', alignItems: 'center', gap: 12, paddingTop: 12 }}>
+      <span
+        className="mono"
+        style={{ fontSize: 9, letterSpacing: '0.2em', textTransform: 'uppercase', whiteSpace: 'nowrap' }}
+      >
+        Easy
+      </span>
+
+      {/* 34 tall: the input owns the bottom 22, which puts the bar — and the
+          thumb centred on it — at 23. Everything the thumb must not cover is
+          drawn above 18, which is where the top of the thumb is. */}
+      <span style={{ position: 'relative', flex: 1, minWidth: 90, height: 34 }}>
+        {/* Reachable. */}
+        <span
+          style={{
+            position: 'absolute',
+            left: 0,
+            top: 23,
+            width: mark(reach),
+            height: 1,
+            background: 'var(--unknown)',
+            transition: 'width 500ms ease',
+          }}
+        />
+        {/* Not yet reachable, in the chooser's tick pattern. */}
+        <span
+          style={{
+            position: 'absolute',
+            left: mark(reach),
+            top: 23,
+            right: 0,
+            height: 1,
+            background: 'repeating-linear-gradient(to right, var(--rule) 0 1px, transparent 1px 4px)',
+            transition: 'left 500ms ease',
+          }}
+        />
+        {/* The stop: a tick standing clear above the bar, and its label set
+            into the stretch that is still locked — which is widest exactly
+            when the reach is narrowest, so the words have the most room on
+            the first start, when they are most needed. */}
+        {!reached && (
+          <>
+            <span
+              style={{
+                position: 'absolute',
+                left: mark(reach),
+                top: 5,
+                width: 1,
+                height: 9,
+                background: 'var(--unknown)',
+                transition: 'left 500ms ease',
+              }}
+            />
+            <span
+              className="mono"
+              style={{
+                position: 'absolute',
+                left: mark(reach),
+                right: 0,
+                top: 3,
+                paddingLeft: 5,
+                fontSize: 8,
+                letterSpacing: '0.16em',
+                textTransform: 'uppercase',
+                whiteSpace: 'nowrap',
+                overflow: 'hidden',
+                color: 'var(--unknown)',
+                transition: 'left 500ms ease',
+              }}
+            >
+              As far as your map reaches
+            </span>
+          </>
+        )}
+        <input
+          className="ease ease-bounded"
+          type="range"
+          min={0}
+          max={100}
+          step={1}
+          value={100 - Math.round(at * 100)}
+          aria-valuemax={Math.round(reach * 100)}
+          aria-label="How hard a person to be next, as far as this map reaches"
+          onChange={(e) => onChange(Math.max(floor, (100 - Number(e.target.value)) / 100))}
+          style={{ position: 'absolute', insetInline: 0, bottom: 0, height: 22, width: '100%', margin: 0 }}
+        />
+      </span>
+
       <span
         className="mono"
         style={{
@@ -74,65 +172,7 @@ export function EaseDial({ residence, cast, value, onChange }: Props) {
           transition: 'color 400ms ease',
         }}
       >
-        Obscure
-      </span>
-
-      <span style={{ position: 'relative', flex: 1, minWidth: 90, height: 22 }}>
-        {/* Not yet reachable, in the chooser's tick pattern. */}
-        <span
-          style={{
-            position: 'absolute',
-            left: 0,
-            top: 10,
-            width: mark(floor),
-            height: 1,
-            background: 'repeating-linear-gradient(to right, var(--rule) 0 1px, transparent 1px 4px)',
-          }}
-        />
-        {/* Reachable. */}
-        <span
-          style={{
-            position: 'absolute',
-            left: mark(floor),
-            top: 10,
-            right: 0,
-            height: 1,
-            background: 'var(--unknown)',
-            transition: 'left 500ms ease',
-          }}
-        />
-        {/* The stop, so the change from tick to rule reads as a boundary rather
-            than as something the renderer did. */}
-        <span
-          style={{
-            position: 'absolute',
-            left: mark(floor),
-            top: 6,
-            width: 1,
-            height: 9,
-            background: 'var(--unknown)',
-            transition: 'left 500ms ease',
-          }}
-        />
-        <input
-          className="ease ease-bounded"
-          type="range"
-          min={0}
-          max={100}
-          step={1}
-          value={Math.round(at * 100)}
-          aria-valuemin={Math.round(floor * 100)}
-          aria-label="How findable a person to be next, as far as this map reaches"
-          onChange={(e) => onChange(Math.max(floor, Number(e.target.value) / 100))}
-          style={{ position: 'absolute', inset: 0, width: '100%', margin: 0, minHeight: 22 }}
-        />
-      </span>
-
-      <span
-        className="mono"
-        style={{ fontSize: 9, letterSpacing: '0.2em', textTransform: 'uppercase', whiteSpace: 'nowrap' }}
-      >
-        Findable
+        Hard
       </span>
     </div>
   );
@@ -140,9 +180,11 @@ export function EaseDial({ residence, cast, value, onChange }: Props) {
   return (
     <div>
       {row}
+      {/* The mark on the bar says where the stop is; this says why it moves,
+          which a mark cannot. */}
       {!reached && (
         <div className="annot" style={{ marginTop: 6, color: 'var(--unknown)' }}>
-          The scale reaches only as far as you have uncovered this world.
+          It reaches further into the hard end as you put names to this world.
         </div>
       )}
     </div>

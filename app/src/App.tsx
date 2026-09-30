@@ -336,12 +336,15 @@ export default function App() {
   }, [universeId]);
 
   /** Shared by the guess screen and the claim field, so a free move is not also
-   * a spelling test. Scoped to every loaded story on purpose — a list scoped to
-   * one book would report that book's cast size. */
+   * a spelling test. Scoped to every loaded story before the world is known —
+   * a list scoped to one book would report that book's cast size before the
+   * player has any business knowing which book it is. Once the world is known
+   * that leak is already spent, so the list narrows to it: fewer names to
+   * wade through, and none of them false leads from a book you are not in. */
   const suggest = useMemo(() => {
-    const universes = [...loaded.values()];
-    return (query: string) => suggestNames(universes, query);
-  }, [loaded]);
+    const scoped = session && worldIsKnown(session) && universe ? [universe] : [...loaded.values()];
+    return (query: string) => suggestNames(scoped, query);
+  }, [loaded, session, universe]);
 
   /** Whether the enrichment sidecar actually has a line for a node. In most of
    * the Shakespeare worlds it usually does not — four plays have none at all —
@@ -777,6 +780,7 @@ export default function App() {
           onOpenKey={openKey}
           onReveal={revealAnswer}
           onRevealStory={revealStory}
+          onToggleBackground={() => dispatch({ type: 'TOGGLE_BACKGROUND' })}
           startLinks={startLinks}
           universeTitle={universe.title}
           worldBlurb={blurbFor(universe)}

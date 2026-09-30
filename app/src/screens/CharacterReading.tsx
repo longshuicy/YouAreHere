@@ -374,8 +374,17 @@ export function CharacterReading({
 
       {mine != null && reading.ease.all.length > 1 && (
         <Group question="Was this a hard place to wake?">
-          <Plate caption="Every start this world offers, by how findable it is. The red mark is the one you drew.">
-            <CrowdStrip crowd={reading.ease.all} mark={mine} left="Obscure" right="Findable" />
+          <Plate caption="Every start this world offers, by how hard it is. The red mark is the one you drew.">
+            {/* Plotted as 1 − ease, so this strip runs easy to hard like the
+                dial that deals from it. Two figures of the same measurement
+                that increased in opposite directions would be read wrong by
+                anyone who had just used the other one. */}
+            <CrowdStrip
+              crowd={reading.ease.all.map((v) => 1 - v)}
+              mark={1 - mine}
+              left="Easy"
+              right="Hard"
+            />
           </Plate>
         </Group>
       )}

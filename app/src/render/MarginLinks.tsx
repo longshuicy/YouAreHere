@@ -130,6 +130,7 @@ export function GiveUpLinks({
   onReveal,
   onRevealStory,
   answerCost = 0,
+  storyCost = 0,
 }: {
   onReveal?: () => void;
   onRevealStory?: () => void;
@@ -137,6 +138,8 @@ export function GiveUpLinks({
    * the same reason every other price is printed beside its action: a charge
    * the player meets only after paying it is a trap, not a price. */
   answerCost?: number;
+  /** What being told the world costs. Same reasoning, same place. */
+  storyCost?: number;
 }) {
   if (!onReveal && !onRevealStory) return null;
 
@@ -151,7 +154,7 @@ export function GiveUpLinks({
     >
       {onRevealStory && (
         <button type="button" className="annot-link" onClick={onRevealStory}>
-          Reveal world
+          Reveal world{storyCost > 0 ? ` · ${storyCost}` : ''}
         </button>
       )}
       {onReveal && (
@@ -160,5 +163,29 @@ export function GiveUpLinks({
         </button>
       )}
     </div>
+  );
+}
+
+/** Buys back the carried-over paper a round begins without, and puts it away
+ * again. Never touches the current ring. Paid once a round, on the reveal, so
+ * the price prints only until it has been paid — the same way every other
+ * price in the margin is printed beside the action that charges it. */
+export function BackgroundToggle({
+  hidden,
+  unlocked,
+  cost,
+  onToggle,
+}: {
+  hidden: boolean;
+  /** Whether this round has already paid `cost` — see `ledger.declutters`. */
+  unlocked: boolean;
+  cost: number;
+  onToggle: () => void;
+}) {
+  return (
+    <button type="button" className="annot-link" onClick={onToggle}>
+      {hidden ? 'Show background' : 'Hide background'}
+      {!unlocked ? ` · ${cost}` : ''}
+    </button>
   );
 }

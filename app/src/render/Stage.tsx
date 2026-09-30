@@ -31,6 +31,9 @@ interface Props {
   interactive?: boolean;
   showYouCaption?: boolean;
   pannable?: boolean;
+  /** Withhold carried-over paper and the horizon count — the state a round
+   * begins in, until it buys them back. Never affects the current ring. */
+  hideBackground?: boolean;
 }
 
 /** Grace period so the pointer can travel from a node to its menu without the
@@ -58,6 +61,7 @@ export function Stage({
   interactive = true,
   showYouCaption = false,
   pannable = true,
+  hideBackground = false,
 }: Props) {
   const { ref: zoomRef, transform } = useZoom([0.4, 6], '[data-node]');
   const [hovered, setHovered] = useState<number | null>(null);
@@ -182,6 +186,11 @@ export function Stage({
     let widest = 0;
     for (const n of graph.nodes) {
       if (n.horizon) continue;
+      // Paper that is not drawn does not get room reserved for it. Without
+      // this the default view of a residence fits itself around a carried map
+      // the round has not bought, and shrinks its own ring to make space for
+      // circles nobody can see.
+      if (hideBackground && n.faded) continue;
       const p = positions.get(n.i);
       if (!p) continue;
       extent = Math.max(extent, Math.abs(p.x), Math.abs(p.y));
@@ -213,7 +222,7 @@ export function Stage({
       out.set(i, { ...p, x: p.x * scale, y: p.y * scale });
     }
     return out;
-  }, [graph.nodes, graph.you, positions, box, radiusOf]);
+  }, [graph.nodes, graph.you, positions, box, radiusOf, hideBackground]);
 
   // Nodes the player has dragged out of the way, in fitted units. Kept here
   // rather than in the layout so a relayout never fights a manual placement.
@@ -321,12 +330,14 @@ export function Stage({
             lit={litEdges}
             litFrom={lit?.from ?? null}
             edgeLine={interactive && !dimmed ? edgeLine : undefined}
+            hideBackground={hideBackground}
           />
           <Nodes
             nodes={graph.nodes}
             positions={placed}
             animate={!dragging}
             hovered={active}
+            hideBackground={hideBackground}
             onHover={(i) => {
               if (i === null) {
                 scheduleClose();
@@ -343,7 +354,12 @@ export function Stage({
             interactive={interactive && !dimmed}
             showYouCaption={showYouCaption}
           />
-          <Labels nodes={graph.nodes} positions={placed} animate={!dragging} />
+          <Labels
+            nodes={graph.nodes}
+            positions={placed}
+            animate={!dragging}
+            hideBackground={hideBackground}
+          />
         </g>
         )}
         {box && !dimmed && interactive && (

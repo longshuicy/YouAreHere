@@ -87,6 +87,7 @@ function breakdownOf(ledger: LedgerT): string[] {
   if (ledger.facts) rows.push(`${ledger.facts} ${ledger.facts === 1 ? 'reading' : 'readings'}`);
   if (ledger.names) rows.push(`${ledger.names} ${ledger.names === 1 ? 'name' : 'names'}`);
   if (ledger.stories) rows.push('the world');
+  if (ledger.declutters) rows.push('the carried map');
   if (ledger.answers) rows.push('the answer');
   return rows;
 }

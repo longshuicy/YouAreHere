@@ -482,10 +482,13 @@ export function wakeInResidence(
     // The world is known for the rest of the residence.
     worldChosen: true,
     known,
-    ledger: { expansions: 0, facts: 0, names: 0, stories: 0, answers: 0, recognitions: 0 },
+    ledger: { expansions: 0, facts: 0, names: 0, stories: 0, answers: 0, recognitions: 0, declutters: 0 },
     guesses: [],
     lastGuess: null,
     lastClaim: null,
+    // The carried map is withheld until bought — see COST.declutter. This is
+    // the start that has one to withhold, so it is the start that matters.
+    hideBackground: true,
   };
 }
 
@@ -750,11 +753,15 @@ export function loadStart(universe: UniverseId): Session | null {
         parent: new Map(s.known.parent),
         carried: s.known.carried ? new Set(s.known.carried) : undefined,
       },
-      ledger: s.ledger,
+      // `declutters` defaults in for a start saved before the toggle existed.
+      ledger: { declutters: 0, ...s.ledger },
       guesses: s.guesses,
       // Both are about the move just made, and the move just made is over.
       lastGuess: null,
       lastClaim: null,
+      // A start that already bought the carried paper resumes with it out.
+      // One that never did resumes where every round begins: without it.
+      hideBackground: !(s.ledger?.declutters > 0),
     };
   } catch {
     return null;

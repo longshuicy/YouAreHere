@@ -3,6 +3,11 @@ import { edgeKey, timesFigure, type VisibleEdge } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { REMOTE_OPACITY, tieColor, tieWidth } from './scales';
 
+/** How far off the tie its reading is set, in diagram units. Far enough that
+ * the halo behind the words never touches the stroke they are about; near
+ * enough that the eye does not have to leave the tie to read them. */
+const LEADER = 13;
+
 interface Props {
   edges: VisibleEdge[];
   positions: Map<number, LaidOutNode>;
@@ -21,6 +26,9 @@ interface Props {
   litFrom?: number | null;
   /** Prose for a visible tie from the enrichment sidecar — free clue on hover. */
   edgeLine?: (a: number, b: number) => string | null;
+  /** When set, horizon and carried-over ties are omitted entirely rather than
+   * drawn at reduced opacity. */
+  hideBackground?: boolean;
 }
 
 /** Ties meet the circumference of a node, never its centre — a line running
@@ -33,6 +41,7 @@ export function Edges({
   lit,
   litFrom,
   edgeLine,
+  hideBackground = false,
 }: Props) {
   const [hovered, setHovered] = useState<string | null>(null);
   const litAny = lit !== undefined && lit.size > 0;
@@ -43,6 +52,7 @@ export function Edges({
   return (
     <g className="edges">
       {ordered.map((e) => {
+        if (hideBackground && (e.horizon || e.faded)) return null;
         const a = positions.get(e.source);
         const b = positions.get(e.target);
         if (!a || !b) return null;
@@ -60,6 +70,13 @@ export function Edges({
         const key = edgeKey(e);
         const isLit = !e.horizon && litAny && lit!.has(key);
         const isHovered = hovered === key;
+        // A tie being read is inked like a lit one. It is the whole of the
+        // connection between the paper and the sentence in the margin, so it
+        // has to be unmistakable — but it does not dim the rest of the fan the
+        // way lighting does, because that fires on every pointer move across
+        // the diagram and a page that flinches whenever the mouse crosses it
+        // is unreadable.
+        const inked = isLit || isHovered;
         const line =
           !e.horizon && edgeLine ? edgeLine(e.source, e.target) : null;
         const x1 = a.x + ux * gapA;
@@ -68,6 +85,15 @@ export function Edges({
         const y2 = b.y - uy * gapB;
         const midX = (x1 + x2) / 2;
         const midY = (y1 + y2) / 2;
+        // Perpendicular to the tie — the one direction guaranteed to clear it.
+        // Most ties here radiate straight out from you, and for those the
+        // perpendicular is tangential: it moves the label sideways into the
+        // gap between two spokes, which is where the room is. The sign test
+        // only bites on a chord, a tie between two people in the same ring,
+        // where it takes the side away from the hub rather than into it.
+        const outward = -uy * midX + ux * midY >= 0 ? 1 : -1;
+        const perpX = -uy * outward;
+        const perpY = ux * outward;
 
         return (
           <g key={key}>
@@ -76,11 +102,11 @@ export function Edges({
               y1={y1}
               x2={x2}
               y2={y2}
-              stroke={e.horizon ? 'var(--unknown)' : isLit ? 'var(--accent)' : tieColor(e.strength)}
-              strokeWidth={e.horizon ? 0.7 : isLit ? tieWidth(e.strength) + 1 : tieWidth(e.strength)}
+              stroke={e.horizon ? 'var(--unknown)' : inked ? 'var(--accent)' : tieColor(e.strength)}
+              strokeWidth={e.horizon ? 0.7 : inked ? tieWidth(e.strength) + 1 : tieWidth(e.strength)}
               // Not hidden, dimmed: the rest of the fan is still the context
               // that makes the lit tie mean anything.
-              opacity={e.horizon ? 0.18 : litAny && !isLit ? 0.3 : e.faded ? REMOTE_OPACITY : 1}
+              opacity={e.horizon ? 0.18 : litAny && !inked ? 0.3 : e.faded ? REMOTE_OPACITY : 1}
               style={{
                 transition: animate
                   ? 'x1 400ms ease-out, y1 400ms ease-out, x2 400ms ease-out, y2 400ms ease-out, stroke-width 300ms ease-out, stroke 300ms ease-out, opacity 200ms ease-out'
@@ -108,7 +134,7 @@ export function Edges({
                 glance what two strokes a pixel apart never will. The sign is
                 *times* in every world, because the real unit — verses, scenes,
                 bills — would say which world this is. */}
-            {isLit && !e.horizon && !isHovered && (
+            {isLit && !e.horizon && (
               <text
                 // Two thirds of the way along rather than halfway: the tie is
                 // lit from a node whose menu is open over the near end, and a
@@ -130,24 +156,48 @@ export function Edges({
                 {timesFigure(e.weight)}
               </text>
             )}
+            {/* The tie's prose, set beside the tie rather than on it.
+
+                It used to sit on the midpoint under a paper halo, which erased
+                the line it was describing: you hovered a tie to read about it
+                and the tie went away. It was tried in the margin next, which
+                occludes nothing but asks the eye to travel the width of the
+                page and come back, on a diagram whose whole argument is
+                proximity.
+
+                So: off to one side, on a leader, the way a monogram hangs off
+                its node. The offset is perpendicular to the tie, which is the
+                one direction guaranteed to clear it, and it is taken on the
+                side facing away from the centre — outward is where this layout
+                keeps its empty paper, inward is the hub. */}
             {isHovered && line && (
-              <text
-                x={midX}
-                y={midY - 6}
-                textAnchor="middle"
-                style={{
-                  font: '12px var(--serif)',
-                  fontStyle: 'italic',
-                  fill: 'var(--body)',
-                  paintOrder: 'stroke',
-                  stroke: 'var(--paper)',
-                  strokeWidth: 4,
-                  strokeLinejoin: 'round',
-                  pointerEvents: 'none',
-                }}
-              >
-                {line}
-              </text>
+              <g style={{ pointerEvents: 'none' }}>
+                <line
+                  x1={midX + perpX * 3}
+                  y1={midY + perpY * 3}
+                  x2={midX + perpX * LEADER}
+                  y2={midY + perpY * LEADER}
+                  stroke="var(--accent)"
+                  strokeWidth={0.75}
+                />
+                <text
+                  x={midX + perpX * (LEADER + 3)}
+                  y={midY + perpY * (LEADER + 3)}
+                  dy="0.35em"
+                  textAnchor={perpX >= 0 ? 'start' : 'end'}
+                  style={{
+                    font: '12px var(--serif)',
+                    fontStyle: 'italic',
+                    fill: 'var(--ink)',
+                    paintOrder: 'stroke',
+                    stroke: 'var(--paper)',
+                    strokeWidth: 4,
+                    strokeLinejoin: 'round',
+                  }}
+                >
+                  {line}
+                </text>
+              </g>
             )}
           </g>
         );

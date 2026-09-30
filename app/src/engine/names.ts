@@ -48,18 +48,40 @@ export function monogramOf(name: string): { initial: string; length: number } {
   return { initial: [...trimmed][0] ?? '?', length: [...trimmed].length };
 }
 
+/** Whether every character of `q`, in order, occurs somewhere in `text` — not
+ * necessarily together. Cheap (linear in `text`'s length) typo tolerance:
+ * "hmlt" still finds "Hamlet". Kept apart from `resolveName`'s exact match on
+ * purpose — a suggestion may guess at what you meant, but whether a claim is
+ * right or wrong never does. */
+function isSubsequence(q: string, text: string): boolean {
+  if (!q) return false;
+  let i = 0;
+  for (const ch of text) {
+    if (ch === q[i]) i += 1;
+    if (i === q.length) return true;
+  }
+  return false;
+}
+
 /**
  * Name suggestions, shared by the guess screen and the claim field.
  *
- * Drawn from EVERY loaded story, never just the one being played. That is the
- * point: a list scoped to one book would tell the player how large that book's
- * cast is, which is the only real leak either field has. Names are deduplicated
- * and carry no hint of which story they came from, so the same list is safe to
- * offer anywhere.
+ * Drawn from every universe passed in, which is EVERY loaded story unless the
+ * caller has already narrowed it. That narrowing matters: a list scoped to one
+ * book, offered before the player has any business knowing which book they are
+ * in, would tell them how large that book's cast is — the one real leak either
+ * field has. Once the world is already known (told, guessed, or chosen up
+ * front), scoping to it costs nothing further and the caller does so.
  *
  * The threshold is two characters rather than three. Three was set with Latin
  * names in mind and quietly excluded 紅樓夢, where a great many names are two
  * characters long and the field would never have suggested them at all.
+ *
+ * A first pass matches substrings, which is exact enough to rank above a
+ * typo-tolerant guess. Only once that pass has not filled the list does a
+ * second, subsequence-fuzzy pass run over what is left — a query a plain
+ * substring search would have missed still turns something up, without ever
+ * pushing a precise match down to make room for a loose one.
  */
 export function suggestNames(
   universes: Iterable<Universe>,
@@ -68,19 +90,25 @@ export function suggestNames(
 ): string[] {
   const q = normalizeName(query);
   if ([...q].length < minLength) return [];
+  const list = [...universes];
   const seen = new Set<string>();
   const out: string[] = [];
-  for (const u of universes) {
-    for (const n of u.nodes) {
-      if (out.length >= limit) return out;
-      const hit =
-        normalizeName(n.n).includes(q) || (n.a ?? []).some((a) => normalizeName(a).includes(q));
-      if (!hit) continue;
-      const key = normalizeName(n.n);
-      if (seen.has(key)) continue;
-      seen.add(key);
-      out.push(n.n);
+
+  const collect = (match: (candidate: string) => boolean) => {
+    for (const u of list) {
+      for (const n of u.nodes) {
+        if (out.length >= limit) return;
+        const key = normalizeName(n.n);
+        if (seen.has(key)) continue;
+        const hit = match(key) || (n.a ?? []).some((a) => match(normalizeName(a)));
+        if (!hit) continue;
+        seen.add(key);
+        out.push(n.n);
+      }
     }
-  }
+  };
+
+  collect((candidate) => candidate.includes(q));
+  if (out.length < limit) collect((candidate) => isSubsequence(q, candidate));
   return out;
 }

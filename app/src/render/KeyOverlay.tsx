@@ -5,13 +5,15 @@ interface Props {
 }
 
 const ROWS: Array<{ label: string; gloss: string; cost: string }> = [
-  { label: 'Expand', gloss: 'their neighbours, and their initial', cost: '1' },
-  { label: 'Facts', gloss: 'what is known of them', cost: '2' },
-  { label: 'Name', gloss: 'one name, nothing more', cost: '3' },
+  { label: 'Expand', gloss: 'their neighbours, and their initial', cost: `${COST.expand}` },
+  { label: 'Facts', gloss: 'what is known of them', cost: `${COST.facts}` },
+  { label: 'Name', gloss: 'one name, nothing more', cost: `${COST.name}` },
   // Not attached to a node like the others — it is about the world, so it lives
   // in the margin. Listed here all the same, because a price that is only
   // discoverable by paying it is not a price.
-  { label: 'Reveal world', gloss: 'which world this is', cost: '2' },
+  { label: 'Reveal world', gloss: 'which world this is', cost: `${COST.story}` },
+  // Charged once a round, on the reveal — see COST.declutter.
+  { label: 'Show background', gloss: 'what earlier lives here already opened', cost: `${COST.declutter}` },
   // The dearest thing on the table, and listed like everything else, because a
   // price that is only discoverable by paying it is not a price.
   { label: 'Reveal answer', gloss: 'who you are, told to you', cost: `${COST.answer}` },

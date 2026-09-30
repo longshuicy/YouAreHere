@@ -6,6 +6,12 @@ interface Props {
   nodes: VisibleNode[];
   positions: Map<number, LaidOutNode>;
   animate?: boolean;
+  /** Withholding the carried-over paper has to withhold what is written on it
+   * too. A name set back to `REMOTE_OPACITY` is still a name a reader can
+   * make out, so leaving these behind hands over the very thing the round has
+   * not bought — and hands it over floating beside a circle that is no longer
+   * drawn. */
+  hideBackground?: boolean;
 }
 
 /** The width of one monogram rule unit: the remaining characters of a name are
@@ -19,14 +25,15 @@ const GLYPH_GAP = 2.5;
 
 /** A bought name sits above its node in serif — the register change that turns
  * a piece of structure into a person. */
-export function Labels({ nodes, positions, animate = true }: Props) {
+export function Labels({ nodes, positions, animate = true, hideBackground = false }: Props) {
+  const shown = hideBackground ? nodes.filter((n) => !n.faded) : nodes;
   return (
     <g className="labels" style={{ pointerEvents: 'none' }}>
       {/* An expanded node that has not been named carries its monogram below:
           the initial in mono — the analytical voice, because this is a
           measurement of a name and not a name — and a rule as long as the
           letters it is standing in for. */}
-      {nodes
+      {shown
         .filter((n) => !n.name && n.monogram && !n.isYou && !n.horizon)
         .map((n) => {
           const p = positions.get(n.i);
@@ -74,7 +81,7 @@ export function Labels({ nodes, positions, animate = true }: Props) {
           );
         })}
 
-      {nodes
+      {shown
         .filter((n) => n.name)
         .map((n) => {
           const p = positions.get(n.i);

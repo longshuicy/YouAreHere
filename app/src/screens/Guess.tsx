@@ -61,9 +61,17 @@ export function Guess({
     [loaded],
   );
 
-  /** Drawn from EVERY loaded story, never just the selected one — see
-   * `suggestNames`, which the claim field now shares. */
-  const suggestions = useMemo(() => suggestNames(stories, query), [query, stories]);
+  /** The world, when there is nothing left to ask about it. */
+  const settled = worldIsKnown(session) ? loaded.get(session.universe) ?? null : null;
+
+  /** Drawn from EVERY loaded story while the world is still in question — a
+   * list scoped to one book would report that book's cast size before the
+   * player has earned it. Once the world is settled, narrowed to it: nothing
+   * left to leak, and no false leads from a book that is not this one. */
+  const suggestions = useMemo(
+    () => suggestNames(settled ? [settled] : stories, query),
+    [query, stories, settled],
+  );
 
   /** Resolved against the SELECTED story: the guess is a pair, and a name that
    * exists in another book is simply not this book's answer. */
@@ -71,9 +79,6 @@ export function Guess({
     const u = loaded.get(storyId);
     return u ? resolveName(u, text) : null;
   };
-
-  /** The world, when there is nothing left to ask about it. */
-  const settled = worldIsKnown(session) ? loaded.get(session.universe) ?? null : null;
 
   const last = session.lastGuess;
   const rejected = last && !last.characterCorrect ? last.characterQuery : null;
@@ -112,14 +117,6 @@ export function Guess({
           ? 'They are standing right next to you, one tie away.'
           : `They are ${last.hops} ties away from you.`;
 
-  /** When the misnamed character was already on the paper, the reducer labelled
-   * them. Say so, because the graph is behind a dimmed screen and the player
-   * will not see it happen. */
-  const placed =
-    last && last.storyCorrect && !last.characterCorrect && last.characterIndex !== null
-      ? session.known.recognised.has(last.characterIndex)
-      : false;
-
   return (
     <div style={{ position: 'relative', height: '100dvh', overflow: 'hidden' }}>
       {/* The graph stays visible — it is the evidence, not the subject. */}
@@ -134,6 +131,7 @@ export function Guess({
           dimmed
           interactive={false}
           pannable={false}
+          hideBackground={session.hideBackground}
         />
       </div>
 
@@ -160,6 +158,7 @@ export function Guess({
             <Ledger ledger={session.ledger} residence={residence} />
             <GiveUpLinks
               answerCost={COST.answer}
+              storyCost={COST.story}
               onReveal={onReveal}
               onRevealStory={worldIsKnown(session) ? undefined : onRevealStory}
             />
@@ -184,11 +183,6 @@ export function Guess({
               {bearing && (
                 <div style={{ fontSize: 'clamp(15px, 4vw, 18px)', color: 'var(--body)', marginTop: 12, lineHeight: 1.5 }}>
                   {bearing}
-                </div>
-              )}
-              {placed && (
-                <div className="annot" style={{ marginTop: 10 }}>
-                  Right name. They are on your graph, now labelled.
                 </div>
               )}
             </div>
