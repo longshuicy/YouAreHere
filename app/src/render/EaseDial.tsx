@@ -5,6 +5,10 @@ import { easeFloor, type Residence } from '../engine/residence';
  * browser puts the mark. */
 const THUMB = 9;
 
+/** Said on hover, and by a screen reader through `aria-description`. */
+const WHY_THE_STOP_MOVES =
+  'It reaches further into the hard end as you put names to this world.';
+
 interface Props {
   residence: Residence;
   cast: number;
@@ -53,14 +57,16 @@ interface Props {
  * is never occluded, at any reach, at any value — and it carries its own short
  * label, so the mark does not have to be decoded from position alone.
  *
- * A line under it says what the bound is, and goes away once the scale reaches
- * the whole of itself. Resistance alone does not distinguish "this opens up as
- * you learn the world" from "this is broken", and the widening happens between
- * starts, slowly, so the part of it that is a reward is invisible to anyone who
- * does not already know to expect it. Not a tooltip: this app does not use
- * them, the key exists for exactly this kind of telling, and hover is not a
- * thing a reader on a phone can do.
+ * Why the stop moves is carried as the control's own tooltip rather than as a
+ * line of prose under it. Resistance alone does not distinguish "this opens up
+ * as you learn the world" from "this is broken", so the sentence still has to
+ * exist — but it was answering a question a player has at most once, and on the
+ * cold open it was a third line of explanation on a screen that already asks
+ * for exactly one thing to be clicked. The mark above the bar carries its own
+ * short label, so the tooltip is a second reading for whoever goes looking,
+ * which is what a tooltip is for; nothing the player needs is only in it.
  */
+
 export function EaseDial({ residence, cast, value, onChange }: Props) {
   const floor = easeFloor(residence, cast);
   const reach = 1 - floor;
@@ -73,7 +79,10 @@ export function EaseDial({ residence, cast, value, onChange }: Props) {
   const mark = (v: number) => `calc(${THUMB / 2}px + ${v} * (100% - ${THUMB}px))`;
 
   const row = (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, paddingTop: 12 }}>
+    <div
+      style={{ display: 'flex', alignItems: 'center', gap: 12, paddingTop: 12 }}
+      title={reached ? undefined : WHY_THE_STOP_MOVES}
+    >
       <span
         className="mono"
         style={{ fontSize: 9, letterSpacing: '0.2em', textTransform: 'uppercase', whiteSpace: 'nowrap' }}
@@ -156,6 +165,8 @@ export function EaseDial({ residence, cast, value, onChange }: Props) {
           value={100 - Math.round(at * 100)}
           aria-valuemax={Math.round(reach * 100)}
           aria-label="How hard a person to be next, as far as this map reaches"
+          aria-description={reached ? undefined : WHY_THE_STOP_MOVES}
+          title={reached ? undefined : WHY_THE_STOP_MOVES}
           onChange={(e) => onChange(Math.max(floor, (100 - Number(e.target.value)) / 100))}
           style={{ position: 'absolute', insetInline: 0, bottom: 0, height: 22, width: '100%', margin: 0 }}
         />
@@ -177,16 +188,5 @@ export function EaseDial({ residence, cast, value, onChange }: Props) {
     </div>
   );
 
-  return (
-    <div>
-      {row}
-      {/* The mark on the bar says where the stop is; this says why it moves,
-          which a mark cannot. */}
-      {!reached && (
-        <div className="annot" style={{ marginTop: 6, color: 'var(--unknown)' }}>
-          It reaches further into the hard end as you put names to this world.
-        </div>
-      )}
-    </div>
-  );
+  return <div>{row}</div>;
 }

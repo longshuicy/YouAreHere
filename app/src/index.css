@@ -89,6 +89,18 @@ button {
   white-space: nowrap;
 }
 
+/* The wordmark and the three ways on. A class rather than inline style so the
+   phone can close the gaps: with a third link in it the cluster wrapped to
+   three rows at 375px, and the graph beneath is positioned from
+   `--chrome-band`, which is sized for two. */
+.brand-cluster {
+  display: flex;
+  align-items: baseline;
+  gap: 22px;
+  flex-wrap: wrap;
+  pointer-events: auto;
+}
+
 /* The brand wordmark is identity; start-again is a separate quiet link. */
 .chrome-link {
   cursor: pointer;
@@ -643,6 +655,10 @@ button {
     --pad-top: 18px;
     --pad-x: 18px;
     --pad-bottom: 22px;
+    /* Two rows of cluster, not one: at this width the wordmark and a title as
+       long as `Another life in The Winter's Tale` cannot share a line, and the
+       reveal's graph hangs off this. */
+    --chrome-band: calc(var(--pad-top) + 52px);
   }
 
   body {
@@ -694,6 +710,13 @@ button {
   .chrome-row {
     flex-wrap: wrap;
     gap: 6px 14px;
+  }
+
+  /* Tight enough that the wordmark and the two short links share the first
+     line and only the long one — `Another life in <title>` — takes the
+     second. */
+  .brand-cluster {
+    gap: 4px 12px;
   }
 
   /* A screen's footer: the prose over the actions, both full width. */

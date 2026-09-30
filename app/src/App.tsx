@@ -101,8 +101,14 @@ export default function App() {
   const { route, navigate } = useRoute();
   const showGallery = route.screen !== 'game';
   /** The world chooser, and which world it is currently fetching. `choosing`
-   * is separate from the session phase because it replaces the cold open rather
-   * than following it — there is no session for the chosen world yet. */
+   * is separate from the session phase because it replaces the screen rather
+   * than following it — there is no session for the chosen world yet, and Back
+   * has to put the player down exactly where they stood.
+   *
+   * Not only the cold open's. The reveal offers the shelf too, so the chooser
+   * is applied over whatever screen is current rather than inside one case of
+   * the phase switch: the three ways on are the same three wherever they are
+   * offered, and a door that only exists on one screen is not one of them. */
   const [choosing, setChoosing] = useState(false);
   const [pendingWorld, setPendingWorld] = useState<string | null>(null);
   /** Every universe fetched so far, including the one being played. The guess
@@ -680,6 +686,7 @@ export default function App() {
   const startLinks: StartLinks = {
     onStartAgain: startAgain,
     onStartHere: startInThisWorld,
+    onChooseWorld: () => setChoosing(true),
     hereTitle: worldKnownHere ? universe.title : null,
   };
 
@@ -726,19 +733,7 @@ export default function App() {
   let screen: ReactNode;
   switch (session.phase) {
     case 'cold':
-      screen = choosing ? (
-        <ChooseWorld
-          universes={boot.index.universes}
-          progress={progress}
-          pending={pendingWorld}
-          onChoose={chooseWorld}
-          onCancel={() => setChoosing(false)}
-          onStartAnywhere={startAgain}
-          readsChineseClassics={readsChineseClassics}
-          onReadsChineseClassics={chooseReadsChineseClassics}
-          onOpenKey={openKey}
-        />
-      ) : (
+      screen = (
         <ColdOpen
           graph={graph}
           positions={positions}
@@ -749,8 +744,8 @@ export default function App() {
           residence={residence}
           cast={universe.nodes.length}
           startLinks={startLinks}
+          worldCount={boot.index.universes.length}
           onBegin={beginFromCold}
-          onChooseWorld={() => setChoosing(true)}
           targetEase={targetEase}
           onChooseEase={chooseEase}
           onOpenGallery={() => navigate({ screen: 'gallery' })}
@@ -830,6 +825,23 @@ export default function App() {
       screen = null;
   }
 
+  // Over the top of whatever the phase drew. See the note on `choosing`.
+  if (choosing) {
+    screen = (
+      <ChooseWorld
+        universes={boot.index.universes}
+        progress={progress}
+        pending={pendingWorld}
+        onChoose={chooseWorld}
+        onCancel={() => setChoosing(false)}
+        onStartAnywhere={startAgain}
+        readsChineseClassics={readsChineseClassics}
+        onReadsChineseClassics={chooseReadsChineseClassics}
+        onOpenKey={openKey}
+      />
+    );
+  }
+
   if (showGallery) {
     return (
       <Gallery
@@ -846,6 +858,10 @@ export default function App() {
           onStartHere: () => {
             navigate({ screen: 'game' });
             startInThisWorld();
+          },
+          onChooseWorld: () => {
+            navigate({ screen: 'game' });
+            setChoosing(true);
           },
         }}
       />

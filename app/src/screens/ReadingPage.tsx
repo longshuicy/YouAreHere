@@ -72,7 +72,10 @@ export function ReadingPage({
   headAside?: ReactNode;
   chromeLeft?: ReactNode;
   chromeRight?: ReactNode;
-  /** Whatever belongs under the reading: the round, the actions. */
+  /** Whatever belongs under the reading: the round, the closing note. Scrolls
+   * with it. Anything a reader must be able to reach without having read to
+   * the bottom first belongs in `headAside` instead — see `whatNow` in
+   * Reveal.tsx. */
   after?: ReactNode;
   /** Passed straight through to the reading: jump to another character in the
    * topology gallery. Absent where there is nowhere to jump to. */

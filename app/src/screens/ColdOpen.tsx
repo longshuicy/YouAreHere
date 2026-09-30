@@ -10,7 +10,11 @@ import type { Session } from '../engine/session';
 /** One column for the whole page: the title, the diagram, the verse, the
  *  settings and the action all take their width from here, so every edge on
  *  the page lines up with every other one. */
-const MEASURE = 'min(460px, 92vw)';
+/* 100% rather than 92vw: the page already holds itself off the edges with
+   `--pad-x`, and a measure set against the *viewport* was wider than the box
+   it sat in — six pixels of horizontal overflow on a phone, and a scrollbar
+   under a screen with nothing to scroll sideways to. */
+const MEASURE = 'min(460px, 100%)';
 
 /** Where the title sits once play begins — same inset as the explore chrome. */
 const TITLE_CORNER = { top: 44, left: 64 };
@@ -38,8 +42,14 @@ interface Props {
    * residence resumes here, where there was no way to say "not this stranger"
    * without first beginning as them. */
   startLinks: StartLinks;
+  /** How many worlds are on the shelf. Printed under the door on a first look:
+   * a door labelled `choose a world` asks a player to want something they have
+   * no way of knowing the size of, and the number is the cheapest possible
+   * answer — it says there is a catalogue back there without spending a line
+   * of the screen on naming any of it. Not a secret: what the game protects is
+   * which world *you* are in, and a count gives none of that away. */
+  worldCount: number;
   onBegin: () => void;
-  onChooseWorld: () => void;
   targetEase: number;
   onChooseEase: (ease: number) => void;
   /* "I read the Chinese classics" used to be a fourth control in the row below,
@@ -80,14 +90,35 @@ export function ColdOpen({
   residence = null,
   cast,
   startLinks,
+  worldCount,
   onBegin,
-  onChooseWorld,
   targetEase,
   onChooseEase,
   onOpenGallery,
 }: Props) {
   const titleRef = useRef<HTMLDivElement>(null);
   const [walking, setWalking] = useState(false);
+
+  /**
+   * Nobody has named this world yet, and no map is being resumed: the player
+   * is on the very first screen of the game, or has just asked for any world
+   * at all.
+   *
+   * It is the one state where most of this screen's controls are noise. The
+   * scale asks for an opinion about difficulty from someone who does not yet
+   * know what the game is. Worse, two of the three ways on were a distinction
+   * this player provably cannot perceive: `Another life here` redraws the
+   * stranger inside the unnamed world and `Any world` redraws them in a
+   * different unnamed world, and with no title on the page both read as "a
+   * different stranger in a book I cannot name". Offering a choice whose two
+   * sides look identical is what made the opening feel like configuration.
+   *
+   * So a first look is a fork with two doors and nothing else: begin as the
+   * stranger on the stage, or go and pick the book yourself. Everything hidden
+   * here comes back the moment it means something — the scale and the three
+   * ways on are all on the residence's cold open, under a title.
+   */
+  const firstLook = worldTitle === null && !again;
 
   /** The centred headline takes its seat in the top-left. The second line
    *  fades: it has said what it came to say, and the explore screen will
@@ -147,6 +178,20 @@ export function ColdOpen({
         </ChromeRight>
       </div>
 
+      {/* On a first look `cold-main` is shrink-wrapped rather than stretched:
+          with the scale and the three ways on gone there is no longer enough
+          on the page to fill it, and a stretched box centred its contents by
+          opening a band of nothing between the verse and Begin.
+          What is left over is handed out by this spacer and the one at the
+          foot, one part above the column and two below. Auto margins were
+          tried first and cannot do this — an auto margin on each side of the
+          column takes a share each, so the free space lands *between* the
+          verse and Begin as well as above the title, which is the gap being
+          closed. Weighted away from centre because the page hangs from its
+          title: the eye starts at the top, and the last thing it should have
+          to go looking for is the one thing to click. */}
+      {firstLook && <div aria-hidden style={{ flex: '1 1 0', minHeight: 0 }} />}
+
       {/* One column, and everything sits in it.
           There were four widths down this page: 243px of verse, a 256px
           drawing, a 560px stage and a 772px row of controls, none of them
@@ -157,7 +202,8 @@ export function ColdOpen({
       <div
         className="cold-main"
         style={{
-          flex: 1,
+          // Shrink-wrapped on a first look: see the note on the row above.
+          flex: firstLook ? '0 1 auto' : 1,
           minHeight: 0,
           width: MEASURE,
           margin: '0 auto',
@@ -258,6 +304,11 @@ export function ColdOpen({
         style={{
           width: MEASURE,
           margin: '0 auto',
+          // Just enough that Begin does not read as the verse's fourth line.
+          // No more than that: with the scale and the three ways on gone there
+          // is nothing between the verse and Begin, and a gap sized for the
+          // controls that used to sit in it is a gap sized for nothing.
+          paddingTop: firstLook ? 'clamp(2px, 1vh, 12px)' : undefined,
           flexShrink: 0,
           display: 'flex',
           flexDirection: 'column',
@@ -273,7 +324,7 @@ export function ColdOpen({
             trade the stranger in here exactly as it does anywhere else. What
             changes inside a residence is only how far it reaches — see
             EaseDial. */}
-        {again && residence ? (
+        {firstLook ? null : again && residence ? (
           <div style={{ width: '100%' }}>
             <EaseDial
               residence={residence}
@@ -319,7 +370,9 @@ export function ColdOpen({
         )}
 
         {/* The way out of a resumed map stays: without it, choosing a world
-            with a map on it was a door that only opened inward. */}
+            with a map on it was a door that only opened inward. Gone on a
+            first look — see `firstLook`. */}
+        {!firstLook && (
             <div
               style={{
                 display: 'flex',
@@ -365,13 +418,14 @@ export function ColdOpen({
 
               <button
                 className="action-quiet"
-                onClick={onChooseWorld}
+                onClick={startLinks.onChooseWorld}
                 disabled={walking}
                 style={{ fontSize: 10, letterSpacing: '0.18em', minHeight: 0, padding: '7px 2px' }}
               >
                 Choose a world
               </button>
             </div>
+        )}
 
         <button
           className="action"
@@ -381,7 +435,33 @@ export function ColdOpen({
         >
           {lastNode ? 'This is the last' : 'Begin'}
         </button>
+
+        {/* The other door. Under Begin rather than beside it, because the two
+            are not peers: one is what this screen is for and the other is the
+            way to a different screen. */}
+        {firstLook && (
+          <button
+            className="action-quiet"
+            onClick={startLinks.onChooseWorld}
+            disabled={walking}
+            style={{
+              gap: 8,
+              fontSize: 10,
+              letterSpacing: '0.18em',
+              minHeight: 0,
+              padding: '2px 2px 0',
+            }}
+          >
+            <span>Or choose a world</span>
+            {/* Inside the button rather than beside it: the count is the reason
+                to press this, so it should not be a caption sitting next to a
+                target it is not part of. */}
+            <span style={{ color: 'var(--unknown)' }}>· {worldCount} to pick from</span>
+          </button>
+        )}
       </div>
+
+      {firstLook && <div aria-hidden style={{ flex: '2 1 0', minHeight: 0 }} />}
     </div>
   );
 }

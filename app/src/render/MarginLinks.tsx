@@ -23,30 +23,29 @@ export function BrandMark() {
   return <div className="brand">You are here.</div>;
 }
 
-/** The two ways to start over, offered together on every screen. */
+/** The three ways on, offered together on every screen. */
 export interface StartLinks {
   /** Somebody else, somewhere else. */
   onStartAgain: () => void;
   /** Somebody else in the world the player is in, keeping its map. */
   onStartHere: () => void;
+  /** The shelf. It used to be reachable only from the cold open, which made it
+   * the one door of the three that was not in the margin — so a player who
+   * wanted a particular world from anywhere else had to take a random one
+   * first and go back. The chooser is drawn over whatever screen is current
+   * now (see `choosing` in App.tsx), so there is no longer a reason for it to
+   * be missing from two thirds of the game. */
+  onChooseWorld: () => void;
   /** Null until the world is known: printing it earlier would answer half the
    * question, so the link reads "Stay here" instead. */
   hereTitle: string | null;
 }
 
-/** Wordmark plus the quieter restarts, so the name is not itself a hidden
+/** Wordmark plus the quieter ways on, so the name is not itself a hidden
  * button. */
 export function BrandCluster(links: StartLinks) {
   return (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'baseline',
-        gap: 22,
-        pointerEvents: 'auto',
-        flexWrap: 'wrap',
-      }}
-    >
+    <div className="brand-cluster">
       <BrandMark />
       <StartLinkPair {...links} />
     </div>
@@ -75,16 +74,24 @@ export function BrandCluster(links: StartLinks) {
  * label belonging to another. There are only three things a player can want —
  * begin as this stranger, be somebody else here, or go somewhere else — and
  * they are named the same on every screen.
+ *
+ * `Choose a world` is the third, and is now in the margin with the other two
+ * rather than only on the cold open. Naming *which* world is a refinement of
+ * going somewhere else, so it stands next to `Any world`: let it pick, or pick
+ * it yourself.
  */
 export function hereLabel(hereTitle: string | null): string {
   return hereTitle ? `Another life in ${hereTitle}` : 'Another life here';
 }
 
-function StartLinkPair({ onStartAgain, onStartHere, hereTitle }: StartLinks) {
+function StartLinkPair({ onStartAgain, onStartHere, onChooseWorld, hereTitle }: StartLinks) {
   return (
     <>
       <button type="button" className="annot-link" onClick={onStartAgain}>
         Any world
+      </button>
+      <button type="button" className="annot-link" onClick={onChooseWorld}>
+        Choose a world
       </button>
       <button type="button" className="annot-link" onClick={onStartHere} style={{ color: 'var(--accent)' }}>
         {hereLabel(hereTitle)}

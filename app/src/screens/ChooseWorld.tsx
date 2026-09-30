@@ -349,7 +349,7 @@ export function ChooseWorld({
         />
 
         {/* The one preference this screen carries, set with the search field and
-            the filing row rather than down beside ANY WORLD and BACK, because it
+            the filing row rather than down beside BACK, because it
             belongs to the same act as they do: it is something you say about the
             list, and the bottom of the page is where you leave the list.
 
@@ -369,7 +369,7 @@ export function ChooseWorld({
             may be going back to, and BACK promises to leave it exactly as it
             was; quietly swapping the stranger under the overlay would make that
             promise false. So the preference is written now and spends itself on
-            the next random draw — ANY WORLD below, or the same shuffle offered
+            the next random draw — ANY WORLD at the head of the list, or the shuffle offered
             in the margins of every other screen. Choosing a title from the list
             is unaffected either way: a named world skips the draw this tilts. */}
         <button
@@ -396,6 +396,37 @@ export function ChooseWorld({
           I read the Chinese classics
         </button>
 
+
+        {/* Row zero of the shelf.
+            The same fork the cold open opens on, offered again at the top of
+            the thing it forks away from — so "I do not have one in mind" is an
+            answer to the question in the headline rather than a way of
+            abandoning the screen. It used to sit at the bottom beside BACK,
+            which put the two most different acts on this page side by side
+            wearing the same weight: one leaves the list alone and one draws a
+            world. Down there it also read as giving up on choosing, and a
+            player who arrived here only to find out what was on offer had to
+            go back the way they came to get a random start.
+
+            Ruled and full width, because that is what the letter headings under
+            it are: it is the first row of this index, not a control above it. */}
+        <button
+          className="action-quiet ruled"
+          onClick={onStartAnywhere}
+          style={{
+            width: 'min(880px, 92vw)',
+            justifyContent: 'flex-start',
+            gap: 10,
+            fontSize: 10,
+            letterSpacing: '0.2em',
+            minHeight: 0,
+            padding: '8px 0 6px',
+            flexShrink: 0,
+          }}
+        >
+          <span>Any world</span>
+          <span style={{ color: 'var(--unknown)', letterSpacing: '0.14em' }}>· let it pick</span>
+        </button>
 
         {/* Newspaper columns rather than a grid, so the alphabet reads *down*
             one column and continues at the top of the next — which is how an
@@ -515,25 +546,13 @@ export function ChooseWorld({
           <div className="annot" style={{ textAlign: 'center' }}>
             Choosing settles the world. You will still have to work out who you are.
           </div>
-          {/* One line, not a stack: they are two exits from the same screen,
-              and stacking them made the lesser of the two read as a step after
-              the greater rather than an alternative to it. */}
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'baseline',
-              justifyContent: 'center',
-              gap: 'clamp(18px, 5vw, 36px)',
-              flexWrap: 'wrap',
-            }}
-          >
-            <button className="action-quiet ruled" onClick={onStartAnywhere}>
-              Any world
-            </button>
-            <button className="action-quiet ruled" onClick={onCancel}>
-              Back
-            </button>
-          </div>
+          {/* Back, alone. ANY WORLD used to stand beside it; it is now the
+              first row of the list — see the note there. What is left down
+              here is the one thing that genuinely belongs at the bottom of a
+              screen: the way off it, changing nothing. */}
+          <button className="action-quiet ruled" onClick={onCancel}>
+            Back
+          </button>
         </div>
       </div>
     </div>
