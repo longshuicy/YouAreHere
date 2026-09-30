@@ -819,9 +819,10 @@ Used as follows:
 
 ## What these terms require of this project
 
-**ShareAlike** (CC-BY-NC-SA-4.0). The files in this directory are adaptations of
-ShareAlike-licensed data and are distributed under the same terms — see `LICENSE` here,
-which governs `/data` specifically and not the application source code.
+**ShareAlike** (CC-BY-NC-SA-4.0). A world built from ShareAlike data is an
+adaptation and is distributed under its source's terms — each world under its own, as
+listed in `LICENSE` here, which governs `/data` specifically and not the application
+source code. ShareAlike material is never combined with data under different terms.
 
 **NonCommercial** (CC-BY-NC-3.0, CC-BY-NC-4.0, CC-BY-NC-SA-4.0). While these datasets ship, the game may not
 be put to commercial use. Removing or replacing them is what lifts that restriction.

@@ -1,62 +1,116 @@
-Licence for the contents of /data
-=================================
+Licences for the contents of /data
+==================================
 
 These files are adaptations of third-party datasets and are NOT covered by the
 licence of the application source code. See ATTRIBUTION.md in this directory for
 the credit, citation, and list of changes each source requires.
 
-Effective licence: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA-4.0)
+This directory is a collection of separate works, not a single one. Each world is
+distributed under the terms of the source it was built from, and those terms cover
+its universe file and its reveal sidecar together. No file combines material from
+sources whose terms differ, so no one licence governs the directory as a whole.
+
+index.json, ATTRIBUTION.md and this file hold only titles, counts and credits.
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA-4.0)
+-----------------------------------------------------------------------------------------
 Full terms: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 Credit the creator, link the licence, and state that changes were made. No commercial use. Adaptations must carry the same licence.
 
-Sources ship under more than one licence; the most restrictive is applied above.
-Per-source terms:
+  asoiaf.json, asoiaf.meta.json
 
-  asoiaf.json  CC-BY-NC-SA-4.0  https://creativecommons.org/licenses/by-nc-sa/4.0/
-  bible.json  NONE-PUBLIC-DOMAIN  https://en.wikipedia.org/wiki/Public_domain
-  civilwar.json  ODC-By-1.0  https://opendatacommons.org/licenses/by/1-0/
-  congress.json  CC-BY-4.0  https://creativecommons.org/licenses/by/4.0/
-  friends.json  CC-BY-4.0  https://creativecommons.org/licenses/by/4.0/
-  godfather.json  CC0-1.0  https://creativecommons.org/publicdomain/zero/1.0/
-  hongloumeng.json  NONE-PUBLIC-DOMAIN  https://en.wikipedia.org/wiki/Public_domain
-  iliad.json  NONE-PUBLIC-DOMAIN  https://en.wikipedia.org/wiki/Public_domain
-  indiana-jones.json  CC0-1.0  https://creativecommons.org/publicdomain/zero/1.0/
-  lesmiserables.json  NONE-PUBLIC-DOMAIN  https://en.wikipedia.org/wiki/Public_domain
-  lotr.json  CC-BY-4.0  https://creativecommons.org/licenses/by/4.0/
-  mmkg.json  CC-BY-4.0  https://creativecommons.org/licenses/by/4.0/
-  odyssey.json  NONE-PUBLIC-DOMAIN  https://en.wikipedia.org/wiki/Public_domain
-  pride.json  CC-BY-NC-4.0  https://creativecommons.org/licenses/by-nc/4.0/
-  sanguoyanyi.json  NONE-PUBLIC-DOMAIN  https://en.wikipedia.org/wiki/Public_domain
-  shakespeare-a-midsummer-nights-dream.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-alls-well-that-ends-well.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-as-you-like-it.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-coriolanus.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-cymbeline.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-english-histories.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-hamlet.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-henry-viii.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-king-john.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-king-lear.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-loves-labors-lost.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-macbeth.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-measure-for-measure.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-much-ado-about-nothing.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-othello.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-pericles.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-rome.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-romeo-and-juliet.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-the-comedy-of-errors.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-the-merchant-of-venice.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-the-taming-of-the-shrew.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-the-tempest.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-the-winters-tale.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-timon-of-athens.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-titus-andronicus.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-troilus-and-cressida.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-twelfth-night.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shakespeare-two-gentlemen-of-verona.json  CC-BY-NC-3.0  https://creativecommons.org/licenses/by-nc/3.0/
-  shiji.json  NONE-PUBLIC-DOMAIN  https://en.wikipedia.org/wiki/Public_domain
-  shuihuzhuan.json  NONE-PUBLIC-DOMAIN  https://en.wikipedia.org/wiki/Public_domain
-  starwars.json  CC-BY-3.0  https://creativecommons.org/licenses/by/3.0/
-  xiyouji.json  NONE-PUBLIC-DOMAIN  https://en.wikipedia.org/wiki/Public_domain
+Creative Commons Attribution-NonCommercial 3.0 Unported (CC-BY-NC-3.0)
+----------------------------------------------------------------------
+Full terms: https://creativecommons.org/licenses/by-nc/3.0/
+
+Credit the creator, link the licence, and state that changes were made. No commercial use.
+
+  shakespeare-a-midsummer-nights-dream.json, shakespeare-a-midsummer-nights-dream.meta.json
+  shakespeare-alls-well-that-ends-well.json, shakespeare-alls-well-that-ends-well.meta.json
+  shakespeare-as-you-like-it.json, shakespeare-as-you-like-it.meta.json
+  shakespeare-coriolanus.json, shakespeare-coriolanus.meta.json
+  shakespeare-cymbeline.json, shakespeare-cymbeline.meta.json
+  shakespeare-english-histories.json, shakespeare-english-histories.meta.json
+  shakespeare-hamlet.json, shakespeare-hamlet.meta.json
+  shakespeare-henry-viii.json, shakespeare-henry-viii.meta.json
+  shakespeare-king-john.json, shakespeare-king-john.meta.json
+  shakespeare-king-lear.json, shakespeare-king-lear.meta.json
+  shakespeare-loves-labors-lost.json, shakespeare-loves-labors-lost.meta.json
+  shakespeare-macbeth.json, shakespeare-macbeth.meta.json
+  shakespeare-measure-for-measure.json, shakespeare-measure-for-measure.meta.json
+  shakespeare-much-ado-about-nothing.json, shakespeare-much-ado-about-nothing.meta.json
+  shakespeare-othello.json, shakespeare-othello.meta.json
+  shakespeare-pericles.json, shakespeare-pericles.meta.json
+  shakespeare-rome.json, shakespeare-rome.meta.json
+  shakespeare-romeo-and-juliet.json, shakespeare-romeo-and-juliet.meta.json
+  shakespeare-the-comedy-of-errors.json, shakespeare-the-comedy-of-errors.meta.json
+  shakespeare-the-merchant-of-venice.json, shakespeare-the-merchant-of-venice.meta.json
+  shakespeare-the-taming-of-the-shrew.json, shakespeare-the-taming-of-the-shrew.meta.json
+  shakespeare-the-tempest.json, shakespeare-the-tempest.meta.json
+  shakespeare-the-winters-tale.json, shakespeare-the-winters-tale.meta.json
+  shakespeare-timon-of-athens.json, shakespeare-timon-of-athens.meta.json
+  shakespeare-titus-andronicus.json, shakespeare-titus-andronicus.meta.json
+  shakespeare-troilus-and-cressida.json, shakespeare-troilus-and-cressida.meta.json
+  shakespeare-twelfth-night.json, shakespeare-twelfth-night.meta.json
+  shakespeare-two-gentlemen-of-verona.json, shakespeare-two-gentlemen-of-verona.meta.json
+
+Creative Commons Attribution-NonCommercial 4.0 International (CC-BY-NC-4.0)
+---------------------------------------------------------------------------
+Full terms: https://creativecommons.org/licenses/by-nc/4.0/
+
+Credit the creator, link the licence, and state that changes were made. No commercial use.
+
+  pride.json, pride.meta.json
+
+Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+-----------------------------------------------------
+Full terms: https://creativecommons.org/licenses/by/3.0/
+
+Credit the creator, link the licence, and state that changes were made.
+
+  starwars.json, starwars.meta.json
+
+Creative Commons Attribution 4.0 International (CC-BY-4.0)
+----------------------------------------------------------
+Full terms: https://creativecommons.org/licenses/by/4.0/
+
+Credit the creator, link the licence, and state that changes were made.
+
+  congress.json, congress.meta.json
+  friends.json, friends.meta.json
+  lotr.json, lotr.meta.json
+  mmkg.json, mmkg.meta.json
+
+Creative Commons Zero v1.0 Universal (CC0-1.0)
+----------------------------------------------
+Full terms: https://creativecommons.org/publicdomain/zero/1.0/
+
+Dedicated to the public domain. No conditions.
+
+  godfather.json, godfather.meta.json
+  indiana-jones.json, indiana-jones.meta.json
+
+Public domain (NONE-PUBLIC-DOMAIN)
+----------------------------------
+Full terms: https://en.wikipedia.org/wiki/Public_domain
+
+Out of copyright, with no conditions on reuse. Note for the King James Bible specifically: it is public domain in the United States and most of the world, but in the United Kingdom it is held under perpetual Crown copyright administered by Cambridge University Press, whose permission is required to reproduce the text there. This project ships a derived co-occurrence graph rather than the text, which is not the reproduction that restriction covers.
+
+  bible.json, bible.meta.json
+  hongloumeng.json, hongloumeng.meta.json
+  iliad.json, iliad.meta.json
+  lesmiserables.json, lesmiserables.meta.json
+  odyssey.json, odyssey.meta.json
+  sanguoyanyi.json, sanguoyanyi.meta.json
+  shiji.json, shiji.meta.json
+  shuihuzhuan.json, shuihuzhuan.meta.json
+  xiyouji.json, xiyouji.meta.json
+
+Open Data Commons Attribution License (ODC-By) v1.0 (ODC-By-1.0)
+----------------------------------------------------------------
+Full terms: https://opendatacommons.org/licenses/by/1-0/
+
+Credit the creator and keep a notice of this licence with the database. No ShareAlike clause — adaptations may carry stricter terms.
+
+  civilwar.json, civilwar.meta.json

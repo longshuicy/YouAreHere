@@ -283,9 +283,9 @@ A sidecar, `<universe>.meta.json`. It holds a one-line description per character
 
 It is still separate from the universe file for two reasons, neither of them spoiler-prevention — the universe file already holds every name. The first is weight: a session that never buys facts and ends in a wrong guess never pays for it. The second is licensing, and it is the one with teeth.
 
-**Sources must be merge-safe.** Enrichment material is combined with graph data that is CC BY-NC-SA, and ShareAlike forbids adding restrictions — so a CC BY-SA *work* cannot be folded into `/data`, because the result would need to be NonCommercial and not-NonCommercial at once. `License.can_merge_into()` encodes this and the emitter refuses any source that fails it.
+**Sources must be merge-safe.** A sidecar's enrichment is combined with its own world's graph, and ShareAlike forbids adding restrictions — so CC BY-SA material cannot be folded into a CC BY-NC-SA world such as ASOIAF, because the result would need to be NonCommercial and not-NonCommercial at once. `License.can_merge_into()` encodes this and the emitter refuses any source that fails it. The check is per world, not per directory: a CC BY-SA world may ship beside a CC BY-NC-SA one, each in its own files (see Licensing below).
 
-**CC BY-SA may be read, not copied.** Wikipedia and the fan wikis may be consulted for facts. Their sentences must not be copied, and they must not be paraphrased: a rewrite of a CC BY-SA paragraph is still an adaptation of that paragraph, and ShareAlike cannot sit inside this NonCommercial data. Facts themselves carry no licence. Lines in the sidecar are composed here from discrete attributes — including original lines written from those attributes when a source has nothing useful. The identity table's `facts:` field is that overlay. There are no quotations from the novels: a database of them is systematic reproduction, which is not what fair use covers.
+**CC BY-SA may be read, not copied.** Wikipedia and the fan wikis may be consulted for facts. Their sentences must not be copied, and they must not be paraphrased: a rewrite of a CC BY-SA paragraph is still an adaptation of that paragraph, and ShareAlike cannot sit inside a world under other terms. Even in a CC BY-SA world, the sidecar composes its own lines rather than carrying the wiki's. Facts themselves carry no licence. Lines in the sidecar are composed here from discrete attributes — including original lines written from those attributes when a source has nothing useful. The identity table's `facts:` field is that overlay. There are no quotations from the novels: a database of them is systematic reproduction, which is not what fair use covers.
 
 **Ties get facts, not readings.** `Edge.segments` already records which books a tie appears in, so *first shared the page in A Storm of Swords* costs nothing and comes from data already shipped. Shared allegiance is stated as a fact about each character rather than a claim about the tie.
 
@@ -320,17 +320,18 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | Pride and Prejudice | Chapter co-occurrence GEXF | Shipped | NGG / UCD, CC BY-NC 4.0. 61 chapters. See `pipeline/raw/pride/SOURCE.md`. |
 | The Godfather | Film dialogue GEXF (Moviegalaxies) | Shipped | CC0. Parts I–II. See `pipeline/raw/moviegalaxies/SOURCE.md`. |
 | Indiana Jones | Film dialogue GEXF (Moviegalaxies) | Shipped | CC0. Temple of Doom + Last Crusade (Raiders/Skull GEXFs misattributed upstream). See `pipeline/raw/moviegalaxies/SOURCE.md`. |
-| Musical Meetups (MMKG) | Biography meetup co-participation | Shipped | Polifonia, CC BY 4.0. sample_1k only (bulk triples lack participants). See `pipeline/raw/mmkg/SOURCE.md`. |
-| 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
+| Musical Meetups (MMKG) | Biography meetup co-participation | Shipped | Polifonia, CC BY 4.0. sample_1k only (bulk triples lack participants). See `pipeline/raw/mmkg/SOURCE.md`. || 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 | Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
 
 ### Licensing
 
 Confirmed at ingest, not assumed. ASOIAF (Beveridge & Shan) is **CC BY-NC-SA 4.0**, stated in the upstream README rather than in a `LICENSE` file. Two clauses have consequences beyond a credit line:
 
-**ShareAlike** makes the emitted graphs an adaptation, so `/data` is distributed under CC BY-NC-SA 4.0 regardless of what the application code is licensed as. `/data/LICENSE` is generated to say so.
+**ShareAlike** makes the emitted graph an adaptation, so `asoiaf.json` and its sidecar are distributed under CC BY-NC-SA 4.0 regardless of what the application code is licensed as.
 
 **NonCommercial** forecloses any commercial use of the game for as long as this dataset ships. Worth knowing now rather than after the game works.
+
+> **Amended 2026-09-30 — licensed per world.** `/data` used to carry one licence, the most restrictive among its sources. That stops working the moment a second ShareAlike licence arrives: CC BY-SA (the Stormlight Archive Wiki) and CC BY-NC-SA (ASOIAF) each require adaptations to carry exactly their own terms, so no single licence satisfies both. `/data` is now treated as a collection of separate works. Each world's universe file and sidecar carry the terms of its source, `/data/LICENSE` is generated as a per-file listing, and `can_merge_into()` still stops any file from mixing sources whose terms differ. What was never allowed is still not allowed: folding CC BY-SA material *into* a NonCommercial world.
 
 Attribution is enforced in code rather than maintained by hand. `Provenance` carries a required `Attribution` and `License`, every stage appends what it changed to `attribution.modifications`, and the emitter refuses to write a universe whose credit, licence URL, or statement of changes is missing. Adding a source with unresolved terms therefore fails the build instead of shipping quietly.
 
@@ -348,7 +349,7 @@ There is a second, quieter reason to include them early: a structurally similar 
 
 ### Bible, shipped
 
-The text is public domain. The graphs on the internet were not usable: MetaV/Gnosis people tables are CC BY-SA, which cannot share a `/data` directory with ASOIAF's CC BY-NC-SA, and KONECT's Bible network mixes names with places. The shipped graph is a people-only verse co-occurrence built from the KJV plus Wikidata labels (CC0).
+The text is public domain. The graphs on the internet were not usable: MetaV/Gnosis people tables are CC BY-SA, which at the time could not share a `/data` directory with ASOIAF's CC BY-NC-SA (per-world licensing has since lifted that, but the verse graph built here is the better source anyway), and KONECT's Bible network mixes names with places. The shipped graph is a people-only verse co-occurrence built from the KJV plus Wikidata labels (CC0).
 
 ### Harry Potter, deferred
 

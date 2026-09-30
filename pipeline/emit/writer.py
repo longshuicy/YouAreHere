@@ -409,9 +409,10 @@ def write_attribution(summaries: list[dict], graphs: dict[str, CanonicalGraph], 
     lines += ["## What these terms require of this project", ""]
     if share_alike:
         lines += [
-            f"**ShareAlike** ({', '.join(share_alike)}). The files in this directory are adaptations of",
-            "ShareAlike-licensed data and are distributed under the same terms — see `LICENSE` here,",
-            "which governs `/data` specifically and not the application source code.",
+            f"**ShareAlike** ({', '.join(share_alike)}). A world built from ShareAlike data is an",
+            "adaptation and is distributed under its source's terms — each world under its own, as",
+            "listed in `LICENSE` here, which governs `/data` specifically and not the application",
+            "source code. ShareAlike material is never combined with data under different terms.",
             "",
         ]
     if noncommercial:
@@ -470,37 +471,57 @@ def _meta_files(group: list[dict]) -> str:
 
 
 def write_data_license(summaries: list[dict], graphs: dict[str, CanonicalGraph], out: Path) -> None:
-    """The emitted graphs inherit the most restrictive terms among their sources."""
-    licenses = {graphs[s["source"]].provenance.license.spdx: graphs[s["source"]].provenance.license
-                for s in summaries}
-    effective = sorted(
+    """Each world is licensed on its own, under the terms of its source.
+
+    /data is a collection of separate works, not one adaptation. A single
+    directory-wide licence stops existing the moment two ShareAlike sources
+    with different terms ship side by side — CC BY-SA and CC BY-NC-SA each
+    require that adaptations carry their own terms and no others, so "the most
+    restrictive" of the two is a licence neither permits. Keeping every world in
+    its own files, and never mixing sources inside one (see `write_metadata`),
+    is what lets them coexist.
+    """
+    groups: dict[str, list[dict]] = {}
+    licenses = {}
+    for summary in summaries:
+        license = graphs[summary["source"]].provenance.license
+        licenses[license.spdx] = license
+        groups.setdefault(license.spdx, []).append(summary)
+    ordered = sorted(
         licenses.values(),
         key=lambda lic: (lic.allows_commercial_use, not lic.share_alike, lic.spdx),
-    )[0]
+    )
 
     body = [
-        "Licence for the contents of /data",
-        "=" * 33,
+        "Licences for the contents of /data",
+        "=" * 34,
         "",
         "These files are adaptations of third-party datasets and are NOT covered by the",
         "licence of the application source code. See ATTRIBUTION.md in this directory for",
         "the credit, citation, and list of changes each source requires.",
         "",
-        f"Effective licence: {effective.name} ({effective.spdx})",
-        f"Full terms: {effective.url}",
+        "This directory is a collection of separate works, not a single one. Each world is",
+        "distributed under the terms of the source it was built from, and those terms cover",
+        "its universe file and its reveal sidecar together. No file combines material from",
+        "sources whose terms differ, so no one licence governs the directory as a whole.",
         "",
-        effective.deed_summary,
+        "index.json, ATTRIBUTION.md and this file hold only titles, counts and credits.",
         "",
     ]
-    if len(licenses) > 1:
+    for license in ordered:
         body += [
-            "Sources ship under more than one licence; the most restrictive is applied above.",
-            "Per-source terms:",
+            f"{license.name} ({license.spdx})",
+            "-" * len(f"{license.name} ({license.spdx})"),
+            f"Full terms: {license.url}" if license.url else "Full terms: none stated",
+            "",
+            license.deed_summary,
             "",
         ]
-        for summary in summaries:
-            license = graphs[summary["source"]].provenance.license
-            body.append(f"  {summary['file']}  {license.spdx}  {license.url}")
+        for summary in groups[license.spdx]:
+            files = [summary["file"]]
+            if summary.get("metaFile"):
+                files.append(summary["metaFile"])
+            body.append("  " + ", ".join(files))
         body.append("")
 
     out.mkdir(parents=True, exist_ok=True)

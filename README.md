@@ -55,16 +55,15 @@ partial index.
   where plays genuinely interlock: the English histories are one world, and so are
   the two Roman plays.
 - **Star Wars** — 103 characters, tied when they speak in the same scene.
-
 ## Licensing
 
 The code and the data are licensed separately, and the data is the restrictive half.
 
 - **Code** — MIT, see `LICENSE`.
-- **Data** — see `data/LICENSE`, currently CC BY-NC-SA 4.0, which is the most
-  restrictive of the terms the sources arrive under. **While those datasets ship,
-  the game may not be put to commercial use.** Removing or replacing them is what
-  lifts that.
+- **Data** — licensed per world, each under the terms of its source; `data/LICENSE`
+  lists every file. Some of those terms are NonCommercial (CC BY-NC-SA 4.0 for
+  ASOIAF, among others). **While those datasets ship, the game may not be put to
+  commercial use.** Removing or replacing them is what lifts that.
 
 `LICENSING.md` explains the split. `data/ATTRIBUTION.md` carries the credit, the
 citation and the statement of changes each source requires; both are generated, and
