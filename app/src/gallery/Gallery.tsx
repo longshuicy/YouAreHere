@@ -130,9 +130,45 @@ function WorldDetail({
   onOpenCharacter: (i: number) => void;
 }) {
   const connected = world.characters.filter((c) => c.degree > 0);
-  const byGain = [...connected].sort((a, b) => b.gain - a.gain);
-  const outermost = byGain.slice(0, 4);
-  const innermost = byGain.slice(-4).reverse();
+
+  /** The widest horizons: gain descending, which is what gain is for. */
+  const outermost = [...connected].sort((a, b) => b.gain - a.gain).slice(0, 4);
+
+  /**
+   * The centre: harmonic centrality truncated at two hops — your friends at
+   * full weight, their friends at a half — which is `(degree + reach) / 2`, so
+   * it costs nothing beyond the two numbers already measured.
+   *
+   * Not gain ascending, which is what this was and which inverts itself in
+   * every large world. Gain is `reach / degree` and names no cast size, so it
+   * cannot tell *sees the whole world* from *sees a closed clique and will
+   * never see more* — both score near 1. Where the world is small enough that
+   * every second ring runs out of cast, the two are the same statement and
+   * gain is a disguised degree; where it is not, gain measures neighbourhood
+   * closure and nothing else. It put the Citadel novices at the centre of *A
+   * Song of Ice and Fire* (they reach eight people of 592, and each other) and
+   * the sons of Gad at the centre of the Bible, a genealogical clique with a
+   * clustering coefficient of exactly 1. Jonothor Darry, the most peripheral
+   * character in Westeros by closeness, was printed here.
+   *
+   * Raw reach was tried first and is too brittle near saturation: it is a
+   * count, so one person's difference decides the order outright and the
+   * tie-break is never consulted. In *Pride and Prejudice* that is enough for
+   * Kitty Bennet — twenty-two ties, reaching 85 — to displace Elizabeth, who
+   * has fifty and reaches 84. Weighting the first ring heavier makes the
+   * comparison continuous, and the degree a character actually holds stops
+   * being worth less than one incidental acquaintance.
+   *
+   * Measured against full harmonic closeness over the catalogue this ranks at
+   * rho 0.89 to 1.00, median 0.996, and no character it shows anywhere is
+   * outside that world's true top nine. It is also still exactly the old
+   * ordering in the saturated worlds — reach is then `n - 1` for everyone, so
+   * the score reduces to degree, which is what gain was standing in for. 30 of
+   * the 52 worlds print an unchanged list, all of them plays.
+   */
+  const innermost = [...connected]
+    .sort((a, b) => b.degree + b.reach - (a.degree + a.reach) || a.gain - b.gain)
+    .slice(0, 4);
 
   const camps = useMemo(() => {
     const groups = new Map<number, CharacterMetrics[]>();
@@ -242,7 +278,7 @@ function WorldDetail({
         }}
       >
         <div>
-          <SectionHead>Furthest from the world</SectionHead>
+          <SectionHead>The widest horizon</SectionHead>
           {outermost.map((c) => (
             <CharacterRow key={c.i} character={c} of={world.nodes} onOpen={onOpenCharacter} />
           ))}
@@ -257,7 +293,7 @@ function WorldDetail({
             <CharacterRow key={c.i} character={c} of={world.nodes} onOpen={onOpenCharacter} />
           ))}
           <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.7 }}>
-            The second ring adds nobody. They already see everyone.
+            Two hops from here is most of the cast.
           </div>
         </div>
       </div>

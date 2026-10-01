@@ -51,9 +51,28 @@ The Taming of the Shrew  Phillip     knows 8 → reaches 17   2.1   (tied with t
 The Apothecary sells Romeo poison in one scene and the whole play stands behind them. *Shrew*'s
 flat top is the metric correctly reporting that the play has no outsiders.
 
-Do not plot raw two-hop reach: it saturates — in most worlds nearly everyone reaches nearly
-everyone — and only re-draws cast size. Do not plot the world average either; it tracks cast size
-almost perfectly.
+Do not plot raw two-hop reach **as a card's figure**: across worlds it saturates — in most of them
+nearly everyone reaches nearly everyone — and only re-draws cast size. Do not plot the world average
+either; it tracks cast size almost perfectly.
+
+That objection is about comparing worlds, and does not carry *inside* one, where cast size is a
+constant and so cannot be what is doing the ranking. The gallery's centre list therefore sorts on
+**harmonic centrality truncated at two hops** — the first ring at full weight, the second at a half,
+which is `(degree + reach) / 2` and needs nothing not already measured.
+
+Gain is the wrong sort for that column and was the original one. It names no cast size, so it cannot
+distinguish seeing the whole world from seeing a closed clique and never seeing more — both score
+near 1 — and in every unsaturated world it returns the periphery: the Citadel novices for *A Song of
+Ice and Fire*, the sons of Gad for the Bible, the ABC café for *Les Misérables*. Raw reach fixes that
+but is brittle near saturation, where one person's difference in a count decides the order outright
+and no tie-break is ever reached; it costs Elizabeth Bennet her place to Kitty. The truncated
+harmonic scores rho 0.89–1.00 against full closeness across the catalogue, median 0.996, and still
+reduces to exactly the old ordering wherever every second ring saturates. See `Gallery.tsx`'s
+`innermost`, which carries the full argument.
+
+Gain remains the right sort for the *other* column, which is a claim about horizon rather than
+distance — hence "The widest horizon" and not "Furthest from the world". Those characters are two
+handshakes from a quarter of their world; they are not remote, they are merely small.
 
 The card's number is the **highest gain over the median**: how far the furthest character stands
 from a typical one. This was chosen by measuring the candidates rather than by taste, and the
