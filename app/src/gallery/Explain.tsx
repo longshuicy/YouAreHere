@@ -96,9 +96,11 @@ export function Explain({
           <div style={{ fontSize: 15, color: 'var(--body)', lineHeight: 1.55, paddingTop: 12 }}>
             One mark per character, asking: if you know a handful of people, how many more do you
             reach through them? A mark at <span className="mono" style={{ fontSize: 13 }}>1×</span>{' '}
-            is someone who reaches nobody new: they already know everyone, which is where the leads
-            sit. A mark at <span className="mono" style={{ fontSize: 13 }}>10×</span> is someone
-            whose few acquaintances open onto ten times as many people again.
+            is someone who reaches nobody new — in a small cast that is a lead who already knows
+            everyone, and in a large one it is more often somebody sealed inside a tight circle. A
+            mark at <span className="mono" style={{ fontSize: 13 }}>10×</span> is someone whose few
+            acquaintances open onto ten times as many people again, which is a wide horizon rather
+            than a distant one: they may still be two handshakes from half the world.
           </div>
         </div>
       </div>

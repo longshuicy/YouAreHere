@@ -22,9 +22,15 @@ export const METRIC_NOTES: Record<string, MetricNote> = {
   },
   horizon: {
     measures:
-      'How much of a world is invisible from where a character stands. A protagonist sits at 1× and already sees everyone; the far end is someone with a few ties and the whole world standing behind them.',
+      'How much a character\u2019s second ring multiplies their first: knowing two people and reaching nineteen is 9.5×. The far end is someone with a few ties and a great deal of world standing behind them.',
     blind:
-      'Everyone but the outermost character, who decides the figure alone, and characters with a single tie, where one neighbour decides theirs.',
+      'How much world that is. The ratio names no cast size, so 9.5× in a twenty-hander and 74.5× in a world of six hundred both describe a bit part — in one case reaching everyone, in the other a quarter of them. Also everyone but the outermost character, who decides the card\u2019s figure alone.',
+  },
+  centre: {
+    measures:
+      'How much of the cast a character holds within two hops, counting the people they know themselves at full weight and the people those people know at half. 100% would be knowing the entire world personally. Plain two-hop reach was tried for this column and is unreadable: in half the catalogue every character reaches everyone, and the figure is 100% all the way down.',
+    blind:
+      'Anything past two hops, and who those people are — a character at the heart of one camp and a go-between who holds two camps apart can score alike. In a small play, where every second ring runs out of cast, it reduces to who simply knows the most people.',
   },
   ties: {
     measures: 'How many people each character appears with, in fixed bands.',

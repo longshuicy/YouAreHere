@@ -49,6 +49,10 @@ const DETAIL_TICKS = 126;
 /** Long enough to see a camp's shape, short enough that the page is still a
  * page. The rest are a scroll away rather than four hundred names down. */
 const CAMP_PREVIEW = 20;
+/** How many characters each end of the horizon shows at most. Ten rather than
+ * four: four is a podium, and in a world of several hundred a podium says
+ * nothing about whether the fifth name was close behind or nowhere near. */
+const HORIZON_ENDS = 10;
 const KEY_STORAGE = 'you-are-here:gallery-key';
 
 function StepCurve({ curve, of }: { curve: number[]; of: number }) {
@@ -73,10 +77,15 @@ function StepCurve({ curve, of }: { curve: number[]; of: number }) {
 function CharacterRow({
   character,
   of,
+  figure,
   onOpen,
 }: {
   character: CharacterMetrics;
   of: number;
+  /** The column's own sort key, written out. Passed in rather than picked here
+   * because the two columns no longer rank on the same quantity, and a row that
+   * prints one number while its column is ordered by another reads as a bug. */
+  figure: string;
   onOpen?: (i: number) => void;
 }) {
   return (
@@ -93,7 +102,7 @@ function CharacterRow({
         </div>
       </div>
       <div className="mono" style={{ fontSize: 13, color: 'var(--body)', flexShrink: 0 }}>
-        {character.gain.toFixed(1)}×
+        {figure}
       </div>
     </div>
   );
@@ -130,9 +139,11 @@ function WorldDetail({
   onOpenCharacter: (i: number) => void;
 }) {
   const connected = world.characters.filter((c) => c.degree > 0);
+  /** A third of each end on the small plays, so the two ends stay ends and
+   * something is left in the middle. Ten of each is eight of *Othello*'s
+   * twelve characters printed twice — not a finding but a cast list. */
+  const ends = Math.min(HORIZON_ENDS, Math.max(1, Math.floor(connected.length / 3)));
 
-  /** The widest horizons: gain descending, which is what gain is for. */
-  const outermost = [...connected].sort((a, b) => b.gain - a.gain).slice(0, 4);
 
   /**
    * The centre: harmonic centrality truncated at two hops — your friends at
@@ -168,7 +179,22 @@ function WorldDetail({
    */
   const innermost = [...connected]
     .sort((a, b) => b.degree + b.reach - (a.degree + a.reach) || a.gain - b.gain)
-    .slice(0, 4);
+    .slice(0, ends);
+
+  /**
+   * The widest horizons: gain descending, which is what gain is for — minus
+   * anyone the centre has already claimed.
+   *
+   * The two columns sort on different keys now, so nothing about the arithmetic
+   * keeps them apart: in a twelve-hander where everyone reaches everyone, gain
+   * ranks by degree inverted and a character can be sixth from both ends at
+   * once. *Othello* printed Bianca in both.
+   */
+  const claimed = new Set(innermost.map((c) => c.i));
+  const outermost = [...connected]
+    .filter((c) => !claimed.has(c.i))
+    .sort((a, b) => b.gain - a.gain)
+    .slice(0, ends);
 
   const camps = useMemo(() => {
     const groups = new Map<number, CharacterMetrics[]>();
@@ -277,20 +303,32 @@ function WorldDetail({
           alignItems: 'start',
         }}
       >
-        <div>
+        <div title={noteTooltip('horizon')}>
           <SectionHead>The widest horizon</SectionHead>
           {outermost.map((c) => (
-            <CharacterRow key={c.i} character={c} of={world.nodes} onOpen={onOpenCharacter} />
+            <CharacterRow
+              key={c.i}
+              character={c}
+              of={world.nodes}
+              figure={`${c.gain.toFixed(1)}×`}
+              onOpen={onOpenCharacter}
+            />
           ))}
           <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.7 }}>
             A few ties, and the whole world standing behind them.
           </div>
         </div>
 
-        <div>
+        <div title={noteTooltip('centre')}>
           <SectionHead>At the centre</SectionHead>
           {innermost.map((c) => (
-            <CharacterRow key={c.i} character={c} of={world.nodes} onOpen={onOpenCharacter} />
+            <CharacterRow
+              key={c.i}
+              character={c}
+              of={world.nodes}
+              figure={`${Math.round(((c.degree + c.reach) / 2 / Math.max(1, world.nodes - 1)) * 100)}%`}
+              onOpen={onOpenCharacter}
+            />
           ))}
           <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.7 }}>
             Two hops from here is most of the cast.
@@ -401,6 +439,26 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
   };
 
   const worlds = useMemo(() => universes.map(measureWorld), [universes]);
+
+  /**
+   * What the catalogue adds up to, from the measurements already in hand.
+   *
+   * Every figure here is a sum or a maximum over `worlds`, so it costs a pass
+   * over an array that has just been built and nothing else — no second metric,
+   * no fetch, and no number that can disagree with the cards below it. It
+   * changes when a world is added, which is the point: the sentence above it
+   * promises "every world you have loaded" and this says how many that is.
+   */
+  const totals = useMemo(() => {
+    const cast = worlds.reduce((sum, w) => sum + w.nodes, 0);
+    const ties = worlds.reduce((sum, w) => sum + w.edges, 0);
+    const camps = worlds.reduce((sum, w) => sum + w.communities, 0);
+    // The world's name is deliberately not carried with it: this strip is set
+    // in the annotation face, which is uppercase, and a title in it stops
+    // being a title.
+    const largest = worlds.reduce((most, w) => Math.max(most, w.nodes), 0);
+    return { cast, ties, camps, largest };
+  }, [worlds]);
   const byId = useMemo(() => new Map(universes.map((u) => [u.id, u])), [universes]);
 
   /** The facets live in the enrichment sidecars, which the game fetches one at a
@@ -539,6 +597,27 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
               Every world you have loaded, measured the same way and drawn at the same scale. Nothing
               here is a puzzle, and nothing has a right answer.
             </div>
+            {worlds.length > 0 && (
+              <div
+                className="annot"
+                style={{ fontSize: 9, paddingTop: 16, lineHeight: 1.9, letterSpacing: '0.09em' }}
+              >
+                {/* Each clause keeps its own separator, so a wrap at this width
+                    cannot leave a dot stranded at the head of the second line. */}
+                {[
+                  `${worlds.length} ${worlds.length === 1 ? 'world' : 'worlds'}`,
+                  `${totals.cast.toLocaleString()} characters`,
+                  `${totals.ties.toLocaleString()} ties`,
+                  `${totals.camps.toLocaleString()} camps`,
+                  `largest cast ${totals.largest.toLocaleString()}`,
+                ].map((clause, i, all) => (
+                  <span key={clause} style={{ whiteSpace: 'nowrap' }}>
+                    {clause}
+                    {i < all.length - 1 ? ' · ' : ''}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* One sticky row: view, then the tools that belong to it, then help. */}

@@ -70,6 +70,18 @@ harmonic scores rho 0.89–1.00 against full closeness across the catalogue, med
 reduces to exactly the old ordering wherever every second ring saturates. See `Gallery.tsx`'s
 `innermost`, which carries the full argument.
 
+Each column prints its own sort key, which is why the centre shows a percentage against the horizon's
+multiplier: a row whose number is not what ordered it reads as a bug, and over ten rows it reads as a
+broken one. The percentage is the truncated harmonic as a share of the cast — 100% would be knowing
+the whole world personally. Plain two-hop coverage was the obvious candidate and loses twice: it is
+not monotone under this sort, since the first ring is weighted heavier, and in the thirty worlds
+where every second ring saturates it is 100% all the way down.
+
+Both ends show up to ten characters, capped at a third of the connected cast so the two stay ends —
+ten and ten is eight of *Othello*'s twelve printed twice. The columns rank on different quantities
+now, so nothing in the arithmetic keeps them disjoint; the centre is taken first and the horizon
+excludes it.
+
 Gain remains the right sort for the *other* column, which is a claim about horizon rather than
 distance — hence "The widest horizon" and not "Furthest from the world". Those characters are two
 handshakes from a quarter of their world; they are not remote, they are merely small.
