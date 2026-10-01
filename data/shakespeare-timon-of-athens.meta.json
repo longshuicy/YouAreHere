@@ -43,7 +43,7 @@
    "wiki": "Apemantus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 0,
+    "lookAlikes": 1,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -62,11 +62,11 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "賈蓉續娶之妻",
+     "world": "harry-potter",
+     "story": "Harry Potter",
+     "name": "Sanguini",
      "tied": 0
     }
    }
@@ -93,7 +93,7 @@
    },
    "line": "His steward.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -114,7 +114,7 @@
    },
    "line": "Fool.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -133,7 +133,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -152,7 +152,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -171,7 +171,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -190,7 +190,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -219,7 +219,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -240,7 +240,7 @@
    },
    "line": "Servant to a Senator.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -259,7 +259,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -278,7 +278,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -297,7 +297,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -318,7 +318,7 @@
    },
    "line": "Page.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -337,7 +337,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -356,7 +356,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 6,
+    "lookAlikes": 17,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -375,7 +375,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -413,7 +413,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -450,7 +450,7 @@
    "wiki": "Timon of Athens (person)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 39,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",

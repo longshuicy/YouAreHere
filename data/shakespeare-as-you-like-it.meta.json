@@ -14,11 +14,11 @@
    },
    "line": "Servant to Oliver and friend to Orlando.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Achish",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Idani",
      "tied": 0
     }
    }
@@ -35,7 +35,7 @@
    },
    "line": "A goat-keeper.",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 65,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -56,7 +56,7 @@
    },
    "line": "Rosalind’s cousin, daughter to Duke Frederick.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -77,11 +77,11 @@
    },
    "line": "Wrestler at Duke Frederick’s court.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
-     "world": "shakespeare-romeo-and-juliet",
-     "story": "Romeo and Juliet",
-     "name": "Balthasar",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Falwick",
      "tied": 0
     }
    }
@@ -98,7 +98,7 @@
    },
    "line": "A shepherd.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -131,7 +131,7 @@
    },
    "line": "Duke, The usurping duke.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -152,11 +152,11 @@
    },
    "line": "Duke, The exiled duke, brother to Duke Frederick.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
-     "world": "shakespeare-titus-andronicus",
-     "story": "Titus Andronicus",
-     "name": "Aemilius",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Abrobadar",
      "tied": 0
     }
    }
@@ -175,7 +175,7 @@
    "wiki": "Hymen (god)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -194,7 +194,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -215,11 +215,11 @@
    },
    "line": "A courtier at Duke Frederick’s court.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Odius",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Natam",
      "tied": 0
     }
    }
@@ -258,7 +258,7 @@
    },
    "line": "His elder brother.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -279,7 +279,7 @@
    },
    "line": "Youngest son of Sir Rowland de Boys.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -300,7 +300,7 @@
    },
    "line": "A disdainful shepherdess.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -321,7 +321,7 @@
    },
    "line": "Daughter of the banished duke.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -360,7 +360,7 @@
    },
    "line": "Brother to Orlando and Oliver, named Jaques.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -381,7 +381,7 @@
    },
    "line": "A young shepherd in love.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",
@@ -402,7 +402,7 @@
    },
    "line": "A court Fool.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",

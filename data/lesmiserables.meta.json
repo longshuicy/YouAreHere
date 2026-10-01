@@ -12,7 +12,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in three volumes."
+   "line": "Appears in 3 volumes."
   },
   "1": {
    "facts": {
@@ -28,7 +28,7 @@
    },
    "line": "Of the Friends of the ABC. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -49,7 +49,7 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 107,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -69,7 +69,7 @@
    },
    "line": "Criminal. Appears in Volume 4.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -89,7 +89,7 @@
    },
    "line": "Student. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -108,7 +108,7 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -130,9 +130,9 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in three volumes.",
+   "line": "Of the Friends of the ABC. Appears in 3 volumes.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -152,7 +152,7 @@
    },
    "line": "Convict. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 67,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -172,7 +172,7 @@
    },
    "line": "Convict. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 67,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -191,7 +191,7 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 67,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -213,9 +213,9 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in three volumes.",
+   "line": "Of the Friends of the ABC. Appears in 3 volumes.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -235,7 +235,7 @@
    },
    "line": "Convict. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 67,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -257,11 +257,11 @@
     "gender": "Female",
     "role": "lady of the Rue Plumet"
    },
-   "line": "Lady of the Rue Plumet. Appears in four volumes.",
+   "line": "Lady of the Rue Plumet. Appears in 4 volumes.",
    "wiki": "Cosette",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -283,9 +283,9 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in three volumes.",
+   "line": "Of the Friends of the ABC. Appears in 3 volumes.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -304,7 +304,7 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -328,11 +328,11 @@
     "gender": "Male",
     "occupation": "revolutionary"
    },
-   "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes.",
+   "line": "Revolutionary, of the Friends of the ABC. Appears in 3 volumes.",
    "wiki": "Enjolras",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -352,11 +352,11 @@
     "corpusSize": 5,
     "gender": "Female"
    },
-   "line": "Appears in three volumes.",
+   "line": "Appears in 3 volumes.",
    "wiki": "Éponine",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -376,7 +376,7 @@
    },
    "line": "Student. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -399,7 +399,7 @@
    },
    "line": "Of the Friends of the ABC. Appears in Volume 4 and Volume 5.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -434,7 +434,7 @@
    "wiki": "Fantine",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 101,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -455,7 +455,7 @@
    },
    "line": "Student. Appears in Volume 1 and Volume 3.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -474,7 +474,7 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -495,11 +495,11 @@
     "occupation": "urchin",
     "gender": "Male"
    },
-   "line": "Urchin. Appears in three volumes.",
+   "line": "Urchin. Appears in 3 volumes.",
    "wiki": "Gavroche",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -518,9 +518,9 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in three volumes.",
+   "line": "Appears in 3 volumes.",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -554,11 +554,11 @@
     ],
     "occupation": "revolutionary"
    },
-   "line": "Revolutionary, of the Friends of the ABC. Appears in three volumes.",
+   "line": "Revolutionary, of the Friends of the ABC. Appears in 3 volumes.",
    "wiki": "Grantaire",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -579,7 +579,7 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 107,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -599,7 +599,7 @@
    },
    "line": "Innkeeper. Appears in Volume 4.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -622,11 +622,11 @@
     "occupation": "inspector",
     "gender": "Male"
    },
-   "line": "Inspector. Appears in all five volumes.",
+   "line": "Inspector. Appears in all 5 volumes.",
    "wiki": "Javert",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -648,9 +648,9 @@
      "Friends of the ABC"
     ]
    },
-   "line": "Of the Friends of the ABC. Appears in three volumes.",
+   "line": "Of the Friends of the ABC. Appears in 3 volumes.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -672,7 +672,7 @@
    },
    "line": "Of the Friends of the ABC. Appears in Volume 4.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -692,7 +692,7 @@
    },
    "line": "Judge. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 67,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -715,11 +715,11 @@
     "occupation": "former convict",
     "gender": "Male"
    },
-   "line": "Former convict. Appears in all five volumes.",
+   "line": "Former convict. Appears in all 5 volumes.",
    "wiki": "Jean Valjean",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -739,7 +739,7 @@
    },
    "line": "Student. Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -760,11 +760,11 @@
     "gender": "Male",
     "occupation": "revolutionary"
    },
-   "line": "Revolutionary. Appears in three volumes.",
+   "line": "Revolutionary. Appears in 3 volumes.",
    "wiki": "Marius Pontmercy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -804,9 +804,9 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "Appears in three volumes.",
+   "line": "Appears in 3 volumes.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -839,7 +839,7 @@
    },
    "line": "Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -872,11 +872,11 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Xanthus",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Myhrman",
      "tied": 0
     }
    }
@@ -929,7 +929,7 @@
    },
    "line": "Bandit. Appears in Volume 3 and Volume 4.",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -985,9 +985,9 @@
     "corpusSize": 5,
     "occupation": "innkeeper"
    },
-   "line": "Innkeeper. Appears in all five volumes.",
+   "line": "Innkeeper. Appears in all 5 volumes.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -1008,11 +1008,11 @@
     "corpusSize": 5,
     "gender": "Female"
    },
-   "line": "Appears in four volumes.",
+   "line": "Appears in 4 volumes.",
    "wiki": "Madame Thénardier",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 107,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1042,7 +1042,7 @@
    },
    "line": "Appears in Volume 1.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1063,7 +1063,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 2."
+   "line": "They share the page in 2 volumes, first in Volume 2."
   },
   "0-50": {
    "facts": {
@@ -1075,7 +1075,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "0-51": {
    "facts": {
@@ -1207,7 +1207,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 3. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 3. Both belong to the Friends of the ABC."
   },
   "1-31": {
    "facts": {
@@ -1288,7 +1288,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "2-29": {
    "facts": {
@@ -1322,7 +1322,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "2-46": {
    "facts": {
@@ -1334,7 +1334,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "2-50": {
    "facts": {
@@ -1346,7 +1346,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "2-51": {
    "facts": {
@@ -1603,7 +1603,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "6-13": {
    "facts": {
@@ -1619,7 +1619,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in three volumes, first in Volume 3. Both belong to the Friends of the ABC."
+   "line": "They share the page in 3 volumes, first in Volume 3. Both belong to the Friends of the ABC."
   },
   "6-15": {
    "facts": {
@@ -1634,7 +1634,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "6-18": {
    "facts": {
@@ -1649,7 +1649,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "6-23": {
    "facts": {
@@ -1661,7 +1661,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 4."
+   "line": "They share the page in 2 volumes, first in Volume 4."
   },
   "6-26": {
    "facts": {
@@ -1676,7 +1676,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 3. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 3. Both belong to the Friends of the ABC."
   },
   "6-28": {
    "facts": {
@@ -1702,7 +1702,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "6-31": {
    "facts": {
@@ -1740,7 +1740,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 3."
+   "line": "They share the page in 3 volumes, first in Volume 3."
   },
   "6-40": {
    "facts": {
@@ -1899,7 +1899,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in three volumes, first in Volume 3. Both belong to the Friends of the ABC."
+   "line": "They share the page in 3 volumes, first in Volume 3. Both belong to the Friends of the ABC."
   },
   "10-15": {
    "facts": {
@@ -1915,7 +1915,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in three volumes, first in Volume 3. Both belong to the Friends of the ABC."
+   "line": "They share the page in 3 volumes, first in Volume 3. Both belong to the Friends of the ABC."
   },
   "10-18": {
    "facts": {
@@ -1930,7 +1930,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "10-23": {
    "facts": {
@@ -1942,7 +1942,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 4."
+   "line": "They share the page in 2 volumes, first in Volume 4."
   },
   "10-26": {
    "facts": {
@@ -1971,7 +1971,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "10-31": {
    "facts": {
@@ -1998,7 +1998,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 3."
+   "line": "They share the page in 3 volumes, first in Volume 3."
   },
   "10-40": {
    "facts": {
@@ -2078,7 +2078,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in four volumes, first in Volume 2."
+   "line": "They share the page in 4 volumes, first in Volume 2."
   },
   "12-35": {
    "facts": {
@@ -2091,7 +2091,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 3."
+   "line": "They share the page in 3 volumes, first in Volume 3."
   },
   "12-38": {
    "facts": {
@@ -2162,7 +2162,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in three volumes, first in Volume 3. Both belong to the Friends of the ABC."
+   "line": "They share the page in 3 volumes, first in Volume 3. Both belong to the Friends of the ABC."
   },
   "13-16": {
    "facts": {
@@ -2188,7 +2188,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "13-23": {
    "facts": {
@@ -2200,7 +2200,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 4."
+   "line": "They share the page in 2 volumes, first in Volume 4."
   },
   "13-26": {
    "facts": {
@@ -2240,7 +2240,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "13-31": {
    "facts": {
@@ -2267,7 +2267,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 3."
+   "line": "They share the page in 3 volumes, first in Volume 3."
   },
   "13-40": {
    "facts": {
@@ -2359,7 +2359,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "15-23": {
    "facts": {
@@ -2371,7 +2371,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 4."
+   "line": "They share the page in 2 volumes, first in Volume 4."
   },
   "15-26": {
    "facts": {
@@ -2386,7 +2386,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "15-28": {
    "facts": {
@@ -2409,7 +2409,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 4."
+   "line": "They share the page in 2 volumes, first in Volume 4."
   },
   "15-30": {
    "facts": {
@@ -2424,7 +2424,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "15-31": {
    "facts": {
@@ -2462,7 +2462,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 3."
+   "line": "They share the page in 3 volumes, first in Volume 3."
   },
   "15-40": {
    "facts": {
@@ -2507,7 +2507,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "16-40": {
    "facts": {
@@ -2552,7 +2552,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "16-51": {
    "facts": {
@@ -2564,7 +2564,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 2."
+   "line": "They share the page in 2 volumes, first in Volume 2."
   },
   "17-20": {
    "facts": {
@@ -2659,7 +2659,7 @@
      "Friends of the ABC"
     ]
    },
-   "line": "They share the page in two volumes, first in Volume 4. Both belong to the Friends of the ABC."
+   "line": "They share the page in 2 volumes, first in Volume 4. Both belong to the Friends of the ABC."
   },
   "18-31": {
    "facts": {
@@ -2718,7 +2718,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 1."
+   "line": "They share the page in 2 volumes, first in Volume 1."
   },
   "19-39": {
    "facts": {
@@ -3005,7 +3005,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 4."
+   "line": "They share the page in 2 volumes, first in Volume 4."
   },
   "23-40": {
    "facts": {
@@ -3062,7 +3062,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 3."
+   "line": "They share the page in 3 volumes, first in Volume 3."
   },
   "24-38": {
    "facts": {
@@ -3075,7 +3075,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 3."
+   "line": "They share the page in 3 volumes, first in Volume 3."
   },
   "24-41": {
    "facts": {
@@ -3203,7 +3203,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "27-46": {
    "facts": {
@@ -3215,7 +3215,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "27-50": {
    "facts": {
@@ -3227,7 +3227,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "27-51": {
    "facts": {
@@ -3263,7 +3263,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in four volumes, first in Volume 1."
+   "line": "They share the page in 4 volumes, first in Volume 1."
   },
   "29-42": {
    "facts": {
@@ -3309,7 +3309,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 2."
+   "line": "They share the page in 3 volumes, first in Volume 2."
   },
   "29-51": {
    "facts": {
@@ -3357,7 +3357,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 4."
+   "line": "They share the page in 2 volumes, first in Volume 4."
   },
   "30-40": {
    "facts": {
@@ -3391,7 +3391,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "33-36": {
    "facts": {
@@ -3503,7 +3503,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 2."
+   "line": "They share the page in 3 volumes, first in Volume 2."
   },
   "33-51": {
    "facts": {
@@ -3515,7 +3515,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 2."
+   "line": "They share the page in 2 volumes, first in Volume 2."
   },
   "33-52": {
    "facts": {
@@ -3549,7 +3549,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "35-40": {
    "facts": {
@@ -3583,7 +3583,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "36-37": {
    "facts": {
@@ -3661,7 +3661,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "42-50": {
    "facts": {
@@ -3684,7 +3684,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in two volumes, first in Volume 3."
+   "line": "They share the page in 2 volumes, first in Volume 3."
   },
   "46-51": {
    "facts": {
@@ -3719,7 +3719,7 @@
     "unit": "volume",
     "corpusSize": 5
    },
-   "line": "They share the page in three volumes, first in Volume 1."
+   "line": "They share the page in 3 volumes, first in Volume 1."
   }
  },
  "sources": [

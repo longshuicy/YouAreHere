@@ -36,7 +36,7 @@
    },
    "line": "Abbot of Westminster. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 60,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -60,7 +60,7 @@
    "wiki": "John II, Duke of Alençon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 101,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -81,7 +81,7 @@
    },
    "line": "A gentlewoman attending on Katherine. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -102,7 +102,7 @@
    },
    "line": "Their daughter. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 101,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -158,7 +158,7 @@
    "wiki": "Edward, 2nd Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -183,7 +183,7 @@
    "wiki": "William Bagot (politician)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 50,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -204,11 +204,11 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in four plays.",
+   "line": "Appears in 4 plays.",
    "wiki": "Bardolph (Shakespeare character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -229,7 +229,7 @@
    },
    "line": "Of the Red Rose or Lancaster faction. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -255,7 +255,7 @@
    "wiki": "Jean de Dunois",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 60,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -275,7 +275,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -298,11 +298,11 @@
     "role": "Lord, Younger son of King Henry",
     "homeworld": "England"
    },
-   "line": "Lord, Younger son of King Henry, of England. Appears in four plays.",
+   "line": "Lord, Younger son of King Henry, of England. Appears in 4 plays.",
    "wiki": "John of Lancaster, Duke of Bedford",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -326,7 +326,7 @@
    "wiki": "Thomas de Berkeley, 5th Baron Berkeley",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -346,7 +346,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -384,11 +384,11 @@
    "wiki": "Thomas Merke",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 50,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Lord Fitzwater",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Brunette Zealot",
      "tied": 0
     }
    }
@@ -421,7 +421,7 @@
    "wiki": "Walter Blount (soldier)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -444,7 +444,7 @@
    "wiki": "James Blount (English soldier)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -467,7 +467,7 @@
    "wiki": "Roger Bolingbroke",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 65,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -514,7 +514,7 @@
    },
    "line": "Their servant. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 65,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -537,11 +537,11 @@
    "wiki": "Robert Brackenbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Donald Pease",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Filavandrel aén Fidháil",
      "tied": 0
     }
    }
@@ -581,7 +581,7 @@
    "wiki": "Humphrey Stafford, 1st Duke of Buckingham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -610,7 +610,7 @@
    "wiki": "Henry Stafford, 2nd Duke of Buckingham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -630,7 +630,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -656,7 +656,7 @@
    "wiki": "Philip the Good",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 60,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -680,7 +680,7 @@
    "wiki": "John the Fearless",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -705,7 +705,7 @@
    "wiki": "John Bussy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 65,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -725,7 +725,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -751,7 +751,7 @@
    "wiki": "Jack Cade",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -791,7 +791,7 @@
    "wiki": "Henry Beaufort",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -818,7 +818,7 @@
    "wiki": "Thomas Bourchier (cardinal)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -841,7 +841,7 @@
    "wiki": "William Catesby",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -867,7 +867,7 @@
    "wiki": "Charles VII of France",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 101,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -888,7 +888,7 @@
    },
    "line": "Lord. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -917,7 +917,7 @@
    "wiki": "Thomas of Lancaster, Duke of Clarence",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -945,7 +945,7 @@
    "wiki": "George Plantagenet, Duke of Clarence",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -969,7 +969,7 @@
    "wiki": "Edward Plantagenet, 17th Earl of Warwick",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -993,7 +993,7 @@
    "wiki": "Margaret Pole, Countess of Salisbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1013,7 +1013,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1036,7 +1036,7 @@
    "wiki": "Thomas Clifford, 8th Baron Clifford",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1060,7 +1060,7 @@
    "wiki": "John Clifford, 9th Baron Clifford",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -1095,7 +1095,7 @@
    "wiki": "Charles I d'Albret",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 106,
+    "lookAlikes": 127,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1132,7 +1132,7 @@
    },
    "line": "An apprentice tapster. Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1156,7 +1156,7 @@
    "wiki": "Louis, Duke of Guyenne",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 106,
+    "lookAlikes": 127,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1188,7 +1188,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1209,7 +1209,7 @@
    },
    "line": "Doctor, A French doctor, suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1232,11 +1232,11 @@
    "wiki": "Doll Tearsheet",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Elmar Frey",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Liss",
      "tied": 0
     }
    }
@@ -1256,7 +1256,7 @@
    "wiki": "Thomas Grey, 1st Marquess of Dorset",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1280,7 +1280,7 @@
    "wiki": "Archibald Douglas, 4th Earl of Douglas",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1304,7 +1304,7 @@
    "wiki": "Eleanor Cobham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1346,7 +1346,7 @@
    "wiki": "Cecily Neville, Duchess of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1368,11 +1368,11 @@
     "gender": "Male",
     "homeworld": "Rouen"
    },
-   "line": "Earl of March, of Rouen. Appears in three plays.",
+   "line": "Earl of March, of Rouen. Appears in 3 plays.",
    "wiki": "Edward IV",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1400,7 +1400,7 @@
    "wiki": "Edward V",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1427,7 +1427,7 @@
    "wiki": "Thomas Erpingham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1453,7 +1453,7 @@
    "wiki": "Henry Holland, 3rd Duke of Exeter",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1479,7 +1479,7 @@
    "wiki": "Thomas Beaufort, Duke of Exeter",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1500,11 +1500,11 @@
    },
    "line": "Sir. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "賴升",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Ethid",
      "tied": 0
     }
    }
@@ -1521,7 +1521,7 @@
     "role": "Sir, An impoverished knight",
     "gender": "Male"
    },
-   "line": "Sir, An impoverished knight. Appears in three plays.",
+   "line": "Sir, An impoverished knight. Appears in 3 plays.",
    "wiki": "John Falstaff",
    "wikiLang": "en",
    "signals": {
@@ -1549,11 +1549,11 @@
    "wiki": "John Fastolf",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Helenus",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Christine Palmer",
      "tied": 0
     }
    }
@@ -1580,7 +1580,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1601,7 +1601,7 @@
    },
    "line": "A gentleman, suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 101,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1624,7 +1624,7 @@
    "wiki": "Walter FitzWalter, 4th Baron FitzWalter",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 60,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1645,7 +1645,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1729,11 +1729,11 @@
    "wiki": "John of Gaunt",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 60,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Lord Fitzwater",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Tall Zealot",
      "tied": 0
     }
    }
@@ -1749,7 +1749,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 18,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1800,11 +1800,11 @@
     "gender": "Male",
     "homeworld": "London"
    },
-   "line": "The king’s uncle, and Lord Protector, of London. Appears in four plays.",
+   "line": "The king’s uncle, and Lord Protector, of London. Appears in 4 plays.",
    "wiki": "Humphrey, Duke of Gloucester",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 103,
+    "lookAlikes": 191,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1825,7 +1825,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1862,7 +1862,7 @@
    "wiki": "Henry Green (courtier)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 65,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1897,11 +1897,11 @@
    "wiki": "Richard Grey",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Polydamus",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Toralin Roshone",
      "tied": 0
     }
    }
@@ -1928,7 +1928,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1948,7 +1948,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1968,7 +1968,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -2008,7 +2008,7 @@
    "wiki": "William Hastings, 1st Baron Hastings",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2030,11 +2030,11 @@
     "gender": "Male",
     "homeworld": "Bolingbroke Castle"
    },
-   "line": "King, Formerly Henry Bolingbroke, of Bolingbroke Castle. Appears in three plays.",
+   "line": "King, Formerly Henry Bolingbroke, of Bolingbroke Castle. Appears in 3 plays.",
    "wiki": "Henry IV of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2061,7 +2061,7 @@
    "wiki": "Henry VII of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2084,11 +2084,11 @@
     "gender": "Male",
     "homeworld": "Windsor Castle"
    },
-   "line": "King, of Windsor Castle. Appears in four plays.",
+   "line": "King, of Windsor Castle. Appears in 4 plays.",
    "wiki": "Henry VI of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 103,
+    "lookAlikes": 191,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2113,11 +2113,11 @@
     ],
     "homeworld": "Monmouth Castle"
    },
-   "line": "Prince of Wales and heir to the throne (alsocalled Harry and Harry Monmouth), of Monmouth Castle, of the Order of the Garter. Appears in three plays.",
+   "line": "Prince of Wales and heir to the throne (alsocalled Harry and Harry Monmouth), of Monmouth Castle, of the Order of the Garter. Appears in 3 plays.",
    "wiki": "Henry V of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 35,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -2149,7 +2149,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2170,7 +2170,7 @@
    },
    "line": "The Duke of York’s armorer. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2190,7 +2190,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2215,7 +2215,7 @@
    "wiki": "Henry Percy (Hotspur)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2236,7 +2236,7 @@
    },
    "line": "Sir, A Welsh parson. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2257,11 +2257,11 @@
    },
    "line": "A priest. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Rick Boucher",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Angry Guard",
      "tied": 0
     }
    }
@@ -2292,7 +2292,7 @@
    "wiki": "Alexander Iden",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2335,7 +2335,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2367,7 +2367,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 107,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2391,7 +2391,7 @@
    "wiki": "Margery Jourdemayne",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 65,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2415,7 +2415,7 @@
    "wiki": "Catherine of Valois",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2439,7 +2439,7 @@
    "wiki": "Louis XI",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2463,7 +2463,7 @@
    "wiki": "Charles VI of France",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 41,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2483,7 +2483,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 60,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2507,11 +2507,11 @@
    "wiki": "Anne Neville",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Agenor",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Artaud Terranova",
      "tied": 0
     }
    }
@@ -2531,7 +2531,7 @@
    "wiki": "Bona of Savoy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2567,7 +2567,7 @@
    "wiki": "Elizabeth Mortimer",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 48,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2624,7 +2624,7 @@
    },
    "line": "Lieutenant. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -2647,7 +2647,7 @@
    "wiki": "Thomas Bardolf, 5th Baron Bardolf",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 81,
+    "lookAlikes": 93,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2667,7 +2667,7 @@
    },
    "line": "Lord. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2693,7 +2693,7 @@
    "wiki": "Francis Lovell, 1st Viscount Lovell",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2713,7 +2713,7 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2733,7 +2733,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2753,7 +2753,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2773,7 +2773,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2792,11 +2792,11 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "翠縷",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Than's sister",
      "tied": 0
     }
    }
@@ -2812,11 +2812,11 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Alliser Thorne",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Bosco",
      "tied": 0
     }
    }
@@ -2833,7 +2833,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2854,7 +2854,7 @@
    },
    "line": "Her husband. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2886,7 +2886,7 @@
    },
    "line": "Page, Her husband. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2931,7 +2931,7 @@
    "wiki": "Edmund Shaa",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2951,7 +2951,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2982,7 +2982,7 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -3002,7 +3002,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3022,7 +3022,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3042,7 +3042,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3064,11 +3064,11 @@
     "gender": "Female",
     "role": "(also called Mistress Quickly)"
    },
-   "line": "(also called Mistress Quickly). Appears in four plays.",
+   "line": "(also called Mistress Quickly). Appears in 4 plays.",
    "wiki": "Mistress Quickly",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3097,7 +3097,7 @@
    "wiki": "Richard Neville, 5th Earl of Salisbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3129,7 +3129,7 @@
    },
    "line": "French herald. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -3176,7 +3176,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3214,11 +3214,11 @@
    "wiki": "Thomas Mowbray, 1st Duke of Norfolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "孟優",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Arclo",
      "tied": 0
     }
    }
@@ -3243,7 +3243,7 @@
    "wiki": "John Mowbray, 3rd Duke of Norfolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3266,7 +3266,7 @@
    "wiki": "John Howard, 1st Duke of Norfolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3292,7 +3292,7 @@
    "wiki": "Henry Percy, 3rd Earl of Northumberland",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3314,11 +3314,11 @@
     "gender": "Male",
     "homeworld": "Scarborough Castle"
    },
-   "line": "Earl of Northumberland, Henry Percy, Hotspur’s father, of Scarborough Castle. Appears in three plays.",
+   "line": "Earl of Northumberland, Henry Percy, Hotspur’s father, of Scarborough Castle. Appears in 3 plays.",
    "wiki": "Henry Percy, 1st Earl of Northumberland",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 27,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3339,11 +3339,11 @@
    },
    "line": "Appears in Henry V and The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "劉表",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "M.O.D.O.K.",
      "tied": 0
     }
    }
@@ -3359,7 +3359,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3379,7 +3379,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3423,7 +3423,7 @@
    "wiki": "John de Vere, 13th Earl of Oxford",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -3444,7 +3444,7 @@
    },
    "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3464,11 +3464,11 @@
     "corpusSize": 37,
     "gender": "Male"
    },
-   "line": "Appears in three plays.",
+   "line": "Appears in 3 plays.",
    "wiki": "Ancient Pistol",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3492,7 +3492,7 @@
    "wiki": "Ned Poins",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3529,7 +3529,7 @@
    "wiki": "Edward of Westminster, Prince of Wales",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3553,7 +3553,7 @@
    "wiki": "Joan of Arc",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -3589,7 +3589,7 @@
    "wiki": "Elizabeth Woodville",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -3612,11 +3612,11 @@
     "role": "His daughter",
     "homeworld": "Pont-à-Mousson"
    },
-   "line": "His daughter, of Pont-à-Mousson. Appears in four plays.",
+   "line": "His daughter, of Pont-à-Mousson. Appears in 4 plays.",
    "wiki": "Margaret of Anjou",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 103,
+    "lookAlikes": 191,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3640,7 +3640,7 @@
    "wiki": "Isabeau of Bavaria",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3667,11 +3667,11 @@
    "wiki": "Anne of Bohemia",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 60,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "伊籍",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Wyndle",
      "tied": 0
     }
    }
@@ -3704,7 +3704,7 @@
    "wiki": "Richard Ratcliffe",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3728,7 +3728,7 @@
    "wiki": "René of Anjou",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3750,11 +3750,11 @@
     "gender": "Male",
     "homeworld": "Fotheringhay Castle"
    },
-   "line": "Later Duke of Gloucester, of Fotheringhay Castle. Appears in three plays.",
+   "line": "Later Duke of Gloucester, of Fotheringhay Castle. Appears in 3 plays.",
    "wiki": "Richard III of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 103,
+    "lookAlikes": 191,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3778,7 +3778,7 @@
    "wiki": "Richard II of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 27,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3803,11 +3803,11 @@
    "wiki": "Anthony Woodville, 2nd Earl Rivers",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
-     "world": "lotr",
-     "story": "The Lord of the Rings",
-     "name": "Théoden",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Cassie Lang",
      "tied": 0
     }
    }
@@ -3823,7 +3823,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 107,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3844,7 +3844,7 @@
    },
    "line": "His page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 101,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3870,7 +3870,7 @@
    "wiki": "William de Ros, 6th Baron Ros",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 65,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3891,7 +3891,7 @@
    },
    "line": "The doctor’s manservant. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 65,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3929,7 +3929,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3960,7 +3960,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3980,7 +3980,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4000,7 +4000,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4033,7 +4033,7 @@
    },
    "line": "Sergeant. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 65,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -4089,7 +4089,7 @@
    "wiki": "Richard Neville, 5th Earl of Salisbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -4112,7 +4112,7 @@
    "wiki": "Thomas Montagu, 4th Earl of Salisbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4199,7 +4199,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4223,7 +4223,7 @@
    "wiki": "Robert Shallow",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4247,7 +4247,7 @@
    "wiki": "Jacques d'Arc",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4279,7 +4279,7 @@
    },
    "line": "Justice. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 107,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -4299,7 +4299,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4320,7 +4320,7 @@
    },
    "line": "Supposed recipient of a miracle. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4341,7 +4341,7 @@
    },
    "line": "Slender’s servant. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 101,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4374,7 +4374,7 @@
    },
    "line": "His nephew, a young gentleman suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4394,7 +4394,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4421,7 +4421,7 @@
    "wiki": "John Beaufort, 1st Duke of Somerset",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4450,7 +4450,7 @@
    "wiki": "Henry Beaufort, 3rd Duke of Somerset",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -4470,7 +4470,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4500,7 +4500,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 65,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4522,7 +4522,7 @@
    "wiki": "Humphrey Stafford (died 1450)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4566,7 +4566,7 @@
    "wiki": "Thomas Stanley, 1st Earl of Derby",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4594,7 +4594,7 @@
    "wiki": "William de la Pole, 1st Duke of Suffolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4618,7 +4618,7 @@
    "wiki": "Thomas Holland, Duke of Surrey",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 60,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4642,7 +4642,7 @@
    "wiki": "Thomas Howard, 2nd Duke of Norfolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4666,7 +4666,7 @@
    "wiki": "John Talbot, 1st Earl of Shrewsbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -4687,7 +4687,7 @@
    },
    "line": "Horner the armorer’s man or prentice. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4732,7 +4732,7 @@
    "wiki": "James Tyrrell",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4755,7 +4755,7 @@
    "wiki": "Thomas Vaughan (died 1483)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4775,7 +4775,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 14,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4808,7 +4808,7 @@
    },
    "line": "Of the White Rose or York faction. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -4829,11 +4829,11 @@
    },
    "line": "Or keeper of the tavern. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Tomard",
+     "world": "harry-potter",
+     "story": "Harry Potter",
+     "name": "S. Fawcett",
      "tied": 0
     }
    }
@@ -4849,7 +4849,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4869,7 +4869,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4889,7 +4889,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4909,7 +4909,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4933,11 +4933,11 @@
      "United Kingdom"
     ]
    },
-   "line": "Earl of Warwick, of the United Kingdom. Appears in three plays.",
+   "line": "Earl of Warwick, of the United Kingdom. Appears in 3 plays.",
    "wiki": "Richard Beauchamp, 13th Earl of Warwick",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4965,7 +4965,7 @@
    "wiki": "Richard Neville, 16th Earl of Warwick",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -4987,11 +4987,11 @@
     "gender": "Male",
     "homeworld": "Raby Castle"
    },
-   "line": "Earl of Westmoreland, of Raby Castle. Appears in three plays.",
+   "line": "Earl of Westmoreland, of Raby Castle. Appears in 3 plays.",
    "wiki": "Ralph Neville, 1st Earl of Westmorland",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5017,7 +5017,7 @@
    "wiki": "Ralph Neville, 1st Earl of Westmorland",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5063,7 +5063,7 @@
    "wiki": "William Stafford (died 1450)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5086,7 +5086,7 @@
    "wiki": "William Willoughby, 5th Baron Willoughby de Eresby",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 65,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5127,7 +5127,7 @@
    "wiki": "Thomas Percy, 1st Earl of Worcester",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5149,11 +5149,11 @@
     "gender": "Male",
     "homeworld": "Kings Langley"
    },
-   "line": "And Regent of France, of Kings Langley. Appears in three plays.",
+   "line": "And Regent of France, of Kings Langley. Appears in 3 plays.",
    "wiki": "Richard of York, 3rd Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5177,7 +5177,7 @@
    "wiki": "Edward, 2nd Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5204,7 +5204,7 @@
    "wiki": "Edmund of Langley, 1st Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -6303,7 +6303,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "10-54": {
    "facts": {
@@ -6349,7 +6349,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry IV, Part I."
+   "line": "They share the page in 3 plays, first in Henry IV, Part I."
   },
   "10-72": {
    "facts": {
@@ -6405,7 +6405,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "10-104": {
    "facts": {
@@ -6485,7 +6485,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in four plays, first in Henry IV, Part I."
+   "line": "They share the page in 4 plays, first in Henry IV, Part I."
   },
   "10-156": {
    "facts": {
@@ -6508,7 +6508,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry V."
+   "line": "They share the page in 2 plays, first in Henry V."
   },
   "10-168": {
    "facts": {
@@ -6520,7 +6520,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "10-169": {
    "facts": {
@@ -6533,7 +6533,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry IV, Part II."
+   "line": "They share the page in 3 plays, first in Henry IV, Part II."
   },
   "10-170": {
    "facts": {
@@ -6545,7 +6545,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "10-186": {
    "facts": {
@@ -6590,7 +6590,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part II."
+   "line": "They share the page in 2 plays, first in Henry IV, Part II."
   },
   "10-209": {
    "facts": {
@@ -6657,7 +6657,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "11-37": {
    "facts": {
@@ -7087,7 +7087,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "14-70": {
    "facts": {
@@ -7111,7 +7111,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry IV, Part II."
+   "line": "They share the page in 3 plays, first in Henry IV, Part II."
   },
   "14-89": {
    "facts": {
@@ -7156,7 +7156,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "14-100": {
    "facts": {
@@ -7169,7 +7169,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry IV, Part I."
+   "line": "They share the page in 3 plays, first in Henry IV, Part I."
   },
   "14-105": {
    "facts": {
@@ -7314,7 +7314,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry IV, Part I."
+   "line": "They share the page in 3 plays, first in Henry IV, Part I."
   },
   "14-250": {
    "facts": {
@@ -9643,7 +9643,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "37-99": {
    "facts": {
@@ -9655,7 +9655,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "37-103": {
    "facts": {
@@ -9799,7 +9799,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "37-224": {
    "facts": {
@@ -9811,7 +9811,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "37-227": {
    "facts": {
@@ -9900,7 +9900,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "38-39": {
    "facts": {
@@ -10578,7 +10578,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "43-98": {
    "facts": {
@@ -10601,7 +10601,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "43-111": {
    "facts": {
@@ -10723,7 +10723,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "43-175": {
    "facts": {
@@ -10768,7 +10768,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "43-184": {
    "facts": {
@@ -11234,7 +11234,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "48-66": {
    "facts": {
@@ -11257,7 +11257,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "48-109": {
    "facts": {
@@ -11324,7 +11324,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "48-182": {
    "facts": {
@@ -11336,7 +11336,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "48-189": {
    "facts": {
@@ -11392,7 +11392,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "48-244": {
    "facts": {
@@ -11415,7 +11415,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "49-69": {
    "facts": {
@@ -11537,7 +11537,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "52-100": {
    "facts": {
@@ -11549,7 +11549,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "52-150": {
    "facts": {
@@ -11561,7 +11561,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "52-168": {
    "facts": {
@@ -11573,7 +11573,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "52-169": {
    "facts": {
@@ -11596,7 +11596,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "52-190": {
    "facts": {
@@ -12543,7 +12543,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "63-99": {
    "facts": {
@@ -12555,7 +12555,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "63-108": {
    "facts": {
@@ -12710,7 +12710,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "63-176": {
    "facts": {
@@ -12722,7 +12722,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "63-182": {
    "facts": {
@@ -12735,7 +12735,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry VI, Part 2."
+   "line": "They share the page in 3 plays, first in Henry VI, Part 2."
   },
   "63-184": {
    "facts": {
@@ -12857,7 +12857,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "63-244": {
    "facts": {
@@ -12880,7 +12880,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "64-90": {
    "facts": {
@@ -13525,7 +13525,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "69-104": {
    "facts": {
@@ -13637,7 +13637,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry IV, Part I."
+   "line": "They share the page in 3 plays, first in Henry IV, Part I."
   },
   "69-156": {
    "facts": {
@@ -13693,7 +13693,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "69-169": {
    "facts": {
@@ -13705,7 +13705,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part II."
+   "line": "They share the page in 2 plays, first in Henry IV, Part II."
   },
   "69-170": {
    "facts": {
@@ -13717,7 +13717,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "69-185": {
    "facts": {
@@ -13773,7 +13773,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part II."
+   "line": "They share the page in 2 plays, first in Henry IV, Part II."
   },
   "69-209": {
    "facts": {
@@ -13840,7 +13840,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "69-250": {
    "facts": {
@@ -14809,7 +14809,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "85-100": {
    "facts": {
@@ -14821,7 +14821,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part II."
+   "line": "They share the page in 2 plays, first in Henry IV, Part II."
   },
   "85-103": {
    "facts": {
@@ -15020,7 +15020,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "85-222": {
    "facts": {
@@ -15043,7 +15043,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "85-227": {
    "facts": {
@@ -15088,7 +15088,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part II."
+   "line": "They share the page in 2 plays, first in Henry IV, Part II."
   },
   "85-242": {
    "facts": {
@@ -15111,7 +15111,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part II."
+   "line": "They share the page in 2 plays, first in Henry IV, Part II."
   },
   "85-249": {
    "facts": {
@@ -15134,7 +15134,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "85-252": {
    "facts": {
@@ -15872,7 +15872,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "96-176": {
    "facts": {
@@ -15906,7 +15906,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "96-184": {
    "facts": {
@@ -15995,7 +15995,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "97-105": {
    "facts": {
@@ -16007,7 +16007,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "97-119": {
    "facts": {
@@ -16052,7 +16052,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "97-183": {
    "facts": {
@@ -16108,7 +16108,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "97-248": {
    "facts": {
@@ -16439,7 +16439,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "99-176": {
    "facts": {
@@ -16451,7 +16451,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "99-180": {
    "facts": {
@@ -16475,7 +16475,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry VI, Part 2."
+   "line": "They share the page in 3 plays, first in Henry VI, Part 2."
   },
   "99-184": {
    "facts": {
@@ -16542,7 +16542,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "99-217": {
    "facts": {
@@ -16587,7 +16587,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "99-226": {
    "facts": {
@@ -16676,7 +16676,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "99-244": {
    "facts": {
@@ -16700,7 +16700,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry VI, Part 1."
+   "line": "They share the page in 3 plays, first in Henry VI, Part 1."
   },
   "100-105": {
    "facts": {
@@ -16745,7 +16745,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "100-153": {
    "facts": {
@@ -16768,7 +16768,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "100-169": {
    "facts": {
@@ -16780,7 +16780,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part II."
+   "line": "They share the page in 2 plays, first in Henry IV, Part II."
   },
   "100-170": {
    "facts": {
@@ -16792,7 +16792,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "100-177": {
    "facts": {
@@ -16903,7 +16903,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part II."
+   "line": "They share the page in 2 plays, first in Henry IV, Part II."
   },
   "100-243": {
    "facts": {
@@ -16916,7 +16916,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry IV, Part I."
+   "line": "They share the page in 3 plays, first in Henry IV, Part I."
   },
   "100-250": {
    "facts": {
@@ -17272,7 +17272,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "105-183": {
    "facts": {
@@ -19495,7 +19495,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry V."
+   "line": "They share the page in 2 plays, first in Henry V."
   },
   "150-164": {
    "facts": {
@@ -19529,7 +19529,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "150-169": {
    "facts": {
@@ -19542,7 +19542,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry IV, Part II."
+   "line": "They share the page in 3 plays, first in Henry IV, Part II."
   },
   "150-170": {
    "facts": {
@@ -19554,7 +19554,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "150-186": {
    "facts": {
@@ -20287,7 +20287,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry V."
+   "line": "They share the page in 2 plays, first in Henry V."
   },
   "163-206": {
    "facts": {
@@ -20489,7 +20489,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part I."
+   "line": "They share the page in 2 plays, first in Henry IV, Part I."
   },
   "168-190": {
    "facts": {
@@ -20600,7 +20600,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry IV, Part II."
+   "line": "They share the page in 2 plays, first in Henry IV, Part II."
   },
   "169-209": {
    "facts": {
@@ -20700,7 +20700,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "172-184": {
    "facts": {
@@ -20943,7 +20943,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "175-184": {
    "facts": {
@@ -20955,7 +20955,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 3."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 3."
   },
   "175-217": {
    "facts": {
@@ -21012,7 +21012,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry VI, Part 2."
+   "line": "They share the page in 3 plays, first in Henry VI, Part 2."
   },
   "176-184": {
    "facts": {
@@ -21123,7 +21123,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "176-228": {
    "facts": {
@@ -21157,7 +21157,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "176-244": {
    "facts": {
@@ -21181,7 +21181,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in three plays, first in Henry VI, Part 1."
+   "line": "They share the page in 3 plays, first in Henry VI, Part 1."
   },
   "177-243": {
    "facts": {
@@ -21501,7 +21501,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "182-244": {
    "facts": {
@@ -21524,7 +21524,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "183-187": {
    "facts": {
@@ -22150,7 +22150,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "216-227": {
    "facts": {
@@ -22228,7 +22228,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "217-218": {
    "facts": {
@@ -22430,7 +22430,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 1."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 1."
   },
   "225-253": {
    "facts": {
@@ -22662,7 +22662,7 @@
     "unit": "play",
     "corpusSize": 37
    },
-   "line": "They share the page in two plays, first in Henry VI, Part 2."
+   "line": "They share the page in 2 plays, first in Henry VI, Part 2."
   },
   "243-252": {
    "facts": {

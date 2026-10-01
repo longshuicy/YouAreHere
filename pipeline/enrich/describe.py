@@ -12,8 +12,6 @@ from __future__ import annotations
 
 import re
 
-COUNT_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven"}
-
 # The source mixes three kinds of value under "culture": peoples (Northmen),
 # places (Westeros), and adjectives (Valyrian). Only the first takes "of the" —
 # "of the Valyrian" is wrong. Anything unlisted falls back to standing on its
@@ -74,8 +72,7 @@ def edge_line(facts: dict) -> str:
         elif total and len(books) == total:
             clauses.append(f"They share the page in every {unit}, first in {first}")
         else:
-            count = COUNT_WORDS.get(len(books), str(len(books)))
-            clauses.append(f"They share the page in {count} {units}, first in {first}")
+            clauses.append(f"They share the page in {len(books)} {units}, first in {first}")
 
     shared = facts.get("sharedHouses") or facts.get("sharedAffiliations")
     if shared:
@@ -87,7 +84,7 @@ def edge_line(facts: dict) -> str:
             article = "the " if (
                 affiliation.lower() in PEOPLES or affiliation.lower().startswith("friends of")
             ) else ""
-            clauses.append(f"Both belong to {article}{affiliation}")
+            clauses.append(f"Both belong to {_group(affiliation, facts, article)}")
 
     return " ".join(f"{clause}." for clause in clauses)
 
@@ -194,9 +191,16 @@ def _standing(facts: dict) -> str:
         if occ and occ.lower() not in ", ".join(parts).lower():
             parts.append(occ)
 
+    # Traits stand as appositions: a house, an order, a bending art.
+    for trait in facts.get("traits") or []:
+        if trait.lower() not in ", ".join(parts).lower():
+            parts.append(trait)
+
+    said = ", ".join(parts).lower()
     if facts.get("culture"):
-        parts.append(_culture(facts["culture"]))
-    elif facts.get("species"):
+        if facts["culture"].lower() not in said:
+            parts.append(_culture(facts["culture"]))
+    elif facts.get("species") and facts["species"].lower() not in said:
         parts.append(_species(facts["species"]))
 
     if facts.get("homeworld"):
@@ -208,9 +212,19 @@ def _standing(facts: dict) -> str:
         affiliation = facts["affiliations"][0]
         # Avoid "Sith, of the Sith" when occupation and affiliation repeat.
         if affiliation.lower() not in ", ".join(parts).lower():
-            parts.append(f"of the {affiliation}")
+            parts.append(f"of {_group(affiliation, facts, 'the ')}")
 
     return ", ".join(parts)
+
+
+def _group(name: str, facts: dict, article: str) -> str:
+    """A group with its article. A source that knows how the group is written
+    says so in `articles` ("the Avengers", but "Stark Industries"); otherwise
+    `article` is the guess."""
+    known = (facts.get("articles") or {}).get(name)
+    if known is not None:
+        article = f"{known} " if known else ""
+    return f"{article}{name}"
 
 
 def _life(facts: dict) -> str:
@@ -239,11 +253,11 @@ def _presence(facts: dict) -> str:
         return ""
 
     if total and len(books) == total:
-        where = f"Appears in all {COUNT_WORDS.get(total, total)} {units}"
+        where = f"Appears in all {total} {units}"
     elif len(books) <= 2:
         where = "Appears in " + " and ".join(books)
     else:
-        where = f"Appears in {COUNT_WORDS.get(len(books), len(books))} {units}"
+        where = f"Appears in {len(books)} {units}"
 
     pov = facts.get("pov")
     if not pov:
@@ -254,7 +268,7 @@ def _presence(facts: dict) -> str:
     elif pov == 1:
         seen = "one of them"
     else:
-        seen = f"{COUNT_WORDS.get(pov, pov)} of them"
+        seen = f"{pov} of them"
     return f"{where}, {seen} through {_possessive(facts)} eyes"
 
 

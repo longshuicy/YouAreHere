@@ -2,12 +2,16 @@
 
 The first Cosmere world. No ready-made character network for the Stormlight Archive
 exists under a usable licence, so the graph is built here from the fan wiki's
-character articles.
+character articles by the shared Fandom engine, `pipeline/ingest/fandom.py`
+(`STORMLIGHT`). The same engine builds Harry Potter, The Witcher, Avatar: The Last
+Airbender and the Marvel Cinematic Universe; this file describes the method in
+full, and theirs describe only what differs.
 
 | Part | Source | Terms |
 |---|---|---|
 | Character articles (wikitext) | [Stormlight Archive Wiki](https://stormlightarchive.fandom.com/wiki/Category:Characters), via the MediaWiki API | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ([Fandom licensing](https://www.fandom.com/licensing)) |
-| Reveal attributes (gender, nationality) | The same articles' infoboxes | Facts; no licence |
+| Reveal attributes (gender, rank or occupation, Radiant order, people, species, noble house) | The same articles' infoboxes | Facts; no licence |
+| Wikipedia links | Wikidata items carrying a Fandom article ID (P6262); none of this wiki's characters has an English article yet | CC0 |
 
 ## Licence consequence
 
@@ -38,7 +42,12 @@ Details:
 - The infobox counts as one unit per field (so `family = [[Lirin]] (father), …`
   ties Kaladin to Lirin).
 - Non-narrative sections are skipped: gallery, fan art, references, notes, trivia,
-  quotes, external links, see also.
+  quotes, external links, see also, appearances, behind the scenes, etymology. A
+  subsection inherits its parent's skip, and a heading that is a template
+  (`== {{tw3}} ==`, how wikis title another canon's section) is skipped too.
+- Citations inside `<ref>` tags keep only their templates, so the book they name can
+  be read; their text and links are dropped.
+- Subpages (`Name/2021 film`) are adaptation variants and are never characters.
 - Tables, templates and file lines are skipped; quotation templates carry book text
   and are never read.
 - A tie's books are the `{{Ref|<book>|c|<chapter>}}` citations in the paragraphs
@@ -56,8 +65,9 @@ The adapter fetches on first build and caches here:
 
 - `pages.json` — `{title: wikitext}` for every article in `Category:Characters`
 - `redirects.json` — `{redirect title: character title}`
+- `listings.json` — `{category: [titles]}`, the cast listing
 
-Delete either to re-fetch. The fetch is ~35 API requests, one per second, with the
+Delete any of them to re-fetch. The fetch is ~35 API requests, one per second, with the
 pipeline's identifying User-Agent. Only `api.php` is used; the HTML site sits behind
 a bot challenge and is not scraped.
 

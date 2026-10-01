@@ -295,7 +295,7 @@
    "wiki": "太上老君",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -512,7 +512,7 @@
    "wiki": "沙僧",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -620,7 +620,7 @@
    },
    "line": "屬唐。見於16回。",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -647,7 +647,7 @@
    },
    "line": "屬唐。見於5回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -691,11 +691,11 @@
    },
    "line": "屬唐。見於6回。",
    "signals": {
-    "lookAlikes": 11,
+    "lookAlikes": 15,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Rephaiah",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Aguara",
      "tied": 0
     }
    }
@@ -716,7 +716,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 2,
+    "lookAlikes": 4,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -755,7 +755,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -779,7 +779,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -803,7 +803,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -827,7 +827,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -853,7 +853,7 @@
    },
    "line": "屬唐。見於4回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -877,7 +877,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -902,7 +902,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -926,7 +926,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -1162,7 +1162,7 @@
    },
    "line": "王。屬流沙國。見於22回。",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -1403,11 +1403,11 @@
    "wiki": "雷公",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Arys Oakheart",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Headmaster",
      "tied": 0
     }
    }
@@ -1467,11 +1467,11 @@
    "wiki": "白龙马",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
-     "world": "shakespeare-as-you-like-it",
-     "story": "As You Like It",
-     "name": "Le Beau",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Senlin Village leader",
      "tied": 0
     }
    }
@@ -1527,7 +1527,7 @@
    "wiki": "紅孩兒",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1591,7 +1591,7 @@
    "wiki": "哪吒",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 0,
+    "lookAlikes": 5,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1685,7 +1685,7 @@
    "wiki": "木吒",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -1734,11 +1734,11 @@
    "wiki": "觀音在東亞的形象",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
-     "world": "xiyouji",
-     "story": "西遊記",
-     "name": "紅孩兒",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Chin",
      "tied": 0
     }
    }
@@ -1774,7 +1774,7 @@
    "wiki": "牛魔王",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -1834,11 +1834,11 @@
    "wiki": "玉皇上帝",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
-     "world": "shakespeare-timon-of-athens",
-     "story": "Timon of Athens",
-     "name": "Flaminius",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Khal",
      "tied": 0
     }
    }
@@ -1868,11 +1868,11 @@
    "wiki": "李靖 (神话人物)",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 20,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Rolly Duckfield",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Giselher",
      "tied": 0
     }
    }

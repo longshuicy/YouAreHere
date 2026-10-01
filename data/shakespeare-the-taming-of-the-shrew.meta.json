@@ -14,7 +14,7 @@
    },
    "line": "Father to Katherine and Bianca.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -35,7 +35,7 @@
    },
    "line": "His younger daughter.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -54,7 +54,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -73,7 +73,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 14,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -92,7 +92,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -132,7 +132,7 @@
    },
    "line": "(later disguised as the teacher Litio).",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -174,7 +174,7 @@
    },
    "line": "(later disguised as the teacher Cambio).",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -195,7 +195,7 @@
    },
    "line": "Suitor to Katherine.",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -214,7 +214,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 14,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -233,7 +233,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 14,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -252,7 +252,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 14,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -271,7 +271,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 14,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -290,7 +290,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 14,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -311,7 +311,7 @@
    },
    "line": "A beggar.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -332,7 +332,7 @@
    },
    "line": "(later impersonating Lucentio).",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -353,7 +353,7 @@
    },
    "line": "Lucentio’s father.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "shakespeare-coriolanus",
      "story": "Coriolanus",

@@ -18,7 +18,7 @@
    "wiki": "Arvirargus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -39,7 +39,7 @@
    },
    "line": "An exiled nobleman.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -60,7 +60,7 @@
    },
    "line": "Son to the present queen by a former husband.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -81,7 +81,7 @@
    },
    "line": "A physician in Cymbeline’s court.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -104,7 +104,7 @@
    "wiki": "Cunobelinus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -163,7 +163,7 @@
    "wiki": "Guiderius",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -184,7 +184,7 @@
    },
    "line": "Friend to Philario.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -207,7 +207,7 @@
    "wiki": "Imogen (Cymbeline)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -240,7 +240,7 @@
    },
    "line": "A Roman general.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -273,7 +273,7 @@
    },
    "line": "Posthumus’s servant.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -294,7 +294,7 @@
    },
    "line": "Husband to Imogen.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -315,7 +315,7 @@
    },
    "line": "Queen.",
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 14,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -336,7 +336,7 @@
    },
    "line": "Soothsayer.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",

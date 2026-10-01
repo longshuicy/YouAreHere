@@ -12,7 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -31,7 +31,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -52,7 +52,7 @@
    },
    "line": "Niece of Leonato.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -73,7 +73,7 @@
    },
    "line": "Lord of Padua.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -92,7 +92,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -111,7 +111,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -132,7 +132,7 @@
    },
    "line": "Count, A young lord from Florence.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -151,7 +151,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 65,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -172,7 +172,7 @@
    },
    "line": "Master Constable in Messina.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -193,7 +193,7 @@
    },
    "line": "Don Pedro’s brother.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -214,7 +214,7 @@
    },
    "line": "Prince of Aragon.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -235,7 +235,7 @@
    },
    "line": "Friar.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -256,7 +256,7 @@
    },
    "line": "His daughter.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -277,7 +277,7 @@
    },
    "line": "Governor of Messina.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -296,7 +296,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -315,7 +315,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -334,7 +334,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -353,7 +353,7 @@
     "gender": "Female"
    },
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -374,7 +374,7 @@
    },
    "line": "Dogberry’s partner.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -393,7 +393,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -412,7 +412,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -432,7 +432,7 @@
    },
    "line": "Leader of the Watch.",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",

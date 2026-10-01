@@ -40,6 +40,18 @@ ATTRIBUTION = Attribution(
     ),
 )
 
+FANDOM_LINK_ATTRIBUTION = Attribution(
+    title="Wikidata",
+    creator="Wikidata contributors",
+    creator_url="https://www.wikidata.org/",
+    source_url="https://www.wikidata.org/wiki/Property:P6262",
+    retrieved="2026-09-30",
+    modifications=(
+        "Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) "
+        "names a character's wiki page; no other Wikidata claims.",
+    ),
+)
+
 LICENSE = CC0_1_0
 
 # Labels that are classes or meta-typing, not a character's station.
@@ -919,6 +931,10 @@ WORK_PAGES = {
     "shuihuzhuan": "Q70827",
     "starwars": "Q462",  # Star Wars
     "stormlight": "Q7766706",  # The Stormlight Archive
+    "harry-potter": "Q8337",  # Harry Potter (novel series)
+    "witcher": "Q11835640",  # The Witcher (Sapkowski's saga)
+    "last-airbender": "Q11572",  # Avatar: The Last Airbender (animated series)
+    "mcu": "Q63405798",  # The Infinity Saga
     "xiyouji": "Q70784",
 }
 
@@ -966,6 +982,38 @@ def match_work_cast(nodes, *, work_qid: str, cache_dir: Path, languages: tuple[s
         if len(hits) == 1:
             matched[node.id] = next(iter(hits))
     return matched
+
+
+def fandom_sitelinks(community: str, *, cache_dir: Path) -> dict[str, str | None]:
+    """Fandom page title → English Wikipedia title (or None), for every Wikidata
+    item whose Fandom article ID (P6262) is on `community` (`harrypotter`).
+
+    An exact identifier, so no name matching is involved. Cached under raw/.
+    """
+    path = cache_dir / "wikidata-fandom.json"
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+
+    query = f"""
+SELECT ?id ?article WHERE {{
+  ?item wdt:P6262 ?id .
+  FILTER(STRSTARTS(?id, "{community}:"))
+  OPTIONAL {{ ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> }}
+}}
+"""
+    print(f"  querying Wikidata for {community} Fandom article IDs ...", flush=True)
+    links: dict[str, str | None] = {}
+    for row in _sparql(query).get("results", {}).get("bindings", []):
+        page = urllib.parse.unquote(row["id"]["value"].split(":", 1)[1]).replace("_", " ")
+        article = row.get("article", {}).get("value")
+        title = urllib.parse.unquote(article.rsplit("/wiki/", 1)[1]).replace("_", " ") if article else None
+        if title or page not in links:
+            links[page] = title
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(links, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    print(f"  cached {len(links)} Fandom-linked items → {path.name}", flush=True)
+    return links
 
 
 def _cast_of_work(work_qid: str, *, cache_dir: Path, languages: tuple[str, ...]) -> dict[str, dict]:
@@ -1102,7 +1150,7 @@ def _sparql(query: str) -> dict:
                 return json.loads(response.read().decode("utf-8"), strict=False)
         except urllib.error.HTTPError as exc:
             last = exc
-            if exc.code not in (429, 500, 502, 503) or attempt == 5:
+            if exc.code not in (429, 500, 502, 503, 504) or attempt == 5:
                 raise
             time.sleep(15 * (attempt + 1))
     raise last  # type: ignore[misc]

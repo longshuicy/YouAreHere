@@ -12,7 +12,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -81,7 +81,7 @@
    "wiki": "Carlo Rizzi (The Godfather)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -113,11 +113,11 @@
     "gender": "Male",
     "occupation": "Caporegime"
    },
-   "line": "Caporegime. Appears in all two films.",
+   "line": "Caporegime. Appears in all 2 films.",
    "wiki": "Peter Clemenza",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -146,11 +146,11 @@
     "corpusSize": 2,
     "gender": "Female"
    },
-   "line": "Appears in all two films.",
+   "line": "Appears in all 2 films.",
    "wiki": "Connie Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -169,7 +169,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -190,12 +190,12 @@
    },
    "line": "Actor. Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
-     "world": "civilwar",
-     "story": "American Civil War",
-     "name": "Ambrose P. Hill",
-     "tied": 0
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Jushu Davar",
+     "tied": 1
     }
    }
   },
@@ -211,11 +211,11 @@
     "occupation": "crime boss",
     "homeworld": "Sicily"
    },
-   "line": "Crime boss, of Sicily. Appears in all two films.",
+   "line": "Crime boss, of Sicily. Appears in all 2 films.",
    "wiki": "Vito Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -291,11 +291,11 @@
     "gender": "Male",
     "occupation": "mobster"
    },
-   "line": "Mobster. Appears in all two films.",
+   "line": "Mobster. Appears in all 2 films.",
    "wiki": "Fredo Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -324,7 +324,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -344,13 +344,13 @@
     "gender": "Male",
     "occupation": "consigliere"
    },
-   "line": "Consigliere. Appears in all two films.",
+   "line": "Consigliere. Appears in all 2 films.",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 48,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "李蒙",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Anna Kameny",
      "tied": 0
     }
    }
@@ -366,11 +366,11 @@
     "gender": "Male",
     "occupation": "lawyer"
    },
-   "line": "Lawyer. Appears in all two films.",
+   "line": "Lawyer. Appears in all 2 films.",
    "wiki": "Tom Hagen",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -403,11 +403,11 @@
    "wiki": "Hyman Roth",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 41,
     "nearest": {
-     "world": "civilwar",
-     "story": "American Civil War",
-     "name": "Benjamin F. Butler",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Windsor Imbra",
      "tied": 0
     }
    }
@@ -432,7 +432,7 @@
    },
    "line": "Appears in The Godfather.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -453,11 +453,11 @@
     "occupation": "school teacher",
     "homeworld": "Hanover (NH)"
    },
-   "line": "School teacher, of Hanover (NH). Appears in all two films.",
+   "line": "School teacher, of Hanover (NH). Appears in all 2 films.",
    "wiki": "Kay Adams Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -512,11 +512,11 @@
     "gender": "Female",
     "homeworld": "Sicily"
    },
-   "line": "Of Sicily. Appears in all two films.",
+   "line": "Of Sicily. Appears in all 2 films.",
    "wiki": "Carmela Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -549,11 +549,11 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Cotter Pyke",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Anne Marie Hoag",
      "tied": 0
     }
    }
@@ -569,11 +569,11 @@
     "gender": "Male",
     "occupation": "crime boss"
    },
-   "line": "Crime boss. Appears in all two films.",
+   "line": "Crime boss. Appears in all 2 films.",
    "wiki": "Michael Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 16,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -627,11 +627,11 @@
     "gender": "Male",
     "occupation": "bodyguard"
    },
-   "line": "Bodyguard. Appears in all two films.",
+   "line": "Bodyguard. Appears in all 2 films.",
    "wiki": "Al Neri",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 22,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -653,7 +653,7 @@
    "wiki": "Johnny Ola",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -687,11 +687,11 @@
    "wiki": "Frank Pentangeli",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "Metellus Cimber",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Dum Dum Dugan",
      "tied": 0
     }
    }
@@ -706,7 +706,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -746,11 +746,11 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
-     "world": "shakespeare-macbeth",
-     "story": "Macbeth",
-     "name": "Angus",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Rill",
      "tied": 0
     }
    }
@@ -776,11 +776,11 @@
     "gender": "Female",
     "occupation": "homemaker"
    },
-   "line": "Homemaker. Appears in all two films.",
+   "line": "Homemaker. Appears in all 2 films.",
    "wiki": "Sandra Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -799,11 +799,11 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 9,
     "nearest": {
-     "world": "mmkg",
-     "story": "Musical Meetups",
-     "name": "Gil Evans",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Torque",
      "tied": 0
     }
    }
@@ -850,7 +850,7 @@
    },
    "line": "Drug trafficker. Appears in The Godfather.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -871,11 +871,11 @@
     "occupation": "crime boss",
     "homeworld": "Hell's Kitchen"
    },
-   "line": "Crime boss, of Hell's Kitchen. Appears in all two films.",
+   "line": "Crime boss, of Hell's Kitchen. Appears in all 2 films.",
    "wiki": "Sonny Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -904,11 +904,11 @@
     "corpusSize": 2,
     "gender": "Male"
    },
-   "line": "Appears in all two films.",
+   "line": "Appears in all 2 films.",
    "wiki": "Salvatore Tessio",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -952,7 +952,7 @@
    "wiki": "Vito Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 30,
+    "lookAlikes": 31,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",

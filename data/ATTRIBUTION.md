@@ -244,6 +244,59 @@ Used as follows:
 1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
+## Harry Potter
+
+*Shipped as `harry-potter.json` — 445 characters, 6149 ties.*
+
+"Harry Potter Wiki — characters appearing in the seven novels" by **Harry Potter Wiki contributors** (<https://harrypotter.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://harrypotter.fandom.com/wiki/Special:AllPages>
+- Project: <https://harrypotter.fandom.com/>
+- Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
+- Retrieved: 2026-09-30
+
+Changes made to the original data:
+
+1. Read the wikitext of the character articles through the MediaWiki API; no article text is reproduced.
+2. Tied two characters when one paragraph of a character article links to both, counting an article's subject as present throughout their own article; weight is the number of such paragraphs.
+3. Dropped non-narrative sections (gallery, references, notes, trivia, quotes, behind the scenes) and sections about other canons.
+4. Took the cast from the Appearances section: characters with an entry for one of the seven novels (not the films or games), unless the entry is only a mention.
+5. Took each tie's books from book citations in the paragraphs behind it, or else the novels both characters appear in.
+6. Resolved wiki redirects to characters and used them, with the infobox aliases, as aliases.
+7. Took gender, title, job, Hogwarts house, blood status, nationality, species and allegiances from the article infobox as discrete facts.
+8. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (490 nodes and 6191 ties in, 445 and 6149 out).
+9. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+10. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Harry Potter Wiki — character infoboxes
+
+*Shipped separately as `harry-potter.meta.json`, loaded only at the reveal.*
+
+by **Harry Potter Wiki contributors** (<https://harrypotter.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://harrypotter.fandom.com/wiki/Special:AllPages>
+- Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took gender, title, job, Hogwarts house, blood status, nationality, species and allegiances as discrete facts; the reveal line is composed here, not copied or paraphrased from the article.
+2. Left out any fact that names the character, since facts can be read before naming.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `harry-potter.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/wiki/Property:P6262>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
+
 ## 紅樓夢
 
 *Shipped as `hongloumeng.json` — 200 characters, 1307 ties.*
@@ -371,6 +424,58 @@ Used as follows:
 1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
+## Avatar: The Last Airbender
+
+*Shipped as `last-airbender.json` — 244 characters, 1884 ties.*
+
+"Avatar Wiki — characters of the animated series" by **Avatar Wiki contributors** (<https://avatar.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://avatar.fandom.com/wiki/Special:AllPages>
+- Project: <https://avatar.fandom.com/>
+- Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
+- Retrieved: 2026-09-30
+
+Changes made to the original data:
+
+1. Read the wikitext of the character articles through the MediaWiki API; no article text is reproduced.
+2. Tied two characters when one paragraph of a character article links to both, counting an article's subject as present throughout their own article; weight is the number of such paragraphs.
+3. Dropped non-narrative sections (gallery, references, notes, trivia, quotes, behind the scenes) and sections about other canons.
+4. Took each tie's season from the episode citations in the paragraphs behind it; paragraphs citing only the comics, novels or The Legend of Korra are skipped.
+5. Resolved wiki redirects to characters and used them, with the infobox aliases, as aliases.
+6. Took gender, profession, bending art, people and affiliations from the article infobox as discrete facts.
+7. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (251 nodes and 1890 ties in, 244 and 1884 out).
+8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+9. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Avatar Wiki — character infoboxes
+
+*Shipped separately as `last-airbender.meta.json`, loaded only at the reveal.*
+
+by **Avatar Wiki contributors** (<https://avatar.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://avatar.fandom.com/wiki/Special:AllPages>
+- Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took gender, profession, bending art, people and affiliations as discrete facts; the reveal line is composed here, not copied or paraphrased from the article.
+2. Left out any fact that names the character, since facts can be read before naming.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `last-airbender.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/wiki/Property:P6262>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
+
 ## Les Misérables
 
 *Shipped as `lesmiserables.json` — 54 characters, 226 ties.*
@@ -459,6 +564,59 @@ Used as follows:
 
 1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
+
+## The Marvel Cinematic Universe
+
+*Shipped as `mcu.json` — 630 characters, 6388 ties.*
+
+"Marvel Cinematic Universe Wiki — characters of the Infinity Saga films" by **Marvel Cinematic Universe Wiki contributors** (<https://marvelcinematicuniverse.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://marvelcinematicuniverse.fandom.com/wiki/Special:AllPages>
+- Project: <https://marvelcinematicuniverse.fandom.com/>
+- Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
+- Retrieved: 2026-09-30
+
+Changes made to the original data:
+
+1. Read the wikitext of the character articles through the MediaWiki API; no article text is reproduced.
+2. Tied two characters when one paragraph of a character article links to both, counting an article's subject as present throughout their own article; weight is the number of such paragraphs.
+3. Dropped non-narrative sections (gallery, references, notes, trivia, quotes, behind the scenes) and sections about other canons.
+4. Took the cast from the character categories of the 23 Infinity Saga films (Iron Man to Spider-Man: Far From Home).
+5. Gave each tie the films both characters appear in; the wiki's citations do not name films.
+6. Resolved wiki redirects to characters and used them, with the infobox aliases, as aliases.
+7. Took gender, title, citizenship, species and affiliations from the article infobox as discrete facts.
+8. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (667 nodes and 6430 ties in, 630 and 6388 out).
+9. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+10. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Marvel Cinematic Universe Wiki — character infoboxes
+
+*Shipped separately as `mcu.meta.json`, loaded only at the reveal.*
+
+by **Marvel Cinematic Universe Wiki contributors** (<https://marvelcinematicuniverse.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://marvelcinematicuniverse.fandom.com/wiki/Special:AllPages>
+- Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took gender, title, citizenship, species and affiliations as discrete facts; the reveal line is composed here, not copied or paraphrased from the article.
+2. Left out any fact that names the character, since facts can be read before naming.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `mcu.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/wiki/Property:P6262>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
 
 ## Musical Meetups
 
@@ -780,24 +938,24 @@ Used as follows:
 
 ## The Stormlight Archive
 
-*Shipped as `stormlight.json` — 579 characters, 2475 ties.*
+*Shipped as `stormlight.json` — 579 characters, 2468 ties.*
 
 "Stormlight Archive Wiki — character articles" by **Stormlight Archive Wiki contributors** (<https://stormlightarchive.fandom.com/wiki/Special:ListUsers>)
 
-- Source: <https://stormlightarchive.fandom.com/wiki/Category:Characters>
-- Project: <https://stormlightarchive.fandom.com/wiki/Cosmere>
+- Source: <https://stormlightarchive.fandom.com/wiki/Special:AllPages>
+- Project: <https://stormlightarchive.fandom.com/>
 - Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
 - Retrieved: 2026-09-30
 
 Changes made to the original data:
 
-1. Read the wikitext of every article in Category:Characters through the MediaWiki API; no article text is reproduced.
+1. Read the wikitext of the character articles through the MediaWiki API; no article text is reproduced.
 2. Tied two characters when one paragraph of a character article links to both, counting an article's subject as present throughout their own article; weight is the number of such paragraphs.
-3. Dropped non-narrative sections (gallery, references, notes, trivia, quotes).
+3. Dropped non-narrative sections (gallery, references, notes, trivia, quotes, behind the scenes) and sections about other canons.
 4. Took each tie's books from the {{Ref}} chapter citations in the paragraphs behind it.
 5. Resolved wiki redirects to characters and used them, with the infobox aliases, as aliases.
-6. Took gender and nationality from the article infobox as discrete facts.
-7. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (701 nodes and 2591 ties in, 579 and 2475 out).
+6. Took gender, title, occupation, Radiant order, people, species and noble house from the article infobox as discrete facts.
+7. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (701 nodes and 2584 ties in, 579 and 2468 out).
 8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
 9. Computed a force-directed layout for the full graph, used by the reveal animation.
 
@@ -807,13 +965,81 @@ Changes made to the original data:
 
 by **Stormlight Archive Wiki contributors** (<https://stormlightarchive.fandom.com/wiki/Special:ListUsers>)
 
-- Source: <https://stormlightarchive.fandom.com/wiki/Category:Characters>
+- Source: <https://stormlightarchive.fandom.com/wiki/Special:AllPages>
 - Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
 - Retrieved: 2026-09-30
 
 Used as follows:
 
-1. Took gender and nationality as discrete facts; the reveal line is composed here, not copied or paraphrased from the article.
+1. Took gender, title, occupation, Radiant order, people, species and noble house as discrete facts; the reveal line is composed here, not copied or paraphrased from the article.
+2. Left out any fact that names the character, since facts can be read before naming.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `stormlight.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/wiki/Property:P6262>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
+
+## The Witcher
+
+*Shipped as `witcher.json` — 635 characters, 3316 ties.*
+
+"Witcher Wiki — characters of Sapkowski's saga" by **Witcher Wiki contributors** (<https://witcher.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://witcher.fandom.com/wiki/Special:AllPages>
+- Project: <https://witcher.fandom.com/>
+- Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
+- Retrieved: 2026-09-30
+
+Changes made to the original data:
+
+1. Read the wikitext of the character articles through the MediaWiki API; no article text is reproduced.
+2. Tied two characters when one paragraph of a character article links to both, counting an article's subject as present throughout their own article; weight is the number of such paragraphs.
+3. Dropped non-narrative sections (gallery, references, notes, trivia, quotes, behind the scenes) and sections about other canons.
+4. Took the cast from the per-book character categories of the eight saga books; game and television sections are skipped.
+5. Took each tie's books from book citations in the paragraphs behind it, or else the books both characters appear in.
+6. Resolved wiki redirects to characters and used them, with the infobox aliases, as aliases.
+7. Took gender, title, profession, nationality, race and affiliations from the article infobox as discrete facts.
+8. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (721 nodes and 3398 ties in, 635 and 3316 out).
+9. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+10. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Witcher Wiki — character infoboxes
+
+*Shipped separately as `witcher.meta.json`, loaded only at the reveal.*
+
+by **Witcher Wiki contributors** (<https://witcher.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://witcher.fandom.com/wiki/Special:AllPages>
+- Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took gender, title, profession, nationality, race and affiliations as discrete facts; the reveal line is composed here, not copied or paraphrased from the article.
+2. Left out any fact that names the character, since facts can be read before naming.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `witcher.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/wiki/Property:P6262>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-09-30
+
+Used as follows:
+
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
 
 ## 西遊記
 

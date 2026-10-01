@@ -41,11 +41,11 @@
     "gender": "Male",
     "homeworld": "Chapel Hill"
    },
-   "line": "Lieutenant General, of Chapel Hill, of the Confederacy. Appears in four years.",
+   "line": "Lieutenant General, of Chapel Hill, of the Confederacy. Appears in 4 years.",
    "wiki": "Nathan Bedford Forrest",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -69,20 +69,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "John Sherman Birthplace"
    },
-   "line": "Major General, of the Union. Appears in four years.",
+   "line": "Major General, of John Sherman Birthplace, of the Union. Appears in 4 years.",
+   "wiki": "William Tecumseh Sherman",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 81,
+    "lookAlikes": 93,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
      "name": "Haman",
      "tied": 0
     }
-   },
-   "wiki": "William Tecumseh Sherman",
-   "wikiLang": "en"
+   }
   },
   "3": {
    "facts": {
@@ -136,11 +138,11 @@
     "gender": "Male",
     "homeworld": "Edgefield County"
    },
-   "line": "Lieutenant General, of Edgefield County, of the Confederacy. Appears in four years.",
+   "line": "Lieutenant General, of Edgefield County, of the Confederacy. Appears in 4 years.",
    "wiki": "James Longstreet",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 48,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -259,9 +261,9 @@
      "Lieutenant General"
     ]
    },
-   "line": "Lieutenant General, of the Confederacy. Appears in three years.",
+   "line": "Lieutenant General, of the Confederacy. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 50,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -340,7 +342,7 @@
    },
    "line": "Major General, of the Union. Appears in 1861 and 1862.",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 29,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -475,7 +477,7 @@
    "wiki": "George Meade",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-pericles",
      "story": "Pericles",
@@ -503,11 +505,11 @@
     "gender": "Male",
     "homeworld": "St. Bernard Parish"
    },
-   "line": "General, of St. Bernard Parish, of the Confederacy. Appears in four years.",
+   "line": "General, of St. Bernard Parish, of the Confederacy. Appears in 4 years.",
    "wiki": "P. G. T. Beauregard",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -565,7 +567,7 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Confederacy. Appears in three years."
+   "line": "Major General, of the Confederacy. Appears in 3 years."
   },
   "27": {
    "facts": {
@@ -603,9 +605,9 @@
      "Brigadier General"
     ]
    },
-   "line": "Brigadier General, of the Confederacy. Appears in three years.",
+   "line": "Brigadier General, of the Confederacy. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 106,
+    "lookAlikes": 127,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -689,15 +691,15 @@
     "gender": "Male",
     "homeworld": "Culpeper"
    },
-   "line": "Lieutenant General, of Culpeper, of the Confederacy. Appears in three years.",
+   "line": "Lieutenant General, of Culpeper, of the Confederacy. Appears in 3 years.",
    "wiki": "A. P. Hill",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
-     "world": "shiji",
-     "story": "史記",
-     "name": "劉肥",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Kishi",
      "tied": 0
     }
    }
@@ -718,9 +720,9 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Confederacy. Appears in three years.",
+   "line": "Major General, of the Confederacy. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 15,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -747,7 +749,7 @@
     "gender": "Male",
     "homeworld": "Augusta"
    },
-   "line": "Major General, of Augusta, of the Confederacy. Appears in three years.",
+   "line": "Major General, of Augusta, of the Confederacy. Appears in 3 years.",
    "wiki": "Joseph Wheeler",
    "wikiLang": "en"
   },
@@ -767,9 +769,9 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Confederacy. Appears in three years.",
+   "line": "Major General, of the Confederacy. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 48,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -790,9 +792,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "North Andover"
    },
-   "line": "Major General, of the Union. Appears in 1862.",
+   "line": "Major General, of North Andover, of the Union. Appears in 1862.",
    "wiki": "Isaac Stevens",
    "wikiLang": "en"
   },
@@ -830,7 +834,7 @@
     "gender": "Male",
     "homeworld": "Lorain"
    },
-   "line": "Major General, of Lorain, of the Union. Appears in three years.",
+   "line": "Major General, of Lorain, of the Union. Appears in 3 years.",
    "wiki": "Quincy Adams Gillmore",
    "wikiLang": "en"
   },
@@ -853,7 +857,7 @@
     "gender": "Male",
     "homeworld": "Sumter County"
    },
-   "line": "Lieutenant General, of Sumter County, of the Confederacy. Appears in four years.",
+   "line": "Lieutenant General, of Sumter County, of the Confederacy. Appears in 4 years.",
    "wiki": "Richard H. Anderson (general)",
    "wikiLang": "en"
   },
@@ -891,9 +895,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Boone County"
    },
-   "line": "Major General, of the Union. Appears in 1862 and 1865.",
+   "line": "Major General, of Boone County, of the Union. Appears in 1862 and 1865.",
    "wiki": "Edward Canby",
    "wikiLang": "en"
   },
@@ -1079,9 +1085,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Cumberland"
    },
-   "line": "Major General, of the Union. Appears in 1861 and 1862.",
+   "line": "Major General, of Cumberland, of the Union. Appears in 1861 and 1862.",
    "wiki": "E. O. C. Ord",
    "wikiLang": "en"
   },
@@ -1106,7 +1114,7 @@
    "wiki": "Philip Sheridan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 18,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1152,12 +1160,12 @@
    "wiki": "James H. Wilson",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 81,
+    "lookAlikes": 93,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Hoglah",
-     "tied": 1
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Roger Kameny",
+     "tied": 0
     }
    }
   },
@@ -1230,20 +1238,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Shippensburg"
    },
-   "line": "Major General, of the Union. Appears in three years.",
+   "line": "Major General, of Shippensburg, of the Union. Appears in 3 years.",
+   "wiki": "Samuel D. Sturgis",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 106,
+    "lookAlikes": 127,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
      "name": "Beor",
      "tied": 0
     }
-   },
-   "wiki": "Samuel D. Sturgis",
-   "wikiLang": "en"
+   }
   },
   "59": {
    "facts": {
@@ -1279,7 +1289,7 @@
     "gender": "Male",
     "homeworld": "Warrenton"
    },
-   "line": "General, of Warrenton, of the Confederacy. Appears in three years.",
+   "line": "General, of Warrenton, of the Confederacy. Appears in 3 years.",
    "wiki": "Braxton Bragg",
    "wikiLang": "en",
    "signals": {
@@ -1326,11 +1336,11 @@
     "gender": "Male",
     "homeworld": "Hartford"
    },
-   "line": "Major General, of Hartford, of the Union. Appears in three years.",
+   "line": "Major General, of Hartford, of the Union. Appears in 3 years.",
    "wiki": "Alfred Terry",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 81,
+    "lookAlikes": 93,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1371,9 +1381,11 @@
     ],
     "titles": [
      "Colonel"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Savannah"
    },
-   "line": "Colonel, of the Confederacy. Appears in 1862.",
+   "line": "Colonel, of Savannah, of the Confederacy. Appears in 1862.",
    "wiki": "Charles H. Olmstead",
    "wikiLang": "en"
   },
@@ -1465,7 +1477,7 @@
    },
    "line": "Flag Officer, of the Union. Appears in 1862.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 37,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -1503,9 +1515,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Troy"
    },
-   "line": "Major General, of the Union. Appears in 1862 and 1864.",
+   "line": "Major General, of Troy, of the Union. Appears in 1862 and 1864.",
    "wiki": "David Hunter",
    "wikiLang": "en"
   },
@@ -1677,9 +1691,9 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Confederacy. Appears in three years.",
+   "line": "Major General, of the Confederacy. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 33,
+    "lookAlikes": 37,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1704,7 +1718,7 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Union. Appears in three years."
+   "line": "Major General, of the Union. Appears in 3 years."
   },
   "82": {
    "facts": {
@@ -1796,9 +1810,11 @@
     ],
     "titles": [
      "Brigadier General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Richmond"
    },
-   "line": "Brigadier General, of the Confederacy. Appears in 1862.",
+   "line": "Brigadier General, of Richmond, of the Confederacy. Appears in 1862.",
    "wiki": "William N. Pendleton",
    "wikiLang": "en"
   },
@@ -1836,11 +1852,11 @@
     "gender": "Male",
     "homeworld": "Laurel Hill Farm"
    },
-   "line": "Major General, of Laurel Hill Farm, of the Confederacy. Appears in three years.",
+   "line": "Major General, of Laurel Hill Farm, of the Confederacy. Appears in 3 years.",
    "wiki": "J. E. B. Stuart",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 48,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1956,11 +1972,11 @@
     "gender": "Male",
     "homeworld": "Franklin County"
    },
-   "line": "Lieutenant General, of Franklin County, of the Confederacy. Appears in three years.",
+   "line": "Lieutenant General, of Franklin County, of the Confederacy. Appears in 3 years.",
    "wiki": "Jubal Early",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 81,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -1985,7 +2001,7 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Union. Appears in three years."
+   "line": "Major General, of the Union. Appears in 3 years."
   },
   "96": {
    "facts": {
@@ -2004,7 +2020,7 @@
    },
    "line": "Rear Admiral, of the Union. Appears in 1862 and 1864.",
    "signals": {
-    "lookAlikes": 106,
+    "lookAlikes": 127,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2046,9 +2062,9 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Confederacy. Appears in four years.",
+   "line": "Major General, of the Confederacy. Appears in 4 years.",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 71,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2071,20 +2087,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Delaware County"
    },
-   "line": "Major General, of the Union. Appears in three years.",
+   "line": "Major General, of Delaware County, of the Union. Appears in 3 years.",
+   "wiki": "William Rosecrans",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 18,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
      "name": "Rachel",
      "tied": 0
     }
-   },
-   "wiki": "William Rosecrans",
-   "wikiLang": "en"
+   }
   },
   "100": {
    "facts": {
@@ -2120,20 +2138,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Knoxville"
    },
-   "line": "Major General, of the Confederacy. Appears in three years.",
+   "line": "Major General, of Knoxville, of the Confederacy. Appears in 3 years.",
+   "wiki": "Thomas C. Hindman",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 106,
+    "lookAlikes": 127,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
      "name": "Alfred Brendel",
      "tied": 0
     }
-   },
-   "wiki": "Thomas C. Hindman",
-   "wikiLang": "en"
+   }
   },
   "102": {
    "facts": {
@@ -2183,9 +2203,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Bucks County"
    },
-   "line": "Major General, of the Union. Appears in 1864.",
+   "line": "Major General, of Bucks County, of the Union. Appears in 1864.",
    "wiki": "Andrew Jackson Smith",
    "wikiLang": "en"
   },
@@ -2223,20 +2245,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Coatesville"
    },
-   "line": "Major General, of the Union. Appears in three years.",
+   "line": "Major General, of Coatesville, of the Union. Appears in 3 years.",
+   "wiki": "John Parke",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
      "name": "Bichri",
      "tied": 0
     }
-   },
-   "wiki": "John Parke",
-   "wikiLang": "en"
+   }
   },
   "107": {
    "facts": {
@@ -2253,9 +2277,11 @@
     ],
     "titles": [
      "Brigadier General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Salem"
    },
-   "line": "Brigadier General, of the Union. Appears in four years.",
+   "line": "Brigadier General, of Salem, of the Union. Appears in 4 years.",
    "wiki": "Robert H. Milroy",
    "wikiLang": "en"
   },
@@ -2273,20 +2299,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Cold Spring"
    },
-   "line": "Major General, of the Union. Appears in three years.",
+   "line": "Major General, of Cold Spring, of the Union. Appears in 3 years.",
+   "wiki": "Gouverneur K. Warren",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 29,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
      "name": "Rattleshirt",
      "tied": 0
     }
-   },
-   "wiki": "Gouverneur K. Warren",
-   "wikiLang": "en"
+   }
   },
   "109": {
    "facts": {
@@ -2324,9 +2352,9 @@
      "Rear Admiral"
     ]
    },
-   "line": "Rear Admiral, of the Union. Appears in three years.",
+   "line": "Rear Admiral, of the Union. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 30,
+    "lookAlikes": 31,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2351,7 +2379,7 @@
      "Brigadier General"
     ]
    },
-   "line": "Brigadier General, of the Union. Appears in three years."
+   "line": "Brigadier General, of the Union. Appears in 3 years."
   },
   "112": {
    "facts": {
@@ -2367,20 +2395,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Prince Edward County"
    },
-   "line": "Major General, of the Confederacy. Appears in three years.",
+   "line": "Major General, of Prince Edward County, of the Confederacy. Appears in 3 years.",
+   "wiki": "Sterling Price",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 64,
+    "lookAlikes": 75,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
      "name": "John S. Marmaduke",
      "tied": 0
     }
-   },
-   "wiki": "Sterling Price",
-   "wikiLang": "en"
+   }
   },
   "113": {
    "facts": {
@@ -2423,7 +2453,7 @@
    "wiki": "Alfred Pleasonton",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 48,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2610,11 +2640,11 @@
     "gender": "Male",
     "homeworld": "Southampton County"
    },
-   "line": "Major General, of Southampton County, of the Confederacy. Appears in three years.",
+   "line": "Major General, of Southampton County, of the Confederacy. Appears in 3 years.",
    "wiki": "William Mahone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 15,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2656,7 +2686,7 @@
    },
    "line": "Brigadier General, of the Confederacy. Appears in 1861 and 1862.",
    "signals": {
-    "lookAlikes": 81,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -2679,20 +2709,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Trenton"
    },
-   "line": "Major General, of the Union. Appears in three years.",
+   "line": "Major General, of Trenton, of the Union. Appears in 3 years.",
+   "wiki": "James G. Blunt",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 37,
     "nearest": {
      "world": "shiji",
      "story": "史記",
      "name": "蘇秦",
      "tied": 0
     }
-   },
-   "wiki": "James G. Blunt",
-   "wikiLang": "en"
+   }
   },
   "128": {
    "facts": {
@@ -2706,9 +2738,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Wayne County"
    },
-   "line": "Major General, of the Confederacy. Appears in 1865.",
+   "line": "Major General, of Wayne County, of the Confederacy. Appears in 1865.",
    "wiki": "Cadmus M. Wilcox",
    "wikiLang": "en"
   },
@@ -2745,9 +2779,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Claiborne County"
    },
-   "line": "Major General, of the Confederacy. Appears in 1862 and 1863.",
+   "line": "Major General, of Claiborne County, of the Confederacy. Appears in 1862 and 1863.",
    "wiki": "Earl Van Dorn",
    "wikiLang": "en"
   },
@@ -2764,20 +2800,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "York"
    },
-   "line": "Major General, of the Union. Appears in 1862 and 1863.",
+   "line": "Major General, of York, of the Union. Appears in 1862 and 1863.",
+   "wiki": "William B. Franklin",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 65,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
      "name": "John B. Gordon",
      "tied": 0
     }
-   },
-   "wiki": "William B. Franklin",
-   "wikiLang": "en"
+   }
   },
   "132": {
    "facts": {
@@ -2798,7 +2836,7 @@
     "gender": "Male",
     "homeworld": "Georgetown"
    },
-   "line": "Lieutenant General, of Georgetown, of the Confederacy. Appears in four years.",
+   "line": "Lieutenant General, of Georgetown, of the Confederacy. Appears in 4 years.",
    "wiki": "Richard S. Ewell",
    "wikiLang": "en"
   },
@@ -2916,11 +2954,11 @@
     "gender": "Male",
     "homeworld": "Farmville"
    },
-   "line": "General, of Farmville, of the Confederacy. Appears in all five years.",
+   "line": "General, of Farmville, of the Confederacy. Appears in all 5 years.",
    "wiki": "Joseph E. Johnston",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 40,
+    "lookAlikes": 60,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2962,9 +3000,11 @@
     ],
     "titles": [
      "Brigadier General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Huntingdon"
    },
-   "line": "Brigadier General, of the Union. Appears in 1863 and 1864.",
+   "line": "Brigadier General, of Huntingdon, of the Union. Appears in 1863 and 1864.",
    "wiki": "David McMurtrie Gregg",
    "wikiLang": "en"
   },
@@ -3004,11 +3044,11 @@
    },
    "line": "Major General, of the Confederacy. Appears in 1865.",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 65,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Jonadab",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Lucienne",
      "tied": 0
     }
    }
@@ -3069,7 +3109,7 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Union. Appears in three years."
+   "line": "Major General, of the Union. Appears in 3 years."
   },
   "146": {
    "facts": {
@@ -3084,9 +3124,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Wayne County"
    },
-   "line": "Major General, of the Union. Appears in 1863 and 1864.",
+   "line": "Major General, of Wayne County, of the Union. Appears in 1863 and 1864.",
    "wiki": "Gordon Granger",
    "wikiLang": "en"
   },
@@ -3125,13 +3167,13 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Union. Appears in three years.",
+   "line": "Major General, of the Union. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 15,
     "nearest": {
-     "world": "shiji",
-     "story": "史記",
-     "name": "漢文帝",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Windsor Imbra",
      "tied": 0
     }
    }
@@ -3169,9 +3211,11 @@
     ],
     "titles": [
      "Brigadier General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Boston"
    },
-   "line": "Brigadier General, of the Union. Appears in 1864.",
+   "line": "Brigadier General, of Boston, of the Union. Appears in 1864.",
    "wiki": "Thomas Kilby Smith",
    "wikiLang": "en"
   },
@@ -3212,11 +3256,11 @@
    "wiki": "August Kautz",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Yandry",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Gaudemunda Thyssen",
      "tied": 0
     }
    }
@@ -3258,11 +3302,11 @@
    "wiki": "Joseph Hooker",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 65,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Abijah",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Pasang",
      "tied": 0
     }
    }
@@ -3320,9 +3364,11 @@
     ],
     "titles": [
      "Lieutenant Colonel"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Ohio"
    },
-   "line": "Lieutenant Colonel, of the Confederacy. Appears in 1863.",
+   "line": "Lieutenant Colonel, of Ohio, of the Confederacy. Appears in 1863.",
    "wiki": "William Quantrill",
    "wikiLang": "en"
   },
@@ -3367,11 +3413,11 @@
     "gender": "Male",
     "homeworld": "Stratford Hall"
    },
-   "line": "General, of Stratford Hall, of the Confederacy. Appears in all five years.",
+   "line": "General, of Stratford Hall, of the Confederacy. Appears in all 5 years.",
    "wiki": "Robert E. Lee",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 27,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -3392,9 +3438,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Delhi"
    },
-   "line": "Major General, of the Union. Appears in 1864.",
+   "line": "Major General, of Delhi, of the Union. Appears in 1864.",
    "wiki": "Frederick Steele",
    "wikiLang": "en"
   },
@@ -3411,20 +3459,22 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Black Heath"
    },
-   "line": "Major General, of the Confederacy. Appears in 1864 and 1865.",
+   "line": "Major General, of Black Heath, of the Confederacy. Appears in 1864 and 1865.",
+   "wiki": "Henry Heth",
+   "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
      "name": "August V. Kautz",
      "tied": 0
     }
-   },
-   "wiki": "Henry Heth",
-   "wikiLang": "en"
+   }
   },
   "162": {
    "facts": {
@@ -3480,9 +3530,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Champlain"
    },
-   "line": "Major General, of the Union. Appears in 1862 and 1864.",
+   "line": "Major General, of Champlain, of the Union. Appears in 1862 and 1864.",
    "wiki": "Samuel Ryan Curtis",
    "wikiLang": "en"
   },
@@ -3498,9 +3550,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Columbiana County"
    },
-   "line": "Major General, of the Union. Appears in 1864.",
+   "line": "Major General, of Columbiana County, of the Union. Appears in 1864.",
    "wiki": "Alexander McDowell McCook",
    "wikiLang": "en"
   },
@@ -3516,9 +3570,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Richmond"
    },
-   "line": "Major General, of the Confederacy. Appears in 1865.",
+   "line": "Major General, of Richmond, of the Confederacy. Appears in 1865.",
    "wiki": "George Pickett",
    "wikiLang": "en"
   },
@@ -3629,7 +3685,7 @@
     "gender": "Male",
     "homeworld": "Waltham"
    },
-   "line": "Major General, of Waltham, of the Union. Appears in three years.",
+   "line": "Major General, of Waltham, of the Union. Appears in 3 years.",
    "wiki": "Nathaniel P. Banks",
    "wikiLang": "en"
   },
@@ -3651,9 +3707,9 @@
      "Lieutenant General"
     ]
    },
-   "line": "Lieutenant General, of the Union. Appears in all five years.",
+   "line": "Lieutenant General, of the Union. Appears in all 5 years.",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 101,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -3678,7 +3734,7 @@
      "Major General"
     ]
    },
-   "line": "Major General, of the Confederacy. Appears in three years."
+   "line": "Major General, of the Confederacy. Appears in 3 years."
   },
   "175": {
    "facts": {
@@ -3713,9 +3769,11 @@
     ],
     "titles": [
      "Brigadier General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Whitefield"
    },
-   "line": "Brigadier General, of the Union. Appears in 1862 and 1863.",
+   "line": "Brigadier General, of Whitefield, of the Union. Appears in 1862 and 1863.",
    "wiki": "John G. Foster",
    "wikiLang": "en"
   },
@@ -3747,9 +3805,11 @@
     ],
     "titles": [
      "Major General"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Charleston"
    },
-   "line": "Major General, of the Union. Appears in 1862.",
+   "line": "Major General, of Charleston, of the Union. Appears in 1862.",
    "wiki": "Stephen A. Hurlbut",
    "wikiLang": "en"
   },
@@ -3798,9 +3858,11 @@
     ],
     "titles": [
      "Colonel"
-    ]
+    ],
+    "gender": "Male",
+    "homeworld": "Steubenville"
    },
-   "line": "Colonel, of the Union. Appears in 1864.",
+   "line": "Colonel, of Steubenville, of the Union. Appears in 1864.",
    "wiki": "Edward M. McCook",
    "wikiLang": "en"
   },
@@ -4065,7 +4127,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1864."
+   "line": "They share the page in 2 years, first in 1864."
   },
   "2-154": {
    "facts": {
@@ -4492,7 +4554,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1864."
+   "line": "They share the page in 2 years, first in 1864."
   },
   "11-106": {
    "facts": {
@@ -5002,7 +5064,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1863."
+   "line": "They share the page in 2 years, first in 1863."
   },
   "22-173": {
    "facts": {
@@ -5028,7 +5090,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1863."
+   "line": "They share the page in 2 years, first in 1863."
   },
   "23-136": {
    "facts": {
@@ -5090,7 +5152,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1862."
+   "line": "They share the page in 2 years, first in 1862."
   },
   "24-110": {
    "facts": {
@@ -5146,7 +5208,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1863."
+   "line": "They share the page in 2 years, first in 1863."
   },
   "26-148": {
    "facts": {
@@ -5387,7 +5449,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1863."
+   "line": "They share the page in 2 years, first in 1863."
   },
   "32-124": {
    "facts": {
@@ -5510,7 +5572,7 @@
      "Confederacy"
     ]
    },
-   "line": "They share the page in two years, first in 1862. Both belong to the Confederacy."
+   "line": "They share the page in 2 years, first in 1862. Both belong to the Confederacy."
   },
   "33-172": {
    "facts": {
@@ -5533,7 +5595,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1864."
+   "line": "They share the page in 2 years, first in 1864."
   },
   "34-116": {
    "facts": {
@@ -6071,7 +6133,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1864."
+   "line": "They share the page in 2 years, first in 1864."
   },
   "52-132": {
    "facts": {
@@ -6371,7 +6433,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1862."
+   "line": "They share the page in 2 years, first in 1862."
   },
   "60-110": {
    "facts": {
@@ -6868,7 +6930,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1864."
+   "line": "They share the page in 2 years, first in 1864."
   },
   "78-119": {
    "facts": {
@@ -7342,7 +7404,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1862."
+   "line": "They share the page in 2 years, first in 1862."
   },
   "98-129": {
    "facts": {
@@ -7666,7 +7728,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1864."
+   "line": "They share the page in 2 years, first in 1864."
   },
   "108-161": {
    "facts": {
@@ -8243,7 +8305,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1862."
+   "line": "They share the page in 2 years, first in 1862."
   },
   "148-159": {
    "facts": {
@@ -8277,7 +8339,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1861."
+   "line": "They share the page in 2 years, first in 1861."
   },
   "152-159": {
    "facts": {
@@ -8350,7 +8412,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1864."
+   "line": "They share the page in 2 years, first in 1864."
   },
   "162-173": {
    "facts": {
@@ -8373,7 +8435,7 @@
     "unit": "year",
     "corpusSize": 5
    },
-   "line": "They share the page in two years, first in 1863."
+   "line": "They share the page in 2 years, first in 1863."
   }
  },
  "sources": [

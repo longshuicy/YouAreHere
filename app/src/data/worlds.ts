@@ -50,6 +50,14 @@ const FALLBACK: Record<string, string> = {
   starwars: 'A galaxy of pilots, senators and smugglers, across seven films.',
   stormlight:
     'A storm-scoured continent, a war on shattered plains, and ancient oaths being sworn again.',
+  'harry-potter':
+    'Seven school years in a hidden world of castles and ministries, and a war that comes back.',
+  witcher:
+    'A continent of rival kingdoms and uneasy elder races, where monster-hunting is a trade.',
+  'last-airbender':
+    'Four nations, a hundred-year war, and a journey across the map told in three seasons.',
+  mcu:
+    'Twenty-three films of armoured billionaires, gods and soldiers out of time, building to one war.',
   xiyouji:
     '取經的路上，一僧三徒，一路上的神佛與妖魔。',
 
@@ -124,6 +132,10 @@ const FAMILIARITY: Record<string, 0 | 1 | 2> = {
   pride: 2,
   godfather: 2,
   'indiana-jones': 2,
+  'harry-potter': 2,
+  mcu: 2,
+  'last-airbender': 2,
+  witcher: 2,
   mmkg: 1,
   iliad: 1,
   odyssey: 1,

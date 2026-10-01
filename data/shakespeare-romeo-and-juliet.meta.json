@@ -28,7 +28,7 @@
    "wiki": "Benvolio",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -49,7 +49,7 @@
    },
    "line": "Her father.",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -72,7 +72,7 @@
    "wiki": "Friar Laurence",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -96,7 +96,7 @@
    "wiki": "Juliet",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -117,7 +117,7 @@
    },
    "line": "Lady, Her mother.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -138,7 +138,7 @@
    },
    "line": "Lady, His mother.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -161,7 +161,7 @@
    "wiki": "Mercutio",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -182,7 +182,7 @@
    },
    "line": "His father.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -205,7 +205,7 @@
    "wiki": "Nurse (Romeo and Juliet)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -228,7 +228,7 @@
    "wiki": "Count Paris",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-cymbeline",
      "story": "Cymbeline",
@@ -249,7 +249,7 @@
    },
    "line": "Tybalt’s companion.",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -270,7 +270,7 @@
    },
    "line": "Prince of Verona.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -291,7 +291,7 @@
    },
    "line": "Son of Montague.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -310,7 +310,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -329,7 +329,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -348,7 +348,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -369,7 +369,7 @@
    },
    "line": "A Montague servingman.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -390,7 +390,7 @@
    },
    "line": "Romeo’s servingman.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -413,7 +413,7 @@
    "wiki": "Tybalt",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",

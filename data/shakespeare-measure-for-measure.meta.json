@@ -14,7 +14,7 @@
    },
    "line": "An executioner.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -35,7 +35,7 @@
    },
    "line": "Deputy to the Duke.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -56,7 +56,7 @@
    },
    "line": "A prisoner.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-the-comedy-of-errors",
      "story": "The Comedy of Errors",
@@ -77,7 +77,7 @@
    },
    "line": "A bawd.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -108,7 +108,7 @@
    },
    "line": "Brother to Isabella.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -129,7 +129,7 @@
    },
    "line": "Duke, Later called Friar Lodowick.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -150,7 +150,7 @@
    },
    "line": "A constable.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -171,7 +171,7 @@
    },
    "line": "A judge.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -192,7 +192,7 @@
    },
    "line": "Friar.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -213,7 +213,7 @@
    },
    "line": "Pompey’s customer.",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -234,7 +234,7 @@
    },
    "line": "A novice in the Order of Saint Clare.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -268,7 +268,7 @@
    },
    "line": "Justice.",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -289,7 +289,7 @@
    },
    "line": "Friend to Claudio.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -310,7 +310,7 @@
    },
    "line": "Betrothed to Angelo.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -355,7 +355,7 @@
    },
    "line": "Her servant.",
    "signals": {
-    "lookAlikes": 11,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -374,7 +374,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",

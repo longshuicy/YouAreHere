@@ -22,11 +22,11 @@
    "wiki": "Admiral Ackbar",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "秦可卿",
+     "world": "harry-potter",
+     "story": "Harry Potter",
+     "name": "Gornuk",
      "tied": 0
     }
    }
@@ -41,11 +41,11 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 22,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Vintner",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Vihaan Ramamurthy",
      "tied": 0
     }
    }
@@ -66,11 +66,11 @@
      "Jedi"
     ]
    },
-   "line": "Jedi. Appears in four films.",
+   "line": "Jedi. Appears in 4 films.",
    "wiki": "Anakin Skywalker",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -91,11 +91,11 @@
     "gender": "Male",
     "homeworld": "Alderaan"
    },
-   "line": "Of Alderaan. Appears in three films.",
+   "line": "Of Alderaan. Appears in 3 films.",
    "wiki": "Bail Organa",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -136,7 +136,7 @@
    "wiki": "BB-8",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-the-comedy-of-errors",
      "story": "The Comedy of Errors",
@@ -161,11 +161,11 @@
    "wiki": "Beru Lars",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
-     "world": "shakespeare-the-merchant-of-venice",
-     "story": "The Merchant of Venice",
-     "name": "Stephano",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Fine",
      "tied": 0
     }
    }
@@ -202,11 +202,11 @@
    "wiki": "Biggs Darklighter",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Eurybates",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Wu",
      "tied": 0
     }
    }
@@ -226,11 +226,11 @@
    "wiki": "Boba Fett",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Talthybius",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Yung",
      "tied": 0
     }
    }
@@ -249,7 +249,7 @@
    "wiki": "Boss Nass",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -312,11 +312,11 @@
     ],
     "homeworld": "Tatooine"
    },
-   "line": "Protocol droid, Droid, of Tatooine, of the Rebel Alliance. Appears in all seven films.",
+   "line": "Protocol droid, of Tatooine, of the Rebel Alliance. Appears in all 7 films.",
    "wiki": "C-3PO",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -355,7 +355,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -374,11 +374,11 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Godry Farring",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Orla",
      "tied": 0
     }
    }
@@ -414,11 +414,11 @@
     ],
     "homeworld": "Kashyyyk"
    },
-   "line": "Smuggler, Wookiee, of Kashyyyk, of the Rebel Alliance. Appears in four films.",
+   "line": "Smuggler, Wookiee, of Kashyyyk, of the Rebel Alliance. Appears in 4 films.",
    "wiki": "Chewbacca",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -471,7 +471,7 @@
    "wiki": "Count Dooku",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -519,11 +519,11 @@
     ],
     "homeworld": "Tatooine"
    },
-   "line": "Sith, of Tatooine. Appears in four films.",
+   "line": "Sith, of Tatooine. Appears in 4 films.",
    "wiki": "Darth Vader",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 11,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -601,11 +601,11 @@
     ],
     "homeworld": "Naboo"
    },
-   "line": "Galactic Emperor, of Naboo, of the Sith. Appears in five films.",
+   "line": "Galactic Emperor, of Naboo, of the Sith. Appears in 5 films.",
    "wiki": "Palpatine",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -639,7 +639,7 @@
    "wiki": "Finn (Star Wars)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -755,11 +755,11 @@
     ],
     "homeworld": "Corellia"
    },
-   "line": "Smuggler, of Corellia, of the Rebel Alliance. Appears in four films.",
+   "line": "Smuggler, of Corellia, of the Rebel Alliance. Appears in 4 films.",
    "wiki": "Han Solo",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -785,11 +785,11 @@
     ],
     "homeworld": "Nal Hutta"
    },
-   "line": "Crime boss, Hutt, of Nal Hutta, of the Crymorah Syndicate. Appears in three films.",
+   "line": "Crime boss, Hutt, of Nal Hutta, of the Crymorah Syndicate. Appears in 3 films.",
    "wiki": "Jabba the Hutt",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -828,11 +828,11 @@
     ],
     "homeworld": "Rentor"
    },
-   "line": "Of Rentor, of the Galactic Empire. Appears in three films.",
+   "line": "Of Rentor, of the Galactic Empire. Appears in 3 films.",
    "wiki": "Grand Admiral Thrawn",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -892,7 +892,7 @@
    "wiki": "Ki-Adi-Mundi",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -911,7 +911,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -940,7 +940,7 @@
    "wiki": "Kylo Ren",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -983,7 +983,7 @@
    "wiki": "Lando Calrissian",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "shakespeare-coriolanus",
      "story": "Coriolanus",
@@ -1013,11 +1013,11 @@
     ],
     "homeworld": "Alderaan"
    },
-   "line": "Senator, of Alderaan, of the Rebel Alliance. Appears in four films.",
+   "line": "Senator, of Alderaan, of the Rebel Alliance. Appears in 4 films.",
    "wiki": "Princess Leia",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1068,11 +1068,11 @@
     ],
     "homeworld": "Tatooine"
    },
-   "line": "Jedi, of Tatooine, of the Rebel Alliance. Appears in four films.",
+   "line": "Jedi, of Tatooine, of the Rebel Alliance. Appears in 4 films.",
    "wiki": "Luke Skywalker",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1099,15 +1099,15 @@
     ],
     "homeworld": "Haruun Kal"
    },
-   "line": "Jedi, of Haruun Kal. Appears in three films.",
+   "line": "Jedi, of Haruun Kal. Appears in 3 films.",
    "wiki": "Mace Windu",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
-     "world": "shakespeare-troilus-and-cressida",
-     "story": "Troilus and Cressida",
-     "name": "Paris",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Relis Ruthar",
      "tied": 0
     }
    }
@@ -1144,12 +1144,12 @@
    "wiki": "Mon Mothma",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Iden",
-     "tied": 2
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Galaga Guy",
+     "tied": 0
     }
    }
   },
@@ -1205,15 +1205,15 @@
      "Viceroy of the Trade Federation"
     ]
    },
-   "line": "Viceroy of the Trade Federation. Appears in three films.",
+   "line": "Viceroy of the Trade Federation. Appears in 3 films.",
    "wiki": "Nute Gunray",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Antenor",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Daniel Drumm",
      "tied": 0
     }
    }
@@ -1239,11 +1239,11 @@
     ],
     "homeworld": "Stewjon"
    },
-   "line": "Jedi, of Stewjon, of the Mandalorian resistance. Appears in six films.",
+   "line": "Jedi, of Stewjon, of the Mandalorian resistance. Appears in 6 films.",
    "wiki": "Obi-Wan Kenobi",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1292,7 +1292,7 @@
    "wiki": "Owen Lars",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1333,11 +1333,11 @@
     ],
     "homeworld": "Naboo"
    },
-   "line": "Queen of Naboo, of Naboo, of the Royal House of Naboo. Appears in three films.",
+   "line": "Queen of Naboo, of Naboo, of the Royal House of Naboo. Appears in 3 films.",
    "wiki": "Padmé Amidala",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 203,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1381,7 +1381,7 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 11,
+    "lookAlikes": 13,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1400,7 +1400,7 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1426,7 +1426,7 @@
    "wiki": "Dennis Bushyhead",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 90,
+    "lookAlikes": 169,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1451,11 +1451,11 @@
     "gender": "Male",
     "homeworld": "Kamino"
    },
-   "line": "Of Kamino. Appears in all seven films.",
+   "line": "Of Kamino. Appears in all 7 films.",
    "wiki": "Boba Fett",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -1488,11 +1488,11 @@
    "wiki": "Garven Dreis",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Tanda Stokeworth",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Hope",
      "tied": 0
     }
    }
@@ -1526,7 +1526,7 @@
    "wiki": "Rey (Star Wars)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -1545,7 +1545,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1598,12 +1598,12 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "A Schoolmaster Ambassador",
-     "tied": 1
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Fire Nation airship captain",
+     "tied": 0
     }
    }
   },
@@ -1617,11 +1617,11 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "李恢",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Duhg",
      "tied": 0
     }
    }
@@ -1637,7 +1637,7 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -1657,11 +1657,11 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
-     "world": "pride",
-     "story": "Pride and Prejudice",
-     "name": "Mr. Denny",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Lo and Li",
      "tied": 0
     }
    }
@@ -1676,11 +1676,11 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Willas Tyrell",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Earthbending academy teenagers",
      "tied": 0
     }
    }
@@ -1721,7 +1721,7 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1834,7 +1834,7 @@
    "wiki": "Watto",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 22,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1856,15 +1856,15 @@
     "occupation": "rebel",
     "homeworld": "Corellia"
    },
-   "line": "Rebel, of Corellia. Appears in three films.",
+   "line": "Rebel, of Corellia. Appears in 3 films.",
    "wiki": "Wedge Antilles",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "高順",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Sah",
      "tied": 0
     }
    }
@@ -1888,11 +1888,11 @@
      "Galactic Republic"
     ]
    },
-   "line": "Jedi Master. Appears in five films.",
+   "line": "Jedi Master. Appears in 5 films.",
    "wiki": "Yoda",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -1948,7 +1948,7 @@
      "Resistance"
     ]
    },
-   "line": "They share the page in two films, first in Return of the Jedi. Both belong to Rebel Alliance."
+   "line": "They share the page in 2 films, first in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "0-32": {
    "facts": {
@@ -1974,7 +1974,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in two films, first in Return of the Jedi. Both belong to Rebel Alliance."
+   "line": "They share the page in 2 films, first in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "0-51": {
    "facts": {
@@ -2005,7 +2005,7 @@
      "Resistance"
     ]
    },
-   "line": "They share the page in two films, first in Return of the Jedi. Both belong to Rebel Alliance."
+   "line": "They share the page in 2 films, first in Return of the Jedi. Both belong to Rebel Alliance."
   },
   "0-55": {
    "facts": {
@@ -2200,7 +2200,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in 3 films, first in The Phantom Menace."
   },
   "2-17": {
    "facts": {
@@ -2223,7 +2223,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in 2 films, first in Attack of the Clones."
   },
   "2-21": {
    "facts": {
@@ -2260,7 +2260,7 @@
      "Jedi"
     ]
    },
-   "line": "They share the page in two films, first in Attack of the Clones. Both belong to Jedi."
+   "line": "They share the page in 2 films, first in Attack of the Clones. Both belong to Jedi."
   },
   "2-25": {
    "facts": {
@@ -2331,7 +2331,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in 3 films, first in The Phantom Menace."
   },
   "2-45": {
    "facts": {
@@ -2408,7 +2408,7 @@
      "Jedi"
     ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Jedi."
+   "line": "They share the page in 3 films, first in The Phantom Menace. Both belong to Jedi."
   },
   "2-62": {
    "facts": {
@@ -2435,7 +2435,7 @@
      "Jedi"
     ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Jedi."
+   "line": "They share the page in 3 films, first in The Phantom Menace. Both belong to Jedi."
   },
   "2-64": {
    "facts": {
@@ -2470,7 +2470,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in 3 films, first in The Phantom Menace."
   },
   "2-72": {
    "facts": {
@@ -2505,7 +2505,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in 3 films, first in The Phantom Menace."
   },
   "2-75": {
    "facts": {
@@ -2561,7 +2561,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in 2 films, first in The Phantom Menace."
   },
   "2-86": {
    "facts": {
@@ -2617,7 +2617,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in 2 films, first in The Phantom Menace."
   },
   "2-100": {
    "facts": {
@@ -2633,7 +2633,7 @@
      "Jedi"
     ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Jedi."
+   "line": "They share the page in 3 films, first in The Phantom Menace. Both belong to Jedi."
   },
   "3-14": {
    "facts": {
@@ -2668,7 +2668,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in 3 films, first in The Phantom Menace."
   },
   "3-31": {
    "facts": {
@@ -2746,7 +2746,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in 2 films, first in Attack of the Clones."
   },
   "3-68": {
    "facts": {
@@ -2813,7 +2813,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in 2 films, first in Attack of the Clones."
   },
   "4-5": {
    "facts": {
@@ -3016,7 +3016,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in 2 films, first in Attack of the Clones."
   },
   "6-21": {
    "facts": {
@@ -3061,7 +3061,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in 2 films, first in Attack of the Clones."
   },
   "6-68": {
    "facts": {
@@ -3495,7 +3495,7 @@
      "Resistance"
     ]
    },
-   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
+   "line": "They share the page in 4 films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "14-21": {
    "facts": {
@@ -3570,7 +3570,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
+   "line": "They share the page in 4 films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "14-41": {
    "facts": {
@@ -3608,7 +3608,7 @@
      "Resistance"
     ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
+   "line": "They share the page in 2 films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "14-52": {
    "facts": {
@@ -3626,7 +3626,7 @@
      "Resistance"
     ]
    },
-   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
+   "line": "They share the page in 4 films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "14-55": {
    "facts": {
@@ -3642,7 +3642,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in three films, first in A New Hope. Both belong to Rebel Alliance."
+   "line": "They share the page in 3 films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "14-58": {
    "facts": {
@@ -3668,7 +3668,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Revenge of the Sith."
+   "line": "They share the page in 2 films, first in Revenge of the Sith."
   },
   "14-66": {
    "facts": {
@@ -3680,7 +3680,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in 2 films, first in Attack of the Clones."
   },
   "14-68": {
    "facts": {
@@ -3696,7 +3696,7 @@
      "Royal House of Naboo"
     ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Royal House of Naboo."
+   "line": "They share the page in 3 films, first in The Phantom Menace. Both belong to Royal House of Naboo."
   },
   "14-71": {
    "facts": {
@@ -4044,7 +4044,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
+   "line": "They share the page in 4 films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "20-49": {
    "facts": {
@@ -4071,7 +4071,7 @@
      "Resistance"
     ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
+   "line": "They share the page in 2 films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "20-52": {
    "facts": {
@@ -4089,7 +4089,7 @@
      "Resistance"
     ]
    },
-   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
+   "line": "They share the page in 4 films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "20-55": {
    "facts": {
@@ -4105,7 +4105,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in three films, first in A New Hope. Both belong to Rebel Alliance."
+   "line": "They share the page in 3 films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "20-57": {
    "facts": {
@@ -4166,7 +4166,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in four films, first in A New Hope."
+   "line": "They share the page in 4 films, first in A New Hope."
   },
   "20-78": {
    "facts": {
@@ -4264,7 +4264,7 @@
      "Sith"
     ]
    },
-   "line": "They share the page in two films, first in Attack of the Clones. Both belong to Sith."
+   "line": "They share the page in 2 films, first in Attack of the Clones. Both belong to Sith."
   },
   "23-42": {
    "facts": {
@@ -4317,7 +4317,7 @@
      "Jedi Council"
     ]
    },
-   "line": "They share the page in two films, first in Attack of the Clones. Both belong to Jedi."
+   "line": "They share the page in 2 films, first in Attack of the Clones. Both belong to Jedi."
   },
   "23-68": {
    "facts": {
@@ -4428,7 +4428,7 @@
      "Sith"
     ]
    },
-   "line": "They share the page in three films, first in Revenge of the Sith. Both belong to Sith."
+   "line": "They share the page in 3 films, first in Revenge of the Sith. Both belong to Sith."
   },
   "25-40": {
    "facts": {
@@ -4462,7 +4462,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in A New Hope."
+   "line": "They share the page in 2 films, first in A New Hope."
   },
   "25-55": {
    "facts": {
@@ -4477,7 +4477,7 @@
      "Jedi"
     ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Jedi."
+   "line": "They share the page in 2 films, first in The Empire Strikes Back. Both belong to Jedi."
   },
   "25-59": {
    "facts": {
@@ -4536,7 +4536,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back."
+   "line": "They share the page in 2 films, first in The Empire Strikes Back."
   },
   "25-91": {
    "facts": {
@@ -4698,7 +4698,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in 3 films, first in The Phantom Menace."
   },
   "30-47": {
    "facts": {
@@ -4732,7 +4732,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in 2 films, first in Attack of the Clones."
   },
   "30-62": {
    "facts": {
@@ -4744,7 +4744,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in 2 films, first in The Phantom Menace."
   },
   "30-63": {
    "facts": {
@@ -4756,7 +4756,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Attack of the Clones."
+   "line": "They share the page in 2 films, first in Attack of the Clones."
   },
   "30-65": {
    "facts": {
@@ -4782,7 +4782,7 @@
      "Royal House of Naboo"
     ]
    },
-   "line": "They share the page in two films, first in The Phantom Menace. Both belong to Royal House of Naboo."
+   "line": "They share the page in 2 films, first in The Phantom Menace. Both belong to Royal House of Naboo."
   },
   "30-73": {
    "facts": {
@@ -5205,7 +5205,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to New Republic."
+   "line": "They share the page in 2 films, first in The Empire Strikes Back. Both belong to New Republic."
   },
   "40-52": {
    "facts": {
@@ -5222,7 +5222,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in four films, first in A New Hope. Both belong to Rebel Alliance."
+   "line": "They share the page in 4 films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "40-55": {
    "facts": {
@@ -5238,7 +5238,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in three films, first in A New Hope. Both belong to Rebel Alliance."
+   "line": "They share the page in 3 films, first in A New Hope. Both belong to Rebel Alliance."
   },
   "40-57": {
    "facts": {
@@ -5275,7 +5275,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in A New Hope."
+   "line": "They share the page in 2 films, first in A New Hope."
   },
   "40-71": {
    "facts": {
@@ -5299,7 +5299,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in A New Hope."
+   "line": "They share the page in 3 films, first in A New Hope."
   },
   "40-78": {
    "facts": {
@@ -5479,7 +5479,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in 2 films, first in The Phantom Menace."
   },
   "43-65": {
    "facts": {
@@ -5505,7 +5505,7 @@
      "Galactic Empire"
     ]
    },
-   "line": "They share the page in two films, first in The Phantom Menace. Both belong to Galactic Empire."
+   "line": "They share the page in 2 films, first in The Phantom Menace. Both belong to Galactic Empire."
   },
   "43-73": {
    "facts": {
@@ -5720,7 +5720,7 @@
      "Jedi Council"
     ]
    },
-   "line": "They share the page in two films, first in The Phantom Menace. Both belong to Galactic Republic."
+   "line": "They share the page in 2 films, first in The Phantom Menace. Both belong to Galactic Republic."
   },
   "47-63": {
    "facts": {
@@ -5774,7 +5774,7 @@
      "Jedi Council"
     ]
    },
-   "line": "They share the page in two films, first in The Phantom Menace. Both belong to Galactic Republic."
+   "line": "They share the page in 2 films, first in The Phantom Menace. Both belong to Galactic Republic."
   },
   "48-68": {
    "facts": {
@@ -5939,7 +5939,7 @@
      "Resistance"
     ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
+   "line": "They share the page in 2 films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "51-55": {
    "facts": {
@@ -5954,7 +5954,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
+   "line": "They share the page in 2 films, first in The Empire Strikes Back. Both belong to Rebel Alliance."
   },
   "51-58": {
    "facts": {
@@ -5980,7 +5980,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back."
+   "line": "They share the page in 2 films, first in The Empire Strikes Back."
   },
   "51-99": {
    "facts": {
@@ -6008,7 +6008,7 @@
      "Rebel Alliance"
     ]
    },
-   "line": "They share the page in three films, first in A New Hope. Both belong to New Jedi Order."
+   "line": "They share the page in 3 films, first in A New Hope. Both belong to New Jedi Order."
   },
   "52-58": {
    "facts": {
@@ -6068,7 +6068,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in A New Hope."
+   "line": "They share the page in 3 films, first in A New Hope."
   },
   "52-76": {
    "facts": {
@@ -6170,7 +6170,7 @@
      "Jedi"
     ]
    },
-   "line": "They share the page in three films, first in A New Hope. Both belong to Jedi."
+   "line": "They share the page in 3 films, first in A New Hope. Both belong to Jedi."
   },
   "55-66": {
    "facts": {
@@ -6194,7 +6194,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in A New Hope."
+   "line": "They share the page in 3 films, first in A New Hope."
   },
   "55-76": {
    "facts": {
@@ -6242,7 +6242,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in A New Hope."
+   "line": "They share the page in 2 films, first in A New Hope."
   },
   "55-100": {
    "facts": {
@@ -6257,7 +6257,7 @@
      "Jedi"
     ]
    },
-   "line": "They share the page in two films, first in The Empire Strikes Back. Both belong to Jedi."
+   "line": "They share the page in 2 films, first in The Empire Strikes Back. Both belong to Jedi."
   },
   "55-102": {
    "facts": {
@@ -6285,7 +6285,7 @@
      "Jedi Council"
     ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Jedi."
+   "line": "They share the page in 3 films, first in The Phantom Menace. Both belong to Jedi."
   },
   "56-68": {
    "facts": {
@@ -6350,7 +6350,7 @@
      "Jedi Council"
     ]
    },
-   "line": "They share the page in three films, first in The Phantom Menace. Both belong to Galactic Republic."
+   "line": "They share the page in 3 films, first in The Phantom Menace. Both belong to Galactic Republic."
   },
   "57-78": {
    "facts": {
@@ -6453,7 +6453,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in 2 films, first in The Phantom Menace."
   },
   "62-72": {
    "facts": {
@@ -6554,7 +6554,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in 3 films, first in The Phantom Menace."
   },
   "63-70": {
    "facts": {
@@ -6599,7 +6599,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in Revenge of the Sith."
+   "line": "They share the page in 2 films, first in Revenge of the Sith."
   },
   "63-79": {
    "facts": {
@@ -6694,7 +6694,7 @@
      "Jedi Council"
     ]
    },
-   "line": "They share the page in four films, first in The Phantom Menace. Both belong to Jedi."
+   "line": "They share the page in 4 films, first in The Phantom Menace. Both belong to Jedi."
   },
   "65-84": {
    "facts": {
@@ -6773,7 +6773,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in three films, first in The Phantom Menace."
+   "line": "They share the page in 3 films, first in The Phantom Menace."
   },
   "68-82": {
    "facts": {
@@ -7030,7 +7030,7 @@
     "unit": "film",
     "corpusSize": 7
    },
-   "line": "They share the page in two films, first in The Phantom Menace."
+   "line": "They share the page in 2 films, first in The Phantom Menace."
   },
   "74-98": {
    "facts": {

@@ -159,7 +159,7 @@
    "wiki": "英布",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -190,7 +190,7 @@
    "wiki": "卢绾",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -339,11 +339,11 @@
    "wiki": "劉旦",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Quentyn Martell",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Amavet",
      "tied": 0
     }
    }
@@ -444,11 +444,11 @@
    "wiki": "樊噲",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
-     "world": "godfather",
-     "story": "The Godfather",
-     "name": "Al Neri",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Ropp",
      "tied": 0
     }
    }
@@ -628,7 +628,7 @@
    "wiki": "陳豨",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -689,11 +689,11 @@
    "wiki": "郭舍人",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 41,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "袁譚",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Hide",
      "tied": 0
     }
    }
@@ -761,7 +761,7 @@
    "wiki": "项羽",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 47,
+    "lookAlikes": 70,
     "nearest": {
      "world": "shakespeare-timon-of-athens",
      "story": "Timon of Athens",
@@ -927,7 +927,7 @@
    "wiki": "彭越",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -984,7 +984,7 @@
    "wiki": "吕不韦",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 48,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1137,7 +1137,7 @@
    "wiki": "韩信",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -1235,7 +1235,7 @@
    "wiki": "张良",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1280,7 +1280,7 @@
    "wiki": "劉交",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 55,
+    "lookAlikes": 77,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1372,7 +1372,7 @@
    "wiki": "陈平 (汉朝)",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -1395,11 +1395,11 @@
    "wiki": "劉肥",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
-     "world": "civilwar",
-     "story": "American Civil War",
-     "name": "Ambrose P. Hill",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Dagorad",
      "tied": 0
     }
    }
@@ -1491,7 +1491,7 @@
    "wiki": "苏秦",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 37,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1527,11 +1527,11 @@
    "wiki": "秦始皇",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "鋤藥",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "George Kotsiopoulos",
      "tied": 0
     }
    }
@@ -1592,7 +1592,7 @@
    "wiki": "刘邦",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 39,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1642,7 +1642,7 @@
    "wiki": "汉文帝",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 17,
+    "lookAlikes": 29,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1685,7 +1685,7 @@
    "wiki": "汉景帝",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 37,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1741,7 +1741,7 @@
    "wiki": "廉颇",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 106,
+    "lookAlikes": 127,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1806,7 +1806,7 @@
    "wiki": "劉賈",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -1850,7 +1850,7 @@
    "wiki": "灌嬰",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1877,7 +1877,7 @@
    "wiki": "乐毅",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 81,
+    "lookAlikes": 93,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",

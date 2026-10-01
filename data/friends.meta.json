@@ -92,7 +92,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -151,9 +151,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -183,7 +183,7 @@
    },
    "line": "Appears in Season 4 and Season 10.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -202,7 +202,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -221,7 +221,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -244,7 +244,7 @@
    "wiki": "Amy Green",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -273,7 +273,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -292,7 +292,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -413,7 +413,7 @@
    },
    "line": "Appears in Season 6.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -452,7 +452,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -481,7 +481,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -500,7 +500,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -519,7 +519,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -548,9 +548,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -574,11 +574,11 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in seven seasons.",
+   "line": "Appears in 7 seasons.",
    "wiki": "Ben Geller",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -638,7 +638,7 @@
    },
    "line": "Appears in Season 9 and Season 10.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -687,9 +687,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -720,7 +720,7 @@
    },
    "line": "Appears in Season 3 and Season 4.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -779,7 +779,7 @@
    },
    "line": "Appears in Season 7.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -808,7 +808,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -827,7 +827,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -847,7 +847,7 @@
    },
    "line": "Appears in Season 1 and Season 6.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -871,7 +871,7 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in seven seasons.",
+   "line": "Appears in 7 seasons.",
    "wiki": "Carol Willick",
    "wikiLang": "en",
    "signals": {
@@ -964,7 +964,7 @@
    },
    "line": "Appears in Season 7.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -996,7 +996,7 @@
    "wiki": "Chandler Bing",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1116,7 +1116,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1165,7 +1165,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1184,7 +1184,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1203,7 +1203,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1262,7 +1262,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1281,7 +1281,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1300,7 +1300,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1339,9 +1339,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1380,7 +1380,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1419,7 +1419,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1439,7 +1439,7 @@
    },
    "line": "Appears in Season 7 and Season 8.",
    "signals": {
-    "lookAlikes": 2,
+    "lookAlikes": 9,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -1458,7 +1458,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1507,11 +1507,11 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 43,
+    "lookAlikes": 67,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "錢啟",
+     "world": "harry-potter",
+     "story": "Harry Potter",
+     "name": "Connolly",
      "tied": 0
     }
    }
@@ -1536,7 +1536,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in 3 seasons."
   },
   "113": {
    "facts": {
@@ -1608,7 +1608,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1637,13 +1637,13 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
-     "world": "xiyouji",
-     "story": "西遊記",
-     "name": "白龍馬",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Senlin Village leader",
      "tied": 0
     }
    }
@@ -1658,7 +1658,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1677,7 +1677,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1727,11 +1727,11 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
-     "world": "friends",
-     "story": "Friends",
-     "name": "Gavin",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Scary prisoner",
      "tied": 0
     }
    }
@@ -1777,7 +1777,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1897,7 +1897,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2004,7 +2004,7 @@
    "wiki": "Emma Geller-Green",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2054,7 +2054,7 @@
    },
    "line": "Appears in Season 2 and Season 10.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2074,7 +2074,7 @@
    },
    "line": "Appears in Season 7 and Season 8.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2099,9 +2099,9 @@
     "gender": "Female",
     "occupation": "talent agent"
    },
-   "line": "Talent agent. Appears in seven seasons.",
+   "line": "Talent agent. Appears in 7 seasons.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2170,7 +2170,7 @@
    },
    "line": "Appears in Season 4.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2301,7 +2301,7 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in four seasons.",
+   "line": "Appears in 4 seasons.",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -2332,7 +2332,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2413,7 +2413,7 @@
    },
    "line": "Appears in Season 1 and Season 2.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2443,7 +2443,7 @@
    },
    "line": "Appears in Season 5 and Season 7.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2503,7 +2503,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2562,7 +2562,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2601,7 +2601,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2620,7 +2620,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2920,9 +2920,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2952,7 +2952,7 @@
    },
    "line": "Appears in Season 1 and Season 2.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2993,7 +2993,7 @@
    },
    "line": "Appears in Season 6 and Season 10.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3082,7 +3082,7 @@
    },
    "line": "Appears in Season 6 and Season 8.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3143,7 +3143,7 @@
    },
    "line": "Appears in Season 1 and Season 5.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3202,7 +3202,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3262,11 +3262,11 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "wiki": "Jill Green (Friends)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3286,7 +3286,7 @@
    },
    "line": "Appears in Season 3 and Season 4.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3305,7 +3305,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3337,7 +3337,7 @@
    "wiki": "Joey Tribbiani",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3417,7 +3417,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3446,7 +3446,7 @@
    },
    "line": "Appears in Season 4.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3476,7 +3476,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3497,9 +3497,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in five seasons.",
+   "line": "Appears in 5 seasons.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3569,7 +3569,7 @@
    },
    "line": "Appears in Season 4 and Season 7.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -3589,7 +3589,7 @@
    },
    "line": "Appears in Season 5 and Season 8.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3628,7 +3628,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3678,7 +3678,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3719,7 +3719,7 @@
    },
    "line": "Appears in Season 5 and Season 7.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3810,7 +3810,7 @@
    },
    "line": "Appears in Season 1 and Season 3.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3889,7 +3889,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3940,7 +3940,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3960,7 +3960,7 @@
    },
    "line": "Appears in Season 1 and Season 6.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3979,7 +3979,7 @@
    },
    "line": "Appears in Season 7.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3999,7 +3999,7 @@
    },
    "line": "Appears in Season 2 and Season 3.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4018,9 +4018,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4059,7 +4059,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4108,7 +4108,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -4228,7 +4228,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4267,7 +4267,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4326,7 +4326,7 @@
    },
    "line": "Appears in Season 7.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4345,7 +4345,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4365,7 +4365,7 @@
    },
    "line": "Appears in Season 3 and Season 9.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4387,7 +4387,7 @@
     "corpusSize": 10,
     "gender": "Male"
    },
-   "line": "Appears in five seasons.",
+   "line": "Appears in 5 seasons.",
    "wiki": "Mike Hannigan",
    "wikiLang": "en",
    "signals": {
@@ -4410,7 +4410,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4429,7 +4429,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4449,7 +4449,7 @@
    },
    "line": "Appears in Season 1 and Season 2.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4468,9 +4468,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -4509,7 +4509,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4570,7 +4570,7 @@
    "wiki": "Monica Geller",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4589,7 +4589,7 @@
    },
    "line": "Appears in Season 6.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4628,7 +4628,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4667,7 +4667,7 @@
    },
    "line": "Appears in Season 7.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4696,7 +4696,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4758,9 +4758,9 @@
    "signals": {
     "lookAlikes": 0,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Rodrik Cassel",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Bumi",
      "tied": 0
     }
    }
@@ -4775,7 +4775,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4794,9 +4794,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4855,9 +4855,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4876,7 +4876,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4896,7 +4896,7 @@
    },
    "line": "Appears in Season 4 and Season 5.",
    "signals": {
-    "lookAlikes": 11,
+    "lookAlikes": 13,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4926,7 +4926,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in four seasons."
+   "line": "Appears in 4 seasons."
   },
   "369": {
    "facts": {
@@ -4958,7 +4958,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4979,9 +4979,9 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in four seasons.",
+   "line": "Appears in 4 seasons.",
    "signals": {
-    "lookAlikes": 11,
+    "lookAlikes": 13,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5059,7 +5059,7 @@
    },
    "line": "Appears in Season 2 and Season 8.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5078,7 +5078,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5127,7 +5127,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5147,7 +5147,7 @@
    },
    "line": "Appears in Season 4 and Season 5.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5326,7 +5326,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5345,7 +5345,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5364,7 +5364,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5383,7 +5383,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5402,7 +5402,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5453,7 +5453,7 @@
    },
    "line": "Appears in Season 1 and Season 6.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5472,7 +5472,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5520,7 +5520,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5582,7 +5582,7 @@
    "wiki": "Phoebe Buffay",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5622,7 +5622,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5641,7 +5641,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5744,7 +5744,7 @@
    "wiki": "Rachel Green",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5763,7 +5763,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5845,7 +5845,7 @@
     "gender": "Male",
     "occupation": "ophthalmologist"
    },
-   "line": "Ophthalmologist. Appears in four seasons.",
+   "line": "Ophthalmologist. Appears in 4 seasons.",
    "wiki": "Richard Burke (Friends)",
    "wikiLang": "en",
    "signals": {
@@ -5899,7 +5899,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5928,7 +5928,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5958,7 +5958,7 @@
    },
    "line": "Appears in Season 1 and Season 8.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6000,7 +6000,7 @@
    "wiki": "Ross Geller",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 8,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6020,7 +6020,7 @@
    },
    "line": "Appears in Season 2 and Season 10.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6040,7 +6040,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6110,7 +6110,7 @@
    },
    "line": "Appears in Season 1 and Season 9.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6140,9 +6140,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in four seasons.",
+   "line": "Appears in 4 seasons.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6201,7 +6201,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6230,7 +6230,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6299,7 +6299,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6318,7 +6318,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6431,7 +6431,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in four seasons.",
+   "line": "Appears in 4 seasons.",
    "signals": {
     "lookAlikes": 6,
     "nearest": {
@@ -6516,7 +6516,7 @@
     "corpusSize": 10,
     "gender": "Female"
    },
-   "line": "Appears in five seasons.",
+   "line": "Appears in 5 seasons.",
    "wiki": "Susan Bunch",
    "wikiLang": "en",
    "signals": {
@@ -6539,7 +6539,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6560,7 +6560,7 @@
    },
    "line": "Assistant. Appears in Season 7 and Season 8.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6599,7 +6599,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons."
+   "line": "Appears in 3 seasons."
   },
   "493": {
    "facts": {
@@ -6652,11 +6652,11 @@
    },
    "line": "Appears in Season 5 and Season 7.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 9,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Rechab",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Sensitive ruffian",
      "tied": 0
     }
    }
@@ -6751,13 +6751,13 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
     "lookAlikes": 3,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Gyles Rosby",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Sja-anat",
      "tied": 0
     }
    }
@@ -6772,9 +6772,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6873,7 +6873,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6933,7 +6933,7 @@
    },
    "line": "Appears in Season 5 and Season 7.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6992,7 +6992,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 22,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7071,7 +7071,7 @@
    },
    "line": "Appears in Season 7.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7162,7 +7162,7 @@
    },
    "line": "Appears in Season 6.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7211,7 +7211,7 @@
    },
    "line": "Appears in Season 7.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7250,9 +7250,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7292,7 +7292,7 @@
    },
    "line": "Appears in Season 4 and Season 8.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7311,9 +7311,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7332,7 +7332,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7371,7 +7371,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7390,7 +7390,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7409,7 +7409,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7428,7 +7428,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7447,7 +7447,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7471,11 +7471,11 @@
     "gender": "Female",
     "occupation": "waiter"
    },
-   "line": "Waiter. Appears in six seasons.",
+   "line": "Waiter. Appears in 6 seasons.",
    "wiki": "Ursula Buffay",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -7514,7 +7514,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7533,9 +7533,9 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "Appears in three seasons.",
+   "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7624,7 +7624,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 75,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7643,7 +7643,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7725,7 +7725,7 @@
    },
    "line": "Appears in Season 2 and Season 3.",
    "signals": {
-    "lookAlikes": 46,
+    "lookAlikes": 54,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -8260,7 +8260,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "13-136": {
    "facts": {
@@ -8284,7 +8284,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "13-253": {
    "facts": {
@@ -8296,7 +8296,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "13-344": {
    "facts": {
@@ -8308,7 +8308,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "13-416": {
    "facts": {
@@ -8320,7 +8320,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "13-417": {
    "facts": {
@@ -8343,7 +8343,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "13-446": {
    "facts": {
@@ -8355,7 +8355,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "14-344": {
    "facts": {
@@ -8653,7 +8653,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "18-75": {
    "facts": {
@@ -8676,7 +8676,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "18-344": {
    "facts": {
@@ -8688,7 +8688,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "18-416": {
    "facts": {
@@ -8700,7 +8700,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "18-419": {
    "facts": {
@@ -8723,7 +8723,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "18-429": {
    "facts": {
@@ -8746,7 +8746,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "18-566": {
    "facts": {
@@ -9968,7 +9968,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "41-344": {
    "facts": {
@@ -10014,7 +10014,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "41-436": {
    "facts": {
@@ -10048,7 +10048,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "42-63": {
    "facts": {
@@ -10062,7 +10062,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 2."
+   "line": "They share the page in 4 seasons, first in Season 2."
   },
   "42-72": {
    "facts": {
@@ -10075,7 +10075,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 5."
+   "line": "They share the page in 3 seasons, first in Season 5."
   },
   "42-253": {
    "facts": {
@@ -10088,7 +10088,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "42-344": {
    "facts": {
@@ -10102,7 +10102,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 3."
+   "line": "They share the page in 4 seasons, first in Season 3."
   },
   "42-416": {
    "facts": {
@@ -10116,7 +10116,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 3."
+   "line": "They share the page in 4 seasons, first in Season 3."
   },
   "42-428": {
    "facts": {
@@ -10130,7 +10130,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 2."
+   "line": "They share the page in 4 seasons, first in Season 2."
   },
   "42-446": {
    "facts": {
@@ -10146,7 +10146,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in six seasons, first in Season 2."
+   "line": "They share the page in 6 seasons, first in Season 2."
   },
   "42-487": {
    "facts": {
@@ -10631,7 +10631,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "53-72": {
    "facts": {
@@ -10687,7 +10687,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "53-446": {
    "facts": {
@@ -10699,7 +10699,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "54-446": {
    "facts": {
@@ -11186,7 +11186,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 1."
+   "line": "They share the page in 4 seasons, first in Season 1."
   },
   "63-119": {
    "facts": {
@@ -11233,7 +11233,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 1."
+   "line": "They share the page in 4 seasons, first in Season 1."
   },
   "63-281": {
    "facts": {
@@ -11290,7 +11290,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "63-348": {
    "facts": {
@@ -11326,7 +11326,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 1."
+   "line": "They share the page in 4 seasons, first in Season 1."
   },
   "63-428": {
    "facts": {
@@ -11340,7 +11340,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 1."
+   "line": "They share the page in 4 seasons, first in Season 1."
   },
   "63-433": {
    "facts": {
@@ -11368,7 +11368,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in seven seasons, first in Season 1."
+   "line": "They share the page in 7 seasons, first in Season 1."
   },
   "63-473": {
    "facts": {
@@ -11394,7 +11394,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in five seasons, first in Season 1."
+   "line": "They share the page in 5 seasons, first in Season 1."
   },
   "63-497": {
    "facts": {
@@ -11681,7 +11681,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "72-77": {
    "facts": {
@@ -11847,7 +11847,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "72-99": {
    "facts": {
@@ -11948,7 +11948,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "72-114": {
    "facts": {
@@ -12103,7 +12103,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "72-149": {
    "facts": {
@@ -12126,7 +12126,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "72-152": {
    "facts": {
@@ -12138,7 +12138,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "72-154": {
    "facts": {
@@ -12152,7 +12152,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 3."
+   "line": "They share the page in 4 seasons, first in Season 3."
   },
   "72-160": {
    "facts": {
@@ -12209,7 +12209,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "72-173": {
    "facts": {
@@ -12276,7 +12276,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "72-182": {
    "facts": {
@@ -12299,7 +12299,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "72-185": {
    "facts": {
@@ -12645,7 +12645,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "72-241": {
    "facts": {
@@ -12702,7 +12702,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "72-251": {
    "facts": {
@@ -12714,7 +12714,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "72-252": {
    "facts": {
@@ -12812,7 +12812,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "72-267": {
    "facts": {
@@ -12945,7 +12945,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "72-293": {
    "facts": {
@@ -13001,7 +13001,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "72-300": {
    "facts": {
@@ -13046,7 +13046,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "72-305": {
    "facts": {
@@ -13058,7 +13058,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 7."
+   "line": "They share the page in 2 seasons, first in Season 7."
   },
   "72-306": {
    "facts": {
@@ -13213,7 +13213,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "72-334": {
    "facts": {
@@ -13227,7 +13227,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 3."
+   "line": "They share the page in 4 seasons, first in Season 3."
   },
   "72-335": {
    "facts": {
@@ -13262,7 +13262,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "72-340": {
    "facts": {
@@ -13371,7 +13371,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "72-356": {
    "facts": {
@@ -13434,7 +13434,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "72-365": {
    "facts": {
@@ -13457,7 +13457,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "72-369": {
    "facts": {
@@ -13492,7 +13492,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "72-376": {
    "facts": {
@@ -13509,7 +13509,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in seven seasons, first in Season 1."
+   "line": "They share the page in 7 seasons, first in Season 1."
   },
   "72-377": {
    "facts": {
@@ -13554,7 +13554,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "72-386": {
    "facts": {
@@ -13665,7 +13665,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "72-409": {
    "facts": {
@@ -13850,7 +13850,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "72-437": {
    "facts": {
@@ -14102,7 +14102,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "72-480": {
    "facts": {
@@ -14114,7 +14114,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "72-481": {
    "facts": {
@@ -14149,7 +14149,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "72-488": {
    "facts": {
@@ -14227,7 +14227,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "72-507": {
    "facts": {
@@ -14239,7 +14239,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "72-516": {
    "facts": {
@@ -14515,7 +14515,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "72-562": {
    "facts": {
@@ -14549,7 +14549,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "72-567": {
    "facts": {
@@ -14671,7 +14671,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "72-583": {
    "facts": {
@@ -14760,7 +14760,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "75-312": {
    "facts": {
@@ -14794,7 +14794,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "75-344": {
    "facts": {
@@ -14806,7 +14806,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "75-360": {
    "facts": {
@@ -14840,7 +14840,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "75-425": {
    "facts": {
@@ -14874,7 +14874,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "75-446": {
    "facts": {
@@ -14886,7 +14886,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "75-456": {
    "facts": {
@@ -15041,7 +15041,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "79-446": {
    "facts": {
@@ -15053,7 +15053,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "80-273": {
    "facts": {
@@ -15912,7 +15912,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "98-326": {
    "facts": {
@@ -15947,7 +15947,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "98-416": {
    "facts": {
@@ -15960,7 +15960,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "98-428": {
    "facts": {
@@ -15972,7 +15972,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "98-446": {
    "facts": {
@@ -16270,7 +16270,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 7."
+   "line": "They share the page in 2 seasons, first in Season 7."
   },
   "105-428": {
    "facts": {
@@ -16579,7 +16579,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "112-415": {
    "facts": {
@@ -16900,7 +16900,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "121-446": {
    "facts": {
@@ -16913,7 +16913,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "122-172": {
    "facts": {
@@ -17123,7 +17123,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "126-446": {
    "facts": {
@@ -17311,7 +17311,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "130-487": {
    "facts": {
@@ -17851,7 +17851,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "144-456": {
    "facts": {
@@ -17962,7 +17962,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-262": {
    "facts": {
@@ -17996,7 +17996,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-344": {
    "facts": {
@@ -18008,7 +18008,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-357": {
    "facts": {
@@ -18020,7 +18020,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-366": {
    "facts": {
@@ -18032,7 +18032,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-376": {
    "facts": {
@@ -18044,7 +18044,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-383": {
    "facts": {
@@ -18056,7 +18056,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-416": {
    "facts": {
@@ -18068,7 +18068,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-428": {
    "facts": {
@@ -18080,7 +18080,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-446": {
    "facts": {
@@ -18092,7 +18092,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "148-487": {
    "facts": {
@@ -18236,7 +18236,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "151-359": {
    "facts": {
@@ -18259,7 +18259,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "151-428": {
    "facts": {
@@ -18282,7 +18282,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "151-561": {
    "facts": {
@@ -18327,7 +18327,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "152-344": {
    "facts": {
@@ -18339,7 +18339,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "152-416": {
    "facts": {
@@ -18373,7 +18373,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "152-559": {
    "facts": {
@@ -18396,7 +18396,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 7."
+   "line": "They share the page in 2 seasons, first in Season 7."
   },
   "153-254": {
    "facts": {
@@ -18479,7 +18479,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in seven seasons, first in Season 2."
+   "line": "They share the page in 7 seasons, first in Season 2."
   },
   "154-264": {
    "facts": {
@@ -18504,7 +18504,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 6."
+   "line": "They share the page in 4 seasons, first in Season 6."
   },
   "154-416": {
    "facts": {
@@ -18518,7 +18518,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 6."
+   "line": "They share the page in 4 seasons, first in Season 6."
   },
   "154-428": {
    "facts": {
@@ -18531,7 +18531,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "154-446": {
    "facts": {
@@ -19149,7 +19149,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "172-308": {
    "facts": {
@@ -19173,7 +19173,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "172-370": {
    "facts": {
@@ -19198,7 +19198,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 2."
+   "line": "They share the page in 4 seasons, first in Season 2."
   },
   "172-417": {
    "facts": {
@@ -19222,7 +19222,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "172-446": {
    "facts": {
@@ -19235,7 +19235,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "173-344": {
    "facts": {
@@ -19324,7 +19324,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "175-446": {
    "facts": {
@@ -19578,7 +19578,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "181-326": {
    "facts": {
@@ -19601,7 +19601,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "181-416": {
    "facts": {
@@ -19613,7 +19613,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "181-428": {
    "facts": {
@@ -19625,7 +19625,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "181-446": {
    "facts": {
@@ -19637,7 +19637,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "181-448": {
    "facts": {
@@ -19704,7 +19704,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "183-416": {
    "facts": {
@@ -19837,7 +19837,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "186-446": {
    "facts": {
@@ -19849,7 +19849,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "187-403": {
    "facts": {
@@ -20510,7 +20510,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "201-250": {
    "facts": {
@@ -20669,7 +20669,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "201-378": {
    "facts": {
@@ -21275,7 +21275,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "224-334": {
    "facts": {
@@ -21287,7 +21287,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "224-416": {
    "facts": {
@@ -21299,7 +21299,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "224-428": {
    "facts": {
@@ -21311,7 +21311,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "224-446": {
    "facts": {
@@ -21356,7 +21356,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "226-416": {
    "facts": {
@@ -21368,7 +21368,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "226-428": {
    "facts": {
@@ -21380,7 +21380,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "226-446": {
    "facts": {
@@ -21392,7 +21392,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "227-344": {
    "facts": {
@@ -21492,7 +21492,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 6."
+   "line": "They share the page in 2 seasons, first in Season 6."
   },
   "229-428": {
    "facts": {
@@ -21662,7 +21662,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in six seasons, first in Season 1."
+   "line": "They share the page in 6 seasons, first in Season 1."
   },
   "234-284": {
    "facts": {
@@ -21685,7 +21685,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "234-323": {
    "facts": {
@@ -21741,7 +21741,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in five seasons, first in Season 1."
+   "line": "They share the page in 5 seasons, first in Season 1."
   },
   "234-428": {
    "facts": {
@@ -21757,7 +21757,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in six seasons, first in Season 1."
+   "line": "They share the page in 6 seasons, first in Season 1."
   },
   "234-434": {
    "facts": {
@@ -21785,7 +21785,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in seven seasons, first in Season 1."
+   "line": "They share the page in 7 seasons, first in Season 1."
   },
   "234-454": {
    "facts": {
@@ -21863,7 +21863,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 6."
+   "line": "They share the page in 2 seasons, first in Season 6."
   },
   "235-344": {
    "facts": {
@@ -21941,7 +21941,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "237-487": {
    "facts": {
@@ -22008,7 +22008,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "240-344": {
    "facts": {
@@ -22020,7 +22020,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "240-372": {
    "facts": {
@@ -22054,7 +22054,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "240-428": {
    "facts": {
@@ -22066,7 +22066,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "240-446": {
    "facts": {
@@ -22078,7 +22078,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "241-584": {
    "facts": {
@@ -22321,7 +22321,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 6."
+   "line": "They share the page in 2 seasons, first in Season 6."
   },
   "250-344": {
    "facts": {
@@ -22355,7 +22355,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 6."
+   "line": "They share the page in 2 seasons, first in Season 6."
   },
   "250-446": {
    "facts": {
@@ -22367,7 +22367,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 6."
+   "line": "They share the page in 2 seasons, first in Season 6."
   },
   "251-253": {
    "facts": {
@@ -22412,7 +22412,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "251-474": {
    "facts": {
@@ -22424,7 +22424,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "252-253": {
    "facts": {
@@ -22513,7 +22513,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 7."
+   "line": "They share the page in 2 seasons, first in Season 7."
   },
   "253-255": {
    "facts": {
@@ -22734,7 +22734,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "253-289": {
    "facts": {
@@ -22757,7 +22757,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "253-296": {
    "facts": {
@@ -22780,7 +22780,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "253-302": {
    "facts": {
@@ -22948,7 +22948,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 3."
+   "line": "They share the page in 4 seasons, first in Season 3."
   },
   "253-335": {
    "facts": {
@@ -22994,7 +22994,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "253-341": {
    "facts": {
@@ -23177,7 +23177,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "253-365": {
    "facts": {
@@ -23200,7 +23200,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "253-368": {
    "facts": {
@@ -23246,7 +23246,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "253-376": {
    "facts": {
@@ -23263,7 +23263,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in seven seasons, first in Season 1."
+   "line": "They share the page in 7 seasons, first in Season 1."
   },
   "253-377": {
    "facts": {
@@ -23308,7 +23308,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "253-390": {
    "facts": {
@@ -23419,7 +23419,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "253-409": {
    "facts": {
@@ -23604,7 +23604,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "253-440": {
    "facts": {
@@ -23724,7 +23724,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "253-456": {
    "facts": {
@@ -23737,7 +23737,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "253-457": {
    "facts": {
@@ -23848,7 +23848,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "253-478": {
    "facts": {
@@ -23905,7 +23905,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "253-488": {
    "facts": {
@@ -23983,7 +23983,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "253-503": {
    "facts": {
@@ -24007,7 +24007,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "253-507": {
    "facts": {
@@ -24019,7 +24019,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "253-508": {
    "facts": {
@@ -24361,7 +24361,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "253-564": {
    "facts": {
@@ -24385,7 +24385,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 4."
+   "line": "They share the page in 3 seasons, first in Season 4."
   },
   "253-568": {
    "facts": {
@@ -24815,7 +24815,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "265-376": {
    "facts": {
@@ -24850,7 +24850,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "265-446": {
    "facts": {
@@ -24864,7 +24864,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 1."
+   "line": "They share the page in 4 seasons, first in Season 1."
   },
   "266-344": {
    "facts": {
@@ -25008,7 +25008,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "271-428": {
    "facts": {
@@ -25020,7 +25020,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "271-446": {
    "facts": {
@@ -25076,7 +25076,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "272-446": {
    "facts": {
@@ -25088,7 +25088,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "274-416": {
    "facts": {
@@ -25188,7 +25188,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "276-431": {
    "facts": {
@@ -25277,7 +25277,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 7."
+   "line": "They share the page in 2 seasons, first in Season 7."
   },
   "280-545": {
    "facts": {
@@ -25344,7 +25344,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "282-497": {
    "facts": {
@@ -25510,7 +25510,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "290-416": {
    "facts": {
@@ -25522,7 +25522,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "290-428": {
    "facts": {
@@ -26007,7 +26007,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "304-581": {
    "facts": {
@@ -26019,7 +26019,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "305-344": {
    "facts": {
@@ -26031,7 +26031,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 7."
+   "line": "They share the page in 2 seasons, first in Season 7."
   },
   "305-349": {
    "facts": {
@@ -26076,7 +26076,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "305-446": {
    "facts": {
@@ -26418,7 +26418,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "319-446": {
    "facts": {
@@ -26430,7 +26430,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "319-496": {
    "facts": {
@@ -26937,7 +26937,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "333-436": {
    "facts": {
@@ -26960,7 +26960,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "334-335": {
    "facts": {
@@ -27005,7 +27005,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 9."
+   "line": "They share the page in 2 seasons, first in Season 9."
   },
   "334-416": {
    "facts": {
@@ -27018,7 +27018,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "334-422": {
    "facts": {
@@ -27042,7 +27042,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "334-439": {
    "facts": {
@@ -27066,7 +27066,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "334-483": {
    "facts": {
@@ -27221,7 +27221,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "337-446": {
    "facts": {
@@ -27277,7 +27277,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "338-383": {
    "facts": {
@@ -27300,7 +27300,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "338-428": {
    "facts": {
@@ -27312,7 +27312,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "338-446": {
    "facts": {
@@ -27325,7 +27325,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "339-344": {
    "facts": {
@@ -27588,7 +27588,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "344-364": {
    "facts": {
@@ -27600,7 +27600,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "344-365": {
    "facts": {
@@ -27623,7 +27623,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "344-369": {
    "facts": {
@@ -27657,7 +27657,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "344-374": {
    "facts": {
@@ -27696,7 +27696,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in seven seasons, first in Season 1."
+   "line": "They share the page in 7 seasons, first in Season 1."
   },
   "344-377": {
    "facts": {
@@ -27708,7 +27708,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "344-378": {
    "facts": {
@@ -27742,7 +27742,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "344-390": {
    "facts": {
@@ -27820,7 +27820,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "344-409": {
    "facts": {
@@ -27918,7 +27918,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "344-425": {
    "facts": {
@@ -28006,7 +28006,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "344-437": {
    "facts": {
@@ -28018,7 +28018,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "344-440": {
    "facts": {
@@ -28052,7 +28052,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "344-445": {
    "facts": {
@@ -28095,7 +28095,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "344-448": {
    "facts": {
@@ -28218,7 +28218,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "344-483": {
    "facts": {
@@ -28242,7 +28242,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "344-488": {
    "facts": {
@@ -28419,7 +28419,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "344-523": {
    "facts": {
@@ -28596,7 +28596,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "344-552": {
    "facts": {
@@ -28608,7 +28608,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "344-553": {
    "facts": {
@@ -28675,7 +28675,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "344-562": {
    "facts": {
@@ -29116,7 +29116,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "357-372": {
    "facts": {
@@ -29144,7 +29144,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in seven seasons, first in Season 1."
+   "line": "They share the page in 7 seasons, first in Season 1."
   },
   "357-383": {
    "facts": {
@@ -29156,7 +29156,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "357-401": {
    "facts": {
@@ -29366,7 +29366,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "359-428": {
    "facts": {
@@ -29378,7 +29378,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "359-446": {
    "facts": {
@@ -29391,7 +29391,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "360-399": {
    "facts": {
@@ -29514,7 +29514,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "364-428": {
    "facts": {
@@ -29526,7 +29526,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "364-446": {
    "facts": {
@@ -29539,7 +29539,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "365-416": {
    "facts": {
@@ -29606,7 +29606,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "366-383": {
    "facts": {
@@ -29618,7 +29618,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "366-416": {
    "facts": {
@@ -29630,7 +29630,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "366-428": {
    "facts": {
@@ -29642,7 +29642,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "366-446": {
    "facts": {
@@ -29654,7 +29654,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "367-384": {
    "facts": {
@@ -29701,7 +29701,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in four seasons, first in Season 5."
+   "line": "They share the page in 4 seasons, first in Season 5."
   },
   "368-446": {
    "facts": {
@@ -29856,7 +29856,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "372-428": {
    "facts": {
@@ -29868,7 +29868,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "372-446": {
    "facts": {
@@ -29880,7 +29880,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "372-533": {
    "facts": {
@@ -29947,7 +29947,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "376-396": {
    "facts": {
@@ -29986,7 +29986,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in seven seasons, first in Season 1."
+   "line": "They share the page in 7 seasons, first in Season 1."
   },
   "376-428": {
    "facts": {
@@ -30111,7 +30111,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "377-428": {
    "facts": {
@@ -30123,7 +30123,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "377-446": {
    "facts": {
@@ -30135,7 +30135,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "378-416": {
    "facts": {
@@ -30279,7 +30279,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "383-428": {
    "facts": {
@@ -30291,7 +30291,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "383-446": {
    "facts": {
@@ -30303,7 +30303,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "384-428": {
    "facts": {
@@ -30821,7 +30821,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "408-428": {
    "facts": {
@@ -30833,7 +30833,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "408-446": {
    "facts": {
@@ -30845,7 +30845,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "409-416": {
    "facts": {
@@ -31066,7 +31066,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "416-418": {
    "facts": {
@@ -31164,7 +31164,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "416-438": {
    "facts": {
@@ -31220,7 +31220,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "416-446": {
    "facts": {
@@ -31252,7 +31252,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "416-448": {
    "facts": {
@@ -31407,7 +31407,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "416-480": {
    "facts": {
@@ -31420,7 +31420,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "416-483": {
    "facts": {
@@ -31465,7 +31465,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "416-488": {
    "facts": {
@@ -31488,7 +31488,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 7."
+   "line": "They share the page in 2 seasons, first in Season 7."
   },
   "416-490": {
    "facts": {
@@ -31720,7 +31720,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "416-541": {
    "facts": {
@@ -31776,7 +31776,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "416-552": {
    "facts": {
@@ -31858,7 +31858,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in six seasons, first in Season 1."
+   "line": "They share the page in 6 seasons, first in Season 1."
   },
   "416-564": {
    "facts": {
@@ -32002,7 +32002,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "424-446": {
    "facts": {
@@ -32113,7 +32113,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "428-440": {
    "facts": {
@@ -32169,7 +32169,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "428-445": {
    "facts": {
@@ -32212,7 +32212,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "428-448": {
    "facts": {
@@ -32257,7 +32257,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "428-458": {
    "facts": {
@@ -32346,7 +32346,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "428-479": {
    "facts": {
@@ -32369,7 +32369,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "428-484": {
    "facts": {
@@ -32381,7 +32381,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "428-487": {
    "facts": {
@@ -32394,7 +32394,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 1."
+   "line": "They share the page in 3 seasons, first in Season 1."
   },
   "428-488": {
    "facts": {
@@ -32417,7 +32417,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 7."
+   "line": "They share the page in 2 seasons, first in Season 7."
   },
   "428-491": {
    "facts": {
@@ -32440,7 +32440,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "428-496": {
    "facts": {
@@ -32485,7 +32485,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "428-511": {
    "facts": {
@@ -32662,7 +32662,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 5."
+   "line": "They share the page in 2 seasons, first in Season 5."
   },
   "428-553": {
    "facts": {
@@ -32949,7 +32949,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 3."
+   "line": "They share the page in 2 seasons, first in Season 3."
   },
   "436-446": {
    "facts": {
@@ -32961,7 +32961,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "436-495": {
    "facts": {
@@ -33028,7 +33028,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "446-447": {
    "facts": {
@@ -33095,7 +33095,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "446-456": {
    "facts": {
@@ -33108,7 +33108,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 3."
+   "line": "They share the page in 3 seasons, first in Season 3."
   },
   "446-458": {
    "facts": {
@@ -33264,7 +33264,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in three seasons, first in Season 2."
+   "line": "They share the page in 3 seasons, first in Season 2."
   },
   "446-487": {
    "facts": {
@@ -33279,7 +33279,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in five seasons, first in Season 1."
+   "line": "They share the page in 5 seasons, first in Season 1."
   },
   "446-488": {
    "facts": {
@@ -33302,7 +33302,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 7."
+   "line": "They share the page in 2 seasons, first in Season 7."
   },
   "446-496": {
    "facts": {
@@ -33358,7 +33358,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "446-511": {
    "facts": {
@@ -33579,7 +33579,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 4."
+   "line": "They share the page in 2 seasons, first in Season 4."
   },
   "446-551": {
    "facts": {
@@ -33690,7 +33690,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   },
   "446-564": {
    "facts": {
@@ -33812,7 +33812,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 2."
+   "line": "They share the page in 2 seasons, first in Season 2."
   },
   "446-582": {
    "facts": {
@@ -34176,7 +34176,7 @@
     "unit": "season",
     "corpusSize": 10
    },
-   "line": "They share the page in two seasons, first in Season 1."
+   "line": "They share the page in 2 seasons, first in Season 1."
   }
  },
  "sources": [

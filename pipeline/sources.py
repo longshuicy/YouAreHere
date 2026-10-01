@@ -20,6 +20,7 @@ from .ingest import (
     bible,
     civilwar,
     congress,
+    fandom,
     friends,
     hongloumeng,
     iliad,
@@ -34,7 +35,6 @@ from .ingest import (
     shiji,
     shuihuzhuan,
     starwars,
-    stormlight,
     xiyouji,
 )
 
@@ -197,12 +197,13 @@ SOURCES: dict[str, Source] = {
         min_edge_weight=1,
         min_degree=2,
     ),
-    "stormlight": Source(
-        name="stormlight",
-        load=stormlight.load,
-        min_edge_weight=1,
-        min_degree=2,
-    ),
+    # Fandom wikis: paragraph co-linking in character articles, one engine for
+    # all of them (ingest/fandom.py). A shared paragraph is already a deliberate
+    # unit of an editor's prose, so one is enough.
+    **{
+        world: Source(name=world, load=fandom.loader(world), min_edge_weight=1, min_degree=2)
+        for world in fandom.WIKIS
+    },
     "shakespeare": Source(
         name="shakespeare",
         load=shakespeare.load,

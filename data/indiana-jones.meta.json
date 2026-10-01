@@ -34,12 +34,12 @@
    },
    "line": "Businessperson. Appears in Indiana Jones and the Last Crusade.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
-     "world": "indiana-jones",
-     "story": "Indiana Jones",
-     "name": "Colonel Vogel",
-     "tied": 0
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Jushu Davar",
+     "tied": 1
     }
    }
   },
@@ -60,7 +60,7 @@
    "wiki": "Elsa Schneider",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 50,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -83,7 +83,7 @@
    "wiki": "Henry Jones Sr.",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 65,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -114,11 +114,11 @@
     "occupation": "archaeologist",
     "homeworld": "Princeton"
    },
-   "line": "Archaeologist, of Princeton. Appears in all two films.",
+   "line": "Archaeologist, of Princeton. Appears in all 2 films.",
    "wiki": "Indiana Jones (character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 68,
+    "lookAlikes": 86,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -157,11 +157,11 @@
    },
    "line": "Appears in Indiana Jones and the Temple of Doom.",
    "signals": {
-    "lookAlikes": 34,
+    "lookAlikes": 65,
     "nearest": {
-     "world": "godfather",
-     "story": "The Godfather",
-     "name": "Senator Geary",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Coreb",
      "tied": 0
     }
    }
@@ -183,11 +183,11 @@
    "wiki": "Marcus Brody",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
-     "world": "indiana-jones",
-     "story": "Indiana Jones",
-     "name": "Sallah",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Rod",
      "tied": 0
     }
    }
@@ -251,11 +251,11 @@
    "wiki": "Sallah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
-     "world": "shiji",
-     "story": "史記",
-     "name": "陳豨",
+     "world": "witcher",
+     "story": "The Witcher",
+     "name": "Crach's mother",
      "tied": 0
     }
    }
@@ -275,7 +275,7 @@
    },
    "line": "Pickpocket, of the Republic of China. Appears in Indiana Jones and the Temple of Doom.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -304,7 +304,7 @@
    },
    "line": "Appears in Indiana Jones and the Last Crusade.",
    "signals": {
-    "lookAlikes": 44,
+    "lookAlikes": 82,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -327,7 +327,7 @@
    "wiki": "Willie Scott (Indiana Jones character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 86,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",

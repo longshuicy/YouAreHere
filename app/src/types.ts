@@ -133,6 +133,10 @@ export interface NodeFacts {
   homeworld?: string;
   houses?: string[];
   titles?: string[];
+  /** Appositions such as a Hogwarts house, a Radiant order or a bending art. */
+  traits?: string[];
+  /** Group → the article the source writes it with ("the" or ""), where known. */
+  articles?: Record<string, string>;
   culture?: string;
   born?: string;
   died?: string;

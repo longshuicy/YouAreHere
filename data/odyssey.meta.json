@@ -40,11 +40,11 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in three books.",
+   "line": "Appears in 3 books.",
    "wiki": "Melanthius (Odyssey)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -69,11 +69,11 @@
     "gender": "Male",
     "occupation": "swineherd"
    },
-   "line": "Swineherd. Appears in seven books.",
+   "line": "Swineherd. Appears in 7 books.",
    "wiki": "Eumaeus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -108,16 +108,16 @@
     "corpusSize": 24,
     "gender": "Female"
    },
-   "line": "Appears in four books.",
+   "line": "Appears in 4 books.",
    "wiki": "Helen of Troy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 14,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "A Schoolmaster Ambassador",
-     "tied": 1
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Ronald Riley",
+     "tied": 0
     }
    }
   },
@@ -149,7 +149,7 @@
    "wiki": "Penelope",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 6,
+    "lookAlikes": 17,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -182,7 +182,7 @@
    "wiki": "Menelaus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -202,7 +202,7 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in three books.",
+   "line": "Appears in 3 books.",
    "wiki": "Peisistratus (son of Nestor)",
    "wikiLang": "en"
   },
@@ -235,15 +235,15 @@
     "gender": "Female",
     "species": "goddess"
    },
-   "line": "Goddess. Appears in six books.",
+   "line": "Goddess. Appears in 6 books.",
    "wiki": "Circe",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 9,
     "nearest": {
-     "world": "godfather",
-     "story": "The Godfather",
-     "name": "Questadt",
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Whiplash 2",
      "tied": 0
     }
    }
@@ -280,7 +280,7 @@
    "wiki": "Telemachus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -304,11 +304,11 @@
      "king of Pylos"
     ]
    },
-   "line": "King of Pylos. Appears in four books.",
+   "line": "King of Pylos. Appears in 4 books.",
    "wiki": "Nestor (mythology)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -346,7 +346,7 @@
     "gender": "Male",
     "occupation": "counsellor"
    },
-   "line": "Counsellor. Appears in five books.",
+   "line": "Counsellor. Appears in 5 books.",
    "wiki": "Mentor (Odyssey)",
    "wikiLang": "en"
   },
@@ -375,9 +375,9 @@
     "gender": "Male",
     "homeworld": "Dulichium"
    },
-   "line": "Of Dulichium. Appears in four books.",
+   "line": "Of Dulichium. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -406,7 +406,7 @@
    "wiki": "Eurymachus (Odyssey)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -452,7 +452,7 @@
    "wiki": "Zeus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 71,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -495,7 +495,7 @@
    "wiki": "Athena",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -520,11 +520,11 @@
     "gender": "Male",
     "species": "water deity"
    },
-   "line": "Water deity. Appears in seven books.",
+   "line": "Water deity. Appears in 7 books.",
    "wiki": "Poseidon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -550,11 +550,11 @@
     "occupation": "courier",
     "species": "Olympian god"
    },
-   "line": "Courier, Olympian god. Appears in seven books.",
+   "line": "Courier, Olympian god. Appears in 7 books.",
    "wiki": "Hermes",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -602,7 +602,7 @@
    "wiki": "Odysseus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 19,
+    "lookAlikes": 37,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -625,12 +625,12 @@
    "wiki": "Arnaeus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "A Schoolmaster Ambassador",
-     "tied": 1
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Compassionate Fire Nation boy",
+     "tied": 0
     }
    }
   },
@@ -649,11 +649,11 @@
     "gender": "Female",
     "species": "nymph"
    },
-   "line": "Nymph. Appears in six books.",
+   "line": "Nymph. Appears in 6 books.",
    "wiki": "Calypso (mythology)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -676,11 +676,11 @@
     "corpusSize": 24,
     "gender": "Male"
    },
-   "line": "Appears in six books.",
+   "line": "Appears in 6 books.",
    "wiki": "Alcinous",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -710,7 +710,7 @@
    "wiki": "Antinous of Ithaca",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 22,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -732,7 +732,7 @@
     "gender": "Female",
     "occupation": "housekeeper"
    },
-   "line": "Housekeeper. Appears in four books."
+   "line": "Housekeeper. Appears in 4 books."
   },
   "28": {
    "facts": {
@@ -750,7 +750,7 @@
     "gender": "Female",
     "occupation": "wet nurse"
    },
-   "line": "Wet nurse. Appears in seven books.",
+   "line": "Wet nurse. Appears in 7 books.",
    "wiki": "Eurycleia (nurse of Odysseus)",
    "wikiLang": "en"
   },
@@ -767,7 +767,7 @@
     "gender": "Male",
     "occupation": "seer"
    },
-   "line": "Seer. Appears in four books.",
+   "line": "Seer. Appears in 4 books.",
    "wiki": "Tiresias",
    "wikiLang": "en"
   },
@@ -803,7 +803,7 @@
    "wiki": "Laertes (father of Odysseus)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -973,7 +973,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 15."
+   "line": "They share the page in 2 books, first in Book 15."
   },
   "3-18": {
    "facts": {
@@ -985,7 +985,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 14."
+   "line": "They share the page in 2 books, first in Book 14."
   },
   "3-19": {
    "facts": {
@@ -1022,7 +1022,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in five books, first in Book 14."
+   "line": "They share the page in 5 books, first in Book 14."
   },
   "3-26": {
    "facts": {
@@ -1045,7 +1045,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 6."
+   "line": "They share the page in 2 books, first in Book 6."
   },
   "4-19": {
    "facts": {
@@ -1068,7 +1068,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 6."
+   "line": "They share the page in 2 books, first in Book 6."
   },
   "4-25": {
    "facts": {
@@ -1080,7 +1080,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 6."
+   "line": "They share the page in 2 books, first in Book 6."
   },
   "5-7": {
    "facts": {
@@ -1092,7 +1092,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 4."
+   "line": "They share the page in 2 books, first in Book 4."
   },
   "5-11": {
    "facts": {
@@ -1126,7 +1126,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 4."
+   "line": "They share the page in 2 books, first in Book 4."
   },
   "5-19": {
    "facts": {
@@ -1176,7 +1176,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in seven books, first in Book 4."
+   "line": "They share the page in 7 books, first in Book 4."
   },
   "6-16": {
    "facts": {
@@ -1200,7 +1200,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 16."
+   "line": "They share the page in 3 books, first in Book 16."
   },
   "6-19": {
    "facts": {
@@ -1214,7 +1214,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in four books, first in Book 1."
+   "line": "They share the page in 4 books, first in Book 1."
   },
   "6-22": {
    "facts": {
@@ -1249,7 +1249,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 17."
+   "line": "They share the page in 3 books, first in Book 17."
   },
   "6-27": {
    "facts": {
@@ -1262,7 +1262,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 17."
+   "line": "They share the page in 3 books, first in Book 17."
   },
   "6-28": {
    "facts": {
@@ -1274,7 +1274,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 22."
+   "line": "They share the page in 2 books, first in Book 22."
   },
   "6-30": {
    "facts": {
@@ -1290,7 +1290,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in six books, first in Book 4."
+   "line": "They share the page in 6 books, first in Book 4."
   },
   "7-8": {
    "facts": {
@@ -1302,7 +1302,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 4."
+   "line": "They share the page in 2 books, first in Book 4."
   },
   "7-11": {
    "facts": {
@@ -1316,7 +1316,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in four books, first in Book 4."
+   "line": "They share the page in 4 books, first in Book 4."
   },
   "7-12": {
    "facts": {
@@ -1330,7 +1330,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in four books, first in Book 1."
+   "line": "They share the page in 4 books, first in Book 1."
   },
   "7-18": {
    "facts": {
@@ -1342,7 +1342,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 4."
+   "line": "They share the page in 2 books, first in Book 4."
   },
   "7-19": {
    "facts": {
@@ -1354,7 +1354,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 3."
+   "line": "They share the page in 2 books, first in Book 3."
   },
   "7-22": {
    "facts": {
@@ -1371,7 +1371,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in seven books, first in Book 4."
+   "line": "They share the page in 7 books, first in Book 4."
   },
   "7-24": {
    "facts": {
@@ -1383,7 +1383,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 4."
+   "line": "They share the page in 2 books, first in Book 4."
   },
   "8-11": {
    "facts": {
@@ -1395,7 +1395,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 3."
+   "line": "They share the page in 2 books, first in Book 3."
   },
   "8-12": {
    "facts": {
@@ -1408,7 +1408,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 3."
+   "line": "They share the page in 3 books, first in Book 3."
   },
   "8-18": {
    "facts": {
@@ -1420,7 +1420,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 4."
+   "line": "They share the page in 2 books, first in Book 4."
   },
   "8-22": {
    "facts": {
@@ -1432,7 +1432,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 3."
+   "line": "They share the page in 2 books, first in Book 3."
   },
   "9-22": {
    "facts": {
@@ -1477,7 +1477,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 8."
+   "line": "They share the page in 2 books, first in Book 8."
   },
   "10-24": {
    "facts": {
@@ -1501,7 +1501,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 10."
+   "line": "They share the page in 3 books, first in Book 10."
   },
   "10-31": {
    "facts": {
@@ -1525,7 +1525,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 3."
+   "line": "They share the page in 3 books, first in Book 3."
   },
   "11-14": {
    "facts": {
@@ -1537,7 +1537,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 2."
+   "line": "They share the page in 2 books, first in Book 2."
   },
   "11-15": {
    "facts": {
@@ -1560,7 +1560,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 20."
+   "line": "They share the page in 2 books, first in Book 20."
   },
   "11-17": {
    "facts": {
@@ -1573,7 +1573,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 1."
+   "line": "They share the page in 3 books, first in Book 1."
   },
   "11-18": {
    "facts": {
@@ -1699,7 +1699,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in six books, first in Book 1."
+   "line": "They share the page in 6 books, first in Book 1."
   },
   "11-28": {
    "facts": {
@@ -1714,7 +1714,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in five books, first in Book 1."
+   "line": "They share the page in 5 books, first in Book 1."
   },
   "11-30": {
    "facts": {
@@ -1728,7 +1728,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in four books, first in Book 4."
+   "line": "They share the page in 4 books, first in Book 4."
   },
   "12-18": {
    "facts": {
@@ -1741,7 +1741,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 3."
+   "line": "They share the page in 3 books, first in Book 3."
   },
   "12-19": {
    "facts": {
@@ -1764,7 +1764,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 3."
+   "line": "They share the page in 2 books, first in Book 3."
   },
   "13-18": {
    "facts": {
@@ -1809,7 +1809,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 22."
+   "line": "They share the page in 2 books, first in Book 22."
   },
   "14-19": {
    "facts": {
@@ -1822,7 +1822,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 2."
+   "line": "They share the page in 3 books, first in Book 2."
   },
   "14-22": {
    "facts": {
@@ -1835,7 +1835,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 2."
+   "line": "They share the page in 3 books, first in Book 2."
   },
   "16-17": {
    "facts": {
@@ -1858,7 +1858,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 18."
+   "line": "They share the page in 2 books, first in Book 18."
   },
   "16-23": {
    "facts": {
@@ -1893,7 +1893,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 1."
+   "line": "They share the page in 3 books, first in Book 1."
   },
   "17-23": {
    "facts": {
@@ -1917,7 +1917,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 4."
+   "line": "They share the page in 3 books, first in Book 4."
   },
   "18-19": {
    "facts": {
@@ -1951,7 +1951,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 3."
+   "line": "They share the page in 2 books, first in Book 3."
   },
   "18-21": {
    "facts": {
@@ -2026,7 +2026,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 7."
+   "line": "They share the page in 3 books, first in Book 7."
   },
   "18-26": {
    "facts": {
@@ -2049,7 +2049,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 10."
+   "line": "They share the page in 2 books, first in Book 10."
   },
   "18-30": {
    "facts": {
@@ -2081,7 +2081,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 1."
+   "line": "They share the page in 2 books, first in Book 1."
   },
   "19-21": {
    "facts": {
@@ -2093,7 +2093,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 1."
+   "line": "They share the page in 2 books, first in Book 1."
   },
   "19-22": {
    "facts": {
@@ -2145,7 +2145,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 6."
+   "line": "They share the page in 3 books, first in Book 6."
   },
   "19-30": {
    "facts": {
@@ -2162,7 +2162,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in seven books, first in Book 8."
+   "line": "They share the page in 7 books, first in Book 8."
   },
   "20-21": {
    "facts": {
@@ -2175,7 +2175,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 1."
+   "line": "They share the page in 3 books, first in Book 1."
   },
   "20-22": {
    "facts": {
@@ -2189,7 +2189,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in four books, first in Book 1."
+   "line": "They share the page in 4 books, first in Book 1."
   },
   "20-24": {
    "facts": {
@@ -2223,7 +2223,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 9."
+   "line": "They share the page in 2 books, first in Book 9."
   },
   "21-22": {
    "facts": {
@@ -2235,7 +2235,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 1."
+   "line": "They share the page in 2 books, first in Book 1."
   },
   "21-24": {
    "facts": {
@@ -2247,7 +2247,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 5."
+   "line": "They share the page in 2 books, first in Book 5."
   },
   "22-23": {
    "facts": {
@@ -2272,7 +2272,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in four books, first in Book 1."
+   "line": "They share the page in 4 books, first in Book 1."
   },
   "22-25": {
    "facts": {
@@ -2288,7 +2288,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in six books, first in Book 6."
+   "line": "They share the page in 6 books, first in Book 6."
   },
   "22-26": {
    "facts": {
@@ -2301,7 +2301,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in three books, first in Book 17."
+   "line": "They share the page in 3 books, first in Book 17."
   },
   "22-27": {
    "facts": {
@@ -2313,7 +2313,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 19."
+   "line": "They share the page in 2 books, first in Book 19."
   },
   "22-28": {
    "facts": {
@@ -2327,7 +2327,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in four books, first in Book 4."
+   "line": "They share the page in 4 books, first in Book 4."
   },
   "22-29": {
    "facts": {
@@ -2339,7 +2339,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 10."
+   "line": "They share the page in 2 books, first in Book 10."
   },
   "22-30": {
    "facts": {
@@ -2390,7 +2390,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 4."
+   "line": "They share the page in 2 books, first in Book 4."
   },
   "25-30": {
    "facts": {
@@ -2435,7 +2435,7 @@
     "unit": "book",
     "corpusSize": 24
    },
-   "line": "They share the page in two books, first in Book 10."
+   "line": "They share the page in 2 books, first in Book 10."
   }
  },
  "sources": [

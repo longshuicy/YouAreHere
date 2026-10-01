@@ -30,7 +30,7 @@
    "wiki": "Postumus Cominius Auruncus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-coriolanus",
      "story": "Coriolanus",
@@ -54,7 +54,7 @@
    "wiki": "Gnaeus Marcius Coriolanus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",
@@ -87,11 +87,11 @@
    },
    "line": "Herald.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
-     "world": "starwars",
-     "story": "Star Wars",
-     "name": "Beru",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Oh",
      "tied": 0
     }
    }
@@ -125,7 +125,7 @@
    "wiki": "Agrippa Menenius Lanatus (consul 503 BC)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 33,
     "nearest": {
      "world": "shakespeare-coriolanus",
      "story": "Coriolanus",
@@ -148,7 +148,7 @@
    "wiki": "Lucius Junius Brutus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-coriolanus",
      "story": "Coriolanus",
@@ -172,7 +172,7 @@
    "wiki": "Lucius Sicinius Vellutus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-coriolanus",
      "story": "Coriolanus",
@@ -193,7 +193,7 @@
    },
    "line": "Friend to Volumnia and Virgilia.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -216,7 +216,7 @@
    "wiki": "Virgilia",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -239,7 +239,7 @@
    "wiki": "Volumnia",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 21,
+    "lookAlikes": 24,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",

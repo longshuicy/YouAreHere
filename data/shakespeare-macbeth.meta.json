@@ -12,12 +12,12 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
-     "world": "godfather",
-     "story": "The Godfather",
-     "name": "Rocco",
-     "tied": 0
+     "world": "mcu",
+     "story": "The Marvel Cinematic Universe",
+     "name": "Carl Zemo",
+     "tied": 1
     }
    }
   },
@@ -35,7 +35,7 @@
    "wiki": "Banquo",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -68,7 +68,7 @@
    "wiki": "Donalbain (Macbeth)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -91,7 +91,7 @@
    "wiki": "King Duncan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -138,7 +138,7 @@
    "wiki": "Lady Macbeth",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 53,
+    "lookAlikes": 77,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -157,7 +157,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -183,7 +183,7 @@
    "wiki": "Macbeth (character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 54,
+    "lookAlikes": 101,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -206,7 +206,7 @@
    "wiki": "Macduff (Macbeth)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -229,7 +229,7 @@
    "wiki": "Malcolm (Macbeth)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 107,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -248,11 +248,11 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "張繡",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Pao",
      "tied": 0
     }
    }
@@ -267,7 +267,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 69,
+    "lookAlikes": 112,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -291,7 +291,7 @@
    "wiki": "Siward, Earl of Northumbria",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 39,
+    "lookAlikes": 56,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",

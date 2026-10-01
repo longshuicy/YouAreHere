@@ -13,7 +13,7 @@ from pathlib import Path
 
 from ..canon.licenses import FACTUAL
 from ..canon.types import CanonicalGraph
-from ..ingest import stormlight
+from ..ingest import fandom
 from . import anapi, folger, knuth, legislators, wikidata
 
 RAW = Path(__file__).resolve().parent.parent / "raw"
@@ -79,8 +79,11 @@ def meta_sources_for(name: str) -> list[tuple]:
         ]
     if name == "starwars":
         return [(wikidata.ATTRIBUTION, wikidata.LICENSE)]
-    if name == "stormlight":
-        return [(stormlight.INFOBOX_ATTRIBUTION, FACTUAL)]
+    if name in fandom.WIKIS:
+        return [
+            (fandom.WIKIS[name].infobox_attribution, FACTUAL),
+            (wikidata.FANDOM_LINK_ATTRIBUTION, wikidata.LICENSE),
+        ]
     return []
 
 
@@ -94,6 +97,7 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
     roles = _shakespeare_roles(graph) if source == "shakespeare" else {}
     congress_attrs = legislators.attributes_for(graph.nodes) if source == "congress" else {}
     wd_by_qid, qid_by_node = _wikidata_for(graph, overrides)
+    wiki_links = _fandom_wiki_links(graph) if source in fandom.WIKIS else {}
 
     facts: dict[str, dict] = {}
     for node in graph.nodes:
@@ -135,8 +139,8 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
         if source == "pride":
             _apply_pride(record, node)
 
-        if source == "stormlight":
-            _apply_stormlight(record, node)
+        if source in fandom.WIKIS:
+            _apply_fandom(record, node, wiki_links)
 
         qid = qid_by_node.get(node.id)
         if qid and qid in wd_by_qid:
@@ -246,11 +250,54 @@ def _apply_lotr(record: dict, node) -> None:
         record["culture"] = culture
 
 
-def _apply_stormlight(record: dict, node) -> None:
-    """Nationality travels on the node from the wiki infobox."""
-    culture = node.metadata.get("culture")
-    if culture and "culture" not in record:
-        record["culture"] = culture
+FANDOM_FACTS = ("titles", "occupation", "traits", "culture", "species", "affiliations", "articles")
+
+
+def _apply_fandom(record: dict, node, wiki_links: dict[str, str]) -> None:
+    """Facts travel on the node from the wiki infobox; the Wikipedia article is
+    the one Wikidata files under the character's wiki page."""
+    for key in FANDOM_FACTS:
+        if node.metadata.get(key) and key not in record:
+            record[key] = node.metadata[key]
+    if node.id in wiki_links:
+        record["wiki"] = wiki_links[node.id]
+        record["wikiLang"] = "en"
+
+
+_NOT_A_CHARACTER = re.compile(r"\((?:[^)]*\b(?:film|tv|series|disambiguation|comics|novel|book|game|episode|album)\b[^)]*)\)", re.I)
+
+
+def _fandom_wiki_links(graph: CanonicalGraph) -> dict[str, str]:
+    """Node id → English Wikipedia title, via Wikidata's Fandom article IDs.
+
+    Wikidata keeps the page title from when the ID was entered, and wikis move
+    pages: its "Captain America" means Steve Rogers, whose page that was, while
+    the wiki's "Captain America" is now Sam Wilson. So the article's own name
+    wins when it is exactly one character's name or alias ("Steve Rogers
+    (Marvel Cinematic Universe)"); otherwise the ID's page decides.
+    """
+    wiki = fandom.WIKIS[graph.id]
+    node_of = fandom.title_resolver(graph.id)
+    ids = {node.id for node in graph.nodes}
+    sitelinks = wikidata.fandom_sitelinks(wiki.host.split(".")[0], cache_dir=RAW / graph.id)
+
+    owners: dict[str, set[str]] = defaultdict(set)
+    for node in graph.nodes:
+        for form in (node.name, *node.aliases):
+            owners[form.lower()].add(node.id)
+
+    links: dict[str, str] = {}
+    for title, article in sorted(sitelinks.items()):
+        if not article:
+            continue
+        named = owners.get(re.sub(r"\s*\([^)]*\)$", "", article).lower(), set())
+        if len(named) == 1 and not _NOT_A_CHARACTER.search(article):
+            nid = next(iter(named))
+        else:
+            nid = node_of(title)
+        if nid in ids and article not in links.values():
+            links.setdefault(nid, article)
+    return links
 
 
 def _apply_pride(record: dict, node) -> None:
@@ -676,6 +723,14 @@ def _edge_facts(graph: CanonicalGraph, node_facts: dict[str, dict]) -> dict[tupl
         shared_aff = sorted(left_aff & right_aff)
         if shared_aff:
             record["sharedAffiliations"] = shared_aff
+            articles = {
+                group: article
+                for side in (edge.source, edge.target)
+                for group, article in (node_facts.get(side, {}).get("articles") or {}).items()
+                if group in shared_aff
+            }
+            if articles:
+                record["articles"] = articles
 
         facts[edge.key] = record
     return facts

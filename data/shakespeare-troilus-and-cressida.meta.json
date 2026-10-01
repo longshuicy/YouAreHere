@@ -18,7 +18,7 @@
    "wiki": "Achilles",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -41,7 +41,7 @@
    "wiki": "Aeneas",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -64,7 +64,7 @@
    "wiki": "Agamemnon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -89,7 +89,7 @@
    "wiki": "Ajax the Great",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -161,7 +161,7 @@
    "wiki": "Calchas",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -185,7 +185,7 @@
    "wiki": "Cassandra",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -206,7 +206,7 @@
    "wiki": "Cressida",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -232,7 +232,7 @@
    "wiki": "Deiphobus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 28,
+    "lookAlikes": 45,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -257,7 +257,7 @@
    "wiki": "Diomedes",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -282,7 +282,7 @@
    "wiki": "Hector",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -333,7 +333,7 @@
    "wiki": "Menelaus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -358,7 +358,7 @@
    "wiki": "Nestor (mythology)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -381,7 +381,7 @@
    "wiki": "Pandarus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -404,11 +404,11 @@
    "wiki": "Paris (mythology)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 73,
+    "lookAlikes": 102,
     "nearest": {
-     "world": "starwars",
-     "story": "Star Wars",
-     "name": "Mace Windu",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Relis Ruthar",
      "tied": 0
     }
    }
@@ -427,7 +427,7 @@
    "wiki": "Patroclus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -453,7 +453,7 @@
    "wiki": "Priam",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 59,
+    "lookAlikes": 104,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -472,7 +472,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -515,7 +515,7 @@
    "wiki": "Thersites",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",
@@ -536,7 +536,7 @@
    "wiki": "Troilus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 114,
+    "lookAlikes": 206,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -561,7 +561,7 @@
    "wiki": "Odysseus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-troilus-and-cressida",
      "story": "Troilus and Cressida",

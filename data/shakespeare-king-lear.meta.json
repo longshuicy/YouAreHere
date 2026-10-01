@@ -14,7 +14,7 @@
    },
    "line": "Duke of Albany, Her husband.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -35,7 +35,7 @@
    },
    "line": "Duke of Burgundy, Her suitor.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -58,7 +58,7 @@
    "wiki": "Cordelia (King Lear)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 11,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -79,7 +79,7 @@
    },
    "line": "Duke of Cornwall, Her husband.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -124,7 +124,7 @@
    },
    "line": "Son of Gloucester.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -147,7 +147,7 @@
    "wiki": "Edmund (King Lear)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -168,7 +168,7 @@
    },
    "line": "Fool.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -189,7 +189,7 @@
    },
    "line": "King of France, Her suitor and then husband.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -210,7 +210,7 @@
    },
    "line": "Earl of Gloucester.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -233,7 +233,7 @@
    "wiki": "Goneril",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -254,7 +254,7 @@
    },
    "line": "Herald.",
    "signals": {
-    "lookAlikes": 23,
+    "lookAlikes": 39,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -275,7 +275,7 @@
    },
    "line": "Earl of Kent.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -296,7 +296,7 @@
    },
    "line": "King of Britain.",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -329,7 +329,7 @@
    },
    "line": "Her steward.",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",
@@ -352,7 +352,7 @@
    "wiki": "Regan (King Lear)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 150,
+    "lookAlikes": 196,
     "nearest": {
      "world": "shakespeare-king-lear",
      "story": "King Lear",

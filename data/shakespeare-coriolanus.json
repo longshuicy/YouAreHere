@@ -464,55 +464,55 @@
    "id": "shakespeare-coriolanus-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.734
+   "ease": 0.707
   },
   {
    "id": "shakespeare-coriolanus-p0002",
    "you": 2,
    "startRadius": 1,
-   "ease": 0.732
+   "ease": 0.722
   },
   {
    "id": "shakespeare-coriolanus-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.483
+   "ease": 0.457
   },
   {
    "id": "shakespeare-coriolanus-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.742
+   "ease": 0.732
   },
   {
    "id": "shakespeare-coriolanus-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.722
+   "ease": 0.695
   },
   {
    "id": "shakespeare-coriolanus-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.726
+   "ease": 0.7
   },
   {
    "id": "shakespeare-coriolanus-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.508
+   "ease": 0.481
   },
   {
    "id": "shakespeare-coriolanus-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.606
+   "ease": 0.6
   },
   {
    "id": "shakespeare-coriolanus-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.626
+   "ease": 0.619
   }
  ],
  "provenance": {

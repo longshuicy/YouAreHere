@@ -321,8 +321,12 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | The Godfather | Film dialogue GEXF (Moviegalaxies) | Shipped | CC0. Parts I–II. See `pipeline/raw/moviegalaxies/SOURCE.md`. |
 | Indiana Jones | Film dialogue GEXF (Moviegalaxies) | Shipped | CC0. Temple of Doom + Last Crusade (Raiders/Skull GEXFs misattributed upstream). See `pipeline/raw/moviegalaxies/SOURCE.md`. |
 | Musical Meetups (MMKG) | Biography meetup co-participation | Shipped | Polifonia, CC BY 4.0. sample_1k only (bulk triples lack participants). See `pipeline/raw/mmkg/SOURCE.md`. |
-| The Stormlight Archive | Paragraph co-linking in fan-wiki character articles | Shipped | Stormlight Archive Wiki (Fandom), CC BY-SA 3.0. First Cosmere world; licensed per world. See `pipeline/raw/stormlight/SOURCE.md`. || 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
-| Harry Potter | Several candidates, none canonical | Later | Licence and provenance need checking before production use |
+| The Stormlight Archive | Paragraph co-linking in fan-wiki character articles | Shipped | Stormlight Archive Wiki (Fandom), CC BY-SA 3.0. First Cosmere world; licensed per world. Method in full: `pipeline/raw/stormlight/SOURCE.md`. |
+| Harry Potter | Paragraph co-linking, Fandom engine | Shipped | Harry Potter Wiki, CC BY-SA 3.0. Cast scoped to the seven novels by the Appearances section. See `pipeline/raw/harry-potter/SOURCE.md`. |
+| The Witcher | Paragraph co-linking, Fandom engine | Shipped | Witcher Wiki, CC BY-SA 3.0. Eight saga books; game sections skipped. See `pipeline/raw/witcher/SOURCE.md`. |
+| Avatar: The Last Airbender | Paragraph co-linking, Fandom engine | Shipped | Avatar Wiki, CC BY-SA 3.0. Animated series; seasons from episode citations. See `pipeline/raw/last-airbender/SOURCE.md`. |
+| Marvel Cinematic Universe | Paragraph co-linking, Fandom engine | Shipped | MCU Wiki, CC BY-SA 3.0. The 23 Infinity Saga films. See `pipeline/raw/mcu/SOURCE.md`. |
+| Dune | Paragraph co-linking, Fandom engine | Not shipped | Dune Wiki is too thin: ~110 character articles mixing novels and adaptations, 37 characters after filtering. Needs another source. || 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 
 ### Licensing
 
@@ -355,6 +359,16 @@ The text is public domain. The graphs on the internet were not usable: MetaV/Gno
 ### Harry Potter, deferred
 
 Dialogue datasets with annotated relations exist, and there are open co-occurrence networks derived directly from the novels, but the latter come out of a noisy NLP pipeline and the former need their licensing understood. Neither is hard; both are a distraction from finding out whether the game works. Defer.
+
+> **Amended 2026-09-30 — shipped from the fan wiki.** Neither candidate was used. Once `/data` was licensed per world, the CC BY-SA fan wikis became usable, and Harry Potter is built from the Harry Potter Wiki by the same engine as the Stormlight Archive, with the cast scoped to the seven novels. See `pipeline/raw/harry-potter/SOURCE.md`.
+
+### Fan wikis: one engine, one caveat
+
+Every Fandom world is built by `pipeline/ingest/fandom.py`: two characters are tied when the same paragraph of a character article links to both. Each wiki declares what the engine needs — which articles are the cast, which citations name a book, which sections belong to another canon — and nothing else changes.
+
+The caveat is the edge definition. A wiki graph follows what editors chose to link, not what the text puts side by side, so these worlds share a family resemblance with each other that they do not share with the text-built ones. In the first full build their look-alike medians ran 70–191, against roughly 5–50 elsewhere. That makes them harder to tell apart from each other, which is fine as a puzzle but worth watching in play. It is also why each is recorded under its own `dataset` in provenance.
+
+Reveal facts come from each wiki's infobox through one shared reader in the same file. A world only declares a `Reading`: which fields hold titles, trades, traits, people, species and groups (the defaults are the names most Fandom infoboxes use), plus optional hints — words that rank a title or group first, values to skip, codes to spell out, and a vocabulary for traits the wiki only mentions (a Radiant order, a bending art). Infoboxes describe a character as of the wiki's latest canon, so the last office listed is often a spoiler or from a sequel (Zuko's "Fire Lord", Hermione's "Minister for Magic"). The reader passes over entries marked as claimed, feigned or from the games; uses former titles and groups only when nothing current is listed, and never former trades; shows a title or a trade, not both; and drops a group most of the cast shares ("Hogwarts") or one that repeats a trait or people. Facts can be bought before a character is named, so any value that contains the character's name or an alias is dropped, as is a group that is a person ("King Henselt of Kaedwen"). Whether a group takes "the" ("the Avengers", "Stark Industries") and how a trait is written mid-sentence ("pure-blood") come from the cast's own articles: how the wiki writes the name after "of", "in", "joined" and similar words. Wikipedia links come from Wikidata's Fandom article ID (P6262), an exact identifier; when a wiki has since moved the page, the Wikipedia title's own name decides. Stormlight has no linked characters because none has an English article.
 
 ### If you eventually process text yourself
 

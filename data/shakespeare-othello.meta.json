@@ -16,7 +16,7 @@
    "wiki": "Emilia (Othello)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",
@@ -39,7 +39,7 @@
    "wiki": "Brabantio",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 26,
+    "lookAlikes": 35,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -62,7 +62,7 @@
    "wiki": "Michael Cassio",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -85,7 +85,7 @@
    "wiki": "Desdemona",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -108,7 +108,7 @@
    "wiki": "Emilia (Othello)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -127,11 +127,11 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
-     "world": "shakespeare-coriolanus",
-     "story": "Coriolanus",
-     "name": "Valeria",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Lu Ten",
      "tied": 0
     }
    }
@@ -151,7 +151,7 @@
    "wiki": "Iago",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",
@@ -170,7 +170,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",
@@ -191,7 +191,7 @@
    },
    "line": "An official in Cyprus.",
    "signals": {
-    "lookAlikes": 57,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -214,7 +214,7 @@
    "wiki": "Othello (character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-othello",
      "story": "Othello",
@@ -237,7 +237,7 @@
    "wiki": "Roderigo",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 121,
+    "lookAlikes": 161,
     "nearest": {
      "world": "shakespeare-coriolanus",
      "story": "Coriolanus",
