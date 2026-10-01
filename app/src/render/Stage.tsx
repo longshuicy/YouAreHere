@@ -401,7 +401,7 @@ export function Stage({
               setHovered(i);
               onClaim?.(i, query);
             }}
-            strongest={activeNode ? strongestOf(activeNode.i) : null}
+            strongest={activeNode?.isYou ? strongestOf(activeNode.i) : null}
             labelOf={labelOf}
             lit={lit !== null && activeNode !== null && lit.from === activeNode.i}
             onLightStrongest={(on) => {

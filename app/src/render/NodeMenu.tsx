@@ -32,7 +32,9 @@ interface Props {
    * do not offer one. */
   hasFacts: (i: number) => boolean;
   /** The heaviest tie drawn from this node, if it has more than one. Null when
-   * there is nothing to pick between. */
+   * there is nothing to pick between, and on every node but your own: your
+   * ties are always this start's, so the pick never lands under the paper
+   * that hiding the background lays over earlier starts. */
   strongest: StrongestTie | null;
   /** How to write a neighbour on the menu: their name, their monogram, or
    * nothing yet. The menu never learns more about them than the paper shows. */
@@ -311,6 +313,7 @@ export function NodeMenu({
                 gap: 12,
                 width: '100%',
                 padding: '11px 0',
+                borderBottom: factLine || picker ? '1px solid var(--rule)' : 'none',
                 color: 'var(--accent)',
                 textAlign: 'left',
                 whiteSpace: 'nowrap',
