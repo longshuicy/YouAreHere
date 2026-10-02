@@ -715,10 +715,21 @@ export function Experiment() {
     // is a picture of when the list was sorted rather than of when anything
     // happened. Crossings keep their places and the remainder is sampled at an
     // even stride across the whole of it.
-    const room = Math.max(0, MARK_LIMIT - lit.length);
-    const stride = rest2.length > room ? Math.ceil(rest2.length / Math.max(room, 1)) : 1;
-    const thinned = room === 0 ? [] : rest2.filter((_, i) => i % stride === 0).slice(0, room);
-    return [...lit, ...thinned].sort((a, b) => a.year - b.year);
+    /** Keep at most `n`, spread across the whole of the list rather than taken
+     * off one end of it. */
+    const spread = <T,>(list: T[], n: number): T[] => {
+      if (n <= 0) return [];
+      if (list.length <= n) return list;
+      const step = list.length / n;
+      return Array.from({ length: n }, (_, i) => list[Math.floor(i * step)]);
+    };
+    // Crossings are thinned too. They were exempt, which is fine for somebody
+    // with two of them and ruinous for somebody who has spent seven hundred
+    // years meeting outsiders: the whole rail went red, which is a texture and
+    // not a set of marks.
+    const keptLit = spread(lit, MARK_LIMIT);
+    const thinned = spread(rest2, MARK_LIMIT - keptLit.length);
+    return [...keptLit, ...thinned].sort((a, b) => a.year - b.year);
   }, [yourEventsAll, world, you]);
 
   /**
@@ -1045,7 +1056,7 @@ export function Experiment() {
             >
               {ended ? <AgainGlyph /> : running ? <PauseGlyph /> : <PlayGlyph />}
             </button>
-            {ended && <span className="mono xp-label">Run again</span>}
+
             {!ended && (
               <button
                 type="button"
@@ -1076,6 +1087,15 @@ export function Experiment() {
                 goToYear(Math.max(replayFloor, Math.min(liveYear, shownYear + d)));
               }}
             >
+              {/* What the run no longer remembers. Without it the knob simply
+                  stopped halfway along a thousand-year run and read as stuck. */}
+              {replayFloor > 0 && (
+                <span
+                  className="xp-track-gone"
+                  style={{ width: `${(replayFloor / Math.max(params.years, 1)) * 100}%` }}
+                  title={`Years before ${replayFloor} are no longer kept`}
+                />
+              )}
               <span className="xp-track-done" style={{ width: `${progress * 100}%` }} />
               {/* One mark for each year something happened to the person being
                   followed: their life, drawn along the run's own timeline. */}
@@ -1113,19 +1133,6 @@ export function Experiment() {
                 </button>
               ))}
             </div>
-            )}
-            {ended && (
-              <button
-                type="button"
-                className="mono xp-link"
-                onClick={() => {
-                  setStarted(false);
-                  setPanel('steps');
-                  setRunId((r) => r + 1);
-                }}
-              >
-                Change settings
-              </button>
             )}
           </div>
           <div className="xp-transport-note">
@@ -1771,8 +1778,10 @@ function Reading(props: {
     <div className="xp-reading">
       <div className="xp-reading-head">
         <span className="mono xp-label">Following</span>
+        {/* The way back to setting up, which is also the way to somebody else:
+            the column you return to is where both are decided. */}
         <button type="button" className="mono xp-link quiet" onClick={props.onSomeoneElse}>
-          Someone else
+          Change settings
         </button>
       </div>
       <div className="xp-reading-name">{world.name[you]}</div>

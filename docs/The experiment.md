@@ -312,6 +312,10 @@ about seventy kilobytes a year, in a ring two hundred and forty years deep — s
 megabytes at most, allocated as the run reaches each year. A longer run quietly loses its
 oldest years and the scrubber's left end moves with them.
 
+The scrubber's reach is drawn on the rail, as a dashed stretch at the left standing for
+the years the run no longer remembers. A knob that simply stops halfway along a
+thousand-year run reads as a broken control rather than as a bounded memory.
+
 The ledger has a horizon of its own. At the default settings the fifty-two worlds produce
 around two and a half thousand formings and cuttings a year, so six hundred thousand
 entries is about the same two hundred and forty years — the two agree on purpose, and the
@@ -399,7 +403,9 @@ solid red bar — a texture, which says less than three marks would. Ties that c
 get the room first, because those are what this experiment is about, and the rest are
 sampled at an even stride across the whole life rather than taken off the end of a
 newest-first list — which put every mark inside the last stretch of the rail and left the
-rest of it blank.
+rest of it blank. The crossings are sampled too: exempting them is fine for somebody with
+two of them and ruinous for somebody who has spent seven hundred years meeting outsiders,
+whose rail went solid red.
 
 A fading takes at most three of the story's lines for the same reason. Somebody with
 seventy ties has seventy of them waiting, and a story that is nothing but friendships
