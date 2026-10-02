@@ -32,6 +32,7 @@ import { blurbFor, familiarityFor, unscoredWorlds } from './data/worlds';
 import { KeyOverlay } from './render/KeyOverlay';
 import { useRoute } from './engine/route';
 import { Gallery } from './gallery/Gallery';
+import { Experiment } from './experiment/Experiment';
 import { ColdOpen } from './screens/ColdOpen';
 import { ChooseWorld } from './screens/ChooseWorld';
 import { Explore } from './screens/Explore';
@@ -99,7 +100,7 @@ export default function App() {
    * outside — or the back button leaving one — behaves the way any other page
    * on the web does. A running puzzle never appears here; see `Route`. */
   const { route, navigate } = useRoute();
-  const showGallery = route.screen !== 'game';
+  const showGallery = route.screen !== 'game' && route.screen !== 'experiment';
   /** The world chooser, and which world it is currently fetching. `choosing`
    * is separate from the session phase because it replaces the screen rather
    * than following it — there is no session for the chosen world yet, and Back
@@ -410,6 +411,12 @@ export default function App() {
     }
     return out;
   }, [boot, residences]);
+
+  // Before the boot gates: the experiment fetches its own six worlds and needs
+  // nothing the game's session boot provides.
+  if (route.screen === 'experiment') {
+    return <Experiment onExit={() => navigate({ screen: 'game' })} />;
+  }
 
   if (boot.status === 'loading') {
     return <div style={{ padding: 48 }}>Loading…</div>;

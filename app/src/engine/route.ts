@@ -13,6 +13,7 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react';
  */
 export type Route =
   | { screen: 'game' }
+  | { screen: 'experiment' }
   | { screen: 'gallery' }
   | { screen: 'gallery-world'; worldId: string }
   | { screen: 'gallery-character'; worldId: string; i: number };
@@ -25,6 +26,7 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
 function parsePath(pathname: string): Route {
   const path = pathname.startsWith(BASE) ? pathname.slice(BASE.length) : pathname;
   const parts = path.split('/').filter(Boolean);
+  if (parts[0] === 'experiment') return { screen: 'experiment' };
   if (parts[0] !== 'gallery') return { screen: 'game' };
   const worldId = parts[1];
   if (!worldId) return { screen: 'gallery' };
@@ -38,6 +40,8 @@ function parsePath(pathname: string): Route {
 
 function pathFor(route: Route): string {
   switch (route.screen) {
+    case 'experiment':
+      return `${BASE}/experiment`;
     case 'gallery':
       return `${BASE}/gallery`;
     case 'gallery-world':

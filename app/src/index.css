@@ -806,3 +806,195 @@ button {
     display: none !important;
   }
 }
+
+/* ── The experiment ──────────────────────────────────────────────────────────
+   Prototype chrome. Same register as the rest of the app — tracked uppercase
+   mono over hairline rules, nothing boxed — but deliberately plain: this
+   surface exists to find out whether the simulation shows anything, and
+   dressing it before that is known would be dressing a guess. */
+
+.xp {
+  position: fixed;
+  inset: 0;
+  background: var(--paper);
+  overflow: hidden;
+}
+
+.xp-field {
+  /* Inset by the two panels rather than full-bleed. The design's instinct is a
+     full-bleed graph with chrome floating over it, and that is right once the
+     view can be panned; until then a world fitted underneath an opaque panel is
+     simply a world nobody can see. */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 268px;
+  right: 268px;
+}
+
+.xp-field circle {
+  cursor: crosshair;
+}
+
+.xp-panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 268px;
+  padding: 24px 20px 40px;
+  overflow-y: auto;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(3px);
+}
+
+.xp-left {
+  left: 0;
+  border-right: 1px solid var(--rule);
+}
+
+.xp-right {
+  right: 0;
+  border-left: 1px solid var(--rule);
+}
+
+.xp-title {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 14px 0 6px;
+}
+
+.xp-note {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--body);
+  margin: 0 0 16px;
+}
+
+.xp-group {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  margin: 22px 0 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.xp-label {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--annotation);
+}
+
+.xp-value {
+  font-size: 10px;
+  color: var(--ink);
+}
+
+.xp-slider {
+  display: block;
+  margin: 0 0 10px;
+}
+
+.xp-slider-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.xp-slider input[type='range'] {
+  width: 100%;
+  height: 14px;
+  margin: 2px 0 0;
+  accent-color: var(--accent);
+  background: transparent;
+}
+
+.xp-link,
+.xp-toggle {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--leader);
+  padding: 2px 0;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  cursor: pointer;
+}
+
+.xp-link:hover,
+.xp-toggle:hover,
+.xp-link.on {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.xp-toggle.on {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
+.xp-transport {
+  display: flex;
+  gap: 14px;
+  margin: 14px 0 12px;
+}
+
+.xp-figure {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.xp-figure-value {
+  font-size: 11px;
+  color: var(--ink);
+}
+
+.xp-figure.big .xp-figure-value {
+  font-size: 19px;
+  color: var(--accent);
+}
+
+.xp-world {
+  display: grid;
+  grid-template-columns: 1fr 54px 30px;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.xp-bar {
+  display: block;
+  height: 3px;
+  background: var(--rule);
+}
+
+.xp-bar-fill {
+  display: block;
+  height: 100%;
+}
+
+.xp-hover {
+  margin-top: 22px;
+  padding-top: 10px;
+  border-top: 1px solid var(--ink);
+}
+
+.xp-hover-name {
+  font-family: var(--serif);
+  font-size: 15px;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
