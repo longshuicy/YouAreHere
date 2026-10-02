@@ -14,7 +14,7 @@
  * The chrome floats. The field is full-bleed and everything else sits over it
  * in four places, in strict order of how often a visitor needs it:
  *
- *   the rail      play, step, the day — touched constantly, never scrolls away
+ *   the rail      play, step, the year — touched constantly, never scrolls away
  *   top right     one number, its history, and whether the run is growing
  *   bottom left   who you woke as, and what is happening to them
  *   the stacks    one drawer at a time: the population, the rule, the worlds
@@ -29,7 +29,7 @@ import { fetchIndex, fetchUniverse } from '../data/loader';
 import { mergeWorlds, worldHomes, type MergedWorld } from './world';
 import {
   ALPHA_KICK,
-  DAYS_PER_SECOND,
+  YEARS_PER_SECOND,
   LAYOUT_SYNC_ROUNDS,
   LOG_LIMIT,
   MAX_STEPS_PER_FRAME,
@@ -38,6 +38,7 @@ import {
   DEFAULT_PARAMS,
   historySince,
   initState,
+  earliestReplayYear,
   replayAt,
   step,
   type LogEvent,
@@ -46,7 +47,7 @@ import {
 } from './sim';
 import { measure, type LiveMetrics } from './metrics';
 import { Field, type Positions, type TieView } from './Field';
-import { capture, earliestDay, emptySnapshots, positionsAt, type Snapshots } from './snapshots';
+import { capture, earliestYear, emptySnapshots, positionsAt, type Snapshots } from './snapshots';
 import type { FromWorker, ToWorker } from './layout.worker';
 import type { Universe } from '../types';
 
@@ -54,7 +55,7 @@ function randomSeed(): number {
   return 1 + Math.floor(Math.random() * 99998);
 }
 
-/** How far back the plots reconstruct. The thread shows `LOG_LIMIT` days; the
+/** How far back the plots reconstruct. The thread shows `LOG_LIMIT` years; the
  * lines want the whole life the ledger still holds. */
 const LIFE_LIMIT = 20_000;
 
@@ -62,6 +63,8 @@ const LIFE_LIMIT = 20_000;
  * A thousand ticks on one bar is a texture, not a set of marks. */
 const MARK_LIMIT = 24;
 const STORY_LIMIT = 40;
+/** How many of the story's lines a fading may take. */
+const FADE_LINES = 3;
 
 export type PresetId = 'close' | 'balanced' | 'far';
 
@@ -112,7 +115,7 @@ export const PRESETS: {
   },
 ];
 
-/** How fast the days go by, as multiples of the base rate. */
+/** How fast the years go by, as multiples of the base rate. */
 const SPEEDS = [1, 4, 16];
 
 /**
@@ -135,10 +138,10 @@ const KNOBS: {
   { key: 'd0', label: 'When a life feels full', sym: 'Saturation · d₀', min: 5, max: 100, step: 1, digits: 0 },
   { key: 'lambda', label: 'Bonus for shared friends', sym: 'Triadic bonus · λ', min: 0, max: 1.5, step: 0.05, digits: 2 },
   { key: 'alpha', label: 'Pull of the well connected', sym: 'Preferential attachment · α', min: 0, max: 2, step: 0.05, digits: 2 },
-  { key: 'decay', label: 'How fast unused ties fade', sym: 'Decay per day', min: 0, max: 3, step: 0.1, digits: 1 },
+  { key: 'decay', label: 'How fast unused ties fade', sym: 'Decay per year', min: 0, max: 3, step: 0.1, digits: 1 },
 ];
 
-/** One round, as the figures read it. Kept so a replayed day can be given the
+/** One round, as the figures read it. Kept so a replayed year can be given the
  * two rates it had, which are properties of a round rather than of a graph. */
 interface Sample {
   loyalty: number;
@@ -191,8 +194,8 @@ export function Experiment() {
    */
   const [panel, setPanel] = useState<'steps' | 'worlds' | 'conditions'>('steps');
   const [preset, setPreset] = useState<PresetId>('balanced');
-  /** How fast the days go by. It changes how fast you watch, never what
-   * happens — see `DAYS_PER_SECOND`. */
+  /** How fast the years go by. It changes how fast you watch, never what
+   * happens — see `YEARS_PER_SECOND`. */
   const [speed, setSpeed] = useState(4);
   /** The figures behind the three on the shelf. */
   const [figuresOpen, setFiguresOpen] = useState(false);
@@ -202,7 +205,7 @@ export function Experiment() {
   /** The world a loyalty row is pointing at. */
   const [lit, setLit] = useState<number | null>(null);
   /**
-   * The day being replayed, or null for the live present.
+   * The year being replayed, or null for the live present.
    *
    * Scrubbing is strictly a way of looking: the simulation is not rewound and
    * nothing is discarded. Pressing play puts the view back on the head and
@@ -210,10 +213,10 @@ export function Experiment() {
    */
   const [scrub, setScrub] = useState<number | null>(null);
   /**
-   * The figures for the day being replayed.
+   * The figures for the year being replayed.
    *
    * Measured from the replayed graph rather than carried forward from the live
-   * one: a panel that reads "day 3" beside today's tie count is worse than no
+   * one: a panel that reads "year 3" beside today's tie count is worse than no
    * panel. Only the two realised rates come from the stored series, because a
    * rate is a thing that happened during a round rather than a property of the
    * graph the round left behind.
@@ -427,11 +430,11 @@ export function Experiment() {
     setTick((t) => t + 1);
   }, [follow]);
 
-  /** One day, by hand. */
+  /** One year, by hand. */
   function advance() {
     const state = stateRef.current;
     if (!state || !world) return;
-    if (scrub !== null) goToDay(null);
+    if (scrub !== null) goToYear(null);
     setRunning(false);
     step(state, world, paramsRef.current);
     if (posRef.current) capture(snapsRef.current, state.round, posRef.current);
@@ -458,7 +461,7 @@ export function Experiment() {
         // Speed multiplies the rate and nothing else: the same seed gives the
         // same run at any of them, because it changes how fast you watch and
         // never what happens.
-        const interval = 1000 / (DAYS_PER_SECOND * speedRef.current);
+        const interval = 1000 / (YEARS_PER_SECOND * speedRef.current);
         let steps = 0;
         let done = false;
         // The cap is what stops a backgrounded tab coming back and running four
@@ -475,7 +478,7 @@ export function Experiment() {
           // inside one frame share the positions the layout had at the time,
           // which is not an approximation — the layout genuinely had not moved.
           if (posRef.current) capture(snapsRef.current, state.round, posRef.current);
-          if (state.round >= paramsRef.current.days) {
+          if (state.round >= paramsRef.current.years) {
             done = true;
             break;
           }
@@ -506,7 +509,7 @@ export function Experiment() {
   }, [world, query]);
 
   // A reading taken from a different population is not a reading of this one,
-  // and while a past day is on screen the live one is not a reading of it
+  // and while a past year is on screen the live one is not a reading of it
   // either.
   const live = reading && reading.of === world ? reading.m : null;
   const metrics = scrub !== null ? replayReading : live;
@@ -519,7 +522,7 @@ export function Experiment() {
    * The graph the person's panel is read from.
    *
    * The same one the drawing uses, so scrubbing back shows who they knew that
-   * day rather than who they know now beside a heading that says otherwise.
+   * year rather than who they know now beside a heading that says otherwise.
    */
   const youAdj = viewStateRef.current?.adj ?? state?.adj;
   const yourTies =
@@ -558,19 +561,19 @@ export function Experiment() {
   }, [you, tick]);
 
   /**
-   * Their life up to the day on screen.
+   * Their life up to the year on screen.
    *
    * Replaying one person costs nothing that was not already here: their whole
-   * history is a list of dated events, so a past day is that list with the
+   * history is a list of dated events, so a past year is that list with the
    * later dates dropped. Every entry is newest-first, so the cut is a prefix.
    */
   const yourEvents = useMemo(
-    () => (scrub === null ? yourEventsAll : yourEventsAll.filter((e) => e.day <= scrub)),
+    () => (scrub === null ? yourEventsAll : yourEventsAll.filter((e) => e.year <= scrub)),
     [yourEventsAll, scrub],
   );
 
   /**
-   * Your ties and how many of them are from elsewhere, every day, rebuilt
+   * Your ties and how many of them are from elsewhere, every year, rebuilt
    * backwards.
    *
    * Nothing records this as it happens, and nothing needs to: FORM and CUT are
@@ -583,8 +586,8 @@ export function Experiment() {
   const yourLife = useMemo(() => {
     if (you === null || !state || !world) return { ties: [] as number[], home: [] as number[] };
     // Walked backwards from what is true now, so this is the live graph even
-    // while a past day is on screen; the slice at the end is what makes it that
-    // day's.
+    // while a past year is on screen; the slice at the end is what makes it that
+    // year's.
     const today = state.round;
     let degree = state.adj[you].size;
     let outside = 0;
@@ -592,13 +595,13 @@ export function Experiment() {
 
     const ties = new Array<number>(today + 1).fill(0);
     const home = new Array<number>(today + 1).fill(1);
-    let day = today;
+    let year = today;
     for (const e of yourEventsAll) {
-      // Everything from this event's day up to the last one we filled held the
+      // Everything from this event's year up to the last one we filled held the
       // values we are carrying.
-      for (; day >= e.day; day--) {
-        ties[day] = degree;
-        home[day] = degree > 0 ? (degree - outside) / degree : 1;
+      for (; year >= e.year; year--) {
+        ties[year] = degree;
+        home[year] = degree > 0 ? (degree - outside) / degree : 1;
       }
       const cross = world.world[e.other] !== world.world[you];
       // FADE is a strength crossing a mark, not a tie appearing or vanishing —
@@ -614,13 +617,13 @@ export function Experiment() {
         if (cross) outside++;
       }
     }
-    for (; day >= 0; day--) {
-      ties[day] = degree;
-      home[day] = degree > 0 ? (degree - outside) / degree : 1;
+    for (; year >= 0; year--) {
+      ties[year] = degree;
+      home[year] = degree > 0 ? (degree - outside) / degree : 1;
     }
     // Their two lines stop where the view does, for the same reason the
     // headline's does: the drawing and the trace should be telling the same
-    // story about the same day.
+    // story about the same year.
     if (scrub !== null) {
       const to = Math.min(scrub, ties.length - 1) + 1;
       return { ties: ties.slice(0, to), home: home.slice(0, to) };
@@ -630,42 +633,42 @@ export function Experiment() {
   }, [you, tick, world, scrub]);
 
   /**
-   * Your life so far, by day.
+   * Your life so far, by year.
    *
    * Maintenance is counted rather than listed: a character with sixty ties
    * strengthens about ten of them a round, and flat, that buries the two
    * entries that change anything.
    */
-  const yourDays: { day: number; events: LogEvent[]; kept: number }[] = [];
+  const yourDays: { year: number; events: LogEvent[]; kept: number }[] = [];
   if (you !== null && state) {
-    const byDay = new Map<number, { day: number; events: LogEvent[]; kept: number }>();
+    const byDay = new Map<number, { year: number; events: LogEvent[]; kept: number }>();
     const order: number[] = [];
     for (const e of yourEvents.slice(0, LOG_LIMIT)) {
-      let d = byDay.get(e.day);
+      let d = byDay.get(e.year);
       if (!d) {
-        d = { day: e.day, events: [], kept: 0 };
-        byDay.set(e.day, d);
-        order.push(e.day);
+        d = { year: e.year, events: [], kept: 0 };
+        byDay.set(e.year, d);
+        order.push(e.year);
       }
       d.events.push(e);
     }
     for (const k of state.kept) {
-      const d = byDay.get(k.day);
+      const d = byDay.get(k.year);
       if (d) d.kept = k.n;
       else {
-        byDay.set(k.day, { day: k.day, events: [], kept: k.n });
-        order.push(k.day);
+        byDay.set(k.year, { year: k.year, events: [], kept: k.n });
+        order.push(k.year);
       }
     }
     order.sort((a, b) => b - a);
-    for (const day of order) yourDays.push(byDay.get(day)!);
+    for (const year of order) yourDays.push(byDay.get(year)!);
   }
 
-  const liveDay = live ? live.round : 0;
+  const liveYear = live ? live.round : 0;
   /** The headline's line stops where the view is, so the drawing and the trace
    * are telling the same story. */
   /**
-   * One mark per day something happened to the person being followed.
+   * One mark per year something happened to the person being followed.
    *
    * Their life, drawn along the run's own timeline — which is the thing a
    * progress bar is otherwise silent about. Taken from the ledger, so it costs
@@ -683,7 +686,7 @@ export function Experiment() {
           : `${name} fell below half strength`;
     };
     // Crossings first. At a lively setting one character can have a few hundred
-    // events over two hundred days, and all of them ticked at once is a solid
+    // events over two hundred years, and all of them ticked at once is a solid
     // red bar — a texture, which says less than three marks would. The ones
     // that are actually about this experiment are the ties that cross a wall,
     // so those get the room and the rest fill whatever is left.
@@ -693,14 +696,29 @@ export function Experiment() {
       (world.world[e.other] !== world.world[you] ? crossing : rest).push(e);
     }
     const seen = new Set<number>();
-    const out: { day: number; label: string }[] = [];
-    for (const e of [...crossing, ...rest]) {
-      if (out.length >= MARK_LIMIT) break;
-      if (seen.has(e.day)) continue;
-      seen.add(e.day);
-      out.push({ day: e.day, label: say(e) });
+    const lit: { year: number; label: string }[] = [];
+    const rest2: { year: number; label: string }[] = [];
+    for (const e of crossing) {
+      if (seen.has(e.year)) continue;
+      seen.add(e.year);
+      lit.push({ year: e.year, label: say(e) });
     }
-    return out.sort((a, b) => a.day - b.day);
+    for (const e of rest) {
+      if (seen.has(e.year)) continue;
+      seen.add(e.year);
+      rest2.push({ year: e.year, label: say(e) });
+    }
+    // Thinned by spreading, not by taking the newest.
+    //
+    // Taking the first two dozen off a newest-first list put every mark inside
+    // the last stretch of the rail and left the rest of the life blank, which
+    // is a picture of when the list was sorted rather than of when anything
+    // happened. Crossings keep their places and the remainder is sampled at an
+    // even stride across the whole of it.
+    const room = Math.max(0, MARK_LIMIT - lit.length);
+    const stride = rest2.length > room ? Math.ceil(rest2.length / Math.max(room, 1)) : 1;
+    const thinned = room === 0 ? [] : rest2.filter((_, i) => i % stride === 0).slice(0, room);
+    return [...lit, ...thinned].sort((a, b) => a.year - b.year);
   }, [yourEventsAll, world, you]);
 
   /**
@@ -722,52 +740,67 @@ export function Experiment() {
     // mark and allowed to fade again crosses it twice, and the same sentence
     // about the same friendship twice in a list is not two pieces of news.
     const faded = new Set<number>();
+    let fades = 0;
     return yourEvents
       .filter((e) => {
         if (e.action !== 'FADE') return true;
         if (!alive?.has(e.other) || faded.has(e.other)) return false;
         faded.add(e.other);
-        return true;
+        // A handful at most. Somebody with seventy ties has seventy of these
+        // waiting, and a story that is nothing but friendships going quiet is
+        // not the story of a wall coming down. The meetings and the partings
+        // are what happened; a fading is a note in the margin.
+        return ++fades <= FADE_LINES;
       })
       .slice(0, STORY_LIMIT)
       .map((e) => {
         const name = world.name[e.other];
         const away = world.world[e.other] !== world.world[you];
         const from = away ? `, from ${world.worldTitles[world.world[e.other]]}` : '';
+        // Split around the name rather than written as one string, so the
+        // person can carry the line and the rest of the sentence can be the
+        // frame around them.
         return {
-          day: e.day,
-          text:
-            e.action === 'FORM'
-              ? `Met ${name}${from}.`
-              : e.action === 'CUT'
-                ? `Lost touch with ${name}.`
-                : `${name} fell below half strength.`,
+          year: e.year,
+          name,
+          before: e.action === 'FORM' ? 'Met ' : e.action === 'CUT' ? 'Lost touch with ' : '',
+          after: e.action === 'FADE' ? ' fell below half strength.' : `${from}.`,
         };
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [yourEvents, world, you, tick]);
 
-  const shownDay = scrub ?? liveDay;
-  /** How far back the scrubber reaches: the oldest day still held in pictures. */
-  const replayFloor = started ? earliestDay(snapsRef.current) : 0;
-  const span = Math.max(params.days, 1);
-  const progress = Math.min(1, shownDay / span);
+  const shownYear = scrub ?? liveYear;
+  /** How far back the scrubber reaches: the oldest year still held in pictures. */
+  /**
+   * How far back the scrubber reaches.
+   *
+   * Two horizons, and the nearer one wins: the oldest year still held in
+   * pictures, and the oldest the ledger can still replay the ties for. A
+   * scrubber that offered a year neither could describe would simply refuse to
+   * move when it got there.
+   */
+  const replayFloor = started
+    ? Math.max(earliestYear(snapsRef.current), stateRef.current ? earliestReplayYear(stateRef.current) : 0)
+    : 0;
+  const span = Math.max(params.years, 1);
+  const progress = Math.min(1, shownYear / span);
 
 
-  /** Drag anywhere along the track to go to that day. */
+  /** Drag anywhere along the track to go to that year. */
   function beginScrub(event: React.PointerEvent) {
     const track = trackRef.current;
     const st = stateRef.current;
     if (!track || !st || st.round === 0) return;
-    event.currentTarget.setPointerCapture(event.pointerId);
-    const toDay = (clientX: number) => {
+    event.preventDefault();
+    const toYear = (clientX: number) => {
       const rect = track.getBoundingClientRect();
       const t = (clientX - rect.left) / Math.max(rect.width, 1);
-      const day = Math.round(t * Math.max(paramsRef.current.days, 1));
-      return Math.max(earliestDay(snapsRef.current), Math.min(st.round, day));
+      const year = Math.round(t * Math.max(paramsRef.current.years, 1));
+      return Math.max(earliestYear(snapsRef.current), Math.min(st.round, year));
     };
-    goToDay(toDay(event.clientX));
-    const move = (e: PointerEvent) => goToDay(toDay(e.clientX));
+    goToYear(toYear(event.clientX));
+    const move = (e: PointerEvent) => goToYear(toYear(e.clientX));
     const up = () => {
       window.removeEventListener('pointermove', move);
       window.removeEventListener('pointerup', up);
@@ -777,33 +810,33 @@ export function Experiment() {
   }
 
   /**
-   * Put the view on a past day, or back on the present.
+   * Put the view on a past year, or back on the present.
    *
    * Replaying is a view, not a rewind: the live state is untouched, so coming
    * back is free and nothing about the run depends on whether anyone looked.
    */
-  function goToDay(day: number | null) {
+  function goToYear(year: number | null) {
     const st = stateRef.current;
     if (!st || !world) return;
-    if (day === null || day >= st.round) {
+    if (year === null || year >= st.round) {
       setScrub(null);
       setReplayReading(null);
       viewStateRef.current = st;
       viewPosRef.current = posRef.current;
       return;
     }
-    const past = replayAt(world, st, day);
-    const where = positionsAt(snapsRef.current, day);
+    const past = replayAt(world, st, year);
+    const where = positionsAt(snapsRef.current, year);
     // Either half missing would be a confident drawing of something that never
     // happened, so the scrubber simply will not go there.
     if (!past || !where) return;
     setRunning(false);
-    setScrub(day);
+    setScrub(year);
     viewStateRef.current = past;
     viewPosRef.current = where;
 
-    const sample = historyRef.current[Math.min(day, historyRef.current.length - 1)];
-    const m = measure({ ...st, adj: past.adj, round: day }, world);
+    const sample = historyRef.current[Math.min(year, historyRef.current.length - 1)];
+    const m = measure({ ...st, adj: past.adj, round: year }, world);
     setReplayReading({ ...m, formed: sample?.formed ?? 0, cut: sample?.cut ?? 0 });
   }
 
@@ -838,8 +871,8 @@ export function Experiment() {
   if (error) return <p className="xp-note">{error}</p>;
 
   const current = PRESETS.find((p) => p.id === preset) ?? PRESETS[1];
-  /** The run has reached its last day; play offers another rather than more. */
-  const ended = started && liveDay >= params.days;
+  /** The run has reached its last year; play offers another rather than more. */
+  const ended = started && liveYear >= params.years;
   const youWorld = you !== null && world ? world.worldTitles[world.world[you]] : null;
 
   return (
@@ -855,7 +888,7 @@ export function Experiment() {
           label="Cross-world ties"
           shown={metrics ? `${(metrics.crossShare * 100).toFixed(1)}%` : '—'}
         />
-        {/* Components, said as what they are: at day zero every world is its
+        {/* Components, said as what they are: at year zero every world is its
             own island, and the number falling is the walls coming down. */}
         <Headline
           label="Worlds apart"
@@ -1003,7 +1036,7 @@ export function Experiment() {
                   return;
                 }
                 if (scrub !== null) {
-                  goToDay(null);
+                  goToYear(null);
                   setRunning(true);
                   return;
                 }
@@ -1017,45 +1050,51 @@ export function Experiment() {
               <button
                 type="button"
                 className="xp-round"
-                aria-label="Step forward one day"
+                aria-label="Step forward one year"
                 onClick={advance}
               >
                 <StepGlyph />
               </button>
             )}
             <div className="xp-dayread mono">
-              Day <span className="xp-dayread-n">{shownDay}</span> / {params.days}
+              Year <span className="xp-dayread-n">{shownYear}</span> / {params.years}
             </div>
             <span
               className="xp-track"
               ref={trackRef}
               role="slider"
               tabIndex={0}
-              aria-label="Day"
+              aria-label="Year"
               aria-valuemin={replayFloor}
-              aria-valuemax={liveDay}
-              aria-valuenow={shownDay}
+              aria-valuemax={liveYear}
+              aria-valuenow={shownYear}
               onPointerDown={beginScrub}
               onKeyDown={(e) => {
                 const d = e.key === 'ArrowLeft' ? -1 : e.key === 'ArrowRight' ? 1 : 0;
                 if (d === 0) return;
                 e.preventDefault();
-                goToDay(Math.max(replayFloor, Math.min(liveDay, shownDay + d)));
+                goToYear(Math.max(replayFloor, Math.min(liveYear, shownYear + d)));
               }}
             >
               <span className="xp-track-done" style={{ width: `${progress * 100}%` }} />
-              {/* One mark for each day something happened to the person being
+              {/* One mark for each year something happened to the person being
                   followed: their life, drawn along the run's own timeline. */}
+              {/*
+                * Marks, not buttons.
+                *
+                * They were buttons that swallowed the pointer so a click could
+                * jump to that year — and two dozen twelve-pixel hit targets
+                * strung along a track is a fence: most of the rail could not be
+                * grabbed at all, which is why dragging back did nothing. The
+                * years they mark are all reachable by dragging to them, and the
+                * story lines below jump to them by name.
+                */}
               {marks.map((m) => (
-                <button
-                  key={`${m.day}-${m.label}`}
-                  type="button"
+                <span
+                  key={`${m.year}-${m.label}`}
                   className="xp-mark"
-                  style={{ left: `${(m.day / Math.max(params.days, 1)) * 100}%` }}
-                  aria-label={`Day ${m.day}: ${m.label}`}
-                  title={`Day ${m.day} · ${m.label}`}
-                  onPointerDown={(e) => e.stopPropagation()}
-                  onClick={() => goToDay(m.day)}
+                  style={{ left: `${(m.year / Math.max(params.years, 1)) * 100}%` }}
+                  title={`Year ${m.year} · ${m.label}`}
                 />
               ))}
               <span className="xp-track-knob" style={{ left: `${progress * 100}%` }} />
@@ -1075,17 +1114,19 @@ export function Experiment() {
               ))}
             </div>
             )}
-            <button
-              type="button"
-              className="mono xp-link"
-              onClick={() => {
-                setStarted(false);
-                setPanel('steps');
-                setRunId((r) => r + 1);
-              }}
-            >
-              Change settings
-            </button>
+            {ended && (
+              <button
+                type="button"
+                className="mono xp-link"
+                onClick={() => {
+                  setStarted(false);
+                  setPanel('steps');
+                  setRunId((r) => r + 1);
+                }}
+              >
+                Change settings
+              </button>
+            )}
           </div>
           <div className="xp-transport-note">
             {ended ? (
@@ -1093,7 +1134,7 @@ export function Experiment() {
             ) : (
               metrics && (
                 <span className="mono xp-label">
-                  Today +{metrics.formed} formed · −{metrics.cut} cut
+                  This year +{metrics.formed} formed · −{metrics.cut} cut
                 </span>
               )
             )}
@@ -1106,7 +1147,7 @@ export function Experiment() {
         <div className="xp-caption mono xp-label">
           {you === null
             ? 'Each cluster is one world · hover to name it · click anyone to follow them'
-            : `Nothing moves until you take the walls down · day 0 of ${params.days}`}
+            : `Nothing moves until you take the walls down · year 0 of ${params.years}`}
         </div>
       )}
 
@@ -1129,7 +1170,7 @@ export function Experiment() {
               setPanel('steps');
               setRunning(false);
             }}
-            onGoToDay={goToDay}
+            onGoToYear={goToYear}
           />
         ) : panel === 'worlds' ? (
           <WorldPicker
@@ -1397,10 +1438,11 @@ function Steps(props: {
                   <button
                     key={i}
                     type="button"
-                    className="mono xp-link"
+                    className="xp-match"
                     onClick={() => props.onPickMatch(i)}
                   >
-                    {world.name[i]} · {world.worldTitles[world.world[i]]}
+                    <span className="xp-match-name">{world.name[i]}</span>
+                    <span className="mono xp-match-world">{world.worldTitles[world.world[i]]}</span>
                   </button>
                 ))}
               </div>
@@ -1429,7 +1471,7 @@ function Steps(props: {
               <p className="xp-blurb">{chosenPreset.blurb}</p>
               <button type="button" className="xp-finetune" onClick={props.onConditions}>
                 <span className="mono xp-label">
-                  {params.days} days · seed {props.seed}
+                  {params.years} years · seed {props.seed}
                 </span>
                 <span className="mono xp-link xp-with-glyph">
                   Fine-tune
@@ -1633,12 +1675,12 @@ function Conditions(props: {
           <h3 className="mono xp-group">The run</h3>
           <Dial
             label="Length"
-            shown={`${params.days} days`}
-            value={params.days}
+            shown={`${params.years} years`}
+            value={params.years}
             min={50}
-            max={400}
+            max={1000}
             step={10}
-            onChange={(v) => props.onParams({ ...params, days: v })}
+            onChange={(v) => props.onParams({ ...params, years: v })}
           />
           <div className="xp-seed-row">
             <label className="xp-named grow">
@@ -1656,11 +1698,10 @@ function Conditions(props: {
               className="mono xp-outline"
               onClick={() => props.onSeed(randomSeed())}
             >
-              <DiceGlyph />
               New seed
             </button>
           </div>
-          <p className="xp-note quiet">The same seed replays the same history, tie for tie.</p>
+          <p className="xp-note">The same seed replays the same history, tie for tie.</p>
         </section>
       </div>
 
@@ -1705,10 +1746,10 @@ function Dial(props: {
 /**
  * Who you are following, once the run is going.
  *
- * Two figures with their day-zero values beside them, because the whole point
+ * Two figures with their year-zero values beside them, because the whole point
  * is the difference; then who they know, with the ones from elsewhere marked;
  * then what has happened to them, dated, newest first. Pressing a dated line
- * takes the view to that day.
+ * takes the view to that year.
  */
 function Reading(props: {
   world: MergedWorld | null;
@@ -1718,11 +1759,11 @@ function Reading(props: {
   outside: number;
   startTies: number;
   startOutside: number;
-  story: { day: number; text: string }[];
+  story: { year: number; name: string; before: string; after: string }[];
   peopleOpen: boolean;
   onPeople: () => void;
   onSomeoneElse: () => void;
-  onGoToDay: (day: number) => void;
+  onGoToYear: (year: number) => void;
 }) {
   const { world, you } = props;
   if (!world || you === null) return null;
@@ -1786,13 +1827,17 @@ function Reading(props: {
         )}
         {props.story.map((e, i) => (
           <button
-            key={`${e.day}-${i}`}
+            key={`${e.year}-${i}`}
             type="button"
             className="xp-story-row"
-            onClick={() => props.onGoToDay(e.day)}
+            onClick={() => props.onGoToYear(e.year)}
           >
-            <span className="mono xp-story-day">Day {e.day}</span>
-            <span className="xp-story-text">{e.text}</span>
+            <span className="mono xp-story-year">Year {e.year}</span>
+            <span className="xp-story-text">
+              {e.before}
+              <b>{e.name}</b>
+              {e.after}
+            </span>
           </button>
         ))}
       </div>
@@ -1837,14 +1882,3 @@ function ChevronGlyph({ back }: { back?: boolean }) {
   );
 }
 
-function DiceGlyph() {
-  return (
-    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth={1.1} aria-hidden>
-      <rect x="1" y="1" width="10" height="10" rx="2" />
-      <circle cx="4" cy="4" r="0.8" fill="currentColor" />
-      <circle cx="8" cy="8" r="0.8" fill="currentColor" />
-      <circle cx="8" cy="4" r="0.8" fill="currentColor" />
-      <circle cx="4" cy="8" r="0.8" fill="currentColor" />
-    </svg>
-  );
-}

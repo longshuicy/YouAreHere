@@ -121,7 +121,7 @@ Everything a character can do changes the topology or leaves it alone.
 
 ## The round
 
-A round is a day. Every character acts every round; there is no sampling of actors.
+A round is a year. Every character acts every round; there is no sampling of actors.
 
 1. Each character draws **one encounter** from the mix.
 2. If the two are strangers, **both decide independently**. The tie forms only if both
@@ -180,7 +180,7 @@ For an existing tie $(u,v)$ at strength $s$:
 $\tau$ appears in both formation and maintenance, so an unbounded version runs
 away: a densifying graph raises shared-neighbour counts, which raises
 strengthening, which prevents the cuts that would have thinned it. The prototype
-ran exactly that way — mean degree 18.9 to 47.5 in ninety days, one tie cut per
+ran exactly that way — mean degree 18.9 to 47.5 in ninety years, one tie cut per
 round, no equilibrium at any setting. Dividing by $\min(d(u), d(v))$ bounds
 $\tau$ at $1 + \lambda$ however dense the graph becomes, and asks the better
 question: what *share* of my people do we have in common, not how many.
@@ -210,7 +210,7 @@ All live; a change takes effect on the next round.
 | **Tie formation** | formation pressure $p$ · saturation $d_0$ · triadic bonus $\lambda$ · preferential attachment $\alpha$ |
 | **Tie maintenance** | strengthen rate $p_s$ · decay per round · $s_{\text{init}}$ · init clamp $k$ |
 | **Worlds** | which of the fifty-two are in, one by one; all · none |
-| **Run** | seed · length in days · play / pause / step · reset · refit |
+| **Run** | seed · length in years · play / pause / step · reset · refit |
 | **View** | who you are reading over — anyone, by name, or by clicking one · draw all ties, cross-world only, or none · hover a world in the key to light it |
 
 The world controls are a draft until applied; everything else takes effect on the next
@@ -255,7 +255,7 @@ Under that header:
 | **the foot** | a caption before the run; the transport after it |
 | **the column** | setting up, in four steps — and once the walls are down, the reading |
 
-*Worlds apart* is the count of connected components, said as what it means: at day zero
+*Worlds apart* is the count of connected components, said as what it means: at year zero
 every world is its own island and the number is fifty-two, and the number falling is the
 walls coming down.
 
@@ -280,37 +280,42 @@ bonus and preferential attachment where fine-tuning finds them. Every dial behin
 panel.
 
 **The transport is a transport.** A round filled button for play, a round outlined one
-for a single day, the day as a figure, the track, and speed at one, four or sixteen times
+for a single year, the year as a figure, the track, and speed at one, four or sixteen times
 — which changes how fast you watch and never what happens. *Refit* and *what is drawn*
 are not transport, and sit over the map where the thing they change is.
-everything it did and more, so it was a third way of saying "one day at a time".
+everything it did and more, so it was a third way of saying "one year at a time".
 
 ## Going back
 
-The day track is a scrubber. Drag it and the drawing becomes that day's.
+The year track is a scrubber. Drag it and the drawing becomes that year's.
 
 Replaying is a way of looking and never a rewind: the simulation is untouched, nothing is
 discarded, and play puts the view back on the head and carries on from there. Because a
-past day looks exactly like a present one — which is the whole difficulty — it is said
-plainly: the drawing takes an accent frame, a line over it names the day being replayed
-against the day the run has reached, and the figures beside it are measured from the
-replayed graph rather than carried over from the live one. A panel reading "day 3" beside
+past year looks exactly like a present one — which is the whole difficulty — it is said
+plainly: the drawing takes an accent frame, a line over it names the year being replayed
+against the year the run has reached, and the figures beside it are measured from the
+replayed graph rather than carried over from the live one. A panel reading "year 3" beside
 today's tie count is worse than no panel.
 
-Three of the four things a past day needs were already here:
+Three of the four things a past year needs were already here:
 
 | | where it comes from |
 |---|---|
 | **the ties** | replayed from the ledger, which holds every FORM and CUT since the initial condition |
 | **the figures** | measured from that replayed graph, with the two realised rates read off the stored series |
-| **the headline's line** | the series it was already keeping, clipped to the day on screen |
+| **the headline's line** | the series it was already keeping, clipped to the year on screen |
 | **where everyone was** | the one thing nothing else records — see below |
 
 A force layout is iterative, so replaying the same graph does not give back the same
-picture. Positions are therefore kept per day: two Float32Arrays over 8,727 characters,
-about seventy kilobytes a day, in a ring two hundred days deep — fourteen megabytes at
-most, allocated as the run reaches each day. A longer run quietly loses its oldest days
-and the scrubber's left end moves with them.
+picture. Positions are therefore kept per year: two Float32Arrays over 8,727 characters,
+about seventy kilobytes a year, in a ring two hundred and forty years deep — seventeen
+megabytes at most, allocated as the run reaches each year. A longer run quietly loses its
+oldest years and the scrubber's left end moves with them.
+
+The ledger has a horizon of its own. At the default settings the fifty-two worlds produce
+around two and a half thousand formings and cuttings a year, so six hundred thousand
+entries is about the same two hundred and forty years — the two agree on purpose, and the
+scrubber's left end is whichever is nearer, so it never offers a year it cannot show.
 
 Strengths are not replayed at all. Strengthening and decay touch tens of thousands of
 ties a round — seventeen million events over a default run — so recording them is out of
@@ -354,9 +359,9 @@ done as a camera move.
 ### Their story
 
 The person being followed carries a dated list of what has happened to them, in plain
-words — *Met Remus Lupin, from Harry Potter* — and a mark on the day track for each of
-those days, so their life is drawn along the run's own timeline. Pressing a dated line
-takes the view to that day.
+words — *Met Remus Lupin, from Harry Potter* — and a mark on the year track for each of
+those years, so their life is drawn along the run's own timeline. Pressing a dated line
+takes the view to that year.
 
 Three kinds of thing happen to somebody: they meet a person, they lose touch with one,
 and a tie of theirs goes quiet. The first two are the FORM and CUT the ledger already
@@ -368,16 +373,16 @@ went quiet and was later cut is a cut, and at the end of a long run there are en
 fadings to bury every meeting.
 
 The marks are thinned the same way. At a lively setting one character can have several
-hundred events over two hundred days, and all of them ticked at once is a solid red bar —
+hundred events over two hundred years, and all of them ticked at once is a solid red bar —
 a texture, which says less than three marks would. Ties that cross a wall get the room
 first, because those are what this experiment is about.
 
 ### Their story
 
 The person being followed carries a dated list of what has happened to them, in plain
-words — *Met Remus Lupin, from Harry Potter* — and a mark on the day track for each of
-those days, so their life is drawn along the run's own timeline. Pressing a dated line
-takes the view to that day.
+words — *Met Remus Lupin, from Harry Potter* — and a mark on the year track for each of
+those years, so their life is drawn along the run's own timeline. Pressing a dated line
+takes the view to that year.
 
 Three kinds of thing happen to somebody: they meet a person, they lose touch with one, and
 a tie of theirs goes quiet. The first two are the FORM and CUT the ledger already holds.
@@ -389,18 +394,26 @@ was later cut is a cut, and at the end of a long run there are enough fadings to
 meeting.
 
 The marks are thinned on the same principle. At a lively setting one character can have
-several hundred events over two hundred days, and all of them ticked at once is a solid
-red bar — a texture, which says less than three marks would. Ties that cross a wall get
-the room first, because those are what this experiment is about.
+several hundred events over a four hundred year run, and all of them ticked at once is a
+solid red bar — a texture, which says less than three marks would. Ties that cross a wall
+get the room first, because those are what this experiment is about, and the rest are
+sampled at an even stride across the whole life rather than taken off the end of a
+newest-first list — which put every mark inside the last stretch of the rail and left the
+rest of it blank.
+
+A fading takes at most three of the story's lines for the same reason. Somebody with
+seventy ties has seventy of them waiting, and a story that is nothing but friendships
+going quiet is not the story of a wall coming down: the meetings and the partings are what
+happened, and a fading is a note in the margin.
 
 Their history reaches behind the moment you looked, because the experiment keeps every
 FORM and CUT for everyone — about three megabytes as a ring buffer, since the two events
 that change the topology are rare beside maintenance. The log used to belong to whoever
-was being watched, which meant picking someone on day ninety showed an empty panel and
+was being watched, which meant picking someone on year ninety showed an empty panel and
 switching away threw the first one's life out. STRENGTHEN stays out of the ledger for the
 same reason it stays out of the reading: a character with sixty ties strengthens about ten
 of them a round, so keeping them would be keeping almost nothing else. It is counted
-instead, one line a day, and only while someone is being watched.
+instead, one line a year, and only while someone is being watched.
 
 **The names are not printed on the drawing.** Fifty-two of them at once overprinted into
 a grey smear that named nothing, at the centroids, which at full scale is exactly where
@@ -447,7 +460,7 @@ A seeded PRNG, never `Math.random`. Same seed and same controls produce the same
 The URL is the experiment:
 
 ```
-?seed=48291&own=20&fof=60&cross=20&p=0.35&decay=1.5&days=200
+?seed=48291&own=20&fof=60&cross=20&p=0.35&decay=1.5&years=200
 ```
 
 There is no baked experiment file and no generator. A visitor forks a run by changing one

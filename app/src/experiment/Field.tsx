@@ -63,7 +63,7 @@ interface FieldProps {
    *
    * The field draws the live graph most of the time and a replayed one when the
    * run is being scrubbed, and a replay is exactly this much: who was connected
-   * to whom on that day. Narrowing the type is what lets the same drawing serve
+   * to whom on that year. Narrowing the type is what lets the same drawing serve
    * both without the replay having to pretend to be a simulation.
    */
   stateRef: RefObject<{ adj: Map<number, number>[] } | null>;

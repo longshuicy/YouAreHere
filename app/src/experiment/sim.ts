@@ -35,11 +35,11 @@ export interface Params {
   sInit: number;
 
   /** Run length in rounds. */
-  days: number;
+  years: number;
 }
 
 /**
- * A starting point that shows something within a two-hundred-day run, not a
+ * A starting point that shows something within a two-hundred-year run, not a
  * claim about how the world works.
  *
  * Tuned against the six-world population after the first pass produced nothing:
@@ -58,7 +58,7 @@ export const DEFAULT_PARAMS: Params = {
   ps: 0.15,
   decay: 1.5,
   sInit: 30,
-  days: 200,
+  years: 400,
 };
 
 /**
@@ -68,7 +68,7 @@ export const DEFAULT_PARAMS: Params = {
  * Decay is visible in the tie list instead, as a bar getting shorter.
  */
 export interface LogEvent {
-  day: number;
+  year: number;
   /**
    * FADE is a tie crossing below half strength on its way down.
    *
@@ -87,7 +87,7 @@ export interface LogEvent {
  * Every FORM and CUT in the experiment, for everyone, as a ring buffer.
  *
  * The log used to belong to whoever was being watched, which meant their
- * history began the moment you looked at them: picking someone on day ninety
+ * history began the moment you looked at them: picking someone on year ninety
  * showed an empty panel, and switching to someone else threw the first one's
  * life away. Since the two events that change the topology are rare compared
  * with maintenance, the experiment can simply keep all of them and read any
@@ -98,7 +98,7 @@ export interface LogEvent {
  * collector doing laps.
  */
 export interface Ledger {
-  day: Int32Array;
+  year: Int32Array;
   u: Int32Array;
   v: Int32Array;
   /** 0 = FORM, 1 = CUT, 2 = FADE. */
@@ -142,14 +142,14 @@ export interface SimState {
   /** Every FORM and CUT, for everyone. */
   ledger: Ledger;
   /**
-   * Ties the followed character kept up, by day, newest first.
+   * Ties the followed character kept up, by year, newest first.
    *
    * Maintenance is counted rather than listed and is not worth three megabytes
    * of ring buffer, so unlike FORM and CUT it is only tallied while someone is
    * being watched. It restarts when the watch moves, which is honest: it is a
    * running count, not a record.
    */
-  kept: { day: number; n: number }[];
+  kept: { year: number; n: number }[];
 }
 
 /** Canonical undirected key. `n` stays below 10^4, so this fits an int. */
@@ -173,7 +173,7 @@ export function initState(world: MergedWorld, seed: number): SimState {
     rng: mulberry32(seed),
     follow: null,
     ledger: {
-      day: new Int32Array(LEDGER_LIMIT),
+      year: new Int32Array(LEDGER_LIMIT),
       u: new Int32Array(LEDGER_LIMIT),
       v: new Int32Array(LEDGER_LIMIT),
       act: new Uint8Array(LEDGER_LIMIT),
@@ -200,15 +200,15 @@ function note(state: SimState, action: LogEvent['action'], u: number, v: number,
     if (state.follow === null) return;
     if (u !== state.follow && v !== state.follow) return;
     const head = state.kept[0];
-    if (head && head.day === state.round) head.n++;
+    if (head && head.year === state.round) head.n++;
     else {
-      state.kept.unshift({ day: state.round, n: 1 });
+      state.kept.unshift({ year: state.round, n: 1 });
       if (state.kept.length > LOG_LIMIT) state.kept.length = LOG_LIMIT;
     }
     return;
   }
   const l = state.ledger;
-  l.day[l.at] = state.round;
+  l.year[l.at] = state.round;
   l.u[l.at] = u;
   l.v[l.at] = v;
   l.act[l.at] = action === 'FORM' ? 0 : action === 'CUT' ? 1 : 2;
@@ -247,7 +247,7 @@ export function historySince(
     if (u !== i && v !== i) continue;
     const act = l.act[at];
     out.push({
-      day: l.day[at],
+      year: l.year[at],
       action: act === 0 ? 'FORM' : act === 1 ? 'CUT' : 'FADE',
       other: u === i ? v : u,
       s: 0,
@@ -257,27 +257,41 @@ export function historySince(
 }
 
 /**
- * The graph as it stood on a given day, rebuilt from the ledger.
+ * The graph as it stood on a given year, rebuilt from the ledger.
  *
  * The initial condition is known exactly and every event that has changed it
- * since is on record, so replaying forward to `day` reproduces the topology of
- * that day without anything having been stored for the purpose. Strengths are
+ * since is on record, so replaying forward to `year` reproduces the topology of
+ * that year without anything having been stored for the purpose. Strengths are
  * not replayed — see `REPLAY_S`.
  *
- * Returns null when the day is older than the ledger still reaches: the ring
+ * Returns null when the year is older than the ledger still reaches: the ring
  * drops its oldest entries, and a replay missing its first events would be a
  * confident drawing of a graph that never existed.
  */
+/**
+ * The earliest year the ledger can still reconstruct.
+ *
+ * Zero until the ring wraps; after that, the year of the oldest surviving entry
+ * plus one — the events of that year are already partly gone, so it is the
+ * first *complete* year that can be replayed.
+ */
+export function earliestReplayYear(state: SimState): number {
+  const l = state.ledger;
+  if (l.seq <= l.count) return 0;
+  const oldest = (l.at - l.count + LEDGER_LIMIT) % LEDGER_LIMIT;
+  return l.year[oldest] + 1;
+}
+
 export function replayAt(
   world: MergedWorld,
   state: SimState,
-  day: number,
+  year: number,
 ): { adj: Map<number, number>[] } | null {
   const l = state.ledger;
   if (l.seq > l.count) {
     // Wrapped: the oldest surviving entry is as far back as this can go.
     const oldest = (l.at - l.count + LEDGER_LIMIT) % LEDGER_LIMIT;
-    if (l.day[oldest] > 0) return null;
+    if (l.year[oldest] > 0) return null;
   }
 
   const adj: Map<number, number>[] = new Array(world.n);
@@ -287,10 +301,10 @@ export function replayAt(
     adj[v].set(u, REPLAY_S);
   }
 
-  // Oldest first, stopping as soon as the events belong to a later day.
+  // Oldest first, stopping as soon as the events belong to a later year.
   for (let k = 0; k < l.count; k++) {
     const i = (l.at - l.count + k + LEDGER_LIMIT) % LEDGER_LIMIT;
-    if (l.day[i] > day) break;
+    if (l.year[i] > year) break;
     const u = l.u[i];
     const v = l.v[i];
     // FADE leaves the graph exactly as it was; it is a note about a strength,
@@ -333,7 +347,7 @@ function randomNeighbour(state: SimState, u: number): number {
  * 1 + λ·shared is unbounded, and it appears in both formation and maintenance —
  * so as the graph densifies, shared counts rise, strengthening outruns decay,
  * nothing is ever cut, and the run becomes a hairball with no equilibrium. The
- * prototype did exactly that: mean degree 18.9 → 47.5 in ninety days with one
+ * prototype did exactly that: mean degree 18.9 → 47.5 in ninety years with one
  * tie cut per round.
  *
  * The share is bounded by construction, which caps the triadic term at 1 + λ

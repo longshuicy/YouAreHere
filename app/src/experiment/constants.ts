@@ -64,7 +64,7 @@ export const CLAMP_K = 4;
  * and a control that cannot alter the result does not belong beside controls
  * that can.
  */
-export const DAYS_PER_SECOND = 10;
+export const YEARS_PER_SECOND = 10;
 
 /**
  * The most rounds one animation frame may advance.
@@ -103,17 +103,23 @@ export const LOG_LIMIT = 300;
  *
  * It is a ring buffer rather than a list because a long run at a high formation
  * pressure is unbounded otherwise, and because the oldest events are the ones
- * nobody comes back for. Four typed arrays at this size cost about three
+ * nobody comes back for. Four typed arrays at this size cost about eight
  * megabytes, which buys the thing the per-character log could never do: pick
- * someone on day ninety and read what has already happened to them, instead of
+ * someone in year ninety and read what has already happened to them, instead of
  * starting their history at the moment you happened to look.
+ *
+ * Sized against what a run actually writes. At the default settings the fifty-
+ * two worlds produce around two and a half thousand formings and cuttings a
+ * year, so this is about two hundred and forty years — which is also as far
+ * back as the pictures go, so the two horizons agree and the scrubber never
+ * offers a year it cannot show.
  */
-export const LEDGER_LIMIT = 200_000;
+export const LEDGER_LIMIT = 600_000;
 
 /**
- * How many days of node positions are kept, so a run can be scrubbed back.
+ * How many years of node positions are kept, so a run can be scrubbed back.
  *
- * The ties at any past day cost nothing to recover — the ledger already holds
+ * The ties at any past year cost nothing to recover — the ledger already holds
  * every FORM and CUT, so replaying them from the initial condition rebuilds the
  * graph exactly. Where everyone *was* is the part nothing else records: a force
  * layout is iterative, so the same graph does not give back the same picture.
@@ -122,12 +128,12 @@ export const LEDGER_LIMIT = 200_000;
  * kilobytes; two hundred of them is fourteen megabytes, which covers a default
  * run end to end and is a fifth of what the fifty-two parsed worlds already
  * cost. They are allocated as the run reaches them rather than up front, so a
- * run nobody scrubs pays for only the days it ran.
+ * run nobody scrubs pays for only the years it ran.
  *
- * Slots are indexed by day modulo the cap, so a longer run quietly loses its
- * oldest days and the scrubber's left end moves with them.
+ * Slots are indexed by year modulo the cap, so a longer run quietly loses its
+ * oldest years and the scrubber's left end moves with them.
  */
-export const SNAPSHOT_LIMIT = 200;
+export const SNAPSHOT_LIMIT = 240;
 
 /**
  * The strength every replayed tie is drawn at.
