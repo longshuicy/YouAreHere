@@ -1,14 +1,15 @@
 import { useMemo } from 'react';
-import { BrandMark, hereLabel, type StartLinks } from '../render/MarginLinks';
-import { Elsewhere, StartNav, TopBar } from '../render/TopBar';
+import { hereLabel, type StartLinks } from '../render/MarginLinks';
+import { TopBar } from '../render/TopBar';
 import { clueBonus, clueTotal, type Session } from '../engine/session';
 import {
   isComplete,
   residenceTotal,
-  startOrdinal,
   type Residence,
 } from '../engine/residence';
 import { readRound } from '../graph/reading';
+import { WikiLink } from '../render/WikiLink';
+import { NameLink } from '../render/NameLink';
 import { measureWorld } from '../gallery/metrics';
 import { ReadingPage } from './ReadingPage';
 import type { Universe, UniverseMeta } from '../types';
@@ -31,15 +32,6 @@ interface Props {
   onOpenTwin: (worldId: string, name: string) => void;
 }
 
-const TALLY_STYLE = {
-  fontSize: 9.5,
-  letterSpacing: '0.06em',
-  textTransform: 'uppercase',
-  color: 'var(--annotation)',
-  lineHeight: 1.7,
-  paddingTop: 14,
-} as const;
-
 export function Reveal({
   session,
   universe,
@@ -56,6 +48,7 @@ export function Reveal({
   const clues = clueTotal(session.ledger);
   /** Who you turned out to be — the lab row follows them by name. */
   const youName = universe.nodes.find((n) => n.i === session.you)?.n ?? null;
+  const youRecord = meta?.nodes?.[String(session.you)] ?? null;
   const { expansions, facts, names } = session.ledger;
 
   const world = useMemo(() => measureWorld(universe), [universe]);
@@ -132,77 +125,12 @@ export function Reveal({
 
   const cast = universe.nodes.length;
   const namedCount = Math.min(namedOnPaper.size, cast);
-  const startNumber = residence
-    ? residence.selves.includes(session.you)
-      ? residence.selves.length
-      : residence.selves.length + 1
-    : 1;
-
   const graphNote = folded ? (
     <>
       Only the names you have earned are on this map. Everyone else stays unnamed until you find
       them: start in {universe.title} to keep going.
     </>
   ) : null;
-
-  /** How the round went, in the head's aside — the same figures the artboard
-   *  sets across the top of the column. Lifted out of the call below because
-   *  the aside now carries the ways out under it, and a ternary this long
-   *  nested inside a second one is not readable. */
-  const headTally = (
-      closed && residence ? (
-        <>
-          <div className="chrome" style={{ letterSpacing: '0.3em' }}>
-            How it went
-          </div>
-          <div className="mono reveal-head-tally" style={TALLY_STYLE}>
-            {residence.starts.map((n, k) => (
-              <div key={k}>
-                {startOrdinal(k + 1)} · {n} {n === 1 ? 'clue' : 'clues'}
-              </div>
-            ))}
-            <div style={{ marginTop: 8, color: 'var(--ink)' }}>
-              {residenceTotal(residence)}{' '}
-              {residenceTotal(residence) === 1 ? 'clue' : 'clues'} to map a whole world
-            </div>
-          </div>
-        </>
-      ) : (
-        <>
-          <div className="chrome" style={{ letterSpacing: '0.3em' }}>
-            How it went
-          </div>
-          <div className="mono reveal-head-tally" style={TALLY_STYLE}>
-            <div>{tally}</div>
-            <div>
-              You found yourself in {clues} {clues === 1 ? 'clue' : 'clues'}
-            </div>
-            <div>
-              You uncovered {seen} of {world.nodes} people
-            </div>
-            {nearest && (
-              <div>
-                Closest guess {nearest.name}, {nearest.hops}{' '}
-                {nearest.hops === 1 ? 'tie' : 'ties'} away
-              </div>
-            )}
-            {residence && (
-              <div style={{ marginTop: 8, color: 'var(--ink)' }}>
-                {living ? `${startOrdinal(startNumber)} · ` : 'Your map · '}
-                {namedCount} of {cast} named
-                {/* A finished map's total is final — the clues it took to
-                    name the whole world. Rounds played there afterwards are
-                    one-offs and do not add to it. */}
-                {residenceTotal(residence) > 0 &&
-                  ` · ${residenceTotal(residence) + (living ? clues : 0)} clues ${
-                    finished ? 'in total' : 'so far'
-                  }`}
-              </div>
-            )}
-          </div>
-        </>
-      )
-  );
 
   return (
     <ReadingPage
@@ -223,19 +151,24 @@ export function Reveal({
       linkToCharacter={onOpenCharacter}
       linkToTwin={onOpenTwin}
       onOpenWorld={onOpenWorld}
-      chromeLeft={
-        <TopBar
-          inset={false}
-          left={
-            <>
-              <BrandMark />
-              <StartNav {...startLinks} />
-            </>
-          }
+      chrome={<TopBar inset={false} startLinks={startLinks} onOpenLab={onOpenGallery} />}
+      head={
+        <RevealHead
+          eyebrow={closed ? 'The whole world' : 'You were'}
+          name={youName}
+          wiki={youRecord}
+          worldTitle={universe.title}
+          cast={cast}
+          onOpenWorld={onOpenWorld}
+          clues={clues}
+          seen={seen}
+          residence={residence}
+          living={living}
+          tally={tally}
+          namedCount={namedCount}
+          nearest={nearest}
         />
       }
-      chromeRight={<Elsewhere onOpenLab={onOpenGallery} />}
-      headAside={headTally}
       belowHead={
         <WaysOut
           startLinks={startLinks}
@@ -326,6 +259,145 @@ function WaysOut({
           <path d="M2 5h6M5.5 2.5L8 5 5.5 7.5" />
         </svg>
       </button>
+    </div>
+  );
+}
+
+
+/**
+ * The reveal's head, which is not a character page's.
+ *
+ * A character page opens with a title: who this is, and what they are in. A
+ * reveal opens with a verdict — *you were* — and then the three figures that
+ * say how the round went, across the top where they can be read at a glance
+ * instead of down the side of the column in a list.
+ *
+ * The strip is ruled in ink above and hairline below, which is this design's
+ * way of marking a reading rather than a heading: the heavy edge is the one
+ * the eye starts at.
+ */
+function RevealHead({
+  eyebrow,
+  name,
+  wiki,
+  worldTitle,
+  cast,
+  onOpenWorld,
+  clues,
+  seen,
+  residence,
+  living,
+  tally,
+  namedCount,
+  nearest,
+}: {
+  eyebrow: string;
+  name: string | null;
+  wiki: { wiki?: string; wikiLang?: string } | null;
+  worldTitle: string;
+  cast: number;
+  onOpenWorld?: () => void;
+  clues: number;
+  seen: number;
+  residence: Residence | null;
+  living: boolean;
+  tally: string;
+  namedCount: number;
+  /** The guess that came closest, when one did. Not on the artboard, and kept
+   *  because it is the only line that says how near the player got — it goes
+   *  on the detail line rather than taking a figure of its own. */
+  nearest: { name: string; hops: number } | null;
+}) {
+  const lives = residence ? residence.starts.length + (living ? 1 : 0) : 1;
+  const mapTotal = residence ? residenceTotal(residence) + (living ? clues : 0) : clues;
+
+  return (
+    <div className="reveal-head-block">
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+        <div className="annot" style={{ fontSize: 10, letterSpacing: '0.24em', color: 'var(--annotation)' }}>
+          {eyebrow}
+        </div>
+        <h1
+          style={{
+            margin: 0,
+            fontWeight: 400,
+            fontSize: 'clamp(34px, 7vw, 64px)',
+            lineHeight: 1.02,
+            color: 'var(--accent)',
+          }}
+        >
+          {name ?? 'Unknown'}
+        </h1>
+        <div
+          className="annot"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 18,
+            flexWrap: 'wrap',
+            paddingTop: 6,
+            fontSize: 10,
+            letterSpacing: '0.18em',
+            color: 'var(--annotation)',
+          }}
+        >
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+            In{' '}
+            {onOpenWorld ? (
+              <NameLink onClick={onOpenWorld}>{worldTitle}</NameLink>
+            ) : (
+              <span style={{ color: 'var(--ink)' }}>{worldTitle}</span>
+            )}{' '}
+            · {cast} characters
+          </span>
+          {wiki?.wiki && <WikiLink title={wiki.wiki} lang={wiki.wikiLang ?? 'en'} />}
+        </div>
+      </div>
+
+      <div className="reveal-stats">
+        <Stat label="Found yourself in" figure={clues} note={clues === 1 ? 'clue' : 'clues'} />
+        <Stat label="People uncovered" figure={seen} note={`of ${cast}`} />
+        <Stat
+          label={residence ? 'All your lives here' : 'This life'}
+          figure={lives}
+          note={`${lives === 1 ? 'life' : 'lives'} · ${mapTotal} ${mapTotal === 1 ? 'clue' : 'clues'}`}
+        />
+      </div>
+
+      {/* What those figures are made of. One line, under the strip, in the
+          order the round spent them. */}
+      <div className="annot" style={{ fontSize: 9, letterSpacing: '0.16em', color: 'var(--annotation)' }}>
+        This life · {tally}
+        {nearest && (
+          <>
+            {'  ·  '}Closest guess {nearest.name}, {nearest.hops}{' '}
+            {nearest.hops === 1 ? 'tie' : 'ties'} away
+          </>
+        )}
+        {residence && (
+          <>
+            {'  ·  '}Across all {lives} ·{' '}
+            <span style={{ color: 'var(--ink)' }}>
+              {namedCount} of {cast} named
+            </span>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/** One figure in the strip: what it counts, how many, and the unit. */
+function Stat({ label, figure, note }: { label: string; figure: number; note: string }) {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+      <div className="annot" style={{ fontSize: 9, letterSpacing: '0.2em', color: 'var(--annotation)' }}>
+        {label}
+      </div>
+      <div className="mono" style={{ fontSize: 24, lineHeight: 1, color: 'var(--ink)' }}>
+        {figure}{' '}
+        <span style={{ fontSize: 11, letterSpacing: '0.12em', color: 'var(--annotation)' }}>{note}</span>
+      </div>
     </div>
   );
 }

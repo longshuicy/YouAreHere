@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { Stage } from '../render/Stage';
 import { CHROME_PADDING, type StartLinks } from '../render/MarginLinks';
-import { Elsewhere, TopBar } from '../render/TopBar';
+import { TopBar } from '../render/TopBar';
 import { EaseDial, hardnessOf, hardnessWord } from '../render/EaseDial';
 import type { Residence } from '../engine/residence';
 import type { VisibleGraph } from '../graph/project';
@@ -238,10 +238,7 @@ export function ColdOpen({
           screen. No wordmark: the title two inches below is the wordmark, at
           four times the size, and printing it twice made the page look like it
           had two of them. */}
-      <TopBar
-        inset={false}
-        right={<Elsewhere onOpenKey={onOpenKey} onOpenLab={onOpenGallery} disabled={walking} />}
-      />
+      <TopBar inset={false} wordmark={false} onOpenKey={onOpenKey} onOpenLab={onOpenGallery} disabled={walking} />
 
       <div className="start-cols">
         {/* The column of words. Left-aligned and hung from its title: the eye

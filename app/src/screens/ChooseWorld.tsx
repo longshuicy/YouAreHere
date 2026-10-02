@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { RadioRow } from '../gallery/RadioRow';
-import { BrandMark, CHROME_PADDING } from '../render/MarginLinks';
-import { Elsewhere, TopBar, TopBarBack } from '../render/TopBar';
+import { CHROME_PADDING } from '../render/MarginLinks';
+import { TopBar } from '../render/TopBar';
 import type { WorldProgress } from '../engine/residence';
 import type { IndexUniverseEntry } from '../types';
 
@@ -325,12 +325,7 @@ export function ChooseWorld({
           and the bar centres it on the page rather than between the two
           links — so it does not shift as BACK's label does. The lab is not
           offered here: this page is already the way to somewhere else. */}
-      <TopBar
-        inset={false}
-        left={<TopBarBack onBack={onCancel} />}
-        center={<BrandMark />}
-        right={<Elsewhere onOpenKey={onOpenKey} />}
-      />
+      <TopBar inset={false} onBack={onCancel} onOpenKey={onOpenKey} />
 
       <div
         className="stack-sm"

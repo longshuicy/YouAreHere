@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Stage } from '../render/Stage';
 import { Ledger } from '../render/Ledger';
-import { BrandCluster, type StartLinks, CHROME_PADDING, GiveUpLinks, HelpLink } from '../render/MarginLinks';
+import { type StartLinks, CHROME_PADDING, GiveUpLinks } from '../render/MarginLinks';
+import { TopBar } from '../render/TopBar';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -148,13 +149,19 @@ export function Guess({
           pointerEvents: 'none',
         }}
       >
-        <div
-          className="chrome-row"
-          style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}
-        >
-          <BrandCluster {...startLinks} />
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 12 }}>
-            <HelpLink onOpenKey={onOpenKey} />
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+          <TopBar inset={false} startLinks={startLinks} onOpenKey={onOpenKey} />
+          {/* The count and the ways out hang under the bar on its own edge,
+              rather than being a second, different bar beside it. */}
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-end',
+              gap: 12,
+              pointerEvents: 'auto',
+            }}
+          >
             <Ledger ledger={session.ledger} residence={residence} />
             <GiveUpLinks
               answerCost={COST.answer}

@@ -99,12 +99,11 @@ export function EaseDial({ residence, cast, value, onChange }: Props) {
     </span>
   );
 
+  // No heading. EASY and HARD flank the bar and a sentence under it says what
+  // the setting means — a third statement of the same thing above them was
+  // the one line on this screen that told the reader nothing new.
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 6, width: '100%' }}>
-      <div className="annot" style={{ fontSize: 9, letterSpacing: '0.2em', color: 'var(--annotation)' }}>
-        How hard a person to be next
-      </div>
-
       <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
         {end('Easy', true)}
 

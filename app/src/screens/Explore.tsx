@@ -1,8 +1,8 @@
 import type { ReactNode } from 'react';
 import { Stage } from '../render/Stage';
 import { Ledger } from '../render/Ledger';
-import { BrandMark, type StartLinks, CHROME_PADDING, BackgroundToggle } from '../render/MarginLinks';
-import { Elsewhere, HelpMark, StartNav, TopBar, TopBarLink } from '../render/TopBar';
+import { type StartLinks, CHROME_PADDING } from '../render/MarginLinks';
+import { TopBar } from '../render/TopBar';
 import { PlayKey } from '../render/PlayKey';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
@@ -90,8 +90,13 @@ export function Explore({
 
   return (
     <div style={{ position: 'relative', height: '100dvh', overflow: 'hidden' }}>
-      {/* The diagram is the page, not a panel on it. */}
-      <div style={{ position: 'absolute', inset: 0 }}>
+      {/* The diagram is the page, not a panel on it — but it stops short of
+          the bar. Run to the full height it put nodes and their names under
+          the ways on, where a tie crossing a link made both unreadable and
+          the link underneath could not be clicked anyway. `--chrome-band` is
+          the bar's own height, so the drawing ends exactly where the bar
+          does. */}
+      <div style={{ position: 'absolute', inset: 0, top: 'var(--chrome-band)' }}>
         <Stage
           graph={graph}
           positions={positions}
@@ -128,19 +133,9 @@ export function Explore({
               corner on the right is Elsewhere, as on every other screen. */}
           <TopBar
             inset={false}
-            left={
-              <>
-                <BrandMark />
-                <StartNav {...startLinks} />
-              </>
-            }
-            right={
-              <Elsewhere onOpenLab={onOpenGallery}>
-                <TopBarLink onClick={onOpenKey} icon={<HelpMark />}>
-                  How to play
-                </TopBarLink>
-              </Elsewhere>
-            }
+            startLinks={startLinks}
+            onOpenKey={onOpenKey}
+            onOpenLab={onOpenGallery}
           />
           <PlayKey />
         </div>
@@ -205,44 +200,33 @@ export function Explore({
               <span className="found-sub">Free · a wrong guess costs nothing</span>
             </button>
 
-            {/* Two while the world is still a question, one once it is not —
-                and the one left takes the whole width rather than sitting in
-                half a row with a hole beside it. */}
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: worldKnown ? 'minmax(0, 1fr)' : 'repeat(2, minmax(0, 1fr))',
-                gap: 8,
-              }}
-            >
+            {/* Two boxes, always. Which two depends on what the round has
+                left to offer: the world is only a question until it is
+                answered, and there is only carried paper to put away once
+                some has been carried. They are the same size and the same
+                weight because they are the same kind of thing — a bounded
+                choice with a price on it, which is what separates them from
+                the free claim above. */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 8 }}>
               {!worldKnown && (
                 <button className="outline-button" onClick={onRevealStory}>
                   Reveal world
+                  <span className="outline-button-sub">Costs {clues(COST.story)}</span>
+                </button>
+              )}
+              {hasBackground && (
+                <button className="outline-button" onClick={onToggleBackground}>
+                  {session.hideBackground ? 'Show background' : 'Hide background'}
                   <span className="outline-button-sub">
-                    Costs {clues(COST.story)}
+                    {session.ledger.declutters > 0 ? 'Already paid' : `Costs ${clues(COST.declutter)}`}
                   </span>
                 </button>
               )}
               <button className="outline-button" onClick={onReveal}>
                 Reveal answer
-                <span className="outline-button-sub">
-                  Costs {clues(COST.answer)}
-                </span>
+                <span className="outline-button-sub">Costs {clues(COST.answer)}</span>
               </button>
             </div>
-
-            {/* Not one of the two ways out, so not drawn as one: it buys back
-                paper and puts it away again, and belongs under them. */}
-            {hasBackground && (
-              <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                <BackgroundToggle
-                  hidden={session.hideBackground}
-                  unlocked={session.ledger.declutters > 0}
-                  cost={COST.declutter}
-                  onToggle={onToggleBackground}
-                />
-              </div>
-            )}
           </div>
         </div>
       </div>

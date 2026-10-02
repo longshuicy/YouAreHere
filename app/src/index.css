@@ -258,6 +258,13 @@ button {
    --------------------------------------------------------------------------- */
 .top-bar {
   position: relative;
+  /* Above the diagram, and clickable on top of it. The screens that float
+     their chrome over a full-bleed drawing turn the pointer off for the whole
+     overlay so the graph underneath stays draggable; the bar is all targets,
+     so it turns it back on for itself. Without this every link up here was
+     dead on the play, guess and reveal screens. */
+  z-index: 3;
+  pointer-events: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -275,6 +282,26 @@ button {
 /* Nothing in the left slot: the right slot still has to stay right. */
 .top-bar-left:empty {
   flex: 1;
+}
+
+/* The ring around the question mark. */
+.help-mark {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid var(--unknown);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  letter-spacing: 0;
+  transition: border-color 90ms ease;
+}
+
+.top-bar-link:hover .help-mark,
+.top-bar-link:focus-visible .help-mark {
+  border-color: var(--accent);
 }
 
 .top-bar-center {
@@ -422,6 +449,32 @@ button {
 .begin-block.accent:hover .begin-sub,
 .begin-block.accent:focus-visible .begin-sub {
   color: var(--on-ink-dim);
+}
+
+/* The reveal's head. A verdict, then the figures — full width of the copy
+   column rather than a title with a list down its side. */
+.reveal-head-block {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* Ruled ink above and hairline below: this design's mark for a reading rather
+   than a heading. The heavy edge is the one the eye starts at. */
+.reveal-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  padding: 14px 0;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
+}
+
+@media (max-width: 560px) {
+  .reveal-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
 }
 
 /* The reveal's ways out: one block and two framed alternatives on a line,
