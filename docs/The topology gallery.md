@@ -132,6 +132,77 @@ Real *pairings* — two neighbourhoods from different books that genuinely resem
 need a finer signature than the game computes. That is the one place here that requires new
 pipeline work.
 
+## The ledger
+
+The card grid was replaced on 2026-10-01. It stopped working somewhere around the thirtieth world,
+for a reason worth writing down: a card is a *reading* unit and a poor *comparison* unit. Each card
+is its own coordinate system, so comparing two means carrying a scale across three hundred pixels of
+paper, and past a certain count the two you want to compare are never adjacent. Sorting the grid
+helps a little and then stops, because it orders the cards on one measure while each card shows six.
+
+The ledger is one line per world, full width: name, cast as a figure, then six diverging bars drawn
+on shared scales with a hairline at the typical world. The comparison becomes vertical and the eye
+does it unprompted — a column leaning one way is a skewed catalogue, an empty cell is an ordinary
+world, a row with every bar out is a strange one. Bars read either as distance from typical (median
+centred, scaled by the tenth-to-ninetieth spread, clipped) or as place in the catalogue (rank).
+Default is the former: ranks are uniform by construction, so every cell draws a substantial bar and
+the block reads as texture.
+
+Cards are not gone. A world's own page still draws one, which is where a card was always right, and
+`Explain` moved there with it — the explanation now runs on the drawing the reader is looking at,
+with that world's own numbers, instead of on a median specimen nobody asked for.
+
+The character index is the same component with its own columns, and the rule that makes it work:
+**every column is a share or a rank inside the character's own world, never a raw count.** That is
+what makes a row from a twelve-hander and a row from a cast of nine hundred the same kind of
+statement. Ties is the one raw figure and is printed as a number rather than drawn as a bar, for
+exactly that reason.
+
+### Two measures, and the ones that had to be thrown out
+
+Screened across the 52 worlds loaded on 2026-10-01, against the log of the cast:
+
+| | rho vs ln(cast) | |
+|---|---|---|
+| density | -0.93 | size in disguise |
+| small-world sigma | +0.91 | size in disguise |
+| mean distance | +0.88 | size in disguise |
+| **concentration** (Gini of weighted degree) | **+0.79** | **size in disguise** |
+| betweenness inequality | +0.77 | size in disguise |
+| Freeman centralization | -0.03 | clean |
+| mean distance / ln(cast) | -0.05 | clean |
+
+Rank the catalogue by any of the first five and you have ranked it by length. This is why the
+ledger's `One centre` is Freeman centralization and not the `concentration` the cards print: it asks
+the same question — star against ensemble — but scores it against the star of the same size, so a
+twelve-hander and a cast of nine hundred are each measured against their own ceiling. The card may
+keep `concentration`, which is correct *inside* one world; it cannot carry a cross-world claim.
+
+The two survivors are also uncorrelated with each other (-0.08), so together they are a plane rather
+than a line. `WorldPlane` draws it, with fixed axes so that a world added tomorrow lands without
+moving anything already there. It currently has no home on the page; see the open question below.
+
+`Apart` was almost named for shape. It is clean of cast size but correlates -0.77 with average
+degree, so most of what it reports is how many people each character knows. Dividing that out too —
+mean distance against `ln n / ln k` — is the textbook normalisation and is worse here: the range
+collapses to 0.72-1.50 and the top of it is Congress, Musical Meetups and the English Histories,
+which reads as *these are the non-narrative datasets* rather than as a fact about stories. The axis
+keeps the degree in, is named for what it actually measures, and carries the extraction caveat as
+its stated blind spot.
+
+### Two findings from the screening
+
+**Shakespeare is a cloud.** Mean pairwise distance on the normalised plane is 0.26 within the 28
+Shakespeare worlds against 0.51 for everything else — the tightest cluster in the catalogue by a
+wide margin. The open question below asks whether there is a thesis or only an instrument. This is
+the first answer and it is uncomfortable: the clearest signal here is not genre, it is one hand,
+thirty years, and a uniform extraction method, which is as much a fact about the pipeline as about
+the plays.
+
+**Articulation points are not the fourth panel.** 28 of the 52 worlds have none at all, and where
+there are any they are mostly Musical Meetups (13% of its cast) and the Civil War — the two graphs
+here least like a story. A panel blank more often than not is a footnote in the index, not a card.
+
 ## Metrics, and what each actually measures
 
 | metric | measures | blind to |

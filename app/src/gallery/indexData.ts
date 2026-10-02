@@ -22,6 +22,15 @@ export interface IndexRow {
   degree: number;
   gain: number;
   prominence: number;
+  /** How much of their own world is within two hops, 0 to 1. */
+  reachShare: number;
+  /** How much of their world's cast is in their camp, 0 to 1. */
+  campShare: number;
+  /** Rank inside their own world of weight per tie, 0 to 1. */
+  depth: number;
+  clustering: number;
+  /** Their world's cast, so a row can say what the shares are shares of. */
+  castSize: number;
   facts: Record<string, string[]>;
 }
 
@@ -89,6 +98,11 @@ export function buildIndex(
         degree: character.degree,
         gain: character.gain,
         prominence: character.prominence,
+        reachShare: character.reachShare,
+        campShare: character.campShare,
+        depth: character.depth,
+        clustering: character.clustering,
+        castSize: world.nodes,
         facts,
       });
     }

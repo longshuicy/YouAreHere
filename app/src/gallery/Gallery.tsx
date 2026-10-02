@@ -3,17 +3,17 @@ import { BackLink, BrandCluster, CHROME_PADDING, ChromeRight, type StartLinks } 
 import { FullGraph } from '../render/FullGraph';
 import { fetchMeta, findByName } from '../data/loader';
 import type { Universe, UniverseMeta } from '../types';
-import { CARD_STRIP, DegreeBars, Fingerprint, HorizonStrip, StripLabel } from './Fingerprint';
+import { DegreeBars, HorizonStrip, StripLabel } from './Fingerprint';
 import { CharacterIndex } from './CharacterIndex';
+import { Ledger } from './Ledger';
 import { ReadingPage } from '../screens/ReadingPage';
 import { NameLink } from '../render/NameLink';
 import { WikiLink } from '../render/WikiLink';
-import { Explain } from './Explain';
-import { noteTooltip } from './notes';
+import { noteTooltip } from './metricNotes';
 import { RadioRow } from './RadioRow';
 import { measureWorld, type CharacterMetrics, type WorldMetrics } from './metrics';
 import type { Route } from '../engine/route';
-import { progressLine, type WorldProgress } from '../engine/residence';
+import type { WorldProgress } from '../engine/residence';
 
 /**
  * The gallery: one card per loaded world, and an index of every character in
@@ -29,21 +29,17 @@ import { progressLine, type WorldProgress } from '../engine/residence';
  * `metrics.ts` for why nothing is fetched, cached or baked.
  */
 
-type SortKey = 'title' | 'size' | 'concentration' | 'modularity' | 'horizon';
-
-const SORTS: { key: SortKey; label: string; of: (w: WorldMetrics) => number | string }[] = [
-  { key: 'title', label: 'Title', of: (w) => w.title },
-  { key: 'size', label: 'Cast', of: (w) => -w.nodes },
-  { key: 'concentration', label: 'Concentration', of: (w) => -w.concentration },
-  { key: 'modularity', label: 'Camps', of: (w) => -w.modularity },
-  { key: 'horizon', label: 'Horizon', of: (w) => -w.horizonSpread },
-];
-
 const DETAIL_STRIP = 560;
-/** Drawn to land on the same height as the network beside them, so the two
- * columns finish together instead of the fingerprint stopping a third of the
- * way down. */
-const DETAIL_GRAPH = 320;
+/** The floor under the network, not its height.
+ *
+ * It used to be a fixed 320, chosen to land near the fingerprint beside it —
+ * which it did until the strips grew their captions, and then the left column
+ * ran a page further down than the right and the network sat in the top third
+ * of its own half looking like a thumbnail. The two columns stretch to each
+ * other now, so the network is as tall as the ties-each strip, the horizon
+ * strip and both of their readings put together. This is only what it may not
+ * go below, for a world whose fingerprint is unusually short. */
+const DETAIL_GRAPH_MIN = 320;
 const DETAIL_BARS = 116;
 const DETAIL_TICKS = 126;
 /** Long enough to see a camp's shape, short enough that the page is still a
@@ -53,7 +49,6 @@ const CAMP_PREVIEW = 20;
  * four: four is a podium, and in a world of several hundred a podium says
  * nothing about whether the fifth name was close behind or nowhere near. */
 const HORIZON_ENDS = 10;
-const KEY_STORAGE = 'you-are-here:gallery-key';
 
 function StepCurve({ curve, of }: { curve: number[]; of: number }) {
   const width = 88;
@@ -114,6 +109,33 @@ function CharacterRow({
 /** A column header. Deliberately carries nothing but its label: when one of a
  * pair held a control and the other did not, the button's padding made that
  * header taller and the two rules stopped lining up. */
+/** A figure inside a caption — the one place a number appears in running prose
+ * on this page, so it keeps the mono face it has everywhere else. */
+function Fig({ children }: { children: ReactNode }) {
+  return (
+    <span className="mono" style={{ fontSize: 13 }}>
+      {children}
+    </span>
+  );
+}
+
+/** What a strip is saying, under the strip. */
+function StripNote({ children }: { children: ReactNode }) {
+  return (
+    <div
+      style={{
+        maxWidth: DETAIL_STRIP,
+        paddingTop: 12,
+        fontSize: 14,
+        lineHeight: 1.6,
+        color: 'var(--body)',
+      }}
+    >
+      {children}
+    </div>
+  );
+}
+
 function SectionHead({ children }: { children: ReactNode }) {
   return (
     <div
@@ -263,31 +285,70 @@ function WorldDetail({
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(min(440px, 100%), 1fr))',
           gap: 44,
-          alignItems: 'start',
+          // Stretch, so the network matches the fingerprint's full height
+          // rather than a number guessed in advance.
+          alignItems: 'stretch',
         }}
       >
         <div>
           <SectionHead>The fingerprint</SectionHead>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 26 }}>
+          {/* The reading sits under the drawing it reads, always, rather than
+              behind a `How to interpret` toggle that opened a panel at the foot
+              of the page — three sections below the thing it explained, so the
+              reader had to hold a paragraph in mind and scroll back up to the
+              picture. A caption is two lines of prose; it does not need a door
+              in front of it. */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 30 }}>
             <div title={noteTooltip('ties')}>
               <StripLabel left="Ties each" right="Few → many" width={DETAIL_STRIP} size={8.5} />
               <DegreeBars histogram={world.degreeHistogram} width={DETAIL_STRIP} height={DETAIL_BARS} labelSize={8.5} />
+              <StripNote>
+                Each bar is a group of characters, sorted by how many people they appear with. The
+                number on top is how many characters are in that group; the label underneath is how
+                many people each of them knows. Weight on the left means a cast of bit-players around
+                a few principals. Weight on the right means almost everyone meets almost everyone.
+              </StripNote>
             </div>
             <div title={noteTooltip('horizon')}>
               <StripLabel left="Horizon" right="One mark per character" width={DETAIL_STRIP} size={8.5} />
               <HorizonStrip world={world} width={DETAIL_STRIP} height={DETAIL_TICKS} labelMarks />
+              <StripNote>
+                One mark per character, asking: if you know a handful of people, how many more do you
+                reach through them? A mark at <Fig>1×</Fig> is someone who reaches nobody new — in a
+                small cast a lead who already knows everyone, in a large one more often somebody
+                sealed inside a tight circle. A mark at <Fig>10×</Fig> is someone whose few
+                acquaintances open onto ten times as many people again, which is a wide horizon
+                rather than a distant one: they may still be two handshakes from half the world.
+              </StripNote>
             </div>
           </div>
         </div>
 
-        <div>
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: 0 }}>
           <SectionHead>The whole network</SectionHead>
-          <div style={{ height: DETAIL_GRAPH }}>
-            {universe ? (
-              <FullGraph universe={universe} role="subject" />
-            ) : (
-              <div className="annot">Not loaded</div>
-            )}
+          {/* A frame that takes exactly the space left over, and a drawing
+              laid out inside it.
+              `flex: 1 1 auto` was not enough on its own: the basis is the
+              content, and the network's own svg draws past its box, so the
+              frame grew to whatever the drawing wanted and the right column ran
+              on a long way below the left. A zero basis means the frame can
+              only ever be the leftover height, and the drawing is positioned
+              against it rather than measured from it. */}
+          <div
+            style={{
+              flex: '1 1 0',
+              minHeight: DETAIL_GRAPH_MIN,
+              position: 'relative',
+              overflow: 'hidden',
+            }}
+          >
+            <div style={{ position: 'absolute', inset: 0 }}>
+              {universe ? (
+                <FullGraph universe={universe} role="subject" />
+              ) : (
+                <div className="annot">Not loaded</div>
+              )}
+            </div>
           </div>
           <div className="annot" style={{ fontSize: 9, paddingTop: 10 }}>
             Drag to pan, scroll to zoom, hover to name anyone.
@@ -412,31 +473,11 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
   // fresh every time it becomes visible (see App.tsx), so "on mount" already
   // covers every way of arriving on a character page.
   const [view, setView] = useState<'worlds' | 'characters'>(character ? 'characters' : 'worlds');
-  const [sort, setSort] = useState<SortKey>('concentration');
-  /** Open until dismissed, and then dismissed until asked for again. Nobody can
-   * read the cards without it the first time, and everybody can after a while. */
-  const [showKey, setShowKey] = useState(() => {
-    try {
-      return localStorage.getItem(KEY_STORAGE) !== 'closed';
-    } catch {
-      return true;
-    }
-  });
   const [metas, setMetas] = useState<Map<string, UniverseMeta>>(new Map());
   /** Derived rather than stored: the sidecars are either all in or they are not,
    * and a second piece of state would only be a chance for the two to disagree. */
   const loadingMetas = view === 'characters' && metas.size < universes.length;
   const requested = useRef(new Set<string>());
-
-  const setKey = (next: boolean) => {
-    setShowKey(next);
-    try {
-      if (next) localStorage.removeItem(KEY_STORAGE);
-      else localStorage.setItem(KEY_STORAGE, 'closed');
-    } catch {
-      // A private window simply gets the key on every visit.
-    }
-  };
 
   const worlds = useMemo(() => universes.map(measureWorld), [universes]);
 
@@ -496,24 +537,6 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
       });
     });
   }, [view, universes, open, character]);
-
-  const ordered = useMemo(() => {
-    const by = SORTS.find((s) => s.key === sort)!;
-    return [...worlds].sort((a, b) => {
-      const left = by.of(a);
-      const right = by.of(b);
-      return typeof left === 'string' ? left.localeCompare(right as string) : left - (right as number);
-    });
-  }, [worlds, sort]);
-
-  /** A representative card for the explanation — the world whose cast is
-   * closest to the median, so the specimen is typical rather than a chosen
-   * favourite, and it keeps being typical as the catalogue grows. */
-  const sample = useMemo(() => {
-    if (worlds.length === 0) return null;
-    const sizes = [...worlds].sort((a, b) => a.nodes - b.nodes);
-    return sizes[Math.floor(sizes.length / 2)];
-  }, [worlds]);
 
   const detail = open ? worlds.find((w) => w.id === open) : null;
   const openCharacter = character
@@ -589,21 +612,31 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
         />
       ) : (
         <>
-          <div style={{ paddingTop: 30, maxWidth: 620 }}>
+          {/* The standfirst is one line on a laptop, not four.
+              It also no longer says `drawn at the same scale`, which was a
+              promise about a grid of cards: every card was the same size with
+              its axes fixed, so two of them side by side were a comparison. The
+              cards are on the worlds' own pages now and the index is a ledger,
+              where the shared thing is not a scale but a place in an order. */}
+          <div style={{ paddingTop: 26, maxWidth: 820 }}>
             <div style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(24px, 6.4vw, 34px)', lineHeight: 1.1 }}>
               The topology gallery
             </div>
-            <div style={{ fontSize: 'clamp(15px, 4vw, 18px)', color: 'var(--body)', lineHeight: 1.6, paddingTop: 12 }}>
-              Every world you have loaded, measured the same way and drawn at the same scale. Nothing
-              here is a puzzle, and nothing has a right answer.
+            <div style={{ fontSize: 'clamp(15px, 4vw, 17px)', color: 'var(--body)', lineHeight: 1.55, paddingTop: 10 }}>
+              Every world you have loaded and everyone in them, measured the same way and set against
+              each other. Nothing here is a puzzle, and nothing has a right answer.
             </div>
             {worlds.length > 0 && (
               <div
                 className="annot"
-                style={{ fontSize: 9, paddingTop: 16, lineHeight: 1.9, letterSpacing: '0.09em' }}
+                style={{ fontSize: 9, paddingTop: 12, lineHeight: 1.9, letterSpacing: '0.09em' }}
               >
-                {/* Each clause keeps its own separator, so a wrap at this width
-                    cannot leave a dot stranded at the head of the second line. */}
+                {/* Each clause holds together and the separators do not: the
+                    dot and its spaces sit outside the nowrap span, so the line
+                    can break between clauses but never inside one. With the
+                    separator *inside* the span there was no break opportunity
+                    anywhere in the strip, and on a narrow window the whole line
+                    ran off the page and took the document's width with it. */}
                 {[
                   `${worlds.length} ${worlds.length === 1 ? 'world' : 'worlds'}`,
                   `${totals.cast.toLocaleString()} characters`,
@@ -611,13 +644,14 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
                   `${totals.camps.toLocaleString()} camps`,
                   `largest cast ${totals.largest.toLocaleString()}`,
                 ].map((clause, i, all) => (
-                  <span key={clause} style={{ whiteSpace: 'nowrap' }}>
-                    {clause}
+                  <span key={clause}>
+                    <span style={{ whiteSpace: 'nowrap' }}>{clause}</span>
                     {i < all.length - 1 ? ' · ' : ''}
                   </span>
                 ))}
               </div>
             )}
+
           </div>
 
           {/* One sticky row: view, then the tools that belong to it, then help. */}
@@ -648,51 +682,11 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
                   { key: 'characters', label: 'Characters' },
                 ]}
               />
-              {view === 'worlds' && (
-                <RadioRow
-                  label="Order by"
-                  value={sort}
-                  onChange={setSort}
-                  options={SORTS.map((s) => ({ key: s.key, label: s.label }))}
-                />
-              )}
             </div>
-            {!showKey && (
-              <button className="annot-link" onClick={() => setKey(true)}>
-                How to interpret
-              </button>
-            )}
           </div>
 
-          {showKey && (
-            <div style={{ paddingTop: 22 }}>
-              <Explain sample={sample} onDismiss={() => setKey(false)} />
-            </div>
-          )}
-
           {view === 'worlds' ? (
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: `repeat(auto-fill, minmax(min(${CARD_STRIP + 16}px, 100%), 1fr))`,
-                gap: '34px 40px',
-                paddingTop: 30,
-              }}
-            >
-              {ordered.map((world) => {
-                const p = progress.get(world.id);
-                return (
-                  <div key={world.id}>
-                    <Fingerprint world={world} onOpen={openWorld} />
-                    {p && (
-                      <div className="annot" style={{ fontSize: 9, paddingTop: 6, color: 'var(--accent)' }}>
-                        Your map · {progressLine(p)} · {p.clues} {p.clues === 1 ? 'clue' : 'clues'}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
+            <Ledger worlds={worlds} progress={progress} onOpen={openWorld} />
           ) : (
             <CharacterIndex
                 worlds={worlds}

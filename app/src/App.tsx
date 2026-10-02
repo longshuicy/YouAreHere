@@ -387,6 +387,20 @@ export default function App() {
 
   /** Each mapped world's progress, sized against its cast from the index so it
    * is available before that world's own file has loaded. */
+  /**
+   * The loaded worlds as a list, with a stable identity.
+   *
+   * Spread inline at the call site, this was a fresh array on every render of
+   * this component — and `navigate` sets state here, so every move inside the
+   * gallery handed it a new one. The gallery keys its whole measurement pass on
+   * that array, so opening a world, or going back, re-measured all fifty-odd of
+   * them: a single 3.2-second block of script between the click and the page,
+   * on a route change that should cost nothing. It was the same 3.2 seconds for
+   * a twelve-character play as for Harry Potter, which is what gave it away —
+   * the work had nothing to do with the world being opened.
+   */
+  const universeList = useMemo(() => [...loaded.values()], [loaded]);
+
   const progress = useMemo(() => {
     const out = new Map<string, WorldProgress>();
     if (boot.status !== 'ready') return out;
@@ -845,7 +859,7 @@ export default function App() {
   if (showGallery) {
     return (
       <Gallery
-        universes={[...loaded.values()]}
+        universes={universeList}
         progress={progress}
         route={route}
         navigate={navigate}

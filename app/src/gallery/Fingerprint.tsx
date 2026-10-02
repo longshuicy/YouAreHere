@@ -1,5 +1,5 @@
 import { DEGREE_BANDS, GAIN_AXIS, type WorldMetrics } from './metrics';
-import { noteTooltip as tooltip } from './notes';
+import { noteTooltip as tooltip } from './metricNotes';
 import { degreeBarsBox, horizonStripBox } from './stripBox';
 
 /** Fixed log placement, so a tick means the same thing on every card and at

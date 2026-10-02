@@ -781,3 +781,28 @@ button {
     column-gap: 28px;
   }
 }
+
+/* A note in the gallery's margin. The whole row answers the pointer — title and
+   date together — the way a world's card does, rather than only the words being
+   a link and the rule under them being decoration. */
+.note-row {
+  --note-ink: var(--ink);
+  --note-annot: var(--unknown);
+  transition: color 90ms ease;
+}
+
+.note-row:hover,
+.note-row:focus-visible {
+  --note-ink: var(--accent);
+  --note-annot: var(--accent);
+  outline: none;
+}
+
+/* The ledger's later columns. Six measures is a laptop's worth of row; under
+   about 700px the row would otherwise force the whole document sideways, and
+   then every other line on the page looks clipped too. */
+@media (max-width: 760px) {
+  .led-minor {
+    display: none !important;
+  }
+}
