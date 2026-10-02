@@ -1135,7 +1135,7 @@ button {
    ones over it. */
 .xp-draw-controls {
   position: absolute;
-  left: 8px;
+  left: 0;
   top: 8px;
   font-family: var(--mono);
   font-size: 9px;
@@ -1159,14 +1159,18 @@ button {
   text-transform: uppercase;
   color: var(--annotation);
   min-height: 30px;
-  border-bottom: 1px solid transparent;
   cursor: pointer;
 }
 
-.xp-chip:hover,
+.xp-chip:hover {
+  color: var(--ink);
+}
+
+/* Which one is on, said by weight. A rule under the word read as a link to the
+   word next to it rather than as a state. */
 .xp-chip.on {
   color: var(--ink);
-  border-bottom-color: var(--ink);
+  font-weight: 500;
 }
 
 .xp-chip-icon {
@@ -1241,6 +1245,7 @@ button {
   display: flex;
   align-items: center;
   gap: 14px;
+  min-height: 44px;
 }
 
 /* Play and step as round buttons — the one shape everyone already reads as a
@@ -1275,9 +1280,12 @@ button {
   border-color: var(--accent);
 }
 
+/* The day, as a figure with its unit beside it. It used to be a 112px box that
+   an eighteen-point number broke in half, so the run's position read as two
+   lines of wrapped text. */
 .xp-dayread {
-  width: 112px;
   flex-shrink: 0;
+  white-space: nowrap;
   font-size: 10px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -1288,6 +1296,7 @@ button {
   font-size: 18px;
   letter-spacing: 0.04em;
   color: var(--ink);
+  padding: 0 2px;
 }
 
 .xp-track {
@@ -1360,12 +1369,14 @@ button {
   content: '';
   display: block;
   width: 2px;
-  height: 24px;
+  height: 20px;
   background: var(--accent);
+  opacity: 0.75;
 }
 
 .xp-mark:hover::before {
-  width: 3px;
+  opacity: 1;
+  height: 24px;
 }
 
 .xp-mark-key {
@@ -1401,8 +1412,15 @@ button {
 .xp-transport-note {
   display: flex;
   gap: 28px;
+  /* Under the track, not under the buttons: it is a note about the run rather
+     than about the controls. */
   padding-left: 116px;
   flex-wrap: wrap;
+}
+
+.xp-transport-note .xp-label {
+  font-size: 10px;
+  letter-spacing: 0.16em;
 }
 
 /* ── The right column ────────────────────────────────────────────────────── */
@@ -1411,6 +1429,8 @@ button {
   grid-column: 2;
   grid-row: 1 / -1;
   min-height: 0;
+  /* Level with the shelf's own figures rather than with the rule above them. */
+  padding-top: 16px;
   display: flex;
   flex-direction: column;
   /* The rule belongs to the gutter rather than to this column's edge, so the
@@ -1507,10 +1527,10 @@ button {
 }
 
 .xp-step-body {
-  padding: 6px 0 0 34px;
+  padding: 10px 0 2px 34px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 14px;
 }
 
 .xp-step-value {
@@ -1612,6 +1632,14 @@ button {
   text-transform: uppercase;
   color: var(--ink);
   cursor: pointer;
+}
+
+.xp-preset + .xp-preset {
+  border-left: 1px solid var(--ink);
+}
+
+.xp-preset:hover:not(.on) {
+  color: var(--accent);
 }
 
 .xp-preset.on {
@@ -1747,6 +1775,7 @@ button {
 
 .xp-dials {
   border-bottom: none;
+  border-top-color: var(--ink);
   padding: 14px 6px 14px 0;
   display: flex;
   flex-direction: column;
@@ -1756,7 +1785,7 @@ button {
 .xp-dial-group {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .xp-dial-group + .xp-dial-group {
@@ -1801,13 +1830,33 @@ button {
 .xp-dial-label {
   font-family: var(--serif);
   font-size: 15px;
+  line-height: 1.2;
   color: var(--ink);
 }
 
-.xp-dial input[type='range'] {
+/*
+ * A value you set, not a scale with one mark on it.
+ *
+ * These were drawn as the cold open's hairline with an accent dot, which is the
+ * right picture for a reading on a fixed range and the wrong one for a control:
+ * a dial wants a track that fills, so the part you have used is visible. The
+ * board sets `accent-color` on a plain range and lets the platform draw it.
+ */
+.xp-range {
   width: 100%;
   height: 26px;
   margin: 0;
+  accent-color: var(--ink);
+  background: transparent;
+}
+
+/* The symbol under a dial: there for the doc that explains the rule, not for
+   the visitor, so it is set at the quietest weight the page has. */
+.xp-sym {
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--unknown);
 }
 
 /* The encounter mix: one quantity divided three ways, so one bar. */
@@ -1888,8 +1937,9 @@ button {
 
 .xp-reading-figures {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  gap: 18px;
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
   padding: 12px 0;
@@ -1908,6 +1958,11 @@ button {
 .xp-people {
   display: flex;
   flex-direction: column;
+}
+
+.xp-more {
+  align-self: flex-start;
+  margin-top: 8px;
 }
 
 .xp-person {
@@ -2002,6 +2057,10 @@ button {
 
 .xp-label.strong {
   color: var(--ink);
+}
+
+.xp-label.nowrap {
+  white-space: nowrap;
 }
 
 .xp-value {

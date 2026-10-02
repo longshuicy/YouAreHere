@@ -241,6 +241,18 @@ export function Field(props: FieldProps) {
     const pos = posRef.current;
     if (!wrap || !canvas || !svg || !state || !pos) return;
 
+    /*
+     * Positions and the graph have to be the same population.
+     *
+     * They arrive from different places — the worker posts positions, the
+     * simulation owns the graph — and a population change replaces them in two
+     * steps. A frame caught between the two drew the old adjacency against the
+     * new coordinates: a character's ties struck out across empty paper to
+     * people who were no longer there, which is what the followed character's
+     * marks were doing after the worlds were changed under them.
+     */
+    if (pos.x.length !== state.adj.length) return;
+
     const fresh = pos !== drawnPosRef.current;
     if (!fresh && !dirtyRef.current && settledRef.current) return;
     drawnPosRef.current = pos;

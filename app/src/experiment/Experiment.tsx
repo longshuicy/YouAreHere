@@ -196,6 +196,8 @@ export function Experiment() {
   const [speed, setSpeed] = useState(4);
   /** The figures behind the three on the shelf. */
   const [figuresOpen, setFiguresOpen] = useState(false);
+  /** Five people is a reading; forty is a directory. */
+  const [peopleOpen, setPeopleOpen] = useState(false);
   const [worldQuery, setWorldQuery] = useState('');
   /** The world a loyalty row is pointing at. */
   const [lit, setLit] = useState<number | null>(null);
@@ -716,8 +718,17 @@ export function Experiment() {
     // the tie it belongs to is still there — which is the case where it is
     // genuinely the latest thing to have happened between two people.
     const alive = youAdj && you !== null ? youAdj[you] : null;
+    // And only the latest one per person. A tie strengthened back above the
+    // mark and allowed to fade again crosses it twice, and the same sentence
+    // about the same friendship twice in a list is not two pieces of news.
+    const faded = new Set<number>();
     return yourEvents
-      .filter((e) => e.action !== 'FADE' || (alive?.has(e.other) ?? false))
+      .filter((e) => {
+        if (e.action !== 'FADE') return true;
+        if (!alive?.has(e.other) || faded.has(e.other)) return false;
+        faded.add(e.other);
+        return true;
+      })
       .slice(0, STORY_LIMIT)
       .map((e) => {
         const name = world.name[e.other];
@@ -1111,6 +1122,8 @@ export function Experiment() {
             startTies={yourLife.ties[0] ?? 0}
             startOutside={Math.round((1 - (yourLife.home[0] ?? 1)) * (yourLife.ties[0] ?? 0))}
             story={story}
+            peopleOpen={peopleOpen}
+            onPeople={() => setPeopleOpen((o) => !o)}
             onSomeoneElse={() => {
               setStarted(false);
               setPanel('steps');
@@ -1173,6 +1186,7 @@ export function Experiment() {
             onConditions={() => setPanel('conditions')}
             onPreset={applyPreset}
             onRandom={wakeElsewhere}
+            onUnfollow={() => setFollow(null)}
             onBegin={() => {
               setStarted(true);
               setRunning(true);
@@ -1297,6 +1311,7 @@ function Steps(props: {
   onConditions: () => void;
   onPreset: (id: PresetId) => void;
   onRandom: () => void;
+  onUnfollow: () => void;
   onBegin: () => void;
 }) {
   const { world, you, youWorld, params } = props;
@@ -1347,7 +1362,10 @@ function Steps(props: {
             label="Following"
             done
             action={
-              <button type="button" className="mono xp-link quiet" onClick={props.onRandom}>
+              /* Back to the three ways in, not straight to a different
+                 stranger: `change` is a reopening of the question, and a button
+                 that answers it again for you is not a change, it is a reroll. */
+              <button type="button" className="mono xp-link quiet" onClick={props.onUnfollow}>
                 Change
               </button>
             }
@@ -1591,7 +1609,7 @@ function Conditions(props: {
             step={5}
             onChange={(v) => setShare('cross', v)}
           />
-          <p className="mono xp-label">Friend of a friend takes the rest.</p>
+          <span className="mono xp-sym">Friend of a friend takes the rest</span>
         </section>
 
         <section className="xp-dial-group">
@@ -1671,7 +1689,7 @@ function Dial(props: {
         <span className="mono xp-value">{props.shown}</span>
       </span>
       <input
-        className="ease"
+        className="xp-range"
         type="range"
         min={props.min}
         max={props.max}
@@ -1679,7 +1697,7 @@ function Dial(props: {
         value={props.value}
         onChange={(e) => props.onChange(Number(e.target.value))}
       />
-      {props.sym && <span className="mono xp-label">{props.sym}</span>}
+      {props.sym && <span className="mono xp-sym">{props.sym}</span>}
     </label>
   );
 }
@@ -1701,6 +1719,8 @@ function Reading(props: {
   startTies: number;
   startOutside: number;
   story: { day: number; text: string }[];
+  peopleOpen: boolean;
+  onPeople: () => void;
   onSomeoneElse: () => void;
   onGoToDay: (day: number) => void;
 }) {
@@ -1720,17 +1740,17 @@ function Reading(props: {
       <div className="xp-reading-figures">
         <div>
           <div className="mono xp-reading-n">{props.ties.length}</div>
-          <div className="mono xp-label">Ties · was {props.startTies}</div>
+          <div className="mono xp-label nowrap">Ties · was {props.startTies}</div>
         </div>
         <div>
           <div className="mono xp-reading-n accent">{props.outside}</div>
-          <div className="mono xp-label">Outside home · was {props.startOutside}</div>
+          <div className="mono xp-label nowrap">Outside home · was {props.startOutside}</div>
         </div>
       </div>
 
       <h3 className="mono xp-group">Who they know</h3>
       <div className="xp-people">
-        {props.ties.slice(0, 14).map(([v, s]) => {
+        {props.ties.slice(0, props.peopleOpen ? 40 : 5).map(([v, s]) => {
           const away = world.world[v] !== world.world[you];
           return (
             <div key={v} className="xp-person">
@@ -1750,6 +1770,11 @@ function Reading(props: {
           );
         })}
         {props.ties.length === 0 && <p className="xp-note quiet">Nobody left.</p>}
+        {props.ties.length > 5 && (
+          <button type="button" className="mono xp-link quiet xp-more" onClick={props.onPeople}>
+            {props.peopleOpen ? 'Show fewer' : `All ${props.ties.length}`}
+          </button>
+        )}
       </div>
 
       <h3 className="mono xp-group">Their story so far</h3>
