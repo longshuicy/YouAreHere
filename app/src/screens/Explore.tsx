@@ -1,6 +1,9 @@
+import type { ReactNode } from 'react';
 import { Stage } from '../render/Stage';
 import { Ledger } from '../render/Ledger';
-import { BrandCluster, type StartLinks, CHROME_PADDING, GiveUpLinks, HelpLink, BackgroundToggle } from '../render/MarginLinks';
+import { BrandMark, type StartLinks, CHROME_PADDING, BackgroundToggle } from '../render/MarginLinks';
+import { Elsewhere, HelpMark, StartNav, TopBar, TopBarLink } from '../render/TopBar';
+import { PlayKey } from '../render/PlayKey';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -28,6 +31,8 @@ interface Props {
   onReveal: () => void;
   onRevealStory: () => void;
   onToggleBackground: () => void;
+  /** The lab is reachable from every screen; this is the play screen's way in. */
+  onOpenGallery: () => void;
   startLinks: StartLinks;
   /** Shown in place of the question line once the story has been guessed right. */
   universeTitle: string;
@@ -53,6 +58,7 @@ export function Explore({
   onReveal,
   onRevealStory,
   onToggleBackground,
+  onOpenGallery,
   startLinks,
   universeTitle,
   worldBlurb,
@@ -62,6 +68,12 @@ export function Explore({
   // is a control over paper that is not on the stage yet, so it does not
   // show until there is carried-over paper or a horizon count to act on.
   const hasBackground = graph.nodes.some((n) => n.faded || n.horizon) || graph.edges.some((e) => e.faded || e.horizon);
+
+  // The last name put to a face, which is the one a player has just earned and
+  // the one the panel has room for. Yours is not a tie of yours, so it is not
+  // one of these even once the round is over.
+  let latestName: string | null = null;
+  for (const [i, name] of session.known.named) if (i !== session.you) latestName = name;
 
   return (
     <div style={{ position: 'relative', height: '100dvh', overflow: 'hidden' }}>
@@ -93,95 +105,164 @@ export function Explore({
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between',
+          gap: 16,
           pointerEvents: 'none',
         }}
       >
-        <div className="chrome-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-          <BrandCluster {...startLinks} />
-          {/* The key of what each action costs, and under it what has been
-              spent: one column on one edge, reference over readout. */}
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 14 }}>
-            <HelpLink onOpenKey={onOpenKey} />
-            <Ledger ledger={session.ledger} residence={residence} itemised />
-          </div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
+          {/* The wordmark and the ways on share the left, because they are the
+              same thing: who is speaking, and what you can do about it. The
+              corner on the right is Elsewhere, as on every other screen. */}
+          <TopBar
+            inset={false}
+            left={
+              <>
+                <BrandMark />
+                <StartNav {...startLinks} />
+              </>
+            }
+            right={
+              <Elsewhere onOpenLab={onOpenGallery}>
+                <TopBarLink onClick={onOpenKey} icon={<HelpMark />}>
+                  How to play
+                </TopBarLink>
+              </Elsewhere>
+            }
+          />
+          <PlayKey />
         </div>
 
         <div
           className="stack-sm"
           style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 24 }}
         >
-          {/* This corner is about *where* you are. */}
-          <div style={{ maxWidth: 520 }}>
+          {/* This corner is about *where* you are, and what the world has told
+              you so far. A panel rather than loose text: it sits over a drawing
+              now, and prose laid straight on a graph is unreadable the moment a
+              tie runs under it. */}
+          <div className="play-panel" style={{ width: 'min(440px, 100%)', gap: 14 }}>
             {worldKnown ? (
-              <>
-                <div style={{ fontSize: 'clamp(17px, 4.6vw, 21px)' }}>{universeTitle}</div>
+              <div>
+                <div style={{ fontSize: 'clamp(19px, 4.6vw, 30px)', lineHeight: 1.1 }}>{universeTitle}</div>
                 {worldBlurb && (
-                  <div style={{ fontSize: 'clamp(14px, 3.8vw, 17px)', color: 'var(--body)', marginTop: 6, lineHeight: 1.5 }}>
+                  <div style={{ fontSize: 'clamp(14px, 3.8vw, 17px)', color: 'var(--body)', marginTop: 8, lineHeight: 1.5 }}>
                     {worldBlurb}
                   </div>
                 )}
-              </>
+              </div>
             ) : (
-              <div style={{ fontSize: 'clamp(17px, 4.6vw, 21px)', color: 'var(--body)' }}>
+              <div style={{ fontSize: 'clamp(19px, 4.6vw, 30px)', lineHeight: 1.1 }}>
                 You don’t know where you are.
               </div>
             )}
+
+            {/* Everything the round has actually told you, kept where it was
+                told to you rather than scrolling away as the next thing is
+                bought. The free reading is always the first line: it is the
+                one the game gives without being asked. */}
             <div
               style={{
-                fontSize: 'clamp(14px, 3.8vw, 17px)',
-                color: 'var(--body)',
-                marginTop: 10,
-                fontStyle: 'italic',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: 6,
+                borderTop: '1px solid var(--rule)',
+                paddingTop: 12,
               }}
             >
-              {standing}
+              <div className="annot" style={{ fontSize: 9, letterSpacing: '0.2em', color: 'var(--annotation)' }}>
+                What you know so far
+              </div>
+              <KnownRow label="Reading">{standing}</KnownRow>
+              {latestName && <KnownRow label="Name">One of your ties is {latestName}.</KnownRow>}
             </div>
           </div>
-          {/* Win path first; give-up sits under it, same corner, quieter. */}
-          <div
-            className="foot-actions"
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'flex-end',
-              gap: 10,
-            }}
-          >
-            <button
-              className="action"
-              onClick={onOpenGuess}
+
+          {/* And this corner is about what it has cost, and the two ways the
+              round can end. The count was in the opposite corner from the
+              actions that move it; it is now the heading of the panel those
+              actions sit in. */}
+          <div className="play-panel foot-actions" style={{ width: 'min(360px, 100%)', gap: 12 }}>
+            <Ledger ledger={session.ledger} residence={residence} itemised variant="panel" />
+
+            <button className="found-block" onClick={onOpenGuess}>
+              <span className="found-word">I’ve found myself</span>
+              <span className="found-sub">Free · a wrong guess costs nothing</span>
+            </button>
+
+            {/* Two while the world is still a question, one once it is not —
+                and the one left takes the whole width rather than sitting in
+                half a row with a hole beside it. */}
+            <div
               style={{
-                pointerEvents: 'auto',
-                whiteSpace: 'nowrap',
-                fontSize: 'clamp(12px, 3.4vw, 15px)',
-                letterSpacing: 'clamp(0.16em, 1vw, 0.3em)',
-                color: 'var(--accent)',
-                borderBottom: '2px solid var(--accent)',
-                padding: '16px 10px 12px 10px',
+                display: 'grid',
+                gridTemplateColumns: worldKnown ? 'minmax(0, 1fr)' : 'repeat(2, minmax(0, 1fr))',
+                gap: 8,
               }}
             >
-              I've found myself
-            </button>
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: 22, flexWrap: 'wrap', justifyContent: 'flex-end', pointerEvents: 'auto' }}>
-              {hasBackground && (
+              {!worldKnown && (
+                <button className="outline-button" onClick={onRevealStory}>
+                  Reveal world
+                  <span className="outline-button-sub">
+                    Costs {clues(COST.story)}
+                  </span>
+                </button>
+              )}
+              <button className="outline-button" onClick={onReveal}>
+                Reveal answer
+                <span className="outline-button-sub">
+                  Costs {clues(COST.answer)}
+                </span>
+              </button>
+            </div>
+
+            {/* Not one of the two ways out, so not drawn as one: it buys back
+                paper and puts it away again, and belongs under them. */}
+            {hasBackground && (
+              <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
                 <BackgroundToggle
                   hidden={session.hideBackground}
                   unlocked={session.ledger.declutters > 0}
                   cost={COST.declutter}
                   onToggle={onToggleBackground}
                 />
-              )}
-              <GiveUpLinks
-                answerCost={COST.answer}
-                storyCost={COST.story}
-                onReveal={onReveal}
-                onRevealStory={worldKnown ? undefined : onRevealStory}
-              />
-            </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
 
+    </div>
+  );
+}
+
+/** A price, in the one unit this game has. Takes a plain number so a cost that
+ *  is a literal in the table does not make the comparison look impossible. */
+function clues(n: number): string {
+  return `${n} ${n === 1 ? 'clue' : 'clues'}`;
+}
+
+/** One thing the round has told you: what kind of knowing it was, and what it
+ *  said. The label is a fixed column so the sentences line up as a list rather
+ *  than a ragged paragraph. */
+function KnownRow({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <div style={{ display: 'flex', gap: 12, alignItems: 'baseline' }}>
+      <span
+        className="mono"
+        style={{
+          width: 64,
+          flexShrink: 0,
+          fontSize: 9,
+          letterSpacing: '0.16em',
+          textTransform: 'uppercase',
+          color: 'var(--accent)',
+        }}
+      >
+        {label}
+      </span>
+      <span style={{ fontSize: 'clamp(15px, 3.8vw, 18px)', fontStyle: 'italic', lineHeight: 1.35 }}>
+        {children}
+      </span>
     </div>
   );
 }

@@ -791,6 +791,7 @@ export default function App() {
           onReveal={revealAnswer}
           onRevealStory={revealStory}
           onToggleBackground={() => dispatch({ type: 'TOGGLE_BACKGROUND' })}
+          onOpenGallery={() => navigate({ screen: 'gallery' })}
           startLinks={startLinks}
           universeTitle={universe.title}
           worldBlurb={blurbFor(universe)}

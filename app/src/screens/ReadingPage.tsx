@@ -37,6 +37,7 @@ export function ReadingPage({
   tieLine,
   round = null,
   headAside,
+  belowHead,
   chromeLeft,
   chromeRight,
   after,
@@ -70,6 +71,8 @@ export function ReadingPage({
   /** Sits beside the name. The reveal puts the round's tally here; the gallery
    * has no round and leaves it out. */
   headAside?: ReactNode;
+  /** Full-width, between the head and the reading. See the note at the slot. */
+  belowHead?: ReactNode;
   chromeLeft?: ReactNode;
   chromeRight?: ReactNode;
   /** Whatever belongs under the reading: the round, the closing note. Scrolls
@@ -177,6 +180,13 @@ export function ReadingPage({
 
           {headAside && <div className="reveal-head-aside">{headAside}</div>}
         </div>
+
+        {/* Full width of the copy column, between the head and the reading.
+            A reveal's ways out belong here: the aside beside the name is a
+            narrow column of figures, and three buttons in it are three buttons
+            in a gutter. Nothing passes this but the reveal, so every other
+            page that uses this layout is unchanged. */}
+        {belowHead}
 
         <div className="reveal-sections">
           <CharacterReading

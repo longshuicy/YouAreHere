@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
-import { BrandCluster, ChromeRight, type StartLinks } from '../render/MarginLinks';
+import { BrandMark, hereLabel, type StartLinks } from '../render/MarginLinks';
+import { Elsewhere, StartNav, TopBar } from '../render/TopBar';
 import { clueBonus, clueTotal, type Session } from '../engine/session';
 import {
   isComplete,
@@ -53,6 +54,8 @@ export function Reveal({
   onOpenTwin,
 }: Props) {
   const clues = clueTotal(session.ledger);
+  /** Who you turned out to be — the lab row follows them by name. */
+  const youName = universe.nodes.find((n) => n.i === session.you)?.n ?? null;
   const { expansions, facts, names } = session.ledger;
 
   const world = useMemo(() => measureWorld(universe), [universe]);
@@ -142,6 +145,65 @@ export function Reveal({
     </>
   ) : null;
 
+  /** How the round went, in the head's aside — the same figures the artboard
+   *  sets across the top of the column. Lifted out of the call below because
+   *  the aside now carries the ways out under it, and a ternary this long
+   *  nested inside a second one is not readable. */
+  const headTally = (
+      closed && residence ? (
+        <>
+          <div className="chrome" style={{ letterSpacing: '0.3em' }}>
+            How it went
+          </div>
+          <div className="mono reveal-head-tally" style={TALLY_STYLE}>
+            {residence.starts.map((n, k) => (
+              <div key={k}>
+                {startOrdinal(k + 1)} · {n} {n === 1 ? 'clue' : 'clues'}
+              </div>
+            ))}
+            <div style={{ marginTop: 8, color: 'var(--ink)' }}>
+              {residenceTotal(residence)}{' '}
+              {residenceTotal(residence) === 1 ? 'clue' : 'clues'} to map a whole world
+            </div>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className="chrome" style={{ letterSpacing: '0.3em' }}>
+            How it went
+          </div>
+          <div className="mono reveal-head-tally" style={TALLY_STYLE}>
+            <div>{tally}</div>
+            <div>
+              You found yourself in {clues} {clues === 1 ? 'clue' : 'clues'}
+            </div>
+            <div>
+              You uncovered {seen} of {world.nodes} people
+            </div>
+            {nearest && (
+              <div>
+                Closest guess {nearest.name}, {nearest.hops}{' '}
+                {nearest.hops === 1 ? 'tie' : 'ties'} away
+              </div>
+            )}
+            {residence && (
+              <div style={{ marginTop: 8, color: 'var(--ink)' }}>
+                {living ? `${startOrdinal(startNumber)} · ` : 'Your map · '}
+                {namedCount} of {cast} named
+                {/* A finished map's total is final — the clues it took to
+                    name the whole world. Rounds played there afterwards are
+                    one-offs and do not add to it. */}
+                {residenceTotal(residence) > 0 &&
+                  ` · ${residenceTotal(residence) + (living ? clues : 0)} clues ${
+                    finished ? 'in total' : 'so far'
+                  }`}
+              </div>
+            )}
+          </div>
+        </>
+      )
+  );
+
   return (
     <ReadingPage
       universe={universe}
@@ -161,67 +223,26 @@ export function Reveal({
       linkToCharacter={onOpenCharacter}
       linkToTwin={onOpenTwin}
       onOpenWorld={onOpenWorld}
-      chromeLeft={<BrandCluster {...startLinks} />}
-      chromeRight={
-        <ChromeRight>
-          <button type="button" className="annot-link" onClick={onOpenGallery}>
-            The topology gallery
-          </button>
-        </ChromeRight>
+      chromeLeft={
+        <TopBar
+          inset={false}
+          left={
+            <>
+              <BrandMark />
+              <StartNav {...startLinks} />
+            </>
+          }
+        />
       }
-      headAside={
-        closed && residence ? (
-          <>
-            <div className="chrome" style={{ letterSpacing: '0.3em' }}>
-              How it went
-            </div>
-            <div className="mono reveal-head-tally" style={TALLY_STYLE}>
-              {residence.starts.map((n, k) => (
-                <div key={k}>
-                  {startOrdinal(k + 1)} · {n} {n === 1 ? 'clue' : 'clues'}
-                </div>
-              ))}
-              <div style={{ marginTop: 8, color: 'var(--ink)' }}>
-                {residenceTotal(residence)}{' '}
-                {residenceTotal(residence) === 1 ? 'clue' : 'clues'} to map a whole world
-              </div>
-            </div>
-          </>
-        ) : (
-          <>
-            <div className="chrome" style={{ letterSpacing: '0.3em' }}>
-              How it went
-            </div>
-            <div className="mono reveal-head-tally" style={TALLY_STYLE}>
-              <div>{tally}</div>
-              <div>
-                You found yourself in {clues} {clues === 1 ? 'clue' : 'clues'}
-              </div>
-              <div>
-                You uncovered {seen} of {world.nodes} people
-              </div>
-              {nearest && (
-                <div>
-                  Closest guess {nearest.name}, {nearest.hops}{' '}
-                  {nearest.hops === 1 ? 'tie' : 'ties'} away
-                </div>
-              )}
-              {residence && (
-                <div style={{ marginTop: 8, color: 'var(--ink)' }}>
-                  {living ? `${startOrdinal(startNumber)} · ` : 'Your map · '}
-                  {namedCount} of {cast} named
-                  {/* A finished map's total is final — the clues it took to
-                      name the whole world. Rounds played there afterwards are
-                      one-offs and do not add to it. */}
-                  {residenceTotal(residence) > 0 &&
-                    ` · ${residenceTotal(residence) + (living ? clues : 0)} clues ${
-                      finished ? 'in total' : 'so far'
-                    }`}
-                </div>
-              )}
-            </div>
-          </>
-        )
+      chromeRight={<Elsewhere onOpenLab={onOpenGallery} />}
+      headAside={headTally}
+      belowHead={
+        <WaysOut
+          startLinks={startLinks}
+          youName={youName}
+          worldTitle={universe.title}
+          onOpenLab={onOpenGallery}
+        />
       }
       after={
         tieMeaning ? (
@@ -231,5 +252,80 @@ export function Reveal({
         ) : null
       }
     />
+  );
+}
+
+/**
+ * The ways out of a finished round.
+ *
+ * The round is over and the question is answered, so this is the one screen
+ * where what to do next is the whole of what is left — and it was three links
+ * in the margin, the same weight as the help link. The artboard gives it the
+ * block: play again here, or the two ways of going elsewhere, framed beside
+ * it. The same three everywhere, in the same words, with the one that keeps
+ * this map carrying the emphasis.
+ */
+function WaysOut({
+  startLinks,
+  youName,
+  worldTitle,
+  onOpenLab,
+}: {
+  startLinks: StartLinks;
+  youName: string | null;
+  worldTitle: string;
+  onOpenLab: () => void;
+}) {
+  return (
+    <div style={{ marginTop: 22, display: 'flex', flexDirection: 'column', gap: 10 }}>
+      <div className="ways-out">
+        <button type="button" className="begin-block accent" onClick={startLinks.onStartHere}>
+          <span style={{ display: 'flex', flexDirection: 'column', gap: 3, textAlign: 'left' }}>
+            <span className="begin-word" style={{ fontSize: 11, letterSpacing: '0.22em' }}>
+              Play again
+            </span>
+            <span className="begin-sub" style={{ letterSpacing: '0.18em' }}>
+              {hereLabel(worldTitle)}
+            </span>
+          </span>
+          <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden focusable="false">
+            <path d="M3 1l8 5-8 5z" fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" className="outline-button strong" onClick={startLinks.onStartAgain}>
+          Any world
+        </button>
+        <button type="button" className="outline-button strong" onClick={startLinks.onChooseWorld}>
+          Choose a world
+        </button>
+      </div>
+
+      {/* The one place the lab is more than a link in the corner: the player
+          has just finished walking this person's neighbourhood under the
+          game's rules, and the lab is where the same person can be watched
+          without them. */}
+      <button type="button" className="outline-row" onClick={onOpenLab}>
+        <span style={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+          <span className="mono" style={{ fontSize: 11, letterSpacing: '0.22em', textTransform: 'uppercase' }}>
+            Follow {youName ?? 'them'} with no walls
+          </span>
+          <span style={{ fontSize: 15, color: 'var(--body)' }}>
+            In the topology lab: watch who they’d meet if every world opened up.
+          </span>
+        </span>
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 10 10"
+          fill="none"
+          stroke="var(--accent)"
+          strokeWidth="1.3"
+          aria-hidden
+          focusable="false"
+        >
+          <path d="M2 5h6M5.5 2.5L8 5 5.5 7.5" />
+        </svg>
+      </button>
+    </div>
   );
 }

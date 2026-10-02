@@ -14,6 +14,8 @@
   /* Paper, dimmed, for the one surface that is printed *on* ink: the sub-line
      under BEGIN. Paper itself is too bright against #16130f for a caption. */
   --on-ink-dim: #c9c1b2;
+  /* The same idea on the accent: a caption printed on #8c2f2a. */
+  --on-accent-dim: #ebd3cf;
   /* A card's fill on the chooser: a shade above paper, so a started world
      sits forward of the index without needing a shadow. */
   --card: #fbf8f1;
@@ -323,7 +325,31 @@ button {
   cursor: default;
 }
 
+/* The ways on sit beside the wordmark rather than in the right-hand slot: they
+   are moves in the game, and Elsewhere is for what is not. */
+.start-nav {
+  gap: 26px;
+  justify-content: flex-start;
+}
+
+.start-nav .top-bar-link {
+  font-size: 11px;
+}
+
+/* The one that keeps this map. */
+.start-nav-here {
+  color: var(--accent);
+}
+
 @media (max-width: 640px) {
+  .start-nav {
+    gap: 12px;
+  }
+
+  .start-nav .top-bar-link {
+    font-size: 9px;
+  }
+
   .top-bar-nav {
     gap: 16px;
   }
@@ -378,6 +404,64 @@ button {
   cursor: default;
 }
 
+/* The same block in the accent. Used where the thing to press is not a start
+   but a *re*start: the reveal's way back into the world you have just left. */
+.begin-block.accent {
+  background: var(--accent);
+}
+
+.begin-block.accent .begin-sub {
+  color: var(--on-accent-dim);
+}
+
+.begin-block.accent:hover,
+.begin-block.accent:focus-visible {
+  background: var(--ink);
+}
+
+.begin-block.accent:hover .begin-sub,
+.begin-block.accent:focus-visible .begin-sub {
+  color: var(--on-ink-dim);
+}
+
+/* The reveal's ways out: one block and two framed alternatives on a line,
+   stacking when there is no line to share. */
+.ways-out {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 150px 150px;
+  gap: 8px;
+}
+
+@media (max-width: 760px) {
+  .ways-out {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* An outlined button that is a row rather than a stack: a label over a line of
+   prose, with the way onward marked at the far end. */
+.outline-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  min-height: 52px;
+  padding: 8px 18px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 120ms ease;
+}
+
+.outline-row:hover,
+.outline-row:focus-visible {
+  border-color: var(--accent);
+  outline: none;
+}
+
 .begin-word {
   font-family: var(--mono);
   font-size: 13px;
@@ -391,6 +475,140 @@ button {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--on-ink-dim);
+}
+
+/* A panel floating over the diagram.
+ *
+ * Paper at nine tenths rather than a card with an edge: the graph is the page
+ * and these are notes laid on it, so the ties underneath stay faintly visible
+ * instead of being cut off by a border. No shadow — nothing else in this
+ * design lifts. */
+.play-panel {
+  box-sizing: border-box;
+  padding: 16px 20px;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+}
+
+/* The win path. The same solid block BEGIN is, in the accent rather than ink,
+   because it is the one action that ends a round — and the only other filled
+   thing in the game. Centred, and with no icon: it is not a way onward to
+   somewhere, it is the claim itself. */
+.found-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  min-height: 56px;
+  padding: 8px 16px;
+  background: var(--accent);
+  color: var(--paper);
+  border: none;
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+.found-block:hover,
+.found-block:focus-visible {
+  background: var(--ink);
+  outline: none;
+}
+
+.found-word {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.found-sub {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--on-accent-dim);
+}
+
+/* Giving up, drawn as what it is: a bounded choice with a price on it, not a
+   link in the margin. Outlined rather than filled — these are the two things
+   on the screen you can do that the game would rather you did not. */
+.outline-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  min-height: 52px;
+  padding: 6px 12px;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+
+.outline-button.strong {
+  border-color: var(--ink);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+.outline-button:hover,
+.outline-button:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+  outline: none;
+}
+
+.outline-button-sub {
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  color: var(--annotation);
+}
+
+/* The standing key, across the top of the diagram. Not a legend in a corner:
+   it is what the four kinds of circle on the page mean, and a reader needs it
+   while looking at them. */
+.play-key {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--annotation);
+}
+
+.play-key > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  /* Two panels stacked over a diagram leave no diagram. The key goes; the
+     overlay behind HOW TO PLAY still has it. */
+  .play-key {
+    display: none;
+  }
+
+  .play-panel {
+    padding: 12px 14px;
+  }
 }
 
 /* The cold start's two columns: what to decide, and the diagram you are

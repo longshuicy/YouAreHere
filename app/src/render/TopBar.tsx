@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { CHROME_PADDING } from './MarginLinks';
+import { CHROME_PADDING, hereLabel, type StartLinks } from './MarginLinks';
 
 /**
  * The bar across the top of every screen.
@@ -139,6 +139,50 @@ export function Elsewhere({
           The topology lab
         </TopBarLink>
       )}
+    </nav>
+  );
+}
+
+/** A question mark in a ring, set before HOW TO PLAY on the screens that are
+ *  busy enough to need the link found rather than read. */
+export function HelpMark() {
+  return (
+    <span
+      aria-hidden
+      style={{
+        width: 18,
+        height: 18,
+        flexShrink: 0,
+        borderRadius: '50%',
+        border: '1px solid var(--unknown)',
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: 10,
+        letterSpacing: 0,
+      }}
+    >
+      ?
+    </span>
+  );
+}
+
+/**
+ * The three ways on, in the bar.
+ *
+ * The same three everywhere, in the same order and the same words — see
+ * `hereLabel` for why there are exactly three. The last is in the accent
+ * because it is the one that keeps the map you are looking at; the other two
+ * leave it.
+ */
+export function StartNav({ onStartAgain, onChooseWorld, onStartHere, hereTitle }: StartLinks) {
+  return (
+    <nav aria-label="Ways on" className="top-bar-nav start-nav">
+      <TopBarLink onClick={onStartAgain}>Any world</TopBarLink>
+      <TopBarLink onClick={onChooseWorld}>Choose a world</TopBarLink>
+      <button type="button" className="top-bar-link start-nav-here" onClick={onStartHere}>
+        {hereLabel(hereTitle)}
+      </button>
     </nav>
   );
 }
