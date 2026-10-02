@@ -69,11 +69,24 @@ export function Explore({
   // show until there is carried-over paper or a horizon count to act on.
   const hasBackground = graph.nodes.some((n) => n.faded || n.horizon) || graph.edges.some((e) => e.faded || e.horizon);
 
-  // The last name put to a face, which is the one a player has just earned and
-  // the one the panel has room for. Yours is not a tie of yours, so it is not
-  // one of these even once the round is over.
-  let latestName: string | null = null;
-  for (const [i, name] of session.known.named) if (i !== session.you) latestName = name;
+  // The last name earned *in this round*.
+  //
+  // `session.known.named` is not that: inside a residence it opens already
+  // holding every name the map carries, so the latest entry in it is just as
+  // likely to be someone named three lives ago. Printing that under "what you
+  // know so far" told the player this round had found them, which it had not
+  // — and the carried names are already drawn on the diagram, where they
+  // belong. What is left is what this walk bought: a name in the session that
+  // the map did not already have.
+  //
+  // Yours is never one of these. It is not a tie of yours, and it arrives in
+  // `named` by being answered rather than by being bought.
+  let earnedName: string | null = null;
+  for (const [i, name] of session.known.named) {
+    if (i === session.you) continue;
+    if (residence?.named.has(i)) continue;
+    earnedName = name;
+  }
 
   return (
     <div style={{ position: 'relative', height: '100dvh', overflow: 'hidden' }}>
@@ -173,7 +186,10 @@ export function Explore({
                 What you know so far
               </div>
               <KnownRow label="Reading">{standing}</KnownRow>
-              {latestName && <KnownRow label="Name">One of your ties is {latestName}.</KnownRow>}
+              {/* Said as something that happened, not as a standing fact: the
+                  row is a log of what this walk turned up, and `one of your
+                  ties is X` reads as a thing you have always known. */}
+              {earnedName && <KnownRow label="Name">You put a name to {earnedName}.</KnownRow>}
             </div>
           </div>
 
