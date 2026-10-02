@@ -89,7 +89,7 @@ export default function App() {
   const [residenceClosed, setResidenceClosed] = useState(false);
   /** The gallery is a companion piece, not a mode. It is offered from the cold
    * open and from the reveal, and never as a way to avoid playing — see
-   * docs/The topology gallery.md, which argued for keeping it strictly behind a
+   * docs/The topology lab.md, which argued for keeping it strictly behind a
    * finished run and has been relaxed: the case for the gate was that reading
    * anonymous worlds first teaches you to read them as data, but a companion
    * piece nobody can find is not a companion to anything.
@@ -99,8 +99,8 @@ export default function App() {
    * outside — or the back button leaving one — behaves the way any other page
    * on the web does. A running puzzle never appears here; see `Route`. */
   const { route, navigate } = useRoute();
-  // The experiment is a view of the lab now, not a surface beside it.
-  const showGallery = route.screen !== 'game';
+  // Everything that is not a running puzzle is the lab.
+  const showLab = route.screen !== 'game';
   /** The world chooser, and which world it is currently fetching. `choosing`
    * is separate from the session phase because it replaces the screen rather
    * than following it — there is no session for the chosen world yet, and Back
@@ -763,7 +763,7 @@ export default function App() {
           onBegin={beginFromCold}
           targetEase={targetEase}
           onChooseEase={chooseEase}
-          onOpenGallery={() => navigate({ screen: 'gallery' })}
+          onOpenGallery={() => navigate({ screen: 'lab-worlds' })}
         />
       );
       break;
@@ -824,13 +824,13 @@ export default function App() {
           living={residence !== null}
           closed={residenceClosed}
           startLinks={startLinks}
-          onOpenGallery={() => navigate({ screen: 'gallery' })}
-          onOpenCharacter={(i) => navigate({ screen: 'gallery-character', worldId: universe.id, i })}
-          onOpenWorld={() => navigate({ screen: 'gallery-world', worldId: universe.id })}
+          onOpenGallery={() => navigate({ screen: 'lab-worlds' })}
+          onOpenCharacter={(i) => navigate({ screen: 'lab-character', worldId: universe.id, i })}
+          onOpenWorld={() => navigate({ screen: 'lab-world', worldId: universe.id })}
           onOpenTwin={(worldId, name) => {
             const target = loaded.get(worldId);
             const i = target ? findByName(target, name) : null;
-            if (i != null) navigate({ screen: 'gallery-character', worldId, i });
+            if (i != null) navigate({ screen: 'lab-character', worldId, i });
           }}
         />
       );
@@ -857,7 +857,7 @@ export default function App() {
     );
   }
 
-  if (showGallery) {
+  if (showLab) {
     return (
       <Gallery
         universes={universeList}

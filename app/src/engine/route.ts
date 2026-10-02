@@ -3,20 +3,25 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 /**
  * The address bar's whole vocabulary.
  *
- * Deliberately small: the gallery is the only part of this app that is safe to
+ * Deliberately small: the lab is the only part of this app that is safe to
  * bookmark or hand to someone else, because it is the part with no answer
  * hiding in it. A running puzzle is not addressed — the world you woke in and
  * the stranger you are is exactly what a URL would spoil, and back-mid-puzzle
  * would let the browser's own history button do what "start again" is for.
  * `game` therefore covers the cold open, exploring, guessing and the reveal
  * alike; those phases live in session state, not here.
+ *
+ * `/lab` is the experiment, because that is the lab's first room and what it
+ * opens on. The other two views are named under it, and a world or a character
+ * is named under *worlds*, where they are listed.
  */
 export type Route =
   | { screen: 'game' }
-  | { screen: 'experiment' }
-  | { screen: 'gallery' }
-  | { screen: 'gallery-world'; worldId: string }
-  | { screen: 'gallery-character'; worldId: string; i: number };
+  | { screen: 'lab' }
+  | { screen: 'lab-worlds' }
+  | { screen: 'lab-characters' }
+  | { screen: 'lab-world'; worldId: string }
+  | { screen: 'lab-character'; worldId: string; i: number };
 
 /** Vite serves this build under this prefix — `/` locally, `/<repo>/` on
  * GitHub Pages — so a path built here has to carry it, and a path read back
@@ -26,28 +31,45 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
 function parsePath(pathname: string): Route {
   const path = pathname.startsWith(BASE) ? pathname.slice(BASE.length) : pathname;
   const parts = path.split('/').filter(Boolean);
-  if (parts[0] === 'experiment') return { screen: 'experiment' };
-  if (parts[0] !== 'gallery') return { screen: 'game' };
-  const worldId = parts[1];
-  if (!worldId) return { screen: 'gallery' };
-  const iRaw = parts[2];
-  if (iRaw !== undefined) {
-    const i = Number(iRaw);
-    if (Number.isInteger(i)) return { screen: 'gallery-character', worldId, i };
+
+  // `gallery` is read as `lab` and never written, so links handed out before
+  // the rename still land somewhere sensible. `/experiment` is gone: it is the
+  // lab's own front door now.
+  if (parts[0] === 'gallery') {
+    const worldId = parts[1];
+    if (!worldId) return { screen: 'lab-worlds' };
+    const i = Number(parts[2]);
+    if (parts[2] !== undefined && Number.isInteger(i)) {
+      return { screen: 'lab-character', worldId, i };
+    }
+    return { screen: 'lab-world', worldId };
   }
-  return { screen: 'gallery-world', worldId };
+
+  if (parts[0] !== 'lab') return { screen: 'game' };
+  if (!parts[1]) return { screen: 'lab' };
+  if (parts[1] === 'characters') return { screen: 'lab-characters' };
+  if (parts[1] !== 'worlds') return { screen: 'lab' };
+  const worldId = parts[2];
+  if (!worldId) return { screen: 'lab-worlds' };
+  const i = Number(parts[3]);
+  if (parts[3] !== undefined && Number.isInteger(i)) {
+    return { screen: 'lab-character', worldId, i };
+  }
+  return { screen: 'lab-world', worldId };
 }
 
 function pathFor(route: Route): string {
   switch (route.screen) {
-    case 'experiment':
-      return `${BASE}/experiment`;
-    case 'gallery':
-      return `${BASE}/gallery`;
-    case 'gallery-world':
-      return `${BASE}/gallery/${encodeURIComponent(route.worldId)}`;
-    case 'gallery-character':
-      return `${BASE}/gallery/${encodeURIComponent(route.worldId)}/${route.i}`;
+    case 'lab':
+      return `${BASE}/lab`;
+    case 'lab-worlds':
+      return `${BASE}/lab/worlds`;
+    case 'lab-characters':
+      return `${BASE}/lab/characters`;
+    case 'lab-world':
+      return `${BASE}/lab/worlds/${encodeURIComponent(route.worldId)}`;
+    case 'lab-character':
+      return `${BASE}/lab/worlds/${encodeURIComponent(route.worldId)}/${route.i}`;
     default:
       return `${BASE}/`;
   }

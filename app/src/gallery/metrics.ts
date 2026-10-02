@@ -2,7 +2,7 @@
  * Every figure the gallery draws, computed in the browser from the shipped
  * graphs. Nothing here is fetched, cached or baked.
  *
- * The reason is in docs/The topology gallery.md: metrics split into *intrinsic*
+ * The reason is in docs/The topology lab.md: metrics split into *intrinsic*
  * — properties of one graph, which never move when another book is added — and
  * *relative*, which are defined against the corpus and change with every
  * addition. Everything in this file is intrinsic. That is what makes it safe to

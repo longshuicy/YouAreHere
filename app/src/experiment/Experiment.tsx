@@ -252,7 +252,7 @@ export function Experiment() {
   const viewStateRef = useRef<{ adj: Map<number, number>[] } | null>(null);
   const viewPosRef = useRef<Positions | null>(null);
   const scrubbingRef = useRef(false);
-  const snapsRef = useRef<Snapshots>(emptySnapshots());
+  const snapsRef = useRef<Snapshots>(emptySnapshots(DEFAULT_PARAMS.years));
   const trackRef = useRef<HTMLSpanElement | null>(null);
   /** Where the pointer is over the map, so the hover card can sit beside the
    * person it names rather than in a corner of the frame. */
@@ -405,7 +405,7 @@ export function Experiment() {
     state.follow = null;
     stateRef.current = state;
     viewStateRef.current = state;
-    snapsRef.current = emptySnapshots();
+    snapsRef.current = emptySnapshots(paramsRef.current.years);
     setScrub(null);
     historyRef.current = [];
     worldHistoryRef.current = world.worldIds.map(() => []);
@@ -1325,7 +1325,9 @@ function Step(props: {
   return (
     <li className={`xp-step${now ? ' now' : ''}${done || now ? '' : ' waiting'}`}>
       <div className="xp-step-head">
-        <span className={`xp-step-n${now ? ' now' : ''}`}>{n}</span>
+        <span className={`xp-step-n${now ? ' now' : ''}${done && !now ? ' done' : ''}`}>
+          {done && !now ? <TickGlyph /> : n}
+        </span>
         <span className="mono xp-step-label">{label}</span>
         {action && <span className="xp-step-action">{action}</span>}
       </div>
@@ -1413,7 +1415,7 @@ function Steps(props: {
               /* Back to the three ways in, not straight to a different
                  stranger: `change` is a reopening of the question, and a button
                  that answers it again for you is not a change, it is a reroll. */
-              <button type="button" className="mono xp-link quiet" onClick={props.onUnfollow}>
+              <button type="button" className="mono xp-link" onClick={props.onUnfollow}>
                 Change
               </button>
             }
@@ -1458,7 +1460,7 @@ function Steps(props: {
           </Step>
         )}
 
-        <Step n={3} label="Set the conditions" now={ready} done={ready}>
+        <Step n={3} label="Set the conditions" now={ready}>
           {ready && (
             <>
               <div className="xp-presets" role="radiogroup" aria-label="Starting point">
@@ -1489,7 +1491,7 @@ function Steps(props: {
           )}
         </Step>
 
-        <Step n={4} label="Take the walls down" now={ready} done={ready}>
+        <Step n={4} label="Take the walls down" now={ready}>
           {ready && (
             <button type="button" className="xp-begin" onClick={props.onBegin}>
               <PlayGlyph />
@@ -1891,3 +1893,11 @@ function ChevronGlyph({ back }: { back?: boolean }) {
   );
 }
 
+
+function TickGlyph() {
+  return (
+    <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden>
+      <path d="M2 6.3l2.6 2.6L10 3.4" />
+    </svg>
+  );
+}

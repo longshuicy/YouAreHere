@@ -459,13 +459,13 @@ interface Props {
 }
 
 export function Gallery({ universes, progress, startLinks, route, navigate }: Props) {
-  const open = route.screen === 'gallery-world' ? route.worldId : null;
+  const open = route.screen === 'lab-world' ? route.worldId : null;
   /** A character page, which replaces the gallery the same way a world's does. */
-  const character = route.screen === 'gallery-character' ? { worldId: route.worldId, i: route.i } : null;
-  const openWorld = (id: string) => navigate({ screen: 'gallery-world', worldId: id });
-  const closeWorld = () => navigate({ screen: 'gallery' });
-  const goToCharacter = (worldId: string, i: number) => navigate({ screen: 'gallery-character', worldId, i });
-  const closeCharacter = () => navigate({ screen: 'gallery' });
+  const character = route.screen === 'lab-character' ? { worldId: route.worldId, i: route.i } : null;
+  const openWorld = (id: string) => navigate({ screen: 'lab-world', worldId: id });
+  const closeWorld = () => navigate({ screen: 'lab-worlds' });
+  const goToCharacter = (worldId: string, i: number) => navigate({ screen: 'lab-character', worldId, i });
+  const closeCharacter = () => navigate({ screen: 'lab-worlds' });
   // A character page only exists inside the "Characters" tab, so arriving on
   // one directly — a deep link, or a jump in from the reveal — should land
   // with that tab already selected. Read once from the route this component
@@ -481,14 +481,24 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
    * these worlds when the walls come down, then the worlds standing still, then
    * everyone in them.
    */
-  const [view, setView] = useState<'experiment' | 'worlds' | 'characters'>(
-    route.screen === 'experiment' ? 'experiment' : character ? 'characters' : 'worlds',
-  );
+  /*
+   * Which room, read from the path on mount and written back on every change.
+   *
+   * `/lab` is the experiment, so that is what the lab opens on; the other two
+   * are named under it. A character page only exists inside *Characters*, so
+   * arriving on one directly lands with that view selected.
+   */
+  const [view, setView] = useState<'experiment' | 'worlds' | 'characters'>(() => {
+    if (route.screen === 'lab-characters' || character) return 'characters';
+    if (route.screen === 'lab-worlds' || route.screen === 'lab-world') return 'worlds';
+    return 'experiment';
+  });
 
-  // The address bar knows about the experiment, so switching rooms writes it.
   const chooseView = (next: 'experiment' | 'worlds' | 'characters') => {
     setView(next);
-    navigate({ screen: next === 'experiment' ? 'experiment' : 'gallery' });
+    navigate({
+      screen: next === 'experiment' ? 'lab' : next === 'worlds' ? 'lab-worlds' : 'lab-characters',
+    });
   };
   const [metas, setMetas] = useState<Map<string, UniverseMeta>>(new Map());
   /** Derived rather than stored: the sidecars are either all in or they are not,

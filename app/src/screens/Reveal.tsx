@@ -165,7 +165,7 @@ export function Reveal({
       chromeRight={
         <ChromeRight>
           <button type="button" className="annot-link" onClick={onOpenGallery}>
-            The topology gallery
+            The topology lab
           </button>
         </ChromeRight>
       }

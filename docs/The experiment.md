@@ -244,7 +244,8 @@ has done that: a preset nobody uses twice is a third button on a control that wa
 than a separate surface with chrome of its own — which is most of what made it read as a
 different product. One header serves all three: the wordmark and the ways back into the
 game on the first line, the lab's name and its three rooms on the second, sharing the
-rule the tabs are underlined against. `/experiment` still addresses it.
+rule the tabs are underlined against. It is what `/lab` opens on, and the separate
+`/experiment` route is gone.
 
 Under that header:
 
@@ -263,9 +264,16 @@ walls coming down.
 decides who there is to follow; following somebody decides whose story the run tells; the
 conditions decide what happens to them; then the walls come down. Each step states what
 it has settled on, so the column is a summary of the run about to happen rather than a
-form. Two of them have more to say than a line — the worlds take a list, the conditions
-take a panel of dials — and those replace the column rather than opening over it, so the
-map is never covered by the thing that decides what is on it.
+form, and a step with its answer in it is ticked rather than numbered: the number is the
+order you work in, and once a step is settled the order is behind you. Two of them have
+more to say than a line — the worlds take a list, the conditions take a panel of dials —
+and those replace the column rather than opening over it, so the map is never covered by
+the thing that decides what is on it.
+
+Side by side the map and the reading need about eleven hundred pixels before the drawing
+is a drawing rather than a stripe. Below that the screen gives up being one screen: the
+two become rows that scroll, the map keeping a little over half the viewport, and the rule
+between them turns from a side into a top.
 
 **Nobody is followed until somebody is chosen.** Waking a visitor up as a stranger is the
 game's move; here it is the second of four decisions. Take anyone at random, find them by
@@ -308,18 +316,25 @@ Three of the four things a past year needs were already here:
 
 A force layout is iterative, so replaying the same graph does not give back the same
 picture. Positions are therefore kept per year: two Float32Arrays over 8,727 characters,
-about seventy kilobytes a year, in a ring two hundred and forty years deep — seventeen
-megabytes at most, allocated as the run reaches each year. A longer run quietly loses its
-oldest years and the scrubber's left end moves with them.
+about seventy kilobytes a year, and two hundred and forty of them is seventeen megabytes,
+allocated as the run reaches them.
+
+That is a cap on how many pictures are held, not on how far back they reach. A run longer
+than the cap is sampled — every second year at five hundred, every fifth at a thousand —
+so the whole of it stays reachable and only the precision gives way. The scrubber lands on
+the nearest year held, which in a settled layout is a difference of a pixel or two.
 
 The scrubber's reach is drawn on the rail, as a dashed stretch at the left standing for
 the years the run no longer remembers. A knob that simply stops halfway along a
 thousand-year run reads as a broken control rather than as a bounded memory.
 
-The ledger has a horizon of its own. At the default settings the fifty-two worlds produce
-around two and a half thousand formings and cuttings a year, so six hundred thousand
-entries is about the same two hundred and forty years — the two agree on purpose, and the
-scrubber's left end is whichever is nearer, so it never offers a year it cannot show.
+The ledger has a horizon of its own, and it is the harder one. At the default settings the
+fifty-two worlds produce around two and a half thousand formings and cuttings a year, so
+two million entries is about eight hundred — the whole of a four-hundred-year run with
+room to spare, and most of the longest the length control offers, at twenty-six megabytes.
+Unlike the pictures these cannot be sampled: an event skipped is a tie that never forms or
+never ends, and the replay would be of a graph that never existed. The scrubber's left end
+is whichever horizon is nearer, so it never offers a year it cannot show.
 
 Strengths are not replayed at all. Strengthening and decay touch tens of thousands of
 ties a round — seventeen million events over a default run — so recording them is out of

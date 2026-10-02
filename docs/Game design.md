@@ -212,4 +212,4 @@ An old printed book, a mathematical diagram, an archival document.
 
 ## The companion piece
 
-The anonymised-topology material that was cut from the game now lives in its own doc: [The topology gallery](https://claude.ai/code/artifact/38d7af6d-95bc-480d-be09-981982b87cea). Nothing in it is built until the main loop is playable and someone who is not you has solved a puzzle.
+The anonymised-topology material that was cut from the game now lives in its own doc: [The topology lab](https://claude.ai/code/artifact/38d7af6d-95bc-480d-be09-981982b87cea). Nothing in it is built until the main loop is playable and someone who is not you has solved a puzzle.

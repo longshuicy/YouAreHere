@@ -173,7 +173,7 @@ export function ColdOpen({
       <div style={{ display: 'flex', justifyContent: 'flex-end', flexShrink: 0 }}>
         <ChromeRight>
           <button type="button" className="annot-link" onClick={onOpenGallery} disabled={walking}>
-            The topology gallery
+            The topology lab
           </button>
         </ChromeRight>
       </div>

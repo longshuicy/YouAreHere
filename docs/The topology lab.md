@@ -1,9 +1,16 @@
 # The topology lab
 
-*Renamed from "the topology gallery".* The lab has three views of one catalogue, chosen
-by the same control: **the experiment** first, then **worlds**, then **characters**. The
-first takes the walls down; the other two measure the worlds standing still. The header,
-the standfirst and the catalogue figures are shared, because they are true of all three.
+*Renamed from "the topology gallery".* The lab has three views of one catalogue: **the
+experiment** first, then **worlds**, then **characters**. The first takes the walls down;
+the other two measure the worlds standing still. One header serves all three, because its
+wordmark, its name and its catalogue figures are true of all three.
+
+`/lab` is the experiment, because that is what the lab opens on. `/lab/worlds` and
+`/lab/characters` are the other two, and a world or a character is named under *worlds*,
+where they are listed: `/lab/worlds/<id>` and `/lab/worlds/<id>/<i>`. There is no
+`/experiment` any more — it was a surface beside the lab and is a room inside it.
+`/gallery` is still read, and never written, so links handed out before the rename land
+somewhere sensible.
 
 
 Companion piece to YOU ARE HERE. Not a game mode.

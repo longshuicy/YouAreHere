@@ -110,11 +110,14 @@ export const LOG_LIMIT = 300;
  *
  * Sized against what a run actually writes. At the default settings the fifty-
  * two worlds produce around two and a half thousand formings and cuttings a
- * year, so this is about two hundred and forty years — which is also as far
- * back as the pictures go, so the two horizons agree and the scrubber never
- * offers a year it cannot show.
+ * year, so two million entries is about eight hundred years: the whole of a
+ * four-hundred-year run with room to spare, and most of the longest the length
+ * control offers. Four typed arrays at this size cost twenty-six megabytes,
+ * which is the price of being able to go back at all. Unlike the pictures these
+ * cannot be sampled — an event skipped is a tie that never forms or never ends,
+ * and the replay would be of a graph that never existed.
  */
-export const LEDGER_LIMIT = 600_000;
+export const LEDGER_LIMIT = 2_000_000;
 
 /**
  * How many years of node positions are kept, so a run can be scrubbed back.
@@ -125,13 +128,15 @@ export const LEDGER_LIMIT = 600_000;
  * layout is iterative, so the same graph does not give back the same picture.
  *
  * One snapshot is two Float32Arrays over 8,727 characters, about seventy
- * kilobytes; two hundred of them is fourteen megabytes, which covers a default
- * run end to end and is a fifth of what the fifty-two parsed worlds already
- * cost. They are allocated as the run reaches them rather than up front, so a
- * run nobody scrubs pays for only the years it ran.
+ * kilobytes; this many is seventeen megabytes, a fifth of what the fifty-two
+ * parsed worlds already cost. They are allocated as the run reaches them rather
+ * than up front, so a run nobody scrubs pays for only the years it ran.
  *
- * Slots are indexed by year modulo the cap, so a longer run quietly loses its
- * oldest years and the scrubber's left end moves with them.
+ * This is a cap on how many pictures are held, not on how far back they reach.
+ * A run longer than the cap is sampled — every second year at five hundred,
+ * every fifth at a thousand — so the whole of it stays reachable and only the
+ * precision gives way. The scrubber lands on the nearest year held, which in a
+ * settled layout is a difference of a pixel or two.
  */
 export const SNAPSHOT_LIMIT = 240;
 

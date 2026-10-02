@@ -993,8 +993,8 @@ button {
 .xp-allfigures {
   margin-left: auto;
   display: inline-flex;
-  align-items: flex-end;
-  gap: 6px;
+  align-items: center;
+  gap: 7px;
   min-height: 32px;
   font-family: var(--mono);
   font-size: 10px;
@@ -1006,6 +1006,7 @@ button {
 
 .xp-allfigures-label {
   border-bottom: 1px solid var(--leader);
+  padding-bottom: 2px;
 }
 
 .xp-allfigures:hover .xp-allfigures-label {
@@ -1522,6 +1523,14 @@ button {
   background: var(--accent);
   border-color: var(--accent);
   color: var(--paper);
+}
+
+/* Settled: the outline stays, the number gives way to a tick. The number is
+   the order you work in, and once a step has an answer the order is behind
+   you. */
+.xp-step-n.done {
+  border-color: var(--ink);
+  color: var(--ink);
 }
 
 .xp-step-label {
@@ -2208,5 +2217,87 @@ button {
 
   .lab-title {
     font-size: 26px;
+  }
+}
+
+/*
+ * Narrow windows: the map and the reading stack.
+ *
+ * Side by side they need about eleven hundred pixels between them before the
+ * drawing is a drawing rather than a stripe. Below that the page gives up being
+ * one screen and becomes two rows that scroll — the map keeps a little over
+ * half the viewport, the reading follows it, and the rule between them turns
+ * from a side to a top.
+ */
+@media (max-width: 1100px) {
+  .lab.live {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  .lab-live {
+    flex: 0 0 auto;
+    position: static;
+  }
+
+  .xp {
+    position: relative;
+    inset: auto;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto minmax(420px, 54vh) auto auto;
+  }
+
+  .xp-stage {
+    grid-row: 2;
+  }
+
+  .xp-caption,
+  .xp-transport-bar {
+    grid-row: 3;
+  }
+
+  .xp-side {
+    grid-column: 1;
+    grid-row: 4;
+    padding: 20px 0 0;
+    margin-left: 0;
+    border-left: none;
+    border-top: 1px solid var(--rule);
+    overflow: visible;
+  }
+
+  /* It opened over the map's right-hand side, which no longer has a column
+     beside it to clear. */
+  .xp-figures-panel {
+    right: 0;
+    max-height: none;
+  }
+
+  .xp-transport-note {
+    padding-left: 0;
+  }
+}
+
+/* Narrower still, the transport's row cannot hold its own line either. */
+@media (max-width: 720px) {
+  .xp-transport-row {
+    flex-wrap: wrap;
+  }
+
+  .xp-track {
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  .lab-bar {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .lab-title {
+    margin-bottom: 6px;
   }
 }

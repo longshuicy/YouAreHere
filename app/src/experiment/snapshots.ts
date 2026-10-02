@@ -5,9 +5,13 @@
  * ledger and the figures are in the metric series, but a force layout is
  * iterative, so replaying the same graph does not give back the same picture.
  *
- * Slots are indexed by year modulo the cap, which makes the ring self-evicting
- * and the lookup a single comparison — a slot either holds the year asked for or
- * holds the year that overwrote it.
+ * A picture is two Float32Arrays over every character — about seventy kilobytes
+ * for the full catalogue — so the cap is on how many are held, not on how far
+ * back they reach. A run longer than the cap is sampled: every second year at
+ * five hundred, every fifth at a thousand. The scrubber then lands on the
+ * nearest year held, which in a settled layout is a difference of a pixel or
+ * two, and the whole of the run stays reachable instead of only its last two
+ * hundred and forty years.
  */
 import { SNAPSHOT_LIMIT } from './constants';
 import type { Positions } from './Field';
@@ -17,20 +21,31 @@ export interface Snapshots {
   year: Int32Array;
   x: (Float32Array | null)[];
   y: (Float32Array | null)[];
+  /** One picture every `stride` years. 1 for a run that fits. */
+  stride: number;
 }
 
-export function emptySnapshots(): Snapshots {
+export function emptySnapshots(years: number): Snapshots {
   return {
     year: new Int32Array(SNAPSHOT_LIMIT).fill(-1),
     x: new Array(SNAPSHOT_LIMIT).fill(null),
     y: new Array(SNAPSHOT_LIMIT).fill(null),
+    stride: Math.max(1, Math.ceil((years + 1) / SNAPSHOT_LIMIT)),
   };
+}
+
+/** Which slot a year belongs in, or -1 if it is not one of the years kept. */
+function slotFor(snaps: Snapshots, year: number): number {
+  if (year % snaps.stride !== 0) return -1;
+  const n = year / snaps.stride;
+  return ((n % SNAPSHOT_LIMIT) + SNAPSHOT_LIMIT) % SNAPSHOT_LIMIT;
 }
 
 /** Copy, never keep: the worker hands out a fresh pair of arrays every tick and
  * holding one would pin it and lie about the year after. */
 export function capture(snaps: Snapshots, year: number, pos: Positions) {
-  const i = ((year % SNAPSHOT_LIMIT) + SNAPSHOT_LIMIT) % SNAPSHOT_LIMIT;
+  const i = slotFor(snaps, year);
+  if (i < 0) return;
   const n = pos.x.length;
   // Allocated as the run reaches each slot rather than all at once, so a short
   // run pays for the years it ran and a re-used slot pays nothing.
@@ -46,23 +61,24 @@ export function capture(snaps: Snapshots, year: number, pos: Positions) {
 /**
  * The nearest picture at or just before `year`.
  *
- * Exact nearly always, because a picture is taken every round. The short walk
- * backwards is for the rounds a dropped frame might still miss: two years of a
- * settled layout is a pixel or two, and showing that is better than refusing to
- * go to a year the ledger can describe perfectly well.
+ * The walk back covers the sampling stride, and a little more for the years a
+ * dropped frame might still have missed: a few years of a settled layout is a
+ * pixel or two, and showing that is better than refusing to go to a year the
+ * ledger can describe perfectly well.
  */
 export function positionsAt(snaps: Snapshots, year: number): Positions | null {
-  for (let back = 0; back <= NEAREST_BACK && year - back >= 0; back++) {
+  const reach = snaps.stride + NEAREST_BACK;
+  for (let back = 0; back <= reach && year - back >= 0; back++) {
     const d = year - back;
-    const i = ((d % SNAPSHOT_LIMIT) + SNAPSHOT_LIMIT) % SNAPSHOT_LIMIT;
-    if (snaps.year[i] === d && snaps.x[i] && snaps.y[i]) {
+    const i = slotFor(snaps, d);
+    if (i >= 0 && snaps.year[i] === d && snaps.x[i] && snaps.y[i]) {
       return { x: snaps.x[i]!, y: snaps.y[i]! };
     }
   }
   return null;
 }
 
-/** How far back to look for a picture before giving up on a year. */
+/** How far back to look for a picture beyond the stride before giving up. */
 const NEAREST_BACK = 3;
 
 /** The oldest year still held, which is where the scrubber's left end sits. */
