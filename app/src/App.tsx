@@ -762,6 +762,7 @@ export default function App() {
           onBegin={beginFromCold}
           targetEase={targetEase}
           onChooseEase={chooseEase}
+          onOpenKey={openKey}
           onOpenGallery={() => navigate({ screen: 'gallery' })}
         />
       );

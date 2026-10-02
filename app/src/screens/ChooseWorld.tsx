@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { RadioRow } from '../gallery/RadioRow';
-import { BrandMark, CHROME_PADDING, HelpLink } from '../render/MarginLinks';
+import { CHROME_PADDING } from '../render/MarginLinks';
 import type { WorldProgress } from '../engine/residence';
 import type { IndexUniverseEntry } from '../types';
 
@@ -25,9 +25,7 @@ interface Props {
    * titles in `familiarityFor`, and that band only tilts which world the random
    * draw picks, and only towards the findable end of the scale — a filter on the
    * catalogue, not a declaration about the player, and the one it filters for is
-   * `onStartAnywhere`, a button at the bottom of this very list. On the cold
-   * open it was a fourth control on a screen the design doc asks to have exactly
-   * one thing to click. */
+   * `onStartAnywhere`, the block at the head of this page. */
   readsChineseClassics: boolean;
   /** Records the answer and redraws nothing. See the note at the control. */
   onReadsChineseClassics: (next: boolean) => void;
@@ -44,10 +42,9 @@ interface Props {
  * doc: once the world is settled, the guess screen asks one thing, and what is
  * left is the question the graph is actually evidence for.
  *
- * Titles only. No cast size, no tie count, no difficulty — the guess screen goes
- * to some trouble to keep the size of a world's cast hidden (its type-ahead
- * draws from every world at once for exactly that reason), and a list annotated
- * with "18 characters" would give away here what is protected there.
+ * The page reads top to bottom as the three ways a reader arrives: with a world
+ * half-finished (the cards), with no world in mind at all (ANY WORLD, beside
+ * the headline it answers), or with a title to go and find (the index).
  */
 /**
  * How big a world is, on a five-point scale.
@@ -90,28 +87,26 @@ function bandOf(p: WorldProgress | undefined): (typeof PROGRESS_BANDS)[number] {
   return p.complete ? 'Finished' : 'In progress';
 }
 
-/** How much of a world's map is named, as a run of ticks filling the gap
- * between the title and its size, like leader dots in an index. A share rather
- * than a count, so a world's cast size stays off this screen even once the
- * player has been in it. */
-function ProgressTicks({ p }: { p: WorldProgress }) {
-  const share = p.complete ? 100 : Math.min(100, (p.named / Math.max(1, p.cast)) * 100);
-  const ticks = (color: string) =>
-    `repeating-linear-gradient(to right, ${color} 0 1px, transparent 1px 4px)`;
+/** How many started worlds get a card. Four is what fits the row at the width
+ *  the page is designed for; past that they are a list, not a shelf, and the
+ *  index below is already a list. */
+const CARDS = 4;
+
+/** The mark a started world carries in the index, and in the legend at the
+ *  foot that says what it means. One shape, two places. */
+function StartedDot({ title }: { title?: string }) {
   return (
     <span
+      title={title}
       aria-hidden
       style={{
-        flex: 1,
-        minWidth: 24,
-        height: 7,
-        alignSelf: 'center',
-        marginLeft: 8,
-        background: ticks('var(--rule)'),
+        width: 6,
+        height: 6,
+        flexShrink: 0,
+        borderRadius: '50%',
+        background: 'var(--accent)',
       }}
-    >
-      <span style={{ display: 'block', height: '100%', width: `${share}%`, background: ticks('var(--unknown)') }} />
-    </span>
+    />
   );
 }
 
@@ -158,6 +153,19 @@ export function ChooseWorld({
     if (!needle) return list;
     return list.filter((entry) => entry.title.toLowerCase().includes(needle));
   }, [universes, query]);
+
+  /** The worlds with a map on them, furthest along first. Unlike the index,
+   *  these print how much of a cast is named — which the index will not do for
+   *  an unvisited world, because the guess screen goes to some trouble to keep
+   *  a cast's size hidden. A world you have already walked has told you its
+   *  size itself; there is nothing left here to give away. */
+  const started = useMemo(() => {
+    const out = universes
+      .map((entry) => ({ entry, p: progress.get(entry.id) }))
+      .filter((row): row is { entry: IndexUniverseEntry; p: WorldProgress } => row.p != null);
+    out.sort((a, b) => b.p.named / b.p.cast - a.p.named / a.p.cast);
+    return out.slice(0, CARDS);
+  }, [universes, progress]);
 
   // Grouped under the letter a title actually starts with, articles included —
   // "A Song of Ice and Fire" files under A and "The Tempest" under T. Filing by
@@ -225,7 +233,9 @@ export function ChooseWorld({
             : sizeOf(entry.nodes).title
         }
         style={{
-          display: 'block',
+          display: 'flex',
+          alignItems: 'center',
+          gap: 8,
           width: '100%',
           boxSizing: 'border-box',
           fontFamily: 'var(--serif)',
@@ -239,20 +249,38 @@ export function ChooseWorld({
           opacity: pending !== null && pending !== entry.id ? 0.45 : 1,
         }}
       >
-        <span style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 6 }}>
-          <span>{entry.title}</span>
-          {p && <ProgressTicks p={p} />}
-          {/* Filed by size, the heading has already said it — repeating it on
-              every row is noise. */}
-          {order !== 'size' && (
-            <span
-              className="mono"
-              style={{ fontSize: 8, letterSpacing: '0.14em', color: 'var(--unknown)', flexShrink: 0, paddingLeft: 8 }}
-            >
-              {sizeOf(entry.nodes).label}
-            </span>
-          )}
+        <span
+          style={{
+            flex: 1,
+            minWidth: 0,
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap',
+          }}
+        >
+          {entry.title}
         </span>
+        {/* The whole of a world's progress, on a row, is whether it has been
+            started. How far along it is lives on the cards at the top of the
+            page, where there is room to print it in words. */}
+        {p && <StartedDot title="Started" />}
+        {/* Filed by size, the heading has already said it — repeating it on
+            every row is noise. */}
+        {order !== 'size' && (
+          <span
+            className="mono"
+            style={{
+              fontSize: 8,
+              letterSpacing: '0.14em',
+              color: 'var(--unknown)',
+              flexShrink: 0,
+              width: 22,
+              textAlign: 'right',
+            }}
+          >
+            {sizeOf(entry.nodes).label}
+          </span>
+        )}
       </button>
     );
   };
@@ -283,50 +311,183 @@ export function ChooseWorld({
         height: '100dvh',
         display: 'flex',
         flexDirection: 'column',
+        gap: 22,
         padding: CHROME_PADDING,
       }}
     >
+      {/* The way off this page is the first thing on it, where a reader looks
+          for one. It used to be at the foot beside ANY WORLD, which put the two
+          most different acts on the page side by side wearing the same weight:
+          one leaves everything as it was, and one draws a world. */}
       <div
         className="chrome-row"
-        style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: 16,
+          flexShrink: 0,
+        }}
       >
-        <BrandMark />
-        <HelpLink onOpenKey={onOpenKey} />
+        <button type="button" className="annot-link" onClick={onCancel} style={{ gap: 8 }}>
+          <svg
+            width="9"
+            height="9"
+            viewBox="0 0 10 10"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.3"
+            aria-hidden
+            focusable="false"
+          >
+            <path d="M6.5 2l-3 3 3 3" />
+          </svg>
+          Back
+        </button>
+        <div className="brand">You are here.</div>
+        <button type="button" className="annot-link" onClick={onOpenKey}>
+          What can I do
+        </button>
       </div>
 
       <div
-        style={{
-          flex: 1,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: 14,
-          minHeight: 0,
-          paddingTop: 24,
-        }}
+        className="stack-sm"
+        style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 40, flexShrink: 0 }}
       >
-        <div style={{ fontSize: 'clamp(20px, 5.6vw, 27px)', textAlign: 'center' }}>
-          Where would you like to wake?
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 6, minWidth: 0 }}>
+          <h1
+            style={{
+              margin: 0,
+              fontWeight: 400,
+              fontSize: 'clamp(24px, 5.6vw, 44px)',
+              lineHeight: 1.05,
+            }}
+          >
+            Where would you like to wake?
+          </h1>
+          <div style={{ fontSize: 'clamp(15px, 2vw, 18px)', color: 'var(--body)' }}>
+            Choosing settles the world. You will still have to work out who you are.
+          </div>
         </div>
 
-        <div style={{ position: 'relative', width: 'min(420px, 92vw)' }}>
+        {/* The answer to the headline for a reader who has not got a world in
+            mind — offered beside the question rather than at the bottom of the
+            thing it forks away from, where it read as giving up on choosing. */}
+        <button
+          type="button"
+          className="begin-block"
+          onClick={onStartAnywhere}
+          disabled={pending !== null}
+          style={{ width: 'auto', flexShrink: 0, height: 56, gap: 18 }}
+        >
+          <span style={{ display: 'flex', flexDirection: 'column', gap: 3, textAlign: 'left' }}>
+            <span className="begin-word" style={{ fontSize: 11, letterSpacing: '0.26em' }}>
+              Any world
+            </span>
+            <span className="begin-sub" style={{ letterSpacing: '0.14em' }}>
+              Let it pick
+            </span>
+          </span>
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 16 16"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.4"
+            aria-hidden
+            focusable="false"
+          >
+            <path d="M1 5h3c3 0 5 6 8 6h3M12 9l3 2-3 2M1 11h3c1.2 0 2.2-1 3-2.2M9 6.2C9.8 5 10.8 5 12 5h3M12 3l3 2-3 2" />
+          </svg>
+        </button>
+      </div>
+
+      {started.length > 0 && (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 10, flexShrink: 0 }}>
+          <div className="annot" style={{ fontSize: 9, letterSpacing: '0.2em' }}>
+            Pick up where you left off
+          </div>
+          <div className="started-cards">
+            {started.map(({ entry, p }) => {
+              const share = p.complete ? 100 : Math.max(2, Math.min(100, (p.named / Math.max(1, p.cast)) * 100));
+              return (
+                <button
+                  key={entry.id}
+                  onClick={() => onChoose(entry)}
+                  disabled={pending !== null}
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: 8,
+                    padding: '12px 14px',
+                    border: '1px solid var(--rule)',
+                    background: 'var(--card)',
+                    color: pending === entry.id ? 'var(--accent)' : 'var(--ink)',
+                    textAlign: 'left',
+                    opacity: pending !== null && pending !== entry.id ? 0.45 : 1,
+                  }}
+                >
+                  <span
+                    style={{
+                      fontFamily: 'var(--serif)',
+                      fontSize: 19,
+                      lineHeight: 1.15,
+                      whiteSpace: 'nowrap',
+                      overflow: 'hidden',
+                      textOverflow: 'ellipsis',
+                    }}
+                  >
+                    {entry.title}
+                  </span>
+                  <span style={{ display: 'block', height: 3, background: 'var(--rule)' }}>
+                    <span
+                      style={{ display: 'block', height: '100%', width: `${share}%`, background: 'var(--accent)' }}
+                    />
+                  </span>
+                  <span className="annot" style={{ fontSize: 9, letterSpacing: '0.14em' }}>
+                    {p.complete ? 'Finished' : `${p.named} of ${p.cast} named`} · {p.starts}{' '}
+                    {p.starts === 1 ? 'life' : 'lives'}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Search, filing and the one preference, on one rule.
+          They are all things you say *about the list*, so they sit together on
+          the line that closes the page's head and opens the index. */}
+      <div className="chooser-bar" style={{ flexShrink: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, flex: '1 1 240px', minWidth: 160 }}>
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            stroke="var(--annotation)"
+            strokeWidth="1.3"
+            aria-hidden
+            focusable="false"
+            style={{ flexShrink: 0 }}
+          >
+            <circle cx="6" cy="6" r="4.5" />
+            <path d="M9.5 9.5L13 13" />
+          </svg>
           <input
             className="field"
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search worlds"
+            placeholder={`Search all ${universes.length}`}
             aria-label="Search worlds"
             autoComplete="off"
-            style={{ fontSize: 20, textAlign: 'center', paddingRight: 28, paddingLeft: 28 }}
+            // The rule belongs to the bar, not to the field inside it.
+            style={{ fontSize: 19, border: 'none', padding: 0, minHeight: 38 }}
           />
           {query && (
-            <button
-              className="field-clear"
-              aria-label="Clear the search"
-              onClick={() => setQuery('')}
-              style={{ position: 'absolute', right: 0, bottom: 10 }}
-            >
+            <button className="field-clear" aria-label="Clear the search" onClick={() => setQuery('')}>
               ×
             </button>
           )}
@@ -348,212 +509,167 @@ export function ChooseWorld({
           ]}
         />
 
-        {/* The one preference this screen carries, set with the search field and
-            the filing row rather than down beside BACK, because it
-            belongs to the same act as they do: it is something you say about the
-            list, and the bottom of the page is where you leave the list.
+        {/* The one preference this screen carries.
 
-            Its own line, not a fourth word on the filing row: those three are
-            one-of-these and this is a yes-or-no, and a fourth pressable label
-            sharing their line would be read as a fourth way to file however it
-            were marked. The box keeps the idiom it had on the cold open — [×] is
-            a tick in a square where a filled dot is one of a set — and the rest
-            of the type matches the radio options beside it, because it is a
-            control of the same weight on the same page.
+            A yes-or-no among one-of-these, so it is a checkbox and keeps its
+            distance from the filing row: a fourth pressable label on that line
+            would read as a fourth way to file however it were marked.
 
-            Toggling records the answer and draws nothing. On the cold open it
-            re-drew the world and the stranger on the spot, which was right
-            there: the stage was showing a start that had already been picked, so
-            a change that only landed on the next one looked like it had done
-            nothing at all. Here the screen behind the list is a start the player
-            may be going back to, and BACK promises to leave it exactly as it
-            was; quietly swapping the stranger under the overlay would make that
-            promise false. So the preference is written now and spends itself on
-            the next random draw — ANY WORLD at the head of the list, or the shuffle offered
-            in the margins of every other screen. Choosing a title from the list
-            is unaffected either way: a named world skips the draw this tilts. */}
-        <button
+            Toggling records the answer and draws nothing. The screen behind
+            this list is a start the player may be going back to, and BACK
+            promises to leave it exactly as it was; quietly swapping the
+            stranger under the overlay would make that promise false. So the
+            preference is written now and spends itself on the next random draw
+            — ANY WORLD at the head of this page, or the shuffle in the margins
+            of every other screen. Choosing a title from the list is unaffected
+            either way: a named world skips the draw this tilts. */}
+        <label
           className="mono"
-          aria-pressed={readsChineseClassics}
-          onClick={() => onReadsChineseClassics(!readsChineseClassics)}
           style={{
+            marginLeft: 'auto',
             display: 'inline-flex',
             alignItems: 'center',
-            gap: 6,
+            gap: 8,
+            minHeight: 40,
             fontSize: 10,
             letterSpacing: '0.16em',
             textTransform: 'uppercase',
-            color: readsChineseClassics ? 'var(--accent)' : 'var(--annotation)',
-            background: 'transparent',
-            border: 'none',
-            padding: '6px 2px 4px 2px',
+            color: readsChineseClassics ? 'var(--ink)' : 'var(--annotation)',
             cursor: 'pointer',
+            whiteSpace: 'nowrap',
           }}
         >
-          <span aria-hidden style={{ color: readsChineseClassics ? 'var(--accent)' : 'var(--leader)' }}>
-            {readsChineseClassics ? '[×]' : '[ ]'}
-          </span>
+          <input
+            type="checkbox"
+            checked={readsChineseClassics}
+            onChange={(e) => onReadsChineseClassics(e.target.checked)}
+            style={{ width: 15, height: 15, margin: 0, accentColor: 'var(--ink)' }}
+          />
           I read the Chinese classics
-        </button>
+        </label>
+      </div>
 
+      {/* Newspaper columns rather than a grid, so the alphabet reads *down*
+          one column and continues at the top of the next — which is how an
+          index is read. A grid would run it left-to-right across the letters
+          and scatter each group over several rows.
 
-        {/* Row zero of the shelf.
-            The same fork the cold open opens on, offered again at the top of
-            the thing it forks away from — so "I do not have one in mind" is an
-            answer to the question in the headline rather than a way of
-            abandoning the screen. It used to sit at the bottom beside BACK,
-            which put the two most different acts on this page side by side
-            wearing the same weight: one leaves the list alone and one draws a
-            world. Down there it also read as giving up on choosing, and a
-            player who arrived here only to find out what was on offer had to
-            go back the way they came to get a random start.
-
-            Ruled and full width, because that is what the letter headings under
-            it are: it is the first row of this index, not a control above it. */}
-        <button
-          className="action-quiet ruled"
-          onClick={onStartAnywhere}
-          style={{
-            width: 'min(880px, 92vw)',
-            justifyContent: 'flex-start',
-            gap: 10,
-            fontSize: 10,
-            letterSpacing: '0.2em',
-            minHeight: 0,
-            padding: '8px 0 6px',
-            flexShrink: 0,
-          }}
-        >
-          <span>Any world</span>
-          <span style={{ color: 'var(--unknown)', letterSpacing: '0.14em' }}>· let it pick</span>
-        </button>
-
-        {/* Newspaper columns rather than a grid, so the alphabet reads *down*
-            one column and continues at the top of the next — which is how an
-            index is read. A grid would run it left-to-right across the letters
-            and scatter each group over several rows.
-
-            Still titles only. No cast size, no tie count: the guess screen goes
-            to some trouble to keep how large a world's cast is hidden, and a
-            list annotated with "18 characters" would give away here what is
-            protected there. */}
+          Titles only, plus the started mark and the size band. No cast size,
+          no tie count: the guess screen goes to some trouble to keep how large
+          a world's cast is hidden, and a list annotated with "18 characters"
+          would give away here what is protected there. */}
+      <div
+        style={{
+          position: 'relative',
+          flex: 1,
+          minHeight: 0,
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
         <div
+          ref={listRef}
+          className="world-list"
           style={{
-            position: 'relative',
-            width: 'min(880px, 92vw)',
-            // Size to the titles; only take leftover height when they overflow,
-            // so the caption sits under the last row instead of under a tall empty box.
-            flex: '0 1 auto',
+            flex: '1 1 auto',
             minHeight: 0,
-            display: 'flex',
-            flexDirection: 'column',
+            overflowY: 'auto',
+            paddingRight: 10,
+            // Room under the last row so a bottom fade does not cover titles.
+            paddingBottom: canScroll && !atBottom ? 28 : 0,
           }}
         >
-          <div
-            ref={listRef}
-            className="world-list"
-            style={{
-              flex: '1 1 auto',
-              minHeight: 0,
-              overflowY: 'auto',
-              paddingRight: 10,
-              // Room under the last row so a bottom fade does not cover titles.
-              paddingBottom: canScroll && !atBottom ? 28 : 0,
-            }}
-          >
-            {/* The columns live *inside* the scroller, at their natural height.
-                Given a fixed height instead, a multi-column box does not scroll
-                its overflow downward — it lays out more columns to the right, off
-                the edge of a container that only scrolls vertically. The whole of
-                T, twelve worlds including The Bible, was sitting out there
-                unreachable. */}
-            {filtered.length === 0 ? (
-              <div className="annot" style={{ textAlign: 'center', paddingTop: 48 }}>
-                No world matches
-              </div>
-            ) : order === 'progress' ? (
-              // Three fixed columns rather than newspaper flow: the bands are
-              // stages, and a stage should keep its place on the page however
-              // many worlds are in it.
-              <div
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                  columnGap: 36,
-                  rowGap: 16,
-                  alignItems: 'start',
-                }}
-              >
-                {groups.map(([band, entries]) => (
-                  <div key={band}>
-                    <GroupHeading label={band} />
-                    {entries.length === 0 ? (
-                      <div className="annot" style={{ padding: '6px 0' }}>
-                        {band === 'Finished' ? 'None yet' : 'None'}
-                      </div>
-                    ) : (
-                      entries.map(row)
-                    )}
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <div className="world-columns">
-                {groups.map(([letter, entries]) => (
-                  <div key={letter} style={{ breakInside: 'avoid', marginBottom: 8 }}>
-                    <GroupHeading
-                      label={letter}
-                      title={order === 'size' ? SIZES.find((size) => size.label === letter)?.title : undefined}
-                    />
-                    {entries.map(row)}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-
-          {canScroll && !atBottom && (
+          {/* The columns live *inside* the scroller, at their natural height.
+              Given a fixed height instead, a multi-column box does not scroll
+              its overflow downward — it lays out more columns to the right, off
+              the edge of a container that only scrolls vertically. The whole of
+              T, twelve worlds including The Bible, was sitting out there
+              unreachable. */}
+          {filtered.length === 0 ? (
+            <div className="annot" style={{ textAlign: 'center', paddingTop: 48 }}>
+              No world matches
+            </div>
+          ) : order === 'progress' ? (
+            // Three fixed columns rather than newspaper flow: the bands are
+            // stages, and a stage should keep its place on the page however
+            // many worlds are in it.
             <div
-              aria-hidden
               style={{
-                pointerEvents: 'none',
-                position: 'absolute',
-                left: 0,
-                right: 10,
-                bottom: 0,
-                height: 56,
-                background: 'linear-gradient(to bottom, transparent, var(--paper) 72%)',
-                display: 'flex',
-                alignItems: 'flex-end',
-                justifyContent: 'center',
-                paddingBottom: 6,
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                columnGap: 36,
+                rowGap: 16,
+                alignItems: 'start',
               }}
             >
-              <span className="annot">More below</span>
+              {groups.map(([band, entries]) => (
+                <div key={band}>
+                  <GroupHeading label={band} />
+                  {entries.length === 0 ? (
+                    <div className="annot" style={{ padding: '6px 0' }}>
+                      {band === 'Finished' ? 'None yet' : 'None'}
+                    </div>
+                  ) : (
+                    entries.map(row)
+                  )}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="world-columns">
+              {groups.map(([letter, entries]) => (
+                <div key={letter} style={{ breakInside: 'avoid', marginBottom: 8 }}>
+                  <GroupHeading
+                    label={letter}
+                    title={order === 'size' ? SIZES.find((size) => size.label === letter)?.title : undefined}
+                  />
+                  {entries.map(row)}
+                </div>
+              ))}
             </div>
           )}
         </div>
 
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: 12,
-            flexShrink: 0,
-          }}
-        >
-          <div className="annot" style={{ textAlign: 'center' }}>
-            Choosing settles the world. You will still have to work out who you are.
+        {canScroll && !atBottom && (
+          <div
+            aria-hidden
+            style={{
+              pointerEvents: 'none',
+              position: 'absolute',
+              left: 0,
+              right: 10,
+              bottom: 0,
+              height: 56,
+              background: 'linear-gradient(to bottom, transparent, var(--paper) 72%)',
+              display: 'flex',
+              alignItems: 'flex-end',
+              justifyContent: 'center',
+              paddingBottom: 6,
+            }}
+          >
+            <span className="annot">More below</span>
           </div>
-          {/* Back, alone. ANY WORLD used to stand beside it; it is now the
-              first row of the list — see the note there. What is left down
-              here is the one thing that genuinely belongs at the bottom of a
-              screen: the way off it, changing nothing. */}
-          <button className="action-quiet ruled" onClick={onCancel}>
-            Back
-          </button>
-        </div>
+        )}
+      </div>
+
+      {/* The key to the two marks a row carries, and nothing else. A legend
+          rather than prose: both of them are glyphs, and a glyph is explained
+          by being stood next to its name. */}
+      <div
+        className="annot"
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          gap: 16,
+          flexShrink: 0,
+          letterSpacing: '0.16em',
+        }}
+      >
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+          <StartedDot />
+          Started
+        </span>
+        <span>XS–XL · cast size</span>
       </div>
     </div>
   );

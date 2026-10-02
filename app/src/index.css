@@ -11,6 +11,12 @@
   /* Panels lift off the paper rather than blending into it. */
   --panel: #fffdf8;
   --panel-edge: #b9b2a5;
+  /* Paper, dimmed, for the one surface that is printed *on* ink: the sub-line
+     under BEGIN. Paper itself is too bright against #16130f for a caption. */
+  --on-ink-dim: #c9c1b2;
+  /* A card's fill on the chooser: a shade above paper, so a started world
+     sits forward of the index without needing a shadow. */
+  --card: #fbf8f1;
 
   /* Ties darken as they thicken, so strength reads even in greyscale. */
   --tie-hairline: #9a9287;
@@ -239,6 +245,132 @@ button {
   color: var(--unknown);
   border-bottom-color: var(--rule);
   cursor: default;
+}
+
+/* The one solid block in the design.
+ *
+ * Everything else here is tracked mono over a hairline rule, and that rule is
+ * stated at the top of this file. BEGIN is the deliberate exception the cold
+ * start redesign makes: it is the single thing to press on the first screen a
+ * player ever sees, and a hairline among hairlines was not winning that. It
+ * earns the ink by being the only one — nothing else in the game is filled.
+ *
+ * Two lines inside it: the word, and what pressing it will actually do. The
+ * sub-line is the reason the block has a height rather than a padding — the
+ * caption changes with the choice above it, and a block that resized as the
+ * words changed would twitch. */
+.begin-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  height: 60px;
+  padding: 0 22px;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+.begin-block:hover,
+.begin-block:focus-visible {
+  background: var(--accent);
+  outline: none;
+}
+
+.begin-block:disabled {
+  background: var(--unknown);
+  cursor: default;
+}
+
+.begin-word {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+
+.begin-sub {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--on-ink-dim);
+}
+
+/* The cold start's two columns: what to decide, and the diagram you are
+   deciding about. The left column is set to the measure the prose wants; the
+   drawing takes the rest. Below 900px there is no rest to take, so the
+   drawing goes under the words. */
+.start-cols {
+  display: grid;
+  grid-template-columns: minmax(0, 440px) minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 72px);
+  align-items: center;
+  flex: 1;
+  min-height: 0;
+}
+
+@media (max-width: 900px) {
+  .start-cols {
+    grid-template-columns: minmax(0, 1fr);
+    align-content: center;
+  }
+
+  /* Under the words, and shorter: at this width the diagram is company for
+     the column rather than the other half of the page. */
+  .start-figure {
+    height: min(320px, 38vh) !important;
+    order: 2;
+  }
+}
+
+/* One of the ways to wake. A dot in the margin rather than a radio glyph, in
+   the accent, because the accent is you — the same mark the diagram puts at
+   the centre. */
+.wake-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  min-height: 52px;
+  padding: 4px 0;
+  text-align: left;
+}
+
+.wake-title {
+  align-self: flex-start;
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.15;
+  border-bottom: 1px solid var(--leader);
+}
+
+.wake-row[aria-checked='true'] .wake-title {
+  border-bottom-color: var(--ink);
+}
+
+/* The started worlds, across the top of the chooser. Four at the widest, and
+   as few as one on a phone — they are a row of recent work, not a grid with a
+   shape to keep. */
+.started-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+}
+
+/* The chooser's one toolbar: search, filing, and the one preference. It wraps
+   rather than scrolls, and the rule under it stays whole either way. */
+.chooser-bar {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 4px;
 }
 
 /* The quieter sibling: no rule, annotation grey. */
@@ -631,11 +763,14 @@ button {
     min-height: 100dvh;
   }
 
-  .cold-main {
-    flex: 0 0 auto !important;
+  .start-cols {
+    grid-template-columns: minmax(0, 1fr);
+    flex: 0 0 auto;
   }
 
-  .cold-stage {
+  /* The drawing is the part that can afford to give way: the words cannot be
+     read any shorter, and a stage squeezed under about 210px is a smudge. */
+  .start-figure {
     height: 210px !important;
     flex-shrink: 0 !important;
   }
