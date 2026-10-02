@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { RadioRow } from '../gallery/RadioRow';
-import { CHROME_PADDING } from '../render/MarginLinks';
+import { BrandMark, CHROME_PADDING } from '../render/MarginLinks';
+import { Elsewhere, TopBar, TopBarBack } from '../render/TopBar';
 import type { WorldProgress } from '../engine/residence';
 import type { IndexUniverseEntry } from '../types';
 
@@ -318,37 +319,18 @@ export function ChooseWorld({
       {/* The way off this page is the first thing on it, where a reader looks
           for one. It used to be at the foot beside ANY WORLD, which put the two
           most different acts on the page side by side wearing the same weight:
-          one leaves everything as it was, and one draws a world. */}
-      <div
-        className="chrome-row"
-        style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          gap: 16,
-          flexShrink: 0,
-        }}
-      >
-        <button type="button" className="annot-link" onClick={onCancel} style={{ gap: 8 }}>
-          <svg
-            width="9"
-            height="9"
-            viewBox="0 0 10 10"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.3"
-            aria-hidden
-            focusable="false"
-          >
-            <path d="M6.5 2l-3 3 3 3" />
-          </svg>
-          Back
-        </button>
-        <div className="brand">You are here.</div>
-        <button type="button" className="annot-link" onClick={onOpenKey}>
-          What can I do
-        </button>
-      </div>
+          one leaves everything as it was, and one draws a world.
+
+          The wordmark takes the middle because the left slot is spoken for,
+          and the bar centres it on the page rather than between the two
+          links — so it does not shift as BACK's label does. The lab is not
+          offered here: this page is already the way to somewhere else. */}
+      <TopBar
+        inset={false}
+        left={<TopBarBack onBack={onCancel} />}
+        center={<BrandMark />}
+        right={<Elsewhere onOpenKey={onOpenKey} />}
+      />
 
       <div
         className="stack-sm"

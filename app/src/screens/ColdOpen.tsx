@@ -1,7 +1,8 @@
 import { useRef, useState } from 'react';
 import { Stage } from '../render/Stage';
-import { CHROME_PADDING, ChromeRight, HelpLink, type StartLinks } from '../render/MarginLinks';
-import { EaseDial } from '../render/EaseDial';
+import { CHROME_PADDING, type StartLinks } from '../render/MarginLinks';
+import { Elsewhere, TopBar } from '../render/TopBar';
+import { EaseDial, hardnessOf, hardnessWord } from '../render/EaseDial';
 import type { Residence } from '../engine/residence';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
@@ -125,6 +126,9 @@ export function ColdOpen({
   const firstLook = worldTitle === null && !again;
   /** The map is the player's own only once it has a mark on it. */
   const mapped = residence && residence.named.size > 0 ? residence : null;
+  /** What the dial is set to, read once. BEGIN says it in its own caption, so
+   *  the two have to be the same reading rather than two of them. */
+  const hardness = residence ? hardnessOf(residence, cast, targetEase) : null;
 
   /** The centred headline takes its seat in the top-left. The second line
    *  fades: it has said what it came to say, and the explore screen will
@@ -174,7 +178,13 @@ export function ColdOpen({
       ? 'Any world · a fresh start'
       : lastNode
         ? `The last name in ${worldTitle ?? 'this world'}`
-        : `${mapped ? 'Another life' : 'A life'} in ${worldTitle ?? 'this world'}`;
+        : // The world, and then what the dial above is set to — the artboard
+          // prints both, and it is the second half that makes the caption
+          // worth having: it is the only place the scale's reading is put
+          // into words next to the thing that will act on it.
+          `Another life in ${worldTitle ?? 'this world'}${
+            hardness ? ` · ${hardnessWord(hardness)}` : ''
+          }`;
 
   const wakeRow = (id: Wake, title: string, sub: string) => {
     const on = wake === id;
@@ -222,18 +232,16 @@ export function ColdOpen({
         paddingBottom: 'max(32px, var(--pad-bottom))',
       }}
     >
-      {/* Neither the key nor the gallery is a thing to do here, so neither is
+      {/* Neither the key nor the lab is a thing to do here, so neither is
           offered beside the thing to do. They go to the corner this game keeps
-          everything that is not the page in, which also means they are in the
-          same corner on every screen. */}
-      <div style={{ display: 'flex', justifyContent: 'flex-end', flexShrink: 0 }}>
-        <ChromeRight>
-          <HelpLink onOpenKey={onOpenKey} />
-          <button type="button" className="annot-link" onClick={onOpenGallery} disabled={walking}>
-            The topology gallery
-          </button>
-        </ChromeRight>
-      </div>
+          everything that is not the page in, which is the same corner on every
+          screen. No wordmark: the title two inches below is the wordmark, at
+          four times the size, and printing it twice made the page look like it
+          had two of them. */}
+      <TopBar
+        inset={false}
+        right={<Elsewhere onOpenKey={onOpenKey} onOpenLab={onOpenGallery} disabled={walking} />}
+      />
 
       <div className="start-cols">
         {/* The column of words. Left-aligned and hung from its title: the eye
@@ -307,12 +315,13 @@ export function ColdOpen({
               aria-label="Where to wake"
               style={{ marginTop: 30, width: '100%', display: 'flex', flexDirection: 'column', gap: 6 }}
             >
-              {/* `Another` and `where you left off` are both claims about a
-                  map that exists. A world chosen a moment ago and never played
-                  has none, so it is offered as what it is: a first life in it. */}
+              {/* `Where you left off` is a claim about a map that exists. A
+                  world chosen a moment ago and never played has none, so the
+                  caption says what is true of it instead; the title is the
+                  artboard's either way. */}
               {wakeRow(
                 'again',
-                `${mapped ? 'Another life' : 'A life'} in ${worldTitle ?? 'this world'}`,
+                `Another life in ${worldTitle ?? 'this world'}`,
                 mapped
                   ? `Where you left off · ${mapped.named.size} of ${cast} named`
                   : 'The world you chose',
@@ -345,9 +354,6 @@ export function ColdOpen({
               freely as it does anywhere else. */}
           {!firstLook && wake === 'again' && residence && (
             <div style={{ marginTop: 22, width: '100%' }}>
-              <div className="annot" style={{ letterSpacing: '0.2em' }}>
-                How hard a person to be next
-              </div>
               <EaseDial residence={residence} cast={cast} value={targetEase} onChange={onChooseEase} />
             </div>
           )}

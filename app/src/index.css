@@ -247,6 +247,99 @@ button {
   cursor: default;
 }
 
+/* ---------------------------------------------------------------------------
+   The top bar.
+
+   One row, three slots, on every screen that has one. The middle slot is
+   centred on the page rather than on the space the other two leave, which is
+   the only thing a plain flex row cannot do.
+   --------------------------------------------------------------------------- */
+.top-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.top-bar-side {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  min-width: 0;
+}
+
+/* Nothing in the left slot: the right slot still has to stay right. */
+.top-bar-left:empty {
+  flex: 1;
+}
+
+.top-bar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.top-bar-nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* Unruled, unlike `.annot-link`: the bar is the affordance up here, and the
+   design draws these as plain tracked mono. The padding is the hit area —
+   10px type does not make a 44px target on its own. */
+.top-bar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 90ms ease;
+}
+
+.top-bar-link:hover,
+.top-bar-link:focus-visible {
+  color: var(--accent);
+  outline: none;
+}
+
+.top-bar-link:disabled {
+  color: var(--leader);
+  cursor: default;
+}
+
+@media (max-width: 640px) {
+  .top-bar-nav {
+    gap: 16px;
+  }
+
+  .top-bar-link {
+    font-size: 9px;
+    letter-spacing: 0.14em;
+  }
+
+  /* A centred wordmark has nowhere to be on a phone: the two side slots meet
+     in the middle. It gives up its place rather than printing over them. */
+  .top-bar-center {
+    display: none;
+  }
+}
+
 /* The one solid block in the design.
  *
  * Everything else here is tracked mono over a hairline rule, and that rule is
@@ -359,6 +452,17 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   gap: 12px;
+}
+
+/* Four columns, held open whether or not there are four cards. Left to
+   auto-fit, a single started world took the whole width of the page — a card
+   the size of a banner, announcing one world above a list of fifty-two. The
+   row is a shelf with four places on it; an empty place is part of the
+   drawing. */
+@media (min-width: 900px) {
+  .started-cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 /* The chooser's one toolbar: search, filing, and the one preference. It wraps
@@ -526,64 +630,56 @@ button {
 /* The difficulty scale: a hairline rule with a single accent mark on it.
    Nothing here is a box or a track with a fill — it is the same hairline the
    actions and fields sit on, with the thumb reading as a mark made on it. */
-.ease {
+/* The dial's input, laid over a drawing.
+ *
+ * The control is drawn by EaseDial — a solid rule for what is open, a dotted
+ * one for what is not, a tick at the stop and a standing accent bar for the
+ * thumb. The input is here only to be dragged and to be what a keyboard and a
+ * screen reader talk to, so every part the browser would draw is taken away:
+ * the track, the thumb, and the focus ring that would otherwise land on a
+ * rectangle nobody can see.
+ *
+ * Not `opacity: 0`, which also hides the focus ring — so focus is shown on the
+ * drawn thumb instead, by a ring on the input's own box. */
+.ease-track {
   -webkit-appearance: none;
   appearance: none;
   background: transparent;
   cursor: pointer;
-}
-
-.ease:focus {
   outline: none;
 }
 
-/* The residence's bounded dial draws its own rule in two parts — reachable and
-   not yet — so the input's own track would lay a third line over both. The mark
-   on it is still the thumb, unchanged: only the surface it is made on is drawn
-   by something else. */
-.ease-bounded::-webkit-slider-runnable-track {
+.ease-track::-webkit-slider-runnable-track {
   background: transparent;
+  border: none;
 }
 
-.ease-bounded::-moz-range-track {
+.ease-track::-moz-range-track {
   background: transparent;
+  border: none;
 }
 
-.ease::-webkit-slider-runnable-track {
-  height: 1px;
-  background: var(--rule);
-}
-
-.ease::-moz-range-track {
-  height: 1px;
-  background: var(--rule);
-}
-
-.ease::-webkit-slider-thumb {
+.ease-track::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 9px;
-  height: 9px;
-  margin-top: -4px;
-  border-radius: 50%;
-  background: var(--accent);
+  width: 24px;
+  height: 100%;
+  background: transparent;
   border: none;
 }
 
-.ease::-moz-range-thumb {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--accent);
+.ease-track::-moz-range-thumb {
+  width: 24px;
+  height: 100%;
+  background: transparent;
   border: none;
 }
 
-.ease:focus-visible::-webkit-slider-thumb {
-  box-shadow: 0 0 0 3px rgba(140, 47, 42, 0.22);
-}
-
-.ease:focus-visible::-moz-range-thumb {
-  box-shadow: 0 0 0 3px rgba(140, 47, 42, 0.22);
+/* Focus shows on the drawn thumb, since that is the thing the eye is on. A
+   ring on the input's own box would outline the whole 40px track — a rectangle
+   around a control the design draws as two rules and a mark. */
+.ease-dial:focus-within .ease-thumb {
+  box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px rgba(140, 47, 42, 0.3);
 }
 
 /* A figure and the note that explains it, side by side: the drawing takes
