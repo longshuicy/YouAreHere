@@ -14,6 +14,7 @@
     "@types/d3-zoom": "^3.0.8",
     "d3-force": "^3.0.0",
     "d3-interpolate": "^3.0.1",
+    "d3-quadtree": "^3.0.1",
     "d3-scale": "^4.0.2",
     "d3-selection": "^3.0.0",
     "d3-zoom": "^3.0.0",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@types/d3-force": "^3.0.10",
     "@types/d3-interpolate": "^3.0.4",
+    "@types/d3-quadtree": "^3.0.6",
     "@types/d3-scale": "^4.0.9",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",

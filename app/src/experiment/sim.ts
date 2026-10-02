@@ -1,13 +1,14 @@
 /**
  * One round of the experiment. See docs/The experiment.md for why each rule is
- * the shape it is; this file is that document as arithmetic.
+ * the shape it is; this file is that document as arithmetic, and
+ * constants.ts holds every number it does not take from a slider.
  *
  * Everything is a draw from a seeded generator, so a run is a pure function of
  * (seed, parameters, round count).
  */
 
 import { mulberry32 } from './rng';
-import { S_MAX } from './world';
+import { LOG_LIMIT, S_MAX, STRENGTHEN_STEP } from './constants';
 import type { MergedWorld } from './world';
 
 export interface Params {
@@ -15,9 +16,6 @@ export interface Params {
   own: number;
   fof: number;
   cross: number;
-  /** Ramp the cross-world weight from 0 to its slider value across the run,
-   * instead of holding it constant. The walls thin rather than fall. */
-  ramp: boolean;
 
   /** Formation pressure: the base rate at which a stranger becomes a tie. */
   p: number;
@@ -28,8 +26,6 @@ export interface Params {
   lambda: number;
   /** Preferential attachment exponent. 0 ignores degree entirely. */
   alpha: number;
-  /** Require both sides to say FORM. */
-  mutual: boolean;
 
   /** Strengthen rate for an existing tie. */
   ps: number;
@@ -38,7 +34,7 @@ export interface Params {
   /** Strength a new tie is born at. */
   sInit: number;
 
-  /** Run length in rounds, which the ramp is measured against. */
+  /** Run length in rounds. */
   days: number;
 }
 
@@ -46,34 +42,37 @@ export interface Params {
  * A starting point that shows something within a two-hundred-day run, not a
  * claim about how the world works.
  *
- * Tuned against the prototype population after the first pass produced nothing
- * at all: formation pressure of 0.25 against a saturation reference of 12, with
- * mean degree already 19, left every character three-quarters unavailable, and
- * mutual consent then squared that. Decay of 3 a round against a strength floor
- * of 10 killed every below-median tie in four days, which fragmented the
- * population into three hundred components while the cores quietly densified.
- * Both are legitimate regimes. Neither is a good first thing to look at.
+ * Tuned against the six-world population after the first pass produced nothing:
+ * formation pressure of 0.25 against a saturation reference of 12, with mean
+ * degree already 19, left every character three-quarters unavailable, and
+ * mutual consent then squared that.
  */
 export const DEFAULT_PARAMS: Params = {
   own: 20,
   fof: 60,
   cross: 20,
-  ramp: true,
   p: 0.35,
   d0: 25,
   lambda: 0.35,
   alpha: 0.5,
-  mutual: true,
   ps: 0.15,
   decay: 1.5,
   sInit: 30,
   days: 200,
 };
 
-/** What a successful STRENGTHEN adds. Fixed: the two rates that matter are
- * formation pressure and decay, and a third knob here would only re-express
- * the decay slider in different units. */
-const STRENGTHEN_STEP = 10;
+/**
+ * One thing that happened to the followed character. WEAKEN is absent on
+ * purpose: it fires on every untouched tie every round, so logging it would
+ * bury the three entries that change the topology under a continuous drizzle.
+ * Decay is visible in the tie list instead, as a bar getting shorter.
+ */
+export interface LogEvent {
+  day: number;
+  action: 'FORM' | 'STRENGTHEN' | 'CUT';
+  other: number;
+  s: number;
+}
 
 export interface SimState {
   round: number;
@@ -93,9 +92,13 @@ export interface SimState {
   formed: number;
   cut: number;
   rng: () => number;
+  /** Whose shoulder we are reading over, if anyone. */
+  follow: number | null;
+  /** Newest first. */
+  log: LogEvent[];
 }
 
-/** Canonical undirected key. `n` stays below 10^4 here, so this fits an int. */
+/** Canonical undirected key. `n` stays below 10^4, so this fits an int. */
 function key(n: number, u: number, v: number): number {
   return u < v ? u * n + v : v * n + u;
 }
@@ -107,12 +110,33 @@ export function initState(world: MergedWorld, seed: number): SimState {
     adj[u].set(v, s);
     adj[v].set(u, s);
   }
-  return { round: 0, adj, touched: new Set(), formed: 0, cut: 0, rng: mulberry32(seed) };
+  return {
+    round: 0,
+    adj,
+    touched: new Set(),
+    formed: 0,
+    cut: 0,
+    rng: mulberry32(seed),
+    follow: null,
+    log: [],
+  };
+}
+
+/**
+ * Record an event, if it happened to the character being followed. Following
+ * changes nothing about the run: the draw order is untouched, so the same seed
+ * produces the same history whether anyone is reading it or not.
+ */
+function note(state: SimState, action: LogEvent['action'], u: number, v: number, s: number) {
+  if (state.follow === null) return;
+  if (u !== state.follow && v !== state.follow) return;
+  state.log.unshift({ day: state.round, action, other: u === state.follow ? v : u, s });
+  if (state.log.length > LOG_LIMIT) state.log.length = LOG_LIMIT;
 }
 
 /** The k-th neighbour of u. Maps are not indexable, and degree is small enough
- * (mean 19 in the prototype population) that walking is cheaper than keeping a
- * parallel array in sync through every FORM and CUT. */
+ * that walking is cheaper than keeping a parallel array in sync through every
+ * FORM and CUT. */
 function nthNeighbour(adj: Map<number, number>, k: number): number {
   let i = 0;
   for (const v of adj.keys()) {
@@ -162,9 +186,7 @@ function overlap(state: SimState, u: number, v: number): number {
  * cross rather than a thing of its own.
  */
 function drawEncounter(state: SimState, world: MergedWorld, params: Params): (u: number) => number {
-  const ramp = params.ramp ? Math.min(1, state.round / Math.max(1, params.days)) : 1;
-  const cross = params.cross * ramp;
-  const total = params.own + params.fof + cross;
+  const total = params.own + params.fof + params.cross;
 
   return (u: number): number => {
     if (total <= 0) return -1;
@@ -184,8 +206,9 @@ function drawEncounter(state: SimState, world: MergedWorld, params: Params): (u:
       return randomNeighbour(state, mid);
     }
 
-    // Anyone outside my own world. Rejection sampling: the largest world is
-    // about half the prototype population, so this is under two draws.
+    // Anyone outside my own world. Rejection sampling: even the largest world
+    // is a ninth of the full population, so this is one draw in all but the
+    // six-world case and under two there.
     for (let tries = 0; tries < 12; tries++) {
       const v = Math.floor(state.rng() * world.n);
       if (world.world[v] !== w) return v;
@@ -195,12 +218,19 @@ function drawEncounter(state: SimState, world: MergedWorld, params: Params): (u:
 }
 
 /** P(u says FORM about v). */
-function formProbability(state: SimState, params: Params, meanDegree: number, u: number, v: number): number {
+function formProbability(
+  state: SimState,
+  params: Params,
+  meanDegree: number,
+  u: number,
+  v: number,
+): number {
   const du = state.adj[u].size;
   const dv = state.adj[v].size;
   const saturation = 1 / (1 + du / Math.max(1e-6, params.d0));
   const triadic = 1 + params.lambda * overlap(state, u, v);
-  const attachment = params.alpha === 0 ? 1 : Math.pow(Math.max(dv, 1) / Math.max(meanDegree, 1), params.alpha);
+  const attachment =
+    params.alpha === 0 ? 1 : Math.pow(Math.max(dv, 1) / Math.max(meanDegree, 1), params.alpha);
   return Math.min(1, params.p * saturation * triadic * attachment);
 }
 
@@ -220,15 +250,21 @@ export function step(state: SimState, world: MergedWorld, params: Params): Round
   const meanDegree = edgeCount / n;
 
   // 1 — every character draws one encounter. No sampling of actors.
+  //
+  // A tie forms only if both sides say FORM. Not a toggle: with structural
+  // decision rules the two sides genuinely differ — each is weighed by its own
+  // degree, its own remaining availability, and how the other looks from where
+  // it stands — so consent is a mechanism rather than a rescale of p.
   const encounter = drawEncounter(state, world, params);
   for (let u = 0; u < n; u++) {
     const v = encounter(u);
     if (v < 0 || v === u || state.adj[u].has(v)) continue;
     if (state.rng() >= formProbability(state, params, meanDegree, u, v)) continue;
-    if (params.mutual && state.rng() >= formProbability(state, params, meanDegree, v, u)) continue;
+    if (state.rng() >= formProbability(state, params, meanDegree, v, u)) continue;
     state.adj[u].set(v, params.sInit);
     state.adj[v].set(u, params.sInit);
     state.touched.add(key(n, u, v));
+    note(state, 'FORM', u, v, params.sInit);
     state.formed++;
   }
 
@@ -251,6 +287,7 @@ export function step(state: SimState, world: MergedWorld, params: Params): Round
         row.set(v, next);
         state.adj[v].set(u, next);
         state.touched.add(k);
+        note(state, 'STRENGTHEN', u, v, next);
         continue;
       }
 
@@ -258,6 +295,7 @@ export function step(state: SimState, world: MergedWorld, params: Params): Round
       if (next <= 0) {
         row.delete(v);
         state.adj[v].delete(u);
+        note(state, 'CUT', u, v, 0);
         state.cut++;
       } else {
         row.set(v, next);

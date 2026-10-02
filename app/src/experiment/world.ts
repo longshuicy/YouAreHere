@@ -1,5 +1,5 @@
 /**
- * The merged population: several shipped worlds laid side by side in one index
+ * The merged population: every shipped world laid side by side in one index
  * space, with no ties between them.
  *
  * That absence is the initial condition, not a gap to fill. Everything the
@@ -7,11 +7,30 @@
  */
 
 import type { Universe } from '../types';
+import {
+  CLAMP_K,
+  GRID_PITCH,
+  MIN_WORLD_RADIUS,
+  NODE_WASH,
+  PAPER,
+  S_MAX,
+  S_MIN,
+  WORLD_SCALE,
+  mixHex,
+} from './constants';
 
-/** The prototype's population. Small enough that SVG holds the drawing and
- * d3-force runs on the main thread; wide enough that dissolution has somewhere
- * to go. Deliberately spread across languages and centuries. */
-export const PROTOTYPE_WORLDS = [
+export { S_MAX, S_MIN } from './constants';
+
+/**
+ * Six worlds: a shortcut in the world picker, and the fast instrument.
+ *
+ * Not a lesser version of the experiment — a different one. A round over six
+ * worlds costs about a twentieth of a round over all fifty-two, so a parameter
+ * can be turned and judged in seconds rather than a minute, and every rule here
+ * was tuned on this set before it was ever run at scale. Deliberately spread
+ * across languages and centuries so dissolution has somewhere to go.
+ */
+export const SIX_WORLDS = [
   'harry-potter',
   'hongloumeng',
   'shiji',
@@ -19,12 +38,6 @@ export const PROTOTYPE_WORLDS = [
   'starwars',
   'odyssey',
 ] as const;
-
-/** Strength floor and ceiling. A tie at 0 is cut, so nothing starts at 0 — and
- * the floor is well clear of it, because a tie that begins one decay step from
- * death is not a weak tie, it is a tie that was never in the experiment. */
-export const S_MIN = 25;
-export const S_MAX = 100;
 
 export interface MergedWorld {
   n: number;
@@ -34,7 +47,11 @@ export interface MergedWorld {
   world: Int32Array;
   worldIds: string[];
   worldTitles: string[];
+  /** The shipped accent, used wherever one world is named on its own. */
   worldAccents: string[];
+  /** The accent washed back toward the paper, for filling eight thousand nodes
+   * at once. See `NODE_WASH`. */
+  worldMarks: string[];
   /** First node index of each world; worlds are contiguous, which makes an
    * own-world draw a single integer range. */
   worldStart: Int32Array;
@@ -56,9 +73,6 @@ export interface MergedWorld {
  * *how far above typical* mean the same thing everywhere, and unlike quantile
  * bins it does not flatten magnitude: a tie eight times typical stays eight
  * times typical.
- *
- * `k` is the clamp in doublings. Past 2^k above or below the median, everything
- * piles at the ceiling or the floor.
  */
 export function initialStrength(w: number, median: number, k: number): number {
   const z = Math.log2(Math.max(w, 1e-9) / Math.max(median, 1e-9));
@@ -72,13 +86,7 @@ function median(values: number[]): number {
   return sorted[(sorted.length - 1) >> 1];
 }
 
-/** Lay the worlds out on the squarest grid that holds them. */
-function gridSlots(count: number): { cols: number; rows: number } {
-  const cols = Math.ceil(Math.sqrt(count));
-  return { cols, rows: Math.ceil(count / cols) };
-}
-
-export function mergeWorlds(universes: Universe[], clampK: number): MergedWorld {
+export function mergeWorlds(universes: Universe[]): MergedWorld {
   const n = universes.reduce((sum, u) => sum + u.nodes.length, 0);
   const name: string[] = new Array(n);
   const world = new Int32Array(n);
@@ -88,28 +96,21 @@ export function mergeWorlds(universes: Universe[], clampK: number): MergedWorld 
   const worldSize = new Int32Array(universes.length);
   const edges: [number, number, number][] = [];
 
-  const { cols } = gridSlots(universes.length);
-  /** Every world is normalised into a disc, but not into the *same* disc: a
-   * thirty-character play given the same radius as a four-hundred-character
-   * saga reads as a few specks in a lot of nothing. Radius goes as √n, so the
-   * islands start at comparable density. */
+  const cols = Math.ceil(Math.sqrt(universes.length));
   const maxN = Math.max(...universes.map((u) => u.nodes.length));
-  /** How far apart the island centres sit, in the same units as the normalised
-   * world radius (1.0). Loose enough that nothing overlaps at t = 0. */
-  const PITCH = 2.6;
 
   let offset = 0;
   universes.forEach((u, w) => {
     worldStart[w] = offset;
     worldSize[w] = u.nodes.length;
 
-    // Normalise this world's shipped layout into a unit disc, then drop it on
-    // the grid. The shipped coordinates are per-world and in arbitrary units.
+    // Normalise this world's shipped layout into a disc, then drop it on the
+    // grid. The shipped coordinates are per-world and in arbitrary units.
     let maxR = 1e-9;
     for (const node of u.nodes) maxR = Math.max(maxR, Math.hypot(node.x, node.y));
-    const cx = (w % cols) * PITCH;
-    const cy = Math.floor(w / cols) * PITCH;
-    const radius = Math.max(0.3, Math.sqrt(u.nodes.length / maxN));
+    const cx = (w % cols) * GRID_PITCH;
+    const cy = Math.floor(w / cols) * GRID_PITCH;
+    const radius = Math.max(MIN_WORLD_RADIUS, Math.sqrt(u.nodes.length / maxN));
 
     u.nodes.forEach((node, i) => {
       const id = offset + i;
@@ -121,7 +122,7 @@ export function mergeWorlds(universes: Universe[], clampK: number): MergedWorld 
 
     const med = median(u.edges.map((e) => e[2]));
     for (const [a, b, weight] of u.edges) {
-      edges.push([offset + a, offset + b, initialStrength(weight, med, clampK)]);
+      edges.push([offset + a, offset + b, initialStrength(weight, med, CLAMP_K)]);
     }
 
     offset += u.nodes.length;
@@ -136,11 +137,9 @@ export function mergeWorlds(universes: Universe[], clampK: number): MergedWorld 
   }
   const mx = sx / n;
   const my = sy / n;
-  /** The force layout works in pixels; the grid above works in world radii. */
-  const SCALE = 180;
   for (let i = 0; i < n; i++) {
-    x0[i] = (x0[i] - mx) * SCALE;
-    y0[i] = (y0[i] - my) * SCALE;
+    x0[i] = (x0[i] - mx) * WORLD_SCALE;
+    y0[i] = (y0[i] - my) * WORLD_SCALE;
   }
 
   return {
@@ -150,10 +149,28 @@ export function mergeWorlds(universes: Universe[], clampK: number): MergedWorld 
     worldIds: universes.map((u) => u.id),
     worldTitles: universes.map((u) => u.title),
     worldAccents: universes.map((u) => u.accent),
+    worldMarks: universes.map((u) => mixHex(u.accent, PAPER, NODE_WASH)),
     worldStart,
     worldSize,
     x0,
     y0,
     edges,
   };
+}
+
+/** Each world's home on the grid, for the layout's tether. */
+export function worldHomes(world: MergedWorld): { x: Float64Array; y: Float64Array } {
+  const x = new Float64Array(world.worldIds.length);
+  const y = new Float64Array(world.worldIds.length);
+  for (let w = 0; w < world.worldIds.length; w++) {
+    let sx = 0;
+    let sy = 0;
+    for (let i = world.worldStart[w]; i < world.worldStart[w] + world.worldSize[w]; i++) {
+      sx += world.x0[i];
+      sy += world.y0[i];
+    }
+    x[w] = sx / world.worldSize[w];
+    y[w] = sy / world.worldSize[w];
+  }
+  return { x, y };
 }

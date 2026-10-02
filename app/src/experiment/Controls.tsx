@@ -30,24 +30,9 @@ export function Slider(props: {
   );
 }
 
-export function Toggle(props: { label: string; value: boolean; onChange: (v: boolean) => void }) {
-  return (
-    <button
-      type="button"
-      className={`mono xp-toggle${props.value ? ' on' : ''}`}
-      onClick={() => props.onChange(!props.value)}
-    >
-      {props.label} · {props.value ? 'ON' : 'OFF'}
-    </button>
-  );
-}
-
-export function Controls(props: {
-  params: Params;
-  onChange: (next: Params) => void;
-  seed: number;
-  onSeed: (seed: number) => void;
-}) {
+/** The rules. The run's own controls — length, seed, transport — are above
+ * these in the panel, because they are what a visitor touches first. */
+export function Controls(props: { params: Params; onChange: (next: Params) => void }) {
   const { params, onChange } = props;
   const set = <K extends keyof Params>(k: K, v: Params[K]) => onChange({ ...params, [k]: v });
   const mix = params.own + params.fof + params.cross || 1;
@@ -59,23 +44,22 @@ export function Controls(props: {
       <Slider label="Own world" value={params.own} min={0} max={100} step={1} format={pct} onChange={(v) => set('own', v)} />
       <Slider label="Friend of a friend" value={params.fof} min={0} max={100} step={1} format={pct} onChange={(v) => set('fof', v)} />
       <Slider label="Cross world" value={params.cross} min={0} max={100} step={1} format={pct} onChange={(v) => set('cross', v)} />
-      <Toggle label="Ramp cross-world" value={params.ramp} onChange={(v) => set('ramp', v)} />
 
       <h3 className="mono xp-group">Tie formation</h3>
       <Slider label="Formation pressure" value={params.p} min={0} max={1} step={0.01} format={(v) => v.toFixed(2)} onChange={(v) => set('p', v)} />
       <Slider label="Saturation d₀" value={params.d0} min={1} max={60} step={1} onChange={(v) => set('d0', v)} />
       <Slider label="Triadic bonus λ" value={params.lambda} min={0} max={1.5} step={0.01} format={(v) => v.toFixed(2)} onChange={(v) => set('lambda', v)} />
       <Slider label="Pref. attachment α" value={params.alpha} min={0} max={2} step={0.05} format={(v) => v.toFixed(2)} onChange={(v) => set('alpha', v)} />
-      <Toggle label="Mutual consent" value={params.mutual} onChange={(v) => set('mutual', v)} />
+      <p className="xp-note quiet">
+        A tie forms only when both sides say so. Not optional: with structural
+        rules the two sides genuinely differ, so consent is a mechanism rather
+        than a rescale of formation pressure.
+      </p>
 
       <h3 className="mono xp-group">Tie maintenance</h3>
       <Slider label="Strengthen rate" value={params.ps} min={0} max={0.6} step={0.01} format={(v) => v.toFixed(2)} onChange={(v) => set('ps', v)} />
       <Slider label="Decay per round" value={params.decay} min={0} max={20} step={0.5} format={(v) => v.toFixed(1)} onChange={(v) => set('decay', v)} />
       <Slider label="New tie strength" value={params.sInit} min={5} max={100} step={1} onChange={(v) => set('sInit', v)} />
-
-      <h3 className="mono xp-group">Run</h3>
-      <Slider label="Length in days" value={params.days} min={20} max={600} step={10} onChange={(v) => set('days', v)} />
-      <Slider label="Seed" value={props.seed} min={1} max={99999} step={1} onChange={props.onSeed} />
     </div>
   );
 }

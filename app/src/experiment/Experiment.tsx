@@ -1,113 +1,82 @@
 /**
- * The experiment, at prototype scale.
+ * The experiment: fifty-two worlds with no ties between them, and one rule.
  *
- * Six worlds rather than fifty-two, which is the whole shortcut: at ~880
- * characters and ~8,300 ties SVG still holds the drawing and d3-force still
- * runs on the main thread, so none of the canvas, quadtree or worker machinery
- * in docs/The experiment.md has to exist yet. Everything else here — the merge,
- * the rules, the metrics — is scale-independent and survives into the real one.
+ * This file is only the wiring. The rules are in sim.ts, every constant they
+ * stand on is in constants.ts with the argument for its value, the drawing is
+ * in Field.tsx, the live figures in metrics.ts and the expensive ones in
+ * report.ts. docs/The experiment.md is what all of it is for.
  *
- * React renders the node field exactly once; the node set never changes. Every
- * frame after that is imperative: positions onto circles, ties onto a handful
- * of paths. Reconciling nine thousand elements sixty times a second is not
- * something React is for.
+ * Three things run at once and on different clocks: the simulation, on a fixed
+ * ten rounds a second; the force layout, in a worker, posting positions back
+ * whenever it has them; and the drawing, once per animation frame from whatever
+ * arrived last. Nothing waits for anything else.
  */
 
-import { useEffect, useRef, useState } from 'react';
-import {
-  forceCenter,
-  forceLink,
-  forceManyBody,
-  forceSimulation,
-  forceX,
-  forceY,
-  type Simulation,
-  type SimulationLinkDatum,
-  type SimulationNodeDatum,
-} from 'd3-force';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { fetchIndex, fetchUniverse } from '../data/loader';
-import { mergeWorlds, PROTOTYPE_WORLDS, S_MAX, type MergedWorld } from './world';
+import { SIX_WORLDS, mergeWorlds, worldHomes } from './world';
+import { DAYS_PER_SECOND, MAX_STEPS_PER_FRAME } from './constants';
 import { DEFAULT_PARAMS, initState, step, type Params, type SimState } from './sim';
 import { measure, type LiveMetrics } from './metrics';
+import { buildReport, type Report } from './report';
+import { Field, type Positions, type TieView } from './Field';
 import { Controls, Slider } from './Controls';
+import type { FromWorker, ToWorker } from './layout.worker';
+import type { Universe } from '../types';
 
-interface LNode extends SimulationNodeDatum {
-  i: number;
+function randomSeed(): number {
+  return 1 + Math.floor(Math.random() * 99998);
 }
-interface LLink extends SimulationLinkDatum<LNode> {
-  s: number;
-}
-
-interface Run {
-  state: SimState;
-  nodes: LNode[];
-  sim: Simulation<LNode, LLink>;
-  link: ReturnType<typeof forceLink<LNode, LLink>>;
-}
-
-/** Four strength bands for within-world ties. Ties darken as they thicken, as
- * everywhere else in this app. */
-const BANDS = [
-  { width: 0.5, stroke: '#cfc8ba' },
-  { width: 0.8, stroke: '#b1aa9e' },
-  { width: 1.2, stroke: '#938c81' },
-  { width: 1.7, stroke: '#7c756a' },
-];
-
-const CLAMP_K = 4;
-
-/** How hard a character is held to the world they started in. Not a statement
- * about loyalty — purely a layout term, so six islands read as six islands
- * until the ties say otherwise. */
-const HOME_PULL = 0.04;
-
-type TieView = 'all' | 'cross' | 'none';
 
 export function Experiment({ onExit }: { onExit: () => void }) {
-  const [world, setWorld] = useState<MergedWorld | null>(null);
+  /**
+   * Every shipped world, fetched once.
+   *
+   * All fifty-two universe files together are about four megabytes — the bulk
+   * of `data/` is the reveal-only sidecars, which nothing here reads. Fetching
+   * the lot up front means changing the selection is a merge rather than a
+   * round trip, which is what makes the picker usable as a thing to fiddle with
+   * rather than a thing to commit to.
+   */
+  const [catalogue, setCatalogue] = useState<Universe[] | null>(null);
+  /** Which worlds are in. Every one of them, until someone says otherwise. */
+  const [chosen, setChosen] = useState<Set<string> | null>(null);
   const [error, setError] = useState<string | null>(null);
+
   const [params, setParams] = useState<Params>(DEFAULT_PARAMS);
   const [seed, setSeed] = useState(48291);
-  /** Bumped to rebuild the run without changing the seed. */
   const [runId, setRunId] = useState(0);
   const [running, setRunning] = useState(false);
-  const [speed, setSpeed] = useState(8);
   const [tieView, setTieView] = useState<TieView>('all');
-  const [metrics, setMetrics] = useState<LiveMetrics | null>(null);
-  const [hover, setHover] = useState<number | null>(null);
+  const [refit, setRefit] = useState(0);
 
-  const runRef = useRef<Run | null>(null);
+  const [metrics, setMetrics] = useState<LiveMetrics | null>(null);
+  const [report, setReport] = useState<Report | null>(null);
+  const [hover, setHover] = useState<number | null>(null);
+  const [follow, setFollow] = useState<number | null>(null);
+  const [query, setQuery] = useState('');
+  /** Bumped every round so the followed character's panel redraws. */
+  const [tick, setTick] = useState(0);
+
+  const stateRef = useRef<SimState | null>(null);
+  const posRef = useRef<Positions | null>(null);
+  const workerRef = useRef<Worker | null>(null);
   const paramsRef = useRef(params);
   const runningRef = useRef(running);
-  const speedRef = useRef(speed);
-  const tieViewRef = useRef(tieView);
-  const hoverRef = useRef<number | null>(null);
   paramsRef.current = params;
   runningRef.current = running;
-  speedRef.current = speed;
-  tieViewRef.current = tieView;
-  hoverRef.current = hover;
 
-  const svgRef = useRef<SVGSVGElement | null>(null);
-  const nodeEls = useRef<(SVGCircleElement | null)[]>([]);
-  const bandEls = useRef<(SVGPathElement | null)[]>([]);
-  const crossEl = useRef<SVGPathElement | null>(null);
-  const hoverEl = useRef<SVGPathElement | null>(null);
-  const viewRef = useRef<[number, number, number, number] | null>(null);
-
-  // Load the six worlds and merge them into one index space.
+  // ── Loading ───────────────────────────────────────────────────────────────
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
         const index = await fetchIndex();
-        const entries = PROTOTYPE_WORLDS.map((id) => {
-          const entry = index.universes.find((u) => u.id === id);
-          if (!entry) throw new Error(`World ${id} is not in the index`);
-          return entry;
-        });
-        const universes = await Promise.all(entries.map((e) => fetchUniverse(e.file)));
-        if (!cancelled) setWorld(mergeWorlds(universes, CLAMP_K));
+        const universes = await Promise.all(index.universes.map((e) => fetchUniverse(e.file)));
+        if (!cancelled) {
+          setCatalogue(universes);
+          setChosen(new Set(universes.map((u) => u.id)));
+        }
       } catch (e) {
         if (!cancelled) setError(e instanceof Error ? e.message : String(e));
       }
@@ -117,227 +86,209 @@ export function Experiment({ onExit }: { onExit: () => void }) {
     };
   }, []);
 
-  // Build (or rebuild) the run. Seed changes reset; parameter changes do not —
-  // they are meant to be turned mid-run and watched.
+  const world = useMemo(() => {
+    if (!catalogue || !chosen) return null;
+    const picked = catalogue.filter((u) => chosen.has(u.id));
+    if (picked.length === 0) return null;
+    return mergeWorlds(picked);
+  }, [catalogue, chosen]);
+
+  // ── The layout worker ─────────────────────────────────────────────────────
+  useEffect(() => {
+    if (!world) return;
+    const worker = new Worker(new URL('./layout.worker.ts', import.meta.url), { type: 'module' });
+    workerRef.current = worker;
+    worker.onmessage = (event: MessageEvent<FromWorker>) => {
+      if (event.data.type === 'pos') posRef.current = { x: event.data.x, y: event.data.y };
+    };
+    const homes = worldHomes(world);
+    const init: ToWorker = {
+      type: 'init',
+      x: world.x0,
+      y: world.y0,
+      world: world.world,
+      homeX: homes.x,
+      homeY: homes.y,
+    };
+    // Copies, not transfers: `world` keeps its own starting coordinates so a
+    // reset can put every character back where the story left them.
+    worker.postMessage(init);
+    posRef.current = { x: Float32Array.from(world.x0), y: Float32Array.from(world.y0) };
+    return () => {
+      worker.postMessage({ type: 'stop' } satisfies ToWorker);
+      worker.terminate();
+      workerRef.current = null;
+    };
+  }, [world]);
+
+  function sendLinks() {
+    const state = stateRef.current;
+    const worker = workerRef.current;
+    if (!state || !worker) return;
+    let count = 0;
+    for (const row of state.adj) count += row.size;
+    const triples = new Float32Array((count / 2) * 3);
+    let k = 0;
+    for (let u = 0; u < state.adj.length; u++) {
+      for (const [v, s] of state.adj[u]) {
+        if (v <= u) continue;
+        triples[k++] = u;
+        triples[k++] = v;
+        triples[k++] = s;
+      }
+    }
+    worker.postMessage({ type: 'links', triples } satisfies ToWorker, [triples.buffer]);
+  }
+
+  // ── Building a run ────────────────────────────────────────────────────────
   useEffect(() => {
     if (!world) return;
     const state = initState(world, seed);
-    const nodes: LNode[] = Array.from({ length: world.n }, (_, i) => ({
-      i,
-      x: world.x0[i],
-      y: world.y0[i],
-    }));
-    // Each world's home: the centroid of its shipped layout on the grid.
-    const homeX = new Float64Array(world.worldIds.length);
-    const homeY = new Float64Array(world.worldIds.length);
-    for (let w = 0; w < world.worldIds.length; w++) {
-      let sx = 0;
-      let sy = 0;
-      for (let i = world.worldStart[w]; i < world.worldStart[w] + world.worldSize[w]; i++) {
-        sx += world.x0[i];
-        sy += world.y0[i];
-      }
-      homeX[w] = sx / world.worldSize[w];
-      homeY[w] = sy / world.worldSize[w];
-    }
-
-    const link = forceLink<LNode, LLink>([])
-      .id((d) => d.i)
-      .distance((l) => 55 - 35 * (l.s / S_MAX));
-    const sim = forceSimulation<LNode, LLink>(nodes)
-      .force('charge', forceManyBody<LNode>().strength(-14).distanceMax(600))
-      .force('link', link)
-      // A weak tether to where the world started. Without it six disconnected
-      // components under mutual repulsion either fly apart or stack in the
-      // middle, and neither is a picture of anything. Weak enough that
-      // accumulating cross-world ties drag an island off its mooring, which is
-      // the thing the run is supposed to show.
-      .force('homeX', forceX<LNode>((d) => homeX[world.world[d.i]]).strength(HOME_PULL))
-      .force('homeY', forceY<LNode>((d) => homeY[world.world[d.i]]).strength(HOME_PULL))
-      .force('centre', forceCenter(0, 0))
-      .alphaDecay(0.015)
-      .alphaMin(0.0005)
-      .stop();
-    // Start cool: the shipped per-world layouts are already good, and letting
-    // the simulation open at alpha 1 throws them away before anyone sees them.
-    sim.alpha(0.3);
-    runRef.current = { state, nodes, sim, link };
-    rebuildLinks();
+    state.follow = follow;
+    stateRef.current = state;
+    sendLinks();
     setMetrics(measure(state, world));
+    setReport(null);
     setRunning(false);
+    setRefit((r) => r + 1);
+    setTick((t) => t + 1);
+    // `follow` is read once to carry a chosen character across a reset; it must
+    // not itself rebuild the run, which is what this list says.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [world, seed, runId]);
 
-  function rebuildLinks() {
-    const run = runRef.current;
-    if (!run) return;
-    const links: LLink[] = [];
-    const { adj } = run.state;
-    for (let u = 0; u < adj.length; u++) {
-      for (const [v, s] of adj[u]) if (v > u) links.push({ source: u, target: v, s });
-    }
-    run.link.links(links);
+  // A different set of worlds is a different index space: whoever was being
+  // followed is not that character any more, and may not be a character at all.
+  useEffect(() => {
+    setFollow(null);
+    setHover(null);
+  }, [world]);
+
+  // Following changes nothing about the run — same seed, same history — so it
+  // is pushed into the live state rather than rebuilding anything. The log
+  // belongs to the character, so it starts empty when the character changes.
+  useEffect(() => {
+    const state = stateRef.current;
+    if (!state) return;
+    state.follow = follow;
+    state.log = [];
+    setTick((t) => t + 1);
+  }, [follow]);
+
+  function advance() {
+    const state = stateRef.current;
+    if (!state || !world) return;
+    step(state, world, paramsRef.current);
+    sendLinks();
+    workerRef.current?.postMessage({ type: 'kick', alpha: 0.12 } satisfies ToWorker);
+    setMetrics(measure(state, world));
+    setTick((t) => t + 1);
   }
 
-  // The one loop: advance the simulation on a clock, tick the layout every
-  // frame, draw imperatively.
+  function finish() {
+    const state = stateRef.current;
+    if (!state || !world) return;
+    setRunning(false);
+    setReport(buildReport(state, world, initState(world, seed)));
+  }
+
+  // ── The clock ─────────────────────────────────────────────────────────────
   useEffect(() => {
     if (!world) return;
     let raf = 0;
     let last = performance.now();
     let acc = 0;
-
     const frame = (now: number) => {
-      const run = runRef.current;
-      if (run) {
-        const dt = Math.min(now - last, 250);
-        last = now;
-        if (runningRef.current) {
-          acc += dt;
-          const interval = 1000 / speedRef.current;
-          let steps = 0;
-          // Capped: a backgrounded tab must not come back and run four hundred
-          // rounds in one frame.
-          while (acc >= interval && steps < 4) {
-            acc -= interval;
-            steps++;
-            step(run.state, world, paramsRef.current);
-            if (run.state.round >= paramsRef.current.days) {
-              setRunning(false);
-              break;
-            }
+      const state = stateRef.current;
+      const dt = Math.min(now - last, 250);
+      last = now;
+      if (state && runningRef.current) {
+        acc += dt;
+        const interval = 1000 / DAYS_PER_SECOND;
+        let steps = 0;
+        let done = false;
+        while (acc >= interval && steps < MAX_STEPS_PER_FRAME) {
+          acc -= interval;
+          steps++;
+          step(state, world, paramsRef.current);
+          if (state.round >= paramsRef.current.days) {
+            done = true;
+            break;
           }
-          if (steps > 0) {
-            rebuildLinks();
-            run.sim.alpha(Math.max(run.sim.alpha(), 0.12));
-            setMetrics(measure(run.state, world));
-          }
-        } else {
-          last = now;
-          acc = 0;
         }
-        run.sim.tick();
-        draw(world);
+        if (steps > 0) {
+          sendLinks();
+          workerRef.current?.postMessage({ type: 'kick', alpha: 0.12 } satisfies ToWorker);
+          setMetrics(measure(state, world));
+          setTick((t) => t + 1);
+        }
+        if (done) finish();
+      } else {
+        acc = 0;
       }
       raf = requestAnimationFrame(frame);
     };
     raf = requestAnimationFrame(frame);
     return () => cancelAnimationFrame(raf);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [world]);
 
-  function draw(w: MergedWorld) {
-    const run = runRef.current;
-    const svg = svgRef.current;
-    if (!run || !svg) return;
-    const { nodes, state } = run;
-
-    let minX = Infinity;
-    let maxX = -Infinity;
-    let minY = Infinity;
-    let maxY = -Infinity;
-    for (const nd of nodes) {
-      const x = nd.x ?? 0;
-      const y = nd.y ?? 0;
-      if (x < minX) minX = x;
-      if (x > maxX) maxX = x;
-      if (y < minY) minY = y;
-      if (y > maxY) maxY = y;
+  const matches = useMemo(() => {
+    if (!world || query.trim().length < 2) return [];
+    const q = query.trim().toLowerCase();
+    const out: number[] = [];
+    for (let i = 0; i < world.n && out.length < 8; i++) {
+      if (world.name[i].toLowerCase().includes(q)) out.push(i);
     }
-    const pad = Math.max(maxX - minX, maxY - minY) * 0.06 + 10;
-    const target: [number, number, number, number] = [
-      minX - pad,
-      minY - pad,
-      maxX - minX + 2 * pad,
-      maxY - minY + 2 * pad,
-    ];
-    // Eased, so a tie forming on the far edge does not jolt the whole frame.
-    const prev = viewRef.current;
-    const view: [number, number, number, number] = prev
-      ? (prev.map((p, k) => p + (target[k] - p) * 0.08) as [number, number, number, number])
-      : target;
-    viewRef.current = view;
-    svg.setAttribute('viewBox', view.map((v) => v.toFixed(1)).join(' '));
-
-    const view3 = tieViewRef.current;
-    const bands: string[][] = [[], [], [], []];
-    const cross: string[] = [];
-    const lit: string[] = [];
-    const hovered = hoverRef.current;
-
-    if (view3 !== 'none') {
-      for (let u = 0; u < state.adj.length; u++) {
-        const a = nodes[u];
-        const ax = (a.x ?? 0).toFixed(1);
-        const ay = (a.y ?? 0).toFixed(1);
-        for (const [v, s] of state.adj[u]) {
-          if (v <= u) continue;
-          const b = nodes[v];
-          const seg = `M${ax} ${ay}L${(b.x ?? 0).toFixed(1)} ${(b.y ?? 0).toFixed(1)}`;
-          const isCross = w.world[u] !== w.world[v];
-          if (hovered !== null && (u === hovered || v === hovered)) lit.push(seg);
-          if (isCross) cross.push(seg);
-          else if (view3 === 'all') bands[Math.min(3, Math.floor((s / S_MAX) * 4))].push(seg);
-        }
-      }
-    }
-
-    for (let k = 0; k < 4; k++) bandEls.current[k]?.setAttribute('d', bands[k].join(''));
-    crossEl.current?.setAttribute('d', cross.join(''));
-    hoverEl.current?.setAttribute('d', lit.join(''));
-
-    for (let i = 0; i < nodes.length; i++) {
-      const el = nodeEls.current[i];
-      if (!el) continue;
-      const nd = nodes[i];
-      el.setAttribute('cx', (nd.x ?? 0).toFixed(1));
-      el.setAttribute('cy', (nd.y ?? 0).toFixed(1));
-      el.setAttribute('r', (1.1 + Math.sqrt(state.adj[i].size) * 0.5).toFixed(2));
-    }
-  }
+    return out;
+  }, [world, query]);
 
   if (error) return <p className="xp-note">{error}</p>;
-  if (!world) return <p className="xp-note mono">Loading six worlds…</p>;
 
-  const hoveredInfo =
-    hover !== null && runRef.current
-      ? {
-          name: world.name[hover],
-          world: world.worldTitles[world.world[hover]],
-          degree: runRef.current.state.adj[hover].size,
-        }
-      : null;
+  const state = stateRef.current;
+  // Belt as well as braces: a render can land between the world changing and
+  // the effect above clearing the followed character.
+  const followed = follow !== null && state && follow < state.adj.length ? follow : null;
+  const followTies =
+    followed !== null && state ? [...state.adj[followed].entries()].sort((a, b) => b[1] - a[1]) : [];
+  const followLog = followed !== null && state ? state.log : [];
+
+  /**
+   * The log, by day.
+   *
+   * Flat, it is unreadable: a character with sixty ties strengthens about ten
+   * of them a round, so FORM and CUT — the only two entries that change the
+   * topology — scroll past under a wall of maintenance. That is the same
+   * failure WEAKEN was left out of the log to avoid, arriving by another door.
+   * So maintenance is counted rather than listed.
+   */
+  const followDays: { day: number; events: typeof followLog; kept: number }[] = [];
+  for (const e of followLog) {
+    let cur = followDays[followDays.length - 1];
+    if (!cur || cur.day !== e.day) {
+      cur = { day: e.day, events: [], kept: 0 };
+      followDays.push(cur);
+    }
+    if (e.action === 'STRENGTHEN') cur.kept++;
+    else cur.events.push(e);
+  }
 
   return (
-    <div className="xp">
-      <svg ref={svgRef} className="xp-field" preserveAspectRatio="xMidYMid meet">
-        <g>
-          {BANDS.map((b, k) => (
-            <path
-              key={k}
-              ref={(el) => {
-                bandEls.current[k] = el;
-              }}
-              fill="none"
-              stroke={b.stroke}
-              strokeWidth={b.width}
-              strokeLinecap="round"
-            />
-          ))}
-          <path ref={hoverEl} fill="none" stroke="var(--ink)" strokeWidth={2} opacity={0.5} />
-          <path ref={crossEl} fill="none" stroke="var(--accent)" strokeWidth={1.1} opacity={0.75} />
-          {Array.from({ length: world.n }, (_, i) => (
-            <circle
-              key={i}
-              ref={(el) => {
-                nodeEls.current[i] = el;
-              }}
-              r={2}
-              fill={world.worldAccents[world.world[i]]}
-              onMouseEnter={() => setHover(i)}
-              onMouseLeave={() => setHover((h) => (h === i ? null : h))}
-            />
-          ))}
-        </g>
-      </svg>
+    <div className="xp" data-tick={tick}>
+      {world ? (
+        <Field
+          world={world}
+          stateRef={stateRef}
+          positionsRef={posRef}
+          follow={followed}
+          tieView={tieView}
+          refit={refit}
+          onHover={setHover}
+          onPick={setFollow}
+        />
+      ) : (
+        <div className="xp-field" />
+      )}
 
       <div className="xp-panel xp-left">
         <button type="button" className="mono xp-link" onClick={onExit}>
@@ -345,32 +296,96 @@ export function Experiment({ onExit }: { onExit: () => void }) {
         </button>
         <h2 className="mono xp-title">The experiment</h2>
         <p className="xp-note">
-          Six worlds, no ties between them. Press run and see what is left of the walls.
+          Every world, with no ties between them. Press run and see what is left of the walls.
         </p>
 
+        <h3 className="mono xp-group">Worlds</h3>
         <div className="xp-transport">
-          <button type="button" className="mono xp-link" onClick={() => setRunning((r) => !r)}>
-            {running ? '❙❙ Pause' : '▶ Run'}
+          <button
+            type="button"
+            className="mono xp-link"
+            onClick={() => catalogue && setChosen(new Set(catalogue.map((u) => u.id)))}
+          >
+            All
+          </button>
+          <button type="button" className="mono xp-link" onClick={() => setChosen(new Set())}>
+            None
           </button>
           <button
             type="button"
             className="mono xp-link"
-            onClick={() => {
-              const run = runRef.current;
-              if (!run) return;
-              step(run.state, world, paramsRef.current);
-              rebuildLinks();
-              run.sim.alpha(0.12);
-              setMetrics(measure(run.state, world));
-            }}
+            onClick={() => setChosen(new Set(SIX_WORLDS))}
           >
+            The six
+          </button>
+        </div>
+        <p className="xp-note quiet">
+          {!catalogue
+            ? 'Loading every world…'
+            : world
+              ? `${world.worldIds.length} worlds · ${world.n.toLocaleString()} characters · ${world.edges.length.toLocaleString()} ties`
+              : 'Choose at least one world.'}
+        </p>
+        {catalogue && chosen && (
+          <div className="xp-worldlist">
+            {catalogue.map((u) => (
+              <label key={u.id} className="xp-pick">
+                <input
+                  type="checkbox"
+                  checked={chosen.has(u.id)}
+                  onChange={() => {
+                    const next = new Set(chosen);
+                    if (next.has(u.id)) next.delete(u.id);
+                    else next.add(u.id);
+                    setChosen(next);
+                  }}
+                />
+                <span className="xp-world-name">{u.title}</span>
+                <span className="mono xp-value">{u.nodes.length}</span>
+              </label>
+            ))}
+          </div>
+        )}
+
+        <h3 className="mono xp-group">Run</h3>
+        <div className="xp-transport">
+          <button type="button" className="mono xp-link" onClick={() => setRunning((r) => !r)}>
+            {running ? '❙❙ Pause' : '▶ Run'}
+          </button>
+          <button type="button" className="mono xp-link" onClick={advance}>
             Step
           </button>
           <button type="button" className="mono xp-link" onClick={() => setRunId((r) => r + 1)}>
             Reset
           </button>
+          <button type="button" className="mono xp-link" onClick={() => setRefit((r) => r + 1)}>
+            Refit
+          </button>
         </div>
-        <Slider label="Days per second" value={speed} min={1} max={60} step={1} onChange={setSpeed} />
+        <Slider
+          label="Length in days"
+          value={params.days}
+          min={20}
+          max={600}
+          step={10}
+          onChange={(v) => setParams({ ...params, days: v })}
+        />
+        <label className="xp-slider">
+          <span className="xp-slider-head">
+            <span className="mono xp-label">Seed</span>
+            <button type="button" className="mono xp-link" onClick={() => setSeed(randomSeed())}>
+              New
+            </button>
+          </span>
+          <input
+            className="mono xp-number"
+            type="number"
+            min={1}
+            max={99999}
+            value={seed}
+            onChange={(e) => setSeed(Math.max(1, Math.floor(Number(e.target.value) || 1)))}
+          />
+        </label>
 
         <h3 className="mono xp-group">Ties drawn</h3>
         <div className="xp-transport">
@@ -386,7 +401,7 @@ export function Experiment({ onExit }: { onExit: () => void }) {
           ))}
         </div>
 
-        <Controls params={params} onChange={setParams} seed={seed} onSeed={setSeed} />
+        <Controls params={params} onChange={setParams} />
       </div>
 
       <div className="xp-panel xp-right">
@@ -402,32 +417,156 @@ export function Experiment({ onExit }: { onExit: () => void }) {
             <Figure label="Formed / cut" value={`+${metrics.formed} / −${metrics.cut}`} />
 
             <h3 className="mono xp-group">Loyalty by world</h3>
-            {world.worldTitles.map((title, w) => (
-              <div key={w} className="xp-world">
-                <span className="mono xp-label" style={{ color: world.worldAccents[w] }}>
-                  {title}
-                </span>
-                <span className="xp-bar">
-                  <span
-                    className="xp-bar-fill"
-                    style={{
-                      width: `${metrics.loyaltyByWorld[w] * 100}%`,
-                      background: world.worldAccents[w],
-                    }}
-                  />
-                </span>
-                <span className="mono xp-value">
-                  {(metrics.loyaltyByWorld[w] * 100).toFixed(0)}%
-                </span>
+            {/* No colour. Fifty-two accents down a column is a paint chart, and
+                the ordering is the information: who is holding, who is going. */}
+            {world &&
+              metrics.loyaltyByWorld
+                .map((value, w) => ({ value, w }))
+                .sort((a, b) => a.value - b.value)
+                .map(({ value, w }) => (
+                  <div key={w} className="xp-world">
+                    <span className="xp-world-name">{world.worldTitles[w]}</span>
+                    <span className="xp-bar">
+                      <span className="xp-bar-fill" style={{ width: `${value * 100}%` }} />
+                    </span>
+                    <span className="mono xp-value">{(value * 100).toFixed(0)}%</span>
+                  </div>
+                ))}
+          </>
+        )}
+
+        {report && world && (
+          <>
+            <h3 className="mono xp-group">When it stopped</h3>
+            <Figure label="Clustering" value={report.clustering.toFixed(3)} />
+            <Figure label="Modularity" value={report.modularity.toFixed(3)} />
+            <Figure label="Communities" value={String(report.communities)} />
+            <Figure label="Left alone" value={report.singletons.toLocaleString()} />
+            <Figure label="Mean path" value={report.meanPathLength.toFixed(2)} />
+            <Figure label="Unreachable" value={`${(report.unreachable * 100).toFixed(1)}%`} />
+            <Figure label="Assortativity" value={report.assortativity.toFixed(3)} />
+            <h4 className="mono xp-group">Drifted furthest from its own shape</h4>
+            {report.drift.slice(0, 8).map((d) => (
+              <div key={d.world} className="xp-figure">
+                <span className="xp-world-name">{world.worldTitles[d.world]}</span>
+                <span className="mono xp-figure-value">{d.value.toFixed(2)}</span>
               </div>
             ))}
           </>
         )}
-        {hoveredInfo && (
+
+        <h3 className="mono xp-group">Over one shoulder</h3>
+        <div className="xp-transport">
+          <button
+            type="button"
+            className="mono xp-link"
+            onClick={() => {
+              const st = stateRef.current;
+              if (!st || !world) return;
+              // Someone with ties. A character sitting alone has no history to
+              // read, and decay produces more of them than you would guess.
+              const candidates: number[] = [];
+              for (let i = 0; i < world.n; i++) if (st.adj[i].size > 0) candidates.push(i);
+              if (candidates.length) {
+                setFollow(candidates[Math.floor(Math.random() * candidates.length)]);
+              }
+            }}
+          >
+            Someone at random
+          </button>
+          {follow !== null && (
+            <button type="button" className="mono xp-link" onClick={() => setFollow(null)}>
+              Stop
+            </button>
+          )}
+        </div>
+        <input
+          className="mono xp-number"
+          type="search"
+          placeholder="or find by name"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        {matches.length > 0 && world && (
+          <div className="xp-matches">
+            {matches.map((i) => (
+              <button
+                key={i}
+                type="button"
+                className="mono xp-link"
+                onClick={() => {
+                  setFollow(i);
+                  setQuery('');
+                }}
+              >
+                {world.name[i]} · {world.worldTitles[world.world[i]]}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {followed !== null && world && (
+          <div className="xp-watch">
+            <div className="xp-hover-name">{world.name[followed]}</div>
+            <div className="mono xp-label">
+              {world.worldTitles[world.world[followed]]} · {followTies.length} ties ·{' '}
+              {followTies.filter(([v]) => world.world[v] !== world.world[followed]).length} outside
+            </div>
+
+            <h4 className="mono xp-group">Ties now</h4>
+            <div className="xp-tielist">
+              {followTies.slice(0, 14).map(([v, s]) => (
+                <div key={v} className="xp-tie">
+                  <span className="xp-tie-name">
+                    {world.name[v]}
+                    {world.world[v] !== world.world[followed] ? ' ✦' : ''}
+                  </span>
+                  <span className="xp-bar">
+                    <span className="xp-bar-fill" style={{ width: `${s}%` }} />
+                  </span>
+                </div>
+              ))}
+              {followTies.length === 0 && <p className="xp-note">No ties left.</p>}
+            </div>
+
+            <h4 className="mono xp-group">What happened</h4>
+            <div className="xp-log">
+              {followDays.length === 0 && (
+                <p className="xp-note quiet">
+                  Nothing yet. Weakening is continuous and is not logged — watch the bars above
+                  shrink.
+                </p>
+              )}
+              {followDays.slice(0, 25).map((d) => (
+                <div key={d.day} className="xp-log-day">
+                  {d.events.map((e, k) => (
+                    <div key={`${e.other}-${k}`} className="xp-log-row">
+                      <span className="mono xp-label">{d.day}</span>
+                      <span className={`mono xp-act ${e.action.toLowerCase()}`}>{e.action}</span>
+                      <span className="xp-tie-name">
+                        {world.name[e.other]}
+                        {world.world[e.other] !== world.world[followed] ? ' ✦' : ''}
+                      </span>
+                    </div>
+                  ))}
+                  {d.kept > 0 && (
+                    <div className="xp-log-row quiet">
+                      <span className="mono xp-label">{d.events.length === 0 ? d.day : ''}</span>
+                      <span className="mono xp-act strengthen">·</span>
+                      <span className="mono xp-label">{d.kept} kept up</span>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {hover !== null && hover !== followed && world && state && hover < state.adj.length && (
           <div className="xp-hover">
-            <div className="xp-hover-name">{hoveredInfo.name}</div>
-            <div className="mono xp-label">{hoveredInfo.world}</div>
-            <div className="mono xp-label">{hoveredInfo.degree} ties</div>
+            <div className="xp-hover-name">{world.name[hover]}</div>
+            <div className="mono xp-label">{world.worldTitles[world.world[hover]]}</div>
+            <div className="mono xp-label">{state.adj[hover].size} ties</div>
           </div>
         )}
       </div>

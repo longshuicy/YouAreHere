@@ -808,52 +808,94 @@ button {
 }
 
 /* ── The experiment ──────────────────────────────────────────────────────────
-   Prototype chrome. Same register as the rest of the app — tracked uppercase
-   mono over hairline rules, nothing boxed — but deliberately plain: this
-   surface exists to find out whether the simulation shows anything, and
-   dressing it before that is known would be dressing a guess. */
+   Same register as the rest of the app — tracked uppercase mono over hairline
+   rules, nothing boxed — over a canvas field with an SVG sheet on top of it.
+
+   Accent appears in exactly one place here: the character being followed and
+   their ties. Not strength, not cross-world, not hover. A colour that means
+   several things means none of them. */
 
 .xp {
   position: fixed;
   inset: 0;
+  display: flex;
   background: var(--paper);
   overflow: hidden;
 }
 
 .xp-field {
-  /* Inset by the two panels rather than full-bleed. The design's instinct is a
-     full-bleed graph with chrome floating over it, and that is right once the
-     view can be panned; until then a world fitted underneath an opaque panel is
-     simply a world nobody can see. */
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 268px;
-  right: 268px;
+  order: 1;
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100%;
+  cursor: grab;
 }
 
-.xp-field circle {
-  cursor: crosshair;
+.xp-field:active {
+  cursor: grabbing;
+}
+
+.xp-canvas,
+.xp-sheet {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.xp-sheet {
+  /* The sheet is on top so it can take the pointer — zoom, hover and the click
+     that picks a character all arrive here, and the canvas underneath never
+     needs to know. */
+  touch-action: none;
+}
+
+.xp-lit {
+  stroke: var(--ink);
+  stroke-width: 1.8;
+  opacity: 0.85;
+}
+
+.xp-follow {
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.xp-ring {
+  stroke: var(--accent);
+  stroke-width: 1.6;
+}
+
+.xp-world-label {
+  font-family: var(--mono);
+  fill: var(--annotation);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  pointer-events: none;
+  /* No opacity here. The draw loop sets it per label — a world too narrow on
+     screen to hold its name is hidden — and a declaration in this rule would
+     beat the attribute and show every one of them. */
 }
 
 .xp-panel {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 268px;
-  padding: 24px 20px 40px;
+  /* Narrow enough that a 1024-wide window still leaves the field more room than
+     the chrome. */
+  flex: 0 0 236px;
+  width: 236px;
+  height: 100%;
+  padding: 24px 18px 40px;
   overflow-y: auto;
-  background: color-mix(in srgb, var(--paper) 88%, transparent);
-  backdrop-filter: blur(3px);
+  background: var(--paper);
 }
 
 .xp-left {
-  left: 0;
+  order: 0;
   border-right: 1px solid var(--rule);
 }
 
 .xp-right {
-  right: 0;
+  order: 2;
   border-left: 1px solid var(--rule);
 }
 
@@ -871,6 +913,12 @@ button {
   line-height: 1.5;
   color: var(--body);
   margin: 0 0 16px;
+}
+
+.xp-note.quiet {
+  font-size: 11px;
+  color: var(--annotation);
+  margin: 6px 0 0;
 }
 
 .xp-group {
@@ -916,8 +964,7 @@ button {
   background: transparent;
 }
 
-.xp-link,
-.xp-toggle {
+.xp-link {
   appearance: none;
   background: none;
   border: 0;
@@ -931,21 +978,32 @@ button {
 }
 
 .xp-link:hover,
-.xp-toggle:hover,
 .xp-link.on {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
-}
-
-.xp-toggle.on {
   color: var(--ink);
   border-bottom-color: var(--ink);
 }
 
 .xp-transport {
   display: flex;
-  gap: 14px;
-  margin: 14px 0 12px;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.xp-number {
+  width: 100%;
+  margin-top: 3px;
+  padding: 3px 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 11px;
+  color: var(--ink);
+}
+
+.xp-number:focus {
+  outline: none;
+  border-bottom-color: var(--ink);
 }
 
 .xp-figure {
@@ -964,15 +1022,24 @@ button {
 
 .xp-figure.big .xp-figure-value {
   font-size: 19px;
-  color: var(--accent);
 }
 
 .xp-world {
   display: grid;
-  grid-template-columns: 1fr 54px 30px;
+  grid-template-columns: 1fr 48px 28px;
   align-items: center;
   gap: 8px;
-  padding: 4px 0;
+  padding: 3px 0;
+}
+
+.xp-world-name,
+.xp-tie-name {
+  font-family: var(--serif);
+  font-size: 12px;
+  color: var(--body);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .xp-bar {
@@ -984,12 +1051,32 @@ button {
 .xp-bar-fill {
   display: block;
   height: 100%;
+  background: var(--tie-strong);
 }
 
+.xp-matches {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin: 8px 0 0;
+}
+
+.xp-matches .xp-link {
+  text-transform: none;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.xp-watch,
 .xp-hover {
-  margin-top: 22px;
-  padding-top: 10px;
+  margin-top: 16px;
+  padding-top: 12px;
   border-top: 1px solid var(--ink);
+}
+
+.xp-watch h4 {
+  margin: 16px 0 6px;
 }
 
 .xp-hover-name {
@@ -997,4 +1084,77 @@ button {
   font-size: 15px;
   color: var(--ink);
   margin-bottom: 4px;
+}
+
+.xp-tie {
+  display: grid;
+  grid-template-columns: 1fr 44px;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 0;
+}
+
+.xp-log-row {
+  display: grid;
+  grid-template-columns: 24px 58px 1fr;
+  align-items: baseline;
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.xp-log-day + .xp-log-day {
+  border-top: 1px solid var(--rule);
+}
+
+.xp-log-row.quiet {
+  opacity: 0.55;
+}
+
+.xp-act {
+  font-size: 8px;
+  letter-spacing: 0.12em;
+}
+
+.xp-act.form {
+  color: var(--ink);
+}
+
+.xp-act.strengthen {
+  color: var(--unknown);
+}
+
+.xp-act.cut {
+  color: var(--unknown);
+  text-decoration: line-through;
+}
+
+/* The world picker. Fifty-two rows in a 236px column, so each is one line and
+   the list carries its own scroll rather than pushing the rules off the panel. */
+.xp-worldlist {
+  max-height: 218px;
+  overflow-y: auto;
+  margin: 8px 0 0;
+  padding-right: 4px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.xp-pick {
+  display: grid;
+  grid-template-columns: 13px 1fr 30px;
+  align-items: center;
+  gap: 7px;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.xp-pick input {
+  width: 11px;
+  height: 11px;
+  margin: 0;
+  accent-color: var(--ink);
+}
+
+.xp-pick:hover .xp-world-name {
+  color: var(--ink);
 }
