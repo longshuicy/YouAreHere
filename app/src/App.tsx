@@ -363,7 +363,9 @@ export default function App() {
     if (!universe || !session) return '';
     const above = standingOf(universe, session.you) - 1;
     if (above === 0) return 'No one is in more of this world than you.';
-    return `Only ${cardinal(above)} ${above === 1 ? 'person' : 'people'} here are in more of this world than you.`;
+    // The verb agrees too: the noun was being pluralised on its own, so one
+    // person `are in more of this world than you`.
+    return `Only ${cardinal(above)} ${above === 1 ? 'person is' : 'people are'} in more of this world than you.`;
   }, [universe, session]);
 
   const factLines = useMemo(() => {
