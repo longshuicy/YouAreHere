@@ -451,6 +451,183 @@ button {
   color: var(--on-ink-dim);
 }
 
+/* The guess screen.
+ *
+ * A column beside the drawing rather than a centred stack: the graph is the
+ * evidence the question is asked against, so the question stands next to it.
+ */
+.guess-column {
+  width: min(500px, 100%);
+  display: flex;
+  flex-direction: column;
+  padding-top: clamp(16px, 5vh, 46px);
+  pointer-events: auto;
+}
+
+/* The one field on the screen, ruled in the accent at twice the weight: it is
+   the thing being asked, and the only accent rule in the game that is not a
+   block. */
+.guess-field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 2px solid var(--accent);
+}
+
+.guess-field input {
+  flex-grow: 1;
+  min-width: 0;
+  height: 60px;
+  border: none;
+  background: transparent;
+  font-family: var(--serif);
+  font-size: clamp(22px, 5vw, 30px);
+  color: var(--ink);
+  padding: 0;
+  outline: none;
+}
+
+.guess-field input::placeholder {
+  color: var(--unknown);
+}
+
+/* The suggestions hang off the field as a sheet, not as loose lines: they are
+   a list to be picked from, and loose lines under a field read as prose about
+   it. */
+.guess-list {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-top: none;
+  box-shadow: 4px 4px 0 rgba(22, 19, 15, 0.06);
+  max-height: min(46vh, 320px);
+  overflow-y: auto;
+}
+
+.guess-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 42px;
+  padding: 0 14px;
+  border: none;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.guess-option:disabled {
+  cursor: default;
+}
+
+/* Where the arrow keys are. A bar in the margin rather than a fill, so the
+   mark reads the same as the node menu's. */
+.guess-option.on {
+  background: var(--paper);
+  box-shadow: inset 2px 0 0 var(--accent);
+}
+
+.guess-option-name {
+  font-family: var(--serif);
+  font-size: 20px;
+  color: var(--ink);
+}
+
+/* A name you have already put to a face cannot be yours. Struck rather than
+   hidden: a name vanishing as it is typed reads as the field failing. */
+.guess-option-name.struck {
+  color: var(--leader);
+  text-decoration: line-through;
+}
+
+.guess-list-note {
+  padding: 8px 14px;
+  border-top: 1px solid var(--rule);
+  color: var(--unknown);
+}
+
+/* The claim. The accent block again — the same one the play screen presses to
+   get here, so the act keeps its colour across the two screens. */
+.guess-submit {
+  height: 52px;
+  padding: 0 26px;
+  background: var(--accent);
+  color: var(--paper);
+  border: none;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+.guess-submit:hover:not(:disabled),
+.guess-submit:focus-visible:not(:disabled) {
+  background: var(--ink);
+  outline: none;
+}
+
+.guess-submit:disabled {
+  background: var(--unknown);
+  cursor: default;
+}
+
+.guess-back,
+.guess-giveup {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  background: transparent;
+  border: none;
+  font-family: var(--mono);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 90ms ease;
+}
+
+.guess-back {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--ink);
+}
+
+.guess-giveup {
+  min-height: 36px;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  color: var(--annotation);
+}
+
+.guess-back:hover,
+.guess-back:focus-visible,
+.guess-giveup:hover,
+.guess-giveup:focus-visible {
+  color: var(--accent);
+  outline: none;
+}
+
+.guess-known {
+  margin-top: 30px;
+  border-top: 1px solid var(--rule);
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Said by a screen reader, drawn by the field itself. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 /* The reveal's head. A verdict, then the figures — full width of the copy
    column rather than a title with a list down its side. */
 .reveal-head-block {

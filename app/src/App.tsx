@@ -811,9 +811,7 @@ export default function App() {
           onCancel={() => dispatch({ type: 'CLOSE_GUESS' })}
           onOpenKey={openKey}
           onReveal={revealAnswer}
-          onRevealStory={revealStory}
           startLinks={startLinks}
-          residence={residence}
         />
       );
       break;

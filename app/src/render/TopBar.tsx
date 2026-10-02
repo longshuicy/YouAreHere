@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { BrandMark, CHROME_PADDING, hereLabel, type StartLinks } from './MarginLinks';
 
 /**
@@ -25,6 +26,7 @@ export function TopBar({
   backLabel = 'Back',
   onOpenKey,
   onOpenLab,
+  aside,
   wordmark = true,
   inset = true,
   disabled = false,
@@ -39,6 +41,10 @@ export function TopBar({
   /** Elsewhere: what you can reach that is not a move in the game. */
   onOpenKey?: () => void;
   onOpenLab?: () => void;
+  /** A readout this screen keeps in the corner, before the standing links —
+   *  the guess screen puts the clue count there, because on that screen the
+   *  count is the thing a guess is weighed against. */
+  aside?: ReactNode;
   /** False on the cold open's first look, where the title *is* the wordmark at
    *  four times the size and printing it twice gave the page two of them. */
   wordmark?: boolean;
@@ -76,6 +82,7 @@ export function TopBar({
       {back && mark && <div className="top-bar-center">{mark}</div>}
 
       <nav aria-label="Elsewhere" className="top-bar-side top-bar-nav">
+        {aside}
         {onOpenKey && (
           <TopBarLink onClick={onOpenKey} disabled={disabled} icon={<HelpMark />}>
             How to play
