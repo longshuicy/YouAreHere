@@ -65,13 +65,46 @@ let sim: Simulation<LNode, LLink> | null = null;
 let link: ReturnType<typeof forceLink<LNode, LLink>> | null = null;
 let timer: ReturnType<typeof setTimeout> | null = null;
 
-/** Roughly sixty a second. The layout is not synchronised to the main thread's
- * frames and does not need to be: it posts whatever it has, and the main thread
- * draws whatever it last received. */
-const TICK_MS = 16;
+/**
+ * Twenty a second, not sixty.
+ *
+ * The layout is not synchronised to the main thread's frames and does not need
+ * to be: it posts whatever it has, and the main thread draws whatever it last
+ * received. A Barnes–Hut pass over 8,727 nodes with 58,000 links costs tens of
+ * milliseconds, so sixty a second asked for more than a core and never got it —
+ * the loop simply ran late and the fan came on.
+ *
+ * It also sets the drawing's rate, which is the other half of the saving: the
+ * canvas redraws when new positions arrive and not otherwise, and a redraw is
+ * sixty-odd thousand path segments. Sixty a second asked for nearly four
+ * million segments a second from the main thread as well. At twenty the motion
+ * of a force layout is indistinguishable and both budgets are real.
+ */
+const TICK_MS = 50;
+
+/**
+ * How long to keep ticking after the layout has gone cold.
+ *
+ * Below `alphaMin` d3 considers the simulation finished and a tick moves
+ * nothing measurable, but the loop used to keep calling it — and keep posting
+ * two arrays of nine thousand floats — forever, so a paused experiment sitting
+ * on screen cost exactly as much as a running one. A few idle ticks are kept so
+ * that a kick arriving a moment later is picked up without a restart.
+ */
+const IDLE_TICKS = 20;
+let idle = 0;
 
 function loop() {
   if (!sim) return;
+  if (sim.alpha() <= ALPHA_MIN) idle++;
+  else idle = 0;
+
+  if (idle > IDLE_TICKS) {
+    // Cold. Stop ticking and stop posting; `kick` starts the loop again.
+    timer = null;
+    return;
+  }
+
   sim.tick();
   const n = nodes.length;
   const x = new Float32Array(n);
@@ -85,6 +118,12 @@ function loop() {
     y.buffer,
   ]);
   timer = setTimeout(loop, TICK_MS);
+}
+
+/** Start the loop if it is not already going. */
+function wake() {
+  idle = 0;
+  if (timer === null && sim) loop();
 }
 
 self.onmessage = (event: MessageEvent<ToWorker>) => {
@@ -115,6 +154,7 @@ self.onmessage = (event: MessageEvent<ToWorker>) => {
     // at d3's default alpha of 1 throws them away before anyone has seen the
     // initial condition.
     sim.alpha(ALPHA_START);
+    idle = 0;
     loop();
     return;
   }
@@ -126,11 +166,13 @@ self.onmessage = (event: MessageEvent<ToWorker>) => {
       links[j] = { source: t[k], target: t[k + 1], s: t[k + 2] };
     }
     link.links(links);
+    wake();
     return;
   }
 
   if (msg.type === 'kick' && sim) {
     sim.alpha(Math.max(sim.alpha(), msg.alpha));
+    wake();
     return;
   }
 

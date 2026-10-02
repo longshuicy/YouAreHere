@@ -807,28 +807,245 @@ button {
   }
 }
 
-/* ── The experiment ──────────────────────────────────────────────────────────
-   Same register as the rest of the app — tracked uppercase mono over hairline
-   rules, nothing boxed — over a canvas field with an SVG sheet on top of it.
+/* ── The topology lab ────────────────────────────────────────────────────────
+   One header for all three views: the wordmark and the ways back into the game
+   on the first line, the lab's name and its three rooms on the second, sharing
+   the rule the tabs are underlined against. Under it, each view takes what is
+   left. */
 
-   Accent appears in exactly one place here: the character being followed and
-   their ties. Not strength, not cross-world, not hover. A colour that means
-   several things means none of them. */
+:root {
+  /* The experiment's own proportions. The map is positioned from these, so a
+     change here moves the drawing's frame with the chrome rather than letting
+     one slide under the other. */
+  --xp-side-w: 304px;
+  --xp-gutter: 56px;
+  --xp-shelf-h: 52px;
+  --xp-foot-h: 64px;
+}
+
+.lab {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: var(--pad-top) var(--pad-x) var(--pad-bottom) var(--pad-x);
+}
+
+/* The experiment fits the window exactly: its map takes the height left over
+   and its transport sits at the foot of it, so the page must not scroll. */
+.lab.live {
+  height: 100vh;
+  min-height: 0;
+  overflow: hidden;
+  padding-bottom: 18px;
+}
+
+.lab-top {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 32px;
+}
+
+.lab-figures {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  margin: 0;
+  text-align: right;
+}
+
+/* Title and tabs on one line, sitting on one rule. */
+.lab-bar {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-end;
+  gap: 52px;
+  margin-top: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.lab-title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  margin: 0 0 14px;
+  white-space: nowrap;
+}
+
+.lab-tabs {
+  display: flex;
+  gap: 34px;
+  flex-wrap: wrap;
+}
+
+/* A tab, not a radio: there is a separate surface behind each of these, which
+   is the one case this design allows the shape. */
+.lab-tab {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: flex-end;
+  padding-bottom: 14px;
+  margin-bottom: -1px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: color 90ms ease;
+}
+
+.lab-tab:hover {
+  color: var(--ink);
+}
+
+.lab-tab.on {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.lab-main {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.lab-live {
+  flex: 1 1 0;
+  min-height: 0;
+  position: relative;
+}
+
+/* ── The experiment ──────────────────────────────────────────────────────────
+   A shelf of figures, the map, the transport under it, and one column on the
+   right that is the setting-up before the run and the reading after it.
+
+   Nothing floats over the drawing except the two things that belong to it: what
+   is drawn, and the notice that says a past day is on screen. */
 
 .xp {
-  position: fixed;
+  position: absolute;
   inset: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--xp-side-w);
+  grid-template-rows: var(--xp-shelf-h) minmax(0, 1fr) auto;
+  column-gap: var(--xp-gutter);
   background: var(--paper);
   overflow: hidden;
 }
 
-.xp-field {
-  order: 1;
+/* The three figures the run is about, on the shelf above the map. */
+.xp-shelf {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 44px;
+  padding-bottom: 6px;
+}
+
+.xp-head-figure {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.xp-head-line {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  line-height: 1;
+}
+
+.xp-head-value {
+  font-size: 20px;
+  color: var(--ink);
+}
+
+.xp-allfigures {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 6px;
+  min-height: 32px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.xp-allfigures-label {
+  border-bottom: 1px solid var(--leader);
+}
+
+.xp-allfigures:hover .xp-allfigures-label {
+  border-bottom-color: var(--ink);
+}
+
+/* Everything behind the shelf, over the map rather than beside it: it is a
+   reading of the drawing, so it covers the drawing while it is open. */
+.xp-figures-panel {
+  position: absolute;
+  top: var(--xp-shelf-h);
+  right: calc(var(--xp-side-w) + var(--xp-gutter));
+  z-index: 4;
+  width: 332px;
+  max-height: calc(100% - var(--xp-shelf-h) - var(--xp-foot-h));
+  overflow-y: auto;
+  padding: 10px 16px 12px;
+  background: var(--panel);
+  border: 1px solid var(--ink);
+  box-shadow: 4px 4px 0 rgba(22, 19, 15, 0.08);
+  scrollbar-width: thin;
+  scrollbar-color: var(--leader) transparent;
+}
+
+.xp-figures-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 20px;
+}
+
+.xp-figures-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 14px 0 4px;
+}
+
+.xp-loyalty-row {
+  display: grid;
+  grid-template-columns: 8px minmax(0, 1fr) 72px 34px;
+  align-items: center;
+  gap: 10px;
+  min-height: 28px;
+  border-top: 1px solid var(--rule);
+  cursor: default;
+}
+
+.xp-loyalty-row.lit .xp-world-name,
+.xp-loyalty-row.lit .xp-value {
+  color: var(--accent);
+}
+
+/* ── The map ─────────────────────────────────────────────────────────────── */
+
+.xp-stage {
+  grid-column: 1;
+  grid-row: 2;
   position: relative;
-  flex: 1 1 auto;
-  min-width: 0;
-  height: 100%;
+  min-height: 0;
+}
+
+.xp-field {
+  position: absolute;
+  inset: 0;
   cursor: grab;
 }
 
@@ -846,8 +1063,8 @@ button {
 
 .xp-sheet {
   /* The sheet is on top so it can take the pointer — zoom, hover and the click
-     that picks a character all arrive here, and the canvas underneath never
-     needs to know. */
+     that picks a character all arrive here, and the canvas never needs to
+     know. */
   touch-action: none;
 }
 
@@ -869,141 +1086,908 @@ button {
 
 .xp-world-label {
   font-family: var(--mono);
-  fill: var(--annotation);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  pointer-events: none;
-  /* No opacity here. The draw loop sets it per label — a world too narrow on
-     screen to hold its name is hidden — and a declaration in this rule would
-     beat the attribute and show every one of them. */
-}
-
-.xp-panel {
-  /* Narrow enough that a 1024-wide window still leaves the field more room than
-     the chrome. */
-  flex: 0 0 236px;
-  width: 236px;
-  height: 100%;
-  padding: 24px 18px 40px;
-  overflow-y: auto;
-  background: var(--paper);
-}
-
-.xp-left {
-  order: 0;
-  border-right: 1px solid var(--rule);
-}
-
-.xp-right {
-  order: 2;
-  border-left: 1px solid var(--rule);
-}
-
-.xp-title {
-  font-family: var(--mono);
-  font-size: 11px;
+  fill: var(--ink);
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--ink);
-  margin: 14px 0 6px;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+  /* A paper halo under the glyphs, so a name set at its world's centroid is
+     readable over its own people. Painted stroke-first, or the halo would be
+     drawn on top of the letters it is there to hold up. */
+  paint-order: stroke fill;
+  stroke: var(--paper);
+  stroke-width: 3px;
+  stroke-linejoin: round;
 }
 
-.xp-note {
-  font-size: 12px;
-  line-height: 1.5;
-  color: var(--body);
-  margin: 0 0 16px;
+/* Your own world's name, in the colour you are. It is the one name on the field
+   that is there without being asked for, and in ink it read as an arbitrary
+   label on an arbitrary blob. */
+.xp-world-label.yours {
+  fill: var(--accent);
 }
 
-.xp-note.quiet {
-  font-size: 11px;
-  color: var(--annotation);
-  margin: 6px 0 0;
+/* What is drawn — the only controls that belong to the drawing, so the only
+   ones over it. */
+.xp-draw-controls {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 2px 10px;
+  background: rgba(244, 240, 230, 0.92);
+  border: 1px solid var(--rule);
+  white-space: nowrap;
 }
 
-.xp-group {
+.xp-chip {
   font-family: var(--mono);
   font-size: 9px;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--annotation);
-  margin: 22px 0 8px;
-  padding-bottom: 5px;
+  min-height: 30px;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+.xp-chip:hover,
+.xp-chip.on {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
+.xp-chip-rule {
+  width: 1px;
+  height: 14px;
+  background: var(--leader);
+}
+
+.xp-hover {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  padding: 8px 14px;
+  background: var(--panel);
+  border: 1px solid var(--ink);
+  text-align: center;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.xp-hover-name {
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--ink);
+}
+
+/*
+ * Replaying.
+ *
+ * A past day looks exactly like a present one — that is the whole difficulty —
+ * so it is said in words, over the drawing, in the colour this app reserves for
+ * the thing you are. The caveat rides along: the ties are exactly as they were,
+ * the strengths are not replayed at all, and a drawing that did not say so
+ * would be quietly making one of its channels up.
+ */
+.xp-replay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px 16px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--accent);
+}
+
+.xp-replay-mark {
+  font-size: 10px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.xp-replay-day {
+  font-size: 11px;
+  color: var(--ink);
+}
+
+.xp.replaying .xp-field {
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+/* ── Under the map ───────────────────────────────────────────────────────── */
+
+.xp-caption,
+.xp-transport-bar {
+  grid-column: 1;
+  grid-row: 3;
+  min-height: var(--xp-foot-h);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  padding-top: 10px;
+}
+
+.xp-transport-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Play and step as round buttons — the one shape everyone already reads as a
+   transport, and the reason the rest of this bar can stay quiet. */
+.xp-round {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid var(--leader);
+  background: transparent;
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 90ms ease, background 90ms ease;
+}
+
+.xp-round:hover {
+  border-color: var(--ink);
+}
+
+.xp-round.on {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.xp-round.on:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.xp-dayread {
+  width: 112px;
+  flex-shrink: 0;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--annotation);
+}
+
+.xp-dayread-n {
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+
+.xp-track {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 80px;
+  height: 44px;
+  cursor: ew-resize;
+  touch-action: none;
+}
+
+.xp-track::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 21px;
+  height: 2px;
+  background: var(--rule);
+}
+
+.xp-track-done {
+  position: absolute;
+  left: 0;
+  top: 21px;
+  height: 2px;
+  background: var(--ink);
+}
+
+/* Where the run has really got to, while the view is somewhere behind it. */
+.xp-track-head {
+  position: absolute;
+  top: 15px;
+  width: 1px;
+  height: 14px;
+  background: var(--leader);
+}
+
+.xp-track-knob {
+  position: absolute;
+  top: 15px;
+  width: 14px;
+  height: 14px;
+  margin-left: -7px;
+  border-radius: 50%;
+  background: var(--ink);
+  border: 2px solid var(--paper);
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.xp-rail.replaying .xp-track-knob,
+.xp.replaying .xp-track-knob {
+  background: var(--accent);
+}
+
+/* One tick per day something happened to the person being followed. */
+.xp-mark {
+  position: absolute;
+  top: 10px;
+  width: 12px;
+  height: 24px;
+  margin-left: -6px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.xp-mark::before {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 24px;
+  background: var(--accent);
+}
+
+.xp-mark:hover::before {
+  width: 3px;
+}
+
+.xp-mark-key {
+  display: inline-block;
+  width: 2px;
+  height: 11px;
+  margin-right: 8px;
+  background: var(--accent);
+  vertical-align: -1px;
+}
+
+.xp-speeds {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.xp-speed {
+  min-width: 40px;
+  height: 32px;
+  padding: 0 6px;
+  border: 1px solid transparent;
+  font-size: 11px;
+  color: var(--annotation);
+  cursor: pointer;
+}
+
+.xp-speed.on {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.xp-transport-note {
+  display: flex;
+  gap: 28px;
+  padding-left: 116px;
+  flex-wrap: wrap;
+}
+
+/* ── The right column ────────────────────────────────────────────────────── */
+
+.xp-side {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: var(--xp-gutter);
+  margin-left: calc(0px - var(--xp-gutter));
+  border-left: 1px solid var(--rule);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--leader) transparent;
+}
+
+.xp-steps-wrap,
+.xp-panel-col,
+.xp-reading {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.xp-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 20px;
+}
+
+.xp-intro-title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.xp-intro-deck {
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--body);
+  margin: 0;
+}
+
+/* The four steps. The order is the argument, so they are numbered. */
+.xp-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.xp-step {
+  padding: 12px 0 14px;
   border-bottom: 1px solid var(--rule);
 }
 
-.xp-label {
-  font-size: 9px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--annotation);
+.xp-step.waiting {
+  color: var(--unknown);
 }
 
-.xp-value {
-  font-size: 10px;
-  color: var(--ink);
-}
-
-.xp-slider {
-  display: block;
-  margin: 0 0 10px;
-}
-
-.xp-slider-head {
+.xp-step-head {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  gap: 12px;
+}
+
+.xp-step-n {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono);
+  font-size: 11px;
+}
+
+.xp-step-n.now {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper);
+}
+
+.xp-step-label {
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.xp-step-action {
+  margin-left: auto;
+}
+
+.xp-step-body {
+  padding: 6px 0 0 34px;
+  display: flex;
+  flex-direction: column;
   gap: 8px;
 }
 
-.xp-slider input[type='range'] {
-  width: 100%;
-  height: 14px;
-  margin: 2px 0 0;
-  accent-color: var(--accent);
-  background: transparent;
+.xp-step-value {
+  font-family: var(--serif);
+  font-size: 21px;
+  line-height: 1.1;
 }
 
-.xp-link {
-  appearance: none;
-  background: none;
-  border: 0;
-  border-bottom: 1px solid var(--leader);
-  padding: 2px 0;
+.xp-step-name {
+  font-family: var(--serif);
+  font-size: 25px;
+  line-height: 1.1;
+  color: var(--accent);
+}
+
+/* A boxed action, which this design allows only where the box is the hit area
+   for something the eye must not miss. */
+.xp-block,
+.xp-outline {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.xp-outline {
+  min-height: 36px;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+}
+
+.xp-block:hover,
+.xp-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.xp-named {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.xp-named.grow {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.xp-name-field {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid var(--ink);
+  background: transparent;
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--ink);
+  padding: 0;
+  width: 100%;
+}
+
+.xp-name-field:focus {
+  outline: none;
+  border-bottom-color: var(--accent);
+}
+
+.xp-name-field::placeholder {
+  color: var(--unknown);
+}
+
+.xp-aside {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 15px;
+  color: var(--annotation);
+  margin: 0;
+}
+
+.xp-presets {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid var(--ink);
+}
+
+.xp-preset {
+  min-height: 36px;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.xp-preset.on {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.xp-blurb {
+  font-size: 15px;
+  line-height: 1.35;
+  color: var(--body);
+  margin: 0;
+  min-height: 40px;
+}
+
+.xp-finetune {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  min-height: 40px;
+  width: 100%;
+  border-top: 1px solid var(--rule);
+  cursor: pointer;
+}
+
+/* The one act the whole column is arranged around. */
+.xp-begin,
+.xp-commit {
+  height: 52px;
+  flex-shrink: 0;
+  width: 100%;
+  background: var(--ink);
+  color: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 90ms ease;
+}
+
+.xp-commit {
+  height: 48px;
+  margin-top: 12px;
+  font-size: 11px;
+  letter-spacing: 0.24em;
+}
+
+.xp-begin:hover,
+.xp-commit:hover:not(:disabled) {
+  background: var(--accent);
+}
+
+.xp-commit:disabled {
+  background: var(--unknown);
+  cursor: default;
+}
+
+/* ── The two sub-panels ──────────────────────────────────────────────────── */
+
+.xp-panel-col {
+  flex: 1 1 auto;
+  gap: 10px;
+}
+
+.xp-panel-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.xp-back {
+  align-self: flex-start;
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: 10px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--annotation);
   cursor: pointer;
 }
 
-.xp-link:hover,
-.xp-link.on {
+.xp-back:hover {
   color: var(--ink);
-  border-bottom-color: var(--ink);
 }
 
-.xp-transport {
+.xp-panel-title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.xp-panel-deck {
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--body);
+  margin: 0;
+}
+
+.xp-ink {
+  color: var(--ink);
+}
+
+.xp-picker-head {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin: 12px 0;
+  align-items: baseline;
+  gap: 16px;
 }
 
-.xp-number {
-  width: 100%;
-  margin-top: 3px;
-  padding: 3px 0;
-  background: none;
-  border: 0;
+.xp-picker-head .xp-label {
+  margin-left: auto;
+}
+
+.xp-picker-list,
+.xp-dials {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
-  font-size: 11px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--leader) transparent;
+}
+
+.xp-dials {
+  border-bottom: none;
+  padding: 14px 6px 14px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.xp-dial-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.xp-dial-group + .xp-dial-group {
+  border-top: 1px solid var(--rule);
+  padding-top: 14px;
+}
+
+.xp-pick {
+  display: grid;
+  grid-template-columns: 16px 8px minmax(0, 1fr) 34px;
+  align-items: center;
+  gap: 12px;
+  min-height: 36px;
+  border-bottom: 1px solid var(--rule);
+  cursor: pointer;
+}
+
+.xp-pick input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--ink);
+}
+
+.xp-pick.out .xp-world-name,
+.xp-pick.out .xp-value {
+  color: var(--unknown);
+}
+
+.xp-dial {
+  display: flex;
+  flex-direction: column;
+}
+
+.xp-dial-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.xp-dial-label {
+  font-family: var(--serif);
+  font-size: 15px;
   color: var(--ink);
 }
 
-.xp-number:focus {
-  outline: none;
-  border-bottom-color: var(--ink);
+.xp-dial input[type='range'] {
+  width: 100%;
+  height: 26px;
+  margin: 0;
+}
+
+/* The encounter mix: one quantity divided three ways, so one bar. */
+.xp-mix-bar {
+  display: flex;
+  height: 10px;
+}
+
+.xp-mix-bar .own {
+  background: var(--ink);
+}
+
+.xp-mix-bar .fof {
+  background: var(--unknown);
+}
+
+.xp-mix-bar .cross {
+  background: var(--rule);
+}
+
+.xp-mix-key {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.xp-mix-key i {
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  margin-right: 10px;
+  vertical-align: 1px;
+}
+
+.xp-mix-key .own {
+  background: var(--ink);
+}
+
+.xp-mix-key .fof {
+  background: var(--unknown);
+}
+
+.xp-mix-key .cross {
+  background: var(--rule);
+  outline: 1px solid var(--leader);
+}
+
+.xp-mix-key b {
+  float: right;
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.xp-seed-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+/* ── The reading ─────────────────────────────────────────────────────────── */
+
+.xp-reading {
+  gap: 2px;
+}
+
+.xp-reading-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.xp-reading-name {
+  font-family: var(--serif);
+  font-size: 30px;
+  line-height: 1.05;
+  color: var(--accent);
+}
+
+.xp-reading-figures {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 12px 0;
+  margin: 14px 0 0;
+}
+
+.xp-reading-n {
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.xp-reading-n.accent {
+  color: var(--accent);
+}
+
+.xp-people {
+  display: flex;
+  flex-direction: column;
+}
+
+.xp-person {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 72px;
+  align-items: center;
+  gap: 12px;
+  min-height: 30px;
+}
+
+.xp-person-name {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.15;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The world is named only when it is not theirs, because that is the only time
+   it is news. */
+.xp-person-world {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.xp-story {
+  display: flex;
+  flex-direction: column;
+}
+
+.xp-story-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  min-height: 32px;
+  text-align: left;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.xp-story-row:hover .xp-story-text {
+  color: var(--accent);
+}
+
+.xp-story-day {
+  width: 56px;
+  flex-shrink: 0;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.xp-story-text {
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+/* ── Shared small parts ──────────────────────────────────────────────────── */
+
+.xp-note {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--body);
+  margin: 0;
+}
+
+.xp-note.quiet {
+  font-size: 11px;
+  color: var(--annotation);
+}
+
+.xp-group {
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  margin: 18px 0 6px;
+  font-weight: 400;
+}
+
+.xp-label {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--annotation);
+}
+
+.xp-label.strong {
+  color: var(--ink);
+}
+
+.xp-value {
+  font-size: 10px;
+  color: var(--ink);
+  text-align: right;
 }
 
 .xp-figure {
@@ -1011,7 +1995,7 @@ button {
   justify-content: space-between;
   align-items: baseline;
   gap: 10px;
-  padding: 5px 0;
+  padding: 6px 0;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -1020,26 +2004,44 @@ button {
   color: var(--ink);
 }
 
-.xp-figure.big .xp-figure-value {
-  font-size: 19px;
+.xp-link {
+  border-bottom: 1px solid var(--leader);
+  padding: 2px 0;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
 }
 
-.xp-world {
-  display: grid;
-  grid-template-columns: 1fr 48px 28px;
-  align-items: center;
-  gap: 8px;
-  padding: 3px 0;
+.xp-link.quiet {
+  color: var(--annotation);
 }
 
-.xp-world-name,
-.xp-tie-name {
+.xp-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.xp-link.strong {
+  border-bottom-color: var(--ink);
+}
+
+.xp-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: inset 0 0 0 1px var(--leader);
+}
+
+.xp-world-name {
   font-family: var(--serif);
-  font-size: 12px;
-  color: var(--body);
+  font-size: 16px;
+  color: var(--ink);
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .xp-bar {
@@ -1050,111 +2052,32 @@ button {
 
 .xp-bar-fill {
   display: block;
-  height: 100%;
-  background: var(--tie-strong);
+  height: 3px;
+  background: var(--ink);
+}
+
+.xp-bar-fill.away {
+  background: var(--accent);
 }
 
 .xp-matches {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 5px;
-  margin: 8px 0 0;
-}
-
-.xp-matches .xp-link {
-  text-transform: none;
-  letter-spacing: 0.04em;
-  text-align: left;
-}
-
-.xp-watch,
-.xp-hover {
-  margin-top: 16px;
-  padding-top: 12px;
-  border-top: 1px solid var(--ink);
-}
-
-.xp-watch h4 {
-  margin: 16px 0 6px;
-}
-
-.xp-hover-name {
-  font-family: var(--serif);
-  font-size: 15px;
-  color: var(--ink);
-  margin-bottom: 4px;
-}
-
-.xp-tie {
-  display: grid;
-  grid-template-columns: 1fr 44px;
-  align-items: center;
-  gap: 8px;
-  padding: 2px 0;
-}
-
-.xp-log-row {
-  display: grid;
-  grid-template-columns: 24px 58px 1fr;
-  align-items: baseline;
   gap: 6px;
-  padding: 2px 0;
 }
 
-.xp-log-day + .xp-log-day {
-  border-top: 1px solid var(--rule);
-}
+@media (max-width: 1180px) {
+  :root {
+    --xp-side-w: 268px;
+    --xp-gutter: 36px;
+  }
 
-.xp-log-row.quiet {
-  opacity: 0.55;
-}
+  .lab-bar {
+    gap: 28px;
+  }
 
-.xp-act {
-  font-size: 8px;
-  letter-spacing: 0.12em;
-}
-
-.xp-act.form {
-  color: var(--ink);
-}
-
-.xp-act.strengthen {
-  color: var(--unknown);
-}
-
-.xp-act.cut {
-  color: var(--unknown);
-  text-decoration: line-through;
-}
-
-/* The world picker. Fifty-two rows in a 236px column, so each is one line and
-   the list carries its own scroll rather than pushing the rules off the panel. */
-.xp-worldlist {
-  max-height: 218px;
-  overflow-y: auto;
-  margin: 8px 0 0;
-  padding-right: 4px;
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
-}
-
-.xp-pick {
-  display: grid;
-  grid-template-columns: 13px 1fr 30px;
-  align-items: center;
-  gap: 7px;
-  padding: 2px 0;
-  cursor: pointer;
-}
-
-.xp-pick input {
-  width: 11px;
-  height: 11px;
-  margin: 0;
-  accent-color: var(--ink);
-}
-
-.xp-pick:hover .xp-world-name {
-  color: var(--ink);
+  .lab-title {
+    font-size: 26px;
+  }
 }

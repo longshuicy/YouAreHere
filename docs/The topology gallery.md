@@ -1,4 +1,10 @@
-# The topology gallery
+# The topology lab
+
+*Renamed from "the topology gallery".* The lab has three views of one catalogue, chosen
+by the same control: **the experiment** first, then **worlds**, then **characters**. The
+first takes the walls down; the other two measure the worlds standing still. The header,
+the standfirst and the catalogue figures are shared, because they are true of all three.
+
 
 Companion piece to YOU ARE HERE. Not a game mode.
 

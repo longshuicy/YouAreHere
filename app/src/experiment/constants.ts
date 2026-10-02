@@ -74,9 +74,71 @@ export const DAYS_PER_SECOND = 10;
  */
 export const MAX_STEPS_PER_FRAME = 4;
 
-/** How much of one character's history the log keeps. Older than this and
- * nobody is reading it anyway. */
+/**
+ * How often the layout is told what the graph now looks like.
+ *
+ * It used to be every round: fifty-eight thousand ties flattened into a
+ * Float32Array, structured-cloned across the thread boundary and rebuilt into
+ * fifty-eight thousand link objects, ten times a second. That is six hundred
+ * thousand allocations a second to tell a force layout something it cannot
+ * respond to in under a second anyway.
+ *
+ * Once a second instead. The canvas reads the graph directly and draws every
+ * tie the instant it forms, so what lags by up to ten rounds is only where the
+ * layout *puts* them — a tie taking a second to pull its two ends together,
+ * which is shorter than the pull itself.
+ */
+export const LAYOUT_SYNC_ROUNDS = 10;
+
+/** How much of one character's history is read back out of the ledger. Older
+ * than this and nobody is scrolling to it. */
 export const LOG_LIMIT = 300;
+
+/**
+ * How many topology-changing events the experiment remembers, for everyone.
+ *
+ * FORM and CUT only. STRENGTHEN is excluded for the same reason it is excluded
+ * from the reading — a character with sixty ties strengthens about ten of them
+ * a round, so keeping them would be keeping almost nothing but them.
+ *
+ * It is a ring buffer rather than a list because a long run at a high formation
+ * pressure is unbounded otherwise, and because the oldest events are the ones
+ * nobody comes back for. Four typed arrays at this size cost about three
+ * megabytes, which buys the thing the per-character log could never do: pick
+ * someone on day ninety and read what has already happened to them, instead of
+ * starting their history at the moment you happened to look.
+ */
+export const LEDGER_LIMIT = 200_000;
+
+/**
+ * How many days of node positions are kept, so a run can be scrubbed back.
+ *
+ * The ties at any past day cost nothing to recover — the ledger already holds
+ * every FORM and CUT, so replaying them from the initial condition rebuilds the
+ * graph exactly. Where everyone *was* is the part nothing else records: a force
+ * layout is iterative, so the same graph does not give back the same picture.
+ *
+ * One snapshot is two Float32Arrays over 8,727 characters, about seventy
+ * kilobytes; two hundred of them is fourteen megabytes, which covers a default
+ * run end to end and is a fifth of what the fifty-two parsed worlds already
+ * cost. They are allocated as the run reaches them rather than up front, so a
+ * run nobody scrubs pays for only the days it ran.
+ *
+ * Slots are indexed by day modulo the cap, so a longer run quietly loses its
+ * oldest days and the scrubber's left end moves with them.
+ */
+export const SNAPSHOT_LIMIT = 200;
+
+/**
+ * The strength every replayed tie is drawn at.
+ *
+ * Strengths are not replayable. Strengthening and decay touch tens of thousands
+ * of ties a round — seventeen million events over a default run — so recording
+ * them is out of the question, and inferring them would be drawing a number
+ * nobody measured. One weight for all of them says plainly that the replay is
+ * about who was connected to whom, not how much.
+ */
+export const REPLAY_S = 50;
 
 // ── Layout ──────────────────────────────────────────────────────────────────
 
@@ -112,9 +174,16 @@ export const ALPHA_KICK = 0.12;
 export const ALPHA_DECAY = 0.015;
 export const ALPHA_MIN = 0.0005;
 
-/** Grid spacing between world centres at t = 0, in normalised world radii.
- * Loose enough that nothing overlaps before the first tick. */
-export const GRID_PITCH = 2.6;
+/**
+ * Clearance between two worlds at t = 0, in normalised world radii.
+ *
+ * This replaced a fixed grid pitch. A constant pitch gave a twenty-character
+ * film and a thousand-character novel the same square, so the drawing's area
+ * was a picture of the catalogue's length rather than its population. A
+ * constant *gap* instead means the packing is as tight as the sizes allow and
+ * every world's share of the field is its own size. See `packCircles`.
+ */
+export const WORLD_GAP = 0.34;
 
 /** Normalised world radii to layout pixels. */
 export const WORLD_SCALE = 180;
@@ -219,16 +288,29 @@ export const FOLLOW_RING_R = 7;
 export const ZOOM_EXTENT: [number, number] = [0.15, 40];
 
 /**
- * World labels, in screen points, and how far they are faded back.
+ * World labels, in screen points, and the gap between a name and the top of
+ * the world it names.
  *
- * A label is drawn only where its world is wide enough on screen to hold the
- * name. All fifty-two at once overprint into a grey smear that names nothing,
- * so the large worlds are named from the first frame and the small ones appear
- * as the view goes into them — which is also the order in which anyone would
- * want to read them.
+ * Names are not drawn permanently. All fifty-two at once overprinted into a
+ * grey smear that named nothing, and they did it at the centroids — which at
+ * full scale is precisely where the cross-world ties converge and where a word
+ * is least readable. A world is named only when something asks for it by name:
+ * a hovered legend row, the followed character's world, the world under the
+ * pointer. Never more than three at once, so they can be set in ink, above the
+ * world rather than through it.
  */
-export const LABEL_PT = 10;
-export const LABEL_ALPHA = 0.75;
+export const LABEL_PT = 11;
+export const LABEL_GAP_PT = 14;
+
+/**
+ * How far everything washes back while one world is lit.
+ *
+ * Low enough that the lit world is unmistakable, high enough that the rest of
+ * the drawing is still a drawing — the point of the gesture is to find one
+ * world *within* the cloud, so hiding the cloud would answer a question nobody
+ * asked.
+ */
+export const DIM_ALPHA = 0.16;
 
 /** Fraction of the drawing's own size added as margin when the view auto-fits,
  * and how fast the fit eases, so a tie forming on the far edge does not jolt

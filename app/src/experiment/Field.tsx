@@ -8,10 +8,10 @@
  * cross-world ties, one filled pass per world for the nodes.
  *
  * Everything that is *not* mass stays SVG on top, where it keeps crisp text,
- * real hit-testing and the project's own hairline register: world labels, the
- * followed character's ties, the hovered character's ties. There are never more
- * than a few hundred of those, and they are the only marks anyone reads
- * individually.
+ * real hit-testing and the project's own hairline register: the one or two
+ * world names currently being asked for, the followed character's ties, the
+ * hovered character's ties. There are never more than a few hundred of those,
+ * and they are the only marks anyone reads individually.
  *
  * Hover works because a quadtree is cheap — a rebuild at this size costs a
  * millisecond or two, and it is only rebuilt when the pointer actually moves.
@@ -31,7 +31,8 @@ import {
   FIT_EASE,
   FIT_PAD,
   FOLLOW_RING_R,
-  LABEL_ALPHA,
+  DIM_ALPHA,
+  LABEL_GAP_PT,
   LABEL_PT,
   NODE_BASE_R,
   NODE_DEGREE_R,
@@ -39,7 +40,6 @@ import {
   ZOOM_EXTENT,
   nodeZoomScale,
 } from './constants';
-import type { SimState } from './sim';
 import type { MergedWorld } from './world';
 
 export interface Positions {
@@ -58,9 +58,26 @@ interface FieldProps {
    * props they would re-render this component on every one of those, which is
    * the thing canvas was chosen to avoid. The draw loop reads them directly.
    */
-  stateRef: RefObject<SimState | null>;
+  /**
+   * Only the adjacency, not the whole simulation.
+   *
+   * The field draws the live graph most of the time and a replayed one when the
+   * run is being scrubbed, and a replay is exactly this much: who was connected
+   * to whom on that day. Narrowing the type is what lets the same drawing serve
+   * both without the replay having to pretend to be a simulation.
+   */
+  stateRef: RefObject<{ adj: Map<number, number>[] } | null>;
   positionsRef: RefObject<Positions | null>;
   follow: number | null;
+  /**
+   * The world the chrome is pointing at — a hovered legend row.
+   *
+   * Fifty-two names printed permanently across the drawing overprinted into a
+   * grey smear in exactly the place the cross-world ties converge, and named
+   * nothing. The names live in the legend now; the field answers one at a time.
+   * Everything but the asked-for world washes back to `DIM_ALPHA`.
+   */
+  highlight: number | null;
   tieView: TieView;
   /** Bumped by the panel's Refit control. */
   refit: number;
@@ -76,15 +93,17 @@ interface Fit {
 }
 
 export function Field(props: FieldProps) {
-  const { world, follow, tieView, refit, onHover, onPick } = props;
+  const { world, follow, highlight, tieView, refit, onHover, onPick } = props;
 
   const stateRef = props.stateRef;
   const posRef = props.positionsRef;
   const followRef = useRef(follow);
   const tieViewRef = useRef(tieView);
+  const highlightRef = useRef(highlight);
   const hoverRef = useRef<number | null>(null);
   followRef.current = follow;
   tieViewRef.current = tieView;
+  highlightRef.current = highlight;
 
   const wrapRef = useRef<HTMLDivElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -105,6 +124,26 @@ export function Field(props: FieldProps) {
   const treeRef = useRef<Quadtree<number> | null>(null);
   const treeDirty = useRef(true);
 
+  /**
+   * Whether this frame has anything new to say.
+   *
+   * The loop used to redraw sixty times a second unconditionally — rebuilding
+   * fifty-eight thousand path segments each time — whether or not anything had
+   * moved. A paused experiment sitting on screen therefore cost exactly what a
+   * running one did. Now a frame is drawn when the worker has posted new
+   * positions (which it stops doing once the layout is cold), or when something
+   * the chrome owns has changed, or while the automatic fit is still easing
+   * toward its target.
+   */
+  const drawnPosRef = useRef<Positions | null>(null);
+  const dirtyRef = useRef(true);
+  const settledRef = useRef(false);
+
+  // Anything the chrome can change under the loop's feet.
+  useEffect(() => {
+    dirtyRef.current = true;
+  }, [follow, highlight, tieView, refit, world]);
+
   // Pan and zoom, attached to the SVG sheet because it is the topmost surface.
   useEffect(() => {
     const svg = svgRef.current;
@@ -112,8 +151,15 @@ export function Field(props: FieldProps) {
     const behaviour = d3zoom<SVGSVGElement, unknown>()
       .scaleExtent(ZOOM_EXTENT)
       .on('zoom', (event) => {
-        zoomedRef.current = true;
+        // `sourceEvent` is null when the transform was set from code rather
+        // than by a hand on the surface. Without that test, Refit's own call to
+        // `behaviour.transform` came straight back through here as a manual
+        // zoom — so the automatic fit switched itself off one frame after every
+        // refit, took a single frame's framing and then froze. It looked like
+        // the fit working, because the one frame it took was usually right.
+        if (event.sourceEvent) zoomedRef.current = true;
         zoomRef.current = event.transform;
+        dirtyRef.current = true;
       });
     behaviourRef.current = behaviour;
     select(svg).call(behaviour);
@@ -133,8 +179,11 @@ export function Field(props: FieldProps) {
   }, [refit]);
 
   // World labels: one per world, positioned each frame at the live centroid of
-  // its surviving members. At fifty-two they are the only thing that makes the
-  // full-scale picture readable as *worlds* rather than as a cloud.
+  // its surviving members, and shown only when something has asked for that
+  // world by name — a hovered legend row, the followed character's world, the
+  // world under the pointer. Never more than three at once, and in ink rather
+  // than the old grey, because a name that is only drawn when wanted can afford
+  // to be legible.
   useEffect(() => {
     const g = labelsRef.current;
     if (!g) return;
@@ -161,6 +210,7 @@ export function Field(props: FieldProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [world]);
 
+  /** The frame everything is drawn in: all of it, always. */
   function computeFit(pos: Positions, width: number, height: number): Fit {
     let minX = Infinity;
     let maxX = -Infinity;
@@ -191,6 +241,11 @@ export function Field(props: FieldProps) {
     const pos = posRef.current;
     if (!wrap || !canvas || !svg || !state || !pos) return;
 
+    const fresh = pos !== drawnPosRef.current;
+    if (!fresh && !dirtyRef.current && settledRef.current) return;
+    drawnPosRef.current = pos;
+    dirtyRef.current = false;
+
     const width = wrap.clientWidth;
     const height = wrap.clientHeight;
     if (width === 0 || height === 0) return;
@@ -212,8 +267,17 @@ export function Field(props: FieldProps) {
             y: prev.y + (target.y - prev.y) * FIT_EASE,
           }
         : target;
-    } else if (!fitRef.current) {
-      fitRef.current = target;
+      // A tenth of a pixel from where it is going, in a transform whose scale
+      // is of order one: close enough that the next frame would be the same
+      // picture, which is what lets the loop stop.
+      const f = fitRef.current;
+      settledRef.current =
+        Math.abs(f.k - target.k) < 1e-4 &&
+        Math.abs(f.x - target.x) < 0.1 &&
+        Math.abs(f.y - target.y) < 0.1;
+    } else {
+      if (!fitRef.current) fitRef.current = target;
+      settledRef.current = true;
     }
     const fit = fitRef.current;
     const z = zoomRef.current;
@@ -230,6 +294,7 @@ export function Field(props: FieldProps) {
     ctx.setTransform(s * dpr, 0, 0, s * dpr, ox * dpr, oy * dpr);
 
     const view = tieViewRef.current;
+    const lit = highlightRef.current;
     const { adj } = state;
     const n = adj.length;
 
@@ -251,14 +316,20 @@ export function Field(props: FieldProps) {
           path.lineTo(pos.x[v], pos.y[v]);
         }
       }
+      // Pointing at a world washes the ties back as one sheet rather than
+      // sorting them into lit and unlit: a tie belongs to two worlds, so there
+      // is no honest way to say it is inside the highlight, and the nodes are
+      // what carries the answer anyway.
+      const tieWash = lit === null ? 1 : DIM_ALPHA;
       if (view === 'all') {
+        ctx.globalAlpha = tieWash;
         for (let b = 0; b < BANDS.length; b++) {
           ctx.strokeStyle = BANDS[b].stroke;
           ctx.lineWidth = BANDS[b].width / s;
           ctx.stroke(bandPaths[b]);
         }
       }
-      ctx.globalAlpha = CROSS_ALPHA;
+      ctx.globalAlpha = CROSS_ALPHA * tieWash;
       ctx.strokeStyle = CROSS_STROKE;
       ctx.lineWidth = CROSS_WIDTH / s;
       ctx.stroke(crossPath);
@@ -277,9 +348,14 @@ export function Field(props: FieldProps) {
         path.moveTo(pos.x[i] + r, pos.y[i]);
         path.arc(pos.x[i], pos.y[i], r, 0, Math.PI * 2);
       }
-      ctx.fillStyle = world.worldMarks[w];
+      ctx.globalAlpha = lit === null || lit === w ? 1 : DIM_ALPHA;
+      // The lit world is drawn at its own accent rather than the washed-back
+      // mark the other fifty-one use: picking it out of the cloud is the whole
+      // point of pointing at it.
+      ctx.fillStyle = lit === w ? world.worldAccents[w] : world.worldMarks[w];
       ctx.fill(path);
     }
+    ctx.globalAlpha = 1;
 
     treeDirty.current = true;
 
@@ -294,7 +370,15 @@ export function Field(props: FieldProps) {
       else {
         ring.setAttribute('cx', String(pos.x[followed]));
         ring.setAttribute('cy', String(pos.y[followed]));
-        ring.setAttribute('r', String((FOLLOW_RING_R * zk) / s));
+        // The ring is drawn inside the transformed sheet, so its radius is a
+        // screen size divided by the scale. That is right only while the scale
+        // is, and when the automatic fit was freezing (see the zoom handler) a
+        // stale scale turned this into a circle the size of the whole drawing —
+        // which is what the mysterious rings across the field were. The cause
+        // is fixed; this is the belt, so a bad scale can never again be a
+        // picture of something that is not there.
+        const r = Math.min((FOLLOW_RING_R * zk) / s, Math.min(width, height) / (6 * s));
+        ring.setAttribute('r', String(r));
       }
     }
     const hovered = hoverRef.current;
@@ -305,43 +389,59 @@ export function Field(props: FieldProps) {
 
     const labels = labelsRef.current;
     if (labels) {
+      // Who has asked to be named. The pointer's own world is included so that
+      // moving across the field still tells you where you are, which is the one
+      // thing the old permanent labels were genuinely good for.
+      const named = new Set<number>();
+      if (lit !== null) named.add(lit);
+      if (followed !== null) named.add(world.world[followed]);
+      if (hovered !== null) named.add(world.world[hovered]);
+
       for (let w = 0; w < world.worldTitles.length; w++) {
+        const el = labels.children[w] as SVGTextElement | undefined;
+        if (!el) continue;
+        if (!named.has(w)) {
+          el.style.opacity = '0';
+          continue;
+        }
         let sx = 0;
         let sy = 0;
-        let minX = Infinity;
-        let maxX = -Infinity;
         let count = 0;
         const from = world.worldStart[w];
         const to = from + world.worldSize[w];
         for (let i = from; i < to; i++) {
           sx += pos.x[i];
           sy += pos.y[i];
-          if (pos.x[i] < minX) minX = pos.x[i];
-          if (pos.x[i] > maxX) maxX = pos.x[i];
           count++;
         }
-        const el = labels.children[w] as SVGTextElement | undefined;
-        if (!el || count === 0) continue;
+        if (count === 0) {
+          el.style.opacity = '0';
+          continue;
+        }
+        // The centroid, lifted by a line. Setting it above the world's topmost
+        // member instead put the name nowhere near the world once that world
+        // had come apart — which is the whole middle of a run, and exactly when
+        // you want to know where it went. A paper halo on the glyphs does the
+        // work the old placement was trying to do: the name stays where its
+        // people are and is still readable over them.
         el.setAttribute('x', String(sx / count));
-        el.setAttribute('y', String(sy / count));
+        el.setAttribute('y', String(sy / count - LABEL_GAP_PT / s));
         // Drawn in screen points regardless of zoom, like every other label in
         // this app.
         el.setAttribute('font-size', String(LABEL_PT / s));
-        // A name is shown only where its world is wide enough on screen to hold
-        // it. Fifty-two titles at once overprint into a grey smear that names
-        // nothing; this way the big worlds are named from the start and the
-        // small ones appear as you zoom into them.
-        const widthPx = (maxX - minX) * s;
-        const needed = world.worldTitles[w].length * LABEL_PT * 0.58;
+        // Your own world is the one name that appears without being asked for,
+        // so it is set in the colour you are rather than in ink.
+        const yours = followed !== null && world.world[followed] === w;
+        el.setAttribute('class', `xp-world-label${yours ? ' yours' : ''}`);
         // Inline style, not the `opacity` attribute: a presentation attribute
         // loses to any CSS declaration, so the stylesheet's own opacity on
         // .xp-world-label silently won and every label stayed visible.
-        el.style.opacity = widthPx > needed ? String(LABEL_ALPHA) : '0';
+        el.style.opacity = '1';
       }
     }
   }
 
-  function tiePath(i: number, pos: Positions, state: SimState): string {
+  function tiePath(i: number, pos: Positions, state: { adj: Map<number, number>[] }): string {
     const parts: string[] = [];
     const ax = pos.x[i];
     const ay = pos.y[i];
@@ -408,11 +508,13 @@ export function Field(props: FieldProps) {
             const i = nearest(e.clientX, e.clientY);
             if (i !== hoverRef.current) {
               hoverRef.current = i;
+              dirtyRef.current = true;
               onHover(i);
             }
           }}
           onPointerLeave={() => {
             hoverRef.current = null;
+            dirtyRef.current = true;
             onHover(null);
           }}
           onClick={(e) => {

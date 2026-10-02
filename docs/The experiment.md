@@ -26,6 +26,55 @@ Two questions, neither needing a model in the loop:
    it. `data/` has 52.
 2. **How long does a world survive its boundary?** One survival curve per world.
 
+## Where the worlds sit
+
+(Rings used to appear across the drawing at the end of a long run. They were the ring
+drawn around the followed character: it is drawn inside the transformed sheet, so its
+radius is a screen size divided by the view's scale, and the automatic fit was freezing
+one frame after every refit — d3-zoom reported its own programmatic transform as a hand
+on the surface, and the fit stood down for it. A stale scale turned a small ring into a
+circle the size of the field. The fit no longer mistakes itself for a user, and the ring
+is clamped as well.)
+
+
+Each world is a disc whose radius goes as √n, and the discs are packed — largest first,
+each placed at whichever position tangent to two already-placed worlds lies closest to
+the origin. The result is a rough disc whose area is the population.
+
+They used to sit on a square grid at a fixed pitch. 水滸傳 has 974 characters and Indiana
+Jones has 20, and both got the same cell: the small worlds floated in acres of nothing,
+the large ones very nearly touched, and most of the drawing's area was a picture of how
+many files are in `data/` rather than how many people are in them.
+
+## What it costs
+
+Running the full population used to take about seventy per cent of a main thread, and a
+*paused* experiment took the same — the layout ticked and the canvas redrew regardless of
+whether anything had moved. Both are now gated on having something to say, and the
+simulation itself is a little over half what it was. It is about a third of a thread
+running and nothing paused.
+
+Almost all of that came from one line. The triadic term τ is a share of a neighbourhood,
+so computing it walks one; it appears in the review of every surviving tie, which is
+sixty-three thousand of them every round, ten rounds a second. But τ is bounded above by
+1 + λ, so the probability it scales is bounded too — and a random draw at or above that
+bound cannot strengthen the tie however many friends the two have in common. Drawing
+first and rejecting on the bound skips the walk about four times in five, and more often
+the stronger the tie, since a saturated tie has little room to be strengthened. It is not
+an approximation: the same draw decides the same way and the random stream is consumed in
+the same order, so a seed still reproduces its run exactly.
+
+The rest was cadence. The layout is told what the graph looks like once a second rather
+than ten times — the canvas reads the graph directly and draws every tie the instant it
+forms, so what lags is only where the layout *puts* them — and it is reheated on the same
+beat rather than on every round, which previously held it permanently hot. It ticks at
+twenty a second rather than sixty, which also sets the drawing's rate, and it stops
+entirely once it has gone cold. Reading one character's history walks the entries written
+since the last read rather than the whole two-hundred-thousand-entry ring.
+
+Hiding every tie changes none of this measurably: the drawing was never the expensive
+part.
+
 ## Initial condition
 
 The 52 shipped worlds, unaltered. 8,727 characters, 58,173 ties, node ids namespaced by
@@ -160,9 +209,12 @@ All live; a change takes effect on the next round.
 | **Encounter mix** | own world · friend of a friend · cross world (normalised) |
 | **Tie formation** | formation pressure $p$ · saturation $d_0$ · triadic bonus $\lambda$ · preferential attachment $\alpha$ |
 | **Tie maintenance** | strengthen rate $p_s$ · decay per round · $s_{\text{init}}$ · init clamp $k$ |
-| **Worlds** | which of the fifty-two are in, one by one; all · none · the six |
+| **Worlds** | which of the fifty-two are in, one by one; all · none |
 | **Run** | seed · length in days · play / pause / step · reset · refit |
-| **View** | follow a character — at random, by name, or by clicking one · draw all ties, cross-world only, or none |
+| **View** | who you are reading over — anyone, by name, or by clicking one · draw all ties, cross-world only, or none · hover a world in the key to light it |
+
+The world controls are a draft until applied; everything else takes effect on the next
+round.
 
 $\lambda$ and $\alpha$ are controls rather than constants because they are the two levers
 that decide the answer to question 1: $\lambda = 0$ forbids communities, $\alpha = 0$
@@ -181,10 +233,182 @@ together, since the bulk of `data/` is reveal-only sidecars nothing here reads �
 changing the selection is a merge rather than a round trip, and the picker is something
 to fiddle with rather than something to commit to.
 
-*The six* is a shortcut to a small, deliberately mixed set: not a lesser version of the
-experiment but a different instrument, where a round costs about a twentieth as much and
-a parameter can be turned and judged in seconds rather than a minute. Every rule here was
-tuned on it before it was ever run at scale.
+A six-world shortcut sat beside *all* and *none* for most of the build — a fast
+instrument for tuning, where a round cost about a twentieth as much. Every rule here was
+tuned on it before it was ever run at scale, and it is gone from the picker now that it
+has done that: a preset nobody uses twice is a third button on a control that wanted two.
+
+## The screen
+
+**The experiment is the lab's first view**, beside *Worlds* and *Characters*, rather
+than a separate surface with chrome of its own — which is most of what made it read as a
+different product. One header serves all three: the wordmark and the ways back into the
+game on the first line, the lab's name and its three rooms on the second, sharing the
+rule the tabs are underlined against. `/experiment` still addresses it.
+
+Under that header:
+
+| | |
+|---|---|
+| **the shelf** | three figures — world loyalty, cross-world ties, worlds apart — with *all figures* behind a disclosure |
+| **the map** | the drawing in its own frame, with *what is drawn* the only thing over it |
+| **the foot** | a caption before the run; the transport after it |
+| **the column** | setting up, in four steps — and once the walls are down, the reading |
+
+*Worlds apart* is the count of connected components, said as what it means: at day zero
+every world is its own island and the number is fifty-two, and the number falling is the
+walls coming down.
+
+**Setting up is four steps, in the order the argument runs.** Which worlds take part
+decides who there is to follow; following somebody decides whose story the run tells; the
+conditions decide what happens to them; then the walls come down. Each step states what
+it has settled on, so the column is a summary of the run about to happen rather than a
+form. Two of them have more to say than a line — the worlds take a list, the conditions
+take a panel of dials — and those replace the column rather than opening over it, so the
+map is never covered by the thing that decides what is on it.
+
+**Nobody is followed until somebody is chosen.** Waking a visitor up as a stranger is the
+game's move; here it is the second of four decisions. Take anyone at random, find them by
+name, or click them on the map.
+
+**The conditions start as three places rather than eleven dials.** *Stay close*,
+*balanced* and *wander far* set the four that decide a run's character — how far people
+reach, how hard they look, how fast the unused fades — and leave saturation, the triadic
+bonus and preferential attachment where fine-tuning finds them. Every dial behind
+*fine-tune* is named for what it does to people with its symbol kept underneath, because
+λ means nothing to a visitor and everything to this document, and both are reading that
+panel.
+
+**The transport is a transport.** A round filled button for play, a round outlined one
+for a single day, the day as a figure, the track, and speed at one, four or sixteen times
+— which changes how fast you watch and never what happens. *Refit* and *what is drawn*
+are not transport, and sit over the map where the thing they change is.
+everything it did and more, so it was a third way of saying "one day at a time".
+
+## Going back
+
+The day track is a scrubber. Drag it and the drawing becomes that day's.
+
+Replaying is a way of looking and never a rewind: the simulation is untouched, nothing is
+discarded, and play puts the view back on the head and carries on from there. Because a
+past day looks exactly like a present one — which is the whole difficulty — it is said
+plainly: the drawing takes an accent frame, a line over it names the day being replayed
+against the day the run has reached, and the figures beside it are measured from the
+replayed graph rather than carried over from the live one. A panel reading "day 3" beside
+today's tie count is worse than no panel.
+
+Three of the four things a past day needs were already here:
+
+| | where it comes from |
+|---|---|
+| **the ties** | replayed from the ledger, which holds every FORM and CUT since the initial condition |
+| **the figures** | measured from that replayed graph, with the two realised rates read off the stored series |
+| **the headline's line** | the series it was already keeping, clipped to the day on screen |
+| **where everyone was** | the one thing nothing else records — see below |
+
+A force layout is iterative, so replaying the same graph does not give back the same
+picture. Positions are therefore kept per day: two Float32Arrays over 8,727 characters,
+about seventy kilobytes a day, in a ring two hundred days deep — fourteen megabytes at
+most, allocated as the run reaches each day. A longer run quietly loses its oldest days
+and the scrubber's left end moves with them.
+
+Strengths are not replayed at all. Strengthening and decay touch tens of thousands of
+ties a round — seventeen million events over a default run — so recording them is out of
+the question, and inferring them would be drawing a number nobody measured. Every
+replayed tie is drawn at one weight, and the banner says so, because a drawing that
+quietly made one of its channels up would be worse than one that admits it has three.
+
+The picture is taken once a round rather than once a frame. A frame can carry several
+rounds, and taking it at the end of the batch left holes in the scrubber at exactly the
+moments the machine was busiest.
+
+Nothing else is on the screen at rest. The fifty-two world names, the eleven sliders, the
+loyalty leaderboard and the end-of-run report are each one line until asked for, and the
+line states its own setting, so a shut drawer still says whether it needs opening. The
+line carries a mark that turns when it opens, because a label over a summary says nothing
+about being pressable.
+
+**Figures that move are drawn as lines.** World loyalty, each world's own loyalty in the
+key, and — for whoever you woke as — how many people they know and what share of them are
+still from home. A number says where something is; this run is about how it got there,
+and a single current value cannot carry that. The person's two lines are rebuilt
+backwards out of the ledger rather than accumulated forward, so they are complete for
+anyone picked at any point rather than starting empty when the watch moves.
+
+**Choosing the population is free; using it is not.** Every toggle used to commit at
+once — re-merging 8,727 characters, tearing down the layout and rebuilding the run, once
+per click — so dropping six worlds cost six full rebuilds and six lurches, and a render
+landing mid-change could hand a fifty-two-entry reading to a fifty-one-world population
+and take the screen down with it. The picker is a draft now, applied in one go.
+
+**You wake up as someone.** The game's premise, kept: the seed names the whole run — the
+same number gives the same history and the same person to watch it happen to — and their
+thread is the one piece of reading that is always on screen. It can be any of the 8,727;
+click the field, search a name, or take anyone.
+
+The opening frame is theirs. Before the run starts the view sits on their shoulder — their
+world filling the frame around them, the other fifty-one drifting at the edges — and
+pressing play lets it go, so the fit eases outward to all of them. The walls coming down,
+done as a camera move.
+
+### Their story
+
+The person being followed carries a dated list of what has happened to them, in plain
+words — *Met Remus Lupin, from Harry Potter* — and a mark on the day track for each of
+those days, so their life is drawn along the run's own timeline. Pressing a dated line
+takes the view to that day.
+
+Three kinds of thing happen to somebody: they meet a person, they lose touch with one,
+and a tie of theirs goes quiet. The first two are the FORM and CUT the ledger already
+holds. The third is **FADE** — a tie crossing below half strength on its way down — and
+it is the one event here recorded for the reading rather than for the simulation. It
+fires on the crossing, not on the state, so it is as rare as a cut rather than as common
+as decay, and it is listed only while the tie it belongs to is still there: a tie that
+went quiet and was later cut is a cut, and at the end of a long run there are enough
+fadings to bury every meeting.
+
+The marks are thinned the same way. At a lively setting one character can have several
+hundred events over two hundred days, and all of them ticked at once is a solid red bar —
+a texture, which says less than three marks would. Ties that cross a wall get the room
+first, because those are what this experiment is about.
+
+### Their story
+
+The person being followed carries a dated list of what has happened to them, in plain
+words — *Met Remus Lupin, from Harry Potter* — and a mark on the day track for each of
+those days, so their life is drawn along the run's own timeline. Pressing a dated line
+takes the view to that day.
+
+Three kinds of thing happen to somebody: they meet a person, they lose touch with one, and
+a tie of theirs goes quiet. The first two are the FORM and CUT the ledger already holds.
+The third is **FADE** — a tie crossing below half strength on its way down — and it is the
+only event recorded for the reading rather than for the simulation. It fires on the
+crossing and not on the state, so it is as rare as a cut rather than as common as decay,
+and it is listed only while the tie it belongs to is still there: a tie that went quiet and
+was later cut is a cut, and at the end of a long run there are enough fadings to bury every
+meeting.
+
+The marks are thinned on the same principle. At a lively setting one character can have
+several hundred events over two hundred days, and all of them ticked at once is a solid
+red bar — a texture, which says less than three marks would. Ties that cross a wall get
+the room first, because those are what this experiment is about.
+
+Their history reaches behind the moment you looked, because the experiment keeps every
+FORM and CUT for everyone — about three megabytes as a ring buffer, since the two events
+that change the topology are rare beside maintenance. The log used to belong to whoever
+was being watched, which meant picking someone on day ninety showed an empty panel and
+switching away threw the first one's life out. STRENGTHEN stays out of the ledger for the
+same reason it stays out of the reading: a character with sixty ties strengthens about ten
+of them a round, so keeping them would be keeping almost nothing else. It is counted
+instead, one line a day, and only while someone is being watched.
+
+**The names are not printed on the drawing.** Fifty-two of them at once overprinted into
+a grey smear that named nothing, at the centroids, which at full scale is exactly where
+the cross-world ties converge. The names live in the key instead, each beside the swatch
+that is its colour on the field; hovering one lights that world and washes the rest back.
+On the field a world is named only when something has asked for it — a hovered key row,
+your own world, the world under the pointer — never more than three at a time, and in ink
+rather than grey, because a name only drawn when wanted can afford to be legible.
 
 ## Metrics
 
