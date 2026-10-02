@@ -814,20 +814,32 @@ button {
    left. */
 
 :root {
-  /* The experiment's own proportions. The map is positioned from these, so a
-     change here moves the drawing's frame with the chrome rather than letting
-     one slide under the other. */
+  /*
+   * The experiment's proportions, taken off the board.
+   *
+   * On a 1280-wide screen the page insets are 64, which leaves 1152: the map's
+   * column is 792, the gutter 56 with the rule 24 into it, and the reading
+   * column 304. The map is positioned from these, so a change here moves the
+   * drawing's frame with the chrome rather than letting one slide under the
+   * other.
+   */
   --xp-side-w: 304px;
   --xp-gutter: 56px;
-  --xp-shelf-h: 52px;
-  --xp-foot-h: 64px;
+  /* The rule sits 24 into the gutter, not at the column's edge. */
+  --xp-rule-in: 32px;
+  /* 12 above the figures, 44 of figures, 8 below. */
+  --xp-shelf-h: 64px;
+  /* 8 below the map, then the transport and its note. */
+  --xp-foot-h: 96px;
 }
 
 .lab {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: var(--pad-top) var(--pad-x) var(--pad-bottom) var(--pad-x);
+  /* The board's own top inset, which is half the page inset the game uses: the
+     lab has two bands of header and needs the height back. */
+  padding: 22px var(--pad-x) var(--pad-bottom) var(--pad-x);
 }
 
 /* The experiment fits the window exactly: its map takes the height left over
@@ -836,7 +848,7 @@ button {
   height: 100vh;
   min-height: 0;
   overflow: hidden;
-  padding-bottom: 18px;
+  padding-bottom: 24px;
 }
 
 .lab-top {
@@ -857,6 +869,7 @@ button {
 /* Title and tabs on one line, sitting on one rule. */
 .lab-bar {
   flex: 0 0 auto;
+  height: 62px;
   display: flex;
   align-items: flex-end;
   gap: 52px;
@@ -890,7 +903,7 @@ button {
   min-height: 44px;
   display: inline-flex;
   align-items: flex-end;
-  padding-bottom: 14px;
+  padding-bottom: 16px;
   margin-bottom: -1px;
   border-bottom: 2px solid transparent;
   cursor: pointer;
@@ -945,13 +958,24 @@ button {
   display: flex;
   align-items: flex-end;
   gap: 44px;
-  padding-bottom: 6px;
+  padding: 12px 0 8px;
 }
 
 .xp-head-figure {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
+}
+
+.xp-head-figure > .xp-label {
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+}
+
+.xp-head-line .xp-label {
+  font-size: 10px;
+  letter-spacing: 0.08em;
 }
 
 .xp-head-line {
@@ -992,10 +1016,10 @@ button {
    reading of the drawing, so it covers the drawing while it is open. */
 .xp-figures-panel {
   position: absolute;
-  top: var(--xp-shelf-h);
+  top: calc(var(--xp-shelf-h) - 8px);
   right: calc(var(--xp-side-w) + var(--xp-gutter));
   z-index: 4;
-  width: 332px;
+  width: 320px;
   max-height: calc(100% - var(--xp-shelf-h) - var(--xp-foot-h));
   overflow-y: auto;
   padding: 10px 16px 12px;
@@ -1113,6 +1137,11 @@ button {
   position: absolute;
   left: 8px;
   top: 8px;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--annotation);
   z-index: 2;
   display: flex;
   align-items: center;
@@ -1140,6 +1169,19 @@ button {
   border-bottom-color: var(--ink);
 }
 
+.xp-chip-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink);
+}
+
+.xp-with-glyph {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .xp-chip-rule {
   width: 1px;
   height: 14px;
@@ -1148,62 +1190,38 @@ button {
 
 .xp-hover {
   position: absolute;
-  left: 50%;
-  bottom: 14px;
-  transform: translateX(-50%);
-  padding: 8px 14px;
+  padding: 10px 14px;
   background: var(--panel);
   border: 1px solid var(--ink);
-  text-align: center;
+  box-shadow: 0 2px 0 rgba(22, 19, 15, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   pointer-events: none;
+  white-space: nowrap;
   z-index: 3;
 }
 
 .xp-hover-name {
   font-family: var(--serif);
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.1;
   color: var(--ink);
 }
 
-/*
- * Replaying.
- *
- * A past day looks exactly like a present one — that is the whole difficulty —
- * so it is said in words, over the drawing, in the colour this app reserves for
- * the thing you are. The caveat rides along: the ties are exactly as they were,
- * the strengths are not replayed at all, and a drawing that did not say so
- * would be quietly making one of its channels up.
- */
-.xp-replay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 3;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: 16px;
-  padding: 8px 16px;
-  background: var(--paper);
-  border-bottom: 1px solid var(--accent);
+.xp-hover .xp-label {
+  font-size: 9px;
+  letter-spacing: 0.18em;
 }
 
-.xp-replay-mark {
-  font-size: 10px;
-  letter-spacing: 0.26em;
+.xp-hover-do {
+  font-size: 9px;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--accent);
+  padding-top: 2px;
 }
 
-.xp-replay-day {
-  font-size: 11px;
-  color: var(--ink);
-}
-
-.xp.replaying .xp-field {
-  box-shadow: inset 0 0 0 1px var(--accent);
-}
 
 /* ── Under the map ───────────────────────────────────────────────────────── */
 
@@ -1281,6 +1299,17 @@ button {
   touch-action: none;
 }
 
+/* The ring goes on the knob, which is the thing that moves — a box drawn round
+   the whole rail says the track is focused rather than the day. */
+.xp-track:focus,
+.xp-track:focus-visible {
+  outline: none;
+}
+
+.xp-track:focus-visible .xp-track-knob {
+  box-shadow: 0 0 0 3px rgba(140, 47, 42, 0.3);
+}
+
 .xp-track::before {
   content: '';
   position: absolute;
@@ -1299,15 +1328,6 @@ button {
   background: var(--ink);
 }
 
-/* Where the run has really got to, while the view is somewhere behind it. */
-.xp-track-head {
-  position: absolute;
-  top: 15px;
-  width: 1px;
-  height: 14px;
-  background: var(--leader);
-}
-
 .xp-track-knob {
   position: absolute;
   top: 15px;
@@ -1319,11 +1339,6 @@ button {
   border: 2px solid var(--paper);
   box-sizing: border-box;
   pointer-events: none;
-}
-
-.xp-rail.replaying .xp-track-knob,
-.xp.replaying .xp-track-knob {
-  background: var(--accent);
 }
 
 /* One tick per day something happened to the person being followed. */
@@ -1398,8 +1413,11 @@ button {
   min-height: 0;
   display: flex;
   flex-direction: column;
-  padding-left: var(--xp-gutter);
-  margin-left: calc(0px - var(--xp-gutter));
+  /* The rule belongs to the gutter rather than to this column's edge, so the
+     border is pulled back into it and the padding puts the text where the
+     column really starts. */
+  padding-left: var(--xp-rule-in);
+  margin-left: calc(0px - var(--xp-rule-in));
   border-left: 1px solid var(--rule);
   overflow-y: auto;
   scrollbar-width: thin;
@@ -1529,8 +1547,10 @@ button {
 
 .xp-outline {
   min-height: 36px;
+  gap: 8px;
   font-size: 9px;
   letter-spacing: 0.18em;
+  white-space: nowrap;
 }
 
 .xp-block:hover,

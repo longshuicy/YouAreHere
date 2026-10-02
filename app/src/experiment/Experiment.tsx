@@ -45,7 +45,6 @@ import {
   type SimState,
 } from './sim';
 import { measure, type LiveMetrics } from './metrics';
-import { buildReport, type Report } from './report';
 import { Field, type Positions, type TieView } from './Field';
 import { capture, earliestDay, emptySnapshots, positionsAt, type Snapshots } from './snapshots';
 import type { FromWorker, ToWorker } from './layout.worker';
@@ -230,7 +229,6 @@ export function Experiment() {
    * rather than silently mismatched, and the column simply waits a frame.
    */
   const [reading, setReading] = useState<{ of: MergedWorld; m: LiveMetrics } | null>(null);
-  const [report, setReport] = useState<Report | null>(null);
   const [hover, setHover] = useState<number | null>(null);
   const [follow, setFollow] = useState<number | null>(null);
   const [query, setQuery] = useState('');
@@ -251,6 +249,9 @@ export function Experiment() {
   const scrubbingRef = useRef(false);
   const snapsRef = useRef<Snapshots>(emptySnapshots());
   const trackRef = useRef<HTMLSpanElement | null>(null);
+  /** Where the pointer is over the map, so the hover card can sit beside the
+   * person it names rather than in a corner of the frame. */
+  const pointerRef = useRef({ x: 0, y: 0 });
   const workerRef = useRef<Worker | null>(null);
   const paramsRef = useRef(params);
   const runningRef = useRef(running);
@@ -407,7 +408,6 @@ export function Experiment() {
     sendLinks(true);
     if (posRef.current) capture(snapsRef.current, 0, posRef.current);
     readOff(state, world);
-    setReport(null);
     setRunning(false);
     setRefit((r) => r + 1);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -438,10 +438,7 @@ export function Experiment() {
   }
 
   function finish() {
-    const state = stateRef.current;
-    if (!state || !world) return;
     setRunning(false);
-    setReport(buildReport(state, world, initState(world, seed)));
   }
 
   // ── The clock ─────────────────────────────────────────────────────────────
@@ -744,7 +741,6 @@ export function Experiment() {
   const replayFloor = started ? earliestDay(snapsRef.current) : 0;
   const span = Math.max(params.days, 1);
   const progress = Math.min(1, shownDay / span);
-  const liveProgress = Math.min(1, liveDay / span);
 
 
   /** Drag anywhere along the track to go to that day. */
@@ -836,7 +832,7 @@ export function Experiment() {
   const youWorld = you !== null && world ? world.worldTitles[world.world[you]] : null;
 
   return (
-    <div className={`xp${scrub !== null ? ' replaying' : ''}`}>
+    <div className="xp">
       {/* ── The shelf: three figures, and the rest behind a disclosure ───── */}
       <div className="xp-shelf">
         <Headline
@@ -904,27 +900,18 @@ export function Experiment() {
               </div>
             </>
           )}
-          {report && (
-            <>
-              <div className="xp-figures-head">
-                <span className="mono xp-label strong">When it stopped</span>
-              </div>
-              <div className="xp-figures-grid">
-                <Figure label="Clustering" value={report.clustering.toFixed(3)} />
-                <Figure label="Modularity" value={report.modularity.toFixed(3)} />
-                <Figure label="Communities" value={String(report.communities)} />
-                <Figure label="Left alone" value={report.singletons.toLocaleString()} />
-                <Figure label="Mean path" value={report.meanPathLength.toFixed(2)} />
-                <Figure label="Unreachable" value={`${(report.unreachable * 100).toFixed(1)}%`} />
-              </div>
-            </>
-          )}
           <p className="xp-note quiet">Or hover any world on the map.</p>
         </div>
       )}
 
       {/* ── The map ──────────────────────────────────────────────────────── */}
-      <div className="xp-stage">
+      <div
+        className="xp-stage"
+        onPointerMove={(e) => {
+          const box = e.currentTarget.getBoundingClientRect();
+          pointerRef.current = { x: e.clientX - box.left, y: e.clientY - box.top };
+        }}
+      >
         {world ? (
           <Field
             world={world}
@@ -957,33 +944,26 @@ export function Experiment() {
           <span className="xp-chip-rule" />
           <button
             type="button"
-            className="mono xp-chip"
+            className="mono xp-chip xp-chip-icon"
             onClick={() => setRefit((r) => r + 1)}
             aria-label="Refit the view"
           >
             Refit
+            <RefitGlyph />
           </button>
         </div>
 
-        {scrub !== null && (
-          <div className="xp-replay">
-            <span className="mono xp-replay-mark">Replaying</span>
-            <span className="mono xp-replay-day">
-              day {scrub} of {liveDay}
-            </span>
-            <button type="button" className="mono xp-link strong" onClick={() => goToDay(null)}>
-              Back to now
-            </button>
-            <span className="mono xp-label">ties as they were · strengths are not replayed</span>
-          </div>
-        )}
-
+        {/* Beside whoever is under the pointer, which is where the board puts
+            it: a card in the corner names somebody without saying which one. */}
         {hover !== null && hover !== you && world && youAdj && hover < youAdj.length && (
-          <div className="xp-hover">
+          <div
+            className="xp-hover"
+            style={{ left: pointerRef.current.x + 16, top: pointerRef.current.y + 14 }}
+          >
             <div className="xp-hover-name">{world.name[hover]}</div>
             <div className="mono xp-label">{world.worldTitles[world.world[hover]]}</div>
-            <div className="mono xp-label">
-              {youAdj[hover].size} ties{started ? '' : ' · click to follow'}
+            <div className="mono xp-hover-do">
+              {started ? `${youAdj[hover].size} ties` : 'Click to follow'}
             </div>
           </div>
         )}
@@ -1067,9 +1047,6 @@ export function Experiment() {
                   onClick={() => goToDay(m.day)}
                 />
               ))}
-              {scrub !== null && (
-                <span className="xp-track-head" style={{ left: `${liveProgress * 100}%` }} />
-              )}
               <span className="xp-track-knob" style={{ left: `${progress * 100}%` }} />
             </span>
             {!ended && (
@@ -1384,6 +1361,7 @@ function Steps(props: {
           <Step n={2} label="Follow someone" now>
             <button type="button" className="xp-block" onClick={props.onRandom}>
               Anyone at random
+              <ShuffleGlyph />
             </button>
             <label className="xp-named">
               <span className="mono xp-label">Or find by name</span>
@@ -1435,7 +1413,10 @@ function Steps(props: {
                 <span className="mono xp-label">
                   {params.days} days · seed {props.seed}
                 </span>
-                <span className="mono xp-link">Fine-tune ›</span>
+                <span className="mono xp-link xp-with-glyph">
+                  Fine-tune
+                  <ChevronGlyph />
+                </span>
               </button>
             </>
           )}
@@ -1481,7 +1462,8 @@ function WorldPicker(props: {
   return (
     <div className="xp-panel-col">
       <button type="button" className="mono xp-back" onClick={props.onBack}>
-        ‹ Back
+        <ChevronGlyph back />
+        Back
       </button>
       <h2 className="xp-panel-title">Which worlds take part?</h2>
       <p className="xp-panel-deck">
@@ -1656,6 +1638,7 @@ function Conditions(props: {
               className="mono xp-outline"
               onClick={() => props.onSeed(randomSeed())}
             >
+              <DiceGlyph />
               New seed
             </button>
           </div>
@@ -1797,6 +1780,46 @@ function AgainGlyph() {
     <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth={1.6} aria-hidden>
       <path d="M13 8a5 5 0 1 1-1.6-3.7" />
       <path d="M12 1.5v3.3H8.7" />
+    </svg>
+  );
+}
+
+/* The boards' own marks. Drawn rather than typed, because a chevron set in the
+   mono face sits on the wrong baseline beside a 9-point tracked label and reads
+   as a punctuation mistake. */
+
+function ShuffleGlyph() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth={1.3} aria-hidden>
+      <path d="M1 4h3c3 0 5 8 8 8h3M12 10l3 2-3 2M1 12h3c1.2 0 2.2-1.2 3-2.7M9 5.7C9.8 4.6 10.8 4 12 4h3M12 2l3 2-3 2" />
+    </svg>
+  );
+}
+
+function RefitGlyph() {
+  return (
+    <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth={1.2} aria-hidden>
+      <path d="M1 4V1h3M8 1h3v3M11 8v3H8M4 11H1V8" />
+    </svg>
+  );
+}
+
+function ChevronGlyph({ back }: { back?: boolean }) {
+  return (
+    <svg width="9" height="9" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth={1.3} aria-hidden>
+      <path d={back ? 'M6.5 2l-3 3 3 3' : 'M3.5 2l3 3-3 3'} />
+    </svg>
+  );
+}
+
+function DiceGlyph() {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth={1.1} aria-hidden>
+      <rect x="1" y="1" width="10" height="10" rx="2" />
+      <circle cx="4" cy="4" r="0.8" fill="currentColor" />
+      <circle cx="8" cy="8" r="0.8" fill="currentColor" />
+      <circle cx="8" cy="4" r="0.8" fill="currentColor" />
+      <circle cx="4" cy="8" r="0.8" fill="currentColor" />
     </svg>
   );
 }
