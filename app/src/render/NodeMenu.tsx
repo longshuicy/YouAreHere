@@ -52,13 +52,16 @@ interface Props {
   onPointerLeave: () => void;
 }
 
+/** What each action buys, in the artboard's words. Short enough to sit on one
+ *  row beside a verb column and a price without being cut — the longer phrasing
+ *  these carried was written for a menu that printed one thing per line. */
 const GLOSS: Record<ActionKey, string> = {
-  expand: 'show its neighbours',
-  facts: 'what is known of them',
-  name: 'one name, nothing more',
+  expand: 'their neighbours',
+  facts: 'what is known',
+  name: 'one name only',
 };
 
-const MENU_W = 244;
+const MENU_W = 265;
 
 /**
  * The free move.
@@ -135,26 +138,15 @@ function ClaimRow({
           }}
           style={{
             display: 'flex',
-            alignItems: 'baseline',
-            justifyContent: 'space-between',
-            gap: 12,
-            width: '100%',
-            padding: '9px 0',
-            textAlign: 'left',
-            whiteSpace: 'nowrap',
+            alignItems: 'center',
           }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.color = 'var(--accent)';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.color = '';
-          }}
+          className="menu-primary tinted"
         >
           <span className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
             claim
           </span>
-          <span style={{ fontFamily: 'var(--serif)', fontSize: 14, color: 'var(--body)' }}>
-            say who they are · -{RECOGNITION_REFUND}
+          <span className="mono" style={{ fontSize: 9, letterSpacing: '0.14em', textTransform: 'uppercase' }}>
+            {RECOGNITION_REFUND} back if right
           </span>
         </button>
       ) : (
@@ -261,6 +253,9 @@ export function NodeMenu({
 
   const handlers = { expand: onExpand, facts: onFacts, name: onName };
 
+  /** How many ties this node has, which is what the drawing already shows. */
+  const degree = strongest?.degree ?? 0;
+
   const [cx, cy] = applyZoom(zoom, p.x, p.y);
   const ring = (nodeRadius(node.presence) + 10.5) * zoom.k;
   const GAP = 26;
@@ -293,12 +288,62 @@ export function NodeMenu({
           style={{
             pointerEvents: 'auto',
             background: 'var(--panel)',
-            border: '1px solid var(--panel-edge)',
-            boxShadow: '2px 3px 0 rgba(22, 19, 15, 0.07)',
-            padding: '4px 12px',
+            // Ink, not the panel edge. The menu is the one thing on the page
+            // that is *in front of* the diagram rather than part of it, and a
+            // grey hairline let it sink into the ties running behind it.
+            border: '1px solid var(--ink)',
+            boxShadow: '4px 4px 0 rgba(22, 19, 15, 0.08)',
             width: MENU_W,
           }}
         >
+          {/* Who this is, and how much of the world they touch. The menu used
+              to open straight onto its prices, which meant the one fact the
+              player already had — whose menu this is — was the one thing it
+              did not say. The tie count is free and already on the paper: it
+              is the degree the node is drawn at. */}
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'baseline',
+              gap: 12,
+              padding: '12px 16px',
+              borderBottom: '1px solid var(--rule)',
+            }}
+          >
+            <span
+              style={{
+                fontFamily: 'var(--serif)',
+                fontSize: 22,
+                lineHeight: 1.1,
+                color: node.isYou ? 'var(--accent)' : 'var(--ink)',
+                minWidth: 0,
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {node.isYou ? 'You' : (session.known.named.get(node.i) ?? 'Someone')}
+            </span>
+            {/* Only once the count is actually known. An unexpanded stranger
+                has no degree on the paper yet, and `0 ties` beside a node
+                plainly drawn with some is worse than saying nothing. */}
+            {degree > 0 && (
+              <span
+                className="mono"
+                style={{
+                  fontSize: 9,
+                  letterSpacing: '0.16em',
+                  textTransform: 'uppercase',
+                  color: 'var(--annotation)',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                {degree} {degree === 1 ? 'tie' : 'ties'}
+              </span>
+            )}
+          </div>
+
           {/* Your own node sells nothing. It offers the one thing it can. */}
           {node.isYou && (
             <button
@@ -306,23 +351,14 @@ export function NodeMenu({
                 e.stopPropagation();
                 onOpenGuess();
               }}
-              style={{
-                display: 'flex',
-                alignItems: 'baseline',
-                justifyContent: 'space-between',
-                gap: 12,
-                width: '100%',
-                padding: '11px 0',
-                borderBottom: factLine || picker ? '1px solid var(--rule)' : 'none',
-                color: 'var(--accent)',
-                textAlign: 'left',
-                whiteSpace: 'nowrap',
-              }}
+              className="menu-primary"
             >
               <span className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
                 I've found myself
               </span>
-              <span style={{ fontFamily: 'var(--serif)', fontSize: 14, fontStyle: 'italic' }}>free</span>
+              <span className="mono" style={{ fontSize: 9, letterSpacing: '0.14em', textTransform: 'uppercase' }}>
+                Free
+              </span>
             </button>
           )}
 
@@ -493,30 +529,19 @@ export function NodeMenu({
                 markSpendOrigin(e.currentTarget);
                 handlers[a](node.i);
               }}
+              className="menu-row"
               style={{
-                display: 'flex',
-                alignItems: 'baseline',
-                justifyContent: 'space-between',
-                gap: 12,
-                width: '100%',
-                padding: '9px 0',
                 // Rules separate rows; there is nothing below the last one.
                 borderBottom: idx < actions.length - 1 ? '1px solid var(--rule)' : 'none',
-                textAlign: 'left',
-                whiteSpace: 'nowrap',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.color = 'var(--accent)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.color = '';
               }}
             >
-              <span className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
-                {a}
-              </span>
-              <span style={{ fontFamily: 'var(--serif)', fontSize: 14, color: 'var(--body)' }}>
-                {GLOSS[a]} · {COST[a]}
+              {/* Verb, then what it buys, then what it costs — the verb in a
+                  fixed column so the three read down the menu as a table
+                  rather than as three ragged sentences. */}
+              <span className="menu-row-verb mono">{a}</span>
+              <span className="menu-row-gloss">{GLOSS[a]}</span>
+              <span className="menu-row-price mono">
+                {COST[a]} {COST[a] === 1 ? 'clue' : 'clues'}
               </span>
             </button>
           ))}
