@@ -889,7 +889,11 @@ export default function App() {
     <>
       {screen}
       {showKey && (
-        <KeyOverlay onClose={() => setShowKey(false)} />
+        <KeyOverlay
+          onClose={() => setShowKey(false)}
+          startLinks={startLinks}
+          onOpenLab={() => navigate({ screen: 'lab' })}
+        />
       )}
     </>
   );

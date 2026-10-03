@@ -95,12 +95,15 @@ export function TopBarLink({
   disabled,
   icon,
   className = '',
+  current = false,
 }: {
   children: ReactNode;
   onClick: () => void;
   disabled?: boolean;
   icon?: ReactNode;
   className?: string;
+  /** The page this link leads to is the one open. */
+  current?: boolean;
 }) {
   return (
     <button
@@ -108,6 +111,7 @@ export function TopBarLink({
       className={`top-bar-link ${className}`.trim()}
       onClick={onClick}
       disabled={disabled}
+      aria-current={current ? 'page' : undefined}
     >
       {icon}
       {children}

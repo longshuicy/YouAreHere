@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, type HTMLAttributes, type MouseEvent } from 'react';
 import type { StrongestTie, VisibleNode } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import { applyZoom, type ZoomState } from '../graph/zoom';
@@ -55,13 +55,90 @@ interface Props {
 /** What each action buys, in the artboard's words. Short enough to sit on one
  *  row beside a verb column and a price without being cut — the longer phrasing
  *  these carried was written for a menu that printed one thing per line. */
-const GLOSS: Record<ActionKey, string> = {
+export const GLOSS: Record<ActionKey, string> = {
   expand: 'their neighbours',
   facts: 'what is known',
   name: 'one name only',
 };
 
 const MENU_W = 265;
+
+/** The card itself: in front of the diagram rather than part of it. */
+export function MenuCard({ children, ...rest }: HTMLAttributes<HTMLDivElement>) {
+  return (
+    <div
+      {...rest}
+      style={{
+        pointerEvents: 'auto',
+        background: 'var(--panel)',
+        // Ink, not the panel edge. The menu is the one thing on the page
+        // that is *in front of* the diagram rather than part of it, and a
+        // grey hairline let it sink into the ties running behind it.
+        border: '1px solid var(--ink)',
+        boxShadow: '4px 4px 0 rgba(22, 19, 15, 0.08)',
+        width: MENU_W,
+        ...rest.style,
+      }}
+    >
+      {children}
+    </div>
+  );
+}
+
+/** A filled row: the move that asserts rather than buys. */
+export function MenuPrimary({
+  label,
+  note,
+  tinted = false,
+  onClick,
+}: {
+  label: string;
+  note: string;
+  tinted?: boolean;
+  onClick?: (e: MouseEvent<HTMLButtonElement>) => void;
+}) {
+  return (
+    <button onClick={onClick} className={`menu-primary${tinted ? ' tinted' : ''}`}>
+      <span className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
+        {label}
+      </span>
+      <span className="mono" style={{ fontSize: 9, letterSpacing: '0.14em', textTransform: 'uppercase' }}>
+        {note}
+      </span>
+    </button>
+  );
+}
+
+/** Verb, then what it buys, then what it costs — the verb in a fixed column so
+ *  the rows read down the menu as a table rather than as ragged sentences. */
+export function MenuRow({
+  verb,
+  gloss,
+  price,
+  ruled,
+  onClick,
+}: {
+  verb: string;
+  gloss: string;
+  price: number;
+  /** Rules separate rows; there is nothing below the last one. */
+  ruled: boolean;
+  onClick?: (e: MouseEvent<HTMLButtonElement>) => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      className="menu-row"
+      style={{ borderBottom: ruled ? '1px solid var(--rule)' : 'none' }}
+    >
+      <span className="menu-row-verb mono">{verb}</span>
+      <span className="menu-row-gloss">{gloss}</span>
+      <span className="menu-row-price mono">
+        {price} {price === 1 ? 'clue' : 'clues'}
+      </span>
+    </button>
+  );
+}
 
 /**
  * The free move.
@@ -131,24 +208,15 @@ function ClaimRow({
       )}
 
       {!open ? (
-        <button
+        <MenuPrimary
+          tinted
+          label="claim"
+          note={`${RECOGNITION_REFUND} back if right`}
           onClick={(e) => {
             e.stopPropagation();
             setOpen(true);
           }}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-          }}
-          className="menu-primary tinted"
-        >
-          <span className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
-            claim
-          </span>
-          <span className="mono" style={{ fontSize: 9, letterSpacing: '0.14em', textTransform: 'uppercase' }}>
-            {RECOGNITION_REFUND} back if right
-          </span>
-        </button>
+        />
       ) : (
         <div style={{ padding: '9px 16px 12px 16px' }} onClick={(e) => e.stopPropagation()}>
           <div className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase', paddingBottom: 7 }}>
@@ -282,20 +350,7 @@ export function NodeMenu({
         strokeDasharray="2 3"
       />
       <foreignObject x={menuX} y={cy - 26} width={MENU_W} height={440} style={{ overflow: 'visible' }}>
-        <div
-          onMouseEnter={onPointerEnter}
-          onMouseLeave={onPointerLeave}
-          style={{
-            pointerEvents: 'auto',
-            background: 'var(--panel)',
-            // Ink, not the panel edge. The menu is the one thing on the page
-            // that is *in front of* the diagram rather than part of it, and a
-            // grey hairline let it sink into the ties running behind it.
-            border: '1px solid var(--ink)',
-            boxShadow: '4px 4px 0 rgba(22, 19, 15, 0.08)',
-            width: MENU_W,
-          }}
-        >
+        <MenuCard onMouseEnter={onPointerEnter} onMouseLeave={onPointerLeave}>
           {/* Who this is, and how much of the world they touch. The menu used
               to open straight onto its prices, which meant the one fact the
               player already had — whose menu this is — was the one thing it
@@ -346,20 +401,14 @@ export function NodeMenu({
 
           {/* Your own node sells nothing. It offers the one thing it can. */}
           {node.isYou && (
-            <button
+            <MenuPrimary
+              label="I've found myself"
+              note="Free"
               onClick={(e) => {
                 e.stopPropagation();
                 onOpenGuess();
               }}
-              className="menu-primary"
-            >
-              <span className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase' }}>
-                I've found myself
-              </span>
-              <span className="mono" style={{ fontSize: 9, letterSpacing: '0.14em', textTransform: 'uppercase' }}>
-                Free
-              </span>
-            </button>
+            />
           )}
 
           {factLine && (
@@ -521,31 +570,21 @@ export function NodeMenu({
           )}
 
           {actions.map((a, idx) => (
-            <button
+            <MenuRow
               key={a}
+              verb={a}
+              gloss={GLOSS[a]}
+              price={COST[a]}
+              ruled={idx < actions.length - 1}
               onClick={(e) => {
                 e.stopPropagation();
                 // The row the price is printed on is where the mark lifts from.
                 markSpendOrigin(e.currentTarget);
                 handlers[a](node.i);
               }}
-              className="menu-row"
-              style={{
-                // Rules separate rows; there is nothing below the last one.
-                borderBottom: idx < actions.length - 1 ? '1px solid var(--rule)' : 'none',
-              }}
-            >
-              {/* Verb, then what it buys, then what it costs — the verb in a
-                  fixed column so the three read down the menu as a table
-                  rather than as three ragged sentences. */}
-              <span className="menu-row-verb mono">{a}</span>
-              <span className="menu-row-gloss">{GLOSS[a]}</span>
-              <span className="menu-row-price mono">
-                {COST[a]} {COST[a] === 1 ? 'clue' : 'clues'}
-              </span>
-            </button>
+            />
           ))}
-        </div>
+        </MenuCard>
       </foreignObject>
     </g>
   );

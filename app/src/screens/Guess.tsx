@@ -1,11 +1,11 @@
-import { useEffect, useMemo, useState, type ReactNode } from 'react';
+import { useEffect, useMemo, useState, type InputHTMLAttributes, type ReactNode } from 'react';
 import { Stage } from '../render/Stage';
 import { clueTotal } from '../render/Ledger';
 import { type StartLinks, CHROME_PADDING } from '../render/MarginLinks';
 import { TopBar } from '../render/TopBar';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
-import type { Session } from '../engine/session';
+import type { GuessRecord, Session } from '../engine/session';
 import { COST, worldIsKnown } from '../engine/session';
 import { resolveName, suggestNames } from '../engine/names';
 import type { Universe } from '../types';
@@ -102,15 +102,7 @@ export function Guess({
    * It is only ever offered once the story is right, which is the guard: you
    * cannot use the box as a rangefinder until you have established the book.
    */
-  const bearing = !last || last.characterCorrect || !last.storyCorrect
-    ? null
-    : last.characterIndex === null
-      ? 'No one by that name is in this world.'
-      : last.hops === null
-        ? 'They are in this world, but no run of ties reaches them from you.'
-        : last.hops === 1
-          ? 'They are standing right next to you, one tie away.'
-          : `They are ${last.hops} ties away from you.`;
+  const bearing = !last || last.characterCorrect || !last.storyCorrect ? null : bearingFor(last);
 
   const clues = clueTotal(session.ledger);
 
@@ -252,42 +244,29 @@ export function Guess({
             <label htmlFor="character" className="sr-only">
               Your name
             </label>
-            {/* The struck name above the field, so a rejected guess stays
-                readable while the next one is typed. */}
-            {rejected && (
-              <div style={{ fontSize: 20, color: 'var(--unknown)', textDecoration: 'line-through', marginBottom: 6 }}>
-                {rejected}
-              </div>
-            )}
-            <div className="guess-field">
-              <input
-                id="character"
-                value={query}
-                onChange={(e) => {
-                  setQuery(e.target.value);
-                  setHot(0);
-                }}
-                placeholder="Type a name"
-                autoComplete="off"
-                autoFocus
-                onKeyDown={(e) => {
-                  if (e.key === 'ArrowDown') {
-                    e.preventDefault();
-                    setHot((h) => Math.min(h + 1, Math.max(0, live.length - 1)));
-                  } else if (e.key === 'ArrowUp') {
-                    e.preventDefault();
-                    setHot((h) => Math.max(0, h - 1));
-                  } else if (e.key === 'Enter') {
-                    submit(chosen);
-                  } else if (e.key === 'Escape') {
-                    onCancel();
-                  }
-                }}
-              />
-              <span className="annot" style={{ fontSize: 9, letterSpacing: '0.16em', color: 'var(--unknown)' }}>
-                ↑↓ to pick
-              </span>
-            </div>
+            <GuessInput
+              rejected={rejected}
+              id="character"
+              value={query}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setHot(0);
+              }}
+              autoFocus
+              onKeyDown={(e) => {
+                if (e.key === 'ArrowDown') {
+                  e.preventDefault();
+                  setHot((h) => Math.min(h + 1, Math.max(0, live.length - 1)));
+                } else if (e.key === 'ArrowUp') {
+                  e.preventDefault();
+                  setHot((h) => Math.max(0, h - 1));
+                } else if (e.key === 'Enter') {
+                  submit(chosen);
+                } else if (e.key === 'Escape') {
+                  onCancel();
+                }
+              }}
+            />
 
             {suggestions.length > 0 && (
               <div role="listbox" aria-label="Suggestions" className="guess-list">
@@ -374,6 +353,40 @@ export function Guess({
         </div>
       </div>
     </div>
+  );
+}
+
+/** How far the named character stands from you, said as a sentence. */
+export function bearingFor(last: Pick<GuessRecord, 'characterIndex' | 'hops'>): string {
+  if (last.characterIndex === null) return 'No one by that name is in this world.';
+  if (last.hops === null) return 'They are in this world, but no run of ties reaches them from you.';
+  if (last.hops === 1) return 'They are standing right next to you, one tie away.';
+  return `They are ${last.hops} ties away from you.`;
+}
+
+/** The one field on the guess screen, with the last refused name struck above
+ *  it so a rejected guess stays readable while the next one is typed. */
+export function GuessInput({
+  rejected,
+  hint = true,
+  ...input
+}: { rejected: string | null; hint?: boolean } & InputHTMLAttributes<HTMLInputElement>) {
+  return (
+    <>
+      {rejected && (
+        <div style={{ fontSize: 20, color: 'var(--unknown)', textDecoration: 'line-through', marginBottom: 6 }}>
+          {rejected}
+        </div>
+      )}
+      <div className="guess-field">
+        <input placeholder="Type a name" autoComplete="off" {...input} />
+        {hint && (
+          <span className="annot" style={{ fontSize: 9, letterSpacing: '0.16em', color: 'var(--unknown)' }}>
+            ↑↓ to pick
+          </span>
+        )}
+      </div>
+    </>
   );
 }
 

@@ -25,6 +25,7 @@ export function TopBar({
   onBack,
   backLabel = 'Back',
   onOpenKey,
+  keyOpen = false,
   onOpenLab,
   aside,
   wordmark = true,
@@ -40,6 +41,8 @@ export function TopBar({
   backLabel?: string;
   /** Elsewhere: what you can reach that is not a move in the game. */
   onOpenKey?: () => void;
+  /** The bar is drawn on How to play itself, so that link says where you are. */
+  keyOpen?: boolean;
   onOpenLab?: () => void;
   /** A readout this screen keeps in the corner, before the standing links —
    *  the guess screen puts the clue count there, because on that screen the
@@ -81,10 +84,10 @@ export function TopBar({
           a target. */}
       {back && mark && <div className="top-bar-center">{mark}</div>}
 
-      <nav aria-label="Elsewhere" className="top-bar-side top-bar-nav">
+      <nav aria-label="Elsewhere" className="top-bar-side top-bar-nav top-bar-elsewhere">
         {aside}
         {onOpenKey && (
-          <TopBarLink onClick={onOpenKey} disabled={disabled}>
+          <TopBarLink onClick={onOpenKey} disabled={disabled} current={keyOpen}>
             How to play
           </TopBarLink>
         )}
