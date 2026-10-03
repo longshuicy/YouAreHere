@@ -181,6 +181,9 @@ export function Experiment() {
   /** What the last build was of, so a rebuild can tell a restart (same worlds,
    *  same seed, the Again button) from a genuinely different run. */
   const builtRef = useRef<{ world: MergedWorld | null; seed: number } | null>(null);
+  /** Whether the next build should start playing. The build effect pauses by
+   *  default, and a play requested in the same click would otherwise lose. */
+  const playOnBuildRef = useRef(false);
   const [running, setRunning] = useState(false);
   const [tieView, setTieView] = useState<TieView>('all');
   const [refit, setRefit] = useState(0);
@@ -424,7 +427,8 @@ export function Experiment() {
     sendLinks(true);
     if (posRef.current) capture(snapsRef.current, 0, posRef.current);
     readOff(state, world);
-    setRunning(false);
+    setRunning(playOnBuildRef.current);
+    playOnBuildRef.current = false;
     setRefit((r) => r + 1);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [world, seed, runId]);
@@ -1058,8 +1062,8 @@ export function Experiment() {
               }
               onClick={() => {
                 if (ended) {
+                  playOnBuildRef.current = true;
                   setRunId((r) => r + 1);
-                  setRunning(true);
                   return;
                 }
                 if (scrub !== null) {
@@ -1252,8 +1256,11 @@ export function Experiment() {
             onRandom={wakeElsewhere}
             onUnfollow={() => setFollow(null)}
             onBegin={() => {
+              // Always from year zero: the conditions may have changed since the
+              // last run, and the old state was built under the old ones.
+              playOnBuildRef.current = true;
+              setRunId((r) => r + 1);
               setStarted(true);
-              setRunning(true);
             }}
           />
         )}
