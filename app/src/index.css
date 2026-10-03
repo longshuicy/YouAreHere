@@ -1978,9 +1978,12 @@ button {
   flex-direction: column;
 }
 
+/* Out at the right, under the strength bars rather than under the names: it
+   acts on the length of the list, and hanging off the left it read as a sixth
+   person whose name was a number. */
 .xp-more {
-  align-self: flex-start;
-  margin-top: 8px;
+  align-self: flex-end;
+  margin-top: 10px;
 }
 
 .xp-person {

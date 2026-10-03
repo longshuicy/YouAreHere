@@ -763,7 +763,7 @@ export default function App() {
           onBegin={beginFromCold}
           targetEase={targetEase}
           onChooseEase={chooseEase}
-          onOpenGallery={() => navigate({ screen: 'lab-worlds' })}
+          onOpenGallery={() => navigate({ screen: 'lab' })}
         />
       );
       break;
