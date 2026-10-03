@@ -230,6 +230,11 @@ export function ColdOpen({
         gap: 'clamp(8px, 1.4vh, 16px)',
         padding: CHROME_PADDING,
         paddingBottom: 'max(32px, var(--pad-bottom))',
+        // The only screen with a fixed-width column of prose sitting alone
+        // against the inset: everywhere else the inset is the edge of
+        // something — a bar, a graph — so 64px reads as a margin. Here it is
+        // the edge of a paragraph, which wants more air on a wide window.
+        paddingLeft: 'calc(var(--pad-x) + clamp(0px, 6vw, 56px))',
       }}
     >
       {/* Neither the key nor the lab is a thing to do here, so neither is

@@ -1,8 +1,7 @@
 import type { ReactNode } from 'react';
 import { FullGraph } from '../render/FullGraph';
-import { CHROME_PADDING } from '../render/MarginLinks';
-import { NameLink } from '../render/NameLink';
-import { WikiLink } from '../render/WikiLink';
+import { PageTitle } from '../render/PageTitle';
+import { SplitPage } from './SplitPage';
 import { CharacterReading } from './CharacterReading';
 import type { RoundReading } from '../graph/reading';
 import type { WorldMetrics } from '../gallery/metrics';
@@ -40,8 +39,7 @@ export function ReadingPage({
   belowHead,
   head,
   chrome,
-  chromeLeft,
-  chromeRight,
+  chromeExtra = 0,
   after,
   linkToCharacter,
   linkToTwin,
@@ -52,7 +50,7 @@ export function ReadingPage({
   meta: UniverseMeta | null;
   i: NodeIndex;
   /** The line above the name. The only place the two callers' framing differs. */
-  eyebrow: string;
+  eyebrow?: string;
   subtitle: string;
   /** Names the player earned, kept on the paper. Nobody has earned any in the
    * gallery, where the network arrives fully named regardless. */
@@ -80,11 +78,12 @@ export function ReadingPage({
    *  verdict with a strip of figures under it rather than a title. Nothing
    *  else passes it, so every other page keeps the head below. */
   head?: ReactNode;
-  /** A whole bar, laid over both columns. Supersedes the left/right pair,
-   *  which the gallery still uses. */
+  /** A whole bar, laid over both columns. */
   chrome?: ReactNode;
-  chromeLeft?: ReactNode;
-  chromeRight?: ReactNode;
+  /** Extra height `chrome` takes beyond the bar itself — the lab's tabs, laid
+   *  under the bar on the character page — so the graph and the reading start
+   *  clear of it instead of under it. Zero everywhere `chrome` is just the bar. */
+  chromeExtra?: number;
   /** Whatever belongs under the reading: the round, the closing note. Scrolls
    * with it. Anything a reader must be able to reach without having read to
    * the bottom first belongs in `headAside` instead — see `whatNow` in
@@ -103,12 +102,10 @@ export function ReadingPage({
   const character = universe.nodes.find((n) => n.i === i);
   const record = meta?.nodes[String(i)];
   return (
-    <div
-      className="reveal-root"
-      style={{ position: 'relative', height: '100dvh', overflow: 'hidden', background: 'var(--paper)' }}
-    >
-      {/* Graph is the right half of the page, not a boxed panel. */}
-      <div className="reveal-graph">
+    <SplitPage
+      chrome={chrome}
+      chromeExtra={chromeExtra}
+      graph={
         <FullGraph
           universe={universe}
           you={i}
@@ -120,146 +117,39 @@ export function ReadingPage({
           role="subject"
           folded={folded}
         />
-        {/* Free-floating in the graph's own corner, not a caption boxed off
-            by a rule and a paper backing — the design sets it loose under a
-            small legend, both in the annotation grey, with nothing drawn
-            between them and the diagram they describe. */}
-        {graphNote && (
-          <div
-            style={{
-              position: 'absolute',
-              left: 24,
-              bottom: 18,
-              maxWidth: 420,
-              display: 'flex',
-              flexDirection: 'column',
-              gap: 8,
-              pointerEvents: 'none',
-            }}
-          >
-            <div
-              className="mono"
-              style={{
-                display: 'flex',
-                gap: 20,
-                fontSize: 9,
-                letterSpacing: '0.18em',
-                textTransform: 'uppercase',
-                color: 'var(--annotation)',
-              }}
-            >
-              <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}>
-                <span style={{ display: 'block', width: 18, height: 2, background: 'var(--accent)' }} />
-                Your ties
-              </span>
-              <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}>
-                <span style={{ display: 'block', width: 18, height: 1, background: 'var(--tie-strong)' }} />
-                Everyone else's
-              </span>
-            </div>
-            <div style={{ fontSize: 15, lineHeight: 1.4, color: 'var(--annotation)', fontStyle: 'italic' }}>
-              {graphNote}
-            </div>
-          </div>
-        )}
-      </div>
-
-      {/* Paper column on the left: a head that stays, a body that scrolls. */}
-      <div className="reveal-copy">
-        {head ?? (
+      }
+      graphNote={graphNote}
+      legend
+      head={
+        head ?? (
           <div className="reveal-head">
             <div className="reveal-head-name">
-              <div className="chrome" style={{ letterSpacing: '0.3em' }}>
-                {eyebrow}
-              </div>
-
-              <div
-                style={{
-                  // Smaller than the design's 57px, because there the name had
-                  // a whole centred page to itself and here it shares its line
-                  // with the tally. At 57 a two-word name wrapped to three lines
-                  // and the fixed head ate a third of the column.
-                  fontSize: 'clamp(30px, 7vw, 46px)',
-                  letterSpacing: '0.015em',
-                  marginTop: 14,
-                  lineHeight: 1.1,
-                  display: 'flex',
-                  flexWrap: 'wrap',
-                  alignItems: 'baseline',
-                  gap: '8px 12px',
-                }}
-              >
-                <span>{character?.n ?? 'Unknown'}</span>
-                {record?.wiki && (
-                  <WikiLink title={record.wiki} lang={record.wikiLang ?? 'en'} />
-                )}
-              </div>
-
-              <div
-                style={{
-                  fontSize: 'clamp(18px, 5vw, 23px)',
-                  fontStyle: 'italic',
-                  color: 'var(--body)',
-                  marginTop: 10,
-                }}
-              >
-                {onOpenWorld ? (
-                  <NameLink style={{ fontStyle: 'italic' }} onClick={onOpenWorld}>
-                    {subtitle}
-                  </NameLink>
-                ) : (
-                  subtitle
-                )}
-              </div>
+              <PageTitle
+                eyebrow={eyebrow}
+                title={character?.n ?? 'Unknown'}
+                worldTitle={subtitle}
+                onOpenWorld={onOpenWorld}
+                cast={universe.nodes.length}
+                wiki={record?.wiki ? { title: record.wiki, lang: record.wikiLang } : null}
+              />
             </div>
 
             {headAside && <div className="reveal-head-aside">{headAside}</div>}
           </div>
-        )}
-
-        {/* Full width of the copy column, between the head and the reading.
-            A reveal's ways out belong here: the aside beside the name is a
-            narrow column of figures, and three buttons in it are three buttons
-            in a gutter. Nothing passes this but the reveal, so every other
-            page that uses this layout is unchanged. */}
-        {belowHead}
-
-        <div className="reveal-sections">
-          <CharacterReading
-            universe={universe}
-            world={world}
-            meta={meta}
-            i={i}
-            round={round}
-            linkToCharacter={linkToCharacter}
-            linkToTwin={linkToTwin}
-          />
-          {after}
-        </div>
-      </div>
-
-      {/* Chrome overlays both columns so it does not steal a header row. */}
-      <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          padding: chrome ? 'var(--pad-top) var(--pad-x) 0 var(--pad-x)' : CHROME_PADDING,
-          display: chrome ? 'block' : 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'baseline',
-          // Over a stacked, scrolling page the chrome would otherwise sit at the
-          // top of the *document* and scroll away with the graph.
-          height: 'fit-content',
-          pointerEvents: 'none',
-        }}
-      >
-        {chrome ?? (
-          <>
-            {chromeLeft}
-            {chromeRight}
-          </>
-        )}
-      </div>
-    </div>
+        )
+      }
+      belowHead={belowHead}
+    >
+      <CharacterReading
+        universe={universe}
+        world={world}
+        meta={meta}
+        i={i}
+        round={round}
+        linkToCharacter={linkToCharacter}
+        linkToTwin={linkToTwin}
+      />
+      {after}
+    </SplitPage>
   );
 }

@@ -1388,7 +1388,7 @@ function Steps(props: {
     <div className="xp-steps-wrap">
       {!ready && (
         <div className="xp-intro">
-          <span className="mono xp-label">The experiment</span>
+          <span className="mono xp-label">Experiments</span>
           <h2 className="xp-intro-title">What happens with no walls?</h2>
           <p className="xp-intro-deck">
             Every character starts inside their own story. Choose the worlds, pick someone in

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { BackLink, BrandCluster, BrandMark, ChromeRight, StartLinkPair, type StartLinks } from '../render/MarginLinks';
+import { BrandCluster, type StartLinks } from '../render/MarginLinks';
 import { Experiment } from '../experiment/Experiment';
 import { FullGraph } from '../render/FullGraph';
 import { fetchMeta, findByName } from '../data/loader';
@@ -8,8 +8,9 @@ import { DegreeBars, HorizonStrip, StripLabel } from './Fingerprint';
 import { CharacterIndex } from './CharacterIndex';
 import { Ledger } from './Ledger';
 import { ReadingPage } from '../screens/ReadingPage';
+import { SplitPage } from '../screens/SplitPage';
 import { NameLink } from '../render/NameLink';
-import { WikiLink } from '../render/WikiLink';
+import { PageTitle } from '../render/PageTitle';
 import { noteTooltip } from './metricNotes';
 import { measureWorld, type CharacterMetrics, type WorldMetrics } from './metrics';
 import type { Route } from '../engine/route';
@@ -30,16 +31,9 @@ import type { WorldProgress } from '../engine/residence';
  */
 
 const DETAIL_STRIP = 560;
-/** The floor under the network, not its height.
- *
- * It used to be a fixed 320, chosen to land near the fingerprint beside it —
- * which it did until the strips grew their captions, and then the left column
- * ran a page further down than the right and the network sat in the top third
- * of its own half looking like a thumbnail. The two columns stretch to each
- * other now, so the network is as tall as the ties-each strip, the horizon
- * strip and both of their readings put together. This is only what it may not
- * go below, for a world whose fingerprint is unusually short. */
-const DETAIL_GRAPH_MIN = 320;
+/** How much the lab's title and tabs, under the wordmark row on a detail page,
+ * add to the bar's height. */
+const LAB_TABS_HEIGHT = 84;
 const DETAIL_BARS = 116;
 const DETAIL_TICKS = 126;
 /** Long enough to see a camp's shape, short enough that the page is still a
@@ -153,12 +147,14 @@ function WorldDetail({
   meta,
   progress,
   onOpenCharacter,
+  chrome,
 }: {
   world: WorldMetrics;
   universe: Universe | undefined;
   meta: UniverseMeta | null;
   progress: WorldProgress | undefined;
   onOpenCharacter: (i: number) => void;
+  chrome: ReactNode;
 }) {
   const connected = world.characters.filter((c) => c.degree > 0);
   /** A third of each end on the small plays, so the two ends stay ends and
@@ -231,65 +227,53 @@ function WorldDetail({
   }, [world]);
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 30, paddingTop: 10 }}>
-      <div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          alignItems: 'baseline',
-          gap: '12px 18px',
-        }}
-      >
-        <div style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(24px, 6.4vw, 34px)', lineHeight: 1.1 }}>
-          {world.title}
-        </div>
-        {meta?.workWiki && (
-          <WikiLink title={meta.workWiki} lang={meta.workWikiLang ?? 'en'} />
-        )}
-      </div>
-
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 40, borderTop: '1px solid var(--rule)', paddingTop: 18 }}>
-        {(
-          [
-            ['Cast', String(world.nodes)],
-            ['Ties', String(world.edges)],
-            ['Concentration', world.concentration.toFixed(2), 'concentration'],
-            ['Camps', String(world.communities), 'camps'],
-            ['Modularity', world.modularity.toFixed(2), 'camps'],
-            ['Outermost', `${world.horizonSpread.toFixed(1)}×`, 'horizon'],
-            ...(progress
-              ? ([
-                  ['Your map', progress.complete ? 'Finished' : `${progress.named}/${progress.cast}`],
-                  ['Starts', String(progress.starts)],
-                  ['Clues', String(progress.clues)],
-                ] as [string, string][])
-              : []),
-          ] as [string, string, string?][]
-        ).map(([label, value, note]) => (
-          <div
-            key={label}
-            style={{ display: 'flex', flexDirection: 'column', gap: 5 }}
-            title={note ? noteTooltip(note) : undefined}
-          >
-            <span className="annot" style={{ fontSize: 9 }}>{label}</span>
-            <span className="mono" style={{ fontSize: 19, color: 'var(--ink)' }}>{value}</span>
+    <SplitPage
+      chrome={chrome}
+      chromeExtra={LAB_TABS_HEIGHT}
+      graph={universe ? <FullGraph universe={universe} role="subject" /> : <div className="annot">Not loaded</div>}
+      graphNote="Drag to pan, scroll to zoom, hover to name anyone."
+      head={
+        <div className="reveal-head">
+          <div className="reveal-head-name">
+            <PageTitle
+              title={world.title}
+              cast={world.nodes}
+              wiki={meta?.workWiki ? { title: meta.workWiki, lang: meta.workWikiLang } : null}
+            />
           </div>
-        ))}
-      </div>
+        </div>
+      }
+    >
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 30, paddingTop: 18 }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 40, borderTop: '1px solid var(--rule)', paddingTop: 18 }}>
+          {(
+            [
+              ['Cast', String(world.nodes)],
+              ['Ties', String(world.edges)],
+              ['Concentration', world.concentration.toFixed(2), 'concentration'],
+              ['Camps', String(world.communities), 'camps'],
+              ['Modularity', world.modularity.toFixed(2), 'camps'],
+              ['Outermost', `${world.horizonSpread.toFixed(1)}×`, 'horizon'],
+              ...(progress
+                ? ([
+                    ['Your map', progress.complete ? 'Finished' : `${progress.named}/${progress.cast}`],
+                    ['Starts', String(progress.starts)],
+                    ['Clues', String(progress.clues)],
+                  ] as [string, string][])
+                : []),
+            ] as [string, string, string?][]
+          ).map(([label, value, note]) => (
+            <div
+              key={label}
+              style={{ display: 'flex', flexDirection: 'column', gap: 5 }}
+              title={note ? noteTooltip(note) : undefined}
+            >
+              <span className="annot" style={{ fontSize: 9 }}>{label}</span>
+              <span className="mono" style={{ fontSize: 19, color: 'var(--ink)' }}>{value}</span>
+            </div>
+          ))}
+        </div>
 
-      {/* The fingerprint again, at a size it can be read, beside the network it
-          is a measurement of. Both columns carry the same header so they start
-          on the same line. */}
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(min(440px, 100%), 1fr))',
-          gap: 44,
-          // Stretch, so the network matches the fingerprint's full height
-          // rather than a number guessed in advance.
-          alignItems: 'stretch',
-        }}
-      >
         <div>
           <SectionHead>The fingerprint</SectionHead>
           {/* The reading sits under the drawing it reads, always, rather than
@@ -324,123 +308,162 @@ function WorldDetail({
           </div>
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', minHeight: 0 }}>
-          <SectionHead>The whole network</SectionHead>
-          {/* A frame that takes exactly the space left over, and a drawing
-              laid out inside it.
-              `flex: 1 1 auto` was not enough on its own: the basis is the
-              content, and the network's own svg draws past its box, so the
-              frame grew to whatever the drawing wanted and the right column ran
-              on a long way below the left. A zero basis means the frame can
-              only ever be the leftover height, and the drawing is positioned
-              against it rather than measured from it. */}
-          <div
-            style={{
-              flex: '1 1 0',
-              minHeight: DETAIL_GRAPH_MIN,
-              position: 'relative',
-              overflow: 'hidden',
-            }}
-          >
-            <div style={{ position: 'absolute', inset: 0 }}>
-              {universe ? (
-                <FullGraph universe={universe} role="subject" />
-              ) : (
-                <div className="annot">Not loaded</div>
-              )}
-            </div>
-          </div>
-          <div className="annot" style={{ fontSize: 9, paddingTop: 10 }}>
-            Drag to pan, scroll to zoom, hover to name anyone.
-          </div>
-        </div>
-      </div>
-
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))',
-          gap: 44,
-          alignItems: 'start',
-        }}
-      >
-        <div title={noteTooltip('horizon')}>
-          <SectionHead>The widest horizon</SectionHead>
-          {outermost.map((c) => (
-            <CharacterRow
-              key={c.i}
-              character={c}
-              of={world.nodes}
-              figure={`${c.gain.toFixed(1)}×`}
-              onOpen={onOpenCharacter}
-            />
-          ))}
-          <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.7 }}>
-            A few ties, and the whole world standing behind them.
-          </div>
-        </div>
-
-        <div title={noteTooltip('centre')}>
-          <SectionHead>At the centre</SectionHead>
-          {innermost.map((c) => (
-            <CharacterRow
-              key={c.i}
-              character={c}
-              of={world.nodes}
-              figure={`${Math.round(((c.degree + c.reach) / 2 / Math.max(1, world.nodes - 1)) * 100)}%`}
-              onOpen={onOpenCharacter}
-            />
-          ))}
-          <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.7 }}>
-            Two hops from here is most of the cast.
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <SectionHead>Camps · {camps.length}</SectionHead>
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(min(240px, 100%), 1fr))',
-            gap: 28,
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))',
+            gap: 44,
             alignItems: 'start',
           }}
         >
-          {camps.map((members, i) => (
-            <div key={i}>
-              <div className="annot" style={{ fontSize: 9, paddingBottom: 6 }}>
-                Camp {i + 1} · {members.length} {members.length === 1 ? 'character' : 'characters'}
-              </div>
-              <div
-                className="world-list"
-                style={{
-                  maxHeight: 132,
-                  overflowY: 'auto',
-                  paddingRight: 8,
-                  fontFamily: 'var(--serif)',
-                  fontSize: 14,
-                  lineHeight: 1.55,
-                  color: 'var(--body)',
-                }}
-              >
-                {members.slice(0, CAMP_PREVIEW).map((m, k, arr) => (
-                  <span key={m.i}>
-                    <NameLink onClick={() => onOpenCharacter(m.i)}>{m.name}</NameLink>
-                    {k < arr.length - 1 ? ', ' : ''}
-                  </span>
-                ))}
-                {members.length > CAMP_PREVIEW && (
-                  <span style={{ color: 'var(--unknown)' }}>
-                    {' '}… and {members.length - CAMP_PREVIEW} more
-                  </span>
-                )}
-              </div>
+          <div title={noteTooltip('horizon')}>
+            <SectionHead>The widest horizon</SectionHead>
+            {outermost.map((c) => (
+              <CharacterRow
+                key={c.i}
+                character={c}
+                of={world.nodes}
+                figure={`${c.gain.toFixed(1)}×`}
+                onOpen={onOpenCharacter}
+              />
+            ))}
+            <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.7 }}>
+              A few ties, and the whole world standing behind them.
             </div>
-          ))}
+          </div>
+
+          <div title={noteTooltip('centre')}>
+            <SectionHead>At the centre</SectionHead>
+            {innermost.map((c) => (
+              <CharacterRow
+                key={c.i}
+                character={c}
+                of={world.nodes}
+                figure={`${Math.round(((c.degree + c.reach) / 2 / Math.max(1, world.nodes - 1)) * 100)}%`}
+                onOpen={onOpenCharacter}
+              />
+            ))}
+            <div className="annot" style={{ fontSize: 9, paddingTop: 8, lineHeight: 1.7 }}>
+              Two hops from here is most of the cast.
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <SectionHead>Camps · {camps.length}</SectionHead>
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fill, minmax(min(240px, 100%), 1fr))',
+              gap: 28,
+              alignItems: 'start',
+            }}
+          >
+            {camps.map((members, i) => (
+              <div key={i}>
+                <div className="annot" style={{ fontSize: 9, paddingBottom: 6 }}>
+                  Camp {i + 1} · {members.length} {members.length === 1 ? 'character' : 'characters'}
+                </div>
+                <div
+                  className="world-list"
+                  style={{
+                    maxHeight: 132,
+                    overflowY: 'auto',
+                    paddingRight: 8,
+                    fontFamily: 'var(--serif)',
+                    fontSize: 14,
+                    lineHeight: 1.55,
+                    color: 'var(--body)',
+                  }}
+                >
+                  {members.slice(0, CAMP_PREVIEW).map((m, k, arr) => (
+                    <span key={m.i}>
+                      <NameLink onClick={() => onOpenCharacter(m.i)}>{m.name}</NameLink>
+                      {k < arr.length - 1 ? ', ' : ''}
+                    </span>
+                  ))}
+                  {members.length > CAMP_PREVIEW && (
+                    <span style={{ color: 'var(--unknown)' }}>
+                      {' '}… and {members.length - CAMP_PREVIEW} more
+                    </span>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </SplitPage>
+  );
+}
+
+type LabView = 'experiment' | 'worlds' | 'characters';
+
+/** The lab's three rooms, named on all of them — including the character and
+ *  world pages, which used to drop the tabs the moment they opened a detail
+ *  and left no way to switch rooms without going back first. */
+function LabTabs({ view, onChoose }: { view: LabView; onChoose: (next: LabView) => void }) {
+  return (
+    <nav className="lab-tabs" aria-label="Lab views">
+      {(
+        [
+          ['experiment', 'Experiments'],
+          ['worlds', 'Worlds'],
+          ['characters', 'Characters'],
+        ] as const
+      ).map(([key, label]) => (
+        <button
+          key={key}
+          type="button"
+          className={`lab-tab${view === key ? ' on' : ''}`}
+          aria-current={view === key ? 'page' : undefined}
+          onClick={() => onChoose(key)}
+        >
+          {label}
+        </button>
+      ))}
+    </nav>
+  );
+}
+
+/** The lab's header: the wordmark and the ways back into the game, with what
+ *  the catalogue adds up to in the corner opposite, then the lab's name and its
+ *  three rooms. The same on the catalogue and on every page opened from it. */
+function LabHeader({
+  startLinks,
+  figures,
+  view,
+  onChoose,
+}: {
+  startLinks: StartLinks;
+  figures: string[];
+  view: LabView;
+  onChoose: (next: LabView) => void;
+}) {
+  return (
+    <>
+      <div className="lab-top">
+        <BrandCluster {...startLinks} />
+        {figures.length > 0 && (
+          <p className="annot lab-figures">
+            {figures.map((clause, i, all) => (
+              <span key={clause}>
+                <span style={{ whiteSpace: 'nowrap' }}>{clause}</span>
+                {i < all.length - 1 ? ' · ' : ''}
+              </span>
+            ))}
+          </p>
+        )}
+      </div>
+
+      {/* The lab's name and its three rooms on one line, as tabs: the title
+          sits on the same rule the tabs are underlined against, so the rule
+          belongs to both and the header is one band rather than two. */}
+      <div className="lab-bar">
+        <h1 className="lab-title">Observatory</h1>
+        <LabTabs view={view} onChoose={onChoose} />
+      </div>
+    </>
   );
 }
 
@@ -463,9 +486,7 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
   /** A character page, which replaces the gallery the same way a world's does. */
   const character = route.screen === 'lab-character' ? { worldId: route.worldId, i: route.i } : null;
   const openWorld = (id: string) => navigate({ screen: 'lab-world', worldId: id });
-  const closeWorld = () => navigate({ screen: 'lab-worlds' });
   const goToCharacter = (worldId: string, i: number) => navigate({ screen: 'lab-character', worldId, i });
-  const closeCharacter = () => navigate({ screen: 'lab-worlds' });
   // A character page only exists inside the "Characters" tab, so arriving on
   // one directly — a deep link, or a jump in from the reveal — should land
   // with that tab already selected. Read once from the route this component
@@ -488,13 +509,13 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
    * are named under it. A character page only exists inside *Characters*, so
    * arriving on one directly lands with that view selected.
    */
-  const [view, setView] = useState<'experiment' | 'worlds' | 'characters'>(() => {
+  const [view, setView] = useState<LabView>(() => {
     if (route.screen === 'lab-characters' || character) return 'characters';
     if (route.screen === 'lab-worlds' || route.screen === 'lab-world') return 'worlds';
     return 'experiment';
   });
 
-  const chooseView = (next: 'experiment' | 'worlds' | 'characters') => {
+  const chooseView = (next: LabView) => {
     setView(next);
     navigate({
       screen: next === 'experiment' ? 'lab' : next === 'worlds' ? 'lab-worlds' : 'lab-characters',
@@ -575,6 +596,37 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
       }
     : null;
 
+  const figures =
+    worlds.length > 0
+      ? [
+          `${worlds.length} ${worlds.length === 1 ? 'world' : 'worlds'}`,
+          `${totals.cast.toLocaleString()} characters`,
+          `${totals.ties.toLocaleString()} ties`,
+        ]
+      : [];
+
+  /** Every page opened from the catalogue keeps the catalogue's own header. */
+  const labChrome = (
+    <div style={{ display: 'flex', flexDirection: 'column', pointerEvents: 'auto' }}>
+      <LabHeader startLinks={startLinks} figures={figures} view={view} onChoose={chooseView} />
+    </div>
+  );
+
+  /** A world's page is the same split page as a character's: the network on
+   *  the right half, the reading of it on the left. */
+  if (detail) {
+    return (
+      <WorldDetail
+        world={detail}
+        universe={byId.get(detail.id)}
+        meta={metas.get(detail.id) ?? null}
+        progress={progress.get(detail.id)}
+        onOpenCharacter={(i) => goToCharacter(detail.id, i)}
+        chrome={labChrome}
+      />
+    );
+  }
+
   /**
    * An opened character is the reveal page, for somebody nobody played — the
    * same component, not a copy of its layout. It takes the whole screen rather
@@ -589,7 +641,6 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
         world={openCharacter.world}
         meta={openCharacter.meta}
         i={openCharacter.i}
-        eyebrow="If you woke here, you would be"
         subtitle={openCharacter.world.title}
         linkToCharacter={(i) => goToCharacter(worldId, i)}
         linkToTwin={(twinWorld, name) => {
@@ -598,101 +649,33 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
           if (i != null) goToCharacter(twinWorld, i);
         }}
         onOpenWorld={() => openWorld(worldId)}
-        chromeLeft={<BrandCluster {...startLinks} />}
-        chromeRight={
-          <ChromeRight>
-            <BackLink label="All characters" onBack={closeCharacter} />
-          </ChromeRight>
-        }
+        chromeExtra={LAB_TABS_HEIGHT}
+        chrome={labChrome}
       />
     );
   }
 
   return (
     <div className={`lab${view === 'experiment' ? ' live' : ''}`}>
-      {/* The wordmark and the ways back into the game, with what the catalogue
-          adds up to in the corner opposite. */}
-      <div className="lab-top">
-        <div className="brand-cluster">
-          <BrandMark />
-          <StartLinkPair {...startLinks} />
-        </div>
-        {worlds.length > 0 && (
-          <p className="annot lab-figures">
-            {[
-              `${worlds.length} ${worlds.length === 1 ? 'world' : 'worlds'}`,
-              `${totals.cast.toLocaleString()} characters`,
-              `${totals.ties.toLocaleString()} ties`,
-            ].map((clause, i, all) => (
-              <span key={clause}>
-                <span style={{ whiteSpace: 'nowrap' }}>{clause}</span>
-                {i < all.length - 1 ? ' · ' : ''}
-              </span>
-            ))}
-          </p>
-        )}
-      </div>
-
-      {/* The lab's name and its three rooms on one line, as tabs: the title
-          sits on the same rule the tabs are underlined against, so the rule
-          belongs to both and the header is one band rather than two. */}
-      <div className="lab-bar">
-        <h1 className="lab-title">The topology lab</h1>
-        <nav className="lab-tabs" aria-label="Lab views">
-          {(
-            [
-              ['experiment', 'The experiment'],
-              ['worlds', 'Worlds'],
-              ['characters', 'Characters'],
-            ] as const
-          ).map(([key, label]) => (
-            <button
-              key={key}
-              type="button"
-              className={`lab-tab${view === key ? ' on' : ''}`}
-              aria-current={view === key ? 'page' : undefined}
-              onClick={() => chooseView(key)}
-            >
-              {label}
-            </button>
-          ))}
-        </nav>
-      </div>
+      <LabHeader startLinks={startLinks} figures={figures} view={view} onChoose={chooseView} />
 
       <main className="lab-main">
-        {detail ? (
-          <>
-            <ChromeRight>
-              <BackLink label="All worlds" onBack={closeWorld} />
-            </ChromeRight>
-            <WorldDetail
-              world={detail}
-              universe={byId.get(detail.id)}
-              meta={metas.get(detail.id) ?? null}
-              progress={progress.get(detail.id)}
-              onOpenCharacter={(i) => goToCharacter(detail.id, i)}
-            />
-          </>
+        {view === 'experiment' ? (
+          /* The experiment is live rather than a document, so it fills the
+             column and manages its own inside — the drawing takes the
+             height left over and the transport sits at the foot of it. */
+          <div className="lab-live">
+            <Experiment />
+          </div>
+        ) : view === 'worlds' ? (
+          <Ledger worlds={worlds} progress={progress} onOpen={openWorld} />
         ) : (
-          <>
-            {view === 'experiment' ? (
-              /* The experiment is live rather than a document, so it fills the
-                 column and manages its own inside — the drawing takes the
-                 height left over and the transport sits at the foot of it. */
-              <div className="lab-live">
-                <Experiment />
-              </div>
-            ) : view === 'worlds' ? (
-              <Ledger worlds={worlds} progress={progress} onOpen={openWorld} />
-            ) : (
-              <CharacterIndex
-                worlds={worlds}
-                metas={metas}
-                loading={loadingMetas}
-                onOpen={goToCharacter}
-              />
-            )}
-          </>
+          <CharacterIndex
+            worlds={worlds}
+            metas={metas}
+            loading={loadingMetas}
+            onOpen={goToCharacter}
+          />
         )}
       </main>
     </div>

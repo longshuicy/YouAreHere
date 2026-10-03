@@ -148,7 +148,7 @@ export function Explore({
               you so far. A panel rather than loose text: it sits over a drawing
               now, and prose laid straight on a graph is unreadable the moment a
               tie runs under it. */}
-          <div className="play-panel" style={{ width: 'min(440px, 100%)', gap: 14 }}>
+          <div className="play-panel" style={{ width: 'min(560px, 100%)', gap: 14 }}>
             {worldKnown ? (
               <div>
                 <div style={{ fontSize: 'clamp(19px, 4.6vw, 30px)', lineHeight: 1.1 }}>{universeTitle}</div>

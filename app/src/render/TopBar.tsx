@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { BrandMark, CHROME_PADDING, hereLabel, type StartLinks } from './MarginLinks';
+import { BrandMark, CHROME_PADDING, StartNav, TopBarLink, type StartLinks } from './MarginLinks';
 
 /**
  * The bar across the top of every screen. There is exactly one of these.
@@ -84,89 +84,17 @@ export function TopBar({
       <nav aria-label="Elsewhere" className="top-bar-side top-bar-nav">
         {aside}
         {onOpenKey && (
-          <TopBarLink onClick={onOpenKey} disabled={disabled} icon={<HelpMark />}>
+          <TopBarLink onClick={onOpenKey} disabled={disabled}>
             How to play
           </TopBarLink>
         )}
         {onOpenLab && (
           <TopBarLink onClick={onOpenLab} disabled={disabled}>
-            The topology lab
+            Observatory
           </TopBarLink>
         )}
       </nav>
     </div>
-  );
-}
-
-/**
- * The three ways on, in the bar.
- *
- * The same three everywhere, in the same order and the same words — see
- * `hereLabel` for why there are exactly three. The last is in the accent
- * because it is the one that keeps the map you are looking at; the other two
- * leave it.
- */
-function StartNav({
-  onStartAgain,
-  onChooseWorld,
-  onStartHere,
-  hereTitle,
-  disabled,
-}: StartLinks & { disabled?: boolean }) {
-  return (
-    <nav aria-label="Ways on" className="top-bar-nav start-nav">
-      <TopBarLink onClick={onStartAgain} disabled={disabled}>
-        Any world
-      </TopBarLink>
-      <TopBarLink onClick={onChooseWorld} disabled={disabled}>
-        Choose a world
-      </TopBarLink>
-      <TopBarLink onClick={onStartHere} disabled={disabled} className="start-nav-here">
-        {hereLabel(hereTitle)}
-      </TopBarLink>
-    </nav>
-  );
-}
-
-/**
- * A link in the bar. Unruled, unlike `.annot-link` in the margins: up here the
- * row itself is the affordance, and the design draws these as plain tracked
- * mono. The hit area is the padding, not the words — 10px type does not make a
- * 44px target on its own.
- */
-function TopBarLink({
-  children,
-  onClick,
-  disabled,
-  icon,
-  className = '',
-}: {
-  children: React.ReactNode;
-  onClick: () => void;
-  disabled?: boolean;
-  icon?: React.ReactNode;
-  className?: string;
-}) {
-  return (
-    <button
-      type="button"
-      className={`top-bar-link ${className}`.trim()}
-      onClick={onClick}
-      disabled={disabled}
-    >
-      {icon}
-      {children}
-    </button>
-  );
-}
-
-/** A question mark in a ring. On every screen's help link, because a link that
- *  changes its mark from page to page is read as a different link. */
-function HelpMark() {
-  return (
-    <span aria-hidden className="help-mark">
-      ?
-    </span>
   );
 }
 

@@ -36,7 +36,7 @@
 
   /* The page inset, as tokens rather than a literal, so a phone can have its
      own margins without every screen carrying a breakpoint of its own. */
-  --pad-top: 44px;
+  --pad-top: 22px;
   --pad-x: 64px;
   --pad-bottom: 56px;
   /* How much room the top bar takes: its inset, plus the wordmark's own line.
@@ -99,18 +99,6 @@ button {
   color: var(--ink);
   line-height: 1;
   white-space: nowrap;
-}
-
-/* The wordmark and the three ways on. A class rather than inline style so the
-   phone can close the gaps: with a third link in it the cluster wrapped to
-   three rows at 375px, and the graph beneath is positioned from
-   `--chrome-band`, which is sized for two. */
-.brand-cluster {
-  display: flex;
-  align-items: baseline;
-  gap: 22px;
-  flex-wrap: wrap;
-  pointer-events: auto;
 }
 
 /* The brand wordmark is identity; start-again is a separate quiet link. */
@@ -288,26 +276,6 @@ button {
   flex: 1;
 }
 
-/* The ring around the question mark. */
-.help-mark {
-  width: 18px;
-  height: 18px;
-  flex-shrink: 0;
-  border-radius: 50%;
-  border: 1px solid var(--unknown);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  letter-spacing: 0;
-  transition: border-color 90ms ease;
-}
-
-.top-bar-link:hover .help-mark,
-.top-bar-link:focus-visible .help-mark {
-  border-color: var(--accent);
-}
-
 .top-bar-center {
   position: absolute;
   left: 50%;
@@ -367,9 +335,10 @@ button {
   font-size: 11px;
 }
 
-/* The one that keeps this map. */
+/* The one that keeps this map: the main action beside the other two, not
+   where-you-are — that reading is red's alone. */
 .start-nav-here {
-  color: var(--accent);
+  color: var(--ink);
 }
 
 @media (max-width: 640px) {
@@ -1318,7 +1287,7 @@ button {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: 110px 36px 0 64px;
+  padding: calc(var(--chrome-band) + 32px) 36px 0 64px;
   background: var(--paper);
   box-shadow: 20px 0 28px 8px var(--paper);
 }
@@ -1530,13 +1499,6 @@ button {
     gap: 6px 14px;
   }
 
-  /* Tight enough that the wordmark and the two short links share the first
-     line and only the long one — `Another life in <title>` — takes the
-     second. */
-  .brand-cluster {
-    gap: 4px 12px;
-  }
-
   /* A screen's footer: the prose over the actions, both full width. */
   .stack-sm {
     flex-direction: column;
@@ -1655,9 +1617,7 @@ button {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  /* The board's own top inset, which is half the page inset the game uses: the
-     lab has two bands of header and needs the height back. */
-  padding: 22px var(--pad-x) var(--pad-bottom) var(--pad-x);
+  padding: var(--pad-top) var(--pad-x) var(--pad-bottom) var(--pad-x);
 }
 
 /* The experiment fits the window exactly: its map takes the height left over

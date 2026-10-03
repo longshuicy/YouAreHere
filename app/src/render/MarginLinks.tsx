@@ -41,13 +41,14 @@ export interface StartLinks {
   hereTitle: string | null;
 }
 
-/** Wordmark plus the quieter ways on, so the name is not itself a hidden
- * button. */
+/** Wordmark plus the quieter ways on, in the bar's own register — so a page
+ * that assembles its own header still reads as the same bar as the rest of
+ * the game, not a second design wearing the same wordmark. */
 export function BrandCluster(links: StartLinks) {
   return (
-    <div className="brand-cluster">
+    <div className="top-bar-side top-bar-left" style={{ pointerEvents: 'auto' }}>
       <BrandMark />
-      <StartLinkPair {...links} />
+      <StartNav {...links} />
     </div>
   );
 }
@@ -84,19 +85,63 @@ export function hereLabel(hereTitle: string | null): string {
   return hereTitle ? `Another life in ${hereTitle}` : 'Another life here';
 }
 
-export function StartLinkPair({ onStartAgain, onStartHere, onChooseWorld, hereTitle }: StartLinks) {
+/** A link in the bar's own register: unruled, unlike `.annot-link` — up here
+ *  the row itself is the affordance, and the design draws these as plain
+ *  tracked mono. The hit area is the padding, not the words — 10px type does
+ *  not make a 44px target on its own. */
+export function TopBarLink({
+  children,
+  onClick,
+  disabled,
+  icon,
+  className = '',
+}: {
+  children: ReactNode;
+  onClick: () => void;
+  disabled?: boolean;
+  icon?: ReactNode;
+  className?: string;
+}) {
   return (
-    <>
-      <button type="button" className="annot-link" onClick={onStartAgain}>
+    <button
+      type="button"
+      className={`top-bar-link ${className}`.trim()}
+      onClick={onClick}
+      disabled={disabled}
+    >
+      {icon}
+      {children}
+    </button>
+  );
+}
+
+/**
+ * The three ways on, in the bar.
+ *
+ * The same three everywhere, in the same order and the same words — see
+ * `hereLabel` for why there are exactly three. The last is ink, like the
+ * other two: it is the main action beside them, not where-you-are, which is
+ * the one thing in this row that reads in the accent.
+ */
+export function StartNav({
+  onStartAgain,
+  onChooseWorld,
+  onStartHere,
+  hereTitle,
+  disabled,
+}: StartLinks & { disabled?: boolean }) {
+  return (
+    <nav aria-label="Ways on" className="top-bar-nav start-nav">
+      <TopBarLink onClick={onStartAgain} disabled={disabled}>
         Any world
-      </button>
-      <button type="button" className="annot-link" onClick={onChooseWorld}>
+      </TopBarLink>
+      <TopBarLink onClick={onChooseWorld} disabled={disabled}>
         Choose a world
-      </button>
-      <button type="button" className="annot-link" onClick={onStartHere} style={{ color: 'var(--accent)' }}>
+      </TopBarLink>
+      <TopBarLink onClick={onStartHere} disabled={disabled} className="start-nav-here">
         {hereLabel(hereTitle)}
-      </button>
-    </>
+      </TopBarLink>
+    </nav>
   );
 }
 

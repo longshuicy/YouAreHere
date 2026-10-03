@@ -8,8 +8,7 @@ import {
   type Residence,
 } from '../engine/residence';
 import { readRound } from '../graph/reading';
-import { WikiLink } from '../render/WikiLink';
-import { NameLink } from '../render/NameLink';
+import { PageTitle } from '../render/PageTitle';
 import { measureWorld } from '../gallery/metrics';
 import { ReadingPage } from './ReadingPage';
 import type { Universe, UniverseMeta } from '../types';
@@ -299,46 +298,14 @@ function RevealHead({
 
   return (
     <div className="reveal-head-block">
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-        <div className="annot" style={{ fontSize: 10, letterSpacing: '0.24em', color: 'var(--annotation)' }}>
-          {eyebrow}
-        </div>
-        <h1
-          style={{
-            margin: 0,
-            fontWeight: 400,
-            fontSize: 'clamp(30px, 6vw, 48px)',
-            lineHeight: 1.02,
-            color: 'var(--accent)',
-          }}
-        >
-          {name ?? 'Unknown'}
-        </h1>
-        <div
-          className="annot"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 18,
-            flexWrap: 'wrap',
-            paddingTop: 6,
-            fontSize: 10,
-            letterSpacing: '0.18em',
-            color: 'var(--annotation)',
-          }}
-        >
-          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
-            In{' '}
-            {onOpenWorld ? (
-              <NameLink onClick={onOpenWorld}>{worldTitle}</NameLink>
-            ) : (
-              <span style={{ color: 'var(--ink)' }}>{worldTitle}</span>
-            )}{' '}
-            · {cast} characters
-          </span>
-          {wiki?.wiki && <WikiLink title={wiki.wiki} lang={wiki.wikiLang ?? 'en'} />}
-        </div>
-      </div>
+      <PageTitle
+        eyebrow={eyebrow}
+        title={name ?? 'Unknown'}
+        worldTitle={worldTitle}
+        onOpenWorld={onOpenWorld}
+        cast={cast}
+        wiki={wiki?.wiki ? { title: wiki.wiki, lang: wiki.wikiLang } : null}
+      />
 
       <div className="reveal-stats">
         <Stat label="Found yourself in" figure={clues} note={clues === 1 ? 'clue' : 'clues'} />
