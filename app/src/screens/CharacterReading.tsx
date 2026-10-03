@@ -175,7 +175,7 @@ export function CharacterReading({
   i: NodeIndex;
   /** Absent in the gallery, where there is no round behind the character. */
   round?: RoundReading | null;
-  /** Jump to another character's own reading, in the topology gallery. Every
+  /** Jump to another character's own reading, in the topology lab. Every
    * name below is someone the story already names by the time this page can
    * be read, so nothing here is a spoiler that a link would hand out early. */
   linkToCharacter?: (i: NodeIndex) => void;

@@ -1624,3 +1624,1518 @@ button {
     display: none !important;
   }
 }
+
+/* ── The topology lab ────────────────────────────────────────────────────────
+   One header for all three views: the wordmark and the ways back into the game
+   on the first line, the lab's name and its three rooms on the second, sharing
+   the rule the tabs are underlined against. Under it, each view takes what is
+   left. */
+
+:root {
+  /*
+   * The experiment's proportions, taken off the board.
+   *
+   * On a 1280-wide screen the page insets are 64, which leaves 1152: the map's
+   * column is 792, the gutter 56 with the rule 24 into it, and the reading
+   * column 304. The map is positioned from these, so a change here moves the
+   * drawing's frame with the chrome rather than letting one slide under the
+   * other.
+   */
+  --xp-side-w: 352px;
+  --xp-gutter: 48px;
+  /* The rule sits 24 into the gutter, not at the column's edge. */
+  --xp-rule-in: 32px;
+  /* 12 above the figures, 44 of figures, 8 below. */
+  --xp-shelf-h: 64px;
+  /* 8 below the map, then the transport and its note. */
+  --xp-foot-h: 96px;
+}
+
+.lab {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* The board's own top inset, which is half the page inset the game uses: the
+     lab has two bands of header and needs the height back. */
+  padding: 22px var(--pad-x) var(--pad-bottom) var(--pad-x);
+}
+
+/* The experiment fits the window exactly: its map takes the height left over
+   and its transport sits at the foot of it, so the page must not scroll. */
+.lab.live {
+  height: 100vh;
+  min-height: 0;
+  overflow: hidden;
+  padding-bottom: 24px;
+}
+
+.lab-top {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 32px;
+}
+
+.lab-figures {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  margin: 0;
+  text-align: right;
+}
+
+/* Title and tabs on one line, sitting on one rule. */
+.lab-bar {
+  flex: 0 0 auto;
+  height: 62px;
+  display: flex;
+  align-items: flex-end;
+  gap: 52px;
+  margin-top: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.lab-title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  margin: 0 0 14px;
+  white-space: nowrap;
+}
+
+.lab-tabs {
+  display: flex;
+  gap: 34px;
+  flex-wrap: wrap;
+}
+
+/* A tab, not a radio: there is a separate surface behind each of these, which
+   is the one case this design allows the shape. */
+.lab-tab {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: flex-end;
+  padding-bottom: 16px;
+  margin-bottom: -1px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: color 90ms ease;
+}
+
+.lab-tab:hover {
+  color: var(--ink);
+}
+
+.lab-tab.on {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.lab-main {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.lab-live {
+  flex: 1 1 0;
+  min-height: 0;
+  position: relative;
+}
+
+/* ── The experiment ──────────────────────────────────────────────────────────
+   A shelf of figures, the map, the transport under it, and one column on the
+   right that is the setting-up before the run and the reading after it.
+
+   Nothing floats over the drawing except the two things that belong to it: what
+   is drawn, and the notice that says a past day is on screen. */
+
+.xp {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--xp-side-w);
+  grid-template-rows: var(--xp-shelf-h) minmax(0, 1fr) auto;
+  column-gap: var(--xp-gutter);
+  background: var(--paper);
+  overflow: hidden;
+}
+
+/* The three figures the run is about, on the shelf above the map. */
+.xp-shelf {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 44px;
+  padding: 12px 0 8px;
+}
+
+.xp-head-figure {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.xp-head-figure > .xp-label {
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+}
+
+.xp-head-line .xp-label {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.xp-head-line {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  line-height: 1;
+}
+
+.xp-head-value {
+  font-size: 20px;
+  color: var(--ink);
+}
+
+.xp-allfigures {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 32px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.xp-allfigures-label {
+  border-bottom: 1px solid var(--leader);
+  padding-bottom: 2px;
+}
+
+.xp-allfigures:hover .xp-allfigures-label {
+  border-bottom-color: var(--ink);
+}
+
+/* Everything behind the shelf, over the map rather than beside it: it is a
+   reading of the drawing, so it covers the drawing while it is open. */
+.xp-figures-panel {
+  position: absolute;
+  top: calc(var(--xp-shelf-h) - 8px);
+  right: calc(var(--xp-side-w) + var(--xp-gutter));
+  z-index: 4;
+  width: 320px;
+  max-height: calc(100% - var(--xp-shelf-h) - var(--xp-foot-h));
+  overflow-y: auto;
+  padding: 10px 16px 12px;
+  background: var(--panel);
+  border: 1px solid var(--ink);
+  box-shadow: 4px 4px 0 rgba(22, 19, 15, 0.08);
+  scrollbar-width: thin;
+  scrollbar-color: var(--leader) transparent;
+}
+
+.xp-figures-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 20px;
+}
+
+.xp-figures-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 14px 0 4px;
+}
+
+.xp-loyalty {
+  display: flex;
+  flex-direction: column;
+}
+
+.xp-loyalty-row {
+  display: grid;
+  grid-template-columns: 8px minmax(0, 1fr) 72px 34px;
+  align-items: center;
+  gap: 10px;
+  min-height: 28px;
+  border-top: 1px solid var(--rule);
+  cursor: default;
+}
+
+.xp-loyalty-row.lit .xp-world-name,
+.xp-loyalty-row.lit .xp-value {
+  color: var(--accent);
+}
+
+/* ── The map ─────────────────────────────────────────────────────────────── */
+
+.xp-stage {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+  min-height: 0;
+}
+
+.xp-field {
+  position: absolute;
+  inset: 0;
+  cursor: grab;
+}
+
+.xp-field:active {
+  cursor: grabbing;
+}
+
+.xp-canvas,
+.xp-sheet {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.xp-sheet {
+  /* The sheet is on top so it can take the pointer — zoom, hover and the click
+     that picks a character all arrive here, and the canvas never needs to
+     know. */
+  touch-action: none;
+}
+
+.xp-lit {
+  stroke: var(--ink);
+  stroke-width: 1.8;
+  opacity: 0.85;
+}
+
+.xp-follow {
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.xp-ring {
+  stroke: var(--accent);
+  stroke-width: 1.6;
+}
+
+.xp-world-label {
+  font-family: var(--mono);
+  fill: var(--ink);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+  /* A paper halo under the glyphs, so a name set at its world's centroid is
+     readable over its own people. Painted stroke-first, or the halo would be
+     drawn on top of the letters it is there to hold up. */
+  paint-order: stroke fill;
+  stroke: var(--paper);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+/* Your own world's name, in the colour you are. It is the one name on the field
+   that is there without being asked for, and in ink it read as an arbitrary
+   label on an arbitrary blob. */
+.xp-world-label.yours {
+  fill: var(--accent);
+}
+
+/* What is drawn — the only controls that belong to the drawing, so the only
+   ones over it. */
+.xp-draw-controls {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 2px 10px;
+  background: rgba(244, 240, 230, 0.92);
+  border: 1px solid var(--rule);
+  white-space: nowrap;
+}
+
+.xp-chip {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  min-height: 30px;
+  cursor: pointer;
+}
+
+.xp-chip:hover {
+  color: var(--ink);
+}
+
+/* Which one is on, said by weight. A rule under the word read as a link to the
+   word next to it rather than as a state. */
+.xp-chip.on {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.xp-chip-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink);
+}
+
+.xp-with-glyph {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.xp-chip-rule {
+  width: 1px;
+  height: 14px;
+  background: var(--leader);
+}
+
+.xp-hover {
+  position: absolute;
+  padding: 10px 14px;
+  background: var(--panel);
+  border: 1px solid var(--ink);
+  box-shadow: 0 2px 0 rgba(22, 19, 15, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.xp-hover-name {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+.xp-hover .xp-label {
+  font-size: 9px;
+  letter-spacing: 0.18em;
+}
+
+.xp-hover-do {
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding-top: 2px;
+}
+
+
+/* ── Under the map ───────────────────────────────────────────────────────── */
+
+.xp-caption,
+.xp-transport-bar {
+  grid-column: 1;
+  grid-row: 3;
+  min-height: var(--xp-foot-h);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  padding-top: 10px;
+}
+
+.xp-transport-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 44px;
+}
+
+/* Play and step as round buttons — the one shape everyone already reads as a
+   transport, and the reason the rest of this bar can stay quiet. */
+.xp-round {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid var(--leader);
+  background: transparent;
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 90ms ease, background 90ms ease;
+}
+
+.xp-round:hover {
+  border-color: var(--ink);
+}
+
+.xp-round.on {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.xp-round.on:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* The year, as a figure with its unit beside it. It used to be a 112px box that
+   an eighteen-point number broke in half, so the run's position read as two
+   lines of wrapped text. */
+.xp-dayread {
+  flex-shrink: 0;
+  white-space: nowrap;
+  /* The two circles are a pair; the reading is the next thing along, not a
+     third button. */
+  margin-left: 6px;
+  margin-right: 12px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--annotation);
+}
+
+.xp-dayread-n {
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  padding: 0 2px;
+}
+
+.xp-track {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 80px;
+  height: 44px;
+  cursor: ew-resize;
+  touch-action: none;
+}
+
+/* The ring goes on the knob, which is the thing that moves — a box drawn round
+   the whole rail says the track is focused rather than the day. */
+.xp-track:focus,
+.xp-track:focus-visible {
+  outline: none;
+}
+
+.xp-track:focus-visible .xp-track-knob {
+  box-shadow: 0 0 0 3px rgba(140, 47, 42, 0.3);
+}
+
+.xp-track::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 21px;
+  height: 2px;
+  background: var(--rule);
+}
+
+.xp-track-done {
+  position: absolute;
+  left: 0;
+  top: 21px;
+  height: 2px;
+  background: var(--ink);
+}
+
+/* A filled dot on the rail. The paper border was there to part it from the
+   fill behind it, and at year nought — where there is no fill — it read as a
+   ring sitting on the page rather than as the mark of where you are. */
+.xp-track-knob {
+  position: absolute;
+  top: 16px;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  border-radius: 50%;
+  background: var(--ink);
+  pointer-events: none;
+}
+
+/* One tick per day something happened to the person being followed. */
+/* A mark on the rail, and nothing the pointer can catch on. */
+.xp-mark {
+  position: absolute;
+  top: 10px;
+  width: 2px;
+  height: 24px;
+  margin-left: -1px;
+  background: var(--accent);
+  pointer-events: none;
+}
+
+/* The stretch the run no longer remembers: the scrubber will not go there, and
+   a rail that simply stops halfway reads as a broken control rather than as a
+   bounded memory. */
+.xp-track-gone {
+  position: absolute;
+  left: 0;
+  top: 21px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--rule) 0 3px,
+    transparent 3px 6px
+  );
+}
+
+.xp-mark-key {
+  display: inline-block;
+  width: 2px;
+  height: 11px;
+  margin-right: 8px;
+  background: var(--accent);
+  vertical-align: -1px;
+}
+
+.xp-speeds {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.xp-speed {
+  min-width: 40px;
+  height: 32px;
+  padding: 0 6px;
+  border: 1px solid transparent;
+  font-size: 11px;
+  color: var(--annotation);
+  cursor: pointer;
+}
+
+.xp-speed.on {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.xp-transport-note {
+  display: flex;
+  gap: 28px;
+  /* Level with the year above it — two 44px circles with the row's own gap
+     between them, after them, and the reading's own lead-in. */
+  padding-left: calc(44px + 14px + 44px + 14px + 6px);
+  flex-wrap: wrap;
+}
+
+.xp-transport-note .xp-label {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+}
+
+/* ── The right column ────────────────────────────────────────────────────── */
+
+.xp-side {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  min-height: 0;
+  /* Level with the shelf's own figures rather than with the rule above them. */
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  /* The rule belongs to the gutter rather than to this column's edge, so the
+     border is pulled back into it and the padding puts the text where the
+     column really starts. */
+  padding-left: var(--xp-rule-in);
+  margin-left: calc(0px - var(--xp-rule-in));
+  border-left: 1px solid var(--rule);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--leader) transparent;
+}
+
+.xp-steps-wrap,
+.xp-panel-col,
+.xp-reading {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.xp-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 20px;
+}
+
+.xp-intro-title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.xp-intro-deck {
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--body);
+  margin: 0;
+}
+
+/* The four steps. The order is the argument, so they are numbered. */
+.xp-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.xp-step {
+  padding: 12px 0 14px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.xp-step.waiting {
+  color: var(--unknown);
+}
+
+.xp-step-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.xp-step-n {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono);
+  font-size: 11px;
+}
+
+.xp-step-n.now {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper);
+}
+
+/* Settled: the outline stays, the number gives way to a tick. The number is
+   the order you work in, and once a step has an answer the order is behind
+   you. */
+.xp-step-n.done {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.xp-step-label {
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.xp-step-action {
+  margin-left: auto;
+}
+
+.xp-step-body {
+  padding: 10px 0 2px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.xp-step-value {
+  font-family: var(--serif);
+  font-size: 21px;
+  line-height: 1.1;
+}
+
+.xp-step-name {
+  font-family: var(--serif);
+  font-size: 25px;
+  line-height: 1.1;
+  color: var(--accent);
+}
+
+/* A boxed action, which this design allows only where the box is the hit area
+   for something the eye must not miss. */
+.xp-block,
+.xp-outline {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.xp-outline {
+  min-height: 36px;
+  gap: 8px;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  white-space: nowrap;
+}
+
+.xp-block:hover,
+.xp-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.xp-named {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.xp-named.grow {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.xp-name-field {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid var(--ink);
+  background: transparent;
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--ink);
+  padding: 0;
+  width: 100%;
+}
+
+.xp-name-field:focus {
+  outline: none;
+  border-bottom-color: var(--accent);
+}
+
+.xp-name-field::placeholder {
+  color: var(--unknown);
+}
+
+.xp-aside {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 15px;
+  color: var(--annotation);
+  margin: 0;
+}
+
+.xp-presets {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid var(--ink);
+}
+
+.xp-preset {
+  min-height: 36px;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.xp-preset + .xp-preset {
+  border-left: 1px solid var(--ink);
+}
+
+.xp-preset:hover:not(.on) {
+  color: var(--accent);
+}
+
+.xp-preset.on {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* What the chosen starting point does, said once and quietly. At fifteen point
+   over three lines it was shouting the caption at the control. */
+.xp-blurb {
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--annotation);
+  margin: 0;
+}
+
+.xp-finetune {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  min-height: 40px;
+  width: 100%;
+  border-top: 1px solid var(--rule);
+  cursor: pointer;
+}
+
+/* The one act the whole column is arranged around. */
+.xp-begin,
+.xp-commit {
+  height: 52px;
+  flex-shrink: 0;
+  width: 100%;
+  background: var(--ink);
+  color: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 90ms ease;
+}
+
+.xp-commit {
+  height: 48px;
+  margin-top: 12px;
+  font-size: 11px;
+  letter-spacing: 0.24em;
+}
+
+.xp-begin:hover,
+.xp-commit:hover:not(:disabled) {
+  background: var(--accent);
+}
+
+.xp-commit:disabled {
+  background: var(--unknown);
+  cursor: default;
+}
+
+/* ── The two sub-panels ──────────────────────────────────────────────────── */
+
+.xp-panel-col {
+  flex: 1 1 auto;
+  gap: 10px;
+}
+
+.xp-panel-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.xp-back {
+  align-self: flex-start;
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  cursor: pointer;
+}
+
+.xp-back:hover {
+  color: var(--ink);
+}
+
+.xp-panel-title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.xp-panel-deck {
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--body);
+  margin: 0;
+}
+
+.xp-ink {
+  color: var(--ink);
+}
+
+.xp-picker-head {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.xp-picker-head .xp-label {
+  margin-left: auto;
+}
+
+.xp-picker-list,
+.xp-dials {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  scrollbar-width: thin;
+  scrollbar-color: var(--leader) transparent;
+}
+
+.xp-dials {
+  border-bottom: none;
+  border-top-color: var(--ink);
+  padding: 14px 6px 14px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.xp-dial-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.xp-dial-group + .xp-dial-group {
+  border-top: 1px solid var(--rule);
+  padding-top: 14px;
+}
+
+.xp-pick {
+  display: grid;
+  grid-template-columns: 16px 8px minmax(0, 1fr) 34px;
+  align-items: center;
+  gap: 12px;
+  min-height: 36px;
+  border-bottom: 1px solid var(--rule);
+  cursor: pointer;
+}
+
+.xp-pick input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--ink);
+}
+
+.xp-pick.out .xp-world-name,
+.xp-pick.out .xp-value {
+  color: var(--unknown);
+}
+
+.xp-dial {
+  display: flex;
+  flex-direction: column;
+}
+
+.xp-dial-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.xp-dial-label {
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+/*
+ * A value you set, not a scale with one mark on it.
+ *
+ * These were drawn as the cold open's hairline with an accent dot, which is the
+ * right picture for a reading on a fixed range and the wrong one for a control:
+ * a dial wants a track that fills, so the part you have used is visible. The
+ * board sets `accent-color` on a plain range and lets the platform draw it.
+ */
+.xp-range {
+  width: 100%;
+  height: 26px;
+  margin: 0;
+  accent-color: var(--ink);
+  background: transparent;
+}
+
+/* The symbol under a dial: there for the doc that explains the rule, not for
+   the visitor, so it is set at the quietest weight the page has. */
+.xp-sym {
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--unknown);
+}
+
+/* The encounter mix: one quantity divided three ways, so one bar. */
+.xp-mix-bar {
+  display: flex;
+  height: 10px;
+}
+
+.xp-mix-bar .own {
+  background: var(--ink);
+}
+
+.xp-mix-bar .fof {
+  background: var(--unknown);
+}
+
+.xp-mix-bar .cross {
+  background: var(--rule);
+}
+
+.xp-mix-key {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.xp-mix-key i {
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  margin-right: 10px;
+  vertical-align: 1px;
+}
+
+.xp-mix-key .own {
+  background: var(--ink);
+}
+
+.xp-mix-key .fof {
+  background: var(--unknown);
+}
+
+.xp-mix-key .cross {
+  background: var(--rule);
+  outline: 1px solid var(--leader);
+}
+
+.xp-mix-key b {
+  float: right;
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.xp-seed-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+/* ── The reading ─────────────────────────────────────────────────────────── */
+
+/* Opens and closes like a configuration step: the column is the same column
+   whether the run is being set up or watched, so the block at the top of it
+   sits at the same height either way. */
+.xp-reading {
+  gap: 2px;
+  padding: 12px 0 14px;
+}
+
+.xp-reading-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* The height a step's numbered circle gives its own head row, so the first
+     line of the column lands in the same place in both states. */
+  min-height: 22px;
+}
+
+.xp-reading-name {
+  font-family: var(--serif);
+  font-size: 30px;
+  line-height: 1.05;
+  color: var(--accent);
+}
+
+.xp-reading-figures {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  gap: 18px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 12px 0;
+  margin: 14px 0 0;
+}
+
+.xp-reading-n {
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.xp-reading-n.accent {
+  color: var(--accent);
+}
+
+.xp-people {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Out at the right, under the strength bars rather than under the names: it
+   acts on the length of the list, and hanging off the left it read as a sixth
+   person whose name was a number. */
+.xp-more {
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+.xp-person {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 72px;
+  align-items: center;
+  gap: 14px;
+  min-height: 38px;
+  padding: 3px 0;
+}
+
+.xp-person-name {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* The world is named only when it is not theirs, because that is the only time
+   it is news. */
+.xp-person-world {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.xp-story {
+  display: flex;
+  flex-direction: column;
+}
+
+.xp-story-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  min-height: 30px;
+  padding: 2px 0;
+  text-align: left;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.xp-story-row:hover .xp-story-text {
+  color: var(--accent);
+}
+
+/* The date is a filing mark, not news: one step smaller than the labels and
+   in the annotation grey. It was in the accent, which spent the experiment's
+   one colour on the thing in the line that never varies. */
+.xp-story-year {
+  width: 58px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--annotation);
+}
+
+.xp-story-text {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--body);
+}
+
+/* The person is the line; the verb around them is the frame. */
+.xp-story-text b {
+  font-weight: 400;
+  color: var(--ink);
+}
+
+/* A tie made across a wall is the whole point of the run, so the verb that
+   says so is the one thing in the list that takes the colour. Losing touch
+   and drifting stay in the frame's grey. */
+.xp-story-verb.gain {
+  color: var(--accent);
+}
+
+/* ── Shared small parts ──────────────────────────────────────────────────── */
+
+.xp-note {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--body);
+  margin: 0;
+}
+
+.xp-note.quiet {
+  font-size: 11px;
+  color: var(--annotation);
+}
+
+.xp-group {
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--annotation);
+  margin: 18px 0 6px;
+  font-weight: 400;
+}
+
+.xp-label {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--annotation);
+}
+
+.xp-label.strong {
+  color: var(--ink);
+}
+
+.xp-label.nowrap {
+  white-space: nowrap;
+}
+
+.xp-value {
+  font-size: 10px;
+  color: var(--ink);
+  text-align: right;
+}
+
+.xp-figure {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.xp-figure-value {
+  font-size: 11px;
+  color: var(--ink);
+}
+
+.xp-link {
+  border-bottom: 1px solid var(--leader);
+  padding: 2px 0;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.xp-link.quiet {
+  color: var(--annotation);
+}
+
+.xp-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.xp-link.strong {
+  border-bottom-color: var(--ink);
+}
+
+.xp-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: inset 0 0 0 1px var(--leader);
+}
+
+.xp-world-name {
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.xp-bar {
+  display: block;
+  height: 3px;
+  background: var(--rule);
+}
+
+.xp-bar-fill {
+  display: block;
+  height: 3px;
+  background: var(--ink);
+}
+
+.xp-bar-fill.away {
+  background: var(--accent);
+}
+
+.xp-matches {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.xp-match {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  min-height: 40px;
+  justify-content: center;
+  padding: 4px 0;
+  text-align: left;
+  border-bottom: 1px solid var(--rule);
+  cursor: pointer;
+}
+
+.xp-match-name {
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.xp-match-world {
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--annotation);
+}
+
+.xp-match:hover .xp-match-name {
+  color: var(--accent);
+}
+
+@media (max-width: 1180px) {
+  :root {
+    --xp-side-w: 268px;
+    --xp-gutter: 36px;
+  }
+
+  .lab-bar {
+    gap: 28px;
+  }
+
+  .lab-title {
+    font-size: 26px;
+  }
+}
+
+/*
+ * Narrow windows: the map and the reading stack.
+ *
+ * Side by side they need about eleven hundred pixels between them before the
+ * drawing is a drawing rather than a stripe. Below that the page gives up being
+ * one screen and becomes two rows that scroll — the map keeps a little over
+ * half the viewport, the reading follows it, and the rule between them turns
+ * from a side to a top.
+ */
+@media (max-width: 1100px) {
+  .lab.live {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  .lab-live {
+    flex: 0 0 auto;
+    position: static;
+  }
+
+  .xp {
+    position: relative;
+    inset: auto;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto minmax(420px, 54vh) auto auto;
+  }
+
+  .xp-stage {
+    grid-row: 2;
+  }
+
+  .xp-caption,
+  .xp-transport-bar {
+    grid-row: 3;
+  }
+
+  .xp-side {
+    grid-column: 1;
+    grid-row: 4;
+    padding: 20px 0 0;
+    margin-left: 0;
+    border-left: none;
+    border-top: 1px solid var(--rule);
+    overflow: visible;
+  }
+
+  /* It opened over the map's right-hand side, which no longer has a column
+     beside it to clear. */
+  .xp-figures-panel {
+    right: 0;
+    max-height: none;
+  }
+
+  .xp-transport-note {
+    padding-left: 0;
+  }
+}
+
+/* Narrower still, the transport's row cannot hold its own line either. */
+@media (max-width: 720px) {
+  .xp-transport-row {
+    flex-wrap: wrap;
+  }
+
+  .xp-track {
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  .lab-bar {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .lab-title {
+    margin-bottom: 6px;
+  }
+}

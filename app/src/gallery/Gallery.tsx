@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { BackLink, BrandCluster, CHROME_PADDING, ChromeRight, type StartLinks } from '../render/MarginLinks';
+import { BackLink, BrandCluster, BrandMark, ChromeRight, StartLinkPair, type StartLinks } from '../render/MarginLinks';
+import { Experiment } from '../experiment/Experiment';
 import { FullGraph } from '../render/FullGraph';
 import { fetchMeta, findByName } from '../data/loader';
 import type { Universe, UniverseMeta } from '../types';
@@ -10,7 +11,6 @@ import { ReadingPage } from '../screens/ReadingPage';
 import { NameLink } from '../render/NameLink';
 import { WikiLink } from '../render/WikiLink';
 import { noteTooltip } from './metricNotes';
-import { RadioRow } from './RadioRow';
 import { measureWorld, type CharacterMetrics, type WorldMetrics } from './metrics';
 import type { Route } from '../engine/route';
 import type { WorldProgress } from '../engine/residence';
@@ -459,20 +459,47 @@ interface Props {
 }
 
 export function Gallery({ universes, progress, startLinks, route, navigate }: Props) {
-  const open = route.screen === 'gallery-world' ? route.worldId : null;
+  const open = route.screen === 'lab-world' ? route.worldId : null;
   /** A character page, which replaces the gallery the same way a world's does. */
-  const character = route.screen === 'gallery-character' ? { worldId: route.worldId, i: route.i } : null;
-  const openWorld = (id: string) => navigate({ screen: 'gallery-world', worldId: id });
-  const closeWorld = () => navigate({ screen: 'gallery' });
-  const goToCharacter = (worldId: string, i: number) => navigate({ screen: 'gallery-character', worldId, i });
-  const closeCharacter = () => navigate({ screen: 'gallery' });
+  const character = route.screen === 'lab-character' ? { worldId: route.worldId, i: route.i } : null;
+  const openWorld = (id: string) => navigate({ screen: 'lab-world', worldId: id });
+  const closeWorld = () => navigate({ screen: 'lab-worlds' });
+  const goToCharacter = (worldId: string, i: number) => navigate({ screen: 'lab-character', worldId, i });
+  const closeCharacter = () => navigate({ screen: 'lab-worlds' });
   // A character page only exists inside the "Characters" tab, so arriving on
   // one directly — a deep link, or a jump in from the reveal — should land
   // with that tab already selected. Read once from the route this component
   // mounted with, not synchronised to it afterwards: the gallery is remounted
   // fresh every time it becomes visible (see App.tsx), so "on mount" already
   // covers every way of arriving on a character page.
-  const [view, setView] = useState<'worlds' | 'characters'>(character ? 'characters' : 'worlds');
+  /**
+   * Which room of the lab is open.
+   *
+   * The experiment used to be a separate surface with its own chrome, reached
+   * and left by a link — which is most of why it read as a different product.
+   * It is the first of three views of the same catalogue now: what happens to
+   * these worlds when the walls come down, then the worlds standing still, then
+   * everyone in them.
+   */
+  /*
+   * Which room, read from the path on mount and written back on every change.
+   *
+   * `/lab` is the experiment, so that is what the lab opens on; the other two
+   * are named under it. A character page only exists inside *Characters*, so
+   * arriving on one directly lands with that view selected.
+   */
+  const [view, setView] = useState<'experiment' | 'worlds' | 'characters'>(() => {
+    if (route.screen === 'lab-characters' || character) return 'characters';
+    if (route.screen === 'lab-worlds' || route.screen === 'lab-world') return 'worlds';
+    return 'experiment';
+  });
+
+  const chooseView = (next: 'experiment' | 'worlds' | 'characters') => {
+    setView(next);
+    navigate({
+      screen: next === 'experiment' ? 'lab' : next === 'worlds' ? 'lab-worlds' : 'lab-characters',
+    });
+  };
   const [metas, setMetas] = useState<Map<string, UniverseMeta>>(new Map());
   /** Derived rather than stored: the sidecars are either all in or they are not,
    * and a second piece of state would only be a chance for the two to disagree. */
@@ -582,121 +609,92 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
   }
 
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        // Top and sides from the shared inset so the brand mark does not jump
-        // coming into the gallery; only the bottom is this screen's own.
-        padding: CHROME_PADDING,
-        paddingBottom: 'max(56px, var(--pad-bottom))',
-      }}
-    >
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-        <BrandCluster {...startLinks} />
-        {detail && (
-          <ChromeRight>
-            <BackLink label="All worlds" onBack={closeWorld} />
-          </ChromeRight>
+    <div className={`lab${view === 'experiment' ? ' live' : ''}`}>
+      {/* The wordmark and the ways back into the game, with what the catalogue
+          adds up to in the corner opposite. */}
+      <div className="lab-top">
+        <div className="brand-cluster">
+          <BrandMark />
+          <StartLinkPair {...startLinks} />
+        </div>
+        {worlds.length > 0 && (
+          <p className="annot lab-figures">
+            {[
+              `${worlds.length} ${worlds.length === 1 ? 'world' : 'worlds'}`,
+              `${totals.cast.toLocaleString()} characters`,
+              `${totals.ties.toLocaleString()} ties`,
+            ].map((clause, i, all) => (
+              <span key={clause}>
+                <span style={{ whiteSpace: 'nowrap' }}>{clause}</span>
+                {i < all.length - 1 ? ' · ' : ''}
+              </span>
+            ))}
+          </p>
         )}
       </div>
 
-      {detail ? (
-        <WorldDetail
-          world={detail}
-          universe={byId.get(detail.id)}
-          meta={metas.get(detail.id) ?? null}
-          progress={progress.get(detail.id)}
-          onOpenCharacter={(i) => goToCharacter(detail.id, i)}
-        />
-      ) : (
-        <>
-          {/* The standfirst is one line on a laptop, not four.
-              It also no longer says `drawn at the same scale`, which was a
-              promise about a grid of cards: every card was the same size with
-              its axes fixed, so two of them side by side were a comparison. The
-              cards are on the worlds' own pages now and the index is a ledger,
-              where the shared thing is not a scale but a place in an order. */}
-          <div style={{ paddingTop: 26, maxWidth: 820 }}>
-            <div style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(24px, 6.4vw, 34px)', lineHeight: 1.1 }}>
-              The topology gallery
-            </div>
-            <div style={{ fontSize: 'clamp(15px, 4vw, 17px)', color: 'var(--body)', lineHeight: 1.55, paddingTop: 10 }}>
-              Every world you have loaded and everyone in them, measured the same way and set against
-              each other. Nothing here is a puzzle, and nothing has a right answer.
-            </div>
-            {worlds.length > 0 && (
-              <div
-                className="annot"
-                style={{ fontSize: 9, paddingTop: 12, lineHeight: 1.9, letterSpacing: '0.09em' }}
-              >
-                {/* Each clause holds together and the separators do not: the
-                    dot and its spaces sit outside the nowrap span, so the line
-                    can break between clauses but never inside one. With the
-                    separator *inside* the span there was no break opportunity
-                    anywhere in the strip, and on a narrow window the whole line
-                    ran off the page and took the document's width with it. */}
-                {[
-                  `${worlds.length} ${worlds.length === 1 ? 'world' : 'worlds'}`,
-                  `${totals.cast.toLocaleString()} characters`,
-                  `${totals.ties.toLocaleString()} ties`,
-                  `${totals.camps.toLocaleString()} camps`,
-                  `largest cast ${totals.largest.toLocaleString()}`,
-                ].map((clause, i, all) => (
-                  <span key={clause}>
-                    <span style={{ whiteSpace: 'nowrap' }}>{clause}</span>
-                    {i < all.length - 1 ? ' · ' : ''}
-                  </span>
-                ))}
+      {/* The lab's name and its three rooms on one line, as tabs: the title
+          sits on the same rule the tabs are underlined against, so the rule
+          belongs to both and the header is one band rather than two. */}
+      <div className="lab-bar">
+        <h1 className="lab-title">The topology lab</h1>
+        <nav className="lab-tabs" aria-label="Lab views">
+          {(
+            [
+              ['experiment', 'The experiment'],
+              ['worlds', 'Worlds'],
+              ['characters', 'Characters'],
+            ] as const
+          ).map(([key, label]) => (
+            <button
+              key={key}
+              type="button"
+              className={`lab-tab${view === key ? ' on' : ''}`}
+              aria-current={view === key ? 'page' : undefined}
+              onClick={() => chooseView(key)}
+            >
+              {label}
+            </button>
+          ))}
+        </nav>
+      </div>
+
+      <main className="lab-main">
+        {detail ? (
+          <>
+            <ChromeRight>
+              <BackLink label="All worlds" onBack={closeWorld} />
+            </ChromeRight>
+            <WorldDetail
+              world={detail}
+              universe={byId.get(detail.id)}
+              meta={metas.get(detail.id) ?? null}
+              progress={progress.get(detail.id)}
+              onOpenCharacter={(i) => goToCharacter(detail.id, i)}
+            />
+          </>
+        ) : (
+          <>
+            {view === 'experiment' ? (
+              /* The experiment is live rather than a document, so it fills the
+                 column and manages its own inside — the drawing takes the
+                 height left over and the transport sits at the foot of it. */
+              <div className="lab-live">
+                <Experiment />
               </div>
-            )}
-
-          </div>
-
-          {/* One sticky row: view, then the tools that belong to it, then help. */}
-          <div
-            style={{
-              position: 'sticky',
-              top: 0,
-              zIndex: 5,
-              background: 'var(--paper)',
-              display: 'flex',
-              alignItems: 'baseline',
-              justifyContent: 'space-between',
-              gap: 28,
-              flexWrap: 'wrap',
-              marginTop: 24,
-              paddingTop: 16,
-              paddingBottom: 12,
-              borderBottom: '1px solid var(--rule)',
-            }}
-          >
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: 32, flexWrap: 'wrap' }}>
-              <RadioRow
-                label="Show"
-                value={view}
-                onChange={setView}
-                options={[
-                  { key: 'worlds', label: 'Worlds' },
-                  { key: 'characters', label: 'Characters' },
-                ]}
-              />
-            </div>
-          </div>
-
-          {view === 'worlds' ? (
-            <Ledger worlds={worlds} progress={progress} onOpen={openWorld} />
-          ) : (
-            <CharacterIndex
+            ) : view === 'worlds' ? (
+              <Ledger worlds={worlds} progress={progress} onOpen={openWorld} />
+            ) : (
+              <CharacterIndex
                 worlds={worlds}
                 metas={metas}
                 loading={loadingMetas}
                 onOpen={goToCharacter}
               />
-          )}
-        </>
-      )}
+            )}
+          </>
+        )}
+      </main>
     </div>
   );
 }

@@ -84,7 +84,7 @@ export function hereLabel(hereTitle: string | null): string {
   return hereTitle ? `Another life in ${hereTitle}` : 'Another life here';
 }
 
-function StartLinkPair({ onStartAgain, onStartHere, onChooseWorld, hereTitle }: StartLinks) {
+export function StartLinkPair({ onStartAgain, onStartHere, onChooseWorld, hereTitle }: StartLinks) {
   return (
     <>
       <button type="button" className="annot-link" onClick={onStartAgain}>
@@ -194,5 +194,48 @@ export function BackgroundToggle({
       {hidden ? 'Show background' : 'Hide background'}
       {!unlocked ? ` · ${cost}` : ''}
     </button>
+  );
+}
+
+/**
+ * The two rooms of the topology lab, named on both of them.
+ *
+ * The experiment used to be a surface you could only arrive at and only leave,
+ * with chrome that matched nothing else — which is most of why it read as a
+ * different product. The lab is the shell: the same wordmark in the same inset
+ * on both, and this pair in the reference corner saying where you are and what
+ * the other room is. The gallery measures worlds that are standing still; the
+ * experiment takes the walls down. Those are two rooms, not two products.
+ */
+export function LabNav({
+  current,
+  onLab,
+  onExperiment,
+}: {
+  current: 'lab' | 'experiment';
+  onLab: () => void;
+  onExperiment: () => void;
+}) {
+  return (
+    <>
+      <button
+        type="button"
+        className="annot-link"
+        onClick={onLab}
+        style={{ color: current === 'lab' ? 'var(--ink)' : undefined }}
+        aria-current={current === 'lab' ? 'page' : undefined}
+      >
+        The lab
+      </button>
+      <button
+        type="button"
+        className="annot-link"
+        onClick={onExperiment}
+        style={{ color: current === 'experiment' ? 'var(--ink)' : undefined }}
+        aria-current={current === 'experiment' ? 'page' : undefined}
+      >
+        The experiment
+      </button>
+    </>
   );
 }

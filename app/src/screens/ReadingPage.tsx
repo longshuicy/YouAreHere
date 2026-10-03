@@ -91,7 +91,7 @@ export function ReadingPage({
    * Reveal.tsx. */
   after?: ReactNode;
   /** Passed straight through to the reading: jump to another character in the
-   * topology gallery. Absent where there is nowhere to jump to. */
+   * topology lab. Absent where there is nowhere to jump to. */
   linkToCharacter?: (i: NodeIndex) => void;
   /** Passed straight through to the reading: jump to a cross-catalogue nearest
    * double, who may stand in a world that is not this one. */
