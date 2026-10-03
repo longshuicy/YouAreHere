@@ -32,6 +32,7 @@ import { blurbFor, familiarityFor, unscoredWorlds } from './data/worlds';
 import { KeyOverlay } from './render/KeyOverlay';
 import { useRoute } from './engine/route';
 import { Gallery } from './gallery/Gallery';
+import type { FollowRequest } from './experiment/Experiment';
 import { ColdOpen } from './screens/ColdOpen';
 import { ChooseWorld } from './screens/ChooseWorld';
 import { Explore } from './screens/Explore';
@@ -101,6 +102,11 @@ export default function App() {
   const { route, navigate } = useRoute();
   // Everything that is not a running puzzle is the lab.
   const showLab = route.screen !== 'game';
+  /** Who the experiment opens already following. Only the reveal's "follow
+   * with no walls" sets it, and it lasts only while the experiment is the page
+   * — any other way into the lab opens on nobody, as it always has. */
+  const [labFollow, setLabFollow] = useState<FollowRequest | null>(null);
+  if (labFollow && route.screen !== 'lab') setLabFollow(null);
   /** The world chooser, and which world it is currently fetching. `choosing`
    * is separate from the session phase because it replaces the screen rather
    * than following it — there is no session for the chosen world yet, and Back
@@ -827,6 +833,11 @@ export default function App() {
           closed={residenceClosed}
           startLinks={startLinks}
           onOpenGallery={() => navigate({ screen: 'lab' })}
+          onFollowInLab={() => {
+            const index = universe.nodes.findIndex((n) => n.i === session.you);
+            setLabFollow(index >= 0 ? { worldId: universe.id, index } : null);
+            navigate({ screen: 'lab' });
+          }}
           onOpenCharacter={(i) => navigate({ screen: 'lab-character', worldId: universe.id, i })}
           onOpenWorld={() => navigate({ screen: 'lab-world', worldId: universe.id })}
           onOpenTwin={(worldId, name) => {
@@ -866,6 +877,7 @@ export default function App() {
         progress={progress}
         route={route}
         navigate={navigate}
+        follow={labFollow}
         startLinks={{
           ...startLinks,
           onStartAgain: () => {

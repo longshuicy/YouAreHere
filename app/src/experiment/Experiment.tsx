@@ -149,7 +149,14 @@ interface Sample {
   cut: number;
 }
 
-export function Experiment() {
+/** Somebody to be following when the lab opens: a world, and their place in
+ *  that world's own node list. */
+export interface FollowRequest {
+  worldId: string;
+  index: number;
+}
+
+export function Experiment({ startFollowing = null }: { startFollowing?: FollowRequest | null } = {}) {
   /**
    * Every shipped world, fetched once.
    *
@@ -242,6 +249,9 @@ export function Experiment() {
   const [reading, setReading] = useState<{ of: MergedWorld; m: LiveMetrics } | null>(null);
   const [hover, setHover] = useState<number | null>(null);
   const [follow, setFollow] = useState<number | null>(null);
+  /** Who the reveal sent here to be followed. Taken by the first build and no
+   *  later one, so changing the worlds afterwards does not snap back to them. */
+  const askedRef = useRef(startFollowing);
   const [query, setQuery] = useState('');
   /** Bumped every round so the readout and the thread redraw. */
   const [tick, setTick] = useState(0);
@@ -411,11 +421,19 @@ export function Experiment() {
     // way round. Changing the worlds or the seed is a different run, and then
     // nobody is followed until somebody is chosen: waking a visitor up as a
     // stranger is the game's move, but here following is the second of four
-    // decisions and the column is built to ask for it.
+    // decisions and the column is built to ask for it. The one exception is
+    // arriving from a reveal, which has already answered it.
     const before = builtRef.current;
     const restart = before !== null && before.world === world && before.seed === seed;
     builtRef.current = { world, seed };
-    const keep = restart && follow !== null && follow < state.adj.length ? follow : null;
+    const asked = askedRef.current;
+    askedRef.current = null;
+    const askedWorld = asked ? world.worldIds.indexOf(asked.worldId) : -1;
+    const askedFor =
+      asked && askedWorld >= 0 && asked.index < world.worldSize[askedWorld]
+        ? world.worldStart[askedWorld] + asked.index
+        : null;
+    const keep = restart && follow !== null && follow < state.adj.length ? follow : askedFor;
     state.follow = keep;
     stateRef.current = state;
     viewStateRef.current = state;

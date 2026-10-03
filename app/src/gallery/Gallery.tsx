@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { BrandCluster, type StartLinks } from '../render/MarginLinks';
-import { Experiment } from '../experiment/Experiment';
+import { Experiment, type FollowRequest } from '../experiment/Experiment';
 import { FullGraph } from '../render/FullGraph';
 import { fetchMeta, findByName } from '../data/loader';
 import type { Universe, UniverseMeta } from '../types';
@@ -480,9 +480,12 @@ interface Props {
    * from the reveal lands on the page it named rather than on the index. */
   route: Route;
   navigate: (route: Route, opts?: { replace?: boolean }) => void;
+  /** Who the experiment should open already following, when the reveal sent
+   *  the player here to watch them. */
+  follow?: FollowRequest | null;
 }
 
-export function Gallery({ universes, progress, startLinks, route, navigate }: Props) {
+export function Gallery({ universes, progress, startLinks, route, navigate, follow = null }: Props) {
   const open = route.screen === 'lab-world' ? route.worldId : null;
   /** A character page, which replaces the gallery the same way a world's does. */
   const character = route.screen === 'lab-character' ? { worldId: route.worldId, i: route.i } : null;
@@ -667,7 +670,7 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
              column and manages its own inside — the drawing takes the
              height left over and the transport sits at the foot of it. */
           <div className="lab-live">
-            <Experiment />
+            <Experiment startFollowing={follow} />
           </div>
         ) : view === 'worlds' ? (
           <Ledger worlds={worlds} progress={progress} onOpen={openWorld} facts={worldFacts} />

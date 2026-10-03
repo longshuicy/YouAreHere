@@ -2664,12 +2664,13 @@ button {
   color: var(--paper);
 }
 
-/* Settled: the outline stays, the number gives way to a tick. The number is
-   the order you work in, and once a step has an answer the order is behind
-   you. */
+/* Settled: filled in ink, the number giving way to a tick. The number is the
+   order you work in, and once a step has an answer the order is behind you.
+   An outline alone read as a box still waiting to be ticked. */
 .xp-step-n.done {
+  background: var(--ink);
   border-color: var(--ink);
-  color: var(--ink);
+  color: var(--paper);
 }
 
 .xp-step-label {

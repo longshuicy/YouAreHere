@@ -26,6 +26,8 @@ interface Props {
   closed?: boolean;
   startLinks: StartLinks;
   onOpenGallery: () => void;
+  /** Into the lab's experiment, already following the person just found. */
+  onFollowInLab: () => void;
   onOpenCharacter: (i: number) => void;
   onOpenWorld: () => void;
   onOpenTwin: (worldId: string, name: string) => void;
@@ -40,6 +42,7 @@ export function Reveal({
   closed = false,
   startLinks,
   onOpenGallery,
+  onFollowInLab,
   onOpenCharacter,
   onOpenWorld,
   onOpenTwin,
@@ -174,7 +177,7 @@ export function Reveal({
         />
       }
       belowHead={
-        <WaysOut startLinks={startLinks} youName={youName} onOpenLab={onOpenGallery} />
+        <WaysOut startLinks={startLinks} youName={youName} onFollowInLab={onFollowInLab} />
       }
       after={
         tieMeaning ? (
@@ -210,11 +213,11 @@ export function Reveal({
 function WaysOut({
   startLinks,
   youName,
-  onOpenLab,
+  onFollowInLab,
 }: {
   startLinks: StartLinks;
   youName: string | null;
-  onOpenLab: () => void;
+  onFollowInLab: () => void;
 }) {
   return (
     <div className="reveal-actions">
@@ -229,7 +232,7 @@ function WaysOut({
           has just finished walking this person's neighbourhood under the
           game's rules, and the lab is where the same person can be watched
           without them. */}
-      <button type="button" className="reveal-follow-lab" onClick={onOpenLab}>
+      <button type="button" className="reveal-follow-lab" onClick={onFollowInLab}>
         Follow {youName ?? 'them'} with no walls
         <svg
           width="11"
