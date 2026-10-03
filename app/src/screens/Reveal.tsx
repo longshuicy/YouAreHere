@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { hereLabel, type StartLinks } from '../render/MarginLinks';
+import type { StartLinks } from '../render/MarginLinks';
 import { TopBar } from '../render/TopBar';
 import { clueBonus, clueTotal, type Session } from '../engine/session';
 import {
@@ -172,12 +172,7 @@ export function Reveal({
         />
       }
       belowHead={
-        <WaysOut
-          startLinks={startLinks}
-          youName={youName}
-          worldTitle={universe.title}
-          onOpenLab={onOpenGallery}
-        />
+        <WaysOut startLinks={startLinks} youName={youName} onOpenLab={onOpenGallery} />
       }
       after={
         tieMeaning ? (
@@ -200,69 +195,47 @@ export function Reveal({
  * it. The same three everywhere, in the same words, with the one that keeps
  * this map carrying the emphasis.
  */
+/**
+ * The ways out of a finished round.
+ *
+ * Down to two, since the board dropped its own copies of ANY WORLD and
+ * CHOOSE A WORLD — both already in the bar above, where every other screen
+ * keeps them. What is left here is specific to just having finished: play
+ * the same person again, or go watch them in the lab with every wall down.
+ * Both single-line, inline, at the bar's own 44px rather than the taller
+ * stacked blocks this row used to hold.
+ */
 function WaysOut({
   startLinks,
   youName,
-  worldTitle,
   onOpenLab,
 }: {
   startLinks: StartLinks;
   youName: string | null;
-  worldTitle: string;
   onOpenLab: () => void;
 }) {
   return (
-    <div style={{ marginTop: 22, display: 'flex', flexDirection: 'column', gap: 10 }}>
-      <div className="ways-out">
-        {/* 52px, not .begin-block's usual 60 — here it shares a row with two
-            52px outline buttons, and the artboard holds all three to the same
-            height. */}
-        <button
-          type="button"
-          className="begin-block accent"
-          onClick={startLinks.onStartHere}
-          style={{ height: 52 }}
-        >
-          <span style={{ display: 'flex', flexDirection: 'column', gap: 3, textAlign: 'left' }}>
-            <span className="begin-word" style={{ fontSize: 11, letterSpacing: '0.22em' }}>
-              Play again
-            </span>
-            <span className="begin-sub" style={{ letterSpacing: '0.18em' }}>
-              {hereLabel(worldTitle)}
-            </span>
-          </span>
-          <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden focusable="false">
-            <path d="M3 1l8 5-8 5z" fill="currentColor" />
-          </svg>
-        </button>
-        <button type="button" className="outline-button strong" onClick={startLinks.onStartAgain}>
-          Any world
-        </button>
-        <button type="button" className="outline-button strong" onClick={startLinks.onChooseWorld}>
-          Choose a world
-        </button>
-      </div>
+    <div className="reveal-actions">
+      <button type="button" className="reveal-play-again" onClick={startLinks.onStartHere}>
+        <svg width="10" height="10" viewBox="0 0 12 12" aria-hidden focusable="false">
+          <path d="M3 1l8 5-8 5z" fill="currentColor" />
+        </svg>
+        Play again here
+      </button>
 
       {/* The one place the lab is more than a link in the corner: the player
           has just finished walking this person's neighbourhood under the
           game's rules, and the lab is where the same person can be watched
           without them. */}
-      <button type="button" className="outline-row" onClick={onOpenLab}>
-        <span style={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
-          <span className="mono" style={{ fontSize: 11, letterSpacing: '0.22em', textTransform: 'uppercase' }}>
-            Follow {youName ?? 'them'} with no walls
-          </span>
-          <span style={{ fontSize: 15, color: 'var(--body)' }}>
-            In the topology lab: watch who they’d meet if every world opened up.
-          </span>
-        </span>
+      <button type="button" className="reveal-follow-lab" onClick={onOpenLab}>
+        Follow {youName ?? 'them'} with no walls
         <svg
-          width="14"
-          height="14"
+          width="11"
+          height="11"
           viewBox="0 0 10 10"
           fill="none"
           stroke="var(--accent)"
-          strokeWidth="1.3"
+          strokeWidth="1.4"
           aria-hidden
           focusable="false"
         >
@@ -331,7 +304,7 @@ function RevealHead({
           style={{
             margin: 0,
             fontWeight: 400,
-            fontSize: 'clamp(34px, 7vw, 64px)',
+            fontSize: 'clamp(30px, 6vw, 48px)',
             lineHeight: 1.02,
             color: 'var(--accent)',
           }}

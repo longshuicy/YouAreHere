@@ -435,26 +435,6 @@ button {
   cursor: default;
 }
 
-/* The same block in the accent. Used where the thing to press is not a start
-   but a *re*start: the reveal's way back into the world you have just left. */
-.begin-block.accent {
-  background: var(--accent);
-}
-
-.begin-block.accent .begin-sub {
-  color: var(--on-accent-dim);
-}
-
-.begin-block.accent:hover,
-.begin-block.accent:focus-visible {
-  background: var(--ink);
-}
-
-.begin-block.accent:hover .begin-sub,
-.begin-block.accent:focus-visible .begin-sub {
-  color: var(--on-ink-dim);
-}
-
 /* The node menu.
  *
  * A card in front of the diagram, so it is drawn like one: ink edge, a hard
@@ -758,7 +738,7 @@ button {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
-  padding: 14px 0;
+  padding: 10px 0;
   border-top: 1px solid var(--ink);
   border-bottom: 1px solid var(--rule);
 }
@@ -770,41 +750,63 @@ button {
   }
 }
 
-/* The reveal's ways out: one block and two framed alternatives on a line,
-   stacking when there is no line to share. */
-.ways-out {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 150px 150px;
-  gap: 8px;
-}
-
-@media (max-width: 760px) {
-  .ways-out {
-    grid-template-columns: minmax(0, 1fr);
-  }
-}
-
-/* An outlined button that is a row rather than a stack: a label over a line of
-   prose, with the way onward marked at the far end. */
-.outline-row {
+/* The reveal's ways out: play again, or watch them in the lab — the board
+   dropped its own copies of ANY WORLD and CHOOSE A WORLD once the bar above
+   carried them on every screen, which is what cut this from three to two. */
+.reveal-actions {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  width: 100%;
-  min-height: 52px;
-  padding: 8px 18px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.reveal-play-again {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  height: 44px;
+  padding: 0 18px;
+  background: var(--accent);
+  color: var(--paper);
+  border: none;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+.reveal-play-again:hover,
+.reveal-play-again:focus-visible {
+  background: var(--ink);
+  outline: none;
+}
+
+.reveal-follow-lab {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 44px;
+  box-sizing: border-box;
+  padding: 0 16px;
   border: 1px solid var(--ink);
   background: transparent;
   color: var(--ink);
-  text-align: left;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  white-space: nowrap;
   cursor: pointer;
-  transition: border-color 120ms ease;
+  transition: border-color 120ms ease, color 120ms ease;
 }
 
-.outline-row:hover,
-.outline-row:focus-visible {
+.reveal-follow-lab:hover,
+.reveal-follow-lab:focus-visible {
   border-color: var(--accent);
+  color: var(--accent);
   outline: none;
 }
 
