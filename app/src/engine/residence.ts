@@ -103,15 +103,6 @@ export function emptyResidence(universe: Universe): Residence {
   };
 }
 
-/** A new map, at the moment the player chooses to stay after a first reveal. */
-export function beginResidence(
-  universe: Universe,
-  session: Session,
-  yourName = '',
-): Residence {
-  return absorbStart(emptyResidence(universe), session, yourName);
-}
-
 /**
  * Copy this start's learning onto the map without ending the start.
  *

@@ -3,8 +3,8 @@
  *
  * This file is only the wiring. The rules are in sim.ts, every constant they
  * stand on is in constants.ts with the argument for its value, the drawing is
- * in Field.tsx, the live figures in metrics.ts and the expensive ones in
- * report.ts. docs/The experiment.md is what all of it is for.
+ * in Field.tsx and the live figures in metrics.ts. docs/The experiment.md is
+ * what all of it is for.
  *
  * Three things run at once and on different clocks: the simulation, on a fixed
  * ten rounds a second; the force layout, in a worker, posting positions back

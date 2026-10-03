@@ -15,13 +15,3 @@ export function degreeBarsBox(height: number, labelSize = 7, showCounts = true, 
 export function horizonStripBox(height: number, labelMarks = false) {
   return height + (labelMarks ? 14 : 0);
 }
-
-/** The bar height that makes a degree strip exactly `box` tall. */
-export function degreeBarsHeightFor(box: number, labelSize = 7, showCounts = true, showBands = true) {
-  return box - degreeBarsBox(0, labelSize, showCounts, showBands);
-}
-
-/** The tick height that makes a horizon strip exactly `box` tall. */
-export function horizonStripHeightFor(box: number, labelMarks = false) {
-  return box - horizonStripBox(0, labelMarks);
-}

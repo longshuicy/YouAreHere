@@ -230,19 +230,6 @@ export const CROSS_STROKE = '#16130f';
 export const CROSS_WIDTH = 0.9;
 export const CROSS_ALPHA = 0.5;
 
-/**
- * Accent is reserved. It marks the character being followed and their ties, and
- * it marks nothing else — not strength, not cross-world, not hover. A colour
- * that means several things means none of them.
- */
-export const FOLLOW_STROKE = '#8c2f2a';
-export const FOLLOW_WIDTH = 2;
-
-/** Hover: the same ink as cross-world ties but heavier and opaque, so pointing
- * at someone reads as emphasis rather than as a category. */
-export const HOVER_STROKE = '#16130f';
-export const HOVER_WIDTH = 1.8;
-
 /** Node radius: a constant, plus a term in √degree so a hub reads as a hub
  * without a six-hundred-tie character becoming a blot. */
 export const NODE_BASE_R = 1.1;
@@ -328,32 +315,3 @@ export const DIM_ALPHA = 0.16;
  * the whole frame. */
 export const FIT_PAD = 0.06;
 export const FIT_EASE = 0.08;
-
-// ── The end-of-run report ───────────────────────────────────────────────────
-
-/**
- * How many sources the average-path-length estimate starts from.
- *
- * Exact is |V| breadth-first searches — 8,727 × 58,173 traversals, seconds of
- * work. Two hundred random sources put the estimate within a few percent and
- * cost about a hundred milliseconds, which is affordable once at the end of a
- * run and never affordable during one.
- */
-export const PATH_SAMPLE_SOURCES = 200;
-
-/** Louvain passes. Two is enough for a stable partition at this size; more
- * mostly moves singletons between neighbouring communities. */
-export const LOUVAIN_PASSES = 2;
-
-/**
- * The smallest group that counts as a community.
- *
- * Without a floor the number is meaningless. The partition starts with every
- * character in a community of their own and only moves those with ties, so a
- * run that has cut a few hundred characters adrift reports a few hundred
- * "communities" that are one isolated person each — 1,152 of them at the first
- * full-scale run, against a modularity of 0.61 that described something like
- * forty real groups. Counting only groups of five or more answers the question
- * anyone is actually asking: how many camps are there.
- */
-export const MIN_COMMUNITY = 5;
