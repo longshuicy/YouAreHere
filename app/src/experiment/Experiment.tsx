@@ -778,15 +778,20 @@ export function Experiment() {
       .map((e) => {
         const name = world.name[e.other];
         const away = world.world[e.other] !== world.world[you];
-        const from = away ? `, from ${world.worldTitles[world.world[e.other]]}` : '';
         // Split around the name rather than written as one string, so the
         // person can carry the line and the rest of the sentence can be the
-        // frame around them.
+        // frame around them. The verb leads — `Met`, `Lost touch with`,
+        // `Drifting from` — because the line is read for what happened, and
+        // only a meeting is news in the colour of the experiment.
         return {
           year: e.year,
           name,
-          before: e.action === 'FORM' ? 'Met ' : e.action === 'CUT' ? 'Lost touch with ' : '',
-          after: e.action === 'FADE' ? ' fell below half strength.' : `${from}.`,
+          gain: e.action === 'FORM',
+          before:
+            e.action === 'FORM' ? 'Met ' : e.action === 'CUT' ? 'Lost touch with ' : 'Drifting from ',
+          // No full stop: these are entries in a list, not sentences in a
+          // paragraph, and the world is the only thing left to say.
+          after: away ? `, of ${world.worldTitles[world.world[e.other]]}` : '',
         };
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -1779,7 +1784,7 @@ function Reading(props: {
   outside: number;
   startTies: number;
   startOutside: number;
-  story: { year: number; name: string; before: string; after: string }[];
+  story: { year: number; name: string; gain: boolean; before: string; after: string }[];
   peopleOpen: boolean;
   onPeople: () => void;
   onSomeoneElse: () => void;
@@ -1856,7 +1861,7 @@ function Reading(props: {
           >
             <span className="mono xp-story-year">Year {e.year}</span>
             <span className="xp-story-text">
-              {e.before}
+              <span className={e.gain ? 'xp-story-verb gain' : 'xp-story-verb'}>{e.before}</span>
               <b>{e.name}</b>
               {e.after}
             </span>
