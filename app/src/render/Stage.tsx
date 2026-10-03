@@ -27,7 +27,11 @@ interface Props {
   factLines?: Map<number, string>;
   /** Free clue text for a visible tie, from the enrichment sidecar. */
   edgeLine?: (a: number, b: number) => string | null;
-  dimmed?: boolean;
+  /** Dimmed as evidence rather than hidden. `true` is the deep fade a
+   *  graph gets behind a full-screen reveal-answer overlay; a number is an
+   *  explicit opacity for a screen that keeps the diagram as something to
+   *  actually read, like the guess screen's own copy of it. */
+  dimmed?: boolean | number;
   interactive?: boolean;
   showYouCaption?: boolean;
   pannable?: boolean;
@@ -297,7 +301,7 @@ export function Stage({
         style={{
           // The guess screen keeps the graph as evidence, not as competition:
           // it must stay legible behind a form without pulling the eye.
-          opacity: dimmed ? 0.07 : 1,
+          opacity: typeof dimmed === 'number' ? dimmed : dimmed ? 0.07 : 1,
           transition: 'opacity 300ms ease',
           display: 'block',
           cursor: pannable ? 'grab' : 'default',

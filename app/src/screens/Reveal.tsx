@@ -214,7 +214,15 @@ function WaysOut({
   return (
     <div style={{ marginTop: 22, display: 'flex', flexDirection: 'column', gap: 10 }}>
       <div className="ways-out">
-        <button type="button" className="begin-block accent" onClick={startLinks.onStartHere}>
+        {/* 52px, not .begin-block's usual 60 — here it shares a row with two
+            52px outline buttons, and the artboard holds all three to the same
+            height. */}
+        <button
+          type="button"
+          className="begin-block accent"
+          onClick={startLinks.onStartHere}
+          style={{ height: 52 }}
+        >
           <span style={{ display: 'flex', flexDirection: 'column', gap: 3, textAlign: 'left' }}>
             <span className="begin-word" style={{ fontSize: 11, letterSpacing: '0.22em' }}>
               Play again

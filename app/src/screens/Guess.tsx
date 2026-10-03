@@ -146,8 +146,12 @@ export function Guess({
 
   return (
     <div style={{ position: 'relative', height: '100dvh', overflow: 'hidden' }}>
-      {/* The graph stays visible — it is the evidence, not the subject. */}
-      <div style={{ position: 'absolute', inset: 0, top: 'var(--chrome-band)' }}>
+      {/* The graph on the right, the question on the left — the board's own
+          split, not a full-bleed wallpaper behind the whole page. It is the
+          evidence a guess is weighed against, so it is dimmed to stay clear of
+          the text rather than hidden the way a reveal-answer overlay fades
+          one out: 0.4, not the 0.07 a graph gets when it is purely ambient. */}
+      <div className="guess-graph">
         <Stage
           graph={graph}
           positions={positions}
@@ -155,7 +159,7 @@ export function Guess({
           onExpand={() => {}}
           onFacts={() => {}}
           onName={() => {}}
-          dimmed
+          dimmed={0.4}
           interactive={false}
           pannable={false}
           hideBackground={session.hideBackground}

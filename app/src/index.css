@@ -548,6 +548,25 @@ button {
   white-space: nowrap;
 }
 
+/* Where the evidence sits: the right half, the same split the reveal uses,
+   so the two screens that put a graph beside prose do it the same way. Full
+   width under 760px, where there is no room for a column beside it — it goes
+   back to a dimmed backdrop for the whole page at that width. */
+.guess-graph {
+  position: absolute;
+  top: var(--chrome-band);
+  right: 0;
+  bottom: 0;
+  width: 56%;
+}
+
+@media (max-width: 760px) {
+  .guess-graph {
+    left: 0;
+    width: 100%;
+  }
+}
+
 /* The guess screen.
  *
  * A column beside the drawing rather than a centred stack: the graph is the
