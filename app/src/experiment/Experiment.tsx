@@ -178,6 +178,9 @@ export function Experiment() {
   const [params, setParams] = useState<Params>(DEFAULT_PARAMS);
   const [seed, setSeed] = useState(48291);
   const [runId, setRunId] = useState(0);
+  /** What the last build was of, so a rebuild can tell a restart (same worlds,
+   *  same seed, the Again button) from a genuinely different run. */
+  const builtRef = useRef<{ world: MergedWorld | null; seed: number } | null>(null);
   const [running, setRunning] = useState(false);
   const [tieView, setTieView] = useState<TieView>('all');
   const [refit, setRefit] = useState(0);
@@ -399,17 +402,25 @@ export function Experiment() {
   useEffect(() => {
     if (!world) return;
     const state = initState(world, seed);
-    // Nobody is followed until somebody is chosen. Waking a visitor up as a
-    // stranger is the game's move; here, who you follow is the second of four
+    // A restart keeps who you are. `Again` says "same settings, new run", and
+    // the person you follow is one of those settings — dropping them left the
+    // run going with an empty right column and no way back to it but the long
+    // way round. Changing the worlds or the seed is a different run, and then
+    // nobody is followed until somebody is chosen: waking a visitor up as a
+    // stranger is the game's move, but here following is the second of four
     // decisions and the column is built to ask for it.
-    state.follow = null;
+    const before = builtRef.current;
+    const restart = before !== null && before.world === world && before.seed === seed;
+    builtRef.current = { world, seed };
+    const keep = restart && follow !== null && follow < state.adj.length ? follow : null;
+    state.follow = keep;
     stateRef.current = state;
     viewStateRef.current = state;
     snapsRef.current = emptySnapshots(paramsRef.current.years);
     setScrub(null);
     historyRef.current = [];
     worldHistoryRef.current = world.worldIds.map(() => []);
-    setFollow(null);
+    setFollow(keep);
     sendLinks(true);
     if (posRef.current) capture(snapsRef.current, 0, posRef.current);
     readOff(state, world);
