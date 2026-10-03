@@ -7,6 +7,7 @@ import type { Universe, UniverseMeta } from '../types';
 import { DegreeBars, HorizonStrip, StripLabel } from './Fingerprint';
 import { CharacterIndex } from './CharacterIndex';
 import { Ledger } from './Ledger';
+import { worldFactsOf } from './WorldFilter';
 import { ReadingPage } from '../screens/ReadingPage';
 import { SplitPage } from '../screens/SplitPage';
 import { NameLink } from '../render/NameLink';
@@ -549,6 +550,7 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
     return { cast, ties, camps, largest };
   }, [worlds]);
   const byId = useMemo(() => new Map(universes.map((u) => [u.id, u])), [universes]);
+  const worldFacts = useMemo(() => new Map(universes.map((u) => [u.id, worldFactsOf(u)])), [universes]);
 
   /** The facets live in the enrichment sidecars, which the game fetches one at a
    * time for whichever world is in play. The index needs all of them, so it
@@ -668,7 +670,7 @@ export function Gallery({ universes, progress, startLinks, route, navigate }: Pr
             <Experiment />
           </div>
         ) : view === 'worlds' ? (
-          <Ledger worlds={worlds} progress={progress} onOpen={openWorld} />
+          <Ledger worlds={worlds} progress={progress} onOpen={openWorld} facts={worldFacts} />
         ) : (
           <CharacterIndex
             worlds={worlds}

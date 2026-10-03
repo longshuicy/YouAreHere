@@ -35,7 +35,7 @@ export const NAME_FLEX = '2 1 180px';
 export const NAME_MIN = 104;
 /** The gutter the open-mark sits in, at the end of every row and reserved in
  * the head so the columns above and below still line up. */
-export const OPEN_W = 20;
+export const OPEN_W = 56;
 /** Clears the sticky view switcher above. */
 export const HEAD_OFFSET = 46;
 
@@ -182,7 +182,7 @@ export function Cell({
             fontSize: 9,
             color: 'var(--accent)',
             whiteSpace: 'nowrap',
-            background: 'var(--paper)',
+            background: 'var(--panel)',
           }}
         >
           {figure}
@@ -215,13 +215,24 @@ export function OpenMark({ lit }: { lit: boolean }) {
         fontSize: 11,
         lineHeight: 1,
         textAlign: 'right',
+        paddingRight: 8,
+        whiteSpace: 'nowrap',
         color: lit ? 'var(--accent)' : 'var(--leader)',
         transition: 'color 90ms ease',
       }}
     >
-      →
+      {lit && <span style={{ fontSize: 9, letterSpacing: '0.16em', marginRight: 6 }}>OPEN</span>}→
     </div>
   );
+}
+
+/** A row under the pointer: lifted onto white, with an accent rule down its
+ *  leading edge — drawn as an inset shadow so nothing in the row moves. */
+export function rowHighlight(lit: boolean) {
+  return {
+    background: lit ? 'var(--panel)' : 'transparent',
+    boxShadow: lit ? 'inset 2px 0 0 var(--accent)' : 'none',
+  } as const;
 }
 
 /** Keeps the head row the same width as the rows under it. */
@@ -292,25 +303,35 @@ export function nextSort(
     : { key, descending: !alphabetical(key) };
 }
 
+const SCALE_EXPLAINED =
+  'Every bar is a place among the whole catalogue, not a raw figure. Left of the line is below the middle, right is above, and a full bar is the far end. Hover a row for its figures, press one to open it.';
+
 /**
- * What a bar means, said once, in plain words, where the control used to be.
- *
- * One line, and it has to stay one line: set to a 560px measure it wrapped to
- * three and pushed the table a third of a screen down the page, which is a lot
- * of paper to spend on a sentence nobody reads twice. It runs the full width of
- * the row it shares with the count instead, and the wording is cut to fit
- * there.
+ * What a bar means, drawn as a key rather than said as a sentence: the two
+ * words at either end and a bar each side of the centre line between them.
+ * The sentence it replaced wrapped on every laptop and pushed the table down;
+ * it is the key's tooltip now, a hover away for anyone who wants it.
  */
 export function ScaleNote() {
   return (
-    <div style={{ display: 'flex', alignItems: 'baseline', gap: 14, flex: '1 1 auto', minWidth: 0 }}>
-      <span className="field-label" style={{ flexShrink: 0 }}>
-        Bars
+    <div className="scale-legend" role="note" aria-label={SCALE_EXPLAINED} title={SCALE_EXPLAINED}>
+      <span className="annot">Less than most</span>
+      <span className="scale-glyph" aria-hidden>
+        <span />
+        <span />
       </span>
-      <span className="annot" style={{ fontSize: 9, lineHeight: 1.8 }}>
-        Left of the line is below the middle of the catalogue, right is above, a full bar is the far
-        end. Hover a row for its figures, press one to open it.
-      </span>
+      <span className="annot">More than most</span>
+    </div>
+  );
+}
+
+/** The row above a ledger: search and whatever else narrows it on the left,
+ *  how much is left after narrowing in the far corner. */
+export function LedgerControls({ children, count }: { children: ReactNode; count: ReactNode }) {
+  return (
+    <div className="ledger-controls">
+      {children}
+      <span className="annot ledger-count">{count}</span>
     </div>
   );
 }
@@ -326,7 +347,11 @@ export function SearchField({
   placeholder: string;
 }) {
   return (
-    <div style={{ position: 'relative', width: 'min(460px, 100%)' }}>
+    <div className="ledger-search">
+      <svg className="ledger-search-icon" width={14} height={14} viewBox="0 0 14 14" aria-hidden>
+        <circle cx={5.8} cy={5.8} r={4.6} fill="none" stroke="currentColor" strokeWidth={1.3} />
+        <line x1={9.2} y1={9.2} x2={13} y2={13} stroke="currentColor" strokeWidth={1.3} />
+      </svg>
       <input
         className="field"
         type="search"
@@ -335,14 +360,13 @@ export function SearchField({
         placeholder={placeholder}
         aria-label={placeholder}
         autoComplete="off"
-        style={{ fontSize: 21, paddingRight: 28 }}
       />
       {value && (
         <button
           className="field-clear"
           aria-label="Clear the search"
           onClick={() => onChange('')}
-          style={{ position: 'absolute', right: 0, bottom: 10 }}
+          style={{ position: 'absolute', right: 0, top: '50%', transform: 'translateY(-50%)' }}
         >
           ×
         </button>

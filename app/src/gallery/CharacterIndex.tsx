@@ -1,12 +1,13 @@
 import { useMemo, useState } from 'react';
 import type { UniverseMeta } from '../types';
 import type { WorldMetrics } from './metrics';
-import { buildIndex, TIER_NOTE, type IndexRow } from './indexData';
-import { RadioRow } from './RadioRow';
+import { buildIndex, type IndexRow } from './indexData';
+import { FacetFilter, matchesCharacter, type CharacterSelection } from './FacetFilter';
 import {
   Cell,
   Head,
   HeadRow,
+  LedgerControls,
   OpenMark,
   OpenSpacer,
   ROW_H,
@@ -15,6 +16,7 @@ import {
   SearchField,
   leanOf,
   nextSort,
+  rowHighlight,
   useBands,
   type LedgerColumn,
 } from './LedgerParts';
@@ -108,8 +110,7 @@ export function CharacterIndex({
   onOpen: (worldId: string, i: number) => void;
 }) {
   const [query, setQuery] = useState('');
-  const [facetKey, setFacetKey] = useState<string | null>(null);
-  const [facetValue, setFacetValue] = useState<string | null>(null);
+  const [selection, setSelection] = useState<CharacterSelection>({});
   /** A to Z. An opening order that is itself one of the measures quietly
    * nominates that measure as the important one; the alphabet nominates
    * nothing. */
@@ -118,24 +119,19 @@ export function CharacterIndex({
   const [hot, setHot] = useState<string | null>(null);
 
   const { rows, facets } = useMemo(() => buildIndex(worlds, metas), [worlds, metas]);
-  const activeFacet = facets.find((f) => f.key === facetKey) ?? null;
+  const chosenKeys = Object.keys(selection);
   const bands = useBands(rows, COLUMNS);
 
-  const filtered = useMemo(() => {
+  const searched = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    let out = rows;
-    if (needle) {
-      out = out.filter(
-        (r) => r.name.toLowerCase().includes(needle) || r.worldTitle.toLowerCase().includes(needle),
-      );
-    }
-    if (facetKey) {
-      out = out.filter((r) => {
-        const labels = r.facts[facetKey];
-        if (!labels) return false;
-        return facetValue === null || labels.includes(facetValue);
-      });
-    }
+    if (!needle) return rows;
+    return rows.filter(
+      (r) => r.name.toLowerCase().includes(needle) || r.worldTitle.toLowerCase().includes(needle),
+    );
+  }, [rows, query]);
+
+  const filtered = useMemo(() => {
+    const out = Object.keys(selection).length > 0 ? searched.filter((r) => matchesCharacter(r, selection)) : searched;
     const col = COLUMNS.find((c) => c.key === sort.key);
     const sorted = [...out].sort((a, b) => {
       if (col) return col.of(a) - col.of(b);
@@ -145,99 +141,41 @@ export function CharacterIndex({
     });
     if (sort.descending) sorted.reverse();
     return sorted;
-  }, [rows, query, facetKey, facetValue, sort]);
+  }, [searched, selection, sort]);
 
-  const chooseFacet = (key: string | null) => {
-    setFacetKey(key);
-    setFacetValue(null);
+  const applySelection = (next: CharacterSelection) => {
+    setSelection(next);
     setLimit(PAGE);
   };
   const sortBy = (key: string) =>
     setSort((was) => nextSort(was, key, (k) => k === 'name' || k === 'world'));
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 18, paddingTop: 22 }}>
-      <SearchField
-        value={query}
-        onChange={(next) => {
-          setQuery(next);
-          setLimit(PAGE);
-        }}
-        placeholder="Search every character"
-      />
-
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          gap: 12,
-          borderTop: '1px solid var(--rule)',
-          paddingTop: 14,
-        }}
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 24, paddingTop: 22 }}>
+      <LedgerControls
+        count={
+          loading
+            ? 'Reading the enrichment files…'
+            : `${filtered.length.toLocaleString()} of ${rows.length.toLocaleString()}`
+        }
       >
-        <RadioRow
-          label="Facet"
-          value={facetKey ?? ''}
-          onChange={(key) => chooseFacet(key === '' ? null : key)}
-          dim={(key) => facets.find((f) => f.key === key)?.tier === 'single'}
-          options={[
-            { key: '', label: 'Any' },
-            ...facets.map((facet) => ({
-              key: facet.key,
-              label: facet.key,
-              title: `${facet.characters} characters across ${facet.worlds} ${facet.worlds === 1 ? 'world' : 'worlds'}. ${TIER_NOTE[facet.tier]}`,
-            })),
-          ]}
-        />
-
-        {activeFacet && (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <div className="annot" style={{ fontSize: 9, lineHeight: 1.7, maxWidth: 640 }}>
-              {TIER_NOTE[activeFacet.tier]}
-            </div>
-            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'baseline' }}>
-              <span className="annot" style={{ fontSize: 9, minWidth: 54 }}>
-                Value
-              </span>
-              {activeFacet.values.slice(0, 40).map((v) => {
-                const active = facetValue === v.value;
-                return (
-                  <button
-                    key={v.value}
-                    className="annot-link"
-                    onClick={() => {
-                      setFacetValue(active ? null : v.value);
-                      setLimit(PAGE);
-                    }}
-                    style={{
-                      color: active ? 'var(--accent)' : 'var(--annotation)',
-                      borderBottomColor: active ? 'var(--accent)' : 'var(--leader)',
-                    }}
-                  >
-                    {v.value}
-                    <span style={{ marginLeft: 6, color: 'var(--unknown)' }}>{v.count}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'baseline',
-            justifyContent: 'space-between',
-            gap: 16,
-            flexWrap: 'wrap',
+        <SearchField
+          value={query}
+          onChange={(next) => {
+            setQuery(next);
+            setLimit(PAGE);
           }}
-        >
-          <ScaleNote />
-          <span className="annot" style={{ fontSize: 9, flexShrink: 0 }}>
-            {loading ? 'Reading the enrichment files…' : `${filtered.length} of ${rows.length}`}
-          </span>
-        </div>
-      </div>
+          placeholder={`Search ${rows.length.toLocaleString()} ${rows.length === 1 ? 'character' : 'characters'}`}
+        />
+        <FacetFilter
+          facets={facets}
+          pool={searched}
+          applied={selection}
+          onApply={applySelection}
+          loading={loading}
+        />
+        <ScaleNote />
+      </LedgerControls>
 
       <div>
         <HeadRow>
@@ -302,6 +240,7 @@ export function CharacterIndex({
                   cursor: 'pointer',
                   outline: 'none',
                   color: lit ? 'var(--accent)' : 'var(--ink)',
+                  ...rowHighlight(lit),
                 }}
               >
                 <div
@@ -311,6 +250,7 @@ export function CharacterIndex({
                     display: 'flex',
                     alignItems: 'baseline',
                     gap: 9,
+                    paddingLeft: lit ? 10 : 0,
                     paddingRight: 12,
                     overflow: 'hidden',
                   }}
@@ -346,11 +286,14 @@ export function CharacterIndex({
                     }}
                   >
                     {row.worldTitle}
-                    {activeFacet && row.facts[activeFacet.key] && (
-                      <span style={{ color: lit ? 'var(--accent)' : 'var(--annotation)' }}>
-                        {' · '}
-                        {row.facts[activeFacet.key].join(', ')}
-                      </span>
+                    {chosenKeys.map(
+                      (key) =>
+                        row.facts[key] && (
+                          <span key={key} style={{ color: lit ? 'var(--accent)' : 'var(--annotation)' }}>
+                            {' · '}
+                            {row.facts[key].join(', ')}
+                          </span>
+                        ),
                     )}
                   </span>
                 </div>

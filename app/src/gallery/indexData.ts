@@ -50,17 +50,20 @@ export const TIER_NOTE: Record<Tier, string> = {
   single: 'From one world only. A room inside that book, never a claim about the corpus.',
 };
 
-/** Facts arrive as strings, numbers or arrays; a facet is a set of labels. */
+/** Facts arrive as strings, numbers or arrays; a facet is a set of labels. A
+ * nested record is a lookup table, not a label, and is skipped. */
 function labelsOf(value: unknown): string[] {
-  if (Array.isArray(value)) return value.map((v) => String(v));
+  if (Array.isArray(value)) return value.filter((v) => typeof v !== 'object' || v === null).map(String);
   if (value === null || value === undefined) return [];
+  if (typeof value === 'object') return [];
   if (typeof value === 'boolean') return value ? ['yes'] : ['no'];
   return [String(value)];
 }
 
 /** Facets whose value is a property of the world rather than the person —
- * filtering by them just re-picks a world, which the index already does. */
-const NOT_A_FILTER = new Set(['corpusSize']);
+ * filtering by them just re-picks a world, which the index already does — or
+ * not about the person at all: `articles` is how a group's name is written. */
+const NOT_A_FILTER = new Set(['corpusSize', 'articles']);
 
 export function buildIndex(
   worlds: WorldMetrics[],

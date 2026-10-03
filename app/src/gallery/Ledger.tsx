@@ -1,10 +1,12 @@
 import { useMemo, useState } from 'react';
 import type { WorldMetrics } from './metrics';
 import { progressLine, type WorldProgress } from '../engine/residence';
+import { matchesWorld, WorldFilter, type WorldFacts, type WorldSelection } from './WorldFilter';
 import {
   Cell,
   Head,
   HeadRow,
+  LedgerControls,
   OpenMark,
   OpenSpacer,
   ROW_H,
@@ -13,6 +15,7 @@ import {
   SearchField,
   leanOf,
   nextSort,
+  rowHighlight,
   useBands,
   type LedgerColumn,
 } from './LedgerParts';
@@ -107,10 +110,13 @@ export function Ledger({
   onOpen,
   hovered,
   onHover,
+  facts,
 }: {
   worlds: WorldMetrics[];
   progress: Map<string, WorldProgress>;
   onOpen: (id: string) => void;
+  /** Each world's facets, for the filter. No filter is drawn without them. */
+  facts?: Map<string, WorldFacts>;
   /** Shared with anything else drawing the same worlds, so a row and a mark
    * light together. Local when nothing else is listening. */
   hovered?: string | null;
@@ -121,20 +127,28 @@ export function Ledger({
    * order that is itself one of the measures quietly nominates that measure as
    * the important one. The alphabet nominates nothing. */
   const [sort, setSort] = useState({ key: 'title', descending: false });
+  const [selection, setSelection] = useState<WorldSelection>({});
   const [localHover, setLocalHover] = useState<string | null>(null);
   const hot = hovered ?? localHover;
 
   const bands = useBands(worlds, COLUMNS);
 
-  const rows = useMemo(() => {
+  const searched = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    const matched = needle ? worlds.filter((w) => w.title.toLowerCase().includes(needle)) : worlds;
+    return needle ? worlds.filter((w) => w.title.toLowerCase().includes(needle)) : worlds;
+  }, [worlds, query]);
+
+  const rows = useMemo(() => {
+    const matched = facts ? searched.filter((w) => matchesWorld(facts.get(w.id), selection)) : searched;
     const col = COLUMNS.find((c) => c.key === sort.key);
     const of = col ? col.of : sort.key === 'cast' ? (w: WorldMetrics) => w.nodes : null;
     const ordered = [...matched].sort((a, b) => (of ? of(a) - of(b) : a.title.localeCompare(b.title)));
     if (sort.descending) ordered.reverse();
     return ordered;
-  }, [worlds, query, sort]);
+  }, [searched, facts, selection, sort]);
+
+  const countFor = (next: WorldSelection) =>
+    facts ? searched.filter((w) => matchesWorld(facts.get(w.id), next)).length : searched.length;
 
   const setHot = (id: string | null) => {
     setLocalHover(id);
@@ -143,25 +157,23 @@ export function Ledger({
   const sortBy = (key: string) => setSort((was) => nextSort(was, key, (k) => k === 'title'));
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 18, paddingTop: 22 }}>
-      <SearchField value={query} onChange={setQuery} placeholder="Search every world" />
-
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'baseline',
-          justifyContent: 'space-between',
-          gap: 20,
-          flexWrap: 'wrap',
-          borderTop: '1px solid var(--rule)',
-          paddingTop: 14,
-        }}
-      >
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 24, paddingTop: 22 }}>
+      <LedgerControls count={`${rows.length} of ${worlds.length}`}>
+        <SearchField
+          value={query}
+          onChange={setQuery}
+          placeholder={`Search ${worlds.length} ${worlds.length === 1 ? 'world' : 'worlds'}`}
+        />
+        {facts && (
+          <WorldFilter
+            facts={facts}
+            applied={selection}
+            onApply={setSelection}
+            countFor={countFor}
+          />
+        )}
         <ScaleNote />
-        <span className="annot" style={{ fontSize: 9, flexShrink: 0 }}>
-          {rows.length} of {worlds.length}
-        </span>
-      </div>
+      </LedgerControls>
 
       <div>
         <HeadRow>
@@ -227,6 +239,7 @@ export function Ledger({
                   cursor: 'pointer',
                   outline: 'none',
                   color: lit ? 'var(--accent)' : 'var(--ink)',
+                  ...rowHighlight(lit),
                 }}
               >
                 <div
@@ -236,6 +249,7 @@ export function Ledger({
                     display: 'flex',
                     alignItems: 'baseline',
                     gap: 10,
+                    paddingLeft: lit ? 10 : 0,
                     paddingRight: 12,
                   }}
                 >

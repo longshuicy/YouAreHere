@@ -1785,6 +1785,293 @@ button {
   position: relative;
 }
 
+/* ── A ledger's controls ─────────────────────────────────────────────────────
+   Search, the filter where there is one, and the key to the bars, on one line
+   with the count in the far corner. */
+
+.ledger-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px 32px;
+  flex-wrap: wrap;
+}
+
+.ledger-count {
+  margin-left: auto;
+  font-size: 9px;
+  flex-shrink: 0;
+}
+
+.ledger-search {
+  position: relative;
+  flex: 0 1 320px;
+  min-width: 200px;
+}
+
+.ledger-search .field {
+  font-size: 18px;
+  padding: 6px 26px 9px 24px;
+  min-height: 40px;
+}
+
+.ledger-search-icon {
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--annotation);
+  pointer-events: none;
+}
+
+.ledger-search:focus-within .ledger-search-icon {
+  color: var(--accent);
+}
+
+.scale-legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: help;
+}
+
+.scale-legend .annot {
+  font-size: 8.5px;
+  white-space: nowrap;
+}
+
+/* The key's own bar: one each side of the centre line, as every cell draws. */
+.scale-glyph {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 13px;
+}
+
+.scale-glyph::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--ink);
+}
+
+.scale-glyph span {
+  display: block;
+  width: 10px;
+  height: 7px;
+  background: var(--tie-strong);
+}
+
+.scale-glyph span + span {
+  margin-left: 3px;
+}
+
+/* ── The facet filter ───────────────────────────────────────────────────── */
+
+.filter-wrap {
+  position: relative;
+}
+
+.filter-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  height: 40px;
+  padding: 0 16px;
+  border: 1px solid var(--annotation);
+  background: transparent;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 90ms ease, color 90ms ease;
+}
+
+.filter-button:hover,
+.filter-button:focus-visible,
+.filter-button[aria-expanded='true'] {
+  border-color: var(--ink);
+  outline: none;
+}
+
+.filter-button[aria-expanded='true'] {
+  background: var(--panel);
+}
+
+.filter-button-count {
+  color: var(--accent);
+  letter-spacing: 0;
+}
+
+.filter-pop {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 20;
+  width: min(560px, calc(100vw - 2 * var(--pad-x)));
+  max-height: calc(100vh - 220px);
+  overflow-y: auto;
+  background: var(--panel);
+  border: 1px solid var(--panel-edge);
+  box-shadow: 0 12px 32px rgba(22, 19, 15, 0.1);
+  padding: 20px 22px 18px;
+}
+
+.filter-pop-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.filter-pop-title {
+  font-family: var(--serif);
+  font-size: 19px;
+  color: var(--ink);
+}
+
+.filter-pop-empty {
+  font-size: 9px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.filter-group {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 10px 12px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.filter-group-label {
+  font-size: 8.5px;
+  padding-top: 10px;
+  line-height: 1.6;
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.filter-values {
+  max-height: 176px;
+  overflow-y: auto;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: baseline;
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.25;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--leader);
+  padding: 5px 11px 6px;
+  cursor: pointer;
+  transition: border-color 90ms ease, color 90ms ease, background 90ms ease;
+}
+
+.filter-chip:hover,
+.filter-chip:focus-visible {
+  border-color: var(--ink);
+  outline: none;
+}
+
+.filter-chip.on {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.filter-chip.dim:not(.on) {
+  color: var(--leader);
+  border-color: var(--rule);
+}
+
+.filter-chip.dim:not(.on):hover,
+.filter-chip.dim:not(.on):focus-visible {
+  color: var(--annotation);
+  border-color: var(--leader);
+}
+
+.filter-chip-count {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  color: var(--unknown);
+  margin-left: 7px;
+}
+
+.filter-chip.on .filter-chip-count {
+  color: var(--on-ink-dim);
+}
+
+.filter-tier-note {
+  font-size: 8.5px;
+  line-height: 1.7;
+  padding-top: 10px;
+}
+
+.filter-pop-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-top: 16px;
+}
+
+.filter-pop-key {
+  font-size: 8.5px;
+}
+
+.filter-apply {
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 13px 18px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 90ms ease;
+}
+
+.filter-apply:hover,
+.filter-apply:focus-visible {
+  background: var(--accent);
+  outline: none;
+}
+
+@media (max-width: 640px) {
+  .ledger-search {
+    flex-basis: 100%;
+  }
+
+  .filter-group {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .filter-group-label {
+    padding-top: 0;
+  }
+
+  .filter-pop-foot {
+    flex-wrap: wrap;
+  }
+}
+
 /* ── The experiment ──────────────────────────────────────────────────────────
    A shelf of figures, the map, the transport under it, and one column on the
    right that is the setting-up before the run and the reading after it.
