@@ -751,6 +751,23 @@ button {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
   }
+
+  .reveal-tally {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+}
+
+/* The tally row: the same three columns `.reveal-stats` draws above it, kept
+   in lockstep (same column count, same breakpoint) so the residence clause on
+   the right always lands under ALL YOUR LIVES HERE rather than merely ending
+   up near it. `This life · …` spans the first two in the markup; the
+   residence clause, when there is one, takes the third on its own. */
+.reveal-tally {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  padding-top: 8px;
 }
 
 /* The reveal's ways out: play again, or watch them in the lab — the board

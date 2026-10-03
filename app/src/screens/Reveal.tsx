@@ -355,13 +355,15 @@ function RevealHead({
           board doesn't carry the closest-wrong-guess line this screen used to
           add here; it still means something, so it rides along as a title on
           the tally itself rather than taking space the design didn't leave. */}
+      {/* A grid, not a plain `space-between` row — it mirrors `.reveal-stats`'s
+          own three columns exactly, so the right-hand clause lands under
+          ALL YOUR LIVES HERE rather than wherever the text happens to end up
+          flush against the right edge. `This life` spans the first two
+          columns; the residence clause takes the third, same as the stat
+          above it. */}
       <div
-        className="annot"
+        className="annot reveal-tally"
         style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          gap: 16,
-          paddingTop: 8,
           whiteSpace: 'nowrap',
           fontSize: 9,
           letterSpacing: '0.12em',
@@ -369,6 +371,7 @@ function RevealHead({
         }}
       >
         <span
+          style={{ gridColumn: 'span 2' }}
           title={
             nearest
               ? `Closest guess ${nearest.name}, ${nearest.hops} ${nearest.hops === 1 ? 'tie' : 'ties'} away`
