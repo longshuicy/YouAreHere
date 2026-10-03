@@ -79,11 +79,11 @@ export function SplitPage({
               >
                 <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}>
                   <span style={{ display: 'block', width: 18, height: 2, background: 'var(--accent)' }} />
-                  Your ties
+                  Discovered
                 </span>
                 <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}>
                   <span style={{ display: 'block', width: 18, height: 1, background: 'var(--tie-strong)' }} />
-                  Everyone else's
+                  Not yet discovered
                 </span>
               </div>
             )}

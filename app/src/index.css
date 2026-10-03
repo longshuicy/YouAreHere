@@ -2458,7 +2458,6 @@ button {
   gap: 10px;
   min-height: 40px;
   width: 100%;
-  border-top: 1px solid var(--rule);
   cursor: pointer;
 }
 
@@ -2480,6 +2479,12 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   transition: background 90ms ease;
+}
+
+.xp-begin {
+  /* In line with the step bodies, past the number column. */
+  width: calc(100% - 34px);
+  margin: 14px 0 0 34px;
 }
 
 .xp-commit {
@@ -2732,6 +2737,8 @@ button {
 }
 
 .xp-reading-name {
+  /* With the column's 2px gap, the 10px a step leaves under its head row. */
+  margin-top: 8px;
   font-family: var(--serif);
   font-size: 30px;
   line-height: 1.05;

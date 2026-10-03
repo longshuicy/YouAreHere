@@ -442,19 +442,6 @@ export function ColdOpen({
               pannable={false}
             />
           </div>
-
-          {/* What the drawing is, when it is a map the player made. On a first
-              look it is a stranger's ring and has nothing true to say about
-              itself, so it says nothing. */}
-          {mapped && worldTitle && (
-            <div
-              className="annot"
-              style={{ textAlign: 'center', paddingTop: 10, letterSpacing: '0.18em' }}
-            >
-              Your map of {worldTitle} so far · {mapped.named.size} named ·{' '}
-              {mapped.starts.length} {mapped.starts.length === 1 ? 'life' : 'lives'}
-            </div>
-          )}
         </div>
       </div>
     </div>

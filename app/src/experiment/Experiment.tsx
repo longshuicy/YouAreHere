@@ -1360,7 +1360,7 @@ function Step(props: {
 }
 
 /**
- * Setting up, as four steps.
+ * Setting up, as three steps and the button that starts the run.
  *
  * The order is the argument: which worlds take part decides who there is to
  * follow, following somebody decides whose story the run tells, and the
@@ -1513,16 +1513,14 @@ function Steps(props: {
             </>
           )}
         </Step>
-
-        <Step n={4} label="Take the walls down" now={ready}>
-          {ready && (
-            <button type="button" className="xp-begin" onClick={props.onBegin}>
-              <PlayGlyph />
-              Take the walls down
-            </button>
-          )}
-        </Step>
       </ol>
+
+      {ready && (
+        <button type="button" className="xp-begin" onClick={props.onBegin}>
+          <PlayGlyph />
+          Take the walls down
+        </button>
+      )}
     </div>
   );
 }

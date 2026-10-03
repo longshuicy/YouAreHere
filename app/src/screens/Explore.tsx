@@ -200,14 +200,22 @@ export function Explore({
               <span className="found-sub">Free · a wrong guess costs nothing</span>
             </button>
 
-            {/* Two boxes, always. Which two depends on what the round has
-                left to offer: the world is only a question until it is
-                answered, and there is only carried paper to put away once
-                some has been carried. They are the same size and the same
-                weight because they are the same kind of thing — a bounded
-                choice with a price on it, which is what separates them from
-                the free claim above. */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 8 }}>
+            {/* Which boxes depends on what the round has left to offer: the
+                world is only a question until it is answered, and there is
+                only carried paper to put away once some has been carried. They
+                are the same size and the same weight because they are the same
+                kind of thing — a bounded choice with a price on it, which is
+                what separates them from the free claim above. A box left on
+                its own takes the full width, so it does not read as half of a
+                missing pair. */}
+            <div
+              style={{
+                display: 'grid',
+                gridTemplateColumns:
+                  !worldKnown || hasBackground ? 'repeat(2, minmax(0, 1fr))' : 'minmax(0, 1fr)',
+                gap: 8,
+              }}
+            >
               {!worldKnown && (
                 <button className="outline-button" onClick={onRevealStory}>
                   Reveal world

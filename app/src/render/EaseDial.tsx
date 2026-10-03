@@ -214,13 +214,11 @@ export function EaseDial({ residence, cast, value, onChange }: Props) {
         {end('Hard', reached)}
       </div>
 
-      <div style={{ fontSize: 15, color: 'var(--body)', minHeight: 20 }}>
-        {pct <= 0
-          ? 'The most findable person this world has.'
-          : pct >= 100
-            ? 'As hard a start as your map has opened.'
-            : `${pct}% of the way to the hard end.`}
-      </div>
+      {pct > 0 && (
+        <div style={{ fontSize: 15, color: 'var(--body)', minHeight: 20 }}>
+          {pct >= 100 ? 'As hard a start as your map has opened.' : `${pct}% of the way to the hard end.`}
+        </div>
+      )}
 
       {!reached && (
         <div className="annot" style={{ fontSize: 9, letterSpacing: '0.14em', color: 'var(--annotation)' }}>
