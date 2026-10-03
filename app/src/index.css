@@ -729,7 +729,9 @@ button {
 .reveal-head-block {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  /* No uniform gap: the artboard's three gaps here — name to stats, stats to
+     tally, tally to the actions row below — are three different numbers (14,
+     8, 18), not one repeated one. Each piece carries its own. */
 }
 
 /* Ruled ink above and hairline below: this design's mark for a reading rather
@@ -738,6 +740,7 @@ button {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
+  margin-top: 14px;
   padding: 10px 0;
   border-top: 1px solid var(--ink);
   border-bottom: 1px solid var(--rule);
@@ -758,6 +761,7 @@ button {
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
+  margin-top: 18px;
 }
 
 .reveal-play-again {

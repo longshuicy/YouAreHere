@@ -79,14 +79,17 @@ export function Reveal({
 
   const { recognitions } = session.ledger;
   const bonus = clueBonus(session.ledger);
+  // The board's own words: a verb and a count, not a plural noun — "Expand 1"
+  // rather than "1 expansion". `.annot` uppercases it, same as every other
+  // line in this row.
   const tally = [
-    `${expansions} ${expansions === 1 ? 'expansion' : 'expansions'}`,
-    `${facts} ${facts === 1 ? 'reading' : 'readings'}`,
-    `${names} ${names === 1 ? 'name' : 'names'}`,
-    ...(session.ledger.stories ? ['the world'] : []),
-    ...(session.ledger.answers ? ['the answer'] : []),
+    `Expand ${expansions}`,
+    `Read ${facts}`,
+    `Name ${names}`,
+    ...(session.ledger.stories ? ['World'] : []),
+    ...(session.ledger.answers ? ['Answer'] : []),
     ...(recognitions ? [`-${bonus}`] : []),
-  ].join('  ·  ');
+  ].join(' · ');
 
   // Any world might be returned to, so its unearned names stay off the paper
   // until the whole cast has been found.
@@ -347,23 +350,40 @@ function RevealHead({
         />
       </div>
 
-      {/* What those figures are made of. One line, under the strip, in the
-          order the round spent them. */}
-      <div className="annot" style={{ fontSize: 9, letterSpacing: '0.16em', color: 'var(--annotation)' }}>
-        This life · {tally}
-        {nearest && (
-          <>
-            {'  ·  '}Closest guess {nearest.name}, {nearest.hops}{' '}
-            {nearest.hops === 1 ? 'tie' : 'ties'} away
-          </>
-        )}
+      {/* What those figures are made of, and — in a residence — where the
+          whole map stands: two ends of one row, not a run-on sentence. The
+          board doesn't carry the closest-wrong-guess line this screen used to
+          add here; it still means something, so it rides along as a title on
+          the tally itself rather than taking space the design didn't leave. */}
+      <div
+        className="annot"
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          gap: 16,
+          paddingTop: 8,
+          whiteSpace: 'nowrap',
+          fontSize: 9,
+          letterSpacing: '0.12em',
+          color: 'var(--annotation)',
+        }}
+      >
+        <span
+          title={
+            nearest
+              ? `Closest guess ${nearest.name}, ${nearest.hops} ${nearest.hops === 1 ? 'tie' : 'ties'} away`
+              : undefined
+          }
+        >
+          This life · {tally}
+        </span>
         {residence && (
-          <>
-            {'  ·  '}Across all {lives} ·{' '}
+          <span>
+            All {lives} {lives === 1 ? 'life' : 'lives'} ·{' '}
             <span style={{ color: 'var(--ink)' }}>
               {namedCount} of {cast} named
             </span>
-          </>
+          </span>
         )}
       </div>
     </div>
