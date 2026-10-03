@@ -347,9 +347,11 @@ export function Guess({
                 {namedTies.join(' · ')}{' '}
                 {/* The whole point of the line: these are the names the
                     round has ruled out. `none of them is not you` is what the
-                    two halves made when they were written as one. */}
+                    two halves made when they were written as one — and the em
+                    dash in front of it was a second clause pretending to be an
+                    aside, when it is the sentence's own point. */}
                 <span style={{ color: 'var(--annotation)' }}>
-                  — {namedTies.length === 1 ? 'they are not you' : 'none of them is you'}
+                  {namedTies.length === 1 ? 'they are not you' : 'none of them is you'}
                 </span>
               </KnownRow>
             )}

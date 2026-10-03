@@ -120,22 +120,46 @@ export function ReadingPage({
           role="subject"
           folded={folded}
         />
+        {/* Free-floating in the graph's own corner, not a caption boxed off
+            by a rule and a paper backing — the design sets it loose under a
+            small legend, both in the annotation grey, with nothing drawn
+            between them and the diagram they describe. */}
         {graphNote && (
           <div
-            className="annot"
             style={{
               position: 'absolute',
               left: 24,
-              right: 24,
               bottom: 18,
-              lineHeight: 1.6,
+              maxWidth: 420,
+              display: 'flex',
+              flexDirection: 'column',
+              gap: 8,
               pointerEvents: 'none',
-              borderTop: '1px solid var(--rule)',
-              paddingTop: 10,
-              background: 'var(--paper)',
             }}
           >
-            {graphNote}
+            <div
+              className="mono"
+              style={{
+                display: 'flex',
+                gap: 20,
+                fontSize: 9,
+                letterSpacing: '0.18em',
+                textTransform: 'uppercase',
+                color: 'var(--annotation)',
+              }}
+            >
+              <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}>
+                <span style={{ display: 'block', width: 18, height: 2, background: 'var(--accent)' }} />
+                Your ties
+              </span>
+              <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}>
+                <span style={{ display: 'block', width: 18, height: 1, background: 'var(--tie-strong)' }} />
+                Everyone else's
+              </span>
+            </div>
+            <div style={{ fontSize: 15, lineHeight: 1.4, color: 'var(--annotation)', fontStyle: 'italic' }}>
+              {graphNote}
+            </div>
           </div>
         )}
       </div>

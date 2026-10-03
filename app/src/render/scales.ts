@@ -17,8 +17,10 @@ export const REMOTE_OPACITY = 0.1;
 /** Hairline to 3.4px, per the style sheet's tie scale. */
 export const tieWidth = scaleLinear().domain([0, 1]).range([1, 3.4]).clamp(true);
 
-/** Ties darken as they thicken: #9A9287 hairline → #7C756A strong. */
+/** Ties darken as they thicken: #8E877C hairline → #7C756A strong.
+ *  One notch darker than the style sheet's own #9A9287 at the low end — see
+ *  the note on `--tie-hairline` in index.css. */
 export const tieColor = scaleLinear<string>()
   .domain([0, 1])
-  .range(['#9a9287', '#7c756a'])
+  .range(['#8e877c', '#7c756a'])
   .clamp(true);

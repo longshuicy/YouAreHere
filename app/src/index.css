@@ -20,8 +20,12 @@
      sits forward of the index without needing a shadow. */
   --card: #fbf8f1;
 
-  /* Ties darken as they thicken, so strength reads even in greyscale. */
-  --tie-hairline: #9a9287;
+  /* Ties darken as they thicken, so strength reads even in greyscale.
+     Hairline is one step darker than the style sheet's own #9a9287 (shared
+     there with --unknown, which stays as it was): a hairline tie is drawn at
+     full opacity rather than as a flat swatch, and at the original value the
+     live graph read as washed out. */
+  --tie-hairline: #8e877c;
   --tie-weak: #8a8378;
   --tie-strong: #7c756a;
 

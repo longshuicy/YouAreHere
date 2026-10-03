@@ -113,7 +113,7 @@ function ClaimRow({
       {/* Names already refused here stay on the page, struck through, so the
           same wrong answer is never paid for twice by accident. */}
       {node.rejected.length > 0 && (
-        <div style={{ padding: '8px 0 0 0' }}>
+        <div style={{ padding: '8px 16px 0 16px' }}>
           {node.rejected.map((r) => (
             <div
               key={r}
@@ -150,7 +150,7 @@ function ClaimRow({
           </span>
         </button>
       ) : (
-        <div style={{ padding: '9px 0 12px 0' }} onClick={(e) => e.stopPropagation()}>
+        <div style={{ padding: '9px 16px 12px 16px' }} onClick={(e) => e.stopPropagation()}>
           <div className="mono" style={{ fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase', paddingBottom: 7 }}>
             claim
           </div>
@@ -369,7 +369,7 @@ export function NodeMenu({
                 fontSize: 14,
                 lineHeight: 1.45,
                 color: 'var(--body)',
-                padding: '10px 0',
+                padding: '10px 16px',
                 whiteSpace: 'normal',
                 borderBottom:
                   picker || actions.length > 0 || claimable || factsEmpty
@@ -432,7 +432,7 @@ export function NodeMenu({
                   // other row uses is what pushed it onto two lines.
                   gap: 7,
                   width: '100%',
-                  padding: '9px 0',
+                  padding: '9px 16px',
                   textAlign: 'left',
                   // A name too long to sit beside the label drops whole onto
                   // the next line, rather than breaking between its own words
@@ -483,7 +483,7 @@ export function NodeMenu({
                 </span>
               </button>
               {lit && picker.neighbours.length > 1 && (
-                <div className="annot" style={{ padding: '0 0 9px 0', whiteSpace: 'normal' }}>
+                <div className="annot" style={{ padding: '0 16px 9px 16px', whiteSpace: 'normal' }}>
                   Nothing separates them. Take whichever you like.
                 </div>
               )}
@@ -507,7 +507,7 @@ export function NodeMenu({
                 alignItems: 'baseline',
                 justifyContent: 'space-between',
                 gap: 12,
-                padding: '9px 0',
+                padding: '9px 16px',
                 borderBottom: actions.length > 0 ? '1px solid var(--rule)' : 'none',
                 whiteSpace: 'nowrap',
                 color: 'var(--unknown)',

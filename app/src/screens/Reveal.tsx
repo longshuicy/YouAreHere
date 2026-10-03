@@ -125,10 +125,12 @@ export function Reveal({
 
   const cast = universe.nodes.length;
   const namedCount = Math.min(namedOnPaper.size, cast);
+  // The design's own words for this, which say the same thing in fewer of
+  // them: what the map withholds, and the one way to get more of it — the
+  // same act the ways-out block below offers as its own first button.
   const graphNote = folded ? (
     <>
-      Only the names you have earned are on this map. Everyone else stays unnamed until you find
-      them: start in {universe.title} to keep going.
+      Only names you've earned appear here. Play again in {universe.title} to find the rest.
     </>
   ) : null;
 
