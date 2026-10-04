@@ -14,7 +14,7 @@
    },
    "line": "Count of Rossillion.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -35,7 +35,7 @@
    },
    "line": "Count, Bertram’s mother.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -89,7 +89,7 @@
    },
    "line": "Fool.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -151,7 +151,7 @@
    },
    "line": "A gentlewoman of Rossillion.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -276,7 +276,7 @@
    },
    "line": "Companion to Bertram.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",

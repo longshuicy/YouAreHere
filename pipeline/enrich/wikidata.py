@@ -45,10 +45,12 @@ FANDOM_LINK_ATTRIBUTION = Attribution(
     creator="Wikidata contributors",
     creator_url="https://www.wikidata.org/",
     source_url="https://www.wikidata.org/wiki/Property:P6262",
-    retrieved="2026-09-30",
+    retrieved="2026-10-04",
     modifications=(
         "Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) "
-        "names a character's wiki page; no other Wikidata claims.",
+        "names a character's wiki page.",
+        "Where the item's English label is that character's name, took its gender when the "
+        "wiki's infobox gives none; no other Wikidata claims.",
     ),
 )
 
@@ -935,6 +937,7 @@ WORK_PAGES = {
     "witcher": "Q11835640",  # The Witcher (Sapkowski's saga)
     "last-airbender": "Q11572",  # Avatar: The Last Airbender (animated series)
     "mcu": "Q63405798",  # The Infinity Saga
+    "startrek": "Q1092",  # Star Trek (franchise)
     "xiyouji": "Q70784",
 }
 
@@ -990,30 +993,47 @@ def fandom_sitelinks(community: str, *, cache_dir: Path) -> dict[str, str | None
 
     An exact identifier, so no name matching is involved. Cached under raw/.
     """
+    return {page: item["article"] for page, item in fandom_items(community, cache_dir=cache_dir).items()}
+
+
+def fandom_items(community: str, *, cache_dir: Path) -> dict[str, dict]:
+    """Fandom page title → `{qid, label, article}` for every Wikidata item whose
+    Fandom article ID (P6262) is on `community`. `label` is the item's English
+    label, so a caller can tell when the wiki has since moved the page to
+    someone else. Cached under raw/ as wikidata-fandom.json."""
     path = cache_dir / "wikidata-fandom.json"
     if path.exists():
-        return json.loads(path.read_text(encoding="utf-8"))
+        cached = json.loads(path.read_text(encoding="utf-8"))
+        # The older cache held only the Wikipedia title per page.
+        if all(isinstance(item, dict) for item in cached.values()):
+            return cached
 
     query = f"""
-SELECT ?id ?article WHERE {{
+SELECT ?item ?id ?label ?article WHERE {{
   ?item wdt:P6262 ?id .
   FILTER(STRSTARTS(?id, "{community}:"))
+  OPTIONAL {{ ?item rdfs:label ?label . FILTER(LANG(?label) = "en") }}
   OPTIONAL {{ ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> }}
 }}
 """
     print(f"  querying Wikidata for {community} Fandom article IDs ...", flush=True)
-    links: dict[str, str | None] = {}
-    for row in _sparql(query).get("results", {}).get("bindings", []):
+    items: dict[str, dict] = {}
+    for row in sorted(_sparql(query).get("results", {}).get("bindings", []), key=lambda r: r["item"]["value"]):
         page = urllib.parse.unquote(row["id"]["value"].split(":", 1)[1]).replace("_", " ")
         article = row.get("article", {}).get("value")
         title = urllib.parse.unquote(article.rsplit("/wiki/", 1)[1]).replace("_", " ") if article else None
-        if title or page not in links:
-            links[page] = title
+        if page in items and (items[page]["article"] or not title):
+            continue
+        items[page] = {
+            "qid": row["item"]["value"].rsplit("/", 1)[-1],
+            "label": row.get("label", {}).get("value", ""),
+            "article": title,
+        }
 
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(links, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
-    print(f"  cached {len(links)} Fandom-linked items → {path.name}", flush=True)
-    return links
+    path.write_text(json.dumps(items, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    print(f"  cached {len(items)} Fandom-linked items → {path.name}", flush=True)
+    return items
 
 
 def _cast_of_work(work_qid: str, *, cache_dir: Path, languages: tuple[str, ...]) -> dict[str, dict]:

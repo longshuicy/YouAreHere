@@ -34,7 +34,7 @@
    },
    "line": "Businessperson. Appears in Indiana Jones and the Last Crusade.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -60,7 +60,7 @@
    "wiki": "Elsa Schneider",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -83,7 +83,7 @@
    "wiki": "Henry Jones Sr.",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -118,7 +118,7 @@
    "wiki": "Indiana Jones (character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -157,7 +157,7 @@
    },
    "line": "Appears in Indiana Jones and the Temple of Doom.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -183,7 +183,7 @@
    "wiki": "Marcus Brody",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -251,7 +251,7 @@
    "wiki": "Sallah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -275,7 +275,7 @@
    },
    "line": "Pickpocket, of the Republic of China. Appears in Indiana Jones and the Temple of Doom.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -304,7 +304,7 @@
    },
    "line": "Appears in Indiana Jones and the Last Crusade.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -327,7 +327,7 @@
    "wiki": "Willie Scott (Indiana Jones character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",

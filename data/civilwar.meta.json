@@ -45,7 +45,7 @@
    "wiki": "Nathan Bedford Forrest",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -77,7 +77,7 @@
    "wiki": "William Tecumseh Sherman",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -142,7 +142,7 @@
    "wiki": "James Longstreet",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -263,7 +263,7 @@
    },
    "line": "Lieutenant General, of the Confederacy. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -342,7 +342,7 @@
    },
    "line": "Major General, of the Union. Appears in 1861 and 1862.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -477,7 +477,7 @@
    "wiki": "George Meade",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-pericles",
      "story": "Pericles",
@@ -509,7 +509,7 @@
    "wiki": "P. G. T. Beauregard",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -607,7 +607,7 @@
    },
    "line": "Brigadier General, of the Confederacy. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -695,7 +695,7 @@
    "wiki": "A. P. Hill",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -771,7 +771,7 @@
    },
    "line": "Major General, of the Confederacy. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1114,7 +1114,7 @@
    "wiki": "Philip Sheridan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 26,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1160,7 +1160,7 @@
    "wiki": "James H. Wilson",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1246,7 +1246,7 @@
    "wiki": "Samuel D. Sturgis",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1295,9 +1295,9 @@
    "signals": {
     "lookAlikes": 7,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Cade",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Jay-Den Kraag",
      "tied": 0
     }
    }
@@ -1340,7 +1340,7 @@
    "wiki": "Alfred Terry",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1477,11 +1477,11 @@
    },
    "line": "Flag Officer, of the Union. Appears in 1862.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "mmkg",
-     "story": "Musical Meetups",
-     "name": "George Beverly Shea",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Moll",
      "tied": 0
     }
    }
@@ -1693,7 +1693,7 @@
    },
    "line": "Major General, of the Confederacy. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1856,7 +1856,7 @@
    "wiki": "J. E. B. Stuart",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -1976,7 +1976,7 @@
    "wiki": "Jubal Early",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -2020,7 +2020,7 @@
    },
    "line": "Rear Admiral, of the Union. Appears in 1862 and 1864.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2064,7 +2064,7 @@
    },
    "line": "Major General, of the Confederacy. Appears in 4 years.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2095,11 +2095,11 @@
    "wiki": "William Rosecrans",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 26,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Rachel",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Darem Reymi",
      "tied": 0
     }
    }
@@ -2146,7 +2146,7 @@
    "wiki": "Thomas C. Hindman",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2253,7 +2253,7 @@
    "wiki": "John Parke",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2307,7 +2307,7 @@
    "wiki": "Gouverneur K. Warren",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2354,7 +2354,7 @@
    },
    "line": "Rear Admiral, of the Union. Appears in 3 years.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2403,7 +2403,7 @@
    "wiki": "Sterling Price",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -2453,7 +2453,7 @@
    "wiki": "Alfred Pleasonton",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2686,7 +2686,7 @@
    },
    "line": "Brigadier General, of the Confederacy. Appears in 1861 and 1862.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -2717,11 +2717,11 @@
    "wiki": "James G. Blunt",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "shiji",
-     "story": "史記",
-     "name": "蘇秦",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Shabarnes",
      "tied": 0
     }
    }
@@ -2808,11 +2808,11 @@
    "wiki": "William B. Franklin",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
-     "world": "civilwar",
-     "story": "American Civil War",
-     "name": "John B. Gordon",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Kevin Riley",
      "tied": 0
     }
    }
@@ -2958,7 +2958,7 @@
    "wiki": "Joseph E. Johnston",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3044,7 +3044,7 @@
    },
    "line": "Major General, of the Confederacy. Appears in 1865.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3256,7 +3256,7 @@
    "wiki": "August Kautz",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3302,7 +3302,7 @@
    "wiki": "Joseph Hooker",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -3417,7 +3417,7 @@
    "wiki": "Robert E. Lee",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -3467,7 +3467,7 @@
    "wiki": "Henry Heth",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -3709,7 +3709,7 @@
    },
    "line": "Lieutenant General, of the Union. Appears in all 5 years.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",

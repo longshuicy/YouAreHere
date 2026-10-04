@@ -46,6 +46,8 @@ def node_line(facts: dict) -> str:
 
 
 def _plural_unit(unit: str) -> str:
+    if unit == "series":
+        return unit
     if unit.endswith(("s", "x", "ch", "sh")) or unit.endswith("gress"):
         return unit + "es"
     return unit + "s"

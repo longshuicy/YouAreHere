@@ -80,7 +80,7 @@
    },
    "line": "His servant.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -170,7 +170,7 @@
    },
    "line": "A gentleman of Verona.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -191,7 +191,7 @@
    },
    "line": "Servant.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -233,7 +233,7 @@
    },
    "line": "A lady of Milan.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -275,7 +275,7 @@
    },
    "line": "A gentleman of Verona.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",

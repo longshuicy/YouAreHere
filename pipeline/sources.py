@@ -204,6 +204,10 @@ SOURCES: dict[str, Source] = {
         world: Source(name=world, load=fandom.loader(world), min_edge_weight=1, min_degree=2)
         for world in fandom.WIKIS
     },
+    # Memory Alpha gives nearly every named one-off an article of a paragraph or
+    # two, across ~900 episodes, so one shared paragraph and two ties keep 3,600
+    # people. Three of each keeps the main and recurring cast, about 700.
+    "startrek": Source(name="startrek", load=fandom.loader("startrek"), min_edge_weight=3, min_degree=3),
     "shakespeare": Source(
         name="shakespeare",
         load=shakespeare.load,

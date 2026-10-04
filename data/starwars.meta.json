@@ -70,11 +70,11 @@
    "wiki": "Anakin Skywalker",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Diomedes",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Data",
      "tied": 0
     }
    }
@@ -95,7 +95,7 @@
    "wiki": "Bail Organa",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -161,7 +161,7 @@
    "wiki": "Beru Lars",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -249,7 +249,7 @@
    "wiki": "Boss Nass",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -316,7 +316,7 @@
    "wiki": "C-3PO",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -355,7 +355,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -374,7 +374,7 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -418,7 +418,7 @@
    "wiki": "Chewbacca",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -471,7 +471,7 @@
    "wiki": "Count Dooku",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -523,7 +523,7 @@
    "wiki": "Darth Vader",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "shakespeare-the-taming-of-the-shrew",
      "story": "The Taming of the Shrew",
@@ -605,7 +605,7 @@
    "wiki": "Palpatine",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -639,7 +639,7 @@
    "wiki": "Finn (Star Wars)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -759,7 +759,7 @@
    "wiki": "Han Solo",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -789,7 +789,7 @@
    "wiki": "Jabba the Hutt",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -832,11 +832,11 @@
    "wiki": "Grand Admiral Thrawn",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Aemon Targaryen",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Carol Freeman",
      "tied": 0
     }
    }
@@ -892,7 +892,7 @@
    "wiki": "Ki-Adi-Mundi",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -940,7 +940,7 @@
    "wiki": "Kylo Ren",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -1017,7 +1017,7 @@
    "wiki": "Princess Leia",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1072,7 +1072,7 @@
    "wiki": "Luke Skywalker",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1103,7 +1103,7 @@
    "wiki": "Mace Windu",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -1209,7 +1209,7 @@
    "wiki": "Nute Gunray",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1243,7 +1243,7 @@
    "wiki": "Obi-Wan Kenobi",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1337,7 +1337,7 @@
    "wiki": "Padmé Amidala",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1381,7 +1381,7 @@
    },
    "line": "Appears in The Force Awakens.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1400,7 +1400,7 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1426,7 +1426,7 @@
    "wiki": "Dennis Bushyhead",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1455,7 +1455,7 @@
    "wiki": "Boba Fett",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -1488,7 +1488,7 @@
    "wiki": "Garven Dreis",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1545,7 +1545,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1598,7 +1598,7 @@
    },
    "line": "Appears in The Phantom Menace.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1617,7 +1617,7 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1637,7 +1637,7 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -1657,7 +1657,7 @@
    },
    "line": "Appears in The Phantom Menace and Attack of the Clones.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1721,7 +1721,7 @@
    },
    "line": "Appears in Attack of the Clones.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1860,7 +1860,7 @@
    "wiki": "Wedge Antilles",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -1892,7 +1892,7 @@
    "wiki": "Yoda",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",

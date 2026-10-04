@@ -48,6 +48,8 @@ const FALLBACK: Record<string, string> = {
   shuihuzhuan:
     '一百零八個好漢被逼上梁山，一座水泊裡的義軍朝廷。',
   starwars: 'A galaxy of pilots, senators and smugglers, across seven films.',
+  startrek:
+    'Starship crews, a space station on a frontier, and three centuries of a federation told across a dozen series.',
   stormlight:
     'A storm-scoured continent, a war on shattered plains, and ancient oaths being sworn again.',
   'harry-potter':
@@ -126,6 +128,7 @@ const FAMILIARITY: Record<string, 0 | 1 | 2> = {
   bible: 2,
   friends: 2,
   starwars: 2,
+  startrek: 2,
   lesmiserables: 2,
   civilwar: 2,
   lotr: 2,

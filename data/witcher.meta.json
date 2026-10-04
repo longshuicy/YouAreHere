@@ -71,7 +71,7 @@
    },
    "line": "Queen of Cintra. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -107,7 +107,7 @@
    },
    "line": "Queen. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -132,7 +132,7 @@
    },
    "line": "Queen of Redania. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -154,7 +154,7 @@
    },
    "line": "Miner, Dwarf. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -177,7 +177,7 @@
    },
    "line": "Princess of Temeria. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -201,7 +201,7 @@
    },
    "line": "Duchess of Toussaint. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -222,7 +222,7 @@
    },
    "line": "Elf. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -243,7 +243,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -265,7 +265,7 @@
    },
    "line": "Healer, Hamadryad. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -306,7 +306,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -345,7 +345,7 @@
    },
    "line": "Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -373,7 +373,7 @@
    },
    "line": "Soldier, of the Nilfgaardian Army. Appears in Time of Contempt and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -419,11 +419,11 @@
    },
    "line": "King of Maecht. Appears in The Last Wish and Time of Contempt.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "侯成",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Voq",
      "tied": 0
     }
    }
@@ -466,7 +466,7 @@
    },
    "line": "Mage. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -493,7 +493,7 @@
    },
    "line": "Mage, of Rissberg. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -526,7 +526,7 @@
    },
    "line": "Halfling. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -583,7 +583,7 @@
    },
    "line": "Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -607,7 +607,7 @@
    },
    "line": "Prince of Temeria, Quarter-elf. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -634,7 +634,7 @@
    },
    "line": "Professional killer, of Stefan Skellen's gang. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -668,7 +668,7 @@
    },
    "line": "Of Geralt's company. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -722,7 +722,7 @@
    },
    "line": "Duchess of Toussaint, of the Nilfgaardian Empire. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -745,7 +745,7 @@
    },
    "line": "Countess. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -768,7 +768,7 @@
    },
    "line": "Prince of Lyria and Rivia. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -789,7 +789,7 @@
    },
    "line": "Thief. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -817,7 +817,7 @@
    },
    "line": "Knight, of the Temerian Army. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -841,7 +841,7 @@
    },
    "line": "Royal Messenger, of the Aedirnian Special Service. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -872,7 +872,7 @@
    },
    "line": "Prince, of the East Army Group. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -936,7 +936,7 @@
    },
    "line": "Miller, Halfling. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -968,7 +968,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1016,7 +1016,7 @@
    },
    "line": "Count of Nessvelt, of the Order of the White Rose. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1123,11 +1123,11 @@
    },
    "line": "Aen Saevherne, Elf. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Jarl",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Winona Kirk",
      "tied": 0
     }
    }
@@ -1149,7 +1149,7 @@
    },
    "line": "Of the Temerian Army. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1214,7 +1214,7 @@
    },
    "line": "King of Hengfors and Arcsea. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1254,7 +1254,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1279,7 +1279,7 @@
    },
    "line": "Aen Saevherne, Elf. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1300,7 +1300,7 @@
    },
    "line": "Ogre-troll hybrid. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1343,7 +1343,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1405,7 +1405,7 @@
    },
    "line": "Rinde honorary ambassador. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1440,7 +1440,7 @@
    },
    "line": "King of Kerack. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1463,7 +1463,7 @@
    },
    "line": "King of Kaedwen. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -1490,11 +1490,11 @@
    },
    "line": "Of the Guild of Merchants. Appears in Time of Contempt and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "陳武",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Jack Ransom",
      "tied": 0
     }
    }
@@ -1514,7 +1514,7 @@
    },
    "line": "Farmer, Halfling. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1537,7 +1537,7 @@
    },
    "line": "Lady of Talgar. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1568,7 +1568,7 @@
    },
    "line": "Adjutant, of the Gemmerian Pacifiers. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1622,7 +1622,7 @@
    },
    "line": "General, of the Royal Redanian Army. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1648,7 +1648,7 @@
    },
    "line": "Of the Dun Banner. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1692,11 +1692,11 @@
    },
    "line": "Skipper, of the Malatius and Grock Company. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Everett",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Adolf Hitler",
      "tied": 0
     }
    }
@@ -1733,7 +1733,7 @@
    },
    "line": "Mercenary. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1773,7 +1773,7 @@
    },
    "line": "Tracker, of Stefan Skellen's gang. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -1819,7 +1819,7 @@
    },
    "line": "Dryad. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 7,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1843,7 +1843,7 @@
    },
    "line": "King of the Skellige Isles. Appears in The Last Wish and The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1871,7 +1871,7 @@
    },
    "line": "Witcher, of the School of the Cat. Appears in The Last Wish and Season of Storms.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -1930,7 +1930,7 @@
    },
    "line": "Voivode, of the Temerian Army. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1992,7 +1992,7 @@
    },
    "line": "Ogre-Troll hybrid. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2047,7 +2047,7 @@
    },
    "line": "Count, of the Nilfgaardian Secret Service. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2095,7 +2095,7 @@
    },
    "line": "Queen of Cintra. Appears in 7 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2116,11 +2116,11 @@
    },
    "line": "Alderman. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Baron of Casadei",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Unnamed Klingons",
      "tied": 0
     }
    }
@@ -2168,7 +2168,7 @@
    },
    "line": "Mage. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2192,7 +2192,7 @@
    },
    "line": "Duchess of Toussaint. Appears in The Lady of the Lake and Season of Storms.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -2227,7 +2227,7 @@
    },
    "line": "Informant. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2252,7 +2252,7 @@
    },
    "line": "Lord of Darn Dyffra. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2275,7 +2275,7 @@
    },
    "line": "King of Temeria. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2314,7 +2314,7 @@
    },
    "line": "Queen of Redania, Half-elf. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -2337,7 +2337,7 @@
    },
    "line": "Of the Novigrad Security Bureau. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2370,7 +2370,7 @@
    },
    "line": "Tavern owner, Elf. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2398,7 +2398,7 @@
    },
    "line": "Professional thief, Ymlats, of Stefan Skellen's gang. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2437,7 +2437,7 @@
    },
    "line": "Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2459,7 +2459,7 @@
    },
    "line": "Farmer, Halfling. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 12,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2526,7 +2526,7 @@
    },
    "line": "Empress of Nilfgaard. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2587,7 +2587,7 @@
    },
    "line": "Witcher, of the School of the Griffin. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 20,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -2611,7 +2611,7 @@
    },
    "line": "Jurist. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2644,7 +2644,7 @@
    },
    "line": "Officer, Elf, of the Scoia'tael. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -2705,7 +2705,7 @@
    },
    "line": "King of Cintra. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2728,7 +2728,7 @@
    },
    "line": "King of Cintra. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2752,7 +2752,7 @@
    },
    "line": "King of Cintra. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2785,7 +2785,7 @@
    },
    "line": "Appears in Time of Contempt and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2838,7 +2838,7 @@
    },
    "line": "Jarl of Ard Skellig. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2859,7 +2859,7 @@
    },
    "line": "Appears in The Last Wish and The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2883,7 +2883,7 @@
    },
    "line": "Mage. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2902,7 +2902,7 @@
    },
    "line": "Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2925,7 +2925,7 @@
    },
    "line": "Count. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2975,7 +2975,7 @@
    },
    "line": "Professional killer, of Stefan Skellen's gang. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3006,7 +3006,7 @@
    },
    "line": "Hierarch of Novigrad, of the Church of the Eternal Fire. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3030,11 +3030,11 @@
    },
    "line": "Count. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Aggo",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Travis Mayweather",
      "tied": 0
     }
    }
@@ -3082,7 +3082,7 @@
    },
    "line": "King of Cintra. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3124,7 +3124,7 @@
    },
    "line": "Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3149,7 +3149,7 @@
    },
    "line": "Princess of Redania. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3212,7 +3212,7 @@
    },
    "line": "Count of Garramone. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3240,7 +3240,7 @@
    },
    "line": "Professional assassin, of Stefan Skellen's gang. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3267,7 +3267,7 @@
    },
    "line": "King of Aedirn. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3310,7 +3310,7 @@
    },
    "line": "Baroness of Tarnhann. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3348,7 +3348,7 @@
    },
    "line": "Mage, of King Esterad of Kovir. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -3369,7 +3369,7 @@
    },
    "line": "Appears in Time of Contempt and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3402,11 +3402,11 @@
    },
    "line": "Halfling. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Joses",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Udar",
      "tied": 0
     }
    }
@@ -3447,7 +3447,7 @@
    },
    "line": "Burgrave of Venendal. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3508,7 +3508,7 @@
    },
    "line": "Skald. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3535,7 +3535,7 @@
    },
    "line": "Mage, of King Esterad of Kovir. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3597,7 +3597,7 @@
    },
    "line": "Lieutenant, of Stefan Skellen's gang. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3683,7 +3683,7 @@
    },
    "line": "Prince of Kerack. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3710,7 +3710,7 @@
    },
    "line": "King of Cintra. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3736,7 +3736,7 @@
    },
    "line": "Queen of Brokilon, Dryad. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -3757,7 +3757,7 @@
    },
    "line": "Appears in Sword of Destiny and Blood of Elves.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3788,7 +3788,7 @@
    },
    "line": "Commander, of the 7th Daerlanian Cavalry Brigade. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3812,12 +3812,12 @@
    },
    "line": "Queen of Cintra. Appears in Time of Contempt and Baptism of Fire.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Panthous",
-     "tied": 2
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Frigleeman",
+     "tied": 0
     }
    }
   },
@@ -3913,7 +3913,7 @@
    "wiki": "Regis (The Witcher)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3945,7 +3945,7 @@
    },
    "line": "King of the Wild Hunt, Elf. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3967,7 +3967,7 @@
    },
    "line": "Innkeeper, Elfe. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3993,7 +3993,7 @@
    },
    "line": "King of Verden. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4042,7 +4042,7 @@
    },
    "line": "Witcher, of the School of the Wolf. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -4111,7 +4111,7 @@
    },
    "line": "Smith. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4153,7 +4153,7 @@
    },
    "line": "King of Cidaris. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4194,11 +4194,11 @@
    },
    "line": "Priestess, of the Temple of Melitele. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Gershon",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Hugh",
      "tied": 0
     }
    }
@@ -4234,11 +4234,11 @@
    },
    "line": "Professor. Appears in Blood of Elves and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
-     "world": "stormlight",
-     "story": "The Stormlight Archive",
-     "name": "Matal",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Leonard James Akaar",
      "tied": 0
     }
    }
@@ -4254,7 +4254,7 @@
    },
    "line": "Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4275,7 +4275,7 @@
    },
    "line": "Knight errant. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4295,7 +4295,7 @@
    },
    "line": "Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4324,11 +4324,11 @@
    },
    "line": "Explorer, of Giancardi Bank. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
-     "world": "stormlight",
-     "story": "The Stormlight Archive",
-     "name": "Ishnah",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Kurn",
      "tied": 0
     }
    }
@@ -4408,7 +4408,7 @@
    },
    "line": "Count of Moën, of the Order of the White Rose. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 25,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4431,7 +4431,7 @@
    },
    "line": "Healer, Dryad. Appears in Time of Contempt and Baptism of Fire.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4489,7 +4489,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -4513,7 +4513,7 @@
    },
    "line": "Imperator of the Nilfgaardian Empire. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -4585,7 +4585,7 @@
    },
    "line": "Blacksmith, Dwarf, of Zoltan Chivay's company. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4609,7 +4609,7 @@
    },
    "line": "Elf. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4634,7 +4634,7 @@
    },
    "line": "Queen of Cintra, Quarter-elf. Appears in Time of Contempt and Baptism of Fire.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4667,7 +4667,7 @@
    },
    "line": "Professional killer. Appears in Blood of Elves and Time of Contempt.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4756,7 +4756,7 @@
    },
    "line": "King of Temeria. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4801,7 +4801,7 @@
    },
    "line": "Duchess of Dol Blathanna, Elf, of the Lodge of Sorceresses. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4823,7 +4823,7 @@
    },
    "line": "Farmer, Halfling. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4880,7 +4880,7 @@
    },
    "line": "Baron of Hamm. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -4910,7 +4910,7 @@
    },
    "line": "Mage, of the Lodge of Sorceresses. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5012,7 +5012,7 @@
    },
    "line": "Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5035,7 +5035,7 @@
    },
    "line": "Princess of Kovir and Poviss. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -5058,7 +5058,7 @@
    },
    "line": "King of Kovir. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5093,7 +5093,7 @@
    },
    "line": "Queen of Kovir. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5123,7 +5123,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in Blood of Elves and Time of Contempt.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5204,7 +5204,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5233,7 +5233,7 @@
    },
    "line": "Bandit, of The Rats. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5262,7 +5262,7 @@
    },
    "line": "Commander, of the Nilfgaardian Army. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5380,7 +5380,7 @@
    },
    "line": "Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5427,7 +5427,7 @@
    },
    "line": "Seneschal. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5494,7 +5494,7 @@
    },
    "line": "Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5532,7 +5532,7 @@
    },
    "line": "Queen of Redania. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5553,7 +5553,7 @@
    },
    "line": "Assassin. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5580,7 +5580,7 @@
    },
    "line": "King of Kaedwen. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5607,7 +5607,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5636,7 +5636,7 @@
    },
    "line": "Prince of Ellander, of the Temerian Royal Council. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5659,7 +5659,7 @@
    },
    "line": "King of Redania. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5682,7 +5682,7 @@
    },
    "line": "King of the Skellige Isles. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -5717,11 +5717,11 @@
    },
    "line": "Halfling. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Agnes of Glanville",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Shabarnes",
      "tied": 0
     }
    }
@@ -5738,7 +5738,7 @@
    },
    "line": "Bandit. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5778,7 +5778,7 @@
    },
    "line": "Of Windsor Imbra's company. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5808,11 +5808,11 @@
    },
    "line": "Emissary of the Guild, Half-elf, of the Guild of Merchants. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
-     "world": "stormlight",
-     "story": "The Stormlight Archive",
-     "name": "High Judge",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Skon",
      "tied": 0
     }
    }
@@ -5827,7 +5827,7 @@
    },
    "line": "Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5872,7 +5872,7 @@
    },
    "line": "Priestess, of the Temple of Melitele. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5901,7 +5901,7 @@
    },
    "line": "Mage, Elf, of the Lodge of Sorceresses. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5936,7 +5936,7 @@
    },
    "line": "King of Kovir. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -5958,7 +5958,7 @@
    },
    "line": "Unicorn. Appears in Time of Contempt and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 20,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5981,7 +5981,7 @@
    },
    "line": "Queen of Kerack. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6026,7 +6026,7 @@
    },
    "line": "Halfling. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6047,7 +6047,7 @@
    },
    "line": "Halfling. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6076,7 +6076,7 @@
    },
    "line": "Priestess, of the Temple of Melitele. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -6105,7 +6105,7 @@
    },
    "line": "Priestess, of the Temple of Melitele. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6187,7 +6187,7 @@
    },
    "line": "Colonel, Elf, of the Scoia'tael. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6217,7 +6217,7 @@
    },
    "line": "Bandit, Elf, of The Rats. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6258,7 +6258,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in Blood of Elves and Time of Contempt.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6294,7 +6294,7 @@
    },
    "line": "Jurist. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -6378,7 +6378,7 @@
    },
    "line": "Spy, of the Redanian Secret Service. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -6447,7 +6447,7 @@
    },
    "line": "Scribe, of the Temple of Melitele. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -6468,7 +6468,7 @@
    },
    "line": "Merchant. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6495,7 +6495,7 @@
    },
    "line": "Mercenary, of Stefan Skellen's gang. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6520,7 +6520,7 @@
    },
    "line": "Prince. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6558,7 +6558,7 @@
    },
    "line": "Of Stefan Skellen's gang. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6656,7 +6656,7 @@
    },
    "line": "Brigand, of the Nastrog Section. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -6748,7 +6748,7 @@
    },
    "line": "Bandit, of the Rats. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6779,7 +6779,7 @@
    },
    "line": "Mage, of the Lodge of Sorceresses. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6801,7 +6801,7 @@
    },
    "line": "Horse. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6834,7 +6834,7 @@
    },
    "line": "Merchant. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6860,7 +6860,7 @@
    },
    "line": "King of Verden. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6881,7 +6881,7 @@
    },
    "line": "Bandit. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6993,7 +6993,7 @@
    },
    "line": "Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7033,7 +7033,7 @@
    },
    "line": "Lieutenant, of the Nilfgaardian Army. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7063,7 +7063,7 @@
    },
    "line": "Witcher, of the School of the Wolf. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -7088,7 +7088,7 @@
    },
    "line": "Mage, Elf. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7151,7 +7151,7 @@
    },
    "line": "Bounty hunter, of Skellen's gang. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7233,7 +7233,7 @@
    },
    "line": "Lecturer at Oxenfurt Academy. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -7254,7 +7254,7 @@
    },
    "line": "Assassin. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7276,7 +7276,7 @@
    },
    "line": "Professional killer. Appears in Blood of Elves and Time of Contempt.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7296,7 +7296,7 @@
    },
    "line": "Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7362,7 +7362,7 @@
    },
    "line": "Field medic, of the Temerian Army. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7418,7 +7418,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7442,7 +7442,7 @@
    },
    "line": "Mage. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -7531,7 +7531,7 @@
    },
    "line": "Mage, of the Lodge of Sorceresses. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7602,7 +7602,7 @@
    },
    "line": "Major general, of the 4th Cavalry Army. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7645,7 +7645,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7685,7 +7685,7 @@
    },
    "line": "Of Windsor Imbra's company. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7707,7 +7707,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -7755,7 +7755,7 @@
    },
    "line": "King of Temeria. Appears in The Last Wish and Blood of Elves.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7782,7 +7782,7 @@
    },
    "line": "Cooper, of the Poor Fucking Infantry. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -7811,7 +7811,7 @@
    },
    "line": "Governor of Cintra, of the Center Army Group. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -7883,7 +7883,7 @@
    },
    "line": "Queen of Lyria and Rivia, of the Lyrian-Rivian Army. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7935,7 +7935,7 @@
    },
    "line": "Appears in Blood of Elves and Time of Contempt.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7989,7 +7989,7 @@
    },
    "line": "Assassin. Appears in Time of Contempt and Baptism of Fire.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -8033,7 +8033,7 @@
    },
    "line": "Bandit. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8057,7 +8057,7 @@
    },
    "line": "Baron. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -8088,7 +8088,7 @@
    },
    "line": "Of the Dryads of Brokilon. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8118,7 +8118,7 @@
    },
    "line": "Bandit, of The Rats. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8141,7 +8141,7 @@
    },
    "line": "Banker, Dwarf. Appears in Time of Contempt and Season of Storms.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -8200,7 +8200,7 @@
    },
    "line": "Imperator of Nilfgaard, of the Alba Division. Appears in Time of Contempt and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -8229,7 +8229,7 @@
    },
    "line": "Druid, of the Mayena Circle. Appears in The Last Wish and Sword of Destiny.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8306,7 +8306,7 @@
    },
    "line": "Countess Kameny. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8339,7 +8339,7 @@
    },
    "line": "Merchant. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8360,7 +8360,7 @@
    },
    "line": "Green dragon. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8425,11 +8425,11 @@
    },
    "line": "Assassin. Appears in Time of Contempt and Baptism of Fire.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "程昱",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Lao Beifong",
      "tied": 0
     }
    }
@@ -8486,7 +8486,7 @@
    },
    "line": "Lieutenant, of Stefan Skellen's gang. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -8524,12 +8524,12 @@
    },
    "line": "Mayor, of the Rinde town council. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Bias",
-     "tied": 3
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "M'ret",
+     "tied": 0
     }
    }
   },
@@ -8549,7 +8549,7 @@
    },
    "line": "King of the Hengfors League. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -8644,7 +8644,7 @@
    },
    "line": "Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8689,7 +8689,7 @@
    },
    "line": "Bandit, of the Nightingale gang. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8710,7 +8710,7 @@
    },
    "line": "Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -8752,7 +8752,7 @@
    },
    "line": "Bandit. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8782,7 +8782,7 @@
    },
    "line": "Adjutant, of Stefan Skellen's gang. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8814,7 +8814,7 @@
    },
    "line": "Redanian customs officer. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -8843,7 +8843,7 @@
    },
    "line": "Assistant, of the Redanian Secret Service. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -8865,7 +8865,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -8913,7 +8913,7 @@
    },
    "line": "Courtier. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -8948,7 +8948,7 @@
    },
    "line": "Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9029,7 +9029,7 @@
    },
    "line": "Knight, of the Temerian Army. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9056,7 +9056,7 @@
    },
    "line": "Merchant, of the Merchants' guild. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9108,7 +9108,7 @@
    },
    "line": "Mercenary, Dwarf, of Yarpen Zigrin's company. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -9134,7 +9134,7 @@
    },
    "line": "Princess of Cintra. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9156,7 +9156,7 @@
    },
    "line": "Horse. Appears in Time of Contempt and Baptism of Fire.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -9185,7 +9185,7 @@
    },
    "line": "Jeweler, Gnome, of Zoltan Chivay's company. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 31,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -9215,7 +9215,7 @@
    },
    "line": "Imperial treasurer of the crown, Winneburger?, of the Nilfgaardian Army. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -9248,7 +9248,7 @@
    },
    "line": "Farmer, Halfling. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9281,7 +9281,7 @@
    },
    "line": "Lady of Montecalvo, of the Lodge of Sorceresses. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -9302,7 +9302,7 @@
    },
    "line": "Bandit. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9360,7 +9360,7 @@
    },
    "line": "Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -9439,7 +9439,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9466,7 +9466,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9490,7 +9490,7 @@
    },
    "line": "King of Redania. Appears in Blood of Elves and The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -9514,7 +9514,7 @@
    },
    "line": "King of Redania. Appears in Blood of Elves and The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -9542,7 +9542,7 @@
    },
    "line": "King of Redania. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9563,7 +9563,7 @@
    },
    "line": "Mage. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9584,7 +9584,7 @@
    },
    "line": "Knight. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9605,7 +9605,7 @@
    },
    "line": "Assassin. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9625,7 +9625,7 @@
    },
    "line": "Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9654,7 +9654,7 @@
    },
    "line": "Mercenary, of the Aedirnian Special Forces. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9678,7 +9678,7 @@
    },
    "line": "Duke of Toussaint. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9707,7 +9707,7 @@
    },
    "line": "Bandit, of The Rats. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9739,7 +9739,7 @@
    },
    "line": "Mercenary, Dwarf, of Yarpen Zigrin's company. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -9774,11 +9774,11 @@
    },
    "line": "King of Lyria and Rivia. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
-     "world": "lesmiserables",
-     "story": "Les Misérables",
-     "name": "Brujon",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Marie Batel",
      "tied": 0
     }
    }
@@ -9824,7 +9824,7 @@
    },
    "line": "Princess of Creyden. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9865,7 +9865,7 @@
    },
    "line": "Count, of White Queen's corps. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -9887,11 +9887,11 @@
    },
    "line": "Knight errant. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Denys Mallister",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Renée Picard",
      "tied": 0
     }
    }
@@ -9949,7 +9949,7 @@
    },
    "line": "Queen of Temeria, Half-elf. Appears in Time of Contempt and Baptism of Fire.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9970,7 +9970,7 @@
    },
    "line": "Soldier. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10002,7 +10002,7 @@
    },
    "line": "Mage, of Skellen's gang. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -10057,7 +10057,7 @@
    },
    "line": "Sergeant, of the Gemmerian Pacifiers. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10079,7 +10079,7 @@
    },
    "line": "Professional killer. Appears in Blood of Elves and Time of Contempt.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10106,11 +10106,11 @@
    },
    "line": "Horse. Appears in 7 books.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Hotspurn",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Skon",
      "tied": 0
     }
    }
@@ -10126,7 +10126,7 @@
    },
    "line": "Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -10173,7 +10173,7 @@
    },
    "line": "King of Cintra. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10196,7 +10196,7 @@
    },
    "line": "Count. Appears in Baptism of Fire.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10219,7 +10219,7 @@
    },
    "line": "Captain. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10314,7 +10314,7 @@
    },
    "line": "Mage, of the Lodge of Sorceresses. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10336,7 +10336,7 @@
    },
    "line": "Farmer, Halfling. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10371,7 +10371,7 @@
    },
    "line": "Soldier. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10395,7 +10395,7 @@
    },
    "line": "Queen of Temeria. Appears in The Last Wish and Blood of Elves.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -10437,7 +10437,7 @@
    },
    "line": "Assassin, Half-elf, of the Nightingale gang. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10516,7 +10516,7 @@
    },
    "line": "Medic, of the Oxenfurt Academy. Appears in Blood of Elves and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10545,7 +10545,7 @@
    },
    "line": "Mage, of the Lodge of Sorceresses. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10567,7 +10567,7 @@
    },
    "line": "Cobbler, Barefield. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10598,7 +10598,7 @@
    },
    "line": "Officer, Dwarf, of the Mahakam Volunteer Army. Appears in Blood of Elves and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10652,7 +10652,7 @@
    },
    "line": "Winter Queen, Elf, of Dearg Ruadhri. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10684,7 +10684,7 @@
    },
    "line": "Baron, of the Guild of Merchants. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -10714,7 +10714,7 @@
    },
    "line": "Commander, of the Nilfgaardian Army. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10747,7 +10747,7 @@
    },
    "line": "Spymaster, of the Redanian Secret Service. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10824,7 +10824,7 @@
    },
    "line": "Knight, of the Trappers. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -10847,7 +10847,7 @@
    },
    "line": "Healer, Dryad. Appears in Sword of Destiny and Baptism of Fire.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10874,7 +10874,7 @@
    },
    "line": "Bounty hunter, of the Trappers. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -10901,7 +10901,7 @@
    },
    "line": "Mage, of Rissberg. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -10940,7 +10940,7 @@
    },
    "line": "Soldier. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -10973,7 +10973,7 @@
    },
    "line": "Imperial coroner, of the Nilfgaardian Secret Service. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -11047,7 +11047,7 @@
    },
    "line": "Mage. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 1,
+    "lookAlikes": 2,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -11069,7 +11069,7 @@
    },
    "line": "Storyteller. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -11154,7 +11154,7 @@
    },
    "line": "Faithel. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11191,7 +11191,7 @@
    },
    "line": "Farmer, Halfling. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 12,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11334,7 +11334,7 @@
    },
    "line": "Commander, of the Angren Free Company. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11364,7 +11364,7 @@
    },
    "line": "Professional killer, Elf, of the Gemmerian Pacifiers. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11406,7 +11406,7 @@
    },
    "line": "Mage, of the Brotherhood of Sorcerers. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11452,7 +11452,7 @@
    },
    "line": "Spy, Sylvan. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11499,7 +11499,7 @@
    },
    "line": "Elf, of the Scoia'tael. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -11521,7 +11521,7 @@
    },
    "line": "Professional killer. Appears in Blood of Elves and Time of Contempt.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -11593,7 +11593,7 @@
    "wiki": "Triss Merigold",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -11640,7 +11640,7 @@
    },
    "line": "Soldier. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11708,7 +11708,7 @@
    },
    "line": "Imperator of Nilfgaard, of the Nilfgaardian Army. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11729,7 +11729,7 @@
    },
    "line": "Faithel. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11805,7 +11805,7 @@
    },
    "line": "Viscount of Eiddon, of the Nilfgaardian Secret Service. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11826,7 +11826,7 @@
    },
    "line": "Burgomeister of Vizima. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11875,7 +11875,7 @@
    },
    "line": "Lord of Brugge. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11915,7 +11915,7 @@
    },
    "line": "Bounty hunter, of the Nissir. Appears in Time of Contempt.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11936,7 +11936,7 @@
    },
    "line": "Bruxa. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -11995,7 +11995,7 @@
    },
    "line": "Witcher, of the School of the Wolf. Appears in all 8 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12016,7 +12016,7 @@
    },
    "line": "Laundress. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -12062,7 +12062,7 @@
    },
    "line": "Commissar, of the Kaedwenian Intelligence. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -12091,7 +12091,7 @@
    },
    "line": "Mage, of the Druids of Kovirian Circle. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12114,7 +12114,7 @@
    },
    "line": "King of Lyria and Rivia. Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12136,7 +12136,7 @@
    },
    "line": "Knight, Golden dragon. Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -12159,7 +12159,7 @@
    },
    "line": "Banker, Dwarf. Appears in Sword of Destiny and Season of Storms.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12195,7 +12195,7 @@
    },
    "line": "King of Kerack. Appears in Sword of Destiny and Season of Storms.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -12260,7 +12260,7 @@
    },
    "line": "Marshal, of the Cintran Army. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -12301,7 +12301,7 @@
    },
    "line": "King of Redania. Appears in 7 books.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12321,7 +12321,7 @@
    },
    "line": "Appears in Sword of Destiny.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 20,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12343,7 +12343,7 @@
    },
    "line": "Knight, Half-human. Appears in The Last Wish.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12382,7 +12382,7 @@
    },
    "line": "King of Redania. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -12429,7 +12429,7 @@
    },
    "line": "Tanner, of the Oxenfurt Academy. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -12504,7 +12504,7 @@
    },
    "line": "Archpriest, of the Temerian Royal Council. Appears in Time of Contempt and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12535,7 +12535,7 @@
    },
    "line": "Duke. Appears in The Last Wish and Blood of Elves.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12601,7 +12601,7 @@
    },
    "line": "Appears in Blood of Elves.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12624,7 +12624,7 @@
    },
    "line": "Prince of Kerack. Appears in Season of Storms.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12674,7 +12674,7 @@
    },
    "line": "Mercenary, Dwarf, of Yarpen Zigrin's company. Appears in Sword of Destiny and Blood of Elves.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12716,7 +12716,7 @@
    },
    "line": "Elf, of the Scoia'tael. Appears in Time of Contempt and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12763,7 +12763,7 @@
    },
    "line": "Mercenary, Dwarf, of Yarpen Zigrin's company. Appears in Sword of Destiny and Blood of Elves.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -12795,7 +12795,7 @@
    },
    "line": "Adventurer, Dwarf, of the Mahakam Volunteer Army. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12816,7 +12816,7 @@
    },
    "line": "Halfling. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12845,7 +12845,7 @@
    },
    "line": "Blacksmith, Dwarf, of Zoltan Chivay's company. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -12907,7 +12907,7 @@
    },
    "line": "Bandit, of the Nightingale gang. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12948,7 +12948,7 @@
    },
    "line": "Merchant. Appears in Sword of Destiny and Blood of Elves.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 12,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12975,7 +12975,7 @@
    },
    "line": "Professional killer, of Stefan Skellen's gang. Appears in The Tower of the Swallow.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -13002,7 +13002,7 @@
    },
    "line": "Mercenary, of Stefan Skellen's gang. Appears in The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -13083,7 +13083,7 @@
    },
    "line": "Officer, Dwarf, of the Mahakam Volunteer Army. Appears in Baptism of Fire and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -13107,7 +13107,7 @@
    },
    "line": "Queen of Kovir and Poviss. Appears in The Tower of the Swallow and The Lady of the Lake.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -13139,7 +13139,7 @@
    },
    "line": "Lance corporal, of the Dun Banner. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 25,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -51647,7 +51647,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims."
+    "Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page.",
+    "Where the item's English label is that character's name, took its gender when the wiki's infobox gives none; no other Wikidata claims."
    ]
   }
  ],

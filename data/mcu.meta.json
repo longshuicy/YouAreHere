@@ -30,7 +30,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -61,7 +61,7 @@
    },
    "line": "Captain, Russian, of the Royal Marines. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -93,7 +93,7 @@
    },
    "line": "Doctor, Nazi German, of the Strategic Scientific Reserve. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -120,7 +120,7 @@
    },
    "line": "Afghan, of the Ten Rings. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -181,7 +181,7 @@
    },
    "line": "Sovereign, of the Guardians of the Galaxy. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -225,7 +225,7 @@
    },
    "line": "Afghan, of the Ten Rings. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -272,7 +272,7 @@
    },
    "line": "CEO of Advanced Idea Mechanics, of A.I.M. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -304,7 +304,7 @@
    },
    "line": "Captain, Arcturan, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -324,7 +324,7 @@
    },
    "line": "Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -355,7 +355,7 @@
    },
    "line": "Secretary of the World Security Council, of Hydra. Appears in Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -400,7 +400,7 @@
    },
    "line": "Sorcerer Supreme, Nepalese, of the Masters of the Mystic Arts. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -469,7 +469,7 @@
    },
    "line": "Coach, of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -499,7 +499,7 @@
    },
    "line": "Corpsman, Xandarian, of the Nova Corps. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -519,7 +519,7 @@
    },
    "line": "Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -548,7 +548,7 @@
    },
    "line": "Director of the United States Department of Damage Control. Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -604,11 +604,11 @@
    },
    "line": "Appears in Ant-Man.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Hallis Mollen",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Caretaker",
      "tied": 0
     }
    }
@@ -663,7 +663,7 @@
    },
    "line": "Doctor, Russian, of Stark Industries. Appears in Iron Man 2.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -708,7 +708,7 @@
    },
    "line": "Doctor, Artificial Intelligence, of Hydra. Appears in Captain America: The First Avenger and Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -735,7 +735,7 @@
    },
    "line": "Kree, of the Starforce. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -776,7 +776,7 @@
    },
    "line": "Appears in Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -800,7 +800,7 @@
    },
    "line": "Golden High Priestess, Sovereign. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -832,7 +832,7 @@
    },
    "line": "General, Wakandan, of the Dora Milaje. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -902,7 +902,7 @@
    },
    "line": "Agent of S.H.I.E.L.D, German, of Hydra. Appears in Captain America: The Winter Soldier and Avengers: Age of Ultron.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -929,7 +929,7 @@
    },
    "line": "Sokovian, of the Sokovian Armed Forces. Appears in Captain America: Civil War.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -976,7 +976,7 @@
    },
    "line": "French, of LAF. Appears in Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1004,7 +1004,7 @@
    },
    "line": "Of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1077,7 +1077,7 @@
    },
    "line": "Krylorian. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1145,7 +1145,7 @@
    },
    "line": "Of The Daily Bugle. Appears in Spider-Man: Homecoming and Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1174,7 +1174,7 @@
    },
    "line": "Doctor, of Culver University. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -1213,7 +1213,7 @@
    },
    "line": "Sakaaran, of the Sakaaran Rebellion. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1244,7 +1244,7 @@
    },
    "line": "Doctor, of University of California. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1322,7 +1322,7 @@
    "wiki": "Shuri (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1352,7 +1352,7 @@
    },
    "line": "Apprentice, Mindless One, of the Zealots. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1383,7 +1383,7 @@
    },
    "line": "Agent of S.H.I.E.L.D, of Hydra. Appears in Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1441,7 +1441,7 @@
    },
    "line": "Prince of Asgard, Asgardian, of the Asgardian Royal Family. Appears in Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1467,7 +1467,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1494,7 +1494,7 @@
    },
    "line": "Achernonian, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1523,7 +1523,7 @@
    },
    "line": "Senator, of the United States Congress. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1585,7 +1585,7 @@
    },
    "line": "Nova Imperial. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1612,7 +1612,7 @@
    },
    "line": "Kree, of the Starforce. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1654,7 +1654,7 @@
    },
    "line": "Apprentice, Mindless One, of the Zealots. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1683,7 +1683,7 @@
    },
    "line": "FBI Agent. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1779,7 +1779,7 @@
    },
    "line": "Agent of S.H.I.E.L.D. Appears in Thor.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1809,7 +1809,7 @@
    },
    "line": "Agent of S.H.I.E.L.D, of Nick Fury's Crew. Appears in Captain America: The Winter Soldier and Avengers: Age of Ultron.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1841,7 +1841,7 @@
    },
    "line": "Of the Avengers. Appears in 6 films.",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1871,7 +1871,7 @@
    "wiki": "Carol Danvers (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1899,7 +1899,7 @@
    },
    "line": "Krylorian, of the Tivan Group. Appears in Thor: The Dark World and Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1920,7 +1920,7 @@
    },
    "line": "Sokovian. Appears in Captain America: Civil War.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1970,7 +1970,7 @@
    },
    "line": "Sakaaran. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -2029,7 +2029,7 @@
    },
    "line": "Of Brookemont Elementary School. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2064,11 +2064,11 @@
    },
    "line": "Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "張華",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Yangchen",
      "tied": 0
     }
    }
@@ -2093,7 +2093,7 @@
    },
    "line": "Sergeant, of the United States Army. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -2120,7 +2120,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming and Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2163,7 +2163,7 @@
    },
    "line": "Captain, Jovian, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2251,11 +2251,11 @@
    },
    "line": "Colonel, of S.H.I.E.L.D. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Dormammu",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Lwaxana Troi",
      "tied": 0
     }
    }
@@ -2309,7 +2309,7 @@
    },
    "line": "Of WHiH World News. Appears in Iron Man and Iron Man 2.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2338,7 +2338,7 @@
    },
    "line": "Doctor, of Metro-General Hospital. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2377,7 +2377,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming and Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2473,7 +2473,7 @@
    },
    "line": "Of the Tivan Group. Appears in Thor: The Dark World and Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2522,7 +2522,7 @@
    },
    "line": "Appears in Avengers: Age of Ultron and Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2548,7 +2548,7 @@
    },
    "line": "Of the Black Order. Appears in Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2575,11 +2575,11 @@
    },
    "line": "Dog, of the Guardians of the Galaxy. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "N'Jobu",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Dukat",
      "tied": 0
     }
    }
@@ -2625,7 +2625,7 @@
    },
    "line": "Colonel, of the United States Air Force. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 12,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2653,7 +2653,7 @@
    },
    "line": "Of the United States Army. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -2696,7 +2696,7 @@
    },
    "line": "Agent of S.H.I.E.L.D, of Hydra. Appears in Captain America: The Winter Soldier and Captain America: Civil War.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2722,7 +2722,7 @@
    },
    "line": "Of the Black Order. Appears in Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2762,7 +2762,7 @@
    },
    "line": "Manager, of Baskin-Robbins. Appears in Ant-Man.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -2788,7 +2788,7 @@
    },
    "line": "Of the United States Air Force. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 7,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2817,7 +2817,7 @@
    },
    "line": "Master of the New York Sanctum, of the Masters of the Mystic Arts. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -2863,7 +2863,7 @@
    },
    "line": "Agent of S.H.I.E.L.D, of Hydra. Appears in Captain America: The Winter Soldier and Captain America: Civil War.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -2911,7 +2911,7 @@
    },
    "line": "Doctor, of the Science Avengers. Appears in Thor and Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2938,7 +2938,7 @@
    },
    "line": "Of X-Con Security Consultants. Appears in Ant-Man and Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2958,7 +2958,7 @@
    },
    "line": "Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2984,7 +2984,7 @@
    },
    "line": "Of the United States Air Force. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 7,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3013,7 +3013,7 @@
    },
    "line": "Agent of S.H.I.E.L.D. Appears in Thor.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -3056,7 +3056,7 @@
    },
    "line": "Officer, of the United States Army. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3097,7 +3097,7 @@
    },
    "line": "Appears in Thor.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3123,7 +3123,7 @@
    },
    "line": "Of Nick Fury's Crew. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3185,9 +3185,9 @@
    "signals": {
     "lookAlikes": 65,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Scarlet Witch",
+     "world": "harry-potter",
+     "story": "Harry Potter",
+     "name": "Luna Lovegood",
      "tied": 0
     }
    }
@@ -3203,7 +3203,7 @@
    },
    "line": "Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3230,11 +3230,11 @@
    },
    "line": "Faltine, of the Zealots. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Chester Phillips",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Lwaxana Troi",
      "tied": 0
     }
    }
@@ -3251,7 +3251,7 @@
    },
    "line": "Sakaaran. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3325,7 +3325,7 @@
    "wiki": "Drax (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3351,7 +3351,7 @@
    },
    "line": "Of the Marauders. Appears in Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -3380,7 +3380,7 @@
    },
    "line": "Corporal, of the United States Army. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -3402,7 +3402,7 @@
    },
    "line": "Appears in 4 films.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -3423,7 +3423,7 @@
    },
    "line": "Krylorian/Xandarian Hybrid. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3463,7 +3463,7 @@
    },
    "line": "Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -3489,7 +3489,7 @@
    },
    "line": "Of the Black Order. Appears in Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3513,7 +3513,7 @@
    },
    "line": "The Living Planet, Celestial. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3602,7 +3602,7 @@
    },
    "line": "Agent of S.H.I.E.L.D. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3722,7 +3722,7 @@
    },
    "line": "Lieutenant Colonel, of A.I.M. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3766,7 +3766,7 @@
    },
    "line": "King of Wakanda, Wakandan, of the Golden Tribe. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -3795,7 +3795,7 @@
    "wiki": "Erik Selvig",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3840,11 +3840,11 @@
    },
    "line": "Of the Third Strikers. Appears in Ant-Man.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Ray LaHood",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Bargh",
      "tied": 0
     }
    }
@@ -3892,7 +3892,7 @@
    },
    "line": "CIA Agent, of the United States Air Force. Appears in Captain America: Civil War and Black Panther.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -3916,7 +3916,7 @@
    },
    "line": "Guardian of the Bifrost Bridge, Asgardian. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -3947,13 +3947,14 @@
      "Avengers: Endgame"
     ],
     "unit": "film",
-    "corpusSize": 23
+    "corpusSize": 23,
+    "gender": "Female"
    },
    "line": "Appears in 5 films.",
    "wiki": "F.R.I.D.A.Y.",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -3982,7 +3983,7 @@
    },
    "line": "Asgardian, of the Warriors Three. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4002,7 +4003,7 @@
    },
    "line": "Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4028,7 +4029,7 @@
    },
    "line": "Of the S.A.B.E.R. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4048,7 +4049,7 @@
    },
    "line": "Asgardian Wolf. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4171,7 +4172,7 @@
    },
    "line": "Muspelheim. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -4191,7 +4192,7 @@
    },
    "line": "Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4218,7 +4219,7 @@
    },
    "line": "Of Massachusetts Institute of Technology. Appears in Spider-Man: Homecoming and Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4247,7 +4248,7 @@
    },
    "line": "Agent of Damage Control, of the United States Department of Damage Control. Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4295,7 +4296,7 @@
    },
    "line": "Queen of Asgard, Asgardian, of the Asgardian Royal Family. Appears in Thor and Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -4322,7 +4323,7 @@
    },
    "line": "Skrull, of the Skrull Resistance. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4353,7 +4354,7 @@
    },
    "line": "Private, of the Howling Commandos. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4422,11 +4423,11 @@
    },
    "line": "Officer, of the San Francisco Police Department. Appears in Ant-Man.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
-     "world": "lesmiserables",
-     "story": "Les Misérables",
-     "name": "Eponine",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Leeta",
      "tied": 0
     }
    }
@@ -4453,7 +4454,7 @@
    "wiki": "Gamora (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4518,9 +4519,9 @@
    "signals": {
     "lookAlikes": 161,
     "nearest": {
-     "world": "last-airbender",
-     "story": "Avatar: The Last Airbender",
-     "name": "Mira",
+     "world": "stormlight",
+     "story": "The Stormlight Archive",
+     "name": "Ashertmarn",
      "tied": 0
     }
    }
@@ -4566,7 +4567,7 @@
    },
    "line": "Denarian, Xandarian, of the Nova Corps. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4609,7 +4610,7 @@
    },
    "line": "Of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4629,7 +4630,7 @@
    },
    "line": "Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4691,11 +4692,11 @@
    },
    "line": "French. Appears in Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Pat Kiernan",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Thadiun Okona",
      "tied": 0
     }
    }
@@ -4731,7 +4732,7 @@
    },
    "line": "Agent of S.H.I.E.L.D, of the New Avengers. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -4751,7 +4752,7 @@
    },
    "line": "Appears in Ant-Man.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4825,7 +4826,7 @@
    },
    "line": "CEO of Gothite Industries. Appears in The Avengers.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -4848,7 +4849,7 @@
    },
    "line": "Of the Federal Government of the United States. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -4877,7 +4878,7 @@
    },
    "line": "Private, of the United States Army. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4898,7 +4899,7 @@
    },
    "line": "Italian. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4959,7 +4960,7 @@
    },
    "line": "Flerken. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4980,11 +4981,11 @@
    },
    "line": "Sakaaran. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
-     "name": "Justin Hammer",
+     "name": "Collector",
      "tied": 0
     }
    }
@@ -4999,7 +5000,7 @@
    },
    "line": "Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5031,7 +5032,7 @@
    "wiki": "Groot (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5058,7 +5059,7 @@
    },
    "line": "Flora colossus, of the Guardians of the Galaxy. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5079,7 +5080,7 @@
    },
    "line": "Frost Giant. Appears in Thor.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5117,7 +5118,7 @@
    },
    "line": "Of Quentin Beck's Crew. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5148,7 +5149,7 @@
    },
    "line": "Frost Giant. Appears in Thor.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5175,7 +5176,7 @@
    },
    "line": "Sakaaran, of the Sakaaran Rebellion. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -5201,7 +5202,7 @@
    },
    "line": "Of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5231,7 +5232,7 @@
    },
    "line": "Master, Nepalese, of the Masters of the Mystic Arts. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5260,7 +5261,7 @@
    },
    "line": "Officer, of the San Francisco Police Department. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5293,7 +5294,7 @@
    },
    "line": "Doctor, of S.H.I.E.L.D. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5328,7 +5329,7 @@
    },
    "line": "Head of Security, of Stark Industries. Appears in 7 films.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5360,7 +5361,7 @@
    },
    "line": "Appears in Iron Man 3 and Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -5417,7 +5418,7 @@
    "wiki": "Clint Barton (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5448,7 +5449,7 @@
    },
    "line": "Councilwoman, British, of the World Security Council. Appears in The Avengers and Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -5478,7 +5479,7 @@
    },
    "line": "Denarian, Xandarian, of the Nova Corps. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5510,7 +5511,7 @@
    },
    "line": "Sokovian. Appears in Captain America: Civil War.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5538,7 +5539,7 @@
    },
    "line": "Gatekeeper of Asgard, Asgardian. Appears in 5 films.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -5592,7 +5593,7 @@
    },
    "line": "Nazi German, of Hydra. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5626,7 +5627,7 @@
    "wiki": "Hela (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5650,7 +5651,7 @@
    },
    "line": "Doctor, South Korean. Appears in Avengers: Age of Ultron.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -5693,7 +5694,7 @@
    },
    "line": "Doctor, Afghan, of University of Cambridge. Appears in Iron Man and Iron Man 3.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -5722,7 +5723,7 @@
    },
    "line": "Vanir, of the Warriors Three. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5742,7 +5743,7 @@
    },
    "line": "Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5768,7 +5769,7 @@
    },
    "line": "Of the Ravagers. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5801,7 +5802,7 @@
    },
    "line": "Founder of S.H.I.E.L.D. Appears in 5 films.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5824,7 +5825,7 @@
    },
    "line": "Duckworldian. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5846,7 +5847,7 @@
    },
    "line": "Asgardian Ravens. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5873,7 +5874,7 @@
    },
    "line": "Hurctarian, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5992,7 +5993,7 @@
    },
    "line": "British. Appears in Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -6012,7 +6013,7 @@
    },
    "line": "Appears in Ant-Man.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 25,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6039,7 +6040,7 @@
    },
    "line": "Xandarian, of the Nova Corps. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -6059,7 +6060,7 @@
    },
    "line": "Appears in Iron Man 2.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -6132,7 +6133,7 @@
    },
    "line": "COO of Stark Industries. Appears in Iron Man and Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6152,7 +6153,7 @@
    },
    "line": "Appears in Thor.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6175,7 +6176,7 @@
    },
    "line": "Appears in 5 films.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -6201,7 +6202,7 @@
    },
    "line": "Of The Daily Bugle. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -6220,7 +6221,7 @@
    },
    "line": "Appears in Avengers: Age of Ultron.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6305,7 +6306,7 @@
    },
    "line": "Agent of S.H.I.E.L.D, of Hydra. Appears in Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6331,7 +6332,7 @@
    },
    "line": "Of A.I.M. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6360,7 +6361,7 @@
    },
    "line": "Agent of S.H.I.E.L.D. Appears in Thor.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -6380,11 +6381,11 @@
    },
    "line": "Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
-     "world": "lotr",
-     "story": "The Lord of the Rings",
-     "name": "Isildur",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Guinan",
      "tied": 0
     }
    }
@@ -6407,7 +6408,7 @@
    },
    "line": "French, of the Howling Commandos. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6450,7 +6451,7 @@
    },
    "line": "Brigadier, British, of the Howling Commandos. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6496,7 +6497,7 @@
    "wiki": "Jane Foster (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6529,7 +6530,7 @@
    },
    "line": "Agent of S.H.I.E.L.D. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6584,7 +6585,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming and Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -6605,7 +6606,7 @@
    },
    "line": "Appears in Guardians of the Galaxy and Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6633,7 +6634,7 @@
    },
    "line": "Of Hydra. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6653,7 +6654,7 @@
    },
    "line": "Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6673,7 +6674,7 @@
    },
    "line": "Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6717,7 +6718,7 @@
    },
    "line": "Private, of the Howling Commandos. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6747,7 +6748,7 @@
    },
    "line": "Officer, of the San Francisco Police Department. Appears in Ant-Man and Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6832,7 +6833,7 @@
    },
    "line": "FBI Agent. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6852,7 +6853,7 @@
    },
    "line": "Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 25,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -6902,7 +6903,7 @@
    },
    "line": "Of the United States Army. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6973,7 +6974,7 @@
    },
    "line": "Of the Masters of the Mystic Arts. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -7037,7 +7038,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7057,7 +7058,7 @@
    },
    "line": "Appears in Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7113,7 +7114,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7139,11 +7140,11 @@
    },
    "line": "DOD Primary Systems Contractor, of the United States Department of Defense. Appears in Iron Man 2.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Grandmaster",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Wan Shi Tong",
      "tied": 0
     }
    }
@@ -7169,7 +7170,7 @@
    },
    "line": "Master, Mindless One, of the Zealots. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -7195,7 +7196,7 @@
    },
    "line": "Of the Masters of the Mystic Arts. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7214,7 +7215,7 @@
    },
    "line": "Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7244,11 +7245,11 @@
    },
    "line": "Master, British, of the Masters of the Mystic Arts. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Ares",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Q",
      "tied": 0
     }
    }
@@ -7287,7 +7288,7 @@
    },
    "line": "Lieutenant Colonel, of the United States Army. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -7308,7 +7309,7 @@
    },
    "line": "British. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7360,7 +7361,7 @@
    },
    "line": "Of the United States Air Force. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 7,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7418,7 +7419,7 @@
    },
    "line": "Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7446,7 +7447,7 @@
    },
    "line": "Kree, of the Starforce. Appears in Guardians of the Galaxy and Captain Marvel.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -7474,7 +7475,7 @@
    },
    "line": "Kronan, of the Sakaaran Rebellion. Appears in Thor: Ragnarok and Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7506,7 +7507,7 @@
    },
    "line": "First Mate, Xandarian, of the Guardians of the Galaxy. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -7540,7 +7541,7 @@
    },
    "line": "Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -7566,7 +7567,7 @@
    },
    "line": "Of the Marauders. Appears in Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -7597,7 +7598,7 @@
    },
    "line": "Captain, Lem, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -7635,7 +7636,7 @@
    },
    "line": "Dark Elf. Appears in Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -7663,7 +7664,7 @@
    },
    "line": "Russian, of X-Con Security Consultants. Appears in Ant-Man and Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7709,7 +7710,7 @@
    },
    "line": "Technical Sergeant, of the United States Air Force. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 12,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7782,7 +7783,7 @@
    },
    "line": "King of Jotunheim, Frost Giant. Appears in Thor.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -7812,7 +7813,7 @@
    },
    "line": "Agent of S.H.I.E.L.D. Appears in Avengers: Age of Ultron and Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -7859,7 +7860,7 @@
    },
    "line": "Doctor, of Grayburn College. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -7932,7 +7933,7 @@
    },
    "line": "Doctor, of Culver University. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -7952,7 +7953,7 @@
    },
    "line": "Appears in Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7973,7 +7974,7 @@
    },
    "line": "Appears in Avengers: Age of Ultron and Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7993,7 +7994,7 @@
    },
    "line": "Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8013,7 +8014,7 @@
    },
    "line": "Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8044,7 +8045,7 @@
    },
    "line": "Doctor, German, of Hydra. Appears in Captain America: The Winter Soldier and Avengers: Age of Ultron.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8104,7 +8105,7 @@
    },
    "line": "Captain of The Academic Decathlon Team, of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -8133,7 +8134,8 @@
     ],
     "articles": {
      "Asgardian Royal Family": "the"
-    }
+    },
+    "gender": "Male"
    },
    "line": "God of Mischief, Frost Giant, of the Asgardian Royal Family. Appears in 5 films.",
    "wiki": "Loki (Marvel Cinematic Universe)",
@@ -8159,7 +8161,7 @@
    },
    "line": "Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -8221,7 +8223,7 @@
    },
    "line": "Apprentice, of the Zealots. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -8248,7 +8250,7 @@
    },
    "line": "Of X-Con Security Consultants. Appears in Ant-Man and Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8287,7 +8289,7 @@
    },
    "line": "White Rhinoceros, of the Border Tribe. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8321,7 +8323,7 @@
    },
    "line": "King of Wakanda, Wakandan, of the Jabari Tribe. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8348,7 +8350,7 @@
    },
    "line": "Wakandan, of the Jabari Tribe. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8380,7 +8382,7 @@
    },
    "line": "Elder of the Border Tribe, Wakandan. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8411,7 +8413,7 @@
    },
    "line": "Doctor, of Massachusetts Institute of Technology. Appears in Ant-Man.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8464,7 +8466,7 @@
    },
    "line": "Appears in Ant-Man and Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8496,7 +8498,7 @@
    },
    "line": "Captain, Robot, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8520,7 +8522,7 @@
    },
    "line": "Lord of the Dark Elves, Dark Elf. Appears in Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8551,7 +8553,7 @@
    "wiki": "Mantis (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -8572,7 +8574,7 @@
    },
    "line": "Kree. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8599,7 +8601,7 @@
    },
    "line": "Brazilian, of the Pingo Doce Bottling Plant. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -8634,7 +8636,7 @@
    },
    "line": "Deputy Director of S.H.I.E.L.D. Appears in 5 films.",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8713,7 +8715,7 @@
    },
    "line": "Appears in Captain America: Civil War.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8751,7 +8753,7 @@
    },
    "line": "Brazilian, of the Pingo Doce Bottling Plant. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8783,7 +8785,7 @@
    },
    "line": "First Mate, Pluvian, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8803,7 +8805,7 @@
    },
    "line": "Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8840,7 +8842,7 @@
    },
    "line": "Of the Advanced Threat Containment Unit. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8871,7 +8873,7 @@
    },
    "line": "Of the Salvation Army. Appears in 4 films.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8900,7 +8902,7 @@
    },
    "line": "Doctor, of A.I.M. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -8950,7 +8952,7 @@
    },
    "line": "Corpsman, Nova Imperial, of the Nova Corps. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8977,7 +8979,7 @@
    },
    "line": "Wakandan, of the Tribal Council. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8998,7 +9000,7 @@
    },
    "line": "Appears in Guardians of the Galaxy and Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9018,7 +9020,7 @@
    },
    "line": "Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9066,7 +9068,7 @@
    },
    "line": "Of Peter Pan Donut & Pastry Shop. Appears in Spider-Man: Homecoming and Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9094,7 +9096,7 @@
    },
    "line": "Sakaaran, of the Sakaaran Rebellion. Appears in Thor: Ragnarok and Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9126,7 +9128,7 @@
    },
    "line": "Doctor, of S.H.I.E.L.D. Appears in Thor and Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9173,11 +9175,11 @@
    },
    "line": "Kree, of the Starforce. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Mar-Vell",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "T'Lyn",
      "tied": 0
     }
    }
@@ -9205,7 +9207,8 @@
      "Avengers: Endgame"
     ],
     "unit": "film",
-    "corpusSize": 23
+    "corpusSize": 23,
+    "gender": "Female"
    },
    "line": "Appears in Avengers: Endgame."
   },
@@ -9229,7 +9232,7 @@
    },
    "line": "Head of Defense, of Hydra. Appears in Ant-Man.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -9308,7 +9311,7 @@
    },
    "line": "Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9338,7 +9341,7 @@
    },
    "line": "Captain, of the Rice University. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9358,7 +9361,7 @@
    },
    "line": "Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -9399,7 +9402,7 @@
    },
    "line": "Agent of S.H.I.E.L.D. Appears in Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9421,7 +9424,7 @@
    "wiki": "Morgan Stark",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9450,7 +9453,7 @@
    },
    "line": "Principal, of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9502,7 +9505,7 @@
    "wiki": "Mysterio",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -9536,7 +9539,7 @@
    "wiki": "N'Jobu",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -9566,7 +9569,7 @@
    },
    "line": "Headmistress, Wakandan, of the River Tribe. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9592,7 +9595,7 @@
    },
    "line": "Of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9653,7 +9656,7 @@
    },
    "line": "Appears in Avengers: Age of Ultron and Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -9697,7 +9700,7 @@
    },
    "line": "Luphomoid, of the Avengers. Appears in 4 films.",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9729,7 +9732,7 @@
    },
    "line": "CEO of Spidey Tracker. Appears in 4 films.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9756,7 +9759,7 @@
    },
    "line": "British, of the Zealots. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9785,11 +9788,11 @@
    },
    "line": "Doctor, of Metro-General Hospital. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
-     "world": "stormlight",
-     "story": "The Stormlight Archive",
-     "name": "Rill",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Caretaker",
      "tied": 0
     }
    }
@@ -9869,7 +9872,7 @@
    },
    "line": "Wakandan, of the Dora Milaje. Appears in Black Panther and Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -9893,7 +9896,7 @@
    },
    "line": "Chief Science Officer, Skrull. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9917,7 +9920,7 @@
    },
    "line": "Corpsman, Xandarian. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -9944,7 +9947,7 @@
    },
    "line": "Krylorian, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -9977,7 +9980,7 @@
    },
    "line": "God of War and Wisdom, Asgardian, of the Asgardian Royal Family. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9997,7 +10000,7 @@
    },
    "line": "Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10032,7 +10035,7 @@
    "wiki": "Okoye (character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10059,7 +10062,7 @@
    },
    "line": "Afghan, of the Ten Rings. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10091,7 +10094,7 @@
    },
    "line": "Appears in The Avengers and Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -10160,11 +10163,11 @@
    },
    "line": "Canadian, of the NY1. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
-     "world": "stormlight",
-     "story": "The Stormlight Archive",
-     "name": "Nazh",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Thadiun Okona",
      "tied": 0
     }
    }
@@ -10220,7 +10223,7 @@
    },
    "line": "FBI Agent. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10257,7 +10260,7 @@
    "wiki": "Peggy Carter (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10294,7 +10297,7 @@
    "wiki": "Pepper Potts (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10336,7 +10339,7 @@
    },
    "line": "Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10373,7 +10376,7 @@
    "wiki": "Phil Coulson",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -10487,7 +10490,7 @@
    },
    "line": "CIA Agent, Madripoorian. Appears in Captain America: The Winter Soldier and Captain America: Civil War.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -10508,7 +10511,7 @@
    },
    "line": "British. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10548,7 +10551,7 @@
    },
    "line": "Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -10574,7 +10577,7 @@
    },
    "line": "Of the Black Order. Appears in Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -10604,7 +10607,7 @@
    "wiki": "Pietro Maximoff (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -10633,7 +10636,7 @@
    },
    "line": "Director of S.H.I.E.L.D. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -10659,7 +10662,7 @@
    },
    "line": "Of the United States Air Force. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 7,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10750,7 +10753,7 @@
    "wiki": "Ramonda (character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -10770,7 +10773,7 @@
    },
    "line": "Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10800,7 +10803,7 @@
    },
    "line": "Lieutenant, Afghan, of the Ten Rings. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -10821,7 +10824,7 @@
    },
    "line": "Frost Giant. Appears in Thor.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -10879,7 +10882,7 @@
    "wiki": "Thaddeus Ross (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10912,7 +10915,7 @@
    },
    "line": "Obergruppenführer, Nazi German, of Hydra. Appears in Captain America: The First Avenger and Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10949,7 +10952,7 @@
    },
    "line": "Of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -10979,7 +10982,7 @@
    },
    "line": "Denarian, Xandarian, of the Nova Corps. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -11000,7 +11003,7 @@
    },
    "line": "British. Appears in Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -11027,7 +11030,7 @@
    },
    "line": "Wakandan, of the Tribal Council. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11055,7 +11058,7 @@
    },
    "line": "Of the United States Army. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11085,7 +11088,7 @@
    },
    "line": "Halfworlder, of the Guardians of the Galaxy. Appears in 4 films.",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11137,7 +11140,7 @@
    },
    "line": "Teacher, of Midtown School of Science and Technology. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -11182,7 +11185,7 @@
    },
    "line": "Of the United States Air Force. Appears in Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -11204,7 +11207,7 @@
    },
    "line": "Kree. Appears in Guardians of the Galaxy and Captain Marvel.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -11232,7 +11235,7 @@
    },
    "line": "Sakaaran, of the Sakaaran Rebellion. Appears in Thor: Ragnarok and Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11356,7 +11359,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming and Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11384,7 +11387,7 @@
    },
    "line": "Of the United States Army. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11404,7 +11407,7 @@
    },
    "line": "Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11459,7 +11462,7 @@
    "wiki": "Wanda Maximoff (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11500,7 +11503,7 @@
    },
    "line": "Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -11520,7 +11523,7 @@
    },
    "line": "Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -11549,7 +11552,7 @@
    },
    "line": "Officer, of the San Francisco Police Department. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11575,7 +11578,7 @@
    },
    "line": "Of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11606,7 +11609,7 @@
    },
    "line": "Agent of S.H.I.E.L.D. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11646,7 +11649,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11672,7 +11675,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -11698,7 +11701,7 @@
    },
    "line": "Of Quentin Beck's Crew. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -11718,7 +11721,7 @@
    },
    "line": "Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -11745,7 +11748,7 @@
    },
    "line": "Hurctarian, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11772,7 +11775,7 @@
    "wiki": "Sif (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11792,7 +11795,7 @@
    },
    "line": "Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11830,11 +11833,11 @@
    },
    "line": "Brazilian. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 161,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Nydia Velazquez",
+     "world": "harry-potter",
+     "story": "Harry Potter",
+     "name": "Evans sisters' mother",
      "tied": 0
     }
    }
@@ -11891,7 +11894,7 @@
    },
    "line": "Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11912,7 +11915,7 @@
    },
    "line": "Asgardian Horse. Appears in Thor.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -11938,7 +11941,7 @@
    },
    "line": "Of the Iron Lotus. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11959,7 +11962,7 @@
    },
    "line": "Kree. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -11989,7 +11992,7 @@
    },
    "line": "Master of the London Sanctum, British, of the Masters of the Mystic Arts. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12009,7 +12012,7 @@
    },
    "line": "Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -12033,7 +12036,7 @@
    },
    "line": "Shaman, Wakandan. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -12054,7 +12057,7 @@
    },
    "line": "South Korean. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12082,7 +12085,7 @@
    },
    "line": "Skrull, of Nick Fury's Crew. Appears in Captain Marvel and Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12102,7 +12105,7 @@
    },
    "line": "Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12122,7 +12125,7 @@
    },
    "line": "Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -12268,7 +12271,7 @@
    "wiki": "Peter Quill (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12297,7 +12300,7 @@
    },
    "line": "Dispatcher, of the Tivan Group. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -12345,7 +12348,7 @@
    },
    "line": "Officer, of the United States Army. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12375,7 +12378,7 @@
    },
    "line": "Senator, of Hydra. Appears in Iron Man 2 and Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -12456,7 +12459,7 @@
    },
    "line": "Of the United States Army. Appears in The Incredible Hulk.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12485,7 +12488,7 @@
    },
    "line": "Agent of FBI. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12514,7 +12517,7 @@
    },
    "line": "Major General, of the United States Air Force. Appears in Iron Man 2.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -12596,7 +12599,7 @@
    },
    "line": "Kree Imperial, of the Kree Empire. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -12620,7 +12623,7 @@
    },
    "line": "Lord of Muspelheim, Fire Demon. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12656,7 +12659,7 @@
    },
    "line": "Appears in Avengers: Age of Ultron.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12701,7 +12704,7 @@
    },
    "line": "King of Wakanda, Wakandan, of the Golden Tribe. Appears in Captain America: Civil War and Black Panther.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12738,7 +12741,7 @@
    "wiki": "T'Challa (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -12767,7 +12770,7 @@
    },
    "line": "Apprentice, of the Zealots. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -12800,7 +12803,7 @@
    },
    "line": "Skrull General, of the Skrull Council. Appears in Captain Marvel and Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12820,7 +12823,7 @@
    },
    "line": "Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12847,7 +12850,7 @@
    },
    "line": "Sakaaran, of the Sakaaran Rebellion. Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12876,7 +12879,7 @@
    },
    "line": "Captain, of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12905,7 +12908,7 @@
    },
    "line": "Captain, of the United States Air Force. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 12,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12999,11 +13002,11 @@
    },
    "line": "Doctor, Swiss. Appears in Captain America: Civil War.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
-     "world": "last-airbender",
-     "story": "Avatar: The Last Airbender",
-     "name": "Than",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Edward Jellico",
      "tied": 0
     }
    }
@@ -13097,7 +13100,7 @@
    },
    "line": "Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13151,7 +13154,7 @@
    },
    "line": "Master of the Hong Kong Sanctum, Chinese, of the Masters of the Mystic Arts. Appears in Doctor Strange.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -13171,7 +13174,7 @@
    },
    "line": "Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13198,7 +13201,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming and Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13269,11 +13272,11 @@
    },
    "line": "Sneeper. Appears in Guardians of the Galaxy.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
-     "world": "harry-potter",
-     "story": "Harry Potter",
-     "name": "S. Fawcett",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Jones",
      "tied": 0
     }
    }
@@ -13337,7 +13340,7 @@
    "wiki": "Trevor Slattery",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -13399,7 +13402,7 @@
    },
    "line": "Of the Ravagers. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13425,7 +13428,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13484,7 +13487,7 @@
    },
    "line": "Commander, Asgardian, of the Einherjar. Appears in Thor: The Dark World.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -13506,7 +13509,7 @@
    },
    "line": "Appears in 4 films.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -13544,7 +13547,7 @@
    },
    "line": "Artificial Intelligence. Appears in Avengers: Age of Ultron.",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13572,7 +13575,7 @@
    },
    "line": "Belgian, of Intelligencia. Appears in Avengers: Age of Ultron and Black Panther.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -13610,7 +13613,7 @@
    },
    "line": "British, of MI6. Appears in Ant-Man and the Wasp.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13643,7 +13646,7 @@
    },
    "line": "King of New Asgard, Asgardian, of Sakaaran Scrappers. Appears in Thor: Ragnarok and Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -13686,7 +13689,7 @@
    },
    "line": "Colonel General, Russian, of Hydra. Appears in Captain America: Civil War.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -13713,7 +13716,7 @@
    },
    "line": "Nazi German, of Hydra. Appears in Captain America: The First Avenger.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 20,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -13739,7 +13742,7 @@
    },
    "line": "Of Quentin Beck's Crew. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -13794,7 +13797,7 @@
    },
    "line": "Synthezoid, of the Avengers. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13823,7 +13826,7 @@
    },
    "line": "Asgardian, of the Warriors Three. Appears in 3 films.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13843,7 +13846,7 @@
    },
    "line": "Appears in Thor: Ragnarok.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13898,7 +13901,7 @@
    },
    "line": "Chief, of Bestman Salvage. Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -13928,7 +13931,7 @@
    },
    "line": "Royal Advisor, Wakandan, of the Border Tribe. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -13995,7 +13998,7 @@
    },
    "line": "Teacher, of Midtown School of Science and Technology. Appears in Spider-Man: Homecoming.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -14017,7 +14020,7 @@
    },
    "line": "Winged Horse. Appears in Thor: Ragnarok and Avengers: Endgame.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -14050,7 +14053,7 @@
    "wiki": "Hope van Dyne",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14090,7 +14093,7 @@
    },
    "line": "Appears in 21 films.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -14137,7 +14140,7 @@
    },
    "line": "Russian, of Hammer Industries. Appears in Iron Man 2.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -14163,7 +14166,7 @@
    },
    "line": "Of the United States Air Force. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -14189,7 +14192,7 @@
    },
    "line": "Of the United States Air Force. Appears in Iron Man.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -14218,7 +14221,7 @@
    },
    "line": "Agent of S.H.I.E.L.D. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -14285,7 +14288,7 @@
    },
    "line": "Of Quentin Beck's Crew. Appears in Iron Man and Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -14358,7 +14361,7 @@
    "wiki": "Wong (Marvel Cinematic Universe)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -14386,7 +14389,7 @@
    },
    "line": "Of Hydra. Appears in Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14406,7 +14409,7 @@
    },
    "line": "Appears in Ant-Man.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -14430,7 +14433,7 @@
    },
    "line": "Doctor, Chinese. Appears in Iron Man 3.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14472,7 +14475,7 @@
    },
    "line": "Wakandan, of the Dora Milaje. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14500,7 +14503,7 @@
    },
    "line": "Wakandan, of the Dora Milaje. Appears in Black Panther and Avengers: Infinity War.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -14526,7 +14529,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14556,7 +14559,7 @@
    },
    "line": "Councilman, Chinese, of the World Security Council. Appears in Captain America: The Winter Soldier.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14586,7 +14589,7 @@
    },
    "line": "Commander, Kree, of the Starforce. Appears in Captain Marvel.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -14617,7 +14620,7 @@
    },
    "line": "Captain, Centaurian, of the Guardians of the Galaxy. Appears in Guardians of the Galaxy and Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -14643,7 +14646,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14675,7 +14678,7 @@
    },
    "line": "Elder Statesman, Wakandan, of the Mining Tribe. Appears in Black Panther.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14701,7 +14704,7 @@
    },
    "line": "Of Midtown School of Science and Technology. Appears in Spider-Man: Far From Home.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14782,7 +14785,7 @@
    "wiki": "Zuri (character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -14803,7 +14806,7 @@
    },
    "line": "Sovereign. Appears in Guardians of the Galaxy Vol. 2.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -80660,7 +80663,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims."
+    "Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page.",
+    "Where the item's English label is that character's name, took its gender when the wiki's infobox gives none; no other Wikidata claims."
    ]
   }
  ],

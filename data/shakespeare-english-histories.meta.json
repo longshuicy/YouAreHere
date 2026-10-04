@@ -36,7 +36,7 @@
    },
    "line": "Abbot of Westminster. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -60,7 +60,7 @@
    "wiki": "John II, Duke of Alençon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -81,7 +81,7 @@
    },
    "line": "A gentlewoman attending on Katherine. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -102,7 +102,7 @@
    },
    "line": "Their daughter. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -158,7 +158,7 @@
    "wiki": "Edward, 2nd Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -183,7 +183,7 @@
    "wiki": "William Bagot (politician)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -208,11 +208,11 @@
    "wiki": "Bardolph (Shakespeare character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Pistol",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Quark",
      "tied": 0
     }
    }
@@ -255,7 +255,7 @@
    "wiki": "Jean de Dunois",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -302,11 +302,11 @@
    "wiki": "John of Lancaster, Duke of Bedford",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "張郃",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Quark",
      "tied": 0
     }
    }
@@ -326,7 +326,7 @@
    "wiki": "Thomas de Berkeley, 5th Baron Berkeley",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -346,7 +346,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -384,7 +384,7 @@
    "wiki": "Thomas Merke",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -421,7 +421,7 @@
    "wiki": "Walter Blount (soldier)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -444,7 +444,7 @@
    "wiki": "James Blount (English soldier)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -467,7 +467,7 @@
    "wiki": "Roger Bolingbroke",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -514,7 +514,7 @@
    },
    "line": "Their servant. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -537,7 +537,7 @@
    "wiki": "Robert Brackenbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -581,7 +581,7 @@
    "wiki": "Humphrey Stafford, 1st Duke of Buckingham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -610,11 +610,11 @@
    "wiki": "Henry Stafford, 2nd Duke of Buckingham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Apollo",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Geordi La Forge",
      "tied": 0
     }
    }
@@ -630,7 +630,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -656,7 +656,7 @@
    "wiki": "Philip the Good",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -680,7 +680,7 @@
    "wiki": "John the Fearless",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -705,7 +705,7 @@
    "wiki": "John Bussy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -751,7 +751,7 @@
    "wiki": "Jack Cade",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 10,
+    "lookAlikes": 13,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -791,11 +791,11 @@
    "wiki": "Henry Beaufort",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Patroclus",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Miles O'Brien",
      "tied": 0
     }
    }
@@ -818,7 +818,7 @@
    "wiki": "Thomas Bourchier (cardinal)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -841,7 +841,7 @@
    "wiki": "William Catesby",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -867,7 +867,7 @@
    "wiki": "Charles VII of France",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -888,7 +888,7 @@
    },
    "line": "Lord. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -917,7 +917,7 @@
    "wiki": "Thomas of Lancaster, Duke of Clarence",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -945,7 +945,7 @@
    "wiki": "George Plantagenet, Duke of Clarence",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -969,7 +969,7 @@
    "wiki": "Edward Plantagenet, 17th Earl of Warwick",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -993,7 +993,7 @@
    "wiki": "Margaret Pole, Countess of Salisbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1013,7 +1013,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1036,7 +1036,7 @@
    "wiki": "Thomas Clifford, 8th Baron Clifford",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1060,7 +1060,7 @@
    "wiki": "John Clifford, 9th Baron Clifford",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -1095,7 +1095,7 @@
    "wiki": "Charles I d'Albret",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1132,7 +1132,7 @@
    },
    "line": "An apprentice tapster. Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1156,7 +1156,7 @@
    "wiki": "Louis, Duke of Guyenne",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1188,7 +1188,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1209,7 +1209,7 @@
    },
    "line": "Doctor, A French doctor, suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1232,7 +1232,7 @@
    "wiki": "Doll Tearsheet",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -1256,7 +1256,7 @@
    "wiki": "Thomas Grey, 1st Marquess of Dorset",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1280,7 +1280,7 @@
    "wiki": "Archibald Douglas, 4th Earl of Douglas",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -1304,7 +1304,7 @@
    "wiki": "Eleanor Cobham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1346,7 +1346,7 @@
    "wiki": "Cecily Neville, Duchess of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1372,7 +1372,7 @@
    "wiki": "Edward IV",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1400,7 +1400,7 @@
    "wiki": "Edward V",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1427,7 +1427,7 @@
    "wiki": "Thomas Erpingham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1453,7 +1453,7 @@
    "wiki": "Henry Holland, 3rd Duke of Exeter",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1479,11 +1479,11 @@
    "wiki": "Thomas Beaufort, Duke of Exeter",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Iris",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Kes",
      "tied": 0
     }
    }
@@ -1500,7 +1500,7 @@
    },
    "line": "Sir. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -1549,7 +1549,7 @@
    "wiki": "John Fastolf",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1580,7 +1580,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1601,7 +1601,7 @@
    },
    "line": "A gentleman, suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1624,7 +1624,7 @@
    "wiki": "Walter FitzWalter, 4th Baron FitzWalter",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1645,7 +1645,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1729,7 +1729,7 @@
    "wiki": "John of Gaunt",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1749,7 +1749,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 26,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1804,7 +1804,7 @@
    "wiki": "Humphrey, Duke of Gloucester",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1825,7 +1825,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1862,7 +1862,7 @@
    "wiki": "Henry Green (courtier)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1897,7 +1897,7 @@
    "wiki": "Richard Grey",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -1928,7 +1928,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1948,7 +1948,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1968,7 +1968,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -2008,7 +2008,7 @@
    "wiki": "William Hastings, 1st Baron Hastings",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2034,11 +2034,11 @@
    "wiki": "Henry IV of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Lord John of Lancaster",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Beckett Mariner",
      "tied": 0
     }
    }
@@ -2061,7 +2061,7 @@
    "wiki": "Henry VII of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2088,11 +2088,11 @@
    "wiki": "Henry VI of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Achilles",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Worf",
      "tied": 0
     }
    }
@@ -2117,11 +2117,11 @@
    "wiki": "Henry V of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "starwars",
-     "story": "Star Wars",
-     "name": "Anakin",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Chakotay",
      "tied": 0
     }
    }
@@ -2149,7 +2149,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2190,7 +2190,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2215,7 +2215,7 @@
    "wiki": "Henry Percy (Hotspur)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2236,7 +2236,7 @@
    },
    "line": "Sir, A Welsh parson. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2257,7 +2257,7 @@
    },
    "line": "A priest. Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2335,7 +2335,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2367,7 +2367,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2391,7 +2391,7 @@
    "wiki": "Margery Jourdemayne",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2415,7 +2415,7 @@
    "wiki": "Catherine of Valois",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2439,7 +2439,7 @@
    "wiki": "Louis XI",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2463,11 +2463,11 @@
    "wiki": "Charles VI of France",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Adamas",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Osyraa",
      "tied": 0
     }
    }
@@ -2483,7 +2483,7 @@
    },
    "line": "Appears in Richard II.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2507,7 +2507,7 @@
    "wiki": "Anne Neville",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2531,7 +2531,7 @@
    "wiki": "Bona of Savoy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2567,11 +2567,11 @@
    "wiki": "Elizabeth Mortimer",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Donald Manzullo",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "D'Erika Tendi",
      "tied": 0
     }
    }
@@ -2624,7 +2624,7 @@
    },
    "line": "Lieutenant. Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -2647,7 +2647,7 @@
    "wiki": "Thomas Bardolf, 5th Baron Bardolf",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2667,7 +2667,7 @@
    },
    "line": "Lord. Appears in Richard II.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2693,7 +2693,7 @@
    "wiki": "Francis Lovell, 1st Viscount Lovell",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2713,7 +2713,7 @@
    },
    "line": "Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2773,7 +2773,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2794,9 +2794,9 @@
    "signals": {
     "lookAlikes": 89,
     "nearest": {
-     "world": "last-airbender",
-     "story": "Avatar: The Last Airbender",
-     "name": "Than's sister",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Katherine Pulaski",
      "tied": 0
     }
    }
@@ -2812,11 +2812,11 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
-     "name": "Bosco",
+     "name": "Than",
      "tied": 0
     }
    }
@@ -2833,7 +2833,7 @@
    },
    "line": "Captain. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2854,7 +2854,7 @@
    },
    "line": "Her husband. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2886,7 +2886,7 @@
    },
    "line": "Page, Her husband. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -2931,7 +2931,7 @@
    "wiki": "Edmund Shaa",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3002,7 +3002,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3022,7 +3022,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3042,7 +3042,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3068,7 +3068,7 @@
    "wiki": "Mistress Quickly",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3097,7 +3097,7 @@
    "wiki": "Richard Neville, 5th Earl of Salisbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3129,7 +3129,7 @@
    },
    "line": "French herald. Appears in Henry V.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -3176,7 +3176,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3214,7 +3214,7 @@
    "wiki": "Thomas Mowbray, 1st Duke of Norfolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -3266,7 +3266,7 @@
    "wiki": "John Howard, 1st Duke of Norfolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3292,7 +3292,7 @@
    "wiki": "Henry Percy, 3rd Earl of Northumberland",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3318,7 +3318,7 @@
    "wiki": "Henry Percy, 1st Earl of Northumberland",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3339,11 +3339,11 @@
    },
    "line": "Appears in Henry V and The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "M.O.D.O.K.",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Ezri Dax",
      "tied": 0
     }
    }
@@ -3359,7 +3359,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3379,7 +3379,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3423,7 +3423,7 @@
    "wiki": "John de Vere, 13th Earl of Oxford",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -3444,7 +3444,7 @@
    },
    "line": "Appears in Henry IV, Part I and Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3468,11 +3468,11 @@
    "wiki": "Ancient Pistol",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Bardolph",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Chakotay",
      "tied": 0
     }
    }
@@ -3492,7 +3492,7 @@
    "wiki": "Ned Poins",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3529,7 +3529,7 @@
    "wiki": "Edward of Westminster, Prince of Wales",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3553,7 +3553,7 @@
    "wiki": "Joan of Arc",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -3589,7 +3589,7 @@
    "wiki": "Elizabeth Woodville",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -3616,7 +3616,7 @@
    "wiki": "Margaret of Anjou",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3640,7 +3640,7 @@
    "wiki": "Isabeau of Bavaria",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3667,7 +3667,7 @@
    "wiki": "Anne of Bohemia",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -3704,7 +3704,7 @@
    "wiki": "Richard Ratcliffe",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3728,7 +3728,7 @@
    "wiki": "René of Anjou",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3754,11 +3754,11 @@
    "wiki": "Richard III of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "King Henry VI",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Kathryn Janeway",
      "tied": 0
     }
    }
@@ -3778,7 +3778,7 @@
    "wiki": "Richard II of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3803,7 +3803,7 @@
    "wiki": "Anthony Woodville, 2nd Earl Rivers",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3823,7 +3823,7 @@
    },
    "line": "Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3844,7 +3844,7 @@
    },
    "line": "His page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3870,7 +3870,7 @@
    "wiki": "William de Ros, 6th Baron Ros",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3891,7 +3891,7 @@
    },
    "line": "The doctor’s manservant. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3929,11 +3929,11 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Lord Chief Justice",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Seska",
      "tied": 0
     }
    }
@@ -3960,7 +3960,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3980,7 +3980,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4000,7 +4000,7 @@
    },
    "line": "Appears in Henry V.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4033,7 +4033,7 @@
    },
    "line": "Sergeant. Appears in Henry VI, Part 1.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -4089,7 +4089,7 @@
    "wiki": "Richard Neville, 5th Earl of Salisbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -4112,7 +4112,7 @@
    "wiki": "Thomas Montagu, 4th Earl of Salisbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4151,11 +4151,11 @@
    "wiki": "James Fiennes, 1st Baron Saye and Sele",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 6,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Owen",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Trelane",
      "tied": 0
     }
    }
@@ -4199,7 +4199,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4223,7 +4223,7 @@
    "wiki": "Robert Shallow",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4247,7 +4247,7 @@
    "wiki": "Jacques d'Arc",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4279,11 +4279,11 @@
    },
    "line": "Justice. Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
-     "world": "shuihuzhuan",
-     "story": "水滸傳",
-     "name": "史文恭",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Icheb",
      "tied": 0
     }
    }
@@ -4341,7 +4341,7 @@
    },
    "line": "Slender’s servant. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4374,7 +4374,7 @@
    },
    "line": "His nephew, a young gentleman suitor to Anne Page. Appears in The Merry Wives of Windsor.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4394,7 +4394,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4421,7 +4421,7 @@
    "wiki": "John Beaufort, 1st Duke of Somerset",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4450,7 +4450,7 @@
    "wiki": "Henry Beaufort, 3rd Duke of Somerset",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -4500,7 +4500,7 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4522,7 +4522,7 @@
    "wiki": "Humphrey Stafford (died 1450)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4566,7 +4566,7 @@
    "wiki": "Thomas Stanley, 1st Earl of Derby",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4594,7 +4594,7 @@
    "wiki": "William de la Pole, 1st Duke of Suffolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4618,7 +4618,7 @@
    "wiki": "Thomas Holland, Duke of Surrey",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4642,7 +4642,7 @@
    "wiki": "Thomas Howard, 2nd Duke of Norfolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4666,7 +4666,7 @@
    "wiki": "John Talbot, 1st Earl of Shrewsbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -4732,7 +4732,7 @@
    "wiki": "James Tyrrell",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4755,7 +4755,7 @@
    "wiki": "Thomas Vaughan (died 1483)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4775,11 +4775,11 @@
    },
    "line": "Appears in Henry VI, Part 2.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "E. Nelson",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Mira",
      "tied": 0
     }
    }
@@ -4829,7 +4829,7 @@
    },
    "line": "Or keeper of the tavern. Appears in Henry IV, Part I.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -4849,7 +4849,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4869,7 +4869,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4889,7 +4889,7 @@
    },
    "line": "Appears in Henry VI, Part 3.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4909,7 +4909,7 @@
    },
    "line": "Appears in Henry IV, Part II.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4937,7 +4937,7 @@
    "wiki": "Richard Beauchamp, 13th Earl of Warwick",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4965,7 +4965,7 @@
    "wiki": "Richard Neville, 16th Earl of Warwick",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -4991,7 +4991,7 @@
    "wiki": "Ralph Neville, 1st Earl of Westmorland",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5063,7 +5063,7 @@
    "wiki": "William Stafford (died 1450)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5086,7 +5086,7 @@
    "wiki": "William Willoughby, 5th Baron Willoughby de Eresby",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5127,7 +5127,7 @@
    "wiki": "Thomas Percy, 1st Earl of Worcester",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5153,7 +5153,7 @@
    "wiki": "Richard of York, 3rd Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5177,7 +5177,7 @@
    "wiki": "Edward, 2nd Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5204,7 +5204,7 @@
    "wiki": "Edmund of Langley, 1st Duke of York",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",

@@ -326,6 +326,7 @@ Dataset details below are as recorded in the original notes; confirm shape, size
 | The Witcher | Paragraph co-linking, Fandom engine | Shipped | Witcher Wiki, CC BY-SA 3.0. Eight saga books; game sections skipped. See `pipeline/raw/witcher/SOURCE.md`. |
 | Avatar: The Last Airbender | Paragraph co-linking, Fandom engine | Shipped | Avatar Wiki, CC BY-SA 3.0. Animated series; seasons from episode citations. See `pipeline/raw/last-airbender/SOURCE.md`. |
 | Marvel Cinematic Universe | Paragraph co-linking, Fandom engine | Shipped | MCU Wiki, CC BY-SA 3.0. The 23 Infinity Saga films. See `pipeline/raw/mcu/SOURCE.md`. |
+| Star Trek | Paragraph co-linking, Fandom engine | Shipped | Memory Alpha, **CC BY-NC 4.0** — the first Fandom world not under BY-SA. Prime timeline, every series as a segment. See `pipeline/raw/startrek/SOURCE.md`. |
 | Dune | Paragraph co-linking, Fandom engine | Not shipped | Dune Wiki is too thin: ~110 character articles mixing novels and adaptations, 37 characters after filtering. Needs another source. || 红楼梦 relationship graph | Typed edges, Mandarin labels | Supplement | Investigate only if typed relations become a mechanic |
 
 ### Licensing

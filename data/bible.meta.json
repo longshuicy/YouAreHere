@@ -24,7 +24,7 @@
    "wiki": "Nehemiah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -54,7 +54,7 @@
    "wiki": "Elishama ben Ammihud",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -90,11 +90,11 @@
    "wiki": "Gatam",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Cainan",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Narissa",
      "tied": 0
     }
    }
@@ -114,7 +114,7 @@
    },
    "line": "Prophet. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -139,7 +139,7 @@
    "wiki": "Mahalalel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -184,7 +184,7 @@
    "wiki": "Memucan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -277,7 +277,7 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -403,7 +403,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -425,7 +425,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -474,7 +474,7 @@
    "wiki": "Jotham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -524,7 +524,7 @@
    "wiki": "Abner",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -548,7 +548,7 @@
    "wiki": "Meshach",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -669,7 +669,7 @@
    "wiki": "Joab",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -696,7 +696,7 @@
    "wiki": "Jair (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -721,10 +721,10 @@
    "signals": {
     "lookAlikes": 15,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Aethra",
-     "tied": 1
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Rayner",
+     "tied": 0
     }
    }
   },
@@ -743,7 +743,7 @@
    },
    "line": "Appears in 5 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -787,7 +787,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -819,7 +819,7 @@
    },
    "line": "Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -852,7 +852,7 @@
    },
    "line": "Appears in I Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -873,7 +873,7 @@
    },
    "line": "Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -898,7 +898,7 @@
    "wiki": "Abishai (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -920,7 +920,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -975,7 +975,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1028,7 +1028,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1116,7 +1116,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 10,
+    "lookAlikes": 13,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1138,7 +1138,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1180,7 +1180,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 26,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1201,7 +1201,7 @@
    },
    "line": "Appears in I Chronicles and Ezra.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1255,7 +1255,7 @@
    },
    "line": "Appears in I Chronicles and Nehemiah.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1296,7 +1296,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1377,7 +1377,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1398,7 +1398,7 @@
    },
    "line": "Appears in I Chronicles and II Chronicles.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1421,7 +1421,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1443,7 +1443,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1489,7 +1489,7 @@
    },
    "line": "Soldier, Philistines. Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1513,7 +1513,7 @@
    },
    "line": "Appears in 5 books.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1560,7 +1560,7 @@
    },
    "line": "Princess. Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -1609,7 +1609,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1656,7 +1656,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1740,7 +1740,7 @@
    "wiki": "Haran",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -1763,7 +1763,7 @@
    "wiki": "Medan, son of Abraham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1800,7 +1800,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1821,11 +1821,11 @@
    },
    "line": "Appears in I Kings and Nehemiah.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Bakbukiah",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Kol (Klingon)",
      "tied": 0
     }
    }
@@ -1865,7 +1865,7 @@
    },
    "line": "Appears in I Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1899,7 +1899,7 @@
    "wiki": "Doeg the Edomite",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -1943,7 +1943,7 @@
    },
    "line": "Appears in Ezra and Esther.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1970,7 +1970,7 @@
    },
    "line": "Of the Hamath. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2006,7 +2006,7 @@
    },
    "line": "Appears in 5 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -2040,7 +2040,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2061,7 +2061,7 @@
    },
    "line": "Appears in Ezra and Jeremiah.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2081,7 +2081,7 @@
    },
    "line": "Appears in Jeremiah.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2104,7 +2104,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2136,7 +2136,7 @@
    },
    "line": "Appears in II Kings and Jeremiah.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -2170,7 +2170,7 @@
    },
    "line": "Horites. Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2227,7 +2227,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2273,7 +2273,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2316,7 +2316,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2359,7 +2359,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2430,7 +2430,7 @@
    "wiki": "Nebuchadnezzar II",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2452,7 +2452,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2486,7 +2486,7 @@
    },
    "line": "Appears in Numbers and I Chronicles.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2509,7 +2509,7 @@
    },
    "line": "Monarch. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 31,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2531,7 +2531,7 @@
    },
    "line": "Monarch. Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2604,11 +2604,11 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Charles Stenholm",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Matt",
      "tied": 0
     }
    }
@@ -2668,7 +2668,7 @@
    "wiki": "Naaman",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -2699,7 +2699,7 @@
    "wiki": "Hazael",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2730,7 +2730,7 @@
    "wiki": "Phinehas",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2780,7 +2780,7 @@
    "wiki": "Simon the Zealot",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2808,11 +2808,11 @@
    "wiki": "Leah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "Richard Armey",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Adira Tal",
      "tied": 0
     }
    }
@@ -2832,7 +2832,7 @@
    "wiki": "Shelah (son of Judah)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2862,7 +2862,7 @@
    "wiki": "Ehud",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2894,7 +2894,7 @@
    },
    "line": "Appears in Ezra and Nehemiah.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2952,7 +2952,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2973,7 +2973,7 @@
    },
    "line": "Appears in II Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 2,
+    "lookAlikes": 3,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3110,7 +3110,7 @@
    },
    "line": "Appears in I Kings.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -3166,7 +3166,7 @@
    "wiki": "Elijah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3239,7 +3239,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3262,7 +3262,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3298,11 +3298,11 @@
    "wiki": "Michal",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 6,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Reef",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Sito Jaxa",
      "tied": 0
     }
    }
@@ -3358,7 +3358,7 @@
    },
    "line": "Appears in 5 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3391,7 +3391,7 @@
    "wiki": "Nathanael (follower of Jesus)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3442,7 +3442,7 @@
    "wiki": "Ethan (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3530,7 +3530,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3842,7 +3842,7 @@
    },
    "line": "Appears in I Chronicles.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -3908,7 +3908,7 @@
    },
    "line": "Of the Tribe of Levi. Appears in Nehemiah.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3974,7 +3974,7 @@
    "wiki": "Tychicus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -4104,7 +4104,7 @@
    },
    "line": "Appears in II Samuel and I Chronicles.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -4303,7 +4303,7 @@
    },
    "line": "Of the Tribe of Levi. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4415,7 +4415,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4542,7 +4542,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4562,7 +4562,7 @@
    },
    "line": "Appears in I Chronicles and Zechariah.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4584,7 +4584,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4633,7 +4633,7 @@
    "wiki": "Joseph (Genesis)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4738,7 +4738,7 @@
    "wiki": "Gedaliah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4787,7 +4787,7 @@
    "wiki": "Tola (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 31,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4811,7 +4811,7 @@
    "wiki": "Micaiah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4864,7 +4864,7 @@
    "wiki": "Joktan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4926,7 +4926,7 @@
    "wiki": "Bethuel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 26,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4961,7 +4961,7 @@
    "wiki": "Jeremiah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 9,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4997,7 +4997,7 @@
    "wiki": "Eleazar",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5020,7 +5020,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5044,7 +5044,7 @@
    "wiki": "Haggai",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5111,7 +5111,7 @@
    "wiki": "Achish",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "shakespeare-as-you-like-it",
      "story": "As You Like It",
@@ -5139,7 +5139,7 @@
    "wiki": "Ithamar",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5160,7 +5160,7 @@
    },
    "line": "Appears in I Chronicles and Jeremiah.",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5186,7 +5186,7 @@
    "wiki": "Zebedee",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -5240,11 +5240,11 @@
    "wiki": "Jabesh",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 20,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Arthur Tailles",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Kurn",
      "tied": 0
     }
    }
@@ -5264,7 +5264,7 @@
    "wiki": "Nimshi",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -5287,7 +5287,7 @@
    "wiki": "Nabal",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5318,7 +5318,7 @@
    "wiki": "Pontius Pilate",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -5350,7 +5350,7 @@
    "wiki": "Daniel (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5390,7 +5390,7 @@
    "wiki": "Milcah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5421,7 +5421,7 @@
    "wiki": "Gideon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5455,7 +5455,7 @@
    "wiki": "Zephaniah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5479,7 +5479,7 @@
    "wiki": "Salmon (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5520,7 +5520,7 @@
    "wiki": "Ruth (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5543,7 +5543,7 @@
    "wiki": "Asher",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5584,7 +5584,7 @@
    "wiki": "Job (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -5604,7 +5604,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5631,7 +5631,7 @@
    "wiki": "Perez (son of Judah)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -5673,7 +5673,7 @@
    },
    "line": "High Priest of Israel, of the Kingdom of Judah. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 9,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5740,7 +5740,7 @@
    "wiki": "Ishmael",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 8,
+    "lookAlikes": 9,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5807,7 +5807,7 @@
    "wiki": "Barnabas",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5880,7 +5880,7 @@
    "wiki": "Isaiah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5930,7 +5930,7 @@
    "wiki": "Mehuman",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -5959,7 +5959,7 @@
    "wiki": "Ezra",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -6005,7 +6005,7 @@
    "wiki": "Miriam",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6026,7 +6026,7 @@
    },
    "line": "Appears in II Samuel and I Kings.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 6,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6053,7 +6053,7 @@
    "wiki": "Sarah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6078,7 +6078,7 @@
    "wiki": "Jahaziel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6103,7 +6103,7 @@
    "wiki": "Zeruiah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6152,12 +6152,12 @@
    "wiki": "Shem",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
-     "world": "mmkg",
-     "story": "Musical Meetups",
-     "name": "Gerry Cowper",
-     "tied": 8
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Darem Reymi",
+     "tied": 0
     }
    }
   },
@@ -6173,7 +6173,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -6197,7 +6197,7 @@
    "wiki": "Tema (son of Ishmael)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -6246,7 +6246,7 @@
    "wiki": "Amminadab",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -6301,7 +6301,7 @@
    "wiki": "Cain",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6335,7 +6335,7 @@
    "wiki": "Absalom",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -6380,11 +6380,11 @@
    "wiki": "Elisha",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Remaliah",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Swhale Swhalens",
      "tied": 0
     }
    }
@@ -6443,11 +6443,11 @@
    "wiki": "Rachel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "civilwar",
-     "story": "American Civil War",
-     "name": "William S. Rosecrans",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Darem Reymi",
      "tied": 0
     }
    }
@@ -6467,7 +6467,7 @@
    },
    "line": "Of Harran. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -6563,7 +6563,7 @@
    "wiki": "Rehoboam",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6604,7 +6604,7 @@
    "wiki": "Boaz",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6662,7 +6662,7 @@
    "wiki": "Enoch",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6720,11 +6720,11 @@
    "wiki": "Amos (prophet)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
-     "world": "mmkg",
-     "story": "Musical Meetups",
-     "name": "Lester Young",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "B'Avi",
      "tied": 0
     }
    }
@@ -6779,7 +6779,7 @@
    "wiki": "Levi",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6852,7 +6852,7 @@
    "wiki": "Jehoiada",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6878,7 +6878,7 @@
    "wiki": "Izhar",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -6902,7 +6902,7 @@
    "wiki": "Dathan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -6949,7 +6949,7 @@
    "wiki": "Shealtiel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -6969,7 +6969,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7042,11 +7042,11 @@
    "wiki": "Aholibamah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
-     "world": "stormlight",
-     "story": "The Stormlight Archive",
-     "name": "Mrun",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Saul",
      "tied": 0
     }
    }
@@ -7108,7 +7108,7 @@
    "wiki": "Ahab",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7173,7 +7173,7 @@
    "wiki": "Elkanah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -7236,7 +7236,7 @@
    "wiki": "Jude, brother of Jesus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -7295,7 +7295,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7436,7 +7436,7 @@
    },
    "line": "Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7473,7 +7473,7 @@
    "wiki": "Naomi (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7522,7 +7522,7 @@
    "wiki": "Shammua",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7544,11 +7544,11 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Andrew the Apostle",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Noonien Soong",
      "tied": 0
     }
    }
@@ -7582,7 +7582,7 @@
    "wiki": "Mahalath",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -7608,7 +7608,7 @@
    "wiki": "Merari",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -7630,7 +7630,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7660,7 +7660,7 @@
    "wiki": "Amasa",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -7683,7 +7683,7 @@
    "wiki": "Joanna, wife of Chuza",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7743,11 +7743,11 @@
    "wiki": "Joses",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Bartholomew the Apostle",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Toral",
      "tied": 0
     }
    }
@@ -7793,7 +7793,7 @@
    "wiki": "Abijah of Judah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -7847,7 +7847,7 @@
    "wiki": "Micah (prophet)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -7906,7 +7906,7 @@
    "wiki": "Adriel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 12,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8021,7 +8021,7 @@
    "wiki": "Serah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8043,7 +8043,7 @@
    "wiki": "Rizpah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 20,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8088,7 +8088,7 @@
    "wiki": "Ahimaaz",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8114,7 +8114,7 @@
    "wiki": "Shaphan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8221,7 +8221,7 @@
    "wiki": "Gershon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 25,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -8247,7 +8247,7 @@
    "wiki": "Kish (Bible)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8269,7 +8269,7 @@
    "wiki": "Elisheba",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -8337,7 +8337,7 @@
    "wiki": "Jesus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -8370,7 +8370,7 @@
    "wiki": "Abagtha",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8395,7 +8395,7 @@
    "wiki": "Abdon (Judges)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8428,7 +8428,7 @@
    "wiki": "Ahaz",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -8483,7 +8483,7 @@
    "wiki": "Uzziah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8547,7 +8547,7 @@
    "wiki": "Nadab of Israel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -8578,7 +8578,7 @@
    "wiki": "Baasha of Israel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8647,7 +8647,7 @@
    "wiki": "Josiah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8678,7 +8678,7 @@
    "wiki": "Zimri (king)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -8710,7 +8710,7 @@
    "wiki": "Amaziah of Judah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -8786,7 +8786,7 @@
    "wiki": "Abel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -8822,7 +8822,7 @@
    "wiki": "Amon of Judah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -8905,7 +8905,7 @@
    "wiki": "Jehoiakim",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -8969,7 +8969,7 @@
    "wiki": "Jeconiah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -8999,7 +8999,7 @@
    "wiki": "Nathan (prophet)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9098,7 +9098,7 @@
    "wiki": "Uriah (prophet)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -9124,7 +9124,7 @@
    "wiki": "Abihu",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -9183,7 +9183,7 @@
    "wiki": "Abiathar",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -9276,7 +9276,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9298,11 +9298,11 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Hepher",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Swhale Swhalens",
      "tied": 0
     }
    }
@@ -9367,7 +9367,7 @@
    "wiki": "Basemath",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -9413,7 +9413,7 @@
    "wiki": "Nun (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9443,7 +9443,7 @@
    "wiki": "Pekah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -9476,7 +9476,7 @@
    "wiki": "Shallum of Israel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9560,7 +9560,7 @@
    "wiki": "Saint Peter",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9589,7 +9589,7 @@
    "wiki": "Mary, mother of Jesus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9669,7 +9669,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9716,7 +9716,7 @@
    "wiki": "Adonijah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -9768,7 +9768,7 @@
    "wiki": "Eli (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -9802,7 +9802,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -9842,7 +9842,7 @@
    "wiki": "Solomon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -9928,7 +9928,7 @@
    "wiki": "Ahimelech",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -9950,7 +9950,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 6,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -9970,7 +9970,7 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -9994,11 +9994,11 @@
    "wiki": "Rebecca (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "逢紀",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Rayner",
      "tied": 0
     }
    }
@@ -10153,7 +10153,7 @@
    "wiki": "Cainan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10218,7 +10218,7 @@
    },
    "line": "Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10302,7 +10302,7 @@
    "wiki": "Andrew the Apostle",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10331,7 +10331,7 @@
    "wiki": "Matthew the Apostle",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -10377,7 +10377,7 @@
    "wiki": "Bartholomew the Apostle",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10413,7 +10413,7 @@
    "wiki": "James the Great",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10478,7 +10478,7 @@
    "wiki": "Abigail",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10514,7 +10514,7 @@
    },
    "line": "Appears in Numbers and Joshua.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10549,7 +10549,7 @@
    "wiki": "Jesse (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -10574,7 +10574,7 @@
    "wiki": "Arpachshad",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10598,7 +10598,7 @@
    "wiki": "Benjamin",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10630,7 +10630,7 @@
    "wiki": "Athaliah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -10728,7 +10728,7 @@
    "wiki": "Ahikam",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10757,7 +10757,7 @@
    "wiki": "Ahitub (High Priest)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10806,7 +10806,7 @@
    "wiki": "Amoz",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10831,7 +10831,7 @@
    "wiki": "Amram",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -10858,7 +10858,7 @@
    "wiki": "Obadiah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 27,
+    "lookAlikes": 28,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -10918,7 +10918,7 @@
    "wiki": "Azubah (mother of Jehoshaphat)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -10944,7 +10944,7 @@
    "wiki": "Beor (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -10971,7 +10971,7 @@
    "wiki": "Hur (Bible)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -11010,7 +11010,7 @@
    "wiki": "Eber",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -11052,7 +11052,7 @@
    "wiki": "Aaron",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11105,7 +11105,7 @@
    "wiki": "Ephah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -11128,7 +11128,7 @@
    "wiki": "Epher",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11228,7 +11228,7 @@
    "wiki": "Haggith",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11281,7 +11281,7 @@
    "wiki": "Balaam",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -11320,7 +11320,7 @@
    "wiki": "Terah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11381,7 +11381,7 @@
    "wiki": "Ishbak",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11479,7 +11479,7 @@
    "wiki": "Zebulun",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11522,7 +11522,7 @@
    "wiki": "Jehozadak",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11547,7 +11547,7 @@
    "wiki": "Jeroham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11613,7 +11613,7 @@
    "wiki": "Joiada",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -11636,12 +11636,12 @@
    "wiki": "Jonadab",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
-     "world": "last-airbender",
-     "story": "Avatar: The Last Airbender",
-     "name": "Baboon spirit",
-     "tied": 0
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Sasak",
+     "tied": 1
     }
    }
   },
@@ -11680,7 +11680,7 @@
    "wiki": "Mary Magdalene",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -11701,7 +11701,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11727,7 +11727,7 @@
    "wiki": "Haman",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -11762,7 +11762,7 @@
    "wiki": "Issachar",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11798,7 +11798,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11839,7 +11839,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11920,7 +11920,7 @@
    "wiki": "Samuel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -11940,7 +11940,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11963,7 +11963,7 @@
    "wiki": "Onan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -11998,7 +11998,7 @@
    },
    "line": "Appears in II Samuel.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12019,7 +12019,7 @@
    },
    "line": "Writer. Appears in Jeremiah.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12080,7 +12080,7 @@
    "wiki": "Isaac",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -12101,7 +12101,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12121,7 +12121,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12143,7 +12143,7 @@
    "wiki": "Mered",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12181,7 +12181,7 @@
    "wiki": "Mizpar",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12225,7 +12225,7 @@
    "wiki": "Nahash of Ammon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12254,7 +12254,7 @@
    "wiki": "Shimei ben Gera",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12276,7 +12276,7 @@
    "wiki": "Neriah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12319,11 +12319,11 @@
    "wiki": "Adam",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Alleras",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Ma'ah",
      "tied": 0
     }
    }
@@ -12393,7 +12393,7 @@
    "wiki": "Pashhur",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12442,7 +12442,7 @@
    "wiki": "Jezebel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12507,7 +12507,7 @@
    "wiki": "Jokshan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12542,7 +12542,7 @@
    "wiki": "Jonathan (1 Samuel)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12566,7 +12566,7 @@
    "wiki": "Shebna",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -12727,7 +12727,7 @@
    "wiki": "Joshua the High Priest",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -12750,7 +12750,7 @@
    "wiki": "Zimran",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -12774,7 +12774,7 @@
    "wiki": "Bilhah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -12796,7 +12796,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -12863,7 +12863,7 @@
    "wiki": "Barak",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -12926,11 +12926,11 @@
    "wiki": "Noah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Pekah",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Caleb Mir",
      "tied": 0
     }
    }
@@ -12991,7 +12991,7 @@
    "wiki": "Laban (Bible)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -13023,7 +13023,7 @@
    "wiki": "Cyrus the Great",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -13058,7 +13058,7 @@
    "wiki": "Mephibosheth",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 6,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -13080,7 +13080,7 @@
    "wiki": "Gad (son of Jacob)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13100,7 +13100,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13120,7 +13120,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13142,7 +13142,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13164,7 +13164,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -13188,7 +13188,7 @@
    },
    "line": "Of the Tribe of Ephraim. Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13210,7 +13210,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13231,7 +13231,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13252,7 +13252,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13273,7 +13273,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13294,7 +13294,7 @@
    },
    "line": "Appears in Genesis and I Chronicles.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13352,11 +13352,11 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Elen of Kaedwen",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Swhale Swhalens",
      "tied": 0
     }
    }
@@ -13389,7 +13389,7 @@
    "wiki": "Libni",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13411,7 +13411,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -13433,7 +13433,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13453,7 +13453,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13486,7 +13486,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13534,7 +13534,7 @@
    },
    "line": "Appears in Genesis and Numbers.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 73,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13554,7 +13554,7 @@
    },
    "line": "Appears in Genesis.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13574,7 +13574,7 @@
    },
    "line": "Appears in Esther.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13620,7 +13620,7 @@
    "wiki": "Sihon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -13735,7 +13735,7 @@
    "wiki": "Keturah",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -13782,7 +13782,7 @@
    "wiki": "Abraham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13821,7 +13821,7 @@
    "wiki": "Paul the Apostle",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -13887,7 +13887,7 @@
    "wiki": "Jared (biblical figure)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -13916,7 +13916,7 @@
    },
    "line": "Of Hebron, of the United Kingdom of Israel. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -13978,7 +13978,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -14002,7 +14002,7 @@
    },
    "line": "Appears in 5 books.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",

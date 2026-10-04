@@ -12,7 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -33,7 +33,7 @@
    },
    "line": "King of Naples.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -54,7 +54,7 @@
    },
    "line": "Duke of Milan and Prospero’s brother.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -74,7 +74,7 @@
    },
    "line": "A spirit, servant to Prospero.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -154,7 +154,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -175,7 +175,7 @@
    },
    "line": "Councillor to Alonso and friend to Prospero.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -217,7 +217,7 @@
    },
    "line": "Rightful Duke of Milan.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -238,7 +238,7 @@
    },
    "line": "Alonso’s brother.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",

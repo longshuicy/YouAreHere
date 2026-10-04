@@ -35,7 +35,7 @@
    "wiki": "King Claudius",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -110,7 +110,7 @@
    "wiki": "Gertrude (Hamlet)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -168,7 +168,7 @@
    "wiki": "Prince Hamlet",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-hamlet",
      "story": "Hamlet",
@@ -191,7 +191,7 @@
    "wiki": "Horatio (Hamlet)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -298,7 +298,7 @@
    "wiki": "Polonius",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-comedy-of-errors",
      "story": "The Comedy of Errors",

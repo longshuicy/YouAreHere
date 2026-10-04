@@ -582,7 +582,7 @@
    "id": "shakespeare-two-gentlemen-of-verona-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.566
+   "ease": 0.556
   },
   {
    "id": "shakespeare-two-gentlemen-of-verona-p0005",
@@ -606,13 +606,13 @@
    "id": "shakespeare-two-gentlemen-of-verona-p0009",
    "you": 9,
    "startRadius": 1,
-   "ease": 0.653
+   "ease": 0.649
   },
   {
    "id": "shakespeare-two-gentlemen-of-verona-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.524
+   "ease": 0.515
   },
   {
    "id": "shakespeare-two-gentlemen-of-verona-p0011",
@@ -624,7 +624,7 @@
    "id": "shakespeare-two-gentlemen-of-verona-p0012",
    "you": 12,
    "startRadius": 1,
-   "ease": 0.613
+   "ease": 0.612
   },
   {
    "id": "shakespeare-two-gentlemen-of-verona-p0013",
@@ -636,7 +636,7 @@
    "id": "shakespeare-two-gentlemen-of-verona-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.624
+   "ease": 0.622
   }
  ],
  "provenance": {

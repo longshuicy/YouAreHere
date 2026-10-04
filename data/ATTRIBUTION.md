@@ -253,7 +253,7 @@ Used as follows:
 - Source: <https://harrypotter.fandom.com/wiki/Special:AllPages>
 - Project: <https://harrypotter.fandom.com/>
 - Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Changes made to the original data:
 
@@ -276,7 +276,7 @@ by **Harry Potter Wiki contributors** (<https://harrypotter.fandom.com/wiki/Spec
 
 - Source: <https://harrypotter.fandom.com/wiki/Special:AllPages>
 - Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
@@ -291,11 +291,12 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 - Source: <https://www.wikidata.org/wiki/Property:P6262>
 - Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
-1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page.
+2. Where the item's English label is that character's name, took its gender when the wiki's infobox gives none; no other Wikidata claims.
 
 ## 紅樓夢
 
@@ -426,14 +427,14 @@ Used as follows:
 
 ## Avatar: The Last Airbender
 
-*Shipped as `last-airbender.json` — 244 characters, 1884 ties.*
+*Shipped as `last-airbender.json` — 244 characters, 1876 ties.*
 
 "Avatar Wiki — characters of the animated series" by **Avatar Wiki contributors** (<https://avatar.fandom.com/wiki/Special:ListUsers>)
 
 - Source: <https://avatar.fandom.com/wiki/Special:AllPages>
 - Project: <https://avatar.fandom.com/>
 - Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Changes made to the original data:
 
@@ -443,7 +444,7 @@ Changes made to the original data:
 4. Took each tie's season from the episode citations in the paragraphs behind it; paragraphs citing only the comics, novels or The Legend of Korra are skipped.
 5. Resolved wiki redirects to characters and used them, with the infobox aliases, as aliases.
 6. Took gender, profession, bending art, people and affiliations from the article infobox as discrete facts.
-7. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (251 nodes and 1890 ties in, 244 and 1884 out).
+7. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (251 nodes and 1882 ties in, 244 and 1876 out).
 8. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
 9. Computed a force-directed layout for the full graph, used by the reveal animation.
 
@@ -455,7 +456,7 @@ by **Avatar Wiki contributors** (<https://avatar.fandom.com/wiki/Special:ListUse
 
 - Source: <https://avatar.fandom.com/wiki/Special:AllPages>
 - Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
@@ -470,11 +471,12 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 - Source: <https://www.wikidata.org/wiki/Property:P6262>
 - Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
-1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page.
+2. Where the item's English label is that character's name, took its gender when the wiki's infobox gives none; no other Wikidata claims.
 
 ## Les Misérables
 
@@ -567,14 +569,14 @@ Used as follows:
 
 ## The Marvel Cinematic Universe
 
-*Shipped as `mcu.json` — 630 characters, 6388 ties.*
+*Shipped as `mcu.json` — 630 characters, 6390 ties.*
 
 "Marvel Cinematic Universe Wiki — characters of the Infinity Saga films" by **Marvel Cinematic Universe Wiki contributors** (<https://marvelcinematicuniverse.fandom.com/wiki/Special:ListUsers>)
 
 - Source: <https://marvelcinematicuniverse.fandom.com/wiki/Special:AllPages>
 - Project: <https://marvelcinematicuniverse.fandom.com/>
 - Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Changes made to the original data:
 
@@ -585,7 +587,7 @@ Changes made to the original data:
 5. Gave each tie the films both characters appear in; the wiki's citations do not name films.
 6. Resolved wiki redirects to characters and used them, with the infobox aliases, as aliases.
 7. Took gender, title, citizenship, species and affiliations from the article infobox as discrete facts.
-8. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (667 nodes and 6430 ties in, 630 and 6388 out).
+8. Dropped ties weaker than 1 and characters with fewer than 2 ties, then kept the largest connected component (667 nodes and 6432 ties in, 630 and 6390 out).
 9. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
 10. Computed a force-directed layout for the full graph, used by the reveal animation.
 
@@ -597,7 +599,7 @@ by **Marvel Cinematic Universe Wiki contributors** (<https://marvelcinematicuniv
 
 - Source: <https://marvelcinematicuniverse.fandom.com/wiki/Special:AllPages>
 - Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
@@ -612,11 +614,12 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 - Source: <https://www.wikidata.org/wiki/Property:P6262>
 - Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
-1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page.
+2. Where the item's English label is that character's name, took its gender when the wiki's infobox gives none; no other Wikidata claims.
 
 ## Musical Meetups
 
@@ -899,6 +902,62 @@ Used as follows:
 1. Extracted discrete character attributes (occupation, position, noble title, species, affiliation, homeworld, gender) and Wikipedia sitelink titles; no wiki descriptions.
 2. Generic stations are kept; only junk labels (classes, misread offices) are dropped. Sentences are composed here from those attributes.
 
+## Star Trek
+
+*Shipped as `startrek.json` — 756 characters, 2812 ties.*
+
+"Memory Alpha — individuals of the prime timeline" by **Memory Alpha contributors** (<https://memory-alpha.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://memory-alpha.fandom.com/wiki/Special:AllPages>
+- Project: <https://memory-alpha.fandom.com/>
+- Licence: [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) (`CC-BY-NC-4.0`)
+- Retrieved: 2026-10-04
+
+Changes made to the original data:
+
+1. Read the wikitext of the character articles through the MediaWiki API; no article text is reproduced.
+2. Tied two characters when one paragraph of a character article links to both, counting an article's subject as present throughout their own article; weight is the number of such paragraphs.
+3. Dropped non-narrative sections (gallery, references, notes, trivia, quotes, behind the scenes) and sections about other canons.
+4. Took the cast from the articles that carry the individual sidebar, leaving out mirror-universe and Kelvin-timeline counterparts.
+5. Took each tie's series from the episode and film citations in the paragraphs behind it, or else the series both characters appear in.
+6. Read the wiki's link templates ({{dis}}, {{USS}}) as the links they render.
+7. Where neither the sidebar nor Wikidata gives a gender, took it from the pronouns of the article's first three paragraphs when one set outnumbers the other three to one.
+8. Resolved wiki redirects to characters and used them, with the infobox aliases, as aliases.
+9. Took rank, occupation, species, birth year, homeworld and affiliations from the article infobox as discrete facts.
+10. Dropped ties weaker than 3 and characters with fewer than 3 ties, then kept the largest connected component (4400 nodes and 18680 ties in, 756 and 2812 out).
+11. Added a normalised rank per tie endpoint so thickness reads relative to each character's own ties rather than raw counts.
+12. Computed a force-directed layout for the full graph, used by the reveal animation.
+
+### Reveal-screen enrichment — Memory Alpha — character infoboxes
+
+*Shipped separately as `startrek.meta.json`, loaded only at the reveal.*
+
+by **Memory Alpha contributors** (<https://memory-alpha.fandom.com/wiki/Special:ListUsers>)
+
+- Source: <https://memory-alpha.fandom.com/wiki/Special:AllPages>
+- Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
+- Retrieved: 2026-10-04
+
+Used as follows:
+
+1. Took rank, occupation, species, birth year, homeworld and affiliations as discrete facts; the reveal line is composed here, not copied or paraphrased from the article.
+2. Left out any fact that names the character, since facts can be read before naming.
+
+### Reveal-screen enrichment — Wikidata
+
+*Shipped separately as `startrek.meta.json`, loaded only at the reveal.*
+
+by **Wikidata contributors** (<https://www.wikidata.org/>)
+
+- Source: <https://www.wikidata.org/wiki/Property:P6262>
+- Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
+- Retrieved: 2026-10-04
+
+Used as follows:
+
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page.
+2. Where the item's English label is that character's name, took its gender when the wiki's infobox gives none; no other Wikidata claims.
+
 ## Star Wars
 
 *Shipped as `starwars.json` — 103 characters, 441 ties.*
@@ -945,7 +1004,7 @@ Used as follows:
 - Source: <https://stormlightarchive.fandom.com/wiki/Special:AllPages>
 - Project: <https://stormlightarchive.fandom.com/>
 - Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Changes made to the original data:
 
@@ -967,7 +1026,7 @@ by **Stormlight Archive Wiki contributors** (<https://stormlightarchive.fandom.c
 
 - Source: <https://stormlightarchive.fandom.com/wiki/Special:AllPages>
 - Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
@@ -982,11 +1041,12 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 - Source: <https://www.wikidata.org/wiki/Property:P6262>
 - Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
-1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page.
+2. Where the item's English label is that character's name, took its gender when the wiki's infobox gives none; no other Wikidata claims.
 
 ## The Witcher
 
@@ -997,7 +1057,7 @@ Used as follows:
 - Source: <https://witcher.fandom.com/wiki/Special:AllPages>
 - Project: <https://witcher.fandom.com/>
 - Licence: [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) (`CC-BY-SA-3.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Changes made to the original data:
 
@@ -1020,7 +1080,7 @@ by **Witcher Wiki contributors** (<https://witcher.fandom.com/wiki/Special:ListU
 
 - Source: <https://witcher.fandom.com/wiki/Special:AllPages>
 - Terms: Factual data, not subject to copyright (`NONE-FACTUAL`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
@@ -1035,11 +1095,12 @@ by **Wikidata contributors** (<https://www.wikidata.org/>)
 
 - Source: <https://www.wikidata.org/wiki/Property:P6262>
 - Terms: Creative Commons Zero v1.0 Universal (`CC0-1.0`)
-- Retrieved: 2026-09-30
+- Retrieved: 2026-10-04
 
 Used as follows:
 
-1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims.
+1. Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page.
+2. Where the item's English label is that character's name, took its gender when the wiki's infobox gives none; no other Wikidata claims.
 
 ## 西遊記
 

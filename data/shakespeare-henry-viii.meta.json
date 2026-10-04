@@ -58,7 +58,7 @@
    "wiki": "John Longland",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -96,11 +96,11 @@
    "wiki": "Edward Stafford, 3rd Duke of Buckingham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Heracles",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Soval",
      "tied": 0
     }
    }
@@ -120,7 +120,7 @@
    "wiki": "William Butts",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -188,7 +188,7 @@
    "wiki": "Charles Somerset, 1st Earl of Worcester",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -212,7 +212,7 @@
    "wiki": "Thomas More",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -239,7 +239,7 @@
    "wiki": "Thomas Cranmer",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -258,7 +258,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -311,7 +311,7 @@
    "wiki": "Anthony Denny",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -366,7 +366,7 @@
    "wiki": "Stephen Gardiner",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -438,7 +438,7 @@
    "wiki": "Henry VIII",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -481,7 +481,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -516,7 +516,7 @@
    "wiki": "Thomas Lovell",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -540,7 +540,7 @@
    "wiki": "Thomas Howard, 2nd Duke of Norfolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -561,7 +561,7 @@
    },
    "line": "With Anne Bullen.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -582,7 +582,7 @@
    },
    "line": "Page.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -624,7 +624,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -659,7 +659,7 @@
    "wiki": "Charles Brandon, 1st Duke of Suffolk",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -707,7 +707,7 @@
    },
    "line": "Queen.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -745,7 +745,7 @@
    "wiki": "Thomas Wolsey",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",

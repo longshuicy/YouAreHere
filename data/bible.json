@@ -25627,31 +25627,31 @@
    "id": "bible-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.333
+   "ease": 0.33
   },
   {
    "id": "bible-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.333
+   "ease": 0.332
   },
   {
    "id": "bible-p0003",
    "you": 3,
    "startRadius": 1,
-   "ease": 0.216
+   "ease": 0.209
   },
   {
    "id": "bible-p0004",
    "you": 4,
    "startRadius": 1,
-   "ease": 0.323
+   "ease": 0.319
   },
   {
    "id": "bible-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.215
+   "ease": 0.208
   },
   {
    "id": "bible-p0006",
@@ -25663,43 +25663,43 @@
    "id": "bible-p0007",
    "you": 7,
    "startRadius": 1,
-   "ease": 0.174
+   "ease": 0.167
   },
   {
    "id": "bible-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.346
+   "ease": 0.344
   },
   {
    "id": "bible-p0023",
    "you": 23,
    "startRadius": 1,
-   "ease": 0.376
+   "ease": 0.373
   },
   {
    "id": "bible-p0024",
    "you": 24,
    "startRadius": 1,
-   "ease": 0.314
+   "ease": 0.308
   },
   {
    "id": "bible-p0026",
    "you": 26,
    "startRadius": 1,
-   "ease": 0.404
+   "ease": 0.401
   },
   {
    "id": "bible-p0029",
    "you": 29,
    "startRadius": 1,
-   "ease": 0.467
+   "ease": 0.463
   },
   {
    "id": "bible-p0030",
    "you": 30,
    "startRadius": 1,
-   "ease": 0.382
+   "ease": 0.379
   },
   {
    "id": "bible-p0032",
@@ -25717,13 +25717,13 @@
    "id": "bible-p0036",
    "you": 36,
    "startRadius": 1,
-   "ease": 0.552
+   "ease": 0.545
   },
   {
    "id": "bible-p0037",
    "you": 37,
    "startRadius": 1,
-   "ease": 0.221
+   "ease": 0.214
   },
   {
    "id": "bible-p0038",
@@ -25735,55 +25735,55 @@
    "id": "bible-p0039",
    "you": 39,
    "startRadius": 1,
-   "ease": 0.321
+   "ease": 0.32
   },
   {
    "id": "bible-p0042",
    "you": 42,
    "startRadius": 1,
-   "ease": 0.401
+   "ease": 0.397
   },
   {
    "id": "bible-p0044",
    "you": 44,
    "startRadius": 1,
-   "ease": 0.365
+   "ease": 0.362
   },
   {
    "id": "bible-p0046",
    "you": 46,
    "startRadius": 1,
-   "ease": 0.28
+   "ease": 0.269
   },
   {
    "id": "bible-p0047",
    "you": 47,
    "startRadius": 1,
-   "ease": 0.356
+   "ease": 0.353
   },
   {
    "id": "bible-p0048",
    "you": 48,
    "startRadius": 1,
-   "ease": 0.422
+   "ease": 0.42
   },
   {
    "id": "bible-p0049",
    "you": 49,
    "startRadius": 1,
-   "ease": 0.234
+   "ease": 0.227
   },
   {
    "id": "bible-p0053",
    "you": 53,
    "startRadius": 1,
-   "ease": 0.318
+   "ease": 0.312
   },
   {
    "id": "bible-p0057",
    "you": 57,
    "startRadius": 1,
-   "ease": 0.297
+   "ease": 0.294
   },
   {
    "id": "bible-p0061",
@@ -25795,19 +25795,19 @@
    "id": "bible-p0063",
    "you": 63,
    "startRadius": 1,
-   "ease": 0.386
+   "ease": 0.373
   },
   {
    "id": "bible-p0064",
    "you": 64,
    "startRadius": 1,
-   "ease": 0.34
+   "ease": 0.338
   },
   {
    "id": "bible-p0067",
    "you": 67,
    "startRadius": 1,
-   "ease": 0.325
+   "ease": 0.306
   },
   {
    "id": "bible-p0068",
@@ -25825,13 +25825,13 @@
    "id": "bible-p0071",
    "you": 71,
    "startRadius": 1,
-   "ease": 0.291
+   "ease": 0.287
   },
   {
    "id": "bible-p0074",
    "you": 74,
    "startRadius": 1,
-   "ease": 0.181
+   "ease": 0.174
   },
   {
    "id": "bible-p0076",
@@ -25843,13 +25843,13 @@
    "id": "bible-p0079",
    "you": 79,
    "startRadius": 1,
-   "ease": 0.209
+   "ease": 0.201
   },
   {
    "id": "bible-p0080",
    "you": 80,
    "startRadius": 1,
-   "ease": 0.278
+   "ease": 0.277
   },
   {
    "id": "bible-p0081",
@@ -25861,7 +25861,7 @@
    "id": "bible-p0082",
    "you": 82,
    "startRadius": 1,
-   "ease": 0.28
+   "ease": 0.277
   },
   {
    "id": "bible-p0083",
@@ -25873,103 +25873,103 @@
    "id": "bible-p0084",
    "you": 84,
    "startRadius": 1,
-   "ease": 0.321
+   "ease": 0.319
   },
   {
    "id": "bible-p0085",
    "you": 85,
    "startRadius": 1,
-   "ease": 0.336
+   "ease": 0.333
   },
   {
    "id": "bible-p0088",
    "you": 88,
    "startRadius": 1,
-   "ease": 0.249
+   "ease": 0.245
   },
   {
    "id": "bible-p0091",
    "you": 91,
    "startRadius": 1,
-   "ease": 0.364
+   "ease": 0.361
   },
   {
    "id": "bible-p0094",
    "you": 94,
    "startRadius": 1,
-   "ease": 0.388
+   "ease": 0.384
   },
   {
    "id": "bible-p0100",
    "you": 100,
    "startRadius": 1,
-   "ease": 0.389
+   "ease": 0.386
   },
   {
    "id": "bible-p0101",
    "you": 101,
    "startRadius": 1,
-   "ease": 0.253
+   "ease": 0.246
   },
   {
    "id": "bible-p0103",
    "you": 103,
    "startRadius": 1,
-   "ease": 0.317
+   "ease": 0.314
   },
   {
    "id": "bible-p0104",
    "you": 104,
    "startRadius": 1,
-   "ease": 0.249
+   "ease": 0.245
   },
   {
    "id": "bible-p0107",
    "you": 107,
    "startRadius": 1,
-   "ease": 0.313
+   "ease": 0.309
   },
   {
    "id": "bible-p0109",
    "you": 109,
    "startRadius": 1,
-   "ease": 0.359
+   "ease": 0.358
   },
   {
    "id": "bible-p0112",
    "you": 112,
    "startRadius": 1,
-   "ease": 0.168
+   "ease": 0.161
   },
   {
    "id": "bible-p0113",
    "you": 113,
    "startRadius": 1,
-   "ease": 0.488
+   "ease": 0.483
   },
   {
    "id": "bible-p0115",
    "you": 115,
    "startRadius": 1,
-   "ease": 0.353
+   "ease": 0.343
   },
   {
    "id": "bible-p0117",
    "you": 117,
    "startRadius": 1,
-   "ease": 0.316
+   "ease": 0.312
   },
   {
    "id": "bible-p0118",
    "you": 118,
    "startRadius": 1,
-   "ease": 0.31
+   "ease": 0.304
   },
   {
    "id": "bible-p0119",
    "you": 119,
    "startRadius": 1,
-   "ease": 0.262
+   "ease": 0.258
   },
   {
    "id": "bible-p0120",
@@ -25981,37 +25981,37 @@
    "id": "bible-p0122",
    "you": 122,
    "startRadius": 1,
-   "ease": 0.296
+   "ease": 0.292
   },
   {
    "id": "bible-p0124",
    "you": 124,
    "startRadius": 1,
-   "ease": 0.222
+   "ease": 0.216
   },
   {
    "id": "bible-p0128",
    "you": 128,
    "startRadius": 1,
-   "ease": 0.245
+   "ease": 0.238
   },
   {
    "id": "bible-p0131",
    "you": 131,
    "startRadius": 1,
-   "ease": 0.323
+   "ease": 0.315
   },
   {
    "id": "bible-p0134",
    "you": 134,
    "startRadius": 1,
-   "ease": 0.227
+   "ease": 0.225
   },
   {
    "id": "bible-p0137",
    "you": 137,
    "startRadius": 1,
-   "ease": 0.225
+   "ease": 0.218
   },
   {
    "id": "bible-p0141",
@@ -26023,31 +26023,31 @@
    "id": "bible-p0142",
    "you": 142,
    "startRadius": 1,
-   "ease": 0.318
+   "ease": 0.316
   },
   {
    "id": "bible-p0144",
    "you": 144,
    "startRadius": 1,
-   "ease": 0.311
+   "ease": 0.307
   },
   {
    "id": "bible-p0145",
    "you": 145,
    "startRadius": 1,
-   "ease": 0.354
+   "ease": 0.332
   },
   {
    "id": "bible-p0146",
    "you": 146,
    "startRadius": 1,
-   "ease": 0.286
+   "ease": 0.276
   },
   {
    "id": "bible-p0151",
    "you": 151,
    "startRadius": 1,
-   "ease": 0.279
+   "ease": 0.275
   },
   {
    "id": "bible-p0152",
@@ -26059,73 +26059,73 @@
    "id": "bible-p0153",
    "you": 153,
    "startRadius": 1,
-   "ease": 0.267
+   "ease": 0.266
   },
   {
    "id": "bible-p0154",
    "you": 154,
    "startRadius": 1,
-   "ease": 0.375
+   "ease": 0.374
   },
   {
    "id": "bible-p0155",
    "you": 155,
    "startRadius": 1,
-   "ease": 0.419
+   "ease": 0.413
   },
   {
    "id": "bible-p0157",
    "you": 157,
    "startRadius": 1,
-   "ease": 0.27
+   "ease": 0.266
   },
   {
    "id": "bible-p0158",
    "you": 158,
    "startRadius": 1,
-   "ease": 0.402
+   "ease": 0.399
   },
   {
    "id": "bible-p0159",
    "you": 159,
    "startRadius": 1,
-   "ease": 0.303
+   "ease": 0.302
   },
   {
    "id": "bible-p0160",
    "you": 160,
    "startRadius": 1,
-   "ease": 0.175
+   "ease": 0.168
   },
   {
    "id": "bible-p0162",
    "you": 162,
    "startRadius": 1,
-   "ease": 0.251
+   "ease": 0.244
   },
   {
    "id": "bible-p0166",
    "you": 166,
    "startRadius": 1,
-   "ease": 0.424
+   "ease": 0.42
   },
   {
    "id": "bible-p0167",
    "you": 167,
    "startRadius": 1,
-   "ease": 0.503
+   "ease": 0.488
   },
   {
    "id": "bible-p0177",
    "you": 177,
    "startRadius": 1,
-   "ease": 0.295
+   "ease": 0.293
   },
   {
    "id": "bible-p0180",
    "you": 180,
    "startRadius": 1,
-   "ease": 0.399
+   "ease": 0.396
   },
   {
    "id": "bible-p0183",
@@ -26137,31 +26137,31 @@
    "id": "bible-p0184",
    "you": 184,
    "startRadius": 1,
-   "ease": 0.312
+   "ease": 0.304
   },
   {
    "id": "bible-p0185",
    "you": 185,
    "startRadius": 1,
-   "ease": 0.414
+   "ease": 0.412
   },
   {
    "id": "bible-p0187",
    "you": 187,
    "startRadius": 1,
-   "ease": 0.522
+   "ease": 0.504
   },
   {
    "id": "bible-p0191",
    "you": 191,
    "startRadius": 1,
-   "ease": 0.347
+   "ease": 0.343
   },
   {
    "id": "bible-p0193",
    "you": 193,
    "startRadius": 1,
-   "ease": 0.291
+   "ease": 0.289
   },
   {
    "id": "bible-p0194",
@@ -26173,37 +26173,37 @@
    "id": "bible-p0195",
    "you": 195,
    "startRadius": 1,
-   "ease": 0.327
+   "ease": 0.323
   },
   {
    "id": "bible-p0202",
    "you": 202,
    "startRadius": 1,
-   "ease": 0.222
+   "ease": 0.216
   },
   {
    "id": "bible-p0227",
    "you": 227,
    "startRadius": 1,
-   "ease": 0.236
+   "ease": 0.229
   },
   {
    "id": "bible-p0232",
    "you": 232,
    "startRadius": 1,
-   "ease": 0.281
+   "ease": 0.277
   },
   {
    "id": "bible-p0236",
    "you": 236,
    "startRadius": 1,
-   "ease": 0.236
+   "ease": 0.232
   },
   {
    "id": "bible-p0246",
    "you": 246,
    "startRadius": 1,
-   "ease": 0.32
+   "ease": 0.316
   },
   {
    "id": "bible-p0253",
@@ -26215,37 +26215,37 @@
    "id": "bible-p0259",
    "you": 259,
    "startRadius": 1,
-   "ease": 0.513
+   "ease": 0.502
   },
   {
    "id": "bible-p0267",
    "you": 267,
    "startRadius": 1,
-   "ease": 0.212
+   "ease": 0.211
   },
   {
    "id": "bible-p0276",
    "you": 276,
    "startRadius": 1,
-   "ease": 0.181
+   "ease": 0.174
   },
   {
    "id": "bible-p0277",
    "you": 277,
    "startRadius": 1,
-   "ease": 0.201
+   "ease": 0.194
   },
   {
    "id": "bible-p0278",
    "you": 278,
    "startRadius": 1,
-   "ease": 0.342
+   "ease": 0.338
   },
   {
    "id": "bible-p0280",
    "you": 280,
    "startRadius": 1,
-   "ease": 0.476
+   "ease": 0.47
   },
   {
    "id": "bible-p0284",
@@ -26257,7 +26257,7 @@
    "id": "bible-p0286",
    "you": 286,
    "startRadius": 1,
-   "ease": 0.488
+   "ease": 0.486
   },
   {
    "id": "bible-p0287",
@@ -26269,145 +26269,145 @@
    "id": "bible-p0288",
    "you": 288,
    "startRadius": 1,
-   "ease": 0.309
+   "ease": 0.287
   },
   {
    "id": "bible-p0289",
    "you": 289,
    "startRadius": 1,
-   "ease": 0.296
+   "ease": 0.288
   },
   {
    "id": "bible-p0292",
    "you": 292,
    "startRadius": 1,
-   "ease": 0.217
+   "ease": 0.21
   },
   {
    "id": "bible-p0296",
    "you": 296,
    "startRadius": 1,
-   "ease": 0.391
+   "ease": 0.372
   },
   {
    "id": "bible-p0297",
    "you": 297,
    "startRadius": 1,
-   "ease": 0.573
+   "ease": 0.568
   },
   {
    "id": "bible-p0298",
    "you": 298,
    "startRadius": 1,
-   "ease": 0.536
+   "ease": 0.529
   },
   {
    "id": "bible-p0299",
    "you": 299,
    "startRadius": 1,
-   "ease": 0.382
+   "ease": 0.379
   },
   {
    "id": "bible-p0300",
    "you": 300,
    "startRadius": 1,
-   "ease": 0.298
+   "ease": 0.291
   },
   {
    "id": "bible-p0304",
    "you": 304,
    "startRadius": 1,
-   "ease": 0.487
+   "ease": 0.482
   },
   {
    "id": "bible-p0305",
    "you": 305,
    "startRadius": 1,
-   "ease": 0.467
+   "ease": 0.461
   },
   {
    "id": "bible-p0306",
    "you": 306,
    "startRadius": 1,
-   "ease": 0.459
+   "ease": 0.448
   },
   {
    "id": "bible-p0307",
    "you": 307,
    "startRadius": 1,
-   "ease": 0.333
+   "ease": 0.331
   },
   {
    "id": "bible-p0310",
    "you": 310,
    "startRadius": 1,
-   "ease": 0.444
+   "ease": 0.427
   },
   {
    "id": "bible-p0311",
    "you": 311,
    "startRadius": 1,
-   "ease": 0.338
+   "ease": 0.334
   },
   {
    "id": "bible-p0312",
    "you": 312,
    "startRadius": 1,
-   "ease": 0.391
+   "ease": 0.386
   },
   {
    "id": "bible-p0313",
    "you": 313,
    "startRadius": 1,
-   "ease": 0.361
+   "ease": 0.357
   },
   {
    "id": "bible-p0314",
    "you": 314,
    "startRadius": 1,
-   "ease": 0.397
+   "ease": 0.394
   },
   {
    "id": "bible-p0316",
    "you": 316,
    "startRadius": 1,
-   "ease": 0.409
+   "ease": 0.405
   },
   {
    "id": "bible-p0317",
    "you": 317,
    "startRadius": 1,
-   "ease": 0.354
+   "ease": 0.345
   },
   {
    "id": "bible-p0318",
    "you": 318,
    "startRadius": 1,
-   "ease": 0.367
+   "ease": 0.364
   },
   {
    "id": "bible-p0319",
    "you": 319,
    "startRadius": 1,
-   "ease": 0.327
+   "ease": 0.323
   },
   {
    "id": "bible-p0321",
    "you": 321,
    "startRadius": 1,
-   "ease": 0.279
+   "ease": 0.271
   },
   {
    "id": "bible-p0322",
    "you": 322,
    "startRadius": 1,
-   "ease": 0.242
+   "ease": 0.241
   },
   {
    "id": "bible-p0324",
    "you": 324,
    "startRadius": 1,
-   "ease": 0.292
+   "ease": 0.291
   },
   {
    "id": "bible-p0325",
@@ -26419,13 +26419,13 @@
    "id": "bible-p0326",
    "you": 326,
    "startRadius": 1,
-   "ease": 0.483
+   "ease": 0.473
   },
   {
    "id": "bible-p0328",
    "you": 328,
    "startRadius": 1,
-   "ease": 0.527
+   "ease": 0.521
   },
   {
    "id": "bible-p0329",
@@ -26437,7 +26437,7 @@
    "id": "bible-p0331",
    "you": 331,
    "startRadius": 1,
-   "ease": 0.544
+   "ease": 0.538
   },
   {
    "id": "bible-p0332",
@@ -26449,109 +26449,109 @@
    "id": "bible-p0333",
    "you": 333,
    "startRadius": 1,
-   "ease": 0.346
+   "ease": 0.342
   },
   {
    "id": "bible-p0337",
    "you": 337,
    "startRadius": 1,
-   "ease": 0.387
+   "ease": 0.38
   },
   {
    "id": "bible-p0340",
    "you": 340,
    "startRadius": 1,
-   "ease": 0.181
+   "ease": 0.174
   },
   {
    "id": "bible-p0341",
    "you": 341,
    "startRadius": 1,
-   "ease": 0.417
+   "ease": 0.413
   },
   {
    "id": "bible-p0343",
    "you": 343,
    "startRadius": 1,
-   "ease": 0.349
+   "ease": 0.346
   },
   {
    "id": "bible-p0344",
    "you": 344,
    "startRadius": 1,
-   "ease": 0.437
+   "ease": 0.419
   },
   {
    "id": "bible-p0345",
    "you": 345,
    "startRadius": 1,
-   "ease": 0.391
+   "ease": 0.387
   },
   {
    "id": "bible-p0346",
    "you": 346,
    "startRadius": 1,
-   "ease": 0.286
+   "ease": 0.282
   },
   {
    "id": "bible-p0347",
    "you": 347,
    "startRadius": 1,
-   "ease": 0.488
+   "ease": 0.484
   },
   {
    "id": "bible-p0350",
    "you": 350,
    "startRadius": 1,
-   "ease": 0.346
+   "ease": 0.344
   },
   {
    "id": "bible-p0351",
    "you": 351,
    "startRadius": 1,
-   "ease": 0.201
+   "ease": 0.194
   },
   {
    "id": "bible-p0352",
    "you": 352,
    "startRadius": 1,
-   "ease": 0.153
+   "ease": 0.146
   },
   {
    "id": "bible-p0355",
    "you": 355,
    "startRadius": 1,
-   "ease": 0.383
+   "ease": 0.38
   },
   {
    "id": "bible-p0358",
    "you": 358,
    "startRadius": 1,
-   "ease": 0.237
+   "ease": 0.23
   },
   {
    "id": "bible-p0359",
    "you": 359,
    "startRadius": 1,
-   "ease": 0.488
+   "ease": 0.484
   },
   {
    "id": "bible-p0361",
    "you": 361,
    "startRadius": 1,
-   "ease": 0.391
+   "ease": 0.388
   },
   {
    "id": "bible-p0364",
    "you": 364,
    "startRadius": 1,
-   "ease": 0.406
+   "ease": 0.402
   },
   {
    "id": "bible-p0365",
    "you": 365,
    "startRadius": 1,
-   "ease": 0.288
+   "ease": 0.287
   },
   {
    "id": "bible-p0366",
@@ -26569,79 +26569,79 @@
    "id": "bible-p0369",
    "you": 369,
    "startRadius": 1,
-   "ease": 0.377
+   "ease": 0.373
   },
   {
    "id": "bible-p0371",
    "you": 371,
    "startRadius": 1,
-   "ease": 0.367
+   "ease": 0.364
   },
   {
    "id": "bible-p0374",
    "you": 374,
    "startRadius": 1,
-   "ease": 0.186
+   "ease": 0.18
   },
   {
    "id": "bible-p0377",
    "you": 377,
    "startRadius": 1,
-   "ease": 0.206
+   "ease": 0.199
   },
   {
    "id": "bible-p0380",
    "you": 380,
    "startRadius": 1,
-   "ease": 0.26
+   "ease": 0.259
   },
   {
    "id": "bible-p0384",
    "you": 384,
    "startRadius": 1,
-   "ease": 0.468
+   "ease": 0.462
   },
   {
    "id": "bible-p0385",
    "you": 385,
    "startRadius": 1,
-   "ease": 0.292
+   "ease": 0.285
   },
   {
    "id": "bible-p0386",
    "you": 386,
    "startRadius": 1,
-   "ease": 0.399
+   "ease": 0.391
   },
   {
    "id": "bible-p0388",
    "you": 388,
    "startRadius": 1,
-   "ease": 0.495
+   "ease": 0.49
   },
   {
    "id": "bible-p0389",
    "you": 389,
    "startRadius": 1,
-   "ease": 0.181
+   "ease": 0.174
   },
   {
    "id": "bible-p0393",
    "you": 393,
    "startRadius": 1,
-   "ease": 0.278
+   "ease": 0.271
   },
   {
    "id": "bible-p0396",
    "you": 396,
    "startRadius": 1,
-   "ease": 0.432
+   "ease": 0.431
   },
   {
    "id": "bible-p0400",
    "you": 400,
    "startRadius": 1,
-   "ease": 0.506
+   "ease": 0.494
   },
   {
    "id": "bible-p0401",
@@ -26653,85 +26653,85 @@
    "id": "bible-p0402",
    "you": 402,
    "startRadius": 1,
-   "ease": 0.362
+   "ease": 0.359
   },
   {
    "id": "bible-p0405",
    "you": 405,
    "startRadius": 1,
-   "ease": 0.351
+   "ease": 0.343
   },
   {
    "id": "bible-p0416",
    "you": 416,
    "startRadius": 1,
-   "ease": 0.286
+   "ease": 0.276
   },
   {
    "id": "bible-p0418",
    "you": 418,
    "startRadius": 1,
-   "ease": 0.367
+   "ease": 0.359
   },
   {
    "id": "bible-p0421",
    "you": 421,
    "startRadius": 1,
-   "ease": 0.315
+   "ease": 0.313
   },
   {
    "id": "bible-p0422",
    "you": 422,
    "startRadius": 1,
-   "ease": 0.387
+   "ease": 0.379
   },
   {
    "id": "bible-p0424",
    "you": 424,
    "startRadius": 1,
-   "ease": 0.303
+   "ease": 0.299
   },
   {
    "id": "bible-p0425",
    "you": 425,
    "startRadius": 1,
-   "ease": 0.462
+   "ease": 0.458
   },
   {
    "id": "bible-p0426",
    "you": 426,
    "startRadius": 1,
-   "ease": 0.324
+   "ease": 0.32
   },
   {
    "id": "bible-p0427",
    "you": 427,
    "startRadius": 1,
-   "ease": 0.356
+   "ease": 0.353
   },
   {
    "id": "bible-p0428",
    "you": 428,
    "startRadius": 1,
-   "ease": 0.29
+   "ease": 0.286
   },
   {
    "id": "bible-p0431",
    "you": 431,
    "startRadius": 1,
-   "ease": 0.306
+   "ease": 0.299
   },
   {
    "id": "bible-p0433",
    "you": 433,
    "startRadius": 1,
-   "ease": 0.339
+   "ease": 0.334
   },
   {
    "id": "bible-p0436",
    "you": 436,
    "startRadius": 1,
-   "ease": 0.353
+   "ease": 0.35
   },
   {
    "id": "bible-p0438",
@@ -26743,7 +26743,7 @@
    "id": "bible-p0439",
    "you": 439,
    "startRadius": 1,
-   "ease": 0.397
+   "ease": 0.383
   },
   {
    "id": "bible-p0443",
@@ -26755,25 +26755,25 @@
    "id": "bible-p0445",
    "you": 445,
    "startRadius": 1,
-   "ease": 0.197
+   "ease": 0.19
   },
   {
    "id": "bible-p0446",
    "you": 446,
    "startRadius": 1,
-   "ease": 0.411
+   "ease": 0.393
   },
   {
    "id": "bible-p0448",
    "you": 448,
    "startRadius": 1,
-   "ease": 0.394
+   "ease": 0.39
   },
   {
    "id": "bible-p0449",
    "you": 449,
    "startRadius": 1,
-   "ease": 0.465
+   "ease": 0.463
   },
   {
    "id": "bible-p0454",
@@ -26785,49 +26785,49 @@
    "id": "bible-p0455",
    "you": 455,
    "startRadius": 1,
-   "ease": 0.448
+   "ease": 0.442
   },
   {
    "id": "bible-p0456",
    "you": 456,
    "startRadius": 1,
-   "ease": 0.456
+   "ease": 0.452
   },
   {
    "id": "bible-p0457",
    "you": 457,
    "startRadius": 1,
-   "ease": 0.288
+   "ease": 0.284
   },
   {
    "id": "bible-p0459",
    "you": 459,
    "startRadius": 1,
-   "ease": 0.452
+   "ease": 0.451
   },
   {
    "id": "bible-p0461",
    "you": 461,
    "startRadius": 1,
-   "ease": 0.181
+   "ease": 0.174
   },
   {
    "id": "bible-p0462",
    "you": 462,
    "startRadius": 1,
-   "ease": 0.286
+   "ease": 0.279
   },
   {
    "id": "bible-p0463",
    "you": 463,
    "startRadius": 1,
-   "ease": 0.564
+   "ease": 0.552
   },
   {
    "id": "bible-p0465",
    "you": 465,
    "startRadius": 1,
-   "ease": 0.445
+   "ease": 0.443
   },
   {
    "id": "bible-p0466",
@@ -26839,13 +26839,13 @@
    "id": "bible-p0467",
    "you": 467,
    "startRadius": 1,
-   "ease": 0.419
+   "ease": 0.416
   },
   {
    "id": "bible-p0468",
    "you": 468,
    "startRadius": 1,
-   "ease": 0.381
+   "ease": 0.376
   },
   {
    "id": "bible-p0469",
@@ -26857,19 +26857,19 @@
    "id": "bible-p0470",
    "you": 470,
    "startRadius": 1,
-   "ease": 0.42
+   "ease": 0.417
   },
   {
    "id": "bible-p0471",
    "you": 471,
    "startRadius": 1,
-   "ease": 0.325
+   "ease": 0.321
   },
   {
    "id": "bible-p0472",
    "you": 472,
    "startRadius": 1,
-   "ease": 0.345
+   "ease": 0.342
   },
   {
    "id": "bible-p0473",
@@ -26881,13 +26881,13 @@
    "id": "bible-p0475",
    "you": 475,
    "startRadius": 1,
-   "ease": 0.351
+   "ease": 0.346
   },
   {
    "id": "bible-p0476",
    "you": 476,
    "startRadius": 1,
-   "ease": 0.336
+   "ease": 0.332
   },
   {
    "id": "bible-p0478",
@@ -26899,7 +26899,7 @@
    "id": "bible-p0479",
    "you": 479,
    "startRadius": 1,
-   "ease": 0.472
+   "ease": 0.47
   },
   {
    "id": "bible-p0480",
@@ -26911,13 +26911,13 @@
    "id": "bible-p0481",
    "you": 481,
    "startRadius": 1,
-   "ease": 0.318
+   "ease": 0.311
   },
   {
    "id": "bible-p0482",
    "you": 482,
    "startRadius": 1,
-   "ease": 0.438
+   "ease": 0.433
   },
   {
    "id": "bible-p0485",
@@ -26929,19 +26929,19 @@
    "id": "bible-p0486",
    "you": 486,
    "startRadius": 1,
-   "ease": 0.34
+   "ease": 0.335
   },
   {
    "id": "bible-p0487",
    "you": 487,
    "startRadius": 1,
-   "ease": 0.427
+   "ease": 0.423
   },
   {
    "id": "bible-p0490",
    "you": 490,
    "startRadius": 1,
-   "ease": 0.507
+   "ease": 0.503
   },
   {
    "id": "bible-p0491",
@@ -26959,61 +26959,61 @@
    "id": "bible-p0494",
    "you": 494,
    "startRadius": 1,
-   "ease": 0.2
+   "ease": 0.193
   },
   {
    "id": "bible-p0495",
    "you": 495,
    "startRadius": 1,
-   "ease": 0.335
+   "ease": 0.334
   },
   {
    "id": "bible-p0499",
    "you": 499,
    "startRadius": 1,
-   "ease": 0.357
+   "ease": 0.353
   },
   {
    "id": "bible-p0501",
    "you": 501,
    "startRadius": 1,
-   "ease": 0.476
+   "ease": 0.475
   },
   {
    "id": "bible-p0502",
    "you": 502,
    "startRadius": 1,
-   "ease": 0.397
+   "ease": 0.394
   },
   {
    "id": "bible-p0503",
    "you": 503,
    "startRadius": 1,
-   "ease": 0.428
+   "ease": 0.426
   },
   {
    "id": "bible-p0507",
    "you": 507,
    "startRadius": 1,
-   "ease": 0.442
+   "ease": 0.439
   },
   {
    "id": "bible-p0508",
    "you": 508,
    "startRadius": 1,
-   "ease": 0.382
+   "ease": 0.378
   },
   {
    "id": "bible-p0513",
    "you": 513,
    "startRadius": 1,
-   "ease": 0.347
+   "ease": 0.343
   },
   {
    "id": "bible-p0515",
    "you": 515,
    "startRadius": 1,
-   "ease": 0.435
+   "ease": 0.432
   },
   {
    "id": "bible-p0516",
@@ -27025,43 +27025,43 @@
    "id": "bible-p0517",
    "you": 517,
    "startRadius": 1,
-   "ease": 0.38
+   "ease": 0.374
   },
   {
    "id": "bible-p0519",
    "you": 519,
    "startRadius": 1,
-   "ease": 0.311
+   "ease": 0.307
   },
   {
    "id": "bible-p0520",
    "you": 520,
    "startRadius": 1,
-   "ease": 0.553
+   "ease": 0.546
   },
   {
    "id": "bible-p0525",
    "you": 525,
    "startRadius": 1,
-   "ease": 0.427
+   "ease": 0.423
   },
   {
    "id": "bible-p0526",
    "you": 526,
    "startRadius": 1,
-   "ease": 0.519
+   "ease": 0.501
   },
   {
    "id": "bible-p0527",
    "you": 527,
    "startRadius": 1,
-   "ease": 0.261
+   "ease": 0.25
   },
   {
    "id": "bible-p0528",
    "you": 528,
    "startRadius": 1,
-   "ease": 0.414
+   "ease": 0.41
   },
   {
    "id": "bible-p0531",
@@ -27079,7 +27079,7 @@
    "id": "bible-p0535",
    "you": 535,
    "startRadius": 1,
-   "ease": 0.205
+   "ease": 0.198
   },
   {
    "id": "bible-p0536",
@@ -27097,7 +27097,7 @@
    "id": "bible-p0538",
    "you": 538,
    "startRadius": 1,
-   "ease": 0.331
+   "ease": 0.324
   },
   {
    "id": "bible-p0540",
@@ -27109,73 +27109,73 @@
    "id": "bible-p0542",
    "you": 542,
    "startRadius": 1,
-   "ease": 0.36
+   "ease": 0.359
   },
   {
    "id": "bible-p0543",
    "you": 543,
    "startRadius": 1,
-   "ease": 0.311
+   "ease": 0.307
   },
   {
    "id": "bible-p0545",
    "you": 545,
    "startRadius": 1,
-   "ease": 0.327
+   "ease": 0.323
   },
   {
    "id": "bible-p0546",
    "you": 546,
    "startRadius": 1,
-   "ease": 0.436
+   "ease": 0.433
   },
   {
    "id": "bible-p0550",
    "you": 550,
    "startRadius": 1,
-   "ease": 0.381
+   "ease": 0.378
   },
   {
    "id": "bible-p0552",
    "you": 552,
    "startRadius": 1,
-   "ease": 0.331
+   "ease": 0.324
   },
   {
    "id": "bible-p0553",
    "you": 553,
    "startRadius": 1,
-   "ease": 0.452
+   "ease": 0.446
   },
   {
    "id": "bible-p0554",
    "you": 554,
    "startRadius": 1,
-   "ease": 0.251
+   "ease": 0.244
   },
   {
    "id": "bible-p0555",
    "you": 555,
    "startRadius": 1,
-   "ease": 0.342
+   "ease": 0.339
   },
   {
    "id": "bible-p0556",
    "you": 556,
    "startRadius": 1,
-   "ease": 0.241
+   "ease": 0.234
   },
   {
    "id": "bible-p0562",
    "you": 562,
    "startRadius": 1,
-   "ease": 0.432
+   "ease": 0.429
   },
   {
    "id": "bible-p0563",
    "you": 563,
    "startRadius": 1,
-   "ease": 0.394
+   "ease": 0.39
   },
   {
    "id": "bible-p0564",
@@ -27187,19 +27187,19 @@
    "id": "bible-p0565",
    "you": 565,
    "startRadius": 1,
-   "ease": 0.363
+   "ease": 0.355
   },
   {
    "id": "bible-p0566",
    "you": 566,
    "startRadius": 1,
-   "ease": 0.363
+   "ease": 0.359
   },
   {
    "id": "bible-p0567",
    "you": 567,
    "startRadius": 1,
-   "ease": 0.421
+   "ease": 0.419
   },
   {
    "id": "bible-p0568",
@@ -27211,19 +27211,19 @@
    "id": "bible-p0569",
    "you": 569,
    "startRadius": 1,
-   "ease": 0.239
+   "ease": 0.232
   },
   {
    "id": "bible-p0570",
    "you": 570,
    "startRadius": 1,
-   "ease": 0.273
+   "ease": 0.266
   },
   {
    "id": "bible-p0571",
    "you": 571,
    "startRadius": 1,
-   "ease": 0.349
+   "ease": 0.346
   },
   {
    "id": "bible-p0573",
@@ -27235,43 +27235,43 @@
    "id": "bible-p0574",
    "you": 574,
    "startRadius": 1,
-   "ease": 0.586
+   "ease": 0.579
   },
   {
    "id": "bible-p0577",
    "you": 577,
    "startRadius": 1,
-   "ease": 0.241
+   "ease": 0.234
   },
   {
    "id": "bible-p0578",
    "you": 578,
    "startRadius": 1,
-   "ease": 0.326
+   "ease": 0.322
   },
   {
    "id": "bible-p0584",
    "you": 584,
    "startRadius": 1,
-   "ease": 0.315
+   "ease": 0.313
   },
   {
    "id": "bible-p0587",
    "you": 587,
    "startRadius": 1,
-   "ease": 0.38
+   "ease": 0.379
   },
   {
    "id": "bible-p0589",
    "you": 589,
    "startRadius": 1,
-   "ease": 0.325
+   "ease": 0.321
   },
   {
    "id": "bible-p0593",
    "you": 593,
    "startRadius": 1,
-   "ease": 0.253
+   "ease": 0.246
   },
   {
    "id": "bible-p0595",
@@ -27283,19 +27283,19 @@
    "id": "bible-p0598",
    "you": 598,
    "startRadius": 1,
-   "ease": 0.241
+   "ease": 0.239
   },
   {
    "id": "bible-p0600",
    "you": 600,
    "startRadius": 1,
-   "ease": 0.392
+   "ease": 0.389
   },
   {
    "id": "bible-p0601",
    "you": 601,
    "startRadius": 1,
-   "ease": 0.35
+   "ease": 0.347
   },
   {
    "id": "bible-p0603",
@@ -27307,163 +27307,163 @@
    "id": "bible-p0604",
    "you": 604,
    "startRadius": 1,
-   "ease": 0.253
+   "ease": 0.246
   },
   {
    "id": "bible-p0605",
    "you": 605,
    "startRadius": 1,
-   "ease": 0.336
+   "ease": 0.331
   },
   {
    "id": "bible-p0607",
    "you": 607,
    "startRadius": 1,
-   "ease": 0.354
+   "ease": 0.35
   },
   {
    "id": "bible-p0608",
    "you": 608,
    "startRadius": 1,
-   "ease": 0.237
+   "ease": 0.235
   },
   {
    "id": "bible-p0609",
    "you": 609,
    "startRadius": 1,
-   "ease": 0.37
+   "ease": 0.363
   },
   {
    "id": "bible-p0611",
    "you": 611,
    "startRadius": 1,
-   "ease": 0.247
+   "ease": 0.246
   },
   {
    "id": "bible-p0613",
    "you": 613,
    "startRadius": 1,
-   "ease": 0.245
+   "ease": 0.238
   },
   {
    "id": "bible-p0616",
    "you": 616,
    "startRadius": 1,
-   "ease": 0.188
+   "ease": 0.181
   },
   {
    "id": "bible-p0621",
    "you": 621,
    "startRadius": 1,
-   "ease": 0.42
+   "ease": 0.417
   },
   {
    "id": "bible-p0622",
    "you": 622,
    "startRadius": 1,
-   "ease": 0.181
+   "ease": 0.174
   },
   {
    "id": "bible-p0623",
    "you": 623,
    "startRadius": 1,
-   "ease": 0.23
+   "ease": 0.223
   },
   {
    "id": "bible-p0625",
    "you": 625,
    "startRadius": 1,
-   "ease": 0.268
+   "ease": 0.264
   },
   {
    "id": "bible-p0626",
    "you": 626,
    "startRadius": 1,
-   "ease": 0.344
+   "ease": 0.338
   },
   {
    "id": "bible-p0628",
    "you": 628,
    "startRadius": 1,
-   "ease": 0.483
+   "ease": 0.479
   },
   {
    "id": "bible-p0629",
    "you": 629,
    "startRadius": 1,
-   "ease": 0.197
+   "ease": 0.19
   },
   {
    "id": "bible-p0630",
    "you": 630,
    "startRadius": 1,
-   "ease": 0.178
+   "ease": 0.171
   },
   {
    "id": "bible-p0631",
    "you": 631,
    "startRadius": 1,
-   "ease": 0.187
+   "ease": 0.18
   },
   {
    "id": "bible-p0633",
    "you": 633,
    "startRadius": 1,
-   "ease": 0.328
+   "ease": 0.324
   },
   {
    "id": "bible-p0635",
    "you": 635,
    "startRadius": 1,
-   "ease": 0.295
+   "ease": 0.292
   },
   {
    "id": "bible-p0636",
    "you": 636,
    "startRadius": 1,
-   "ease": 0.457
+   "ease": 0.45
   },
   {
    "id": "bible-p0637",
    "you": 637,
    "startRadius": 1,
-   "ease": 0.345
+   "ease": 0.34
   },
   {
    "id": "bible-p0639",
    "you": 639,
    "startRadius": 1,
-   "ease": 0.336
+   "ease": 0.328
   },
   {
    "id": "bible-p0643",
    "you": 643,
    "startRadius": 1,
-   "ease": 0.359
+   "ease": 0.356
   },
   {
    "id": "bible-p0645",
    "you": 645,
    "startRadius": 1,
-   "ease": 0.346
+   "ease": 0.341
   },
   {
    "id": "bible-p0649",
    "you": 649,
    "startRadius": 1,
-   "ease": 0.253
+   "ease": 0.246
   },
   {
    "id": "bible-p0650",
    "you": 650,
    "startRadius": 1,
-   "ease": 0.543
+   "ease": 0.536
   },
   {
    "id": "bible-p0651",
    "you": 651,
    "startRadius": 1,
-   "ease": 0.359
+   "ease": 0.355
   },
   {
    "id": "bible-p0656",
@@ -27475,37 +27475,37 @@
    "id": "bible-p0659",
    "you": 659,
    "startRadius": 1,
-   "ease": 0.469
+   "ease": 0.462
   },
   {
    "id": "bible-p0660",
    "you": 660,
    "startRadius": 1,
-   "ease": 0.253
+   "ease": 0.246
   },
   {
    "id": "bible-p0661",
    "you": 661,
    "startRadius": 1,
-   "ease": 0.265
+   "ease": 0.258
   },
   {
    "id": "bible-p0662",
    "you": 662,
    "startRadius": 1,
-   "ease": 0.215
+   "ease": 0.208
   },
   {
    "id": "bible-p0666",
    "you": 666,
    "startRadius": 1,
-   "ease": 0.36
+   "ease": 0.352
   },
   {
    "id": "bible-p0669",
    "you": 669,
    "startRadius": 1,
-   "ease": 0.439
+   "ease": 0.436
   },
   {
    "id": "bible-p0670",
@@ -27517,85 +27517,85 @@
    "id": "bible-p0672",
    "you": 672,
    "startRadius": 1,
-   "ease": 0.405
+   "ease": 0.4
   },
   {
    "id": "bible-p0673",
    "you": 673,
    "startRadius": 1,
-   "ease": 0.355
+   "ease": 0.352
   },
   {
    "id": "bible-p0675",
    "you": 675,
    "startRadius": 1,
-   "ease": 0.499
+   "ease": 0.481
   },
   {
    "id": "bible-p0676",
    "you": 676,
    "startRadius": 1,
-   "ease": 0.24
+   "ease": 0.238
   },
   {
    "id": "bible-p0677",
    "you": 677,
    "startRadius": 1,
-   "ease": 0.177
+   "ease": 0.17
   },
   {
    "id": "bible-p0678",
    "you": 678,
    "startRadius": 1,
-   "ease": 0.177
+   "ease": 0.17
   },
   {
    "id": "bible-p0679",
    "you": 679,
    "startRadius": 1,
-   "ease": 0.244
+   "ease": 0.243
   },
   {
    "id": "bible-p0680",
    "you": 680,
    "startRadius": 1,
-   "ease": 0.288
+   "ease": 0.287
   },
   {
    "id": "bible-p0681",
    "you": 681,
    "startRadius": 1,
-   "ease": 0.264
+   "ease": 0.263
   },
   {
    "id": "bible-p0682",
    "you": 682,
    "startRadius": 1,
-   "ease": 0.244
+   "ease": 0.243
   },
   {
    "id": "bible-p0683",
    "you": 683,
    "startRadius": 1,
-   "ease": 0.186
+   "ease": 0.179
   },
   {
    "id": "bible-p0684",
    "you": 684,
    "startRadius": 1,
-   "ease": 0.186
+   "ease": 0.179
   },
   {
    "id": "bible-p0685",
    "you": 685,
    "startRadius": 1,
-   "ease": 0.226
+   "ease": 0.224
   },
   {
    "id": "bible-p0686",
    "you": 686,
    "startRadius": 1,
-   "ease": 0.24
+   "ease": 0.239
   },
   {
    "id": "bible-p0687",
@@ -27607,61 +27607,61 @@
    "id": "bible-p0689",
    "you": 689,
    "startRadius": 1,
-   "ease": 0.36
+   "ease": 0.357
   },
   {
    "id": "bible-p0691",
    "you": 691,
    "startRadius": 1,
-   "ease": 0.252
+   "ease": 0.245
   },
   {
    "id": "bible-p0692",
    "you": 692,
    "startRadius": 1,
-   "ease": 0.332
+   "ease": 0.324
   },
   {
    "id": "bible-p0693",
    "you": 693,
    "startRadius": 1,
-   "ease": 0.212
+   "ease": 0.205
   },
   {
    "id": "bible-p0694",
    "you": 694,
    "startRadius": 1,
-   "ease": 0.229
+   "ease": 0.227
   },
   {
    "id": "bible-p0696",
    "you": 696,
    "startRadius": 1,
-   "ease": 0.229
+   "ease": 0.227
   },
   {
    "id": "bible-p0699",
    "you": 699,
    "startRadius": 1,
-   "ease": 0.226
+   "ease": 0.224
   },
   {
    "id": "bible-p0700",
    "you": 700,
    "startRadius": 1,
-   "ease": 0.177
+   "ease": 0.17
   },
   {
    "id": "bible-p0701",
    "you": 701,
    "startRadius": 1,
-   "ease": 0.181
+   "ease": 0.174
   },
   {
    "id": "bible-p0703",
    "you": 703,
    "startRadius": 1,
-   "ease": 0.267
+   "ease": 0.263
   },
   {
    "id": "bible-p0707",
@@ -27673,19 +27673,19 @@
    "id": "bible-p0708",
    "you": 708,
    "startRadius": 1,
-   "ease": 0.325
+   "ease": 0.322
   },
   {
    "id": "bible-p0709",
    "you": 709,
    "startRadius": 1,
-   "ease": 0.546
+   "ease": 0.539
   },
   {
    "id": "bible-p0710",
    "you": 710,
    "startRadius": 1,
-   "ease": 0.394
+   "ease": 0.391
   },
   {
    "id": "bible-p0711",
@@ -27697,25 +27697,25 @@
    "id": "bible-p0713",
    "you": 713,
    "startRadius": 1,
-   "ease": 0.202
+   "ease": 0.195
   },
   {
    "id": "bible-p0714",
    "you": 714,
    "startRadius": 1,
-   "ease": 0.31
+   "ease": 0.309
   },
   {
    "id": "bible-p0718",
    "you": 718,
    "startRadius": 1,
-   "ease": 0.422
+   "ease": 0.42
   },
   {
    "id": "bible-p0719",
    "you": 719,
    "startRadius": 1,
-   "ease": 0.375
+   "ease": 0.373
   }
  ],
  "provenance": {

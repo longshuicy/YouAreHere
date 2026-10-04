@@ -24,7 +24,7 @@
    "wiki": "Aragorn",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -47,7 +47,7 @@
    },
    "line": "Of the Men. Appears in all 3 volumes.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -72,7 +72,7 @@
    "wiki": "Arwen",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -99,7 +99,7 @@
    "wiki": "Balin (Middle-earth)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -155,7 +155,7 @@
    "wiki": "Bilbo Baggins",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -178,11 +178,11 @@
    },
    "line": "Of the Men. Appears in all 3 volumes.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
-     "world": "lotr",
-     "story": "The Lord of the Rings",
-     "name": "Saruman",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Beverly Crusher",
      "tied": 0
     }
    }
@@ -203,7 +203,7 @@
    "wiki": "Celeborn",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -234,7 +234,7 @@
    "wiki": "Denethor",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -259,7 +259,7 @@
    "wiki": "Durin",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -287,7 +287,7 @@
    "wiki": "Elendil",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -315,7 +315,7 @@
    "wiki": "Elrond",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -346,7 +346,7 @@
    "wiki": "Éomer",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -374,7 +374,7 @@
    },
    "line": "King of Rohan, of the Men. Appears in The Two Towers and The Return of the King.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -401,7 +401,7 @@
    "wiki": "Éowyn",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -431,7 +431,7 @@
    "wiki": "Faramir",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -461,7 +461,7 @@
    "wiki": "Frodo Baggins",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -486,7 +486,7 @@
    "wiki": "Galadriel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -517,7 +517,7 @@
    "wiki": "Gandalf",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -584,7 +584,7 @@
    "wiki": "Gimli (Middle-earth)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -612,7 +612,7 @@
    "wiki": "Glóin",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -636,7 +636,7 @@
    "wiki": "Glorfindel",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -661,7 +661,7 @@
    "wiki": "Gollum",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -699,7 +699,7 @@
    "wiki": "Gríma Wormtongue",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -753,7 +753,7 @@
    "wiki": "Isildur",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -782,7 +782,7 @@
    "wiki": "Legolas",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -811,7 +811,7 @@
    "wiki": "Merry Brandybuck",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -843,7 +843,7 @@
    "wiki": "Pippin Took",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -875,7 +875,7 @@
    "wiki": "Samwise Gamgee",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -903,7 +903,7 @@
    "wiki": "Saruman",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -929,7 +929,7 @@
    "wiki": "Sauron",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -959,7 +959,7 @@
    "wiki": "Théoden",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -988,7 +988,7 @@
    "wiki": "Thorin Oakenshield",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1027,11 +1027,11 @@
    "wiki": "The Adventures of Tom Bombadil",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "賈元春",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Ying",
      "tied": 0
     }
    }
@@ -1052,7 +1052,7 @@
    "wiki": "Treebeard",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",

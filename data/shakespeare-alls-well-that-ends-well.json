@@ -678,13 +678,13 @@
    "id": "shakespeare-alls-well-that-ends-well-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.614
+   "ease": 0.61
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0001",
    "you": 1,
    "startRadius": 1,
-   "ease": 0.498
+   "ease": 0.496
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0002",
@@ -708,7 +708,7 @@
    "id": "shakespeare-alls-well-that-ends-well-p0008",
    "you": 8,
    "startRadius": 1,
-   "ease": 0.632
+   "ease": 0.628
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0009",
@@ -738,7 +738,7 @@
    "id": "shakespeare-alls-well-that-ends-well-p0015",
    "you": 15,
    "startRadius": 1,
-   "ease": 0.646
+   "ease": 0.642
   },
   {
    "id": "shakespeare-alls-well-that-ends-well-p0018",

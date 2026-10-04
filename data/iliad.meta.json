@@ -30,7 +30,7 @@
    },
    "line": "Lieutenant. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -87,11 +87,11 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "陳蘭",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Arik Soong",
      "tied": 0
     }
    }
@@ -108,7 +108,7 @@
    },
    "line": "Appears in Book 2 and Book 17.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -165,7 +165,7 @@
    },
    "line": "Appears in Book 2 and Book 17.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -257,7 +257,7 @@
    "wiki": "Panthous",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -279,7 +279,7 @@
    },
    "line": "Of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -299,7 +299,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -320,7 +320,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -340,7 +340,7 @@
    },
    "line": "Appears in Book 3 and Book 20.",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -365,7 +365,7 @@
    "wiki": "Ucalegon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -624,7 +624,7 @@
    },
    "line": "King of Troy, of the Trojans. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -734,7 +734,7 @@
    },
    "line": "Appears in Book 6.",
    "signals": {
-    "lookAlikes": 93,
+    "lookAlikes": 107,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -766,7 +766,7 @@
    },
    "line": "Appears in Book 6.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -853,7 +853,7 @@
    },
    "line": "Appears in 5 books.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1014,11 +1014,11 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 83,
     "nearest": {
-     "world": "bible",
-     "story": "The Bible",
-     "name": "Nathanael",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "John Frederick Paxton",
      "tied": 0
     }
    }
@@ -1049,7 +1049,7 @@
    "wiki": "Asteropaios",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -1069,7 +1069,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 26,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1091,7 +1091,7 @@
    "wiki": "Iamenus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1111,7 +1111,7 @@
    },
    "line": "Appears in Book 12.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1132,7 +1132,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1152,7 +1152,7 @@
    },
    "line": "Appears in Book 12 and Book 13.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1190,7 +1190,7 @@
    "wiki": "Cassandra",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -1251,7 +1251,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13 and Book 14.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1274,7 +1274,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1297,7 +1297,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1319,7 +1319,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1341,7 +1341,7 @@
    },
    "line": "Of the Trojans. Appears in Book 13.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1438,7 +1438,7 @@
    "wiki": "Alcimedonte",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -1506,12 +1506,12 @@
    "wiki": "Eudoros",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 31,
     "nearest": {
-     "world": "mmkg",
-     "story": "Musical Meetups",
-     "name": "Amiri Baraka",
-     "tied": 5
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Anisha Mir",
+     "tied": 0
     }
    }
   },
@@ -1560,11 +1560,11 @@
    },
    "line": "Of the Greeks. Appears in Book 16.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
-     "world": "mmkg",
-     "story": "Musical Meetups",
-     "name": "Big Maybelle",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Diana Giddings",
      "tied": 0
     }
    }
@@ -1779,7 +1779,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1995,7 +1995,7 @@
    },
    "line": "Of the Greeks. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2021,7 +2021,7 @@
    "wiki": "Deipyrus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2045,7 +2045,7 @@
    },
    "line": "Of the Greeks. Appears in Book 9 and Book 13.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2117,7 +2117,7 @@
    },
    "line": "King of Calydon. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 127,
+    "lookAlikes": 145,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2228,7 +2228,7 @@
    },
    "line": "Of the Greeks. Appears in Book 19.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2304,7 +2304,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2324,7 +2324,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2344,7 +2344,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2367,7 +2367,7 @@
    },
    "line": "Commander. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -2387,7 +2387,7 @@
    },
    "line": "Commander. Appears in Book 4.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2419,7 +2419,7 @@
    },
    "line": "King of Cyphus. Appears in Book 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2487,7 +2487,7 @@
    "wiki": "Machaon (mythology)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -2506,7 +2506,7 @@
    },
    "line": "Appears in Book 2.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2528,7 +2528,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 26,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -2552,7 +2552,7 @@
    },
    "line": "King of Pherae. Appears in Book 2 and Book 23.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2572,7 +2572,7 @@
    },
    "line": "Appears in Book 2 and Book 13.",
    "signals": {
-    "lookAlikes": 29,
+    "lookAlikes": 30,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -2617,7 +2617,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -2711,7 +2711,7 @@
    },
    "line": "Appears in Book 2 and Book 9.",
    "signals": {
-    "lookAlikes": 18,
+    "lookAlikes": 26,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2732,7 +2732,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 53,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -2802,7 +2802,7 @@
    },
    "line": "Lady in waiting, of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -2857,7 +2857,7 @@
    "wiki": "Achilles",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2881,12 +2881,12 @@
    },
    "line": "Charioteer. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
-     "world": "shakespeare-king-john",
-     "story": "King John",
-     "name": "Earl of Essex",
-     "tied": 3
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Michael Sullivan",
+     "tied": 0
     }
    }
   },
@@ -2918,7 +2918,7 @@
    "wiki": "Aeneas",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2951,11 +2951,11 @@
    },
    "line": "Deity, of the Trojans. Appears in 10 books.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Chester Phillips",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Lwaxana Troi",
      "tied": 0
     }
    }
@@ -2994,7 +2994,7 @@
    "wiki": "Agamemnon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3019,7 +3019,7 @@
    "wiki": "Andromache",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -3073,7 +3073,7 @@
    "wiki": "Ajax the Great",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3102,7 +3102,7 @@
    },
    "line": "Appears in 11 books.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3134,7 +3134,7 @@
    },
    "line": "Deity, of the Trojans. Appears in 9 books.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3156,7 +3156,7 @@
    },
    "line": "Councilor. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3181,7 +3181,7 @@
    },
    "line": "Appears in 7 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -3221,11 +3221,11 @@
    },
    "line": "Of the Trojans. Appears in 19 books.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
-     "world": "iliad",
-     "story": "The Iliad",
-     "name": "Patroclus",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Tuvok",
      "tied": 0
     }
    }
@@ -3253,7 +3253,7 @@
    "wiki": "Ares",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3307,7 +3307,7 @@
    "wiki": "Athena",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3345,7 +3345,7 @@
    "wiki": "Ajax the Lesser",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "shakespeare-a-midsummer-nights-dream",
      "story": "A Midsummer Night’s Dream",
@@ -3418,7 +3418,7 @@
    },
    "line": "Appears in Book 20 and Book 23.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3444,7 +3444,7 @@
    "wiki": "Briseis",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -3505,7 +3505,7 @@
    },
    "line": "Lady in waiting, of the Trojans. Appears in Book 3.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -3590,7 +3590,7 @@
    "wiki": "Diomedes",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3628,7 +3628,7 @@
    "wiki": "Deiphobus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 87,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -3675,11 +3675,11 @@
    },
    "line": "Herald. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
-     "world": "stormlight",
-     "story": "The Stormlight Archive",
-     "name": "Loradar Vamah",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Sidney La Forge",
      "tied": 0
     }
    }
@@ -3758,7 +3758,7 @@
    "wiki": "Eurypylus (son of Euaemon)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3791,7 +3791,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 25,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3852,7 +3852,7 @@
    "wiki": "Glaucus (son of Hippolochus)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3919,7 +3919,7 @@
    "wiki": "Hecuba",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -3985,7 +3985,7 @@
    "wiki": "Hera",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -4010,7 +4010,7 @@
    "wiki": "Helen of Troy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -4042,7 +4042,7 @@
    "wiki": "Hermes",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -4066,7 +4066,7 @@
    },
    "line": "Soothsayer. Appears in 5 books.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4099,7 +4099,7 @@
    "wiki": "Hephaestus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -4125,11 +4125,11 @@
    },
    "line": "Appears in 8 books.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
-     "world": "sanguoyanyi",
-     "story": "三國演義",
-     "name": "華歆",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Soval",
      "tied": 0
     }
    }
@@ -4169,11 +4169,11 @@
    "wiki": "Hector",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "賈母",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Jean-Luc Picard",
      "tied": 0
     }
    }
@@ -4242,7 +4242,7 @@
    },
    "line": "King of Crete. Appears in 15 books.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4273,7 +4273,7 @@
    "wiki": "Iris (mythology)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -4371,7 +4371,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4407,7 +4407,7 @@
    "wiki": "Leto",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4429,7 +4429,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4451,7 +4451,7 @@
    },
    "line": "Appears in 4 books.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -4493,7 +4493,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4545,7 +4545,7 @@
    "wiki": "Menelaus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4569,7 +4569,7 @@
    },
    "line": "Appears in 6 books.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4610,7 +4610,7 @@
    },
    "line": "Appears in 12 books.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -4632,11 +4632,11 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "林之孝家的",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Natasha Yar",
      "tied": 0
     }
    }
@@ -4652,7 +4652,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4687,7 +4687,7 @@
    "wiki": "Nestor (mythology)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4730,7 +4730,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4780,7 +4780,7 @@
    "wiki": "Odysseus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4829,7 +4829,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4861,7 +4861,7 @@
    "wiki": "Patroclus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -4890,7 +4890,7 @@
    "wiki": "Peneleos",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -4930,7 +4930,7 @@
    },
    "line": "Of the Trojans. Appears in 8 books.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4956,7 +4956,7 @@
    },
    "line": "Appears in 8 books.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -4980,7 +4980,7 @@
    "wiki": "Polites (son of Priam)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5005,7 +5005,7 @@
    "wiki": "Pandarus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -5045,7 +5045,7 @@
    "wiki": "Poseidon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -5068,7 +5068,7 @@
    },
    "line": "Queen of nether world. Appears in Book 9 and Book 14.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5135,7 +5135,7 @@
    "wiki": "Paris (mythology)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5169,7 +5169,7 @@
    },
    "line": "King of Dolopians. Appears in 3 books.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -5208,7 +5208,7 @@
    "wiki": "Aenius",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5239,7 +5239,7 @@
    },
    "line": "Charioteer. Appears in Book 21.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5270,11 +5270,11 @@
    },
    "line": "Appears in Book 14 and Book 15.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Craig Saunders, Jr.",
+     "world": "congress",
+     "story": "U.S. Congress",
+     "name": "Silvestre Reyes",
      "tied": 0
     }
    }
@@ -5326,7 +5326,7 @@
    "wiki": "Sarpedon (Trojan War hero)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5370,7 +5370,7 @@
    },
    "line": "Appears in Book 14 and Book 16.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5406,7 +5406,7 @@
    },
    "line": "Lieutenant. Appears in 6 books.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -5425,7 +5425,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5482,7 +5482,7 @@
    "wiki": "Thetis",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -5517,7 +5517,7 @@
    },
    "line": "Appears in 5 books.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -5564,7 +5564,7 @@
    },
    "line": "Appears in 6 books.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -5606,7 +5606,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5636,7 +5636,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5668,7 +5668,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5688,7 +5688,7 @@
    },
    "line": "Appears in Book 24.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 67,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5709,11 +5709,11 @@
    },
    "line": "God. Appears in Book 20 and Book 21.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Silva (Pingo Doce)",
+     "world": "bible",
+     "story": "The Bible",
+     "name": "Gershon",
      "tied": 0
     }
    }
@@ -5765,7 +5765,7 @@
    "wiki": "Zeus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5786,7 +5786,7 @@
    },
    "line": "Appears in 3 books.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",

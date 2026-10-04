@@ -12,7 +12,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -81,7 +81,7 @@
    "wiki": "Carlo Rizzi (The Godfather)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -117,11 +117,11 @@
    "wiki": "Peter Clemenza",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
-     "world": "shakespeare-rome",
-     "story": "Shakespeare's Rome",
-     "name": "Charmian",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Rok-Tahk",
      "tied": 0
     }
    }
@@ -150,7 +150,7 @@
    "wiki": "Connie Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -169,7 +169,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -190,7 +190,7 @@
    },
    "line": "Actor. Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -215,7 +215,7 @@
    "wiki": "Vito Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -295,7 +295,7 @@
    "wiki": "Fredo Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -324,7 +324,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -346,7 +346,7 @@
    },
    "line": "Consigliere. Appears in all 2 films.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -403,7 +403,7 @@
    "wiki": "Hyman Roth",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -432,7 +432,7 @@
    },
    "line": "Appears in The Godfather.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -457,7 +457,7 @@
    "wiki": "Kay Adams Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -516,7 +516,7 @@
    "wiki": "Carmela Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -549,7 +549,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -631,11 +631,11 @@
    "wiki": "Al Neri",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 25,
     "nearest": {
-     "world": "odyssey",
-     "story": "The Odyssey",
-     "name": "Antinous",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Kestra Troi-Riker",
      "tied": 0
     }
    }
@@ -653,7 +653,7 @@
    "wiki": "Johnny Ola",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -687,7 +687,7 @@
    "wiki": "Frank Pentangeli",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -706,7 +706,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -746,7 +746,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -780,7 +780,7 @@
    "wiki": "Sandra Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "godfather",
      "story": "The Godfather",
@@ -799,7 +799,7 @@
    },
    "line": "Appears in The Godfather: Part II.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -850,7 +850,7 @@
    },
    "line": "Drug trafficker. Appears in The Godfather.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -875,7 +875,7 @@
    "wiki": "Sonny Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -908,7 +908,7 @@
    "wiki": "Salvatore Tessio",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -952,7 +952,7 @@
    "wiki": "Vito Corleone",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 31,
+    "lookAlikes": 33,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",

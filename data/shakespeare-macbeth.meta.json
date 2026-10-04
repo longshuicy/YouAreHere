@@ -12,7 +12,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -35,7 +35,7 @@
    "wiki": "Banquo",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -68,7 +68,7 @@
    "wiki": "Donalbain (Macbeth)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -91,7 +91,7 @@
    "wiki": "King Duncan",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -138,7 +138,7 @@
    "wiki": "Lady Macbeth",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -157,7 +157,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -183,7 +183,7 @@
    "wiki": "Macbeth (character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-the-tempest",
      "story": "The Tempest",
@@ -206,7 +206,7 @@
    "wiki": "Macduff (Macbeth)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -229,7 +229,7 @@
    "wiki": "Malcolm (Macbeth)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "shakespeare-twelfth-night",
      "story": "Twelfth Night",
@@ -248,7 +248,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -267,7 +267,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -291,7 +291,7 @@
    "wiki": "Siward, Earl of Northumbria",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",

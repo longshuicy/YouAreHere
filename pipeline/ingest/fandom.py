@@ -10,13 +10,15 @@ cast (a category, per-work categories, or an Appearances section), which
 citations say what book a paragraph is about, and which sections are about some
 other canon — a video game, a TV adaptation — and so are skipped.
 
-Fandom text is CC BY-SA 3.0, so every world here is an adaptation under those
-terms and ships in its own files. See raw/<world>/SOURCE.md.
+Fandom text is CC BY-SA 3.0 unless a wiki says otherwise (Memory Alpha is
+CC BY-NC 4.0), so every world here is an adaptation under its wiki's terms and
+ships in its own files. See raw/<world>/SOURCE.md.
 """
 
 from __future__ import annotations
 
 import dataclasses
+import functools
 import json
 import re
 import time
@@ -27,8 +29,8 @@ from itertools import combinations
 from pathlib import Path
 from typing import Callable, Iterable, NamedTuple
 
-from ..canon.licenses import CC_BY_SA_3_0
-from ..canon.types import Attribution, CanonicalGraph, Edge, Node, Provenance
+from ..canon.licenses import CC_BY_NC_4_0, CC_BY_SA_3_0
+from ..canon.types import Attribution, CanonicalGraph, Edge, License, Node, Provenance
 from .fetch import get_json
 
 RAW = Path(__file__).resolve().parent.parent / "raw"
@@ -138,6 +140,10 @@ class Reading:
     # Word → trait, when the wiki has no field for it and only mentions it.
     vocabulary: tuple[tuple[str, str], ...] = ()
     vocabulary_fields: tuple[str, ...] = ()
+    # A birth field written `date, year, <br> place, planet`: the year, and the
+    # last place named as the homeworld unless it is everyone's.
+    born: tuple[str, ...] = ()
+    ordinary_homeworlds: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -149,12 +155,19 @@ class Wiki:
     name: str
     retrieved: str
     segments: tuple[Segment, ...] = ()
-    # The cast when segments do not define it.
+    license: License = CC_BY_SA_3_0
+    # The cast when segments do not define it: category members, or the articles
+    # that use a template (a wiki with no characters category).
     categories: tuple[str, ...] = ()
+    templates: tuple[str, ...] = ()
     # An article is a character only if its wikitext opens one of these boxes.
     infoboxes: tuple[str, ...] = ()
+    # Titles that are another version of a cast member (`Kira Nerys (mirror)`).
+    skip_titles: str = ""
     # Paragraph wikitext → segment ids it cites.
     cites: Callable[[str], set[str]] | None = None
+    # Article wikitext → segment ids the character appears in.
+    appears: Callable[[str], set[str]] | None = None
     # Paragraph wikitext → whether it cites only another canon (and is skipped).
     offscope: Callable[[str], bool] | None = None
     skip_sections: frozenset[str] = SKIP_SECTIONS
@@ -162,6 +175,11 @@ class Wiki:
     reading: Reading = Reading()
     # Templates that expand a code from a Lua data module: `{{Affiliation|SHD2}}`.
     code_templates: tuple[tuple[str, str], ...] = ()
+    # Templates that are links: (name, target, label) with `{1}`, `{2}` for the
+    # parameters. `{{dis|Worf|...}}` is as much a link to a character as `[[Worf]]`.
+    link_templates: tuple[tuple[str, str, str], ...] = ()
+    # Gender from the pronouns of the article's opening, for a wiki with no field.
+    gender_from_pronouns: bool = False
     # What the reveal facts are, for the sidecar's attribution.
     fact_fields: str = "gender, nationality and species"
     source_unit: str = "book"
@@ -227,6 +245,8 @@ def load(wiki: Wiki) -> CanonicalGraph:
         if target:
             redirects.setdefault(title, _normalise_title(target.group(1)))
             del pages[title]
+    if wiki.link_templates:
+        pages = {title: _expand_link_templates(text, wiki.link_templates) for title, text in pages.items()}
 
     cast = _cast(wiki, pages, listings)
     titles = set(cast)
@@ -258,10 +278,16 @@ def load(wiki: Wiki) -> CanonicalGraph:
     # recorded in. Weaker — "both appear in this film" is not "together in
     # it" — but where the wiki cites nothing it is the only reading there is.
     appears = {ids[title]: cast[title] for title in titles}
-    segments = {
-        pair: books or (appears[pair[0]] & appears[pair[1]])
-        for pair, books in cited.items()
-    }
+    segments = {pair: books or (appears[pair[0]] & appears[pair[1]]) for pair, books in cited.items()}
+    # Where the wiki lists each character's appearances, a cited series neither
+    # of them appears in is a paragraph recalling someone else's history: Spock's
+    # article citing TOS beside a mention of Picard does not put Picard in TOS.
+    if wiki.appears:
+        for (a, b), books in segments.items():
+            for side in (a, b):
+                if appears[side]:
+                    books = books & appears[side]
+            segments[(a, b)] = books
 
     present = {nid for pair in weights for nid in pair}
     aliases = _aliases(titles, redirects, infoboxes, names, wiki.alias_fields)
@@ -278,6 +304,12 @@ def load(wiki: Wiki) -> CanonicalGraph:
         )
         for title in cast
     ]
+    if wiki.gender_from_pronouns:
+        for title, facts in zip(cast, metadata):
+            if "gender" not in facts:
+                gender = _pronoun_gender(_split_infobox(pages[title])[1], wiki.skip_sections)
+                if gender:
+                    facts["pronounGender"] = gender
     _drop_common(metadata)
     _as_written(metadata, [pages[title] for title in cast])
     nodes = [
@@ -305,7 +337,7 @@ def load(wiki: Wiki) -> CanonicalGraph:
         source_unit=wiki.source_unit,
         weight_semantics="count of shared article paragraphs across all character articles",
         attribution=dataclasses.replace(wiki.attribution),
-        license=CC_BY_SA_3_0,
+        license=wiki.license,
     )
 
     return CanonicalGraph(
@@ -335,6 +367,45 @@ def _metadata(box: Infobox, wiki: Wiki, people: set[str], names: set[str]) -> di
         if value:
             metadata[key] = value
     return metadata
+
+
+_HE = re.compile(r"\b(?:he|him|his|himself)\b", re.I)
+_SHE = re.compile(r"\b(?:she|her|hers|herself)\b", re.I)
+PRONOUN_PARAGRAPHS = 3
+PRONOUN_MIN = 3
+
+
+def _pronoun_gender(body: str, skip: frozenset[str]) -> str:
+    """Male or Female when the article's first paragraphs, which are about
+    their subject, use one set of pronouns at least three times as often as
+    the other, and at least three times; otherwise nothing."""
+    lead = " ".join(_LINK.sub(lambda m: m.group(2) or m.group(1), line)
+                    for line, _ in zip(_paragraphs(body, skip), range(PRONOUN_PARAGRAPHS)))
+    he, she = len(_HE.findall(lead)), len(_SHE.findall(lead))
+    if he >= PRONOUN_MIN and he >= 3 * she:
+        return "Male"
+    if she >= PRONOUN_MIN and she >= 3 * he:
+        return "Female"
+    return ""
+
+
+def _expand_link_templates(text: str, templates: tuple[tuple[str, str, str], ...]) -> str:
+    """`{{dis|Worf|Klingon}}` → `[[Worf (Klingon)|Worf]]`, for each declared template.
+    The first letter of a template name is case-insensitive, as on the wiki."""
+    for name, target, label in templates:
+        pattern = re.compile(
+            r"\{\{\s*[%s%s]%s\s*\|([^{}|]+)(?:\|([^{}|]*))?(?:\|[^{}]*)?\}\}"
+            % (name[0].upper(), name[0].lower(), re.escape(name[1:]))
+        )
+
+        def link(match: re.Match) -> str:
+            first, second = match.group(1).strip(), (match.group(2) or "").strip()
+            fill = lambda form: form.replace("{1}", first).replace("{2}", second)  # noqa: E731
+            to = fill(target) if second or "{2}" not in target else first
+            return f"[[{to.strip()}|{fill(label).strip()}]]"
+
+        text = pattern.sub(link, text)
+    return text
 
 
 def _as_written(metadata: list[dict], texts: list[str]) -> None:
@@ -494,17 +565,49 @@ def _read(box: Infobox, reading: Reading) -> dict:
     pattern = re.compile(reading.group_pattern) if reading.group_pattern else None
     # A group already said as a people or a trait ("Gryffindor") adds nothing.
     said = {culture.lower(), *(t.lower() for t in traits)}
+    born, homeworld = _birth(box, reading)
     return {
         "titles": titles,
         "occupation": occupation,
         "traits": traits,
         "culture": culture,
         "species": kind,
+        "homeworld": homeworld,
+        "born": born,
         "affiliations": [
             g for g in listed(reading.affiliations, reading.prefer_groups)
             if g.lower() not in said and (not pattern or pattern.search(g))
         ],
     }
+
+
+_YEAR = re.compile(r"\d{3,4}")
+_CENTURY = re.compile(r"\d{1,2}(?:st|nd|rd|th) century", re.I)
+_MONTHS = frozenset({
+    "january", "february", "march", "april", "may", "june", "july", "august", "september",
+    "october", "november", "december",
+})
+
+
+def _birth(box: Infobox, reading: Reading) -> tuple[str, str]:
+    """("In 2305", "Earth") from `July 13, 2305, <br> La Barre, France, Earth`.
+
+    Only a bare year or century is a year: "After 2376" and "Mid-20th century"
+    are guesses the wiki hedged, and are left out. The place is the last one
+    named, which is the planet; a starship is not a homeworld.
+    """
+    if not reading.born:
+        return "", ""
+    year = place = ""
+    for entry in box.entries(*reading.born):
+        text = entry.text
+        if _YEAR.fullmatch(text) or _CENTURY.fullmatch(text):
+            year = year or (f"In {text}" if _YEAR.fullmatch(text) else f"In the {text}")
+        elif not re.search(r"\d", text) and text.lower() not in _MONTHS and not text.startswith(("USS ", "ISS ")):
+            place = text
+    if place in reading.ordinary_homeworlds:
+        place = ""
+    return year, place
 
 
 def _word(word: str) -> re.Pattern:
@@ -535,7 +638,10 @@ def _names_person(value: str, people: set[str], names: set[str]) -> bool:
     not a group. A possessive names a group ("Renfri's band")."""
     if value in people:
         return True
-    return "'s " not in value and any(_has_word(value, name) for name in names)
+    lower = value.lower()
+    # The substring test first: a cast of thousands would otherwise compile a
+    # regex per name per value.
+    return "'s " not in value and any(name.lower() in lower and _has_word(value, name) for name in names)
 
 
 # --- the cast ---------------------------------------------------------------
@@ -548,8 +654,8 @@ def _cast(wiki: Wiki, pages: dict[str, str], listings: dict[str, list[str]]) -> 
         if segment.category:
             for title in listings.get(segment.category, ()):
                 cast[title].add(segment.id)
-    for category in wiki.categories:
-        for title in listings.get(category, ()):
+    for listing in (*wiki.categories, *wiki.templates):
+        for title in listings.get(listing, ()):
             cast.setdefault(title, set())
 
     appearance = {s.appearance: s.id for s in wiki.segments if s.appearance}
@@ -559,15 +665,16 @@ def _cast(wiki: Wiki, pages: dict[str, str], listings: dict[str, list[str]]) -> 
             if books:
                 cast[title] |= books
 
+    skip = re.compile(wiki.skip_titles) if wiki.skip_titles else None
     kept = {}
     for title, books in cast.items():
         text = pages.get(title)
         # Subpages are a character's adaptation variants (`Paul Atreides/2021 film`).
-        if text is None or "/" in title:
+        if text is None or "/" in title or (skip and skip.search(title)):
             continue
         if wiki.infoboxes and not any(f"{{{{{box.lower()}" in text.lower() for box in wiki.infoboxes):
             continue
-        kept[title] = books
+        kept[title] = books | (wiki.appears(text) if wiki.appears else set())
     return kept
 
 
@@ -605,6 +712,8 @@ def _ensure_raw(wiki: Wiki) -> tuple[dict[str, str], dict[str, str], dict[str, l
     listings = {}
     for category in [s.category for s in wiki.segments if s.category] + list(wiki.categories):
         listings[category] = _category_members(wiki, category)
+    for template in wiki.templates:
+        listings[template] = sorted(set(_embedding(wiki, template)))
     candidates = {t for titles in listings.values() for t in titles}
     for segment in wiki.segments:
         if segment.appearance:
@@ -642,8 +751,11 @@ def _ensure_codes(wiki: Wiki) -> dict[str, dict[str, str]]:
     for template, module in wiki.code_templates:
         if module not in modules:
             raise ValueError(f"{wiki.id}: {module} does not exist on {wiki.host}.")
-        pairs = re.findall(r'^\s*\[?"?([\w-]+)"?\]?\s*=\s*"((?:[^"\\]|\\.)*)"', modules[module], re.M)
-        codes[template] = dict(pairs)
+        # Keys are bare (`SHD2 = "..."`) or quoted titles (`["Mudd's Women"] = "..."`).
+        pairs = re.findall(
+            r'^\s*(?:\["((?:[^"\\]|\\.)*)"\]|\[?"?([\w-]+)"?\]?)\s*=\s*"((?:[^"\\]|\\.)*)"', modules[module], re.M
+        )
+        codes[template] = {quoted or bare: value for quoted, bare, value in pairs}
     path.write_text(json.dumps(codes, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     return codes
 
@@ -726,7 +838,7 @@ def _unref(match: re.Match) -> str:
 
 
 def _infobox_span(text: str) -> tuple[int, int] | None:
-    match = re.search(r"\{\{\s*(infobox[ _]\w+|\w+[ _]infobox|character\s*(?=\||\n))", text, re.I)
+    match = re.search(r"\{\{\s*(infobox[ _]\w+|\w+[ _]infobox|sidebar[ _](?:individual|hologram)|character\s*(?=\||\n))", text, re.I)
     if not match:
         return None
     start = match.start()
@@ -1093,7 +1205,7 @@ STORMLIGHT = Wiki(
     accent="#3E6A8A",
     host="stormlightarchive.fandom.com",
     name="Stormlight Archive Wiki",
-    retrieved="2026-09-30",
+    retrieved="2026-10-04",
     segments=(
         Segment("twok", "The Way of Kings"),
         Segment("wor", "Words of Radiance"),
@@ -1128,7 +1240,7 @@ HARRY_POTTER = Wiki(
     accent="#7F1D1D",
     host="harrypotter.fandom.com",
     name="Harry Potter Wiki",
-    retrieved="2026-09-30",
+    retrieved="2026-10-04",
     segments=tuple(Segment(sid, label, appearance=code) for sid, label, code in _HP_BOOKS),
     infoboxes=("Individual infobox",),
     # `{{PS}}` or `{{PS|B|C1}}` is the book; `{{PS|F}}` the film, `{{PS|G}}` the game.
@@ -1166,7 +1278,7 @@ WITCHER = Wiki(
     accent="#5B5B4B",
     host="witcher.fandom.com",
     name="Witcher Wiki",
-    retrieved="2026-09-30",
+    retrieved="2026-10-04",
     segments=tuple(Segment(sid, label, category=f"Category:{label} characters") for sid, label, _ in _WITCHER_BOOKS),
     cites=_template_cites({code: sid for sid, _, code in _WITCHER_BOOKS}),
     offscope=_mentions_any(("Tw1", "Tw2", "Tw3", "HoS", "BaW", "TWAG", "TWBA", "Gwent", "Netflix", "Ronin")),
@@ -1191,7 +1303,7 @@ LAST_AIRBENDER = Wiki(
     accent="#B45309",
     host="avatar.fandom.com",
     name="Avatar Wiki",
-    retrieved="2026-09-30",
+    retrieved="2026-10-04",
     segments=tuple(Segment(sid, label) for sid, label in _ATLA_BOOKS),
     categories=("Category:Avatar: The Last Airbender characters",),
     cites=lambda text: {_ATLA_BOOKS[int(n) - 1][0] for n in _ATLA_EPISODE.findall(text)},
@@ -1238,7 +1350,7 @@ MCU = Wiki(
     accent="#9F1239",
     host="marvelcinematicuniverse.fandom.com",
     name="Marvel Cinematic Universe Wiki",
-    retrieved="2026-09-30",
+    retrieved="2026-10-04",
     segments=tuple(Segment(sid, label, category=f"Category:{page} Characters") for sid, label, page in _MCU_FILMS),
     # Articles are titled by whichever name the films lean on — "Iron Man" but
     # "Steve Rogers" — so the other name must reach the type-ahead.
@@ -1259,7 +1371,129 @@ MCU = Wiki(
     ),
 )
 
-WIKIS: dict[str, Wiki] = {w.id: w for w in (STORMLIGHT, HARRY_POTTER, WITCHER, LAST_AIRBENDER, MCU)}
+# Memory Alpha's series codes, in order of first broadcast. Short Treks, Very
+# Short Treks, Scouts and the like get no segment: a tie they alone cite still
+# counts, it just names no series.
+_TREK_SERIES = (
+    ("tos", "The Original Series", "TOS"),
+    ("tas", "The Animated Series", "TAS"),
+    ("films", "the films", "FLM"),
+    ("tng", "The Next Generation", "TNG"),
+    ("ds9", "Deep Space Nine", "DS9"),
+    ("voy", "Voyager", "VOY"),
+    ("ent", "Enterprise", "ENT"),
+    ("dis", "Discovery", "DIS"),
+    ("pic", "Picard", "PIC"),
+    ("ld", "Lower Decks", "LD"),
+    ("pro", "Prodigy", "PRO"),
+    ("snw", "Strange New Worlds", "SNW"),
+    ("sa", "Starfleet Academy", "SA"),
+)
+_TREK_CODES = {code: sid for sid, _, code in _TREK_SERIES}
+# `{{DS9|Emissary|A Man Alone}}`, `{{TOS-R|...}}` (remastered), or a bare `{{DS9}}`.
+_TREK_SERIES_CITE = re.compile(r"\{\{\s*(%s)(?:-R)?\s*[|}]" % "|".join(_TREK_CODES))
+_TREK_FILM_CITE = re.compile(r"\{\{\s*film\s*\|", re.I)
+# `{{e|A Time to Stand}}` leaves the series to Module:EpisodeData/A; a third
+# parameter overrides it.
+_TREK_EPISODE_CITE = re.compile(r"\{\{\s*e\s*\|([^|{}]+)(?:\|[^|{}]*)?(?:\|([^|{}]*))?\}\}")
+# An appearance only as a hologram, archive footage, a picture or a voice is
+# not being there: `{{small|(archive footage)}}`, `{{small|(picture only)}}`.
+_TREK_NOT_THERE = re.compile(
+    r"\{\{\s*small\s*\|[^{}]*\b(?:only|archive|archival|footage|image|picture|photo|recording|hologram|"
+    r"mention|dream|voice)",
+    re.I,
+)
+
+
+@functools.cache
+def _trek_episodes() -> dict[str, str]:
+    """Episode title → series code, from the wiki's own lookup module."""
+    return _ensure_codes(STAR_TREK).get("E", {})
+
+
+def _trek_cites(text: str) -> set[str]:
+    found = {_TREK_CODES[code] for code in _TREK_SERIES_CITE.findall(text)}
+    if _TREK_FILM_CITE.search(text):
+        found.add("films")
+    for title, series in _TREK_EPISODE_CITE.findall(text):
+        title = re.sub(r"\s*\((?:episode|film)\)$", "", title.strip())
+        code = series.strip() or _trek_episodes().get(title, "")
+        if code in _TREK_CODES:
+            found.add(_TREK_CODES[code])
+    return found
+
+
+# `{{s|DIS}}` names a series. In an appearances list it means all of it; in
+# prose it is only a mention, so it is not read as a citation.
+_TREK_WHOLE_SERIES = re.compile(r"\{\{\s*s\s*\|\s*(%s)\s*\}\}" % "|".join(_TREK_CODES))
+
+
+def _trek_appears(text: str) -> set[str]:
+    """Series from the `=== Appearances ===` list of an article."""
+    match = re.search(r"^=+\s*Appearances\s*=+\s*$(.*?)(?=^=|\Z)", text, re.M | re.S | re.I)
+    if not match:
+        return set()
+    return {
+        segment
+        for line in match.group(1).splitlines()
+        if not _TREK_NOT_THERE.search(line)
+        for segment in _trek_cites(line) | {_TREK_CODES[c] for c in _TREK_WHOLE_SERIES.findall(line)}
+    }
+
+
+STAR_TREK_READING = Reading(
+    occupation=("occupation",),
+    # A rank held through a series ahead of the flag rank many reach in its sequel.
+    prefer_titles=(
+        "Captain", "Commander", "Lieutenant Commander", "Lieutenant", "Ensign", "Constable",
+        "Chancellor", "Grand Nagus", "Gul", "Legate", "Kai", "Doctor",
+    ),
+    born=("born", "birth date", "birth place"),
+    # Most of Starfleet: "of Earth" says nothing about one Human officer.
+    ordinary_homeworlds=("Earth",),
+)
+
+STAR_TREK = Wiki(
+    id="startrek",
+    title="Star Trek",
+    accent="#6A4C93",
+    host="memory-alpha.fandom.com",
+    name="Memory Alpha",
+    retrieved="2026-10-04",
+    segments=tuple(Segment(sid, label) for sid, label, _ in _TREK_SERIES),
+    license=CC_BY_NC_4_0,
+    # Holograms (the Doctor, Vic Fontaine) carry their own box.
+    templates=("Template:Sidebar individual", "Template:Sidebar hologram"),
+    # The prime timeline: mirror-universe and Kelvin-timeline counterparts are
+    # their own articles, and would be the same character twice.
+    skip_titles=r"\((?:mirror|alternate reality)\)$",
+    cites=_trek_cites,
+    appears=_trek_appears,
+    skip_sections=SKIP_SECTIONS | {
+        "memorable quotes", "appendices", "apocrypha", "background information", "chronology",
+        "related topics", "related articles",
+    },
+    code_templates=(("E", "Module:EpisodeData/A"),),
+    link_templates=(("dis", "{1} ({2})", "{1}"), ("USS", "USS {1} ({2})", "USS {1}")),
+    gender_from_pronouns=True,
+    reading=STAR_TREK_READING,
+    fact_fields="rank, occupation, species, birth year, homeworld and affiliations",
+    source_unit="series",
+    scope_note="individuals of the prime timeline",
+    extra_modifications=(
+        "Took the cast from the articles that carry the individual sidebar, leaving out "
+        "mirror-universe and Kelvin-timeline counterparts.",
+        "Took each tie's series from the episode and film citations in the paragraphs behind it, "
+        "or else the series both characters appear in.",
+        "Read the wiki's link templates ({{dis}}, {{USS}}) as the links they render.",
+        "Where neither the sidebar nor Wikidata gives a gender, took it from the pronouns of the "
+        "article's first three paragraphs when one set outnumbers the other three to one.",
+    ),
+)
+
+WIKIS: dict[str, Wiki] = {
+    w.id: w for w in (STORMLIGHT, HARRY_POTTER, WITCHER, LAST_AIRBENDER, MCU, STAR_TREK)
+}
 
 
 def loader(world: str) -> Callable[[], CanonicalGraph]:

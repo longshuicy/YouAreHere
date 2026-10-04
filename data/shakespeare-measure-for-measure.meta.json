@@ -14,7 +14,7 @@
    },
    "line": "An executioner.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -108,7 +108,7 @@
    },
    "line": "Brother to Isabella.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -129,7 +129,7 @@
    },
    "line": "Duke, Later called Friar Lodowick.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -213,7 +213,7 @@
    },
    "line": "Pompey’s customer.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -234,7 +234,7 @@
    },
    "line": "A novice in the Order of Saint Clare.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -268,7 +268,7 @@
    },
    "line": "Justice.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -289,7 +289,7 @@
    },
    "line": "Friend to Claudio.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -355,7 +355,7 @@
    },
    "line": "Her servant.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -374,7 +374,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",

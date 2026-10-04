@@ -295,7 +295,7 @@
    "wiki": "太上老君",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -512,7 +512,7 @@
    "wiki": "沙僧",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "shakespeare-alls-well-that-ends-well",
      "story": "All’s Well That Ends Well",
@@ -620,7 +620,7 @@
    },
    "line": "屬唐。見於16回。",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -647,7 +647,7 @@
    },
    "line": "屬唐。見於5回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -716,7 +716,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 4,
+    "lookAlikes": 5,
     "nearest": {
      "world": "mmkg",
      "story": "Musical Meetups",
@@ -755,7 +755,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -779,7 +779,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -803,7 +803,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -827,7 +827,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -853,7 +853,7 @@
    },
    "line": "屬唐。見於4回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -877,7 +877,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -902,7 +902,7 @@
    },
    "line": "屬唐。見於3回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -926,7 +926,7 @@
    },
    "line": "屬唐。見於第10回、第11回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 76,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -1162,7 +1162,7 @@
    },
    "line": "王。屬流沙國。見於22回。",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -1467,7 +1467,7 @@
    "wiki": "白龙马",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1591,7 +1591,7 @@
    "wiki": "哪吒",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 5,
+    "lookAlikes": 7,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -1868,11 +1868,11 @@
    "wiki": "李靖 (神话人物)",
    "wikiLang": "zh",
    "signals": {
-    "lookAlikes": 20,
+    "lookAlikes": 31,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Giselher",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "B'Etor",
      "tied": 0
     }
    }

@@ -7,6 +7,7 @@ be written without complete attribution, and no name may reach index.json.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 from ..analyse import difficulty, layout, starts
@@ -601,9 +602,10 @@ def _assert_no_character_names(index: dict, summaries: list[dict]) -> None:
     for identifier in sorted(identifiers, key=len, reverse=True):
         serialised = serialised.replace(identifier.lower(), " ")
 
+    # Whole words: "Eline" is a name, and also the middle of "pipelineVersion".
     for summary in summaries:
         for name in summary["characterNames"]:
-            if len(name) > 3 and name.lower() in serialised:
+            if len(name) > 3 and re.search(rf"(?<!\w){re.escape(name.lower())}(?!\w)", serialised):
                 raise ValueError(
                     f"index.json leaks the character name '{name}'. The boot payload must not "
                     f"reveal any universe's cast."

@@ -14,7 +14,7 @@
    },
    "line": "A Sicilian courtier.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-measure-for-measure",
      "story": "Measure for Measure",
@@ -56,7 +56,7 @@
    },
    "line": "A courtier, friend to Leontes and then to Polixenes.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -75,7 +75,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -94,7 +94,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",
@@ -134,7 +134,7 @@
    },
    "line": "His son.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-comedy-of-errors",
      "story": "The Comedy of Errors",
@@ -282,7 +282,7 @@
    },
    "line": "Their daughter.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -303,7 +303,7 @@
    },
    "line": "King of Bohemia.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-the-winters-tale",
      "story": "The Winter's Tale",

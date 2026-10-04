@@ -144,7 +144,17 @@ def _node_facts(graph: CanonicalGraph, overrides: dict[str, dict]) -> dict[str, 
 
         qid = qid_by_node.get(node.id)
         if qid and qid in wd_by_qid:
-            wikidata.apply_to_record(record, wd_by_qid[qid])
+            # A wiki's infobox knows its world better than Wikidata does ("Wizard in
+            # the Harry Potter universe", a birthplace as a homeworld); gender is the
+            # one gap Wikidata fills cleanly.
+            if source in fandom.WIKIS:
+                if wd_by_qid[qid].get("gender") and "gender" not in record:
+                    record["gender"] = wd_by_qid[qid]["gender"]
+            else:
+                wikidata.apply_to_record(record, wd_by_qid[qid])
+        # Read from the article's pronouns: weaker than an infobox or Wikidata.
+        if "gender" not in record and node.metadata.get("pronounGender"):
+            record["gender"] = node.metadata["pronounGender"]
         _trim_literary(record, source)
 
         pinned = _facts_pin(node, overrides)
@@ -250,7 +260,9 @@ def _apply_lotr(record: dict, node) -> None:
         record["culture"] = culture
 
 
-FANDOM_FACTS = ("titles", "occupation", "traits", "culture", "species", "affiliations", "articles")
+FANDOM_FACTS = (
+    "titles", "occupation", "traits", "culture", "species", "homeworld", "born", "affiliations", "articles",
+)
 
 
 def _apply_fandom(record: dict, node, wiki_links: dict[str, str]) -> None:
@@ -298,6 +310,38 @@ def _fandom_wiki_links(graph: CanonicalGraph) -> dict[str, str]:
         if nid in ids and article not in links.values():
             links.setdefault(nid, article)
     return links
+
+
+def _fandom_qids(graph: CanonicalGraph) -> dict[str, str]:
+    """Node id → Wikidata QID, via the items' Fandom article IDs.
+
+    Kept only when the item's label is a name of the node its page resolves to,
+    or else of exactly one node: the same moved-page problem as the Wikipedia
+    links, and a wrong QID would bring someone else's gender with it.
+    """
+    node_of = fandom.title_resolver(graph.id)
+    community = fandom.WIKIS[graph.id].host.split(".")[0]
+    items = wikidata.fandom_items(community, cache_dir=RAW / graph.id)
+
+    forms: dict[str, set[str]] = {}
+    owners: dict[str, set[str]] = defaultdict(set)
+    for node in graph.nodes:
+        forms[node.id] = {f.lower() for f in (node.name, *node.aliases)}
+        for form in forms[node.id]:
+            owners[form].add(node.id)
+
+    qids: dict[str, str] = {}
+    for page, item in sorted(items.items()):
+        label = re.sub(r"\s*\([^)]*\)$", "", item.get("label") or "").lower()
+        if not label:
+            continue
+        nid = node_of(page)
+        if label not in forms.get(nid, ()):
+            named = owners.get(label, set())
+            nid = next(iter(named)) if len(named) == 1 else None
+        if nid and nid not in qids:
+            qids[nid] = item["qid"]
+    return qids
 
 
 def _apply_pride(record: dict, node) -> None:
@@ -476,6 +520,10 @@ def _wikidata_for(
 
     if source == "civilwar":
         for node_id, qid in _match_civilwar(graph, overrides).items():
+            qid_by_node.setdefault(node_id, qid)
+
+    if source in fandom.WIKIS:
+        for node_id, qid in _fandom_qids(graph).items():
             qid_by_node.setdefault(node_id, qid)
 
     work_qid = wikidata.WORK_CAST.get(source)

@@ -56,10 +56,11 @@ partial index.
   the two Roman plays.
 - **Star Wars** — 103 characters, tied when they speak in the same scene.
 - **Fan-wiki worlds** — The Stormlight Archive (579 characters), Harry Potter (445),
-  The Witcher (635), Avatar: The Last Airbender (244) and the Marvel Cinematic
-  Universe's Infinity Saga (630). Tied when the same paragraph of a Fandom character
-  article links to both; CC BY-SA 3.0, licensed per world. See
-  `pipeline/raw/stormlight/SOURCE.md` for the method.
+  The Witcher (635), Avatar: The Last Airbender (244), the Marvel Cinematic
+  Universe's Infinity Saga (630) and Star Trek (756, from Memory Alpha). Tied when
+  the same paragraph of a Fandom character article links to both; CC BY-SA 3.0, except
+  Star Trek's CC BY-NC 4.0, licensed per world. See `pipeline/raw/stormlight/SOURCE.md`
+  for the method.
 ## Licensing
 
 The code and the data are licensed separately, and the data is the restrictive half.

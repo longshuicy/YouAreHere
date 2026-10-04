@@ -70,16 +70,7 @@
      "Suki's team": ""
     }
    },
-   "line": "Kyoshi Warrior, Kyoshi Islander, of Suki's team. Appears in Book Two: Earth.",
-   "signals": {
-    "lookAlikes": 39,
-    "nearest": {
-     "world": "harry-potter",
-     "story": "Harry Potter",
-     "name": "Ronan",
-     "tied": 0
-    }
-   }
+   "line": "Kyoshi Warrior, Kyoshi Islander, of Suki's team. Appears in Book Two: Earth."
   },
   "3": {
    "facts": {
@@ -114,7 +105,7 @@
    "wiki": "Appa (Avatar: The Last Airbender)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -197,7 +188,7 @@
    "wiki": "Azula",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -251,7 +242,7 @@
    },
    "line": "Firebender, Fire Nation, of the Fire Nation Royal Family. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -283,11 +274,11 @@
    },
    "line": "Appears in Book One: Water.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Roach",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Skon",
      "tied": 0
     }
    }
@@ -312,7 +303,7 @@
    },
    "line": "Warrior, Water Tribe, of the Southern Water Tribe. Appears in Book One: Water and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -333,11 +324,11 @@
    },
    "line": "Earth Kingdom. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
-     "name": "Moku",
+     "name": "Than",
      "tied": 0
     }
    }
@@ -426,7 +417,7 @@
    },
    "line": "Earthbender, Earth Kingdom, of the Order of the White Lotus. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -480,7 +471,7 @@
    },
    "line": "Earthbender, Earth Kingdom.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -526,7 +517,7 @@
    },
    "line": "Fire Nation. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -547,7 +538,7 @@
    },
    "line": "Military official. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -575,7 +566,7 @@
    },
    "line": "Captain, Fire Nation, of the Fire Army. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -586,18 +577,13 @@
   },
   "25": {
    "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "unit": "season",
-    "corpusSize": 3,
     "gender": "Male",
     "traits": [
      "earthbender"
     ],
     "culture": "Earth Kingdom"
    },
-   "line": "Earthbender, Earth Kingdom. Appears in Book Two: Earth.",
+   "line": "Earthbender, Earth Kingdom.",
    "signals": {
     "lookAlikes": 33,
     "nearest": {
@@ -623,7 +609,7 @@
    },
    "line": "Firebender, Fire Nation. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -643,7 +629,7 @@
    },
    "line": "Fire Nation. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -659,7 +645,7 @@
    },
    "line": "Fire Nation.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -687,7 +673,7 @@
    },
    "line": "Entertainer, Earth Kingdom, of Trustfully in Love. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -712,7 +698,7 @@
    },
    "line": "Animal tamer, firebender, Fire Nation. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -740,7 +726,7 @@
    },
    "line": "Assassin, firebender, Fire Nation, of the Contract employer. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -754,7 +740,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -857,7 +843,7 @@
    },
    "line": "Fire Nation. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -883,7 +869,7 @@
    },
    "line": "Firebender, Fire Nation. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -919,7 +905,7 @@
    },
    "line": "Fire Nation, of the Boiling Rock. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -942,7 +928,7 @@
    },
    "line": "Firebender. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -980,7 +966,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 86,
+    "lookAlikes": 93,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -998,7 +984,7 @@
    },
    "line": "Firebender.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1112,7 +1098,7 @@
    },
    "line": "Military official, earthbender, Earth Kingdom, of the Earth Kingdom military. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1153,7 +1139,7 @@
    },
    "line": "Kyoshi Warrior, Kyoshi Islander, of Suki's team. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 89,
+    "lookAlikes": 17,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1235,11 +1221,11 @@
    },
    "line": "Ganjinese, of the Zhang. Appears in Book One: Water.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Aegon I Targaryen",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Unnamed Romulans",
      "tied": 0
     }
    }
@@ -1273,7 +1259,7 @@
    },
    "line": "Desert bandit, Si Wong, of the Si Wong tribes. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -1301,7 +1287,7 @@
    },
    "line": "Warrior, Water Tribe, of the Southern Water Tribe. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1327,7 +1313,7 @@
    },
    "line": "Rogue officer, earthbender, Earth Kingdom, of the Earth Kingdom military.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -1357,7 +1343,7 @@
    },
    "line": "Firebender, Fire Nation, of the Fire Sages. Appears in Book One: Water.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -1405,11 +1391,11 @@
    },
    "line": "Monk, airbender, Air Nomad, of the Air Nomads. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Oberyn Martell",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Reginald Barclay",
      "tied": 0
     }
    }
@@ -1433,7 +1419,7 @@
    },
    "line": "Soldier, Water Tribe, of the Northern Water Tribe. Appears in Book One: Water.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1465,7 +1451,7 @@
    "wiki": "Hakoda",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1511,7 +1497,7 @@
    },
    "line": "Waterbender, Water Tribe, of the Southern Water Tribe. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1543,7 +1529,7 @@
    },
    "line": "Earthbender, Earth Kingdom, of Hakoda's forces. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1589,7 +1575,7 @@
    },
    "line": "Fire Nation, of Team Avatar. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -1695,7 +1681,7 @@
    },
    "line": "Guardian, Spirit, of the Spirit World. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -1716,7 +1702,7 @@
    },
    "line": "Earth Kingdom. Appears in Book One: Water.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1742,7 +1728,7 @@
    },
    "line": "Student, firebender, Fire Nation, of the Fire Nation school.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shiji",
      "story": "史記",
@@ -1764,7 +1750,7 @@
    },
    "line": "Earth Kingdom. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -1828,7 +1814,7 @@
    },
    "line": "Waterbender, Water Tribe, of the Foggy Swamp Tribe. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1884,7 +1870,7 @@
    "wiki": "Iroh",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -1954,7 +1940,7 @@
    },
    "line": "Military official, firebender, Fire Nation, of the Order of the White Lotus. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -1979,7 +1965,7 @@
    "wiki": "Jet (Avatar: The Last Airbender)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2012,11 +1998,11 @@
    },
    "line": "Black market errand runner, earthbender, Earth Kingdom, of the Guan family. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
-     "name": "Eric Savin",
+     "name": "Bill Foster",
      "tied": 0
     }
    }
@@ -2079,7 +2065,7 @@
    },
    "line": "Earth Kingdom, of the Fire Nation. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -2108,7 +2094,7 @@
    },
    "line": "Jasmine Dragon tea discoverer, Earth Kingdom. Appears in Book One: Water and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -2136,7 +2122,7 @@
    },
    "line": "Soldier, Fire Nation, of the Rough Rhinos. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2162,11 +2148,11 @@
    },
    "line": "Fire Sage, firebender, Fire Nation, of the Fire Sages.",
    "signals": {
-    "lookAlikes": 50,
+    "lookAlikes": 55,
     "nearest": {
-     "world": "witcher",
-     "story": "The Witcher",
-     "name": "Dagorad",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Sutra",
      "tied": 0
     }
    }
@@ -2191,7 +2177,7 @@
    },
    "line": "Midwife, Water Tribe, of the Southern Water Tribe. Appears in Book One: Water and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2362,7 +2348,7 @@
    },
    "line": "Earth Kingdom, of the Earth Kingdom government. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -2388,7 +2374,7 @@
    },
    "line": "Avatar, waterbender, Water Tribe. Appears in Book One: Water and Book Two: Earth.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -2411,7 +2397,7 @@
    },
    "line": "History teacher, Fire Nation, of the Fire Nation school.",
    "signals": {
-    "lookAlikes": 41,
+    "lookAlikes": 48,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2474,7 +2460,7 @@
    "wiki": "Kyoshi (character)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2507,7 +2493,7 @@
    },
    "line": "Waterbender, Spirit, of the Spirit World. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -2538,7 +2524,7 @@
    },
    "line": "Businessman, Earth Kingdom, of the Cranefish Town Business Council. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2592,11 +2578,11 @@
    },
    "line": "Entertainer, Earth Kingdom, of Trustfully in Love. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
-     "world": "last-airbender",
-     "story": "Avatar: The Last Airbender",
-     "name": "Ying",
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Wormtongue",
      "tied": 0
     }
    }
@@ -2633,9 +2619,9 @@
    "signals": {
     "lookAlikes": 89,
     "nearest": {
-     "world": "congress",
-     "story": "U.S. Congress",
-     "name": "George Voinovich",
+     "world": "starwars",
+     "story": "Star Wars",
+     "name": "Sio Bibble",
      "tied": 0
     }
    }
@@ -2661,7 +2647,7 @@
    },
    "line": "Earthbender, Earth Kingdom, of Ba Sing Se. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2689,7 +2675,7 @@
    },
    "line": "Revolutionary, Earth Kingdom, of the Freedom Fighters. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -2800,7 +2786,7 @@
    "wiki": "Mai (Avatar: The Last Airbender)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -2840,7 +2826,7 @@
    },
    "line": "Inventor, Earth Kingdom. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -2891,7 +2877,7 @@
    },
    "line": "Florist, Fire Nation. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -2922,7 +2908,7 @@
    },
    "line": "Prison guard, firebender, Fire Nation, of the Domestic Forces. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -2951,11 +2937,11 @@
    },
    "line": "Kyoshi Warrior, Kyoshi Islander, of Suki's team. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 161,
+    "lookAlikes": 17,
     "nearest": {
-     "world": "harry-potter",
-     "story": "Harry Potter",
-     "name": "Willy Widdershins",
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Vaux",
      "tied": 0
     }
    }
@@ -2972,7 +2958,7 @@
    },
    "line": "Earth Kingdom. Appears in Book One: Water.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -3000,7 +2986,7 @@
    },
    "line": "Entertainer, Earth Kingdom, of Trustfully in Love. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -3031,7 +3017,7 @@
    "wiki": "Momo (Avatar: The Last Airbender)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -3062,7 +3048,7 @@
    },
    "line": "Mercenary, firebender, Fire Nation, of the Rough Rhinos. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -3171,7 +3157,7 @@
    },
    "line": "Mercenary, Fire Nation, of the Rough Rhinos. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -3232,7 +3218,7 @@
    },
    "line": "Earth Kingdom. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -3248,6 +3234,7 @@
     ],
     "unit": "season",
     "corpusSize": 3,
+    "gender": "Male",
     "occupation": "Soldier",
     "culture": "Earth Kingdom",
     "affiliations": [
@@ -3273,7 +3260,7 @@
    },
    "line": "Student, Fire Nation, of the Fire Nation school.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 20,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3336,7 +3323,7 @@
    "wiki": "Fire Lord Ozai",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -3363,7 +3350,7 @@
    },
    "line": "Spirit, of the Spirit World. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -3397,7 +3384,7 @@
    },
    "line": "Waterbender, Water Tribe, of the Order of the White Lotus. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -3419,7 +3406,7 @@
    },
    "line": "Tea shop owner, Earth Kingdom. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-macbeth",
      "story": "Macbeth",
@@ -3447,7 +3434,7 @@
    },
    "line": "Monk, airbender, Air Nomad, of the Air Nomads.",
    "signals": {
-    "lookAlikes": 65,
+    "lookAlikes": 72,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -3490,7 +3477,7 @@
    },
    "line": "Guru, Neutral. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3534,7 +3521,7 @@
    },
    "line": "Swordsmith, Fire Nation, of the Order of the White Lotus. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -3564,7 +3551,7 @@
    },
    "line": "Earth Kingdom, of the Freedom Fighters. Appears in Book One: Water and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -3642,7 +3629,7 @@
    },
    "line": "Earth Kingdom. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 25,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -3687,7 +3674,7 @@
    },
    "line": "Playwright, Earth Kingdom.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -3710,7 +3697,7 @@
    },
    "line": "Government official, Fire Nation. Appears in Book One: Water and Book Two: Earth.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -3802,7 +3789,7 @@
    },
    "line": "Kyoshi Warrior, Kyoshi Islander, of Suki's team. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 89,
+    "lookAlikes": 17,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -3831,7 +3818,7 @@
    "wiki": "Avatar Roku",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -3858,7 +3845,7 @@
    },
    "line": "Fire Nation.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -3891,11 +3878,11 @@
    },
    "line": "Earth Kingdom.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
-     "world": "friends",
-     "story": "Friends",
-     "name": "Gavin",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "T'Pau",
      "tied": 0
     }
    }
@@ -3925,7 +3912,7 @@
    },
    "line": "Earth Kingdom. Appears in Book One: Water.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "xiyouji",
      "story": "西遊記",
@@ -3936,11 +3923,12 @@
   },
   "170": {
    "facts": {
+    "gender": "Male",
     "culture": "Earth Kingdom"
    },
    "line": "Earth Kingdom.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4036,7 +4024,7 @@
    },
    "line": "Firebender, Fire Nation, of the Fire Nation circus. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "congress",
      "story": "U.S. Congress",
@@ -4109,7 +4097,7 @@
    },
    "line": "Revolutionary, Earth Kingdom, of the Freedom Fighters. Appears in Book One: Water and Book Two: Earth.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -4245,7 +4233,7 @@
    },
    "line": "Firebender, Fire Nation, of the Fire Nation Royal Family. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -4293,7 +4281,7 @@
    },
    "line": "Earthbender, Earth Kingdom.",
    "signals": {
-    "lookAlikes": 48,
+    "lookAlikes": 52,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4327,7 +4315,7 @@
    "wiki": "Suki (Avatar: The Last Airbender)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -4370,7 +4358,7 @@
    },
    "line": "Military officer, earthbender, Earth Kingdom, of the Earth Kingdom military. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -4438,7 +4426,7 @@
    },
    "line": "Diplomat, waterbender, Water Tribe, of the Northern Water Tribe.",
    "signals": {
-    "lookAlikes": 60,
+    "lookAlikes": 67,
     "nearest": {
      "world": "bible",
      "story": "The Bible",
@@ -4465,7 +4453,7 @@
    },
    "line": "Monk, airbender, Air Nomad, of the Air Nomads.",
    "signals": {
-    "lookAlikes": 82,
+    "lookAlikes": 89,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4504,7 +4492,7 @@
    },
    "line": "Earth Kingdom. Appears in Book One: Water and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -4526,11 +4514,11 @@
    },
    "line": "Earth Kingdom. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 15,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Theo Broussard",
+     "world": "last-airbender",
+     "story": "Avatar: The Last Airbender",
+     "name": "Bosco",
      "tied": 0
     }
    }
@@ -4546,11 +4534,11 @@
    },
    "line": "Earth Kingdom. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Attaché",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Katherine Pulaski",
      "tied": 0
     }
    }
@@ -4604,7 +4592,7 @@
    },
    "line": "Professional earthbending fighter, earthbender, Earth Kingdom, of the Earth Rumble. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -4634,7 +4622,7 @@
    },
    "line": "Earth Kingdom, of the Freedom Fighters. Appears in Book One: Water and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -4746,7 +4734,7 @@
    },
    "line": "Fire Nation. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",
@@ -4757,16 +4745,11 @@
   },
   "211": {
    "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "unit": "season",
-    "corpusSize": 3,
     "gender": "Male",
     "occupation": "Government official",
     "culture": "Earth Kingdom"
    },
-   "line": "Government official, Earth Kingdom. Appears in Book Two: Earth.",
+   "line": "Government official, Earth Kingdom.",
    "signals": {
     "lookAlikes": 161,
     "nearest": {
@@ -4804,7 +4787,7 @@
    "wiki": "Toph Beifong",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 225,
+    "lookAlikes": 227,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -4825,11 +4808,11 @@
    },
    "line": "Fire Nation. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
-     "world": "hongloumeng",
-     "story": "紅樓夢",
-     "name": "包勇",
+     "world": "shakespeare-english-histories",
+     "story": "The English Histories",
+     "name": "Lieutenant (Henry VI, Part 3)",
      "tied": 0
     }
    }
@@ -4870,7 +4853,7 @@
    },
    "line": "Waterbender, Spirit, of the Spirit World. Appears in Book One: Water and Book Two: Earth.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -4903,7 +4886,7 @@
    "wiki": "Ty Lee",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "stormlight",
      "story": "The Stormlight Archive",
@@ -4946,7 +4929,7 @@
    },
    "line": "Earthbender, Earth Kingdom, of Hakoda's forces. Appears in Book One: Water and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -4968,7 +4951,7 @@
    },
    "line": "Fire Nation. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -5013,7 +4996,7 @@
    "wiki": "Princess Ursa",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5046,7 +5029,7 @@
    },
    "line": "Soldier for hire, firebender, Fire Nation, of the Rough Rhinos. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5069,11 +5052,11 @@
    },
    "line": "Spirit. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
-     "name": "Grandmaster",
+     "name": "Kurse",
      "tied": 0
     }
    }
@@ -5097,7 +5080,7 @@
    },
    "line": "Fire Nation, of the Domestic Forces. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -5214,7 +5197,7 @@
    },
    "line": "Bounty hunter, earthbender, Earth Kingdom, of the Earth Rumble. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -5241,7 +5224,7 @@
    },
    "line": "Water Tribe, of the Northern Water Tribe. Appears in Book One: Water.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "witcher",
      "story": "The Witcher",
@@ -5268,7 +5251,7 @@
    "wiki": "Avatar Yangchen",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "sanguoyanyi",
      "story": "三國演義",
@@ -5304,7 +5287,7 @@
    },
    "line": "Mercenary, Fire Nation, of the Rough Rhinos. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -5326,11 +5309,11 @@
    },
    "line": "Earth Kingdom. Appears in Book Two: Earth and Book Three: Fire.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 5,
     "nearest": {
-     "world": "last-airbender",
-     "story": "Avatar: The Last Airbender",
-     "name": "Lily",
+     "world": "lotr",
+     "story": "The Lord of the Rings",
+     "name": "Bombadil",
      "tied": 0
     }
    }
@@ -5350,7 +5333,7 @@
    },
    "line": "Firebender, Fire Nation. Appears in Book Three: Fire.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "iliad",
      "story": "The Iliad",
@@ -5389,7 +5372,7 @@
    },
    "line": "Bounty hunter, earthbender, Earth Kingdom, of Gaoling. Appears in Book Two: Earth.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -5423,7 +5406,7 @@
    "wiki": "Princess Yue",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -5484,7 +5467,7 @@
    },
    "line": "Anthropology professor, Earth Kingdom, of Ba Sing Se University. Appears in all 3 seasons.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "lotr",
      "story": "The Lord of the Rings",
@@ -5505,7 +5488,7 @@
    },
    "line": "Earth Kingdom. Appears in Book One: Water.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -5539,7 +5522,7 @@
    "wiki": "Admiral Zhao",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 191,
+    "lookAlikes": 195,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -8562,50 +8545,6 @@
    "line": "They share the page only in Book Two: Earth."
   },
   "24-237": {
-   "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "first": "Book Two: Earth",
-    "unit": "season",
-    "corpusSize": 3
-   },
-   "line": "They share the page only in Book Two: Earth."
-  },
-  "25-92": {
-   "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "first": "Book Two: Earth",
-    "unit": "season",
-    "corpusSize": 3
-   },
-   "line": "They share the page only in Book Two: Earth."
-  },
-  "25-105": {
-   "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "first": "Book Two: Earth",
-    "unit": "season",
-    "corpusSize": 3
-   },
-   "line": "They share the page only in Book Two: Earth."
-  },
-  "25-142": {
-   "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "first": "Book Two: Earth",
-    "unit": "season",
-    "corpusSize": 3
-   },
-   "line": "They share the page only in Book Two: Earth."
-  },
-  "25-211": {
    "facts": {
     "books": [
      "Book Two: Earth"
@@ -12048,17 +11987,6 @@
    },
    "line": "They share the page only in Book One: Water."
   },
-  "92-105": {
-   "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "first": "Book Two: Earth",
-    "unit": "season",
-    "corpusSize": 3
-   },
-   "line": "They share the page only in Book Two: Earth."
-  },
   "92-134": {
    "facts": {
     "books": [
@@ -12075,28 +12003,6 @@
     }
    },
    "line": "They share the page only in Book Two: Earth. Both belong to the Rough Rhinos."
-  },
-  "92-142": {
-   "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "first": "Book Two: Earth",
-    "unit": "season",
-    "corpusSize": 3
-   },
-   "line": "They share the page only in Book Two: Earth."
-  },
-  "92-211": {
-   "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "first": "Book Two: Earth",
-    "unit": "season",
-    "corpusSize": 3
-   },
-   "line": "They share the page only in Book Two: Earth."
   },
   "92-243": {
    "facts": {
@@ -12985,27 +12891,15 @@
   "105-142": {
    "facts": {
     "books": [
-     "Book Two: Earth",
      "Book Three: Fire"
     ],
-    "first": "Book Two: Earth",
+    "first": "Book Three: Fire",
     "unit": "season",
     "corpusSize": 3
    },
-   "line": "They share the page in 2 seasons, first in Book Two: Earth."
+   "line": "They share the page only in Book Three: Fire."
   },
   "105-181": {
-   "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "first": "Book Two: Earth",
-    "unit": "season",
-    "corpusSize": 3
-   },
-   "line": "They share the page only in Book Two: Earth."
-  },
-  "105-211": {
    "facts": {
     "books": [
      "Book Two: Earth"
@@ -14425,17 +14319,6 @@
    "line": "They share the page only in Book One: Water."
   },
   "142-210": {
-   "facts": {
-    "books": [
-     "Book Two: Earth"
-    ],
-    "first": "Book Two: Earth",
-    "unit": "season",
-    "corpusSize": 3
-   },
-   "line": "They share the page only in Book Two: Earth."
-  },
-  "142-211": {
    "facts": {
     "books": [
      "Book Two: Earth"
@@ -16186,7 +16069,8 @@
    "license": "CC0-1.0",
    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
    "modifications": [
-    "Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page; no other Wikidata claims."
+    "Took the English Wikipedia sitelink of each item whose Fandom article ID (P6262) names a character's wiki page.",
+    "Where the item's English label is that character's name, took its gender when the wiki's infobox gives none; no other Wikidata claims."
    ]
   }
  ],

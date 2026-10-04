@@ -792,7 +792,7 @@
    "id": "shakespeare-measure-for-measure-p0000",
    "you": 0,
    "startRadius": 1,
-   "ease": 0.542
+   "ease": 0.54
   },
   {
    "id": "shakespeare-measure-for-measure-p0001",
@@ -816,13 +816,13 @@
    "id": "shakespeare-measure-for-measure-p0005",
    "you": 5,
    "startRadius": 1,
-   "ease": 0.56
+   "ease": 0.558
   },
   {
    "id": "shakespeare-measure-for-measure-p0006",
    "you": 6,
    "startRadius": 1,
-   "ease": 0.577
+   "ease": 0.575
   },
   {
    "id": "shakespeare-measure-for-measure-p0007",
@@ -846,25 +846,25 @@
    "id": "shakespeare-measure-for-measure-p0010",
    "you": 10,
    "startRadius": 1,
-   "ease": 0.373
+   "ease": 0.371
   },
   {
    "id": "shakespeare-measure-for-measure-p0011",
    "you": 11,
    "startRadius": 1,
-   "ease": 0.55
+   "ease": 0.548
   },
   {
    "id": "shakespeare-measure-for-measure-p0013",
    "you": 13,
    "startRadius": 1,
-   "ease": 0.373
+   "ease": 0.371
   },
   {
    "id": "shakespeare-measure-for-measure-p0014",
    "you": 14,
    "startRadius": 1,
-   "ease": 0.556
+   "ease": 0.554
   },
   {
    "id": "shakespeare-measure-for-measure-p0015",
@@ -876,13 +876,13 @@
    "id": "shakespeare-measure-for-measure-p0018",
    "you": 18,
    "startRadius": 1,
-   "ease": 0.686
+   "ease": 0.679
   },
   {
    "id": "shakespeare-measure-for-measure-p0019",
    "you": 19,
    "startRadius": 1,
-   "ease": 0.603
+   "ease": 0.601
   }
  ],
  "provenance": {

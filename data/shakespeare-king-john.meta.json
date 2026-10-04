@@ -20,7 +20,7 @@
    "wiki": "Arthur I of Brittany",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -43,7 +43,7 @@
    "wiki": "Leopold V, Duke of Austria",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -107,7 +107,7 @@
    "wiki": "Blanche of Castile",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -127,7 +127,7 @@
    },
    "line": "Citizen.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -150,7 +150,7 @@
    "wiki": "Walter III of Châtillon",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -174,7 +174,7 @@
    "wiki": "Constance of Brittany",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -198,7 +198,7 @@
    "wiki": "Louis VIII of France",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -221,7 +221,7 @@
    "wiki": "Geoffrey Fitz Peter, 1st Earl of Essex",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -242,7 +242,7 @@
    },
    "line": "Her servant.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -261,7 +261,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -280,7 +280,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -303,7 +303,7 @@
    "wiki": "Hubert de Burgh, Earl of Kent",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-the-merchant-of-venice",
      "story": "The Merchant of Venice",
@@ -327,7 +327,7 @@
    "wiki": "John, King of England",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 70,
+    "lookAlikes": 74,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -351,7 +351,7 @@
    "wiki": "Philip II of France",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -372,7 +372,7 @@
    },
    "line": "Lady.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -408,7 +408,7 @@
    "wiki": "Pandulf Verraccio",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -432,7 +432,7 @@
    "wiki": "William Marshal, 1st Earl of Pembroke",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-romeo-and-juliet",
      "story": "Romeo and Juliet",
@@ -488,7 +488,7 @@
    "wiki": "Eleanor of Aquitaine",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shakespeare-titus-andronicus",
      "story": "Titus Andronicus",
@@ -508,7 +508,7 @@
    },
    "line": "Her son by Sir Robert Faulconbridge.",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "shakespeare-king-john",
      "story": "King John",
@@ -531,7 +531,7 @@
    "wiki": "William Longespée, 3rd Earl of Salisbury",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",

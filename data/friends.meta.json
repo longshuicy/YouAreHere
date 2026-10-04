@@ -92,7 +92,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -183,7 +183,7 @@
    },
    "line": "Appears in Season 4 and Season 10.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -292,7 +292,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -413,7 +413,7 @@
    },
    "line": "Appears in Season 6.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -481,7 +481,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -519,7 +519,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -638,7 +638,7 @@
    },
    "line": "Appears in Season 9 and Season 10.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -689,7 +689,7 @@
    },
    "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -720,7 +720,7 @@
    },
    "line": "Appears in Season 3 and Season 4.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -779,7 +779,7 @@
    },
    "line": "Appears in Season 7.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -808,7 +808,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -847,7 +847,7 @@
    },
    "line": "Appears in Season 1 and Season 6.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1036,7 +1036,7 @@
    },
    "line": "Appears in Season 9 and Season 10.",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1165,7 +1165,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1281,7 +1281,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1439,11 +1439,11 @@
    },
    "line": "Appears in Season 7 and Season 8.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 12,
     "nearest": {
-     "world": "mmkg",
-     "story": "Musical Meetups",
-     "name": "Ira Gershwin",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Surak (Excalbian)",
      "tied": 0
     }
    }
@@ -1507,7 +1507,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 67,
+    "lookAlikes": 82,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -1639,7 +1639,7 @@
    },
    "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1727,7 +1727,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -1897,7 +1897,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -1982,7 +1982,7 @@
    },
    "line": "Of the United Kingdom. Appears in Season 4 and Season 5.",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2004,7 +2004,7 @@
    "wiki": "Emma Geller-Green",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2074,7 +2074,7 @@
    },
    "line": "Appears in Season 7 and Season 8.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2332,7 +2332,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2503,7 +2503,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -2620,7 +2620,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3082,7 +3082,7 @@
    },
    "line": "Appears in Season 6 and Season 8.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3202,7 +3202,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3266,7 +3266,7 @@
    "wiki": "Jill Green (Friends)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3286,7 +3286,7 @@
    },
    "line": "Appears in Season 3 and Season 4.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3417,7 +3417,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3499,7 +3499,7 @@
    },
    "line": "Appears in 5 seasons.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3569,7 +3569,7 @@
    },
    "line": "Appears in Season 4 and Season 7.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "shakespeare-much-ado-about-nothing",
      "story": "Much Ado About Nothing",
@@ -3589,7 +3589,7 @@
    },
    "line": "Appears in Season 5 and Season 8.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3678,7 +3678,7 @@
    },
    "line": "Appears in Season 5.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3889,7 +3889,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3940,7 +3940,7 @@
    },
    "line": "Appears in Season 1.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3960,7 +3960,7 @@
    },
    "line": "Appears in Season 1 and Season 6.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -3979,7 +3979,7 @@
    },
    "line": "Appears in Season 7.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4228,7 +4228,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4410,7 +4410,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4429,7 +4429,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4449,7 +4449,7 @@
    },
    "line": "Appears in Season 1 and Season 2.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4509,7 +4509,7 @@
    },
    "line": "Appears in Season 9.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4589,7 +4589,7 @@
    },
    "line": "Appears in Season 6.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4696,7 +4696,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4756,7 +4756,7 @@
    },
    "line": "Father of Ross and Monica. Appears in 9 seasons.",
    "signals": {
-    "lookAlikes": 0,
+    "lookAlikes": 1,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -4857,7 +4857,7 @@
    },
    "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4896,7 +4896,7 @@
    },
    "line": "Appears in Season 4 and Season 5.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -4981,7 +4981,7 @@
    },
    "line": "Appears in 4 seasons.",
    "signals": {
-    "lookAlikes": 13,
+    "lookAlikes": 15,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5364,7 +5364,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5383,7 +5383,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5402,7 +5402,7 @@
    },
    "line": "Appears in Season 10.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5453,7 +5453,7 @@
    },
    "line": "Appears in Season 1 and Season 6.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5472,7 +5472,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5520,7 +5520,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5641,7 +5641,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5849,7 +5849,7 @@
    "wiki": "Richard Burke (Friends)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 3,
+    "lookAlikes": 4,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5899,7 +5899,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -5958,7 +5958,7 @@
    },
    "line": "Appears in Season 1 and Season 8.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6040,7 +6040,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6299,7 +6299,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6318,7 +6318,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -6652,7 +6652,7 @@
    },
    "line": "Appears in Season 5 and Season 7.",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -6933,7 +6933,7 @@
    },
    "line": "Appears in Season 5 and Season 7.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7162,7 +7162,7 @@
    },
    "line": "Appears in Season 6.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7252,7 +7252,7 @@
    },
    "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7292,7 +7292,7 @@
    },
    "line": "Appears in Season 4 and Season 8.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7313,7 +7313,7 @@
    },
    "line": "Appears in 3 seasons.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7332,7 +7332,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7409,7 +7409,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7428,7 +7428,7 @@
    },
    "line": "Appears in Season 2.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7514,7 +7514,7 @@
    },
    "line": "Appears in Season 3.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",
@@ -7624,7 +7624,7 @@
    },
    "line": "Appears in Season 8.",
    "signals": {
-    "lookAlikes": 75,
+    "lookAlikes": 78,
     "nearest": {
      "world": "friends",
      "story": "Friends",

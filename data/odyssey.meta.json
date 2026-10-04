@@ -44,7 +44,7 @@
    "wiki": "Melanthius (Odyssey)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -112,7 +112,7 @@
    "wiki": "Helen of Troy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -239,7 +239,7 @@
    "wiki": "Circe",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 9,
+    "lookAlikes": 10,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -280,7 +280,7 @@
    "wiki": "Telemachus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -377,7 +377,7 @@
    },
    "line": "Of Dulichium. Appears in 4 books.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "hongloumeng",
      "story": "紅樓夢",
@@ -406,11 +406,11 @@
    "wiki": "Eurymachus (Odyssey)",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Penny",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Amanda Grayson",
      "tied": 0
     }
    }
@@ -452,7 +452,7 @@
    "wiki": "Zeus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -495,7 +495,7 @@
    "wiki": "Athena",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -554,7 +554,7 @@
    "wiki": "Hermes",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -602,7 +602,7 @@
    "wiki": "Odysseus",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 40,
     "nearest": {
      "world": "lesmiserables",
      "story": "Les Misérables",
@@ -680,7 +680,7 @@
    "wiki": "Alcinous",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 56,
+    "lookAlikes": 57,
     "nearest": {
      "world": "odyssey",
      "story": "The Odyssey",
@@ -710,7 +710,7 @@
    "wiki": "Antinous of Ithaca",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 23,
     "nearest": {
      "world": "asoiaf",
      "story": "A Song of Ice and Fire",

@@ -4,14 +4,14 @@ The first Cosmere world. No ready-made character network for the Stormlight Arch
 exists under a usable licence, so the graph is built here from the fan wiki's
 character articles by the shared Fandom engine, `pipeline/ingest/fandom.py`
 (`STORMLIGHT`). The same engine builds Harry Potter, The Witcher, Avatar: The Last
-Airbender and the Marvel Cinematic Universe; this file describes the method in
-full, and theirs describe only what differs.
+Airbender, the Marvel Cinematic Universe and Star Trek; this file describes the
+method in full, and theirs describe only what differs.
 
 | Part | Source | Terms |
 |---|---|---|
 | Character articles (wikitext) | [Stormlight Archive Wiki](https://stormlightarchive.fandom.com/wiki/Category:Characters), via the MediaWiki API | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ([Fandom licensing](https://www.fandom.com/licensing)) |
 | Reveal attributes (gender, rank or occupation, Radiant order, people, species, noble house) | The same articles' infoboxes | Facts; no licence |
-| Wikipedia links | Wikidata items carrying a Fandom article ID (P6262); none of this wiki's characters has an English article yet | CC0 |
+| Wikipedia links, and gender where the infobox has none | Wikidata items carrying a Fandom article ID (P6262), kept only when the item's label is the character's name; none of this wiki's characters has an English article yet | CC0 |
 
 ## Licence consequence
 

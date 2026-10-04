@@ -54,7 +54,7 @@
    },
    "line": "Soldier, of the Kingdom of Great Britain. Appears in Chapter 7 and Chapter 9.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -121,7 +121,7 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in 32 chapters.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -166,11 +166,11 @@
    },
    "line": "Soldier, of the Kingdom of Great Britain. Appears in 10 chapters.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
-     "world": "asoiaf",
-     "story": "A Song of Ice and Fire",
-     "name": "Rafford",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Curzon Dax",
      "tied": 0
     }
    }
@@ -201,7 +201,7 @@
    },
    "line": "Soldier, of the Kingdom of Great Britain. Appears in 11 chapters.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -296,7 +296,7 @@
    },
    "line": "Landowner. Appears in 9 chapters.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",
@@ -383,11 +383,11 @@
    "wiki": "Elizabeth Bennet",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 16,
+    "lookAlikes": 17,
     "nearest": {
-     "world": "shakespeare-english-histories",
-     "story": "The English Histories",
-     "name": "Sir John Falstaff",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "The Doctor",
      "tied": 0
     }
    }
@@ -501,7 +501,7 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in 55 chapters.",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -535,7 +535,7 @@
    },
    "line": "Servant. Appears in Chapter 37 and Chapter 46.",
    "signals": {
-    "lookAlikes": 45,
+    "lookAlikes": 48,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -597,7 +597,7 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in 39 chapters.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -666,7 +666,7 @@
    "wiki": "Lady Catherine de Bourgh",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -703,7 +703,7 @@
    },
    "line": "Aristocrat, of the Kingdom of Great Britain. Appears in 13 chapters.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -828,7 +828,7 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in 42 chapters.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -863,11 +863,11 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in 12 chapters.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
-     "world": "mcu",
-     "story": "The Marvel Cinematic Universe",
-     "name": "Daniel Drumm",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Gowron",
      "tied": 0
     }
    }
@@ -918,7 +918,7 @@
    },
    "line": "Pianist, of the Kingdom of Great Britain. Appears in 31 chapters.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -947,7 +947,7 @@
    },
    "line": "Granddaughter, of the Kingdom of Great Britain. Appears in 5 chapters.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-rome",
      "story": "Shakespeare's Rome",
@@ -1024,7 +1024,7 @@
    },
    "line": "Gentlewoman, of the Kingdom of Great Britain. Appears in 30 chapters.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1071,11 +1071,11 @@
    },
    "line": "Gentlewoman, of the Kingdom of Great Britain. Appears in 23 chapters.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
-     "world": "shuihuzhuan",
-     "story": "水滸傳",
-     "name": "梁中書",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Keiko O'Brien",
      "tied": 0
     }
    }
@@ -1214,7 +1214,7 @@
    "wiki": "Mr Bennet",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1282,11 +1282,11 @@
    "wiki": "Charles Bingley",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
-     "world": "pride",
-     "story": "Pride and Prejudice",
-     "name": "Mrs. Bennet",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Jadzia Dax",
      "tied": 0
     }
    }
@@ -1340,7 +1340,7 @@
    "wiki": "Mr William Collins",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1413,11 +1413,11 @@
    "wiki": "Mr. Darcy",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 35,
+    "lookAlikes": 40,
     "nearest": {
-     "world": "pride",
-     "story": "Pride and Prejudice",
-     "name": "Jane Bennet",
+     "world": "startrek",
+     "story": "Star Trek",
+     "name": "Chakotay",
      "tied": 0
     }
    }
@@ -1444,7 +1444,7 @@
    },
    "line": "Soldier, of the Kingdom of Great Britain. Appears in 7 chapters.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "starwars",
      "story": "Star Wars",
@@ -1493,7 +1493,7 @@
    },
    "line": "Businessman, of the Kingdom of Great Britain. Appears in 25 chapters.",
    "signals": {
-    "lookAlikes": 206,
+    "lookAlikes": 217,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1524,7 +1524,7 @@
    },
    "line": "Gentleman, of the Kingdom of Great Britain. Appears in 7 chapters.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 17,
     "nearest": {
      "world": "shakespeare-two-gentlemen-of-verona",
      "story": "Two Gentlemen of Verona",
@@ -1589,7 +1589,7 @@
    },
    "line": "Attorney, of the Kingdom of Great Britain. Appears in 11 chapters.",
    "signals": {
-    "lookAlikes": 102,
+    "lookAlikes": 110,
     "nearest": {
      "world": "harry-potter",
      "story": "Harry Potter",
@@ -1650,7 +1650,7 @@
    "wiki": "George Wickham",
    "wikiLang": "en",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1736,7 +1736,7 @@
    },
    "line": "Gentlewoman, of the Kingdom of Great Britain. Appears in 49 chapters.",
    "signals": {
-    "lookAlikes": 203,
+    "lookAlikes": 215,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1777,7 +1777,7 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in 6 chapters.",
    "signals": {
-    "lookAlikes": 112,
+    "lookAlikes": 116,
     "nearest": {
      "world": "shakespeare-loves-labors-lost",
      "story": "Love’s Labor’s Lost",
@@ -1821,7 +1821,7 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in 21 chapters.",
    "signals": {
-    "lookAlikes": 169,
+    "lookAlikes": 174,
     "nearest": {
      "world": "shakespeare-english-histories",
      "story": "The English Histories",
@@ -1848,7 +1848,7 @@
    },
    "line": "Housekeeper, of the Kingdom of Great Britain. Appears in 3 chapters.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1935,7 +1935,7 @@
    },
    "line": "Appears in 5 chapters.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -1958,7 +1958,7 @@
    },
    "line": "Housekeeper. Appears in 3 chapters.",
    "signals": {
-    "lookAlikes": 104,
+    "lookAlikes": 108,
     "nearest": {
      "world": "pride",
      "story": "Pride and Prejudice",
@@ -1998,7 +1998,7 @@
    },
    "line": "Of the Kingdom of Great Britain. Appears in 17 chapters.",
    "signals": {
-    "lookAlikes": 71,
+    "lookAlikes": 79,
     "nearest": {
      "world": "shuihuzhuan",
      "story": "水滸傳",
@@ -2025,7 +2025,7 @@
    },
    "line": "Housekeeper, of the Kingdom of Great Britain. Appears in 3 chapters.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "shakespeare-henry-viii",
      "story": "Henry VIII",
@@ -2203,7 +2203,7 @@
    },
    "line": "Aristocrat, of the Kingdom of Great Britain. Appears in 18 chapters.",
    "signals": {
-    "lookAlikes": 196,
+    "lookAlikes": 204,
     "nearest": {
      "world": "last-airbender",
      "story": "Avatar: The Last Airbender",
@@ -2289,7 +2289,7 @@
    },
    "line": "Steward. Appears in 6 chapters.",
    "signals": {
-    "lookAlikes": 77,
+    "lookAlikes": 78,
     "nearest": {
      "world": "mcu",
      "story": "The Marvel Cinematic Universe",

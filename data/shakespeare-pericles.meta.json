@@ -120,7 +120,7 @@
     "gender": "Male"
    },
    "signals": {
-    "lookAlikes": 22,
+    "lookAlikes": 25,
     "nearest": {
      "world": "shakespeare-pericles",
      "story": "Pericles",
@@ -153,7 +153,7 @@
    },
    "line": "Governor of Mytilene.",
    "signals": {
-    "lookAlikes": 14,
+    "lookAlikes": 20,
     "nearest": {
      "world": "shakespeare-pericles",
      "story": "Pericles",
@@ -186,7 +186,7 @@
    },
    "line": "Daughter of Pericles and Thaisa.",
    "signals": {
-    "lookAlikes": 107,
+    "lookAlikes": 114,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
@@ -229,7 +229,7 @@
    },
    "line": "Prince of Tyre.",
    "signals": {
-    "lookAlikes": 101,
+    "lookAlikes": 108,
     "nearest": {
      "world": "indiana-jones",
      "story": "Indiana Jones",
@@ -274,7 +274,7 @@
    },
    "line": "Princess of Pentapolis and wife to Pericles.",
    "signals": {
-    "lookAlikes": 37,
+    "lookAlikes": 45,
     "nearest": {
      "world": "civilwar",
      "story": "American Civil War",
