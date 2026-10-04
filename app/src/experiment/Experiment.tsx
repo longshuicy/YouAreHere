@@ -274,6 +274,8 @@ export function Experiment({ startFollowing = null }: { startFollowing?: FollowR
    * person it names rather than in a corner of the frame. */
   const pointerRef = useRef({ x: 0, y: 0 });
   const workerRef = useRef<Worker | null>(null);
+  /** The layout generation positions are accepted from. */
+  const layoutGenRef = useRef(0);
   const paramsRef = useRef(params);
   const runningRef = useRef(running);
   const speedRef = useRef(speed);
@@ -342,31 +344,48 @@ export function Experiment({ startFollowing = null }: { startFollowing?: FollowR
     const worker = new Worker(new URL('./layout.worker.ts', import.meta.url), { type: 'module' });
     workerRef.current = worker;
     worker.onmessage = (event: MessageEvent<FromWorker>) => {
-      if (event.data.type === 'pos') {
+      // A layout that was reset may still have positions from before the reset
+      // in flight, and they belong to the run that just ended.
+      if (event.data.type === 'pos' && event.data.gen === layoutGenRef.current) {
         posRef.current = { x: event.data.x, y: event.data.y };
         if (!scrubbingRef.current) viewPosRef.current = posRef.current;
       }
     };
-    const homes = worldHomes(world);
-    const init: ToWorker = {
-      type: 'init',
-      x: world.x0,
-      y: world.y0,
-      world: world.world,
-      homeX: homes.x,
-      homeY: homes.y,
-    };
-    // Copies, not transfers: `world` keeps its own starting coordinates so a
-    // reset can put every character back where the story left them.
-    worker.postMessage(init);
-    posRef.current = { x: Float32Array.from(world.x0), y: Float32Array.from(world.y0) };
-    viewPosRef.current = posRef.current;
     return () => {
       worker.postMessage({ type: 'stop' } satisfies ToWorker);
       worker.terminate();
       workerRef.current = null;
     };
   }, [world]);
+
+  /**
+   * Put every character back where the story left them.
+   *
+   * Every build does this, not only a change of worlds: a new run on the same
+   * worlds starts from the same initial condition, and leaving the layout where
+   * the last run ended made the new year zero look like the old year four
+   * hundred.
+   */
+  function resetLayout(w: MergedWorld) {
+    const worker = workerRef.current;
+    if (!worker) return;
+    const homes = worldHomes(w);
+    const gen = ++layoutGenRef.current;
+    // Copies, not transfers: `world` keeps its own starting coordinates so the
+    // next reset has them too.
+    worker.postMessage({
+      type: 'init',
+      gen,
+      x: w.x0,
+      y: w.y0,
+      world: w.world,
+      homeX: homes.x,
+      homeY: homes.y,
+    } satisfies ToWorker);
+    posRef.current = { x: Float32Array.from(w.x0), y: Float32Array.from(w.y0) };
+    viewPosRef.current = posRef.current;
+    scrubbingRef.current = false;
+  }
 
   /**
    * Hand the layout the current graph.
@@ -442,6 +461,7 @@ export function Experiment({ startFollowing = null }: { startFollowing?: FollowR
     historyRef.current = [];
     worldHistoryRef.current = world.worldIds.map(() => []);
     setFollow(keep);
+    resetLayout(world);
     sendLinks(true);
     if (posRef.current) capture(snapsRef.current, 0, posRef.current);
     readOff(state, world);
@@ -548,9 +568,14 @@ export function Experiment({ startFollowing = null }: { startFollowing?: FollowR
   const metrics = scrub !== null ? replayReading : live;
 
   const state = stateRef.current;
-  // Belt as well as braces: a render can land between the world changing and
-  // the effect above choosing a new character.
-  const you = follow !== null && state && follow < state.adj.length ? follow : null;
+  // A render lands between the world changing and the effect above choosing a
+  // new character, and in it `follow` is still an index into the old worlds —
+  // possibly in range, naming a stranger, possibly past the end of the new
+  // population.
+  const you =
+    follow !== null && state && builtRef.current?.world === world && follow < state.adj.length
+      ? follow
+      : null;
   /**
    * The graph the person's panel is read from.
    *
@@ -1048,7 +1073,7 @@ export function Experiment({ startFollowing = null }: { startFollowing?: FollowR
 
         {/* Beside whoever is under the pointer, which is where the board puts
             it: a card in the corner names somebody without saying which one. */}
-        {hover !== null && hover !== you && world && youAdj && hover < youAdj.length && (
+        {hover !== null && hover !== you && world && youAdj && hover < youAdj.length && hover < world.n && (
           <div
             className="xp-hover"
             style={{ left: pointerRef.current.x + 16, top: pointerRef.current.y + 14 }}

@@ -45,6 +45,9 @@ interface LLink extends SimulationLinkDatum<LNode> {
 export type ToWorker =
   | {
       type: 'init';
+      /** Echoed on every position message, so positions computed before a
+       * re-init can be told apart from the ones after it. */
+      gen: number;
       x: Float32Array;
       y: Float32Array;
       world: Int32Array;
@@ -58,8 +61,9 @@ export type ToWorker =
   | { type: 'kick'; alpha: number }
   | { type: 'stop' };
 
-export type FromWorker = { type: 'pos'; x: Float32Array; y: Float32Array };
+export type FromWorker = { type: 'pos'; gen: number; x: Float32Array; y: Float32Array };
 
+let gen = 0;
 let nodes: LNode[] = [];
 let sim: Simulation<LNode, LLink> | null = null;
 let link: ReturnType<typeof forceLink<LNode, LLink>> | null = null;
@@ -113,7 +117,7 @@ function loop() {
     x[i] = nodes[i].x ?? 0;
     y[i] = nodes[i].y ?? 0;
   }
-  (self as unknown as Worker).postMessage({ type: 'pos', x, y } satisfies FromWorker, [
+  (self as unknown as Worker).postMessage({ type: 'pos', gen, x, y } satisfies FromWorker, [
     x.buffer,
     y.buffer,
   ]);
@@ -131,6 +135,8 @@ self.onmessage = (event: MessageEvent<ToWorker>) => {
 
   if (msg.type === 'init') {
     if (timer !== null) clearTimeout(timer);
+    timer = null;
+    gen = msg.gen;
     const n = msg.x.length;
     nodes = Array.from({ length: n }, (_, i) => ({ i, x: msg.x[i], y: msg.y[i] }));
     link = forceLink<LNode, LLink>([])

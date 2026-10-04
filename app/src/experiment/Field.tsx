@@ -144,6 +144,15 @@ export function Field(props: FieldProps) {
     dirtyRef.current = true;
   }, [follow, highlight, tieView, refit, world]);
 
+  // Whoever was under the pointer was an index into the old population.
+  useEffect(() => {
+    hoverRef.current = null;
+    treeRef.current = null;
+    treeDirty.current = true;
+    onHover(null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [world]);
+
   // Pan and zoom, attached to the SVG sheet because it is the topmost surface.
   useEffect(() => {
     const svg = svgRef.current;
@@ -200,8 +209,10 @@ export function Field(props: FieldProps) {
   useEffect(() => {
     let raf = 0;
     const frame = () => {
-      draw();
+      // Scheduled before drawing: a frame that throws must not be the last one,
+      // or the picture freezes on whatever it last managed to draw.
       raf = requestAnimationFrame(frame);
+      draw();
     };
     raf = requestAnimationFrame(frame);
     return () => cancelAnimationFrame(raf);
@@ -374,7 +385,10 @@ export function Field(props: FieldProps) {
     // ── The SVG sheet ───────────────────────────────────────────────────────
     gRef.current?.setAttribute('transform', `matrix(${s} 0 0 ${s} ${ox} ${oy})`);
 
-    const followed = followRef.current;
+    // The props lag the population by a render when the worlds change; an index
+    // past the end of this one names nobody.
+    const inRange = (i: number | null) => (i !== null && i < n ? i : null);
+    const followed = inRange(followRef.current);
     followPathRef.current?.setAttribute('d', followed === null ? '' : tiePath(followed, pos, state));
     const ring = ringRef.current;
     if (ring) {
@@ -393,7 +407,7 @@ export function Field(props: FieldProps) {
         ring.setAttribute('r', String(r));
       }
     }
-    const hovered = hoverRef.current;
+    const hovered = inRange(hoverRef.current);
     litRef.current?.setAttribute(
       'd',
       hovered === null || hovered === followed ? '' : tiePath(hovered, pos, state),
