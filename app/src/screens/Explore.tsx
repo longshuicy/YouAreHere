@@ -1,9 +1,9 @@
-import type { ReactNode } from 'react';
 import { Stage } from '../render/Stage';
 import { Ledger } from '../render/Ledger';
-import { type StartLinks, CHROME_PADDING } from '../render/MarginLinks';
+import type { StartLinks } from '../render/MarginLinks';
 import { TopBar } from '../render/TopBar';
 import { PlayKey } from '../render/PlayKey';
+import { KnownLog } from '../render/KnownLog';
 import type { VisibleGraph } from '../graph/project';
 import type { LaidOutNode } from '../graph/layout';
 import type { Session } from '../engine/session';
@@ -69,130 +69,36 @@ export function Explore({
   // show until there is carried-over paper or a horizon count to act on.
   const hasBackground = graph.nodes.some((n) => n.faded || n.horizon) || graph.edges.some((e) => e.faded || e.horizon);
 
-  // The last name earned *in this round*.
-  //
-  // `session.known.named` is not that: inside a residence it opens already
-  // holding every name the map carries, so the latest entry in it is just as
-  // likely to be someone named three lives ago. Printing that under "what you
-  // know so far" told the player this round had found them, which it had not
-  // — and the carried names are already drawn on the diagram, where they
-  // belong. What is left is what this walk bought: a name in the session that
-  // the map did not already have.
-  //
-  // Yours is never one of these. It is not a tie of yours, and it arrives in
-  // `named` by being answered rather than by being bought.
-  let earnedName: string | null = null;
-  for (const [i, name] of session.known.named) {
-    if (i === session.you) continue;
-    if (residence?.named.has(i)) continue;
-    earnedName = name;
-  }
-
   return (
-    <div style={{ position: 'relative', height: '100dvh', overflow: 'hidden' }}>
-      {/* The diagram is the page, not a panel on it — but it stops short of
-          the bar. Run to the full height it put nodes and their names under
-          the ways on, where a tie crossing a link made both unreadable and
-          the link underneath could not be clicked anyway. `--chrome-band` is
-          the bar's own height, so the drawing ends exactly where the bar
-          does. */}
-      <div style={{ position: 'absolute', inset: 0, top: 'var(--chrome-band)' }}>
-        <Stage
-          graph={graph}
-          positions={positions}
-          session={session}
-          onExpand={onExpand}
-          onFacts={onFacts}
-          onName={onName}
-          onClaim={onClaim}
-          suggest={suggest}
-          hasFacts={hasFacts}
-          onOpenGuess={onOpenGuess}
-          factLines={factLines}
-          edgeLine={edgeLine}
-          hideBackground={session.hideBackground}
-        />
-      </div>
+    <div className="play-root">
+      {/* The wordmark and the ways on share the left, because they are the
+          same thing: who is speaking, and what you can do about it. The
+          corner on the right is Elsewhere, as on every other screen. */}
+      <TopBar startLinks={startLinks} onOpenKey={onOpenKey} onOpenLab={onOpenGallery} />
 
-      {/* Chrome floats over the paper and never takes a click the graph wants. */}
-      <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          padding: CHROME_PADDING,
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'space-between',
-          gap: 16,
-          pointerEvents: 'none',
-        }}
-      >
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
-          {/* The wordmark and the ways on share the left, because they are the
-              same thing: who is speaking, and what you can do about it. The
-              corner on the right is Elsewhere, as on every other screen. */}
-          <TopBar
-            inset={false}
-            startLinks={startLinks}
-            onOpenKey={onOpenKey}
-            onOpenLab={onOpenGallery}
-          />
-          <PlayKey />
-        </div>
-
-        <div
-          className="stack-sm"
-          style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 24 }}
-        >
-          {/* This corner is about *where* you are, and what the world has told
-              you so far. A panel rather than loose text: it sits over a drawing
-              now, and prose laid straight on a graph is unreadable the moment a
-              tie runs under it. */}
-          <div className="play-panel" style={{ width: 'min(560px, 100%)', gap: 14 }}>
-            {worldKnown ? (
-              <div>
-                <div style={{ fontSize: 'clamp(19px, 4.6vw, 30px)', lineHeight: 1.1 }}>{universeTitle}</div>
-                {worldBlurb && (
-                  <div style={{ fontSize: 'clamp(14px, 3.8vw, 17px)', color: 'var(--body)', marginTop: 8, lineHeight: 1.5 }}>
-                    {worldBlurb}
-                  </div>
-                )}
-              </div>
-            ) : (
-              <div style={{ fontSize: 'clamp(19px, 4.6vw, 30px)', lineHeight: 1.1 }}>
-                You don’t know where you are.
-              </div>
-            )}
-
-            {/* Everything the round has actually told you, kept where it was
-                told to you rather than scrolling away as the next thing is
-                bought. The free reading is always the first line: it is the
-                one the game gives without being asked. */}
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                gap: 6,
-                borderTop: '1px solid var(--rule)',
-                paddingTop: 12,
-              }}
-            >
-              <div className="annot" style={{ fontSize: 9, letterSpacing: '0.2em', color: 'var(--annotation)' }}>
-                What you know so far
-              </div>
-              <KnownRow label="Reading">{standing}</KnownRow>
-              {/* Said as something that happened, not as a standing fact: the
-                  row is a log of what this walk turned up, and `one of your
-                  ties is X` reads as a thing you have always known. */}
-              {earnedName && <KnownRow label="Name">You put a name to {earnedName}.</KnownRow>}
+      <div className="play-cols">
+        {/* The side column is about the round: where you are, what the world
+            has told you, what it has cost, and the ways it can end. Read top
+            to bottom. */}
+        <aside className="play-info">
+          {worldKnown ? (
+            <div>
+              <div className="play-side-title">{universeTitle}</div>
+              {worldBlurb && (
+                <div style={{ fontSize: 15, color: 'var(--body)', marginTop: 8, lineHeight: 1.5 }}>{worldBlurb}</div>
+              )}
             </div>
-          </div>
+          ) : (
+            <div className="play-side-title">You don’t know where you are.</div>
+          )}
 
-          {/* And this corner is about what it has cost, and the two ways the
-              round can end. The count was in the opposite corner from the
-              actions that move it; it is now the heading of the panel those
-              actions sit in. */}
-          <div className="play-panel foot-actions" style={{ width: 'min(360px, 100%)', gap: 12 }}>
+          {/* Everything the round has actually told you, kept where it was
+              told to you rather than scrolling away as the next thing is
+              bought. */}
+          <KnownLog graph={graph} session={session} standing={standing} />
+
+          {/* The tally heads the buttons that move it. */}
+          <div className="play-side-foot">
             <Ledger ledger={session.ledger} residence={residence} itemised variant="panel" />
 
             <button className="found-block" onClick={onOpenGuess}>
@@ -200,45 +106,61 @@ export function Explore({
               <span className="found-sub">Free · a wrong guess costs nothing</span>
             </button>
 
-            {/* Which boxes depends on what the round has left to offer: the
+            {/* Which of these depends on what the round has left to offer: the
                 world is only a question until it is answered, and there is
-                only carried paper to put away once some has been carried. They
-                are the same size and the same weight because they are the same
-                kind of thing — a bounded choice with a price on it, which is
-                what separates them from the free claim above. A box left on
-                its own takes the full width, so it does not read as half of a
-                missing pair. */}
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns:
-                  !worldKnown || hasBackground ? 'repeat(2, minmax(0, 1fr))' : 'minmax(0, 1fr)',
-                gap: 8,
-              }}
-            >
-              {!worldKnown && (
-                <button className="outline-button" onClick={onRevealStory}>
-                  Reveal world
-                  <span className="outline-button-sub">Costs {clues(COST.story)}</span>
-                </button>
-              )}
-              {hasBackground && (
-                <button className="outline-button" onClick={onToggleBackground}>
-                  {session.hideBackground ? 'Show background' : 'Hide background'}
-                  <span className="outline-button-sub">
-                    {session.ledger.declutters > 0 ? 'Already paid' : `Costs ${clues(COST.declutter)}`}
-                  </span>
-                </button>
-              )}
-              <button className="outline-button" onClick={onReveal}>
-                Reveal answer
-                <span className="outline-button-sub">Costs {clues(COST.answer)}</span>
+                only carried paper to put away once some has been carried.
+                Outlined rather than filled: a bounded choice with a price on
+                it, not the claim above them. */}
+            {/* Kept once the world is known, greyed out rather than removed:
+                a button that vanished moved everything above it, the claim
+                included, out from under the pointer. */}
+            <button className="outline-button priced" onClick={onRevealStory} disabled={worldKnown}>
+              Reveal world
+              <span className="outline-button-sub">
+                {!worldKnown ? `Costs ${clues(COST.story)}` : session.storyRevealed ? 'Already paid' : 'Already known'}
+              </span>
+            </button>
+            {hasBackground && (
+              <button className="outline-button priced" onClick={onToggleBackground}>
+                {session.hideBackground ? 'Show background' : 'Hide background'}
+                <span className="outline-button-sub">
+                  {session.ledger.declutters > 0 ? 'Already paid' : `Costs ${clues(COST.declutter)}`}
+                </span>
               </button>
-            </div>
+            )}
+            <button className="outline-button priced" onClick={onReveal}>
+              Reveal answer
+              <span className="outline-button-sub">Costs {clues(COST.answer)}</span>
+            </button>
+          </div>
+        </aside>
+
+        {/* The diagram takes the rest. It used to run under floating panels,
+            where a tie crossing a line of prose made both unreadable; now
+            nothing is laid over it but the key and the node menu. */}
+        <div className="play-stage">
+          <div style={{ position: 'absolute', inset: 0 }}>
+            <Stage
+              graph={graph}
+              positions={positions}
+              session={session}
+              onExpand={onExpand}
+              onFacts={onFacts}
+              onName={onName}
+              onClaim={onClaim}
+              suggest={suggest}
+              hasFacts={hasFacts}
+              onOpenGuess={onOpenGuess}
+              factLines={factLines}
+              edgeLine={edgeLine}
+              hideBackground={session.hideBackground}
+            />
+          </div>
+          <div className="play-stage-key">
+            <PlayKey />
           </div>
         </div>
       </div>
-
     </div>
   );
 }
@@ -247,30 +169,4 @@ export function Explore({
  *  is a literal in the table does not make the comparison look impossible. */
 function clues(n: number): string {
   return `${n} ${n === 1 ? 'clue' : 'clues'}`;
-}
-
-/** One thing the round has told you: what kind of knowing it was, and what it
- *  said. The label is a fixed column so the sentences line up as a list rather
- *  than a ragged paragraph. */
-function KnownRow({ label, children }: { label: string; children: ReactNode }) {
-  return (
-    <div style={{ display: 'flex', gap: 12, alignItems: 'baseline' }}>
-      <span
-        className="mono"
-        style={{
-          width: 64,
-          flexShrink: 0,
-          fontSize: 9,
-          letterSpacing: '0.16em',
-          textTransform: 'uppercase',
-          color: 'var(--accent)',
-        }}
-      >
-        {label}
-      </span>
-      <span style={{ fontSize: 'clamp(15px, 3.8vw, 18px)', fontStyle: 'italic', lineHeight: 1.35 }}>
-        {children}
-      </span>
-    </div>
-  );
 }

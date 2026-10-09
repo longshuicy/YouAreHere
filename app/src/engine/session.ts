@@ -99,6 +99,15 @@ export interface Known {
   /** Residence only: nodes already opened by earlier starts. What this start
    * opened is `expanded` minus these, which is what the stage keeps in full ink. */
   carried?: ReadonlySet<NodeIndex>;
+  /** Residence only: the names and refusals earlier starts left on
+   * the map, as they stood when this start woke. The residence itself cannot
+   * answer this — it is synced with this start's learning as it happens. */
+  inherited?: Inherited;
+}
+
+export interface Inherited {
+  named: ReadonlySet<NodeIndex>;
+  rejected: ReadonlyMap<NodeIndex, readonly string[]>;
 }
 
 /** Counts of actions taken, NOT clue totals. What each one costs lives in COST,

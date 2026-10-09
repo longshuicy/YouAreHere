@@ -814,6 +814,7 @@ export default function App() {
           positions={positions}
           session={session}
           loaded={loaded}
+          standing={standing}
           onGuess={(universeId, query, idx) => dispatch({ type: 'GUESS', universe: universeId, characterQuery: query, characterIndex: idx })}
           onCancel={() => dispatch({ type: 'CLOSE_GUESS' })}
           onOpenKey={openKey}

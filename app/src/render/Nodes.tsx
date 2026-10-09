@@ -120,6 +120,12 @@ export function Nodes({
               style={{ transition: 'r 250ms ease-out, opacity 300ms ease-out, stroke-width 300ms ease-out' }}
             />
 
+            {/* A reading bought: a dot of ink at the centre, so the paper says
+                whose facts are already in hand. Matches the mark in PlayKey. */}
+            {n.read && !n.isYou && (
+              <circle r={Math.max(1.6, r * 0.32)} fill="var(--body)" style={{ pointerEvents: 'none' }} />
+            )}
+
             {n.isYou && showYouCaption && (
               <g>
                 <line x1={0} y1={r + 3.5} x2={0} y2={r + 29} stroke="var(--accent)" strokeWidth={1} />

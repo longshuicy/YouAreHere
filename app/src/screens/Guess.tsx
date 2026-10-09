@@ -1,5 +1,6 @@
-import { useEffect, useMemo, useState, type InputHTMLAttributes, type ReactNode } from 'react';
+import { useEffect, useMemo, useState, type InputHTMLAttributes } from 'react';
 import { Stage } from '../render/Stage';
+import { KnownLog } from '../render/KnownLog';
 import { clueTotal } from '../render/Ledger';
 import { type StartLinks, CHROME_PADDING } from '../render/MarginLinks';
 import { TopBar } from '../render/TopBar';
@@ -16,6 +17,8 @@ interface Props {
   session: Session;
   /** Every story fetched so far, keyed by id. */
   loaded: Map<string, Universe>;
+  /** Your place in this world by number of ties, said in words. Free. */
+  standing: string;
   onGuess: (universeId: string, characterQuery: string, characterIndex: number | null) => void;
   onCancel: () => void;
   onOpenKey: () => void;
@@ -28,6 +31,7 @@ export function Guess({
   positions,
   session,
   loaded,
+  standing,
   onGuess,
   onCancel,
   onOpenKey,
@@ -105,11 +109,6 @@ export function Guess({
   const bearing = !last || last.characterCorrect || !last.storyCorrect ? null : bearingFor(last);
 
   const clues = clueTotal(session.ledger);
-
-  /** Your ties, counted off the graph. The opening ring is every one of them,
-   *  so this is a fact the player already has in front of them rather than
-   *  something the screen is giving away. */
-  const ties = graph.edges.filter((e) => e.source === session.you || e.target === session.you).length;
 
   /** The names you have earned, which are the names that cannot be yours. */
   const namedTies = [...session.known.named.entries()]
@@ -317,28 +316,7 @@ export function Guess({
             </button>
           </div>
 
-          {/* What the round has established, which is what a guess is reasoned
-              from. The named ties are here because they are the names ruled
-              out — the list and this line are the same fact twice. */}
-          <div className="guess-known">
-            <div className="annot" style={{ fontSize: 9, letterSpacing: '0.2em', color: 'var(--annotation)' }}>
-              What you know
-            </div>
-            <KnownRow label="Ties">{ties}</KnownRow>
-            {namedTies.length > 0 && (
-              <KnownRow label="Named">
-                {namedTies.join(' · ')}{' '}
-                {/* The whole point of the line: these are the names the
-                    round has ruled out. `none of them is not you` is what the
-                    two halves made when they were written as one — and the em
-                    dash in front of it was a second clause pretending to be an
-                    aside, when it is the sentence's own point. */}
-                <span style={{ color: 'var(--annotation)' }}>
-                  {namedTies.length === 1 ? 'they are not you' : 'none of them is you'}
-                </span>
-              </KnownRow>
-            )}
-          </div>
+          <KnownLog graph={graph} session={session} standing={standing} style={{ marginTop: 30 }} />
         </div>
 
         {/* The way out that costs, kept in the corner opposite the way out
@@ -394,27 +372,4 @@ export function GuessInput({
  *  is a literal in the table does not make the comparison look impossible. */
 function clueWord(n: number): string {
   return `${n} ${n === 1 ? 'clue' : 'clues'}`;
-}
-
-/** One thing the round has established: what kind of knowing, and what it
- *  says. The label is a fixed column so the lines read as a list. */
-function KnownRow({ label, children }: { label: string; children: ReactNode }) {
-  return (
-    <div style={{ display: 'flex', gap: 12, alignItems: 'baseline' }}>
-      <span
-        className="mono"
-        style={{
-          width: 70,
-          flexShrink: 0,
-          fontSize: 9,
-          letterSpacing: '0.14em',
-          textTransform: 'uppercase',
-          color: 'var(--accent)',
-        }}
-      >
-        {label}
-      </span>
-      <span style={{ fontSize: 17, lineHeight: 1.35 }}>{children}</span>
-    </div>
-  );
 }

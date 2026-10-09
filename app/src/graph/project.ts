@@ -35,6 +35,8 @@ export interface VisibleNode {
   /** True when the name was got right rather than bought. Drawn no differently;
    * carried so the reveal can count them. */
   recognised: boolean;
+  /** Their facts have been bought. */
+  read?: boolean;
   /** Names the player put to this node and was refused, newest last. */
   rejected: string[];
   /** True for a node that was just added by the most recent expand — used to
@@ -196,6 +198,7 @@ export function project(universe: Universe, known: Known, you: NodeIndex): Visib
       name: known.named.get(i) ?? null,
       monogram: known.named.has(i) ? null : (known.initials.get(i) ?? null),
       recognised: known.recognised.has(i),
+      read: known.facts.has(i),
       rejected: known.rejected.get(i) ?? [],
       hop: known.hop.get(i) ?? Infinity,
     });

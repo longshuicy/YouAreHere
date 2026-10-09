@@ -461,6 +461,10 @@ export function wakeInResidence(
     hop,
     parent,
     carried: new Set([...residence.expanded].filter((i) => i !== you)),
+    inherited: {
+      named: new Set(named.keys()),
+      rejected: new Map([...residence.rejected.entries()].map(([k, v]) => [k, [...v]])),
+    },
   };
 
   return {
@@ -682,6 +686,8 @@ interface StoredStart {
     hop: [NodeIndex, number][];
     parent: [NodeIndex, NodeIndex | null][];
     carried: NodeIndex[] | null;
+    /** Absent on a start saved before it was recorded. */
+    inherited?: { named: NodeIndex[]; rejected: [NodeIndex, string[]][] };
   };
 }
 
@@ -713,6 +719,12 @@ export function saveStart(session: Session | null): void {
         hop: [...k.hop.entries()],
         parent: [...k.parent.entries()],
         carried: k.carried ? [...k.carried] : null,
+        inherited: k.inherited
+          ? {
+              named: [...k.inherited.named],
+              rejected: [...k.inherited.rejected.entries()].map(([i, names]) => [i, [...names]]),
+            }
+          : undefined,
       },
     };
     localStorage.setItem(START_KEY, JSON.stringify(stored));
@@ -752,6 +764,12 @@ export function loadStart(universe: UniverseId): Session | null {
         hop: new Map(s.known.hop),
         parent: new Map(s.known.parent),
         carried: s.known.carried ? new Set(s.known.carried) : undefined,
+        inherited: s.known.inherited
+          ? {
+              named: new Set(s.known.inherited.named),
+              rejected: new Map(s.known.inherited.rejected),
+            }
+          : undefined,
       },
       // `declutters` defaults in for a start saved before the toggle existed.
       ledger: { declutters: 0, ...s.ledger },

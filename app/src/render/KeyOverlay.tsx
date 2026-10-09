@@ -126,16 +126,16 @@ export function KeyOverlay({ onClose, startLinks, onOpenLab }: Props) {
           </KeyGroup>
 
           <KeyGroup label="About the world">
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 8 }}>
-              <button className="outline-button">
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+              <button className="outline-button priced">
                 Reveal world
                 <span className="outline-button-sub">Costs {clues(COST.story)}</span>
               </button>
-              <button className="outline-button">
+              <button className="outline-button priced">
                 Show background
                 <span className="outline-button-sub">Costs {clues(COST.declutter)}</span>
               </button>
-              <button className="outline-button">
+              <button className="outline-button priced">
                 Reveal answer
                 <span className="outline-button-sub">Costs {clues(COST.answer)}</span>
               </button>
@@ -246,6 +246,12 @@ const LEGEND: Glyph[] = [
     nodes: [node(0, { expanded: true, monogram: { initial: 'L', length: 6 } })],
     edges: [tie(0, 1, 0.3)],
     at: { 0: [-16, -9], 1: [32, -9] },
+  },
+  {
+    text: 'A dot at the centre means you have read their facts.',
+    nodes: [node(0, { read: true, presence: 0.7 })],
+    edges: [],
+    at: { 0: [0, 0] },
   },
   {
     text: 'The red node is you.',

@@ -32,8 +32,8 @@ export function Ledger({
   itemised?: boolean;
   /** `margin` — a right-aligned column in the corner of a screen, which is
    *  what the guess screen wants. `panel` — the heading of the panel the
-   *  spending actions sit in, which is what the play screen wants: the label
-   *  on the left, the figure large on the right, over a rule. The count is the
+   *  spending actions sit in, which is what the play screen wants: what it was
+   *  spent on at the left, the figure large on the right, over a rule. The count is the
    *  heading of the thing that moves it rather than a readout in the opposite
    *  corner from it. */
   variant?: 'margin' | 'panel';
@@ -107,50 +107,55 @@ export function Ledger({
 
   if (variant === 'panel') {
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
         <div
           style={{
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'baseline',
             gap: 12,
-            borderBottom: '1px solid var(--rule)',
+            borderBottom: '1px solid var(--ink)',
             paddingBottom: 10,
           }}
         >
-          <span className="annot" style={{ fontSize: 9, letterSpacing: '0.2em', color: 'var(--annotation)' }}>
-            Information used
-          </span>
-          <span className="mono" style={{ fontSize: 11, letterSpacing: '0.12em', color: 'var(--ink)' }}>
+          {/* One line, not a column, and in the label's place: the breakdown
+              is a gloss on the figure beside it, and a stack of five put the
+              actions below out of reach on a short window. Until something
+              has been spent there is nothing to break down, and the line says
+              what the figure is instead. */}
+          {rows.length > 0 || bonus > 0 ? (
+            <div
+              ref={breakdownRef}
+              className="annot"
+              style={{ fontSize: 9, letterSpacing: '0.16em', lineHeight: 1.6, color: 'var(--annotation)' }}
+            >
+              {rows.map((r, i) => (
+                <span key={r.key} data-ledger-row={r.key}>
+                  {i > 0 ? ' · ' : ''}
+                  {r.text}
+                </span>
+              ))}
+              {bonus > 0 && (
+                <span className="ledger-credit" data-ledger-row="recognitions">
+                  {rows.length > 0 ? ' · ' : ''}-{bonus}
+                </span>
+              )}
+            </div>
+          ) : (
+            <span className="annot" style={{ fontSize: 9, letterSpacing: '0.2em', color: 'var(--annotation)' }}>
+              Information used
+            </span>
+          )}
+          <span
+            className="mono"
+            style={{ fontSize: 11, letterSpacing: '0.12em', color: 'var(--ink)', whiteSpace: 'nowrap' }}
+          >
             <span ref={countRef} style={{ fontSize: 24, letterSpacing: 0 }}>
               {clues}
             </span>{' '}
             {clues === 1 ? 'clue' : 'clues'}
           </span>
         </div>
-
-        {/* One line, not a column: in a panel the breakdown is a gloss on the
-            figure above it, and a stack of five put the actions below out of
-            reach on a short window. */}
-        {(rows.length > 0 || bonus > 0) && (
-          <div
-            ref={breakdownRef}
-            className="annot"
-            style={{ fontSize: 9, letterSpacing: '0.16em', color: 'var(--annotation)' }}
-          >
-            {rows.map((r, i) => (
-              <span key={r.key} data-ledger-row={r.key}>
-                {i > 0 ? ' · ' : ''}
-                {r.text}
-              </span>
-            ))}
-            {bonus > 0 && (
-              <span className="ledger-credit" data-ledger-row="recognitions">
-                {rows.length > 0 ? ' · ' : ''}-{bonus}
-              </span>
-            )}
-          </div>
-        )}
 
         {residence && residenceTotal(residence) > 0 && (
           <div className="annot" style={{ fontSize: 9, letterSpacing: '0.16em', color: 'var(--unknown)' }}>
